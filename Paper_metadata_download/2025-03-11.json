@@ -1,0 +1,496 @@
+[
+  {
+    "paper": {
+      "id": "2503.06680",
+      "authors": [
+        {
+          "_id": "67cf94d9f2b1fe815db6db40",
+          "name": "Wei Li",
+          "hidden": false
+        },
+        {
+          "_id": "67cf94d9f2b1fe815db6db41",
+          "user": {
+            "_id": "641a9a4b05290a135041a3ed",
+            "avatarUrl": "/avatars/95d66ac607973abe95bd3558c6c93739.svg",
+            "isPro": false,
+            "fullname": "Pluto",
+            "user": "CharonBony",
+            "type": "user"
+          },
+          "name": "Xin Zhang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-03-11T01:41:47.194Z",
+          "hidden": false
+        },
+        {
+          "_id": "67cf94d9f2b1fe815db6db42",
+          "name": "Zhongxin Guo",
+          "hidden": false
+        },
+        {
+          "_id": "67cf94d9f2b1fe815db6db43",
+          "name": "Shaoguang Mao",
+          "hidden": false
+        },
+        {
+          "_id": "67cf94d9f2b1fe815db6db44",
+          "name": "Wen Luo",
+          "hidden": false
+        },
+        {
+          "_id": "67cf94d9f2b1fe815db6db45",
+          "name": "Guangyue Peng",
+          "hidden": false
+        },
+        {
+          "_id": "67cf94d9f2b1fe815db6db46",
+          "name": "Yangyu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67cf94d9f2b1fe815db6db47",
+          "name": "Houfeng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67cf94d9f2b1fe815db6db48",
+          "name": "Scarlett Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-09T16:11:57.000Z",
+      "title": "FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation\n  for Feature Implementation",
+      "summary": "Implementing new features in repository-level codebases is a crucial\napplication of code generation models. However, current benchmarks lack a\ndedicated evaluation framework for this capability. To fill this gap, we\nintroduce FEA-Bench, a benchmark designed to assess the ability of large\nlanguage models (LLMs) to perform incremental development within code\nrepositories. We collect pull requests from 83 GitHub repositories and use\nrule-based and intent-based filtering to construct task instances focused on\nnew feature development. Each task instance containing code changes is paired\nwith relevant unit test files to ensure that the solution can be verified. The\nfeature implementation requires LLMs to simultaneously possess code completion\ncapabilities for new components and code editing abilities for other relevant\nparts in the code repository, providing a more comprehensive evaluation method\nof LLMs' automated software engineering capabilities. Experimental results show\nthat LLMs perform significantly worse in the FEA-Bench, highlighting\nconsiderable challenges in such repository-level incremental code development.",
+      "upvotes": 5,
+      "discussionId": "67cf94dbf2b1fe815db6db9e"
+    },
+    "publishedAt": "2025-03-09T12:11:57.000Z",
+    "title": "FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation\n  for Feature Implementation",
+    "summary": "Implementing new features in repository-level codebases is a crucial\napplication of code generation models. However, current benchmarks lack a\ndedicated evaluation framework for this capability. To fill this gap, we\nintroduce FEA-Bench, a benchmark designed to assess the ability of large\nlanguage models (LLMs) to perform incremental development within code\nrepositories. We collect pull requests from 83 GitHub repositories and use\nrule-based and intent-based filtering to construct task instances focused on\nnew feature development. Each task instance containing code changes is paired\nwith relevant unit test files to ensure that the solution can be verified. The\nfeature implementation requires LLMs to simultaneously possess code completion\ncapabilities for new components and code editing abilities for other relevant\nparts in the code repository, providing a more comprehensive evaluation method\nof LLMs' automated software engineering capabilities. Experimental results show\nthat LLMs perform significantly worse in the FEA-Bench, highlighting\nconsiderable challenges in such repository-level incremental code development.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.06680.png",
+    "numComments": 3,
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.07365",
+      "authors": [
+        {
+          "_id": "67cf9cd037bc7273882147a3",
+          "name": "Fanqing Meng",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147a4",
+          "name": "Lingxiao Du",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147a5",
+          "name": "Zongkai Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147a6",
+          "name": "Zhixiang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147a7",
+          "name": "Quanfeng Lu",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147a8",
+          "name": "Daocheng Fu",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147a9",
+          "name": "Botian Shi",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147aa",
+          "name": "Wenhai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147ab",
+          "name": "Junjun He",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147ac",
+          "name": "Kaipeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147ad",
+          "name": "Ping Luo",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147ae",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147af",
+          "name": "Qiaosheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67cf9cd037bc7273882147b0",
+          "name": "Wenqi Shao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-10T14:23:12.000Z",
+      "title": "MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale\n  Reinforcement Learning",
+      "summary": "We present MM-Eureka, a multimodal reasoning model that successfully extends\nlarge-scale rule-based reinforcement learning (RL) to multimodal reasoning.\nWhile rule-based RL has shown remarkable success in improving LLMs' reasoning\nabilities in text domains, its application to multimodal settings has remained\nchallenging. Our work reproduces key characteristics of text-based RL systems\nlike DeepSeek-R1 in the multimodal space, including steady increases in\naccuracy reward and response length, and the emergence of reflection behaviors.\nWe demonstrate that both instruction-tuned and pre-trained models can develop\nstrong multimodal reasoning capabilities through rule-based RL without\nsupervised fine-tuning, showing superior data efficiency compared to\nalternative approaches. We open-source our complete pipeline to foster further\nresearch in this area. We release all our codes, models, data, etc. at\nhttps://github.com/ModalMinds/MM-EUREKA",
+      "upvotes": 3,
+      "discussionId": "67cf9cd137bc7273882147e2"
+    },
+    "publishedAt": "2025-03-10T10:23:12.000Z",
+    "title": "MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale\n  Reinforcement Learning",
+    "summary": "We present MM-Eureka, a multimodal reasoning model that successfully extends\nlarge-scale rule-based reinforcement learning (RL) to multimodal reasoning.\nWhile rule-based RL has shown remarkable success in improving LLMs' reasoning\nabilities in text domains, its application to multimodal settings has remained\nchallenging. Our work reproduces key characteristics of text-based RL systems\nlike DeepSeek-R1 in the multimodal space, including steady increases in\naccuracy reward and response length, and the emergence of reflection behaviors.\nWe demonstrate that both instruction-tuned and pre-trained models can develop\nstrong multimodal reasoning capabilities through rule-based RL without\nsupervised fine-tuning, showing superior data efficiency compared to\nalternative approaches. We open-source our complete pipeline to foster further\nresearch in this area. We release all our codes, models, data, etc. at\nhttps://github.com/ModalMinds/MM-EUREKA",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.07365.png",
+    "numComments": 1,
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.07027",
+      "authors": [
+        {
+          "_id": "67cf98fd59dbba733d8c531e",
+          "name": "Yuxuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67cf98fd59dbba733d8c531f",
+          "name": "Yirui Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "67cf98fd59dbba733d8c5320",
+          "name": "Yiren Song",
+          "hidden": false
+        },
+        {
+          "_id": "67cf98fd59dbba733d8c5321",
+          "name": "Haofan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67cf98fd59dbba733d8c5322",
+          "name": "Jiaming Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-10T08:07:17.000Z",
+      "title": "EasyControl: Adding Efficient and Flexible Control for Diffusion\n  Transformer",
+      "summary": "Recent advancements in Unet-based diffusion models, such as ControlNet and\nIP-Adapter, have introduced effective spatial and subject control mechanisms.\nHowever, the DiT (Diffusion Transformer) architecture still struggles with\nefficient and flexible control. To tackle this issue, we propose EasyControl, a\nnovel framework designed to unify condition-guided diffusion transformers with\nhigh efficiency and flexibility. Our framework is built on three key\ninnovations. First, we introduce a lightweight Condition Injection LoRA Module.\nThis module processes conditional signals in isolation, acting as a\nplug-and-play solution. It avoids modifying the base model weights, ensuring\ncompatibility with customized models and enabling the flexible injection of\ndiverse conditions. Notably, this module also supports harmonious and robust\nzero-shot multi-condition generalization, even when trained only on\nsingle-condition data. Second, we propose a Position-Aware Training Paradigm.\nThis approach standardizes input conditions to fixed resolutions, allowing the\ngeneration of images with arbitrary aspect ratios and flexible resolutions. At\nthe same time, it optimizes computational efficiency, making the framework more\npractical for real-world applications. Third, we develop a Causal Attention\nMechanism combined with the KV Cache technique, adapted for conditional\ngeneration tasks. This innovation significantly reduces the latency of image\nsynthesis, improving the overall efficiency of the framework. Through extensive\nexperiments, we demonstrate that EasyControl achieves exceptional performance\nacross various application scenarios. These innovations collectively make our\nframework highly efficient, flexible, and suitable for a wide range of tasks.",
+      "upvotes": 3,
+      "discussionId": "67cf990359dbba733d8c545d",
+      "ai_keywords": [
+        "Unet-based diffusion models",
+        "ControlNet",
+        "IP-Adapter",
+        "DiT (Diffusion Transformer)",
+        "Condition Injection LoRA Module",
+        "Condition Injection",
+        "zero-shot multi-condition generalization",
+        "Position-Aware Training Paradigm",
+        "Position-Aware",
+        "Causal Attention Mechanism",
+        "KV Cache",
+        "conditional generation tasks",
+        "image synthesis"
+      ]
+    },
+    "publishedAt": "2025-03-10T04:07:17.000Z",
+    "title": "EasyControl: Adding Efficient and Flexible Control for Diffusion\n  Transformer",
+    "summary": "Recent advancements in Unet-based diffusion models, such as ControlNet and\nIP-Adapter, have introduced effective spatial and subject control mechanisms.\nHowever, the DiT (Diffusion Transformer) architecture still struggles with\nefficient and flexible control. To tackle this issue, we propose EasyControl, a\nnovel framework designed to unify condition-guided diffusion transformers with\nhigh efficiency and flexibility. Our framework is built on three key\ninnovations. First, we introduce a lightweight Condition Injection LoRA Module.\nThis module processes conditional signals in isolation, acting as a\nplug-and-play solution. It avoids modifying the base model weights, ensuring\ncompatibility with customized models and enabling the flexible injection of\ndiverse conditions. Notably, this module also supports harmonious and robust\nzero-shot multi-condition generalization, even when trained only on\nsingle-condition data. Second, we propose a Position-Aware Training Paradigm.\nThis approach standardizes input conditions to fixed resolutions, allowing the\ngeneration of images with arbitrary aspect ratios and flexible resolutions. At\nthe same time, it optimizes computational efficiency, making the framework more\npractical for real-world applications. Third, we develop a Causal Attention\nMechanism combined with the KV Cache technique, adapted for conditional\ngeneration tasks. This innovation significantly reduces the latency of image\nsynthesis, improving the overall efficiency of the framework. Through extensive\nexperiments, we demonstrate that EasyControl achieves exceptional performance\nacross various application scenarios. These innovations collectively make our\nframework highly efficient, flexible, and suitable for a wide range of tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.07027.png",
+    "numComments": 1,
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.06520",
+      "authors": [
+        {
+          "_id": "67cf990ca80a73999cc816c3",
+          "name": "Yuqi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67cf990ca80a73999cc816c4",
+          "name": "Bohao Peng",
+          "hidden": false
+        },
+        {
+          "_id": "67cf990ca80a73999cc816c5",
+          "name": "Zhisheng Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "67cf990ca80a73999cc816c6",
+          "name": "Zihao Yue",
+          "hidden": false
+        },
+        {
+          "_id": "67cf990ca80a73999cc816c7",
+          "name": "Fanbin Lu",
+          "hidden": false
+        },
+        {
+          "_id": "67cf990ca80a73999cc816c8",
+          "name": "Bei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "67cf990ca80a73999cc816c9",
+          "name": "Jiaya Jia",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-09T08:48:51.000Z",
+      "title": "Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive\n  Reinforcement",
+      "summary": "Traditional methods for reasoning segmentation rely on supervised fine-tuning\nwith categorical labels and simple descriptions, limiting its out-of-domain\ngeneralization and lacking explicit reasoning processes. To address these\nlimitations, we propose Seg-Zero, a novel framework that demonstrates\nremarkable generalizability and derives explicit chain-of-thought reasoning\nthrough cognitive reinforcement. Seg-Zero introduces a decoupled architecture\nconsisting of a reasoning model and a segmentation model. The reasoning model\ninterprets user intentions, generates explicit reasoning chains, and produces\npositional prompts, which are subsequently used by the segmentation model to\ngenerate precious pixel-level masks. We design a sophisticated reward mechanism\nthat integrates both format and accuracy rewards to effectively guide\noptimization directions. Trained exclusively via reinforcement learning with\nGRPO and without explicit reasoning data, Seg-Zero achieves robust zero-shot\ngeneralization and exhibits emergent test-time reasoning capabilities.\nExperiments show that Seg-Zero-7B achieves a zero-shot performance of 57.5 on\nthe ReasonSeg benchmark, surpassing the prior LISA-7B by 18\\%. This significant\nimprovement highlights Seg-Zero's ability to generalize across domains while\npresenting an explicit reasoning process. Code is available at\nhttps://github.com/dvlab-research/Seg-Zero.",
+      "upvotes": 2,
+      "discussionId": "67cf990da80a73999cc81723",
+      "ai_keywords": [
+        "Seg-Zero",
+        "decoupled architecture",
+        "reasoning model",
+        "segmentation model",
+        "positional prompts",
+        "pixel-level masks",
+        "cognitive reinforcement",
+        "reward mechanism",
+        "reinforcement learning",
+        "GRPO",
+        "zero-shot generalization",
+        "ReasonSeg benchmark",
+        "emergent test-time reasoning"
+      ]
+    },
+    "publishedAt": "2025-03-09T04:48:51.000Z",
+    "title": "Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive\n  Reinforcement",
+    "summary": "Traditional methods for reasoning segmentation rely on supervised fine-tuning\nwith categorical labels and simple descriptions, limiting its out-of-domain\ngeneralization and lacking explicit reasoning processes. To address these\nlimitations, we propose Seg-Zero, a novel framework that demonstrates\nremarkable generalizability and derives explicit chain-of-thought reasoning\nthrough cognitive reinforcement. Seg-Zero introduces a decoupled architecture\nconsisting of a reasoning model and a segmentation model. The reasoning model\ninterprets user intentions, generates explicit reasoning chains, and produces\npositional prompts, which are subsequently used by the segmentation model to\ngenerate precious pixel-level masks. We design a sophisticated reward mechanism\nthat integrates both format and accuracy rewards to effectively guide\noptimization directions. Trained exclusively via reinforcement learning with\nGRPO and without explicit reasoning data, Seg-Zero achieves robust zero-shot\ngeneralization and exhibits emergent test-time reasoning capabilities.\nExperiments show that Seg-Zero-7B achieves a zero-shot performance of 57.5 on\nthe ReasonSeg benchmark, surpassing the prior LISA-7B by 18\\%. This significant\nimprovement highlights Seg-Zero's ability to generalize across domains while\npresenting an explicit reasoning process. Code is available at\nhttps://github.com/dvlab-research/Seg-Zero.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.06520.png",
+    "numComments": 1,
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.03499",
+      "authors": [
+        {
+          "_id": "67cb02680a2a716f25805cb4",
+          "name": "Wonjun Kang",
+          "hidden": false
+        },
+        {
+          "_id": "67cb02680a2a716f25805cb5",
+          "name": "Kevin Galim",
+          "hidden": false
+        },
+        {
+          "_id": "67cb02680a2a716f25805cb6",
+          "name": "Yuchen Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "67cb02680a2a716f25805cb7",
+          "name": "Minjae Lee",
+          "hidden": false
+        },
+        {
+          "_id": "67cb02680a2a716f25805cb8",
+          "name": "Hyung Il Koo",
+          "hidden": false
+        },
+        {
+          "_id": "67cb02680a2a716f25805cb9",
+          "name": "Nam Ik Cho",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-05T13:44:42.000Z",
+      "title": "State-offset Tuning: State-based Parameter-Efficient Fine-Tuning for\n  State Space Models",
+      "summary": "State Space Models (SSMs) have emerged as efficient alternatives to\nTransformers, mitigating their quadratic computational cost. However, the\napplication of Parameter-Efficient Fine-Tuning (PEFT) methods to SSMs remains\nlargely unexplored. In particular, prompt-based methods like Prompt Tuning and\nPrefix-Tuning, which are widely used in Transformers, do not perform well on\nSSMs. To address this, we propose state-based methods as a superior alternative\nto prompt-based methods. This new family of methods naturally stems from the\narchitectural characteristics of SSMs. State-based methods adjust state-related\nfeatures directly instead of depending on external prompts. Furthermore, we\nintroduce a novel state-based PEFT method: State-offset Tuning. At every\ntimestep, our method directly affects the state at the current step, leading to\nmore effective adaptation. Through extensive experiments across diverse\ndatasets, we demonstrate the effectiveness of our method. Code is available at\nhttps://github.com/furiosa-ai/ssm-state-tuning.",
+      "upvotes": 2,
+      "discussionId": "67cb02690a2a716f25805cfd",
+      "githubRepo": "https://github.com/furiosa-ai/ssm-state-tuning",
+      "ai_keywords": [
+        "State Space Models (SSMs)",
+        "Parameter-Efficient Fine-Tuning (PEFT)",
+        "Prompt Tuning",
+        "Prefix-Tuning",
+        "State-based methods",
+        "State-offset Tuning",
+        "timesteps",
+        "state-related features",
+        "state-at-the-current-step"
+      ]
+    },
+    "publishedAt": "2025-03-05T08:44:42.000Z",
+    "title": "State-offset Tuning: State-based Parameter-Efficient Fine-Tuning for\n  State Space Models",
+    "summary": "State Space Models (SSMs) have emerged as efficient alternatives to\nTransformers, mitigating their quadratic computational cost. However, the\napplication of Parameter-Efficient Fine-Tuning (PEFT) methods to SSMs remains\nlargely unexplored. In particular, prompt-based methods like Prompt Tuning and\nPrefix-Tuning, which are widely used in Transformers, do not perform well on\nSSMs. To address this, we propose state-based methods as a superior alternative\nto prompt-based methods. This new family of methods naturally stems from the\narchitectural characteristics of SSMs. State-based methods adjust state-related\nfeatures directly instead of depending on external prompts. Furthermore, we\nintroduce a novel state-based PEFT method: State-offset Tuning. At every\ntimestep, our method directly affects the state at the current step, leading to\nmore effective adaptation. Through extensive experiments across diverse\ndatasets, we demonstrate the effectiveness of our method. Code is available at\nhttps://github.com/furiosa-ai/ssm-state-tuning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.03499.png",
+    "numComments": 1,
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.03511",
+      "authors": [
+        {
+          "_id": "67cd7ace999766d8cd73fb18",
+          "user": {
+            "_id": "6732f2c24c2f18a60e76b915",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6732f2c24c2f18a60e76b915/W6oozAjM-zu7E3SL9uQ97.jpeg",
+            "isPro": false,
+            "fullname": "Fan",
+            "user": "KianYale",
+            "type": "user"
+          },
+          "name": "Qingyu Fan",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-03-10T08:01:41.233Z",
+          "hidden": false
+        },
+        {
+          "_id": "67cd7ace999766d8cd73fb19",
+          "name": "Yinghao Cai",
+          "hidden": false
+        },
+        {
+          "_id": "67cd7ace999766d8cd73fb1a",
+          "name": "Chao Li",
+          "hidden": false
+        },
+        {
+          "_id": "67cd7ace999766d8cd73fb1b",
+          "name": "Wenzhe He",
+          "hidden": false
+        },
+        {
+          "_id": "67cd7ace999766d8cd73fb1c",
+          "name": "Xudong Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "67cd7ace999766d8cd73fb1d",
+          "name": "Tao Lu",
+          "hidden": false
+        },
+        {
+          "_id": "67cd7ace999766d8cd73fb1e",
+          "name": "Bin Liang",
+          "hidden": false
+        },
+        {
+          "_id": "67cd7ace999766d8cd73fb1f",
+          "name": "Shuo Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-05T13:57:37.000Z",
+      "title": "NeuGrasp: Generalizable Neural Surface Reconstruction with Background\n  Priors for Material-Agnostic Object Grasp Detection",
+      "summary": "Robotic grasping in scenes with transparent and specular objects presents\ngreat challenges for methods relying on accurate depth information. In this\npaper, we introduce NeuGrasp, a neural surface reconstruction method that\nleverages background priors for material-agnostic grasp detection. NeuGrasp\nintegrates transformers and global prior volumes to aggregate multi-view\nfeatures with spatial encoding, enabling robust surface reconstruction in\nnarrow and sparse viewing conditions. By focusing on foreground objects through\nresidual feature enhancement and refining spatial perception with an\noccupancy-prior volume, NeuGrasp excels in handling objects with transparent\nand specular surfaces. Extensive experiments in both simulated and real-world\nscenarios show that NeuGrasp outperforms state-of-the-art methods in grasping\nwhile maintaining comparable reconstruction quality. More details are available\nat https://neugrasp.github.io/.",
+      "upvotes": 0,
+      "discussionId": "67cd7ad0999766d8cd73fb77",
+      "ai_keywords": [
+        "neural surface reconstruction",
+        "background priors",
+        "material-agnostic grasp detection",
+        "transformers",
+        "global prior volumes",
+        "multi-view features",
+        "spatial encoding",
+        "narrow and sparse viewing conditions",
+        "residual feature enhancement",
+        "occupancy-prior volume",
+        "transparent objects",
+        "specular surfaces"
+      ]
+    },
+    "publishedAt": "2025-03-05T08:57:37.000Z",
+    "title": "NeuGrasp: Generalizable Neural Surface Reconstruction with Background\n  Priors for Material-Agnostic Object Grasp Detection",
+    "summary": "Robotic grasping in scenes with transparent and specular objects presents\ngreat challenges for methods relying on accurate depth information. In this\npaper, we introduce NeuGrasp, a neural surface reconstruction method that\nleverages background priors for material-agnostic grasp detection. NeuGrasp\nintegrates transformers and global prior volumes to aggregate multi-view\nfeatures with spatial encoding, enabling robust surface reconstruction in\nnarrow and sparse viewing conditions. By focusing on foreground objects through\nresidual feature enhancement and refining spatial perception with an\noccupancy-prior volume, NeuGrasp excels in handling objects with transparent\nand specular surfaces. Extensive experiments in both simulated and real-world\nscenarios show that NeuGrasp outperforms state-of-the-art methods in grasping\nwhile maintaining comparable reconstruction quality. More details are available\nat https://neugrasp.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.03511.png",
+    "numComments": 1,
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.02199",
+      "authors": [
+        {
+          "_id": "67c90dad6f3ef3c2c77689b0",
+          "name": "Ailin Deng",
+          "hidden": false
+        },
+        {
+          "_id": "67c90dad6f3ef3c2c77689b1",
+          "name": "Tri Cao",
+          "hidden": false
+        },
+        {
+          "_id": "67c90dad6f3ef3c2c77689b2",
+          "user": {
+            "_id": "67cbb6ea2cc05acaab023f75",
+            "avatarUrl": "/avatars/79272c8889a8c472cf75172ead72daea.svg",
+            "isPro": false,
+            "fullname": "Zhirui Chen",
+            "user": "ryanchen42",
+            "type": "user"
+          },
+          "name": "Zhirui Chen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-03-10T08:03:34.042Z",
+          "hidden": false
+        },
+        {
+          "_id": "67c90dad6f3ef3c2c77689b3",
+          "name": "Bryan Hooi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-04T02:21:07.000Z",
+      "title": "Words or Vision: Do Vision-Language Models Have Blind Faith in Text?",
+      "summary": "Vision-Language Models (VLMs) excel in integrating visual and textual\ninformation for vision-centric tasks, but their handling of inconsistencies\nbetween modalities is underexplored. We investigate VLMs' modality preferences\nwhen faced with visual data and varied textual inputs in vision-centered\nsettings. By introducing textual variations to four vision-centric tasks and\nevaluating ten Vision-Language Models (VLMs), we discover a ``blind faith\nin text'' phenomenon: VLMs disproportionately trust textual data over visual\ndata when inconsistencies arise, leading to significant performance drops under\ncorrupted text and raising safety concerns. We analyze factors influencing this\ntext bias, including instruction prompts, language model size, text relevance,\ntoken order, and the interplay between visual and textual certainty. While\ncertain factors, such as scaling up the language model size, slightly mitigate\ntext bias, others like token order can exacerbate it due to positional biases\ninherited from language models. To address this issue, we explore supervised\nfine-tuning with text augmentation and demonstrate its effectiveness in\nreducing text bias. Additionally, we provide a theoretical analysis suggesting\nthat the blind faith in text phenomenon may stem from an imbalance of pure text\nand multi-modal data during training. Our findings highlight the need for\nbalanced training and careful consideration of modality interactions in VLMs to\nenhance their robustness and reliability in handling multi-modal data\ninconsistencies.",
+      "upvotes": 0,
+      "discussionId": "67c90dae6f3ef3c2c77689ec",
+      "ai_keywords": [
+        "Vision-Language Models (VLMs)",
+        "blind faith in text",
+        "modality preferences",
+        "textual variations",
+        "vision-centric tasks",
+        "text bias",
+        "instruction prompts",
+        "language model size",
+        "token order",
+        "positional biases",
+        "multi-modal data",
+        "supervised fine-tuning",
+        "text augmentation",
+        "balanced training",
+        "modality interactions"
+      ]
+    },
+    "publishedAt": "2025-03-03T21:21:07.000Z",
+    "title": "Words or Vision: Do Vision-Language Models Have Blind Faith in Text?",
+    "summary": "Vision-Language Models (VLMs) excel in integrating visual and textual\ninformation for vision-centric tasks, but their handling of inconsistencies\nbetween modalities is underexplored. We investigate VLMs' modality preferences\nwhen faced with visual data and varied textual inputs in vision-centered\nsettings. By introducing textual variations to four vision-centric tasks and\nevaluating ten Vision-Language Models (VLMs), we discover a ``blind faith\nin text'' phenomenon: VLMs disproportionately trust textual data over visual\ndata when inconsistencies arise, leading to significant performance drops under\ncorrupted text and raising safety concerns. We analyze factors influencing this\ntext bias, including instruction prompts, language model size, text relevance,\ntoken order, and the interplay between visual and textual certainty. While\ncertain factors, such as scaling up the language model size, slightly mitigate\ntext bias, others like token order can exacerbate it due to positional biases\ninherited from language models. To address this issue, we explore supervised\nfine-tuning with text augmentation and demonstrate its effectiveness in\nreducing text bias. Additionally, we provide a theoretical analysis suggesting\nthat the blind faith in text phenomenon may stem from an imbalance of pure text\nand multi-modal data during training. Our findings highlight the need for\nbalanced training and careful consideration of modality interactions in VLMs to\nenhance their robustness and reliability in handling multi-modal data\ninconsistencies.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.02199.png",
+    "numComments": 1,
+    "isAuthorParticipating": true
+  }
+]
