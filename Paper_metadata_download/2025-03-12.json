@@ -1,0 +1,271 @@
+[
+  {
+    "paper": {
+      "id": "2503.07860",
+      "authors": [
+        {
+          "_id": "67d0e915d0038007e5a75178",
+          "name": "James Burgess",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e915d0038007e5a75179",
+          "name": "Xiaohan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e915d0038007e5a7517a",
+          "name": "Yuhui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e915d0038007e5a7517b",
+          "name": "Anita Rau",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e915d0038007e5a7517c",
+          "name": "Alejandro Lozano",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e915d0038007e5a7517d",
+          "name": "Lisa Dunlap",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e915d0038007e5a7517e",
+          "name": "Trevor Darrell",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e915d0038007e5a7517f",
+          "name": "Serena Yeung-Levy",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-10T21:18:32.000Z",
+      "title": "Video Action Differencing",
+      "summary": "How do two individuals differ when performing the same action? In this work,\nwe introduce Video Action Differencing (VidDiff), the novel task of identifying\nsubtle differences between videos of the same action, which has many\napplications, such as coaching and skill learning. To enable development on\nthis new task, we first create VidDiffBench, a benchmark dataset containing 549\nvideo pairs, with human annotations of 4,469 fine-grained action differences\nand 2,075 localization timestamps indicating where these differences occur. Our\nexperiments demonstrate that VidDiffBench poses a significant challenge for\nstate-of-the-art large multimodal models (LMMs), such as GPT-4o and Qwen2-VL.\nBy analyzing failure cases of LMMs on VidDiffBench, we highlight two key\nchallenges for this task: localizing relevant sub-actions over two videos and\nfine-grained frame comparison. To overcome these, we propose the VidDiff\nmethod, an agentic workflow that breaks the task into three stages: action\ndifference proposal, keyframe localization, and frame differencing, each stage\nutilizing specialized foundation models. To encourage future research in this\nnew task, we release the benchmark at\nhttps://huggingface.co/datasets/jmhb/VidDiffBench and code at\nhttp://jmhb0.github.io/viddiff.",
+      "upvotes": 3,
+      "discussionId": "67d0e917d0038007e5a751e9",
+      "projectPage": "https://jmhb0.github.io/viddiff/",
+      "githubRepo": "https://github.com/jmhb0/viddiff",
+      "ai_keywords": [
+        "Video Action Differencing (VidDiff)",
+        "VidDiffBench",
+        "multimodal models (LMMs)",
+        "GPT-4o",
+        "Qwen2-VL",
+        "action difference proposal",
+        "keyframe localization",
+        "frame differencing",
+        "agentic workflow",
+        "fine-grained action differences",
+        "localization timestamps"
+      ]
+    },
+    "publishedAt": "2025-03-10T17:18:32.000Z",
+    "title": "Video Action Differencing",
+    "summary": "How do two individuals differ when performing the same action? In this work,\nwe introduce Video Action Differencing (VidDiff), the novel task of identifying\nsubtle differences between videos of the same action, which has many\napplications, such as coaching and skill learning. To enable development on\nthis new task, we first create VidDiffBench, a benchmark dataset containing 549\nvideo pairs, with human annotations of 4,469 fine-grained action differences\nand 2,075 localization timestamps indicating where these differences occur. Our\nexperiments demonstrate that VidDiffBench poses a significant challenge for\nstate-of-the-art large multimodal models (LMMs), such as GPT-4o and Qwen2-VL.\nBy analyzing failure cases of LMMs on VidDiffBench, we highlight two key\nchallenges for this task: localizing relevant sub-actions over two videos and\nfine-grained frame comparison. To overcome these, we propose the VidDiff\nmethod, an agentic workflow that breaks the task into three stages: action\ndifference proposal, keyframe localization, and frame differencing, each stage\nutilizing specialized foundation models. To encourage future research in this\nnew task, we release the benchmark at\nhttps://huggingface.co/datasets/jmhb/VidDiffBench and code at\nhttp://jmhb0.github.io/viddiff.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.07860.png",
+    "numComments": 1,
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.07572",
+      "authors": [
+        {
+          "_id": "67d0e38171b6b577dbb8c72c",
+          "name": "Yuxiao Qu",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e38171b6b577dbb8c72d",
+          "name": "Matthew Y. R. Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e38171b6b577dbb8c72e",
+          "name": "Amrith Setlur",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e38171b6b577dbb8c72f",
+          "name": "Lewis Tunstall",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e38171b6b577dbb8c730",
+          "name": "Edward Emanuel Beeching",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e38171b6b577dbb8c731",
+          "name": "Ruslan Salakhutdinov",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e38171b6b577dbb8c732",
+          "name": "Aviral Kumar",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-10T17:40:43.000Z",
+      "title": "Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning",
+      "summary": "Training models to effectively use test-time compute is crucial for improving\nthe reasoning performance of LLMs. Current methods mostly do so via fine-tuning\non search traces or running RL with 0/1 outcome reward, but do these approaches\nefficiently utilize test-time compute? Would these approaches continue to scale\nas the budget improves? In this paper, we try to answer these questions. We\nformalize the problem of optimizing test-time compute as a meta-reinforcement\nlearning (RL) problem, which provides a principled perspective on spending\ntest-time compute. This perspective enables us to view the long output stream\nfrom the LLM as consisting of several episodes run at test time and leads us to\nuse a notion of cumulative regret over output tokens as a way to measure the\nefficacy of test-time compute. Akin to how RL algorithms can best tradeoff\nexploration and exploitation over training, minimizing cumulative regret would\nalso provide the best balance between exploration and exploitation in the token\nstream. While we show that state-of-the-art models do not minimize regret, one\ncan do so by maximizing a dense reward bonus in conjunction with the outcome\n0/1 reward RL. This bonus is the ''progress'' made by each subsequent block in\nthe output stream, quantified by the change in the likelihood of eventual\nsuccess. Using these insights, we develop Meta Reinforcement Fine-Tuning, or\nMRT, a new class of fine-tuning methods for optimizing test-time compute. MRT\nleads to a 2-3x relative gain in performance and roughly a 1.5x gain in token\nefficiency for math reasoning compared to outcome-reward RL.",
+      "upvotes": 3,
+      "discussionId": "67d0e38271b6b577dbb8c7b7",
+      "projectPage": "https://cohenqu.github.io/mrt.github.io/",
+      "ai_keywords": [
+        "meta-reinforcement learning (RL)",
+        "cumulative regret",
+        "token stream",
+        "exploration and exploitation",
+        "dense reward bonus",
+        "likelihood of eventual success",
+        "Meta Reinforcement Fine-Tuning (MRT)"
+      ]
+    },
+    "publishedAt": "2025-03-10T13:40:43.000Z",
+    "title": "Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning",
+    "summary": "Training models to effectively use test-time compute is crucial for improving\nthe reasoning performance of LLMs. Current methods mostly do so via fine-tuning\non search traces or running RL with 0/1 outcome reward, but do these approaches\nefficiently utilize test-time compute? Would these approaches continue to scale\nas the budget improves? In this paper, we try to answer these questions. We\nformalize the problem of optimizing test-time compute as a meta-reinforcement\nlearning (RL) problem, which provides a principled perspective on spending\ntest-time compute. This perspective enables us to view the long output stream\nfrom the LLM as consisting of several episodes run at test time and leads us to\nuse a notion of cumulative regret over output tokens as a way to measure the\nefficacy of test-time compute. Akin to how RL algorithms can best tradeoff\nexploration and exploitation over training, minimizing cumulative regret would\nalso provide the best balance between exploration and exploitation in the token\nstream. While we show that state-of-the-art models do not minimize regret, one\ncan do so by maximizing a dense reward bonus in conjunction with the outcome\n0/1 reward RL. This bonus is the ''progress'' made by each subsequent block in\nthe output stream, quantified by the change in the likelihood of eventual\nsuccess. Using these insights, we develop Meta Reinforcement Fine-Tuning, or\nMRT, a new class of fine-tuning methods for optimizing test-time compute. MRT\nleads to a 2-3x relative gain in performance and roughly a 1.5x gain in token\nefficiency for math reasoning compared to outcome-reward RL.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.07572.png",
+    "numComments": 1,
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.08605",
+      "authors": [
+        {
+          "_id": "67d0ed0877b0c8ac3f304ef1",
+          "name": "Subin Kim",
+          "hidden": false
+        },
+        {
+          "_id": "67d0ed0877b0c8ac3f304ef2",
+          "name": "Seoung Wug Oh",
+          "hidden": false
+        },
+        {
+          "_id": "67d0ed0877b0c8ac3f304ef3",
+          "name": "Jui-Hsien Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d0ed0877b0c8ac3f304ef4",
+          "name": "Joon-Young Lee",
+          "hidden": false
+        },
+        {
+          "_id": "67d0ed0877b0c8ac3f304ef5",
+          "name": "Jinwoo Shin",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-11T16:43:45.000Z",
+      "title": "Tuning-Free Multi-Event Long Video Generation via Synchronized Coupled\n  Sampling",
+      "summary": "While recent advancements in text-to-video diffusion models enable\nhigh-quality short video generation from a single prompt, generating real-world\nlong videos in a single pass remains challenging due to limited data and high\ncomputational costs. To address this, several works propose tuning-free\napproaches, i.e., extending existing models for long video generation,\nspecifically using multiple prompts to allow for dynamic and controlled content\nchanges. However, these methods primarily focus on ensuring smooth transitions\nbetween adjacent frames, often leading to content drift and a gradual loss of\nsemantic coherence over longer sequences. To tackle such an issue, we propose\nSynchronized Coupled Sampling (SynCoS), a novel inference framework that\nsynchronizes denoising paths across the entire video, ensuring long-range\nconsistency across both adjacent and distant frames. Our approach combines two\ncomplementary sampling strategies: reverse and optimization-based sampling,\nwhich ensure seamless local transitions and enforce global coherence,\nrespectively. However, directly alternating between these samplings misaligns\ndenoising trajectories, disrupting prompt guidance and introducing unintended\ncontent changes as they operate independently. To resolve this, SynCoS\nsynchronizes them through a grounded timestep and a fixed baseline noise,\nensuring fully coupled sampling with aligned denoising paths. Extensive\nexperiments show that SynCoS significantly improves multi-event long video\ngeneration, achieving smoother transitions and superior long-range coherence,\noutperforming previous approaches both quantitatively and qualitatively.",
+      "upvotes": 1,
+      "discussionId": "67d0ed0b77b0c8ac3f304f7c",
+      "projectPage": "https://syncos2025.github.io/",
+      "ai_keywords": [
+        "text-to-video diffusion models",
+        "high-quality short video generation",
+        "long video generation",
+        "tuning-free approaches",
+        "multiple prompts",
+        "dynamic content changes",
+        "smooth transitions",
+        "content drift",
+        "semantic coherence",
+        "Synchronized Coupled Sampling (SynCoS)",
+        "denoising paths",
+        "reverse sampling",
+        "optimization-based sampling",
+        "seamless local transitions",
+        "global coherence",
+        "grounded timestep",
+        "fixed baseline noise",
+        "multi-event long video generation",
+        "long-range consistency"
+      ]
+    },
+    "publishedAt": "2025-03-11T12:43:45.000Z",
+    "title": "Tuning-Free Multi-Event Long Video Generation via Synchronized Coupled\n  Sampling",
+    "summary": "While recent advancements in text-to-video diffusion models enable\nhigh-quality short video generation from a single prompt, generating real-world\nlong videos in a single pass remains challenging due to limited data and high\ncomputational costs. To address this, several works propose tuning-free\napproaches, i.e., extending existing models for long video generation,\nspecifically using multiple prompts to allow for dynamic and controlled content\nchanges. However, these methods primarily focus on ensuring smooth transitions\nbetween adjacent frames, often leading to content drift and a gradual loss of\nsemantic coherence over longer sequences. To tackle such an issue, we propose\nSynchronized Coupled Sampling (SynCoS), a novel inference framework that\nsynchronizes denoising paths across the entire video, ensuring long-range\nconsistency across both adjacent and distant frames. Our approach combines two\ncomplementary sampling strategies: reverse and optimization-based sampling,\nwhich ensure seamless local transitions and enforce global coherence,\nrespectively. However, directly alternating between these samplings misaligns\ndenoising trajectories, disrupting prompt guidance and introducing unintended\ncontent changes as they operate independently. To resolve this, SynCoS\nsynchronizes them through a grounded timestep and a fixed baseline noise,\nensuring fully coupled sampling with aligned denoising paths. Extensive\nexperiments show that SynCoS significantly improves multi-event long video\ngeneration, achieving smoother transitions and superior long-range coherence,\noutperforming previous approaches both quantitatively and qualitatively.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.08605.png",
+    "numComments": 1,
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.07639",
+      "authors": [
+        {
+          "_id": "67d0e3ede3afecf451915d0a",
+          "name": "Xingyi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e3ede3afecf451915d0b",
+          "name": "Constantin Venhoff",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e3ede3afecf451915d0c",
+          "name": "Ashkan Khakzar",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e3ede3afecf451915d0d",
+          "name": "Christian Schroeder de Witt",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e3ede3afecf451915d0e",
+          "name": "Puneet K. Dokania",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e3ede3afecf451915d0f",
+          "name": "Adel Bibi",
+          "hidden": false
+        },
+        {
+          "_id": "67d0e3ede3afecf451915d10",
+          "name": "Philip Torr",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-05T17:40:54.000Z",
+      "title": "Mixture of Experts Made Intrinsically Interpretable",
+      "summary": "Neurons in large language models often exhibit polysemanticity,\nsimultaneously encoding multiple unrelated concepts and obscuring\ninterpretability. Instead of relying on post-hoc methods, we present\nMoE-X, a Mixture-of-Experts (MoE) language model designed to be\nintrinsically interpretable. Our approach is motivated by the\nobservation that, in language models, wider networks with sparse activations\nare more likely to capture interpretable factors. However, directly training\nsuch large sparse networks is computationally prohibitive. MoE architectures\noffer a scalable alternative by activating only a subset of experts for any\ngiven input, inherently aligning with interpretability objectives. In MoE-X, we\nestablish this connection by rewriting the MoE layer as an equivalent sparse,\nlarge MLP. This approach enables efficient scaling of the hidden size while\nmaintaining sparsity. To further enhance interpretability, we enforce sparse\nactivation within each expert and redesign the routing mechanism to prioritize\nexperts with the highest activation sparsity. These designs ensure that only\nthe most salient features are routed and processed by the experts. We evaluate\nMoE-X on chess and natural language tasks, showing that it achieves performance\ncomparable to dense models while significantly improving interpretability.\nMoE-X achieves a perplexity better than GPT-2, with interpretability surpassing\neven sparse autoencoder (SAE)-based approaches.",
+      "upvotes": 1,
+      "discussionId": "67d0e3f0e3afecf451915dfa",
+      "ai_keywords": [
+        "polysemanticity",
+        "Mixture-of-Experts (MoE)",
+        "interpretable",
+        "sparse activations",
+        "sparsity",
+        "sparse networks",
+        "hidden size",
+        "sparse activation",
+        "routing mechanism",
+        "salient features",
+        "perplexity",
+        "GPT-2",
+        "sparse autoencoder (SAE)"
+      ]
+    },
+    "publishedAt": "2025-03-05T12:40:54.000Z",
+    "title": "Mixture of Experts Made Intrinsically Interpretable",
+    "summary": "Neurons in large language models often exhibit polysemanticity,\nsimultaneously encoding multiple unrelated concepts and obscuring\ninterpretability. Instead of relying on post-hoc methods, we present\nMoE-X, a Mixture-of-Experts (MoE) language model designed to be\nintrinsically interpretable. Our approach is motivated by the\nobservation that, in language models, wider networks with sparse activations\nare more likely to capture interpretable factors. However, directly training\nsuch large sparse networks is computationally prohibitive. MoE architectures\noffer a scalable alternative by activating only a subset of experts for any\ngiven input, inherently aligning with interpretability objectives. In MoE-X, we\nestablish this connection by rewriting the MoE layer as an equivalent sparse,\nlarge MLP. This approach enables efficient scaling of the hidden size while\nmaintaining sparsity. To further enhance interpretability, we enforce sparse\nactivation within each expert and redesign the routing mechanism to prioritize\nexperts with the highest activation sparsity. These designs ensure that only\nthe most salient features are routed and processed by the experts. We evaluate\nMoE-X on chess and natural language tasks, showing that it achieves performance\ncomparable to dense models while significantly improving interpretability.\nMoE-X achieves a perplexity better than GPT-2, with interpretability surpassing\neven sparse autoencoder (SAE)-based approaches.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.07639.png",
+    "numComments": 1,
+    "isAuthorParticipating": false
+  }
+]
