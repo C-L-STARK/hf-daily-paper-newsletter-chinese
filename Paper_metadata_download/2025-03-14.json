@@ -1,0 +1,119 @@
+[
+  {
+    "paper": {
+      "id": "2503.10072",
+      "authors": [
+        {
+          "_id": "67d390de29a092bdbb0a2aeb",
+          "user": {
+            "_id": "6331c3f618711776b468e9ec",
+            "avatarUrl": "/avatars/af2c4bba031e474bf4fd2ea19e415aaf.svg",
+            "isPro": false,
+            "fullname": "Mia Mohammad Imran",
+            "user": "imranraad",
+            "type": "user"
+          },
+          "name": "Mia Mohammad Imran",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-03-14T02:14:33.331Z",
+          "hidden": false
+        },
+        {
+          "_id": "67d390de29a092bdbb0a2aec",
+          "name": "Jaydeb Sarker",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-13T05:39:29.000Z",
+      "title": "\"Silent Is Not Actually Silent\": An Investigation of Toxicity on Bug\n  Report Discussion",
+      "summary": "Toxicity in bug report discussions poses significant challenges to the\ncollaborative dynamics of open-source software development. Bug reports are\ncrucial for identifying and resolving defects, yet their inherently\nproblem-focused nature and emotionally charged context make them susceptible to\ntoxic interactions. This study explores toxicity in GitHub bug reports through\na qualitative analysis of 203 bug threads, including 81 toxic ones. Our\nfindings reveal that toxicity frequently arises from misaligned perceptions of\nbug severity and priority, unresolved frustrations with tools, and lapses in\nprofessional communication. These toxic interactions not only derail productive\ndiscussions but also reduce the likelihood of actionable outcomes, such as\nlinking issues with pull requests. Our preliminary findings offer actionable\nrecommendations to improve bug resolution by mitigating toxicity.",
+      "upvotes": 1,
+      "discussionId": "67d390df29a092bdbb0a2b2d",
+      "projectPage": "https://zenodo.org/records/15015619"
+    },
+    "publishedAt": "2025-03-13T01:39:29.000Z",
+    "title": "\"Silent Is Not Actually Silent\": An Investigation of Toxicity on Bug\n  Report Discussion",
+    "summary": "Toxicity in bug report discussions poses significant challenges to the\ncollaborative dynamics of open-source software development. Bug reports are\ncrucial for identifying and resolving defects, yet their inherently\nproblem-focused nature and emotionally charged context make them susceptible to\ntoxic interactions. This study explores toxicity in GitHub bug reports through\na qualitative analysis of 203 bug threads, including 81 toxic ones. Our\nfindings reveal that toxicity frequently arises from misaligned perceptions of\nbug severity and priority, unresolved frustrations with tools, and lapses in\nprofessional communication. These toxic interactions not only derail productive\ndiscussions but also reduce the likelihood of actionable outcomes, such as\nlinking issues with pull requests. Our preliminary findings offer actionable\nrecommendations to improve bug resolution by mitigating toxicity.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.10072.png",
+    "numComments": 1,
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.10582",
+      "authors": [
+        {
+          "_id": "67d387ff45b17e31c16d05d1",
+          "name": "Yiming Jia",
+          "hidden": false
+        },
+        {
+          "_id": "67d387ff45b17e31c16d05d2",
+          "name": "Jiachen Li",
+          "hidden": false
+        },
+        {
+          "_id": "67d387ff45b17e31c16d05d3",
+          "name": "Xiang Yue",
+          "hidden": false
+        },
+        {
+          "_id": "67d387ff45b17e31c16d05d4",
+          "name": "Bo Li",
+          "hidden": false
+        },
+        {
+          "_id": "67d387ff45b17e31c16d05d5",
+          "name": "Ping Nie",
+          "hidden": false
+        },
+        {
+          "_id": "67d387ff45b17e31c16d05d6",
+          "name": "Kai Zou",
+          "hidden": false
+        },
+        {
+          "_id": "67d387ff45b17e31c16d05d7",
+          "user": {
+            "_id": "6313a86154e6e5d9f0f94e04",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1662232951344-6313a86154e6e5d9f0f94e04.jpeg",
+            "isPro": false,
+            "fullname": "Wenhu Chen",
+            "user": "wenhu",
+            "type": "user"
+          },
+          "name": "Wenhu Chen",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-03-14T01:36:13.720Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-13T17:32:48.000Z",
+      "title": "VisualWebInstruct: Scaling up Multimodal Instruction Data through Web\n  Search",
+      "summary": "Vision-Language Models have made significant progress on many\nperception-focused tasks, however, their progress on reasoning-focused tasks\nseem to be limited due to the lack of high-quality and diverse training data.\nIn this work, we aim to address the scarcity issue of reasoning-focused\nmultimodal datasets. We propose VisualWebInstruct - a novel approach that\nleverages search engine to create a diverse, and high-quality dataset spanning\nmultiple disciplines like math, physics, finance, chemistry, etc. Starting with\nmeticulously selected 30,000 seed images, we employ Google Image search to\nidentify websites containing similar images. We collect and process the HTMLs\nfrom over 700K unique URL sources. Through a pipeline of content extraction,\nfiltering and synthesis, we build a dataset of approximately 900K\nquestion-answer pairs, with 40% being visual QA pairs and the rest as text QA\npairs. Models fine-tuned on VisualWebInstruct demonstrate significant\nperformance gains: (1) training from Llava-OV-mid shows 10-20% absolute point\ngains across benchmarks, (2) training from MAmmoTH-VL shows 5% absoluate gain.\nOur best model MAmmoTH-VL2 shows state-of-the-art performance within the 10B\nparameter class on MMMU-Pro-std (40.7%), MathVerse (42.6%), and DynaMath\n(55.7%). These remarkable results highlight the effectiveness of our dataset in\nenhancing VLMs' reasoning capabilities for complex multimodal tasks.",
+      "upvotes": 0,
+      "discussionId": "67d3880d45b17e31c16d09d1",
+      "ai_keywords": [
+        "Vision-Language Models",
+        "VisualWebInstruct",
+        "search engine",
+        "question-answer pairs",
+        "visual QA pairs",
+        "text QA pairs",
+        "fine-tuned",
+        "Llava-OV-mid",
+        "MAmmoTH-VL",
+        "MAmmoTH-VL2",
+        "MMMU-Pro-std",
+        "MathVerse",
+        "DynaMath"
+      ]
+    },
+    "publishedAt": "2025-03-13T13:32:48.000Z",
+    "title": "VisualWebInstruct: Scaling up Multimodal Instruction Data through Web\n  Search",
+    "summary": "Vision-Language Models have made significant progress on many\nperception-focused tasks, however, their progress on reasoning-focused tasks\nseem to be limited due to the lack of high-quality and diverse training data.\nIn this work, we aim to address the scarcity issue of reasoning-focused\nmultimodal datasets. We propose VisualWebInstruct - a novel approach that\nleverages search engine to create a diverse, and high-quality dataset spanning\nmultiple disciplines like math, physics, finance, chemistry, etc. Starting with\nmeticulously selected 30,000 seed images, we employ Google Image search to\nidentify websites containing similar images. We collect and process the HTMLs\nfrom over 700K unique URL sources. Through a pipeline of content extraction,\nfiltering and synthesis, we build a dataset of approximately 900K\nquestion-answer pairs, with 40% being visual QA pairs and the rest as text QA\npairs. Models fine-tuned on VisualWebInstruct demonstrate significant\nperformance gains: (1) training from Llava-OV-mid shows 10-20% absolute point\ngains across benchmarks, (2) training from MAmmoTH-VL shows 5% absoluate gain.\nOur best model MAmmoTH-VL2 shows state-of-the-art performance within the 10B\nparameter class on MMMU-Pro-std (40.7%), MathVerse (42.6%), and DynaMath\n(55.7%). These remarkable results highlight the effectiveness of our dataset in\nenhancing VLMs' reasoning capabilities for complex multimodal tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.10582.png",
+    "numComments": 1,
+    "isAuthorParticipating": true
+  }
+]
