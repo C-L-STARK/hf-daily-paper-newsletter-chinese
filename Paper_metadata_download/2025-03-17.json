@@ -1,0 +1,416 @@
+[
+  {
+    "paper": {
+      "id": "2503.07677",
+      "authors": [
+        {
+          "_id": "67d2ca0767366130cccad93d",
+          "user": {
+            "_id": "63973ee44e7b4959dc98028f",
+            "avatarUrl": "/avatars/2e166fee60844729479bfa4291796c8a.svg",
+            "isPro": false,
+            "fullname": "Kwanyoung",
+            "user": "kwanyoung",
+            "type": "user"
+          },
+          "name": "Kwanyoung Kim",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-03-14T08:58:03.528Z",
+          "hidden": false
+        },
+        {
+          "_id": "67d2ca0767366130cccad93e",
+          "name": "Byeongsu Sim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-10T07:23:19.000Z",
+      "submittedOnDailyAt": "2025-03-17T00:44:05.364Z",
+      "title": "PLADIS: Pushing the Limits of Attention in Diffusion Models at Inference\n  Time by Leveraging Sparsity",
+      "submittedOnDailyBy": {
+        "_id": "63973ee44e7b4959dc98028f",
+        "avatarUrl": "/avatars/2e166fee60844729479bfa4291796c8a.svg",
+        "isPro": false,
+        "fullname": "Kwanyoung",
+        "user": "kwanyoung",
+        "type": "user"
+      },
+      "summary": "Diffusion models have shown impressive results in generating high-quality\nconditional samples using guidance techniques such as Classifier-Free Guidance\n(CFG). However, existing methods often require additional training or neural\nfunction evaluations (NFEs), making them incompatible with guidance-distilled\nmodels. Also, they rely on heuristic approaches that need identifying target\nlayers. In this work, we propose a novel and efficient method, termed PLADIS,\nwhich boosts pre-trained models (U-Net/Transformer) by leveraging sparse\nattention. Specifically, we extrapolate query-key correlations using softmax\nand its sparse counterpart in the cross-attention layer during inference,\nwithout requiring extra training or NFEs. By leveraging the noise robustness of\nsparse attention, our PLADIS unleashes the latent potential of text-to-image\ndiffusion models, enabling them to excel in areas where they once struggled\nwith newfound effectiveness. It integrates seamlessly with guidance techniques,\nincluding guidance-distilled models. Extensive experiments show notable\nimprovements in text alignment and human preference, offering a highly\nefficient and universally applicable solution.",
+      "upvotes": 7,
+      "discussionId": "67d2ca0b67366130cccada34",
+      "ai_keywords": [
+        "diffusion models",
+        "Classifier-Free Guidance (CFG)",
+        "neural function evaluations (NFEs)",
+        "guidance-distilled models",
+        "PLADIS",
+        "pre-trained models (U-Net/Transformer)",
+        "sparse attention",
+        "query-key correlations",
+        "softmax",
+        "cross-attention layer",
+        "noise robustness",
+        "text-to-image diffusion models",
+        "text alignment",
+        "human preference"
+      ]
+    },
+    "publishedAt": "2025-03-10T03:23:19.000Z",
+    "title": "PLADIS: Pushing the Limits of Attention in Diffusion Models at Inference\n  Time by Leveraging Sparsity",
+    "summary": "Diffusion models have shown impressive results in generating high-quality\nconditional samples using guidance techniques such as Classifier-Free Guidance\n(CFG). However, existing methods often require additional training or neural\nfunction evaluations (NFEs), making them incompatible with guidance-distilled\nmodels. Also, they rely on heuristic approaches that need identifying target\nlayers. In this work, we propose a novel and efficient method, termed PLADIS,\nwhich boosts pre-trained models (U-Net/Transformer) by leveraging sparse\nattention. Specifically, we extrapolate query-key correlations using softmax\nand its sparse counterpart in the cross-attention layer during inference,\nwithout requiring extra training or NFEs. By leveraging the noise robustness of\nsparse attention, our PLADIS unleashes the latent potential of text-to-image\ndiffusion models, enabling them to excel in areas where they once struggled\nwith newfound effectiveness. It integrates seamlessly with guidance techniques,\nincluding guidance-distilled models. Extensive experiments show notable\nimprovements in text alignment and human preference, offering a highly\nefficient and universally applicable solution.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.07677.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63973ee44e7b4959dc98028f",
+      "avatarUrl": "/avatars/2e166fee60844729479bfa4291796c8a.svg",
+      "fullname": "Kwanyoung",
+      "name": "kwanyoung",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.11514",
+      "authors": [
+        {
+          "_id": "67d778325121a10e6fc650b3",
+          "name": "Pengxin Guo",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650b4",
+          "name": "Runxi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650b5",
+          "name": "Shuang Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650b6",
+          "name": "Jinjing Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650b7",
+          "name": "Haoning Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650b8",
+          "name": "Yanran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650b9",
+          "name": "Yuyin Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650ba",
+          "name": "Feifei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650bb",
+          "name": "Hui Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "67d778325121a10e6fc650bc",
+          "name": "Liangqiong Qu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-13T08:08:44.000Z",
+      "submittedOnDailyAt": "2025-03-17T00:38:48.278Z",
+      "title": "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into\n  Gradient Inversion Attacks",
+      "submittedOnDailyBy": {
+        "_id": "668f440894dfc0ed1a7006ed",
+        "avatarUrl": "/avatars/fa0d328300b03bcbbf9b3a7532f28458.svg",
+        "isPro": false,
+        "fullname": "Pengxin Guo",
+        "user": "gpx333",
+        "type": "user"
+      },
+      "summary": "Federated Learning (FL) has emerged as a promising privacy-preserving\ncollaborative model training paradigm without sharing raw data. However, recent\nstudies have revealed that private information can still be leaked through\nshared gradient information and attacked by Gradient Inversion Attacks (GIA).\nWhile many GIA methods have been proposed, a detailed analysis, evaluation, and\nsummary of these methods are still lacking. Although various survey papers\nsummarize existing privacy attacks in FL, few studies have conducted extensive\nexperiments to unveil the effectiveness of GIA and their associated limiting\nfactors in this context. To fill this gap, we first undertake a systematic\nreview of GIA and categorize existing methods into three types, i.e.,\noptimization-based GIA (OP-GIA), generation-based GIA\n(GEN-GIA), and analytics-based GIA (ANA-GIA). Then, we comprehensively\nanalyze and evaluate the three types of GIA in FL, providing insights into the\nfactors that influence their performance, practicality, and potential threats.\nOur findings indicate that OP-GIA is the most practical attack setting despite\nits unsatisfactory performance, while GEN-GIA has many dependencies and ANA-GIA\nis easily detectable, making them both impractical. Finally, we offer a\nthree-stage defense pipeline to users when designing FL frameworks and\nprotocols for better privacy protection and share some future research\ndirections from the perspectives of attackers and defenders that we believe\nshould be pursued. We hope that our study can help researchers design more\nrobust FL frameworks to defend against these attacks.",
+      "upvotes": 4,
+      "discussionId": "67d778395121a10e6fc652eb",
+      "ai_keywords": [
+        "Gradient Inversion Attacks (GIA)",
+        "optimization-based GIA (OP-GIA)",
+        "generation-based GIA (GEN-GIA)",
+        "analytics-based GIA (ANA-GIA)"
+      ]
+    },
+    "publishedAt": "2025-03-13T04:08:44.000Z",
+    "title": "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into\n  Gradient Inversion Attacks",
+    "summary": "Federated Learning (FL) has emerged as a promising privacy-preserving\ncollaborative model training paradigm without sharing raw data. However, recent\nstudies have revealed that private information can still be leaked through\nshared gradient information and attacked by Gradient Inversion Attacks (GIA).\nWhile many GIA methods have been proposed, a detailed analysis, evaluation, and\nsummary of these methods are still lacking. Although various survey papers\nsummarize existing privacy attacks in FL, few studies have conducted extensive\nexperiments to unveil the effectiveness of GIA and their associated limiting\nfactors in this context. To fill this gap, we first undertake a systematic\nreview of GIA and categorize existing methods into three types, i.e.,\noptimization-based GIA (OP-GIA), generation-based GIA\n(GEN-GIA), and analytics-based GIA (ANA-GIA). Then, we comprehensively\nanalyze and evaluate the three types of GIA in FL, providing insights into the\nfactors that influence their performance, practicality, and potential threats.\nOur findings indicate that OP-GIA is the most practical attack setting despite\nits unsatisfactory performance, while GEN-GIA has many dependencies and ANA-GIA\nis easily detectable, making them both impractical. Finally, we offer a\nthree-stage defense pipeline to users when designing FL frameworks and\nprotocols for better privacy protection and share some future research\ndirections from the perspectives of attackers and defenders that we believe\nshould be pursued. We hope that our study can help researchers design more\nrobust FL frameworks to defend against these attacks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.11514.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "668f440894dfc0ed1a7006ed",
+      "avatarUrl": "/avatars/fa0d328300b03bcbbf9b3a7532f28458.svg",
+      "fullname": "Pengxin Guo",
+      "name": "gpx333",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.11647",
+      "authors": [
+        {
+          "_id": "67d785fa473d4edd330edee1",
+          "name": "Jianhong Bai",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edee2",
+          "name": "Menghan Xia",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edee3",
+          "name": "Xiao Fu",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edee4",
+          "name": "Xintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edee5",
+          "name": "Lianrui Mu",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edee6",
+          "name": "Jinwen Cao",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edee7",
+          "name": "Zuozhu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edee8",
+          "name": "Haoji Hu",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edee9",
+          "name": "Xiang Bai",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edeea",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "67d785fa473d4edd330edeeb",
+          "name": "Di Zhang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6530bf50f145530101ec03a2/RzQL-WqDDCxBy_j4rJuMl.mp4"
+      ],
+      "publishedAt": "2025-03-14T17:59:31.000Z",
+      "submittedOnDailyAt": "2025-03-17T00:50:10.251Z",
+      "title": "ReCamMaster: Camera-Controlled Generative Rendering from A Single Video",
+      "submittedOnDailyBy": {
+        "_id": "6530bf50f145530101ec03a2",
+        "avatarUrl": "/avatars/c61c00c314cf202b64968e51e855694d.svg",
+        "isPro": false,
+        "fullname": "Jianhong Bai",
+        "user": "jianhongbai",
+        "type": "user"
+      },
+      "summary": "Camera control has been actively studied in text or image conditioned video\ngeneration tasks. However, altering camera trajectories of a given video\nremains under-explored, despite its importance in the field of video creation.\nIt is non-trivial due to the extra constraints of maintaining multiple-frame\nappearance and dynamic synchronization. To address this, we present\nReCamMaster, a camera-controlled generative video re-rendering framework that\nreproduces the dynamic scene of an input video at novel camera trajectories.\nThe core innovation lies in harnessing the generative capabilities of\npre-trained text-to-video models through a simple yet powerful video\nconditioning mechanism -- its capability often overlooked in current research.\nTo overcome the scarcity of qualified training data, we construct a\ncomprehensive multi-camera synchronized video dataset using Unreal Engine 5,\nwhich is carefully curated to follow real-world filming characteristics,\ncovering diverse scenes and camera movements. It helps the model generalize to\nin-the-wild videos. Lastly, we further improve the robustness to diverse inputs\nthrough a meticulously designed training strategy. Extensive experiments tell\nthat our method substantially outperforms existing state-of-the-art approaches\nand strong baselines. Our method also finds promising applications in video\nstabilization, super-resolution, and outpainting. Project page:\nhttps://jianhongbai.github.io/ReCamMaster/",
+      "upvotes": 1,
+      "discussionId": "67d785fb473d4edd330edf77"
+    },
+    "publishedAt": "2025-03-14T13:59:31.000Z",
+    "title": "ReCamMaster: Camera-Controlled Generative Rendering from A Single Video",
+    "summary": "Camera control has been actively studied in text or image conditioned video\ngeneration tasks. However, altering camera trajectories of a given video\nremains under-explored, despite its importance in the field of video creation.\nIt is non-trivial due to the extra constraints of maintaining multiple-frame\nappearance and dynamic synchronization. To address this, we present\nReCamMaster, a camera-controlled generative video re-rendering framework that\nreproduces the dynamic scene of an input video at novel camera trajectories.\nThe core innovation lies in harnessing the generative capabilities of\npre-trained text-to-video models through a simple yet powerful video\nconditioning mechanism -- its capability often overlooked in current research.\nTo overcome the scarcity of qualified training data, we construct a\ncomprehensive multi-camera synchronized video dataset using Unreal Engine 5,\nwhich is carefully curated to follow real-world filming characteristics,\ncovering diverse scenes and camera movements. It helps the model generalize to\nin-the-wild videos. Lastly, we further improve the robustness to diverse inputs\nthrough a meticulously designed training strategy. Extensive experiments tell\nthat our method substantially outperforms existing state-of-the-art approaches\nand strong baselines. Our method also finds promising applications in video\nstabilization, super-resolution, and outpainting. Project page:\nhttps://jianhongbai.github.io/ReCamMaster/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6530bf50f145530101ec03a2/RzQL-WqDDCxBy_j4rJuMl.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.11647.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6530bf50f145530101ec03a2",
+      "avatarUrl": "/avatars/c61c00c314cf202b64968e51e855694d.svg",
+      "fullname": "Jianhong Bai",
+      "name": "jianhongbai",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.11069",
+      "authors": [
+        {
+          "_id": "67d785458678eaf139e3c594",
+          "name": "Chaoyun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67d785458678eaf139e3c595",
+          "name": "Shilin He",
+          "hidden": false
+        },
+        {
+          "_id": "67d785458678eaf139e3c596",
+          "name": "Liqun Li",
+          "hidden": false
+        },
+        {
+          "_id": "67d785458678eaf139e3c597",
+          "name": "Si Qin",
+          "hidden": false
+        },
+        {
+          "_id": "67d785458678eaf139e3c598",
+          "name": "Yu Kang",
+          "hidden": false
+        },
+        {
+          "_id": "67d785458678eaf139e3c599",
+          "name": "Qingwei Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67d785458678eaf139e3c59a",
+          "name": "Dongmei Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-14T04:26:21.000Z",
+      "submittedOnDailyAt": "2025-03-17T00:43:33.225Z",
+      "title": "API Agents vs. GUI Agents: Divergence and Convergence",
+      "submittedOnDailyBy": {
+        "_id": "654dbac9938fbf1e696be8aa",
+        "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+        "isPro": false,
+        "fullname": "Chaoyun Zhang",
+        "user": "vyokky",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have evolved beyond simple text generation to\npower software agents that directly translate natural language commands into\ntangible actions. While API-based LLM agents initially rose to prominence for\ntheir robust automation capabilities and seamless integration with programmatic\nendpoints, recent progress in multimodal LLM research has enabled GUI-based LLM\nagents that interact with graphical user interfaces in a human-like manner.\nAlthough these two paradigms share the goal of enabling LLM-driven task\nautomation, they diverge significantly in architectural complexity, development\nworkflows, and user interaction models.\n  This paper presents the first comprehensive comparative study of API-based\nand GUI-based LLM agents, systematically analyzing their divergence and\npotential convergence. We examine key dimensions and highlight scenarios in\nwhich hybrid approaches can harness their complementary strengths. By proposing\nclear decision criteria and illustrating practical use cases, we aim to guide\npractitioners and researchers in selecting, combining, or transitioning between\nthese paradigms. Ultimately, we indicate that continuing innovations in\nLLM-based automation are poised to blur the lines between API- and GUI-driven\nagents, paving the way for more flexible, adaptive solutions in a wide range of\nreal-world applications.",
+      "upvotes": 1,
+      "discussionId": "67d785468678eaf139e3c5ee"
+    },
+    "publishedAt": "2025-03-14T00:26:21.000Z",
+    "title": "API Agents vs. GUI Agents: Divergence and Convergence",
+    "summary": "Large language models (LLMs) have evolved beyond simple text generation to\npower software agents that directly translate natural language commands into\ntangible actions. While API-based LLM agents initially rose to prominence for\ntheir robust automation capabilities and seamless integration with programmatic\nendpoints, recent progress in multimodal LLM research has enabled GUI-based LLM\nagents that interact with graphical user interfaces in a human-like manner.\nAlthough these two paradigms share the goal of enabling LLM-driven task\nautomation, they diverge significantly in architectural complexity, development\nworkflows, and user interaction models.\n  This paper presents the first comprehensive comparative study of API-based\nand GUI-based LLM agents, systematically analyzing their divergence and\npotential convergence. We examine key dimensions and highlight scenarios in\nwhich hybrid approaches can harness their complementary strengths. By proposing\nclear decision criteria and illustrating practical use cases, we aim to guide\npractitioners and researchers in selecting, combining, or transitioning between\nthese paradigms. Ultimately, we indicate that continuing innovations in\nLLM-based automation are poised to blur the lines between API- and GUI-driven\nagents, paving the way for more flexible, adaptive solutions in a wide range of\nreal-world applications.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.11069.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "654dbac9938fbf1e696be8aa",
+      "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+      "fullname": "Chaoyun Zhang",
+      "name": "vyokky",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.09279",
+      "authors": [
+        {
+          "_id": "67d2bd340860f2d7ff10e3dc",
+          "name": "Luozheng Qin",
+          "hidden": false
+        },
+        {
+          "_id": "67d2bd340860f2d7ff10e3dd",
+          "name": "Zhiyu Tan",
+          "hidden": false
+        },
+        {
+          "_id": "67d2bd340860f2d7ff10e3de",
+          "name": "Mengping Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67d2bd340860f2d7ff10e3df",
+          "name": "Xiaomeng Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67d2bd340860f2d7ff10e3e0",
+          "name": "Hao Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-12T11:25:04.000Z",
+      "submittedOnDailyAt": "2025-03-17T00:46:46.368Z",
+      "title": "Cockatiel: Ensembling Synthetic and Human Preferenced Training for\n  Detailed Video Caption",
+      "submittedOnDailyBy": {
+        "_id": "66a9b3533d417b0baa9220a6",
+        "avatarUrl": "/avatars/adc372bd24df1d3bf43258833411e8af.svg",
+        "isPro": false,
+        "fullname": "Luozheng Qin",
+        "user": "Fr0zencr4nE",
+        "type": "user"
+      },
+      "summary": "Video Detailed Captioning (VDC) is a crucial task for vision-language\nbridging, enabling fine-grained descriptions of complex video content. In this\npaper, we first comprehensively benchmark current state-of-the-art approaches\nand systematically identified two critical limitations: biased capability\ntowards specific captioning aspect and misalignment with human preferences. To\naddress these deficiencies, we propose Cockatiel, a novel three-stage training\npipeline that ensembles synthetic and human-aligned training for improving VDC\nperformance. In the first stage, we derive a scorer from a meticulously\nannotated dataset to select synthetic captions high-performing on certain\nfine-grained video-caption alignment and human-preferred while disregarding\nothers. Then, we train Cockatiel-13B, using this curated dataset to infuse it\nwith assembled model strengths and human preferences. Finally, we further\ndistill Cockatiel-8B from Cockatiel-13B for the ease of usage. Extensive\nquantitative and qualitative experiments reflect the effectiveness of our\nmethod, as we not only set new state-of-the-art performance on VDCSCORE in a\ndimension-balanced way but also surpass leading alternatives on human\npreference by a large margin as depicted by the human evaluation results.",
+      "upvotes": 1,
+      "discussionId": "67d2bd370860f2d7ff10e4da",
+      "ai_keywords": [
+        "Cockatiel",
+        "three-stage training pipeline",
+        "synthetic and human-aligned training",
+        "fine-grained video-caption alignment",
+        "scorer",
+        "meticulously annotated dataset",
+        "curated dataset",
+        "assembled model strengths",
+        "human preferences",
+        "VDCSCORE",
+        "dimension-balanced way",
+        "human evaluation results"
+      ]
+    },
+    "publishedAt": "2025-03-12T07:25:04.000Z",
+    "title": "Cockatiel: Ensembling Synthetic and Human Preferenced Training for\n  Detailed Video Caption",
+    "summary": "Video Detailed Captioning (VDC) is a crucial task for vision-language\nbridging, enabling fine-grained descriptions of complex video content. In this\npaper, we first comprehensively benchmark current state-of-the-art approaches\nand systematically identified two critical limitations: biased capability\ntowards specific captioning aspect and misalignment with human preferences. To\naddress these deficiencies, we propose Cockatiel, a novel three-stage training\npipeline that ensembles synthetic and human-aligned training for improving VDC\nperformance. In the first stage, we derive a scorer from a meticulously\nannotated dataset to select synthetic captions high-performing on certain\nfine-grained video-caption alignment and human-preferred while disregarding\nothers. Then, we train Cockatiel-13B, using this curated dataset to infuse it\nwith assembled model strengths and human preferences. Finally, we further\ndistill Cockatiel-8B from Cockatiel-13B for the ease of usage. Extensive\nquantitative and qualitative experiments reflect the effectiveness of our\nmethod, as we not only set new state-of-the-art performance on VDCSCORE in a\ndimension-balanced way but also surpass leading alternatives on human\npreference by a large margin as depicted by the human evaluation results.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.09279.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66a9b3533d417b0baa9220a6",
+      "avatarUrl": "/avatars/adc372bd24df1d3bf43258833411e8af.svg",
+      "fullname": "Luozheng Qin",
+      "name": "Fr0zencr4nE",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
