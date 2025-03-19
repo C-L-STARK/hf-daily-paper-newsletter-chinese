@@ -1,0 +1,798 @@
+[
+  {
+    "paper": {
+      "id": "2503.13424",
+      "authors": [
+        {
+          "_id": "67da22b75fe852c86d3c419b",
+          "name": "Xinyu Lian",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c419c",
+          "name": "Zichao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c419d",
+          "name": "Ruiming Liang",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c419e",
+          "name": "Yitong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c419f",
+          "name": "Li Ray Luo",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c41a0",
+          "name": "Kaixu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c41a1",
+          "name": "Yuanzhen Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c41a2",
+          "name": "Qihong Tang",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c41a3",
+          "name": "Xudong Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c41a4",
+          "name": "Zhaoyang Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c41a5",
+          "name": "Bo Dai",
+          "hidden": false
+        },
+        {
+          "_id": "67da22b75fe852c86d3c41a6",
+          "name": "Jiangmiao Pang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/63f2ec797ddf724fbcc75aee/7Is4N1AFDor-EuzkZEiui.mp4"
+      ],
+      "publishedAt": "2025-03-17T17:53:56.000Z",
+      "submittedOnDailyAt": "2025-03-19T00:24:14.520Z",
+      "title": "Infinite Mobility: Scalable High-Fidelity Synthesis of Articulated\n  Objects via Procedural Generation",
+      "submittedOnDailyBy": {
+        "_id": "63f2ec797ddf724fbcc75aee",
+        "avatarUrl": "/avatars/e93432ad11da703d46fe5e594d69f8c0.svg",
+        "isPro": false,
+        "fullname": "Zhaoyang Lyu",
+        "user": "ZhaoyangLyu",
+        "type": "user"
+      },
+      "summary": "Large-scale articulated objects with high quality are desperately needed for\nmultiple tasks related to embodied AI. Most existing methods for creating\narticulated objects are either data-driven or simulation based, which are\nlimited by the scale and quality of the training data or the fidelity and heavy\nlabour of the simulation. In this paper, we propose Infinite Mobility, a novel\nmethod for synthesizing high-fidelity articulated objects through procedural\ngeneration. User study and quantitative evaluation demonstrate that our method\ncan produce results that excel current state-of-the-art methods and are\ncomparable to human-annotated datasets in both physics property and mesh\nquality. Furthermore, we show that our synthetic data can be used as training\ndata for generative models, enabling next-step scaling up. Code is available at\nhttps://github.com/Intern-Nexus/Infinite-Mobility",
+      "upvotes": 6,
+      "discussionId": "67da22bb5fe852c86d3c4304",
+      "ai_keywords": [
+        "articulated objects",
+        "high-fidelity",
+        "embodied AI",
+        "data-driven",
+        "simulation-based",
+        "procedural generation",
+        "physics property",
+        "mesh quality",
+        "generative models"
+      ]
+    },
+    "publishedAt": "2025-03-17T13:53:56.000Z",
+    "title": "Infinite Mobility: Scalable High-Fidelity Synthesis of Articulated\n  Objects via Procedural Generation",
+    "summary": "Large-scale articulated objects with high quality are desperately needed for\nmultiple tasks related to embodied AI. Most existing methods for creating\narticulated objects are either data-driven or simulation based, which are\nlimited by the scale and quality of the training data or the fidelity and heavy\nlabour of the simulation. In this paper, we propose Infinite Mobility, a novel\nmethod for synthesizing high-fidelity articulated objects through procedural\ngeneration. User study and quantitative evaluation demonstrate that our method\ncan produce results that excel current state-of-the-art methods and are\ncomparable to human-annotated datasets in both physics property and mesh\nquality. Furthermore, we show that our synthetic data can be used as training\ndata for generative models, enabling next-step scaling up. Code is available at\nhttps://github.com/Intern-Nexus/Infinite-Mobility",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/63f2ec797ddf724fbcc75aee/7Is4N1AFDor-EuzkZEiui.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.13424.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63f2ec797ddf724fbcc75aee",
+      "avatarUrl": "/avatars/e93432ad11da703d46fe5e594d69f8c0.svg",
+      "fullname": "Zhaoyang Lyu",
+      "name": "ZhaoyangLyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.14125",
+      "authors": [
+        {
+          "_id": "67da200db41738a058666623",
+          "name": "Defa Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "67da200db41738a058666624",
+          "name": "Hongzhi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67da200db41738a058666625",
+          "name": "Jundong Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67da200db41738a058666626",
+          "name": "Zihao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67da200db41738a058666627",
+          "name": "Yutao Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "67da200db41738a058666628",
+          "name": "Banggu Wu",
+          "hidden": false
+        },
+        {
+          "_id": "67da200db41738a058666629",
+          "name": "Qiyang Min",
+          "hidden": false
+        },
+        {
+          "_id": "67da200db41738a05866662a",
+          "name": "Xun Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-18T10:37:50.000Z",
+      "submittedOnDailyAt": "2025-03-19T00:09:57.233Z",
+      "title": "Frac-Connections: Fractional Extension of Hyper-Connections",
+      "submittedOnDailyBy": {
+        "_id": "667505f4361b960c79e35486",
+        "avatarUrl": "/avatars/d352639c520075220f6abaae23c39376.svg",
+        "isPro": false,
+        "fullname": "Defa Zhu",
+        "user": "mathfinder",
+        "type": "user"
+      },
+      "summary": "Residual connections are central to modern deep learning architectures,\nenabling the training of very deep networks by mitigating gradient vanishing.\nHyper-Connections recently generalized residual connections by introducing\nmultiple connection strengths at different depths, thereby addressing the\nseesaw effect between gradient vanishing and representation collapse. However,\nHyper-Connections increase memory access costs by expanding the width of hidden\nstates. In this paper, we propose Frac-Connections, a novel approach that\ndivides hidden states into multiple parts rather than expanding their width.\nFrac-Connections retain partial benefits of Hyper-Connections while reducing\nmemory consumption. To validate their effectiveness, we conduct large-scale\nexperiments on language tasks, with the largest being a 7B MoE model trained on\nup to 3T tokens, demonstrating that Frac-Connections significantly outperform\nresidual connections.",
+      "upvotes": 3,
+      "discussionId": "67da200eb41738a058666690",
+      "ai_keywords": [
+        "residual connections",
+        "gradient vanishing",
+        "Hyper-Connections",
+        "multiple connection strengths",
+        "seesaw effect",
+        "representation collapse",
+        "Frac-Connections",
+        "hidden states",
+        "language tasks",
+        "MoE model"
+      ]
+    },
+    "publishedAt": "2025-03-18T06:37:50.000Z",
+    "title": "Frac-Connections: Fractional Extension of Hyper-Connections",
+    "summary": "Residual connections are central to modern deep learning architectures,\nenabling the training of very deep networks by mitigating gradient vanishing.\nHyper-Connections recently generalized residual connections by introducing\nmultiple connection strengths at different depths, thereby addressing the\nseesaw effect between gradient vanishing and representation collapse. However,\nHyper-Connections increase memory access costs by expanding the width of hidden\nstates. In this paper, we propose Frac-Connections, a novel approach that\ndivides hidden states into multiple parts rather than expanding their width.\nFrac-Connections retain partial benefits of Hyper-Connections while reducing\nmemory consumption. To validate their effectiveness, we conduct large-scale\nexperiments on language tasks, with the largest being a 7B MoE model trained on\nup to 3T tokens, demonstrating that Frac-Connections significantly outperform\nresidual connections.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.14125.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "667505f4361b960c79e35486",
+      "avatarUrl": "/avatars/d352639c520075220f6abaae23c39376.svg",
+      "fullname": "Defa Zhu",
+      "name": "mathfinder",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.14456",
+      "authors": [
+        {
+          "_id": "67da21ed78c08b432f9fee0c",
+          "name": "Bo Peng",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee0d",
+          "name": "Ruichong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee0e",
+          "name": "Daniel Goldstein",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee0f",
+          "name": "Eric Alcaide",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee10",
+          "name": "Haowen Hou",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee11",
+          "name": "Janna Lu",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee12",
+          "name": "William Merrill",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee13",
+          "name": "Guangyu Song",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee14",
+          "name": "Kaifeng Tan",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee15",
+          "name": "Saiteja Utpala",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee16",
+          "name": "Nathan Wilce",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee17",
+          "name": "Johan S. Wind",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee18",
+          "name": "Tianyi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee19",
+          "name": "Daniel Wuttke",
+          "hidden": false
+        },
+        {
+          "_id": "67da21ed78c08b432f9fee1a",
+          "name": "Christian Zhou-Zheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-18T17:31:05.000Z",
+      "submittedOnDailyAt": "2025-03-19T00:29:42.147Z",
+      "title": "RWKV-7 \"Goose\" with Expressive Dynamic State Evolution",
+      "submittedOnDailyBy": {
+        "_id": "6418629fd13ffa408128d7ae",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1679319546731-noauth.png",
+        "isPro": false,
+        "fullname": "Zhang Ruichong",
+        "user": "ZhangRC",
+        "type": "user"
+      },
+      "summary": "We present RWKV-7 \"Goose\", a new sequence modeling architecture, along with\npre-trained language models that establish a new state-of-the-art in downstream\nperformance at the 3 billion parameter scale on multilingual tasks, and match\ncurrent SoTA English language performance despite being trained on dramatically\nfewer tokens than other top 3B models. Nevertheless, RWKV-7 models require only\nconstant memory usage and constant inference time per token. RWKV-7 introduces\na newly generalized formulation of the delta rule with vector-valued gating and\nin-context learning rates, as well as a relaxed value replacement rule. We show\nthat RWKV-7 can perform state tracking and recognize all regular languages,\nwhile retaining parallelizability of training. This exceeds the capabilities of\nTransformers under standard complexity conjectures, which are limited to\nTC^0. To demonstrate RWKV-7's language modeling capability, we also\npresent an extended open source 3.1 trillion token multilingual corpus, and\ntrain four RWKV-7 models ranging from 0.19 billion to 2.9 billion parameters on\nthis dataset.\n  To foster openness, reproduction, and adoption, we release our models and\ndataset component listing at https://huggingface.co/RWKV, and our training and\ninference code at https://github.com/RWKV/RWKV-LM all under the Apache 2.0\nLicense.",
+      "upvotes": 1,
+      "discussionId": "67da21ee78c08b432f9fee71",
+      "ai_keywords": [
+        "sequence modeling architecture",
+        "pre-trained language models",
+        "downstream performance",
+        "multilingual tasks",
+        "in-context learning rates",
+        "delta rule",
+        "vector-valued gating",
+        "value replacement rule",
+        "state tracking",
+        "regular languages",
+        "parallelizability of training",
+        "Transformers",
+        "$\\mathsf{TC}^0$"
+      ]
+    },
+    "publishedAt": "2025-03-18T13:31:05.000Z",
+    "title": "RWKV-7 \"Goose\" with Expressive Dynamic State Evolution",
+    "summary": "We present RWKV-7 \"Goose\", a new sequence modeling architecture, along with\npre-trained language models that establish a new state-of-the-art in downstream\nperformance at the 3 billion parameter scale on multilingual tasks, and match\ncurrent SoTA English language performance despite being trained on dramatically\nfewer tokens than other top 3B models. Nevertheless, RWKV-7 models require only\nconstant memory usage and constant inference time per token. RWKV-7 introduces\na newly generalized formulation of the delta rule with vector-valued gating and\nin-context learning rates, as well as a relaxed value replacement rule. We show\nthat RWKV-7 can perform state tracking and recognize all regular languages,\nwhile retaining parallelizability of training. This exceeds the capabilities of\nTransformers under standard complexity conjectures, which are limited to\nTC^0. To demonstrate RWKV-7's language modeling capability, we also\npresent an extended open source 3.1 trillion token multilingual corpus, and\ntrain four RWKV-7 models ranging from 0.19 billion to 2.9 billion parameters on\nthis dataset.\n  To foster openness, reproduction, and adoption, we release our models and\ndataset component listing at https://huggingface.co/RWKV, and our training and\ninference code at https://github.com/RWKV/RWKV-LM all under the Apache 2.0\nLicense.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.14456.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6418629fd13ffa408128d7ae",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1679319546731-noauth.png",
+      "fullname": "Zhang Ruichong",
+      "name": "ZhangRC",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false,
+      "followerCount": 11
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.14378",
+      "authors": [
+        {
+          "_id": "67da1ee1f1a4a52e8a1e0241",
+          "name": "Zechen Bai",
+          "hidden": false
+        },
+        {
+          "_id": "67da1ee1f1a4a52e8a1e0242",
+          "name": "Hai Ci",
+          "hidden": false
+        },
+        {
+          "_id": "67da1ee1f1a4a52e8a1e0243",
+          "user": {
+            "_id": "63a55320ce5763e06f78519c",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1671779060549-noauth.jpeg",
+            "isPro": false,
+            "fullname": "Mike Shou",
+            "user": "mikeshou",
+            "type": "user"
+          },
+          "name": "Mike Zheng Shou",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-03-19T01:33:23.736Z",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64b7833aa5018e3c7c9b50d8/1jxSsiEAyMr5fSng7GOB3.mp4"
+      ],
+      "publishedAt": "2025-03-18T16:10:24.000Z",
+      "submittedOnDailyAt": "2025-03-19T00:11:44.927Z",
+      "title": "Impossible Videos",
+      "submittedOnDailyBy": {
+        "_id": "64b7833aa5018e3c7c9b50d8",
+        "avatarUrl": "/avatars/782415605ed786b73f484fcc86a6384f.svg",
+        "isPro": false,
+        "fullname": "Zechen Bai",
+        "user": "ZechenBai",
+        "type": "user"
+      },
+      "summary": "Synthetic videos nowadays is widely used to complement data scarcity and\ndiversity of real-world videos. Current synthetic datasets primarily replicate\nreal-world scenarios, leaving impossible, counterfactual and anti-reality video\nconcepts underexplored. This work aims to answer two questions: 1) Can today's\nvideo generation models effectively follow prompts to create impossible video\ncontent? 2) Are today's video understanding models good enough for\nunderstanding impossible videos? To this end, we introduce IPV-Bench, a novel\nbenchmark designed to evaluate and foster progress in video understanding and\ngeneration. IPV-Bench is underpinned by a comprehensive taxonomy, encompassing\n4 domains, 14 categories. It features diverse scenes that defy physical,\nbiological, geographical, or social laws. Based on the taxonomy, a prompt suite\nis constructed to evaluate video generation models, challenging their prompt\nfollowing and creativity capabilities. In addition, a video benchmark is\ncurated to assess Video-LLMs on their ability of understanding impossible\nvideos, which particularly requires reasoning on temporal dynamics and world\nknowledge. Comprehensive evaluations reveal limitations and insights for future\ndirections of video models, paving the way for next-generation video models.",
+      "upvotes": 1,
+      "discussionId": "67da1ee3f1a4a52e8a1e02df",
+      "ai_keywords": [
+        "IPV-Bench",
+        "taxonomy",
+        "prompt suite",
+        "video generation models",
+        "prompt following",
+        "creativity capabilities",
+        "video benchmark",
+        "Video-LLMs",
+        "temporal dynamics",
+        "world knowledge"
+      ]
+    },
+    "publishedAt": "2025-03-18T12:10:24.000Z",
+    "title": "Impossible Videos",
+    "summary": "Synthetic videos nowadays is widely used to complement data scarcity and\ndiversity of real-world videos. Current synthetic datasets primarily replicate\nreal-world scenarios, leaving impossible, counterfactual and anti-reality video\nconcepts underexplored. This work aims to answer two questions: 1) Can today's\nvideo generation models effectively follow prompts to create impossible video\ncontent? 2) Are today's video understanding models good enough for\nunderstanding impossible videos? To this end, we introduce IPV-Bench, a novel\nbenchmark designed to evaluate and foster progress in video understanding and\ngeneration. IPV-Bench is underpinned by a comprehensive taxonomy, encompassing\n4 domains, 14 categories. It features diverse scenes that defy physical,\nbiological, geographical, or social laws. Based on the taxonomy, a prompt suite\nis constructed to evaluate video generation models, challenging their prompt\nfollowing and creativity capabilities. In addition, a video benchmark is\ncurated to assess Video-LLMs on their ability of understanding impossible\nvideos, which particularly requires reasoning on temporal dynamics and world\nknowledge. Comprehensive evaluations reveal limitations and insights for future\ndirections of video models, paving the way for next-generation video models.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64b7833aa5018e3c7c9b50d8/1jxSsiEAyMr5fSng7GOB3.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.14378.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64b7833aa5018e3c7c9b50d8",
+      "avatarUrl": "/avatars/782415605ed786b73f484fcc86a6384f.svg",
+      "fullname": "Zechen Bai",
+      "name": "ZechenBai",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.12545",
+      "authors": [
+        {
+          "_id": "67d943d272843a36b74ab41c",
+          "name": "Zhaopan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab41d",
+          "name": "Pengfei Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab41e",
+          "name": "Weidong Tang",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab41f",
+          "name": "Jiaxin Ai",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab420",
+          "name": "Wangbo Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab421",
+          "name": "Xiaojiang Peng",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab422",
+          "name": "Kai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab423",
+          "name": "Yang You",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab424",
+          "name": "Wenqi Shao",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab425",
+          "name": "Hongxun Yao",
+          "hidden": false
+        },
+        {
+          "_id": "67d943d272843a36b74ab426",
+          "name": "Kaipeng Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-16T15:26:20.000Z",
+      "submittedOnDailyAt": "2025-03-19T00:14:50.269Z",
+      "title": "PEBench: A Fictitious Dataset to Benchmark Machine Unlearning for\n  Multimodal Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "65f1713552c38a91e0a445e8",
+        "avatarUrl": "/avatars/47ab3ada51c9b9976ac1cd0c4301c373.svg",
+        "isPro": false,
+        "fullname": "kaipeng",
+        "user": "kpzhang996",
+        "type": "user"
+      },
+      "summary": "In recent years, Multimodal Large Language Models (MLLMs) have demonstrated\nremarkable advancements in tasks such as visual question answering, visual\nunderstanding, and reasoning. However, this impressive progress relies on vast\namounts of data collected from the internet, raising significant concerns about\nprivacy and security. To address these issues, machine unlearning (MU) has\nemerged as a promising solution, enabling the removal of specific knowledge\nfrom an already trained model without requiring retraining from scratch.\nAlthough MU for MLLMs has gained attention, current evaluations of its efficacy\nremain incomplete, and the underlying problem is often poorly defined, which\nhinders the development of strategies for creating more secure and trustworthy\nsystems. To bridge this gap, we introduce a benchmark, named PEBench, which\nincludes a dataset of personal entities and corresponding general event scenes,\ndesigned to comprehensively assess the performance of MU for MLLMs. Through\nPEBench, we aim to provide a standardized and robust framework to advance\nresearch in secure and privacy-preserving multimodal models. We benchmarked 6\nMU methods, revealing their strengths and limitations, and shedding light on\nkey challenges and opportunities for MU in MLLMs.",
+      "upvotes": 1,
+      "discussionId": "67d943db72843a36b74ab652",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "visual question answering",
+        "visual understanding",
+        "reasoning",
+        "machine unlearning",
+        "benchmark",
+        "PEBench",
+        "dataset",
+        "personal entities",
+        "general event scenes",
+        "secure",
+        "privacy-preserving",
+        "multimodal models"
+      ]
+    },
+    "publishedAt": "2025-03-16T11:26:20.000Z",
+    "title": "PEBench: A Fictitious Dataset to Benchmark Machine Unlearning for\n  Multimodal Large Language Models",
+    "summary": "In recent years, Multimodal Large Language Models (MLLMs) have demonstrated\nremarkable advancements in tasks such as visual question answering, visual\nunderstanding, and reasoning. However, this impressive progress relies on vast\namounts of data collected from the internet, raising significant concerns about\nprivacy and security. To address these issues, machine unlearning (MU) has\nemerged as a promising solution, enabling the removal of specific knowledge\nfrom an already trained model without requiring retraining from scratch.\nAlthough MU for MLLMs has gained attention, current evaluations of its efficacy\nremain incomplete, and the underlying problem is often poorly defined, which\nhinders the development of strategies for creating more secure and trustworthy\nsystems. To bridge this gap, we introduce a benchmark, named PEBench, which\nincludes a dataset of personal entities and corresponding general event scenes,\ndesigned to comprehensively assess the performance of MU for MLLMs. Through\nPEBench, we aim to provide a standardized and robust framework to advance\nresearch in secure and privacy-preserving multimodal models. We benchmarked 6\nMU methods, revealing their strengths and limitations, and shedding light on\nkey challenges and opportunities for MU in MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.12545.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65f1713552c38a91e0a445e8",
+      "avatarUrl": "/avatars/47ab3ada51c9b9976ac1cd0c4301c373.svg",
+      "fullname": "kaipeng",
+      "name": "kpzhang996",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.12505",
+      "authors": [
+        {
+          "_id": "67d9442ec37d05ff0ab28e44",
+          "name": "Zhaopan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67d9442ec37d05ff0ab28e45",
+          "name": "Pengfei Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67d9442ec37d05ff0ab28e46",
+          "name": "Jiaxin Ai",
+          "hidden": false
+        },
+        {
+          "_id": "67d9442ec37d05ff0ab28e47",
+          "name": "Wangbo Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67d9442ec37d05ff0ab28e48",
+          "name": "Kai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d9442ec37d05ff0ab28e49",
+          "name": "Xiaojiang Peng",
+          "hidden": false
+        },
+        {
+          "_id": "67d9442ec37d05ff0ab28e4a",
+          "name": "Wenqi Shao",
+          "hidden": false
+        },
+        {
+          "_id": "67d9442ec37d05ff0ab28e4b",
+          "name": "Hongxun Yao",
+          "hidden": false
+        },
+        {
+          "_id": "67d9442ec37d05ff0ab28e4c",
+          "name": "Kaipeng Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-16T13:50:38.000Z",
+      "submittedOnDailyAt": "2025-03-19T00:16:20.299Z",
+      "title": "MPBench: A Comprehensive Multimodal Reasoning Benchmark for Process\n  Errors Identification",
+      "submittedOnDailyBy": {
+        "_id": "65f1713552c38a91e0a445e8",
+        "avatarUrl": "/avatars/47ab3ada51c9b9976ac1cd0c4301c373.svg",
+        "isPro": false,
+        "fullname": "kaipeng",
+        "user": "kpzhang996",
+        "type": "user"
+      },
+      "summary": "Reasoning is an essential capacity for large language models (LLMs) to\naddress complex tasks, where the identification of process errors is vital for\nimproving this ability. Recently, process-level reward models (PRMs) were\nproposed to provide step-wise rewards that facilitate reinforcement learning\nand data production during training and guide LLMs toward correct steps during\ninference, thereby improving reasoning accuracy. However, existing benchmarks\nof PRMs are text-based and focus on error detection, neglecting other scenarios\nlike reasoning search. To address this gap, we introduce MPBench, a\ncomprehensive, multi-task, multimodal benchmark designed to systematically\nassess the effectiveness of PRMs in diverse scenarios. MPBench employs three\nevaluation paradigms, each targeting a specific role of PRMs in the reasoning\nprocess: (1) Step Correctness, which assesses the correctness of each\nintermediate reasoning step; (2) Answer Aggregation, which aggregates multiple\nsolutions and selects the best one; and (3) Reasoning Process Search, which\nguides the search for optimal reasoning steps during inference. Through these\nparadigms, MPBench makes comprehensive evaluations and provides insights into\nthe development of multimodal PRMs.",
+      "upvotes": 1,
+      "discussionId": "67d94430c37d05ff0ab28eb3",
+      "ai_keywords": [
+        "process-level reward models (PRMs)",
+        "reinforcement learning",
+        "step-wise rewards",
+        "error detection",
+        "reasoning search",
+        "MPBench",
+        "multi-task",
+        "multimodal benchmark",
+        "Step Correctness",
+        "Answer Aggregation",
+        "Reasoning Process Search"
+      ]
+    },
+    "publishedAt": "2025-03-16T09:50:38.000Z",
+    "title": "MPBench: A Comprehensive Multimodal Reasoning Benchmark for Process\n  Errors Identification",
+    "summary": "Reasoning is an essential capacity for large language models (LLMs) to\naddress complex tasks, where the identification of process errors is vital for\nimproving this ability. Recently, process-level reward models (PRMs) were\nproposed to provide step-wise rewards that facilitate reinforcement learning\nand data production during training and guide LLMs toward correct steps during\ninference, thereby improving reasoning accuracy. However, existing benchmarks\nof PRMs are text-based and focus on error detection, neglecting other scenarios\nlike reasoning search. To address this gap, we introduce MPBench, a\ncomprehensive, multi-task, multimodal benchmark designed to systematically\nassess the effectiveness of PRMs in diverse scenarios. MPBench employs three\nevaluation paradigms, each targeting a specific role of PRMs in the reasoning\nprocess: (1) Step Correctness, which assesses the correctness of each\nintermediate reasoning step; (2) Answer Aggregation, which aggregates multiple\nsolutions and selects the best one; and (3) Reasoning Process Search, which\nguides the search for optimal reasoning steps during inference. Through these\nparadigms, MPBench makes comprehensive evaluations and provides insights into\nthe development of multimodal PRMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.12505.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65f1713552c38a91e0a445e8",
+      "avatarUrl": "/avatars/47ab3ada51c9b9976ac1cd0c4301c373.svg",
+      "fullname": "kaipeng",
+      "name": "kpzhang996",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.10410",
+      "authors": [
+        {
+          "_id": "67d9638d92e48ed07860ecee",
+          "user": {
+            "_id": "67934b85c67af4a116b5594b",
+            "avatarUrl": "/avatars/076cf0803b50e1ab54e5ba4f8f2a8e44.svg",
+            "isPro": false,
+            "fullname": "yuwendu",
+            "user": "yuwendu",
+            "type": "user"
+          },
+          "name": "Yuwen Du",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-03-18T14:57:49.908Z",
+          "hidden": false
+        },
+        {
+          "_id": "67d9638d92e48ed07860ecef",
+          "name": "Anning Hu",
+          "hidden": false
+        },
+        {
+          "_id": "67d9638d92e48ed07860ecf0",
+          "name": "Zichen Chao",
+          "hidden": false
+        },
+        {
+          "_id": "67d9638d92e48ed07860ecf1",
+          "name": "Yifan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "67d9638d92e48ed07860ecf2",
+          "name": "Junhao Ge",
+          "hidden": false
+        },
+        {
+          "_id": "67d9638d92e48ed07860ecf3",
+          "name": "Genjia Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67d9638d92e48ed07860ecf4",
+          "name": "Weitao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "67d9638d92e48ed07860ecf5",
+          "name": "Lanjun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67d9638d92e48ed07860ecf6",
+          "name": "Siheng Chen",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/67934b85c67af4a116b5594b/rDLvz9Jma7IWsaGubueis.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/67934b85c67af4a116b5594b/1PULsx8sLyy9CqDRMuzo1.png"
+      ],
+      "publishedAt": "2025-03-13T14:33:42.000Z",
+      "submittedOnDailyAt": "2025-03-19T00:00:36.900Z",
+      "title": "RoCo-Sim: Enhancing Roadside Collaborative Perception through Foreground\n  Simulation",
+      "submittedOnDailyBy": {
+        "_id": "67934b85c67af4a116b5594b",
+        "avatarUrl": "/avatars/076cf0803b50e1ab54e5ba4f8f2a8e44.svg",
+        "isPro": false,
+        "fullname": "yuwendu",
+        "user": "yuwendu",
+        "type": "user"
+      },
+      "summary": "Roadside Collaborative Perception refers to a system where multiple roadside\nunits collaborate to pool their perceptual data, assisting vehicles in\nenhancing their environmental awareness. Existing roadside perception methods\nconcentrate on model design but overlook data issues like calibration errors,\nsparse information, and multi-view consistency, leading to poor performance on\nrecent published datasets. To significantly enhance roadside collaborative\nperception and address critical data issues, we present the first simulation\nframework RoCo-Sim for road-side collaborative perception. RoCo-Sim is capable\nof generating diverse, multi-view consistent simulated roadside data through\ndynamic foreground editing and full-scene style transfer of a single image.\nRoCo-Sim consists of four components: (1) Camera Extrinsic Optimization ensures\naccurate 3D to 2D projection for roadside cameras; (2) A novel Multi-View\nOcclusion-Aware Sampler (MOAS) determines the placement of diverse digital\nassets within 3D space; (3) DepthSAM innovatively models foreground-background\nrelationships from single-frame fixed-view images, ensuring multi-view\nconsistency of foreground; and (4) Scalable Post-Processing Toolkit generates\nmore realistic and enriched scenes through style transfer and other\nenhancements. RoCo-Sim significantly improves roadside 3D object detection,\noutperforming SOTA methods by 83.74 on Rcooper-Intersection and 83.12 on\nTUMTraf-V2X for AP70. RoCo-Sim fills a critical gap in roadside perception\nsimulation. Code and pre-trained models will be released soon:\nhttps://github.com/duyuwen-duen/RoCo-Sim",
+      "upvotes": 1,
+      "discussionId": "67d9639192e48ed07860ee1f",
+      "ai_keywords": [
+        "Multi-View Occlusion-Aware Sampler",
+        "DepthSAM",
+        "Scalable Post-Processing Toolkit",
+        "3D object detection"
+      ]
+    },
+    "publishedAt": "2025-03-13T10:33:42.000Z",
+    "title": "RoCo-Sim: Enhancing Roadside Collaborative Perception through Foreground\n  Simulation",
+    "summary": "Roadside Collaborative Perception refers to a system where multiple roadside\nunits collaborate to pool their perceptual data, assisting vehicles in\nenhancing their environmental awareness. Existing roadside perception methods\nconcentrate on model design but overlook data issues like calibration errors,\nsparse information, and multi-view consistency, leading to poor performance on\nrecent published datasets. To significantly enhance roadside collaborative\nperception and address critical data issues, we present the first simulation\nframework RoCo-Sim for road-side collaborative perception. RoCo-Sim is capable\nof generating diverse, multi-view consistent simulated roadside data through\ndynamic foreground editing and full-scene style transfer of a single image.\nRoCo-Sim consists of four components: (1) Camera Extrinsic Optimization ensures\naccurate 3D to 2D projection for roadside cameras; (2) A novel Multi-View\nOcclusion-Aware Sampler (MOAS) determines the placement of diverse digital\nassets within 3D space; (3) DepthSAM innovatively models foreground-background\nrelationships from single-frame fixed-view images, ensuring multi-view\nconsistency of foreground; and (4) Scalable Post-Processing Toolkit generates\nmore realistic and enriched scenes through style transfer and other\nenhancements. RoCo-Sim significantly improves roadside 3D object detection,\noutperforming SOTA methods by 83.74 on Rcooper-Intersection and 83.12 on\nTUMTraf-V2X for AP70. RoCo-Sim fills a critical gap in roadside perception\nsimulation. Code and pre-trained models will be released soon:\nhttps://github.com/duyuwen-duen/RoCo-Sim",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/67934b85c67af4a116b5594b/rDLvz9Jma7IWsaGubueis.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/67934b85c67af4a116b5594b/1PULsx8sLyy9CqDRMuzo1.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.10410.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67934b85c67af4a116b5594b",
+      "avatarUrl": "/avatars/076cf0803b50e1ab54e5ba4f8f2a8e44.svg",
+      "fullname": "yuwendu",
+      "name": "yuwendu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.10546",
+      "authors": [
+        {
+          "_id": "67da141d6b2857e3ec1412a7",
+          "name": "Zixian Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67da141d6b2857e3ec1412a8",
+          "name": "Mingtong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67da141d6b2857e3ec1412a9",
+          "name": "Yunzhu Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-13T16:59:17.000Z",
+      "submittedOnDailyAt": "2025-03-19T00:00:05.763Z",
+      "title": "KUDA: Keypoints to Unify Dynamics Learning and Visual Prompting for\n  Open-Vocabulary Robotic Manipulation",
+      "submittedOnDailyBy": {
+        "_id": "671c6a3e255aa50ebb504fc5",
+        "avatarUrl": "/avatars/b549bb19990ae21690472799817f951e.svg",
+        "isPro": false,
+        "fullname": "Mingtong Zhang",
+        "user": "Mingtongz",
+        "type": "user"
+      },
+      "summary": "With the rapid advancement of large language models (LLMs) and\nvision-language models (VLMs), significant progress has been made in developing\nopen-vocabulary robotic manipulation systems. However, many existing approaches\noverlook the importance of object dynamics, limiting their applicability to\nmore complex, dynamic tasks. In this work, we introduce KUDA, an\nopen-vocabulary manipulation system that integrates dynamics learning and\nvisual prompting through keypoints, leveraging both VLMs and learning-based\nneural dynamics models. Our key insight is that a keypoint-based target\nspecification is simultaneously interpretable by VLMs and can be efficiently\ntranslated into cost functions for model-based planning. Given language\ninstructions and visual observations, KUDA first assigns keypoints to the RGB\nimage and queries the VLM to generate target specifications. These abstract\nkeypoint-based representations are then converted into cost functions, which\nare optimized using a learned dynamics model to produce robotic trajectories.\nWe evaluate KUDA on a range of manipulation tasks, including free-form language\ninstructions across diverse object categories, multi-object interactions, and\ndeformable or granular objects, demonstrating the effectiveness of our\nframework. The project page is available at http://kuda-dynamics.github.io.",
+      "upvotes": 0,
+      "discussionId": "67da141e6b2857e3ec141301",
+      "projectPage": "https://kuda-dynamics.github.io",
+      "githubRepo": "https://github.com/StoreBlank/KUDA",
+      "ai_keywords": [
+        "LLMs",
+        "VLMs",
+        "open-vocabulary robotic manipulation systems",
+        "object dynamics",
+        "KUDA",
+        "dynamics learning",
+        "visual prompting",
+        "keypoints",
+        "learning-based neural dynamics models",
+        "keypoint-based target specification",
+        "cost functions",
+        "model-based planning",
+        "robotic trajectories",
+        "free-form language instructions",
+        "multi-object interactions",
+        "deformable objects",
+        "granular objects"
+      ]
+    },
+    "publishedAt": "2025-03-13T12:59:17.000Z",
+    "title": "KUDA: Keypoints to Unify Dynamics Learning and Visual Prompting for\n  Open-Vocabulary Robotic Manipulation",
+    "summary": "With the rapid advancement of large language models (LLMs) and\nvision-language models (VLMs), significant progress has been made in developing\nopen-vocabulary robotic manipulation systems. However, many existing approaches\noverlook the importance of object dynamics, limiting their applicability to\nmore complex, dynamic tasks. In this work, we introduce KUDA, an\nopen-vocabulary manipulation system that integrates dynamics learning and\nvisual prompting through keypoints, leveraging both VLMs and learning-based\nneural dynamics models. Our key insight is that a keypoint-based target\nspecification is simultaneously interpretable by VLMs and can be efficiently\ntranslated into cost functions for model-based planning. Given language\ninstructions and visual observations, KUDA first assigns keypoints to the RGB\nimage and queries the VLM to generate target specifications. These abstract\nkeypoint-based representations are then converted into cost functions, which\nare optimized using a learned dynamics model to produce robotic trajectories.\nWe evaluate KUDA on a range of manipulation tasks, including free-form language\ninstructions across diverse object categories, multi-object interactions, and\ndeformable or granular objects, demonstrating the effectiveness of our\nframework. The project page is available at http://kuda-dynamics.github.io.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.10546.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "671c6a3e255aa50ebb504fc5",
+      "avatarUrl": "/avatars/b549bb19990ae21690472799817f951e.svg",
+      "fullname": "Mingtong Zhang",
+      "name": "Mingtongz",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
