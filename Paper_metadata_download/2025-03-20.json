@@ -1,0 +1,101 @@
+[
+  {
+    "paper": {
+      "id": "2503.12769",
+      "authors": [
+        {
+          "_id": "67d8ded81a1b6ae91f79eb18",
+          "name": "Shenghao Fu",
+          "hidden": false
+        },
+        {
+          "_id": "67d8ded81a1b6ae91f79eb19",
+          "name": "Qize Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67d8ded81a1b6ae91f79eb1a",
+          "name": "Yuan-Ming Li",
+          "hidden": false
+        },
+        {
+          "_id": "67d8ded81a1b6ae91f79eb1b",
+          "name": "Yi-Xing Peng",
+          "hidden": false
+        },
+        {
+          "_id": "67d8ded81a1b6ae91f79eb1c",
+          "name": "Kun-Yu Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67d8ded81a1b6ae91f79eb1d",
+          "name": "Xihan Wei",
+          "hidden": false
+        },
+        {
+          "_id": "67d8ded81a1b6ae91f79eb1e",
+          "name": "Jian-Fang Hu",
+          "hidden": false
+        },
+        {
+          "_id": "67d8ded81a1b6ae91f79eb1f",
+          "name": "Xiaohua Xie",
+          "hidden": false
+        },
+        {
+          "_id": "67d8ded81a1b6ae91f79eb20",
+          "name": "Wei-Shi Zheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-17T03:05:31.000Z",
+      "submittedOnDailyAt": "2025-03-20T00:48:47.112Z",
+      "title": "ViSpeak: Visual Instruction Feedback in Streaming Videos",
+      "submittedOnDailyBy": {
+        "_id": "6686044047f2a33570e59e31",
+        "avatarUrl": "/avatars/2656bf2cecd6d7cbffd0a912a54d25de.svg",
+        "isPro": false,
+        "fullname": "Jiaxing Zhao",
+        "user": "StarJiaxing",
+        "type": "user"
+      },
+      "summary": "Recent advances in Large Multi-modal Models (LMMs) are primarily focused on\noffline video understanding. Instead, streaming video understanding poses great\nchallenges to recent models due to its time-sensitive, omni-modal and\ninteractive characteristics. In this work, we aim to extend the streaming video\nunderstanding from a new perspective and propose a novel task named Visual\nInstruction Feedback in which models should be aware of visual contents and\nlearn to extract instructions from them. For example, when users wave their\nhands to agents, agents should recognize the gesture and start conversations\nwith welcome information. Thus, following instructions in visual modality\ngreatly enhances user-agent interactions. To facilitate research, we define\nseven key subtasks highly relevant to visual modality and collect the\nViSpeak-Instruct dataset for training and the ViSpeak-Bench for evaluation.\nFurther, we propose the ViSpeak model, which is a SOTA streaming video\nunderstanding LMM with GPT-4o-level performance on various streaming video\nunderstanding benchmarks. After finetuning on our ViSpeak-Instruct dataset,\nViSpeak is equipped with basic visual instruction feedback ability, serving as\na solid baseline for future research.",
+      "upvotes": 1,
+      "discussionId": "67d8ded91a1b6ae91f79eb5c",
+      "ai_keywords": [
+        "Large Multi-modal Models (LMMs)",
+        "streaming video understanding",
+        "Visual Instruction Feedback",
+        "visual contents",
+        "instructions",
+        "gesture recognition",
+        "user-agent interactions",
+        "subtasks",
+        "ViSpeak-Instruct dataset",
+        "ViSpeak-Bench",
+        "ViSpeak model",
+        "GPT-4o-level performance",
+        "streaming video understanding benchmarks",
+        "finetuning"
+      ]
+    },
+    "publishedAt": "2025-03-16T23:05:31.000Z",
+    "title": "ViSpeak: Visual Instruction Feedback in Streaming Videos",
+    "summary": "Recent advances in Large Multi-modal Models (LMMs) are primarily focused on\noffline video understanding. Instead, streaming video understanding poses great\nchallenges to recent models due to its time-sensitive, omni-modal and\ninteractive characteristics. In this work, we aim to extend the streaming video\nunderstanding from a new perspective and propose a novel task named Visual\nInstruction Feedback in which models should be aware of visual contents and\nlearn to extract instructions from them. For example, when users wave their\nhands to agents, agents should recognize the gesture and start conversations\nwith welcome information. Thus, following instructions in visual modality\ngreatly enhances user-agent interactions. To facilitate research, we define\nseven key subtasks highly relevant to visual modality and collect the\nViSpeak-Instruct dataset for training and the ViSpeak-Bench for evaluation.\nFurther, we propose the ViSpeak model, which is a SOTA streaming video\nunderstanding LMM with GPT-4o-level performance on various streaming video\nunderstanding benchmarks. After finetuning on our ViSpeak-Instruct dataset,\nViSpeak is equipped with basic visual instruction feedback ability, serving as\na solid baseline for future research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.12769.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6686044047f2a33570e59e31",
+      "avatarUrl": "/avatars/2656bf2cecd6d7cbffd0a912a54d25de.svg",
+      "fullname": "Jiaxing Zhao",
+      "name": "StarJiaxing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isMod": false,
+      "followerCount": 13
+    },
+    "isAuthorParticipating": false
+  }
+]
