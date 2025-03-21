@@ -1,0 +1,242 @@
+[
+  {
+    "paper": {
+      "id": "2503.16278",
+      "authors": [
+        {
+          "_id": "67dcc98b54dcfdc1fd17d9b6",
+          "name": "Shuqi Lu",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc98b54dcfdc1fd17d9b7",
+          "name": "Haowei Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc98b54dcfdc1fd17d9b8",
+          "name": "Lin Yao",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc98b54dcfdc1fd17d9b9",
+          "name": "Zhifeng Gao",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc98b54dcfdc1fd17d9ba",
+          "name": "Xiaohong Ji",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc98b54dcfdc1fd17d9bb",
+          "name": "Weinan E",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc98b54dcfdc1fd17d9bc",
+          "name": "Linfeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc98b54dcfdc1fd17d9bd",
+          "name": "Guolin Ke",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-20T16:07:04.000Z",
+      "submittedOnDailyAt": "2025-03-21T00:36:39.769Z",
+      "title": "Uni-3DAR: Unified 3D Generation and Understanding via Autoregression on\n  Compressed Spatial Tokens",
+      "submittedOnDailyBy": {
+        "_id": "6348de0c62c668c7b48d83c9",
+        "avatarUrl": "/avatars/7296ea9bb301e19c10926022959b2023.svg",
+        "isPro": false,
+        "fullname": "Guolin Ke",
+        "user": "guolinke",
+        "type": "user"
+      },
+      "summary": "Recent advancements in large language models and their multi-modal extensions\nhave demonstrated the effectiveness of unifying generation and understanding\nthrough autoregressive next-token prediction. However, despite the critical\nrole of 3D structural generation and understanding ({3D GU}) in AI for science,\nthese tasks have largely evolved independently, with autoregressive methods\nremaining underexplored. To bridge this gap, we introduce Uni-3DAR, a unified\nframework that seamlessly integrates {3D GU} tasks via autoregressive\nprediction. At its core, Uni-3DAR employs a novel hierarchical tokenization\nthat compresses 3D space using an octree, leveraging the inherent sparsity of\n3D structures. It then applies an additional tokenization for fine-grained\nstructural details, capturing key attributes such as atom types and precise\nspatial coordinates in microscopic 3D structures. We further propose two\noptimizations to enhance efficiency and effectiveness. The first is a two-level\nsubtree compression strategy, which reduces the octree token sequence by up to\n8x. The second is a masked next-token prediction mechanism tailored for\ndynamically varying token positions, significantly boosting model performance.\nBy combining these strategies, Uni-3DAR successfully unifies diverse {3D GU}\ntasks within a single autoregressive framework. Extensive experiments across\nmultiple microscopic {3D GU} tasks, including molecules, proteins, polymers,\nand crystals, validate its effectiveness and versatility. Notably, Uni-3DAR\nsurpasses previous state-of-the-art diffusion models by a substantial margin,\nachieving up to 256\\% relative improvement while delivering inference speeds up\nto 21.8x faster. The code is publicly available at\nhttps://github.com/dptech-corp/Uni-3DAR.",
+      "upvotes": 1,
+      "discussionId": "67dcc98c54dcfdc1fd17da0f",
+      "githubRepo": "https://github.com/dptech-corp/Uni-3DAR",
+      "ai_keywords": [
+        "hierarchical tokenization",
+        "octree",
+        "two-level subtree compression strategy",
+        "masked next-token prediction mechanism",
+        "Uni-3DAR",
+        "3D GU (3D generation and understanding)",
+        "autoregressive prediction",
+        "state-of-the-art diffusion models"
+      ]
+    },
+    "publishedAt": "2025-03-20T12:07:04.000Z",
+    "title": "Uni-3DAR: Unified 3D Generation and Understanding via Autoregression on\n  Compressed Spatial Tokens",
+    "summary": "Recent advancements in large language models and their multi-modal extensions\nhave demonstrated the effectiveness of unifying generation and understanding\nthrough autoregressive next-token prediction. However, despite the critical\nrole of 3D structural generation and understanding ({3D GU}) in AI for science,\nthese tasks have largely evolved independently, with autoregressive methods\nremaining underexplored. To bridge this gap, we introduce Uni-3DAR, a unified\nframework that seamlessly integrates {3D GU} tasks via autoregressive\nprediction. At its core, Uni-3DAR employs a novel hierarchical tokenization\nthat compresses 3D space using an octree, leveraging the inherent sparsity of\n3D structures. It then applies an additional tokenization for fine-grained\nstructural details, capturing key attributes such as atom types and precise\nspatial coordinates in microscopic 3D structures. We further propose two\noptimizations to enhance efficiency and effectiveness. The first is a two-level\nsubtree compression strategy, which reduces the octree token sequence by up to\n8x. The second is a masked next-token prediction mechanism tailored for\ndynamically varying token positions, significantly boosting model performance.\nBy combining these strategies, Uni-3DAR successfully unifies diverse {3D GU}\ntasks within a single autoregressive framework. Extensive experiments across\nmultiple microscopic {3D GU} tasks, including molecules, proteins, polymers,\nand crystals, validate its effectiveness and versatility. Notably, Uni-3DAR\nsurpasses previous state-of-the-art diffusion models by a substantial margin,\nachieving up to 256\\% relative improvement while delivering inference speeds up\nto 21.8x faster. The code is publicly available at\nhttps://github.com/dptech-corp/Uni-3DAR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.16278.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6348de0c62c668c7b48d83c9",
+      "avatarUrl": "/avatars/7296ea9bb301e19c10926022959b2023.svg",
+      "fullname": "Guolin Ke",
+      "name": "guolinke",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.16031",
+      "authors": [
+        {
+          "_id": "67dcc5e41f94b594ef4c0312",
+          "user": {
+            "_id": "651692d718f3a57f869a5a0a",
+            "avatarUrl": "/avatars/d5fe48de11e46675b05e1e2e1cf3505c.svg",
+            "isPro": false,
+            "fullname": "Sai Kartheek Reddy",
+            "user": "UVSKKR",
+            "type": "user"
+          },
+          "name": "Sai Kartheek Reddy Kasu",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-03-21T01:51:18.039Z",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc5e41f94b594ef4c0313",
+          "name": "Shankar Biradar",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc5e41f94b594ef4c0314",
+          "name": "Sunil Saumya",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-20T10:58:02.000Z",
+      "submittedOnDailyAt": "2025-03-21T00:28:13.365Z",
+      "title": "Deceptive Humor: A Synthetic Multilingual Benchmark Dataset for Bridging\n  Fabricated Claims with Humorous Content",
+      "submittedOnDailyBy": {
+        "_id": "651692d718f3a57f869a5a0a",
+        "avatarUrl": "/avatars/d5fe48de11e46675b05e1e2e1cf3505c.svg",
+        "isPro": false,
+        "fullname": "Sai Kartheek Reddy",
+        "user": "UVSKKR",
+        "type": "user"
+      },
+      "summary": "This paper presents the Deceptive Humor Dataset (DHD), a novel resource for\nstudying humor derived from fabricated claims and misinformation. In an era of\nrampant misinformation, understanding how humor intertwines with deception is\nessential. DHD consists of humor-infused comments generated from false\nnarratives, incorporating fabricated claims and manipulated information using\nthe ChatGPT-4o model. Each instance is labeled with a Satire Level, ranging\nfrom 1 for subtle satire to 3 for high-level satire and classified into five\ndistinct Humor Categories: Dark Humor, Irony, Social Commentary, Wordplay, and\nAbsurdity. The dataset spans multiple languages including English, Telugu,\nHindi, Kannada, Tamil, and their code-mixed variants (Te-En, Hi-En, Ka-En,\nTa-En), making it a valuable multilingual benchmark. By introducing DHD, we\nestablish a structured foundation for analyzing humor in deceptive contexts,\npaving the way for a new research direction that explores how humor not only\ninteracts with misinformation but also influences its perception and spread. We\nestablish strong baselines for the proposed dataset, providing a foundation for\nfuture research to benchmark and advance deceptive humor detection models.",
+      "upvotes": 1,
+      "discussionId": "67dcc5e41f94b594ef4c0353"
+    },
+    "publishedAt": "2025-03-20T06:58:02.000Z",
+    "title": "Deceptive Humor: A Synthetic Multilingual Benchmark Dataset for Bridging\n  Fabricated Claims with Humorous Content",
+    "summary": "This paper presents the Deceptive Humor Dataset (DHD), a novel resource for\nstudying humor derived from fabricated claims and misinformation. In an era of\nrampant misinformation, understanding how humor intertwines with deception is\nessential. DHD consists of humor-infused comments generated from false\nnarratives, incorporating fabricated claims and manipulated information using\nthe ChatGPT-4o model. Each instance is labeled with a Satire Level, ranging\nfrom 1 for subtle satire to 3 for high-level satire and classified into five\ndistinct Humor Categories: Dark Humor, Irony, Social Commentary, Wordplay, and\nAbsurdity. The dataset spans multiple languages including English, Telugu,\nHindi, Kannada, Tamil, and their code-mixed variants (Te-En, Hi-En, Ka-En,\nTa-En), making it a valuable multilingual benchmark. By introducing DHD, we\nestablish a structured foundation for analyzing humor in deceptive contexts,\npaving the way for a new research direction that explores how humor not only\ninteracts with misinformation but also influences its perception and spread. We\nestablish strong baselines for the proposed dataset, providing a foundation for\nfuture research to benchmark and advance deceptive humor detection models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.16031.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "651692d718f3a57f869a5a0a",
+      "avatarUrl": "/avatars/d5fe48de11e46675b05e1e2e1cf3505c.svg",
+      "fullname": "Sai Kartheek Reddy",
+      "name": "UVSKKR",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.15567",
+      "authors": [
+        {
+          "_id": "67dcc734067589b43b19af7a",
+          "name": "Yanchen Luo",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc734067589b43b19af7b",
+          "name": "Zhiyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc734067589b43b19af7c",
+          "name": "Yi Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc734067589b43b19af7d",
+          "name": "Sihang Li",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc734067589b43b19af7e",
+          "name": "Kenji Kawaguchi",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc734067589b43b19af7f",
+          "name": "Tat-Seng Chua",
+          "hidden": false
+        },
+        {
+          "_id": "67dcc734067589b43b19af80",
+          "name": "Xiang Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-19T08:56:13.000Z",
+      "submittedOnDailyAt": "2025-03-21T00:33:21.187Z",
+      "title": "Towards Unified Latent Space for 3D Molecular Latent Diffusion Modeling",
+      "submittedOnDailyBy": {
+        "_id": "64f04a28f3cd962c21726459",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/MOTc7SWbzc4jdJbMcWMcK.jpeg",
+        "isPro": false,
+        "fullname": "LuoYanchen",
+        "user": "lyc0930",
+        "type": "user"
+      },
+      "summary": "3D molecule generation is crucial for drug discovery and material science,\nrequiring models to process complex multi-modalities, including atom types,\nchemical bonds, and 3D coordinates. A key challenge is integrating these\nmodalities of different shapes while maintaining SE(3) equivariance for 3D\ncoordinates. To achieve this, existing approaches typically maintain separate\nlatent spaces for invariant and equivariant modalities, reducing efficiency in\nboth training and sampling. In this work, we propose Unified\nVariational Auto-Encoder for 3D Molecular Latent\nDiffusion Modeling (UAE-3D), a multi-modal VAE that compresses 3D\nmolecules into latent sequences from a unified latent space, while maintaining\nnear-zero reconstruction error. This unified latent space eliminates the\ncomplexities of handling multi-modality and equivariance when performing latent\ndiffusion modeling. We demonstrate this by employing the Diffusion\nTransformer--a general-purpose diffusion model without any molecular inductive\nbias--for latent generation. Extensive experiments on GEOM-Drugs and QM9\ndatasets demonstrate that our method significantly establishes new benchmarks\nin both de novo and conditional 3D molecule generation, achieving\nleading efficiency and quality.",
+      "upvotes": 1,
+      "discussionId": "67dcc735067589b43b19afd9",
+      "ai_keywords": [
+        "SE(3) equivariance",
+        "latent spaces",
+        "multi-modal VAE",
+        "latent sequences",
+        "unified latent space",
+        "latent diffusion modeling",
+        "Diffusion Transformer",
+        "GEOM-Drugs dataset",
+        "QM9 dataset",
+        "de novo molecule generation",
+        "conditional molecule generation"
+      ]
+    },
+    "publishedAt": "2025-03-19T04:56:13.000Z",
+    "title": "Towards Unified Latent Space for 3D Molecular Latent Diffusion Modeling",
+    "summary": "3D molecule generation is crucial for drug discovery and material science,\nrequiring models to process complex multi-modalities, including atom types,\nchemical bonds, and 3D coordinates. A key challenge is integrating these\nmodalities of different shapes while maintaining SE(3) equivariance for 3D\ncoordinates. To achieve this, existing approaches typically maintain separate\nlatent spaces for invariant and equivariant modalities, reducing efficiency in\nboth training and sampling. In this work, we propose Unified\nVariational Auto-Encoder for 3D Molecular Latent\nDiffusion Modeling (UAE-3D), a multi-modal VAE that compresses 3D\nmolecules into latent sequences from a unified latent space, while maintaining\nnear-zero reconstruction error. This unified latent space eliminates the\ncomplexities of handling multi-modality and equivariance when performing latent\ndiffusion modeling. We demonstrate this by employing the Diffusion\nTransformer--a general-purpose diffusion model without any molecular inductive\nbias--for latent generation. Extensive experiments on GEOM-Drugs and QM9\ndatasets demonstrate that our method significantly establishes new benchmarks\nin both de novo and conditional 3D molecule generation, achieving\nleading efficiency and quality.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.15567.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64f04a28f3cd962c21726459",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/MOTc7SWbzc4jdJbMcWMcK.jpeg",
+      "fullname": "LuoYanchen",
+      "name": "lyc0930",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
