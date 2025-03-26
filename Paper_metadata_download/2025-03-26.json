@@ -1,0 +1,515 @@
+[
+  {
+    "paper": {
+      "id": "2503.19385",
+      "authors": [
+        {
+          "_id": "67e36241d8da46951f858026",
+          "name": "Jaihoon Kim",
+          "hidden": false
+        },
+        {
+          "_id": "67e36241d8da46951f858027",
+          "name": "Taehoon Yoon",
+          "hidden": false
+        },
+        {
+          "_id": "67e36241d8da46951f858028",
+          "name": "Jisung Hwang",
+          "hidden": false
+        },
+        {
+          "_id": "67e36241d8da46951f858029",
+          "name": "Minhyuk Sung",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-25T06:30:45.000Z",
+      "submittedOnDailyAt": "2025-03-26T00:49:38.583Z",
+      "title": "Inference-Time Scaling for Flow Models via Stochastic Generation and\n  Rollover Budget Forcing",
+      "submittedOnDailyBy": {
+        "_id": "6342796a0875f2c99cfd313b",
+        "avatarUrl": "/avatars/98575092404c4197b20c929a6499a015.svg",
+        "isPro": false,
+        "fullname": "Yuseung \"Phillip\" Lee",
+        "user": "phillipinseoul",
+        "type": "user"
+      },
+      "summary": "We propose an inference-time scaling approach for pretrained flow models.\nRecently, inference-time scaling has gained significant attention in LLMs and\ndiffusion models, improving sample quality or better aligning outputs with user\npreferences by leveraging additional computation. For diffusion models,\nparticle sampling has allowed more efficient scaling due to the stochasticity\nat intermediate denoising steps. On the contrary, while flow models have gained\npopularity as an alternative to diffusion models--offering faster generation\nand high-quality outputs in state-of-the-art image and video generative\nmodels--efficient inference-time scaling methods used for diffusion models\ncannot be directly applied due to their deterministic generative process. To\nenable efficient inference-time scaling for flow models, we propose three key\nideas: 1) SDE-based generation, enabling particle sampling in flow models, 2)\nInterpolant conversion, broadening the search space and enhancing sample\ndiversity, and 3) Rollover Budget Forcing (RBF), an adaptive allocation of\ncomputational resources across timesteps to maximize budget utilization. Our\nexperiments show that SDE-based generation, particularly variance-preserving\n(VP) interpolant-based generation, improves the performance of particle\nsampling methods for inference-time scaling in flow models. Additionally, we\ndemonstrate that RBF with VP-SDE achieves the best performance, outperforming\nall previous inference-time scaling approaches.",
+      "upvotes": 4,
+      "discussionId": "67e36245d8da46951f85802c",
+      "ai_keywords": [
+        "flow models",
+        "inference-time scaling",
+        "LLMs",
+        "diffusion models",
+        "sample quality",
+        "user preferences",
+        "particle sampling",
+        "stochasticity",
+        "denoising steps",
+        "generative process",
+        "SDE-based generation",
+        "interpolant conversion",
+        "sample diversity",
+        "Rollover Budget Forcing (RBF)",
+        "adaptive allocation",
+        "computational resources",
+        "timesteps",
+        "budget utilization",
+        "variance-preserving (VP)",
+        "VP interpolant-based generation"
+      ]
+    },
+    "publishedAt": "2025-03-25T02:30:45.000Z",
+    "title": "Inference-Time Scaling for Flow Models via Stochastic Generation and\n  Rollover Budget Forcing",
+    "summary": "We propose an inference-time scaling approach for pretrained flow models.\nRecently, inference-time scaling has gained significant attention in LLMs and\ndiffusion models, improving sample quality or better aligning outputs with user\npreferences by leveraging additional computation. For diffusion models,\nparticle sampling has allowed more efficient scaling due to the stochasticity\nat intermediate denoising steps. On the contrary, while flow models have gained\npopularity as an alternative to diffusion models--offering faster generation\nand high-quality outputs in state-of-the-art image and video generative\nmodels--efficient inference-time scaling methods used for diffusion models\ncannot be directly applied due to their deterministic generative process. To\nenable efficient inference-time scaling for flow models, we propose three key\nideas: 1) SDE-based generation, enabling particle sampling in flow models, 2)\nInterpolant conversion, broadening the search space and enhancing sample\ndiversity, and 3) Rollover Budget Forcing (RBF), an adaptive allocation of\ncomputational resources across timesteps to maximize budget utilization. Our\nexperiments show that SDE-based generation, particularly variance-preserving\n(VP) interpolant-based generation, improves the performance of particle\nsampling methods for inference-time scaling in flow models. Additionally, we\ndemonstrate that RBF with VP-SDE achieves the best performance, outperforming\nall previous inference-time scaling approaches.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.19385.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6342796a0875f2c99cfd313b",
+      "avatarUrl": "/avatars/98575092404c4197b20c929a6499a015.svg",
+      "fullname": "Yuseung \"Phillip\" Lee",
+      "name": "phillipinseoul",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.19325",
+      "authors": [
+        {
+          "_id": "67e35f6fc9d8214b5e1c64c3",
+          "name": "Yuchao Gu",
+          "hidden": false
+        },
+        {
+          "_id": "67e35f6fc9d8214b5e1c64c4",
+          "name": "Weijia Mao",
+          "hidden": false
+        },
+        {
+          "_id": "67e35f6fc9d8214b5e1c64c5",
+          "name": "Mike Zheng Shou",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/63021630a35b21bd8a53305a/SL0MQs7OvQpNlGBhroTW3.png"
+      ],
+      "publishedAt": "2025-03-25T03:38:06.000Z",
+      "submittedOnDailyAt": "2025-03-26T00:37:14.940Z",
+      "title": "Long-Context Autoregressive Video Modeling with Next-Frame Prediction",
+      "submittedOnDailyBy": {
+        "_id": "63021630a35b21bd8a53305a",
+        "avatarUrl": "/avatars/7a7e8b39749eda61e57d8a1908726558.svg",
+        "isPro": true,
+        "fullname": "Gu Yuchao",
+        "user": "guyuchao",
+        "type": "user"
+      },
+      "summary": "Long-context autoregressive modeling has significantly advanced language\ngeneration, but video generation still struggles to fully utilize extended\ntemporal contexts. To investigate long-context video modeling, we introduce\nFrame AutoRegressive (FAR), a strong baseline for video autoregressive\nmodeling. Just as language models learn causal dependencies between tokens\n(i.e., Token AR), FAR models temporal causal dependencies between continuous\nframes, achieving better convergence than Token AR and video diffusion\ntransformers. Building on FAR, we observe that long-context vision modeling\nfaces challenges due to visual redundancy. Existing RoPE lacks effective\ntemporal decay for remote context and fails to extrapolate well to long video\nsequences. Additionally, training on long videos is computationally expensive,\nas vision tokens grow much faster than language tokens. To tackle these issues,\nwe propose balancing locality and long-range dependency. We introduce FlexRoPE,\nan test-time technique that adds flexible temporal decay to RoPE, enabling\nextrapolation to 16x longer vision contexts. Furthermore, we propose long\nshort-term context modeling, where a high-resolution short-term context window\nensures fine-grained temporal consistency, while an unlimited long-term context\nwindow encodes long-range information using fewer tokens. With this approach,\nwe can train on long video sequences with a manageable token context length. We\ndemonstrate that FAR achieves state-of-the-art performance in both short- and\nlong-video generation, providing a simple yet effective baseline for video\nautoregressive modeling.",
+      "upvotes": 3,
+      "discussionId": "67e35f72c9d8214b5e1c659b",
+      "ai_keywords": [
+        "Frame AutoRegressive (FAR)",
+        "Token AR",
+        "video autoregressive modeling",
+        "visual redundancy",
+        "RoPE (Rotary Position Embedding)",
+        "temporal decay",
+        "FlexRoPE",
+        "long short-term context modeling",
+        "high-resolution short-term context window",
+        "long-term context window",
+        "state-of-the-art performance",
+        "video generation"
+      ]
+    },
+    "publishedAt": "2025-03-24T23:38:06.000Z",
+    "title": "Long-Context Autoregressive Video Modeling with Next-Frame Prediction",
+    "summary": "Long-context autoregressive modeling has significantly advanced language\ngeneration, but video generation still struggles to fully utilize extended\ntemporal contexts. To investigate long-context video modeling, we introduce\nFrame AutoRegressive (FAR), a strong baseline for video autoregressive\nmodeling. Just as language models learn causal dependencies between tokens\n(i.e., Token AR), FAR models temporal causal dependencies between continuous\nframes, achieving better convergence than Token AR and video diffusion\ntransformers. Building on FAR, we observe that long-context vision modeling\nfaces challenges due to visual redundancy. Existing RoPE lacks effective\ntemporal decay for remote context and fails to extrapolate well to long video\nsequences. Additionally, training on long videos is computationally expensive,\nas vision tokens grow much faster than language tokens. To tackle these issues,\nwe propose balancing locality and long-range dependency. We introduce FlexRoPE,\nan test-time technique that adds flexible temporal decay to RoPE, enabling\nextrapolation to 16x longer vision contexts. Furthermore, we propose long\nshort-term context modeling, where a high-resolution short-term context window\nensures fine-grained temporal consistency, while an unlimited long-term context\nwindow encodes long-range information using fewer tokens. With this approach,\nwe can train on long video sequences with a manageable token context length. We\ndemonstrate that FAR achieves state-of-the-art performance in both short- and\nlong-video generation, providing a simple yet effective baseline for video\nautoregressive modeling.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/63021630a35b21bd8a53305a/SL0MQs7OvQpNlGBhroTW3.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.19325.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63021630a35b21bd8a53305a",
+      "avatarUrl": "/avatars/7a7e8b39749eda61e57d8a1908726558.svg",
+      "fullname": "Gu Yuchao",
+      "name": "guyuchao",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.19910",
+      "authors": [
+        {
+          "_id": "67e35e4cff080b9ee71e3295",
+          "name": "Chuong Huynh",
+          "hidden": false
+        },
+        {
+          "_id": "67e35e4cff080b9ee71e3296",
+          "name": "Jinyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67e35e4cff080b9ee71e3297",
+          "name": "Ashish Tawari",
+          "hidden": false
+        },
+        {
+          "_id": "67e35e4cff080b9ee71e3298",
+          "name": "Mubarak Shah",
+          "hidden": false
+        },
+        {
+          "_id": "67e35e4cff080b9ee71e3299",
+          "name": "Son Tran",
+          "hidden": false
+        },
+        {
+          "_id": "67e35e4cff080b9ee71e329a",
+          "name": "Raffay Hamid",
+          "hidden": false
+        },
+        {
+          "_id": "67e35e4cff080b9ee71e329b",
+          "name": "Trishul Chilimbi",
+          "hidden": false
+        },
+        {
+          "_id": "67e35e4cff080b9ee71e329c",
+          "name": "Abhinav Shrivastava",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-25T17:59:50.000Z",
+      "submittedOnDailyAt": "2025-03-26T00:26:00.764Z",
+      "title": "CoLLM: A Large Language Model for Composed Image Retrieval",
+      "submittedOnDailyBy": {
+        "_id": "63a4d196cde2b28f82a56bd9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a4d196cde2b28f82a56bd9/iqVFOtDteRMUScFGRcx0L.png",
+        "isPro": false,
+        "fullname": "Chuong Huynh",
+        "user": "chuonghm",
+        "type": "user"
+      },
+      "summary": "Composed Image Retrieval (CIR) is a complex task that aims to retrieve images\nbased on a multimodal query. Typical training data consists of triplets\ncontaining a reference image, a textual description of desired modifications,\nand the target image, which are expensive and time-consuming to acquire. The\nscarcity of CIR datasets has led to zero-shot approaches utilizing synthetic\ntriplets or leveraging vision-language models (VLMs) with ubiquitous\nweb-crawled image-caption pairs. However, these methods have significant\nlimitations: synthetic triplets suffer from limited scale, lack of diversity,\nand unnatural modification text, while image-caption pairs hinder joint\nembedding learning of the multimodal query due to the absence of triplet data.\nMoreover, existing approaches struggle with complex and nuanced modification\ntexts that demand sophisticated fusion and understanding of vision and language\nmodalities. We present CoLLM, a one-stop framework that effectively addresses\nthese limitations. Our approach generates triplets on-the-fly from\nimage-caption pairs, enabling supervised training without manual annotation. We\nleverage Large Language Models (LLMs) to generate joint embeddings of reference\nimages and modification texts, facilitating deeper multimodal fusion.\nAdditionally, we introduce Multi-Text CIR (MTCIR), a large-scale dataset\ncomprising 3.4M samples, and refine existing CIR benchmarks (CIRR and\nFashion-IQ) to enhance evaluation reliability. Experimental results demonstrate\nthat CoLLM achieves state-of-the-art performance across multiple CIR benchmarks\nand settings. MTCIR yields competitive results, with up to 15% performance\nimprovement. Our refined benchmarks provide more reliable evaluation metrics\nfor CIR models, contributing to the advancement of this important field.",
+      "upvotes": 2,
+      "discussionId": "67e35e4eff080b9ee71e3353",
+      "projectPage": "https://collm-cvpr25.github.io/",
+      "ai_keywords": [
+        "Composed Image Retrieval (CIR)",
+        "multimodal query",
+        "triplets",
+        "reference image",
+        "textual description",
+        "target image",
+        "zero-shot approaches",
+        "synthetic triplets",
+        "vision-language models (VLMs)",
+        "web-crawled image-caption pairs",
+        "joint embedding learning",
+        "complex and nuanced modification texts",
+        "multimodal fusion",
+        "CoLLM",
+        "Large Language Models (LLMs)",
+        "Multi-Text CIR (MTCIR)",
+        "CIRR benchmark",
+        "Fashion-IQ benchmark",
+        "state-of-the-art performance"
+      ]
+    },
+    "publishedAt": "2025-03-25T13:59:50.000Z",
+    "title": "CoLLM: A Large Language Model for Composed Image Retrieval",
+    "summary": "Composed Image Retrieval (CIR) is a complex task that aims to retrieve images\nbased on a multimodal query. Typical training data consists of triplets\ncontaining a reference image, a textual description of desired modifications,\nand the target image, which are expensive and time-consuming to acquire. The\nscarcity of CIR datasets has led to zero-shot approaches utilizing synthetic\ntriplets or leveraging vision-language models (VLMs) with ubiquitous\nweb-crawled image-caption pairs. However, these methods have significant\nlimitations: synthetic triplets suffer from limited scale, lack of diversity,\nand unnatural modification text, while image-caption pairs hinder joint\nembedding learning of the multimodal query due to the absence of triplet data.\nMoreover, existing approaches struggle with complex and nuanced modification\ntexts that demand sophisticated fusion and understanding of vision and language\nmodalities. We present CoLLM, a one-stop framework that effectively addresses\nthese limitations. Our approach generates triplets on-the-fly from\nimage-caption pairs, enabling supervised training without manual annotation. We\nleverage Large Language Models (LLMs) to generate joint embeddings of reference\nimages and modification texts, facilitating deeper multimodal fusion.\nAdditionally, we introduce Multi-Text CIR (MTCIR), a large-scale dataset\ncomprising 3.4M samples, and refine existing CIR benchmarks (CIRR and\nFashion-IQ) to enhance evaluation reliability. Experimental results demonstrate\nthat CoLLM achieves state-of-the-art performance across multiple CIR benchmarks\nand settings. MTCIR yields competitive results, with up to 15% performance\nimprovement. Our refined benchmarks provide more reliable evaluation metrics\nfor CIR models, contributing to the advancement of this important field.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.19910.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63a4d196cde2b28f82a56bd9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a4d196cde2b28f82a56bd9/iqVFOtDteRMUScFGRcx0L.png",
+      "fullname": "Chuong Huynh",
+      "name": "chuonghm",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.19041",
+      "authors": [
+        {
+          "_id": "67e35da0b1b97cc3392024b1",
+          "name": "Kangwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024b2",
+          "name": "Mengru Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024b3",
+          "name": "Yujie Luo",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024b4",
+          "name": "Lin Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024b5",
+          "name": "Mengshu Sun",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024b6",
+          "name": "Ningyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024b7",
+          "name": "Lei Liang",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024b8",
+          "name": "Zhiqiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024b9",
+          "name": "Jun Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67e35da0b1b97cc3392024ba",
+          "name": "Huajun Chen",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/620b3bbb0668e435407c8d0a/f0fTHNDhXrS7zWpmuxVU-.png"
+      ],
+      "publishedAt": "2025-03-24T18:11:42.000Z",
+      "submittedOnDailyAt": "2025-03-26T00:22:20.466Z",
+      "title": "LookAhead Tuning: Safer Language Models via Partial Answer Previews",
+      "submittedOnDailyBy": {
+        "_id": "620b3bbb0668e435407c8d0a",
+        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+        "isPro": false,
+        "fullname": "Ningyu Zhang",
+        "user": "Ningyu",
+        "type": "user"
+      },
+      "summary": "Fine-tuning enables large language models (LLMs) to adapt to specific\ndomains, but often undermines their previously established safety alignment. To\nmitigate the degradation of model safety during fine-tuning, we introduce\nLookAhead Tuning, which comprises two simple, low-resource, and effective\ndata-driven methods that modify training data by previewing partial answer\nprefixes. Both methods aim to preserve the model's inherent safety mechanisms\nby minimizing perturbations to initial token distributions. Comprehensive\nexperiments demonstrate that LookAhead Tuning effectively maintains model\nsafety without sacrificing robust performance on downstream tasks. Our findings\nposition LookAhead Tuning as a reliable and efficient solution for the safe and\neffective adaptation of LLMs. Code is released at\nhttps://github.com/zjunlp/LookAheadTuning.",
+      "upvotes": 2,
+      "discussionId": "67e35da1b1b97cc339202525",
+      "ai_keywords": [
+        "LookAhead Tuning",
+        "safety alignment",
+        "data-driven methods",
+        "partial answer prefixes",
+        "token distributions",
+        "robust performance",
+        "downstream tasks"
+      ]
+    },
+    "publishedAt": "2025-03-24T14:11:42.000Z",
+    "title": "LookAhead Tuning: Safer Language Models via Partial Answer Previews",
+    "summary": "Fine-tuning enables large language models (LLMs) to adapt to specific\ndomains, but often undermines their previously established safety alignment. To\nmitigate the degradation of model safety during fine-tuning, we introduce\nLookAhead Tuning, which comprises two simple, low-resource, and effective\ndata-driven methods that modify training data by previewing partial answer\nprefixes. Both methods aim to preserve the model's inherent safety mechanisms\nby minimizing perturbations to initial token distributions. Comprehensive\nexperiments demonstrate that LookAhead Tuning effectively maintains model\nsafety without sacrificing robust performance on downstream tasks. Our findings\nposition LookAhead Tuning as a reliable and efficient solution for the safe and\neffective adaptation of LLMs. Code is released at\nhttps://github.com/zjunlp/LookAheadTuning.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/620b3bbb0668e435407c8d0a/f0fTHNDhXrS7zWpmuxVU-.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.19041.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "620b3bbb0668e435407c8d0a",
+      "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+      "fullname": "Ningyu Zhang",
+      "name": "Ningyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 20
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.17361",
+      "authors": [
+        {
+          "_id": "67e35ca7363374850440d91d",
+          "name": "Sophia Tang",
+          "hidden": false
+        },
+        {
+          "_id": "67e35ca7363374850440d91e",
+          "name": "Yinuo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e35ca7363374850440d91f",
+          "name": "Alexander Tong",
+          "hidden": false
+        },
+        {
+          "_id": "67e35ca7363374850440d920",
+          "user": {
+            "_id": "64cd5b3f0494187a9e8b7c69",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/eo9HiGbvCxHQZ-QJB1Y_o.jpeg",
+            "isPro": false,
+            "fullname": "Pranam Chatterjee",
+            "user": "pranamanam",
+            "type": "user"
+          },
+          "name": "Pranam Chatterjee",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-03-26T01:57:51.167Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-21T17:59:43.000Z",
+      "submittedOnDailyAt": "2025-03-26T00:18:51.908Z",
+      "title": "Gumbel-Softmax Flow Matching with Straight-Through Guidance for\n  Controllable Biological Sequence Generation",
+      "submittedOnDailyBy": {
+        "_id": "64cd5b3f0494187a9e8b7c69",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/eo9HiGbvCxHQZ-QJB1Y_o.jpeg",
+        "isPro": false,
+        "fullname": "Pranam Chatterjee",
+        "user": "pranamanam",
+        "type": "user"
+      },
+      "summary": "Flow matching in the continuous simplex has emerged as a promising strategy\nfor DNA sequence design, but struggles to scale to higher simplex dimensions\nrequired for peptide and protein generation. We introduce Gumbel-Softmax Flow\nand Score Matching, a generative framework on the simplex based on a novel\nGumbel-Softmax interpolant with a time-dependent temperature. Using this\ninterpolant, we introduce Gumbel-Softmax Flow Matching by deriving a\nparameterized velocity field that transports from smooth categorical\ndistributions to distributions concentrated at a single vertex of the simplex.\nWe alternatively present Gumbel-Softmax Score Matching which learns to regress\nthe gradient of the probability density. Our framework enables high-quality,\ndiverse generation and scales efficiently to higher-dimensional simplices. To\nenable training-free guidance, we propose Straight-Through Guided Flows\n(STGFlow), a classifier-based guidance method that leverages straight-through\nestimators to steer the unconditional velocity field toward optimal vertices of\nthe simplex. STGFlow enables efficient inference-time guidance using\nclassifiers pre-trained on clean sequences, and can be used with any discrete\nflow method. Together, these components form a robust framework for\ncontrollable de novo sequence generation. We demonstrate state-of-the-art\nperformance in conditional DNA promoter design, sequence-only protein\ngeneration, and target-binding peptide design for rare disease treatment.",
+      "upvotes": 0,
+      "discussionId": "67e35caa363374850440d9df",
+      "ai_keywords": [
+        "Gumbel-Softmax Flow",
+        "Score Matching",
+        "simplex",
+        "Gumbel-Softmax interpolant",
+        "time-dependent temperature",
+        "parameterized velocity field",
+        "smooth categorical distributions",
+        "Gumbel-Softmax Flow Matching",
+        "Straight-Through Guided Flows",
+        "STGFlow",
+        "straight-through estimators",
+        "classifiers",
+        "de novo sequence generation",
+        "conditional DNA promoter design",
+        "sequence-only protein generation",
+        "target-binding peptide design"
+      ]
+    },
+    "publishedAt": "2025-03-21T13:59:43.000Z",
+    "title": "Gumbel-Softmax Flow Matching with Straight-Through Guidance for\n  Controllable Biological Sequence Generation",
+    "summary": "Flow matching in the continuous simplex has emerged as a promising strategy\nfor DNA sequence design, but struggles to scale to higher simplex dimensions\nrequired for peptide and protein generation. We introduce Gumbel-Softmax Flow\nand Score Matching, a generative framework on the simplex based on a novel\nGumbel-Softmax interpolant with a time-dependent temperature. Using this\ninterpolant, we introduce Gumbel-Softmax Flow Matching by deriving a\nparameterized velocity field that transports from smooth categorical\ndistributions to distributions concentrated at a single vertex of the simplex.\nWe alternatively present Gumbel-Softmax Score Matching which learns to regress\nthe gradient of the probability density. Our framework enables high-quality,\ndiverse generation and scales efficiently to higher-dimensional simplices. To\nenable training-free guidance, we propose Straight-Through Guided Flows\n(STGFlow), a classifier-based guidance method that leverages straight-through\nestimators to steer the unconditional velocity field toward optimal vertices of\nthe simplex. STGFlow enables efficient inference-time guidance using\nclassifiers pre-trained on clean sequences, and can be used with any discrete\nflow method. Together, these components form a robust framework for\ncontrollable de novo sequence generation. We demonstrate state-of-the-art\nperformance in conditional DNA promoter design, sequence-only protein\ngeneration, and target-binding peptide design for rare disease treatment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.17361.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64cd5b3f0494187a9e8b7c69",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/eo9HiGbvCxHQZ-QJB1Y_o.jpeg",
+      "fullname": "Pranam Chatterjee",
+      "name": "pranamanam",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.16965",
+      "authors": [
+        {
+          "_id": "67e35c3bf049c252c672b824",
+          "name": "Zhe Hu",
+          "hidden": false
+        },
+        {
+          "_id": "67e35c3bf049c252c672b825",
+          "name": "Jing Li",
+          "hidden": false
+        },
+        {
+          "_id": "67e35c3bf049c252c672b826",
+          "name": "Yu Yin",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-21T09:25:23.000Z",
+      "submittedOnDailyAt": "2025-03-26T00:20:32.465Z",
+      "title": "When Words Outperform Vision: VLMs Can Self-Improve Via Text-Only\n  Training For Human-Centered Decision Making",
+      "submittedOnDailyBy": {
+        "_id": "63999a6fe657365725d0d0a4",
+        "avatarUrl": "/avatars/99736de1bc0d5decf4a6eda86e3c7937.svg",
+        "isPro": false,
+        "fullname": "Derek Zhe Hu",
+        "user": "zhehuderek",
+        "type": "user"
+      },
+      "summary": "Embodied decision-making is fundamental for AI agents operating in real-world\nenvironments. While Visual Language Models (VLMs) have advanced this\ncapability, they still struggle with complex decisions, particularly in\nhuman-centered situations that require deep reasoning about human needs and\nvalues. In this study, we systematically evaluate open-sourced VLMs on\nmultimodal human-centered decision-making tasks. We find that LLMs receiving\nonly textual descriptions unexpectedly outperform their VLM counterparts of\nsimilar scale that process actual images, suggesting that visual alignment may\nhinder VLM abilities. To address this challenge, we propose a novel text-only\ntraining approach with synthesized textual data. This method strengthens VLMs'\nlanguage components and transfers the learned abilities to multimodal\ninference, eliminating the need for expensive image-text paired data.\nFurthermore, we show that VLMs can achieve substantial performance gains\nthrough self-improvement, using training data generated by their LLM\ncounterparts rather than relying on larger teacher models like GPT-4. Our\nfindings establish a more efficient and scalable approach to enhancing VLMs'\nhuman-centered decision-making capabilities, opening new avenues for optimizing\nVLMs through self-improvement mechanisms.",
+      "upvotes": 0,
+      "discussionId": "67e35c3cf049c252c672b859",
+      "ai_keywords": [
+        "Visual Language Models (VLMs)",
+        "multimodal human-centered decision-making tasks",
+        "Large Language Models (LLMs)",
+        "textual descriptions",
+        "visual alignment",
+        "text-only training approach",
+        "synthesized textual data",
+        "self-improvement",
+        "training data",
+        "GPT-4",
+        "human-centered decision-making capabilities"
+      ]
+    },
+    "publishedAt": "2025-03-21T05:25:23.000Z",
+    "title": "When Words Outperform Vision: VLMs Can Self-Improve Via Text-Only\n  Training For Human-Centered Decision Making",
+    "summary": "Embodied decision-making is fundamental for AI agents operating in real-world\nenvironments. While Visual Language Models (VLMs) have advanced this\ncapability, they still struggle with complex decisions, particularly in\nhuman-centered situations that require deep reasoning about human needs and\nvalues. In this study, we systematically evaluate open-sourced VLMs on\nmultimodal human-centered decision-making tasks. We find that LLMs receiving\nonly textual descriptions unexpectedly outperform their VLM counterparts of\nsimilar scale that process actual images, suggesting that visual alignment may\nhinder VLM abilities. To address this challenge, we propose a novel text-only\ntraining approach with synthesized textual data. This method strengthens VLMs'\nlanguage components and transfers the learned abilities to multimodal\ninference, eliminating the need for expensive image-text paired data.\nFurthermore, we show that VLMs can achieve substantial performance gains\nthrough self-improvement, using training data generated by their LLM\ncounterparts rather than relying on larger teacher models like GPT-4. Our\nfindings establish a more efficient and scalable approach to enhancing VLMs'\nhuman-centered decision-making capabilities, opening new avenues for optimizing\nVLMs through self-improvement mechanisms.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.16965.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63999a6fe657365725d0d0a4",
+      "avatarUrl": "/avatars/99736de1bc0d5decf4a6eda86e3c7937.svg",
+      "fullname": "Derek Zhe Hu",
+      "name": "zhehuderek",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
