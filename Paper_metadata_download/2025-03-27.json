@@ -1,0 +1,1088 @@
+[
+  {
+    "paper": {
+      "id": "2503.20240",
+      "authors": [
+        {
+          "_id": "67e4ae6787c92169aa3caa74",
+          "name": "Prin Phunyaphibarn",
+          "hidden": false
+        },
+        {
+          "_id": "67e4ae6787c92169aa3caa75",
+          "name": "Phillip Y. Lee",
+          "hidden": false
+        },
+        {
+          "_id": "67e4ae6787c92169aa3caa76",
+          "name": "Jaihoon Kim",
+          "hidden": false
+        },
+        {
+          "_id": "67e4ae6787c92169aa3caa77",
+          "name": "Minhyuk Sung",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-26T05:11:38.000Z",
+      "submittedOnDailyAt": "2025-03-27T00:22:30.335Z",
+      "title": "Unconditional Priors Matter! Improving Conditional Generation of\n  Fine-Tuned Diffusion Models",
+      "submittedOnDailyBy": {
+        "_id": "6342796a0875f2c99cfd313b",
+        "avatarUrl": "/avatars/98575092404c4197b20c929a6499a015.svg",
+        "isPro": false,
+        "fullname": "Yuseung \"Phillip\" Lee",
+        "user": "phillipinseoul",
+        "type": "user"
+      },
+      "summary": "Classifier-Free Guidance (CFG) is a fundamental technique in training\nconditional diffusion models. The common practice for CFG-based training is to\nuse a single network to learn both conditional and unconditional noise\nprediction, with a small dropout rate for conditioning. However, we observe\nthat the joint learning of unconditional noise with limited bandwidth in\ntraining results in poor priors for the unconditional case. More importantly,\nthese poor unconditional noise predictions become a serious reason for\ndegrading the quality of conditional generation. Inspired by the fact that most\nCFG-based conditional models are trained by fine-tuning a base model with\nbetter unconditional generation, we first show that simply replacing the\nunconditional noise in CFG with that predicted by the base model can\nsignificantly improve conditional generation. Furthermore, we show that a\ndiffusion model other than the one the fine-tuned model was trained on can be\nused for unconditional noise replacement. We experimentally verify our claim\nwith a range of CFG-based conditional models for both image and video\ngeneration, including Zero-1-to-3, Versatile Diffusion, DiT, DynamiCrafter, and\nInstructPix2Pix.",
+      "upvotes": 7,
+      "discussionId": "67e4ae6a87c92169aa3cabc2"
+    },
+    "publishedAt": "2025-03-26T01:11:38.000Z",
+    "title": "Unconditional Priors Matter! Improving Conditional Generation of\n  Fine-Tuned Diffusion Models",
+    "summary": "Classifier-Free Guidance (CFG) is a fundamental technique in training\nconditional diffusion models. The common practice for CFG-based training is to\nuse a single network to learn both conditional and unconditional noise\nprediction, with a small dropout rate for conditioning. However, we observe\nthat the joint learning of unconditional noise with limited bandwidth in\ntraining results in poor priors for the unconditional case. More importantly,\nthese poor unconditional noise predictions become a serious reason for\ndegrading the quality of conditional generation. Inspired by the fact that most\nCFG-based conditional models are trained by fine-tuning a base model with\nbetter unconditional generation, we first show that simply replacing the\nunconditional noise in CFG with that predicted by the base model can\nsignificantly improve conditional generation. Furthermore, we show that a\ndiffusion model other than the one the fine-tuned model was trained on can be\nused for unconditional noise replacement. We experimentally verify our claim\nwith a range of CFG-based conditional models for both image and video\ngeneration, including Zero-1-to-3, Versatile Diffusion, DiT, DynamiCrafter, and\nInstructPix2Pix.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20240.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6342796a0875f2c99cfd313b",
+      "avatarUrl": "/avatars/98575092404c4197b20c929a6499a015.svg",
+      "fullname": "Yuseung \"Phillip\" Lee",
+      "name": "phillipinseoul",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.20756",
+      "authors": [
+        {
+          "_id": "67e4b0b850ca38886d7e78d0",
+          "name": "Chenxi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b0b850ca38886d7e78d1",
+          "name": "Jizhan Fang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b0b850ca38886d7e78d2",
+          "name": "Xiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b0b850ca38886d7e78d3",
+          "name": "Bozhong Tian",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b0b850ca38886d7e78d4",
+          "name": "Ziwen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b0b850ca38886d7e78d5",
+          "name": "Huajun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b0b850ca38886d7e78d6",
+          "name": "Ningyu Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-26T17:45:29.000Z",
+      "submittedOnDailyAt": "2025-03-27T00:28:51.612Z",
+      "title": "ADS-Edit: A Multimodal Knowledge Editing Dataset for Autonomous Driving\n  Systems",
+      "submittedOnDailyBy": {
+        "_id": "620b3bbb0668e435407c8d0a",
+        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+        "isPro": false,
+        "fullname": "Ningyu Zhang",
+        "user": "Ningyu",
+        "type": "user"
+      },
+      "summary": "Recent advancements in Large Multimodal Models (LMMs) have shown promise in\nAutonomous Driving Systems (ADS). However, their direct application to ADS is\nhindered by challenges such as misunderstanding of traffic knowledge, complex\nroad conditions, and diverse states of vehicle. To address these challenges, we\npropose the use of Knowledge Editing, which enables targeted modifications to a\nmodel's behavior without the need for full retraining. Meanwhile, we introduce\nADS-Edit, a multimodal knowledge editing dataset specifically designed for ADS,\nwhich includes various real-world scenarios, multiple data types, and\ncomprehensive evaluation metrics. We conduct comprehensive experiments and\nderive several interesting conclusions. We hope that our work will contribute\nto the further advancement of knowledge editing applications in the field of\nautonomous driving. Code and data are available in\nhttps://github.com/zjunlp/EasyEdit.",
+      "upvotes": 2,
+      "discussionId": "67e4b0bb50ca38886d7e79d0"
+    },
+    "publishedAt": "2025-03-26T13:45:29.000Z",
+    "title": "ADS-Edit: A Multimodal Knowledge Editing Dataset for Autonomous Driving\n  Systems",
+    "summary": "Recent advancements in Large Multimodal Models (LMMs) have shown promise in\nAutonomous Driving Systems (ADS). However, their direct application to ADS is\nhindered by challenges such as misunderstanding of traffic knowledge, complex\nroad conditions, and diverse states of vehicle. To address these challenges, we\npropose the use of Knowledge Editing, which enables targeted modifications to a\nmodel's behavior without the need for full retraining. Meanwhile, we introduce\nADS-Edit, a multimodal knowledge editing dataset specifically designed for ADS,\nwhich includes various real-world scenarios, multiple data types, and\ncomprehensive evaluation metrics. We conduct comprehensive experiments and\nderive several interesting conclusions. We hope that our work will contribute\nto the further advancement of knowledge editing applications in the field of\nautonomous driving. Code and data are available in\nhttps://github.com/zjunlp/EasyEdit.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20756.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "620b3bbb0668e435407c8d0a",
+      "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+      "fullname": "Ningyu Zhang",
+      "name": "Ningyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 20
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.20220",
+      "authors": [
+        {
+          "_id": "67e4b035af7d0551dc377e13",
+          "name": "Weijie Guo",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b035af7d0551dc377e14",
+          "name": "Guofeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b035af7d0551dc377e15",
+          "name": "Wufei Ma",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b035af7d0551dc377e16",
+          "name": "Alan Yuille",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-26T04:23:53.000Z",
+      "submittedOnDailyAt": "2025-03-27T00:26:48.304Z",
+      "title": "DINeMo: Learning Neural Mesh Models with no 3D Annotations",
+      "submittedOnDailyBy": {
+        "_id": "625f81afe1994410eef1c36a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650426282769-noauth.jpeg",
+        "isPro": false,
+        "fullname": "Wufei Ma",
+        "user": "wufeim",
+        "type": "user"
+      },
+      "summary": "Category-level 3D/6D pose estimation is a crucial step towards comprehensive\n3D scene understanding, which would enable a broad range of applications in\nrobotics and embodied AI. Recent works explored neural mesh models that\napproach a range of 2D and 3D tasks from an analysis-by-synthesis perspective.\nDespite the largely enhanced robustness to partial occlusion and domain shifts,\nthese methods depended heavily on 3D annotations for part-contrastive learning,\nwhich confines them to a narrow set of categories and hinders efficient\nscaling. In this work, we present DINeMo, a novel neural mesh model that is\ntrained with no 3D annotations by leveraging pseudo-correspondence obtained\nfrom large visual foundation models. We adopt a bidirectional\npseudo-correspondence generation method, which produce pseudo correspondence\nutilize both local appearance features and global context information.\nExperimental results on car datasets demonstrate that our DINeMo outperforms\nprevious zero- and few-shot 3D pose estimation by a wide margin, narrowing the\ngap with fully-supervised methods by 67.3%. Our DINeMo also scales effectively\nand efficiently when incorporating more unlabeled images during training, which\ndemonstrate the advantages over supervised learning methods that rely on 3D\nannotations. Our project page is available at\nhttps://analysis-by-synthesis.github.io/DINeMo/.",
+      "upvotes": 1,
+      "discussionId": "67e4b038af7d0551dc377f07"
+    },
+    "publishedAt": "2025-03-26T00:23:53.000Z",
+    "title": "DINeMo: Learning Neural Mesh Models with no 3D Annotations",
+    "summary": "Category-level 3D/6D pose estimation is a crucial step towards comprehensive\n3D scene understanding, which would enable a broad range of applications in\nrobotics and embodied AI. Recent works explored neural mesh models that\napproach a range of 2D and 3D tasks from an analysis-by-synthesis perspective.\nDespite the largely enhanced robustness to partial occlusion and domain shifts,\nthese methods depended heavily on 3D annotations for part-contrastive learning,\nwhich confines them to a narrow set of categories and hinders efficient\nscaling. In this work, we present DINeMo, a novel neural mesh model that is\ntrained with no 3D annotations by leveraging pseudo-correspondence obtained\nfrom large visual foundation models. We adopt a bidirectional\npseudo-correspondence generation method, which produce pseudo correspondence\nutilize both local appearance features and global context information.\nExperimental results on car datasets demonstrate that our DINeMo outperforms\nprevious zero- and few-shot 3D pose estimation by a wide margin, narrowing the\ngap with fully-supervised methods by 67.3%. Our DINeMo also scales effectively\nand efficiently when incorporating more unlabeled images during training, which\ndemonstrate the advantages over supervised learning methods that rely on 3D\nannotations. Our project page is available at\nhttps://analysis-by-synthesis.github.io/DINeMo/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20220.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "625f81afe1994410eef1c36a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650426282769-noauth.jpeg",
+      "fullname": "Wufei Ma",
+      "name": "wufeim",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.20020",
+      "authors": [
+        {
+          "_id": "67e4b288fa81c69f446da710",
+          "name": "Gemini Robotics Team",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da711",
+          "name": "Saminda Abeyruwan",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da712",
+          "name": "Joshua Ainslie",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da713",
+          "name": "Jean-Baptiste Alayrac",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da714",
+          "name": "Montserrat Gonzalez Arenas",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da715",
+          "name": "Travis Armstrong",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da716",
+          "name": "Ashwin Balakrishna",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da717",
+          "name": "Robert Baruch",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da718",
+          "name": "Maria Bauza",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da719",
+          "name": "Michiel Blokzijl",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da71a",
+          "name": "Steven Bohez",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da71b",
+          "name": "Konstantinos Bousmalis",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da71c",
+          "name": "Anthony Brohan",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da71d",
+          "name": "Thomas Buschmann",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da71e",
+          "name": "Arunkumar Byravan",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da71f",
+          "name": "Serkan Cabi",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da720",
+          "name": "Ken Caluwaerts",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da721",
+          "name": "Federico Casarini",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da722",
+          "name": "Oscar Chang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da723",
+          "name": "Jose Enrique Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da724",
+          "name": "Xi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da725",
+          "name": "Hao-Tien Lewis Chiang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da726",
+          "name": "Krzysztof Choromanski",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da727",
+          "name": "David D'Ambrosio",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da728",
+          "name": "Sudeep Dasari",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da729",
+          "name": "Todor Davchev",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da72a",
+          "name": "Coline Devin",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da72b",
+          "name": "Norman Di Palo",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da72c",
+          "name": "Tianli Ding",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da72d",
+          "name": "Adil Dostmohamed",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da72e",
+          "name": "Danny Driess",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da72f",
+          "name": "Yilun Du",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da730",
+          "name": "Debidatta Dwibedi",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da731",
+          "name": "Michael Elabd",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da732",
+          "name": "Claudio Fantacci",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da733",
+          "name": "Cody Fong",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da734",
+          "name": "Erik Frey",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da735",
+          "name": "Chuyuan Fu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da736",
+          "name": "Marissa Giustina",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da737",
+          "name": "Keerthana Gopalakrishnan",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da738",
+          "name": "Laura Graesser",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da739",
+          "name": "Leonard Hasenclever",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da73a",
+          "name": "Nicolas Heess",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da73b",
+          "name": "Brandon Hernaez",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da73c",
+          "name": "Alexander Herzog",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da73d",
+          "name": "R. Alex Hofer",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da73e",
+          "name": "Jan Humplik",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da73f",
+          "name": "Atil Iscen",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da740",
+          "name": "Mithun George Jacob",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da741",
+          "name": "Deepali Jain",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da742",
+          "name": "Ryan Julian",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da743",
+          "name": "Dmitry Kalashnikov",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da744",
+          "name": "M. Emre Karagozler",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da745",
+          "name": "Stefani Karp",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da746",
+          "name": "Chase Kew",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da747",
+          "name": "Jerad Kirkland",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da748",
+          "name": "Sean Kirmani",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da749",
+          "name": "Yuheng Kuang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da74a",
+          "name": "Thomas Lampe",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da74b",
+          "name": "Antoine Laurens",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da74c",
+          "name": "Isabel Leal",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da74d",
+          "name": "Alex X. Lee",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da74e",
+          "name": "Tsang-Wei Edward Lee",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da74f",
+          "name": "Jacky Liang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da750",
+          "name": "Yixin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da751",
+          "name": "Sharath Maddineni",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da752",
+          "name": "Anirudha Majumdar",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da753",
+          "name": "Assaf Hurwitz Michaely",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da754",
+          "name": "Robert Moreno",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da755",
+          "name": "Michael Neunert",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da756",
+          "name": "Francesco Nori",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da757",
+          "name": "Carolina Parada",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da758",
+          "name": "Emilio Parisotto",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da759",
+          "name": "Peter Pastor",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da75a",
+          "name": "Acorn Pooley",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da75b",
+          "name": "Kanishka Rao",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da75c",
+          "name": "Krista Reymann",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da75d",
+          "name": "Dorsa Sadigh",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da75e",
+          "name": "Stefano Saliceti",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da75f",
+          "name": "Pannag Sanketi",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da760",
+          "name": "Pierre Sermanet",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da761",
+          "name": "Dhruv Shah",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da762",
+          "name": "Mohit Sharma",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da763",
+          "name": "Kathryn Shea",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da764",
+          "name": "Charles Shu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da765",
+          "name": "Vikas Sindhwani",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da766",
+          "name": "Sumeet Singh",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da767",
+          "name": "Radu Soricut",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da768",
+          "name": "Jost Tobias Springenberg",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da769",
+          "name": "Rachel Sterneck",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da76a",
+          "name": "Razvan Surdulescu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da76b",
+          "name": "Jie Tan",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da76c",
+          "name": "Jonathan Tompson",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da76d",
+          "name": "Vincent Vanhoucke",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da76e",
+          "name": "Jake Varley",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da76f",
+          "name": "Grace Vesom",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da770",
+          "name": "Giulia Vezzani",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da771",
+          "name": "Oriol Vinyals",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da772",
+          "name": "Ayzaan Wahid",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da773",
+          "name": "Stefan Welker",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da774",
+          "name": "Paul Wohlhart",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da775",
+          "name": "Fei Xia",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da776",
+          "name": "Ted Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da777",
+          "name": "Annie Xie",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da778",
+          "name": "Jinyu Xie",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da779",
+          "name": "Peng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da77a",
+          "name": "Sichun Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da77b",
+          "name": "Ying Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da77c",
+          "name": "Zhuo Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da77d",
+          "name": "Yuxiang Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da77e",
+          "name": "Rui Yao",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da77f",
+          "name": "Sergey Yaroshenko",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da780",
+          "name": "Wenhao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da781",
+          "name": "Wentao Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da782",
+          "name": "Jingwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da783",
+          "name": "Tingnan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da784",
+          "name": "Allan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b288fa81c69f446da785",
+          "name": "Yuxiang Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-25T19:02:56.000Z",
+      "submittedOnDailyAt": "2025-03-27T00:36:27.703Z",
+      "title": "Gemini Robotics: Bringing AI into the Physical World",
+      "submittedOnDailyBy": {
+        "_id": "60f1abe7544c2adfd699860c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+        "isPro": false,
+        "fullname": "AK",
+        "user": "akhaliq",
+        "type": "user"
+      },
+      "summary": "Recent advancements in large multimodal models have led to the emergence of\nremarkable generalist capabilities in digital domains, yet their translation to\nphysical agents such as robots remains a significant challenge. This report\nintroduces a new family of AI models purposefully designed for robotics and\nbuilt upon the foundation of Gemini 2.0. We present Gemini Robotics, an\nadvanced Vision-Language-Action (VLA) generalist model capable of directly\ncontrolling robots. Gemini Robotics executes smooth and reactive movements to\ntackle a wide range of complex manipulation tasks while also being robust to\nvariations in object types and positions, handling unseen environments as well\nas following diverse, open vocabulary instructions. We show that with\nadditional fine-tuning, Gemini Robotics can be specialized to new capabilities\nincluding solving long-horizon, highly dexterous tasks, learning new\nshort-horizon tasks from as few as 100 demonstrations and adapting to\ncompletely novel robot embodiments. This is made possible because Gemini\nRobotics builds on top of the Gemini Robotics-ER model, the second model we\nintroduce in this work. Gemini Robotics-ER (Embodied Reasoning) extends\nGemini's multimodal reasoning capabilities into the physical world, with\nenhanced spatial and temporal understanding. This enables capabilities relevant\nto robotics including object detection, pointing, trajectory and grasp\nprediction, as well as multi-view correspondence and 3D bounding box\npredictions. We show how this novel combination can support a variety of\nrobotics applications. We also discuss and address important safety\nconsiderations related to this new class of robotics foundation models. The\nGemini Robotics family marks a substantial step towards developing\ngeneral-purpose robots that realizes AI's potential in the physical world.",
+      "upvotes": 1,
+      "discussionId": "67e4b28cfa81c69f446da8c7"
+    },
+    "publishedAt": "2025-03-25T15:02:56.000Z",
+    "title": "Gemini Robotics: Bringing AI into the Physical World",
+    "summary": "Recent advancements in large multimodal models have led to the emergence of\nremarkable generalist capabilities in digital domains, yet their translation to\nphysical agents such as robots remains a significant challenge. This report\nintroduces a new family of AI models purposefully designed for robotics and\nbuilt upon the foundation of Gemini 2.0. We present Gemini Robotics, an\nadvanced Vision-Language-Action (VLA) generalist model capable of directly\ncontrolling robots. Gemini Robotics executes smooth and reactive movements to\ntackle a wide range of complex manipulation tasks while also being robust to\nvariations in object types and positions, handling unseen environments as well\nas following diverse, open vocabulary instructions. We show that with\nadditional fine-tuning, Gemini Robotics can be specialized to new capabilities\nincluding solving long-horizon, highly dexterous tasks, learning new\nshort-horizon tasks from as few as 100 demonstrations and adapting to\ncompletely novel robot embodiments. This is made possible because Gemini\nRobotics builds on top of the Gemini Robotics-ER model, the second model we\nintroduce in this work. Gemini Robotics-ER (Embodied Reasoning) extends\nGemini's multimodal reasoning capabilities into the physical world, with\nenhanced spatial and temporal understanding. This enables capabilities relevant\nto robotics including object detection, pointing, trajectory and grasp\nprediction, as well as multi-view correspondence and 3D bounding box\npredictions. We show how this novel combination can support a variety of\nrobotics applications. We also discuss and address important safety\nconsiderations related to this new class of robotics foundation models. The\nGemini Robotics family marks a substantial step towards developing\ngeneral-purpose robots that realizes AI's potential in the physical world.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20020.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60f1abe7544c2adfd699860c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+      "fullname": "AK",
+      "name": "akhaliq",
+      "type": "user",
+      "isPro": false,
+      "isHf": true,
+      "isHfAdmin": true,
+      "isMod": false,
+      "followerCount": 6475
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.20201",
+      "authors": [
+        {
+          "_id": "67e4b04c8c0347025bd0fe84",
+          "name": "Salaheddin Alzubi",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe85",
+          "user": {
+            "_id": "673f945e6cd62dbd4b02790d",
+            "avatarUrl": "/avatars/3742e4e6b88d4f8b78d5c5308f55773e.svg",
+            "isPro": false,
+            "fullname": "Creston Brooks",
+            "user": "cabxyz",
+            "type": "user"
+          },
+          "name": "Creston Brooks",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-03-27T01:56:28.853Z",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe86",
+          "name": "Purva Chiniya",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe87",
+          "name": "Edoardo Contente",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe88",
+          "name": "Chiara von Gerlach",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe89",
+          "name": "Lucas Irwin",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe8a",
+          "name": "Yihan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe8b",
+          "name": "Arda Kaz",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe8c",
+          "name": "Windsor Nguyen",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe8d",
+          "name": "Sewoong Oh",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe8e",
+          "name": "Himanshu Tyagi",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b04c8c0347025bd0fe8f",
+          "name": "Pramod Viswanath",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-26T03:51:32.000Z",
+      "submittedOnDailyAt": "2025-03-27T00:26:59.804Z",
+      "title": "Open Deep Search: Democratizing Search with Open-source Reasoning Agents",
+      "submittedOnDailyBy": {
+        "_id": "60f1abe7544c2adfd699860c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+        "isPro": false,
+        "fullname": "AK",
+        "user": "akhaliq",
+        "type": "user"
+      },
+      "summary": "We introduce Open Deep Search (ODS) to close the increasing gap between the\nproprietary search AI solutions, such as Perplexity's Sonar Reasoning Pro and\nOpenAI's GPT-4o Search Preview, and their open-source counterparts. The main\ninnovation introduced in ODS is to augment the reasoning capabilities of the\nlatest open-source LLMs with reasoning agents that can judiciously use web\nsearch tools to answer queries. Concretely, ODS consists of two components that\nwork with a base LLM chosen by the user: Open Search Tool and Open Reasoning\nAgent. Open Reasoning Agent interprets the given task and completes it by\norchestrating a sequence of actions that includes calling tools, one of which\nis the Open Search Tool. Open Search Tool is a novel web search tool that\noutperforms proprietary counterparts. Together with powerful open-source\nreasoning LLMs, such as DeepSeek-R1, ODS nearly matches and sometimes surpasses\nthe existing state-of-the-art baselines on two benchmarks: SimpleQA and FRAMES.\nFor example, on the FRAMES evaluation benchmark, ODS improves the best existing\nbaseline of the recently released GPT-4o Search Preview by 9.7% in accuracy.\nODS is a general framework for seamlessly augmenting any LLMs -- for example,\nDeepSeek-R1 that achieves 82.4% on SimpleQA and 30.1% on FRAMES -- with search\nand reasoning capabilities to achieve state-of-the-art performance: 88.3% on\nSimpleQA and 75.3% on FRAMES.",
+      "upvotes": 0,
+      "discussionId": "67e4b04c8c0347025bd0fed2"
+    },
+    "publishedAt": "2025-03-25T23:51:32.000Z",
+    "title": "Open Deep Search: Democratizing Search with Open-source Reasoning Agents",
+    "summary": "We introduce Open Deep Search (ODS) to close the increasing gap between the\nproprietary search AI solutions, such as Perplexity's Sonar Reasoning Pro and\nOpenAI's GPT-4o Search Preview, and their open-source counterparts. The main\ninnovation introduced in ODS is to augment the reasoning capabilities of the\nlatest open-source LLMs with reasoning agents that can judiciously use web\nsearch tools to answer queries. Concretely, ODS consists of two components that\nwork with a base LLM chosen by the user: Open Search Tool and Open Reasoning\nAgent. Open Reasoning Agent interprets the given task and completes it by\norchestrating a sequence of actions that includes calling tools, one of which\nis the Open Search Tool. Open Search Tool is a novel web search tool that\noutperforms proprietary counterparts. Together with powerful open-source\nreasoning LLMs, such as DeepSeek-R1, ODS nearly matches and sometimes surpasses\nthe existing state-of-the-art baselines on two benchmarks: SimpleQA and FRAMES.\nFor example, on the FRAMES evaluation benchmark, ODS improves the best existing\nbaseline of the recently released GPT-4o Search Preview by 9.7% in accuracy.\nODS is a general framework for seamlessly augmenting any LLMs -- for example,\nDeepSeek-R1 that achieves 82.4% on SimpleQA and 30.1% on FRAMES -- with search\nand reasoning capabilities to achieve state-of-the-art performance: 88.3% on\nSimpleQA and 75.3% on FRAMES.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20201.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60f1abe7544c2adfd699860c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+      "fullname": "AK",
+      "name": "akhaliq",
+      "type": "user",
+      "isPro": false,
+      "isHf": true,
+      "isHfAdmin": true,
+      "isMod": false,
+      "followerCount": 6475
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.19953",
+      "authors": [
+        {
+          "_id": "67e4b46cc90e5edf25f581f8",
+          "name": "Stefan Stojanov",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b46cc90e5edf25f581f9",
+          "name": "David Wendt",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b46cc90e5edf25f581fa",
+          "name": "Seungwoo Kim",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b46cc90e5edf25f581fb",
+          "name": "Rahul Venkatesh",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b46cc90e5edf25f581fc",
+          "name": "Kevin Feigelis",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b46cc90e5edf25f581fd",
+          "name": "Jiajun Wu",
+          "hidden": false
+        },
+        {
+          "_id": "67e4b46cc90e5edf25f581fe",
+          "name": "Daniel LK Yamins",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-25T17:58:52.000Z",
+      "submittedOnDailyAt": "2025-03-27T00:44:41.359Z",
+      "title": "Self-Supervised Learning of Motion Concepts by Optimizing\n  Counterfactuals",
+      "submittedOnDailyBy": {
+        "_id": "60f1abe7544c2adfd699860c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+        "isPro": false,
+        "fullname": "AK",
+        "user": "akhaliq",
+        "type": "user"
+      },
+      "summary": "Estimating motion in videos is an essential computer vision problem with many\ndownstream applications, including controllable video generation and robotics.\nCurrent solutions are primarily trained using synthetic data or require tuning\nof situation-specific heuristics, which inherently limits these models'\ncapabilities in real-world contexts. Despite recent developments in large-scale\nself-supervised learning from videos, leveraging such representations for\nmotion estimation remains relatively underexplored. In this work, we develop\nOpt-CWM, a self-supervised technique for flow and occlusion estimation from a\npre-trained next-frame prediction model. Opt-CWM works by learning to optimize\ncounterfactual probes that extract motion information from a base video model,\navoiding the need for fixed heuristics while training on unrestricted video\ninputs. We achieve state-of-the-art performance for motion estimation on\nreal-world videos while requiring no labeled data.",
+      "upvotes": 0,
+      "discussionId": "67e4b46ec90e5edf25f582db"
+    },
+    "publishedAt": "2025-03-25T13:58:52.000Z",
+    "title": "Self-Supervised Learning of Motion Concepts by Optimizing\n  Counterfactuals",
+    "summary": "Estimating motion in videos is an essential computer vision problem with many\ndownstream applications, including controllable video generation and robotics.\nCurrent solutions are primarily trained using synthetic data or require tuning\nof situation-specific heuristics, which inherently limits these models'\ncapabilities in real-world contexts. Despite recent developments in large-scale\nself-supervised learning from videos, leveraging such representations for\nmotion estimation remains relatively underexplored. In this work, we develop\nOpt-CWM, a self-supervised technique for flow and occlusion estimation from a\npre-trained next-frame prediction model. Opt-CWM works by learning to optimize\ncounterfactual probes that extract motion information from a base video model,\navoiding the need for fixed heuristics while training on unrestricted video\ninputs. We achieve state-of-the-art performance for motion estimation on\nreal-world videos while requiring no labeled data.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.19953.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60f1abe7544c2adfd699860c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+      "fullname": "AK",
+      "name": "akhaliq",
+      "type": "user",
+      "isPro": false,
+      "isHf": true,
+      "isHfAdmin": true,
+      "isMod": false,
+      "followerCount": 6475
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.19462",
+      "authors": [
+        {
+          "_id": "67e3641cd8da46951f860d84",
+          "name": "Haiyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e3641cd8da46951f860d85",
+          "name": "Xinyuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67e3641cd8da46951f860d86",
+          "name": "Yaohui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67e3641cd8da46951f860d87",
+          "name": "Xihui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67e3641cd8da46951f860d88",
+          "name": "Yunhong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67e3641cd8da46951f860d89",
+          "name": "Yu Qiao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-25T08:52:07.000Z",
+      "submittedOnDailyAt": "2025-03-27T00:39:48.103Z",
+      "title": "AccVideo: Accelerating Video Diffusion Model with Synthetic Dataset",
+      "submittedOnDailyBy": {
+        "_id": "645b8bf6438d6cfbe1ae47ae",
+        "avatarUrl": "/avatars/3e4dc0523ba8e314b298567cf8f0c0ae.svg",
+        "isPro": false,
+        "fullname": "Haiyu Zhang",
+        "user": "aejion",
+        "type": "user"
+      },
+      "summary": "Diffusion models have achieved remarkable progress in the field of video\ngeneration. However, their iterative denoising nature requires a large number\nof inference steps to generate a video, which is slow and computationally\nexpensive. In this paper, we begin with a detailed analysis of the challenges\npresent in existing diffusion distillation methods and propose a novel\nefficient method, namely AccVideo, to reduce the inference steps for\naccelerating video diffusion models with synthetic dataset. We leverage the\npretrained video diffusion model to generate multiple valid denoising\ntrajectories as our synthetic dataset, which eliminates the use of useless data\npoints during distillation. Based on the synthetic dataset, we design a\ntrajectory-based few-step guidance that utilizes key data points from the\ndenoising trajectories to learn the noise-to-video mapping, enabling video\ngeneration in fewer steps. Furthermore, since the synthetic dataset captures\nthe data distribution at each diffusion timestep, we introduce an adversarial\ntraining strategy to align the output distribution of the student model with\nthat of our synthetic dataset, thereby enhancing the video quality. Extensive\nexperiments demonstrate that our model achieves 8.5x improvements in generation\nspeed compared to the teacher model while maintaining comparable performance.\nCompared to previous accelerating methods, our approach is capable of\ngenerating videos with higher quality and resolution, i.e., 5-seconds,\n720x1280, 24fps.",
+      "upvotes": 0,
+      "discussionId": "67e3641ed8da46951f860e12",
+      "ai_keywords": [
+        "diffusion models",
+        "video generation",
+        "iterative denoising",
+        "inference steps",
+        "diffusion distillation",
+        "AccVideo",
+        "synthetic dataset",
+        "pretrained video diffusion model",
+        "denoising trajectories",
+        "trajectory-based few-step guidance",
+        "noise-to-video mapping",
+        "adversarial training strategy"
+      ]
+    },
+    "publishedAt": "2025-03-25T04:52:07.000Z",
+    "title": "AccVideo: Accelerating Video Diffusion Model with Synthetic Dataset",
+    "summary": "Diffusion models have achieved remarkable progress in the field of video\ngeneration. However, their iterative denoising nature requires a large number\nof inference steps to generate a video, which is slow and computationally\nexpensive. In this paper, we begin with a detailed analysis of the challenges\npresent in existing diffusion distillation methods and propose a novel\nefficient method, namely AccVideo, to reduce the inference steps for\naccelerating video diffusion models with synthetic dataset. We leverage the\npretrained video diffusion model to generate multiple valid denoising\ntrajectories as our synthetic dataset, which eliminates the use of useless data\npoints during distillation. Based on the synthetic dataset, we design a\ntrajectory-based few-step guidance that utilizes key data points from the\ndenoising trajectories to learn the noise-to-video mapping, enabling video\ngeneration in fewer steps. Furthermore, since the synthetic dataset captures\nthe data distribution at each diffusion timestep, we introduce an adversarial\ntraining strategy to align the output distribution of the student model with\nthat of our synthetic dataset, thereby enhancing the video quality. Extensive\nexperiments demonstrate that our model achieves 8.5x improvements in generation\nspeed compared to the teacher model while maintaining comparable performance.\nCompared to previous accelerating methods, our approach is capable of\ngenerating videos with higher quality and resolution, i.e., 5-seconds,\n720x1280, 24fps.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.19462.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645b8bf6438d6cfbe1ae47ae",
+      "avatarUrl": "/avatars/3e4dc0523ba8e314b298567cf8f0c0ae.svg",
+      "fullname": "Haiyu Zhang",
+      "name": "aejion",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
