@@ -1,0 +1,562 @@
+[
+  {
+    "paper": {
+      "id": "2503.21088",
+      "authors": [
+        {
+          "_id": "67e602b6dabfd9d4bbf10849",
+          "user": {
+            "_id": "66f4bdbdc51768d9d4498d16",
+            "avatarUrl": "/avatars/0f6ded5fd9cf4e6f0b180b5aa329ea33.svg",
+            "isPro": false,
+            "fullname": "Haoming Xu",
+            "user": "HaomingXu",
+            "type": "user"
+          },
+          "name": "Haoming Xu",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-03-28T02:00:25.958Z",
+          "hidden": false
+        },
+        {
+          "_id": "67e602b6dabfd9d4bbf1084a",
+          "name": "Shuxun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67e602b6dabfd9d4bbf1084b",
+          "name": "Yanqiu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67e602b6dabfd9d4bbf1084c",
+          "name": "Yi Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "67e602b6dabfd9d4bbf1084d",
+          "name": "Ziyan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "67e602b6dabfd9d4bbf1084e",
+          "name": "Ningyuan Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67e602b6dabfd9d4bbf1084f",
+          "name": "Shumin Deng",
+          "hidden": false
+        },
+        {
+          "_id": "67e602b6dabfd9d4bbf10850",
+          "name": "Huajun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67e602b6dabfd9d4bbf10851",
+          "name": "Ningyu Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-27T02:03:25.000Z",
+      "submittedOnDailyAt": "2025-03-28T00:32:00.822Z",
+      "title": "ZJUKLAB at SemEval-2025 Task 4: Unlearning via Model Merging",
+      "submittedOnDailyBy": {
+        "_id": "620b3bbb0668e435407c8d0a",
+        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+        "isPro": false,
+        "fullname": "Ningyu Zhang",
+        "user": "Ningyu",
+        "type": "user"
+      },
+      "summary": "This paper presents the ZJUKLAB team's submission for SemEval-2025 Task 4:\nUnlearning Sensitive Content from Large Language Models. This task aims to\nselectively erase sensitive knowledge from large language models, avoiding both\nover-forgetting and under-forgetting issues. We propose an unlearning system\nthat leverages Model Merging (specifically TIES-Merging), combining two\nspecialized models into a more balanced unlearned model. Our system achieves\ncompetitive results, ranking second among 26 teams, with an online score of\n0.944 for Task Aggregate and 0.487 for overall Aggregate. In this paper, we\nalso conduct local experiments and perform a comprehensive analysis of the\nunlearning process, examining performance trajectories, loss dynamics, and\nweight perspectives, along with several supplementary experiments, to\nunderstand the effectiveness of our method. Furthermore, we analyze the\nshortcomings of our method and evaluation metrics, emphasizing that MIA scores\nand ROUGE-based metrics alone are insufficient to fully evaluate successful\nunlearning. Finally, we emphasize the need for more comprehensive evaluation\nmethodologies and rethinking of unlearning objectives in future research. Code\nis available at https://github.com/zjunlp/unlearn/tree/main/semeval25.",
+      "upvotes": 4,
+      "discussionId": "67e602badabfd9d4bbf10973",
+      "githubRepo": "https://github.com/zjunlp/unlearn",
+      "ai_keywords": [
+        "Model Merging",
+        "TIES-Merging",
+        "large language models",
+        "unlearning",
+        "over-forgetting",
+        "under-forgetting",
+        "unlearned model",
+        "performance trajectories",
+        "loss dynamics",
+        "weight perspectives",
+        "MIA scores",
+        "ROUGE-based metrics"
+      ]
+    },
+    "publishedAt": "2025-03-26T22:03:25.000Z",
+    "title": "ZJUKLAB at SemEval-2025 Task 4: Unlearning via Model Merging",
+    "summary": "This paper presents the ZJUKLAB team's submission for SemEval-2025 Task 4:\nUnlearning Sensitive Content from Large Language Models. This task aims to\nselectively erase sensitive knowledge from large language models, avoiding both\nover-forgetting and under-forgetting issues. We propose an unlearning system\nthat leverages Model Merging (specifically TIES-Merging), combining two\nspecialized models into a more balanced unlearned model. Our system achieves\ncompetitive results, ranking second among 26 teams, with an online score of\n0.944 for Task Aggregate and 0.487 for overall Aggregate. In this paper, we\nalso conduct local experiments and perform a comprehensive analysis of the\nunlearning process, examining performance trajectories, loss dynamics, and\nweight perspectives, along with several supplementary experiments, to\nunderstand the effectiveness of our method. Furthermore, we analyze the\nshortcomings of our method and evaluation metrics, emphasizing that MIA scores\nand ROUGE-based metrics alone are insufficient to fully evaluate successful\nunlearning. Finally, we emphasize the need for more comprehensive evaluation\nmethodologies and rethinking of unlearning objectives in future research. Code\nis available at https://github.com/zjunlp/unlearn/tree/main/semeval25.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.21088.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "620b3bbb0668e435407c8d0a",
+      "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+      "fullname": "Ningyu Zhang",
+      "name": "Ningyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 20
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.20853",
+      "authors": [
+        {
+          "_id": "67e5ff24cce3913200f29387",
+          "name": "Alexander Swerdlow",
+          "hidden": false
+        },
+        {
+          "_id": "67e5ff24cce3913200f29388",
+          "name": "Mihir Prabhudesai",
+          "hidden": false
+        },
+        {
+          "_id": "67e5ff24cce3913200f29389",
+          "name": "Siddharth Gandhi",
+          "hidden": false
+        },
+        {
+          "_id": "67e5ff24cce3913200f2938a",
+          "name": "Deepak Pathak",
+          "hidden": false
+        },
+        {
+          "_id": "67e5ff24cce3913200f2938b",
+          "name": "Katerina Fragkiadaki",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-26T17:59:51.000Z",
+      "submittedOnDailyAt": "2025-03-28T00:17:26.527Z",
+      "title": "Unified Multimodal Discrete Diffusion",
+      "submittedOnDailyBy": {
+        "_id": "6310ff7dd43c55e811f8772f",
+        "avatarUrl": "/avatars/0dcab81771329d13cc62b08e55a71c9a.svg",
+        "isPro": false,
+        "fullname": "Mihir Prabhudesai",
+        "user": "mihirpd",
+        "type": "user"
+      },
+      "summary": "Multimodal generative models that can understand and generate across multiple\nmodalities are dominated by autoregressive (AR) approaches, which process\ntokens sequentially from left to right, or top to bottom. These models jointly\nhandle images, text, video, and audio for various tasks such as image\ncaptioning, question answering, and image generation. In this work, we explore\ndiscrete diffusion models as a unified generative formulation in the joint text\nand image domain, building upon their recent success in text generation.\nDiscrete diffusion models offer several advantages over AR models, including\nimproved control over quality versus diversity of generated samples, the\nability to perform joint multimodal inpainting (across both text and image\ndomains), and greater controllability in generation through guidance.\nLeveraging these benefits, we present the first Unified Multimodal Discrete\nDiffusion (UniDisc) model which is capable of jointly understanding and\ngenerating text and images for a variety of downstream tasks. We compare\nUniDisc to multimodal AR models, performing a scaling analysis and\ndemonstrating that UniDisc outperforms them in terms of both performance and\ninference-time compute, enhanced controllability, editability, inpainting, and\nflexible trade-off between inference time and generation quality. Code and\nadditional visualizations are available at https://unidisc.github.io.",
+      "upvotes": 1,
+      "discussionId": "67e5ff28cce3913200f2951e",
+      "projectPage": "https://unidisc.github.io/",
+      "githubRepo": "https://github.com/alexanderswerdlow/unidisc",
+      "ai_keywords": [
+        "autoregressive (AR) approaches",
+        "discrete diffusion models",
+        "multimodal inpainting",
+        "control over quality versus diversity",
+        "Unity Multimodal Discrete Diffusion (UniDisc)",
+        "scaling analysis",
+        "generation quality",
+        "inference-time compute",
+        "controllability",
+        "editability"
+      ]
+    },
+    "publishedAt": "2025-03-26T13:59:51.000Z",
+    "title": "Unified Multimodal Discrete Diffusion",
+    "summary": "Multimodal generative models that can understand and generate across multiple\nmodalities are dominated by autoregressive (AR) approaches, which process\ntokens sequentially from left to right, or top to bottom. These models jointly\nhandle images, text, video, and audio for various tasks such as image\ncaptioning, question answering, and image generation. In this work, we explore\ndiscrete diffusion models as a unified generative formulation in the joint text\nand image domain, building upon their recent success in text generation.\nDiscrete diffusion models offer several advantages over AR models, including\nimproved control over quality versus diversity of generated samples, the\nability to perform joint multimodal inpainting (across both text and image\ndomains), and greater controllability in generation through guidance.\nLeveraging these benefits, we present the first Unified Multimodal Discrete\nDiffusion (UniDisc) model which is capable of jointly understanding and\ngenerating text and images for a variety of downstream tasks. We compare\nUniDisc to multimodal AR models, performing a scaling analysis and\ndemonstrating that UniDisc outperforms them in terms of both performance and\ninference-time compute, enhanced controllability, editability, inpainting, and\nflexible trade-off between inference time and generation quality. Code and\nadditional visualizations are available at https://unidisc.github.io.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20853.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6310ff7dd43c55e811f8772f",
+      "avatarUrl": "/avatars/0dcab81771329d13cc62b08e55a71c9a.svg",
+      "fullname": "Mihir Prabhudesai",
+      "name": "mihirpd",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.20776",
+      "authors": [
+        {
+          "_id": "67e6019af54a34f8a989d8eb",
+          "name": "Shijie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8ec",
+          "name": "Hui Ren",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8ed",
+          "name": "Yijia Weng",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8ee",
+          "name": "Shuwang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8ef",
+          "name": "Zhen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8f0",
+          "name": "Dejia Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8f1",
+          "name": "Zhiwen Fan",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8f2",
+          "name": "Suya You",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8f3",
+          "name": "Zhangyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8f4",
+          "name": "Leonidas Guibas",
+          "hidden": false
+        },
+        {
+          "_id": "67e6019af54a34f8a989d8f5",
+          "name": "Achuta Kadambi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-26T17:56:16.000Z",
+      "submittedOnDailyAt": "2025-03-28T00:26:28.356Z",
+      "title": "Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile\n  Gaussian Feature Fields",
+      "submittedOnDailyBy": {
+        "_id": "60f1abe7544c2adfd699860c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+        "isPro": false,
+        "fullname": "AK",
+        "user": "akhaliq",
+        "type": "user"
+      },
+      "summary": "Recent advancements in 2D and multimodal models have achieved remarkable\nsuccess by leveraging large-scale training on extensive datasets. However,\nextending these achievements to enable free-form interactions and high-level\nsemantic operations with complex 3D/4D scenes remains challenging. This\ndifficulty stems from the limited availability of large-scale, annotated 3D/4D\nor multi-view datasets, which are crucial for generalizable vision and language\ntasks such as open-vocabulary and prompt-based segmentation, language-guided\nediting, and visual question answering (VQA). In this paper, we introduce\nFeature4X, a universal framework designed to extend any functionality from 2D\nvision foundation model into the 4D realm, using only monocular video input,\nwhich is widely available from user-generated content. The \"X\" in Feature4X\nrepresents its versatility, enabling any task through adaptable,\nmodel-conditioned 4D feature field distillation. At the core of our framework\nis a dynamic optimization strategy that unifies multiple model capabilities\ninto a single representation. Additionally, to the best of our knowledge,\nFeature4X is the first method to distill and lift the features of video\nfoundation models (e.g. SAM2, InternVideo2) into an explicit 4D feature field\nusing Gaussian Splatting. Our experiments showcase novel view segment anything,\ngeometric and appearance scene editing, and free-form VQA across all time\nsteps, empowered by LLMs in feedback loops. These advancements broaden the\nscope of agentic AI applications by providing a foundation for scalable,\ncontextually and spatiotemporally aware systems capable of immersive dynamic 4D\nscene interaction.",
+      "upvotes": 1,
+      "discussionId": "67e6019ff54a34f8a989d9d6",
+      "ai_keywords": [
+        "Feature4X",
+        "4D feature field distillation",
+        "Gaussian Splatting",
+        "SAM2",
+        "InternVideo2",
+        "novel view segment anything",
+        "geometric and appearance scene editing",
+        "free-form VQA",
+        "LLMs",
+        "agentic AI applications",
+        "scalable systems",
+        "contextually aware",
+        "spatiotemporally aware",
+        "immersive dynamic 4D scene interaction"
+      ]
+    },
+    "publishedAt": "2025-03-26T13:56:16.000Z",
+    "title": "Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile\n  Gaussian Feature Fields",
+    "summary": "Recent advancements in 2D and multimodal models have achieved remarkable\nsuccess by leveraging large-scale training on extensive datasets. However,\nextending these achievements to enable free-form interactions and high-level\nsemantic operations with complex 3D/4D scenes remains challenging. This\ndifficulty stems from the limited availability of large-scale, annotated 3D/4D\nor multi-view datasets, which are crucial for generalizable vision and language\ntasks such as open-vocabulary and prompt-based segmentation, language-guided\nediting, and visual question answering (VQA). In this paper, we introduce\nFeature4X, a universal framework designed to extend any functionality from 2D\nvision foundation model into the 4D realm, using only monocular video input,\nwhich is widely available from user-generated content. The \"X\" in Feature4X\nrepresents its versatility, enabling any task through adaptable,\nmodel-conditioned 4D feature field distillation. At the core of our framework\nis a dynamic optimization strategy that unifies multiple model capabilities\ninto a single representation. Additionally, to the best of our knowledge,\nFeature4X is the first method to distill and lift the features of video\nfoundation models (e.g. SAM2, InternVideo2) into an explicit 4D feature field\nusing Gaussian Splatting. Our experiments showcase novel view segment anything,\ngeometric and appearance scene editing, and free-form VQA across all time\nsteps, empowered by LLMs in feedback loops. These advancements broaden the\nscope of agentic AI applications by providing a foundation for scalable,\ncontextually and spatiotemporally aware systems capable of immersive dynamic 4D\nscene interaction.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20776.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60f1abe7544c2adfd699860c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+      "fullname": "AK",
+      "name": "akhaliq",
+      "type": "user",
+      "isPro": false,
+      "isHf": true,
+      "isHfAdmin": true,
+      "isMod": false,
+      "followerCount": 6486
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.20578",
+      "authors": [
+        {
+          "_id": "67e5fd806e73232cf08af3bb",
+          "user": {
+            "_id": "659430138fec845e50a27558",
+            "avatarUrl": "/avatars/f5de806f55c90ae303cd94af7c15005c.svg",
+            "isPro": false,
+            "fullname": "Alif Al Hasan",
+            "user": "alifalhasan",
+            "type": "user"
+          },
+          "name": "Alif Al Hasan",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-03-28T01:38:09.589Z",
+          "hidden": false
+        },
+        {
+          "_id": "67e5fd806e73232cf08af3bc",
+          "name": "Subarna Saha",
+          "hidden": false
+        },
+        {
+          "_id": "67e5fd806e73232cf08af3bd",
+          "user": {
+            "_id": "6331c3f618711776b468e9ec",
+            "avatarUrl": "/avatars/af2c4bba031e474bf4fd2ea19e415aaf.svg",
+            "isPro": false,
+            "fullname": "Mia Mohammad Imran",
+            "user": "imranraad",
+            "type": "user"
+          },
+          "name": "Mia Mohammad Imran",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-03-28T01:38:09.589Z",
+          "hidden": false
+        },
+        {
+          "_id": "67e5fd806e73232cf08af3be",
+          "name": "Tarannum Shaila Zaman",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-26T14:25:01.000Z",
+      "submittedOnDailyAt": "2025-03-28T00:08:31.084Z",
+      "title": "LLPut: Investigating Large Language Models for Bug Report-Based Input\n  Generation",
+      "submittedOnDailyBy": {
+        "_id": "6331c3f618711776b468e9ec",
+        "avatarUrl": "/avatars/af2c4bba031e474bf4fd2ea19e415aaf.svg",
+        "isPro": false,
+        "fullname": "Mia Mohammad Imran",
+        "user": "imranraad",
+        "type": "user"
+      },
+      "summary": "Failure-inducing inputs play a crucial role in diagnosing and analyzing\nsoftware bugs. Bug reports typically contain these inputs, which developers\nextract to facilitate debugging. Since bug reports are written in natural\nlanguage, prior research has leveraged various Natural Language Processing\n(NLP) techniques for automated input extraction. With the advent of Large\nLanguage Models (LLMs), an important research question arises: how effectively\ncan generative LLMs extract failure-inducing inputs from bug reports? In this\npaper, we propose LLPut, a technique to empirically evaluate the performance of\nthree open-source generative LLMs -- LLaMA, Qwen, and Qwen-Coder -- in\nextracting relevant inputs from bug reports. We conduct an experimental\nevaluation on a dataset of 206 bug reports to assess the accuracy and\neffectiveness of these models. Our findings provide insights into the\ncapabilities and limitations of generative LLMs in automated bug diagnosis.",
+      "upvotes": 1,
+      "discussionId": "67e5fd816e73232cf08af3e2",
+      "projectPage": "https://zenodo.org/records/15092886",
+      "ai_keywords": [
+        "Large Language Models (LLMs)",
+        "generative LLMs",
+        "LLPut",
+        "LLaMA",
+        "Qwen",
+        "Qwen-Coder",
+        "natural language",
+        "empirical evaluation",
+        "bug diagnosis"
+      ]
+    },
+    "publishedAt": "2025-03-26T10:25:01.000Z",
+    "title": "LLPut: Investigating Large Language Models for Bug Report-Based Input\n  Generation",
+    "summary": "Failure-inducing inputs play a crucial role in diagnosing and analyzing\nsoftware bugs. Bug reports typically contain these inputs, which developers\nextract to facilitate debugging. Since bug reports are written in natural\nlanguage, prior research has leveraged various Natural Language Processing\n(NLP) techniques for automated input extraction. With the advent of Large\nLanguage Models (LLMs), an important research question arises: how effectively\ncan generative LLMs extract failure-inducing inputs from bug reports? In this\npaper, we propose LLPut, a technique to empirically evaluate the performance of\nthree open-source generative LLMs -- LLaMA, Qwen, and Qwen-Coder -- in\nextracting relevant inputs from bug reports. We conduct an experimental\nevaluation on a dataset of 206 bug reports to assess the accuracy and\neffectiveness of these models. Our findings provide insights into the\ncapabilities and limitations of generative LLMs in automated bug diagnosis.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20578.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6331c3f618711776b468e9ec",
+      "avatarUrl": "/avatars/af2c4bba031e474bf4fd2ea19e415aaf.svg",
+      "fullname": "Mia Mohammad Imran",
+      "name": "imranraad",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.21755",
+      "authors": [
+        {
+          "_id": "67e60823284844fd3014f62b",
+          "name": "Dian Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f62c",
+          "name": "Ziqi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f62d",
+          "name": "Hongbo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f62e",
+          "name": "Kai Zou",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f62f",
+          "name": "Yinan He",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f630",
+          "name": "Fan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f631",
+          "name": "Yuanhan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f632",
+          "name": "Jingwen He",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f633",
+          "name": "Wei-Shi Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f634",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "67e60823284844fd3014f635",
+          "name": "Ziwei Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-27T17:57:01.000Z",
+      "submittedOnDailyAt": "2025-03-28T00:53:44.602Z",
+      "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic\n  Faithfulness",
+      "submittedOnDailyBy": {
+        "_id": "60efe7fa0d920bc7805cada5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efe7fa0d920bc7805cada5/2LBrJBjSCOP5ilZIpWLHl.png",
+        "isPro": false,
+        "fullname": "Ziqi Huang",
+        "user": "Ziqi",
+        "type": "user"
+      },
+      "summary": "Video generation has advanced significantly, evolving from producing\nunrealistic outputs to generating videos that appear visually convincing and\ntemporally coherent. To evaluate these video generative models, benchmarks such\nas VBench have been developed to assess their faithfulness, measuring factors\nlike per-frame aesthetics, temporal consistency, and basic prompt adherence.\nHowever, these aspects mainly represent superficial faithfulness, which focus\non whether the video appears visually convincing rather than whether it adheres\nto real-world principles. While recent models perform increasingly well on\nthese metrics, they still struggle to generate videos that are not just\nvisually plausible but fundamentally realistic. To achieve real \"world models\"\nthrough video generation, the next frontier lies in intrinsic faithfulness to\nensure that generated videos adhere to physical laws, commonsense reasoning,\nanatomical correctness, and compositional integrity. Achieving this level of\nrealism is essential for applications such as AI-assisted filmmaking and\nsimulated world modeling. To bridge this gap, we introduce VBench-2.0, a\nnext-generation benchmark designed to automatically evaluate video generative\nmodels for their intrinsic faithfulness. VBench-2.0 assesses five key\ndimensions: Human Fidelity, Controllability, Creativity, Physics, and\nCommonsense, each further broken down into fine-grained capabilities. Tailored\nfor individual dimensions, our evaluation framework integrates generalists such\nas state-of-the-art VLMs and LLMs, and specialists, including anomaly detection\nmethods proposed for video generation. We conduct extensive annotations to\nensure alignment with human judgment. By pushing beyond superficial\nfaithfulness toward intrinsic faithfulness, VBench-2.0 aims to set a new\nstandard for the next generation of video generative models in pursuit of\nintrinsic faithfulness.",
+      "upvotes": 0,
+      "discussionId": "67e60824284844fd3014f68e"
+    },
+    "publishedAt": "2025-03-27T13:57:01.000Z",
+    "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic\n  Faithfulness",
+    "summary": "Video generation has advanced significantly, evolving from producing\nunrealistic outputs to generating videos that appear visually convincing and\ntemporally coherent. To evaluate these video generative models, benchmarks such\nas VBench have been developed to assess their faithfulness, measuring factors\nlike per-frame aesthetics, temporal consistency, and basic prompt adherence.\nHowever, these aspects mainly represent superficial faithfulness, which focus\non whether the video appears visually convincing rather than whether it adheres\nto real-world principles. While recent models perform increasingly well on\nthese metrics, they still struggle to generate videos that are not just\nvisually plausible but fundamentally realistic. To achieve real \"world models\"\nthrough video generation, the next frontier lies in intrinsic faithfulness to\nensure that generated videos adhere to physical laws, commonsense reasoning,\nanatomical correctness, and compositional integrity. Achieving this level of\nrealism is essential for applications such as AI-assisted filmmaking and\nsimulated world modeling. To bridge this gap, we introduce VBench-2.0, a\nnext-generation benchmark designed to automatically evaluate video generative\nmodels for their intrinsic faithfulness. VBench-2.0 assesses five key\ndimensions: Human Fidelity, Controllability, Creativity, Physics, and\nCommonsense, each further broken down into fine-grained capabilities. Tailored\nfor individual dimensions, our evaluation framework integrates generalists such\nas state-of-the-art VLMs and LLMs, and specialists, including anomaly detection\nmethods proposed for video generation. We conduct extensive annotations to\nensure alignment with human judgment. By pushing beyond superficial\nfaithfulness toward intrinsic faithfulness, VBench-2.0 aims to set a new\nstandard for the next generation of video generative models in pursuit of\nintrinsic faithfulness.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.21755.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60efe7fa0d920bc7805cada5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efe7fa0d920bc7805cada5/2LBrJBjSCOP5ilZIpWLHl.png",
+      "fullname": "Ziqi Huang",
+      "name": "Ziqi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 11
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.21620",
+      "authors": [
+        {
+          "_id": "67e606fb6c44ab0376a498a1",
+          "name": "Zhengxi Lu",
+          "hidden": false
+        },
+        {
+          "_id": "67e606fb6c44ab0376a498a2",
+          "name": "Yuxiang Chai",
+          "hidden": false
+        },
+        {
+          "_id": "67e606fb6c44ab0376a498a3",
+          "name": "Yaxuan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "67e606fb6c44ab0376a498a4",
+          "name": "Xi Yin",
+          "hidden": false
+        },
+        {
+          "_id": "67e606fb6c44ab0376a498a5",
+          "name": "Liang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67e606fb6c44ab0376a498a6",
+          "name": "Hao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67e606fb6c44ab0376a498a7",
+          "name": "Guanjing Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "67e606fb6c44ab0376a498a8",
+          "name": "Hongsheng Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-27T15:39:30.000Z",
+      "submittedOnDailyAt": "2025-03-28T00:48:51.950Z",
+      "title": "UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement\n  Learning",
+      "submittedOnDailyBy": {
+        "_id": "60f1abe7544c2adfd699860c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+        "isPro": false,
+        "fullname": "AK",
+        "user": "akhaliq",
+        "type": "user"
+      },
+      "summary": "The recent DeepSeek-R1 has showcased the emergence of reasoning capabilities\nin LLMs through reinforcement learning (RL) with rule-based rewards. Building\non this idea, we are the first to explore how rule-based RL can enhance the\nreasoning capabilities of multimodal large language models (MLLMs) for graphic\nuser interface (GUI) action prediction tasks. To this end, we curate a small\nyet high-quality dataset of 136 challenging tasks, encompassing five common\naction types on mobile devices. We also introduce a unified rule-based action\nreward, enabling model optimization via policy-based algorithms such as Group\nRelative Policy Optimization (GRPO). Experimental results demonstrate that our\nproposed data-efficient model, UI-R1-3B, achieves substantial improvements on\nboth in-domain (ID) and out-of-domain (OOD) tasks. Specifically, on the ID\nbenchmark AndroidControl, the action type accuracy improves by 15%, while\ngrounding accuracy increases by 10.3%, compared with the base model (i.e.\nQwen2.5-VL-3B). On the OOD GUI grounding benchmark ScreenSpot-Pro, our model\nsurpasses the base model by 6.0% and achieves competitive performance with\nlarger models (e.g., OS-Atlas-7B), which are trained via supervised fine-tuning\n(SFT) on 76K data. These results underscore the potential of rule-based\nreinforcement learning to advance GUI understanding and control, paving the way\nfor future research in this domain.",
+      "upvotes": 0,
+      "discussionId": "67e606fe6c44ab0376a49962"
+    },
+    "publishedAt": "2025-03-27T11:39:30.000Z",
+    "title": "UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement\n  Learning",
+    "summary": "The recent DeepSeek-R1 has showcased the emergence of reasoning capabilities\nin LLMs through reinforcement learning (RL) with rule-based rewards. Building\non this idea, we are the first to explore how rule-based RL can enhance the\nreasoning capabilities of multimodal large language models (MLLMs) for graphic\nuser interface (GUI) action prediction tasks. To this end, we curate a small\nyet high-quality dataset of 136 challenging tasks, encompassing five common\naction types on mobile devices. We also introduce a unified rule-based action\nreward, enabling model optimization via policy-based algorithms such as Group\nRelative Policy Optimization (GRPO). Experimental results demonstrate that our\nproposed data-efficient model, UI-R1-3B, achieves substantial improvements on\nboth in-domain (ID) and out-of-domain (OOD) tasks. Specifically, on the ID\nbenchmark AndroidControl, the action type accuracy improves by 15%, while\ngrounding accuracy increases by 10.3%, compared with the base model (i.e.\nQwen2.5-VL-3B). On the OOD GUI grounding benchmark ScreenSpot-Pro, our model\nsurpasses the base model by 6.0% and achieves competitive performance with\nlarger models (e.g., OS-Atlas-7B), which are trained via supervised fine-tuning\n(SFT) on 76K data. These results underscore the potential of rule-based\nreinforcement learning to advance GUI understanding and control, paving the way\nfor future research in this domain.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.21620.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60f1abe7544c2adfd699860c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+      "fullname": "AK",
+      "name": "akhaliq",
+      "type": "user",
+      "isPro": false,
+      "isHf": true,
+      "isHfAdmin": true,
+      "isMod": false,
+      "followerCount": 6486
+    },
+    "isAuthorParticipating": false
+  }
+]
