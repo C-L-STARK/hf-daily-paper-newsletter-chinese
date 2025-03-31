@@ -1,0 +1,167 @@
+[
+  {
+    "paper": {
+      "id": "2503.22675",
+      "authors": [
+        {
+          "_id": "67e9f6b7d13d75fc155c7f2e",
+          "name": "Jiakai Tang",
+          "hidden": false
+        },
+        {
+          "_id": "67e9f6b7d13d75fc155c7f2f",
+          "name": "Sunhao Dai",
+          "hidden": false
+        },
+        {
+          "_id": "67e9f6b7d13d75fc155c7f30",
+          "name": "Teng Shi",
+          "hidden": false
+        },
+        {
+          "_id": "67e9f6b7d13d75fc155c7f31",
+          "name": "Jun Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67e9f6b7d13d75fc155c7f32",
+          "name": "Xu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67e9f6b7d13d75fc155c7f33",
+          "name": "Wen Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67e9f6b7d13d75fc155c7f34",
+          "name": "Wu Jian",
+          "hidden": false
+        },
+        {
+          "_id": "67e9f6b7d13d75fc155c7f35",
+          "name": "Yuning Jiang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-28T17:59:03.000Z",
+      "submittedOnDailyAt": "2025-03-31T00:29:30.669Z",
+      "title": "Think Before Recommend: Unleashing the Latent Reasoning Power for\n  Sequential Recommendation",
+      "submittedOnDailyBy": {
+        "_id": "64db88993725f8d9a908c077",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64db88993725f8d9a908c077/JZEGk0kius6mrANlwOWw9.jpeg",
+        "isPro": false,
+        "fullname": "Sunhao Dai",
+        "user": "KID-22",
+        "type": "user"
+      },
+      "summary": "Sequential Recommendation (SeqRec) aims to predict the next item by capturing\nsequential patterns from users' historical interactions, playing a crucial role\nin many real-world recommender systems. However, existing approaches\npredominantly adopt a direct forward computation paradigm, where the final\nhidden state of the sequence encoder serves as the user representation. We\nargue that this inference paradigm, due to its limited computational depth,\nstruggles to model the complex evolving nature of user preferences and lacks a\nnuanced understanding of long-tail items, leading to suboptimal performance. To\naddress this issue, we propose ReaRec, the first inference-time\ncomputing framework for recommender systems, which enhances user\nrepresentations through implicit multi-step reasoning. Specifically, ReaRec\nautoregressively feeds the sequence's last hidden state into the sequential\nrecommender while incorporating special reasoning position embeddings to\ndecouple the original item encoding space from the multi-step reasoning space.\nMoreover, we introduce two lightweight reasoning-based learning methods,\nEnsemble Reasoning Learning (ERL) and Progressive Reasoning Learning (PRL), to\nfurther effectively exploit ReaRec's reasoning potential. Extensive experiments\non five public real-world datasets and different SeqRec architectures\ndemonstrate the generality and effectiveness of our proposed ReaRec.\nRemarkably, post-hoc analyses reveal that ReaRec significantly elevates the\nperformance ceiling of multiple sequential recommendation backbones by\napproximately 30\\%-50\\%. Thus, we believe this work can open a new and\npromising avenue for future research in inference-time computing for sequential\nrecommendation.",
+      "upvotes": 7,
+      "discussionId": "67e9f6bdd13d75fc155c805e",
+      "githubRepo": "https://github.com/TangJiakai/ReaRec",
+      "ai_keywords": [
+        "ReaRec",
+        "reasoning position embeddings",
+        "Ensemble Reasoning Learning (ERL)",
+        "Progressive Reasoning Learning (PRL)",
+        "sequential recommendation backbones",
+        "autoregressive feeding"
+      ]
+    },
+    "publishedAt": "2025-03-28T13:59:03.000Z",
+    "title": "Think Before Recommend: Unleashing the Latent Reasoning Power for\n  Sequential Recommendation",
+    "summary": "Sequential Recommendation (SeqRec) aims to predict the next item by capturing\nsequential patterns from users' historical interactions, playing a crucial role\nin many real-world recommender systems. However, existing approaches\npredominantly adopt a direct forward computation paradigm, where the final\nhidden state of the sequence encoder serves as the user representation. We\nargue that this inference paradigm, due to its limited computational depth,\nstruggles to model the complex evolving nature of user preferences and lacks a\nnuanced understanding of long-tail items, leading to suboptimal performance. To\naddress this issue, we propose ReaRec, the first inference-time\ncomputing framework for recommender systems, which enhances user\nrepresentations through implicit multi-step reasoning. Specifically, ReaRec\nautoregressively feeds the sequence's last hidden state into the sequential\nrecommender while incorporating special reasoning position embeddings to\ndecouple the original item encoding space from the multi-step reasoning space.\nMoreover, we introduce two lightweight reasoning-based learning methods,\nEnsemble Reasoning Learning (ERL) and Progressive Reasoning Learning (PRL), to\nfurther effectively exploit ReaRec's reasoning potential. Extensive experiments\non five public real-world datasets and different SeqRec architectures\ndemonstrate the generality and effectiveness of our proposed ReaRec.\nRemarkably, post-hoc analyses reveal that ReaRec significantly elevates the\nperformance ceiling of multiple sequential recommendation backbones by\napproximately 30\\%-50\\%. Thus, we believe this work can open a new and\npromising avenue for future research in inference-time computing for sequential\nrecommendation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.22675.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64db88993725f8d9a908c077",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64db88993725f8d9a908c077/JZEGk0kius6mrANlwOWw9.jpeg",
+      "fullname": "Sunhao Dai",
+      "name": "KID-22",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.22194",
+      "authors": [
+        {
+          "_id": "67e9eebe1f495035ca228ded",
+          "name": "Yunhong Min",
+          "hidden": false
+        },
+        {
+          "_id": "67e9eebe1f495035ca228dee",
+          "name": "Daehyeon Choi",
+          "hidden": false
+        },
+        {
+          "_id": "67e9eebe1f495035ca228def",
+          "name": "Kyeongmin Yeo",
+          "hidden": false
+        },
+        {
+          "_id": "67e9eebe1f495035ca228df0",
+          "name": "Jihyun Lee",
+          "hidden": false
+        },
+        {
+          "_id": "67e9eebe1f495035ca228df1",
+          "name": "Minhyuk Sung",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-28T07:23:12.000Z",
+      "submittedOnDailyAt": "2025-03-31T00:39:49.117Z",
+      "title": "ORIGEN: Zero-Shot 3D Orientation Grounding in Text-to-Image Generation",
+      "submittedOnDailyBy": {
+        "_id": "6616702547ea6347974667e5",
+        "avatarUrl": "/avatars/6bf95e50ba19df163ef89867ed63fecc.svg",
+        "isPro": false,
+        "fullname": "Daehyeon Choi",
+        "user": "daehyeonchoi",
+        "type": "user"
+      },
+      "summary": "We introduce ORIGEN, the first zero-shot method for 3D orientation grounding\nin text-to-image generation across multiple objects and diverse categories.\nWhile previous work on spatial grounding in image generation has mainly focused\non 2D positioning, it lacks control over 3D orientation. To address this, we\npropose a reward-guided sampling approach using a pretrained discriminative\nmodel for 3D orientation estimation and a one-step text-to-image generative\nflow model. While gradient-ascent-based optimization is a natural choice for\nreward-based guidance, it struggles to maintain image realism. Instead, we\nadopt a sampling-based approach using Langevin dynamics, which extends gradient\nascent by simply injecting random noise--requiring just a single additional\nline of code. Additionally, we introduce adaptive time rescaling based on the\nreward function to accelerate convergence. Our experiments show that ORIGEN\noutperforms both training-based and test-time guidance methods across\nquantitative metrics and user studies.",
+      "upvotes": 2,
+      "discussionId": "67e9eebf1f495035ca228e34",
+      "projectPage": "https://origen2025.github.io/",
+      "ai_keywords": [
+        "zero-shot method",
+        "3D orientation grounding",
+        "text-to-image generation",
+        "spatial grounding",
+        "reward-guided sampling approach",
+        "pretrained discriminative model",
+        "3D orientation estimation",
+        "one-step text-to-image generative flow model",
+        "gradient-ascent-based optimization",
+        "Langevin dynamics",
+        "adaptive time rescaling"
+      ]
+    },
+    "publishedAt": "2025-03-28T03:23:12.000Z",
+    "title": "ORIGEN: Zero-Shot 3D Orientation Grounding in Text-to-Image Generation",
+    "summary": "We introduce ORIGEN, the first zero-shot method for 3D orientation grounding\nin text-to-image generation across multiple objects and diverse categories.\nWhile previous work on spatial grounding in image generation has mainly focused\non 2D positioning, it lacks control over 3D orientation. To address this, we\npropose a reward-guided sampling approach using a pretrained discriminative\nmodel for 3D orientation estimation and a one-step text-to-image generative\nflow model. While gradient-ascent-based optimization is a natural choice for\nreward-based guidance, it struggles to maintain image realism. Instead, we\nadopt a sampling-based approach using Langevin dynamics, which extends gradient\nascent by simply injecting random noise--requiring just a single additional\nline of code. Additionally, we introduce adaptive time rescaling based on the\nreward function to accelerate convergence. Our experiments show that ORIGEN\noutperforms both training-based and test-time guidance methods across\nquantitative metrics and user studies.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.22194.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6616702547ea6347974667e5",
+      "avatarUrl": "/avatars/6bf95e50ba19df163ef89867ed63fecc.svg",
+      "fullname": "Daehyeon Choi",
+      "name": "daehyeonchoi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
