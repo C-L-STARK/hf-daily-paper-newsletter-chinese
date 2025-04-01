@@ -1,0 +1,480 @@
+[
+  {
+    "paper": {
+      "id": "2503.18809",
+      "authors": [
+        {
+          "_id": "67eaa0f83ace6eb46745a9fe",
+          "user": {
+            "_id": "674f43d6df6fa102409f6d1a",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KT_-dmXWshUKvbhtn-LSs.png",
+            "isPro": false,
+            "fullname": "Augusto B. Corrêa",
+            "user": "abcorrea",
+            "type": "user"
+          },
+          "name": "Augusto B. Corrêa",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-03-31T15:15:12.565Z",
+          "hidden": false
+        },
+        {
+          "_id": "67eaa0f83ace6eb46745a9ff",
+          "user": {
+            "_id": "662fb9c891587703a677856e",
+            "avatarUrl": "/avatars/9cb7f035a513279532fc205ce9c5902c.svg",
+            "isPro": false,
+            "fullname": "Andre Grahl Pereira",
+            "user": "andregrahl",
+            "type": "user"
+          },
+          "name": "André G. Pereira",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-03-31T15:15:13.942Z",
+          "hidden": false
+        },
+        {
+          "_id": "67eaa0f83ace6eb46745aa00",
+          "name": "Jendrik Seipp",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-24T15:50:20.000Z",
+      "submittedOnDailyAt": "2025-04-01T00:45:14.321Z",
+      "title": "Classical Planning with LLM-Generated Heuristics: Challenging the State\n  of the Art with Python Code",
+      "submittedOnDailyBy": {
+        "_id": "674f43d6df6fa102409f6d1a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KT_-dmXWshUKvbhtn-LSs.png",
+        "isPro": false,
+        "fullname": "Augusto B. Corrêa",
+        "user": "abcorrea",
+        "type": "user"
+      },
+      "summary": "In recent years, large language models (LLMs) have shown remarkable\ncapabilities in various artificial intelligence problems. However, they fail to\nplan reliably, even when prompted with a detailed definition of the planning\ntask. Attempts to improve their planning capabilities, such as chain-of-thought\nprompting, fine-tuning, and explicit \"reasoning\" still yield incorrect plans\nand usually fail to generalize to larger tasks. In this paper, we show how to\nuse LLMs to generate correct plans, even for out-of-distribution tasks of\nincreasing size. For a given planning domain, we ask an LLM to generate several\ndomain-dependent heuristic functions in the form of Python code, evaluate them\non a set of training tasks within a greedy best-first search, and choose the\nstrongest one. The resulting LLM-generated heuristics solve many more unseen\ntest tasks than state-of-the-art domain-independent heuristics for classical\nplanning. They are even competitive with the strongest learning algorithm for\ndomain-dependent planning. These findings are especially remarkable given that\nour proof-of-concept implementation is based on an unoptimized Python planner\nand the baselines all build upon highly optimized C++ code. In some domains,\nthe LLM-generated heuristics expand fewer states than the baselines, revealing\nthat they are not only efficiently computable, but sometimes even more\ninformative than the state-of-the-art heuristics. Overall, our results show\nthat sampling a set of planning heuristic function programs can significantly\nimprove the planning capabilities of LLMs.",
+      "upvotes": 6,
+      "discussionId": "67eaa0f93ace6eb46745aa3e",
+      "ai_keywords": [
+        "large language models (LLMs)",
+        "chain-of-thought prompting",
+        "fine-tuning",
+        "reasoning",
+        "planning domain",
+        "domain-dependent heuristic functions",
+        "Python code",
+        "greedy best-first search",
+        "state-of-the-art domain-independent heuristics",
+        "domain-dependent planning",
+        "unoptimized Python planner",
+        "highly optimized C++ code",
+        "planning heuristic function programs"
+      ]
+    },
+    "publishedAt": "2025-03-24T11:50:20.000Z",
+    "title": "Classical Planning with LLM-Generated Heuristics: Challenging the State\n  of the Art with Python Code",
+    "summary": "In recent years, large language models (LLMs) have shown remarkable\ncapabilities in various artificial intelligence problems. However, they fail to\nplan reliably, even when prompted with a detailed definition of the planning\ntask. Attempts to improve their planning capabilities, such as chain-of-thought\nprompting, fine-tuning, and explicit \"reasoning\" still yield incorrect plans\nand usually fail to generalize to larger tasks. In this paper, we show how to\nuse LLMs to generate correct plans, even for out-of-distribution tasks of\nincreasing size. For a given planning domain, we ask an LLM to generate several\ndomain-dependent heuristic functions in the form of Python code, evaluate them\non a set of training tasks within a greedy best-first search, and choose the\nstrongest one. The resulting LLM-generated heuristics solve many more unseen\ntest tasks than state-of-the-art domain-independent heuristics for classical\nplanning. They are even competitive with the strongest learning algorithm for\ndomain-dependent planning. These findings are especially remarkable given that\nour proof-of-concept implementation is based on an unoptimized Python planner\nand the baselines all build upon highly optimized C++ code. In some domains,\nthe LLM-generated heuristics expand fewer states than the baselines, revealing\nthat they are not only efficiently computable, but sometimes even more\ninformative than the state-of-the-art heuristics. Overall, our results show\nthat sampling a set of planning heuristic function programs can significantly\nimprove the planning capabilities of LLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.18809.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "674f43d6df6fa102409f6d1a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KT_-dmXWshUKvbhtn-LSs.png",
+      "fullname": "Augusto B. Corrêa",
+      "name": "abcorrea",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.23307",
+      "authors": [
+        {
+          "_id": "67eb4bd0eca57c4eebbb343a",
+          "name": "Cong Wei",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb343b",
+          "name": "Bo Sun",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb343c",
+          "name": "Haoyu Ma",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb343d",
+          "name": "Ji Hou",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb343e",
+          "name": "Felix Juefei-Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb343f",
+          "name": "Zecheng He",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb3440",
+          "name": "Xiaoliang Dai",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb3441",
+          "name": "Luxin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb3442",
+          "name": "Kunpeng Li",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb3443",
+          "name": "Tingbo Hou",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb3444",
+          "name": "Animesh Sinha",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb3445",
+          "name": "Peter Vajda",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4bd0eca57c4eebbb3446",
+          "name": "Wenhu Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-30T04:22:09.000Z",
+      "submittedOnDailyAt": "2025-04-01T00:46:45.446Z",
+      "title": "MoCha: Towards Movie-Grade Talking Character Synthesis",
+      "submittedOnDailyBy": {
+        "_id": "64f8e358766ff9f3d2b0de84",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f8e358766ff9f3d2b0de84/R2P1YG-mRBh7TU9wkjGGk.jpeg",
+        "isPro": true,
+        "fullname": "Cong Wei",
+        "user": "lim142857",
+        "type": "user"
+      },
+      "summary": "Recent advancements in video generation have achieved impressive motion\nrealism, yet they often overlook character-driven storytelling, a crucial task\nfor automated film, animation generation. We introduce Talking Characters, a\nmore realistic task to generate talking character animations directly from\nspeech and text. Unlike talking head, Talking Characters aims at generating the\nfull portrait of one or more characters beyond the facial region. In this\npaper, we propose MoCha, the first of its kind to generate talking characters.\nTo ensure precise synchronization between video and speech, we propose a\nspeech-video window attention mechanism that effectively aligns speech and\nvideo tokens. To address the scarcity of large-scale speech-labeled video\ndatasets, we introduce a joint training strategy that leverages both\nspeech-labeled and text-labeled video data, significantly improving\ngeneralization across diverse character actions. We also design structured\nprompt templates with character tags, enabling, for the first time,\nmulti-character conversation with turn-based dialogue-allowing AI-generated\ncharacters to engage in context-aware conversations with cinematic coherence.\nExtensive qualitative and quantitative evaluations, including human preference\nstudies and benchmark comparisons, demonstrate that MoCha sets a new standard\nfor AI-generated cinematic storytelling, achieving superior realism,\nexpressiveness, controllability and generalization.",
+      "upvotes": 5,
+      "discussionId": "67eb4bd3eca57c4eebbb34c7",
+      "projectPage": "https://congwei1230.github.io/MoCha/",
+      "ai_keywords": [
+        "speech-video window attention mechanism",
+        "speech-labeled video datasets",
+        "text-labeled video data",
+        "structured prompt templates",
+        "character tags",
+        "multi-character conversation",
+        "turn-based dialogue",
+        "context-aware conversations",
+        "cinematic coherence"
+      ]
+    },
+    "publishedAt": "2025-03-30T00:22:09.000Z",
+    "title": "MoCha: Towards Movie-Grade Talking Character Synthesis",
+    "summary": "Recent advancements in video generation have achieved impressive motion\nrealism, yet they often overlook character-driven storytelling, a crucial task\nfor automated film, animation generation. We introduce Talking Characters, a\nmore realistic task to generate talking character animations directly from\nspeech and text. Unlike talking head, Talking Characters aims at generating the\nfull portrait of one or more characters beyond the facial region. In this\npaper, we propose MoCha, the first of its kind to generate talking characters.\nTo ensure precise synchronization between video and speech, we propose a\nspeech-video window attention mechanism that effectively aligns speech and\nvideo tokens. To address the scarcity of large-scale speech-labeled video\ndatasets, we introduce a joint training strategy that leverages both\nspeech-labeled and text-labeled video data, significantly improving\ngeneralization across diverse character actions. We also design structured\nprompt templates with character tags, enabling, for the first time,\nmulti-character conversation with turn-based dialogue-allowing AI-generated\ncharacters to engage in context-aware conversations with cinematic coherence.\nExtensive qualitative and quantitative evaluations, including human preference\nstudies and benchmark comparisons, demonstrate that MoCha sets a new standard\nfor AI-generated cinematic storytelling, achieving superior realism,\nexpressiveness, controllability and generalization.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.23307.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64f8e358766ff9f3d2b0de84",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f8e358766ff9f3d2b0de84/R2P1YG-mRBh7TU9wkjGGk.jpeg",
+      "fullname": "Cong Wei",
+      "name": "lim142857",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.24370",
+      "authors": [
+        {
+          "_id": "67eb4fff13ca8dcb9cca5f9b",
+          "user": {
+            "_id": "62fae9328e137d7c4b896498",
+            "avatarUrl": "/avatars/1bda39dec585c099417cc9daa9f53c42.svg",
+            "isPro": false,
+            "fullname": "Tong Wu",
+            "user": "tongwu2020",
+            "type": "user"
+          },
+          "name": "Tong Wu",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-04-01T02:31:28.689Z",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4fff13ca8dcb9cca5f9c",
+          "name": "Chong Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4fff13ca8dcb9cca5f9d",
+          "name": "Jiachen T. Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb4fff13ca8dcb9cca5f9e",
+          "name": "Prateek Mittal",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-31T17:50:13.000Z",
+      "submittedOnDailyAt": "2025-04-01T01:02:34.304Z",
+      "title": "Effectively Controlling Reasoning Models through Thinking Intervention",
+      "submittedOnDailyBy": {
+        "_id": "62fae9328e137d7c4b896498",
+        "avatarUrl": "/avatars/1bda39dec585c099417cc9daa9f53c42.svg",
+        "isPro": false,
+        "fullname": "Tong Wu",
+        "user": "tongwu2020",
+        "type": "user"
+      },
+      "summary": "Reasoning-enhanced large language models (LLMs) explicitly generate\nintermediate reasoning steps prior to generating final answers, helping the\nmodel excel in complex problem-solving. In this paper, we demonstrate that this\nemerging generation framework offers a unique opportunity for more fine-grained\ncontrol over model behavior. We propose Thinking Intervention, a novel paradigm\ndesigned to explicitly guide the internal reasoning processes of LLMs by\nstrategically inserting or revising specific thinking tokens. We conduct\ncomprehensive evaluations across multiple tasks, including instruction\nfollowing on IFEval, instruction hierarchy on SEP, and safety alignment on\nXSTest and SORRY-Bench. Our results demonstrate that Thinking Intervention\nsignificantly outperforms baseline prompting approaches, achieving up to 6.7%\naccuracy gains in instruction-following scenarios, 15.4% improvements in\nreasoning about instruction hierarchies, and a 40.0% increase in refusal rates\nfor unsafe prompts using open-source DeepSeek R1 models. Overall, our work\nopens a promising new research avenue for controlling reasoning LLMs.",
+      "upvotes": 3,
+      "discussionId": "67eb500013ca8dcb9cca5fe0"
+    },
+    "publishedAt": "2025-03-31T13:50:13.000Z",
+    "title": "Effectively Controlling Reasoning Models through Thinking Intervention",
+    "summary": "Reasoning-enhanced large language models (LLMs) explicitly generate\nintermediate reasoning steps prior to generating final answers, helping the\nmodel excel in complex problem-solving. In this paper, we demonstrate that this\nemerging generation framework offers a unique opportunity for more fine-grained\ncontrol over model behavior. We propose Thinking Intervention, a novel paradigm\ndesigned to explicitly guide the internal reasoning processes of LLMs by\nstrategically inserting or revising specific thinking tokens. We conduct\ncomprehensive evaluations across multiple tasks, including instruction\nfollowing on IFEval, instruction hierarchy on SEP, and safety alignment on\nXSTest and SORRY-Bench. Our results demonstrate that Thinking Intervention\nsignificantly outperforms baseline prompting approaches, achieving up to 6.7%\naccuracy gains in instruction-following scenarios, 15.4% improvements in\nreasoning about instruction hierarchies, and a 40.0% increase in refusal rates\nfor unsafe prompts using open-source DeepSeek R1 models. Overall, our work\nopens a promising new research avenue for controlling reasoning LLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.24370.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62fae9328e137d7c4b896498",
+      "avatarUrl": "/avatars/1bda39dec585c099417cc9daa9f53c42.svg",
+      "fullname": "Tong Wu",
+      "name": "tongwu2020",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.24115",
+      "authors": [
+        {
+          "_id": "67eb5116d3a707c0a5b02bd1",
+          "user": {
+            "_id": "64a0ed5ed5374ca472cfb0ac",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a0ed5ed5374ca472cfb0ac/n_wXamXfR_PPn0hRbnR1X.jpeg",
+            "isPro": false,
+            "fullname": "ZhimingMa",
+            "user": "JimmyMa99",
+            "type": "user"
+          },
+          "name": "Zhiming Ma",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-04-01T02:36:07.612Z",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bd2",
+          "user": {
+            "_id": "6385f7b969634850f8ddd541",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669723465271-noauth.png",
+            "isPro": false,
+            "fullname": "Peidong Wang",
+            "user": "WDong",
+            "type": "user"
+          },
+          "name": "Peidong Wang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-04-01T02:36:07.612Z",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bd3",
+          "name": "Minhua Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bd4",
+          "name": "Jingpeng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bd5",
+          "name": "Kai Wu",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bd6",
+          "name": "Xiangzhao Lv",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bd7",
+          "name": "Yachun Pang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bd8",
+          "name": "Yin Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bd9",
+          "name": "Wenjie Tang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb5116d3a707c0a5b02bda",
+          "name": "Yuchen Kang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64a0ed5ed5374ca472cfb0ac/PsAJTW9JTyrHqtjQP0lLJ.png"
+      ],
+      "publishedAt": "2025-03-31T14:06:17.000Z",
+      "submittedOnDailyAt": "2025-04-01T01:08:09.201Z",
+      "title": "TeleAntiFraud-28k: A Audio-Text Slow-Thinking Dataset for Telecom Fraud\n  Detection",
+      "submittedOnDailyBy": {
+        "_id": "64a0ed5ed5374ca472cfb0ac",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a0ed5ed5374ca472cfb0ac/n_wXamXfR_PPn0hRbnR1X.jpeg",
+        "isPro": false,
+        "fullname": "ZhimingMa",
+        "user": "JimmyMa99",
+        "type": "user"
+      },
+      "summary": "The detection of telecom fraud faces significant challenges due to the lack\nof high-quality multimodal training data that integrates audio signals with\nreasoning-oriented textual analysis. To address this gap, we present\nTeleAntiFraud-28k, the first open-source audio-text slow-thinking dataset\nspecifically designed for automated telecom fraud analysis. Our dataset is\nconstructed through three strategies: (1) Privacy-preserved text-truth sample\ngeneration using automatically speech recognition (ASR)-transcribed call\nrecordings (with anonymized original audio), ensuring real-world consistency\nthrough text-to-speech (TTS) model regeneration; (2) Semantic enhancement via\nlarge language model (LLM)-based self-instruction sampling on authentic ASR\noutputs to expand scenario coverage; (3) Multi-agent adversarial synthesis that\nsimulates emerging fraud tactics through predefined communication scenarios and\nfraud typologies. The generated dataset contains 28,511 rigorously processed\nspeech-text pairs, complete with detailed annotations for fraud reasoning. The\ndataset is divided into three tasks: scenario classification, fraud detection,\nfraud type classification. Furthermore, we construct TeleAntiFraud-Bench, a\nstandardized evaluation benchmark comprising proportionally sampled instances\nfrom the dataset, to facilitate systematic testing of model performance on\ntelecom fraud detection tasks. We also contribute a production-optimized\nsupervised fine-tuning (SFT) model trained on hybrid real/synthetic data, while\nopen-sourcing the data processing framework to enable community-driven dataset\nexpansion. This work establishes a foundational framework for multimodal\nanti-fraud research while addressing critical challenges in data privacy and\nscenario diversity. The project will be released at\nhttps://github.com/JimmyMa99/TeleAntiFraud.",
+      "upvotes": 2,
+      "discussionId": "67eb5117d3a707c0a5b02c4c"
+    },
+    "publishedAt": "2025-03-31T10:06:17.000Z",
+    "title": "TeleAntiFraud-28k: A Audio-Text Slow-Thinking Dataset for Telecom Fraud\n  Detection",
+    "summary": "The detection of telecom fraud faces significant challenges due to the lack\nof high-quality multimodal training data that integrates audio signals with\nreasoning-oriented textual analysis. To address this gap, we present\nTeleAntiFraud-28k, the first open-source audio-text slow-thinking dataset\nspecifically designed for automated telecom fraud analysis. Our dataset is\nconstructed through three strategies: (1) Privacy-preserved text-truth sample\ngeneration using automatically speech recognition (ASR)-transcribed call\nrecordings (with anonymized original audio), ensuring real-world consistency\nthrough text-to-speech (TTS) model regeneration; (2) Semantic enhancement via\nlarge language model (LLM)-based self-instruction sampling on authentic ASR\noutputs to expand scenario coverage; (3) Multi-agent adversarial synthesis that\nsimulates emerging fraud tactics through predefined communication scenarios and\nfraud typologies. The generated dataset contains 28,511 rigorously processed\nspeech-text pairs, complete with detailed annotations for fraud reasoning. The\ndataset is divided into three tasks: scenario classification, fraud detection,\nfraud type classification. Furthermore, we construct TeleAntiFraud-Bench, a\nstandardized evaluation benchmark comprising proportionally sampled instances\nfrom the dataset, to facilitate systematic testing of model performance on\ntelecom fraud detection tasks. We also contribute a production-optimized\nsupervised fine-tuning (SFT) model trained on hybrid real/synthetic data, while\nopen-sourcing the data processing framework to enable community-driven dataset\nexpansion. This work establishes a foundational framework for multimodal\nanti-fraud research while addressing critical challenges in data privacy and\nscenario diversity. The project will be released at\nhttps://github.com/JimmyMa99/TeleAntiFraud.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64a0ed5ed5374ca472cfb0ac/PsAJTW9JTyrHqtjQP0lLJ.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.24115.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64a0ed5ed5374ca472cfb0ac",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a0ed5ed5374ca472cfb0ac/n_wXamXfR_PPn0hRbnR1X.jpeg",
+      "fullname": "ZhimingMa",
+      "name": "JimmyMa99",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2503.20286",
+      "authors": [
+        {
+          "_id": "67eaa88c40bebc3127ade04c",
+          "user": {
+            "_id": "67e77099284080c98d8c9bfc",
+            "avatarUrl": "/avatars/a3120e8d9b1312d8a670161b674f3196.svg",
+            "isPro": false,
+            "fullname": "Zhenyu Liang",
+            "user": "ZhenyuLiang",
+            "type": "user"
+          },
+          "name": "Zhenyu Liang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-03-31T15:15:16.646Z",
+          "hidden": false
+        },
+        {
+          "_id": "67eaa88c40bebc3127ade04d",
+          "name": "Hao Li",
+          "hidden": false
+        },
+        {
+          "_id": "67eaa88c40bebc3127ade04e",
+          "name": "Naiwei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "67eaa88c40bebc3127ade04f",
+          "name": "Kebin Sun",
+          "hidden": false
+        },
+        {
+          "_id": "67eaa88c40bebc3127ade050",
+          "name": "Ran Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-26T07:30:23.000Z",
+      "submittedOnDailyAt": "2025-04-01T00:34:02.763Z",
+      "title": "Bridging Evolutionary Multiobjective Optimization and GPU Acceleration\n  via Tensorization",
+      "submittedOnDailyBy": {
+        "_id": "67e77099284080c98d8c9bfc",
+        "avatarUrl": "/avatars/a3120e8d9b1312d8a670161b674f3196.svg",
+        "isPro": false,
+        "fullname": "Zhenyu Liang",
+        "user": "ZhenyuLiang",
+        "type": "user"
+      },
+      "summary": "Evolutionary multiobjective optimization (EMO) has made significant strides\nover the past two decades. However, as problem scales and complexities\nincrease, traditional EMO algorithms face substantial performance limitations\ndue to insufficient parallelism and scalability. While most work has focused on\nalgorithm design to address these challenges, little attention has been given\nto hardware acceleration, thereby leaving a clear gap between EMO algorithms\nand advanced computing devices, such as GPUs. To bridge the gap, we propose to\nparallelize EMO algorithms on GPUs via the tensorization methodology. By\nemploying tensorization, the data structures and operations of EMO algorithms\nare transformed into concise tensor representations, which seamlessly enables\nautomatic utilization of GPU computing. We demonstrate the effectiveness of our\napproach by applying it to three representative EMO algorithms: NSGA-III,\nMOEA/D, and HypE. To comprehensively assess our methodology, we introduce a\nmultiobjective robot control benchmark using a GPU-accelerated physics engine.\nOur experiments show that the tensorized EMO algorithms achieve speedups of up\nto 1113x compared to their CPU-based counterparts, while maintaining solution\nquality and effectively scaling population sizes to hundreds of thousands.\nFurthermore, the tensorized EMO algorithms efficiently tackle complex\nmultiobjective robot control tasks, producing high-quality solutions with\ndiverse behaviors. Source codes are available at\nhttps://github.com/EMI-Group/evomo.",
+      "upvotes": 1,
+      "discussionId": "67eaa88e40bebc3127ade0eb",
+      "githubRepo": "https://github.com/EMI-Group/evomo",
+      "ai_keywords": [
+        "evolutionary multiobjective optimization (EMO)",
+        "parallelism",
+        "scalability",
+        "GPU",
+        "tensorization",
+        "tensor representations",
+        "NSGA-III",
+        "MOEA/D",
+        "HypE",
+        "GPU-accelerated physics engine",
+        "multiobjective robot control benchmark",
+        "population sizes",
+        "high-quality solutions",
+        "diverse behaviors"
+      ]
+    },
+    "publishedAt": "2025-03-26T03:30:23.000Z",
+    "title": "Bridging Evolutionary Multiobjective Optimization and GPU Acceleration\n  via Tensorization",
+    "summary": "Evolutionary multiobjective optimization (EMO) has made significant strides\nover the past two decades. However, as problem scales and complexities\nincrease, traditional EMO algorithms face substantial performance limitations\ndue to insufficient parallelism and scalability. While most work has focused on\nalgorithm design to address these challenges, little attention has been given\nto hardware acceleration, thereby leaving a clear gap between EMO algorithms\nand advanced computing devices, such as GPUs. To bridge the gap, we propose to\nparallelize EMO algorithms on GPUs via the tensorization methodology. By\nemploying tensorization, the data structures and operations of EMO algorithms\nare transformed into concise tensor representations, which seamlessly enables\nautomatic utilization of GPU computing. We demonstrate the effectiveness of our\napproach by applying it to three representative EMO algorithms: NSGA-III,\nMOEA/D, and HypE. To comprehensively assess our methodology, we introduce a\nmultiobjective robot control benchmark using a GPU-accelerated physics engine.\nOur experiments show that the tensorized EMO algorithms achieve speedups of up\nto 1113x compared to their CPU-based counterparts, while maintaining solution\nquality and effectively scaling population sizes to hundreds of thousands.\nFurthermore, the tensorized EMO algorithms efficiently tackle complex\nmultiobjective robot control tasks, producing high-quality solutions with\ndiverse behaviors. Source codes are available at\nhttps://github.com/EMI-Group/evomo.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.20286.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "67e77099284080c98d8c9bfc",
+      "avatarUrl": "/avatars/a3120e8d9b1312d8a670161b674f3196.svg",
+      "fullname": "Zhenyu Liang",
+      "name": "ZhenyuLiang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  }
+]
