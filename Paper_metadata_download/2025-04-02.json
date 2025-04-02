@@ -1,0 +1,543 @@
+[
+  {
+    "paper": {
+      "id": "2504.00906",
+      "authors": [
+        {
+          "_id": "67ec9340913c072638c16bbf",
+          "name": "Saaket Agashe",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9340913c072638c16bc0",
+          "name": "Kyle Wong",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9340913c072638c16bc1",
+          "name": "Vincent Tu",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9340913c072638c16bc2",
+          "name": "Jiachen Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9340913c072638c16bc3",
+          "name": "Ang Li",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9340913c072638c16bc4",
+          "name": "Xin Eric Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-01T15:40:27.000Z",
+      "submittedOnDailyAt": "2025-04-02T00:02:12.706Z",
+      "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer\n  Use Agents",
+      "submittedOnDailyBy": {
+        "_id": "64679a226192d39142245e5e",
+        "avatarUrl": "/avatars/05abee0b6317f100923936ca2099e9eb.svg",
+        "isPro": false,
+        "fullname": "Xin Eric Wang",
+        "user": "xw-eric",
+        "type": "user"
+      },
+      "summary": "Computer use agents automate digital tasks by directly interacting with\ngraphical user interfaces (GUIs) on computers and mobile devices, offering\nsignificant potential to enhance human productivity by completing an open-ended\nspace of user queries. However, current agents face significant challenges:\nimprecise grounding of GUI elements, difficulties with long-horizon task\nplanning, and performance bottlenecks from relying on single generalist models\nfor diverse cognitive tasks. To this end, we introduce Agent S2, a novel\ncompositional framework that delegates cognitive responsibilities across\nvarious generalist and specialist models. We propose a novel\nMixture-of-Grounding technique to achieve precise GUI localization and\nintroduce Proactive Hierarchical Planning, dynamically refining action plans at\nmultiple temporal scales in response to evolving observations. Evaluations\ndemonstrate that Agent S2 establishes new state-of-the-art (SOTA) performance\non three prominent computer use benchmarks. Specifically, Agent S2 achieves\n18.9% and 32.7% relative improvements over leading baseline agents such as\nClaude Computer Use and UI-TARS on the OSWorld 15-step and 50-step evaluation.\nMoreover, Agent S2 generalizes effectively to other operating systems and\napplications, surpassing previous best methods by 52.8% on WindowsAgentArena\nand by 16.52% on AndroidWorld relatively. Code available at\nhttps://github.com/simular-ai/Agent-S.",
+      "upvotes": 5,
+      "discussionId": "67ec9343913c072638c16c5f",
+      "projectPage": "https://www.simular.ai/articles/agent-s2-technical-review",
+      "githubRepo": "https://github.com/simular-ai/Agent-S",
+      "ai_keywords": [
+        "Mixture-of-Grounding",
+        "Proactive Hierarchical Planning",
+        "compositional framework",
+        "GUI localization",
+        "action plans",
+        "state-of-the-art (SOTA) performance",
+        "OSWorld",
+        "WindowsAgentArena",
+        "AndroidWorld"
+      ]
+    },
+    "publishedAt": "2025-04-01T11:40:27.000Z",
+    "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer\n  Use Agents",
+    "summary": "Computer use agents automate digital tasks by directly interacting with\ngraphical user interfaces (GUIs) on computers and mobile devices, offering\nsignificant potential to enhance human productivity by completing an open-ended\nspace of user queries. However, current agents face significant challenges:\nimprecise grounding of GUI elements, difficulties with long-horizon task\nplanning, and performance bottlenecks from relying on single generalist models\nfor diverse cognitive tasks. To this end, we introduce Agent S2, a novel\ncompositional framework that delegates cognitive responsibilities across\nvarious generalist and specialist models. We propose a novel\nMixture-of-Grounding technique to achieve precise GUI localization and\nintroduce Proactive Hierarchical Planning, dynamically refining action plans at\nmultiple temporal scales in response to evolving observations. Evaluations\ndemonstrate that Agent S2 establishes new state-of-the-art (SOTA) performance\non three prominent computer use benchmarks. Specifically, Agent S2 achieves\n18.9% and 32.7% relative improvements over leading baseline agents such as\nClaude Computer Use and UI-TARS on the OSWorld 15-step and 50-step evaluation.\nMoreover, Agent S2 generalizes effectively to other operating systems and\napplications, surpassing previous best methods by 52.8% on WindowsAgentArena\nand by 16.52% on AndroidWorld relatively. Code available at\nhttps://github.com/simular-ai/Agent-S.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.00906.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64679a226192d39142245e5e",
+      "avatarUrl": "/avatars/05abee0b6317f100923936ca2099e9eb.svg",
+      "fullname": "Xin Eric Wang",
+      "name": "xw-eric",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.01016",
+      "authors": [
+        {
+          "_id": "67ec958ebb1d6dd924f94a31",
+          "name": "Tian-Xing Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67ec958ebb1d6dd924f94a32",
+          "name": "Xiangjun Gao",
+          "hidden": false
+        },
+        {
+          "_id": "67ec958ebb1d6dd924f94a33",
+          "name": "Wenbo Hu",
+          "hidden": false
+        },
+        {
+          "_id": "67ec958ebb1d6dd924f94a34",
+          "name": "Xiaoyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "67ec958ebb1d6dd924f94a35",
+          "name": "Song-Hai Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec958ebb1d6dd924f94a36",
+          "name": "Ying Shan",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/657a7458afbb0117ba15c59f/6He3mQcB_AO1G_Sq8xYc0.mp4"
+      ],
+      "publishedAt": "2025-04-01T17:58:03.000Z",
+      "submittedOnDailyAt": "2025-04-02T00:15:17.585Z",
+      "title": "GeometryCrafter: Consistent Geometry Estimation for Open-world Videos\n  with Diffusion Priors",
+      "submittedOnDailyBy": {
+        "_id": "657a7458afbb0117ba15c59f",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/657a7458afbb0117ba15c59f/8_iwTS1UG_mKnfylFbLsY.jpeg",
+        "isPro": false,
+        "fullname": "Wenbo Hu",
+        "user": "wbhu-tc",
+        "type": "user"
+      },
+      "summary": "Despite remarkable advancements in video depth estimation, existing methods\nexhibit inherent limitations in achieving geometric fidelity through the\naffine-invariant predictions, limiting their applicability in reconstruction\nand other metrically grounded downstream tasks. We propose GeometryCrafter, a\nnovel framework that recovers high-fidelity point map sequences with temporal\ncoherence from open-world videos, enabling accurate 3D/4D reconstruction,\ncamera parameter estimation, and other depth-based applications. At the core of\nour approach lies a point map Variational Autoencoder (VAE) that learns a\nlatent space agnostic to video latent distributions for effective point map\nencoding and decoding. Leveraging the VAE, we train a video diffusion model to\nmodel the distribution of point map sequences conditioned on the input videos.\nExtensive evaluations on diverse datasets demonstrate that GeometryCrafter\nachieves state-of-the-art 3D accuracy, temporal consistency, and generalization\ncapability.",
+      "upvotes": 2,
+      "discussionId": "67ec9593bb1d6dd924f94b3e",
+      "projectPage": "https://geometrycrafter.github.io/",
+      "githubRepo": "https://github.com/TencentARC/GeometryCrafter",
+      "ai_keywords": [
+        "GeometryCrafter",
+        "point map Variational Autoencoder (VAE)",
+        "latent space",
+        "video latent distributions",
+        "point map encoding",
+        "point map decoding",
+        "video diffusion model",
+        "point map sequences",
+        "3D accuracy",
+        "temporal consistency",
+        "generalization capability"
+      ]
+    },
+    "publishedAt": "2025-04-01T13:58:03.000Z",
+    "title": "GeometryCrafter: Consistent Geometry Estimation for Open-world Videos\n  with Diffusion Priors",
+    "summary": "Despite remarkable advancements in video depth estimation, existing methods\nexhibit inherent limitations in achieving geometric fidelity through the\naffine-invariant predictions, limiting their applicability in reconstruction\nand other metrically grounded downstream tasks. We propose GeometryCrafter, a\nnovel framework that recovers high-fidelity point map sequences with temporal\ncoherence from open-world videos, enabling accurate 3D/4D reconstruction,\ncamera parameter estimation, and other depth-based applications. At the core of\nour approach lies a point map Variational Autoencoder (VAE) that learns a\nlatent space agnostic to video latent distributions for effective point map\nencoding and decoding. Leveraging the VAE, we train a video diffusion model to\nmodel the distribution of point map sequences conditioned on the input videos.\nExtensive evaluations on diverse datasets demonstrate that GeometryCrafter\nachieves state-of-the-art 3D accuracy, temporal consistency, and generalization\ncapability.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/657a7458afbb0117ba15c59f/6He3mQcB_AO1G_Sq8xYc0.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.01016.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "657a7458afbb0117ba15c59f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/657a7458afbb0117ba15c59f/8_iwTS1UG_mKnfylFbLsY.jpeg",
+      "fullname": "Wenbo Hu",
+      "name": "wbhu-tc",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.23361",
+      "authors": [
+        {
+          "_id": "67eb57a56522661171fb4725",
+          "name": "Linxin Song",
+          "hidden": false
+        },
+        {
+          "_id": "67eb57a56522661171fb4726",
+          "name": "Xuwei Ding",
+          "hidden": false
+        },
+        {
+          "_id": "67eb57a56522661171fb4727",
+          "name": "Jieyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb57a56522661171fb4728",
+          "user": {
+            "_id": "62e1b3cb3eb0730f621a83f6",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1658958764563-noauth.jpeg",
+            "isPro": false,
+            "fullname": "Taiwei Shi",
+            "user": "MaksimSTW",
+            "type": "user"
+          },
+          "name": "Taiwei Shi",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-04-01T07:46:48.349Z",
+          "hidden": false
+        },
+        {
+          "_id": "67eb57a56522661171fb4729",
+          "name": "Ryotaro Shimizu",
+          "hidden": false
+        },
+        {
+          "_id": "67eb57a56522661171fb472a",
+          "name": "Rahul Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "67eb57a56522661171fb472b",
+          "name": "Yang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67eb57a56522661171fb472c",
+          "name": "Jian Kang",
+          "hidden": false
+        },
+        {
+          "_id": "67eb57a56522661171fb472d",
+          "name": "Jieyu Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-30T08:33:56.000Z",
+      "submittedOnDailyAt": "2025-04-02T00:04:15.369Z",
+      "title": "Discovering Knowledge Deficiencies of Language Models on Massive\n  Knowledge Base",
+      "submittedOnDailyBy": {
+        "_id": "62e1b3cb3eb0730f621a83f6",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1658958764563-noauth.jpeg",
+        "isPro": false,
+        "fullname": "Taiwei Shi",
+        "user": "MaksimSTW",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) possess impressive linguistic capabilities but\noften fail to faithfully retain factual knowledge, leading to hallucinations\nand unreliable outputs. Understanding LLMs' knowledge deficiencies by\nexhaustively evaluating against full-scale knowledge bases is computationally\nprohibitive, especially for closed-weight models. We propose stochastic error\nascent (SEA), a scalable and efficient framework for discovering knowledge\ndeficiencies (errors) in closed-weight LLMs under a strict query budget. Rather\nthan naively probing all knowledge candidates, SEA formulates error discovery\nas a stochastic optimization process: it iteratively retrieves new high-error\ncandidates by leveraging the semantic similarity to previously observed\nfailures. To further enhance search efficiency and coverage, SEA employs\nhierarchical retrieval across document and paragraph levels, and constructs a\nrelation directed acyclic graph to model error propagation and identify\nsystematic failure modes. Empirically, SEA uncovers 40.7x more knowledge errors\nthan Automated Capability Discovery and 26.7% more than AutoBencher, while\nreducing the cost-per-error by 599x and 9x, respectively. Human evaluation\nconfirms the high quality of generated questions, while ablation and\nconvergence analyses validate the contribution of each component in SEA.\nFurther analysis on the discovered errors reveals correlated failure patterns\nacross LLM families and recurring deficits, highlighting the need for better\ndata coverage and targeted fine-tuning in future LLM development.",
+      "upvotes": 2,
+      "discussionId": "67eb57a66522661171fb476a",
+      "githubRepo": "https://github.com/uscnlp-lime/SEA",
+      "ai_keywords": [
+        "stochastic error ascent (SEA)",
+        "knowledge deficiencies (errors)",
+        "closed-weight LLMs",
+        "stochastic optimization process",
+        "semantic similarity",
+        "hierarchical retrieval",
+        "document level",
+        "paragraph level",
+        "relation directed acyclic graph (DAG)",
+        "error propagation",
+        "systematic failure modes",
+        "Automated Capability Discovery",
+        "AutoBencher",
+        "cost-per-error",
+        "human evaluation",
+        "ablation analysis",
+        "convergence analysis",
+        "correlated failure patterns",
+        "LLM families",
+        "data coverage",
+        "targeted fine-tuning"
+      ]
+    },
+    "publishedAt": "2025-03-30T04:33:56.000Z",
+    "title": "Discovering Knowledge Deficiencies of Language Models on Massive\n  Knowledge Base",
+    "summary": "Large language models (LLMs) possess impressive linguistic capabilities but\noften fail to faithfully retain factual knowledge, leading to hallucinations\nand unreliable outputs. Understanding LLMs' knowledge deficiencies by\nexhaustively evaluating against full-scale knowledge bases is computationally\nprohibitive, especially for closed-weight models. We propose stochastic error\nascent (SEA), a scalable and efficient framework for discovering knowledge\ndeficiencies (errors) in closed-weight LLMs under a strict query budget. Rather\nthan naively probing all knowledge candidates, SEA formulates error discovery\nas a stochastic optimization process: it iteratively retrieves new high-error\ncandidates by leveraging the semantic similarity to previously observed\nfailures. To further enhance search efficiency and coverage, SEA employs\nhierarchical retrieval across document and paragraph levels, and constructs a\nrelation directed acyclic graph to model error propagation and identify\nsystematic failure modes. Empirically, SEA uncovers 40.7x more knowledge errors\nthan Automated Capability Discovery and 26.7% more than AutoBencher, while\nreducing the cost-per-error by 599x and 9x, respectively. Human evaluation\nconfirms the high quality of generated questions, while ablation and\nconvergence analyses validate the contribution of each component in SEA.\nFurther analysis on the discovered errors reveals correlated failure patterns\nacross LLM families and recurring deficits, highlighting the need for better\ndata coverage and targeted fine-tuning in future LLM development.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.23361.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62e1b3cb3eb0730f621a83f6",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1658958764563-noauth.jpeg",
+      "fullname": "Taiwei Shi",
+      "name": "MaksimSTW",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2504.01005",
+      "authors": [
+        {
+          "_id": "67ec95ea3d267d26663ea34b",
+          "name": "Nishad Singhi",
+          "hidden": false
+        },
+        {
+          "_id": "67ec95ea3d267d26663ea34c",
+          "name": "Hritik Bansal",
+          "hidden": false
+        },
+        {
+          "_id": "67ec95ea3d267d26663ea34d",
+          "name": "Arian Hosseini",
+          "hidden": false
+        },
+        {
+          "_id": "67ec95ea3d267d26663ea34e",
+          "name": "Aditya Grover",
+          "hidden": false
+        },
+        {
+          "_id": "67ec95ea3d267d26663ea34f",
+          "name": "Kai-Wei Chang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec95ea3d267d26663ea350",
+          "name": "Marcus Rohrbach",
+          "hidden": false
+        },
+        {
+          "_id": "67ec95ea3d267d26663ea351",
+          "name": "Anna Rohrbach",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-01T17:41:57.000Z",
+      "submittedOnDailyAt": "2025-04-02T00:12:49.083Z",
+      "title": "When To Solve, When To Verify: Compute-Optimal Problem Solving and\n  Generative Verification for LLM Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "61c5c25705aa54027c52f7b3",
+        "avatarUrl": "/avatars/8a89e040dc331b7a83d9a704c4fc29d2.svg",
+        "isPro": false,
+        "fullname": "Hritik Bansal",
+        "user": "hbXNov",
+        "type": "user"
+      },
+      "summary": "Scaling test-time compute has emerged as a key strategy for enhancing the\nreasoning capabilities of large language models (LLMs), particularly in tasks\nlike mathematical problem-solving. A traditional approach, Self-Consistency\n(SC), generates multiple solutions to a problem and selects the most common\nanswer via majority voting. Another common method involves scoring each\nsolution with a reward model (verifier) and choosing the best one. Recent\nadvancements in Generative Reward Models (GenRM) reframe verification as a\nnext-token prediction task, enabling inference-time scaling along a new axis.\nSpecifically, GenRM generates multiple verification chains-of-thought to score\neach solution. Under a limited inference budget, this introduces a fundamental\ntrade-off: should you spend the budget on scaling solutions via SC or generate\nfewer solutions and allocate compute to verification via GenRM? To address\nthis, we evaluate GenRM against SC under a fixed inference budget.\nInterestingly, we find that SC is more compute-efficient than GenRM for most\npractical inference budgets across diverse models and datasets. For instance,\nGenRM first matches SC after consuming up to 8x the inference compute and\nrequires significantly more compute to outperform it. Furthermore, we derive\ninference scaling laws for the GenRM paradigm, revealing that compute-optimal\ninference favors scaling solution generation more aggressively than scaling the\nnumber of verifications. Our work provides practical guidance on optimizing\ntest-time scaling by balancing solution generation and verification. The code\nis available at https://github.com/nishadsinghi/sc-genrm-scaling.",
+      "upvotes": 1,
+      "discussionId": "67ec95eb3d267d26663ea38b",
+      "ai_keywords": [
+        "Large language models (LLMs)",
+        "Mathematical problem-solving",
+        "Self-Consistency (SC)",
+        "Reward model (verifier)",
+        "Generative Reward Models (GenRM)",
+        "Next-token prediction task",
+        "Chains-of-thought",
+        "Inference budget",
+        "Compute-efficient",
+        "Inference scaling laws",
+        "Compute-optimal inference"
+      ]
+    },
+    "publishedAt": "2025-04-01T13:41:57.000Z",
+    "title": "When To Solve, When To Verify: Compute-Optimal Problem Solving and\n  Generative Verification for LLM Reasoning",
+    "summary": "Scaling test-time compute has emerged as a key strategy for enhancing the\nreasoning capabilities of large language models (LLMs), particularly in tasks\nlike mathematical problem-solving. A traditional approach, Self-Consistency\n(SC), generates multiple solutions to a problem and selects the most common\nanswer via majority voting. Another common method involves scoring each\nsolution with a reward model (verifier) and choosing the best one. Recent\nadvancements in Generative Reward Models (GenRM) reframe verification as a\nnext-token prediction task, enabling inference-time scaling along a new axis.\nSpecifically, GenRM generates multiple verification chains-of-thought to score\neach solution. Under a limited inference budget, this introduces a fundamental\ntrade-off: should you spend the budget on scaling solutions via SC or generate\nfewer solutions and allocate compute to verification via GenRM? To address\nthis, we evaluate GenRM against SC under a fixed inference budget.\nInterestingly, we find that SC is more compute-efficient than GenRM for most\npractical inference budgets across diverse models and datasets. For instance,\nGenRM first matches SC after consuming up to 8x the inference compute and\nrequires significantly more compute to outperform it. Furthermore, we derive\ninference scaling laws for the GenRM paradigm, revealing that compute-optimal\ninference favors scaling solution generation more aggressively than scaling the\nnumber of verifications. Our work provides practical guidance on optimizing\ntest-time scaling by balancing solution generation and verification. The code\nis available at https://github.com/nishadsinghi/sc-genrm-scaling.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.01005.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "61c5c25705aa54027c52f7b3",
+      "avatarUrl": "/avatars/8a89e040dc331b7a83d9a704c4fc29d2.svg",
+      "fullname": "Hritik Bansal",
+      "name": "hbXNov",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.23733",
+      "authors": [
+        {
+          "_id": "67ec99788088196efd062021",
+          "name": "Yiyang Du",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd062022",
+          "name": "Xiaochen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd062023",
+          "name": "Chi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd062024",
+          "name": "Jiabo Ye",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd062025",
+          "name": "Yiru Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd062026",
+          "name": "Peng Li",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd062027",
+          "name": "Ming Yan",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd062028",
+          "name": "Ji Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd062029",
+          "name": "Fei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd06202a",
+          "name": "Zhifang Sui",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd06202b",
+          "name": "Maosong Sun",
+          "hidden": false
+        },
+        {
+          "_id": "67ec99788088196efd06202c",
+          "name": "Yang Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-31T05:13:02.000Z",
+      "submittedOnDailyAt": "2025-04-02T00:32:49.651Z",
+      "title": "AdaMMS: Model Merging for Heterogeneous Multimodal Large Language Models\n  with Unsupervised Coefficient Optimization",
+      "submittedOnDailyBy": {
+        "_id": "642086ed290342c5df85662d",
+        "avatarUrl": "/avatars/915a4d7b89455ae97b8544c79286ddf8.svg",
+        "isPro": false,
+        "fullname": "Chi Chen",
+        "user": "carboncoo",
+        "type": "user"
+      },
+      "summary": "Recently, model merging methods have demonstrated powerful strengths in\ncombining abilities on various tasks from multiple Large Language Models\n(LLMs). While previous model merging methods mainly focus on merging\nhomogeneous models with identical architecture, they meet challenges when\ndealing with Multimodal Large Language Models (MLLMs) with inherent\nheterogeneous property, including differences in model architecture and the\nasymmetry in the parameter space. In this work, we propose AdaMMS, a novel\nmodel merging method tailored for heterogeneous MLLMs. Our method tackles the\nchallenges in three steps: mapping, merging and searching. Specifically, we\nfirst design mapping function between models to apply model merging on MLLMs\nwith different architecture. Then we apply linear interpolation on model\nweights to actively adapt the asymmetry in the heterogeneous MLLMs. Finally in\nthe hyper-parameter searching step, we propose an unsupervised hyper-parameter\nselection method for model merging. As the first model merging method capable\nof merging heterogeneous MLLMs without labeled data, extensive experiments on\nvarious model combinations demonstrated that AdaMMS outperforms previous model\nmerging methods on various vision-language benchmarks.",
+      "upvotes": 0,
+      "discussionId": "67ec99798088196efd062081"
+    },
+    "publishedAt": "2025-03-31T01:13:02.000Z",
+    "title": "AdaMMS: Model Merging for Heterogeneous Multimodal Large Language Models\n  with Unsupervised Coefficient Optimization",
+    "summary": "Recently, model merging methods have demonstrated powerful strengths in\ncombining abilities on various tasks from multiple Large Language Models\n(LLMs). While previous model merging methods mainly focus on merging\nhomogeneous models with identical architecture, they meet challenges when\ndealing with Multimodal Large Language Models (MLLMs) with inherent\nheterogeneous property, including differences in model architecture and the\nasymmetry in the parameter space. In this work, we propose AdaMMS, a novel\nmodel merging method tailored for heterogeneous MLLMs. Our method tackles the\nchallenges in three steps: mapping, merging and searching. Specifically, we\nfirst design mapping function between models to apply model merging on MLLMs\nwith different architecture. Then we apply linear interpolation on model\nweights to actively adapt the asymmetry in the heterogeneous MLLMs. Finally in\nthe hyper-parameter searching step, we propose an unsupervised hyper-parameter\nselection method for model merging. As the first model merging method capable\nof merging heterogeneous MLLMs without labeled data, extensive experiments on\nvarious model combinations demonstrated that AdaMMS outperforms previous model\nmerging methods on various vision-language benchmarks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.23733.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "642086ed290342c5df85662d",
+      "avatarUrl": "/avatars/915a4d7b89455ae97b8544c79286ddf8.svg",
+      "fullname": "Chi Chen",
+      "name": "carboncoo",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2503.21860",
+      "authors": [
+        {
+          "_id": "67ec97f65d9c75ff46de2974",
+          "name": "Kailin Li",
+          "hidden": false
+        },
+        {
+          "_id": "67ec97f65d9c75ff46de2975",
+          "name": "Puhao Li",
+          "hidden": false
+        },
+        {
+          "_id": "67ec97f65d9c75ff46de2976",
+          "name": "Tengyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67ec97f65d9c75ff46de2977",
+          "name": "Yuyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "67ec97f65d9c75ff46de2978",
+          "name": "Siyuan Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-27T17:50:30.000Z",
+      "submittedOnDailyAt": "2025-04-02T00:21:41.585Z",
+      "title": "ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via\n  Residual Learning",
+      "submittedOnDailyBy": {
+        "_id": "60f1abe7544c2adfd699860c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+        "isPro": false,
+        "fullname": "AK",
+        "user": "akhaliq",
+        "type": "user"
+      },
+      "summary": "Human hands play a central role in interacting, motivating increasing\nresearch in dexterous robotic manipulation. Data-driven embodied AI algorithms\ndemand precise, large-scale, human-like manipulation sequences, which are\nchallenging to obtain with conventional reinforcement learning or real-world\nteleoperation. To address this, we introduce ManipTrans, a novel two-stage\nmethod for efficiently transferring human bimanual skills to dexterous robotic\nhands in simulation. ManipTrans first pre-trains a generalist trajectory\nimitator to mimic hand motion, then fine-tunes a specific residual module under\ninteraction constraints, enabling efficient learning and accurate execution of\ncomplex bimanual tasks. Experiments show that ManipTrans surpasses\nstate-of-the-art methods in success rate, fidelity, and efficiency. Leveraging\nManipTrans, we transfer multiple hand-object datasets to robotic hands,\ncreating DexManipNet, a large-scale dataset featuring previously unexplored\ntasks like pen capping and bottle unscrewing. DexManipNet comprises 3.3K\nepisodes of robotic manipulation and is easily extensible, facilitating further\npolicy training for dexterous hands and enabling real-world deployments.",
+      "upvotes": 0,
+      "discussionId": "67ec97f85d9c75ff46de29f0",
+      "projectPage": "https://maniptrans.github.io/"
+    },
+    "publishedAt": "2025-03-27T13:50:30.000Z",
+    "title": "ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via\n  Residual Learning",
+    "summary": "Human hands play a central role in interacting, motivating increasing\nresearch in dexterous robotic manipulation. Data-driven embodied AI algorithms\ndemand precise, large-scale, human-like manipulation sequences, which are\nchallenging to obtain with conventional reinforcement learning or real-world\nteleoperation. To address this, we introduce ManipTrans, a novel two-stage\nmethod for efficiently transferring human bimanual skills to dexterous robotic\nhands in simulation. ManipTrans first pre-trains a generalist trajectory\nimitator to mimic hand motion, then fine-tunes a specific residual module under\ninteraction constraints, enabling efficient learning and accurate execution of\ncomplex bimanual tasks. Experiments show that ManipTrans surpasses\nstate-of-the-art methods in success rate, fidelity, and efficiency. Leveraging\nManipTrans, we transfer multiple hand-object datasets to robotic hands,\ncreating DexManipNet, a large-scale dataset featuring previously unexplored\ntasks like pen capping and bottle unscrewing. DexManipNet comprises 3.3K\nepisodes of robotic manipulation and is easily extensible, facilitating further\npolicy training for dexterous hands and enabling real-world deployments.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.21860.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60f1abe7544c2adfd699860c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+      "fullname": "AK",
+      "name": "akhaliq",
+      "type": "user",
+      "isPro": false,
+      "isHf": true,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6560
+    },
+    "isAuthorParticipating": false
+  }
+]
