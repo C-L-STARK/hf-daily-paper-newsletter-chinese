@@ -1,0 +1,264 @@
+[
+  {
+    "paper": {
+      "id": "2504.02587",
+      "authors": [
+        {
+          "_id": "67ef3f9804be7fba0c882738",
+          "name": "Yan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3f9804be7fba0c882739",
+          "name": "Steffi Chern",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3f9804be7fba0c88273a",
+          "name": "Xuyang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3f9804be7fba0c88273b",
+          "name": "Yiran Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3f9804be7fba0c88273c",
+          "name": "Pengfei Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-03T13:53:28.000Z",
+      "submittedOnDailyAt": "2025-04-04T00:42:23.044Z",
+      "title": "Rethinking RL Scaling for Vision Language Models: A Transparent,\n  From-Scratch Framework and Comprehensive Evaluation Scheme",
+      "submittedOnDailyBy": {
+        "_id": "633fc70529b5a95f6e15a6b7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/633fc70529b5a95f6e15a6b7/Fzh7wWuqU-fBbzdupOUtF.jpeg",
+        "isPro": false,
+        "fullname": "Yan Ma",
+        "user": "ManTle",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning (RL) has recently shown strong potential in improving\nthe reasoning capabilities of large language models and is now being actively\nextended to vision-language models (VLMs). However, existing RL applications in\nVLMs often rely on heavily engineered frameworks that hinder reproducibility\nand accessibility, while lacking standardized evaluation protocols, making it\ndifficult to compare results or interpret training dynamics. This work\nintroduces a transparent, from-scratch framework for RL in VLMs, offering a\nminimal yet functional four-step pipeline validated across multiple models and\ndatasets. In addition, a standardized evaluation scheme is proposed to assess\ntraining dynamics and reflective behaviors. Extensive experiments on visual\nreasoning tasks uncover key empirical findings: response length is sensitive to\nrandom seeds, reflection correlates with output length, and RL consistently\noutperforms supervised fine-tuning (SFT) in generalization, even with\nhigh-quality data. These findings, together with the proposed framework, aim to\nestablish a reproducible baseline and support broader engagement in RL-based\nVLM research.",
+      "upvotes": 2,
+      "discussionId": "67ef3f9904be7fba0c882772"
+    },
+    "publishedAt": "2025-04-03T09:53:28.000Z",
+    "title": "Rethinking RL Scaling for Vision Language Models: A Transparent,\n  From-Scratch Framework and Comprehensive Evaluation Scheme",
+    "summary": "Reinforcement learning (RL) has recently shown strong potential in improving\nthe reasoning capabilities of large language models and is now being actively\nextended to vision-language models (VLMs). However, existing RL applications in\nVLMs often rely on heavily engineered frameworks that hinder reproducibility\nand accessibility, while lacking standardized evaluation protocols, making it\ndifficult to compare results or interpret training dynamics. This work\nintroduces a transparent, from-scratch framework for RL in VLMs, offering a\nminimal yet functional four-step pipeline validated across multiple models and\ndatasets. In addition, a standardized evaluation scheme is proposed to assess\ntraining dynamics and reflective behaviors. Extensive experiments on visual\nreasoning tasks uncover key empirical findings: response length is sensitive to\nrandom seeds, reflection correlates with output length, and RL consistently\noutperforms supervised fine-tuning (SFT) in generalization, even with\nhigh-quality data. These findings, together with the proposed framework, aim to\nestablish a reproducible baseline and support broader engagement in RL-based\nVLM research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.02587.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "633fc70529b5a95f6e15a6b7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/633fc70529b5a95f6e15a6b7/Fzh7wWuqU-fBbzdupOUtF.jpeg",
+      "fullname": "Yan Ma",
+      "name": "ManTle",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.02436",
+      "authors": [
+        {
+          "_id": "67ef3dfae8b932ae7a832950",
+          "name": "Zhengcong Fei",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832951",
+          "name": "Debang Li",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832952",
+          "name": "Di Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832953",
+          "name": "Jiahua Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832954",
+          "name": "Yikun Dou",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832955",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832956",
+          "name": "Jingtao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832957",
+          "name": "Mingyuan Fan",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832958",
+          "name": "Guibin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a832959",
+          "name": "Yang Li",
+          "hidden": false
+        },
+        {
+          "_id": "67ef3dfae8b932ae7a83295a",
+          "name": "Yahui Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-03T09:50:50.000Z",
+      "submittedOnDailyAt": "2025-04-04T00:33:57.000Z",
+      "title": "SkyReels-A2: Compose Anything in Video Diffusion Transformers",
+      "submittedOnDailyBy": {
+        "_id": "60f1abe7544c2adfd699860c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+        "isPro": false,
+        "fullname": "AK",
+        "user": "akhaliq",
+        "type": "user"
+      },
+      "summary": "This paper presents SkyReels-A2, a controllable video generation framework\ncapable of assembling arbitrary visual elements (e.g., characters, objects,\nbackgrounds) into synthesized videos based on textual prompts while maintaining\nstrict consistency with reference images for each element. We term this task\nelements-to-video (E2V), whose primary challenges lie in preserving the\nfidelity of each reference element, ensuring coherent composition of the scene,\nand achieving natural outputs. To address these, we first design a\ncomprehensive data pipeline to construct prompt-reference-video triplets for\nmodel training. Next, we propose a novel image-text joint embedding model to\ninject multi-element representations into the generative process, balancing\nelement-specific consistency with global coherence and text alignment. We also\noptimize the inference pipeline for both speed and output stability. Moreover,\nwe introduce a carefully curated benchmark for systematic evaluation, i.e, A2\nBench. Experiments demonstrate that our framework can generate diverse,\nhigh-quality videos with precise element control. SkyReels-A2 is the first\nopen-source commercial grade model for the generation of E2V, performing\nfavorably against advanced closed-source commercial models. We anticipate\nSkyReels-A2 will advance creative applications such as drama and virtual\ne-commerce, pushing the boundaries of controllable video generation.",
+      "upvotes": 1,
+      "discussionId": "67ef3dfee8b932ae7a832a97"
+    },
+    "publishedAt": "2025-04-03T05:50:50.000Z",
+    "title": "SkyReels-A2: Compose Anything in Video Diffusion Transformers",
+    "summary": "This paper presents SkyReels-A2, a controllable video generation framework\ncapable of assembling arbitrary visual elements (e.g., characters, objects,\nbackgrounds) into synthesized videos based on textual prompts while maintaining\nstrict consistency with reference images for each element. We term this task\nelements-to-video (E2V), whose primary challenges lie in preserving the\nfidelity of each reference element, ensuring coherent composition of the scene,\nand achieving natural outputs. To address these, we first design a\ncomprehensive data pipeline to construct prompt-reference-video triplets for\nmodel training. Next, we propose a novel image-text joint embedding model to\ninject multi-element representations into the generative process, balancing\nelement-specific consistency with global coherence and text alignment. We also\noptimize the inference pipeline for both speed and output stability. Moreover,\nwe introduce a carefully curated benchmark for systematic evaluation, i.e, A2\nBench. Experiments demonstrate that our framework can generate diverse,\nhigh-quality videos with precise element control. SkyReels-A2 is the first\nopen-source commercial grade model for the generation of E2V, performing\nfavorably against advanced closed-source commercial models. We anticipate\nSkyReels-A2 will advance creative applications such as drama and virtual\ne-commerce, pushing the boundaries of controllable video generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.02436.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60f1abe7544c2adfd699860c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+      "fullname": "AK",
+      "name": "akhaliq",
+      "type": "user",
+      "isPro": false,
+      "isHf": true,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6571
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.02119",
+      "authors": [
+        {
+          "_id": "67ef41e7efcb0a2fbfbb6a32",
+          "user": {
+            "_id": "670826649e319cca029ff240",
+            "avatarUrl": "/avatars/6d12b3abf75f714d75d1775d88885345.svg",
+            "isPro": false,
+            "fullname": "rtfvbhkuj",
+            "user": "wwdd7718",
+            "type": "user"
+          },
+          "name": "Wang Wei",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-04-04T02:20:24.253Z",
+          "hidden": false
+        },
+        {
+          "_id": "67ef41e7efcb0a2fbfbb6a33",
+          "user": {
+            "_id": "66e4e50a52356419c4a1ad14",
+            "avatarUrl": "/avatars/4be3ce17671785cbe7126b9c1141478b.svg",
+            "isPro": false,
+            "fullname": "Tiankai Yang",
+            "user": "tiankaiy",
+            "type": "user"
+          },
+          "name": "Tiankai Yang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-04-04T02:20:24.253Z",
+          "hidden": false
+        },
+        {
+          "_id": "67ef41e7efcb0a2fbfbb6a34",
+          "name": "Hongjie Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67ef41e7efcb0a2fbfbb6a35",
+          "name": "Ryan A. Rossi",
+          "hidden": false
+        },
+        {
+          "_id": "67ef41e7efcb0a2fbfbb6a36",
+          "name": "Yue Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67ef41e7efcb0a2fbfbb6a37",
+          "user": {
+            "_id": "62c5947524171688a9feb992",
+            "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+            "isPro": false,
+            "fullname": "Franck Dernoncourt",
+            "user": "Franck-Dernoncourt",
+            "type": "user"
+          },
+          "name": "Franck Dernoncourt",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-04-04T02:20:24.253Z",
+          "hidden": false
+        },
+        {
+          "_id": "67ef41e7efcb0a2fbfbb6a38",
+          "name": "Hoda Eldardiry",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-02T20:33:27.000Z",
+      "submittedOnDailyAt": "2025-04-04T00:50:35.167Z",
+      "title": "Efficient Model Selection for Time Series Forecasting via LLMs",
+      "submittedOnDailyBy": {
+        "_id": "62c5947524171688a9feb992",
+        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+        "isPro": false,
+        "fullname": "Franck Dernoncourt",
+        "user": "Franck-Dernoncourt",
+        "type": "user"
+      },
+      "summary": "Model selection is a critical step in time series forecasting, traditionally\nrequiring extensive performance evaluations across various datasets.\nMeta-learning approaches aim to automate this process, but they typically\ndepend on pre-constructed performance matrices, which are costly to build. In\nthis work, we propose to leverage Large Language Models (LLMs) as a lightweight\nalternative for model selection. Our method eliminates the need for explicit\nperformance matrices by utilizing the inherent knowledge and reasoning\ncapabilities of LLMs. Through extensive experiments with LLaMA, GPT and Gemini,\nwe demonstrate that our approach outperforms traditional meta-learning\ntechniques and heuristic baselines, while significantly reducing computational\noverhead. These findings underscore the potential of LLMs in efficient model\nselection for time series forecasting.",
+      "upvotes": 1,
+      "discussionId": "67ef41e8efcb0a2fbfbb6a93"
+    },
+    "publishedAt": "2025-04-02T16:33:27.000Z",
+    "title": "Efficient Model Selection for Time Series Forecasting via LLMs",
+    "summary": "Model selection is a critical step in time series forecasting, traditionally\nrequiring extensive performance evaluations across various datasets.\nMeta-learning approaches aim to automate this process, but they typically\ndepend on pre-constructed performance matrices, which are costly to build. In\nthis work, we propose to leverage Large Language Models (LLMs) as a lightweight\nalternative for model selection. Our method eliminates the need for explicit\nperformance matrices by utilizing the inherent knowledge and reasoning\ncapabilities of LLMs. Through extensive experiments with LLaMA, GPT and Gemini,\nwe demonstrate that our approach outperforms traditional meta-learning\ntechniques and heuristic baselines, while significantly reducing computational\noverhead. These findings underscore the potential of LLMs in efficient model\nselection for time series forecasting.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.02119.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c5947524171688a9feb992",
+      "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+      "fullname": "Franck Dernoncourt",
+      "name": "Franck-Dernoncourt",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": true
+  }
+]
