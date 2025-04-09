@@ -1,0 +1,224 @@
+[
+  {
+    "paper": {
+      "id": "2504.05979",
+      "authors": [
+        {
+          "_id": "67f5d5416ceb820f2006d8a2",
+          "name": "Sixiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8a3",
+          "name": "Jinbin Bai",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8a4",
+          "name": "Zhuoran Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8a5",
+          "name": "Tian Ye",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8a6",
+          "name": "Qingyu Shi",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8a7",
+          "name": "Donghao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8a8",
+          "name": "Wenhao Chai",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8a9",
+          "name": "Xin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8aa",
+          "name": "Jianzong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8ab",
+          "name": "Chao Tang",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8ac",
+          "name": "Shilin Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8ad",
+          "name": "Tao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8ae",
+          "name": "Haobo Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8af",
+          "name": "Yikang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8b0",
+          "name": "Wei Chow",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8b1",
+          "name": "Linfeng Li",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8b2",
+          "name": "Xiangtai Li",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8b3",
+          "name": "Lei Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "67f5d5416ceb820f2006d8b4",
+          "name": "Lu Qi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-08T12:34:36.000Z",
+      "submittedOnDailyAt": "2025-04-09T00:39:48.924Z",
+      "title": "An Empirical Study of GPT-4o Image Generation Capabilities",
+      "submittedOnDailyBy": {
+        "_id": "63fccdac93b993a4ebd7789a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63fccdac93b993a4ebd7789a/KRx8vpdoDjsZBRw0j8Vg8.jpeg",
+        "isPro": false,
+        "fullname": "Jinbin Bai",
+        "user": "BryanW",
+        "type": "user"
+      },
+      "summary": "The landscape of image generation has rapidly evolved, from early GAN-based\napproaches to diffusion models and, most recently, to unified generative\narchitectures that seek to bridge understanding and generation tasks. Recent\nadvances, especially the GPT-4o, have demonstrated the feasibility of\nhigh-fidelity multimodal generation, their architectural design remains\nmysterious and unpublished. This prompts the question of whether image and text\ngeneration have already been successfully integrated into a unified framework\nfor those methods. In this work, we conduct an empirical study of GPT-4o's\nimage generation capabilities, benchmarking it against leading open-source and\ncommercial models. Our evaluation covers four main categories, including\ntext-to-image, image-to-image, image-to-3D, and image-to-X generation, with\nmore than 20 tasks. Our analysis highlights the strengths and limitations of\nGPT-4o under various settings, and situates it within the broader evolution of\ngenerative modeling. Through this investigation, we identify promising\ndirections for future unified generative models, emphasizing the role of\narchitectural design and data scaling.",
+      "upvotes": 8,
+      "discussionId": "67f5d5496ceb820f2006da78"
+    },
+    "publishedAt": "2025-04-08T08:34:36.000Z",
+    "title": "An Empirical Study of GPT-4o Image Generation Capabilities",
+    "summary": "The landscape of image generation has rapidly evolved, from early GAN-based\napproaches to diffusion models and, most recently, to unified generative\narchitectures that seek to bridge understanding and generation tasks. Recent\nadvances, especially the GPT-4o, have demonstrated the feasibility of\nhigh-fidelity multimodal generation, their architectural design remains\nmysterious and unpublished. This prompts the question of whether image and text\ngeneration have already been successfully integrated into a unified framework\nfor those methods. In this work, we conduct an empirical study of GPT-4o's\nimage generation capabilities, benchmarking it against leading open-source and\ncommercial models. Our evaluation covers four main categories, including\ntext-to-image, image-to-image, image-to-3D, and image-to-X generation, with\nmore than 20 tasks. Our analysis highlights the strengths and limitations of\nGPT-4o under various settings, and situates it within the broader evolution of\ngenerative modeling. Through this investigation, we identify promising\ndirections for future unified generative models, emphasizing the role of\narchitectural design and data scaling.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.05979.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63fccdac93b993a4ebd7789a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63fccdac93b993a4ebd7789a/KRx8vpdoDjsZBRw0j8Vg8.jpeg",
+      "fullname": "Jinbin Bai",
+      "name": "BryanW",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.00043",
+      "authors": [
+        {
+          "_id": "67ec9d4ad327ed17ec707488",
+          "name": "Jixuan Leng",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9d4ad327ed17ec707489",
+          "name": "Chengsong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9d4ad327ed17ec70748a",
+          "name": "Langlin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9d4ad327ed17ec70748b",
+          "name": "Bill Yuchen Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9d4ad327ed17ec70748c",
+          "name": "William W. Cohen",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9d4ad327ed17ec70748d",
+          "name": "Haohan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67ec9d4ad327ed17ec70748e",
+          "name": "Jiaxin Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-03-30T20:03:36.000Z",
+      "submittedOnDailyAt": "2025-04-09T00:47:44.460Z",
+      "title": "CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs\n  with Controllable Puzzle Generation",
+      "submittedOnDailyBy": {
+        "_id": "64efbf39b3610349e84db417",
+        "avatarUrl": "/avatars/9e09a20e88f8cf5ce119efc0dadc3b7b.svg",
+        "isPro": false,
+        "fullname": "Jiaxin Huang",
+        "user": "teapot123",
+        "type": "user"
+      },
+      "summary": "Existing reasoning evaluation frameworks for Large Language Models (LLMs) and\nLarge Vision-Language Models (LVLMs) predominantly either assess text-based\nreasoning or vision-language understanding capabilities, with limited dynamic\ninterplay between textual and visual constraints. To address this limitation,\nwe introduce CrossWordBench, a benchmark designed to evaluate the reasoning\ncapabilities of both LLMs and LVLMs through the medium of crossword puzzles-a\ntask requiring multimodal adherence to semantic constraints from text-based\nclues and intersectional constraints from visual grid structures.\nCrossWordBench leverages a controllable puzzle generation framework that\nproduces puzzles in multiple formats (text and image) and offers different\nevaluation strategies ranging from direct puzzle solving to interactive modes.\nOur extensive evaluation of over 20 models reveals that reasoning LLMs\noutperform non-reasoning models substantially by effectively leveraging\ncrossing-letter constraints. We further demonstrate that LVLMs struggle with\nthe task, showing a strong correlation between their puzzle-solving performance\nand grid-parsing accuracy. Our findings offer insights into the limitations of\nthe reasoning capabilities of current LLMs and LVLMs, and provide an effective\napproach for creating multimodal constrained tasks for future evaluations.",
+      "upvotes": 2,
+      "discussionId": "67ec9d4fd327ed17ec707598",
+      "ai_keywords": [
+        "CrossWordBench",
+        "multimodal adherence",
+        "semantic constraints",
+        "intersectional constraints",
+        "controllable puzzle generation framework",
+        "direct puzzle solving",
+        "interactive modes",
+        "reasoning LLMs",
+        "non-reasoning models",
+        "crossing-letter constraints",
+        "grid-parsing accuracy",
+        "multimodal constrained tasks"
+      ]
+    },
+    "publishedAt": "2025-03-30T16:03:36.000Z",
+    "title": "CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs\n  with Controllable Puzzle Generation",
+    "summary": "Existing reasoning evaluation frameworks for Large Language Models (LLMs) and\nLarge Vision-Language Models (LVLMs) predominantly either assess text-based\nreasoning or vision-language understanding capabilities, with limited dynamic\ninterplay between textual and visual constraints. To address this limitation,\nwe introduce CrossWordBench, a benchmark designed to evaluate the reasoning\ncapabilities of both LLMs and LVLMs through the medium of crossword puzzles-a\ntask requiring multimodal adherence to semantic constraints from text-based\nclues and intersectional constraints from visual grid structures.\nCrossWordBench leverages a controllable puzzle generation framework that\nproduces puzzles in multiple formats (text and image) and offers different\nevaluation strategies ranging from direct puzzle solving to interactive modes.\nOur extensive evaluation of over 20 models reveals that reasoning LLMs\noutperform non-reasoning models substantially by effectively leveraging\ncrossing-letter constraints. We further demonstrate that LVLMs struggle with\nthe task, showing a strong correlation between their puzzle-solving performance\nand grid-parsing accuracy. Our findings offer insights into the limitations of\nthe reasoning capabilities of current LLMs and LVLMs, and provide an effective\napproach for creating multimodal constrained tasks for future evaluations.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.00043.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64efbf39b3610349e84db417",
+      "avatarUrl": "/avatars/9e09a20e88f8cf5ce119efc0dadc3b7b.svg",
+      "fullname": "Jiaxin Huang",
+      "name": "teapot123",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
