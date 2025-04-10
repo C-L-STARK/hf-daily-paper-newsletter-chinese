@@ -1,0 +1,61 @@
+[
+  {
+    "paper": {
+      "id": "2504.05741",
+      "authors": [
+        {
+          "_id": "67f726dc0b5aa5777fd3a431",
+          "name": "Shuai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67f726dc0b5aa5777fd3a432",
+          "name": "Zhi Tian",
+          "hidden": false
+        },
+        {
+          "_id": "67f726dc0b5aa5777fd3a433",
+          "name": "Weilin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "67f726dc0b5aa5777fd3a434",
+          "name": "Limin Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-08T07:17:45.000Z",
+      "submittedOnDailyAt": "2025-04-10T00:40:02.945Z",
+      "title": "DDT: Decoupled Diffusion Transformer",
+      "submittedOnDailyBy": {
+        "_id": "66615c855fd9d736e670e0a9",
+        "avatarUrl": "/avatars/0ff3127b513552432a7c651e21d7f283.svg",
+        "isPro": false,
+        "fullname": "wangshuai",
+        "user": "wangsssssss",
+        "type": "user"
+      },
+      "summary": "Diffusion transformers have demonstrated remarkable generation quality,\nalbeit requiring longer training iterations and numerous inference steps. In\neach denoising step, diffusion transformers encode the noisy inputs to extract\nthe lower-frequency semantic component and then decode the higher frequency\nwith identical modules. This scheme creates an inherent optimization dilemma:\nencoding low-frequency semantics necessitates reducing high-frequency\ncomponents, creating tension between semantic encoding and high-frequency\ndecoding. To resolve this challenge, we propose a new\n\\color{ddtD}ecoupled \\color{ddtD}iffusion\n\\color{ddtT}ransformer~(\\color{ddtDDT}), with a decoupled\ndesign of a dedicated condition encoder for semantic extraction alongside a\nspecialized velocity decoder. Our experiments reveal that a more substantial\nencoder yields performance improvements as model size increases. For ImageNet\n256times256, Our DDT-XL/2 achieves a new state-of-the-art performance of\n{1.31 FID}~(nearly 4times faster training convergence compared to previous\ndiffusion transformers). For ImageNet 512times512, Our DDT-XL/2 achieves a\nnew state-of-the-art FID of 1.28. Additionally, as a beneficial by-product, our\ndecoupled architecture enhances inference speed by enabling the sharing\nself-condition between adjacent denoising steps. To minimize performance\ndegradation, we propose a novel statistical dynamic programming approach to\nidentify optimal sharing strategies.",
+      "upvotes": 4,
+      "discussionId": "67f726dd0b5aa5777fd3a463",
+      "githubRepo": "https://github.com/MCG-NJU/DDT"
+    },
+    "publishedAt": "2025-04-08T03:17:45.000Z",
+    "title": "DDT: Decoupled Diffusion Transformer",
+    "summary": "Diffusion transformers have demonstrated remarkable generation quality,\nalbeit requiring longer training iterations and numerous inference steps. In\neach denoising step, diffusion transformers encode the noisy inputs to extract\nthe lower-frequency semantic component and then decode the higher frequency\nwith identical modules. This scheme creates an inherent optimization dilemma:\nencoding low-frequency semantics necessitates reducing high-frequency\ncomponents, creating tension between semantic encoding and high-frequency\ndecoding. To resolve this challenge, we propose a new\n\\color{ddtD}ecoupled \\color{ddtD}iffusion\n\\color{ddtT}ransformer~(\\color{ddtDDT}), with a decoupled\ndesign of a dedicated condition encoder for semantic extraction alongside a\nspecialized velocity decoder. Our experiments reveal that a more substantial\nencoder yields performance improvements as model size increases. For ImageNet\n256times256, Our DDT-XL/2 achieves a new state-of-the-art performance of\n{1.31 FID}~(nearly 4times faster training convergence compared to previous\ndiffusion transformers). For ImageNet 512times512, Our DDT-XL/2 achieves a\nnew state-of-the-art FID of 1.28. Additionally, as a beneficial by-product, our\ndecoupled architecture enhances inference speed by enabling the sharing\nself-condition between adjacent denoising steps. To minimize performance\ndegradation, we propose a novel statistical dynamic programming approach to\nidentify optimal sharing strategies.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.05741.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66615c855fd9d736e670e0a9",
+      "avatarUrl": "/avatars/0ff3127b513552432a7c651e21d7f283.svg",
+      "fullname": "wangshuai",
+      "name": "wangsssssss",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
