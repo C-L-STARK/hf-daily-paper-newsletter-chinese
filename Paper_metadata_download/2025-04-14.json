@@ -1,0 +1,445 @@
+[
+  {
+    "paper": {
+      "id": "2504.08685",
+      "authors": [
+        {
+          "_id": "67fc6ffc59b22e7c34d64c2e",
+          "name": "Team Seawead",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c2f",
+          "name": "Ceyuan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c30",
+          "name": "Zhijie Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c31",
+          "name": "Yang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c32",
+          "name": "Shanchuan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c33",
+          "name": "Zhibei Ma",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c34",
+          "name": "Haoyuan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c35",
+          "name": "Hao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c36",
+          "name": "Lu Qi",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c37",
+          "name": "Sen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c38",
+          "name": "Feng Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c39",
+          "name": "Feilong Zuo Xuejiao Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c3a",
+          "name": "Ziyan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c3b",
+          "name": "Fangyuan Kong",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c3c",
+          "name": "Zhiwu Qing",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c3d",
+          "name": "Fei Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c3e",
+          "name": "Meng Wei",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c3f",
+          "name": "Tuyen Hoang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c40",
+          "name": "Siyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c41",
+          "name": "Peihao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c42",
+          "name": "Qi Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c43",
+          "name": "Jiangqiao Yan",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c44",
+          "name": "Liangke Gui",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c45",
+          "name": "Sheng Bi",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c46",
+          "name": "Jiashi Li",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c47",
+          "name": "Yuxi Ren",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c48",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c49",
+          "name": "Huixia Li",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c4a",
+          "name": "Xuefeng Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c4b",
+          "name": "Shu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c4c",
+          "name": "Feng Ling",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c4d",
+          "name": "Heng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c4e",
+          "name": "Houmin Wei",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c4f",
+          "name": "Huafeng Kuang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c50",
+          "name": "Jerry Duncan",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c51",
+          "name": "Junda Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c52",
+          "name": "Junru Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c53",
+          "name": "Li Sun",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c54",
+          "name": "Manlin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c55",
+          "name": "Renfei Sun",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c56",
+          "name": "Xiaobin Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c57",
+          "name": "Xiaojie Li",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c58",
+          "name": "Xin Xia",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c59",
+          "name": "Xuyan Chi",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c5a",
+          "name": "Yanghua Peng",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c5b",
+          "name": "Yuping Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c5c",
+          "name": "Yuxuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c5d",
+          "name": "Zhongkai Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c5e",
+          "name": "Zhuo Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c5f",
+          "name": "Zuquan Song",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c60",
+          "name": "Zhenheng Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c61",
+          "name": "Jiashi Feng",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c62",
+          "name": "Jianchao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6ffc59b22e7c34d64c63",
+          "name": "Lu Jiang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64a5cba3bea0116f8f7187a7/Zl6Xq55_4dviWTCMwOptb.jpeg"
+      ],
+      "publishedAt": "2025-04-11T16:46:20.000Z",
+      "submittedOnDailyAt": "2025-04-14T00:55:27.428Z",
+      "title": "Seaweed-7B: Cost-Effective Training of Video Generation Foundation Model",
+      "submittedOnDailyBy": {
+        "_id": "64a5cba3bea0116f8f7187a7",
+        "avatarUrl": "/avatars/97b3bad82e359c57d1ab7d6e3aa7748b.svg",
+        "isPro": false,
+        "fullname": "Lu Jiang",
+        "user": "roadjiang",
+        "type": "user"
+      },
+      "summary": "This technical report presents a cost-efficient strategy for training a video\ngeneration foundation model. We present a mid-sized research model with\napproximately 7 billion parameters (7B) called Seaweed-7B trained from scratch\nusing 665,000 H100 GPU hours. Despite being trained with moderate computational\nresources, Seaweed-7B demonstrates highly competitive performance compared to\ncontemporary video generation models of much larger size. Design choices are\nespecially crucial in a resource-constrained setting. This technical report\nhighlights the key design decisions that enhance the performance of the\nmedium-sized diffusion model. Empirically, we make two observations: (1)\nSeaweed-7B achieves performance comparable to, or even surpasses, larger models\ntrained on substantially greater GPU resources, and (2) our model, which\nexhibits strong generalization ability, can be effectively adapted across a\nwide range of downstream applications either by lightweight fine-tuning or\ncontinue training. See the project page at https://seaweed.video/",
+      "upvotes": 1,
+      "discussionId": "67fc700159b22e7c34d64d78",
+      "projectPage": "https://seaweed.video/"
+    },
+    "publishedAt": "2025-04-11T12:46:20.000Z",
+    "title": "Seaweed-7B: Cost-Effective Training of Video Generation Foundation Model",
+    "summary": "This technical report presents a cost-efficient strategy for training a video\ngeneration foundation model. We present a mid-sized research model with\napproximately 7 billion parameters (7B) called Seaweed-7B trained from scratch\nusing 665,000 H100 GPU hours. Despite being trained with moderate computational\nresources, Seaweed-7B demonstrates highly competitive performance compared to\ncontemporary video generation models of much larger size. Design choices are\nespecially crucial in a resource-constrained setting. This technical report\nhighlights the key design decisions that enhance the performance of the\nmedium-sized diffusion model. Empirically, we make two observations: (1)\nSeaweed-7B achieves performance comparable to, or even surpasses, larger models\ntrained on substantially greater GPU resources, and (2) our model, which\nexhibits strong generalization ability, can be effectively adapted across a\nwide range of downstream applications either by lightweight fine-tuning or\ncontinue training. See the project page at https://seaweed.video/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64a5cba3bea0116f8f7187a7/Zl6Xq55_4dviWTCMwOptb.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.08685.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64a5cba3bea0116f8f7187a7",
+      "avatarUrl": "/avatars/97b3bad82e359c57d1ab7d6e3aa7748b.svg",
+      "fullname": "Lu Jiang",
+      "name": "roadjiang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.08366",
+      "authors": [
+        {
+          "_id": "67fc6d8d74c3c0f0d6f24c3b",
+          "name": "Sauradip Nag",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6d8d74c3c0f0d6f24c3c",
+          "name": "Daniel Cohen-Or",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6d8d74c3c0f0d6f24c3d",
+          "name": "Hao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67fc6d8d74c3c0f0d6f24c3e",
+          "name": "Ali Mahdavi-Amiri",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-11T09:01:09.000Z",
+      "submittedOnDailyAt": "2025-04-14T00:36:54.457Z",
+      "title": "In-2-4D: Inbetweening from Two Single-View Images to 4D Generation",
+      "submittedOnDailyBy": {
+        "_id": "6399ab3296ce14c5dcf4ccbf",
+        "avatarUrl": "/avatars/89aeedc96f73d76f7a6da96454f40fd2.svg",
+        "isPro": false,
+        "fullname": "Sauradip Nag",
+        "user": "sauradip",
+        "type": "user"
+      },
+      "summary": "We propose a new problem, In-2-4D, for generative 4D (i.e., 3D + motion)\ninbetweening from a minimalistic input setting: two single-view images\ncapturing an object in two distinct motion states. Given two images\nrepresenting the start and end states of an object in motion, our goal is to\ngenerate and reconstruct the motion in 4D. We utilize a video interpolation\nmodel to predict the motion, but large frame-to-frame motions can lead to\nambiguous interpretations. To overcome this, we employ a hierarchical approach\nto identify keyframes that are visually close to the input states and show\nsignificant motion, then generate smooth fragments between them. For each\nfragment, we construct the 3D representation of the keyframe using Gaussian\nSplatting. The temporal frames within the fragment guide the motion, enabling\ntheir transformation into dynamic Gaussians through a deformation field. To\nimprove temporal consistency and refine 3D motion, we expand the self-attention\nof multi-view diffusion across timesteps and apply rigid transformation\nregularization. Finally, we merge the independently generated 3D motion\nsegments by interpolating boundary deformation fields and optimizing them to\nalign with the guiding video, ensuring smooth and flicker-free transitions.\nThrough extensive qualitative and quantitiave experiments as well as a user\nstudy, we show the effectiveness of our method and its components. The project\npage is available at https://in-2-4d.github.io/",
+      "upvotes": 1,
+      "discussionId": "67fc6d9374c3c0f0d6f24e12"
+    },
+    "publishedAt": "2025-04-11T05:01:09.000Z",
+    "title": "In-2-4D: Inbetweening from Two Single-View Images to 4D Generation",
+    "summary": "We propose a new problem, In-2-4D, for generative 4D (i.e., 3D + motion)\ninbetweening from a minimalistic input setting: two single-view images\ncapturing an object in two distinct motion states. Given two images\nrepresenting the start and end states of an object in motion, our goal is to\ngenerate and reconstruct the motion in 4D. We utilize a video interpolation\nmodel to predict the motion, but large frame-to-frame motions can lead to\nambiguous interpretations. To overcome this, we employ a hierarchical approach\nto identify keyframes that are visually close to the input states and show\nsignificant motion, then generate smooth fragments between them. For each\nfragment, we construct the 3D representation of the keyframe using Gaussian\nSplatting. The temporal frames within the fragment guide the motion, enabling\ntheir transformation into dynamic Gaussians through a deformation field. To\nimprove temporal consistency and refine 3D motion, we expand the self-attention\nof multi-view diffusion across timesteps and apply rigid transformation\nregularization. Finally, we merge the independently generated 3D motion\nsegments by interpolating boundary deformation fields and optimizing them to\nalign with the guiding video, ensuring smooth and flicker-free transitions.\nThrough extensive qualitative and quantitiave experiments as well as a user\nstudy, we show the effectiveness of our method and its components. The project\npage is available at https://in-2-4d.github.io/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.08366.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6399ab3296ce14c5dcf4ccbf",
+      "avatarUrl": "/avatars/89aeedc96f73d76f7a6da96454f40fd2.svg",
+      "fullname": "Sauradip Nag",
+      "name": "sauradip",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.07405",
+      "authors": [
+        {
+          "_id": "67fa383909d06d0501a5e34e",
+          "user": {
+            "_id": "660d844462d63ad0009a9859",
+            "avatarUrl": "/avatars/6822fc1a82c64dbfd40b88080a5fb1ae.svg",
+            "isPro": false,
+            "fullname": "Linyan Huang",
+            "user": "DevLinyan",
+            "type": "user"
+          },
+          "name": "Linyan Huang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-04-13T19:24:47.680Z",
+          "hidden": false
+        },
+        {
+          "_id": "67fa383909d06d0501a5e34f",
+          "name": "Haonan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "67fa383909d06d0501a5e350",
+          "name": "Yanning Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "67fa383909d06d0501a5e351",
+          "name": "Kaiwen Xiao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-10T02:58:22.000Z",
+      "submittedOnDailyAt": "2025-04-14T00:54:04.513Z",
+      "title": "FlexIP: Dynamic Control of Preservation and Personality for Customized\n  Image Generation",
+      "submittedOnDailyBy": {
+        "_id": "63468720dd6d90d82ccf3450",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+        "isPro": false,
+        "fullname": "YSH",
+        "user": "BestWishYsh",
+        "type": "user"
+      },
+      "summary": "With the rapid advancement of 2D generative models, preserving subject\nidentity while enabling diverse editing has emerged as a critical research\nfocus. Existing methods typically face inherent trade-offs between identity\npreservation and personalized manipulation. We introduce FlexIP, a novel\nframework that decouples these objectives through two dedicated components: a\nPersonalization Adapter for stylistic manipulation and a Preservation Adapter\nfor identity maintenance. By explicitly injecting both control mechanisms into\nthe generative model, our framework enables flexible parameterized control\nduring inference through dynamic tuning of the weight adapter. Experimental\nresults demonstrate that our approach breaks through the performance\nlimitations of conventional methods, achieving superior identity preservation\nwhile supporting more diverse personalized generation capabilities (Project\nPage: https://flexip-tech.github.io/flexip/).",
+      "upvotes": 1,
+      "discussionId": "67fa383c09d06d0501a5e3ef"
+    },
+    "publishedAt": "2025-04-09T22:58:22.000Z",
+    "title": "FlexIP: Dynamic Control of Preservation and Personality for Customized\n  Image Generation",
+    "summary": "With the rapid advancement of 2D generative models, preserving subject\nidentity while enabling diverse editing has emerged as a critical research\nfocus. Existing methods typically face inherent trade-offs between identity\npreservation and personalized manipulation. We introduce FlexIP, a novel\nframework that decouples these objectives through two dedicated components: a\nPersonalization Adapter for stylistic manipulation and a Preservation Adapter\nfor identity maintenance. By explicitly injecting both control mechanisms into\nthe generative model, our framework enables flexible parameterized control\nduring inference through dynamic tuning of the weight adapter. Experimental\nresults demonstrate that our approach breaks through the performance\nlimitations of conventional methods, achieving superior identity preservation\nwhile supporting more diverse personalized generation capabilities (Project\nPage: https://flexip-tech.github.io/flexip/).",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.07405.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63468720dd6d90d82ccf3450",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+      "fullname": "YSH",
+      "name": "BestWishYsh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 46
+    },
+    "isAuthorParticipating": false
+  }
+]
