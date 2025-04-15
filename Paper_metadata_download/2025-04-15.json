@@ -1,0 +1,275 @@
+[
+  {
+    "paper": {
+      "id": "2504.09925",
+      "authors": [
+        {
+          "_id": "67fdb5f1913c97aa32f130bd",
+          "name": "Zheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb5f1913c97aa32f130be",
+          "name": "Mengjie Liu",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb5f1913c97aa32f130bf",
+          "name": "Jingzhou Chen",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb5f1913c97aa32f130c0",
+          "name": "Jingwei Xu",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb5f1913c97aa32f130c1",
+          "name": "Bin Cui",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb5f1913c97aa32f130c2",
+          "name": "Conghui He",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb5f1913c97aa32f130c3",
+          "name": "Wentao Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-14T06:33:29.000Z",
+      "submittedOnDailyAt": "2025-04-15T00:17:19.508Z",
+      "title": "FUSION: Fully Integration of Vision-Language Representations for Deep\n  Cross-Modal Understanding",
+      "submittedOnDailyBy": {
+        "_id": "6625ef13605f46d05c1d0031",
+        "avatarUrl": "/avatars/22f201dca35e43013cb593884516e96c.svg",
+        "isPro": false,
+        "fullname": "Zheng Liu",
+        "user": "starriver030515",
+        "type": "user"
+      },
+      "summary": "We introduce FUSION, a family of multimodal large language models (MLLMs)\nwith a fully vision-language alignment and integration paradigm. Unlike\nexisting methods that primarily rely on late-stage modality interaction during\nLLM decoding, our approach achieves deep, dynamic integration throughout the\nentire processing pipeline. To this end, we propose Text-Guided Unified Vision\nEncoding, incorporating textual information in vision encoding to achieve\npixel-level integration. We further design Context-Aware Recursive Alignment\nDecoding that recursively aggregates visual features conditioned on textual\ncontext during decoding, enabling fine-grained, question-level semantic\nintegration. To guide feature mapping and mitigate modality discrepancies, we\ndevelop Dual-Supervised Semantic Mapping Loss. Additionally, we construct a\nSynthesized Language-Driven Question-Answer (QA) dataset through a new data\nsynthesis method, prioritizing high-quality QA pairs to optimize text-guided\nfeature integration. Building on these foundations, we train FUSION at two\nscales-3B, 8B-and demonstrate that our full-modality integration approach\nsignificantly outperforms existing methods with only 630 vision tokens.\nNotably, FUSION 3B surpasses Cambrian-1 8B and Florence-VL 8B on most\nbenchmarks. FUSION 3B continues to outperform Cambrian-1 8B even when limited\nto 300 vision tokens. Our ablation studies show that FUSION outperforms\nLLaVA-NeXT on over half of the benchmarks under same configuration without\ndynamic resolution, highlighting the effectiveness of our approach. We release\nour code, model weights, and dataset. https://github.com/starriver030515/FUSION",
+      "upvotes": 5,
+      "discussionId": "67fdb5f3913c97aa32f13141",
+      "githubRepo": "https://github.com/starriver030515/FUSION"
+    },
+    "publishedAt": "2025-04-14T02:33:29.000Z",
+    "title": "FUSION: Fully Integration of Vision-Language Representations for Deep\n  Cross-Modal Understanding",
+    "summary": "We introduce FUSION, a family of multimodal large language models (MLLMs)\nwith a fully vision-language alignment and integration paradigm. Unlike\nexisting methods that primarily rely on late-stage modality interaction during\nLLM decoding, our approach achieves deep, dynamic integration throughout the\nentire processing pipeline. To this end, we propose Text-Guided Unified Vision\nEncoding, incorporating textual information in vision encoding to achieve\npixel-level integration. We further design Context-Aware Recursive Alignment\nDecoding that recursively aggregates visual features conditioned on textual\ncontext during decoding, enabling fine-grained, question-level semantic\nintegration. To guide feature mapping and mitigate modality discrepancies, we\ndevelop Dual-Supervised Semantic Mapping Loss. Additionally, we construct a\nSynthesized Language-Driven Question-Answer (QA) dataset through a new data\nsynthesis method, prioritizing high-quality QA pairs to optimize text-guided\nfeature integration. Building on these foundations, we train FUSION at two\nscales-3B, 8B-and demonstrate that our full-modality integration approach\nsignificantly outperforms existing methods with only 630 vision tokens.\nNotably, FUSION 3B surpasses Cambrian-1 8B and Florence-VL 8B on most\nbenchmarks. FUSION 3B continues to outperform Cambrian-1 8B even when limited\nto 300 vision tokens. Our ablation studies show that FUSION outperforms\nLLaVA-NeXT on over half of the benchmarks under same configuration without\ndynamic resolution, highlighting the effectiveness of our approach. We release\nour code, model weights, and dataset. https://github.com/starriver030515/FUSION",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.09925.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6625ef13605f46d05c1d0031",
+      "avatarUrl": "/avatars/22f201dca35e43013cb593884516e96c.svg",
+      "fullname": "Zheng Liu",
+      "name": "starriver030515",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.09710",
+      "authors": [
+        {
+          "_id": "67fdb42aa8deb632ed46d23d",
+          "name": "Zhenting Wang",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb42aa8deb632ed46d23e",
+          "name": "Guofeng Cui",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb42aa8deb632ed46d23f",
+          "user": {
+            "_id": "66274e02348a5304435dc9cc",
+            "avatarUrl": "/avatars/bda87559cd497c310597c2fc8430b31f.svg",
+            "isPro": false,
+            "fullname": "Kun Wan",
+            "user": "timecuriosity",
+            "type": "user"
+          },
+          "name": "Kun Wan",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-04-15T01:22:46.116Z",
+          "hidden": false
+        },
+        {
+          "_id": "67fdb42aa8deb632ed46d240",
+          "name": "Wentian Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-13T20:10:27.000Z",
+      "submittedOnDailyAt": "2025-04-15T00:08:28.286Z",
+      "title": "DUMP: Automated Distribution-Level Curriculum Learning for RL-based LLM\n  Post-training",
+      "submittedOnDailyBy": {
+        "_id": "64dfcc62e8b6f3f3baa950e0",
+        "avatarUrl": "/avatars/21bbff67d46c08044efe2406575aa77e.svg",
+        "isPro": false,
+        "fullname": "Zhenting Wang",
+        "user": "ztwang",
+        "type": "user"
+      },
+      "summary": "Recent advances in reinforcement learning (RL)-based post-training have led\nto notable improvements in large language models (LLMs), particularly in\nenhancing their reasoning capabilities to handle complex tasks. However, most\nexisting methods treat the training data as a unified whole, overlooking the\nfact that modern LLM training often involves a mixture of data from diverse\ndistributions-varying in both source and difficulty. This heterogeneity\nintroduces a key challenge: how to adaptively schedule training across\ndistributions to optimize learning efficiency. In this paper, we present a\nprincipled curriculum learning framework grounded in the notion of\ndistribution-level learnability. Our core insight is that the magnitude of\npolicy advantages reflects how much a model can still benefit from further\ntraining on a given distribution. Based on this, we propose a\ndistribution-level curriculum learning framework for RL-based LLM\npost-training, which leverages the Upper Confidence Bound (UCB) principle to\ndynamically adjust sampling probabilities for different distrubutions. This\napproach prioritizes distributions with either high average advantage\n(exploitation) or low sample count (exploration), yielding an adaptive and\ntheoretically grounded training schedule. We instantiate our curriculum\nlearning framework with GRPO as the underlying RL algorithm and demonstrate its\neffectiveness on logic reasoning datasets with multiple difficulties and\nsources. Our experiments show that our framework significantly improves\nconvergence speed and final performance, highlighting the value of\ndistribution-aware curriculum strategies in LLM post-training. Code:\nhttps://github.com/ZhentingWang/DUMP.",
+      "upvotes": 3,
+      "discussionId": "67fdb457a8deb632ed46de2f"
+    },
+    "publishedAt": "2025-04-13T16:10:27.000Z",
+    "title": "DUMP: Automated Distribution-Level Curriculum Learning for RL-based LLM\n  Post-training",
+    "summary": "Recent advances in reinforcement learning (RL)-based post-training have led\nto notable improvements in large language models (LLMs), particularly in\nenhancing their reasoning capabilities to handle complex tasks. However, most\nexisting methods treat the training data as a unified whole, overlooking the\nfact that modern LLM training often involves a mixture of data from diverse\ndistributions-varying in both source and difficulty. This heterogeneity\nintroduces a key challenge: how to adaptively schedule training across\ndistributions to optimize learning efficiency. In this paper, we present a\nprincipled curriculum learning framework grounded in the notion of\ndistribution-level learnability. Our core insight is that the magnitude of\npolicy advantages reflects how much a model can still benefit from further\ntraining on a given distribution. Based on this, we propose a\ndistribution-level curriculum learning framework for RL-based LLM\npost-training, which leverages the Upper Confidence Bound (UCB) principle to\ndynamically adjust sampling probabilities for different distrubutions. This\napproach prioritizes distributions with either high average advantage\n(exploitation) or low sample count (exploration), yielding an adaptive and\ntheoretically grounded training schedule. We instantiate our curriculum\nlearning framework with GRPO as the underlying RL algorithm and demonstrate its\neffectiveness on logic reasoning datasets with multiple difficulties and\nsources. Our experiments show that our framework significantly improves\nconvergence speed and final performance, highlighting the value of\ndistribution-aware curriculum strategies in LLM post-training. Code:\nhttps://github.com/ZhentingWang/DUMP.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.09710.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64dfcc62e8b6f3f3baa950e0",
+      "avatarUrl": "/avatars/21bbff67d46c08044efe2406575aa77e.svg",
+      "fullname": "Zhenting Wang",
+      "name": "ztwang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.08003",
+      "authors": [
+        {
+          "_id": "67fdc0c50c63732d9e0b139a",
+          "name": "Ning Li",
+          "hidden": false
+        },
+        {
+          "_id": "67fdc0c50c63732d9e0b139b",
+          "name": "Jingran Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "67fdc0c50c63732d9e0b139c",
+          "name": "Justin Cui",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/65862671e878be571bf9fc52/B7iVn73glP5UR6kkdAApX.png"
+      ],
+      "publishedAt": "2025-04-09T16:10:15.000Z",
+      "submittedOnDailyAt": "2025-04-15T00:44:44.354Z",
+      "title": "Have we unified image generation and understanding yet? An empirical\n  study of GPT-4o's image generation ability",
+      "submittedOnDailyBy": {
+        "_id": "65862671e878be571bf9fc52",
+        "avatarUrl": "/avatars/b2a1b939f3112b476e7641e0c5fd2dc7.svg",
+        "isPro": false,
+        "fullname": "bench-llm",
+        "user": "cuijiaxing",
+        "type": "user"
+      },
+      "summary": "OpenAI's multimodal GPT-4o has demonstrated remarkable capabilities in image\ngeneration and editing, yet its ability to achieve world knowledge-informed\nsemantic synthesis--seamlessly integrating domain knowledge, contextual\nreasoning, and instruction adherence--remains unproven. In this study, we\nsystematically evaluate these capabilities across three critical dimensions:\n(1) Global Instruction Adherence, (2) Fine-Grained Editing Precision, and (3)\nPost-Generation Reasoning. While existing benchmarks highlight GPT-4o's strong\ncapabilities in image generation and editing, our evaluation reveals GPT-4o's\npersistent limitations: the model frequently defaults to literal\ninterpretations of instructions, inconsistently applies knowledge constraints,\nand struggles with conditional reasoning tasks. These findings challenge\nprevailing assumptions about GPT-4o's unified understanding and generation\ncapabilities, exposing significant gaps in its dynamic knowledge integration.\nOur study calls for the development of more robust benchmarks and training\nstrategies that go beyond surface-level alignment, emphasizing context-aware\nand reasoning-grounded multimodal generation.",
+      "upvotes": 3,
+      "discussionId": "67fdc0c60c63732d9e0b13d2"
+    },
+    "publishedAt": "2025-04-09T12:10:15.000Z",
+    "title": "Have we unified image generation and understanding yet? An empirical\n  study of GPT-4o's image generation ability",
+    "summary": "OpenAI's multimodal GPT-4o has demonstrated remarkable capabilities in image\ngeneration and editing, yet its ability to achieve world knowledge-informed\nsemantic synthesis--seamlessly integrating domain knowledge, contextual\nreasoning, and instruction adherence--remains unproven. In this study, we\nsystematically evaluate these capabilities across three critical dimensions:\n(1) Global Instruction Adherence, (2) Fine-Grained Editing Precision, and (3)\nPost-Generation Reasoning. While existing benchmarks highlight GPT-4o's strong\ncapabilities in image generation and editing, our evaluation reveals GPT-4o's\npersistent limitations: the model frequently defaults to literal\ninterpretations of instructions, inconsistently applies knowledge constraints,\nand struggles with conditional reasoning tasks. These findings challenge\nprevailing assumptions about GPT-4o's unified understanding and generation\ncapabilities, exposing significant gaps in its dynamic knowledge integration.\nOur study calls for the development of more robust benchmarks and training\nstrategies that go beyond surface-level alignment, emphasizing context-aware\nand reasoning-grounded multimodal generation.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/65862671e878be571bf9fc52/B7iVn73glP5UR6kkdAApX.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.08003.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65862671e878be571bf9fc52",
+      "avatarUrl": "/avatars/b2a1b939f3112b476e7641e0c5fd2dc7.svg",
+      "fullname": "bench-llm",
+      "name": "cuijiaxing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.08791",
+      "authors": [
+        {
+          "_id": "67fdbde764a418633ee9fa1b",
+          "name": "Zonghang Li",
+          "hidden": false
+        },
+        {
+          "_id": "67fdbde764a418633ee9fa1c",
+          "name": "Tao Li",
+          "hidden": false
+        },
+        {
+          "_id": "67fdbde764a418633ee9fa1d",
+          "name": "Wenjiao Feng",
+          "hidden": false
+        },
+        {
+          "_id": "67fdbde764a418633ee9fa1e",
+          "name": "Mohsen Guizani",
+          "hidden": false
+        },
+        {
+          "_id": "67fdbde764a418633ee9fa1f",
+          "name": "Hongfang Yu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/647466b8b68461d5cf795e3c/Z-XPxpdhg3sBxHCfogGzf.mp4"
+      ],
+      "publishedAt": "2025-04-07T13:46:21.000Z",
+      "submittedOnDailyAt": "2025-04-15T00:38:03.208Z",
+      "title": "PRIMA.CPP: Speeding Up 70B-Scale LLM Inference on Low-Resource Everyday\n  Home Clusters",
+      "submittedOnDailyBy": {
+        "_id": "647466b8b68461d5cf795e3c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647466b8b68461d5cf795e3c/zaK6sdCbdPfYu14vg2Ty6.png",
+        "isPro": false,
+        "fullname": "LIKirin",
+        "user": "LIKirin",
+        "type": "user"
+      },
+      "summary": "Emergency of DeepSeek R1 and QwQ 32B have broken through performance barriers\nfor running frontier large language models (LLMs) on home devices. While\nconsumer hardware is getting stronger and model quantization is improving,\nexisting end-side solutions still demand GPU clusters, large RAM/VRAM, and high\nbandwidth, far beyond what a common home cluster can handle. This paper\nintroduces prima.cpp, a distributed inference system that runs 70B-scale models\non everyday home devices using a mix of CPU/GPU, low RAM/VRAM, Wi-Fi, and\ncross-platform support. It uses mmap to manage model weights and introduces\npiped-ring parallelism with prefetching to hide disk loading. By modeling\nheterogeneity in computation, communication, disk, memory (and its management\nbehavior), and OS, it optimally assigns model layers to each device's CPU and\nGPU, further reducing token latency. An elegant algorithm named Halda is\nproposed to solve this NP-hard assignment problem. We evaluate prima.cpp on a\ncommon four-node home cluster. It outperforms llama.cpp, exo, and dllama on\n30B+ models while keeping memory pressure below 6%. This brings frontier\n30B-70B models, such as Llama 3, DeepSeek R1, Qwen 2.5, and QwQ to home\nassistants, making advanced AI truly accessible to individuals. The code is\nopen source and available at https://github.com/Lizonghang/prima.cpp.",
+      "upvotes": 2,
+      "discussionId": "67fdbdeb64a418633ee9fb58",
+      "projectPage": "https://github.com/Lizonghang/prima.cpp",
+      "githubRepo": "https://github.com/Lizonghang/prima.cpp"
+    },
+    "publishedAt": "2025-04-07T09:46:21.000Z",
+    "title": "PRIMA.CPP: Speeding Up 70B-Scale LLM Inference on Low-Resource Everyday\n  Home Clusters",
+    "summary": "Emergency of DeepSeek R1 and QwQ 32B have broken through performance barriers\nfor running frontier large language models (LLMs) on home devices. While\nconsumer hardware is getting stronger and model quantization is improving,\nexisting end-side solutions still demand GPU clusters, large RAM/VRAM, and high\nbandwidth, far beyond what a common home cluster can handle. This paper\nintroduces prima.cpp, a distributed inference system that runs 70B-scale models\non everyday home devices using a mix of CPU/GPU, low RAM/VRAM, Wi-Fi, and\ncross-platform support. It uses mmap to manage model weights and introduces\npiped-ring parallelism with prefetching to hide disk loading. By modeling\nheterogeneity in computation, communication, disk, memory (and its management\nbehavior), and OS, it optimally assigns model layers to each device's CPU and\nGPU, further reducing token latency. An elegant algorithm named Halda is\nproposed to solve this NP-hard assignment problem. We evaluate prima.cpp on a\ncommon four-node home cluster. It outperforms llama.cpp, exo, and dllama on\n30B+ models while keeping memory pressure below 6%. This brings frontier\n30B-70B models, such as Llama 3, DeepSeek R1, Qwen 2.5, and QwQ to home\nassistants, making advanced AI truly accessible to individuals. The code is\nopen source and available at https://github.com/Lizonghang/prima.cpp.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/647466b8b68461d5cf795e3c/Z-XPxpdhg3sBxHCfogGzf.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.08791.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "647466b8b68461d5cf795e3c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647466b8b68461d5cf795e3c/zaK6sdCbdPfYu14vg2Ty6.png",
+      "fullname": "LIKirin",
+      "name": "LIKirin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
