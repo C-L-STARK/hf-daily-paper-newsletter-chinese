@@ -1,0 +1,197 @@
+[
+  {
+    "paper": {
+      "id": "2504.12240",
+      "authors": [
+        {
+          "_id": "680057b49031335df49732fc",
+          "name": "Junhao Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "680057b49031335df49732fd",
+          "name": "Lingen Li",
+          "hidden": false
+        },
+        {
+          "_id": "680057b49031335df49732fe",
+          "name": "Xuan Ju",
+          "hidden": false
+        },
+        {
+          "_id": "680057b49031335df49732ff",
+          "name": "Zhaoyang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "680057b49031335df4973300",
+          "name": "Chun Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "680057b49031335df4973301",
+          "name": "Ying Shan",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64970d3d9c3b29dca8633f87/VweYE_xmPVmixUo3dh0Wu.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/64970d3d9c3b29dca8633f87/J9PY5rVuEtD_-ZLibCR1W.png"
+      ],
+      "publishedAt": "2025-04-16T16:45:19.000Z",
+      "submittedOnDailyAt": "2025-04-17T00:32:24.205Z",
+      "title": "Cobra: Efficient Line Art COlorization with BRoAder References",
+      "submittedOnDailyBy": {
+        "_id": "64970d3d9c3b29dca8633f87",
+        "avatarUrl": "/avatars/11e3c9c66d28490d6d09925f9aa47cd1.svg",
+        "isPro": false,
+        "fullname": "JunhaoZhuang",
+        "user": "JunhaoZhuang",
+        "type": "user"
+      },
+      "summary": "The comic production industry requires reference-based line art colorization\nwith high accuracy, efficiency, contextual consistency, and flexible control. A\ncomic page often involves diverse characters, objects, and backgrounds, which\ncomplicates the coloring process. Despite advancements in diffusion models for\nimage generation, their application in line art colorization remains limited,\nfacing challenges related to handling extensive reference images,\ntime-consuming inference, and flexible control. We investigate the necessity of\nextensive contextual image guidance on the quality of line art colorization. To\naddress these challenges, we introduce Cobra, an efficient and versatile method\nthat supports color hints and utilizes over 200 reference images while\nmaintaining low latency. Central to Cobra is a Causal Sparse DiT architecture,\nwhich leverages specially designed positional encodings, causal sparse\nattention, and Key-Value Cache to effectively manage long-context references\nand ensure color identity consistency. Results demonstrate that Cobra achieves\naccurate line art colorization through extensive contextual reference,\nsignificantly enhancing inference speed and interactivity, thereby meeting\ncritical industrial demands. We release our codes and models on our project\npage: https://zhuang2002.github.io/Cobra/.",
+      "upvotes": 7,
+      "discussionId": "680057b89031335df497343e",
+      "projectPage": "https://zhuang2002.github.io/Cobra/",
+      "githubRepo": "https://github.com/zhuang2002/Cobra",
+      "ai_keywords": [
+        "diffusion models",
+        "line art colorization",
+        "contextual image guidance",
+        "color hints",
+        "Causal Sparse DiT architecture",
+        "positional encodings",
+        "causal sparse attention",
+        "Key-Value Cache",
+        "long-context references",
+        "color identity consistency"
+      ]
+    },
+    "publishedAt": "2025-04-16T12:45:19.000Z",
+    "title": "Cobra: Efficient Line Art COlorization with BRoAder References",
+    "summary": "The comic production industry requires reference-based line art colorization\nwith high accuracy, efficiency, contextual consistency, and flexible control. A\ncomic page often involves diverse characters, objects, and backgrounds, which\ncomplicates the coloring process. Despite advancements in diffusion models for\nimage generation, their application in line art colorization remains limited,\nfacing challenges related to handling extensive reference images,\ntime-consuming inference, and flexible control. We investigate the necessity of\nextensive contextual image guidance on the quality of line art colorization. To\naddress these challenges, we introduce Cobra, an efficient and versatile method\nthat supports color hints and utilizes over 200 reference images while\nmaintaining low latency. Central to Cobra is a Causal Sparse DiT architecture,\nwhich leverages specially designed positional encodings, causal sparse\nattention, and Key-Value Cache to effectively manage long-context references\nand ensure color identity consistency. Results demonstrate that Cobra achieves\naccurate line art colorization through extensive contextual reference,\nsignificantly enhancing inference speed and interactivity, thereby meeting\ncritical industrial demands. We release our codes and models on our project\npage: https://zhuang2002.github.io/Cobra/.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64970d3d9c3b29dca8633f87/VweYE_xmPVmixUo3dh0Wu.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/64970d3d9c3b29dca8633f87/J9PY5rVuEtD_-ZLibCR1W.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.12240.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64970d3d9c3b29dca8633f87",
+      "avatarUrl": "/avatars/11e3c9c66d28490d6d09925f9aa47cd1.svg",
+      "fullname": "JunhaoZhuang",
+      "name": "JunhaoZhuang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 31
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.11952",
+      "authors": [
+        {
+          "_id": "6800646e0679d4ec4b9d01a7",
+          "name": "Ram Mohan Rao Kadiyala",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01a8",
+          "name": "Siddartha Pullakhandam",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01a9",
+          "name": "Kanwal Mehreen",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01aa",
+          "name": "Drishti Sharma",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01ab",
+          "name": "Siddhant Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01ac",
+          "name": "Jebish Purbey",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01ad",
+          "name": "Ashay Srivastava",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01ae",
+          "name": "Subhasya TippaReddy",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01af",
+          "name": "Arvind Reddy Bobbili",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01b0",
+          "name": "Suraj Telugara Chandrashekhar",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01b1",
+          "name": "Modabbir Adeeb",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01b2",
+          "name": "Srinadh Vura",
+          "hidden": false
+        },
+        {
+          "_id": "6800646e0679d4ec4b9d01b3",
+          "name": "Hamza Farooq",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-16T10:29:30.000Z",
+      "submittedOnDailyAt": "2025-04-17T00:47:10.039Z",
+      "title": "Robust and Fine-Grained Detection of AI Generated Texts",
+      "submittedOnDailyBy": {
+        "_id": "645c60dd7d655680b57ddbff",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645c60dd7d655680b57ddbff/MTMtkV6sy44oD-zwkGX0E.png",
+        "isPro": true,
+        "fullname": "Ram Kadiyala",
+        "user": "1024m",
+        "type": "user"
+      },
+      "summary": "An ideal detection system for machine generated content is supposed to work\nwell on any generator as many more advanced LLMs come into existence day by\nday. Existing systems often struggle with accurately identifying AI-generated\ncontent over shorter texts. Further, not all texts might be entirely authored\nby a human or LLM, hence we focused more over partial cases i.e human-LLM\nco-authored texts. Our paper introduces a set of models built for the task of\ntoken classification which are trained on an extensive collection of\nhuman-machine co-authored texts, which performed well over texts of unseen\ndomains, unseen generators, texts by non-native speakers and those with\nadversarial inputs. We also introduce a new dataset of over 2.4M such texts\nmostly co-authored by several popular proprietary LLMs over 23 languages. We\nalso present findings of our models' performance over each texts of each domain\nand generator. Additional findings include comparison of performance against\neach adversarial method, length of input texts and characteristics of generated\ntexts compared to the original human authored texts.",
+      "upvotes": 1,
+      "discussionId": "680064710679d4ec4b9d0224"
+    },
+    "publishedAt": "2025-04-16T06:29:30.000Z",
+    "title": "Robust and Fine-Grained Detection of AI Generated Texts",
+    "summary": "An ideal detection system for machine generated content is supposed to work\nwell on any generator as many more advanced LLMs come into existence day by\nday. Existing systems often struggle with accurately identifying AI-generated\ncontent over shorter texts. Further, not all texts might be entirely authored\nby a human or LLM, hence we focused more over partial cases i.e human-LLM\nco-authored texts. Our paper introduces a set of models built for the task of\ntoken classification which are trained on an extensive collection of\nhuman-machine co-authored texts, which performed well over texts of unseen\ndomains, unseen generators, texts by non-native speakers and those with\nadversarial inputs. We also introduce a new dataset of over 2.4M such texts\nmostly co-authored by several popular proprietary LLMs over 23 languages. We\nalso present findings of our models' performance over each texts of each domain\nand generator. Additional findings include comparison of performance against\neach adversarial method, length of input texts and characteristics of generated\ntexts compared to the original human authored texts.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.11952.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645c60dd7d655680b57ddbff",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645c60dd7d655680b57ddbff/MTMtkV6sy44oD-zwkGX0E.png",
+      "fullname": "Ram Kadiyala",
+      "name": "1024m",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 19
+    },
+    "isAuthorParticipating": false
+  }
+]
