@@ -1,0 +1,355 @@
+[
+  {
+    "paper": {
+      "id": "2504.12626",
+      "authors": [
+        {
+          "_id": "6801b65181552de84a4b7e29",
+          "name": "Lvmin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6801b65181552de84a4b7e2a",
+          "name": "Maneesh Agrawala",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-17T04:02:31.000Z",
+      "submittedOnDailyAt": "2025-04-18T00:47:56.027Z",
+      "title": "Packing Input Frame Context in Next-Frame Prediction Models for Video\n  Generation",
+      "submittedOnDailyBy": {
+        "_id": "63468720dd6d90d82ccf3450",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+        "isPro": false,
+        "fullname": "YSH",
+        "user": "BestWishYsh",
+        "type": "user"
+      },
+      "summary": "We present a neural network structure, FramePack, to train next-frame (or\nnext-frame-section) prediction models for video generation. The FramePack\ncompresses input frames to make the transformer context length a fixed number\nregardless of the video length. As a result, we are able to process a large\nnumber of frames using video diffusion with computation bottleneck similar to\nimage diffusion. This also makes the training video batch sizes significantly\nhigher (batch sizes become comparable to image diffusion training). We also\npropose an anti-drifting sampling method that generates frames in inverted\ntemporal order with early-established endpoints to avoid exposure bias (error\naccumulation over iterations). Finally, we show that existing video diffusion\nmodels can be finetuned with FramePack, and their visual quality may be\nimproved because the next-frame prediction supports more balanced diffusion\nschedulers with less extreme flow shift timesteps.",
+      "upvotes": 2,
+      "discussionId": "6801b65281552de84a4b7e42",
+      "projectPage": "https://lllyasviel.github.io/frame_pack_gitpage/",
+      "githubRepo": "https://github.com/lllyasviel/FramePack"
+    },
+    "publishedAt": "2025-04-17T00:02:31.000Z",
+    "title": "Packing Input Frame Context in Next-Frame Prediction Models for Video\n  Generation",
+    "summary": "We present a neural network structure, FramePack, to train next-frame (or\nnext-frame-section) prediction models for video generation. The FramePack\ncompresses input frames to make the transformer context length a fixed number\nregardless of the video length. As a result, we are able to process a large\nnumber of frames using video diffusion with computation bottleneck similar to\nimage diffusion. This also makes the training video batch sizes significantly\nhigher (batch sizes become comparable to image diffusion training). We also\npropose an anti-drifting sampling method that generates frames in inverted\ntemporal order with early-established endpoints to avoid exposure bias (error\naccumulation over iterations). Finally, we show that existing video diffusion\nmodels can be finetuned with FramePack, and their visual quality may be\nimproved because the next-frame prediction supports more balanced diffusion\nschedulers with less extreme flow shift timesteps.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.12626.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63468720dd6d90d82ccf3450",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+      "fullname": "YSH",
+      "name": "BestWishYsh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 47
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.05506",
+      "authors": [
+        {
+          "_id": "6801a137a199bc0f78da6930",
+          "name": "Ahmed Masry",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6931",
+          "name": "Mohammed Saidul Islam",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6932",
+          "name": "Mahir Ahmed",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6933",
+          "name": "Aayush Bajaj",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6934",
+          "name": "Firoz Kabir",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6935",
+          "name": "Aaryaman Kartha",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6936",
+          "name": "Md Tahmid Rahman Laskar",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6937",
+          "name": "Mizanur Rahman",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6938",
+          "name": "Shadikur Rahman",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da6939",
+          "name": "Mehrad Shahmohammadi",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da693a",
+          "name": "Megh Thakkar",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da693b",
+          "name": "Md Rizwan Parvez",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da693c",
+          "name": "Enamul Hoque",
+          "hidden": false
+        },
+        {
+          "_id": "6801a137a199bc0f78da693d",
+          "name": "Shafiq Joty",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-07T21:05:06.000Z",
+      "submittedOnDailyAt": "2025-04-18T00:21:30.532Z",
+      "title": "ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question\n  Answering",
+      "submittedOnDailyBy": {
+        "_id": "63efd75a5c2ceb16fc6e98fc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63efd75a5c2ceb16fc6e98fc/qoA4LKuLTEr7hx90i90UK.jpeg",
+        "isPro": true,
+        "fullname": "Ahmed Masry",
+        "user": "ahmed-masry",
+        "type": "user"
+      },
+      "summary": "Charts are ubiquitous, as people often use them to analyze data, answer\nquestions, and discover critical insights. However, performing complex\nanalytical tasks with charts requires significant perceptual and cognitive\neffort. Chart Question Answering (CQA) systems automate this process by\nenabling models to interpret and reason with visual representations of data.\nHowever, existing benchmarks like ChartQA lack real-world diversity and have\nrecently shown performance saturation with modern large vision-language models\n(LVLMs). To address these limitations, we introduce ChartQAPro, a new benchmark\nthat includes 1,341 charts from 157 diverse sources, spanning various chart\ntypes, including infographics and dashboards, and featuring 1,948 questions in\nvarious types, such as multiple-choice, conversational, hypothetical, and\nunanswerable questions, to better reflect real-world challenges. Our\nevaluations with 21 models show a substantial performance drop for LVLMs on\nChartQAPro; e.g., Claude Sonnet 3.5 scores 90.5% on ChartQA but only 55.81% on\nChartQAPro, underscoring the complexity of chart reasoning. We complement our\nfindings with detailed error analyses and ablation studies, identifying key\nchallenges and opportunities for advancing LVLMs in chart understanding and\nreasoning. We release ChartQAPro at https://github.com/vis-nlp/ChartQAPro.",
+      "upvotes": 2,
+      "discussionId": "6801a147a199bc0f78da6d4a",
+      "githubRepo": "https://github.com/vis-nlp/ChartQAPro",
+      "ai_keywords": [
+        "Chart Question Answering (CQA)",
+        "visual representations",
+        "large vision-language models (LVLMs)",
+        "ChartQA",
+        "ChartQAPro",
+        "infographics",
+        "dashboards",
+        "multiple-choice",
+        "conversational",
+        "hypothetical",
+        "unanswerable questions",
+        "Claude Sonnet 3.5",
+        "error analyses",
+        "ablation studies",
+        "chart reasoning"
+      ]
+    },
+    "publishedAt": "2025-04-07T17:05:06.000Z",
+    "title": "ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question\n  Answering",
+    "summary": "Charts are ubiquitous, as people often use them to analyze data, answer\nquestions, and discover critical insights. However, performing complex\nanalytical tasks with charts requires significant perceptual and cognitive\neffort. Chart Question Answering (CQA) systems automate this process by\nenabling models to interpret and reason with visual representations of data.\nHowever, existing benchmarks like ChartQA lack real-world diversity and have\nrecently shown performance saturation with modern large vision-language models\n(LVLMs). To address these limitations, we introduce ChartQAPro, a new benchmark\nthat includes 1,341 charts from 157 diverse sources, spanning various chart\ntypes, including infographics and dashboards, and featuring 1,948 questions in\nvarious types, such as multiple-choice, conversational, hypothetical, and\nunanswerable questions, to better reflect real-world challenges. Our\nevaluations with 21 models show a substantial performance drop for LVLMs on\nChartQAPro; e.g., Claude Sonnet 3.5 scores 90.5% on ChartQA but only 55.81% on\nChartQAPro, underscoring the complexity of chart reasoning. We complement our\nfindings with detailed error analyses and ablation studies, identifying key\nchallenges and opportunities for advancing LVLMs in chart understanding and\nreasoning. We release ChartQAPro at https://github.com/vis-nlp/ChartQAPro.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.05506.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63efd75a5c2ceb16fc6e98fc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63efd75a5c2ceb16fc6e98fc/qoA4LKuLTEr7hx90i90UK.jpeg",
+      "fullname": "Ahmed Masry",
+      "name": "ahmed-masry",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 69
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.13122",
+      "authors": [
+        {
+          "_id": "6801b62608d748addc187952",
+          "name": "Haojian Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6801b62608d748addc187953",
+          "name": "Haodong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6801b62608d748addc187954",
+          "name": "Shengqiong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6801b62608d748addc187955",
+          "name": "Meng Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6801b62608d748addc187956",
+          "name": "Jinlan Fu",
+          "hidden": false
+        },
+        {
+          "_id": "6801b62608d748addc187957",
+          "name": "Xinya Du",
+          "hidden": false
+        },
+        {
+          "_id": "6801b62608d748addc187958",
+          "name": "Hanwang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6801b62608d748addc187959",
+          "name": "Hao Fei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-17T17:39:41.000Z",
+      "submittedOnDailyAt": "2025-04-18T00:47:30.566Z",
+      "title": "VistaDPO: Video Hierarchical Spatial-Temporal Direct Preference\n  Optimization for Large Video Models",
+      "submittedOnDailyBy": {
+        "_id": "6570450a78d7aca0c361a177",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6570450a78d7aca0c361a177/z0GrnXEsjK2_G-hFfQhKv.jpeg",
+        "isPro": false,
+        "fullname": "Harold Chen",
+        "user": "Harold328",
+        "type": "user"
+      },
+      "summary": "Large Video Models (LVMs) built upon Large Language Models (LLMs) have shown\npromise in video understanding but often suffer from misalignment with human\nintuition and video hallucination issues. To address these challenges, we\nintroduce VistaDPO, a novel framework for Video Hierarchical Spatial-Temporal\nDirect Preference Optimization. VistaDPO enhances text-video preference\nalignment across three hierarchical levels: i) Instance Level, aligning overall\nvideo content with responses; ii) Temporal Level, aligning video temporal\nsemantics with event descriptions; and iii) Perceptive Level, aligning spatial\nobjects with language tokens. Given the lack of datasets for fine-grained\nvideo-language preference alignment, we construct VistaDPO-7k, a dataset of\n7.2K QA pairs annotated with chosen and rejected responses, along with\nspatial-temporal grounding information such as timestamps, keyframes, and\nbounding boxes. Extensive experiments on benchmarks such as Video\nHallucination, Video QA, and Captioning performance tasks demonstrate that\nVistaDPO significantly improves the performance of existing LVMs, effectively\nmitigating video-language misalignment and hallucination. The code and data are\navailable at https://github.com/HaroldChen19/VistaDPO.",
+      "upvotes": 1,
+      "discussionId": "6801b62808d748addc1879b2"
+    },
+    "publishedAt": "2025-04-17T13:39:41.000Z",
+    "title": "VistaDPO: Video Hierarchical Spatial-Temporal Direct Preference\n  Optimization for Large Video Models",
+    "summary": "Large Video Models (LVMs) built upon Large Language Models (LLMs) have shown\npromise in video understanding but often suffer from misalignment with human\nintuition and video hallucination issues. To address these challenges, we\nintroduce VistaDPO, a novel framework for Video Hierarchical Spatial-Temporal\nDirect Preference Optimization. VistaDPO enhances text-video preference\nalignment across three hierarchical levels: i) Instance Level, aligning overall\nvideo content with responses; ii) Temporal Level, aligning video temporal\nsemantics with event descriptions; and iii) Perceptive Level, aligning spatial\nobjects with language tokens. Given the lack of datasets for fine-grained\nvideo-language preference alignment, we construct VistaDPO-7k, a dataset of\n7.2K QA pairs annotated with chosen and rejected responses, along with\nspatial-temporal grounding information such as timestamps, keyframes, and\nbounding boxes. Extensive experiments on benchmarks such as Video\nHallucination, Video QA, and Captioning performance tasks demonstrate that\nVistaDPO significantly improves the performance of existing LVMs, effectively\nmitigating video-language misalignment and hallucination. The code and data are\navailable at https://github.com/HaroldChen19/VistaDPO.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.13122.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6570450a78d7aca0c361a177",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6570450a78d7aca0c361a177/z0GrnXEsjK2_G-hFfQhKv.jpeg",
+      "fullname": "Harold Chen",
+      "name": "Harold328",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.12369",
+      "authors": [
+        {
+          "_id": "6801a8453c431c2bbe3b5f94",
+          "name": "Zeqi Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6801a8453c431c2bbe3b5f95",
+          "name": "Yushi Lan",
+          "hidden": false
+        },
+        {
+          "_id": "6801a8453c431c2bbe3b5f96",
+          "name": "Yifan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6801a8453c431c2bbe3b5f97",
+          "name": "Wenqi Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "6801a8453c431c2bbe3b5f98",
+          "name": "Shuai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6801a8453c431c2bbe3b5f99",
+          "name": "Yanhong Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6801a8453c431c2bbe3b5f9a",
+          "name": "Xingang Pan",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/650e37cc11f3210cf7910501/YSoQPv8_5FCfCdk2bZXxq.mp4"
+      ],
+      "publishedAt": "2025-04-16T17:59:30.000Z",
+      "submittedOnDailyAt": "2025-04-18T00:24:00.506Z",
+      "title": "WORLDMEM: Long-term Consistent World Simulation with Memory",
+      "submittedOnDailyBy": {
+        "_id": "650e37cc11f3210cf7910501",
+        "avatarUrl": "/avatars/dab5c9d647cfa97c59f5170216673a20.svg",
+        "isPro": false,
+        "fullname": "zeqixiao",
+        "user": "zeqixiao",
+        "type": "user"
+      },
+      "summary": "World simulation has gained increasing popularity due to its ability to model\nvirtual environments and predict the consequences of actions. However, the\nlimited temporal context window often leads to failures in maintaining\nlong-term consistency, particularly in preserving 3D spatial consistency. In\nthis work, we present WorldMem, a framework that enhances scene generation with\na memory bank consisting of memory units that store memory frames and states\n(e.g., poses and timestamps). By employing a memory attention mechanism that\neffectively extracts relevant information from these memory frames based on\ntheir states, our method is capable of accurately reconstructing previously\nobserved scenes, even under significant viewpoint or temporal gaps.\nFurthermore, by incorporating timestamps into the states, our framework not\nonly models a static world but also captures its dynamic evolution over time,\nenabling both perception and interaction within the simulated world. Extensive\nexperiments in both virtual and real scenarios validate the effectiveness of\nour approach.",
+      "upvotes": 1,
+      "discussionId": "6801a8463c431c2bbe3b5fe4",
+      "projectPage": "https://xizaoqu.github.io/worldmem/",
+      "githubRepo": "https://github.com/xizaoqu/WorldMem",
+      "ai_keywords": [
+        "WorldMem",
+        "memory bank",
+        "memory units",
+        "memory frames",
+        "states",
+        "poses",
+        "timestamps",
+        "memory attention mechanism",
+        "scene generation",
+        "long-term consistency",
+        "3D spatial consistency",
+        "dynamic evolution"
+      ]
+    },
+    "publishedAt": "2025-04-16T13:59:30.000Z",
+    "title": "WORLDMEM: Long-term Consistent World Simulation with Memory",
+    "summary": "World simulation has gained increasing popularity due to its ability to model\nvirtual environments and predict the consequences of actions. However, the\nlimited temporal context window often leads to failures in maintaining\nlong-term consistency, particularly in preserving 3D spatial consistency. In\nthis work, we present WorldMem, a framework that enhances scene generation with\na memory bank consisting of memory units that store memory frames and states\n(e.g., poses and timestamps). By employing a memory attention mechanism that\neffectively extracts relevant information from these memory frames based on\ntheir states, our method is capable of accurately reconstructing previously\nobserved scenes, even under significant viewpoint or temporal gaps.\nFurthermore, by incorporating timestamps into the states, our framework not\nonly models a static world but also captures its dynamic evolution over time,\nenabling both perception and interaction within the simulated world. Extensive\nexperiments in both virtual and real scenarios validate the effectiveness of\nour approach.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/650e37cc11f3210cf7910501/YSoQPv8_5FCfCdk2bZXxq.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.12369.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "650e37cc11f3210cf7910501",
+      "avatarUrl": "/avatars/dab5c9d647cfa97c59f5170216673a20.svg",
+      "fullname": "zeqixiao",
+      "name": "zeqixiao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  }
+]
