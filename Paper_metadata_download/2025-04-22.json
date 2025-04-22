@@ -1,0 +1,398 @@
+[
+  {
+    "paper": {
+      "id": "2504.14603",
+      "authors": [
+        {
+          "_id": "6806fab1b89f3c89c81afbe0",
+          "name": "Chaoyun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe1",
+          "name": "He Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe2",
+          "name": "Chiming Ni",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe3",
+          "name": "Jian Mu",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe4",
+          "name": "Si Qin",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe5",
+          "name": "Shilin He",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe6",
+          "name": "Lu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe7",
+          "name": "Fangkai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe8",
+          "name": "Pu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbe9",
+          "name": "Chao Du",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbea",
+          "name": "Liqun Li",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbeb",
+          "name": "Yu Kang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbec",
+          "name": "Zhao Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbed",
+          "name": "Suzhen Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbee",
+          "name": "Rujia Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbef",
+          "name": "Jiaxu Qian",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbf0",
+          "name": "Minghua Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbf1",
+          "name": "Jian-Guang Lou",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbf2",
+          "name": "Qingwei Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbf3",
+          "name": "Saravan Rajmohan",
+          "hidden": false
+        },
+        {
+          "_id": "6806fab1b89f3c89c81afbf4",
+          "name": "Dongmei Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-20T13:04:43.000Z",
+      "submittedOnDailyAt": "2025-04-22T00:41:48.404Z",
+      "title": "UFO2: The Desktop AgentOS",
+      "submittedOnDailyBy": {
+        "_id": "654dbac9938fbf1e696be8aa",
+        "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+        "isPro": false,
+        "fullname": "Chaoyun Zhang",
+        "user": "vyokky",
+        "type": "user"
+      },
+      "summary": "Recent Computer-Using Agents (CUAs), powered by multimodal large language\nmodels (LLMs), offer a promising direction for automating complex desktop\nworkflows through natural language. However, most existing CUAs remain\nconceptual prototypes, hindered by shallow OS integration, fragile\nscreenshot-based interaction, and disruptive execution.\n  We present UFO2, a multiagent AgentOS for Windows desktops that elevates CUAs\ninto practical, system-level automation. UFO2 features a centralized HostAgent\nfor task decomposition and coordination, alongside a collection of\napplication-specialized AppAgent equipped with native APIs, domain-specific\nknowledge, and a unified GUI--API action layer. This architecture enables\nrobust task execution while preserving modularity and extensibility. A hybrid\ncontrol detection pipeline fuses Windows UI Automation (UIA) with vision-based\nparsing to support diverse interface styles. Runtime efficiency is further\nenhanced through speculative multi-action planning, reducing per-step LLM\noverhead. Finally, a Picture-in-Picture (PiP) interface enables automation\nwithin an isolated virtual desktop, allowing agents and users to operate\nconcurrently without interference.\n  We evaluate UFO2 across over 20 real-world Windows applications,\ndemonstrating substantial improvements in robustness and execution accuracy\nover prior CUAs. Our results show that deep OS integration unlocks a scalable\npath toward reliable, user-aligned desktop automation.",
+      "upvotes": 4,
+      "discussionId": "6806fabdb89f3c89c81affb5",
+      "projectPage": "https://microsoft.github.io/UFO/",
+      "githubRepo": "https://github.com/microsoft/UFO"
+    },
+    "publishedAt": "2025-04-20T09:04:43.000Z",
+    "title": "UFO2: The Desktop AgentOS",
+    "summary": "Recent Computer-Using Agents (CUAs), powered by multimodal large language\nmodels (LLMs), offer a promising direction for automating complex desktop\nworkflows through natural language. However, most existing CUAs remain\nconceptual prototypes, hindered by shallow OS integration, fragile\nscreenshot-based interaction, and disruptive execution.\n  We present UFO2, a multiagent AgentOS for Windows desktops that elevates CUAs\ninto practical, system-level automation. UFO2 features a centralized HostAgent\nfor task decomposition and coordination, alongside a collection of\napplication-specialized AppAgent equipped with native APIs, domain-specific\nknowledge, and a unified GUI--API action layer. This architecture enables\nrobust task execution while preserving modularity and extensibility. A hybrid\ncontrol detection pipeline fuses Windows UI Automation (UIA) with vision-based\nparsing to support diverse interface styles. Runtime efficiency is further\nenhanced through speculative multi-action planning, reducing per-step LLM\noverhead. Finally, a Picture-in-Picture (PiP) interface enables automation\nwithin an isolated virtual desktop, allowing agents and users to operate\nconcurrently without interference.\n  We evaluate UFO2 across over 20 real-world Windows applications,\ndemonstrating substantial improvements in robustness and execution accuracy\nover prior CUAs. Our results show that deep OS integration unlocks a scalable\npath toward reliable, user-aligned desktop automation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.14603.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "654dbac9938fbf1e696be8aa",
+      "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+      "fullname": "Chaoyun Zhang",
+      "name": "vyokky",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.15047",
+      "authors": [
+        {
+          "_id": "6806fb8e27dabde0a109776d",
+          "name": "Quy-Anh Dang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fb8e27dabde0a109776e",
+          "name": "Chris Ngo",
+          "hidden": false
+        },
+        {
+          "_id": "6806fb8e27dabde0a109776f",
+          "name": "Truong-Son Hy",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/645b663eca5d8a297712f2e1/XbUmMPAitDuX-g7n50bTa.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/645b663eca5d8a297712f2e1/a16jiYkgx_UtIyM9BiBc2.png"
+      ],
+      "publishedAt": "2025-04-21T12:04:57.000Z",
+      "submittedOnDailyAt": "2025-04-22T00:47:26.080Z",
+      "title": "RainbowPlus: Enhancing Adversarial Prompt Generation via Evolutionary\n  Quality-Diversity Search",
+      "submittedOnDailyBy": {
+        "_id": "645b663eca5d8a297712f2e1",
+        "avatarUrl": "/avatars/c61dcba43feb879088b15b525e441cb9.svg",
+        "isPro": false,
+        "fullname": "Quy-Anh Dang",
+        "user": "quyanh",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) exhibit remarkable capabilities but are\nsusceptible to adversarial prompts that exploit vulnerabilities to produce\nunsafe or biased outputs. Existing red-teaming methods often face scalability\nchallenges, resource-intensive requirements, or limited diversity in attack\nstrategies. We propose RainbowPlus, a novel red-teaming framework rooted in\nevolutionary computation, enhancing adversarial prompt generation through an\nadaptive quality-diversity (QD) search that extends classical evolutionary\nalgorithms like MAP-Elites with innovations tailored for language models. By\nemploying a multi-element archive to store diverse high-quality prompts and a\ncomprehensive fitness function to evaluate multiple prompts concurrently,\nRainbowPlus overcomes the constraints of single-prompt archives and pairwise\ncomparisons in prior QD methods like Rainbow Teaming. Experiments comparing\nRainbowPlus to QD methods across six benchmark datasets and four open-source\nLLMs demonstrate superior attack success rate (ASR) and diversity\n(Diverse-Score approx 0.84), generating up to 100 times more unique prompts\n(e.g., 10,418 vs. 100 for Ministral-8B-Instruct-2410). Against nine\nstate-of-the-art methods on the HarmBench dataset with twelve LLMs (ten\nopen-source, two closed-source), RainbowPlus achieves an average ASR of 81.1%,\nsurpassing AutoDAN-Turbo by 3.9%, and is 9 times faster (1.45 vs. 13.50 hours).\nOur open-source implementation fosters further advancements in LLM safety,\noffering a scalable tool for vulnerability assessment. Code and resources are\npublicly available at https://github.com/knoveleng/rainbowplus, supporting\nreproducibility and future research in LLM red-teaming.",
+      "upvotes": 1,
+      "discussionId": "6806fb9127dabde0a1097849",
+      "githubRepo": "https://github.com/knoveleng/rainbowplus"
+    },
+    "publishedAt": "2025-04-21T08:04:57.000Z",
+    "title": "RainbowPlus: Enhancing Adversarial Prompt Generation via Evolutionary\n  Quality-Diversity Search",
+    "summary": "Large Language Models (LLMs) exhibit remarkable capabilities but are\nsusceptible to adversarial prompts that exploit vulnerabilities to produce\nunsafe or biased outputs. Existing red-teaming methods often face scalability\nchallenges, resource-intensive requirements, or limited diversity in attack\nstrategies. We propose RainbowPlus, a novel red-teaming framework rooted in\nevolutionary computation, enhancing adversarial prompt generation through an\nadaptive quality-diversity (QD) search that extends classical evolutionary\nalgorithms like MAP-Elites with innovations tailored for language models. By\nemploying a multi-element archive to store diverse high-quality prompts and a\ncomprehensive fitness function to evaluate multiple prompts concurrently,\nRainbowPlus overcomes the constraints of single-prompt archives and pairwise\ncomparisons in prior QD methods like Rainbow Teaming. Experiments comparing\nRainbowPlus to QD methods across six benchmark datasets and four open-source\nLLMs demonstrate superior attack success rate (ASR) and diversity\n(Diverse-Score approx 0.84), generating up to 100 times more unique prompts\n(e.g., 10,418 vs. 100 for Ministral-8B-Instruct-2410). Against nine\nstate-of-the-art methods on the HarmBench dataset with twelve LLMs (ten\nopen-source, two closed-source), RainbowPlus achieves an average ASR of 81.1%,\nsurpassing AutoDAN-Turbo by 3.9%, and is 9 times faster (1.45 vs. 13.50 hours).\nOur open-source implementation fosters further advancements in LLM safety,\noffering a scalable tool for vulnerability assessment. Code and resources are\npublicly available at https://github.com/knoveleng/rainbowplus, supporting\nreproducibility and future research in LLM red-teaming.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/645b663eca5d8a297712f2e1/XbUmMPAitDuX-g7n50bTa.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/645b663eca5d8a297712f2e1/a16jiYkgx_UtIyM9BiBc2.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.15047.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645b663eca5d8a297712f2e1",
+      "avatarUrl": "/avatars/c61dcba43feb879088b15b525e441cb9.svg",
+      "fullname": "Quy-Anh Dang",
+      "name": "quyanh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.14396",
+      "authors": [
+        {
+          "_id": "6806fcc4f349e60f6c1b928c",
+          "name": "Minho Park",
+          "hidden": false
+        },
+        {
+          "_id": "6806fcc4f349e60f6c1b928d",
+          "name": "Taewoong Kang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fcc4f349e60f6c1b928e",
+          "name": "Jooyeol Yun",
+          "hidden": false
+        },
+        {
+          "_id": "6806fcc4f349e60f6c1b928f",
+          "name": "Sungwon Hwang",
+          "hidden": false
+        },
+        {
+          "_id": "6806fcc4f349e60f6c1b9290",
+          "name": "Jaegul Choo",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-19T19:59:11.000Z",
+      "submittedOnDailyAt": "2025-04-22T00:50:52.270Z",
+      "title": "SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video\n  Generation via Spherical Latent Representation",
+      "submittedOnDailyBy": {
+        "_id": "630461624ec2dfa82a5ad7e7",
+        "avatarUrl": "/avatars/6696e21069494552b81a28a899a28fd1.svg",
+        "isPro": false,
+        "fullname": "Minho Park",
+        "user": "mpark",
+        "type": "user"
+      },
+      "summary": "The increasing demand for AR/VR applications has highlighted the need for\nhigh-quality 360-degree panoramic content. However, generating high-quality\n360-degree panoramic images and videos remains a challenging task due to the\nsevere distortions introduced by equirectangular projection (ERP). Existing\napproaches either fine-tune pretrained diffusion models on limited ERP datasets\nor attempt tuning-free methods that still rely on ERP latent representations,\nleading to discontinuities near the poles. In this paper, we introduce\nSphereDiff, a novel approach for seamless 360-degree panoramic image and video\ngeneration using state-of-the-art diffusion models without additional tuning.\nWe define a spherical latent representation that ensures uniform distribution\nacross all perspectives, mitigating the distortions inherent in ERP. We extend\nMultiDiffusion to spherical latent space and propose a spherical latent\nsampling method to enable direct use of pretrained diffusion models. Moreover,\nwe introduce distortion-aware weighted averaging to further improve the\ngeneration quality in the projection process. Our method outperforms existing\napproaches in generating 360-degree panoramic content while maintaining high\nfidelity, making it a robust solution for immersive AR/VR applications. The\ncode is available here. https://github.com/pmh9960/SphereDiff",
+      "upvotes": 1,
+      "discussionId": "6806fcc7f349e60f6c1b93ab",
+      "projectPage": "https://pmh9960.github.io/research/SphereDiff/",
+      "githubRepo": "https://github.com/pmh9960/SphereDiff"
+    },
+    "publishedAt": "2025-04-19T15:59:11.000Z",
+    "title": "SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video\n  Generation via Spherical Latent Representation",
+    "summary": "The increasing demand for AR/VR applications has highlighted the need for\nhigh-quality 360-degree panoramic content. However, generating high-quality\n360-degree panoramic images and videos remains a challenging task due to the\nsevere distortions introduced by equirectangular projection (ERP). Existing\napproaches either fine-tune pretrained diffusion models on limited ERP datasets\nor attempt tuning-free methods that still rely on ERP latent representations,\nleading to discontinuities near the poles. In this paper, we introduce\nSphereDiff, a novel approach for seamless 360-degree panoramic image and video\ngeneration using state-of-the-art diffusion models without additional tuning.\nWe define a spherical latent representation that ensures uniform distribution\nacross all perspectives, mitigating the distortions inherent in ERP. We extend\nMultiDiffusion to spherical latent space and propose a spherical latent\nsampling method to enable direct use of pretrained diffusion models. Moreover,\nwe introduce distortion-aware weighted averaging to further improve the\ngeneration quality in the projection process. Our method outperforms existing\napproaches in generating 360-degree panoramic content while maintaining high\nfidelity, making it a robust solution for immersive AR/VR applications. The\ncode is available here. https://github.com/pmh9960/SphereDiff",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.14396.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "630461624ec2dfa82a5ad7e7",
+      "avatarUrl": "/avatars/6696e21069494552b81a28a899a28fd1.svg",
+      "fullname": "Minho Park",
+      "name": "mpark",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2504.13941",
+      "authors": [
+        {
+          "_id": "6806f6ff67a715240a5ab9f8",
+          "name": "Syeda Nahida Akter",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5ab9f9",
+          "user": {
+            "_id": "66980b9c9baa4382e1678809",
+            "avatarUrl": "/avatars/1a516bb7aa7871834c19de708cdd853a.svg",
+            "isPro": false,
+            "fullname": "Shrimai Prabhumoye",
+            "user": "shrimai19",
+            "type": "user"
+          },
+          "name": "Shrimai Prabhumoye",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-04-22T01:55:12.561Z",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5ab9fa",
+          "name": "Matvei Novikov",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5ab9fb",
+          "name": "Seungju Han",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5ab9fc",
+          "name": "Ying Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5ab9fd",
+          "name": "Evelina Bakhturi",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5ab9fe",
+          "name": "Eric Nyberg",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5ab9ff",
+          "name": "Yejin Choi",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5aba00",
+          "name": "Mostofa Patwary",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5aba01",
+          "name": "Mohammad Shoeybi",
+          "hidden": false
+        },
+        {
+          "_id": "6806f6ff67a715240a5aba02",
+          "name": "Bryan Catanzaro",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-15T21:37:13.000Z",
+      "submittedOnDailyAt": "2025-04-22T00:28:47.499Z",
+      "title": "NEMOTRON-CROSSTHINK: Scaling Self-Learning beyond Math Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6338dd1776421c0543150467",
+        "avatarUrl": "/avatars/4539dcec644e40be33f4a0d419fa66cb.svg",
+        "isPro": false,
+        "fullname": "Syeda Nahida Akter",
+        "user": "SieraL",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have shown strong reasoning capabilities,\nparticularly when enhanced through Reinforcement Learning (RL). While prior\nwork has successfully applied RL to mathematical reasoning -- where rules and\ncorrectness are well-defined -- generalizing these methods to broader reasoning\ndomains remains challenging due to limited data, the lack of verifiable reward\nstructures, and diverse task requirements. In this work, we propose\nNEMOTRON-CROSSTHINK, a framework that systematically incorporates multi-domain\ncorpora, including both synthetic and real-world question-answer pairs, into RL\ntraining to improve generalization across diverse reasoning tasks.\nNEMOTRON-CROSSTHINK addresses key challenges by (1) incorporating data from\nvaried sources spanning STEM, humanities, social sciences, etc.; (2) applying\nstructured templates (e.g., multiple-choice and open-ended) to control\nanswer-space complexity; (3) filtering for verifiable answers; and (4)\noptimizing data blending strategies that utilizes data from multiple sources\neffectively. Our approach enables scalable and verifiable reward modeling\nbeyond mathematics and demonstrates improved accuracies on both math (MATH-500:\n+30.1%, AMC23:+27.5%) and non-math reasoning benchmarks (MMLU-PRO: +12.8%,\nGPQA-DIAMOND: +11.3%, AGIEVAL: +15.1%, SUPERGPQA: +3.8%). Moreover,\nNEMOTRON-CROSSTHINK exhibits significantly improved response efficiency --\nusing 28% fewer tokens for correct answers -- highlighting more focused and\neffective reasoning. Through NEMOTRON-CROSSTHINK, we demonstrate that\nintegrating multi-domain, multi-format data in RL leads to more accurate,\nefficient, and generalizable LLMs.",
+      "upvotes": 1,
+      "discussionId": "6806f70067a715240a5aba4c",
+      "ai_keywords": [
+        "Reinforcement Learning",
+        "NEMOTRON-CROSSTHINK",
+        "multi-domain corpora",
+        "structured templates",
+        "answer-space complexity",
+        "verifiable answers",
+        "data blending strategies",
+        "reward modeling",
+        "MATH-500",
+        "AMC23",
+        "MMLU-PRO",
+        "GPQA-DIAMOND",
+        "AGIEVAL",
+        "SUPERGPQA",
+        "response efficiency",
+        "tokens"
+      ]
+    },
+    "publishedAt": "2025-04-15T17:37:13.000Z",
+    "title": "NEMOTRON-CROSSTHINK: Scaling Self-Learning beyond Math Reasoning",
+    "summary": "Large Language Models (LLMs) have shown strong reasoning capabilities,\nparticularly when enhanced through Reinforcement Learning (RL). While prior\nwork has successfully applied RL to mathematical reasoning -- where rules and\ncorrectness are well-defined -- generalizing these methods to broader reasoning\ndomains remains challenging due to limited data, the lack of verifiable reward\nstructures, and diverse task requirements. In this work, we propose\nNEMOTRON-CROSSTHINK, a framework that systematically incorporates multi-domain\ncorpora, including both synthetic and real-world question-answer pairs, into RL\ntraining to improve generalization across diverse reasoning tasks.\nNEMOTRON-CROSSTHINK addresses key challenges by (1) incorporating data from\nvaried sources spanning STEM, humanities, social sciences, etc.; (2) applying\nstructured templates (e.g., multiple-choice and open-ended) to control\nanswer-space complexity; (3) filtering for verifiable answers; and (4)\noptimizing data blending strategies that utilizes data from multiple sources\neffectively. Our approach enables scalable and verifiable reward modeling\nbeyond mathematics and demonstrates improved accuracies on both math (MATH-500:\n+30.1%, AMC23:+27.5%) and non-math reasoning benchmarks (MMLU-PRO: +12.8%,\nGPQA-DIAMOND: +11.3%, AGIEVAL: +15.1%, SUPERGPQA: +3.8%). Moreover,\nNEMOTRON-CROSSTHINK exhibits significantly improved response efficiency --\nusing 28% fewer tokens for correct answers -- highlighting more focused and\neffective reasoning. Through NEMOTRON-CROSSTHINK, we demonstrate that\nintegrating multi-domain, multi-format data in RL leads to more accurate,\nefficient, and generalizable LLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.13941.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6338dd1776421c0543150467",
+      "avatarUrl": "/avatars/4539dcec644e40be33f4a0d419fa66cb.svg",
+      "fullname": "Syeda Nahida Akter",
+      "name": "SieraL",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
