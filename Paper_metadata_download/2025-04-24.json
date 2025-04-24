@@ -1,0 +1,80 @@
+[
+  {
+    "paper": {
+      "id": "2504.15843",
+      "authors": [
+        {
+          "_id": "6809948944114def75aaeb7d",
+          "name": "Junshu Pan",
+          "hidden": false
+        },
+        {
+          "_id": "6809948944114def75aaeb7e",
+          "name": "Wei Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6809948944114def75aaeb7f",
+          "name": "Shulin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6809948944114def75aaeb80",
+          "name": "Qiji Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6809948944114def75aaeb81",
+          "name": "Yue Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-22T12:39:30.000Z",
+      "submittedOnDailyAt": "2025-04-24T00:02:36.679Z",
+      "title": "Pre-DPO: Improving Data Utilization in Direct Preference Optimization\n  Using a Guiding Reference Model",
+      "submittedOnDailyBy": {
+        "_id": "6468823272d9180d4ac90bdf",
+        "avatarUrl": "/avatars/70cb7d65d30ecb944595000ceeeedb1b.svg",
+        "isPro": false,
+        "fullname": "Wei Shen",
+        "user": "Swtheking",
+        "type": "user"
+      },
+      "summary": "Direct Preference Optimization (DPO) simplifies reinforcement learning from\nhuman feedback (RLHF) for large language models (LLMs) by directly optimizing\nhuman preferences without an explicit reward model. We find that during DPO\ntraining, the reference model plays the role of a data weight adjuster.\nHowever, the common practice of initializing the policy and reference models\nidentically in DPO can lead to inefficient data utilization and impose a\nperformance ceiling. Meanwhile, the lack of a reference model in Simple\nPreference Optimization (SimPO) reduces training robustness and necessitates\nstricter conditions to prevent catastrophic forgetting. In this work, we\npropose Pre-DPO, a simple yet effective DPO-based training paradigm that\nenhances preference optimization performance by leveraging a guiding reference\nmodel. This reference model provides foresight into the optimal policy state\nachievable through the training preference data, serving as a guiding mechanism\nthat adaptively assigns higher weights to samples more suitable for the model\nand lower weights to those less suitable. Extensive experiments on AlpacaEval\n2.0 and Arena-Hard v0.1 benchmarks demonstrate that Pre-DPO consistently\nimproves the performance of both DPO and SimPO, without relying on external\nmodels or additional data.",
+      "upvotes": 4,
+      "discussionId": "6809948a44114def75aaebab",
+      "ai_keywords": [
+        "reinforcement learning from human feedback (RLHF)",
+        "large language models (LLMs)",
+        "Direct Preference Optimization (DPO)",
+        "human preferences",
+        "reference model",
+        "data weight adjuster",
+        "Simple Preference Optimization (SimPO)",
+        "catastrophic forgetting",
+        "Pre-DPO",
+        "guiding reference model",
+        "AlpacaEval 2.0",
+        "Arena-Hard v0.1"
+      ]
+    },
+    "publishedAt": "2025-04-22T08:39:30.000Z",
+    "title": "Pre-DPO: Improving Data Utilization in Direct Preference Optimization\n  Using a Guiding Reference Model",
+    "summary": "Direct Preference Optimization (DPO) simplifies reinforcement learning from\nhuman feedback (RLHF) for large language models (LLMs) by directly optimizing\nhuman preferences without an explicit reward model. We find that during DPO\ntraining, the reference model plays the role of a data weight adjuster.\nHowever, the common practice of initializing the policy and reference models\nidentically in DPO can lead to inefficient data utilization and impose a\nperformance ceiling. Meanwhile, the lack of a reference model in Simple\nPreference Optimization (SimPO) reduces training robustness and necessitates\nstricter conditions to prevent catastrophic forgetting. In this work, we\npropose Pre-DPO, a simple yet effective DPO-based training paradigm that\nenhances preference optimization performance by leveraging a guiding reference\nmodel. This reference model provides foresight into the optimal policy state\nachievable through the training preference data, serving as a guiding mechanism\nthat adaptively assigns higher weights to samples more suitable for the model\nand lower weights to those less suitable. Extensive experiments on AlpacaEval\n2.0 and Arena-Hard v0.1 benchmarks demonstrate that Pre-DPO consistently\nimproves the performance of both DPO and SimPO, without relying on external\nmodels or additional data.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.15843.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6468823272d9180d4ac90bdf",
+      "avatarUrl": "/avatars/70cb7d65d30ecb944595000ceeeedb1b.svg",
+      "fullname": "Wei Shen",
+      "name": "Swtheking",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  }
+]
