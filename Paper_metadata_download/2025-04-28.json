@@ -1,0 +1,261 @@
+[
+  {
+    "paper": {
+      "id": "2504.15376",
+      "authors": [
+        {
+          "_id": "680bda9c34c8d0bd08e01a25",
+          "user": {
+            "_id": "64c170190bfb901b04399295",
+            "avatarUrl": "/avatars/c30ce7566ae3497ddc989ec8918d37cc.svg",
+            "isPro": false,
+            "fullname": "Zhiqiu Lin",
+            "user": "zhiqiulin",
+            "type": "user"
+          },
+          "name": "Zhiqiu Lin",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-04-26T08:53:01.030Z",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a26",
+          "user": {
+            "_id": "65f82fb0de5e636ca20184fa",
+            "avatarUrl": "/avatars/82974f2e66fa30ecb6d101b19e023910.svg",
+            "isPro": false,
+            "fullname": "Alan",
+            "user": "syCen",
+            "type": "user"
+          },
+          "name": "Siyuan Cen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-04-26T08:53:05.915Z",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a27",
+          "name": "Daniel Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a28",
+          "name": "Jay Karhade",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a29",
+          "user": {
+            "_id": "67b2db158904ba09ca8feb79",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b2db158904ba09ca8feb79/faCKKdyroDNCcylEAQZKu.png",
+            "isPro": false,
+            "fullname": "Hewei Wang",
+            "user": "Stephen624",
+            "type": "user"
+          },
+          "name": "Hewei Wang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-04-26T08:53:03.301Z",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a2a",
+          "name": "Chancharik Mitra",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a2b",
+          "name": "Tiffany Ling",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a2c",
+          "name": "Yuhan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a2d",
+          "name": "Sifan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a2e",
+          "name": "Mingyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a2f",
+          "name": "Rushikesh Zawar",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a30",
+          "name": "Xue Bai",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a31",
+          "name": "Yilun Du",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a32",
+          "name": "Chuang Gan",
+          "hidden": false
+        },
+        {
+          "_id": "680bda9c34c8d0bd08e01a33",
+          "name": "Deva Ramanan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-21T18:34:57.000Z",
+      "submittedOnDailyAt": "2025-04-28T00:10:15.204Z",
+      "title": "Towards Understanding Camera Motions in Any Video",
+      "submittedOnDailyBy": {
+        "_id": "65f82fb0de5e636ca20184fa",
+        "avatarUrl": "/avatars/82974f2e66fa30ecb6d101b19e023910.svg",
+        "isPro": false,
+        "fullname": "Alan",
+        "user": "syCen",
+        "type": "user"
+      },
+      "summary": "We introduce CameraBench, a large-scale dataset and benchmark designed to\nassess and improve camera motion understanding. CameraBench consists of ~3,000\ndiverse internet videos, annotated by experts through a rigorous multi-stage\nquality control process. One of our contributions is a taxonomy of camera\nmotion primitives, designed in collaboration with cinematographers. We find,\nfor example, that some motions like \"follow\" (or tracking) require\nunderstanding scene content like moving subjects. We conduct a large-scale\nhuman study to quantify human annotation performance, revealing that domain\nexpertise and tutorial-based training can significantly enhance accuracy. For\nexample, a novice may confuse zoom-in (a change of intrinsics) with translating\nforward (a change of extrinsics), but can be trained to differentiate the two.\nUsing CameraBench, we evaluate Structure-from-Motion (SfM) and Video-Language\nModels (VLMs), finding that SfM models struggle to capture semantic primitives\nthat depend on scene content, while VLMs struggle to capture geometric\nprimitives that require precise estimation of trajectories. We then fine-tune a\ngenerative VLM on CameraBench to achieve the best of both worlds and showcase\nits applications, including motion-augmented captioning, video question\nanswering, and video-text retrieval. We hope our taxonomy, benchmark, and\ntutorials will drive future efforts towards the ultimate goal of understanding\ncamera motions in any video.",
+      "upvotes": 67,
+      "discussionId": "680bda9e34c8d0bd08e01ae9",
+      "projectPage": "https://linzhiqiu.github.io/papers/camerabench/",
+      "ai_keywords": [
+        "Structure-from-Motion (SfM)",
+        "Video-Language Models (VLMs)",
+        "semantic primitives",
+        "geometric primitives",
+        "generative VLM",
+        "motion-augmented captioning",
+        "video question answering",
+        "video-text retrieval"
+      ]
+    },
+    "publishedAt": "2025-04-21T14:34:57.000Z",
+    "title": "Towards Understanding Camera Motions in Any Video",
+    "summary": "We introduce CameraBench, a large-scale dataset and benchmark designed to\nassess and improve camera motion understanding. CameraBench consists of ~3,000\ndiverse internet videos, annotated by experts through a rigorous multi-stage\nquality control process. One of our contributions is a taxonomy of camera\nmotion primitives, designed in collaboration with cinematographers. We find,\nfor example, that some motions like \"follow\" (or tracking) require\nunderstanding scene content like moving subjects. We conduct a large-scale\nhuman study to quantify human annotation performance, revealing that domain\nexpertise and tutorial-based training can significantly enhance accuracy. For\nexample, a novice may confuse zoom-in (a change of intrinsics) with translating\nforward (a change of extrinsics), but can be trained to differentiate the two.\nUsing CameraBench, we evaluate Structure-from-Motion (SfM) and Video-Language\nModels (VLMs), finding that SfM models struggle to capture semantic primitives\nthat depend on scene content, while VLMs struggle to capture geometric\nprimitives that require precise estimation of trajectories. We then fine-tune a\ngenerative VLM on CameraBench to achieve the best of both worlds and showcase\nits applications, including motion-augmented captioning, video question\nanswering, and video-text retrieval. We hope our taxonomy, benchmark, and\ntutorials will drive future efforts towards the ultimate goal of understanding\ncamera motions in any video.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.15376.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65f82fb0de5e636ca20184fa",
+      "avatarUrl": "/avatars/82974f2e66fa30ecb6d101b19e023910.svg",
+      "fullname": "Alan",
+      "name": "syCen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2504.16427",
+      "authors": [
+        {
+          "_id": "680c48805ec65044c2861a6a",
+          "user": {
+            "_id": "669090c01e3f5b16ce22b535",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/669090c01e3f5b16ce22b535/AT-k66Mt5FtbImnhNQJ_J.jpeg",
+            "isPro": false,
+            "fullname": "Hanlei Zhang",
+            "user": "HanleiZhang",
+            "type": "user"
+          },
+          "name": "Hanlei Zhang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-04-26T08:52:58.965Z",
+          "hidden": false
+        },
+        {
+          "_id": "680c48805ec65044c2861a6b",
+          "name": "Zhuohang Li",
+          "hidden": false
+        },
+        {
+          "_id": "680c48805ec65044c2861a6c",
+          "name": "Yeshuang Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "680c48805ec65044c2861a6d",
+          "name": "Hua Xu",
+          "hidden": false
+        },
+        {
+          "_id": "680c48805ec65044c2861a6e",
+          "name": "Peiwu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "680c48805ec65044c2861a6f",
+          "name": "Haige Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "680c48805ec65044c2861a70",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "680c48805ec65044c2861a71",
+          "name": "Jinchao Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-23T05:25:13.000Z",
+      "submittedOnDailyAt": "2025-04-28T00:53:49.838Z",
+      "title": "Can Large Language Models Help Multimodal Language Analysis? MMLA: A\n  Comprehensive Benchmark",
+      "submittedOnDailyBy": {
+        "_id": "669090c01e3f5b16ce22b535",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/669090c01e3f5b16ce22b535/AT-k66Mt5FtbImnhNQJ_J.jpeg",
+        "isPro": false,
+        "fullname": "Hanlei Zhang",
+        "user": "HanleiZhang",
+        "type": "user"
+      },
+      "summary": "Multimodal language analysis is a rapidly evolving field that leverages\nmultiple modalities to enhance the understanding of high-level semantics\nunderlying human conversational utterances. Despite its significance, little\nresearch has investigated the capability of multimodal large language models\n(MLLMs) to comprehend cognitive-level semantics. In this paper, we introduce\nMMLA, a comprehensive benchmark specifically designed to address this gap. MMLA\ncomprises over 61K multimodal utterances drawn from both staged and real-world\nscenarios, covering six core dimensions of multimodal semantics: intent,\nemotion, dialogue act, sentiment, speaking style, and communication behavior.\nWe evaluate eight mainstream branches of LLMs and MLLMs using three methods:\nzero-shot inference, supervised fine-tuning, and instruction tuning. Extensive\nexperiments reveal that even fine-tuned models achieve only about 60%~70%\naccuracy, underscoring the limitations of current MLLMs in understanding\ncomplex human language. We believe that MMLA will serve as a solid foundation\nfor exploring the potential of large language models in multimodal language\nanalysis and provide valuable resources to advance this field. The datasets and\ncode are open-sourced at https://github.com/thuiar/MMLA.",
+      "upvotes": 2,
+      "discussionId": "680c48825ec65044c2861ac4",
+      "githubRepo": "https://github.com/thuiar/MMLA",
+      "ai_keywords": [
+        "multimodal language models (MLLMs)",
+        "MMLA (Multimodal Language Analysis)",
+        "multimodal utterances",
+        "intent",
+        "emotion",
+        "dialogue act",
+        "sentiment",
+        "speaking style",
+        "communication behavior",
+        "zero-shot inference",
+        "supervised fine-tuning",
+        "instruction tuning",
+        "large language models (LLMs)"
+      ]
+    },
+    "publishedAt": "2025-04-23T01:25:13.000Z",
+    "title": "Can Large Language Models Help Multimodal Language Analysis? MMLA: A\n  Comprehensive Benchmark",
+    "summary": "Multimodal language analysis is a rapidly evolving field that leverages\nmultiple modalities to enhance the understanding of high-level semantics\nunderlying human conversational utterances. Despite its significance, little\nresearch has investigated the capability of multimodal large language models\n(MLLMs) to comprehend cognitive-level semantics. In this paper, we introduce\nMMLA, a comprehensive benchmark specifically designed to address this gap. MMLA\ncomprises over 61K multimodal utterances drawn from both staged and real-world\nscenarios, covering six core dimensions of multimodal semantics: intent,\nemotion, dialogue act, sentiment, speaking style, and communication behavior.\nWe evaluate eight mainstream branches of LLMs and MLLMs using three methods:\nzero-shot inference, supervised fine-tuning, and instruction tuning. Extensive\nexperiments reveal that even fine-tuned models achieve only about 60%~70%\naccuracy, underscoring the limitations of current MLLMs in understanding\ncomplex human language. We believe that MMLA will serve as a solid foundation\nfor exploring the potential of large language models in multimodal language\nanalysis and provide valuable resources to advance this field. The datasets and\ncode are open-sourced at https://github.com/thuiar/MMLA.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.16427.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "669090c01e3f5b16ce22b535",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/669090c01e3f5b16ce22b535/AT-k66Mt5FtbImnhNQJ_J.jpeg",
+      "fullname": "Hanlei Zhang",
+      "name": "HanleiZhang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  }
+]
