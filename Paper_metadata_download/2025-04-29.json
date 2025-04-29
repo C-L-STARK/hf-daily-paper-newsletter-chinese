@@ -1,0 +1,131 @@
+[
+  {
+    "paper": {
+      "id": "2504.19838",
+      "authors": [
+        {
+          "_id": "6810317e007d579cbf5200ba",
+          "name": "Guangyi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200bb",
+          "name": "Pengxiang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200bc",
+          "name": "Liang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200bd",
+          "name": "Yaxuan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200be",
+          "name": "Han Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200bf",
+          "name": "Weifeng Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c0",
+          "name": "Yuxiang Chai",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c1",
+          "name": "Yue Han",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c2",
+          "name": "Shuai Ren",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c3",
+          "name": "Hao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c4",
+          "name": "Xiaoyu Liang",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c5",
+          "name": "Wenhao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c6",
+          "name": "Tianze Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c7",
+          "name": "Linghao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c8",
+          "name": "Hao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200c9",
+          "name": "Guanjing Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200ca",
+          "name": "Yong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6810317e007d579cbf5200cb",
+          "name": "Hongsheng Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-04-28T14:39:25.000Z",
+      "submittedOnDailyAt": "2025-04-29T00:30:25.482Z",
+      "title": "LLM-Powered GUI Agents in Phone Automation: Surveying Progress and\n  Prospects",
+      "submittedOnDailyBy": {
+        "_id": "64d761b98ebc40443831f82a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64d761b98ebc40443831f82a/DHBOtOstiFp2-lDY6b9gb.png",
+        "isPro": false,
+        "fullname": "lgy0404",
+        "user": "lgy0404",
+        "type": "user"
+      },
+      "summary": "With the rapid rise of large language models (LLMs), phone automation has\nundergone transformative changes. This paper systematically reviews LLM-driven\nphone GUI agents, highlighting their evolution from script-based automation to\nintelligent, adaptive systems. We first contextualize key challenges, (i)\nlimited generality, (ii) high maintenance overhead, and (iii) weak intent\ncomprehension, and show how LLMs address these issues through advanced language\nunderstanding, multimodal perception, and robust decision-making. We then\npropose a taxonomy covering fundamental agent frameworks (single-agent,\nmulti-agent, plan-then-act), modeling approaches (prompt engineering,\ntraining-based), and essential datasets and benchmarks. Furthermore, we detail\ntask-specific architectures, supervised fine-tuning, and reinforcement learning\nstrategies that bridge user intent and GUI operations. Finally, we discuss open\nchallenges such as dataset diversity, on-device deployment efficiency,\nuser-centric adaptation, and security concerns, offering forward-looking\ninsights into this rapidly evolving field. By providing a structured overview\nand identifying pressing research gaps, this paper serves as a definitive\nreference for researchers and practitioners seeking to harness LLMs in\ndesigning scalable, user-friendly phone GUI agents.",
+      "upvotes": 6,
+      "discussionId": "68103184007d579cbf5202d9",
+      "projectPage": "https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents"
+    },
+    "publishedAt": "2025-04-28T10:39:25.000Z",
+    "title": "LLM-Powered GUI Agents in Phone Automation: Surveying Progress and\n  Prospects",
+    "summary": "With the rapid rise of large language models (LLMs), phone automation has\nundergone transformative changes. This paper systematically reviews LLM-driven\nphone GUI agents, highlighting their evolution from script-based automation to\nintelligent, adaptive systems. We first contextualize key challenges, (i)\nlimited generality, (ii) high maintenance overhead, and (iii) weak intent\ncomprehension, and show how LLMs address these issues through advanced language\nunderstanding, multimodal perception, and robust decision-making. We then\npropose a taxonomy covering fundamental agent frameworks (single-agent,\nmulti-agent, plan-then-act), modeling approaches (prompt engineering,\ntraining-based), and essential datasets and benchmarks. Furthermore, we detail\ntask-specific architectures, supervised fine-tuning, and reinforcement learning\nstrategies that bridge user intent and GUI operations. Finally, we discuss open\nchallenges such as dataset diversity, on-device deployment efficiency,\nuser-centric adaptation, and security concerns, offering forward-looking\ninsights into this rapidly evolving field. By providing a structured overview\nand identifying pressing research gaps, this paper serves as a definitive\nreference for researchers and practitioners seeking to harness LLMs in\ndesigning scalable, user-friendly phone GUI agents.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.19838.png",
+    "numComments": 3,
+    "submittedBy": {
+      "_id": "64d761b98ebc40443831f82a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64d761b98ebc40443831f82a/DHBOtOstiFp2-lDY6b9gb.png",
+      "fullname": "lgy0404",
+      "name": "lgy0404",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
