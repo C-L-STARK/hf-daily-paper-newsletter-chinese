@@ -1,0 +1,334 @@
+[
+  {
+    "paper": {
+      "id": "2505.01043",
+      "authors": [
+        {
+          "_id": "68196e23d9cad0bb5c90dd9b",
+          "name": "Zhiwei Hao",
+          "hidden": false
+        },
+        {
+          "_id": "68196e23d9cad0bb5c90dd9c",
+          "name": "Jianyuan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68196e23d9cad0bb5c90dd9d",
+          "name": "Li Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68196e23d9cad0bb5c90dd9e",
+          "name": "Yong Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68196e23d9cad0bb5c90dd9f",
+          "name": "Han Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68196e23d9cad0bb5c90dda0",
+          "name": "Guoxia Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68196e23d9cad0bb5c90dda1",
+          "name": "Dianhai Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68196e23d9cad0bb5c90dda2",
+          "name": "Yonggang Wen",
+          "hidden": false
+        },
+        {
+          "_id": "68196e23d9cad0bb5c90dda3",
+          "name": "Dacheng Tao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-02T06:33:25.000Z",
+      "submittedOnDailyAt": "2025-05-06T00:36:54.063Z",
+      "title": "Low-Precision Training of Large Language Models: Methods, Challenges,\n  and Opportunities",
+      "submittedOnDailyBy": {
+        "_id": "64a62e3302e46deb19a7937e",
+        "avatarUrl": "/avatars/43553a80f2c5f6c91742c4ce2d23fe21.svg",
+        "isPro": false,
+        "fullname": "Zhiwei Hao",
+        "user": "Zhiwei840",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have achieved impressive performance across\nvarious domains. However, the substantial hardware resources required for their\ntraining present a significant barrier to efficiency and scalability. To\nmitigate this challenge, low-precision training techniques have been widely\nadopted, leading to notable advancements in training efficiency. Despite these\ngains, low-precision training involves several componentsx2013such\nas weights, activations, and gradientsx2013each of which can be\nrepresented in different numerical formats. The resulting diversity has created\na fragmented landscape in low-precision training research, making it difficult\nfor researchers to gain a unified overview of the field. This survey provides a\ncomprehensive review of existing low-precision training methods. To\nsystematically organize these approaches, we categorize them into three primary\ngroups based on their underlying numerical formats, which is a key factor\ninfluencing hardware compatibility, computational efficiency, and ease of\nreference for readers. The categories are: (1) fixed-point and integer-based\nmethods, (2) floating-point-based methods, and (3) customized format-based\nmethods. Additionally, we discuss quantization-aware training approaches, which\nshare key similarities with low-precision training during forward propagation.\nFinally, we highlight several promising research directions to advance this\nfield. A collection of papers discussed in this survey is provided in\nhttps://github.com/Hao840/Awesome-Low-Precision-Training.",
+      "upvotes": 2,
+      "discussionId": "68196e24d9cad0bb5c90de08",
+      "githubRepo": "https://github.com/Hao840/Awesome-Low-Precision-Training",
+      "ai_keywords": [
+        "low-precision training",
+        "weights",
+        "activations",
+        "gradients",
+        "fixed-point",
+        "integer-based methods",
+        "floating-point-based methods",
+        "customized format-based methods",
+        "quantization-aware training"
+      ]
+    },
+    "publishedAt": "2025-05-02T02:33:25.000Z",
+    "title": "Low-Precision Training of Large Language Models: Methods, Challenges,\n  and Opportunities",
+    "summary": "Large language models (LLMs) have achieved impressive performance across\nvarious domains. However, the substantial hardware resources required for their\ntraining present a significant barrier to efficiency and scalability. To\nmitigate this challenge, low-precision training techniques have been widely\nadopted, leading to notable advancements in training efficiency. Despite these\ngains, low-precision training involves several componentsx2013such\nas weights, activations, and gradientsx2013each of which can be\nrepresented in different numerical formats. The resulting diversity has created\na fragmented landscape in low-precision training research, making it difficult\nfor researchers to gain a unified overview of the field. This survey provides a\ncomprehensive review of existing low-precision training methods. To\nsystematically organize these approaches, we categorize them into three primary\ngroups based on their underlying numerical formats, which is a key factor\ninfluencing hardware compatibility, computational efficiency, and ease of\nreference for readers. The categories are: (1) fixed-point and integer-based\nmethods, (2) floating-point-based methods, and (3) customized format-based\nmethods. Additionally, we discuss quantization-aware training approaches, which\nshare key similarities with low-precision training during forward propagation.\nFinally, we highlight several promising research directions to advance this\nfield. A collection of papers discussed in this survey is provided in\nhttps://github.com/Hao840/Awesome-Low-Precision-Training.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.01043.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64a62e3302e46deb19a7937e",
+      "avatarUrl": "/avatars/43553a80f2c5f6c91742c4ce2d23fe21.svg",
+      "fullname": "Zhiwei Hao",
+      "name": "Zhiwei840",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.02735",
+      "authors": [
+        {
+          "_id": "6819742e0d1c56fe9124fe3a",
+          "name": "Zhouliang Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe3b",
+          "name": "Ruotian Peng",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe3c",
+          "name": "Keyi Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe3d",
+          "name": "Yizhe Li",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe3e",
+          "name": "Zhongyuan Peng",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe3f",
+          "name": "Minghao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe40",
+          "name": "Yifan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe41",
+          "name": "Zheng Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe42",
+          "name": "Huajian Xin",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe43",
+          "name": "Wenhao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe44",
+          "name": "Yandong Wen",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe45",
+          "name": "Ge Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6819742e0d1c56fe9124fe46",
+          "name": "Weiyang Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-05T15:37:00.000Z",
+      "submittedOnDailyAt": "2025-05-06T01:00:48.636Z",
+      "title": "FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language\n  Models",
+      "submittedOnDailyBy": {
+        "_id": "62a80fe3ac97233f1625235a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a80fe3ac97233f1625235a/_rGtpqdY7OEBz3pyqb6fE.jpeg",
+        "isPro": false,
+        "fullname": "Zhouliang Yu",
+        "user": "zhouliang",
+        "type": "user"
+      },
+      "summary": "Formal mathematical reasoning remains a critical challenge for artificial\nintelligence, hindered by limitations of existing benchmarks in scope and\nscale. To address this, we present FormalMATH, a large-scale Lean4 benchmark\ncomprising 5,560 formally verified problems spanning from high-school Olympiad\nchallenges to undergraduate-level theorems across diverse domains (e.g.,\nalgebra, applied mathematics, calculus, number theory, and discrete\nmathematics). To mitigate the inefficiency of manual formalization, we\nintroduce a novel human-in-the-loop autoformalization pipeline that integrates:\n(1) specialized large language models (LLMs) for statement autoformalization,\n(2) multi-LLM semantic verification, and (3) negation-based disproof filtering\nstrategies using off-the-shelf LLM-based provers. This approach reduces expert\nannotation costs by retaining 72.09% of statements before manual verification\nwhile ensuring fidelity to the original natural-language problems. Our\nevaluation of state-of-the-art LLM-based theorem provers reveals significant\nlimitations: even the strongest models achieve only 16.46% success rate under\npractical sampling budgets, exhibiting pronounced domain bias (e.g., excelling\nin algebra but failing in calculus) and over-reliance on simplified automation\ntactics. Notably, we identify a counterintuitive inverse relationship between\nnatural-language solution guidance and proof success in chain-of-thought\nreasoning scenarios, suggesting that human-written informal reasoning\nintroduces noise rather than clarity in the formal reasoning settings. We\nbelieve that FormalMATH provides a robust benchmark for benchmarking formal\nmathematical reasoning.",
+      "upvotes": 1,
+      "discussionId": "6819742f0d1c56fe9124fe8a"
+    },
+    "publishedAt": "2025-05-05T11:37:00.000Z",
+    "title": "FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language\n  Models",
+    "summary": "Formal mathematical reasoning remains a critical challenge for artificial\nintelligence, hindered by limitations of existing benchmarks in scope and\nscale. To address this, we present FormalMATH, a large-scale Lean4 benchmark\ncomprising 5,560 formally verified problems spanning from high-school Olympiad\nchallenges to undergraduate-level theorems across diverse domains (e.g.,\nalgebra, applied mathematics, calculus, number theory, and discrete\nmathematics). To mitigate the inefficiency of manual formalization, we\nintroduce a novel human-in-the-loop autoformalization pipeline that integrates:\n(1) specialized large language models (LLMs) for statement autoformalization,\n(2) multi-LLM semantic verification, and (3) negation-based disproof filtering\nstrategies using off-the-shelf LLM-based provers. This approach reduces expert\nannotation costs by retaining 72.09% of statements before manual verification\nwhile ensuring fidelity to the original natural-language problems. Our\nevaluation of state-of-the-art LLM-based theorem provers reveals significant\nlimitations: even the strongest models achieve only 16.46% success rate under\npractical sampling budgets, exhibiting pronounced domain bias (e.g., excelling\nin algebra but failing in calculus) and over-reliance on simplified automation\ntactics. Notably, we identify a counterintuitive inverse relationship between\nnatural-language solution guidance and proof success in chain-of-thought\nreasoning scenarios, suggesting that human-written informal reasoning\nintroduces noise rather than clarity in the formal reasoning settings. We\nbelieve that FormalMATH provides a robust benchmark for benchmarking formal\nmathematical reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.02735.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62a80fe3ac97233f1625235a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a80fe3ac97233f1625235a/_rGtpqdY7OEBz3pyqb6fE.jpeg",
+      "fullname": "Zhouliang Yu",
+      "name": "zhouliang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.02471",
+      "authors": [
+        {
+          "_id": "681973cfa70a4728958323aa",
+          "name": "Biao Gong",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323ab",
+          "name": "Cheng Zou",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323ac",
+          "name": "Dandan Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323ad",
+          "name": "Hu Yu",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323ae",
+          "name": "Jingdong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323af",
+          "name": "Jianxin Sun",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b0",
+          "name": "Junbo Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b1",
+          "name": "Jun Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b2",
+          "name": "Kaixiang Ji",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b3",
+          "name": "Lixiang Ru",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b4",
+          "name": "Libin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b5",
+          "name": "Qingpei Guo",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b6",
+          "name": "Rui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b7",
+          "name": "Weilong Chai",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b8",
+          "name": "Xinyu Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "681973cfa70a4728958323b9",
+          "name": "Ziyuan Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-05T08:56:12.000Z",
+      "submittedOnDailyAt": "2025-05-06T01:00:49.692Z",
+      "title": "Ming-Lite-Uni: Advancements in Unified Architecture for Natural\n  Multimodal Interaction",
+      "submittedOnDailyBy": {
+        "_id": "644fcbea4f7316588267dc80",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644fcbea4f7316588267dc80/w8-2Gkaw9BN9VzppNXrTP.jpeg",
+        "isPro": false,
+        "fullname": "Biao Gong",
+        "user": "BiaoGong",
+        "type": "user"
+      },
+      "summary": "We introduce Ming-Lite-Uni, an open-source multimodal framework featuring a\nnewly designed unified visual generator and a native multimodal autoregressive\nmodel tailored for unifying vision and language. Specifically, this project\nprovides an open-source implementation of the integrated MetaQueries and\nM2-omni framework, while introducing the novel multi-scale learnable tokens and\nmulti-scale representation alignment strategy. By leveraging a fixed MLLM and a\nlearnable diffusion model, Ming-Lite-Uni enables native multimodal AR models to\nperform both text-to-image generation and instruction based image editing\ntasks, expanding their capabilities beyond pure visual understanding. Our\nexperimental results demonstrate the strong performance of Ming-Lite-Uni and\nillustrate the impressive fluid nature of its interactive process. All code and\nmodel weights are open-sourced to foster further exploration within the\ncommunity. Notably, this work aligns with concurrent multimodal AI milestones -\nsuch as ChatGPT-4o with native image generation updated in March 25, 2025 -\nunderscoring the broader significance of unified models like Ming-Lite-Uni on\nthe path toward AGI. Ming-Lite-Uni is in alpha stage and will soon be further\nrefined.",
+      "upvotes": 1,
+      "discussionId": "681973d2a70a47289583249d",
+      "projectPage": "https://github.com/inclusionAI/Ming/tree/main/Ming-unify",
+      "githubRepo": "https://github.com/inclusionAI/Ming/tree/main/Ming-unify",
+      "ai_keywords": [
+        "unified visual generator",
+        "multimodal autoregressive model",
+        "MetaQueries",
+        "M2-omni framework",
+        "multi-scale learnable tokens",
+        "multi-scale representation alignment strategy",
+        "MLLM",
+        "learnable diffusion model",
+        "text-to-image generation",
+        "instruction based image editing"
+      ]
+    },
+    "publishedAt": "2025-05-05T04:56:12.000Z",
+    "title": "Ming-Lite-Uni: Advancements in Unified Architecture for Natural\n  Multimodal Interaction",
+    "summary": "We introduce Ming-Lite-Uni, an open-source multimodal framework featuring a\nnewly designed unified visual generator and a native multimodal autoregressive\nmodel tailored for unifying vision and language. Specifically, this project\nprovides an open-source implementation of the integrated MetaQueries and\nM2-omni framework, while introducing the novel multi-scale learnable tokens and\nmulti-scale representation alignment strategy. By leveraging a fixed MLLM and a\nlearnable diffusion model, Ming-Lite-Uni enables native multimodal AR models to\nperform both text-to-image generation and instruction based image editing\ntasks, expanding their capabilities beyond pure visual understanding. Our\nexperimental results demonstrate the strong performance of Ming-Lite-Uni and\nillustrate the impressive fluid nature of its interactive process. All code and\nmodel weights are open-sourced to foster further exploration within the\ncommunity. Notably, this work aligns with concurrent multimodal AI milestones -\nsuch as ChatGPT-4o with native image generation updated in March 25, 2025 -\nunderscoring the broader significance of unified models like Ming-Lite-Uni on\nthe path toward AGI. Ming-Lite-Uni is in alpha stage and will soon be further\nrefined.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.02471.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "644fcbea4f7316588267dc80",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644fcbea4f7316588267dc80/w8-2Gkaw9BN9VzppNXrTP.jpeg",
+      "fullname": "Biao Gong",
+      "name": "BiaoGong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
