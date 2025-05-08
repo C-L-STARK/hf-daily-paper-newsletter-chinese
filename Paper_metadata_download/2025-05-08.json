@@ -1,0 +1,148 @@
+[
+  {
+    "paper": {
+      "id": "2505.04588",
+      "authors": [
+        {
+          "_id": "681c15ab84d0a008fcdb1ee8",
+          "name": "Hao Sun",
+          "hidden": false
+        },
+        {
+          "_id": "681c15ab84d0a008fcdb1ee9",
+          "name": "Zile Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "681c15ab84d0a008fcdb1eea",
+          "name": "Jiayan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "681c15ab84d0a008fcdb1eeb",
+          "name": "Xuanbo Fan",
+          "hidden": false
+        },
+        {
+          "_id": "681c15ab84d0a008fcdb1eec",
+          "name": "Yingyan Hou",
+          "hidden": false
+        },
+        {
+          "_id": "681c15ab84d0a008fcdb1eed",
+          "name": "Yong Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "681c15ab84d0a008fcdb1eee",
+          "name": "Pengjun Xie",
+          "hidden": false
+        },
+        {
+          "_id": "681c15ab84d0a008fcdb1eef",
+          "name": "Fei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "681c15ab84d0a008fcdb1ef0",
+          "name": "Yan Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-07T17:30:22.000Z",
+      "submittedOnDailyAt": "2025-05-08T00:54:07.103Z",
+      "title": "ZeroSearch: Incentivize the Search Capability of LLMs without Searching",
+      "submittedOnDailyBy": {
+        "_id": "66224557c61c7fbd98099079",
+        "avatarUrl": "/avatars/a4f2144585c808865c73b5b7f0087c1f.svg",
+        "isPro": false,
+        "fullname": "GJ",
+        "user": "SpaceProduct",
+        "type": "user"
+      },
+      "summary": "Effective information searching is essential for enhancing the reasoning and\ngeneration capabilities of large language models (LLMs). Recent research has\nexplored using reinforcement learning (RL) to improve LLMs' search capabilities\nby interacting with live search engines in real-world environments. While these\napproaches show promising results, they face two major challenges: (1)\nUncontrolled Document Quality: The quality of documents returned by search\nengines is often unpredictable, introducing noise and instability into the\ntraining process. (2) Prohibitively High API Costs: RL training requires\nfrequent rollouts, potentially involving hundreds of thousands of search\nrequests, which incur substantial API expenses and severely constrain\nscalability. To address these challenges, we introduce ZeroSearch, a\nreinforcement learning framework that incentivizes the search capabilities of\nLLMs without interacting with real search engines. Our approach begins with\nlightweight supervised fine-tuning to transform the LLM into a retrieval module\ncapable of generating both relevant and noisy documents in response to a query.\nDuring RL training, we employ a curriculum-based rollout strategy that\nincrementally degrades the quality of generated documents, progressively\neliciting the model's reasoning ability by exposing it to increasingly\nchallenging retrieval scenarios. Extensive experiments demonstrate that\nZeroSearch effectively incentivizes the search capabilities of LLMs using a 3B\nLLM as the retrieval module. Remarkably, a 7B retrieval module achieves\ncomparable performance to the real search engine, while a 14B retrieval module\neven surpasses it. Furthermore, it generalizes well across both base and\ninstruction-tuned models of various parameter sizes and is compatible with a\nwide range of RL algorithms.",
+      "upvotes": 3,
+      "discussionId": "681c15ac84d0a008fcdb1f21",
+      "projectPage": "https://alibaba-nlp.github.io/ZeroSearch/",
+      "githubRepo": "https://github.com/Alibaba-nlp/ZeroSearch"
+    },
+    "publishedAt": "2025-05-07T13:30:22.000Z",
+    "title": "ZeroSearch: Incentivize the Search Capability of LLMs without Searching",
+    "summary": "Effective information searching is essential for enhancing the reasoning and\ngeneration capabilities of large language models (LLMs). Recent research has\nexplored using reinforcement learning (RL) to improve LLMs' search capabilities\nby interacting with live search engines in real-world environments. While these\napproaches show promising results, they face two major challenges: (1)\nUncontrolled Document Quality: The quality of documents returned by search\nengines is often unpredictable, introducing noise and instability into the\ntraining process. (2) Prohibitively High API Costs: RL training requires\nfrequent rollouts, potentially involving hundreds of thousands of search\nrequests, which incur substantial API expenses and severely constrain\nscalability. To address these challenges, we introduce ZeroSearch, a\nreinforcement learning framework that incentivizes the search capabilities of\nLLMs without interacting with real search engines. Our approach begins with\nlightweight supervised fine-tuning to transform the LLM into a retrieval module\ncapable of generating both relevant and noisy documents in response to a query.\nDuring RL training, we employ a curriculum-based rollout strategy that\nincrementally degrades the quality of generated documents, progressively\neliciting the model's reasoning ability by exposing it to increasingly\nchallenging retrieval scenarios. Extensive experiments demonstrate that\nZeroSearch effectively incentivizes the search capabilities of LLMs using a 3B\nLLM as the retrieval module. Remarkably, a 7B retrieval module achieves\ncomparable performance to the real search engine, while a 14B retrieval module\neven surpasses it. Furthermore, it generalizes well across both base and\ninstruction-tuned models of various parameter sizes and is compatible with a\nwide range of RL algorithms.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.04588.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66224557c61c7fbd98099079",
+      "avatarUrl": "/avatars/a4f2144585c808865c73b5b7f0087c1f.svg",
+      "fullname": "GJ",
+      "name": "SpaceProduct",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.04364",
+      "authors": [
+        {
+          "_id": "681c189c791c72783efe5a94",
+          "name": "Kai Ruan",
+          "hidden": false
+        },
+        {
+          "_id": "681c189c791c72783efe5a95",
+          "name": "Mowen Huang",
+          "hidden": false
+        },
+        {
+          "_id": "681c189c791c72783efe5a96",
+          "name": "Ji-Rong Wen",
+          "hidden": false
+        },
+        {
+          "_id": "681c189c791c72783efe5a97",
+          "name": "Hao Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-07T12:32:01.000Z",
+      "submittedOnDailyAt": "2025-05-08T01:06:26.256Z",
+      "title": "Benchmarking LLMs' Swarm intelligence",
+      "submittedOnDailyBy": {
+        "_id": "6205fefd3f1dc8a642d70b10",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1673948194938-6205fefd3f1dc8a642d70b10.jpeg",
+        "isPro": false,
+        "fullname": "Kai Ruan",
+        "user": "6cf",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) show potential for complex reasoning, yet their\ncapacity for emergent coordination in Multi-Agent Systems (MAS) when operating\nunder strict constraints-such as limited local perception and communication,\ncharacteristic of natural swarms-remains largely unexplored, particularly\nconcerning the nuances of swarm intelligence. Existing benchmarks often do not\nfully capture the unique challenges of decentralized coordination that arise\nwhen agents operate with incomplete spatio-temporal information. To bridge this\ngap, we introduce SwarmBench, a novel benchmark designed to systematically\nevaluate the swarm intelligence capabilities of LLMs acting as decentralized\nagents. SwarmBench features five foundational MAS coordination tasks within a\nconfigurable 2D grid environment, forcing agents to rely primarily on local\nsensory input (k x k view) and local communication. We propose metrics for\ncoordination effectiveness and analyze emergent group dynamics. Evaluating\nseveral leading LLMs in a zero-shot setting, we find significant performance\nvariations across tasks, highlighting the difficulties posed by local\ninformation constraints. While some coordination emerges, results indicate\nlimitations in robust planning and strategy formation under uncertainty in\nthese decentralized scenarios. Assessing LLMs under swarm-like conditions is\ncrucial for realizing their potential in future decentralized systems. We\nrelease SwarmBench as an open, extensible toolkit-built upon a customizable and\nscalable physical system with defined mechanical properties. It provides\nenvironments, prompts, evaluation scripts, and the comprehensive experimental\ndatasets generated, aiming to foster reproducible research into LLM-based MAS\ncoordination and the theoretical underpinnings of Embodied MAS. Our code\nrepository is available at https://github.com/x66ccff/swarmbench.",
+      "upvotes": 1,
+      "discussionId": "681c189e791c72783efe5b2d",
+      "githubRepo": "https://github.com/x66ccff/swarmbench"
+    },
+    "publishedAt": "2025-05-07T08:32:01.000Z",
+    "title": "Benchmarking LLMs' Swarm intelligence",
+    "summary": "Large Language Models (LLMs) show potential for complex reasoning, yet their\ncapacity for emergent coordination in Multi-Agent Systems (MAS) when operating\nunder strict constraints-such as limited local perception and communication,\ncharacteristic of natural swarms-remains largely unexplored, particularly\nconcerning the nuances of swarm intelligence. Existing benchmarks often do not\nfully capture the unique challenges of decentralized coordination that arise\nwhen agents operate with incomplete spatio-temporal information. To bridge this\ngap, we introduce SwarmBench, a novel benchmark designed to systematically\nevaluate the swarm intelligence capabilities of LLMs acting as decentralized\nagents. SwarmBench features five foundational MAS coordination tasks within a\nconfigurable 2D grid environment, forcing agents to rely primarily on local\nsensory input (k x k view) and local communication. We propose metrics for\ncoordination effectiveness and analyze emergent group dynamics. Evaluating\nseveral leading LLMs in a zero-shot setting, we find significant performance\nvariations across tasks, highlighting the difficulties posed by local\ninformation constraints. While some coordination emerges, results indicate\nlimitations in robust planning and strategy formation under uncertainty in\nthese decentralized scenarios. Assessing LLMs under swarm-like conditions is\ncrucial for realizing their potential in future decentralized systems. We\nrelease SwarmBench as an open, extensible toolkit-built upon a customizable and\nscalable physical system with defined mechanical properties. It provides\nenvironments, prompts, evaluation scripts, and the comprehensive experimental\ndatasets generated, aiming to foster reproducible research into LLM-based MAS\ncoordination and the theoretical underpinnings of Embodied MAS. Our code\nrepository is available at https://github.com/x66ccff/swarmbench.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.04364.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6205fefd3f1dc8a642d70b10",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1673948194938-6205fefd3f1dc8a642d70b10.jpeg",
+      "fullname": "Kai Ruan",
+      "name": "6cf",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  }
+]
