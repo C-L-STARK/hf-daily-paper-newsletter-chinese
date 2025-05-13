@@ -1,0 +1,1314 @@
+[
+  {
+    "paper": {
+      "id": "2505.07062",
+      "authors": [
+        {
+          "_id": "6822ab54a79983c00c8164eb",
+          "name": "Dong Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164ec",
+          "name": "Faming Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164ed",
+          "name": "Feida Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164ee",
+          "name": "Fuxing Leng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164ef",
+          "name": "Guang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f0",
+          "name": "Haobin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f1",
+          "name": "Haoqi Fan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f2",
+          "name": "Jian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f3",
+          "name": "Jianyu Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f4",
+          "name": "Jiawei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f5",
+          "name": "Jingji Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f6",
+          "name": "Jingjia Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f7",
+          "name": "Kang Lei",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f8",
+          "name": "Liping Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164f9",
+          "name": "Lishu Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164fa",
+          "name": "Pengfei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164fb",
+          "name": "Qinghao Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164fc",
+          "name": "Rui Qian",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164fd",
+          "name": "Shen Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164fe",
+          "name": "Shixiong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8164ff",
+          "name": "Shuai Peng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816500",
+          "name": "Shuangye Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816501",
+          "name": "Sihang Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816502",
+          "name": "Sijin Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816503",
+          "name": "Tianheng Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816504",
+          "name": "Weiwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816505",
+          "name": "Wenqian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816506",
+          "name": "Xianhan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816507",
+          "name": "Xiao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816508",
+          "name": "Xiaobo Qin",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816509",
+          "name": "Xiaohan Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81650a",
+          "name": "Xiaojun Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81650b",
+          "name": "Xiaoying Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81650c",
+          "name": "Xuanwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81650d",
+          "name": "Xuehan Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81650e",
+          "name": "Yanghua Peng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81650f",
+          "name": "Yangrui Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816510",
+          "name": "Yanwei Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816511",
+          "name": "Yanxu Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816512",
+          "name": "Yi Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816513",
+          "name": "Yiyuan Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816514",
+          "name": "Yiyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816515",
+          "name": "Youbin Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816516",
+          "name": "Yu Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816517",
+          "name": "Yudong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816518",
+          "name": "Yue Ling",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816519",
+          "name": "Yujia Qin",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81651a",
+          "name": "Zanbo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81651b",
+          "name": "Zhiwu He",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81651c",
+          "name": "Aoxue Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81651d",
+          "name": "Bairen Yi",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81651e",
+          "name": "Bencheng Liao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81651f",
+          "name": "Can Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816520",
+          "name": "Can Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816521",
+          "name": "Chaorui Deng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816522",
+          "name": "Chaoyi Deng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816523",
+          "name": "Cheng Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816524",
+          "name": "Cheng Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816525",
+          "name": "Chenggang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816526",
+          "name": "Chenhui Gou",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816527",
+          "name": "Chenwei Lou",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816528",
+          "name": "Chengzhi Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816529",
+          "name": "Chundian Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81652a",
+          "name": "Chunyuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81652b",
+          "name": "Deyao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81652c",
+          "name": "Donghong Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81652d",
+          "name": "Feng Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81652e",
+          "name": "Feng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81652f",
+          "name": "Gang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816530",
+          "name": "Guodong Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816531",
+          "name": "Guohong Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816532",
+          "name": "Haibin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816533",
+          "name": "Haihua Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816534",
+          "name": "Haoming Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816535",
+          "name": "Heng Ji",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816536",
+          "name": "Hongxiang Hao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816537",
+          "name": "Hui Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816538",
+          "name": "Huixia Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816539",
+          "name": "Jiahao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81653a",
+          "name": "Jialong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81653b",
+          "name": "Jianhua Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81653c",
+          "name": "Jianpeng Jiao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81653d",
+          "name": "Jiashi Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81653e",
+          "name": "Jiaze Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81653f",
+          "name": "Jianhui Duan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816540",
+          "name": "Jihao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816541",
+          "name": "Jin Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816542",
+          "name": "Jingqun Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816543",
+          "name": "Jingyu Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816544",
+          "name": "Joya Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816545",
+          "name": "Jun Long",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816546",
+          "name": "Junda Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816547",
+          "name": "Junfeng Zhan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816548",
+          "name": "Junjie Fang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816549",
+          "name": "Junting Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81654a",
+          "name": "Kai Hua",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81654b",
+          "name": "Kai Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81654c",
+          "name": "Kai Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81654d",
+          "name": "Kaiyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81654e",
+          "name": "Ke Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81654f",
+          "name": "Ke Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816550",
+          "name": "Keyu Pan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816551",
+          "name": "Kun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816552",
+          "name": "Kunchang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816553",
+          "name": "Lanxin Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816554",
+          "name": "Lei Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816555",
+          "name": "Lei Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816556",
+          "name": "Li Han",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816557",
+          "name": "Liang Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816558",
+          "name": "Liangqiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816559",
+          "name": "Lin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81655a",
+          "name": "Lin Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81655b",
+          "name": "Lin Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81655c",
+          "name": "Liying Chi",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81655d",
+          "name": "Longxiang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81655e",
+          "name": "Mengfei Du",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81655f",
+          "name": "Mingxuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816560",
+          "name": "Ningxin Pan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816561",
+          "name": "Peibin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816562",
+          "name": "Pengfei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816563",
+          "name": "Pengfei Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816564",
+          "name": "Qingqing Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816565",
+          "name": "Qingyao Shuai",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816566",
+          "name": "Qiuyan Tao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816567",
+          "name": "Renjie Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816568",
+          "name": "Renrui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816569",
+          "name": "Ru Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81656a",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81656b",
+          "name": "Rui Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81656c",
+          "name": "Rui Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81656d",
+          "name": "Shaoqiang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81656e",
+          "name": "Shihao Liang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81656f",
+          "name": "Shipeng Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816570",
+          "name": "Shu Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816571",
+          "name": "Shuaishuai Cao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816572",
+          "name": "Shuangzhi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816573",
+          "name": "Shufan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816574",
+          "name": "Shuhan Chang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816575",
+          "name": "Songhua Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816576",
+          "name": "Tenglong Ao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816577",
+          "name": "Tianhao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816578",
+          "name": "Tingting Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816579",
+          "name": "Wanjun Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81657a",
+          "name": "Wei Jia",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81657b",
+          "name": "Wei Weng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81657c",
+          "name": "Weihao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81657d",
+          "name": "Wenhao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81657e",
+          "name": "Wenjia Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81657f",
+          "name": "Wenli Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816580",
+          "name": "Wenzhi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816581",
+          "name": "Xiang Long",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816582",
+          "name": "XiangRui Yin",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816583",
+          "name": "Xiao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816584",
+          "name": "Xiaolei Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816585",
+          "name": "Xiaoying Jia",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816586",
+          "name": "Xijin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816587",
+          "name": "Xin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816588",
+          "name": "Xinchen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816589",
+          "name": "Xinyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81658a",
+          "name": "Xiongcai Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81658b",
+          "name": "Xiuli Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81658c",
+          "name": "Xuantong Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81658d",
+          "name": "Xuefeng Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81658e",
+          "name": "Xujing Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81658f",
+          "name": "Yan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816590",
+          "name": "Yawei Wen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816591",
+          "name": "Yifan Du",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816592",
+          "name": "Yihao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816593",
+          "name": "Yining Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816594",
+          "name": "Yonghui Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816595",
+          "name": "Yu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816596",
+          "name": "Yu Yue",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816597",
+          "name": "Yufeng Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816598",
+          "name": "Yufeng Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c816599",
+          "name": "Yuhang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81659a",
+          "name": "Yuhong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81659b",
+          "name": "Yun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81659c",
+          "name": "Yunhao Fang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81659d",
+          "name": "Yuntao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81659e",
+          "name": "Yurui Ren",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c81659f",
+          "name": "Yuwen Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a0",
+          "name": "Zehua Hong",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a1",
+          "name": "Zehua Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a2",
+          "name": "Zewei Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a3",
+          "name": "Zeyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a4",
+          "name": "Zhao Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a5",
+          "name": "Zhaoyue Zha",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a6",
+          "name": "Zhecheng An",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a7",
+          "name": "Zhehui Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a8",
+          "name": "Zhengzhuo Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165a9",
+          "name": "Zhipeng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165aa",
+          "name": "Zhiyong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165ab",
+          "name": "Zhuofan Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165ac",
+          "name": "Zihao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165ad",
+          "name": "Zilong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165ae",
+          "name": "Ziyu Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6822ab54a79983c00c8165af",
+          "name": "Zuquan Song",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-11T17:28:30.000Z",
+      "submittedOnDailyAt": "2025-05-13T00:47:43.019Z",
+      "title": "Seed1.5-VL Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "646b3db131968a60a01e4cf5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646b3db131968a60a01e4cf5/DhfdqUYQaD1Qa8Svw996J.jpeg",
+        "isPro": false,
+        "fullname": "Tianheng Cheng",
+        "user": "wondervictor",
+        "type": "user"
+      },
+      "summary": "We present Seed1.5-VL, a vision-language foundation model designed to advance\ngeneral-purpose multimodal understanding and reasoning. Seed1.5-VL is composed\nwith a 532M-parameter vision encoder and a Mixture-of-Experts (MoE) LLM of 20B\nactive parameters. Despite its relatively compact architecture, it delivers\nstrong performance across a wide spectrum of public VLM benchmarks and internal\nevaluation suites, achieving the state-of-the-art performance on 38 out of 60\npublic benchmarks. Moreover, in agent-centric tasks such as GUI control and\ngameplay, Seed1.5-VL outperforms leading multimodal systems, including OpenAI\nCUA and Claude 3.7. Beyond visual and video understanding, it also demonstrates\nstrong reasoning abilities, making it particularly effective for multimodal\nreasoning challenges such as visual puzzles. We believe these capabilities will\nempower broader applications across diverse tasks. In this report, we mainly\nprovide a comprehensive review of our experiences in building Seed1.5-VL across\nmodel design, data construction, and training at various stages, hoping that\nthis report can inspire further research. Seed1.5-VL is now accessible at\nhttps://www.volcengine.com/ (Volcano Engine Model ID:\ndoubao-1-5-thinking-vision-pro-250428)",
+      "upvotes": 12,
+      "discussionId": "6822ab59a79983c00c8166ff",
+      "githubRepo": "https://github.com/ByteDance-Seed/Seed1.5-VL",
+      "ai_keywords": [
+        "vision-language foundation model",
+        "multimodal understanding",
+        "reasoning",
+        "vision encoder",
+        "Mixture-of-Experts (MoE)",
+        "LLM",
+        "active parameters",
+        "public VLM benchmarks",
+        "internal evaluation suites",
+        "state-of-the-art performance",
+        "GUI control",
+        "gameplay",
+        "multimodal systems",
+        "visual puzzles",
+        "multimodal reasoning"
+      ]
+    },
+    "publishedAt": "2025-05-11T13:28:30.000Z",
+    "title": "Seed1.5-VL Technical Report",
+    "summary": "We present Seed1.5-VL, a vision-language foundation model designed to advance\ngeneral-purpose multimodal understanding and reasoning. Seed1.5-VL is composed\nwith a 532M-parameter vision encoder and a Mixture-of-Experts (MoE) LLM of 20B\nactive parameters. Despite its relatively compact architecture, it delivers\nstrong performance across a wide spectrum of public VLM benchmarks and internal\nevaluation suites, achieving the state-of-the-art performance on 38 out of 60\npublic benchmarks. Moreover, in agent-centric tasks such as GUI control and\ngameplay, Seed1.5-VL outperforms leading multimodal systems, including OpenAI\nCUA and Claude 3.7. Beyond visual and video understanding, it also demonstrates\nstrong reasoning abilities, making it particularly effective for multimodal\nreasoning challenges such as visual puzzles. We believe these capabilities will\nempower broader applications across diverse tasks. In this report, we mainly\nprovide a comprehensive review of our experiences in building Seed1.5-VL across\nmodel design, data construction, and training at various stages, hoping that\nthis report can inspire further research. Seed1.5-VL is now accessible at\nhttps://www.volcengine.com/ (Volcano Engine Model ID:\ndoubao-1-5-thinking-vision-pro-250428)",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.07062.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "646b3db131968a60a01e4cf5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646b3db131968a60a01e4cf5/DhfdqUYQaD1Qa8Svw996J.jpeg",
+      "fullname": "Tianheng Cheng",
+      "name": "wondervictor",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 30
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.07787",
+      "authors": [
+        {
+          "_id": "6822a9b0e6328d29a9c721d6",
+          "name": "Tongxu Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6822a9b0e6328d29a9c721d7",
+          "name": "Wenyu Du",
+          "hidden": false
+        },
+        {
+          "_id": "6822a9b0e6328d29a9c721d8",
+          "name": "Jiaxi Bi",
+          "hidden": false
+        },
+        {
+          "_id": "6822a9b0e6328d29a9c721d9",
+          "name": "Stephen Chung",
+          "hidden": false
+        },
+        {
+          "_id": "6822a9b0e6328d29a9c721da",
+          "name": "Zhengyang Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6822a9b0e6328d29a9c721db",
+          "name": "Hao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6822a9b0e6328d29a9c721dc",
+          "name": "Min Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6822a9b0e6328d29a9c721dd",
+          "name": "Benyou Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-12T17:39:56.000Z",
+      "submittedOnDailyAt": "2025-05-13T00:46:25.483Z",
+      "title": "Learning from Peers in Reasoning Models",
+      "submittedOnDailyBy": {
+        "_id": "6421b07e918f0fd889f0a682",
+        "avatarUrl": "/avatars/314b55c2428426c846d9449f98db4355.svg",
+        "isPro": false,
+        "fullname": "Tongxu Luo",
+        "user": "Kuroxiro",
+        "type": "user"
+      },
+      "summary": "Large Reasoning Models (LRMs) have the ability to self-correct even when they\nmake mistakes in their reasoning paths. However, our study reveals that when\nthe reasoning process starts with a short but poor beginning, it becomes\ndifficult for the model to recover. We refer to this phenomenon as the \"Prefix\nDominance Trap\". Inspired by psychological findings that peer interaction can\npromote self-correction without negatively impacting already accurate\nindividuals, we propose **Learning from Peers** (LeaP) to address this\nphenomenon. Specifically, every tokens, each reasoning path summarizes its\nintermediate reasoning and shares it with others through a routing mechanism,\nenabling paths to incorporate peer insights during inference. However, we\nobserve that smaller models sometimes fail to follow summarization and\nreflection instructions effectively. To address this, we fine-tune them into\nour **LeaP-T** model series. Experiments on AIME 2024, AIME 2025, AIMO 2025,\nand GPQA Diamond show that LeaP provides substantial improvements. For\ninstance, QwQ-32B with LeaP achieves nearly 5 absolute points higher than the\nbaseline on average, and surpasses DeepSeek-R1-671B on three math benchmarks\nwith an average gain of 3.3 points. Notably, our fine-tuned LeaP-T-7B matches\nthe performance of DeepSeek-R1-Distill-Qwen-14B on AIME 2024. In-depth analysis\nreveals LeaP's robust error correction by timely peer insights, showing strong\nerror tolerance and handling varied task difficulty. LeaP marks a milestone by\nenabling LRMs to collaborate during reasoning. Our code, datasets, and models\nare available at https://learning-from-peers.github.io/ .",
+      "upvotes": 10,
+      "discussionId": "6822a9b1e6328d29a9c7222c",
+      "projectPage": "https://learning-from-peers.github.io/",
+      "githubRepo": "https://github.com/tongxuluo/LeaP",
+      "ai_keywords": [
+        "Learning from Peers (LeaP)",
+        "LeaP-T",
+        "Prefix Dominance Trap",
+        "routing mechanism",
+        "summarization",
+        "reflection",
+        "DeepSeek-R1-671B",
+        "DeepSeek-R1-Distill-Qwen-14B",
+        "error correction",
+        "error tolerance"
+      ]
+    },
+    "publishedAt": "2025-05-12T13:39:56.000Z",
+    "title": "Learning from Peers in Reasoning Models",
+    "summary": "Large Reasoning Models (LRMs) have the ability to self-correct even when they\nmake mistakes in their reasoning paths. However, our study reveals that when\nthe reasoning process starts with a short but poor beginning, it becomes\ndifficult for the model to recover. We refer to this phenomenon as the \"Prefix\nDominance Trap\". Inspired by psychological findings that peer interaction can\npromote self-correction without negatively impacting already accurate\nindividuals, we propose **Learning from Peers** (LeaP) to address this\nphenomenon. Specifically, every tokens, each reasoning path summarizes its\nintermediate reasoning and shares it with others through a routing mechanism,\nenabling paths to incorporate peer insights during inference. However, we\nobserve that smaller models sometimes fail to follow summarization and\nreflection instructions effectively. To address this, we fine-tune them into\nour **LeaP-T** model series. Experiments on AIME 2024, AIME 2025, AIMO 2025,\nand GPQA Diamond show that LeaP provides substantial improvements. For\ninstance, QwQ-32B with LeaP achieves nearly 5 absolute points higher than the\nbaseline on average, and surpasses DeepSeek-R1-671B on three math benchmarks\nwith an average gain of 3.3 points. Notably, our fine-tuned LeaP-T-7B matches\nthe performance of DeepSeek-R1-Distill-Qwen-14B on AIME 2024. In-depth analysis\nreveals LeaP's robust error correction by timely peer insights, showing strong\nerror tolerance and handling varied task difficulty. LeaP marks a milestone by\nenabling LRMs to collaborate during reasoning. Our code, datasets, and models\nare available at https://learning-from-peers.github.io/ .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.07787.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6421b07e918f0fd889f0a682",
+      "avatarUrl": "/avatars/314b55c2428426c846d9449f98db4355.svg",
+      "fullname": "Tongxu Luo",
+      "name": "Kuroxiro",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.03733",
+      "authors": [
+        {
+          "_id": "681cb3dc815cbdd72910e310",
+          "name": "Zimu Lu",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e311",
+          "name": "Yunqiao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e312",
+          "name": "Houxing Ren",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e313",
+          "name": "Haotian Hou",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e314",
+          "name": "Han Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e315",
+          "name": "Ke Wang",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e316",
+          "name": "Weikang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e317",
+          "name": "Aojun Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e318",
+          "name": "Mingjie Zhan",
+          "hidden": false
+        },
+        {
+          "_id": "681cb3dc815cbdd72910e319",
+          "name": "Hongsheng Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-06T17:59:15.000Z",
+      "submittedOnDailyAt": "2025-05-13T00:00:09.592Z",
+      "title": "WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional\n  Websites from Scratch",
+      "submittedOnDailyBy": {
+        "_id": "64b0bfef2f2f9c345b87e673",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/7O3zCr_IyGvtz0BUdKNKi.jpeg",
+        "isPro": false,
+        "fullname": "Zimu Lu",
+        "user": "luzimu",
+        "type": "user"
+      },
+      "summary": "LLM-based agents have demonstrated great potential in generating and managing\ncode within complex codebases. In this paper, we introduce WebGen-Bench, a\nnovel benchmark designed to measure an LLM-based agent's ability to create\nmulti-file website codebases from scratch. It contains diverse instructions for\nwebsite generation, created through the combined efforts of human annotators\nand GPT-4o. These instructions span three major categories and thirteen minor\ncategories, encompassing nearly all important types of web applications. To\nassess the quality of the generated websites, we use GPT-4o to generate test\ncases targeting each functionality described in the instructions, and then\nmanually filter, adjust, and organize them to ensure accuracy, resulting in 647\ntest cases. Each test case specifies an operation to be performed on the\nwebsite and the expected result after the operation. To automate testing and\nimprove reproducibility, we employ a powerful web-navigation agent to execute\ntests on the generated websites and determine whether the observed responses\nalign with the expected results. We evaluate three high-performance code-agent\nframeworks, Bolt.diy, OpenHands, and Aider, using multiple proprietary and\nopen-source LLMs as engines. The best-performing combination, Bolt.diy powered\nby DeepSeek-R1, achieves only 27.8\\% accuracy on the test cases, highlighting\nthe challenging nature of our benchmark. Additionally, we construct\nWebGen-Instruct, a training set consisting of 6,667 website-generation\ninstructions. Training Qwen2.5-Coder-32B-Instruct on Bolt.diy trajectories\ngenerated from a subset of this training set achieves an accuracy of 38.2\\%,\nsurpassing the performance of the best proprietary model.",
+      "upvotes": 8,
+      "discussionId": "681cb3de815cbdd72910e38b",
+      "githubRepo": "https://github.com/mnluzimu/WebGen-Bench",
+      "ai_keywords": [
+        "LLM-based agents",
+        "WebGen-Bench",
+        "multi-file website codebases",
+        "GPT-4o",
+        "web applications",
+        "test cases",
+        "web-navigation agent",
+        "Bolt.diy",
+        "OpenHands",
+        "Aider",
+        "DeepSeek-R1",
+        "WebGen-Instruct",
+        "Qwen2.5-Coder-32B-Instruct"
+      ]
+    },
+    "publishedAt": "2025-05-06T13:59:15.000Z",
+    "title": "WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional\n  Websites from Scratch",
+    "summary": "LLM-based agents have demonstrated great potential in generating and managing\ncode within complex codebases. In this paper, we introduce WebGen-Bench, a\nnovel benchmark designed to measure an LLM-based agent's ability to create\nmulti-file website codebases from scratch. It contains diverse instructions for\nwebsite generation, created through the combined efforts of human annotators\nand GPT-4o. These instructions span three major categories and thirteen minor\ncategories, encompassing nearly all important types of web applications. To\nassess the quality of the generated websites, we use GPT-4o to generate test\ncases targeting each functionality described in the instructions, and then\nmanually filter, adjust, and organize them to ensure accuracy, resulting in 647\ntest cases. Each test case specifies an operation to be performed on the\nwebsite and the expected result after the operation. To automate testing and\nimprove reproducibility, we employ a powerful web-navigation agent to execute\ntests on the generated websites and determine whether the observed responses\nalign with the expected results. We evaluate three high-performance code-agent\nframeworks, Bolt.diy, OpenHands, and Aider, using multiple proprietary and\nopen-source LLMs as engines. The best-performing combination, Bolt.diy powered\nby DeepSeek-R1, achieves only 27.8\\% accuracy on the test cases, highlighting\nthe challenging nature of our benchmark. Additionally, we construct\nWebGen-Instruct, a training set consisting of 6,667 website-generation\ninstructions. Training Qwen2.5-Coder-32B-Instruct on Bolt.diy trajectories\ngenerated from a subset of this training set achieves an accuracy of 38.2\\%,\nsurpassing the performance of the best proprietary model.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.03733.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64b0bfef2f2f9c345b87e673",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/7O3zCr_IyGvtz0BUdKNKi.jpeg",
+      "fullname": "Zimu Lu",
+      "name": "luzimu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.06548",
+      "authors": [
+        {
+          "_id": "6822a0f7f90521b5d8cb4573",
+          "name": "Aniruddha Roy",
+          "hidden": false
+        },
+        {
+          "_id": "6822a0f7f90521b5d8cb4574",
+          "name": "Pretam Ray",
+          "hidden": false
+        },
+        {
+          "_id": "6822a0f7f90521b5d8cb4575",
+          "name": "Abhilash Nandy",
+          "hidden": false
+        },
+        {
+          "_id": "6822a0f7f90521b5d8cb4576",
+          "name": "Somak Aditya",
+          "hidden": false
+        },
+        {
+          "_id": "6822a0f7f90521b5d8cb4577",
+          "name": "Pawan Goyal",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-10T07:23:19.000Z",
+      "submittedOnDailyAt": "2025-05-13T00:03:01.117Z",
+      "title": "REFINE-AF: A Task-Agnostic Framework to Align Language Models via\n  Self-Generated Instructions using Reinforcement Learning from Automated\n  Feedback",
+      "submittedOnDailyBy": {
+        "_id": "5f89da6c5d083370c711f37c",
+        "avatarUrl": "/avatars/c2f17a4a636973817fd5da2ae6dbaac3.svg",
+        "isPro": false,
+        "fullname": "Abhilash Nandy",
+        "user": "abhi1nandy2",
+        "type": "user"
+      },
+      "summary": "Instruction-based Large Language Models (LLMs) have proven effective in\nnumerous few-shot or zero-shot Natural Language Processing (NLP) tasks.\nHowever, creating human-annotated instruction data is time-consuming,\nexpensive, and often limited in quantity and task diversity. Previous research\nendeavors have attempted to address this challenge by proposing frameworks\ncapable of generating instructions in a semi-automated and task-agnostic manner\ndirectly from the model itself. Many of these efforts have relied on large\nAPI-only parameter-based models such as GPT-3.5 (175B), which are expensive,\nand subject to limits on a number of queries. This paper explores the\nperformance of three open-source small LLMs such as LLaMA 2-7B, LLama 2-13B,\nand Mistral 7B, using a semi-automated framework, thereby reducing human\nintervention, effort, and cost required to generate an instruction dataset for\nfine-tuning LLMs. Furthermore, we demonstrate that incorporating a\nReinforcement Learning (RL) based training algorithm into this LLMs-based\nframework leads to further enhancements. Our evaluation of the dataset reveals\nthat these RL-based frameworks achieve a substantial improvements in 63-66% of\nthe tasks compared to previous approaches.",
+      "upvotes": 5,
+      "discussionId": "6822a0f8f90521b5d8cb45c1",
+      "ai_keywords": [
+        "small LLMs",
+        "LLaMA 2-7B",
+        "LLaMA 2-13B",
+        "Mistral 7B",
+        "semi-automated framework",
+        "Reinforcement Learning (RL) based training algorithm"
+      ]
+    },
+    "publishedAt": "2025-05-10T03:23:19.000Z",
+    "title": "REFINE-AF: A Task-Agnostic Framework to Align Language Models via\n  Self-Generated Instructions using Reinforcement Learning from Automated\n  Feedback",
+    "summary": "Instruction-based Large Language Models (LLMs) have proven effective in\nnumerous few-shot or zero-shot Natural Language Processing (NLP) tasks.\nHowever, creating human-annotated instruction data is time-consuming,\nexpensive, and often limited in quantity and task diversity. Previous research\nendeavors have attempted to address this challenge by proposing frameworks\ncapable of generating instructions in a semi-automated and task-agnostic manner\ndirectly from the model itself. Many of these efforts have relied on large\nAPI-only parameter-based models such as GPT-3.5 (175B), which are expensive,\nand subject to limits on a number of queries. This paper explores the\nperformance of three open-source small LLMs such as LLaMA 2-7B, LLama 2-13B,\nand Mistral 7B, using a semi-automated framework, thereby reducing human\nintervention, effort, and cost required to generate an instruction dataset for\nfine-tuning LLMs. Furthermore, we demonstrate that incorporating a\nReinforcement Learning (RL) based training algorithm into this LLMs-based\nframework leads to further enhancements. Our evaluation of the dataset reveals\nthat these RL-based frameworks achieve a substantial improvements in 63-66% of\nthe tasks compared to previous approaches.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.06548.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5f89da6c5d083370c711f37c",
+      "avatarUrl": "/avatars/c2f17a4a636973817fd5da2ae6dbaac3.svg",
+      "fullname": "Abhilash Nandy",
+      "name": "abhi1nandy2",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  }
+]
