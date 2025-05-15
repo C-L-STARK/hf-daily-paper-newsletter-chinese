@@ -1,0 +1,119 @@
+[
+  {
+    "paper": {
+      "id": "2505.09568",
+      "authors": [
+        {
+          "_id": "68254419181d43c25d829239",
+          "name": "Jiuhai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d82923a",
+          "name": "Zhiyang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d82923b",
+          "name": "Xichen Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d82923c",
+          "name": "Yushi Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d82923d",
+          "name": "Can Qin",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d82923e",
+          "name": "Tom Goldstein",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d82923f",
+          "name": "Lifu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d829240",
+          "name": "Tianyi Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d829241",
+          "name": "Saining Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d829242",
+          "name": "Silvio Savarese",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d829243",
+          "name": "Le Xue",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d829244",
+          "name": "Caiming Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68254419181d43c25d829245",
+          "name": "Ran Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-14T17:11:07.000Z",
+      "submittedOnDailyAt": "2025-05-15T00:07:05.564Z",
+      "title": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture,\n  Training and Dataset",
+      "submittedOnDailyBy": {
+        "_id": "6393847e3e30234ae798b7be",
+        "avatarUrl": "/avatars/daeb8c37dff4432d837a69b87c196521.svg",
+        "isPro": true,
+        "fullname": "JiuhaiChen",
+        "user": "jiuhai",
+        "type": "user"
+      },
+      "summary": "Unifying image understanding and generation has gained growing attention in\nrecent research on multimodal models. Although design choices for image\nunderstanding have been extensively studied, the optimal model architecture and\ntraining recipe for a unified framework with image generation remain\nunderexplored. Motivated by the strong potential of autoregressive and\ndiffusion models for high-quality generation and scalability, we conduct a\ncomprehensive study of their use in unified multimodal settings, with emphasis\non image representations, modeling objectives, and training strategies.\nGrounded in these investigations, we introduce a novel approach that employs a\ndiffusion transformer to generate semantically rich CLIP image features, in\ncontrast to conventional VAE-based representations. This design yields both\nhigher training efficiency and improved generative quality. Furthermore, we\ndemonstrate that a sequential pretraining strategy for unified models-first\ntraining on image understanding and subsequently on image generation-offers\npractical advantages by preserving image understanding capability while\ndeveloping strong image generation ability. Finally, we carefully curate a\nhigh-quality instruction-tuning dataset BLIP3o-60k for image generation by\nprompting GPT-4o with a diverse set of captions covering various scenes,\nobjects, human gestures, and more. Building on our innovative model design,\ntraining recipe, and datasets, we develop BLIP3-o, a suite of state-of-the-art\nunified multimodal models. BLIP3-o achieves superior performance across most of\nthe popular benchmarks spanning both image understanding and generation tasks.\nTo facilitate future research, we fully open-source our models, including code,\nmodel weights, training scripts, and pretraining and instruction tuning\ndatasets.",
+      "upvotes": 1,
+      "discussionId": "6825441a181d43c25d82927a",
+      "ai_keywords": [
+        "autoregressive models",
+        "diffusion models",
+        "semantically rich CLIP image features",
+        "diffusion transformer",
+        "VAE-based representations",
+        "sequential pretraining strategy",
+        "image understanding",
+        "image generation",
+        "instruction-tuning dataset",
+        "GPT-4o",
+        "state-of-the-art unified multimodal models"
+      ]
+    },
+    "publishedAt": "2025-05-14T13:11:07.000Z",
+    "title": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture,\n  Training and Dataset",
+    "summary": "Unifying image understanding and generation has gained growing attention in\nrecent research on multimodal models. Although design choices for image\nunderstanding have been extensively studied, the optimal model architecture and\ntraining recipe for a unified framework with image generation remain\nunderexplored. Motivated by the strong potential of autoregressive and\ndiffusion models for high-quality generation and scalability, we conduct a\ncomprehensive study of their use in unified multimodal settings, with emphasis\non image representations, modeling objectives, and training strategies.\nGrounded in these investigations, we introduce a novel approach that employs a\ndiffusion transformer to generate semantically rich CLIP image features, in\ncontrast to conventional VAE-based representations. This design yields both\nhigher training efficiency and improved generative quality. Furthermore, we\ndemonstrate that a sequential pretraining strategy for unified models-first\ntraining on image understanding and subsequently on image generation-offers\npractical advantages by preserving image understanding capability while\ndeveloping strong image generation ability. Finally, we carefully curate a\nhigh-quality instruction-tuning dataset BLIP3o-60k for image generation by\nprompting GPT-4o with a diverse set of captions covering various scenes,\nobjects, human gestures, and more. Building on our innovative model design,\ntraining recipe, and datasets, we develop BLIP3-o, a suite of state-of-the-art\nunified multimodal models. BLIP3-o achieves superior performance across most of\nthe popular benchmarks spanning both image understanding and generation tasks.\nTo facilitate future research, we fully open-source our models, including code,\nmodel weights, training scripts, and pretraining and instruction tuning\ndatasets.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.09568.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6393847e3e30234ae798b7be",
+      "avatarUrl": "/avatars/daeb8c37dff4432d837a69b87c196521.svg",
+      "fullname": "JiuhaiChen",
+      "name": "jiuhai",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 27
+    },
+    "isAuthorParticipating": false
+  }
+]
