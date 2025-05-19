@@ -1,0 +1,62 @@
+[
+  {
+    "paper": {
+      "id": "2505.11152",
+      "authors": [
+        {
+          "_id": "682a9a3f5e6f0c59f4d8a0e5",
+          "name": "Daniel Sungho Jung",
+          "hidden": false
+        },
+        {
+          "_id": "682a9a3f5e6f0c59f4d8a0e6",
+          "name": "Kyoung Mu Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-16T11:54:25.000Z",
+      "submittedOnDailyAt": "2025-05-19T01:11:35.713Z",
+      "title": "Learning Dense Hand Contact Estimation from Imbalanced Data",
+      "submittedOnDailyBy": {
+        "_id": "65601c6ee23401f82005e361",
+        "avatarUrl": "/avatars/e9fc24bd8c5afd8b07a2f42765d44a7d.svg",
+        "isPro": false,
+        "fullname": "Daniel Sungho Jung",
+        "user": "dqj5182",
+        "type": "user"
+      },
+      "summary": "Hands are essential to human interaction, and understanding contact between\nhands and the world can promote comprehensive understanding of their function.\nRecently, there have been growing number of hand interaction datasets that\ncover interaction with object, other hand, scene, and body. Despite the\nsignificance of the task and increasing high-quality data, how to effectively\nlearn dense hand contact estimation remains largely underexplored. There are\ntwo major challenges for learning dense hand contact estimation. First, there\nexists class imbalance issue from hand contact datasets where majority of\nsamples are not in contact. Second, hand contact datasets contain spatial\nimbalance issue with most of hand contact exhibited in finger tips, resulting\nin challenges for generalization towards contacts in other hand regions. To\ntackle these issues, we present a framework that learns dense HAnd COntact\nestimation (HACO) from imbalanced data. To resolve the class imbalance issue,\nwe introduce balanced contact sampling, which builds and samples from multiple\nsampling groups that fairly represent diverse contact statistics for both\ncontact and non-contact samples. Moreover, to address the spatial imbalance\nissue, we propose vertex-level class-balanced (VCB) loss, which incorporates\nspatially varying contact distribution by separately reweighting loss\ncontribution of each vertex based on its contact frequency across dataset. As a\nresult, we effectively learn to predict dense hand contact estimation with\nlarge-scale hand contact data without suffering from class and spatial\nimbalance issue. The codes will be released.",
+      "upvotes": 1,
+      "discussionId": "682a9a405e6f0c59f4d8a125",
+      "projectPage": "https://haco-release.github.io/",
+      "githubRepo": "https://github.com/dqj5182/HACO_RELEASE",
+      "ai_keywords": [
+        "dense hand contact estimation",
+        "class imbalance issue",
+        "spatial imbalance issue",
+        "finger tips",
+        "balanced contact sampling",
+        "vertex-level class-balanced (VCB) loss",
+        "contact distribution",
+        "contact frequency"
+      ]
+    },
+    "publishedAt": "2025-05-16T07:54:25.000Z",
+    "title": "Learning Dense Hand Contact Estimation from Imbalanced Data",
+    "summary": "Hands are essential to human interaction, and understanding contact between\nhands and the world can promote comprehensive understanding of their function.\nRecently, there have been growing number of hand interaction datasets that\ncover interaction with object, other hand, scene, and body. Despite the\nsignificance of the task and increasing high-quality data, how to effectively\nlearn dense hand contact estimation remains largely underexplored. There are\ntwo major challenges for learning dense hand contact estimation. First, there\nexists class imbalance issue from hand contact datasets where majority of\nsamples are not in contact. Second, hand contact datasets contain spatial\nimbalance issue with most of hand contact exhibited in finger tips, resulting\nin challenges for generalization towards contacts in other hand regions. To\ntackle these issues, we present a framework that learns dense HAnd COntact\nestimation (HACO) from imbalanced data. To resolve the class imbalance issue,\nwe introduce balanced contact sampling, which builds and samples from multiple\nsampling groups that fairly represent diverse contact statistics for both\ncontact and non-contact samples. Moreover, to address the spatial imbalance\nissue, we propose vertex-level class-balanced (VCB) loss, which incorporates\nspatially varying contact distribution by separately reweighting loss\ncontribution of each vertex based on its contact frequency across dataset. As a\nresult, we effectively learn to predict dense hand contact estimation with\nlarge-scale hand contact data without suffering from class and spatial\nimbalance issue. The codes will be released.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.11152.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65601c6ee23401f82005e361",
+      "avatarUrl": "/avatars/e9fc24bd8c5afd8b07a2f42765d44a7d.svg",
+      "fullname": "Daniel Sungho Jung",
+      "name": "dqj5182",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
