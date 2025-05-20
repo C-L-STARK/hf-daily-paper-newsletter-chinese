@@ -1,0 +1,149 @@
+[
+  {
+    "paper": {
+      "id": "2505.12081",
+      "authors": [
+        {
+          "_id": "682be7b7a1a5d85b0537de81",
+          "name": "Yuqi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "682be7b7a1a5d85b0537de82",
+          "name": "Tianyuan Qu",
+          "hidden": false
+        },
+        {
+          "_id": "682be7b7a1a5d85b0537de83",
+          "name": "Zhisheng Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "682be7b7a1a5d85b0537de84",
+          "name": "Bohao Peng",
+          "hidden": false
+        },
+        {
+          "_id": "682be7b7a1a5d85b0537de85",
+          "name": "Shu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "682be7b7a1a5d85b0537de86",
+          "name": "Bei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "682be7b7a1a5d85b0537de87",
+          "name": "Jiaya Jia",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-17T16:51:47.000Z",
+      "submittedOnDailyAt": "2025-05-20T00:54:15.427Z",
+      "title": "VisionReasoner: Unified Visual Perception and Reasoning via\n  Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "65d882d30f35ed3f52d3ae2c",
+        "avatarUrl": "/avatars/22cda67c3fcd7150320ec3551eda90f5.svg",
+        "isPro": false,
+        "fullname": "Zhisheng Zhong",
+        "user": "zszhong",
+        "type": "user"
+      },
+      "summary": "Large vision-language models exhibit inherent capabilities to handle diverse\nvisual perception tasks. In this paper, we introduce VisionReasoner, a unified\nframework capable of reasoning and solving multiple visual perception tasks\nwithin a shared model. Specifically, by designing novel multi-object cognitive\nlearning strategies and systematic task reformulation, VisionReasoner enhances\nits reasoning capabilities to analyze visual inputs, and addresses diverse\nperception tasks in a unified framework. The model generates a structured\nreasoning process before delivering the desired outputs responding to user\nqueries. To rigorously assess unified visual perception capabilities, we\nevaluate VisionReasoner on ten diverse tasks spanning three critical domains:\ndetection, segmentation, and counting. Experimental results show that\nVisionReasoner achieves superior performance as a unified model, outperforming\nQwen2.5VL by relative margins of 29.1% on COCO (detection), 22.1% on ReasonSeg\n(segmentation), and 15.3% on CountBench (counting).",
+      "upvotes": 6,
+      "discussionId": "682be7b8a1a5d85b0537dea8"
+    },
+    "publishedAt": "2025-05-17T12:51:47.000Z",
+    "title": "VisionReasoner: Unified Visual Perception and Reasoning via\n  Reinforcement Learning",
+    "summary": "Large vision-language models exhibit inherent capabilities to handle diverse\nvisual perception tasks. In this paper, we introduce VisionReasoner, a unified\nframework capable of reasoning and solving multiple visual perception tasks\nwithin a shared model. Specifically, by designing novel multi-object cognitive\nlearning strategies and systematic task reformulation, VisionReasoner enhances\nits reasoning capabilities to analyze visual inputs, and addresses diverse\nperception tasks in a unified framework. The model generates a structured\nreasoning process before delivering the desired outputs responding to user\nqueries. To rigorously assess unified visual perception capabilities, we\nevaluate VisionReasoner on ten diverse tasks spanning three critical domains:\ndetection, segmentation, and counting. Experimental results show that\nVisionReasoner achieves superior performance as a unified model, outperforming\nQwen2.5VL by relative margins of 29.1% on COCO (detection), 22.1% on ReasonSeg\n(segmentation), and 15.3% on CountBench (counting).",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.12081.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65d882d30f35ed3f52d3ae2c",
+      "avatarUrl": "/avatars/22cda67c3fcd7150320ec3551eda90f5.svg",
+      "fullname": "Zhisheng Zhong",
+      "name": "zszhong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.13417",
+      "authors": [
+        {
+          "_id": "682be3e43ba4cfbca886a521",
+          "name": "Jiajie Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "682be3e43ba4cfbca886a522",
+          "name": "Nianyi Lin",
+          "hidden": false
+        },
+        {
+          "_id": "682be3e43ba4cfbca886a523",
+          "name": "Lei Hou",
+          "hidden": false
+        },
+        {
+          "_id": "682be3e43ba4cfbca886a524",
+          "name": "Ling Feng",
+          "hidden": false
+        },
+        {
+          "_id": "682be3e43ba4cfbca886a525",
+          "name": "Juanzi Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-19T17:50:52.000Z",
+      "submittedOnDailyAt": "2025-05-20T00:38:40.060Z",
+      "title": "AdaptThink: Reasoning Models Can Learn When to Think",
+      "submittedOnDailyBy": {
+        "_id": "66cdd285c51a915bd5f2d017",
+        "avatarUrl": "/avatars/14e5794307e4672b1b51d26b31227e0f.svg",
+        "isPro": false,
+        "fullname": "Jiajie Zhang",
+        "user": "NeoZ123",
+        "type": "user"
+      },
+      "summary": "Recently, large reasoning models have achieved impressive performance on\nvarious tasks by employing human-like deep thinking. However, the lengthy\nthinking process substantially increases inference overhead, making efficiency\na critical bottleneck. In this work, we first demonstrate that NoThinking,\nwhich prompts the reasoning model to skip thinking and directly generate the\nfinal solution, is a better choice for relatively simple tasks in terms of both\nperformance and efficiency. Motivated by this, we propose AdaptThink, a novel\nRL algorithm to teach reasoning models to choose the optimal thinking mode\nadaptively based on problem difficulty. Specifically, AdaptThink features two\ncore components: (1) a constrained optimization objective that encourages the\nmodel to choose NoThinking while maintaining the overall performance; (2) an\nimportance sampling strategy that balances Thinking and NoThinking samples\nduring on-policy training, thereby enabling cold start and allowing the model\nto explore and exploit both thinking modes throughout the training process. Our\nexperiments indicate that AdaptThink significantly reduces the inference costs\nwhile further enhancing performance. Notably, on three math datasets,\nAdaptThink reduces the average response length of DeepSeek-R1-Distill-Qwen-1.5B\nby 53% and improves its accuracy by 2.4%, highlighting the promise of adaptive\nthinking-mode selection for optimizing the balance between reasoning quality\nand efficiency. Our codes and models are available at\nhttps://github.com/THU-KEG/AdaptThink.",
+      "upvotes": 3,
+      "discussionId": "682be3e53ba4cfbca886a551",
+      "ai_keywords": [
+        "NoThinking",
+        "AdaptThink",
+        "RL algorithm",
+        "constrained optimization objective",
+        "importance sampling strategy",
+        "on-policy training",
+        "cold start"
+      ]
+    },
+    "publishedAt": "2025-05-19T13:50:52.000Z",
+    "title": "AdaptThink: Reasoning Models Can Learn When to Think",
+    "summary": "Recently, large reasoning models have achieved impressive performance on\nvarious tasks by employing human-like deep thinking. However, the lengthy\nthinking process substantially increases inference overhead, making efficiency\na critical bottleneck. In this work, we first demonstrate that NoThinking,\nwhich prompts the reasoning model to skip thinking and directly generate the\nfinal solution, is a better choice for relatively simple tasks in terms of both\nperformance and efficiency. Motivated by this, we propose AdaptThink, a novel\nRL algorithm to teach reasoning models to choose the optimal thinking mode\nadaptively based on problem difficulty. Specifically, AdaptThink features two\ncore components: (1) a constrained optimization objective that encourages the\nmodel to choose NoThinking while maintaining the overall performance; (2) an\nimportance sampling strategy that balances Thinking and NoThinking samples\nduring on-policy training, thereby enabling cold start and allowing the model\nto explore and exploit both thinking modes throughout the training process. Our\nexperiments indicate that AdaptThink significantly reduces the inference costs\nwhile further enhancing performance. Notably, on three math datasets,\nAdaptThink reduces the average response length of DeepSeek-R1-Distill-Qwen-1.5B\nby 53% and improves its accuracy by 2.4%, highlighting the promise of adaptive\nthinking-mode selection for optimizing the balance between reasoning quality\nand efficiency. Our codes and models are available at\nhttps://github.com/THU-KEG/AdaptThink.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.13417.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66cdd285c51a915bd5f2d017",
+      "avatarUrl": "/avatars/14e5794307e4672b1b51d26b31227e0f.svg",
+      "fullname": "Jiajie Zhang",
+      "name": "NeoZ123",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  }
+]
