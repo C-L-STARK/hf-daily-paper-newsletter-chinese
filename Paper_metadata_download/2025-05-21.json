@@ -1,0 +1,782 @@
+[
+  {
+    "paper": {
+      "id": "2505.14683",
+      "authors": [
+        {
+          "_id": "682d2fd84540abccd3b835e8",
+          "name": "Chaorui Deng",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835e9",
+          "name": "Deyao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835ea",
+          "name": "Kunchang Li",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835eb",
+          "name": "Chenhui Gou",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835ec",
+          "name": "Feng Li",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835ed",
+          "name": "Zeyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835ee",
+          "name": "Shu Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835ef",
+          "name": "Weihao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835f0",
+          "name": "Xiaonan Nie",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835f1",
+          "name": "Ziang Song",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835f2",
+          "name": "Guang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "682d2fd84540abccd3b835f3",
+          "name": "Haoqi Fan",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/61fb81006374891646732f37/HQOfWqrOf9B97hWczL489.png"
+      ],
+      "publishedAt": "2025-05-20T17:59:30.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:38:53.960Z",
+      "title": "Emerging Properties in Unified Multimodal Pretraining",
+      "submittedOnDailyBy": {
+        "_id": "61fb81006374891646732f37",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1643872995181-61fb81006374891646732f37.jpeg",
+        "isPro": false,
+        "fullname": "Kunchang Li",
+        "user": "Andy1621",
+        "type": "user"
+      },
+      "summary": "Unifying multimodal understanding and generation has shown impressive\ncapabilities in cutting-edge proprietary systems. In this work, we introduce\nBAGEL, an open0source foundational model that natively supports multimodal\nunderstanding and generation. BAGEL is a unified, decoder0only model pretrained\non trillions of tokens curated from large0scale interleaved text, image, video,\nand web data. When scaled with such diverse multimodal interleaved data, BAGEL\nexhibits emerging capabilities in complex multimodal reasoning. As a result, it\nsignificantly outperforms open-source unified models in both multimodal\ngeneration and understanding across standard benchmarks, while exhibiting\nadvanced multimodal reasoning abilities such as free-form image manipulation,\nfuture frame prediction, 3D manipulation, and world navigation. In the hope of\nfacilitating further opportunities for multimodal research, we share the key\nfindings, pretraining details, data creation protocal, and release our code and\ncheckpoints to the community. The project page is at https://bagel-ai.org/",
+      "upvotes": 17,
+      "discussionId": "682d2fdc4540abccd3b836ee",
+      "ai_keywords": [
+        "unified, decoder-only model",
+        "pretrained",
+        "trillions of tokens",
+        "large-scale interleaved data",
+        "complex multimodal reasoning",
+        "multimodal generation",
+        "multimodal understanding",
+        "free-form image manipulation",
+        "future frame prediction",
+        "3D manipulation",
+        "world navigation"
+      ]
+    },
+    "publishedAt": "2025-05-20T13:59:30.000Z",
+    "title": "Emerging Properties in Unified Multimodal Pretraining",
+    "summary": "Unifying multimodal understanding and generation has shown impressive\ncapabilities in cutting-edge proprietary systems. In this work, we introduce\nBAGEL, an open0source foundational model that natively supports multimodal\nunderstanding and generation. BAGEL is a unified, decoder0only model pretrained\non trillions of tokens curated from large0scale interleaved text, image, video,\nand web data. When scaled with such diverse multimodal interleaved data, BAGEL\nexhibits emerging capabilities in complex multimodal reasoning. As a result, it\nsignificantly outperforms open-source unified models in both multimodal\ngeneration and understanding across standard benchmarks, while exhibiting\nadvanced multimodal reasoning abilities such as free-form image manipulation,\nfuture frame prediction, 3D manipulation, and world navigation. In the hope of\nfacilitating further opportunities for multimodal research, we share the key\nfindings, pretraining details, data creation protocal, and release our code and\ncheckpoints to the community. The project page is at https://bagel-ai.org/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/61fb81006374891646732f37/HQOfWqrOf9B97hWczL489.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.14683.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61fb81006374891646732f37",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1643872995181-61fb81006374891646732f37.jpeg",
+      "fullname": "Kunchang Li",
+      "name": "Andy1621",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 17
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.14513",
+      "authors": [
+        {
+          "_id": "682d334862cadf615f5f73e6",
+          "name": "Yen-Chen Wu",
+          "hidden": false
+        },
+        {
+          "_id": "682d334862cadf615f5f73e7",
+          "name": "Feng-Ting Liao",
+          "hidden": false
+        },
+        {
+          "_id": "682d334862cadf615f5f73e8",
+          "name": "Meng-Hsi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "682d334862cadf615f5f73e9",
+          "name": "Pei-Chen Ho",
+          "hidden": false
+        },
+        {
+          "_id": "682d334862cadf615f5f73ea",
+          "name": "Farhang Nabiei",
+          "hidden": false
+        },
+        {
+          "_id": "682d334862cadf615f5f73eb",
+          "name": "Da-shan Shiu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-20T15:41:05.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:30:57.355Z",
+      "title": "Latent Flow Transformer",
+      "submittedOnDailyBy": {
+        "_id": "643fb7332397d8eef5b844cd",
+        "avatarUrl": "/avatars/e403a19fc13e478d5929c67028230b0e.svg",
+        "isPro": false,
+        "fullname": "Feng-Ting Liao",
+        "user": "FengTing",
+        "type": "user"
+      },
+      "summary": "Transformers, the standard implementation for large language models (LLMs),\ntypically consist of tens to hundreds of discrete layers. While more layers can\nlead to better performance, this approach has been challenged as far from\nefficient, especially given the superiority of continuous layers demonstrated\nby diffusion and flow-based models for image generation. We propose the Latent\nFlow Transformer (LFT), which replaces a block of layers with a single learned\ntransport operator trained via flow matching, offering significant compression\nwhile maintaining compatibility with the original architecture. Additionally,\nwe address the limitations of existing flow-based methods in preserving\ncoupling by introducing the Flow Walking (FW) algorithm. On the Pythia-410M\nmodel, LFT trained with flow matching compresses 6 of 24 layers and outperforms\ndirectly skipping 2 layers (KL Divergence of LM logits at 0.407 vs. 0.529),\ndemonstrating the feasibility of this design. When trained with FW, LFT further\ndistills 12 layers into one while reducing the KL to 0.736 surpassing that from\nskipping 3 layers (0.932), significantly narrowing the gap between\nautoregressive and flow-based generation paradigms.",
+      "upvotes": 5,
+      "discussionId": "682d334962cadf615f5f743f",
+      "githubRepo": "https://github.com/mtkresearch/latent-flow-transformer",
+      "ai_keywords": [
+        "Transformers",
+        "large language models (LLMs)",
+        "discrete layers",
+        "continuous layers",
+        "diffusion models",
+        "flow-based models",
+        "latent Flow Transformer (LFT)",
+        "learned transport operator",
+        "flow matching",
+        "Flow Walking (FW) algorithm",
+        "Pythia-410M",
+        "KL Divergence",
+        "autoregressive",
+        "flow-based generation paradigms"
+      ]
+    },
+    "publishedAt": "2025-05-20T11:41:05.000Z",
+    "title": "Latent Flow Transformer",
+    "summary": "Transformers, the standard implementation for large language models (LLMs),\ntypically consist of tens to hundreds of discrete layers. While more layers can\nlead to better performance, this approach has been challenged as far from\nefficient, especially given the superiority of continuous layers demonstrated\nby diffusion and flow-based models for image generation. We propose the Latent\nFlow Transformer (LFT), which replaces a block of layers with a single learned\ntransport operator trained via flow matching, offering significant compression\nwhile maintaining compatibility with the original architecture. Additionally,\nwe address the limitations of existing flow-based methods in preserving\ncoupling by introducing the Flow Walking (FW) algorithm. On the Pythia-410M\nmodel, LFT trained with flow matching compresses 6 of 24 layers and outperforms\ndirectly skipping 2 layers (KL Divergence of LM logits at 0.407 vs. 0.529),\ndemonstrating the feasibility of this design. When trained with FW, LFT further\ndistills 12 layers into one while reducing the KL to 0.736 surpassing that from\nskipping 3 layers (0.932), significantly narrowing the gap between\nautoregressive and flow-based generation paradigms.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.14513.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643fb7332397d8eef5b844cd",
+      "avatarUrl": "/avatars/e403a19fc13e478d5929c67028230b0e.svg",
+      "fullname": "Feng-Ting Liao",
+      "name": "FengTing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.13866",
+      "authors": [
+        {
+          "_id": "682d2dee396c1e613e9fcbe5",
+          "name": "Jiwon Song",
+          "hidden": false
+        },
+        {
+          "_id": "682d2dee396c1e613e9fcbe6",
+          "name": "Dongwon Jo",
+          "hidden": false
+        },
+        {
+          "_id": "682d2dee396c1e613e9fcbe7",
+          "name": "Yulhwa Kim",
+          "hidden": false
+        },
+        {
+          "_id": "682d2dee396c1e613e9fcbe8",
+          "name": "Jae-Joon Kim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-20T03:21:52.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:06:25.696Z",
+      "title": "Reasoning Path Compression: Compressing Generation Trajectories for\n  Efficient LLM Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "662672eaebdfec5cfdf1d034",
+        "avatarUrl": "/avatars/61bc7add693c555e29ad3c1112215684.svg",
+        "isPro": false,
+        "fullname": "Jiwon Song",
+        "user": "jiwonsong",
+        "type": "user"
+      },
+      "summary": "Recent reasoning-focused language models achieve high accuracy by generating\nlengthy intermediate reasoning paths before producing final answers. While this\napproach is effective in solving problems that require logical thinking, long\nreasoning paths significantly increase memory usage and throughput of token\ngeneration, limiting the practical deployment of such models. We propose\nReasoning Path Compression (RPC), a training-free method that accelerates\ninference by leveraging the semantic sparsity of reasoning paths. RPC\nperiodically compresses the KV cache by retaining KV cache that receive high\nimportance score, which are computed using a selector window composed of\nrecently generated queries. Experiments show that RPC improves generation\nthroughput of QwQ-32B by up to 1.60times compared to the inference with full\nKV cache, with an accuracy drop of 1.2% on the AIME 2024 benchmark. Our\nfindings demonstrate that semantic sparsity in reasoning traces can be\neffectively exploited for compression, offering a practical path toward\nefficient deployment of reasoning LLMs. Our code is available at\nhttps://github.com/jiwonsong-dev/ReasoningPathCompression.",
+      "upvotes": 5,
+      "discussionId": "682d2def396c1e613e9fcc0b",
+      "githubRepo": "https://github.com/jiwonsong-dev/ReasoningPathCompression",
+      "ai_keywords": [
+        "Reasoning Path Compression (RPC)",
+        "KV cache",
+        "semantic sparsity",
+        "reasoning traces",
+        "QwQ-32B",
+        "AIME 2024 benchmark"
+      ]
+    },
+    "publishedAt": "2025-05-19T23:21:52.000Z",
+    "title": "Reasoning Path Compression: Compressing Generation Trajectories for\n  Efficient LLM Reasoning",
+    "summary": "Recent reasoning-focused language models achieve high accuracy by generating\nlengthy intermediate reasoning paths before producing final answers. While this\napproach is effective in solving problems that require logical thinking, long\nreasoning paths significantly increase memory usage and throughput of token\ngeneration, limiting the practical deployment of such models. We propose\nReasoning Path Compression (RPC), a training-free method that accelerates\ninference by leveraging the semantic sparsity of reasoning paths. RPC\nperiodically compresses the KV cache by retaining KV cache that receive high\nimportance score, which are computed using a selector window composed of\nrecently generated queries. Experiments show that RPC improves generation\nthroughput of QwQ-32B by up to 1.60times compared to the inference with full\nKV cache, with an accuracy drop of 1.2% on the AIME 2024 benchmark. Our\nfindings demonstrate that semantic sparsity in reasoning traces can be\neffectively exploited for compression, offering a practical path toward\nefficient deployment of reasoning LLMs. Our code is available at\nhttps://github.com/jiwonsong-dev/ReasoningPathCompression.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.13866.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "662672eaebdfec5cfdf1d034",
+      "avatarUrl": "/avatars/61bc7add693c555e29ad3c1112215684.svg",
+      "fullname": "Jiwon Song",
+      "name": "jiwonsong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.14680",
+      "authors": [
+        {
+          "_id": "682d30a37812103582f50de4",
+          "name": "Sunhao Dai",
+          "hidden": false
+        },
+        {
+          "_id": "682d30a37812103582f50de5",
+          "name": "Wenjie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "682d30a37812103582f50de6",
+          "name": "Liang Pang",
+          "hidden": false
+        },
+        {
+          "_id": "682d30a37812103582f50de7",
+          "name": "Jun Xu",
+          "hidden": false
+        },
+        {
+          "_id": "682d30a37812103582f50de8",
+          "name": "See-Kiong Ng",
+          "hidden": false
+        },
+        {
+          "_id": "682d30a37812103582f50de9",
+          "name": "Ji-Rong Wen",
+          "hidden": false
+        },
+        {
+          "_id": "682d30a37812103582f50dea",
+          "name": "Tat-Seng Chua",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-20T17:59:13.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:18:37.037Z",
+      "title": "NExT-Search: Rebuilding User Feedback Ecosystem for Generative AI Search",
+      "submittedOnDailyBy": {
+        "_id": "64db88993725f8d9a908c077",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64db88993725f8d9a908c077/JZEGk0kius6mrANlwOWw9.jpeg",
+        "isPro": false,
+        "fullname": "Sunhao Dai",
+        "user": "KID-22",
+        "type": "user"
+      },
+      "summary": "Generative AI search is reshaping information retrieval by offering\nend-to-end answers to complex queries, reducing users' reliance on manually\nbrowsing and summarizing multiple web pages. However, while this paradigm\nenhances convenience, it disrupts the feedback-driven improvement loop that has\nhistorically powered the evolution of traditional Web search. Web search can\ncontinuously improve their ranking models by collecting large-scale,\nfine-grained user feedback (e.g., clicks, dwell time) at the document level. In\ncontrast, generative AI search operates through a much longer search pipeline,\nspanning query decomposition, document retrieval, and answer generation, yet\ntypically receives only coarse-grained feedback on the final answer. This\nintroduces a feedback loop disconnect, where user feedback for the final output\ncannot be effectively mapped back to specific system components, making it\ndifficult to improve each intermediate stage and sustain the feedback loop. In\nthis paper, we envision NExT-Search, a next-generation paradigm designed to\nreintroduce fine-grained, process-level feedback into generative AI search.\nNExT-Search integrates two complementary modes: User Debug Mode, which allows\nengaged users to intervene at key stages; and Shadow User Mode, where a\npersonalized user agent simulates user preferences and provides AI-assisted\nfeedback for less interactive users. Furthermore, we envision how these\nfeedback signals can be leveraged through online adaptation, which refines\ncurrent search outputs in real-time, and offline update, which aggregates\ninteraction logs to periodically fine-tune query decomposition, retrieval, and\ngeneration models. By restoring human control over key stages of the generative\nAI search pipeline, we believe NExT-Search offers a promising direction for\nbuilding feedback-rich AI search systems that can evolve continuously alongside\nhuman feedback.",
+      "upvotes": 3,
+      "discussionId": "682d30a47812103582f50e19",
+      "ai_keywords": [
+        "generative AI search",
+        "information retrieval",
+        "end-to-end answers",
+        "complex queries",
+        "manually browsing",
+        "summarizing",
+        "traditional Web search",
+        "ranking models",
+        "fine-grained user feedback",
+        "clicks",
+        "dwell time",
+        "document level",
+        "query decomposition",
+        "document retrieval",
+        "answer generation",
+        "coarse-grained feedback",
+        "feedback loop disconnect",
+        "system components",
+        "NExT-Search",
+        "User Debug Mode",
+        "Shadow User Mode",
+        "personalized user agent",
+        "AI-assisted feedback",
+        "online adaptation",
+        "offline update",
+        "real-time refinement",
+        "interaction logs",
+        "fine-tune query decomposition",
+        "fine-tune retrieval",
+        "fine-tune generation models",
+        "feedback-rich AI search systems"
+      ]
+    },
+    "publishedAt": "2025-05-20T13:59:13.000Z",
+    "title": "NExT-Search: Rebuilding User Feedback Ecosystem for Generative AI Search",
+    "summary": "Generative AI search is reshaping information retrieval by offering\nend-to-end answers to complex queries, reducing users' reliance on manually\nbrowsing and summarizing multiple web pages. However, while this paradigm\nenhances convenience, it disrupts the feedback-driven improvement loop that has\nhistorically powered the evolution of traditional Web search. Web search can\ncontinuously improve their ranking models by collecting large-scale,\nfine-grained user feedback (e.g., clicks, dwell time) at the document level. In\ncontrast, generative AI search operates through a much longer search pipeline,\nspanning query decomposition, document retrieval, and answer generation, yet\ntypically receives only coarse-grained feedback on the final answer. This\nintroduces a feedback loop disconnect, where user feedback for the final output\ncannot be effectively mapped back to specific system components, making it\ndifficult to improve each intermediate stage and sustain the feedback loop. In\nthis paper, we envision NExT-Search, a next-generation paradigm designed to\nreintroduce fine-grained, process-level feedback into generative AI search.\nNExT-Search integrates two complementary modes: User Debug Mode, which allows\nengaged users to intervene at key stages; and Shadow User Mode, where a\npersonalized user agent simulates user preferences and provides AI-assisted\nfeedback for less interactive users. Furthermore, we envision how these\nfeedback signals can be leveraged through online adaptation, which refines\ncurrent search outputs in real-time, and offline update, which aggregates\ninteraction logs to periodically fine-tune query decomposition, retrieval, and\ngeneration models. By restoring human control over key stages of the generative\nAI search pipeline, we believe NExT-Search offers a promising direction for\nbuilding feedback-rich AI search systems that can evolve continuously alongside\nhuman feedback.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.14680.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64db88993725f8d9a908c077",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64db88993725f8d9a908c077/JZEGk0kius6mrANlwOWw9.jpeg",
+      "fullname": "Sunhao Dai",
+      "name": "KID-22",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.13380",
+      "authors": [
+        {
+          "_id": "682d3787265177367e119f04",
+          "name": "Nam V. Nguyen",
+          "hidden": false
+        },
+        {
+          "_id": "682d3787265177367e119f05",
+          "name": "Huy Nguyen",
+          "hidden": false
+        },
+        {
+          "_id": "682d3787265177367e119f06",
+          "name": "Quang Pham",
+          "hidden": false
+        },
+        {
+          "_id": "682d3787265177367e119f07",
+          "name": "Van Nguyen",
+          "hidden": false
+        },
+        {
+          "_id": "682d3787265177367e119f08",
+          "name": "Savitha Ramasamy",
+          "hidden": false
+        },
+        {
+          "_id": "682d3787265177367e119f09",
+          "name": "Nhat Ho",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-19T17:24:26.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:48:58.161Z",
+      "title": "CompeteSMoE -- Statistically Guaranteed Mixture of Experts Training via\n  Competition",
+      "submittedOnDailyBy": {
+        "_id": "64c2bea2ada7df214276913b",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c2bea2ada7df214276913b/QFCtmCn439Afsr7uqyoMT.jpeg",
+        "isPro": false,
+        "fullname": "Nguyen Van Nam",
+        "user": "DavidNguyen",
+        "type": "user"
+      },
+      "summary": "Sparse mixture of experts (SMoE) offers an appealing solution to scale up the\nmodel complexity beyond the mean of increasing the network's depth or width.\nHowever, we argue that effective SMoE training remains challenging because of\nthe suboptimal routing process where experts that perform computation do not\ndirectly contribute to the routing process. In this work, we propose\ncompetition, a novel mechanism to route tokens to experts with the highest\nneural response. Theoretically, we show that the competition mechanism enjoys a\nbetter sample efficiency than the traditional softmax routing. Furthermore, we\ndevelop CompeteSMoE, a simple yet effective algorithm to train large language\nmodels by deploying a router to learn the competition policy, thus enjoying\nstrong performances at a low training overhead. Our extensive empirical\nevaluations on both the visual instruction tuning and language pre-training\ntasks demonstrate the efficacy, robustness, and scalability of CompeteSMoE\ncompared to state-of-the-art SMoE strategies. We have made the implementation\navailable at: https://github.com/Fsoft-AIC/CompeteSMoE. This work is an\nimproved version of the previous study at arXiv:2402.02526",
+      "upvotes": 1,
+      "discussionId": "682d3788265177367e119f71",
+      "githubRepo": "https://github.com/Fsoft-AIC/CompeteSMoE",
+      "ai_keywords": [
+        "Sparse mixture of experts (SMoE)",
+        "competition mechanism",
+        "sample efficiency",
+        "softmax routing",
+        "CompeteSMoE",
+        "neural response",
+        "router",
+        "competition policy",
+        "visual instruction tuning",
+        "language pre-training"
+      ]
+    },
+    "publishedAt": "2025-05-19T13:24:26.000Z",
+    "title": "CompeteSMoE -- Statistically Guaranteed Mixture of Experts Training via\n  Competition",
+    "summary": "Sparse mixture of experts (SMoE) offers an appealing solution to scale up the\nmodel complexity beyond the mean of increasing the network's depth or width.\nHowever, we argue that effective SMoE training remains challenging because of\nthe suboptimal routing process where experts that perform computation do not\ndirectly contribute to the routing process. In this work, we propose\ncompetition, a novel mechanism to route tokens to experts with the highest\nneural response. Theoretically, we show that the competition mechanism enjoys a\nbetter sample efficiency than the traditional softmax routing. Furthermore, we\ndevelop CompeteSMoE, a simple yet effective algorithm to train large language\nmodels by deploying a router to learn the competition policy, thus enjoying\nstrong performances at a low training overhead. Our extensive empirical\nevaluations on both the visual instruction tuning and language pre-training\ntasks demonstrate the efficacy, robustness, and scalability of CompeteSMoE\ncompared to state-of-the-art SMoE strategies. We have made the implementation\navailable at: https://github.com/Fsoft-AIC/CompeteSMoE. This work is an\nimproved version of the previous study at arXiv:2402.02526",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.13380.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64c2bea2ada7df214276913b",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c2bea2ada7df214276913b/QFCtmCn439Afsr7uqyoMT.jpeg",
+      "fullname": "Nguyen Van Nam",
+      "name": "DavidNguyen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.12182",
+      "authors": [
+        {
+          "_id": "682d31dd17608739046e1169",
+          "name": "Haohang Li",
+          "hidden": false
+        },
+        {
+          "_id": "682d31dd17608739046e116a",
+          "name": "Yupeng Cao",
+          "hidden": false
+        },
+        {
+          "_id": "682d31dd17608739046e116b",
+          "name": "Yangyang Yu",
+          "hidden": false
+        },
+        {
+          "_id": "682d31dd17608739046e116c",
+          "name": "Jordan W. Suchow",
+          "hidden": false
+        },
+        {
+          "_id": "682d31dd17608739046e116d",
+          "name": "Zining Zhu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-18T00:47:21.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:23:07.653Z",
+      "title": "Truth Neurons",
+      "submittedOnDailyBy": {
+        "_id": "634cabd104491d9f7111eea3",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634cabd104491d9f7111eea3/JoqlugwfD1aGkd-wZTmP7.jpeg",
+        "isPro": false,
+        "fullname": "Haohang Li",
+        "user": "Acatsama",
+        "type": "user"
+      },
+      "summary": "Despite their remarkable success and deployment across diverse workflows,\nlanguage models sometimes produce untruthful responses. Our limited\nunderstanding of how truthfulness is mechanistically encoded within these\nmodels jeopardizes their reliability and safety. In this paper, we propose a\nmethod for identifying representations of truthfulness at the neuron level. We\nshow that language models contain truth neurons, which encode truthfulness in a\nsubject-agnostic manner. Experiments conducted across models of varying scales\nvalidate the existence of truth neurons, confirming that the encoding of\ntruthfulness at the neuron level is a property shared by many language models.\nThe distribution patterns of truth neurons over layers align with prior\nfindings on the geometry of truthfulness. Selectively suppressing the\nactivations of truth neurons found through the TruthfulQA dataset degrades\nperformance both on TruthfulQA and on other benchmarks, showing that the\ntruthfulness mechanisms are not tied to a specific dataset. Our results offer\nnovel insights into the mechanisms underlying truthfulness in language models\nand highlight potential directions toward improving their trustworthiness and\nreliability.",
+      "upvotes": 1,
+      "discussionId": "682d31de17608739046e11c9",
+      "ai_keywords": [
+        "truth neurons",
+        "neuron level",
+        "truthfulness mechanisms",
+        "TruthfulQA dataset"
+      ]
+    },
+    "publishedAt": "2025-05-17T20:47:21.000Z",
+    "title": "Truth Neurons",
+    "summary": "Despite their remarkable success and deployment across diverse workflows,\nlanguage models sometimes produce untruthful responses. Our limited\nunderstanding of how truthfulness is mechanistically encoded within these\nmodels jeopardizes their reliability and safety. In this paper, we propose a\nmethod for identifying representations of truthfulness at the neuron level. We\nshow that language models contain truth neurons, which encode truthfulness in a\nsubject-agnostic manner. Experiments conducted across models of varying scales\nvalidate the existence of truth neurons, confirming that the encoding of\ntruthfulness at the neuron level is a property shared by many language models.\nThe distribution patterns of truth neurons over layers align with prior\nfindings on the geometry of truthfulness. Selectively suppressing the\nactivations of truth neurons found through the TruthfulQA dataset degrades\nperformance both on TruthfulQA and on other benchmarks, showing that the\ntruthfulness mechanisms are not tied to a specific dataset. Our results offer\nnovel insights into the mechanisms underlying truthfulness in language models\nand highlight potential directions toward improving their trustworthiness and\nreliability.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.12182.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "634cabd104491d9f7111eea3",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634cabd104491d9f7111eea3/JoqlugwfD1aGkd-wZTmP7.jpeg",
+      "fullname": "Haohang Li",
+      "name": "Acatsama",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.14178",
+      "authors": [
+        {
+          "_id": "682d388c57686b8c44ede70b",
+          "user": {
+            "_id": "656553d89bf6665f10e3a92d",
+            "avatarUrl": "/avatars/f55b09e249c48ef3fe484afa33a182ae.svg",
+            "isPro": false,
+            "fullname": "xiang wyatt zhang",
+            "user": "Wyattz23",
+            "type": "user"
+          },
+          "name": "Xiang Zhang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-21T02:21:00.902Z",
+          "hidden": false
+        },
+        {
+          "_id": "682d388c57686b8c44ede70c",
+          "name": "Juntai Cao",
+          "hidden": false
+        },
+        {
+          "_id": "682d388c57686b8c44ede70d",
+          "name": "Jiaqi Wei",
+          "hidden": false
+        },
+        {
+          "_id": "682d388c57686b8c44ede70e",
+          "name": "Yiwei Xu",
+          "hidden": false
+        },
+        {
+          "_id": "682d388c57686b8c44ede70f",
+          "user": {
+            "_id": "6466d463060756d2854ab3e1",
+            "avatarUrl": "/avatars/4401387180c16472a6823f78aaa86d54.svg",
+            "isPro": false,
+            "fullname": "Chenyu You",
+            "user": "Charlesyooo",
+            "type": "user"
+          },
+          "name": "Chenyu You",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-21T02:30:12.849Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-20T10:32:30.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:51:16.514Z",
+      "title": "Tokenization Constraints in LLMs: A Study of Symbolic and Arithmetic\n  Reasoning Limits",
+      "submittedOnDailyBy": {
+        "_id": "656553d89bf6665f10e3a92d",
+        "avatarUrl": "/avatars/f55b09e249c48ef3fe484afa33a182ae.svg",
+        "isPro": false,
+        "fullname": "xiang wyatt zhang",
+        "user": "Wyattz23",
+        "type": "user"
+      },
+      "summary": "Tokenization is the first - and often underappreciated - layer of computation\nin language models. While Chain-of-Thought (CoT) prompting enables transformer\nmodels to approximate recurrent computation by externalizing intermediate\nsteps, we show that the success of such reasoning is fundamentally bounded by\nthe structure of tokenized inputs. This work presents a theoretical and\nempirical investigation into how tokenization schemes, particularly\nsubword-based methods like byte-pair encoding (BPE), impede symbolic\ncomputation by merging or obscuring atomic reasoning units. We introduce the\nnotion of Token Awareness to formalize how poor token granularity disrupts\nlogical alignment and prevents models from generalizing symbolic procedures.\nThrough systematic evaluation on arithmetic and symbolic tasks, we demonstrate\nthat token structure dramatically affect reasoning performance, causing failure\neven with CoT, while atomically-aligned formats unlock strong generalization,\nallowing small models (e.g., GPT-4o-mini) to outperform larger systems (e.g.,\no1) in structured reasoning. Our findings reveal that symbolic reasoning\nability in LLMs is not purely architectural, but deeply conditioned on\ntoken-level representations.",
+      "upvotes": 0,
+      "discussionId": "682d388c57686b8c44ede753",
+      "ai_keywords": [
+        "Chain-of-Thought (CoT) prompting",
+        "transformer models",
+        "recursive computation",
+        "intermediate steps",
+        "tokenization schemes",
+        "subword-based methods",
+        "byte-pair encoding (BPE)",
+        "symbolic computation",
+        "Token Awareness",
+        "atomic reasoning units",
+        "logical alignment",
+        "structured reasoning",
+        "arithmetic tasks",
+        "symbolic tasks",
+        "reasoning performance",
+        "atomically-aligned formats",
+        "structured reasoning",
+        "low-level representations",
+        "symbolic reasoning ability",
+        "LLMs",
+        "token-level representations"
+      ]
+    },
+    "publishedAt": "2025-05-20T06:32:30.000Z",
+    "title": "Tokenization Constraints in LLMs: A Study of Symbolic and Arithmetic\n  Reasoning Limits",
+    "summary": "Tokenization is the first - and often underappreciated - layer of computation\nin language models. While Chain-of-Thought (CoT) prompting enables transformer\nmodels to approximate recurrent computation by externalizing intermediate\nsteps, we show that the success of such reasoning is fundamentally bounded by\nthe structure of tokenized inputs. This work presents a theoretical and\nempirical investigation into how tokenization schemes, particularly\nsubword-based methods like byte-pair encoding (BPE), impede symbolic\ncomputation by merging or obscuring atomic reasoning units. We introduce the\nnotion of Token Awareness to formalize how poor token granularity disrupts\nlogical alignment and prevents models from generalizing symbolic procedures.\nThrough systematic evaluation on arithmetic and symbolic tasks, we demonstrate\nthat token structure dramatically affect reasoning performance, causing failure\neven with CoT, while atomically-aligned formats unlock strong generalization,\nallowing small models (e.g., GPT-4o-mini) to outperform larger systems (e.g.,\no1) in structured reasoning. Our findings reveal that symbolic reasoning\nability in LLMs is not purely architectural, but deeply conditioned on\ntoken-level representations.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.14178.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "656553d89bf6665f10e3a92d",
+      "avatarUrl": "/avatars/f55b09e249c48ef3fe484afa33a182ae.svg",
+      "fullname": "xiang wyatt zhang",
+      "name": "Wyattz23",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.12306",
+      "authors": [
+        {
+          "_id": "682d2f9f3b5f51f42185dd7d",
+          "name": "Yuwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "682d2f9f3b5f51f42185dd7e",
+          "name": "Wenhao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "682d2f9f3b5f51f42185dd7f",
+          "name": "Shangbin Feng",
+          "hidden": false
+        },
+        {
+          "_id": "682d2f9f3b5f51f42185dd80",
+          "name": "Yifan Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "682d2f9f3b5f51f42185dd81",
+          "name": "Letian Peng",
+          "hidden": false
+        },
+        {
+          "_id": "682d2f9f3b5f51f42185dd82",
+          "name": "Jayanth Srinivasa",
+          "hidden": false
+        },
+        {
+          "_id": "682d2f9f3b5f51f42185dd83",
+          "name": "Gaowen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "682d2f9f3b5f51f42185dd84",
+          "name": "Jingbo Shang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-18T08:39:05.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:13:17.201Z",
+      "title": "Bidirectional LMs are Better Knowledge Memorizers? A Benchmark for\n  Real-world Knowledge Injection",
+      "submittedOnDailyBy": {
+        "_id": "64323dd503d81fa4d26deaf9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64323dd503d81fa4d26deaf9/x3ES8VXEZJljxDWvFWaAf.png",
+        "isPro": false,
+        "fullname": "Letian Peng",
+        "user": "KomeijiForce",
+        "type": "user"
+      },
+      "summary": "Despite significant advances in large language models (LLMs), their knowledge\nmemorization capabilities remain underexplored, due to the lack of standardized\nand high-quality test ground. In this paper, we introduce a novel, real-world\nand large-scale knowledge injection benchmark that evolves continuously over\ntime without requiring human intervention. Specifically, we propose WikiDYK,\nwhich leverages recently-added and human-written facts from Wikipedia's \"Did\nYou Know...\" entries. These entries are carefully selected by expert Wikipedia\neditors based on criteria such as verifiability and clarity. Each entry is\nconverted into multiple question-answer pairs spanning diverse task formats\nfrom easy cloze prompts to complex multi-hop questions. WikiDYK contains 12,290\nfacts and 77,180 questions, which is also seamlessly extensible with future\nupdates from Wikipedia editors. Extensive experiments using continued\npre-training reveal a surprising insight: despite their prevalence in modern\nLLMs, Causal Language Models (CLMs) demonstrate significantly weaker knowledge\nmemorization capabilities compared to Bidirectional Language Models (BiLMs),\nexhibiting a 23% lower accuracy in terms of reliability. To compensate for the\nsmaller scales of current BiLMs, we introduce a modular collaborative framework\nutilizing ensembles of BiLMs as external knowledge repositories to integrate\nwith LLMs. Experiment shows that our framework further improves the reliability\naccuracy by up to 29.1%.",
+      "upvotes": 0,
+      "discussionId": "682d2fa03b5f51f42185ddb4",
+      "ai_keywords": [
+        "large language models (LLMs)",
+        "knowledge memorization capabilities",
+        "WikiDYK",
+        "\"Did You Know...\" entries",
+        "question-answer pairs",
+        "cloze prompts",
+        "multi-hop questions",
+        "continued pre-training",
+        "Causal Language Models (CLMs)",
+        "Bidirectional Language Models (BiLMs)",
+        "modular collaborative framework",
+        "ensembles of BiLMs",
+        "external knowledge repositories",
+        "reliability accuracy"
+      ]
+    },
+    "publishedAt": "2025-05-18T04:39:05.000Z",
+    "title": "Bidirectional LMs are Better Knowledge Memorizers? A Benchmark for\n  Real-world Knowledge Injection",
+    "summary": "Despite significant advances in large language models (LLMs), their knowledge\nmemorization capabilities remain underexplored, due to the lack of standardized\nand high-quality test ground. In this paper, we introduce a novel, real-world\nand large-scale knowledge injection benchmark that evolves continuously over\ntime without requiring human intervention. Specifically, we propose WikiDYK,\nwhich leverages recently-added and human-written facts from Wikipedia's \"Did\nYou Know...\" entries. These entries are carefully selected by expert Wikipedia\neditors based on criteria such as verifiability and clarity. Each entry is\nconverted into multiple question-answer pairs spanning diverse task formats\nfrom easy cloze prompts to complex multi-hop questions. WikiDYK contains 12,290\nfacts and 77,180 questions, which is also seamlessly extensible with future\nupdates from Wikipedia editors. Extensive experiments using continued\npre-training reveal a surprising insight: despite their prevalence in modern\nLLMs, Causal Language Models (CLMs) demonstrate significantly weaker knowledge\nmemorization capabilities compared to Bidirectional Language Models (BiLMs),\nexhibiting a 23% lower accuracy in terms of reliability. To compensate for the\nsmaller scales of current BiLMs, we introduce a modular collaborative framework\nutilizing ensembles of BiLMs as external knowledge repositories to integrate\nwith LLMs. Experiment shows that our framework further improves the reliability\naccuracy by up to 29.1%.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.12306.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64323dd503d81fa4d26deaf9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64323dd503d81fa4d26deaf9/x3ES8VXEZJljxDWvFWaAf.png",
+      "fullname": "Letian Peng",
+      "name": "KomeijiForce",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.10588",
+      "authors": [
+        {
+          "_id": "682d2dd917608739046ce410",
+          "name": "Manisha Mehta",
+          "hidden": false
+        },
+        {
+          "_id": "682d2dd917608739046ce411",
+          "name": "Fausto Giunchiglia",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-14T16:46:11.000Z",
+      "submittedOnDailyAt": "2025-05-21T00:06:34.563Z",
+      "title": "Understanding Gen Alpha Digital Language: Evaluation of LLM Safety\n  Systems for Content Moderation",
+      "submittedOnDailyBy": {
+        "_id": "604eb19e3050a33ebb17ef58",
+        "avatarUrl": "/avatars/23650002ba3befee83060fe978a251c8.svg",
+        "isPro": false,
+        "fullname": "Virendra Mehta",
+        "user": "Veeru",
+        "type": "user"
+      },
+      "summary": "This research offers a unique evaluation of how AI systems interpret the\ndigital language of Generation Alpha (Gen Alpha, born 2010-2024). As the first\ncohort raised alongside AI, Gen Alpha faces new forms of online risk due to\nimmersive digital engagement and a growing mismatch between their evolving\ncommunication and existing safety tools. Their distinct language, shaped by\ngaming, memes, and AI-driven trends, often conceals harmful interactions from\nboth human moderators and automated systems. We assess four leading AI models\n(GPT-4, Claude, Gemini, and Llama 3) on their ability to detect masked\nharassment and manipulation within Gen Alpha discourse. Using a dataset of 100\nrecent expressions from gaming platforms, social media, and video content, the\nstudy reveals critical comprehension failures with direct implications for\nonline safety. This work contributes: (1) a first-of-its-kind dataset capturing\nGen Alpha expressions; (2) a framework to improve AI moderation systems for\nyouth protection; (3) a multi-perspective evaluation including AI systems,\nhuman moderators, and parents, with direct input from Gen Alpha co-researchers;\nand (4) an analysis of how linguistic divergence increases youth vulnerability.\nFindings highlight the urgent need to redesign safety systems attuned to youth\ncommunication, especially given Gen Alpha reluctance to seek help when adults\nfail to understand their digital world. This study combines the insight of a\nGen Alpha researcher with systematic academic analysis to address critical\ndigital safety challenges.",
+      "upvotes": 0,
+      "discussionId": "682d2dd917608739046ce440"
+    },
+    "publishedAt": "2025-05-14T12:46:11.000Z",
+    "title": "Understanding Gen Alpha Digital Language: Evaluation of LLM Safety\n  Systems for Content Moderation",
+    "summary": "This research offers a unique evaluation of how AI systems interpret the\ndigital language of Generation Alpha (Gen Alpha, born 2010-2024). As the first\ncohort raised alongside AI, Gen Alpha faces new forms of online risk due to\nimmersive digital engagement and a growing mismatch between their evolving\ncommunication and existing safety tools. Their distinct language, shaped by\ngaming, memes, and AI-driven trends, often conceals harmful interactions from\nboth human moderators and automated systems. We assess four leading AI models\n(GPT-4, Claude, Gemini, and Llama 3) on their ability to detect masked\nharassment and manipulation within Gen Alpha discourse. Using a dataset of 100\nrecent expressions from gaming platforms, social media, and video content, the\nstudy reveals critical comprehension failures with direct implications for\nonline safety. This work contributes: (1) a first-of-its-kind dataset capturing\nGen Alpha expressions; (2) a framework to improve AI moderation systems for\nyouth protection; (3) a multi-perspective evaluation including AI systems,\nhuman moderators, and parents, with direct input from Gen Alpha co-researchers;\nand (4) an analysis of how linguistic divergence increases youth vulnerability.\nFindings highlight the urgent need to redesign safety systems attuned to youth\ncommunication, especially given Gen Alpha reluctance to seek help when adults\nfail to understand their digital world. This study combines the insight of a\nGen Alpha researcher with systematic academic analysis to address critical\ndigital safety challenges.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.10588.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "604eb19e3050a33ebb17ef58",
+      "avatarUrl": "/avatars/23650002ba3befee83060fe978a251c8.svg",
+      "fullname": "Virendra Mehta",
+      "name": "Veeru",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
