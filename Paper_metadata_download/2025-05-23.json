@@ -1,0 +1,1164 @@
+[
+  {
+    "paper": {
+      "id": "2505.16707",
+      "authors": [
+        {
+          "_id": "682fdd77e3102e71872d9b00",
+          "name": "Yongliang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b01",
+          "name": "Zonghui Li",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b02",
+          "name": "Xinting Hu",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b03",
+          "name": "Xinyu Ye",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b04",
+          "name": "Xianfang Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b05",
+          "name": "Gang Yu",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b06",
+          "name": "Wenbo Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b07",
+          "name": "Bernt Schiele",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b08",
+          "name": "Ming-Hsuan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd77e3102e71872d9b09",
+          "name": "Xu Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T14:08:59.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:59:23.402Z",
+      "title": "KRIS-Bench: Benchmarking Next-Level Intelligent Image Editing Models",
+      "submittedOnDailyBy": {
+        "_id": "66f6bc97980d52c75c300511",
+        "avatarUrl": "/avatars/f7c23c4b09701580b533212ec9b6e306.svg",
+        "isPro": false,
+        "fullname": "Yongliang",
+        "user": "Liang0223",
+        "type": "user"
+      },
+      "summary": "Recent advances in multi-modal generative models have enabled significant\nprogress in instruction-based image editing. However, while these models\nproduce visually plausible outputs, their capacity for knowledge-based\nreasoning editing tasks remains under-explored. In this paper, we introduce\nKRIS-Bench (Knowledge-based Reasoning in Image-editing Systems Benchmark), a\ndiagnostic benchmark designed to assess models through a cognitively informed\nlens. Drawing from educational theory, KRIS-Bench categorizes editing tasks\nacross three foundational knowledge types: Factual, Conceptual, and Procedural.\nBased on this taxonomy, we design 22 representative tasks spanning 7 reasoning\ndimensions and release 1,267 high-quality annotated editing instances. To\nsupport fine-grained evaluation, we propose a comprehensive protocol that\nincorporates a novel Knowledge Plausibility metric, enhanced by knowledge hints\nand calibrated through human studies. Empirical results on 10 state-of-the-art\nmodels reveal significant gaps in reasoning performance, highlighting the need\nfor knowledge-centric benchmarks to advance the development of intelligent\nimage editing systems.",
+      "upvotes": 11,
+      "discussionId": "682fdd79e3102e71872d9b79"
+    },
+    "publishedAt": "2025-05-22T10:08:59.000Z",
+    "title": "KRIS-Bench: Benchmarking Next-Level Intelligent Image Editing Models",
+    "summary": "Recent advances in multi-modal generative models have enabled significant\nprogress in instruction-based image editing. However, while these models\nproduce visually plausible outputs, their capacity for knowledge-based\nreasoning editing tasks remains under-explored. In this paper, we introduce\nKRIS-Bench (Knowledge-based Reasoning in Image-editing Systems Benchmark), a\ndiagnostic benchmark designed to assess models through a cognitively informed\nlens. Drawing from educational theory, KRIS-Bench categorizes editing tasks\nacross three foundational knowledge types: Factual, Conceptual, and Procedural.\nBased on this taxonomy, we design 22 representative tasks spanning 7 reasoning\ndimensions and release 1,267 high-quality annotated editing instances. To\nsupport fine-grained evaluation, we propose a comprehensive protocol that\nincorporates a novel Knowledge Plausibility metric, enhanced by knowledge hints\nand calibrated through human studies. Empirical results on 10 state-of-the-art\nmodels reveal significant gaps in reasoning performance, highlighting the need\nfor knowledge-centric benchmarks to advance the development of intelligent\nimage editing systems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16707.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66f6bc97980d52c75c300511",
+      "avatarUrl": "/avatars/f7c23c4b09701580b533212ec9b6e306.svg",
+      "fullname": "Yongliang",
+      "name": "Liang0223",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.16410",
+      "authors": [
+        {
+          "_id": "682fd6045e83dc325675312b",
+          "name": "Guanting Dong",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc325675312c",
+          "name": "Yifei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc325675312d",
+          "name": "Xiaoxi Li",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc325675312e",
+          "name": "Jiajie Jin",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc325675312f",
+          "name": "Hongjin Qian",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc3256753130",
+          "name": "Yutao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc3256753131",
+          "name": "Hangyu Mao",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc3256753132",
+          "name": "Guorui Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc3256753133",
+          "name": "Zhicheng Dou",
+          "hidden": false
+        },
+        {
+          "_id": "682fd6045e83dc3256753134",
+          "name": "Ji-Rong Wen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T09:00:19.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:31:41.669Z",
+      "title": "Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement\n  Learning",
+      "submittedOnDailyBy": {
+        "_id": "61cd4b833dd34ba1985e0753",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+        "isPro": false,
+        "fullname": "KABI",
+        "user": "dongguanting",
+        "type": "user"
+      },
+      "summary": "Recently, large language models (LLMs) have shown remarkable reasoning\ncapabilities via large-scale reinforcement learning (RL). However, leveraging\nthe RL algorithm to empower effective multi-tool collaborative reasoning in\nLLMs remains an open challenge. In this paper, we introduce Tool-Star, an\nRL-based framework designed to empower LLMs to autonomously invoke multiple\nexternal tools during stepwise reasoning. Tool-Star integrates six types of\ntools and incorporates systematic designs in both data synthesis and training.\nTo address the scarcity of tool-use data, we propose a general tool-integrated\nreasoning data synthesis pipeline, which combines tool-integrated prompting\nwith hint-based sampling to automatically and scalably generate tool-use\ntrajectories. A subsequent quality normalization and difficulty-aware\nclassification process filters out low-quality samples and organizes the\ndataset from easy to hard. Furthermore, we propose a two-stage training\nframework to enhance multi-tool collaborative reasoning by: (1) cold-start\nfine-tuning, which guides LLMs to explore reasoning patterns via\ntool-invocation feedback; and (2) a multi-tool self-critic RL algorithm with\nhierarchical reward design, which reinforces reward understanding and promotes\neffective tool collaboration. Experimental analyses on over 10 challenging\nreasoning benchmarks highlight the effectiveness and efficiency of Tool-Star.\nThe code is available at https://github.com/dongguanting/Tool-Star.",
+      "upvotes": 8,
+      "discussionId": "682fd6055e83dc3256753187",
+      "projectPage": "https://github.com/dongguanting/Tool-Star/",
+      "githubRepo": "https://github.com/dongguanting/Tool-Star/",
+      "ai_summary": "Tool-Star, an RL-based framework, enables LLMs to autonomously use multiple tools for stepwise reasoning, leveraging data synthesis and hierarchical reward design.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "large-scale reinforcement learning",
+        "RL",
+        "multi-tool collaborative reasoning",
+        "tool-use data",
+        "tool-integrated reasoning",
+        "tool-invocation feedback",
+        "multi-tool self-critic",
+        "hierarchical reward design"
+      ]
+    },
+    "publishedAt": "2025-05-22T05:00:19.000Z",
+    "title": "Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement\n  Learning",
+    "summary": "Recently, large language models (LLMs) have shown remarkable reasoning\ncapabilities via large-scale reinforcement learning (RL). However, leveraging\nthe RL algorithm to empower effective multi-tool collaborative reasoning in\nLLMs remains an open challenge. In this paper, we introduce Tool-Star, an\nRL-based framework designed to empower LLMs to autonomously invoke multiple\nexternal tools during stepwise reasoning. Tool-Star integrates six types of\ntools and incorporates systematic designs in both data synthesis and training.\nTo address the scarcity of tool-use data, we propose a general tool-integrated\nreasoning data synthesis pipeline, which combines tool-integrated prompting\nwith hint-based sampling to automatically and scalably generate tool-use\ntrajectories. A subsequent quality normalization and difficulty-aware\nclassification process filters out low-quality samples and organizes the\ndataset from easy to hard. Furthermore, we propose a two-stage training\nframework to enhance multi-tool collaborative reasoning by: (1) cold-start\nfine-tuning, which guides LLMs to explore reasoning patterns via\ntool-invocation feedback; and (2) a multi-tool self-critic RL algorithm with\nhierarchical reward design, which reinforces reward understanding and promotes\neffective tool collaboration. Experimental analyses on over 10 challenging\nreasoning benchmarks highlight the effectiveness and efficiency of Tool-Star.\nThe code is available at https://github.com/dongguanting/Tool-Star.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16410.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61cd4b833dd34ba1985e0753",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+      "fullname": "KABI",
+      "name": "dongguanting",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 19
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.14625",
+      "authors": [
+        {
+          "_id": "682fdb318df2d5446a1cf30b",
+          "name": "Zhangchen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "682fdb318df2d5446a1cf30c",
+          "name": "Yuetai Li",
+          "hidden": false
+        },
+        {
+          "_id": "682fdb318df2d5446a1cf30d",
+          "name": "Fengqing Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "682fdb318df2d5446a1cf30e",
+          "name": "Bhaskar Ramasubramanian",
+          "hidden": false
+        },
+        {
+          "_id": "682fdb318df2d5446a1cf30f",
+          "name": "Luyao Niu",
+          "hidden": false
+        },
+        {
+          "_id": "682fdb318df2d5446a1cf310",
+          "name": "Bill Yuchen Lin",
+          "hidden": false
+        },
+        {
+          "_id": "682fdb318df2d5446a1cf311",
+          "name": "Radha Poovendran",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-20T17:16:44.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:50:16.785Z",
+      "title": "TinyV: Reducing False Negatives in Verification Improves RL for LLM\n  Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "653df1323479e9ebbe3eb6cc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653df1323479e9ebbe3eb6cc/K_g-r1iMRNKj99LXPuYF3.jpeg",
+        "isPro": true,
+        "fullname": "Zhangchen Xu",
+        "user": "zhangchenxu",
+        "type": "user"
+      },
+      "summary": "Reinforcement Learning (RL) has become a powerful tool for enhancing the\nreasoning abilities of large language models (LLMs) by optimizing their\npolicies with reward signals. Yet, RL's success relies on the reliability of\nrewards, which are provided by verifiers. In this paper, we expose and analyze\na widespread problem--false negatives--where verifiers wrongly reject correct\nmodel outputs. Our in-depth study of the Big-Math-RL-Verified dataset reveals\nthat over 38% of model-generated responses suffer from false negatives, where\nthe verifier fails to recognize correct answers. We show, both empirically and\ntheoretically, that these false negatives severely impair RL training by\ndepriving the model of informative gradient signals and slowing convergence. To\nmitigate this, we propose tinyV, a lightweight LLM-based verifier that augments\nexisting rule-based methods, which dynamically identifies potential false\nnegatives and recovers valid responses to produce more accurate reward\nestimates. Across multiple math-reasoning benchmarks, integrating TinyV boosts\npass rates by up to 10% and accelerates convergence relative to the baseline.\nOur findings highlight the critical importance of addressing verifier false\nnegatives and offer a practical approach to improve RL-based fine-tuning of\nLLMs. Our code is available at https://github.com/uw-nsl/TinyV.",
+      "upvotes": 4,
+      "discussionId": "682fdb328df2d5446a1cf377",
+      "githubRepo": "https://github.com/uw-nsl/TinyV"
+    },
+    "publishedAt": "2025-05-20T13:16:44.000Z",
+    "title": "TinyV: Reducing False Negatives in Verification Improves RL for LLM\n  Reasoning",
+    "summary": "Reinforcement Learning (RL) has become a powerful tool for enhancing the\nreasoning abilities of large language models (LLMs) by optimizing their\npolicies with reward signals. Yet, RL's success relies on the reliability of\nrewards, which are provided by verifiers. In this paper, we expose and analyze\na widespread problem--false negatives--where verifiers wrongly reject correct\nmodel outputs. Our in-depth study of the Big-Math-RL-Verified dataset reveals\nthat over 38% of model-generated responses suffer from false negatives, where\nthe verifier fails to recognize correct answers. We show, both empirically and\ntheoretically, that these false negatives severely impair RL training by\ndepriving the model of informative gradient signals and slowing convergence. To\nmitigate this, we propose tinyV, a lightweight LLM-based verifier that augments\nexisting rule-based methods, which dynamically identifies potential false\nnegatives and recovers valid responses to produce more accurate reward\nestimates. Across multiple math-reasoning benchmarks, integrating TinyV boosts\npass rates by up to 10% and accelerates convergence relative to the baseline.\nOur findings highlight the critical importance of addressing verifier false\nnegatives and offer a practical approach to improve RL-based fine-tuning of\nLLMs. Our code is available at https://github.com/uw-nsl/TinyV.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.14625.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "653df1323479e9ebbe3eb6cc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653df1323479e9ebbe3eb6cc/K_g-r1iMRNKj99LXPuYF3.jpeg",
+      "fullname": "Zhangchen Xu",
+      "name": "zhangchenxu",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 15
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.15270",
+      "authors": [
+        {
+          "_id": "682e907a24b2bb08885b94dc",
+          "user": {
+            "_id": "682e8e6d007cd8c2f2cd0afd",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/az0B5USOPlLR3vq872JeN.png",
+            "isPro": false,
+            "fullname": "Chenyu Zheng",
+            "user": "ChenyuZheng",
+            "type": "user"
+          },
+          "name": "Chenyu Zheng",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-22T07:16:10.939Z",
+          "hidden": false
+        },
+        {
+          "_id": "682e907a24b2bb08885b94dd",
+          "name": "Xinyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "682e907a24b2bb08885b94de",
+          "name": "Rongzhen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "682e907a24b2bb08885b94df",
+          "name": "Wei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "682e907a24b2bb08885b94e0",
+          "name": "Zhi Tian",
+          "hidden": false
+        },
+        {
+          "_id": "682e907a24b2bb08885b94e1",
+          "name": "Weilin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "682e907a24b2bb08885b94e2",
+          "name": "Jun Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "682e907a24b2bb08885b94e3",
+          "name": "Chongxuan Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-21T08:49:03.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:59:19.168Z",
+      "title": "Scaling Diffusion Transformers Efficiently via μP",
+      "submittedOnDailyBy": {
+        "_id": "682e8e6d007cd8c2f2cd0afd",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/az0B5USOPlLR3vq872JeN.png",
+        "isPro": false,
+        "fullname": "Chenyu Zheng",
+        "user": "ChenyuZheng",
+        "type": "user"
+      },
+      "summary": "Diffusion Transformers have emerged as the foundation for vision generative\nmodels, but their scalability is limited by the high cost of hyperparameter\n(HP) tuning at large scales. Recently, Maximal Update Parametrization (muP)\nwas proposed for vanilla Transformers, which enables stable HP transfer from\nsmall to large language models, and dramatically reduces tuning costs. However,\nit remains unclear whether muP of vanilla Transformers extends to diffusion\nTransformers, which differ architecturally and objectively. In this work, we\ngeneralize standard muP to diffusion Transformers and validate its\neffectiveness through large-scale experiments. First, we rigorously prove that\nmuP of mainstream diffusion Transformers, including DiT, U-ViT,\nPixArt-alpha, and MMDiT, aligns with that of the vanilla Transformer,\nenabling the direct application of existing muP methodologies. Leveraging\nthis result, we systematically demonstrate that DiT-muP enjoys robust HP\ntransferability. Notably, DiT-XL-2-muP with transferred learning rate\nachieves 2.9 times faster convergence than the original DiT-XL-2. Finally, we\nvalidate the effectiveness of muP on text-to-image generation by scaling\nPixArt-alpha from 0.04B to 0.61B and MMDiT from 0.18B to 18B. In both cases,\nmodels under muP outperform their respective baselines while requiring small\ntuning cost, only 5.5% of one training run for PixArt-alpha and 3% of\nconsumption by human experts for MMDiT-18B. These results establish muP as a\nprincipled and efficient framework for scaling diffusion Transformers.",
+      "upvotes": 3,
+      "discussionId": "682e907b24b2bb08885b952c",
+      "projectPage": "https://github.com/ML-GSAI/Scaling-Diffusion-Transformers-muP",
+      "githubRepo": "https://github.com/ML-GSAI/Scaling-Diffusion-Transformers-muP",
+      "ai_summary": "Maximal Update Parametrization (μP) is extended to diffusion Transformers, demonstrating efficient hyperparameter transferability and reduced tuning costs across various models and tasks.",
+      "ai_keywords": [
+        "Diffusion Transformers",
+        "Maximal Update Parametrization",
+        "μP",
+        "hyperparameter tuning",
+        "DiT",
+        "U-ViT",
+        "PixArt-α",
+        "MMDiT",
+        "text-to-image generation",
+        "transfer learning",
+        "convergence",
+        "training run"
+      ]
+    },
+    "publishedAt": "2025-05-21T04:49:03.000Z",
+    "title": "Scaling Diffusion Transformers Efficiently via μP",
+    "summary": "Diffusion Transformers have emerged as the foundation for vision generative\nmodels, but their scalability is limited by the high cost of hyperparameter\n(HP) tuning at large scales. Recently, Maximal Update Parametrization (muP)\nwas proposed for vanilla Transformers, which enables stable HP transfer from\nsmall to large language models, and dramatically reduces tuning costs. However,\nit remains unclear whether muP of vanilla Transformers extends to diffusion\nTransformers, which differ architecturally and objectively. In this work, we\ngeneralize standard muP to diffusion Transformers and validate its\neffectiveness through large-scale experiments. First, we rigorously prove that\nmuP of mainstream diffusion Transformers, including DiT, U-ViT,\nPixArt-alpha, and MMDiT, aligns with that of the vanilla Transformer,\nenabling the direct application of existing muP methodologies. Leveraging\nthis result, we systematically demonstrate that DiT-muP enjoys robust HP\ntransferability. Notably, DiT-XL-2-muP with transferred learning rate\nachieves 2.9 times faster convergence than the original DiT-XL-2. Finally, we\nvalidate the effectiveness of muP on text-to-image generation by scaling\nPixArt-alpha from 0.04B to 0.61B and MMDiT from 0.18B to 18B. In both cases,\nmodels under muP outperform their respective baselines while requiring small\ntuning cost, only 5.5% of one training run for PixArt-alpha and 3% of\nconsumption by human experts for MMDiT-18B. These results establish muP as a\nprincipled and efficient framework for scaling diffusion Transformers.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.15270.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "682e8e6d007cd8c2f2cd0afd",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/az0B5USOPlLR3vq872JeN.png",
+      "fullname": "Chenyu Zheng",
+      "name": "ChenyuZheng",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.14810",
+      "authors": [
+        {
+          "_id": "682ea2b450671dc82688b8ad",
+          "user": {
+            "_id": "640ad17a1ee054d66a74783e",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/640ad17a1ee054d66a74783e/u0PjIkyC-9HkGzEyUQ7JN.jpeg",
+            "isPro": false,
+            "fullname": "Tingchen Fu",
+            "user": "TingchenFu",
+            "type": "user"
+          },
+          "name": "Tingchen Fu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-22T07:15:44.217Z",
+          "hidden": false
+        },
+        {
+          "_id": "682ea2b450671dc82688b8ae",
+          "name": "Jiawei Gu",
+          "hidden": false
+        },
+        {
+          "_id": "682ea2b450671dc82688b8af",
+          "user": {
+            "_id": "63f3502a520c14618925825a",
+            "avatarUrl": "/avatars/e986a2a6625e7be6890616a417f908d2.svg",
+            "isPro": false,
+            "fullname": "Yafu Li",
+            "user": "yaful",
+            "type": "user"
+          },
+          "name": "Yafu Li",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-22T04:06:13.396Z",
+          "hidden": false
+        },
+        {
+          "_id": "682ea2b450671dc82688b8b0",
+          "name": "Xiaoye Qu",
+          "hidden": false
+        },
+        {
+          "_id": "682ea2b450671dc82688b8b1",
+          "name": "Yu Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-20T18:18:01.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:49:30.349Z",
+      "title": "Scaling Reasoning, Losing Control: Evaluating Instruction Following in\n  Large Reasoning Models",
+      "submittedOnDailyBy": {
+        "_id": "64cb54da1af278541d663708",
+        "avatarUrl": "/avatars/c44507cc92bb2e83154bad31b90ce6dd.svg",
+        "isPro": false,
+        "fullname": "Xiaoye Qu",
+        "user": "Xiaoye08",
+        "type": "user"
+      },
+      "summary": "Instruction-following is essential for aligning large language models (LLMs)\nwith user intent. While recent reasoning-oriented models exhibit impressive\nperformance on complex mathematical problems, their ability to adhere to\nnatural language instructions remains underexplored. In this work, we introduce\nMathIF, a dedicated benchmark for evaluating instruction-following in\nmathematical reasoning tasks. Our empirical analysis reveals a consistent\ntension between scaling up reasoning capacity and maintaining controllability,\nas models that reason more effectively often struggle to comply with user\ndirectives. We find that models tuned on distilled long chains-of-thought or\ntrained with reasoning-oriented reinforcement learning often degrade in\ninstruction adherence, especially when generation length increases.\nFurthermore, we show that even simple interventions can partially recover\nobedience, though at the cost of reasoning performance. These findings\nhighlight a fundamental tension in current LLM training paradigms and motivate\nthe need for more instruction-aware reasoning models. We release the code and\ndata at https://github.com/TingchenFu/MathIF.",
+      "upvotes": 3,
+      "discussionId": "682ea2b550671dc82688b8e2",
+      "githubRepo": "https://github.com/TingchenFu/MathIF",
+      "ai_summary": "An empirical analysis of MathIF identifies a tension between enhancing reasoning capacity and maintaining instruction adherence in large language models.",
+      "ai_keywords": [
+        "instruction-following",
+        "reasoning-oriented models",
+        "benchmarks",
+        "chains-of-thought",
+        "reinforcement learning",
+        "instruction adherence"
+      ]
+    },
+    "publishedAt": "2025-05-20T14:18:01.000Z",
+    "title": "Scaling Reasoning, Losing Control: Evaluating Instruction Following in\n  Large Reasoning Models",
+    "summary": "Instruction-following is essential for aligning large language models (LLMs)\nwith user intent. While recent reasoning-oriented models exhibit impressive\nperformance on complex mathematical problems, their ability to adhere to\nnatural language instructions remains underexplored. In this work, we introduce\nMathIF, a dedicated benchmark for evaluating instruction-following in\nmathematical reasoning tasks. Our empirical analysis reveals a consistent\ntension between scaling up reasoning capacity and maintaining controllability,\nas models that reason more effectively often struggle to comply with user\ndirectives. We find that models tuned on distilled long chains-of-thought or\ntrained with reasoning-oriented reinforcement learning often degrade in\ninstruction adherence, especially when generation length increases.\nFurthermore, we show that even simple interventions can partially recover\nobedience, though at the cost of reasoning performance. These findings\nhighlight a fundamental tension in current LLM training paradigms and motivate\nthe need for more instruction-aware reasoning models. We release the code and\ndata at https://github.com/TingchenFu/MathIF.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.14810.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64cb54da1af278541d663708",
+      "avatarUrl": "/avatars/c44507cc92bb2e83154bad31b90ce6dd.svg",
+      "fullname": "Xiaoye Qu",
+      "name": "Xiaoye08",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.16839",
+      "authors": [
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9f7",
+          "name": "Shufan Li",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9f8",
+          "name": "Konstantinos Kallidromitis",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9f9",
+          "name": "Hritik Bansal",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9fa",
+          "name": "Akash Gokul",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9fb",
+          "name": "Yusuke Kato",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9fc",
+          "name": "Kazuki Kozuka",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9fd",
+          "name": "Jason Kuen",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9fe",
+          "name": "Zhe Lin",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5c9ff",
+          "name": "Kai-Wei Chang",
+          "hidden": false
+        },
+        {
+          "_id": "682fd5758d2fd6fc7cd5ca00",
+          "name": "Aditya Grover",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6310531914aa81e1044363ed/85JcNXnpZ6f0XvO4vZ5_s.gif"
+      ],
+      "publishedAt": "2025-05-22T16:07:12.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:30:19.437Z",
+      "title": "LaViDa: A Large Diffusion Language Model for Multimodal Understanding",
+      "submittedOnDailyBy": {
+        "_id": "6310531914aa81e1044363ed",
+        "avatarUrl": "/avatars/ae7767e591cb7199ea2f62d2db89fc7f.svg",
+        "isPro": false,
+        "fullname": "Shufan Li",
+        "user": "jacklishufan",
+        "type": "user"
+      },
+      "summary": "Modern Vision-Language Models (VLMs) can solve a wide range of tasks\nrequiring visual reasoning. In real-world scenarios, desirable properties for\nVLMs include fast inference and controllable generation (e.g., constraining\noutputs to adhere to a desired format). However, existing autoregressive (AR)\nVLMs like LLaVA struggle in these aspects. Discrete diffusion models (DMs)\noffer a promising alternative, enabling parallel decoding for faster inference\nand bidirectional context for controllable generation through text-infilling.\nWhile effective in language-only settings, DMs' potential for multimodal tasks\nis underexplored. We introduce LaViDa, a family of VLMs built on DMs. We build\nLaViDa by equipping DMs with a vision encoder and jointly fine-tune the\ncombined parts for multimodal instruction following. To address challenges\nencountered, LaViDa incorporates novel techniques such as complementary masking\nfor effective training, prefix KV cache for efficient inference, and timestep\nshifting for high-quality sampling. Experiments show that LaViDa achieves\ncompetitive or superior performance to AR VLMs on multi-modal benchmarks such\nas MMMU, while offering unique advantages of DMs, including flexible\nspeed-quality tradeoff, controllability, and bidirectional reasoning. On COCO\ncaptioning, LaViDa surpasses Open-LLaVa-Next-8B by +4.1 CIDEr with 1.92x\nspeedup. On bidirectional tasks, it achieves +59% improvement on Constrained\nPoem Completion. These results demonstrate LaViDa as a strong alternative to AR\nVLMs. Code and models will be released in the camera-ready version.",
+      "upvotes": 2,
+      "discussionId": "682fd5768d2fd6fc7cd5ca3c",
+      "projectPage": " https://homepage.jackli.org/projects/lavida/index.html",
+      "githubRepo": "https://github.com/jacklishufan/LaViDa",
+      "ai_summary": "LaViDa, a family of vision-language models built on discrete diffusion models, offers competitive performance on multimodal benchmarks with advantages in speed, controllability, and bidirectional reasoning.",
+      "ai_keywords": [
+        "autoregressive (AR) VLMs",
+        "discrete diffusion models (DMs)",
+        "parallel decoding",
+        "bidirectional context",
+        "text-infilling",
+        "multimodal instruction following",
+        "complementary masking",
+        "prefix KV cache",
+        "timestep shifting",
+        "MMMU",
+        "COCO captioning",
+        "Constrained Poem Completion",
+        "Open-LLaVa-Next-8B",
+        "CIDEr"
+      ]
+    },
+    "publishedAt": "2025-05-22T12:07:12.000Z",
+    "title": "LaViDa: A Large Diffusion Language Model for Multimodal Understanding",
+    "summary": "Modern Vision-Language Models (VLMs) can solve a wide range of tasks\nrequiring visual reasoning. In real-world scenarios, desirable properties for\nVLMs include fast inference and controllable generation (e.g., constraining\noutputs to adhere to a desired format). However, existing autoregressive (AR)\nVLMs like LLaVA struggle in these aspects. Discrete diffusion models (DMs)\noffer a promising alternative, enabling parallel decoding for faster inference\nand bidirectional context for controllable generation through text-infilling.\nWhile effective in language-only settings, DMs' potential for multimodal tasks\nis underexplored. We introduce LaViDa, a family of VLMs built on DMs. We build\nLaViDa by equipping DMs with a vision encoder and jointly fine-tune the\ncombined parts for multimodal instruction following. To address challenges\nencountered, LaViDa incorporates novel techniques such as complementary masking\nfor effective training, prefix KV cache for efficient inference, and timestep\nshifting for high-quality sampling. Experiments show that LaViDa achieves\ncompetitive or superior performance to AR VLMs on multi-modal benchmarks such\nas MMMU, while offering unique advantages of DMs, including flexible\nspeed-quality tradeoff, controllability, and bidirectional reasoning. On COCO\ncaptioning, LaViDa surpasses Open-LLaVa-Next-8B by +4.1 CIDEr with 1.92x\nspeedup. On bidirectional tasks, it achieves +59% improvement on Constrained\nPoem Completion. These results demonstrate LaViDa as a strong alternative to AR\nVLMs. Code and models will be released in the camera-ready version.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6310531914aa81e1044363ed/85JcNXnpZ6f0XvO4vZ5_s.gif"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16839.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6310531914aa81e1044363ed",
+      "avatarUrl": "/avatars/ae7767e591cb7199ea2f62d2db89fc7f.svg",
+      "fullname": "Shufan Li",
+      "name": "jacklishufan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.16181",
+      "authors": [
+        {
+          "_id": "682fddbd2b4a4d1ce53c5afb",
+          "user": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "isPro": true,
+            "fullname": "taesiri",
+            "user": "taesiri",
+            "type": "user"
+          },
+          "name": "Mohammad Reza Taesiri",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-23T02:30:27.206Z",
+          "hidden": false
+        },
+        {
+          "_id": "682fddbd2b4a4d1ce53c5afc",
+          "user": {
+            "_id": "62c5947524171688a9feb992",
+            "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+            "isPro": false,
+            "fullname": "Franck Dernoncourt",
+            "user": "Franck-Dernoncourt",
+            "type": "user"
+          },
+          "name": "Brandon Collins",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-23T02:32:10.307Z",
+          "hidden": false
+        },
+        {
+          "_id": "682fddbd2b4a4d1ce53c5afd",
+          "user": {
+            "_id": "668c8e8c142f9b26a49f03cc",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/668c8e8c142f9b26a49f03cc/YNmPCrlsi6iwSeNfh1iID.png",
+            "isPro": false,
+            "fullname": "Logan Bolton",
+            "user": "loganbolton",
+            "type": "user"
+          },
+          "name": "Logan Bolton",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-23T02:33:14.731Z",
+          "hidden": false
+        },
+        {
+          "_id": "682fddbd2b4a4d1ce53c5afe",
+          "name": "Viet Dac Lai",
+          "hidden": false
+        },
+        {
+          "_id": "682fddbd2b4a4d1ce53c5aff",
+          "name": "Franck Dernoncourt",
+          "hidden": false
+        },
+        {
+          "_id": "682fddbd2b4a4d1ce53c5b00",
+          "name": "Trung Bui",
+          "hidden": false
+        },
+        {
+          "_id": "682fddbd2b4a4d1ce53c5b01",
+          "name": "Anh Totti Nguyen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T03:35:15.000Z",
+      "submittedOnDailyAt": "2025-05-23T01:00:45.248Z",
+      "title": "Understanding Generative AI Capabilities in Everyday Image Editing Tasks",
+      "submittedOnDailyBy": {
+        "_id": "62c5947524171688a9feb992",
+        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+        "isPro": false,
+        "fullname": "Franck Dernoncourt",
+        "user": "Franck-Dernoncourt",
+        "type": "user"
+      },
+      "summary": "Generative AI (GenAI) holds significant promise for automating everyday image\nediting tasks, especially following the recent release of GPT-4o on March 25,\n2025. However, what subjects do people most often want edited? What kinds of\nediting actions do they want to perform (e.g., removing or stylizing the\nsubject)? Do people prefer precise edits with predictable outcomes or highly\ncreative ones? By understanding the characteristics of real-world requests and\nthe corresponding edits made by freelance photo-editing wizards, can we draw\nlessons for improving AI-based editors and determine which types of requests\ncan currently be handled successfully by AI editors? In this paper, we present\na unique study addressing these questions by analyzing 83k requests from the\npast 12 years (2013-2025) on the Reddit community, which collected 305k\nPSR-wizard edits. According to human ratings, approximately only 33% of\nrequests can be fulfilled by the best AI editors (including GPT-4o,\nGemini-2.0-Flash, SeedEdit). Interestingly, AI editors perform worse on\nlow-creativity requests that require precise editing than on more open-ended\ntasks. They often struggle to preserve the identity of people and animals, and\nfrequently make non-requested touch-ups. On the other side of the table, VLM\njudges (e.g., o1) perform differently from human judges and may prefer AI edits\nmore than human edits. Code and qualitative examples are available at:\nhttps://psrdataset.github.io",
+      "upvotes": 2,
+      "discussionId": "682fddc32b4a4d1ce53c5c60"
+    },
+    "publishedAt": "2025-05-21T23:35:15.000Z",
+    "title": "Understanding Generative AI Capabilities in Everyday Image Editing Tasks",
+    "summary": "Generative AI (GenAI) holds significant promise for automating everyday image\nediting tasks, especially following the recent release of GPT-4o on March 25,\n2025. However, what subjects do people most often want edited? What kinds of\nediting actions do they want to perform (e.g., removing or stylizing the\nsubject)? Do people prefer precise edits with predictable outcomes or highly\ncreative ones? By understanding the characteristics of real-world requests and\nthe corresponding edits made by freelance photo-editing wizards, can we draw\nlessons for improving AI-based editors and determine which types of requests\ncan currently be handled successfully by AI editors? In this paper, we present\na unique study addressing these questions by analyzing 83k requests from the\npast 12 years (2013-2025) on the Reddit community, which collected 305k\nPSR-wizard edits. According to human ratings, approximately only 33% of\nrequests can be fulfilled by the best AI editors (including GPT-4o,\nGemini-2.0-Flash, SeedEdit). Interestingly, AI editors perform worse on\nlow-creativity requests that require precise editing than on more open-ended\ntasks. They often struggle to preserve the identity of people and animals, and\nfrequently make non-requested touch-ups. On the other side of the table, VLM\njudges (e.g., o1) perform differently from human judges and may prefer AI edits\nmore than human edits. Code and qualitative examples are available at:\nhttps://psrdataset.github.io",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16181.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c5947524171688a9feb992",
+      "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+      "fullname": "Franck Dernoncourt",
+      "name": "Franck-Dernoncourt",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.16175",
+      "authors": [
+        {
+          "_id": "682fd91a1ffb93faf139d288",
+          "name": "Benjamin Schneider",
+          "hidden": false
+        },
+        {
+          "_id": "682fd91a1ffb93faf139d289",
+          "name": "Dongfu Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "682fd91a1ffb93faf139d28a",
+          "name": "Chao Du",
+          "hidden": false
+        },
+        {
+          "_id": "682fd91a1ffb93faf139d28b",
+          "name": "Tianyu Pang",
+          "hidden": false
+        },
+        {
+          "_id": "682fd91a1ffb93faf139d28c",
+          "name": "Wenhu Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T03:26:50.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:43:01.292Z",
+      "title": "QuickVideo: Real-Time Long Video Understanding with System Algorithm\n  Co-Design",
+      "submittedOnDailyBy": {
+        "_id": "62567c86d444a9b5a0ec51c1",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62567c86d444a9b5a0ec51c1/1vXJf2uGztPcXpkwyTBr6.png",
+        "isPro": false,
+        "fullname": "Dongfu Jiang",
+        "user": "DongfuJiang",
+        "type": "user"
+      },
+      "summary": "Long-video understanding has emerged as a crucial capability in real-world\napplications such as video surveillance, meeting summarization, educational\nlecture analysis, and sports broadcasting. However, it remains computationally\nprohibitive for VideoLLMs, primarily due to two bottlenecks: 1) sequential\nvideo decoding, the process of converting the raw bit stream to RGB frames can\ntake up to a minute for hour-long video inputs, and 2) costly prefilling of up\nto several million tokens for LLM inference, resulting in high latency and\nmemory use. To address these challenges, we propose QuickVideo, a\nsystem-algorithm co-design that substantially accelerates long-video\nunderstanding to support real-time downstream applications. It comprises three\nkey innovations: QuickDecoder, a parallelized CPU-based video decoder that\nachieves 2-3 times speedup by splitting videos into keyframe-aligned intervals\nprocessed concurrently; QuickPrefill, a memory-efficient prefilling method\nusing KV-cache pruning to support more frames with less GPU memory; and an\noverlapping scheme that overlaps CPU video decoding with GPU inference.\nTogether, these components infernece time reduce by a minute on long video\ninputs, enabling scalable, high-quality video understanding even on limited\nhardware. Experiments show that QuickVideo generalizes across durations and\nsampling rates, making long video processing feasible in practice.",
+      "upvotes": 2,
+      "discussionId": "682fd91b1ffb93faf139d2d0",
+      "ai_summary": "QuickVideo accelerates long-video understanding by combining a parallelized video decoder, memory-efficient prefilling, and overlapping video decoding with inference, enabling real-time performance.",
+      "ai_keywords": [
+        "QuickDecoder",
+        "parallelized CPU-based video decoder",
+        "keyframe-aligned intervals",
+        "QuickPrefill",
+        "memory-efficient prefilling",
+        "KV-cache pruning",
+        "overlapping scheme"
+      ]
+    },
+    "publishedAt": "2025-05-21T23:26:50.000Z",
+    "title": "QuickVideo: Real-Time Long Video Understanding with System Algorithm\n  Co-Design",
+    "summary": "Long-video understanding has emerged as a crucial capability in real-world\napplications such as video surveillance, meeting summarization, educational\nlecture analysis, and sports broadcasting. However, it remains computationally\nprohibitive for VideoLLMs, primarily due to two bottlenecks: 1) sequential\nvideo decoding, the process of converting the raw bit stream to RGB frames can\ntake up to a minute for hour-long video inputs, and 2) costly prefilling of up\nto several million tokens for LLM inference, resulting in high latency and\nmemory use. To address these challenges, we propose QuickVideo, a\nsystem-algorithm co-design that substantially accelerates long-video\nunderstanding to support real-time downstream applications. It comprises three\nkey innovations: QuickDecoder, a parallelized CPU-based video decoder that\nachieves 2-3 times speedup by splitting videos into keyframe-aligned intervals\nprocessed concurrently; QuickPrefill, a memory-efficient prefilling method\nusing KV-cache pruning to support more frames with less GPU memory; and an\noverlapping scheme that overlaps CPU video decoding with GPU inference.\nTogether, these components infernece time reduce by a minute on long video\ninputs, enabling scalable, high-quality video understanding even on limited\nhardware. Experiments show that QuickVideo generalizes across durations and\nsampling rates, making long video processing feasible in practice.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16175.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62567c86d444a9b5a0ec51c1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62567c86d444a9b5a0ec51c1/1vXJf2uGztPcXpkwyTBr6.png",
+      "fullname": "Dongfu Jiang",
+      "name": "DongfuJiang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 22
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.16151",
+      "authors": [
+        {
+          "_id": "682fd61601208348fffaa62e",
+          "name": "Hongchen Wei",
+          "hidden": false
+        },
+        {
+          "_id": "682fd61601208348fffaa62f",
+          "name": "Zhenzhong Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T02:51:12.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:34:39.659Z",
+      "title": "Training-Free Reasoning and Reflection in MLLMs",
+      "submittedOnDailyBy": {
+        "_id": "63f96e99ade090bc87bc2f81",
+        "avatarUrl": "/avatars/0dd0807e5b2cec011e97c8d6a3c61bae.svg",
+        "isPro": false,
+        "fullname": "hcwei",
+        "user": "hcwei",
+        "type": "user"
+      },
+      "summary": "Recent advances in Reasoning LLMs (e.g., DeepSeek-R1 and OpenAI-o1) have\nshowcased impressive reasoning capabilities via reinforcement learning.\nHowever, extending these capabilities to Multimodal LLMs (MLLMs) is hampered by\nthe prohibitive costs of retraining and the scarcity of high-quality,\nverifiable multimodal reasoning datasets. This paper introduces FRANK Model, a\ntraining-FRee ANd r1-liKe MLLM that imbues off-the-shelf MLLMs with reasoning\nand reflection abilities, without any gradient updates or extra supervision.\nOur key insight is to decouple perception and reasoning across MLLM decoder\nlayers. Specifically, we observe that compared to the deeper decoder layers,\nthe shallow decoder layers allocate more attention to visual tokens, while the\ndeeper decoder layers concentrate on textual semantics. This observation\nmotivates a hierarchical weight merging approach that combines a\nvisual-pretrained MLLM with a reasoning-specialized LLM. To this end, we\npropose a layer-wise, Taylor-derived closed-form fusion mechanism that\nintegrates reasoning capacity into deep decoder layers while preserving visual\ngrounding in shallow decoder layers. Extensive experiments on challenging\nmultimodal reasoning benchmarks demonstrate the effectiveness of our approach.\nOn the MMMU benchmark, our model FRANK-38B achieves an accuracy of 69.2,\noutperforming the strongest baseline InternVL2.5-38B by +5.3, and even\nsurpasses the proprietary GPT-4o model. Our project homepage is at:\nhttp://iip.whu.edu.cn/frank/index.html",
+      "upvotes": 2,
+      "discussionId": "682fd61701208348fffaa654",
+      "ai_summary": "The FRANK Model enhances multimodal LLMs with reasoning and reflection abilities without retraining, using a hierarchical weight merging approach that merges visual-pretrained and reasoning-specialized models.",
+      "ai_keywords": [
+        "Reasoning LLMs",
+        "Multimodal LLMs (MLLMs)",
+        "FRANK Model",
+        "reinforcement learning",
+        "multimodal reasoning datasets",
+        "hierarchical weight merging",
+        "Taylor-derived closed-form fusion mechanism",
+        "MMMU benchmark",
+        "visual tokens",
+        "textual semantics",
+        "deep decoder layers",
+        "shallow decoder layers"
+      ]
+    },
+    "publishedAt": "2025-05-21T22:51:12.000Z",
+    "title": "Training-Free Reasoning and Reflection in MLLMs",
+    "summary": "Recent advances in Reasoning LLMs (e.g., DeepSeek-R1 and OpenAI-o1) have\nshowcased impressive reasoning capabilities via reinforcement learning.\nHowever, extending these capabilities to Multimodal LLMs (MLLMs) is hampered by\nthe prohibitive costs of retraining and the scarcity of high-quality,\nverifiable multimodal reasoning datasets. This paper introduces FRANK Model, a\ntraining-FRee ANd r1-liKe MLLM that imbues off-the-shelf MLLMs with reasoning\nand reflection abilities, without any gradient updates or extra supervision.\nOur key insight is to decouple perception and reasoning across MLLM decoder\nlayers. Specifically, we observe that compared to the deeper decoder layers,\nthe shallow decoder layers allocate more attention to visual tokens, while the\ndeeper decoder layers concentrate on textual semantics. This observation\nmotivates a hierarchical weight merging approach that combines a\nvisual-pretrained MLLM with a reasoning-specialized LLM. To this end, we\npropose a layer-wise, Taylor-derived closed-form fusion mechanism that\nintegrates reasoning capacity into deep decoder layers while preserving visual\ngrounding in shallow decoder layers. Extensive experiments on challenging\nmultimodal reasoning benchmarks demonstrate the effectiveness of our approach.\nOn the MMMU benchmark, our model FRANK-38B achieves an accuracy of 69.2,\noutperforming the strongest baseline InternVL2.5-38B by +5.3, and even\nsurpasses the proprietary GPT-4o model. Our project homepage is at:\nhttp://iip.whu.edu.cn/frank/index.html",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16151.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63f96e99ade090bc87bc2f81",
+      "avatarUrl": "/avatars/0dd0807e5b2cec011e97c8d6a3c61bae.svg",
+      "fullname": "hcwei",
+      "name": "hcwei",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.16990",
+      "authors": [
+        {
+          "_id": "682fdd034640a9db4d1cc04d",
+          "name": "Runpeng Yu",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd034640a9db4d1cc04e",
+          "name": "Xinyin Ma",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd034640a9db4d1cc04f",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T17:55:04.000Z",
+      "submittedOnDailyAt": "2025-05-23T01:04:28.755Z",
+      "title": "Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel\n  Decoding",
+      "submittedOnDailyBy": {
+        "_id": "635364b3c41f548fe39db945",
+        "avatarUrl": "/avatars/ad1916bbfabca0b6651c8eabacc5eba8.svg",
+        "isPro": false,
+        "fullname": "Runpeng Yu",
+        "user": "rp-yu",
+        "type": "user"
+      },
+      "summary": "In this work, we propose Dimple, the first Discrete Diffusion Multimodal\nLarge Language Model (DMLLM). We observe that training with a purely discrete\ndiffusion approach leads to significant training instability, suboptimal\nperformance, and severe length bias issues. To address these challenges, we\ndesign a novel training paradigm that combines an initial autoregressive phase\nwith a subsequent diffusion phase. This approach yields the Dimple-7B model,\ntrained on the same dataset and using a similar training pipeline as\nLLaVA-NEXT. Dimple-7B ultimately surpasses LLaVA-NEXT in performance by 3.9%,\ndemonstrating that DMLLM can achieve performance comparable to that of\nautoregressive models. To improve inference efficiency, we propose a decoding\nstrategy termed confident decoding, which dynamically adjusts the number of\ntokens generated at each step, significantly reducing the number of generation\niterations. In autoregressive models, the number of forward iterations during\ngeneration equals the response length. With confident decoding, however, the\nnumber of iterations needed by Dimple is even only text{response\nlength}{3}. We also re-implement the prefilling technique in autoregressive\nmodels and demonstrate that it does not significantly impact performance on\nmost benchmark evaluations, while offering a speedup of 1.5x to 7x.\nAdditionally, we explore Dimple's capability to precisely control its response\nusing structure priors. These priors enable structured responses in a manner\ndistinct from instruction-based or chain-of-thought prompting, and allow\nfine-grained control over response format and length, which is difficult to\nachieve in autoregressive models. Overall, this work validates the feasibility\nand advantages of DMLLM and enhances its inference efficiency and\ncontrollability. Code and models are available at\nhttps://github.com/yu-rp/Dimple.",
+      "upvotes": 1,
+      "discussionId": "682fdd044640a9db4d1cc0a1"
+    },
+    "publishedAt": "2025-05-22T13:55:04.000Z",
+    "title": "Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel\n  Decoding",
+    "summary": "In this work, we propose Dimple, the first Discrete Diffusion Multimodal\nLarge Language Model (DMLLM). We observe that training with a purely discrete\ndiffusion approach leads to significant training instability, suboptimal\nperformance, and severe length bias issues. To address these challenges, we\ndesign a novel training paradigm that combines an initial autoregressive phase\nwith a subsequent diffusion phase. This approach yields the Dimple-7B model,\ntrained on the same dataset and using a similar training pipeline as\nLLaVA-NEXT. Dimple-7B ultimately surpasses LLaVA-NEXT in performance by 3.9%,\ndemonstrating that DMLLM can achieve performance comparable to that of\nautoregressive models. To improve inference efficiency, we propose a decoding\nstrategy termed confident decoding, which dynamically adjusts the number of\ntokens generated at each step, significantly reducing the number of generation\niterations. In autoregressive models, the number of forward iterations during\ngeneration equals the response length. With confident decoding, however, the\nnumber of iterations needed by Dimple is even only text{response\nlength}{3}. We also re-implement the prefilling technique in autoregressive\nmodels and demonstrate that it does not significantly impact performance on\nmost benchmark evaluations, while offering a speedup of 1.5x to 7x.\nAdditionally, we explore Dimple's capability to precisely control its response\nusing structure priors. These priors enable structured responses in a manner\ndistinct from instruction-based or chain-of-thought prompting, and allow\nfine-grained control over response format and length, which is difficult to\nachieve in autoregressive models. Overall, this work validates the feasibility\nand advantages of DMLLM and enhances its inference efficiency and\ncontrollability. Code and models are available at\nhttps://github.com/yu-rp/Dimple.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16990.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "635364b3c41f548fe39db945",
+      "avatarUrl": "/avatars/ad1916bbfabca0b6651c8eabacc5eba8.svg",
+      "fullname": "Runpeng Yu",
+      "name": "rp-yu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.16916",
+      "authors": [
+        {
+          "_id": "682fdcfc2c98b5e99660561e",
+          "name": "Xuankun Rong",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcfc2c98b5e99660561f",
+          "name": "Wenke Huang",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcfc2c98b5e996605620",
+          "name": "Jian Liang",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcfc2c98b5e996605621",
+          "name": "Jinhe Bi",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcfc2c98b5e996605622",
+          "name": "Xun Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcfc2c98b5e996605623",
+          "name": "Yiming Li",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcfc2c98b5e996605624",
+          "name": "Bo Du",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcfc2c98b5e996605625",
+          "name": "Mang Ye",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T17:11:58.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:58:25.177Z",
+      "title": "Backdoor Cleaning without External Guidance in MLLM Fine-tuning",
+      "submittedOnDailyBy": {
+        "_id": "66c014820836dd7a55be3fde",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/5OuqAxEFq1Ny2CHbl9HOm.jpeg",
+        "isPro": false,
+        "fullname": "Xuankun Rong",
+        "user": "XuankunRong",
+        "type": "user"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) are increasingly deployed in\nfine-tuning-as-a-service (FTaaS) settings, where user-submitted datasets adapt\ngeneral-purpose models to downstream tasks. This flexibility, however,\nintroduces serious security risks, as malicious fine-tuning can implant\nbackdoors into MLLMs with minimal effort. In this paper, we observe that\nbackdoor triggers systematically disrupt cross-modal processing by causing\nabnormal attention concentration on non-semantic regions--a phenomenon we term\nattention collapse. Based on this insight, we propose Believe Your Eyes (BYE),\na data filtering framework that leverages attention entropy patterns as\nself-supervised signals to identify and filter backdoor samples. BYE operates\nvia a three-stage pipeline: (1) extracting attention maps using the fine-tuned\nmodel, (2) computing entropy scores and profiling sensitive layers via bimodal\nseparation, and (3) performing unsupervised clustering to remove suspicious\nsamples. Unlike prior defenses, BYE equires no clean supervision, auxiliary\nlabels, or model modifications. Extensive experiments across various datasets,\nmodels, and diverse trigger types validate BYE's effectiveness: it achieves\nnear-zero attack success rates while maintaining clean-task performance,\noffering a robust and generalizable solution against backdoor threats in MLLMs.",
+      "upvotes": 1,
+      "discussionId": "682fdcfd2c98b5e99660567b"
+    },
+    "publishedAt": "2025-05-22T13:11:58.000Z",
+    "title": "Backdoor Cleaning without External Guidance in MLLM Fine-tuning",
+    "summary": "Multimodal Large Language Models (MLLMs) are increasingly deployed in\nfine-tuning-as-a-service (FTaaS) settings, where user-submitted datasets adapt\ngeneral-purpose models to downstream tasks. This flexibility, however,\nintroduces serious security risks, as malicious fine-tuning can implant\nbackdoors into MLLMs with minimal effort. In this paper, we observe that\nbackdoor triggers systematically disrupt cross-modal processing by causing\nabnormal attention concentration on non-semantic regions--a phenomenon we term\nattention collapse. Based on this insight, we propose Believe Your Eyes (BYE),\na data filtering framework that leverages attention entropy patterns as\nself-supervised signals to identify and filter backdoor samples. BYE operates\nvia a three-stage pipeline: (1) extracting attention maps using the fine-tuned\nmodel, (2) computing entropy scores and profiling sensitive layers via bimodal\nseparation, and (3) performing unsupervised clustering to remove suspicious\nsamples. Unlike prior defenses, BYE equires no clean supervision, auxiliary\nlabels, or model modifications. Extensive experiments across various datasets,\nmodels, and diverse trigger types validate BYE's effectiveness: it achieves\nnear-zero attack success rates while maintaining clean-task performance,\noffering a robust and generalizable solution against backdoor threats in MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16916.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66c014820836dd7a55be3fde",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/5OuqAxEFq1Ny2CHbl9HOm.jpeg",
+      "fullname": "Xuankun Rong",
+      "name": "XuankunRong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.16854",
+      "authors": [
+        {
+          "_id": "682fdd8691757629e1d58e16",
+          "name": "Jiaqi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd8691757629e1d58e17",
+          "name": "Kevin Qinghong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd8691757629e1d58e18",
+          "name": "James Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "682fdd8691757629e1d58e19",
+          "name": "Mike Zheng Shou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T16:13:29.000Z",
+      "submittedOnDailyAt": "2025-05-23T01:09:25.197Z",
+      "title": "Think or Not? Selective Reasoning via Reinforcement Learning for\n  Vision-Language Models",
+      "submittedOnDailyBy": {
+        "_id": "64440be5af034cdfd69ca3a7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+        "isPro": false,
+        "fullname": "Qinghong (Kevin) Lin",
+        "user": "KevinQHLin",
+        "type": "user"
+      },
+      "summary": "Reinforcement Learning (RL) has proven to be an effective post-training\nstrategy for enhancing reasoning in vision-language models (VLMs). Group\nRelative Policy Optimization (GRPO) is a recent prominent method that\nencourages models to generate complete reasoning traces before answering,\nleading to increased token usage and computational cost. Inspired by the\nhuman-like thinking process-where people skip reasoning for easy questions but\nthink carefully when needed-we explore how to enable VLMs to first decide when\nreasoning is necessary. To realize this, we propose TON, a two-stage training\nstrategy: (i) a supervised fine-tuning (SFT) stage with a simple yet effective\n'thought dropout' operation, where reasoning traces are randomly replaced with\nempty thoughts. This introduces a think-or-not format that serves as a cold\nstart for selective reasoning; (ii) a GRPO stage that enables the model to\nfreely explore when to think or not, while maximizing task-aware outcome\nrewards. Experimental results show that TON can reduce the completion length by\nup to 90% compared to vanilla GRPO, without sacrificing performance or even\nimproving it. Further evaluations across diverse vision-language tasks-covering\na range of reasoning difficulties under both 3B and 7B models-consistently\nreveal that the model progressively learns to bypass unnecessary reasoning\nsteps as training advances. These findings shed light on the path toward\nhuman-like reasoning patterns in reinforcement learning approaches. Our code is\navailable at https://github.com/kokolerk/TON.",
+      "upvotes": 1,
+      "discussionId": "682fdd8791757629e1d58e77"
+    },
+    "publishedAt": "2025-05-22T12:13:29.000Z",
+    "title": "Think or Not? Selective Reasoning via Reinforcement Learning for\n  Vision-Language Models",
+    "summary": "Reinforcement Learning (RL) has proven to be an effective post-training\nstrategy for enhancing reasoning in vision-language models (VLMs). Group\nRelative Policy Optimization (GRPO) is a recent prominent method that\nencourages models to generate complete reasoning traces before answering,\nleading to increased token usage and computational cost. Inspired by the\nhuman-like thinking process-where people skip reasoning for easy questions but\nthink carefully when needed-we explore how to enable VLMs to first decide when\nreasoning is necessary. To realize this, we propose TON, a two-stage training\nstrategy: (i) a supervised fine-tuning (SFT) stage with a simple yet effective\n'thought dropout' operation, where reasoning traces are randomly replaced with\nempty thoughts. This introduces a think-or-not format that serves as a cold\nstart for selective reasoning; (ii) a GRPO stage that enables the model to\nfreely explore when to think or not, while maximizing task-aware outcome\nrewards. Experimental results show that TON can reduce the completion length by\nup to 90% compared to vanilla GRPO, without sacrificing performance or even\nimproving it. Further evaluations across diverse vision-language tasks-covering\na range of reasoning difficulties under both 3B and 7B models-consistently\nreveal that the model progressively learns to bypass unnecessary reasoning\nsteps as training advances. These findings shed light on the path toward\nhuman-like reasoning patterns in reinforcement learning approaches. Our code is\navailable at https://github.com/kokolerk/TON.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16854.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64440be5af034cdfd69ca3a7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+      "fullname": "Qinghong (Kevin) Lin",
+      "name": "KevinQHLin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 31
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.11711",
+      "authors": [
+        {
+          "_id": "682e0d9540c6417d9962227a",
+          "user": {
+            "_id": "6255a34d7dacca56ac2b04e4",
+            "avatarUrl": "/avatars/3e7751aa6ef7c880e3e36ac995c9a191.svg",
+            "isPro": false,
+            "fullname": "sagnik mukherjee",
+            "user": "sagnikM",
+            "type": "user"
+          },
+          "name": "Sagnik Mukherjee",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-22T07:17:26.467Z",
+          "hidden": false
+        },
+        {
+          "_id": "682e0d9540c6417d9962227b",
+          "name": "Lifan Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "682e0d9540c6417d9962227c",
+          "name": "Dilek Hakkani-Tur",
+          "hidden": false
+        },
+        {
+          "_id": "682e0d9540c6417d9962227d",
+          "name": "Hao Peng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-16T21:42:28.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:08:00.344Z",
+      "title": "Reinforcement Learning Finetunes Small Subnetworks in Large Language\n  Models",
+      "submittedOnDailyBy": {
+        "_id": "6255a34d7dacca56ac2b04e4",
+        "avatarUrl": "/avatars/3e7751aa6ef7c880e3e36ac995c9a191.svg",
+        "isPro": false,
+        "fullname": "sagnik mukherjee",
+        "user": "sagnikM",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning (RL) yields substantial improvements in large language\nmodels (LLMs) downstream task performance and alignment with human values.\nSurprisingly, such large gains result from updating only a small subnetwork\ncomprising just 5 percent to 30 percent of the parameters, with the rest\neffectively unchanged. We refer to this phenomenon as parameter update sparsity\ninduced by RL. It is observed across all 7 widely used RL algorithms (e.g.,\nPPO, GRPO, DPO) and all 10 LLMs from different families in our experiments.\nThis sparsity is intrinsic and occurs without any explicit sparsity promoting\nregularizations or architectural constraints. Finetuning the subnetwork alone\nrecovers the test accuracy, and, remarkably, produces a model nearly identical\nto the one obtained via full finetuning. The subnetworks from different random\nseeds, training data, and even RL algorithms show substantially greater overlap\nthan expected by chance. Our analysis suggests that this sparsity is not due to\nupdating only a subset of layers, instead, nearly all parameter matrices\nreceive similarly sparse updates. Moreover, the updates to almost all parameter\nmatrices are nearly full-rank, suggesting RL updates a small subset of\nparameters that nevertheless span almost the full subspaces that the parameter\nmatrices can represent. We conjecture that the this update sparsity can be\nprimarily attributed to training on data that is near the policy distribution,\ntechniques that encourage the policy to remain close to the pretrained model,\nsuch as the KL regularization and gradient clipping, have limited impact.",
+      "upvotes": 1,
+      "discussionId": "682e0d9540c6417d996222d7",
+      "ai_summary": "Reinforcement learning improves large language models with minimal parameter updates, affecting only a small subnetwork without explicit sparsity techniques.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "large language models",
+        "parameter update sparsity",
+        "PPO",
+        "GRPO",
+        "DPO",
+        "policy distribution",
+        "KL regularization",
+        "gradient clipping"
+      ]
+    },
+    "publishedAt": "2025-05-16T17:42:28.000Z",
+    "title": "Reinforcement Learning Finetunes Small Subnetworks in Large Language\n  Models",
+    "summary": "Reinforcement learning (RL) yields substantial improvements in large language\nmodels (LLMs) downstream task performance and alignment with human values.\nSurprisingly, such large gains result from updating only a small subnetwork\ncomprising just 5 percent to 30 percent of the parameters, with the rest\neffectively unchanged. We refer to this phenomenon as parameter update sparsity\ninduced by RL. It is observed across all 7 widely used RL algorithms (e.g.,\nPPO, GRPO, DPO) and all 10 LLMs from different families in our experiments.\nThis sparsity is intrinsic and occurs without any explicit sparsity promoting\nregularizations or architectural constraints. Finetuning the subnetwork alone\nrecovers the test accuracy, and, remarkably, produces a model nearly identical\nto the one obtained via full finetuning. The subnetworks from different random\nseeds, training data, and even RL algorithms show substantially greater overlap\nthan expected by chance. Our analysis suggests that this sparsity is not due to\nupdating only a subset of layers, instead, nearly all parameter matrices\nreceive similarly sparse updates. Moreover, the updates to almost all parameter\nmatrices are nearly full-rank, suggesting RL updates a small subset of\nparameters that nevertheless span almost the full subspaces that the parameter\nmatrices can represent. We conjecture that the this update sparsity can be\nprimarily attributed to training on data that is near the policy distribution,\ntechniques that encourage the policy to remain close to the pretrained model,\nsuch as the KL regularization and gradient clipping, have limited impact.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.11711.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6255a34d7dacca56ac2b04e4",
+      "avatarUrl": "/avatars/3e7751aa6ef7c880e3e36ac995c9a191.svg",
+      "fullname": "sagnik mukherjee",
+      "name": "sagnikM",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.15963",
+      "authors": [
+        {
+          "_id": "682fdcc0087ea62f1663df96",
+          "name": "Shujun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcc0087ea62f1663df97",
+          "name": "Siyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcc0087ea62f1663df98",
+          "name": "Zejun Li",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcc0087ea62f1663df99",
+          "name": "Jianxiang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcc0087ea62f1663df9a",
+          "name": "Cheng Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "682fdcc0087ea62f1663df9b",
+          "name": "Zhongyu Wei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-21T19:26:09.000Z",
+      "submittedOnDailyAt": "2025-05-23T00:57:50.603Z",
+      "title": "OViP: Online Vision-Language Preference Learning",
+      "submittedOnDailyBy": {
+        "_id": "6534c1fc23e0af0e0d7e8ebd",
+        "avatarUrl": "/avatars/d65237d82aea19328f28b5a0cc93b271.svg",
+        "isPro": false,
+        "fullname": "Siyuan Wang",
+        "user": "Siyuanyuan",
+        "type": "user"
+      },
+      "summary": "Large vision-language models (LVLMs) remain vulnerable to hallucination,\noften generating content misaligned with visual inputs. While recent approaches\nadvance multi-modal Direct Preference Optimization (DPO) to mitigate\nhallucination, they typically rely on predefined or randomly edited negative\nsamples that fail to reflect actual model errors, limiting training efficacy.\nIn this work, we propose an Online Vision-language Preference Learning (OViP)\nframework that dynamically constructs contrastive training data based on the\nmodel's own hallucinated outputs. By identifying semantic differences between\nsampled response pairs and synthesizing negative images using a diffusion\nmodel, OViP generates more relevant supervision signals in real time. This\nfailure-driven training enables adaptive alignment of both textual and visual\npreferences. Moreover, we refine existing evaluation protocols to better\ncapture the trade-off between hallucination suppression and expressiveness.\nExperiments on hallucination and general benchmarks demonstrate that OViP\neffectively reduces hallucinations while preserving core multi-modal\ncapabilities.",
+      "upvotes": 0,
+      "discussionId": "682fdcc1087ea62f1663dfcb"
+    },
+    "publishedAt": "2025-05-21T15:26:09.000Z",
+    "title": "OViP: Online Vision-Language Preference Learning",
+    "summary": "Large vision-language models (LVLMs) remain vulnerable to hallucination,\noften generating content misaligned with visual inputs. While recent approaches\nadvance multi-modal Direct Preference Optimization (DPO) to mitigate\nhallucination, they typically rely on predefined or randomly edited negative\nsamples that fail to reflect actual model errors, limiting training efficacy.\nIn this work, we propose an Online Vision-language Preference Learning (OViP)\nframework that dynamically constructs contrastive training data based on the\nmodel's own hallucinated outputs. By identifying semantic differences between\nsampled response pairs and synthesizing negative images using a diffusion\nmodel, OViP generates more relevant supervision signals in real time. This\nfailure-driven training enables adaptive alignment of both textual and visual\npreferences. Moreover, we refine existing evaluation protocols to better\ncapture the trade-off between hallucination suppression and expressiveness.\nExperiments on hallucination and general benchmarks demonstrate that OViP\neffectively reduces hallucinations while preserving core multi-modal\ncapabilities.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.15963.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6534c1fc23e0af0e0d7e8ebd",
+      "avatarUrl": "/avatars/d65237d82aea19328f28b5a0cc93b271.svg",
+      "fullname": "Siyuan Wang",
+      "name": "Siyuanyuan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
