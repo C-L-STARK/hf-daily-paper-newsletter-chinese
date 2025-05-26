@@ -1,0 +1,1165 @@
+[
+  {
+    "paper": {
+      "id": "2505.17612",
+      "authors": [
+        {
+          "_id": "6833c9fd298a7bec9c3da3b0",
+          "name": "Minki Kang",
+          "hidden": false
+        },
+        {
+          "_id": "6833c9fd298a7bec9c3da3b1",
+          "name": "Jongwon Jeong",
+          "hidden": false
+        },
+        {
+          "_id": "6833c9fd298a7bec9c3da3b2",
+          "name": "Seanie Lee",
+          "hidden": false
+        },
+        {
+          "_id": "6833c9fd298a7bec9c3da3b3",
+          "name": "Jaewoong Cho",
+          "hidden": false
+        },
+        {
+          "_id": "6833c9fd298a7bec9c3da3b4",
+          "name": "Sung Ju Hwang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T08:20:15.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:25:44.604Z",
+      "title": "Distilling LLM Agent into Small Models with Retrieval and Code Tools",
+      "submittedOnDailyBy": {
+        "_id": "64b74920fe6a108d03fed767",
+        "avatarUrl": "/avatars/a2c05b809c36fa5fab8e1a43b3e67051.svg",
+        "isPro": false,
+        "fullname": "Minki Kang",
+        "user": "Nardien",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) excel at complex reasoning tasks but remain\ncomputationally expensive, limiting their practical deployment. To address\nthis, recent works have focused on distilling reasoning capabilities into\nsmaller language models (sLMs) using chain-of-thought (CoT) traces from teacher\nLLMs. However, this approach struggles in scenarios requiring rare factual\nknowledge or precise computation, where sLMs often hallucinate due to limited\ncapability. In this work, we propose Agent Distillation, a framework for\ntransferring not only reasoning capability but full task-solving behavior from\nLLM-based agents into sLMs with retrieval and code tools. We improve agent\ndistillation along two complementary axes: (1) we introduce a prompting method\ncalled first-thought prefix to enhance the quality of teacher-generated\ntrajectories; and (2) we propose a self-consistent action generation for\nimproving test-time robustness of small agents. We evaluate our method on eight\nreasoning tasks across factual and mathematical domains, covering both\nin-domain and out-of-domain generalization. Our results show that sLMs as small\nas 0.5B, 1.5B, 3B parameters can achieve performance competitive with next-tier\nlarger 1.5B, 3B, 7B models fine-tuned using CoT distillation, demonstrating the\npotential of agent distillation for building practical, tool-using small\nagents. Our code is available at https://github.com/Nardien/agent-distillation.",
+      "upvotes": 15,
+      "discussionId": "6833ca00298a7bec9c3da444",
+      "githubRepo": "https://github.com/Nardien/agent-distillation",
+      "ai_summary": "Agent Distillation transfers reasoning and task-solving capabilities from large language models to smaller models using enhanced prompts and self-consistent actions, matching performance of larger models on various reasoning tasks.",
+      "ai_keywords": [
+        "Large language models",
+        "small language models",
+        "chain-of-thought",
+        "agent distillation",
+        "prompting method",
+        "first-thought prefix",
+        "self-consistent action generation",
+        "task-solving behavior",
+        "retrieval tools",
+        "code tools",
+        "in-domain generalization",
+        "out-of-domain generalization"
+      ]
+    },
+    "publishedAt": "2025-05-23T04:20:15.000Z",
+    "title": "Distilling LLM Agent into Small Models with Retrieval and Code Tools",
+    "summary": "Large language models (LLMs) excel at complex reasoning tasks but remain\ncomputationally expensive, limiting their practical deployment. To address\nthis, recent works have focused on distilling reasoning capabilities into\nsmaller language models (sLMs) using chain-of-thought (CoT) traces from teacher\nLLMs. However, this approach struggles in scenarios requiring rare factual\nknowledge or precise computation, where sLMs often hallucinate due to limited\ncapability. In this work, we propose Agent Distillation, a framework for\ntransferring not only reasoning capability but full task-solving behavior from\nLLM-based agents into sLMs with retrieval and code tools. We improve agent\ndistillation along two complementary axes: (1) we introduce a prompting method\ncalled first-thought prefix to enhance the quality of teacher-generated\ntrajectories; and (2) we propose a self-consistent action generation for\nimproving test-time robustness of small agents. We evaluate our method on eight\nreasoning tasks across factual and mathematical domains, covering both\nin-domain and out-of-domain generalization. Our results show that sLMs as small\nas 0.5B, 1.5B, 3B parameters can achieve performance competitive with next-tier\nlarger 1.5B, 3B, 7B models fine-tuned using CoT distillation, demonstrating the\npotential of agent distillation for building practical, tool-using small\nagents. Our code is available at https://github.com/Nardien/agent-distillation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17612.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64b74920fe6a108d03fed767",
+      "avatarUrl": "/avatars/a2c05b809c36fa5fab8e1a43b3e67051.svg",
+      "fullname": "Minki Kang",
+      "name": "Nardien",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.17558",
+      "authors": [
+        {
+          "_id": "6833c8af029c4a53a60a5dfa",
+          "user": {
+            "_id": "648749094dea003c6dae810f",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648749094dea003c6dae810f/gHUHSBt1zrt8wjO1YwTNu.jpeg",
+            "isPro": false,
+            "fullname": "Shrey Pandit",
+            "user": "SP2001",
+            "type": "user"
+          },
+          "name": "Shrey Pandit",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-26T01:49:36.568Z",
+          "hidden": false
+        },
+        {
+          "_id": "6833c8af029c4a53a60a5dfb",
+          "name": "Ashwin Vinod",
+          "hidden": false
+        },
+        {
+          "_id": "6833c8af029c4a53a60a5dfc",
+          "name": "Liu Leqi",
+          "hidden": false
+        },
+        {
+          "_id": "6833c8af029c4a53a60a5dfd",
+          "name": "Ying Ding",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T07:05:09.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:20:35.511Z",
+      "title": "Teaching with Lies: Curriculum DPO on Synthetic Negatives for\n  Hallucination Detection",
+      "submittedOnDailyBy": {
+        "_id": "648749094dea003c6dae810f",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648749094dea003c6dae810f/gHUHSBt1zrt8wjO1YwTNu.jpeg",
+        "isPro": false,
+        "fullname": "Shrey Pandit",
+        "user": "SP2001",
+        "type": "user"
+      },
+      "summary": "Aligning large language models (LLMs) to accurately detect hallucinations\nremains a significant challenge due to the sophisticated nature of hallucinated\ntext. Recognizing that hallucinated samples typically exhibit higher deceptive\nquality than traditional negative samples, we use these carefully engineered\nhallucinations as negative examples in the DPO alignment procedure. Our method\nincorporates a curriculum learning strategy, gradually transitioning the\ntraining from easier samples, identified based on the greatest reduction in\nprobability scores from independent fact checking models, to progressively\nharder ones. This structured difficulty scaling ensures stable and incremental\nlearning. Experimental evaluation demonstrates that our HaluCheck models,\ntrained with curriculum DPO approach and high quality negative samples,\nsignificantly improves model performance across various metrics, achieving\nimprovements of upto 24% on difficult benchmarks like MedHallu and HaluEval.\nAdditionally, HaluCheck models demonstrate robustness in zero-shot settings,\nsignificantly outperforming larger state-of-the-art models across various\nbenchmarks.",
+      "upvotes": 7,
+      "discussionId": "6833c8b0029c4a53a60a5e3a",
+      "ai_summary": "The use of carefully crafted hallucinations in a curriculum learning approach within the DPO alignment procedure significantly enhances LLMs' hallucination detection abilities.",
+      "ai_keywords": [
+        "LLMs",
+        "hallucinations",
+        "DPO alignment procedure",
+        "curriculum learning",
+        "probability scores",
+        "fact checking models",
+        "HaluCheck models",
+        "MedHallu",
+        "HaluEval",
+        "zero-shot settings"
+      ]
+    },
+    "publishedAt": "2025-05-23T03:05:09.000Z",
+    "title": "Teaching with Lies: Curriculum DPO on Synthetic Negatives for\n  Hallucination Detection",
+    "summary": "Aligning large language models (LLMs) to accurately detect hallucinations\nremains a significant challenge due to the sophisticated nature of hallucinated\ntext. Recognizing that hallucinated samples typically exhibit higher deceptive\nquality than traditional negative samples, we use these carefully engineered\nhallucinations as negative examples in the DPO alignment procedure. Our method\nincorporates a curriculum learning strategy, gradually transitioning the\ntraining from easier samples, identified based on the greatest reduction in\nprobability scores from independent fact checking models, to progressively\nharder ones. This structured difficulty scaling ensures stable and incremental\nlearning. Experimental evaluation demonstrates that our HaluCheck models,\ntrained with curriculum DPO approach and high quality negative samples,\nsignificantly improves model performance across various metrics, achieving\nimprovements of upto 24% on difficult benchmarks like MedHallu and HaluEval.\nAdditionally, HaluCheck models demonstrate robustness in zero-shot settings,\nsignificantly outperforming larger state-of-the-art models across various\nbenchmarks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17558.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "648749094dea003c6dae810f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648749094dea003c6dae810f/gHUHSBt1zrt8wjO1YwTNu.jpeg",
+      "fullname": "Shrey Pandit",
+      "name": "SP2001",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.16483",
+      "authors": [
+        {
+          "_id": "6833cb27e10e89e250a6d9ae",
+          "name": "Shuzheng Si",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9af",
+          "name": "Haozhe Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b0",
+          "name": "Cheng Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b1",
+          "name": "Yuzhuo Bai",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b2",
+          "name": "Zhitong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b3",
+          "name": "Bofei Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b4",
+          "name": "Kangyang Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b5",
+          "name": "Wenhao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b6",
+          "name": "Yufei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b7",
+          "name": "Gang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b8",
+          "name": "Fanchao Qi",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9b9",
+          "name": "Minjia Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9ba",
+          "name": "Baobao Chang",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb27e10e89e250a6d9bb",
+          "name": "Maosong Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T10:10:07.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:36:30.930Z",
+      "title": "Teaching Large Language Models to Maintain Contextual Faithfulness via\n  Synthetic Tasks and Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "637c99bbfe115289cfedfb44",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637c99bbfe115289cfedfb44/344NN9KKF_XXTlVYaGaMW.png",
+        "isPro": false,
+        "fullname": "ssz",
+        "user": "ssz1111",
+        "type": "user"
+      },
+      "summary": "Teaching large language models (LLMs) to be faithful in the provided context\nis crucial for building reliable information-seeking systems. Therefore, we\npropose a systematic framework, CANOE, to improve the faithfulness of LLMs in\nboth short-form and long-form generation tasks without human annotations.\nSpecifically, we first synthesize short-form question-answering (QA) data with\nfour diverse tasks to construct high-quality and easily verifiable training\ndata without human annotation. Also, we propose Dual-GRPO, a rule-based\nreinforcement learning method that includes three tailored rule-based rewards\nderived from synthesized short-form QA data, while simultaneously optimizing\nboth short-form and long-form response generation. Notably, Dual-GRPO\neliminates the need to manually label preference data to train reward models\nand avoids over-optimizing short-form generation when relying only on the\nsynthesized short-form QA data. Experimental results show that CANOE greatly\nimproves the faithfulness of LLMs across 11 different downstream tasks, even\noutperforming the most advanced LLMs, e.g., GPT-4o and OpenAI o1.",
+      "upvotes": 6,
+      "discussionId": "6833cb28e10e89e250a6da0a",
+      "projectPage": "https://github.com/S1s-Z/CANOE",
+      "githubRepo": "https://github.com/S1s-Z/CANOE",
+      "ai_summary": "CANOE improves LLM faithfulness in generation tasks using synthetic QA data and Dual-GRPO reinforcement learning without human annotations.",
+      "ai_keywords": [
+        "teaching large language models",
+        "faithfulness",
+        "context",
+        "CANOE",
+        "short-form generation",
+        "long-form generation",
+        "question-answering",
+        "Dual-GRPO",
+        "rule-based reinforcement learning",
+        "preference data",
+        "reward models"
+      ]
+    },
+    "publishedAt": "2025-05-22T06:10:07.000Z",
+    "title": "Teaching Large Language Models to Maintain Contextual Faithfulness via\n  Synthetic Tasks and Reinforcement Learning",
+    "summary": "Teaching large language models (LLMs) to be faithful in the provided context\nis crucial for building reliable information-seeking systems. Therefore, we\npropose a systematic framework, CANOE, to improve the faithfulness of LLMs in\nboth short-form and long-form generation tasks without human annotations.\nSpecifically, we first synthesize short-form question-answering (QA) data with\nfour diverse tasks to construct high-quality and easily verifiable training\ndata without human annotation. Also, we propose Dual-GRPO, a rule-based\nreinforcement learning method that includes three tailored rule-based rewards\nderived from synthesized short-form QA data, while simultaneously optimizing\nboth short-form and long-form response generation. Notably, Dual-GRPO\neliminates the need to manually label preference data to train reward models\nand avoids over-optimizing short-form generation when relying only on the\nsynthesized short-form QA data. Experimental results show that CANOE greatly\nimproves the faithfulness of LLMs across 11 different downstream tasks, even\noutperforming the most advanced LLMs, e.g., GPT-4o and OpenAI o1.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16483.png",
+    "numComments": 4,
+    "submittedBy": {
+      "_id": "637c99bbfe115289cfedfb44",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637c99bbfe115289cfedfb44/344NN9KKF_XXTlVYaGaMW.png",
+      "fullname": "ssz",
+      "name": "ssz1111",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.17941",
+      "authors": [
+        {
+          "_id": "6833cc35015eb19058ed83d9",
+          "name": "Zigeng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6833cc35015eb19058ed83da",
+          "name": "Xinyin Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6833cc35015eb19058ed83db",
+          "name": "Gongfan Fang",
+          "hidden": false
+        },
+        {
+          "_id": "6833cc35015eb19058ed83dc",
+          "name": "Ruonan Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6833cc35015eb19058ed83dd",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T14:17:56.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:36:09.618Z",
+      "title": "VeriThinker: Learning to Verify Makes Reasoning Model Efficient",
+      "submittedOnDailyBy": {
+        "_id": "65811eeaa2284a018e51f1ba",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/dH8UZj6Kk5HJkI1DItCNm.jpeg",
+        "isPro": true,
+        "fullname": "Zigeng Chen",
+        "user": "Zigeng",
+        "type": "user"
+      },
+      "summary": "Large Reasoning Models (LRMs) excel at complex tasks using Chain-of-Thought\n(CoT) reasoning. However, their tendency to overthinking leads to unnecessarily\nlengthy reasoning chains, dramatically increasing inference costs. To mitigate\nthis issue, we introduce VeriThinker, a novel approach for CoT compression.\nUnlike conventional methods that fine-tune LRMs directly on the original\nreasoning task using synthetic concise CoT data, we innovatively fine-tune the\nmodel solely through an auxiliary verification task. By training LRMs to\naccurately verify the correctness of CoT solutions, the LRMs inherently become\nmore discerning about the necessity of subsequent self-reflection steps,\nthereby effectively suppressing overthinking. Extensive experiments validate\nthat VeriThinker substantially reduces reasoning chain lengths while\nmaintaining or even slightly improving accuracy. When applied to\nDeepSeek-R1-Distill-Qwen-7B, our approach reduces reasoning tokens on MATH500\nfrom 3790 to 2125 while improving accuracy by 0.8% (94.0% to 94.8%), and on\nAIME25, tokens decrease from 14321 to 10287 with a 2.1% accuracy gain (38.7% to\n40.8%). Additionally, our experiments demonstrate that VeriThinker can also be\nzero-shot generalized to speculative reasoning. Code is available at\nhttps://github.com/czg1225/VeriThinker",
+      "upvotes": 5,
+      "discussionId": "6833cc36015eb19058ed8419",
+      "ai_summary": "VeriThinker reduces the length of complex reasoning chains in Large Reasoning Models (LRMs) by fine-tuning them on a verification task, thereby decreasing inference costs without significantly sacrificing accuracy.",
+      "ai_keywords": [
+        "Large Reasoning Models (LRMs)",
+        "Chain-of-Thought (CoT) reasoning",
+        "CoT compression",
+        "verification task",
+        "reasoning chain lengths",
+        "reasoning tokens",
+        "accuracy",
+        "DeepSeek-R1-Distill-Qwen-7B",
+        "MATH500",
+        "AIME25",
+        "speculative reasoning"
+      ]
+    },
+    "publishedAt": "2025-05-23T10:17:56.000Z",
+    "title": "VeriThinker: Learning to Verify Makes Reasoning Model Efficient",
+    "summary": "Large Reasoning Models (LRMs) excel at complex tasks using Chain-of-Thought\n(CoT) reasoning. However, their tendency to overthinking leads to unnecessarily\nlengthy reasoning chains, dramatically increasing inference costs. To mitigate\nthis issue, we introduce VeriThinker, a novel approach for CoT compression.\nUnlike conventional methods that fine-tune LRMs directly on the original\nreasoning task using synthetic concise CoT data, we innovatively fine-tune the\nmodel solely through an auxiliary verification task. By training LRMs to\naccurately verify the correctness of CoT solutions, the LRMs inherently become\nmore discerning about the necessity of subsequent self-reflection steps,\nthereby effectively suppressing overthinking. Extensive experiments validate\nthat VeriThinker substantially reduces reasoning chain lengths while\nmaintaining or even slightly improving accuracy. When applied to\nDeepSeek-R1-Distill-Qwen-7B, our approach reduces reasoning tokens on MATH500\nfrom 3790 to 2125 while improving accuracy by 0.8% (94.0% to 94.8%), and on\nAIME25, tokens decrease from 14321 to 10287 with a 2.1% accuracy gain (38.7% to\n40.8%). Additionally, our experiments demonstrate that VeriThinker can also be\nzero-shot generalized to speculative reasoning. Code is available at\nhttps://github.com/czg1225/VeriThinker",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17941.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65811eeaa2284a018e51f1ba",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/dH8UZj6Kk5HJkI1DItCNm.jpeg",
+      "fullname": "Zigeng Chen",
+      "name": "Zigeng",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.15389",
+      "authors": [
+        {
+          "_id": "682f518184a99219c4b3090c",
+          "name": "DongGeon Lee",
+          "hidden": false
+        },
+        {
+          "_id": "682f518184a99219c4b3090d",
+          "name": "Joonwon Jang",
+          "hidden": false
+        },
+        {
+          "_id": "682f518184a99219c4b3090e",
+          "name": "Jihae Jeong",
+          "hidden": false
+        },
+        {
+          "_id": "682f518184a99219c4b3090f",
+          "name": "Hwanjo Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-21T11:26:40.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:35:59.051Z",
+      "title": "Are Vision-Language Models Safe in the Wild? A Meme-Based Benchmark\n  Study",
+      "submittedOnDailyBy": {
+        "_id": "6540fbf9cb7fffd683942b43",
+        "avatarUrl": "/avatars/d4a64fbde511d0949e1c339179586850.svg",
+        "isPro": false,
+        "fullname": "DongGeon Lee",
+        "user": "oneonlee",
+        "type": "user"
+      },
+      "summary": "Rapid deployment of vision-language models (VLMs) magnifies safety risks, yet\nmost evaluations rely on artificial images. This study asks: How safe are\ncurrent VLMs when confronted with meme images that ordinary users share? To\ninvestigate this question, we introduce MemeSafetyBench, a 50,430-instance\nbenchmark pairing real meme images with both harmful and benign instructions.\nUsing a comprehensive safety taxonomy and LLM-based instruction generation, we\nassess multiple VLMs across single and multi-turn interactions. We investigate\nhow real-world memes influence harmful outputs, the mitigating effects of\nconversational context, and the relationship between model scale and safety\nmetrics. Our findings demonstrate that VLMs show greater vulnerability to\nmeme-based harmful prompts than to synthetic or typographic images. Memes\nsignificantly increase harmful responses and decrease refusals compared to\ntext-only inputs. Though multi-turn interactions provide partial mitigation,\nelevated vulnerability persists. These results highlight the need for\necologically valid evaluations and stronger safety mechanisms.",
+      "upvotes": 5,
+      "discussionId": "682f518184a99219c4b30956",
+      "ai_summary": "VLMs are more vulnerable to harmful meme-based prompts than to synthetic images, and while multi-turn interactions offer some protection, significant vulnerabilities remain.",
+      "ai_keywords": [
+        "vision-language models",
+        "VLMs",
+        "MemeSafetyBench",
+        "safety taxonomy",
+        "LLM-based instruction generation",
+        "single and multi-turn interactions"
+      ]
+    },
+    "publishedAt": "2025-05-21T07:26:40.000Z",
+    "title": "Are Vision-Language Models Safe in the Wild? A Meme-Based Benchmark\n  Study",
+    "summary": "Rapid deployment of vision-language models (VLMs) magnifies safety risks, yet\nmost evaluations rely on artificial images. This study asks: How safe are\ncurrent VLMs when confronted with meme images that ordinary users share? To\ninvestigate this question, we introduce MemeSafetyBench, a 50,430-instance\nbenchmark pairing real meme images with both harmful and benign instructions.\nUsing a comprehensive safety taxonomy and LLM-based instruction generation, we\nassess multiple VLMs across single and multi-turn interactions. We investigate\nhow real-world memes influence harmful outputs, the mitigating effects of\nconversational context, and the relationship between model scale and safety\nmetrics. Our findings demonstrate that VLMs show greater vulnerability to\nmeme-based harmful prompts than to synthetic or typographic images. Memes\nsignificantly increase harmful responses and decrease refusals compared to\ntext-only inputs. Though multi-turn interactions provide partial mitigation,\nelevated vulnerability persists. These results highlight the need for\necologically valid evaluations and stronger safety mechanisms.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.15389.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6540fbf9cb7fffd683942b43",
+      "avatarUrl": "/avatars/d4a64fbde511d0949e1c339179586850.svg",
+      "fullname": "DongGeon Lee",
+      "name": "oneonlee",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.18129",
+      "authors": [
+        {
+          "_id": "6833cf89df7cbb5c087a4caa",
+          "name": "Yan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4cab",
+          "name": "Linge Du",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4cac",
+          "name": "Xuyang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4cad",
+          "name": "Shaoxiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4cae",
+          "name": "Pengfei Li",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4caf",
+          "name": "Qibing Ren",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4cb0",
+          "name": "Lizhuang Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4cb1",
+          "name": "Yuchao Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4cb2",
+          "name": "Pengfei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf89df7cbb5c087a4cb3",
+          "name": "Junjie Yan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T17:41:14.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:54:44.420Z",
+      "title": "One RL to See Them All: Visual Triple Unified Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "642e4d4d6748dd4f8eeb7732",
+        "avatarUrl": "/avatars/fd911e9143d1a7aedd21a7d611543fcc.svg",
+        "isPro": false,
+        "fullname": "Xuyang Shen",
+        "user": "Ryan1122",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning (RL) has significantly advanced the reasoning\ncapabilities of vision-language models (VLMs). However, the use of RL beyond\nreasoning tasks remains largely unexplored, especially for perceptionintensive\ntasks like object detection and grounding. We propose V-Triune, a Visual Triple\nUnified Reinforcement Learning system that enables VLMs to jointly learn visual\nreasoning and perception tasks within a single training pipeline. V-Triune\ncomprises triple complementary components: Sample-Level Data Formatting (to\nunify diverse task inputs), Verifier-Level Reward Computation (to deliver\ncustom rewards via specialized verifiers) , and Source-Level Metric Monitoring\n(to diagnose problems at the data-source level). We further introduce a novel\nDynamic IoU reward, which provides adaptive, progressive, and definite feedback\nfor perception tasks handled by V-Triune. Our approach is instantiated within\noff-the-shelf RL training framework using open-source 7B and 32B backbone\nmodels. The resulting model, dubbed Orsta (One RL to See Them All),\ndemonstrates consistent improvements across both reasoning and perception\ntasks. This broad capability is significantly shaped by its training on a\ndiverse dataset, constructed around four representative visual reasoning tasks\n(Math, Puzzle, Chart, and Science) and four visual perception tasks (Grounding,\nDetection, Counting, and OCR). Subsequently, Orsta achieves substantial gains\non MEGA-Bench Core, with improvements ranging from +2.1 to an impressive +14.1\nacross its various 7B and 32B model variants, with performance benefits\nextending to a wide range of downstream tasks. These results highlight the\neffectiveness and scalability of our unified RL approach for VLMs. The V-Triune\nsystem, along with the Orsta models, is publicly available at\nhttps://github.com/MiniMax-AI.",
+      "upvotes": 4,
+      "discussionId": "6833cf8adf7cbb5c087a4d0c",
+      "githubRepo": "https://github.com/MiniMax-AI/One-RL-to-See-Them-All",
+      "ai_summary": "A unified reinforcement learning system, V-Triune, combines visual reasoning and perception tasks in vision-language models through a single training pipeline, achieving significant improvements across various tasks.",
+      "ai_keywords": [
+        "visual triple unified reinforcement learning",
+        "sample-level data formatting",
+        "verifier-level reward computation",
+        "source-level metric monitoring",
+        "dynamic IoU reward",
+        "reinforcement learning",
+        "vision-language models",
+        "object detection",
+        "grounding",
+        "Orsta",
+        "MEGA-Bench Core"
+      ]
+    },
+    "publishedAt": "2025-05-23T13:41:14.000Z",
+    "title": "One RL to See Them All: Visual Triple Unified Reinforcement Learning",
+    "summary": "Reinforcement learning (RL) has significantly advanced the reasoning\ncapabilities of vision-language models (VLMs). However, the use of RL beyond\nreasoning tasks remains largely unexplored, especially for perceptionintensive\ntasks like object detection and grounding. We propose V-Triune, a Visual Triple\nUnified Reinforcement Learning system that enables VLMs to jointly learn visual\nreasoning and perception tasks within a single training pipeline. V-Triune\ncomprises triple complementary components: Sample-Level Data Formatting (to\nunify diverse task inputs), Verifier-Level Reward Computation (to deliver\ncustom rewards via specialized verifiers) , and Source-Level Metric Monitoring\n(to diagnose problems at the data-source level). We further introduce a novel\nDynamic IoU reward, which provides adaptive, progressive, and definite feedback\nfor perception tasks handled by V-Triune. Our approach is instantiated within\noff-the-shelf RL training framework using open-source 7B and 32B backbone\nmodels. The resulting model, dubbed Orsta (One RL to See Them All),\ndemonstrates consistent improvements across both reasoning and perception\ntasks. This broad capability is significantly shaped by its training on a\ndiverse dataset, constructed around four representative visual reasoning tasks\n(Math, Puzzle, Chart, and Science) and four visual perception tasks (Grounding,\nDetection, Counting, and OCR). Subsequently, Orsta achieves substantial gains\non MEGA-Bench Core, with improvements ranging from +2.1 to an impressive +14.1\nacross its various 7B and 32B model variants, with performance benefits\nextending to a wide range of downstream tasks. These results highlight the\neffectiveness and scalability of our unified RL approach for VLMs. The V-Triune\nsystem, along with the Orsta models, is publicly available at\nhttps://github.com/MiniMax-AI.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.18129.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "642e4d4d6748dd4f8eeb7732",
+      "avatarUrl": "/avatars/fd911e9143d1a7aedd21a7d611543fcc.svg",
+      "fullname": "Xuyang Shen",
+      "name": "Ryan1122",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.17826",
+      "authors": [
+        {
+          "_id": "6833ce1bd5c438959f750d57",
+          "name": "Xuchen Pan",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d58",
+          "name": "Yanxi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d59",
+          "name": "Yushuo Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d5a",
+          "name": "Yuchang Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d5b",
+          "name": "Daoyuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d5c",
+          "name": "Wenhao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d5d",
+          "name": "Yuexiang Xie",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d5e",
+          "name": "Yilun Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d5f",
+          "name": "Yilei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d60",
+          "name": "Dawei Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d61",
+          "name": "Yaliang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d62",
+          "name": "Bolin Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6833ce1bd5c438959f750d63",
+          "name": "Jingren Zhou",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6576f9f4654561a1b345610b/kDRshLvxO0EynfeH0BOZK.png"
+      ],
+      "publishedAt": "2025-05-23T12:41:09.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:50:50.296Z",
+      "title": "Trinity-RFT: A General-Purpose and Unified Framework for Reinforcement\n  Fine-Tuning of Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6576f9f4654561a1b345610b",
+        "avatarUrl": "/avatars/f801f551640caa70368fcc26a0f51d27.svg",
+        "isPro": false,
+        "fullname": "Yanxi Chen",
+        "user": "yanxi-chen",
+        "type": "user"
+      },
+      "summary": "Trinity-RFT is a general-purpose, flexible and scalable framework designed\nfor reinforcement fine-tuning (RFT) of large language models. It is built with\na decoupled design, consisting of (1) an RFT-core that unifies and generalizes\nsynchronous/asynchronous, on-policy/off-policy, and online/offline modes of\nRFT, (2) seamless integration for agent-environment interaction with high\nefficiency and robustness, and (3) systematic data pipelines optimized for RFT.\nTrinity-RFT can be easily adapted for diverse application scenarios, and serves\nas a unified platform for exploring advanced reinforcement learning paradigms.\nThis technical report outlines the vision, features, design and implementations\nof Trinity-RFT, accompanied by extensive examples demonstrating the utility and\nuser-friendliness of the proposed framework.",
+      "upvotes": 4,
+      "discussionId": "6833ce1cd5c438959f750dab",
+      "projectPage": "https://github.com/modelscope/Trinity-RFT",
+      "githubRepo": "https://github.com/modelscope/Trinity-RFT",
+      "ai_summary": "Trinity-RFT is a flexible and scalable framework for reinforcement fine-tuning of large language models, supporting various interaction modes and data pipelines.",
+      "ai_keywords": [
+        "reinforcement fine-tuning",
+        "RFT-core",
+        "synchronous/asynchronous",
+        "on-policy/off-policy",
+        "online/offline",
+        "agent-environment interaction",
+        "data pipelines",
+        "reinforcement learning paradigms"
+      ]
+    },
+    "publishedAt": "2025-05-23T08:41:09.000Z",
+    "title": "Trinity-RFT: A General-Purpose and Unified Framework for Reinforcement\n  Fine-Tuning of Large Language Models",
+    "summary": "Trinity-RFT is a general-purpose, flexible and scalable framework designed\nfor reinforcement fine-tuning (RFT) of large language models. It is built with\na decoupled design, consisting of (1) an RFT-core that unifies and generalizes\nsynchronous/asynchronous, on-policy/off-policy, and online/offline modes of\nRFT, (2) seamless integration for agent-environment interaction with high\nefficiency and robustness, and (3) systematic data pipelines optimized for RFT.\nTrinity-RFT can be easily adapted for diverse application scenarios, and serves\nas a unified platform for exploring advanced reinforcement learning paradigms.\nThis technical report outlines the vision, features, design and implementations\nof Trinity-RFT, accompanied by extensive examples demonstrating the utility and\nuser-friendliness of the proposed framework.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6576f9f4654561a1b345610b/kDRshLvxO0EynfeH0BOZK.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17826.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6576f9f4654561a1b345610b",
+      "avatarUrl": "/avatars/f801f551640caa70368fcc26a0f51d27.svg",
+      "fullname": "Yanxi Chen",
+      "name": "yanxi-chen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.17561",
+      "authors": [
+        {
+          "_id": "6833cb9030cd9df52a117557",
+          "name": "Kwanyoung Kim",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb9030cd9df52a117558",
+          "name": "Sanghyun Kim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T07:09:10.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:33:24.403Z",
+      "title": "Model Already Knows the Best Noise: Bayesian Active Noise Selection via\n  Attention in Video Diffusion Model",
+      "submittedOnDailyBy": {
+        "_id": "63973ee44e7b4959dc98028f",
+        "avatarUrl": "/avatars/2e166fee60844729479bfa4291796c8a.svg",
+        "isPro": false,
+        "fullname": "Kwanyoung",
+        "user": "kwanyoung",
+        "type": "user"
+      },
+      "summary": "The choice of initial noise significantly affects the quality and prompt\nalignment of video diffusion models, where different noise seeds for the same\nprompt can lead to drastically different generations. While recent methods rely\non externally designed priors such as frequency filters or inter-frame\nsmoothing, they often overlook internal model signals that indicate which noise\nseeds are inherently preferable. To address this, we propose ANSE (Active Noise\nSelection for Generation), a model-aware framework that selects high-quality\nnoise seeds by quantifying attention-based uncertainty. At its core is BANSA\n(Bayesian Active Noise Selection via Attention), an acquisition function that\nmeasures entropy disagreement across multiple stochastic attention samples to\nestimate model confidence and consistency. For efficient inference-time\ndeployment, we introduce a Bernoulli-masked approximation of BANSA that enables\nscore estimation using a single diffusion step and a subset of attention\nlayers. Experiments on CogVideoX-2B and 5B demonstrate that ANSE improves video\nquality and temporal coherence with only an 8% and 13% increase in inference\ntime, respectively, providing a principled and generalizable approach to noise\nselection in video diffusion. See our project page:\nhttps://anse-project.github.io/anse-project/",
+      "upvotes": 3,
+      "discussionId": "6833cb9430cd9df52a11765d",
+      "projectPage": "https://anse-project.github.io/anse-project/",
+      "ai_summary": "ANSE enhances video diffusion models by selecting noise seeds based on model confidence, improving video quality and temporal coherence with minimal increase in inference time.",
+      "ai_keywords": [
+        "video diffusion models",
+        "noise seeds",
+        "prompt alignment",
+        "external priors",
+        "frequency filters",
+        "inter-frame smoothing",
+        "ANSE",
+        "Active Noise Selection for Generation",
+        "BANSA",
+        "Bayesian Active Noise Selection via Attention",
+        "acquisition function",
+        "entropy disagreement",
+        "stochastic attention samples",
+        "score estimation",
+        "diffusion step",
+        "temporal coherence"
+      ]
+    },
+    "publishedAt": "2025-05-23T03:09:10.000Z",
+    "title": "Model Already Knows the Best Noise: Bayesian Active Noise Selection via\n  Attention in Video Diffusion Model",
+    "summary": "The choice of initial noise significantly affects the quality and prompt\nalignment of video diffusion models, where different noise seeds for the same\nprompt can lead to drastically different generations. While recent methods rely\non externally designed priors such as frequency filters or inter-frame\nsmoothing, they often overlook internal model signals that indicate which noise\nseeds are inherently preferable. To address this, we propose ANSE (Active Noise\nSelection for Generation), a model-aware framework that selects high-quality\nnoise seeds by quantifying attention-based uncertainty. At its core is BANSA\n(Bayesian Active Noise Selection via Attention), an acquisition function that\nmeasures entropy disagreement across multiple stochastic attention samples to\nestimate model confidence and consistency. For efficient inference-time\ndeployment, we introduce a Bernoulli-masked approximation of BANSA that enables\nscore estimation using a single diffusion step and a subset of attention\nlayers. Experiments on CogVideoX-2B and 5B demonstrate that ANSE improves video\nquality and temporal coherence with only an 8% and 13% increase in inference\ntime, respectively, providing a principled and generalizable approach to noise\nselection in video diffusion. See our project page:\nhttps://anse-project.github.io/anse-project/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17561.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63973ee44e7b4959dc98028f",
+      "avatarUrl": "/avatars/2e166fee60844729479bfa4291796c8a.svg",
+      "fullname": "Kwanyoung",
+      "name": "kwanyoung",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.17091",
+      "authors": [
+        {
+          "_id": "6833cb25fe87d9433dfd2b1c",
+          "name": "Prateek Verma",
+          "hidden": false
+        },
+        {
+          "_id": "6833cb25fe87d9433dfd2b1d",
+          "name": "Mert Pilanci",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-20T22:20:16.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:30:41.320Z",
+      "title": "Large Language Models Implicitly Learn to See and Hear Just By Reading",
+      "submittedOnDailyBy": {
+        "_id": "62d7f1119b629105a5d84aad",
+        "avatarUrl": "/avatars/c74045063e7c06cb7be0fa41ebb1d824.svg",
+        "isPro": false,
+        "fullname": "Prateek Verma",
+        "user": "prateekv",
+        "type": "user"
+      },
+      "summary": "This paper presents a fascinating find: By training an auto-regressive LLM\nmodel on text tokens, the text model inherently develops internally an ability\nto understand images and audio, thereby developing the ability to see and hear\njust by reading. Popular audio and visual LLM models fine-tune text LLM models\nto give text output conditioned on images and audio embeddings. On the other\nhand, our architecture takes in patches of images, audio waveforms or tokens as\ninput. It gives us the embeddings or category labels typical of a\nclassification pipeline. We show the generality of text weights in aiding audio\nclassification for datasets FSD-50K and GTZAN. Further, we show this working\nfor image classification on CIFAR-10 and Fashion-MNIST, as well on image\npatches. This pushes the notion of text-LLMs learning powerful internal\ncircuits that can be utilized by activating necessary connections for various\napplications rather than training models from scratch every single time.",
+      "upvotes": 3,
+      "discussionId": "6833cb26fe87d9433dfd2b64",
+      "ai_summary": "Auto-regressive text LLMs trained on text can develop internal capabilities for understanding images and audio, enabling them to perform classification tasks across different modalities without fine-tuning.",
+      "ai_keywords": [
+        "auto-regressive",
+        "LLM",
+        "text tokens",
+        "audio",
+        "visual",
+        "embeddings",
+        "category labels",
+        "classification",
+        "FSD-50K",
+        "GTZAN",
+        "CIFAR-10",
+        "Fashion-MNIST",
+        "image patches"
+      ]
+    },
+    "publishedAt": "2025-05-20T18:20:16.000Z",
+    "title": "Large Language Models Implicitly Learn to See and Hear Just By Reading",
+    "summary": "This paper presents a fascinating find: By training an auto-regressive LLM\nmodel on text tokens, the text model inherently develops internally an ability\nto understand images and audio, thereby developing the ability to see and hear\njust by reading. Popular audio and visual LLM models fine-tune text LLM models\nto give text output conditioned on images and audio embeddings. On the other\nhand, our architecture takes in patches of images, audio waveforms or tokens as\ninput. It gives us the embeddings or category labels typical of a\nclassification pipeline. We show the generality of text weights in aiding audio\nclassification for datasets FSD-50K and GTZAN. Further, we show this working\nfor image classification on CIFAR-10 and Fashion-MNIST, as well on image\npatches. This pushes the notion of text-LLMs learning powerful internal\ncircuits that can be utilized by activating necessary connections for various\napplications rather than training models from scratch every single time.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17091.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "62d7f1119b629105a5d84aad",
+      "avatarUrl": "/avatars/c74045063e7c06cb7be0fa41ebb1d824.svg",
+      "fullname": "Prateek Verma",
+      "name": "prateekv",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.17508",
+      "authors": [
+        {
+          "_id": "6833cf5a2d728e2330d572e3",
+          "name": "Yifan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf5a2d728e2330d572e4",
+          "name": "Yifeng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf5a2d728e2330d572e5",
+          "name": "Huizhuo Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf5a2d728e2330d572e6",
+          "name": "Yang Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf5a2d728e2330d572e7",
+          "name": "Quanquan Gu",
+          "hidden": false
+        },
+        {
+          "_id": "6833cf5a2d728e2330d572e8",
+          "name": "Andrew C Yao",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/647bf082aba7062fe5c51ca9/mGUuNpUhjfafWqcJJZ1V1.png"
+      ],
+      "publishedAt": "2025-05-23T06:01:21.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:50:14.655Z",
+      "title": "On the Design of KL-Regularized Policy Gradient Algorithms for LLM\n  Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "647bf082aba7062fe5c51ca9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647bf082aba7062fe5c51ca9/p4lY9IjHiWZETKmFq1mtU.jpeg",
+        "isPro": false,
+        "fullname": "Yifan Zhang",
+        "user": "yifAI",
+        "type": "user"
+      },
+      "summary": "Policy gradient algorithms have been successfully applied to enhance the\nreasoning capabilities of large language models (LLMs). Despite the widespread\nuse of Kullback-Leibler (KL) regularization in policy gradient algorithms to\nstabilize training, the systematic exploration of how different KL divergence\nformulations can be estimated and integrated into surrogate loss functions for\nonline reinforcement learning (RL) presents a nuanced and systematically\nexplorable design space. In this paper, we propose regularized policy gradient\n(RPG), a systematic framework for deriving and analyzing KL-regularized policy\ngradient methods in the online RL setting. We derive policy gradients and\ncorresponding surrogate loss functions for objectives regularized by both\nforward and reverse KL divergences, considering both normalized and\nunnormalized policy distributions. Furthermore, we present derivations for\nfully differentiable loss functions as well as REINFORCE-style gradient\nestimators, accommodating diverse algorithmic needs. We conduct extensive\nexperiments on RL for LLM reasoning using these methods, showing improved or\ncompetitive results in terms of training stability and performance compared to\nstrong baselines such as GRPO, REINFORCE++, and DAPO. The code is available at\nhttps://github.com/complex-reasoning/RPG.",
+      "upvotes": 2,
+      "discussionId": "6833cf5b2d728e2330d57313",
+      "githubRepo": "https://github.com/complex-reasoning/RPG",
+      "ai_summary": "A regularized policy gradient framework is introduced to explore KL divergence formulations for enhancing the reasoning capabilities of LLMs in online reinforcement learning, demonstrating improved training stability and performance.",
+      "ai_keywords": [
+        "policy gradient algorithms",
+        "KL regularization",
+        "KL divergence",
+        "surrogate loss functions",
+        "online reinforcement learning",
+        "full differentiable loss functions",
+        "REINFORCE-style gradient estimators",
+        "GRPO",
+        "REINFORCE++",
+        "DAPO",
+        "regularized policy gradient (RPG)",
+        "forward KL divergence",
+        "reverse KL divergence",
+        "normalized policy distributions",
+        "unnormalized policy distributions"
+      ]
+    },
+    "publishedAt": "2025-05-23T02:01:21.000Z",
+    "title": "On the Design of KL-Regularized Policy Gradient Algorithms for LLM\n  Reasoning",
+    "summary": "Policy gradient algorithms have been successfully applied to enhance the\nreasoning capabilities of large language models (LLMs). Despite the widespread\nuse of Kullback-Leibler (KL) regularization in policy gradient algorithms to\nstabilize training, the systematic exploration of how different KL divergence\nformulations can be estimated and integrated into surrogate loss functions for\nonline reinforcement learning (RL) presents a nuanced and systematically\nexplorable design space. In this paper, we propose regularized policy gradient\n(RPG), a systematic framework for deriving and analyzing KL-regularized policy\ngradient methods in the online RL setting. We derive policy gradients and\ncorresponding surrogate loss functions for objectives regularized by both\nforward and reverse KL divergences, considering both normalized and\nunnormalized policy distributions. Furthermore, we present derivations for\nfully differentiable loss functions as well as REINFORCE-style gradient\nestimators, accommodating diverse algorithmic needs. We conduct extensive\nexperiments on RL for LLM reasoning using these methods, showing improved or\ncompetitive results in terms of training stability and performance compared to\nstrong baselines such as GRPO, REINFORCE++, and DAPO. The code is available at\nhttps://github.com/complex-reasoning/RPG.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/647bf082aba7062fe5c51ca9/mGUuNpUhjfafWqcJJZ1V1.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17508.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "647bf082aba7062fe5c51ca9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647bf082aba7062fe5c51ca9/p4lY9IjHiWZETKmFq1mtU.jpeg",
+      "fullname": "Yifan Zhang",
+      "name": "yifAI",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 13
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.17417",
+      "authors": [
+        {
+          "_id": "6833d2df73bebebe5cd6604e",
+          "user": {
+            "_id": "62d7b2339b629105a5d6888a",
+            "avatarUrl": "/avatars/c3f164fde6b8f9a671890e08ce8a3e75.svg",
+            "isPro": false,
+            "fullname": "Alan Dao",
+            "user": "alandao",
+            "type": "user"
+          },
+          "name": "Alan Dao",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-26T02:38:31.379Z",
+          "hidden": false
+        },
+        {
+          "_id": "6833d2df73bebebe5cd6604f",
+          "name": "Dinh Bach Vu",
+          "hidden": false
+        },
+        {
+          "_id": "6833d2df73bebebe5cd66050",
+          "name": "Huy Hoang Ha",
+          "hidden": false
+        },
+        {
+          "_id": "6833d2df73bebebe5cd66051",
+          "name": "Tuan Le Duc Anh",
+          "hidden": false
+        },
+        {
+          "_id": "6833d2df73bebebe5cd66052",
+          "name": "Shreyas Gopal",
+          "hidden": false
+        },
+        {
+          "_id": "6833d2df73bebebe5cd66053",
+          "name": "Yue Heng Yeo",
+          "hidden": false
+        },
+        {
+          "_id": "6833d2df73bebebe5cd66054",
+          "name": "Warren Keng Hoong Low",
+          "hidden": false
+        },
+        {
+          "_id": "6833d2df73bebebe5cd66055",
+          "name": "Eng Siong Chng",
+          "hidden": false
+        },
+        {
+          "_id": "6833d2df73bebebe5cd66056",
+          "name": "Jia Qi Yip",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T03:05:47.000Z",
+      "submittedOnDailyAt": "2025-05-26T01:03:18.385Z",
+      "title": "Speechless: Speech Instruction Training Without Speech for Low Resource\n  Languages",
+      "submittedOnDailyBy": {
+        "_id": "62d7b2339b629105a5d6888a",
+        "avatarUrl": "/avatars/c3f164fde6b8f9a671890e08ce8a3e75.svg",
+        "isPro": false,
+        "fullname": "Alan Dao",
+        "user": "alandao",
+        "type": "user"
+      },
+      "summary": "The rapid growth of voice assistants powered by large language models (LLM)\nhas highlighted a need for speech instruction data to train these systems.\nDespite the abundance of speech recognition data, there is a notable scarcity\nof speech instruction data, which is essential for fine-tuning models to\nunderstand and execute spoken commands. Generating high-quality synthetic\nspeech requires a good text-to-speech (TTS) model, which may not be available\nto low resource languages. Our novel approach addresses this challenge by\nhalting synthesis at the semantic representation level, bypassing the need for\nTTS. We achieve this by aligning synthetic semantic representations with the\npre-trained Whisper encoder, enabling an LLM to be fine-tuned on text\ninstructions while maintaining the ability to understand spoken instructions\nduring inference. This simplified training process is a promising approach to\nbuilding voice assistant for low-resource languages.",
+      "upvotes": 2,
+      "discussionId": "6833d2df73bebebe5cd66074",
+      "githubRepo": "https://github.com/menloresearch/ichigo"
+    },
+    "publishedAt": "2025-05-22T23:05:47.000Z",
+    "title": "Speechless: Speech Instruction Training Without Speech for Low Resource\n  Languages",
+    "summary": "The rapid growth of voice assistants powered by large language models (LLM)\nhas highlighted a need for speech instruction data to train these systems.\nDespite the abundance of speech recognition data, there is a notable scarcity\nof speech instruction data, which is essential for fine-tuning models to\nunderstand and execute spoken commands. Generating high-quality synthetic\nspeech requires a good text-to-speech (TTS) model, which may not be available\nto low resource languages. Our novel approach addresses this challenge by\nhalting synthesis at the semantic representation level, bypassing the need for\nTTS. We achieve this by aligning synthetic semantic representations with the\npre-trained Whisper encoder, enabling an LLM to be fine-tuned on text\ninstructions while maintaining the ability to understand spoken instructions\nduring inference. This simplified training process is a promising approach to\nbuilding voice assistant for low-resource languages.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17417.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62d7b2339b629105a5d6888a",
+      "avatarUrl": "/avatars/c3f164fde6b8f9a671890e08ce8a3e75.svg",
+      "fullname": "Alan Dao",
+      "name": "alandao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.17225",
+      "authors": [
+        {
+          "_id": "6833c65d49b9e903d3ddbd11",
+          "name": "Doohyuk Jang",
+          "hidden": false
+        },
+        {
+          "_id": "6833c65d49b9e903d3ddbd12",
+          "name": "Yoonjeon Kim",
+          "hidden": false
+        },
+        {
+          "_id": "6833c65d49b9e903d3ddbd13",
+          "name": "Chanjae Park",
+          "hidden": false
+        },
+        {
+          "_id": "6833c65d49b9e903d3ddbd14",
+          "name": "Hyun Ryu",
+          "hidden": false
+        },
+        {
+          "_id": "6833c65d49b9e903d3ddbd15",
+          "name": "Eunho Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T19:00:01.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:11:09.797Z",
+      "title": "Reasoning Model is Stubborn: Diagnosing Instruction Overriding in\n  Reasoning Models",
+      "submittedOnDailyBy": {
+        "_id": "61b15ce1a5dd7dc7024406dc",
+        "avatarUrl": "/avatars/682ce5ee7d2fec7180dc8e1144cd12ab.svg",
+        "isPro": false,
+        "fullname": "Yoonjeon Kim",
+        "user": "yjyjyj98",
+        "type": "user"
+      },
+      "summary": "Large language models have demonstrated remarkable proficiency in long and\ncomplex reasoning tasks. However, they frequently exhibit a problematic\nreliance on familiar reasoning patterns, a phenomenon we term reasoning\nrigidity. Despite explicit instructions from users, these models often\noverride clearly stated conditions and default to habitual reasoning\ntrajectories, leading to incorrect conclusions. This behavior presents\nsignificant challenges, particularly in domains such as mathematics and logic\npuzzle, where precise adherence to specified constraints is critical. To\nsystematically investigate reasoning rigidity, a behavior largely unexplored in\nprior work, we introduce a expert-curated diagnostic set, . Our\ndataset includes specially modified variants of existing mathematical\nbenchmarks, namely AIME and MATH500, as well as well-known puzzles deliberately\nredesigned to require deviation from familiar reasoning strategies. Using this\ndataset, we identify recurring contamination patterns that occur when models\ndefault to ingrained reasoning. Specifically, we categorize this contamination\ninto three distinctive modes: (i) Interpretation Overload, (ii) Input Distrust,\nand (iii) Partial Instruction Attention, each causing models to ignore or\ndistort provided instructions. We publicly release our diagnostic set to\nfacilitate future research on mitigating reasoning rigidity in language models.",
+      "upvotes": 2,
+      "discussionId": "6833c65e49b9e903d3ddbd6a",
+      "projectPage": "https://reasoningtrap.github.io/",
+      "githubRepo": "https://github.com/ReasoningTrap/ReasoningTrap",
+      "ai_summary": "A diagnostic set examines and categorizes reasoning rigidity in large language models, identifying patterns where models ignore instructions and default to familiar reasoning.",
+      "ai_keywords": [
+        "reasoning rigidity",
+        "large language models",
+        "long and complex reasoning tasks",
+        "reasoning trajectories",
+        "diagnostic set",
+        "AIME",
+        "MATH500",
+        "Interpretation Overload",
+        "Input Distrust",
+        "Partial Instruction Attention"
+      ]
+    },
+    "publishedAt": "2025-05-22T15:00:01.000Z",
+    "title": "Reasoning Model is Stubborn: Diagnosing Instruction Overriding in\n  Reasoning Models",
+    "summary": "Large language models have demonstrated remarkable proficiency in long and\ncomplex reasoning tasks. However, they frequently exhibit a problematic\nreliance on familiar reasoning patterns, a phenomenon we term reasoning\nrigidity. Despite explicit instructions from users, these models often\noverride clearly stated conditions and default to habitual reasoning\ntrajectories, leading to incorrect conclusions. This behavior presents\nsignificant challenges, particularly in domains such as mathematics and logic\npuzzle, where precise adherence to specified constraints is critical. To\nsystematically investigate reasoning rigidity, a behavior largely unexplored in\nprior work, we introduce a expert-curated diagnostic set, . Our\ndataset includes specially modified variants of existing mathematical\nbenchmarks, namely AIME and MATH500, as well as well-known puzzles deliberately\nredesigned to require deviation from familiar reasoning strategies. Using this\ndataset, we identify recurring contamination patterns that occur when models\ndefault to ingrained reasoning. Specifically, we categorize this contamination\ninto three distinctive modes: (i) Interpretation Overload, (ii) Input Distrust,\nand (iii) Partial Instruction Attention, each causing models to ignore or\ndistort provided instructions. We publicly release our diagnostic set to\nfacilitate future research on mitigating reasoning rigidity in language models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17225.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61b15ce1a5dd7dc7024406dc",
+      "avatarUrl": "/avatars/682ce5ee7d2fec7180dc8e1144cd12ab.svg",
+      "fullname": "Yoonjeon Kim",
+      "name": "yjyjyj98",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.16270",
+      "authors": [
+        {
+          "_id": "6833d08edf7cbb5c087a8bf1",
+          "user": {
+            "_id": "65c288280aa2d53135734a42",
+            "avatarUrl": "/avatars/960422a1482ac8b4a52dd08c02d901f6.svg",
+            "isPro": false,
+            "fullname": "Jiaru Zou",
+            "user": "jiaruz2",
+            "type": "user"
+          },
+          "name": "Jiaru Zou",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-26T02:41:41.249Z",
+          "hidden": false
+        },
+        {
+          "_id": "6833d08edf7cbb5c087a8bf2",
+          "name": "Yikun Ban",
+          "hidden": false
+        },
+        {
+          "_id": "6833d08edf7cbb5c087a8bf3",
+          "name": "Zihao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6833d08edf7cbb5c087a8bf4",
+          "name": "Yunzhe Qi",
+          "hidden": false
+        },
+        {
+          "_id": "6833d08edf7cbb5c087a8bf5",
+          "name": "Ruizhong Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "6833d08edf7cbb5c087a8bf6",
+          "name": "Ling Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6833d08edf7cbb5c087a8bf7",
+          "name": "Jingrui He",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T06:00:45.000Z",
+      "submittedOnDailyAt": "2025-05-26T00:53:39.701Z",
+      "title": "Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning",
+      "submittedOnDailyBy": {
+        "_id": "64fde4e252e82dd432b74ce9",
+        "avatarUrl": "/avatars/061a69d858b86d1600be916122cae7fc.svg",
+        "isPro": false,
+        "fullname": "Ling Yang",
+        "user": "Lingaaaaaaa",
+        "type": "user"
+      },
+      "summary": "Large language models are typically adapted to downstream tasks through\nsupervised fine-tuning on domain-specific data. While standard fine-tuning\nfocuses on minimizing generation loss to optimize model parameters, we take a\ndeeper step by retaining and leveraging the model's own learning signals,\nanalogous to how human learners reflect on past mistakes to improve future\nperformance. We first introduce the concept of Mistake Log to systematically\ntrack the model's learning behavior and recurring errors throughout\nfine-tuning. Treating the original transformer-based model as the Pilot, we\ncorrespondingly design a Copilot model to refine the Pilot's inference\nperformance via logits rectification. We name the overall Pilot-Copilot\nframework the Transformer Copilot, which introduces (i) a novel Copilot model\ndesign, (ii) a joint training paradigm where the Copilot continuously learns\nfrom the evolving Mistake Log alongside the Pilot, and (iii) a fused inference\nparadigm where the Copilot rectifies the Pilot's logits for enhanced\ngeneration. We provide both theoretical and empirical analyses on our new\nlearning framework. Experiments on 12 benchmarks spanning commonsense,\narithmetic, and recommendation tasks demonstrate that Transformer Copilot\nconsistently improves performance by up to 34.5%, while introducing marginal\ncomputational overhead to Pilot models and exhibiting strong scalability and\ntransferability.",
+      "upvotes": 2,
+      "discussionId": "6833d08fdf7cbb5c087a8c29",
+      "ai_summary": "The Transformer Copilot framework enhances large language model performance through a Copilot model that refines the Pilot's logits based on a Mistake Log, leading to consistent performance improvements across various benchmarks.",
+      "ai_keywords": [
+        "large language models",
+        "supervised fine-tuning",
+        "domain-specific data",
+        "generation loss",
+        "model parameters",
+        "learning signals",
+        "Mistake Log",
+        "transformer-based model",
+        "Copilot model",
+        "logits rectification",
+        "joint training paradigm",
+        "fused inference paradigm",
+        "performance improvements",
+        "computational overhead",
+        "scalability",
+        "transferability"
+      ]
+    },
+    "publishedAt": "2025-05-22T02:00:45.000Z",
+    "title": "Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning",
+    "summary": "Large language models are typically adapted to downstream tasks through\nsupervised fine-tuning on domain-specific data. While standard fine-tuning\nfocuses on minimizing generation loss to optimize model parameters, we take a\ndeeper step by retaining and leveraging the model's own learning signals,\nanalogous to how human learners reflect on past mistakes to improve future\nperformance. We first introduce the concept of Mistake Log to systematically\ntrack the model's learning behavior and recurring errors throughout\nfine-tuning. Treating the original transformer-based model as the Pilot, we\ncorrespondingly design a Copilot model to refine the Pilot's inference\nperformance via logits rectification. We name the overall Pilot-Copilot\nframework the Transformer Copilot, which introduces (i) a novel Copilot model\ndesign, (ii) a joint training paradigm where the Copilot continuously learns\nfrom the evolving Mistake Log alongside the Pilot, and (iii) a fused inference\nparadigm where the Copilot rectifies the Pilot's logits for enhanced\ngeneration. We provide both theoretical and empirical analyses on our new\nlearning framework. Experiments on 12 benchmarks spanning commonsense,\narithmetic, and recommendation tasks demonstrate that Transformer Copilot\nconsistently improves performance by up to 34.5%, while introducing marginal\ncomputational overhead to Pilot models and exhibiting strong scalability and\ntransferability.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16270.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64fde4e252e82dd432b74ce9",
+      "avatarUrl": "/avatars/061a69d858b86d1600be916122cae7fc.svg",
+      "fullname": "Ling Yang",
+      "name": "Lingaaaaaaa",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  }
+]
