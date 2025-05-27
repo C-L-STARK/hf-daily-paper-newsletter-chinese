@@ -1,0 +1,1033 @@
+[
+  {
+    "paper": {
+      "id": "2505.18675",
+      "authors": [
+        {
+          "_id": "68351dde0c0aff775f3933ee",
+          "name": "Sicheng Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68351dde0c0aff775f3933ef",
+          "name": "Song Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68351dde0c0aff775f3933f0",
+          "name": "Shuyi Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "68351dde0c0aff775f3933f1",
+          "name": "Lingdong Kong",
+          "hidden": false
+        },
+        {
+          "_id": "68351dde0c0aff775f3933f2",
+          "name": "Zikai Song",
+          "hidden": false
+        },
+        {
+          "_id": "68351dde0c0aff775f3933f3",
+          "name": "Jianke Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68351dde0c0aff775f3933f4",
+          "name": "Huan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68351dde0c0aff775f3933f5",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-24T12:33:52.000Z",
+      "submittedOnDailyAt": "2025-05-27T00:35:52.585Z",
+      "title": "Can MLLMs Guide Me Home? A Benchmark Study on Fine-Grained Visual\n  Reasoning from Transit Maps",
+      "submittedOnDailyBy": {
+        "_id": "67a4a26d5e65aa63c6d30e68",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67a4a26d5e65aa63c6d30e68/GtodlJGw-_IL2DTXQTucz.jpeg",
+        "isPro": false,
+        "fullname": "FENG SICHENG",
+        "user": "FSCCS",
+        "type": "user"
+      },
+      "summary": "Multimodal large language models (MLLMs) have recently achieved significant\nprogress in visual tasks, including semantic scene understanding and text-image\nalignment, with reasoning variants enhancing performance on complex tasks\ninvolving mathematics and logic. However, their capacity for reasoning tasks\ninvolving fine-grained visual understanding remains insufficiently evaluated.\nTo address this gap, we introduce ReasonMap, a benchmark designed to assess the\nfine-grained visual understanding and spatial reasoning abilities of MLLMs.\nReasonMap encompasses high-resolution transit maps from 30 cities across 13\ncountries and includes 1,008 question-answer pairs spanning two question types\nand three templates. Furthermore, we design a two-level evaluation pipeline\nthat properly assesses answer correctness and quality. Comprehensive\nevaluations of 15 popular MLLMs, including both base and reasoning variants,\nreveal a counterintuitive pattern: among open-source models, base models\noutperform reasoning ones, while the opposite trend is observed in\nclosed-source models. Additionally, performance generally degrades when visual\ninputs are masked, indicating that while MLLMs can leverage prior knowledge to\nanswer some questions, fine-grained visual reasoning tasks still require\ngenuine visual perception for strong performance. Our benchmark study offers\nnew insights into visual reasoning and contributes to investigating the gap\nbetween open-source and closed-source models.",
+      "upvotes": 7,
+      "discussionId": "68351de10c0aff775f39347a",
+      "projectPage": "https://fscdc.github.io/Reason-Map/",
+      "githubRepo": "https://github.com/fscdc/ReasonMap",
+      "ai_summary": "ReasonMap evaluates the fine-grained visual understanding and spatial reasoning abilities of multimodal large language models, revealing that base models often outperform reasoning variants and highlighting the importance of genuine visual perception for complex tasks.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "MLLMs",
+        "semantic scene understanding",
+        "text-image alignment",
+        "reasoning variants",
+        "ReasonMap",
+        "high-resolution transit maps",
+        "question-answer pairs",
+        "two-level evaluation pipeline",
+        "open-source models",
+        "closed-source models",
+        "visual reasoning"
+      ]
+    },
+    "publishedAt": "2025-05-24T08:33:52.000Z",
+    "title": "Can MLLMs Guide Me Home? A Benchmark Study on Fine-Grained Visual\n  Reasoning from Transit Maps",
+    "summary": "Multimodal large language models (MLLMs) have recently achieved significant\nprogress in visual tasks, including semantic scene understanding and text-image\nalignment, with reasoning variants enhancing performance on complex tasks\ninvolving mathematics and logic. However, their capacity for reasoning tasks\ninvolving fine-grained visual understanding remains insufficiently evaluated.\nTo address this gap, we introduce ReasonMap, a benchmark designed to assess the\nfine-grained visual understanding and spatial reasoning abilities of MLLMs.\nReasonMap encompasses high-resolution transit maps from 30 cities across 13\ncountries and includes 1,008 question-answer pairs spanning two question types\nand three templates. Furthermore, we design a two-level evaluation pipeline\nthat properly assesses answer correctness and quality. Comprehensive\nevaluations of 15 popular MLLMs, including both base and reasoning variants,\nreveal a counterintuitive pattern: among open-source models, base models\noutperform reasoning ones, while the opposite trend is observed in\nclosed-source models. Additionally, performance generally degrades when visual\ninputs are masked, indicating that while MLLMs can leverage prior knowledge to\nanswer some questions, fine-grained visual reasoning tasks still require\ngenuine visual perception for strong performance. Our benchmark study offers\nnew insights into visual reasoning and contributes to investigating the gap\nbetween open-source and closed-source models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.18675.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67a4a26d5e65aa63c6d30e68",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67a4a26d5e65aa63c6d30e68/GtodlJGw-_IL2DTXQTucz.jpeg",
+      "fullname": "FENG SICHENG",
+      "name": "FSCCS",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.18536",
+      "authors": [
+        {
+          "_id": "68351f7a06b4dae20a214442",
+          "name": "Haoyuan Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a214443",
+          "name": "Jiaqi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a214444",
+          "name": "Bo Xia",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a214445",
+          "name": "Yifu Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a214446",
+          "name": "Yifei Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a214447",
+          "name": "Kai Qin",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a214448",
+          "name": "Xufei Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a214449",
+          "name": "Tiantian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a21444a",
+          "name": "Yongzhe Chang",
+          "hidden": false
+        },
+        {
+          "_id": "68351f7a06b4dae20a21444b",
+          "name": "Xueqian Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-24T06:01:48.000Z",
+      "submittedOnDailyAt": "2025-05-27T00:43:18.404Z",
+      "title": "Reinforcement Fine-Tuning Powers Reasoning Capability of Multimodal\n  Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "65e2d43f9fb58a5115253049",
+        "avatarUrl": "/avatars/46bd4ae27eaa23802cef3d91626897b5.svg",
+        "isPro": false,
+        "fullname": "Haoyuan Sun",
+        "user": "xiaonengmiao",
+        "type": "user"
+      },
+      "summary": "Standing in 2025, at a critical juncture in the pursuit of Artificial General\nIntelligence (AGI), reinforcement fine-tuning (RFT) has demonstrated\nsignificant potential in enhancing the reasoning capability of large language\nmodels (LLMs) and has led to the development of cutting-edge AI models such as\nOpenAI-o1 and DeepSeek-R1. Moreover, the efficient application of RFT to\nenhance the reasoning capability of multimodal large language models (MLLMs)\nhas attracted widespread attention from the community. In this position paper,\nwe argue that reinforcement fine-tuning powers the reasoning capability of\nmultimodal large language models. To begin with, we provide a detailed\nintroduction to the fundamental background knowledge that researchers\ninterested in this field should be familiar with. Furthermore, we meticulously\nsummarize the improvements of RFT in powering reasoning capability of MLLMs\ninto five key points: diverse modalities, diverse tasks and domains, better\ntraining algorithms, abundant benchmarks and thriving engineering frameworks.\nFinally, we propose five promising directions for future research that the\ncommunity might consider. We hope that this position paper will provide\nvaluable insights to the community at this pivotal stage in the advancement\ntoward AGI. Summary of works done on RFT for MLLMs is available at\nhttps://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs.",
+      "upvotes": 7,
+      "discussionId": "68351f7b06b4dae20a2144b5",
+      "projectPage": "https://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs",
+      "githubRepo": "https://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs",
+      "ai_summary": "Reinforcement fine-tuning significantly enhances the reasoning capabilities of multimodal large language models through diverse modalities, tasks, algorithms, benchmarks, and frameworks.",
+      "ai_keywords": [
+        "reinforcement fine-tuning",
+        "multimodal large language models",
+        "OpenAI-o1",
+        "DeepSeek-R1",
+        "diverse modalities",
+        "diverse tasks and domains",
+        "better training algorithms",
+        "abundant benchmarks",
+        "thriving engineering frameworks"
+      ]
+    },
+    "publishedAt": "2025-05-24T02:01:48.000Z",
+    "title": "Reinforcement Fine-Tuning Powers Reasoning Capability of Multimodal\n  Large Language Models",
+    "summary": "Standing in 2025, at a critical juncture in the pursuit of Artificial General\nIntelligence (AGI), reinforcement fine-tuning (RFT) has demonstrated\nsignificant potential in enhancing the reasoning capability of large language\nmodels (LLMs) and has led to the development of cutting-edge AI models such as\nOpenAI-o1 and DeepSeek-R1. Moreover, the efficient application of RFT to\nenhance the reasoning capability of multimodal large language models (MLLMs)\nhas attracted widespread attention from the community. In this position paper,\nwe argue that reinforcement fine-tuning powers the reasoning capability of\nmultimodal large language models. To begin with, we provide a detailed\nintroduction to the fundamental background knowledge that researchers\ninterested in this field should be familiar with. Furthermore, we meticulously\nsummarize the improvements of RFT in powering reasoning capability of MLLMs\ninto five key points: diverse modalities, diverse tasks and domains, better\ntraining algorithms, abundant benchmarks and thriving engineering frameworks.\nFinally, we propose five promising directions for future research that the\ncommunity might consider. We hope that this position paper will provide\nvaluable insights to the community at this pivotal stage in the advancement\ntoward AGI. Summary of works done on RFT for MLLMs is available at\nhttps://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.18536.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "65e2d43f9fb58a5115253049",
+      "avatarUrl": "/avatars/46bd4ae27eaa23802cef3d91626897b5.svg",
+      "fullname": "Haoyuan Sun",
+      "name": "xiaonengmiao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.18545",
+      "authors": [
+        {
+          "_id": "6835217ee759f596d018f72c",
+          "name": "An Vo",
+          "hidden": false
+        },
+        {
+          "_id": "6835217ee759f596d018f72d",
+          "user": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "isPro": true,
+            "fullname": "taesiri",
+            "user": "taesiri",
+            "type": "user"
+          },
+          "name": "Mohammad Reza Taesiri",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-27T02:21:46.082Z",
+          "hidden": false
+        },
+        {
+          "_id": "6835217ee759f596d018f72e",
+          "name": "Daeyoung Kim",
+          "hidden": false
+        },
+        {
+          "_id": "6835217ee759f596d018f72f",
+          "user": {
+            "_id": "60e85b3fcd1cf4e418fff651",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1645625108920-60e85b3fcd1cf4e418fff651.jpeg",
+            "isPro": false,
+            "fullname": "Anh (Totti) Nguyen",
+            "user": "anhng8",
+            "type": "user"
+          },
+          "name": "Anh Totti Nguyen",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-27T02:20:46.958Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-24T06:23:52.000Z",
+      "submittedOnDailyAt": "2025-05-27T00:50:49.797Z",
+      "title": "B-score: Detecting biases in large language models using response\n  history",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) often exhibit strong biases, e.g, against women\nor in favor of the number 7. We investigate whether LLMs would be able to\noutput less biased answers when allowed to observe their prior answers to the\nsame question in a multi-turn conversation. To understand which types of\nquestions invite more biased answers, we test LLMs on our proposed set of\nquestions that span 9 topics and belong to three types: (1) Subjective; (2)\nRandom; and (3) Objective. Interestingly, LLMs are able to \"de-bias\" themselves\nin a multi-turn conversation in response to questions that seek an Random,\nunbiased answer. Furthermore, we propose B-score, a novel metric that is\neffective in detecting biases to Subjective, Random, Easy, and Hard questions.\nOn MMLU, HLE, and CSQA, leveraging B-score substantially improves the\nverification accuracy of LLM answers (i.e, accepting LLM correct answers and\nrejecting incorrect ones) compared to using verbalized confidence scores or the\nfrequency of single-turn answers alone. Code and data are available at:\nhttps://b-score.github.io.",
+      "upvotes": 4,
+      "discussionId": "6835217ee759f596d018f794",
+      "projectPage": "https://b-score.github.io/",
+      "githubRepo": "https://github.com/anvo25/b-score",
+      "ai_summary": "LLMs can reduce biases in multi-turn conversations for certain types of questions, and a novel B-score metric improves the accuracy of verifying LLM answers.",
+      "ai_keywords": [
+        "large language models",
+        "biases",
+        "multi-turn conversation",
+        "B-score",
+        "MMLU",
+        "HLE",
+        "CSQA",
+        "verification accuracy",
+        "verbalized confidence scores"
+      ]
+    },
+    "publishedAt": "2025-05-24T02:23:52.000Z",
+    "title": "B-score: Detecting biases in large language models using response\n  history",
+    "summary": "Large language models (LLMs) often exhibit strong biases, e.g, against women\nor in favor of the number 7. We investigate whether LLMs would be able to\noutput less biased answers when allowed to observe their prior answers to the\nsame question in a multi-turn conversation. To understand which types of\nquestions invite more biased answers, we test LLMs on our proposed set of\nquestions that span 9 topics and belong to three types: (1) Subjective; (2)\nRandom; and (3) Objective. Interestingly, LLMs are able to \"de-bias\" themselves\nin a multi-turn conversation in response to questions that seek an Random,\nunbiased answer. Furthermore, we propose B-score, a novel metric that is\neffective in detecting biases to Subjective, Random, Easy, and Hard questions.\nOn MMLU, HLE, and CSQA, leveraging B-score substantially improves the\nverification accuracy of LLM answers (i.e, accepting LLM correct answers and\nrejecting incorrect ones) compared to using verbalized confidence scores or the\nfrequency of single-turn answers alone. Code and data are available at:\nhttps://b-score.github.io.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.18545.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 84
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.16972",
+      "authors": [
+        {
+          "_id": "68351e269f4e0a0f048ea664",
+          "name": "Tianduo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68351e269f4e0a0f048ea665",
+          "name": "Lu Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68351e269f4e0a0f048ea666",
+          "name": "Wei Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68351e269f4e0a0f048ea667",
+          "name": "Shanbo Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-22T17:51:05.000Z",
+      "submittedOnDailyAt": "2025-05-27T00:36:56.992Z",
+      "title": "From Tens of Hours to Tens of Thousands: Scaling Back-Translation for\n  Speech Recognition",
+      "submittedOnDailyBy": {
+        "_id": "6352aa7b6cfb8f149814de5e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1666361939036-noauth.jpeg",
+        "isPro": false,
+        "fullname": "Tianduo Wang",
+        "user": "Tianduo",
+        "type": "user"
+      },
+      "summary": "Recent advances in Automatic Speech Recognition (ASR) have been largely\nfueled by massive speech corpora. However, extending coverage to diverse\nlanguages with limited resources remains a formidable challenge. This paper\nintroduces Speech Back-Translation, a scalable pipeline that improves\nmultilingual ASR models by converting large-scale text corpora into synthetic\nspeech via off-the-shelf text-to-speech (TTS) models. We demonstrate that just\ntens of hours of real transcribed speech can effectively train TTS models to\ngenerate synthetic speech at hundreds of times the original volume while\nmaintaining high quality. To evaluate synthetic speech quality, we develop an\nintelligibility-based assessment framework and establish clear thresholds for\nwhen synthetic data benefits ASR training. Using Speech Back-Translation, we\ngenerate more than 500,000 hours of synthetic speech in ten languages and\ncontinue pre-training Whisper-large-v3, achieving average transcription error\nreductions of over 30\\%. These results highlight the scalability and\neffectiveness of Speech Back-Translation for enhancing multilingual ASR\nsystems.",
+      "upvotes": 3,
+      "discussionId": "68351e279f4e0a0f048ea689",
+      "githubRepo": "https://github.com/TianduoWang/Speech-BT",
+      "ai_summary": "Speech Back-Translation enhances multilingual ASR systems by generating high-quality synthetic speech from text corpora, significantly reducing transcription errors.",
+      "ai_keywords": [
+        "Automatic Speech Recognition",
+        "Speech Back-Translation",
+        "multilingual ASR",
+        "text-to-speech",
+        "synthetic speech",
+        "intelligibility-based assessment",
+        "Whisper-large-v3",
+        "transcription error reduction"
+      ]
+    },
+    "publishedAt": "2025-05-22T13:51:05.000Z",
+    "title": "From Tens of Hours to Tens of Thousands: Scaling Back-Translation for\n  Speech Recognition",
+    "summary": "Recent advances in Automatic Speech Recognition (ASR) have been largely\nfueled by massive speech corpora. However, extending coverage to diverse\nlanguages with limited resources remains a formidable challenge. This paper\nintroduces Speech Back-Translation, a scalable pipeline that improves\nmultilingual ASR models by converting large-scale text corpora into synthetic\nspeech via off-the-shelf text-to-speech (TTS) models. We demonstrate that just\ntens of hours of real transcribed speech can effectively train TTS models to\ngenerate synthetic speech at hundreds of times the original volume while\nmaintaining high quality. To evaluate synthetic speech quality, we develop an\nintelligibility-based assessment framework and establish clear thresholds for\nwhen synthetic data benefits ASR training. Using Speech Back-Translation, we\ngenerate more than 500,000 hours of synthetic speech in ten languages and\ncontinue pre-training Whisper-large-v3, achieving average transcription error\nreductions of over 30\\%. These results highlight the scalability and\neffectiveness of Speech Back-Translation for enhancing multilingual ASR\nsystems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.16972.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6352aa7b6cfb8f149814de5e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1666361939036-noauth.jpeg",
+      "fullname": "Tianduo Wang",
+      "name": "Tianduo",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.13426",
+      "authors": [
+        {
+          "_id": "682c641925f124206513d14d",
+          "name": "Liang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "682c641925f124206513d14e",
+          "name": "Hongcheng Gao",
+          "hidden": false
+        },
+        {
+          "_id": "682c641925f124206513d14f",
+          "name": "Tianyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "682c641925f124206513d150",
+          "name": "Zhiqi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "682c641925f124206513d151",
+          "name": "Flood Sung",
+          "hidden": false
+        },
+        {
+          "_id": "682c641925f124206513d152",
+          "name": "Xinyu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "682c641925f124206513d153",
+          "name": "Yuxin Wu",
+          "hidden": false
+        },
+        {
+          "_id": "682c641925f124206513d154",
+          "name": "Baobao Chang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-19T17:54:39.000Z",
+      "submittedOnDailyAt": "2025-05-27T00:09:52.653Z",
+      "title": "G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language\n  Model via Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "61b0a4ce1b3d95b3d1ed9251",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Wwjr26vdudX5KYVTb8Q0a.png",
+        "isPro": false,
+        "fullname": "Liang Chen",
+        "user": "leonardPKU",
+        "type": "user"
+      },
+      "summary": "Vision-Language Models (VLMs) excel in many direct multimodal tasks but\nstruggle to translate this prowess into effective decision-making within\ninteractive, visually rich environments like games. This ``knowing-doing'' gap\nsignificantly limits their potential as autonomous agents, as leading VLMs\noften performing badly in simple games. To address this, we introduce VLM-Gym,\na curated reinforcement learning (RL) environment featuring diverse visual\ngames with unified interfaces and adjustable, compositional difficulty,\nspecifically designed for scalable multi-game parallel training. Leveraging\nVLM-Gym, we train G0 models using pure RL-driven self-evolution, which\ndemonstrate emergent perception and reasoning patterns. To further mitigate\nchallenges arising from game diversity, we develop G1 models. G1 incorporates a\nperception-enhanced cold start prior to RL fine-tuning. Our resulting G1 models\nconsistently surpass their teacher across all games and outperform leading\nproprietary models like Claude-3.7-Sonnet-Thinking. Systematic analysis reveals\nan intriguing finding: perception and reasoning abilities mutually bootstrap\neach other throughout the RL training process. Source code including VLM-Gym\nand RL training are released at https://github.com/chenllliang/G1 to foster\nfuture research in advancing VLMs as capable interactive agents.",
+      "upvotes": 3,
+      "discussionId": "682c641a25f124206513d1d5",
+      "githubRepo": "https://github.com/chenllliang/G1",
+      "ai_summary": "VLM-Gym addresses the \"knowing-doing\" gap in Vision-Language Models by training them in a diverse RL environment, leading to enhanced perception and reasoning abilities that surpass existing models in interactive games.",
+      "ai_keywords": [
+        "Vision-Language Models",
+        "VLM-Gym",
+        "reinforcement learning",
+        "RL",
+        "G0 models",
+        "self-evolution",
+        "G1 models",
+        "perception-enhanced cold start",
+        "RL fine-tuning"
+      ]
+    },
+    "publishedAt": "2025-05-19T13:54:39.000Z",
+    "title": "G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language\n  Model via Reinforcement Learning",
+    "summary": "Vision-Language Models (VLMs) excel in many direct multimodal tasks but\nstruggle to translate this prowess into effective decision-making within\ninteractive, visually rich environments like games. This ``knowing-doing'' gap\nsignificantly limits their potential as autonomous agents, as leading VLMs\noften performing badly in simple games. To address this, we introduce VLM-Gym,\na curated reinforcement learning (RL) environment featuring diverse visual\ngames with unified interfaces and adjustable, compositional difficulty,\nspecifically designed for scalable multi-game parallel training. Leveraging\nVLM-Gym, we train G0 models using pure RL-driven self-evolution, which\ndemonstrate emergent perception and reasoning patterns. To further mitigate\nchallenges arising from game diversity, we develop G1 models. G1 incorporates a\nperception-enhanced cold start prior to RL fine-tuning. Our resulting G1 models\nconsistently surpass their teacher across all games and outperform leading\nproprietary models like Claude-3.7-Sonnet-Thinking. Systematic analysis reveals\nan intriguing finding: perception and reasoning abilities mutually bootstrap\neach other throughout the RL training process. Source code including VLM-Gym\nand RL training are released at https://github.com/chenllliang/G1 to foster\nfuture research in advancing VLMs as capable interactive agents.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.13426.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61b0a4ce1b3d95b3d1ed9251",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Wwjr26vdudX5KYVTb8Q0a.png",
+      "fullname": "Liang Chen",
+      "name": "leonardPKU",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 16
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19602",
+      "authors": [
+        {
+          "_id": "6835239e7309025530c85ba3",
+          "name": "Kunjun Li",
+          "hidden": false
+        },
+        {
+          "_id": "6835239e7309025530c85ba4",
+          "name": "Zigeng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6835239e7309025530c85ba5",
+          "name": "Cheng-Yen Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6835239e7309025530c85ba6",
+          "name": "Jenq-Neng Hwang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-26T07:11:42.000Z",
+      "submittedOnDailyAt": "2025-05-27T01:00:44.064Z",
+      "title": "Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV\n  Cache Compression",
+      "submittedOnDailyBy": {
+        "_id": "65811eeaa2284a018e51f1ba",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/dH8UZj6Kk5HJkI1DItCNm.jpeg",
+        "isPro": true,
+        "fullname": "Zigeng Chen",
+        "user": "Zigeng",
+        "type": "user"
+      },
+      "summary": "Visual Autoregressive (VAR) modeling has garnered significant attention for\nits innovative next-scale prediction approach, which yields substantial\nimprovements in efficiency, scalability, and zero-shot generalization.\nNevertheless, the coarse-to-fine methodology inherent in VAR results in\nexponential growth of the KV cache during inference, causing considerable\nmemory consumption and computational redundancy. To address these bottlenecks,\nwe introduce ScaleKV, a novel KV cache compression framework tailored for VAR\narchitectures. ScaleKV leverages two critical observations: varying cache\ndemands across transformer layers and distinct attention patterns at different\nscales. Based on these insights, ScaleKV categorizes transformer layers into\ntwo functional groups: drafters and refiners. Drafters exhibit dispersed\nattention across multiple scales, thereby requiring greater cache capacity.\nConversely, refiners focus attention on the current token map to process local\ndetails, consequently necessitating substantially reduced cache capacity.\nScaleKV optimizes the multi-scale inference pipeline by identifying\nscale-specific drafters and refiners, facilitating differentiated cache\nmanagement tailored to each scale. Evaluation on the state-of-the-art\ntext-to-image VAR model family, Infinity, demonstrates that our approach\neffectively reduces the required KV cache memory to 10% while preserving\npixel-level fidelity.",
+      "upvotes": 2,
+      "discussionId": "683523a07309025530c85c45",
+      "ai_summary": "ScaleKV compresses the KV cache in Visual Autoregressive models by differentiating drafters and refiners across transformer layers, reducing memory consumption while maintaining high fidelity.",
+      "ai_keywords": [
+        "Visual Autoregressive",
+        "VAR",
+        "KV cache",
+        "transformer layers",
+        "drafters",
+        "refiners",
+        "memory consumption",
+        "Infinity",
+        "pixel-level fidelity"
+      ]
+    },
+    "publishedAt": "2025-05-26T03:11:42.000Z",
+    "title": "Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV\n  Cache Compression",
+    "summary": "Visual Autoregressive (VAR) modeling has garnered significant attention for\nits innovative next-scale prediction approach, which yields substantial\nimprovements in efficiency, scalability, and zero-shot generalization.\nNevertheless, the coarse-to-fine methodology inherent in VAR results in\nexponential growth of the KV cache during inference, causing considerable\nmemory consumption and computational redundancy. To address these bottlenecks,\nwe introduce ScaleKV, a novel KV cache compression framework tailored for VAR\narchitectures. ScaleKV leverages two critical observations: varying cache\ndemands across transformer layers and distinct attention patterns at different\nscales. Based on these insights, ScaleKV categorizes transformer layers into\ntwo functional groups: drafters and refiners. Drafters exhibit dispersed\nattention across multiple scales, thereby requiring greater cache capacity.\nConversely, refiners focus attention on the current token map to process local\ndetails, consequently necessitating substantially reduced cache capacity.\nScaleKV optimizes the multi-scale inference pipeline by identifying\nscale-specific drafters and refiners, facilitating differentiated cache\nmanagement tailored to each scale. Evaluation on the state-of-the-art\ntext-to-image VAR model family, Infinity, demonstrates that our approach\neffectively reduces the required KV cache memory to 10% while preserving\npixel-level fidelity.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19602.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65811eeaa2284a018e51f1ba",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/dH8UZj6Kk5HJkI1DItCNm.jpeg",
+      "fullname": "Zigeng Chen",
+      "name": "Zigeng",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19815",
+      "authors": [
+        {
+          "_id": "683523b21a2911c0774a1dc5",
+          "name": "Junnan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683523b21a2911c0774a1dc6",
+          "name": "Hongwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683523b21a2911c0774a1dc7",
+          "name": "Linchen Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "683523b21a2911c0774a1dc8",
+          "name": "Shudong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683523b21a2911c0774a1dc9",
+          "name": "Taolin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683523b21a2911c0774a1dca",
+          "name": "Zihan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "683523b21a2911c0774a1dcb",
+          "name": "Songyang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683523b21a2911c0774a1dcc",
+          "name": "Kai Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-26T10:52:17.000Z",
+      "submittedOnDailyAt": "2025-05-27T01:00:26.595Z",
+      "title": "Deciphering Trajectory-Aided LLM Reasoning: An Optimization Perspective",
+      "submittedOnDailyBy": {
+        "_id": "630716d11801ecc7d2595021",
+        "avatarUrl": "/avatars/2d36a880ce4a3cf7efc5ff3987dbeaf3.svg",
+        "isPro": false,
+        "fullname": "Songyang Zhang",
+        "user": "zsytony",
+        "type": "user"
+      },
+      "summary": "We propose a novel framework for comprehending the reasoning capabilities of\nlarge language models (LLMs) through the perspective of meta-learning. By\nconceptualizing reasoning trajectories as pseudo-gradient descent updates to\nthe LLM's parameters, we identify parallels between LLM reasoning and various\nmeta-learning paradigms. We formalize the training process for reasoning tasks\nas a meta-learning setup, with each question treated as an individual task, and\nreasoning trajectories serving as the inner loop optimization for adapting\nmodel parameters. Once trained on a diverse set of questions, the LLM develops\nfundamental reasoning capabilities that can generalize to previously unseen\nquestions. Extensive empirical evaluations substantiate the strong connection\nbetween LLM reasoning and meta-learning, exploring several issues of\nsignificant interest from a meta-learning standpoint. Our work not only\nenhances the understanding of LLM reasoning but also provides practical\ninsights for improving these models through established meta-learning\ntechniques.",
+      "upvotes": 1,
+      "discussionId": "683523b41a2911c0774a1e78"
+    },
+    "publishedAt": "2025-05-26T06:52:17.000Z",
+    "title": "Deciphering Trajectory-Aided LLM Reasoning: An Optimization Perspective",
+    "summary": "We propose a novel framework for comprehending the reasoning capabilities of\nlarge language models (LLMs) through the perspective of meta-learning. By\nconceptualizing reasoning trajectories as pseudo-gradient descent updates to\nthe LLM's parameters, we identify parallels between LLM reasoning and various\nmeta-learning paradigms. We formalize the training process for reasoning tasks\nas a meta-learning setup, with each question treated as an individual task, and\nreasoning trajectories serving as the inner loop optimization for adapting\nmodel parameters. Once trained on a diverse set of questions, the LLM develops\nfundamental reasoning capabilities that can generalize to previously unseen\nquestions. Extensive empirical evaluations substantiate the strong connection\nbetween LLM reasoning and meta-learning, exploring several issues of\nsignificant interest from a meta-learning standpoint. Our work not only\nenhances the understanding of LLM reasoning but also provides practical\ninsights for improving these models through established meta-learning\ntechniques.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19815.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "630716d11801ecc7d2595021",
+      "avatarUrl": "/avatars/2d36a880ce4a3cf7efc5ff3987dbeaf3.svg",
+      "fullname": "Songyang Zhang",
+      "name": "zsytony",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 17
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19706",
+      "authors": [
+        {
+          "_id": "6835182873a16b09c94ac4d2",
+          "name": "Tej Deep Pala",
+          "hidden": false
+        },
+        {
+          "_id": "6835182873a16b09c94ac4d3",
+          "name": "Panshul Sharma",
+          "hidden": false
+        },
+        {
+          "_id": "6835182873a16b09c94ac4d4",
+          "name": "Amir Zadeh",
+          "hidden": false
+        },
+        {
+          "_id": "6835182873a16b09c94ac4d5",
+          "name": "Chuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6835182873a16b09c94ac4d6",
+          "name": "Soujanya Poria",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/626b626405fe1cb65725aca1/OPFuTq1oRiXqqwJPyKgUx.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/626b626405fe1cb65725aca1/VsJ0SH2BgYbBQTS55nWSB.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/626b626405fe1cb65725aca1/qreWH-gdINsiHnTwLQcOL.png"
+      ],
+      "publishedAt": "2025-05-26T08:56:36.000Z",
+      "submittedOnDailyAt": "2025-05-27T00:29:18.345Z",
+      "title": "Error Typing for Smarter Rewards: Improving Process Reward Models with\n  Error-Aware Hierarchical Supervision",
+      "submittedOnDailyBy": {
+        "_id": "626b626405fe1cb65725aca1",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/626b626405fe1cb65725aca1/aa-Lata46I3fXOmMetvXH.jpeg",
+        "isPro": false,
+        "fullname": "Soujanya Poria",
+        "user": "soujanyaporia",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) are prone to hallucination, especially during\nmulti-hop and reasoning-intensive tasks such as mathematical problem solving.\nWhile Outcome Reward Models verify only final answers, Process Reward Models\n(PRMs) score each intermediate step to steer generation toward coherent\nsolutions. We introduce PathFinder-PRM, a novel hierarchical, error-aware\ndiscriminative PRM that first classifies math and consistency errors at each\nstep, then combines these fine-grained signals to estimate step correctness. To\ntrain PathFinder-PRM, we construct a 400K-sample dataset by enriching the\nhuman-annotated PRM800K corpus and RLHFlow Mistral traces with\nthree-dimensional step-level labels. On PRMBench, PathFinder-PRM achieves a new\nstate-of-the-art PRMScore of 67.7, outperforming the prior best (65.5) while\nusing 3 times less data. When applied to reward guided greedy search, our model\nyields prm@8 48.3, a +1.5 point gain over the strongest baseline. These results\ndemonstrate that decoupled error detection and reward estimation not only boost\nfine-grained error detection but also substantially improve end-to-end,\nreward-guided mathematical reasoning with greater data efficiency.",
+      "upvotes": 1,
+      "discussionId": "6835182973a16b09c94ac514",
+      "githubRepo": "https://github.com/declare-lab/PathFinder-PRM",
+      "ai_summary": "PathFinder-PRM, a hierarchical and error-aware Process Reward Model, improves mathematical problem-solving by fine-grained error classification and step correctness estimation, achieving state-of-the-art PRMScore with reduced data usage.",
+      "ai_keywords": [
+        "Large Language Models",
+        "hallucination",
+        "mathematical problem solving",
+        "Outcome Reward Models",
+        "Process Reward Models",
+        "PathFinder-PRM",
+        "hierarchical",
+        "error-aware",
+        "discriminative PRM",
+        "math errors",
+        "consistency errors",
+        "step correctness",
+        "PRMBench",
+        "PRMScore",
+        "reward guided greedy search",
+        "prm@8",
+        "data efficiency"
+      ]
+    },
+    "publishedAt": "2025-05-26T04:56:36.000Z",
+    "title": "Error Typing for Smarter Rewards: Improving Process Reward Models with\n  Error-Aware Hierarchical Supervision",
+    "summary": "Large Language Models (LLMs) are prone to hallucination, especially during\nmulti-hop and reasoning-intensive tasks such as mathematical problem solving.\nWhile Outcome Reward Models verify only final answers, Process Reward Models\n(PRMs) score each intermediate step to steer generation toward coherent\nsolutions. We introduce PathFinder-PRM, a novel hierarchical, error-aware\ndiscriminative PRM that first classifies math and consistency errors at each\nstep, then combines these fine-grained signals to estimate step correctness. To\ntrain PathFinder-PRM, we construct a 400K-sample dataset by enriching the\nhuman-annotated PRM800K corpus and RLHFlow Mistral traces with\nthree-dimensional step-level labels. On PRMBench, PathFinder-PRM achieves a new\nstate-of-the-art PRMScore of 67.7, outperforming the prior best (65.5) while\nusing 3 times less data. When applied to reward guided greedy search, our model\nyields prm@8 48.3, a +1.5 point gain over the strongest baseline. These results\ndemonstrate that decoupled error detection and reward estimation not only boost\nfine-grained error detection but also substantially improve end-to-end,\nreward-guided mathematical reasoning with greater data efficiency.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/626b626405fe1cb65725aca1/OPFuTq1oRiXqqwJPyKgUx.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/626b626405fe1cb65725aca1/VsJ0SH2BgYbBQTS55nWSB.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/626b626405fe1cb65725aca1/qreWH-gdINsiHnTwLQcOL.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19706.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "626b626405fe1cb65725aca1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/626b626405fe1cb65725aca1/aa-Lata46I3fXOmMetvXH.jpeg",
+      "fullname": "Soujanya Poria",
+      "name": "soujanyaporia",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19630",
+      "authors": [
+        {
+          "_id": "683522abd68b329aeb799c46",
+          "name": "Yichun Feng",
+          "hidden": false
+        },
+        {
+          "_id": "683522abd68b329aeb799c47",
+          "name": "Jiawei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683522abd68b329aeb799c48",
+          "name": "Lu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "683522abd68b329aeb799c49",
+          "name": "Yixue Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-26T07:48:14.000Z",
+      "submittedOnDailyAt": "2025-05-27T00:56:34.903Z",
+      "title": "DoctorAgent-RL: A Multi-Agent Collaborative Reinforcement Learning\n  System for Multi-Turn Clinical Dialogue",
+      "submittedOnDailyBy": {
+        "_id": "64060b49a577649430bf6974",
+        "avatarUrl": "/avatars/74d0d6ed656b593e4c101b09edf18c7a.svg",
+        "isPro": false,
+        "fullname": "Jiawei Wang",
+        "user": "Jarvis1111",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have demonstrated excellent capabilities in the\nfield of biomedical question answering, but their application in real-world\nclinical consultations still faces core challenges. Existing systems rely on a\none-way information transmission mode where patients must fully describe their\nsymptoms in a single round, leading to nonspecific diagnostic recommendations\nwhen complaints are vague. Traditional multi-turn dialogue methods based on\nsupervised learning are constrained by static data-driven paradigms, lacking\ngeneralizability and struggling to intelligently extract key clinical\ninformation. To address these limitations, we propose DoctorAgent-RL, a\nreinforcement learning (RL)-based multi-agent collaborative framework that\nmodels medical consultations as a dynamic decision-making process under\nuncertainty. The doctor agent continuously optimizes its questioning strategy\nwithin the RL framework through multi-turn interactions with the patient agent,\ndynamically adjusting its information-gathering path based on comprehensive\nrewards from the Consultation Evaluator. This RL fine-tuning mechanism enables\nLLMs to autonomously develop interaction strategies aligned with clinical\nreasoning logic, rather than superficially imitating patterns in existing\ndialogue data. Notably, we constructed MTMedDialog, the first English\nmulti-turn medical consultation dataset capable of simulating patient\ninteractions. Experiments demonstrate that DoctorAgent-RL outperforms existing\nmodels in both multi-turn reasoning capability and final diagnostic\nperformance, demonstrating practical value in assisting clinical consultations.\nhttps://github.com/JarvisUSTC/DoctorAgent-RL",
+      "upvotes": 1,
+      "discussionId": "683522add68b329aeb799cc4",
+      "githubRepo": "https://github.com/JarvisUSTC/DoctorAgent-RL",
+      "ai_summary": "DoctorAgent-RL, a reinforcement learning-based multi-agent framework, enhances multi-turn reasoning and diagnostic performance in medical consultations compared to existing systems.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "multi-agent collaborative framework",
+        "dynamic decision-making",
+        "uncertainty",
+        "questioning strategy",
+        "interaction strategy",
+        "clinical reasoning",
+        "multi-turn medical consultation dataset",
+        "diagnostic performance"
+      ]
+    },
+    "publishedAt": "2025-05-26T03:48:14.000Z",
+    "title": "DoctorAgent-RL: A Multi-Agent Collaborative Reinforcement Learning\n  System for Multi-Turn Clinical Dialogue",
+    "summary": "Large language models (LLMs) have demonstrated excellent capabilities in the\nfield of biomedical question answering, but their application in real-world\nclinical consultations still faces core challenges. Existing systems rely on a\none-way information transmission mode where patients must fully describe their\nsymptoms in a single round, leading to nonspecific diagnostic recommendations\nwhen complaints are vague. Traditional multi-turn dialogue methods based on\nsupervised learning are constrained by static data-driven paradigms, lacking\ngeneralizability and struggling to intelligently extract key clinical\ninformation. To address these limitations, we propose DoctorAgent-RL, a\nreinforcement learning (RL)-based multi-agent collaborative framework that\nmodels medical consultations as a dynamic decision-making process under\nuncertainty. The doctor agent continuously optimizes its questioning strategy\nwithin the RL framework through multi-turn interactions with the patient agent,\ndynamically adjusting its information-gathering path based on comprehensive\nrewards from the Consultation Evaluator. This RL fine-tuning mechanism enables\nLLMs to autonomously develop interaction strategies aligned with clinical\nreasoning logic, rather than superficially imitating patterns in existing\ndialogue data. Notably, we constructed MTMedDialog, the first English\nmulti-turn medical consultation dataset capable of simulating patient\ninteractions. Experiments demonstrate that DoctorAgent-RL outperforms existing\nmodels in both multi-turn reasoning capability and final diagnostic\nperformance, demonstrating practical value in assisting clinical consultations.\nhttps://github.com/JarvisUSTC/DoctorAgent-RL",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19630.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64060b49a577649430bf6974",
+      "avatarUrl": "/avatars/74d0d6ed656b593e4c101b09edf18c7a.svg",
+      "fullname": "Jiawei Wang",
+      "name": "Jarvis1111",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19590",
+      "authors": [
+        {
+          "_id": "683523bcb0f9c65224abd710",
+          "name": "Xuandong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "683523bcb0f9c65224abd711",
+          "name": "Zhewei Kang",
+          "hidden": false
+        },
+        {
+          "_id": "683523bcb0f9c65224abd712",
+          "name": "Aosong Feng",
+          "hidden": false
+        },
+        {
+          "_id": "683523bcb0f9c65224abd713",
+          "name": "Sergey Levine",
+          "hidden": false
+        },
+        {
+          "_id": "683523bcb0f9c65224abd714",
+          "name": "Dawn Song",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-26T07:01:06.000Z",
+      "submittedOnDailyAt": "2025-05-27T01:00:44.089Z",
+      "title": "Learning to Reason without External Rewards",
+      "submittedOnDailyBy": {
+        "_id": "6275a465597c70eb8949fce5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6275a465597c70eb8949fce5/ph4UogqMurMB0hSXZC38w.png",
+        "isPro": false,
+        "fullname": "Xuandong Zhao",
+        "user": "Xuandong",
+        "type": "user"
+      },
+      "summary": "Training large language models (LLMs) for complex reasoning via Reinforcement\nLearning with Verifiable Rewards (RLVR) is effective but limited by reliance on\ncostly, domain-specific supervision. We explore Reinforcement Learning from\nInternal Feedback (RLIF), a framework that enables LLMs to learn from intrinsic\nsignals without external rewards or labeled data. We propose Intuitor, an RLIF\nmethod that uses a model's own confidence, termed self-certainty, as its sole\nreward signal. Intuitor replaces external rewards in Group Relative Policy\nOptimization (GRPO) with self-certainty scores, enabling fully unsupervised\nlearning. Experiments demonstrate that Intuitor matches GRPO's performance on\nmathematical benchmarks while achieving superior generalization to\nout-of-domain tasks like code generation, without requiring gold solutions or\ntest cases. Our findings show that intrinsic model signals can drive effective\nlearning across domains, offering a scalable alternative to RLVR for autonomous\nAI systems where verifiable rewards are unavailable. Code is available at\nhttps://github.com/sunblaze-ucb/Intuitor",
+      "upvotes": 1,
+      "discussionId": "683523bcb0f9c65224abd736",
+      "githubRepo": "https://github.com/sunblaze-ucb/Intuitor"
+    },
+    "publishedAt": "2025-05-26T03:01:06.000Z",
+    "title": "Learning to Reason without External Rewards",
+    "summary": "Training large language models (LLMs) for complex reasoning via Reinforcement\nLearning with Verifiable Rewards (RLVR) is effective but limited by reliance on\ncostly, domain-specific supervision. We explore Reinforcement Learning from\nInternal Feedback (RLIF), a framework that enables LLMs to learn from intrinsic\nsignals without external rewards or labeled data. We propose Intuitor, an RLIF\nmethod that uses a model's own confidence, termed self-certainty, as its sole\nreward signal. Intuitor replaces external rewards in Group Relative Policy\nOptimization (GRPO) with self-certainty scores, enabling fully unsupervised\nlearning. Experiments demonstrate that Intuitor matches GRPO's performance on\nmathematical benchmarks while achieving superior generalization to\nout-of-domain tasks like code generation, without requiring gold solutions or\ntest cases. Our findings show that intrinsic model signals can drive effective\nlearning across domains, offering a scalable alternative to RLVR for autonomous\nAI systems where verifiable rewards are unavailable. Code is available at\nhttps://github.com/sunblaze-ucb/Intuitor",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19590.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6275a465597c70eb8949fce5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6275a465597c70eb8949fce5/ph4UogqMurMB0hSXZC38w.png",
+      "fullname": "Xuandong Zhao",
+      "name": "Xuandong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19443",
+      "authors": [
+        {
+          "_id": "683517bf6bb42c7e99bd3b5c",
+          "name": "Ranjan Sapkota",
+          "hidden": false
+        },
+        {
+          "_id": "683517bf6bb42c7e99bd3b5d",
+          "name": "Konstantinos I. Roumeliotis",
+          "hidden": false
+        },
+        {
+          "_id": "683517bf6bb42c7e99bd3b5e",
+          "name": "Manoj Karkee",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/ASTag4z8Os01guAbKpxI6.jpeg",
+        "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/EgtU3Vsfc22Hko-FbRQ51.jpeg"
+      ],
+      "publishedAt": "2025-05-26T03:00:21.000Z",
+      "submittedOnDailyAt": "2025-05-27T00:12:16.499Z",
+      "title": "Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications\n  of Agentic AI",
+      "submittedOnDailyBy": {
+        "_id": "67ddd80896ac367438d400a6",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/C1NY6Nv5i0erwLnzCrTUM.png",
+        "isPro": false,
+        "fullname": "Ranjan Sapkota",
+        "user": "RanjanSapkota",
+        "type": "user"
+      },
+      "summary": "This review presents a comprehensive analysis of two emerging paradigms in\nAI-assisted software development: vibe coding and agentic coding. While both\nleverage large language models (LLMs), they differ fundamentally in autonomy,\narchitectural design, and the role of the developer. Vibe coding emphasizes\nintuitive, human-in-the-loop interaction through prompt-based, conversational\nworkflows that support ideation, experimentation, and creative exploration. In\ncontrast, agentic coding enables autonomous software development through\ngoal-driven agents capable of planning, executing, testing, and iterating tasks\nwith minimal human intervention. We propose a detailed taxonomy spanning\nconceptual foundations, execution models, feedback loops, safety mechanisms,\ndebugging strategies, and real-world tool ecosystems. Through comparative\nworkflow analysis and 20 detailed use cases, we illustrate how vibe systems\nthrive in early-stage prototyping and education, while agentic systems excel in\nenterprise-grade automation, codebase refactoring, and CI/CD integration. We\nfurther examine emerging trends in hybrid architectures, where natural language\ninterfaces are coupled with autonomous execution pipelines. Finally, we\narticulate a future roadmap for agentic AI, outlining the infrastructure needed\nfor trustworthy, explainable, and collaborative systems. Our findings suggest\nthat successful AI software engineering will rely not on choosing one paradigm,\nbut on harmonizing their strengths within a unified, human-centered development\nlifecycle.",
+      "upvotes": 1,
+      "discussionId": "683517c06bb42c7e99bd3b92",
+      "ai_summary": "A review contrasts vibe coding and agentic coding paradigms, highlighting their differences in interaction, autonomy, and application areas in AI-assisted software development.",
+      "ai_keywords": [
+        "large language models",
+        "vibe coding",
+        "agentic coding",
+        "prompt-based",
+        "conversational workflows",
+        "goal-driven agents",
+        "execution models",
+        "feedback loops",
+        "safety mechanisms",
+        "debugging strategies",
+        "tool ecosystems",
+        "hybrid architectures",
+        "autonomous execution pipelines",
+        "trustworthy",
+        "explainable",
+        "collaborative systems",
+        "unified",
+        "human-centered development lifecycle"
+      ]
+    },
+    "publishedAt": "2025-05-25T23:00:21.000Z",
+    "title": "Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications\n  of Agentic AI",
+    "summary": "This review presents a comprehensive analysis of two emerging paradigms in\nAI-assisted software development: vibe coding and agentic coding. While both\nleverage large language models (LLMs), they differ fundamentally in autonomy,\narchitectural design, and the role of the developer. Vibe coding emphasizes\nintuitive, human-in-the-loop interaction through prompt-based, conversational\nworkflows that support ideation, experimentation, and creative exploration. In\ncontrast, agentic coding enables autonomous software development through\ngoal-driven agents capable of planning, executing, testing, and iterating tasks\nwith minimal human intervention. We propose a detailed taxonomy spanning\nconceptual foundations, execution models, feedback loops, safety mechanisms,\ndebugging strategies, and real-world tool ecosystems. Through comparative\nworkflow analysis and 20 detailed use cases, we illustrate how vibe systems\nthrive in early-stage prototyping and education, while agentic systems excel in\nenterprise-grade automation, codebase refactoring, and CI/CD integration. We\nfurther examine emerging trends in hybrid architectures, where natural language\ninterfaces are coupled with autonomous execution pipelines. Finally, we\narticulate a future roadmap for agentic AI, outlining the infrastructure needed\nfor trustworthy, explainable, and collaborative systems. Our findings suggest\nthat successful AI software engineering will rely not on choosing one paradigm,\nbut on harmonizing their strengths within a unified, human-centered development\nlifecycle.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/ASTag4z8Os01guAbKpxI6.jpeg",
+      "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/EgtU3Vsfc22Hko-FbRQ51.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19443.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67ddd80896ac367438d400a6",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/C1NY6Nv5i0erwLnzCrTUM.png",
+      "fullname": "Ranjan Sapkota",
+      "name": "RanjanSapkota",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.10887",
+      "authors": [
+        {
+          "_id": "682b5387f1e88185bddb0643",
+          "user": {
+            "_id": "648a2042e8bee533291da413",
+            "avatarUrl": "/avatars/83b918ddd7e2130a1c72ae74606068dc.svg",
+            "isPro": false,
+            "fullname": "Bin Lei",
+            "user": "Bin12345",
+            "type": "user"
+          },
+          "name": "Bin Lei",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-20T07:22:15.514Z",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb0644",
+          "name": "Weitai Kang",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb0645",
+          "name": "Zijian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb0646",
+          "name": "Winson Chen",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb0647",
+          "name": "Xi Xie",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb0648",
+          "name": "Shan Zuo",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb0649",
+          "name": "Mimi Xie",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb064a",
+          "name": "Ali Payani",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb064b",
+          "name": "Mingyi Hong",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb064c",
+          "name": "Yan Yan",
+          "hidden": false
+        },
+        {
+          "_id": "682b5387f1e88185bddb064d",
+          "name": "Caiwen Ding",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-16T05:43:27.000Z",
+      "submittedOnDailyAt": "2025-05-27T01:07:44.773Z",
+      "title": "InfantAgent-Next: A Multimodal Generalist Agent for Automated Computer\n  Interaction",
+      "submittedOnDailyBy": {
+        "_id": "648a2042e8bee533291da413",
+        "avatarUrl": "/avatars/83b918ddd7e2130a1c72ae74606068dc.svg",
+        "isPro": false,
+        "fullname": "Bin Lei",
+        "user": "Bin12345",
+        "type": "user"
+      },
+      "summary": "This paper introduces InfantAgent-Next, a generalist agent capable\nof interacting with computers in a multimodal manner, encompassing text,\nimages, audio, and video. Unlike existing approaches that either build\nintricate workflows around a single large model or only provide workflow\nmodularity, our agent integrates tool-based and pure vision agents within a\nhighly modular architecture, enabling different models to collaboratively solve\ndecoupled tasks in a step-by-step manner. Our generality is demonstrated by our\nability to evaluate not only pure vision-based real-world benchmarks (i.e.,\nOSWorld), but also more general or tool-intensive benchmarks (e.g., GAIA and\nSWE-Bench). Specifically, we achieve 7.27% accuracy on OSWorld,\nhigher than Claude-Computer-Use. Codes and evaluation scripts are open-sourced\nat https://github.com/bin123apple/InfantAgent.",
+      "upvotes": 1,
+      "discussionId": "682b5389f1e88185bddb070d",
+      "githubRepo": "https://github.com/bin123apple/InfantAgent",
+      "ai_summary": "InfantAgent-Next is a multimodal agent that integrates tool-based and vision models in a modular architecture to solve various benchmarks, including OSWorld, GAIA, and SWE-Bench.",
+      "ai_keywords": [
+        "multimodal agent",
+        "tool-based agents",
+        "pure vision agents",
+        "modular architecture",
+        "OSWorld",
+        "GAIA",
+        "SWE-Bench"
+      ]
+    },
+    "publishedAt": "2025-05-16T01:43:27.000Z",
+    "title": "InfantAgent-Next: A Multimodal Generalist Agent for Automated Computer\n  Interaction",
+    "summary": "This paper introduces InfantAgent-Next, a generalist agent capable\nof interacting with computers in a multimodal manner, encompassing text,\nimages, audio, and video. Unlike existing approaches that either build\nintricate workflows around a single large model or only provide workflow\nmodularity, our agent integrates tool-based and pure vision agents within a\nhighly modular architecture, enabling different models to collaboratively solve\ndecoupled tasks in a step-by-step manner. Our generality is demonstrated by our\nability to evaluate not only pure vision-based real-world benchmarks (i.e.,\nOSWorld), but also more general or tool-intensive benchmarks (e.g., GAIA and\nSWE-Bench). Specifically, we achieve 7.27% accuracy on OSWorld,\nhigher than Claude-Computer-Use. Codes and evaluation scripts are open-sourced\nat https://github.com/bin123apple/InfantAgent.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.10887.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "648a2042e8bee533291da413",
+      "avatarUrl": "/avatars/83b918ddd7e2130a1c72ae74606068dc.svg",
+      "fullname": "Bin Lei",
+      "name": "Bin12345",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 20
+    },
+    "isAuthorParticipating": true
+  }
+]
