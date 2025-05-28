@@ -1,0 +1,1382 @@
+[
+  {
+    "paper": {
+      "id": "2505.21497",
+      "authors": [
+        {
+          "_id": "68366e5a2ae719660434bb5a",
+          "name": "Wei Pang",
+          "hidden": false
+        },
+        {
+          "_id": "68366e5a2ae719660434bb5b",
+          "name": "Kevin Qinghong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68366e5a2ae719660434bb5c",
+          "name": "Xiangru Jian",
+          "hidden": false
+        },
+        {
+          "_id": "68366e5a2ae719660434bb5d",
+          "name": "Xi He",
+          "hidden": false
+        },
+        {
+          "_id": "68366e5a2ae719660434bb5e",
+          "name": "Philip Torr",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T17:58:49.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:45:27.484Z",
+      "title": "Paper2Poster: Towards Multimodal Poster Automation from Scientific\n  Papers",
+      "submittedOnDailyBy": {
+        "_id": "64440be5af034cdfd69ca3a7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+        "isPro": false,
+        "fullname": "Qinghong (Kevin) Lin",
+        "user": "KevinQHLin",
+        "type": "user"
+      },
+      "summary": "Academic poster generation is a crucial yet challenging task in scientific\ncommunication, requiring the compression of long-context interleaved documents\ninto a single, visually coherent page. To address this challenge, we introduce\nthe first benchmark and metric suite for poster generation, which pairs recent\nconference papers with author-designed posters and evaluates outputs on\n(i)Visual Quality-semantic alignment with human posters, (ii)Textual\nCoherence-language fluency, (iii)Holistic Assessment-six fine-grained aesthetic\nand informational criteria scored by a VLM-as-judge, and notably\n(iv)PaperQuiz-the poster's ability to convey core paper content as measured by\nVLMs answering generated quizzes. Building on this benchmark, we propose\nPosterAgent, a top-down, visual-in-the-loop multi-agent pipeline: the (a)Parser\ndistills the paper into a structured asset library; the (b)Planner aligns\ntext-visual pairs into a binary-tree layout that preserves reading order and\nspatial balance; and the (c)Painter-Commenter loop refines each panel by\nexecuting rendering code and using VLM feedback to eliminate overflow and\nensure alignment. In our comprehensive evaluation, we find that GPT-4o\noutputs-though visually appealing at first glance-often exhibit noisy text and\npoor PaperQuiz scores, and we find that reader engagement is the primary\naesthetic bottleneck, as human-designed posters rely largely on visual\nsemantics to convey meaning. Our fully open-source variants (e.g. based on the\nQwen-2.5 series) outperform existing 4o-driven multi-agent systems across\nnearly all metrics, while using 87% fewer tokens. It transforms a 22-page paper\ninto a finalized yet editable .pptx poster - all for just $0.005. These\nfindings chart clear directions for the next generation of fully automated\nposter-generation models. The code and datasets are available at\nhttps://github.com/Paper2Poster/Paper2Poster.",
+      "upvotes": 18,
+      "discussionId": "68366e5d2ae719660434bc70",
+      "projectPage": "https://paper2poster.github.io/",
+      "githubRepo": "https://github.com/Paper2Poster/Paper2Poster"
+    },
+    "publishedAt": "2025-05-27T13:58:49.000Z",
+    "title": "Paper2Poster: Towards Multimodal Poster Automation from Scientific\n  Papers",
+    "summary": "Academic poster generation is a crucial yet challenging task in scientific\ncommunication, requiring the compression of long-context interleaved documents\ninto a single, visually coherent page. To address this challenge, we introduce\nthe first benchmark and metric suite for poster generation, which pairs recent\nconference papers with author-designed posters and evaluates outputs on\n(i)Visual Quality-semantic alignment with human posters, (ii)Textual\nCoherence-language fluency, (iii)Holistic Assessment-six fine-grained aesthetic\nand informational criteria scored by a VLM-as-judge, and notably\n(iv)PaperQuiz-the poster's ability to convey core paper content as measured by\nVLMs answering generated quizzes. Building on this benchmark, we propose\nPosterAgent, a top-down, visual-in-the-loop multi-agent pipeline: the (a)Parser\ndistills the paper into a structured asset library; the (b)Planner aligns\ntext-visual pairs into a binary-tree layout that preserves reading order and\nspatial balance; and the (c)Painter-Commenter loop refines each panel by\nexecuting rendering code and using VLM feedback to eliminate overflow and\nensure alignment. In our comprehensive evaluation, we find that GPT-4o\noutputs-though visually appealing at first glance-often exhibit noisy text and\npoor PaperQuiz scores, and we find that reader engagement is the primary\naesthetic bottleneck, as human-designed posters rely largely on visual\nsemantics to convey meaning. Our fully open-source variants (e.g. based on the\nQwen-2.5 series) outperform existing 4o-driven multi-agent systems across\nnearly all metrics, while using 87% fewer tokens. It transforms a 22-page paper\ninto a finalized yet editable .pptx poster - all for just $0.005. These\nfindings chart clear directions for the next generation of fully automated\nposter-generation models. The code and datasets are available at\nhttps://github.com/Paper2Poster/Paper2Poster.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21497.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64440be5af034cdfd69ca3a7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+      "fullname": "Qinghong (Kevin) Lin",
+      "name": "KevinQHLin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 33
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.18445",
+      "authors": [
+        {
+          "_id": "68354726f57f43667ec539d8",
+          "name": "Yiren Song",
+          "hidden": false
+        },
+        {
+          "_id": "68354726f57f43667ec539d9",
+          "name": "Cheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68354726f57f43667ec539da",
+          "user": {
+            "_id": "63a55320ce5763e06f78519c",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1671779060549-noauth.jpeg",
+            "isPro": false,
+            "fullname": "Mike Shou",
+            "user": "mikeshou",
+            "type": "user"
+          },
+          "name": "Mike Zheng Shou",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-27T05:01:31.829Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-24T01:00:20.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:16:03.000Z",
+      "title": "OmniConsistency: Learning Style-Agnostic Consistency from Paired\n  Stylization Data",
+      "submittedOnDailyBy": {
+        "_id": "64311a95034ecbefddd141ef",
+        "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+        "isPro": true,
+        "fullname": "Yiren Song",
+        "user": "yiren98",
+        "type": "user"
+      },
+      "summary": "Diffusion models have advanced image stylization significantly, yet two core\nchallenges persist: (1) maintaining consistent stylization in complex scenes,\nparticularly identity, composition, and fine details, and (2) preventing style\ndegradation in image-to-image pipelines with style LoRAs. GPT-4o's exceptional\nstylization consistency highlights the performance gap between open-source\nmethods and proprietary models. To bridge this gap, we propose\nOmniConsistency, a universal consistency plugin leveraging large-scale\nDiffusion Transformers (DiTs). OmniConsistency contributes: (1) an in-context\nconsistency learning framework trained on aligned image pairs for robust\ngeneralization; (2) a two-stage progressive learning strategy decoupling style\nlearning from consistency preservation to mitigate style degradation; and (3) a\nfully plug-and-play design compatible with arbitrary style LoRAs under the Flux\nframework. Extensive experiments show that OmniConsistency significantly\nenhances visual coherence and aesthetic quality, achieving performance\ncomparable to commercial state-of-the-art model GPT-4o.",
+      "upvotes": 16,
+      "discussionId": "6835472bf57f43667ec53ae5",
+      "ai_summary": "OmniConsistency, using large-scale Diffusion Transformers, enhances stylization consistency and generalization in image-to-image pipelines without style degradation.",
+      "ai_keywords": [
+        "diffusion models",
+        "OmniConsistency",
+        "Diffusion Transformers",
+        "DiTs",
+        "in-context consistency learning",
+        "two-stage progressive learning",
+        "style LoRAs",
+        "Flux framework"
+      ]
+    },
+    "publishedAt": "2025-05-23T21:00:20.000Z",
+    "title": "OmniConsistency: Learning Style-Agnostic Consistency from Paired\n  Stylization Data",
+    "summary": "Diffusion models have advanced image stylization significantly, yet two core\nchallenges persist: (1) maintaining consistent stylization in complex scenes,\nparticularly identity, composition, and fine details, and (2) preventing style\ndegradation in image-to-image pipelines with style LoRAs. GPT-4o's exceptional\nstylization consistency highlights the performance gap between open-source\nmethods and proprietary models. To bridge this gap, we propose\nOmniConsistency, a universal consistency plugin leveraging large-scale\nDiffusion Transformers (DiTs). OmniConsistency contributes: (1) an in-context\nconsistency learning framework trained on aligned image pairs for robust\ngeneralization; (2) a two-stage progressive learning strategy decoupling style\nlearning from consistency preservation to mitigate style degradation; and (3) a\nfully plug-and-play design compatible with arbitrary style LoRAs under the Flux\nframework. Extensive experiments show that OmniConsistency significantly\nenhances visual coherence and aesthetic quality, achieving performance\ncomparable to commercial state-of-the-art model GPT-4o.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.18445.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64311a95034ecbefddd141ef",
+      "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+      "fullname": "Yiren Song",
+      "name": "yiren98",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 11
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.18875",
+      "authors": [
+        {
+          "_id": "683536db6d3dc82656b13765",
+          "user": {
+            "_id": "642b970ceb31218a5f204a29",
+            "avatarUrl": "/avatars/582287f477bbb1a0842787145e375fd3.svg",
+            "isPro": false,
+            "fullname": "andy-yang",
+            "user": "andy-yang",
+            "type": "user"
+          },
+          "name": "Shuo Yang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-27T07:50:23.533Z",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b13766",
+          "user": {
+            "_id": "66ce751a8ec9fda2cf5a9e85",
+            "avatarUrl": "/avatars/c17093ca81dad007b3e50bae503955a7.svg",
+            "isPro": false,
+            "fullname": "Haocheng Xi",
+            "user": "xihc-ucb",
+            "type": "user"
+          },
+          "name": "Haocheng Xi",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-27T07:49:30.035Z",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b13767",
+          "user": {
+            "_id": "6549b0a808775ce78e535c6a",
+            "avatarUrl": "/avatars/942066356843d0c424375937f157c975.svg",
+            "isPro": false,
+            "fullname": "Yilong Zhao",
+            "user": "ylzhao",
+            "type": "user"
+          },
+          "name": "Yilong Zhao",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-27T07:49:32.515Z",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b13768",
+          "name": "Muyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b13769",
+          "name": "Jintao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b1376a",
+          "name": "Han Cai",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b1376b",
+          "name": "Yujun Lin",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b1376c",
+          "name": "Xiuyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b1376d",
+          "name": "Chenfeng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b1376e",
+          "name": "Kelly Peng",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b1376f",
+          "name": "Jianfei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b13770",
+          "name": "Song Han",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b13771",
+          "name": "Kurt Keutzer",
+          "hidden": false
+        },
+        {
+          "_id": "683536db6d3dc82656b13772",
+          "name": "Ion Stoica",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-24T21:30:29.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:12:46.572Z",
+      "title": "Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via\n  Semantic-Aware Permutation",
+      "submittedOnDailyBy": {
+        "_id": "66ce751a8ec9fda2cf5a9e85",
+        "avatarUrl": "/avatars/c17093ca81dad007b3e50bae503955a7.svg",
+        "isPro": false,
+        "fullname": "Haocheng Xi",
+        "user": "xihc-ucb",
+        "type": "user"
+      },
+      "summary": "Diffusion Transformers (DiTs) are essential for video generation but suffer\nfrom significant latency due to the quadratic complexity of attention. By\ncomputing only critical tokens, sparse attention reduces computational costs\nand offers a promising acceleration approach. However, we identify that\nexisting methods fail to approach optimal generation quality under the same\ncomputation budget for two reasons: (1) Inaccurate critical token\nidentification: current methods cluster tokens based on position rather than\nsemantics, leading to imprecise aggregated representations. (2) Excessive\ncomputation waste: critical tokens are scattered among non-critical ones,\nleading to wasted computation on GPUs, which are optimized for processing\ncontiguous tokens. In this paper, we propose SVG2, a training-free framework\nthat maximizes identification accuracy and minimizes computation waste,\nachieving a Pareto frontier trade-off between generation quality and\nefficiency. The core of SVG2 is semantic-aware permutation, which clusters and\nreorders tokens based on semantic similarity using k-means. This approach\nensures both a precise cluster representation, improving identification\naccuracy, and a densified layout of critical tokens, enabling efficient\ncomputation without padding. Additionally, SVG2 integrates top-p dynamic budget\ncontrol and customized kernel implementations, achieving up to 2.30x and 1.89x\nspeedup while maintaining a PSNR of up to 30 and 26 on HunyuanVideo and Wan\n2.1, respectively.",
+      "upvotes": 13,
+      "discussionId": "683536dd6d3dc82656b13815",
+      "ai_summary": "SVG2 is a training-free framework that enhances video generation efficiency and quality by accurately identifying and processing critical tokens using semantic-aware permutation and dynamic budget control.",
+      "ai_keywords": [
+        "Diffusion Transformers",
+        "sparse attention",
+        "critical tokens",
+        "semantic similarity",
+        "semantic-aware permutation",
+        "k-means",
+        "top-p dynamic budget control"
+      ]
+    },
+    "publishedAt": "2025-05-24T17:30:29.000Z",
+    "title": "Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via\n  Semantic-Aware Permutation",
+    "summary": "Diffusion Transformers (DiTs) are essential for video generation but suffer\nfrom significant latency due to the quadratic complexity of attention. By\ncomputing only critical tokens, sparse attention reduces computational costs\nand offers a promising acceleration approach. However, we identify that\nexisting methods fail to approach optimal generation quality under the same\ncomputation budget for two reasons: (1) Inaccurate critical token\nidentification: current methods cluster tokens based on position rather than\nsemantics, leading to imprecise aggregated representations. (2) Excessive\ncomputation waste: critical tokens are scattered among non-critical ones,\nleading to wasted computation on GPUs, which are optimized for processing\ncontiguous tokens. In this paper, we propose SVG2, a training-free framework\nthat maximizes identification accuracy and minimizes computation waste,\nachieving a Pareto frontier trade-off between generation quality and\nefficiency. The core of SVG2 is semantic-aware permutation, which clusters and\nreorders tokens based on semantic similarity using k-means. This approach\nensures both a precise cluster representation, improving identification\naccuracy, and a densified layout of critical tokens, enabling efficient\ncomputation without padding. Additionally, SVG2 integrates top-p dynamic budget\ncontrol and customized kernel implementations, achieving up to 2.30x and 1.89x\nspeedup while maintaining a PSNR of up to 30 and 26 on HunyuanVideo and Wan\n2.1, respectively.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.18875.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66ce751a8ec9fda2cf5a9e85",
+      "avatarUrl": "/avatars/c17093ca81dad007b3e50bae503955a7.svg",
+      "fullname": "Haocheng Xi",
+      "name": "xihc-ucb",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.21374",
+      "authors": [
+        {
+          "_id": "68366975d4ea32a1b4eedd82",
+          "name": "Junhao Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68366975d4ea32a1b4eedd83",
+          "name": "Yuying Ge",
+          "hidden": false
+        },
+        {
+          "_id": "68366975d4ea32a1b4eedd84",
+          "name": "Teng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68366975d4ea32a1b4eedd85",
+          "name": "Yixiao Ge",
+          "hidden": false
+        },
+        {
+          "_id": "68366975d4ea32a1b4eedd86",
+          "name": "Jing Liao",
+          "hidden": false
+        },
+        {
+          "_id": "68366975d4ea32a1b4eedd87",
+          "name": "Ying Shan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T16:05:01.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:12:17.274Z",
+      "title": "Video-Holmes: Can MLLM Think Like Holmes for Complex Video Reasoning?",
+      "submittedOnDailyBy": {
+        "_id": "6506b77a773ceaa8d52ecea1",
+        "avatarUrl": "/avatars/0e769a0795063e1491c44760a4a83097.svg",
+        "isPro": false,
+        "fullname": "CJH",
+        "user": "Howe666",
+        "type": "user"
+      },
+      "summary": "Recent advances in CoT reasoning and RL post-training have been reported to\nenhance video reasoning capabilities of MLLMs. This progress naturally raises a\nquestion: can these models perform complex video reasoning in a manner\ncomparable to human experts? However, existing video benchmarks primarily\nevaluate visual perception and grounding abilities, with questions that can be\nanswered based on explicit prompts or isolated visual cues. Such benchmarks do\nnot fully capture the intricacies of real-world reasoning, where humans must\nactively search for, integrate, and analyze multiple clues before reaching a\nconclusion. To address this issue, we present Video-Holmes, a benchmark\ninspired by the reasoning process of Sherlock Holmes, designed to evaluate the\ncomplex video reasoning capabilities of MLLMs. Video-Holmes consists of 1,837\nquestions derived from 270 manually annotated suspense short films, which spans\nseven carefully designed tasks. Each task is constructed by first identifying\nkey events and causal relationships within films, and then designing questions\nthat require models to actively locate and connect multiple relevant visual\nclues scattered across different video segments. Our comprehensive evaluation\nof state-of-the-art MLLMs reveals that, while these models generally excel at\nvisual perception, they encounter substantial difficulties with integrating\ninformation and often miss critical clues. For example, the best-performing\nmodel, Gemini-2.5-Pro, achieves an accuracy of only 45%, with most models\nscoring below 40%. We aim that Video-Holmes can serve as a \"Holmes-test\" for\nmultimodal reasoning, motivating models to reason more like humans and\nemphasizing the ongoing challenges in this field. The benchmark is released in\nhttps://github.com/TencentARC/Video-Holmes.",
+      "upvotes": 12,
+      "discussionId": "68366976d4ea32a1b4eedde6",
+      "projectPage": "https://video-holmes.github.io/Page.github.io/",
+      "githubRepo": "https://github.com/TencentARC/Video-Holmes",
+      "ai_summary": "Video-Holmes benchmark evaluates complex video reasoning capabilities of MLLMs using suspense short films and reveals significant challenges in information integration compared to human experts.",
+      "ai_keywords": [
+        "CoT reasoning",
+        "RL post-training",
+        "MLLMs",
+        "Visual perception",
+        "Grounding abilities",
+        "Video-Holmes",
+        "Suspense short films",
+        "Multimodal reasoning",
+        "Holmes-test"
+      ]
+    },
+    "publishedAt": "2025-05-27T12:05:01.000Z",
+    "title": "Video-Holmes: Can MLLM Think Like Holmes for Complex Video Reasoning?",
+    "summary": "Recent advances in CoT reasoning and RL post-training have been reported to\nenhance video reasoning capabilities of MLLMs. This progress naturally raises a\nquestion: can these models perform complex video reasoning in a manner\ncomparable to human experts? However, existing video benchmarks primarily\nevaluate visual perception and grounding abilities, with questions that can be\nanswered based on explicit prompts or isolated visual cues. Such benchmarks do\nnot fully capture the intricacies of real-world reasoning, where humans must\nactively search for, integrate, and analyze multiple clues before reaching a\nconclusion. To address this issue, we present Video-Holmes, a benchmark\ninspired by the reasoning process of Sherlock Holmes, designed to evaluate the\ncomplex video reasoning capabilities of MLLMs. Video-Holmes consists of 1,837\nquestions derived from 270 manually annotated suspense short films, which spans\nseven carefully designed tasks. Each task is constructed by first identifying\nkey events and causal relationships within films, and then designing questions\nthat require models to actively locate and connect multiple relevant visual\nclues scattered across different video segments. Our comprehensive evaluation\nof state-of-the-art MLLMs reveals that, while these models generally excel at\nvisual perception, they encounter substantial difficulties with integrating\ninformation and often miss critical clues. For example, the best-performing\nmodel, Gemini-2.5-Pro, achieves an accuracy of only 45%, with most models\nscoring below 40%. We aim that Video-Holmes can serve as a \"Holmes-test\" for\nmultimodal reasoning, motivating models to reason more like humans and\nemphasizing the ongoing challenges in this field. The benchmark is released in\nhttps://github.com/TencentARC/Video-Holmes.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21374.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6506b77a773ceaa8d52ecea1",
+      "avatarUrl": "/avatars/0e769a0795063e1491c44760a4a83097.svg",
+      "fullname": "CJH",
+      "name": "Howe666",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.21297",
+      "authors": [
+        {
+          "_id": "683669a214ebb7ff0cf2d659",
+          "name": "Yifei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683669a214ebb7ff0cf2d65a",
+          "name": "Li Lyna Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683669a214ebb7ff0cf2d65b",
+          "name": "Yi Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "683669a214ebb7ff0cf2d65c",
+          "name": "Bingcheng Dong",
+          "hidden": false
+        },
+        {
+          "_id": "683669a214ebb7ff0cf2d65d",
+          "name": "Xudong Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "683669a214ebb7ff0cf2d65e",
+          "name": "Ning Shang",
+          "hidden": false
+        },
+        {
+          "_id": "683669a214ebb7ff0cf2d65f",
+          "name": "Fan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "683669a214ebb7ff0cf2d660",
+          "name": "Mao Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T15:00:57.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:40:13.359Z",
+      "title": "rStar-Coder: Scaling Competitive Code Reasoning with a Large-Scale\n  Verified Dataset",
+      "submittedOnDailyBy": {
+        "_id": "62b0009c72043b05d29492b2",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b0009c72043b05d29492b2/NqRkX2YLhlfOLvYysa7dD.png",
+        "isPro": false,
+        "fullname": "Li Lyna Zhang",
+        "user": "lynazhang",
+        "type": "user"
+      },
+      "summary": "Advancing code reasoning in large language models (LLMs) is fundamentally\nlimited by the scarcity of high-difficulty datasets, especially those with\nverifiable input-output test cases necessary for rigorous solution validation\nat scale. We introduce rStar-Coder, which significantly improves LLM code\nreasoning capabilities by constructing a large-scale, verified dataset of 418K\ncompetition-level code problems, 580K long-reasoning solutions along with rich\ntest cases of varying difficulty. This is achieved through three core\ncontributions: (1) we curate competitive programming code problems and oracle\nsolutions to synthesize new, solvable problems; (2) we introduce a reliable\ninput-output test case synthesis pipeline that decouples the generation into a\nthree-step input generation method and a mutual verification mechanism for\neffective output labeling; (3) we augment problems with high-quality,\ntest-case-verified long-reasoning solutions. Extensive experiments on Qwen\nmodels (1.5B-14B) across various code reasoning benchmarks demonstrate the\nsuperiority of rStar-Coder dataset, achieving leading performance comparable to\nfrontier reasoning LLMs with much smaller model sizes. On LiveCodeBench,\nrStar-Coder improves Qwen2.5-7B from 17.4% to an impressive 57.3%, and\nQwen2.5-14B from 23.3% to 62.5%, surpassing o3-mini (low) by3.1%. On the more\nchallenging USA Computing Olympiad, our 7B model achieves an average pass@1\naccuracy of 16.15%, outperforming the frontier-level QWQ-32B. Code and the\ndataset will be released at https://github.com/microsoft/rStar.",
+      "upvotes": 9,
+      "discussionId": "683669a314ebb7ff0cf2d68a",
+      "ai_summary": "A large-scale dataset called rStar-Coder enhances code reasoning in LLMs by providing verified code problems and solutions, leading to improved performance on various benchmarks.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "competition-level code problems",
+        "long-reasoning solutions",
+        "test cases",
+        "input generation",
+        "output labeling",
+        "mutual verification",
+        "Qwen models",
+        "code reasoning benchmarks",
+        "LiveCodeBench",
+        "USA Computing Olympiad",
+        "pass@1 accuracy"
+      ]
+    },
+    "publishedAt": "2025-05-27T11:00:57.000Z",
+    "title": "rStar-Coder: Scaling Competitive Code Reasoning with a Large-Scale\n  Verified Dataset",
+    "summary": "Advancing code reasoning in large language models (LLMs) is fundamentally\nlimited by the scarcity of high-difficulty datasets, especially those with\nverifiable input-output test cases necessary for rigorous solution validation\nat scale. We introduce rStar-Coder, which significantly improves LLM code\nreasoning capabilities by constructing a large-scale, verified dataset of 418K\ncompetition-level code problems, 580K long-reasoning solutions along with rich\ntest cases of varying difficulty. This is achieved through three core\ncontributions: (1) we curate competitive programming code problems and oracle\nsolutions to synthesize new, solvable problems; (2) we introduce a reliable\ninput-output test case synthesis pipeline that decouples the generation into a\nthree-step input generation method and a mutual verification mechanism for\neffective output labeling; (3) we augment problems with high-quality,\ntest-case-verified long-reasoning solutions. Extensive experiments on Qwen\nmodels (1.5B-14B) across various code reasoning benchmarks demonstrate the\nsuperiority of rStar-Coder dataset, achieving leading performance comparable to\nfrontier reasoning LLMs with much smaller model sizes. On LiveCodeBench,\nrStar-Coder improves Qwen2.5-7B from 17.4% to an impressive 57.3%, and\nQwen2.5-14B from 23.3% to 62.5%, surpassing o3-mini (low) by3.1%. On the more\nchallenging USA Computing Olympiad, our 7B model achieves an average pass@1\naccuracy of 16.15%, outperforming the frontier-level QWQ-32B. Code and the\ndataset will be released at https://github.com/microsoft/rStar.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21297.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62b0009c72043b05d29492b2",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b0009c72043b05d29492b2/NqRkX2YLhlfOLvYysa7dD.png",
+      "fullname": "Li Lyna Zhang",
+      "name": "lynazhang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 29
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.20292",
+      "authors": [
+        {
+          "_id": "68366f692c00148ea4021e48",
+          "name": "Shenghai Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68366f692c00148ea4021e49",
+          "name": "Xianyi He",
+          "hidden": false
+        },
+        {
+          "_id": "68366f692c00148ea4021e4a",
+          "name": "Yufan Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68366f692c00148ea4021e4b",
+          "name": "Yang Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68366f692c00148ea4021e4c",
+          "name": "Jinfa Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68366f692c00148ea4021e4d",
+          "name": "Bin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68366f692c00148ea4021e4e",
+          "name": "Chongyang Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68366f692c00148ea4021e4f",
+          "name": "Jiebo Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68366f692c00148ea4021e50",
+          "name": "Li Yuan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-26T17:59:46.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:36:59.366Z",
+      "title": "OpenS2V-Nexus: A Detailed Benchmark and Million-Scale Dataset for\n  Subject-to-Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "63468720dd6d90d82ccf3450",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+        "isPro": false,
+        "fullname": "YSH",
+        "user": "BestWishYsh",
+        "type": "user"
+      },
+      "summary": "Subject-to-Video (S2V) generation aims to create videos that faithfully\nincorporate reference content, providing enhanced flexibility in the production\nof videos. To establish the infrastructure for S2V generation, we propose\nOpenS2V-Nexus, consisting of (i) OpenS2V-Eval, a fine-grained benchmark, and\n(ii) OpenS2V-5M, a million-scale dataset. In contrast to existing S2V\nbenchmarks inherited from VBench that focus on global and coarse-grained\nassessment of generated videos, OpenS2V-Eval focuses on the model's ability to\ngenerate subject-consistent videos with natural subject appearance and identity\nfidelity. For these purposes, OpenS2V-Eval introduces 180 prompts from seven\nmajor categories of S2V, which incorporate both real and synthetic test data.\nFurthermore, to accurately align human preferences with S2V benchmarks, we\npropose three automatic metrics, NexusScore, NaturalScore and GmeScore, to\nseparately quantify subject consistency, naturalness, and text relevance in\ngenerated videos. Building on this, we conduct a comprehensive evaluation of 16\nrepresentative S2V models, highlighting their strengths and weaknesses across\ndifferent content. Moreover, we create the first open-source large-scale S2V\ngeneration dataset OpenS2V-5M, which consists of five million high-quality 720P\nsubject-text-video triples. Specifically, we ensure subject-information\ndiversity in our dataset by (1) segmenting subjects and building pairing\ninformation via cross-video associations and (2) prompting GPT-Image-1 on raw\nframes to synthesize multi-view representations. Through OpenS2V-Nexus, we\ndeliver a robust infrastructure to accelerate future S2V generation research.",
+      "upvotes": 9,
+      "discussionId": "68366f6f2c00148ea4021fc2",
+      "projectPage": "https://pku-yuangroup.github.io/OpenS2V-Nexus/",
+      "githubRepo": "https://github.com/PKU-YuanGroup/OpenS2V-Nexus"
+    },
+    "publishedAt": "2025-05-26T13:59:46.000Z",
+    "title": "OpenS2V-Nexus: A Detailed Benchmark and Million-Scale Dataset for\n  Subject-to-Video Generation",
+    "summary": "Subject-to-Video (S2V) generation aims to create videos that faithfully\nincorporate reference content, providing enhanced flexibility in the production\nof videos. To establish the infrastructure for S2V generation, we propose\nOpenS2V-Nexus, consisting of (i) OpenS2V-Eval, a fine-grained benchmark, and\n(ii) OpenS2V-5M, a million-scale dataset. In contrast to existing S2V\nbenchmarks inherited from VBench that focus on global and coarse-grained\nassessment of generated videos, OpenS2V-Eval focuses on the model's ability to\ngenerate subject-consistent videos with natural subject appearance and identity\nfidelity. For these purposes, OpenS2V-Eval introduces 180 prompts from seven\nmajor categories of S2V, which incorporate both real and synthetic test data.\nFurthermore, to accurately align human preferences with S2V benchmarks, we\npropose three automatic metrics, NexusScore, NaturalScore and GmeScore, to\nseparately quantify subject consistency, naturalness, and text relevance in\ngenerated videos. Building on this, we conduct a comprehensive evaluation of 16\nrepresentative S2V models, highlighting their strengths and weaknesses across\ndifferent content. Moreover, we create the first open-source large-scale S2V\ngeneration dataset OpenS2V-5M, which consists of five million high-quality 720P\nsubject-text-video triples. Specifically, we ensure subject-information\ndiversity in our dataset by (1) segmenting subjects and building pairing\ninformation via cross-video associations and (2) prompting GPT-Image-1 on raw\nframes to synthesize multi-view representations. Through OpenS2V-Nexus, we\ndeliver a robust infrastructure to accelerate future S2V generation research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.20292.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63468720dd6d90d82ccf3450",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+      "fullname": "YSH",
+      "name": "BestWishYsh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 52
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.18943",
+      "authors": [
+        {
+          "_id": "6836670b2177a249476301a4",
+          "name": "Xuanming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6836670b2177a249476301a5",
+          "name": "Yuxuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6836670b2177a249476301a6",
+          "name": "Min-Hsuan Yeh",
+          "hidden": false
+        },
+        {
+          "_id": "6836670b2177a249476301a7",
+          "name": "Yixuan Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-25T02:32:57.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:07:11.790Z",
+      "title": "MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent\n  Systems",
+      "submittedOnDailyBy": {
+        "_id": "65fc5109899083a2aad987c5",
+        "avatarUrl": "/avatars/289dbb8128746d931118cff6f6871a45.svg",
+        "isPro": false,
+        "fullname": "XUANMING ZHANG",
+        "user": "XUANMINGZHANG",
+        "type": "user"
+      },
+      "summary": "Human social interactions depend on the ability to infer others' unspoken\nintentions, emotions, and beliefs-a cognitive skill grounded in the\npsychological concept of Theory of Mind (ToM). While large language models\n(LLMs) excel in semantic understanding tasks, they struggle with the ambiguity\nand contextual nuance inherent in human communication. To bridge this gap, we\nintroduce MetaMind, a multi-agent framework inspired by psychological theories\nof metacognition, designed to emulate human-like social reasoning. MetaMind\ndecomposes social understanding into three collaborative stages: (1) a\nTheory-of-Mind Agent generates hypotheses user mental states (e.g., intent,\nemotion), (2) a Domain Agent refines these hypotheses using cultural norms and\nethical constraints, and (3) a Response Agent generates contextually\nappropriate responses while validating alignment with inferred intent. Our\nframework achieves state-of-the-art performance across three challenging\nbenchmarks, with 35.7% improvement in real-world social scenarios and 6.2% gain\nin ToM reasoning. Notably, it enables LLMs to match human-level performance on\nkey ToM tasks for the first time. Ablation studies confirm the necessity of all\ncomponents, which showcase the framework's ability to balance contextual\nplausibility, social appropriateness, and user adaptation. This work advances\nAI systems toward human-like social intelligence, with applications in\nempathetic dialogue and culturally sensitive interactions. Code is available at\nhttps://github.com/XMZhangAI/MetaMind.",
+      "upvotes": 8,
+      "discussionId": "6836670c2177a249476301eb",
+      "githubRepo": "https://github.com/XMZhangAI/MetaMind",
+      "ai_summary": "MetaMind, a multi-agent framework inspired by metacognition, enhances LLMs' ability to perform Theory of Mind tasks by decomposing social understanding into hypothesis generation, refinement, and response generation, achieving human-like performance.",
+      "ai_keywords": [
+        "Theory of Mind (ToM)",
+        "large language models (LLMs)",
+        "Multi-agent framework",
+        "Theory-of-Mind Agent",
+        "Domain Agent",
+        "Response Agent",
+        "Cultural norms",
+        "Ethical constraints",
+        "Social intelligence",
+        "Empathetic dialogue",
+        "Culturally sensitive interactions"
+      ]
+    },
+    "publishedAt": "2025-05-24T22:32:57.000Z",
+    "title": "MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent\n  Systems",
+    "summary": "Human social interactions depend on the ability to infer others' unspoken\nintentions, emotions, and beliefs-a cognitive skill grounded in the\npsychological concept of Theory of Mind (ToM). While large language models\n(LLMs) excel in semantic understanding tasks, they struggle with the ambiguity\nand contextual nuance inherent in human communication. To bridge this gap, we\nintroduce MetaMind, a multi-agent framework inspired by psychological theories\nof metacognition, designed to emulate human-like social reasoning. MetaMind\ndecomposes social understanding into three collaborative stages: (1) a\nTheory-of-Mind Agent generates hypotheses user mental states (e.g., intent,\nemotion), (2) a Domain Agent refines these hypotheses using cultural norms and\nethical constraints, and (3) a Response Agent generates contextually\nappropriate responses while validating alignment with inferred intent. Our\nframework achieves state-of-the-art performance across three challenging\nbenchmarks, with 35.7% improvement in real-world social scenarios and 6.2% gain\nin ToM reasoning. Notably, it enables LLMs to match human-level performance on\nkey ToM tasks for the first time. Ablation studies confirm the necessity of all\ncomponents, which showcase the framework's ability to balance contextual\nplausibility, social appropriateness, and user adaptation. This work advances\nAI systems toward human-like social intelligence, with applications in\nempathetic dialogue and culturally sensitive interactions. Code is available at\nhttps://github.com/XMZhangAI/MetaMind.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.18943.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65fc5109899083a2aad987c5",
+      "avatarUrl": "/avatars/289dbb8128746d931118cff6f6871a45.svg",
+      "fullname": "XUANMING ZHANG",
+      "name": "XUANMINGZHANG",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.21333",
+      "authors": [
+        {
+          "_id": "683668aab445f089286ca219",
+          "name": "Yang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca21a",
+          "name": "Huanqian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca21b",
+          "name": "Wulin Xie",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca21c",
+          "name": "Huanyao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca21d",
+          "name": "Lijie Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca21e",
+          "name": "Yi-Fan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca21f",
+          "name": "Xinfeng Li",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca220",
+          "name": "Chaoyou Fu",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca221",
+          "name": "Zhuoer Wen",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca222",
+          "name": "Wenting Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca223",
+          "name": "Zhuoran Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca224",
+          "name": "Xinlong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca225",
+          "name": "Bohan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca226",
+          "name": "Sihan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca227",
+          "name": "Yuanxing Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca228",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca229",
+          "name": "Haotian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683668aab445f089286ca22a",
+          "name": "Wenjing Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T15:27:46.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:07:03.360Z",
+      "title": "MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in\n  Video Scenarios",
+      "submittedOnDailyBy": {
+        "_id": "673c7319d11b1c2e246ead9c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/673c7319d11b1c2e246ead9c/IjFIO--N7Hm_BOEafhEQv.jpeg",
+        "isPro": false,
+        "fullname": "Yang Shi",
+        "user": "DogNeverSleep",
+        "type": "user"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) have achieved considerable accuracy\nin Optical Character Recognition (OCR) from static images. However, their\nefficacy in video OCR is significantly diminished due to factors such as motion\nblur, temporal variations, and visual effects inherent in video content. To\nprovide clearer guidance for training practical MLLMs, we introduce the\nMME-VideoOCR benchmark, which encompasses a comprehensive range of video OCR\napplication scenarios. MME-VideoOCR features 10 task categories comprising 25\nindividual tasks and spans 44 diverse scenarios. These tasks extend beyond text\nrecognition to incorporate deeper comprehension and reasoning of textual\ncontent within videos. The benchmark consists of 1,464 videos with varying\nresolutions, aspect ratios, and durations, along with 2,000 meticulously\ncurated, manually annotated question-answer pairs. We evaluate 18\nstate-of-the-art MLLMs on MME-VideoOCR, revealing that even the best-performing\nmodel (Gemini-2.5 Pro) achieves an accuracy of only 73.7%. Fine-grained\nanalysis indicates that while existing MLLMs demonstrate strong performance on\ntasks where relevant texts are contained within a single or few frames, they\nexhibit limited capability in effectively handling tasks that demand holistic\nvideo comprehension. These limitations are especially evident in scenarios that\nrequire spatio-temporal reasoning, cross-frame information integration, or\nresistance to language prior bias. Our findings also highlight the importance\nof high-resolution visual input and sufficient temporal coverage for reliable\nOCR in dynamic video scenarios.",
+      "upvotes": 5,
+      "discussionId": "683668afb445f089286ca363",
+      "projectPage": "https://mme-videoocr.github.io/",
+      "githubRepo": "https://github.com/DogNeverSleep/MME-VideoOCR",
+      "ai_summary": "MLLMs achieve modest accuracy in video OCR due to motion blur, temporal variations, and visual effects; MME-VideoOCR benchmark reveals limitations in spatio-temporal reasoning and language bias.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "MLLMs",
+        "Video OCR",
+        "MME-VideoOCR",
+        "task categories",
+        "video comprehension",
+        "spatio-temporal reasoning",
+        "cross-frame information integration",
+        "language prior bias",
+        "high-resolution visual input",
+        "temporal coverage",
+        "dynamic video scenarios"
+      ]
+    },
+    "publishedAt": "2025-05-27T11:27:46.000Z",
+    "title": "MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in\n  Video Scenarios",
+    "summary": "Multimodal Large Language Models (MLLMs) have achieved considerable accuracy\nin Optical Character Recognition (OCR) from static images. However, their\nefficacy in video OCR is significantly diminished due to factors such as motion\nblur, temporal variations, and visual effects inherent in video content. To\nprovide clearer guidance for training practical MLLMs, we introduce the\nMME-VideoOCR benchmark, which encompasses a comprehensive range of video OCR\napplication scenarios. MME-VideoOCR features 10 task categories comprising 25\nindividual tasks and spans 44 diverse scenarios. These tasks extend beyond text\nrecognition to incorporate deeper comprehension and reasoning of textual\ncontent within videos. The benchmark consists of 1,464 videos with varying\nresolutions, aspect ratios, and durations, along with 2,000 meticulously\ncurated, manually annotated question-answer pairs. We evaluate 18\nstate-of-the-art MLLMs on MME-VideoOCR, revealing that even the best-performing\nmodel (Gemini-2.5 Pro) achieves an accuracy of only 73.7%. Fine-grained\nanalysis indicates that while existing MLLMs demonstrate strong performance on\ntasks where relevant texts are contained within a single or few frames, they\nexhibit limited capability in effectively handling tasks that demand holistic\nvideo comprehension. These limitations are especially evident in scenarios that\nrequire spatio-temporal reasoning, cross-frame information integration, or\nresistance to language prior bias. Our findings also highlight the importance\nof high-resolution visual input and sufficient temporal coverage for reliable\nOCR in dynamic video scenarios.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21333.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "673c7319d11b1c2e246ead9c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/673c7319d11b1c2e246ead9c/IjFIO--N7Hm_BOEafhEQv.jpeg",
+      "fullname": "Yang Shi",
+      "name": "DogNeverSleep",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.20275",
+      "authors": [
+        {
+          "_id": "68366fd72ae719660435220b",
+          "name": "Yang Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68366fd72ae719660435220c",
+          "name": "Xianyi He",
+          "hidden": false
+        },
+        {
+          "_id": "68366fd72ae719660435220d",
+          "name": "Zongjian Li",
+          "hidden": false
+        },
+        {
+          "_id": "68366fd72ae719660435220e",
+          "name": "Bin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68366fd72ae719660435220f",
+          "name": "Shenghai Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68366fd72ae7196604352210",
+          "name": "Zhiyuan Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68366fd72ae7196604352211",
+          "name": "Bohan Hou",
+          "hidden": false
+        },
+        {
+          "_id": "68366fd72ae7196604352212",
+          "name": "Li Yuan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-26T17:53:33.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:38:53.654Z",
+      "title": "ImgEdit: A Unified Image Editing Dataset and Benchmark",
+      "submittedOnDailyBy": {
+        "_id": "63468720dd6d90d82ccf3450",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+        "isPro": false,
+        "fullname": "YSH",
+        "user": "BestWishYsh",
+        "type": "user"
+      },
+      "summary": "Recent advancements in generative models have enabled high-fidelity\ntext-to-image generation. However, open-source image-editing models still lag\nbehind their proprietary counterparts, primarily due to limited high-quality\ndata and insufficient benchmarks. To overcome these limitations, we introduce\nImgEdit, a large-scale, high-quality image-editing dataset comprising 1.2\nmillion carefully curated edit pairs, which contain both novel and complex\nsingle-turn edits, as well as challenging multi-turn tasks. To ensure the data\nquality, we employ a multi-stage pipeline that integrates a cutting-edge\nvision-language model, a detection model, a segmentation model, alongside\ntask-specific in-painting procedures and strict post-processing. ImgEdit\nsurpasses existing datasets in both task novelty and data quality. Using\nImgEdit, we train ImgEdit-E1, an editing model using Vision Language Model to\nprocess the reference image and editing prompt, which outperforms existing\nopen-source models on multiple tasks, highlighting the value of ImgEdit and\nmodel design. For comprehensive evaluation, we introduce ImgEdit-Bench, a\nbenchmark designed to evaluate image editing performance in terms of\ninstruction adherence, editing quality, and detail preservation. It includes a\nbasic testsuite, a challenging single-turn suite, and a dedicated multi-turn\nsuite. We evaluate both open-source and proprietary models, as well as\nImgEdit-E1, providing deep analysis and actionable insights into the current\nbehavior of image-editing models. The source data are publicly available on\nhttps://github.com/PKU-YuanGroup/ImgEdit.",
+      "upvotes": 5,
+      "discussionId": "68366fd92ae71966043522dc",
+      "githubRepo": "https://github.com/PKU-YuanGroup/ImgEdit"
+    },
+    "publishedAt": "2025-05-26T13:53:33.000Z",
+    "title": "ImgEdit: A Unified Image Editing Dataset and Benchmark",
+    "summary": "Recent advancements in generative models have enabled high-fidelity\ntext-to-image generation. However, open-source image-editing models still lag\nbehind their proprietary counterparts, primarily due to limited high-quality\ndata and insufficient benchmarks. To overcome these limitations, we introduce\nImgEdit, a large-scale, high-quality image-editing dataset comprising 1.2\nmillion carefully curated edit pairs, which contain both novel and complex\nsingle-turn edits, as well as challenging multi-turn tasks. To ensure the data\nquality, we employ a multi-stage pipeline that integrates a cutting-edge\nvision-language model, a detection model, a segmentation model, alongside\ntask-specific in-painting procedures and strict post-processing. ImgEdit\nsurpasses existing datasets in both task novelty and data quality. Using\nImgEdit, we train ImgEdit-E1, an editing model using Vision Language Model to\nprocess the reference image and editing prompt, which outperforms existing\nopen-source models on multiple tasks, highlighting the value of ImgEdit and\nmodel design. For comprehensive evaluation, we introduce ImgEdit-Bench, a\nbenchmark designed to evaluate image editing performance in terms of\ninstruction adherence, editing quality, and detail preservation. It includes a\nbasic testsuite, a challenging single-turn suite, and a dedicated multi-turn\nsuite. We evaluate both open-source and proprietary models, as well as\nImgEdit-E1, providing deep analysis and actionable insights into the current\nbehavior of image-editing models. The source data are publicly available on\nhttps://github.com/PKU-YuanGroup/ImgEdit.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.20275.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63468720dd6d90d82ccf3450",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+      "fullname": "YSH",
+      "name": "BestWishYsh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 52
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.20355",
+      "authors": [
+        {
+          "_id": "683674c419543f12e85c4f47",
+          "name": "Yeonjoon Jung",
+          "hidden": false
+        },
+        {
+          "_id": "683674c419543f12e85c4f48",
+          "name": "Daehyun Ahn",
+          "hidden": false
+        },
+        {
+          "_id": "683674c419543f12e85c4f49",
+          "name": "Hyungjun Kim",
+          "hidden": false
+        },
+        {
+          "_id": "683674c419543f12e85c4f4a",
+          "name": "Taesu Kim",
+          "hidden": false
+        },
+        {
+          "_id": "683674c419543f12e85c4f4b",
+          "name": "Eunhyeok Park",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-26T06:48:20.000Z",
+      "submittedOnDailyAt": "2025-05-28T01:00:45.805Z",
+      "title": "GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient\n  Fine-Tuning",
+      "submittedOnDailyBy": {
+        "_id": "671f5c7bd79a70b18f7db600",
+        "avatarUrl": "/avatars/80f6eaf612893f66c90c4e977f45483c.svg",
+        "isPro": false,
+        "fullname": "Hyungjun Kim",
+        "user": "HyungjunKim",
+        "type": "user"
+      },
+      "summary": "Low-Rank Adaptation (LoRA) is a popular method for parameter-efficient\nfine-tuning (PEFT) of generative models, valued for its simplicity and\neffectiveness. Despite recent enhancements, LoRA still suffers from a\nfundamental limitation: overfitting when the bottleneck is widened. It performs\nbest at ranks 32-64, yet its accuracy stagnates or declines at higher ranks,\nstill falling short of full fine-tuning (FFT) performance. We identify the root\ncause as LoRA's structural bottleneck, which introduces gradient entanglement\nto the unrelated input channels and distorts gradient propagation. To address\nthis, we introduce a novel structure, Granular Low-Rank Adaptation (GraLoRA)\nthat partitions weight matrices into sub-blocks, each with its own low-rank\nadapter. With negligible computational or storage cost, GraLoRA overcomes\nLoRA's limitations, effectively increases the representational capacity, and\nmore closely approximates FFT behavior. Experiments on code generation and\ncommonsense reasoning benchmarks show that GraLoRA consistently outperforms\nLoRA and other baselines, achieving up to +8.5% absolute gain in Pass@1 on\nHumanEval+. These improvements hold across model sizes and rank settings,\nmaking GraLoRA a scalable and robust solution for PEFT. Code, data, and scripts\nare available at https://github.com/SqueezeBits/GraLoRA.git",
+      "upvotes": 4,
+      "discussionId": "683674c619543f12e85c4f91"
+    },
+    "publishedAt": "2025-05-26T02:48:20.000Z",
+    "title": "GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient\n  Fine-Tuning",
+    "summary": "Low-Rank Adaptation (LoRA) is a popular method for parameter-efficient\nfine-tuning (PEFT) of generative models, valued for its simplicity and\neffectiveness. Despite recent enhancements, LoRA still suffers from a\nfundamental limitation: overfitting when the bottleneck is widened. It performs\nbest at ranks 32-64, yet its accuracy stagnates or declines at higher ranks,\nstill falling short of full fine-tuning (FFT) performance. We identify the root\ncause as LoRA's structural bottleneck, which introduces gradient entanglement\nto the unrelated input channels and distorts gradient propagation. To address\nthis, we introduce a novel structure, Granular Low-Rank Adaptation (GraLoRA)\nthat partitions weight matrices into sub-blocks, each with its own low-rank\nadapter. With negligible computational or storage cost, GraLoRA overcomes\nLoRA's limitations, effectively increases the representational capacity, and\nmore closely approximates FFT behavior. Experiments on code generation and\ncommonsense reasoning benchmarks show that GraLoRA consistently outperforms\nLoRA and other baselines, achieving up to +8.5% absolute gain in Pass@1 on\nHumanEval+. These improvements hold across model sizes and rank settings,\nmaking GraLoRA a scalable and robust solution for PEFT. Code, data, and scripts\nare available at https://github.com/SqueezeBits/GraLoRA.git",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.20355.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "671f5c7bd79a70b18f7db600",
+      "avatarUrl": "/avatars/80f6eaf612893f66c90c4e977f45483c.svg",
+      "fullname": "Hyungjun Kim",
+      "name": "HyungjunKim",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19314",
+      "authors": [
+        {
+          "_id": "683675205b96c192536256d1",
+          "name": "Helin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256d2",
+          "name": "Jiarui Hai",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256d3",
+          "name": "Dongchao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256d4",
+          "name": "Chen Chen",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256d5",
+          "name": "Kai Li",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256d6",
+          "name": "Junyi Peng",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256d7",
+          "name": "Thomas Thebaud",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256d8",
+          "name": "Laureano Moro Velazquez",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256d9",
+          "name": "Jesus Villalba",
+          "hidden": false
+        },
+        {
+          "_id": "683675205b96c192536256da",
+          "name": "Najim Dehak",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-25T21:00:48.000Z",
+      "submittedOnDailyAt": "2025-05-28T01:06:04.803Z",
+      "title": "SoloSpeech: Enhancing Intelligibility and Quality in Target Speech\n  Extraction through a Cascaded Generative Pipeline",
+      "submittedOnDailyBy": {
+        "_id": "63ecfb5ec5b3c734085db9ed",
+        "avatarUrl": "/avatars/0b1d03dcd7997ad1daa764fb76f88993.svg",
+        "isPro": false,
+        "fullname": "Helin Wang",
+        "user": "westbrook",
+        "type": "user"
+      },
+      "summary": "Target Speech Extraction (TSE) aims to isolate a target speaker's voice from\na mixture of multiple speakers by leveraging speaker-specific cues, typically\nprovided as auxiliary audio (a.k.a. cue audio). Although recent advancements in\nTSE have primarily employed discriminative models that offer high perceptual\nquality, these models often introduce unwanted artifacts, reduce naturalness,\nand are sensitive to discrepancies between training and testing environments.\nOn the other hand, generative models for TSE lag in perceptual quality and\nintelligibility. To address these challenges, we present SoloSpeech, a novel\ncascaded generative pipeline that integrates compression, extraction,\nreconstruction, and correction processes. SoloSpeech features a\nspeaker-embedding-free target extractor that utilizes conditional information\nfrom the cue audio's latent space, aligning it with the mixture audio's latent\nspace to prevent mismatches. Evaluated on the widely-used Libri2Mix dataset,\nSoloSpeech achieves the new state-of-the-art intelligibility and quality in\ntarget speech extraction and speech separation tasks while demonstrating\nexceptional generalization on out-of-domain data and real-world scenarios.",
+      "upvotes": 2,
+      "discussionId": "683675215b96c1925362571d"
+    },
+    "publishedAt": "2025-05-25T17:00:48.000Z",
+    "title": "SoloSpeech: Enhancing Intelligibility and Quality in Target Speech\n  Extraction through a Cascaded Generative Pipeline",
+    "summary": "Target Speech Extraction (TSE) aims to isolate a target speaker's voice from\na mixture of multiple speakers by leveraging speaker-specific cues, typically\nprovided as auxiliary audio (a.k.a. cue audio). Although recent advancements in\nTSE have primarily employed discriminative models that offer high perceptual\nquality, these models often introduce unwanted artifacts, reduce naturalness,\nand are sensitive to discrepancies between training and testing environments.\nOn the other hand, generative models for TSE lag in perceptual quality and\nintelligibility. To address these challenges, we present SoloSpeech, a novel\ncascaded generative pipeline that integrates compression, extraction,\nreconstruction, and correction processes. SoloSpeech features a\nspeaker-embedding-free target extractor that utilizes conditional information\nfrom the cue audio's latent space, aligning it with the mixture audio's latent\nspace to prevent mismatches. Evaluated on the widely-used Libri2Mix dataset,\nSoloSpeech achieves the new state-of-the-art intelligibility and quality in\ntarget speech extraction and speech separation tasks while demonstrating\nexceptional generalization on out-of-domain data and real-world scenarios.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19314.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63ecfb5ec5b3c734085db9ed",
+      "avatarUrl": "/avatars/0b1d03dcd7997ad1daa764fb76f88993.svg",
+      "fullname": "Helin Wang",
+      "name": "westbrook",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.20322",
+      "authors": [
+        {
+          "_id": "68366ec11ec776c1b00a2ce3",
+          "name": "Mengru Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68366ec11ec776c1b00a2ce4",
+          "name": "Ziwen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68366ec11ec776c1b00a2ce5",
+          "name": "Shengyu Mao",
+          "hidden": false
+        },
+        {
+          "_id": "68366ec11ec776c1b00a2ce6",
+          "name": "Shumin Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68366ec11ec776c1b00a2ce7",
+          "name": "Zhaopeng Tu",
+          "hidden": false
+        },
+        {
+          "_id": "68366ec11ec776c1b00a2ce8",
+          "name": "Huajun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68366ec11ec776c1b00a2ce9",
+          "name": "Ningyu Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T17:59:18.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:35:00.431Z",
+      "title": "Beyond Prompt Engineering: Robust Behavior Control in LLMs via Steering\n  Target Atoms",
+      "submittedOnDailyBy": {
+        "_id": "620b3bbb0668e435407c8d0a",
+        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+        "isPro": false,
+        "fullname": "Ningyu Zhang",
+        "user": "Ningyu",
+        "type": "user"
+      },
+      "summary": "Precise control over language model generation is vital for ensuring both\nsafety and reliability. Although prompt engineering and steering are commonly\nused to intervene in model behaviors, the vast number of parameters in models\noften results in highly intertwined internal representations. This\ninterdependency can limit control precision and sometimes lead to unintended\nside effects. Recent research has explored the use of sparse autoencoders (SAE)\nto disentangle knowledge in high-dimensional spaces for steering. However,\nthese applications have been limited to toy tasks owing to the nontrivial issue\nof locating atomic knowledge components. In this paper, we propose Steering\nTarget Atoms (STA), a novel method that isolates and manipulates disentangled\nknowledge components to enhance safety. Comprehensive experiments demonstrate\nthe effectiveness of our approach. Further analysis reveals that steering\nexhibits superior robustness and flexibility, particularly in adversarial\nscenarios. We also apply the steering strategy to the large reasoning model,\nconfirming its effectiveness in precise reasoning control.",
+      "upvotes": 2,
+      "discussionId": "68366ec21ec776c1b00a2d30"
+    },
+    "publishedAt": "2025-05-23T13:59:18.000Z",
+    "title": "Beyond Prompt Engineering: Robust Behavior Control in LLMs via Steering\n  Target Atoms",
+    "summary": "Precise control over language model generation is vital for ensuring both\nsafety and reliability. Although prompt engineering and steering are commonly\nused to intervene in model behaviors, the vast number of parameters in models\noften results in highly intertwined internal representations. This\ninterdependency can limit control precision and sometimes lead to unintended\nside effects. Recent research has explored the use of sparse autoencoders (SAE)\nto disentangle knowledge in high-dimensional spaces for steering. However,\nthese applications have been limited to toy tasks owing to the nontrivial issue\nof locating atomic knowledge components. In this paper, we propose Steering\nTarget Atoms (STA), a novel method that isolates and manipulates disentangled\nknowledge components to enhance safety. Comprehensive experiments demonstrate\nthe effectiveness of our approach. Further analysis reveals that steering\nexhibits superior robustness and flexibility, particularly in adversarial\nscenarios. We also apply the steering strategy to the large reasoning model,\nconfirming its effectiveness in precise reasoning control.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.20322.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "620b3bbb0668e435407c8d0a",
+      "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+      "fullname": "Ningyu Zhang",
+      "name": "Ningyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 23
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.21491",
+      "authors": [
+        {
+          "_id": "683672b0bf8d50a1f8ae8741",
+          "name": "Boyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683672b0bf8d50a1f8ae8742",
+          "name": "Xuweiyi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "683672b0bf8d50a1f8ae8743",
+          "name": "Matheus Gadelha",
+          "hidden": false
+        },
+        {
+          "_id": "683672b0bf8d50a1f8ae8744",
+          "name": "Zezhou Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T17:56:07.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:50:38.752Z",
+      "title": "Frame In-N-Out: Unbounded Controllable Image-to-Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "64ed876a74d9b58eabc769a4",
+        "avatarUrl": "/avatars/9cf8af8e6f428b75827458b63d376ee3.svg",
+        "isPro": true,
+        "fullname": "Boyang Wang",
+        "user": "HikariDawn",
+        "type": "user"
+      },
+      "summary": "Controllability, temporal coherence, and detail synthesis remain the most\ncritical challenges in video generation. In this paper, we focus on a commonly\nused yet underexplored cinematic technique known as Frame In and Frame Out.\nSpecifically, starting from image-to-video generation, users can control the\nobjects in the image to naturally leave the scene or provide breaking new\nidentity references to enter the scene, guided by user-specified motion\ntrajectory. To support this task, we introduce a new dataset curated\nsemi-automatically, a comprehensive evaluation protocol targeting this setting,\nand an efficient identity-preserving motion-controllable video Diffusion\nTransformer architecture. Our evaluation shows that our proposed approach\nsignificantly outperforms existing baselines.",
+      "upvotes": 1,
+      "discussionId": "683672b1bf8d50a1f8ae87cb",
+      "projectPage": "https://uva-computer-vision-lab.github.io/Frame-In-N-Out/"
+    },
+    "publishedAt": "2025-05-27T13:56:07.000Z",
+    "title": "Frame In-N-Out: Unbounded Controllable Image-to-Video Generation",
+    "summary": "Controllability, temporal coherence, and detail synthesis remain the most\ncritical challenges in video generation. In this paper, we focus on a commonly\nused yet underexplored cinematic technique known as Frame In and Frame Out.\nSpecifically, starting from image-to-video generation, users can control the\nobjects in the image to naturally leave the scene or provide breaking new\nidentity references to enter the scene, guided by user-specified motion\ntrajectory. To support this task, we introduce a new dataset curated\nsemi-automatically, a comprehensive evaluation protocol targeting this setting,\nand an efficient identity-preserving motion-controllable video Diffusion\nTransformer architecture. Our evaluation shows that our proposed approach\nsignificantly outperforms existing baselines.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21491.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64ed876a74d9b58eabc769a4",
+      "avatarUrl": "/avatars/9cf8af8e6f428b75827458b63d376ee3.svg",
+      "fullname": "Boyang Wang",
+      "name": "HikariDawn",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.21457",
+      "authors": [
+        {
+          "_id": "6836711b80ed824b28f7a78a",
+          "name": "Muzhi Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a78b",
+          "name": "Hao Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a78c",
+          "name": "Canyu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a78d",
+          "name": "Zongze Du",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a78e",
+          "name": "Zheng Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a78f",
+          "name": "Mingyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a790",
+          "name": "Hao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a791",
+          "name": "Cheng Zou",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a792",
+          "name": "Jingdong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a793",
+          "name": "Ming Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6836711b80ed824b28f7a794",
+          "name": "Chunhua Shen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T17:29:31.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:43:53.408Z",
+      "title": "Active-O3: Empowering Multimodal Large Language Models with Active\n  Perception via GRPO",
+      "submittedOnDailyBy": {
+        "_id": "632179745fc60c44fd91fc33",
+        "avatarUrl": "/avatars/37d4fefbcc19f091dccffefec9706de2.svg",
+        "isPro": false,
+        "fullname": "zhumuzhi",
+        "user": "Z-MU-Z",
+        "type": "user"
+      },
+      "summary": "Active vision, also known as active perception, refers to the process of\nactively selecting where and how to look in order to gather task-relevant\ninformation. It is a critical component of efficient perception and\ndecision-making in humans and advanced embodied agents. Recently, the use of\nMultimodal Large Language Models (MLLMs) as central planning and\ndecision-making modules in robotic systems has gained extensive attention.\nHowever, despite the importance of active perception in embodied intelligence,\nthere is little to no exploration of how MLLMs can be equipped with or learn\nactive perception capabilities. In this paper, we first provide a systematic\ndefinition of MLLM-based active perception tasks. We point out that the\nrecently proposed GPT-o3 model's zoom-in search strategy can be regarded as a\nspecial case of active perception; however, it still suffers from low search\nefficiency and inaccurate region selection. To address these issues, we propose\nACTIVE-O3, a purely reinforcement learning based training framework built on\ntop of GRPO, designed to equip MLLMs with active perception capabilities. We\nfurther establish a comprehensive benchmark suite to evaluate ACTIVE-O3 across\nboth general open-world tasks, such as small-object and dense object grounding,\nand domain-specific scenarios, including small object detection in remote\nsensing and autonomous driving, as well as fine-grained interactive\nsegmentation. In addition, ACTIVE-O3 also demonstrates strong zero-shot\nreasoning abilities on the V* Benchmark, without relying on any explicit\nreasoning data. We hope that our work can provide a simple codebase and\nevaluation protocol to facilitate future research on active perception in\nMLLMs.",
+      "upvotes": 1,
+      "discussionId": "6836712080ed824b28f7a8fe",
+      "projectPage": "https://aim-uofa.github.io/ACTIVE-o3/",
+      "githubRepo": "https://github.com/aim-uofa/Active-o3"
+    },
+    "publishedAt": "2025-05-27T13:29:31.000Z",
+    "title": "Active-O3: Empowering Multimodal Large Language Models with Active\n  Perception via GRPO",
+    "summary": "Active vision, also known as active perception, refers to the process of\nactively selecting where and how to look in order to gather task-relevant\ninformation. It is a critical component of efficient perception and\ndecision-making in humans and advanced embodied agents. Recently, the use of\nMultimodal Large Language Models (MLLMs) as central planning and\ndecision-making modules in robotic systems has gained extensive attention.\nHowever, despite the importance of active perception in embodied intelligence,\nthere is little to no exploration of how MLLMs can be equipped with or learn\nactive perception capabilities. In this paper, we first provide a systematic\ndefinition of MLLM-based active perception tasks. We point out that the\nrecently proposed GPT-o3 model's zoom-in search strategy can be regarded as a\nspecial case of active perception; however, it still suffers from low search\nefficiency and inaccurate region selection. To address these issues, we propose\nACTIVE-O3, a purely reinforcement learning based training framework built on\ntop of GRPO, designed to equip MLLMs with active perception capabilities. We\nfurther establish a comprehensive benchmark suite to evaluate ACTIVE-O3 across\nboth general open-world tasks, such as small-object and dense object grounding,\nand domain-specific scenarios, including small object detection in remote\nsensing and autonomous driving, as well as fine-grained interactive\nsegmentation. In addition, ACTIVE-O3 also demonstrates strong zero-shot\nreasoning abilities on the V* Benchmark, without relying on any explicit\nreasoning data. We hope that our work can provide a simple codebase and\nevaluation protocol to facilitate future research on active perception in\nMLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21457.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "632179745fc60c44fd91fc33",
+      "avatarUrl": "/avatars/37d4fefbcc19f091dccffefec9706de2.svg",
+      "fullname": "zhumuzhi",
+      "name": "Z-MU-Z",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.21205",
+      "authors": [
+        {
+          "_id": "68367078bec6153cee9be84c",
+          "name": "Liuhan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68367078bec6153cee9be84d",
+          "name": "Xiaodong Cun",
+          "hidden": false
+        },
+        {
+          "_id": "68367078bec6153cee9be84e",
+          "name": "Xiaoyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "68367078bec6153cee9be84f",
+          "name": "Xianyi He",
+          "hidden": false
+        },
+        {
+          "_id": "68367078bec6153cee9be850",
+          "name": "Shenghai Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68367078bec6153cee9be851",
+          "name": "Jie Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68367078bec6153cee9be852",
+          "name": "Ying Shan",
+          "hidden": false
+        },
+        {
+          "_id": "68367078bec6153cee9be853",
+          "name": "Li Yuan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T13:53:50.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:40:28.705Z",
+      "title": "Sci-Fi: Symmetric Constraint for Frame Inbetweening",
+      "submittedOnDailyBy": {
+        "_id": "63468720dd6d90d82ccf3450",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+        "isPro": false,
+        "fullname": "YSH",
+        "user": "BestWishYsh",
+        "type": "user"
+      },
+      "summary": "Frame inbetweening aims to synthesize intermediate video sequences\nconditioned on the given start and end frames. Current state-of-the-art methods\nmainly extend large-scale pre-trained Image-to-Video Diffusion models (I2V-DMs)\nby incorporating end-frame constraints via directly fine-tuning or omitting\ntraining. We identify a critical limitation in their design: Their injections\nof the end-frame constraint usually utilize the same mechanism that originally\nimposed the start-frame (single image) constraint. However, since the original\nI2V-DMs are adequately trained for the start-frame condition in advance,\nnaively introducing the end-frame constraint by the same mechanism with much\nless (even zero) specialized training probably can't make the end frame have a\nstrong enough impact on the intermediate content like the start frame. This\nasymmetric control strength of the two frames over the intermediate content\nlikely leads to inconsistent motion or appearance collapse in generated frames.\nTo efficiently achieve symmetric constraints of start and end frames, we\npropose a novel framework, termed Sci-Fi, which applies a stronger injection\nfor the constraint of a smaller training scale. Specifically, it deals with the\nstart-frame constraint as before, while introducing the end-frame constraint by\nan improved mechanism. The new mechanism is based on a well-designed\nlightweight module, named EF-Net, which encodes only the end frame and expands\nit into temporally adaptive frame-wise features injected into the I2V-DM. This\nmakes the end-frame constraint as strong as the start-frame constraint,\nenabling our Sci-Fi to produce more harmonious transitions in various\nscenarios. Extensive experiments prove the superiority of our Sci-Fi compared\nwith other baselines.",
+      "upvotes": 1,
+      "discussionId": "6836707bbec6153cee9be946",
+      "githubRepo": "https://github.com/GVCLab/Sci-Fi"
+    },
+    "publishedAt": "2025-05-27T09:53:50.000Z",
+    "title": "Sci-Fi: Symmetric Constraint for Frame Inbetweening",
+    "summary": "Frame inbetweening aims to synthesize intermediate video sequences\nconditioned on the given start and end frames. Current state-of-the-art methods\nmainly extend large-scale pre-trained Image-to-Video Diffusion models (I2V-DMs)\nby incorporating end-frame constraints via directly fine-tuning or omitting\ntraining. We identify a critical limitation in their design: Their injections\nof the end-frame constraint usually utilize the same mechanism that originally\nimposed the start-frame (single image) constraint. However, since the original\nI2V-DMs are adequately trained for the start-frame condition in advance,\nnaively introducing the end-frame constraint by the same mechanism with much\nless (even zero) specialized training probably can't make the end frame have a\nstrong enough impact on the intermediate content like the start frame. This\nasymmetric control strength of the two frames over the intermediate content\nlikely leads to inconsistent motion or appearance collapse in generated frames.\nTo efficiently achieve symmetric constraints of start and end frames, we\npropose a novel framework, termed Sci-Fi, which applies a stronger injection\nfor the constraint of a smaller training scale. Specifically, it deals with the\nstart-frame constraint as before, while introducing the end-frame constraint by\nan improved mechanism. The new mechanism is based on a well-designed\nlightweight module, named EF-Net, which encodes only the end frame and expands\nit into temporally adaptive frame-wise features injected into the I2V-DM. This\nmakes the end-frame constraint as strong as the start-frame constraint,\nenabling our Sci-Fi to produce more harmonious transitions in various\nscenarios. Extensive experiments prove the superiority of our Sci-Fi compared\nwith other baselines.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21205.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63468720dd6d90d82ccf3450",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+      "fullname": "YSH",
+      "name": "BestWishYsh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 52
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.21070",
+      "authors": [
+        {
+          "_id": "683670a816cb1e8ad3235e45",
+          "name": "Zeqing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683670a816cb1e8ad3235e46",
+          "name": "Bowen Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "683670a816cb1e8ad3235e47",
+          "name": "Xingyi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "683670a816cb1e8ad3235e48",
+          "name": "Yuecong Xu",
+          "hidden": false
+        },
+        {
+          "_id": "683670a816cb1e8ad3235e49",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T11:55:22.000Z",
+      "submittedOnDailyAt": "2025-05-28T00:41:04.411Z",
+      "title": "Minute-Long Videos with Dual Parallelisms",
+      "submittedOnDailyBy": {
+        "_id": "634cfebc350bcee9bed20a4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634cfebc350bcee9bed20a4d/fN47nN5rhw-HJaFLBZWQy.png",
+        "isPro": false,
+        "fullname": "Xingyi Yang",
+        "user": "adamdad",
+        "type": "user"
+      },
+      "summary": "Diffusion Transformer (DiT)-based video diffusion models generate\nhigh-quality videos at scale but incur prohibitive processing latency and\nmemory costs for long videos. To address this, we propose a novel distributed\ninference strategy, termed DualParal. The core idea is that, instead of\ngenerating an entire video on a single GPU, we parallelize both temporal frames\nand model layers across GPUs. However, a naive implementation of this division\nfaces a key limitation: since diffusion models require synchronized noise\nlevels across frames, this implementation leads to the serialization of\noriginal parallelisms. We leverage a block-wise denoising scheme to handle\nthis. Namely, we process a sequence of frame blocks through the pipeline with\nprogressively decreasing noise levels. Each GPU handles a specific block and\nlayer subset while passing previous results to the next GPU, enabling\nasynchronous computation and communication. To further optimize performance, we\nincorporate two key enhancements. Firstly, a feature cache is implemented on\neach GPU to store and reuse features from the prior block as context,\nminimizing inter-GPU communication and redundant computation. Secondly, we\nemploy a coordinated noise initialization strategy, ensuring globally\nconsistent temporal dynamics by sharing initial noise patterns across GPUs\nwithout extra resource costs. Together, these enable fast, artifact-free, and\ninfinitely long video generation. Applied to the latest diffusion transformer\nvideo generator, our method efficiently produces 1,025-frame videos with up to\n6.54times lower latency and 1.48times lower memory cost on 8timesRTX\n4090 GPUs.",
+      "upvotes": 0,
+      "discussionId": "683670a816cb1e8ad3235e74"
+    },
+    "publishedAt": "2025-05-27T07:55:22.000Z",
+    "title": "Minute-Long Videos with Dual Parallelisms",
+    "summary": "Diffusion Transformer (DiT)-based video diffusion models generate\nhigh-quality videos at scale but incur prohibitive processing latency and\nmemory costs for long videos. To address this, we propose a novel distributed\ninference strategy, termed DualParal. The core idea is that, instead of\ngenerating an entire video on a single GPU, we parallelize both temporal frames\nand model layers across GPUs. However, a naive implementation of this division\nfaces a key limitation: since diffusion models require synchronized noise\nlevels across frames, this implementation leads to the serialization of\noriginal parallelisms. We leverage a block-wise denoising scheme to handle\nthis. Namely, we process a sequence of frame blocks through the pipeline with\nprogressively decreasing noise levels. Each GPU handles a specific block and\nlayer subset while passing previous results to the next GPU, enabling\nasynchronous computation and communication. To further optimize performance, we\nincorporate two key enhancements. Firstly, a feature cache is implemented on\neach GPU to store and reuse features from the prior block as context,\nminimizing inter-GPU communication and redundant computation. Secondly, we\nemploy a coordinated noise initialization strategy, ensuring globally\nconsistent temporal dynamics by sharing initial noise patterns across GPUs\nwithout extra resource costs. Together, these enable fast, artifact-free, and\ninfinitely long video generation. Applied to the latest diffusion transformer\nvideo generator, our method efficiently produces 1,025-frame videos with up to\n6.54times lower latency and 1.48times lower memory cost on 8timesRTX\n4090 GPUs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21070.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "634cfebc350bcee9bed20a4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634cfebc350bcee9bed20a4d/fN47nN5rhw-HJaFLBZWQy.png",
+      "fullname": "Xingyi Yang",
+      "name": "adamdad",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 15
+    },
+    "isAuthorParticipating": false
+  }
+]
