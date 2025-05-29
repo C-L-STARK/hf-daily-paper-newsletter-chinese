@@ -1,0 +1,1197 @@
+[
+  {
+    "paper": {
+      "id": "2505.22453",
+      "authors": [
+        {
+          "_id": "6837c318a4e378954486e45d",
+          "name": "Lai Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6837c318a4e378954486e45e",
+          "name": "Yuting Li",
+          "hidden": false
+        },
+        {
+          "_id": "6837c318a4e378954486e45f",
+          "name": "Chen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c318a4e378954486e460",
+          "user": {
+            "_id": "65e095da35ad8b2fe8c80e71",
+            "avatarUrl": "/avatars/225d4be6411dcec2460047ea1a88a5c3.svg",
+            "isPro": false,
+            "fullname": "Weiran Huang",
+            "user": "weiranhuang",
+            "type": "user"
+          },
+          "name": "Yue Wang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-29T02:14:48.838Z",
+          "hidden": false
+        },
+        {
+          "_id": "6837c318a4e378954486e461",
+          "name": "Linghe Kong",
+          "hidden": false
+        },
+        {
+          "_id": "6837c318a4e378954486e462",
+          "user": {
+            "_id": "65e095da35ad8b2fe8c80e71",
+            "avatarUrl": "/avatars/225d4be6411dcec2460047ea1a88a5c3.svg",
+            "isPro": false,
+            "fullname": "Weiran Huang",
+            "user": "weiranhuang",
+            "type": "user"
+          },
+          "name": "Weiran Huang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-29T02:14:48.838Z",
+          "hidden": false
+        },
+        {
+          "_id": "6837c318a4e378954486e463",
+          "name": "Lichao Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-28T15:11:16.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:45:28.570Z",
+      "title": "Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO",
+      "submittedOnDailyBy": {
+        "_id": "64a16b1aeacb4b50ba1c889d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a16b1aeacb4b50ba1c889d/EhWoBGL6LlFGIVTUsp2F4.jpeg",
+        "isPro": false,
+        "fullname": "Lai Wei",
+        "user": "WaltonFuture",
+        "type": "user"
+      },
+      "summary": "Improving Multi-modal Large Language Models (MLLMs) in the post-training\nstage typically relies on supervised fine-tuning (SFT) or reinforcement\nlearning (RL). However, these supervised methods require expensive and manually\nannotated multi-modal data--an ultimately unsustainable resource. While recent\nefforts have explored unsupervised post-training, their methods are complex and\ndifficult to iterate. In this work, we are the first to investigate the use of\nGRPO, a stable and scalable online RL algorithm, for enabling continual\nself-improvement without any external supervision. We propose MM-UPT, a simple\nyet effective framework for unsupervised post-training of MLLMs. MM-UPT builds\nupon GRPO, replacing traditional reward signals with a self-rewarding mechanism\nbased on majority voting over multiple sampled responses. Our experiments\ndemonstrate that MM-UPT significantly improves the reasoning ability of\nQwen2.5-VL-7B (e.g., 66.3 %rightarrow72.9 % on MathVista, 62.9\n%rightarrow68.7 % on We-Math), using standard dataset without ground truth\nlabels. MM-UPT also outperforms prior unsupervised baselines and even\napproaches the results of supervised GRPO. Furthermore, we show that\nincorporating synthetic questions, generated solely by MLLM itself, can boost\nperformance as well, highlighting a promising approach for scalable\nself-improvement. Overall, MM-UPT offers a new paradigm for continual,\nautonomous enhancement of MLLMs in the absence of external supervision. Our\ncode is available at https://github.com/waltonfuture/MM-UPT.",
+      "upvotes": 10,
+      "discussionId": "6837c318a4e378954486e48a"
+    },
+    "publishedAt": "2025-05-28T11:11:16.000Z",
+    "title": "Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO",
+    "summary": "Improving Multi-modal Large Language Models (MLLMs) in the post-training\nstage typically relies on supervised fine-tuning (SFT) or reinforcement\nlearning (RL). However, these supervised methods require expensive and manually\nannotated multi-modal data--an ultimately unsustainable resource. While recent\nefforts have explored unsupervised post-training, their methods are complex and\ndifficult to iterate. In this work, we are the first to investigate the use of\nGRPO, a stable and scalable online RL algorithm, for enabling continual\nself-improvement without any external supervision. We propose MM-UPT, a simple\nyet effective framework for unsupervised post-training of MLLMs. MM-UPT builds\nupon GRPO, replacing traditional reward signals with a self-rewarding mechanism\nbased on majority voting over multiple sampled responses. Our experiments\ndemonstrate that MM-UPT significantly improves the reasoning ability of\nQwen2.5-VL-7B (e.g., 66.3 %rightarrow72.9 % on MathVista, 62.9\n%rightarrow68.7 % on We-Math), using standard dataset without ground truth\nlabels. MM-UPT also outperforms prior unsupervised baselines and even\napproaches the results of supervised GRPO. Furthermore, we show that\nincorporating synthetic questions, generated solely by MLLM itself, can boost\nperformance as well, highlighting a promising approach for scalable\nself-improvement. Overall, MM-UPT offers a new paradigm for continual,\nautonomous enhancement of MLLMs in the absence of external supervision. Our\ncode is available at https://github.com/waltonfuture/MM-UPT.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.22453.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64a16b1aeacb4b50ba1c889d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a16b1aeacb4b50ba1c889d/EhWoBGL6LlFGIVTUsp2F4.jpeg",
+      "fullname": "Lai Wei",
+      "name": "WaltonFuture",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19253",
+      "authors": [
+        {
+          "_id": "6837bc8d0b39c9653de4d06f",
+          "name": "João Coelho",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d070",
+          "name": "Jingjie Ning",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d071",
+          "name": "Jingyuan He",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d072",
+          "name": "Kangrui Mao",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d073",
+          "name": "Abhijay Paladugu",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d074",
+          "name": "Pranav Setlur",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d075",
+          "name": "Jiahe Jin",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d076",
+          "name": "Jamie Callan",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d077",
+          "name": "João Magalhães",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d078",
+          "name": "Bruno Martins",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc8d0b39c9653de4d079",
+          "name": "Chenyan Xiong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-25T18:16:13.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:28:31.472Z",
+      "title": "DeepResearchGym: A Free, Transparent, and Reproducible Evaluation\n  Sandbox for Deep Research",
+      "submittedOnDailyBy": {
+        "_id": "6135eeeb5bc6ecdf86b60f0d",
+        "avatarUrl": "/avatars/43cedcf20ab6b0801a662787400e1384.svg",
+        "isPro": false,
+        "fullname": "Shi Yu",
+        "user": "yushi",
+        "type": "user"
+      },
+      "summary": "Deep research systems represent an emerging class of agentic information\nretrieval methods that generate comprehensive and well-supported reports to\ncomplex queries. However, most existing frameworks rely on dynamic commercial\nsearch APIs, which pose reproducibility and transparency challenges in addition\nto their cost. To address these limitations, we introduce DeepResearchGym, an\nopen-source sandbox that combines a reproducible search API with a rigorous\nevaluation protocol for benchmarking deep research systems. The API indexes\nlarge-scale public web corpora, namely ClueWeb22 and FineWeb, using a\nstate-of-the-art dense retriever and approximate nearest neighbor search via\nDiskANN. It achieves lower latency than popular commercial APIs while ensuring\nstable document rankings across runs, and is freely available for research use.\nTo evaluate deep research systems' outputs, we extend the Researchy Questions\nbenchmark with automatic metrics through LLM-as-a-judge assessments to measure\nalignment with users' information needs, retrieval faithfulness, and report\nquality. Experimental results show that systems integrated with DeepResearchGym\nachieve performance comparable to those using commercial APIs, with performance\nrankings remaining consistent across evaluation metrics. A human evaluation\nstudy further confirms that our automatic protocol aligns with human\npreferences, validating the framework's ability to help support controlled\nassessment of deep research systems. Our code and API documentation are\navailable at https://www.deepresearchgym.ai.",
+      "upvotes": 8,
+      "discussionId": "6837bc8d0b39c9653de4d0a6",
+      "projectPage": "https://www.deepresearchgym.ai",
+      "ai_summary": "DeepResearchGym provides an open-source evaluation framework for deep research systems using a reproducible search API and LLM-as-a-judge assessments.",
+      "ai_keywords": [
+        "agentic information retrieval",
+        "deep research systems",
+        "search API",
+        "reproducibility",
+        "transparency",
+        "open-source sandbox",
+        "ClueWeb22",
+        "FineWeb",
+        "dense retriever",
+        "approximate nearest neighbor search",
+        "DiskANN",
+        "Researchy Questions benchmark",
+        "LLM-as-a-judge",
+        "retrieval faithfulness",
+        "report quality",
+        "human evaluation"
+      ]
+    },
+    "publishedAt": "2025-05-25T14:16:13.000Z",
+    "title": "DeepResearchGym: A Free, Transparent, and Reproducible Evaluation\n  Sandbox for Deep Research",
+    "summary": "Deep research systems represent an emerging class of agentic information\nretrieval methods that generate comprehensive and well-supported reports to\ncomplex queries. However, most existing frameworks rely on dynamic commercial\nsearch APIs, which pose reproducibility and transparency challenges in addition\nto their cost. To address these limitations, we introduce DeepResearchGym, an\nopen-source sandbox that combines a reproducible search API with a rigorous\nevaluation protocol for benchmarking deep research systems. The API indexes\nlarge-scale public web corpora, namely ClueWeb22 and FineWeb, using a\nstate-of-the-art dense retriever and approximate nearest neighbor search via\nDiskANN. It achieves lower latency than popular commercial APIs while ensuring\nstable document rankings across runs, and is freely available for research use.\nTo evaluate deep research systems' outputs, we extend the Researchy Questions\nbenchmark with automatic metrics through LLM-as-a-judge assessments to measure\nalignment with users' information needs, retrieval faithfulness, and report\nquality. Experimental results show that systems integrated with DeepResearchGym\nachieve performance comparable to those using commercial APIs, with performance\nrankings remaining consistent across evaluation metrics. A human evaluation\nstudy further confirms that our automatic protocol aligns with human\npreferences, validating the framework's ability to help support controlled\nassessment of deep research systems. Our code and API documentation are\navailable at https://www.deepresearchgym.ai.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19253.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6135eeeb5bc6ecdf86b60f0d",
+      "avatarUrl": "/avatars/43cedcf20ab6b0801a662787400e1384.svg",
+      "fullname": "Shi Yu",
+      "name": "yushi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.22334",
+      "authors": [
+        {
+          "_id": "6837c360b127cae8a0b36e85",
+          "name": "Lai Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6837c360b127cae8a0b36e86",
+          "name": "Yuting Li",
+          "hidden": false
+        },
+        {
+          "_id": "6837c360b127cae8a0b36e87",
+          "name": "Kaipeng Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6837c360b127cae8a0b36e88",
+          "name": "Chen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c360b127cae8a0b36e89",
+          "user": {
+            "_id": "65e095da35ad8b2fe8c80e71",
+            "avatarUrl": "/avatars/225d4be6411dcec2460047ea1a88a5c3.svg",
+            "isPro": false,
+            "fullname": "Weiran Huang",
+            "user": "weiranhuang",
+            "type": "user"
+          },
+          "name": "Yue Wang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-29T02:16:03.908Z",
+          "hidden": false
+        },
+        {
+          "_id": "6837c360b127cae8a0b36e8a",
+          "name": "Linghe Kong",
+          "hidden": false
+        },
+        {
+          "_id": "6837c360b127cae8a0b36e8b",
+          "name": "Lichao Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6837c360b127cae8a0b36e8c",
+          "user": {
+            "_id": "65e095da35ad8b2fe8c80e71",
+            "avatarUrl": "/avatars/225d4be6411dcec2460047ea1a88a5c3.svg",
+            "isPro": false,
+            "fullname": "Weiran Huang",
+            "user": "weiranhuang",
+            "type": "user"
+          },
+          "name": "Weiran Huang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-29T02:16:03.908Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-28T13:21:38.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:46:20.111Z",
+      "title": "Advancing Multimodal Reasoning via Reinforcement Learning with Cold\n  Start",
+      "submittedOnDailyBy": {
+        "_id": "64a16b1aeacb4b50ba1c889d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a16b1aeacb4b50ba1c889d/EhWoBGL6LlFGIVTUsp2F4.jpeg",
+        "isPro": false,
+        "fullname": "Lai Wei",
+        "user": "WaltonFuture",
+        "type": "user"
+      },
+      "summary": "Recent advancements in large language models (LLMs) have demonstrated\nimpressive chain-of-thought reasoning capabilities, with reinforcement learning\n(RL) playing a crucial role in this progress. While \"aha moment\"\npatterns--where models exhibit self-correction through reflection--are often\nattributed to emergent properties from RL, we first demonstrate that these\npatterns exist in multimodal LLMs (MLLMs) prior to RL training but may not\nnecessarily correlate with improved reasoning performance. Building on these\ninsights, we present a comprehensive study on enhancing multimodal reasoning\nthrough a two-stage approach: (1) supervised fine-tuning (SFT) as a cold start\nwith structured chain-of-thought reasoning patterns, followed by (2)\nreinforcement learning via GRPO to further refine these capabilities. Our\nextensive experiments show that this combined approach consistently outperforms\nboth SFT-only and RL-only methods across challenging multimodal reasoning\nbenchmarks. The resulting models achieve state-of-the-art performance among\nopen-source MLLMs at both 3B and 7B scales, with our 7B model showing\nsubstantial improvements over base models (e.g., 66.3 %rightarrow73.4 % on\nMathVista, 62.9 %rightarrow70.4 % on We-Math) and our 3B model achieving\nperformance competitive with several 7B models. Overall, this work provides\npractical guidance for building advanced multimodal reasoning models. Our code\nis available at https://github.com/waltonfuture/RL-with-Cold-Start.",
+      "upvotes": 7,
+      "discussionId": "6837c363b127cae8a0b36f6f"
+    },
+    "publishedAt": "2025-05-28T09:21:38.000Z",
+    "title": "Advancing Multimodal Reasoning via Reinforcement Learning with Cold\n  Start",
+    "summary": "Recent advancements in large language models (LLMs) have demonstrated\nimpressive chain-of-thought reasoning capabilities, with reinforcement learning\n(RL) playing a crucial role in this progress. While \"aha moment\"\npatterns--where models exhibit self-correction through reflection--are often\nattributed to emergent properties from RL, we first demonstrate that these\npatterns exist in multimodal LLMs (MLLMs) prior to RL training but may not\nnecessarily correlate with improved reasoning performance. Building on these\ninsights, we present a comprehensive study on enhancing multimodal reasoning\nthrough a two-stage approach: (1) supervised fine-tuning (SFT) as a cold start\nwith structured chain-of-thought reasoning patterns, followed by (2)\nreinforcement learning via GRPO to further refine these capabilities. Our\nextensive experiments show that this combined approach consistently outperforms\nboth SFT-only and RL-only methods across challenging multimodal reasoning\nbenchmarks. The resulting models achieve state-of-the-art performance among\nopen-source MLLMs at both 3B and 7B scales, with our 7B model showing\nsubstantial improvements over base models (e.g., 66.3 %rightarrow73.4 % on\nMathVista, 62.9 %rightarrow70.4 % on We-Math) and our 3B model achieving\nperformance competitive with several 7B models. Overall, this work provides\npractical guidance for building advanced multimodal reasoning models. Our code\nis available at https://github.com/waltonfuture/RL-with-Cold-Start.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.22334.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64a16b1aeacb4b50ba1c889d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a16b1aeacb4b50ba1c889d/EhWoBGL6LlFGIVTUsp2F4.jpeg",
+      "fullname": "Lai Wei",
+      "name": "WaltonFuture",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.22312",
+      "authors": [
+        {
+          "_id": "6837c342cd1601f5bd670255",
+          "name": "Jujie He",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670256",
+          "name": "Jiacai Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670257",
+          "name": "Chris Yuhao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670258",
+          "name": "Rui Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670259",
+          "name": "Chaojie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd67025a",
+          "name": "Peng Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd67025b",
+          "name": "Xiaoyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd67025c",
+          "name": "Fuxiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd67025d",
+          "name": "Jiacheng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd67025e",
+          "name": "Wei Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd67025f",
+          "name": "Siyuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670260",
+          "name": "Liang Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670261",
+          "name": "Tianwen Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670262",
+          "name": "Cheng Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670263",
+          "name": "Bo An",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670264",
+          "name": "Yang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6837c342cd1601f5bd670265",
+          "name": "Yahui Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-28T12:56:04.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:48:05.741Z",
+      "title": "Skywork Open Reasoner 1 Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "658229ef5f6d83438257fce5",
+        "avatarUrl": "/avatars/b4417de9a338e95dc69cc547a46348e8.svg",
+        "isPro": false,
+        "fullname": "Chris (Yuhao) Liu",
+        "user": "chrisliu298",
+        "type": "user"
+      },
+      "summary": "The success of DeepSeek-R1 underscores the significant role of reinforcement\nlearning (RL) in enhancing the reasoning capabilities of large language models\n(LLMs). In this work, we present Skywork-OR1, an effective and scalable RL\nimplementation for long Chain-of-Thought (CoT) models. Building on the\nDeepSeek-R1-Distill model series, our RL approach achieves notable performance\ngains, increasing average accuracy across AIME24, AIME25, and LiveCodeBench\nfrom 57.8% to 72.8% (+15.0%) for the 32B model and from 43.6% to 57.5% (+13.9%)\nfor the 7B model. Our Skywork-OR1-32B model surpasses both DeepSeek-R1 and\nQwen3-32B on the AIME24 and AIME25 benchmarks, while achieving comparable\nresults on LiveCodeBench. The Skywork-OR1-7B and Skywork-OR1-Math-7B models\ndemonstrate competitive reasoning capabilities among models of similar size. We\nperform comprehensive ablation studies on the core components of our training\npipeline to validate their effectiveness. Additionally, we thoroughly\ninvestigate the phenomenon of entropy collapse, identify key factors affecting\nentropy dynamics, and demonstrate that mitigating premature entropy collapse is\ncritical for improved test performance. To support community research, we fully\nopen-source our model weights, training code, and training datasets.",
+      "upvotes": 6,
+      "discussionId": "6837c344cd1601f5bd6702dd",
+      "githubRepo": "https://github.com/SkyworkAI/Skywork-OR1"
+    },
+    "publishedAt": "2025-05-28T08:56:04.000Z",
+    "title": "Skywork Open Reasoner 1 Technical Report",
+    "summary": "The success of DeepSeek-R1 underscores the significant role of reinforcement\nlearning (RL) in enhancing the reasoning capabilities of large language models\n(LLMs). In this work, we present Skywork-OR1, an effective and scalable RL\nimplementation for long Chain-of-Thought (CoT) models. Building on the\nDeepSeek-R1-Distill model series, our RL approach achieves notable performance\ngains, increasing average accuracy across AIME24, AIME25, and LiveCodeBench\nfrom 57.8% to 72.8% (+15.0%) for the 32B model and from 43.6% to 57.5% (+13.9%)\nfor the 7B model. Our Skywork-OR1-32B model surpasses both DeepSeek-R1 and\nQwen3-32B on the AIME24 and AIME25 benchmarks, while achieving comparable\nresults on LiveCodeBench. The Skywork-OR1-7B and Skywork-OR1-Math-7B models\ndemonstrate competitive reasoning capabilities among models of similar size. We\nperform comprehensive ablation studies on the core components of our training\npipeline to validate their effectiveness. Additionally, we thoroughly\ninvestigate the phenomenon of entropy collapse, identify key factors affecting\nentropy dynamics, and demonstrate that mitigating premature entropy collapse is\ncritical for improved test performance. To support community research, we fully\nopen-source our model weights, training code, and training datasets.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.22312.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "658229ef5f6d83438257fce5",
+      "avatarUrl": "/avatars/b4417de9a338e95dc69cc547a46348e8.svg",
+      "fullname": "Chris (Yuhao) Liu",
+      "name": "chrisliu298",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.21600",
+      "authors": [
+        {
+          "_id": "6837bc9c9937bcb69885799c",
+          "name": "Tianyu Fu",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc9c9937bcb69885799d",
+          "name": "Yi Ge",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc9c9937bcb69885799e",
+          "name": "Yichen You",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc9c9937bcb69885799f",
+          "name": "Enshu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc9c9937bcb6988579a0",
+          "name": "Zhihang Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc9c9937bcb6988579a1",
+          "name": "Guohao Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc9c9937bcb6988579a2",
+          "name": "Shengen Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc9c9937bcb6988579a3",
+          "name": "Huazhong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6837bc9c9937bcb6988579a4",
+          "name": "Yu Wang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6445fd9ba56444c355dcbcba/edz42EmKaJTdax2mDUmhh.mp4"
+      ],
+      "publishedAt": "2025-05-27T16:57:20.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:18:54.118Z",
+      "title": "R2R: Efficiently Navigating Divergent Reasoning Paths with Small-Large\n  Model Token Routing",
+      "submittedOnDailyBy": {
+        "_id": "6445fd9ba56444c355dcbcba",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6445fd9ba56444c355dcbcba/NCyRCD-MK-yA0_qY6I2y0.png",
+        "isPro": false,
+        "fullname": "Tianyu Fu",
+        "user": "fuvty",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) achieve impressive reasoning capabilities at the\ncost of substantial inference overhead, posing substantial deployment\nchallenges. Although distilled Small Language Models (SLMs) significantly\nenhance efficiency, their performance suffers as they fail to follow LLMs'\nreasoning paths. Luckily, we reveal that only a small fraction of tokens\ngenuinely diverge reasoning paths between LLMs and SLMs. Most generated tokens\nare either identical or exhibit neutral differences, such as minor variations\nin abbreviations or expressions. Leveraging this insight, we introduce **Roads\nto Rome (R2R)**, a neural token routing method that selectively utilizes LLMs\nonly for these critical, path-divergent tokens, while leaving the majority of\ntoken generation to the SLM. We also develop an automatic data generation\npipeline that identifies divergent tokens and generates token-level routing\nlabels to train the lightweight router. We apply R2R to combine R1-1.5B and\nR1-32B models from the DeepSeek family, and evaluate on challenging math,\ncoding, and QA benchmarks. With an average activated parameter size of 5.6B,\nR2R surpasses the average accuracy of R1-7B by 1.6x, outperforming even the\nR1-14B model. Compared to R1-32B, it delivers a 2.8x wall-clock speedup with\ncomparable performance, advancing the Pareto frontier of test-time scaling\nefficiency. Our code is available at https://github.com/thu-nics/R2R.",
+      "upvotes": 5,
+      "discussionId": "6837bc9d9937bcb6988579d1",
+      "projectPage": "https://fuvty.github.io/R2R_Project_Page/",
+      "githubRepo": "https://github.com/thu-nics/R2R",
+      "ai_summary": "Roads to Rome (R2R) selectively utilizes large language models for critical reasoning tasks to enhance efficiency and performance in lightweight models.",
+      "ai_keywords": [
+        "Large Language Models (LLMs)",
+        "Small Language Models (SLMs)",
+        "token routing",
+        "neural token routing",
+        "token divergence",
+        "token generation",
+        "automatic data generation pipeline",
+        "token-level routing labels",
+        "R1-1.5B",
+        "R1-32B",
+        "math benchmarks",
+        "coding benchmarks",
+        "QA benchmarks",
+        "parameter size",
+        "activated parameters",
+        "test-time scaling efficiency",
+        "pareto frontier"
+      ]
+    },
+    "publishedAt": "2025-05-27T12:57:20.000Z",
+    "title": "R2R: Efficiently Navigating Divergent Reasoning Paths with Small-Large\n  Model Token Routing",
+    "summary": "Large Language Models (LLMs) achieve impressive reasoning capabilities at the\ncost of substantial inference overhead, posing substantial deployment\nchallenges. Although distilled Small Language Models (SLMs) significantly\nenhance efficiency, their performance suffers as they fail to follow LLMs'\nreasoning paths. Luckily, we reveal that only a small fraction of tokens\ngenuinely diverge reasoning paths between LLMs and SLMs. Most generated tokens\nare either identical or exhibit neutral differences, such as minor variations\nin abbreviations or expressions. Leveraging this insight, we introduce **Roads\nto Rome (R2R)**, a neural token routing method that selectively utilizes LLMs\nonly for these critical, path-divergent tokens, while leaving the majority of\ntoken generation to the SLM. We also develop an automatic data generation\npipeline that identifies divergent tokens and generates token-level routing\nlabels to train the lightweight router. We apply R2R to combine R1-1.5B and\nR1-32B models from the DeepSeek family, and evaluate on challenging math,\ncoding, and QA benchmarks. With an average activated parameter size of 5.6B,\nR2R surpasses the average accuracy of R1-7B by 1.6x, outperforming even the\nR1-14B model. Compared to R1-32B, it delivers a 2.8x wall-clock speedup with\ncomparable performance, advancing the Pareto frontier of test-time scaling\nefficiency. Our code is available at https://github.com/thu-nics/R2R.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6445fd9ba56444c355dcbcba/edz42EmKaJTdax2mDUmhh.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21600.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6445fd9ba56444c355dcbcba",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6445fd9ba56444c355dcbcba/NCyRCD-MK-yA0_qY6I2y0.png",
+      "fullname": "Tianyu Fu",
+      "name": "fuvty",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.22648",
+      "authors": [
+        {
+          "_id": "6837c03cbbee677da73e6034",
+          "user": {
+            "_id": "644a4fbc2166258fccc664bc",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+            "isPro": false,
+            "fullname": "Jialong Wu",
+            "user": "callanwu",
+            "type": "user"
+          },
+          "name": "Jialong Wu",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-29T02:02:37.069Z",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e6035",
+          "name": "Baixuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e6036",
+          "name": "Runnan Fang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e6037",
+          "name": "Wenbiao Yin",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e6038",
+          "name": "Liwen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e6039",
+          "name": "Zhengwei Tao",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e603a",
+          "name": "Dingchu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e603b",
+          "name": "Zekun Xi",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e603c",
+          "name": "Yong Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e603d",
+          "name": "Pengjun Xie",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e603e",
+          "name": "Fei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c03cbbee677da73e603f",
+          "name": "Jingren Zhou",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/644a4fbc2166258fccc664bc/vhAmZAlJqekE6vLcVjWtO.mp4",
+        "https://cdn-uploads.huggingface.co/production/uploads/644a4fbc2166258fccc664bc/RXQVwE9PRmBzxCURRiKAU.mp4",
+        "https://cdn-uploads.huggingface.co/production/uploads/644a4fbc2166258fccc664bc/woFRNvRqdUXKnAHpRH2eM.mp4"
+      ],
+      "publishedAt": "2025-05-28T17:57:07.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:34:30.750Z",
+      "title": "WebDancer: Towards Autonomous Information Seeking Agency",
+      "submittedOnDailyBy": {
+        "_id": "644a4fbc2166258fccc664bc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+        "isPro": false,
+        "fullname": "Jialong Wu",
+        "user": "callanwu",
+        "type": "user"
+      },
+      "summary": "Addressing intricate real-world problems necessitates in-depth information\nseeking and multi-step reasoning. Recent progress in agentic systems,\nexemplified by Deep Research, underscores the potential for autonomous\nmulti-step research. In this work, we present a cohesive paradigm for building\nend-to-end agentic information seeking agents from a data-centric and\ntraining-stage perspective. Our approach consists of four key stages: (1)\nbrowsing data construction, (2) trajectories sampling, (3) supervised\nfine-tuning for effective cold start, and (4) reinforcement learning for\nenhanced generalisation. We instantiate this framework in a web agent based on\nthe ReAct, WebDancer. Empirical evaluations on the challenging information\nseeking benchmarks, GAIA and WebWalkerQA, demonstrate the strong performance of\nWebDancer, achieving considerable results and highlighting the efficacy of our\ntraining paradigm. Further analysis of agent training provides valuable\ninsights and actionable, systematic pathways for developing more capable\nagentic models. The codes and demo will be released in\nhttps://github.com/Alibaba-NLP/WebAgent.",
+      "upvotes": 3,
+      "discussionId": "6837c03dbbee677da73e607f",
+      "githubRepo": "https://github.com/Alibaba-NLP/WebAgent"
+    },
+    "publishedAt": "2025-05-28T13:57:07.000Z",
+    "title": "WebDancer: Towards Autonomous Information Seeking Agency",
+    "summary": "Addressing intricate real-world problems necessitates in-depth information\nseeking and multi-step reasoning. Recent progress in agentic systems,\nexemplified by Deep Research, underscores the potential for autonomous\nmulti-step research. In this work, we present a cohesive paradigm for building\nend-to-end agentic information seeking agents from a data-centric and\ntraining-stage perspective. Our approach consists of four key stages: (1)\nbrowsing data construction, (2) trajectories sampling, (3) supervised\nfine-tuning for effective cold start, and (4) reinforcement learning for\nenhanced generalisation. We instantiate this framework in a web agent based on\nthe ReAct, WebDancer. Empirical evaluations on the challenging information\nseeking benchmarks, GAIA and WebWalkerQA, demonstrate the strong performance of\nWebDancer, achieving considerable results and highlighting the efficacy of our\ntraining paradigm. Further analysis of agent training provides valuable\ninsights and actionable, systematic pathways for developing more capable\nagentic models. The codes and demo will be released in\nhttps://github.com/Alibaba-NLP/WebAgent.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/644a4fbc2166258fccc664bc/vhAmZAlJqekE6vLcVjWtO.mp4",
+      "https://cdn-uploads.huggingface.co/production/uploads/644a4fbc2166258fccc664bc/RXQVwE9PRmBzxCURRiKAU.mp4",
+      "https://cdn-uploads.huggingface.co/production/uploads/644a4fbc2166258fccc664bc/woFRNvRqdUXKnAHpRH2eM.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.22648.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "644a4fbc2166258fccc664bc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+      "fullname": "Jialong Wu",
+      "name": "callanwu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.22338",
+      "authors": [
+        {
+          "_id": "6837c79576eac3fa930de19b",
+          "name": "Hanyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c79576eac3fa930de19c",
+          "name": "Lu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c79576eac3fa930de19d",
+          "name": "Chaoyun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c79576eac3fa930de19e",
+          "name": "Tianjun Mao",
+          "hidden": false
+        },
+        {
+          "_id": "6837c79576eac3fa930de19f",
+          "name": "Si Qin",
+          "hidden": false
+        },
+        {
+          "_id": "6837c79576eac3fa930de1a0",
+          "name": "Qingwei Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6837c79576eac3fa930de1a1",
+          "name": "Saravan Rajmohan",
+          "hidden": false
+        },
+        {
+          "_id": "6837c79576eac3fa930de1a2",
+          "name": "Dongmei Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-28T13:23:49.000Z",
+      "submittedOnDailyAt": "2025-05-29T01:04:31.053Z",
+      "title": "Text2Grad: Reinforcement Learning from Natural Language Feedback",
+      "submittedOnDailyBy": {
+        "_id": "654dbac9938fbf1e696be8aa",
+        "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+        "isPro": false,
+        "fullname": "Chaoyun Zhang",
+        "user": "vyokky",
+        "type": "user"
+      },
+      "summary": "Traditional RLHF optimizes language models with coarse, scalar rewards that\nmask the fine-grained reasons behind success or failure, leading to slow and\nopaque learning. Recent work augments RL with textual critiques through\nprompting or reflection, improving interpretability but leaving model\nparameters untouched. We introduce Text2Grad, a reinforcement-learning paradigm\nthat turns free-form textual feedback into span-level gradients. Given human\n(or programmatic) critiques, Text2Grad aligns each feedback phrase with the\nrelevant token spans, converts these alignments into differentiable reward\nsignals, and performs gradient updates that directly refine the offending\nportions of the model's policy. This yields precise, feedback-conditioned\nadjustments instead of global nudges. Text2Grad is realized through three\ncomponents: (1) a high-quality feedback-annotation pipeline that pairs\ncritiques with token spans; (2) a fine-grained reward model that predicts\nspan-level reward on answer while generating explanatory critiques; and (3) a\nspan-level policy optimizer that back-propagates natural-language gradients.\nAcross summarization, code generation, and question answering, Text2Grad\nconsistently surpasses scalar-reward RL and prompt-only baselines, providing\nboth higher task metrics and richer interpretability. Our results demonstrate\nthat natural-language feedback, when converted to gradients, is a powerful\nsignal for fine-grained policy optimization. The code for our method is\navailable at https://github.com/microsoft/Text2Grad",
+      "upvotes": 3,
+      "discussionId": "6837c79576eac3fa930de1dd"
+    },
+    "publishedAt": "2025-05-28T09:23:49.000Z",
+    "title": "Text2Grad: Reinforcement Learning from Natural Language Feedback",
+    "summary": "Traditional RLHF optimizes language models with coarse, scalar rewards that\nmask the fine-grained reasons behind success or failure, leading to slow and\nopaque learning. Recent work augments RL with textual critiques through\nprompting or reflection, improving interpretability but leaving model\nparameters untouched. We introduce Text2Grad, a reinforcement-learning paradigm\nthat turns free-form textual feedback into span-level gradients. Given human\n(or programmatic) critiques, Text2Grad aligns each feedback phrase with the\nrelevant token spans, converts these alignments into differentiable reward\nsignals, and performs gradient updates that directly refine the offending\nportions of the model's policy. This yields precise, feedback-conditioned\nadjustments instead of global nudges. Text2Grad is realized through three\ncomponents: (1) a high-quality feedback-annotation pipeline that pairs\ncritiques with token spans; (2) a fine-grained reward model that predicts\nspan-level reward on answer while generating explanatory critiques; and (3) a\nspan-level policy optimizer that back-propagates natural-language gradients.\nAcross summarization, code generation, and question answering, Text2Grad\nconsistently surpasses scalar-reward RL and prompt-only baselines, providing\nboth higher task metrics and richer interpretability. Our results demonstrate\nthat natural-language feedback, when converted to gradients, is a powerful\nsignal for fine-grained policy optimization. The code for our method is\navailable at https://github.com/microsoft/Text2Grad",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.22338.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "654dbac9938fbf1e696be8aa",
+      "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+      "fullname": "Chaoyun Zhang",
+      "name": "vyokky",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.21925",
+      "authors": [
+        {
+          "_id": "6837c23acce400abe6f18790",
+          "name": "Chong Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6837c23acce400abe6f18791",
+          "user": {
+            "_id": "63299011bdb6242b42b77f57",
+            "avatarUrl": "/avatars/056aec97eb3c10d3b63eb13238e1d2a4.svg",
+            "isPro": false,
+            "fullname": "doyleconan",
+            "user": "doyleconan",
+            "type": "user"
+          },
+          "name": "Yue Dong",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-05-29T02:11:08.981Z",
+          "hidden": false
+        },
+        {
+          "_id": "6837c23acce400abe6f18792",
+          "name": "Pieter Peers",
+          "hidden": false
+        },
+        {
+          "_id": "6837c23acce400abe6f18793",
+          "name": "Hongzhi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6837c23acce400abe6f18794",
+          "name": "Xin Tong",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/60747cbf3ea03830676542b5/DuGYODs8k7DhVHb78BmCZ.jpeg"
+      ],
+      "publishedAt": "2025-05-28T03:20:46.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:45:14.960Z",
+      "title": "RenderFormer: Transformer-based Neural Rendering of Triangle Meshes with\n  Global Illumination",
+      "submittedOnDailyBy": {
+        "_id": "60747cbf3ea03830676542b5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60747cbf3ea03830676542b5/wGr1Jzz520JM9nZ-UcLyb.png",
+        "isPro": false,
+        "fullname": "Chong Zeng",
+        "user": "NCJ",
+        "type": "user"
+      },
+      "summary": "We present RenderFormer, a neural rendering pipeline that directly renders an\nimage from a triangle-based representation of a scene with full global\nillumination effects and that does not require per-scene training or\nfine-tuning. Instead of taking a physics-centric approach to rendering, we\nformulate rendering as a sequence-to-sequence transformation where a sequence\nof tokens representing triangles with reflectance properties is converted to a\nsequence of output tokens representing small patches of pixels. RenderFormer\nfollows a two stage pipeline: a view-independent stage that models\ntriangle-to-triangle light transport, and a view-dependent stage that\ntransforms a token representing a bundle of rays to the corresponding pixel\nvalues guided by the triangle-sequence from the view-independent stage. Both\nstages are based on the transformer architecture and are learned with minimal\nprior constraints. We demonstrate and evaluate RenderFormer on scenes with\nvarying complexity in shape and light transport.",
+      "upvotes": 2,
+      "discussionId": "6837c23ccce400abe6f18812",
+      "projectPage": "https://microsoft.github.io/renderformer/",
+      "githubRepo": "https://github.com/microsoft/renderformer"
+    },
+    "publishedAt": "2025-05-27T23:20:46.000Z",
+    "title": "RenderFormer: Transformer-based Neural Rendering of Triangle Meshes with\n  Global Illumination",
+    "summary": "We present RenderFormer, a neural rendering pipeline that directly renders an\nimage from a triangle-based representation of a scene with full global\nillumination effects and that does not require per-scene training or\nfine-tuning. Instead of taking a physics-centric approach to rendering, we\nformulate rendering as a sequence-to-sequence transformation where a sequence\nof tokens representing triangles with reflectance properties is converted to a\nsequence of output tokens representing small patches of pixels. RenderFormer\nfollows a two stage pipeline: a view-independent stage that models\ntriangle-to-triangle light transport, and a view-dependent stage that\ntransforms a token representing a bundle of rays to the corresponding pixel\nvalues guided by the triangle-sequence from the view-independent stage. Both\nstages are based on the transformer architecture and are learned with minimal\nprior constraints. We demonstrate and evaluate RenderFormer on scenes with\nvarying complexity in shape and light transport.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/60747cbf3ea03830676542b5/DuGYODs8k7DhVHb78BmCZ.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21925.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60747cbf3ea03830676542b5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60747cbf3ea03830676542b5/wGr1Jzz520JM9nZ-UcLyb.png",
+      "fullname": "Chong Zeng",
+      "name": "NCJ",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.19187",
+      "authors": [
+        {
+          "_id": "6837210455e9bab4e9c302b1",
+          "user": {
+            "_id": "6002c316698168af3bb9f4a6",
+            "avatarUrl": "/avatars/1028860b59951be04e94b126b0985dc0.svg",
+            "isPro": false,
+            "fullname": "yangxiao",
+            "user": "YangXiao-nlp",
+            "type": "user"
+          },
+          "name": "Yang Xiao",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-28T19:13:52.090Z",
+          "hidden": false
+        },
+        {
+          "_id": "6837210455e9bab4e9c302b2",
+          "name": "Jiashuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6837210455e9bab4e9c302b3",
+          "name": "Ruifeng Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6837210455e9bab4e9c302b4",
+          "name": "Chunpu Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6837210455e9bab4e9c302b5",
+          "name": "Kaishuai Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6837210455e9bab4e9c302b6",
+          "name": "Wenjie Li",
+          "hidden": false
+        },
+        {
+          "_id": "6837210455e9bab4e9c302b7",
+          "name": "Pengfei Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-25T15:17:57.000Z",
+      "submittedOnDailyAt": "2025-05-29T01:05:08.605Z",
+      "title": "LIMOPro: Reasoning Refinement for Efficient and Effective Test-time\n  Scaling",
+      "submittedOnDailyBy": {
+        "_id": "6002c316698168af3bb9f4a6",
+        "avatarUrl": "/avatars/1028860b59951be04e94b126b0985dc0.svg",
+        "isPro": false,
+        "fullname": "yangxiao",
+        "user": "YangXiao-nlp",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have demonstrated remarkable reasoning\ncapabilities through test-time scaling approaches, particularly when fine-tuned\nwith chain-of-thought (CoT) data distilled from more powerful large reasoning\nmodels (LRMs). However, these reasoning chains often contain verbose elements\nthat mirror human problem-solving, categorized as progressive reasoning (the\nessential solution development path) and functional elements (verification\nprocesses, alternative solution approaches, and error corrections). While\nprogressive reasoning is crucial, the functional elements significantly\nincrease computational demands during test-time inference. We introduce PIR\n(Perplexity-based Importance Refinement), a principled framework that\nquantitatively evaluates the importance of each reasoning step based on its\nimpact on answer prediction confidence. PIR systematically identifies and\nselectively prunes only low-importance functional steps while preserving\nprogressive reasoning components, creating optimized training data that\nmaintains the integrity of the core solution path while reducing verbosity.\nModels fine-tuned on PIR-optimized data exhibit superior test-time scaling\nproperties, generating more concise reasoning chains while achieving improved\naccuracy (+0.9\\% to +6.6\\%) with significantly reduced token usage (-3\\% to\n-41\\%) across challenging reasoning benchmarks (AIME, AMC, and GPQA Diamond).\nOur approach demonstrates strong generalizability across different model sizes,\ndata sources, and token budgets, offering a practical solution for deploying\nreasoning-capable LLMs in scenarios where efficient test-time scaling, response\ntime, and computational efficiency are valuable constraints.",
+      "upvotes": 2,
+      "discussionId": "6837210555e9bab4e9c302f2",
+      "ai_summary": "A framework called PIR refines the importance of reasoning steps in large language models by pruning low-importance functional elements, leading to more concise reasoning chains with improved accuracy and reduced computational demands.",
+      "ai_keywords": [
+        "large language models",
+        "chain-of-thought",
+        "large reasoning models",
+        "progressive reasoning",
+        "functional elements",
+        "perplexity-based importance refinement",
+        "token usage",
+        "reasoning benchmarks",
+        "AIME",
+        "AMC",
+        "GPQA Diamond"
+      ]
+    },
+    "publishedAt": "2025-05-25T11:17:57.000Z",
+    "title": "LIMOPro: Reasoning Refinement for Efficient and Effective Test-time\n  Scaling",
+    "summary": "Large language models (LLMs) have demonstrated remarkable reasoning\ncapabilities through test-time scaling approaches, particularly when fine-tuned\nwith chain-of-thought (CoT) data distilled from more powerful large reasoning\nmodels (LRMs). However, these reasoning chains often contain verbose elements\nthat mirror human problem-solving, categorized as progressive reasoning (the\nessential solution development path) and functional elements (verification\nprocesses, alternative solution approaches, and error corrections). While\nprogressive reasoning is crucial, the functional elements significantly\nincrease computational demands during test-time inference. We introduce PIR\n(Perplexity-based Importance Refinement), a principled framework that\nquantitatively evaluates the importance of each reasoning step based on its\nimpact on answer prediction confidence. PIR systematically identifies and\nselectively prunes only low-importance functional steps while preserving\nprogressive reasoning components, creating optimized training data that\nmaintains the integrity of the core solution path while reducing verbosity.\nModels fine-tuned on PIR-optimized data exhibit superior test-time scaling\nproperties, generating more concise reasoning chains while achieving improved\naccuracy (+0.9\\% to +6.6\\%) with significantly reduced token usage (-3\\% to\n-41\\%) across challenging reasoning benchmarks (AIME, AMC, and GPQA Diamond).\nOur approach demonstrates strong generalizability across different model sizes,\ndata sources, and token budgets, offering a practical solution for deploying\nreasoning-capable LLMs in scenarios where efficient test-time scaling, response\ntime, and computational efficiency are valuable constraints.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.19187.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6002c316698168af3bb9f4a6",
+      "avatarUrl": "/avatars/1028860b59951be04e94b126b0985dc0.svg",
+      "fullname": "yangxiao",
+      "name": "YangXiao-nlp",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.22523",
+      "authors": [
+        {
+          "_id": "6837c1cb80fc90ca2d9e8153",
+          "name": "Junwen Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6837c1cb80fc90ca2d9e8154",
+          "name": "Heyang Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c1cb80fc90ca2d9e8155",
+          "name": "Yanbin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c1cb80fc90ca2d9e8156",
+          "name": "Keming Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6837c1cb80fc90ca2d9e8157",
+          "name": "Ji Li",
+          "hidden": false
+        },
+        {
+          "_id": "6837c1cb80fc90ca2d9e8158",
+          "name": "Chao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6837c1cb80fc90ca2d9e8159",
+          "name": "Keiji Yanai",
+          "hidden": false
+        },
+        {
+          "_id": "6837c1cb80fc90ca2d9e815a",
+          "name": "Dong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6837c1cb80fc90ca2d9e815b",
+          "name": "Yuhui Yuan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-28T16:09:33.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:40:52.849Z",
+      "title": "PrismLayers: Open Data for High-Quality Multi-Layer Transparent Image\n  Generative Models",
+      "submittedOnDailyBy": {
+        "_id": "631f108bb45367a05fe74260",
+        "avatarUrl": "/avatars/c20da6800b643728062712d9a2771648.svg",
+        "isPro": false,
+        "fullname": "Researcher",
+        "user": "YuanYuhui",
+        "type": "user"
+      },
+      "summary": "Generating high-quality, multi-layer transparent images from text prompts can\nunlock a new level of creative control, allowing users to edit each layer as\neffortlessly as editing text outputs from LLMs. However, the development of\nmulti-layer generative models lags behind that of conventional text-to-image\nmodels due to the absence of a large, high-quality corpus of multi-layer\ntransparent data. In this paper, we address this fundamental challenge by: (i)\nreleasing the first open, ultra-high-fidelity PrismLayers (PrismLayersPro)\ndataset of 200K (20K) multilayer transparent images with accurate alpha mattes,\n(ii) introducing a trainingfree synthesis pipeline that generates such data on\ndemand using off-the-shelf diffusion models, and (iii) delivering a strong,\nopen-source multi-layer generation model, ART+, which matches the aesthetics of\nmodern text-to-image generation models. The key technical contributions\ninclude: LayerFLUX, which excels at generating high-quality single transparent\nlayers with accurate alpha mattes, and MultiLayerFLUX, which composes multiple\nLayerFLUX outputs into complete images, guided by human-annotated semantic\nlayout. To ensure higher quality, we apply a rigorous filtering stage to remove\nartifacts and semantic mismatches, followed by human selection. Fine-tuning the\nstate-of-the-art ART model on our synthetic PrismLayersPro yields ART+, which\noutperforms the original ART in 60% of head-to-head user study comparisons and\neven matches the visual quality of images generated by the FLUX.1-[dev] model.\nWe anticipate that our work will establish a solid dataset foundation for the\nmulti-layer transparent image generation task, enabling research and\napplications that require precise, editable, and visually compelling layered\nimagery.",
+      "upvotes": 1,
+      "discussionId": "6837c1d180fc90ca2d9e82bc"
+    },
+    "publishedAt": "2025-05-28T12:09:33.000Z",
+    "title": "PrismLayers: Open Data for High-Quality Multi-Layer Transparent Image\n  Generative Models",
+    "summary": "Generating high-quality, multi-layer transparent images from text prompts can\nunlock a new level of creative control, allowing users to edit each layer as\neffortlessly as editing text outputs from LLMs. However, the development of\nmulti-layer generative models lags behind that of conventional text-to-image\nmodels due to the absence of a large, high-quality corpus of multi-layer\ntransparent data. In this paper, we address this fundamental challenge by: (i)\nreleasing the first open, ultra-high-fidelity PrismLayers (PrismLayersPro)\ndataset of 200K (20K) multilayer transparent images with accurate alpha mattes,\n(ii) introducing a trainingfree synthesis pipeline that generates such data on\ndemand using off-the-shelf diffusion models, and (iii) delivering a strong,\nopen-source multi-layer generation model, ART+, which matches the aesthetics of\nmodern text-to-image generation models. The key technical contributions\ninclude: LayerFLUX, which excels at generating high-quality single transparent\nlayers with accurate alpha mattes, and MultiLayerFLUX, which composes multiple\nLayerFLUX outputs into complete images, guided by human-annotated semantic\nlayout. To ensure higher quality, we apply a rigorous filtering stage to remove\nartifacts and semantic mismatches, followed by human selection. Fine-tuning the\nstate-of-the-art ART model on our synthetic PrismLayersPro yields ART+, which\noutperforms the original ART in 60% of head-to-head user study comparisons and\neven matches the visual quality of images generated by the FLUX.1-[dev] model.\nWe anticipate that our work will establish a solid dataset foundation for the\nmulti-layer transparent image generation task, enabling research and\napplications that require precise, editable, and visually compelling layered\nimagery.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.22523.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "631f108bb45367a05fe74260",
+      "avatarUrl": "/avatars/c20da6800b643728062712d9a2771648.svg",
+      "fullname": "Researcher",
+      "name": "YuanYuhui",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.17663",
+      "authors": [
+        {
+          "_id": "6833c6ff97966d18e7b995b0",
+          "user": {
+            "_id": "6002c316698168af3bb9f4a6",
+            "avatarUrl": "/avatars/1028860b59951be04e94b126b0985dc0.svg",
+            "isPro": false,
+            "fullname": "yangxiao",
+            "user": "YangXiao-nlp",
+            "type": "user"
+          },
+          "name": "Yang Xiao",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-28T19:14:41.639Z",
+          "hidden": false
+        },
+        {
+          "_id": "6833c6ff97966d18e7b995b1",
+          "name": "Jiashuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6833c6ff97966d18e7b995b2",
+          "name": "Qiancheng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6833c6ff97966d18e7b995b3",
+          "name": "Changhe Song",
+          "hidden": false
+        },
+        {
+          "_id": "6833c6ff97966d18e7b995b4",
+          "name": "Chunpu Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6833c6ff97966d18e7b995b5",
+          "name": "Yi Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "6833c6ff97966d18e7b995b6",
+          "name": "Wenjie Li",
+          "hidden": false
+        },
+        {
+          "_id": "6833c6ff97966d18e7b995b7",
+          "name": "Pengfei Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T09:27:40.000Z",
+      "submittedOnDailyAt": "2025-05-29T01:05:57.079Z",
+      "title": "Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal\n  Evolution of Human States",
+      "submittedOnDailyBy": {
+        "_id": "6002c316698168af3bb9f4a6",
+        "avatarUrl": "/avatars/1028860b59951be04e94b126b0985dc0.svg",
+        "isPro": false,
+        "fullname": "yangxiao",
+        "user": "YangXiao-nlp",
+        "type": "user"
+      },
+      "summary": "As Large Language Models (LLMs) increasingly participate in human-AI\ninteractions, evaluating their Theory of Mind (ToM) capabilities - particularly\ntheir ability to track dynamic mental states - becomes crucial. While existing\nbenchmarks assess basic ToM abilities, they predominantly focus on static\nsnapshots of mental states, overlooking the temporal evolution that\ncharacterizes real-world social interactions. We present DynToM, a\nnovel benchmark specifically designed to evaluate LLMs' ability to understand\nand track the temporal progression of mental states across interconnected\nscenarios. Through a systematic four-step framework, we generate 1,100 social\ncontexts encompassing 5,500 scenarios and 78,100 questions, each validated for\nrealism and quality. Our comprehensive evaluation of ten state-of-the-art LLMs\nreveals that their average performance underperforms humans by 44.7\\%, with\nperformance degrading significantly when tracking and reasoning about the shift\nof mental states. This performance gap highlights fundamental limitations in\ncurrent LLMs' ability to model the dynamic nature of human mental states.",
+      "upvotes": 1,
+      "discussionId": "6833c70097966d18e7b99616",
+      "ai_summary": "The DynToM benchmark evaluates LLMs' ability to track and understand the temporal progression of mental states, revealing significant gaps compared to human performance.",
+      "ai_keywords": [
+        "Large Language Models (LLMs)",
+        "Theory of Mind (ToM)",
+        "DynToM",
+        "social contexts",
+        "mental states",
+        "temporal progression",
+        "evaluation framework",
+        "state-of-the-art LLMs",
+        "performance gap",
+        "dynamic mental states"
+      ]
+    },
+    "publishedAt": "2025-05-23T05:27:40.000Z",
+    "title": "Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal\n  Evolution of Human States",
+    "summary": "As Large Language Models (LLMs) increasingly participate in human-AI\ninteractions, evaluating their Theory of Mind (ToM) capabilities - particularly\ntheir ability to track dynamic mental states - becomes crucial. While existing\nbenchmarks assess basic ToM abilities, they predominantly focus on static\nsnapshots of mental states, overlooking the temporal evolution that\ncharacterizes real-world social interactions. We present DynToM, a\nnovel benchmark specifically designed to evaluate LLMs' ability to understand\nand track the temporal progression of mental states across interconnected\nscenarios. Through a systematic four-step framework, we generate 1,100 social\ncontexts encompassing 5,500 scenarios and 78,100 questions, each validated for\nrealism and quality. Our comprehensive evaluation of ten state-of-the-art LLMs\nreveals that their average performance underperforms humans by 44.7\\%, with\nperformance degrading significantly when tracking and reasoning about the shift\nof mental states. This performance gap highlights fundamental limitations in\ncurrent LLMs' ability to model the dynamic nature of human mental states.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17663.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6002c316698168af3bb9f4a6",
+      "avatarUrl": "/avatars/1028860b59951be04e94b126b0985dc0.svg",
+      "fullname": "yangxiao",
+      "name": "YangXiao-nlp",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.17507",
+      "authors": [
+        {
+          "_id": "6833f24ed5c438959f7decf9",
+          "user": {
+            "_id": "619ef3f253061ce00477b09e",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/619ef3f253061ce00477b09e/FknZhgQhV2_3aTqIKVsTo.jpeg",
+            "isPro": false,
+            "fullname": "Qiaosheng Chen",
+            "user": "cqsss",
+            "type": "user"
+          },
+          "name": "Qiaosheng Chen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-05-28T09:01:00.198Z",
+          "hidden": false
+        },
+        {
+          "_id": "6833f24ed5c438959f7decfa",
+          "name": "Kaijia Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6833f24ed5c438959f7decfb",
+          "name": "Xiao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6833f24ed5c438959f7decfc",
+          "name": "Weiqing Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6833f24ed5c438959f7decfd",
+          "name": "Yuanning Cui",
+          "hidden": false
+        },
+        {
+          "_id": "6833f24ed5c438959f7decfe",
+          "name": "Gong Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-23T06:00:20.000Z",
+      "submittedOnDailyAt": "2025-05-29T00:53:38.693Z",
+      "title": "Benchmarking Recommendation, Classification, and Tracing Based on\n  Hugging Face Knowledge Graph",
+      "submittedOnDailyBy": {
+        "_id": "619ef3f253061ce00477b09e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/619ef3f253061ce00477b09e/FknZhgQhV2_3aTqIKVsTo.jpeg",
+        "isPro": false,
+        "fullname": "Qiaosheng Chen",
+        "user": "cqsss",
+        "type": "user"
+      },
+      "summary": "The rapid growth of open source machine learning (ML) resources, such as\nmodels and datasets, has accelerated IR research. However, existing platforms\nlike Hugging Face do not explicitly utilize structured representations,\nlimiting advanced queries and analyses such as tracing model evolution and\nrecommending relevant datasets. To fill the gap, we construct HuggingKG, the\nfirst large-scale knowledge graph built from the Hugging Face community for ML\nresource management. With 2.6 million nodes and 6.2 million edges, HuggingKG\ncaptures domain-specific relations and rich textual attributes. It enables us\nto further present HuggingBench, a multi-task benchmark with three novel test\ncollections for IR tasks including resource recommendation, classification, and\ntracing. Our experiments reveal unique characteristics of HuggingKG and the\nderived tasks. Both resources are publicly available, expected to advance\nresearch in open source resource sharing and management.",
+      "upvotes": 1,
+      "discussionId": "6833f24ed5c438959f7ded31",
+      "githubRepo": "https://github.com/nju-websoft/HuggingBench",
+      "ai_summary": "HuggingKG, a large-scale knowledge graph, enhances open source ML resource management by enabling advanced queries and analyses via HuggingBench.",
+      "ai_keywords": [
+        "knowledge graph",
+        "resource recommendation",
+        "classification",
+        "tracing",
+        "multi-task benchmark"
+      ]
+    },
+    "publishedAt": "2025-05-23T02:00:20.000Z",
+    "title": "Benchmarking Recommendation, Classification, and Tracing Based on\n  Hugging Face Knowledge Graph",
+    "summary": "The rapid growth of open source machine learning (ML) resources, such as\nmodels and datasets, has accelerated IR research. However, existing platforms\nlike Hugging Face do not explicitly utilize structured representations,\nlimiting advanced queries and analyses such as tracing model evolution and\nrecommending relevant datasets. To fill the gap, we construct HuggingKG, the\nfirst large-scale knowledge graph built from the Hugging Face community for ML\nresource management. With 2.6 million nodes and 6.2 million edges, HuggingKG\ncaptures domain-specific relations and rich textual attributes. It enables us\nto further present HuggingBench, a multi-task benchmark with three novel test\ncollections for IR tasks including resource recommendation, classification, and\ntracing. Our experiments reveal unique characteristics of HuggingKG and the\nderived tasks. Both resources are publicly available, expected to advance\nresearch in open source resource sharing and management.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.17507.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "619ef3f253061ce00477b09e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/619ef3f253061ce00477b09e/FknZhgQhV2_3aTqIKVsTo.jpeg",
+      "fullname": "Qiaosheng Chen",
+      "name": "cqsss",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  }
+]
