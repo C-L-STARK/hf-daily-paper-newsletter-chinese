@@ -1,0 +1,331 @@
+[
+  {
+    "paper": {
+      "id": "2505.24863",
+      "authors": [
+        {
+          "_id": "683d0b3de2a7d8d9778bd141",
+          "name": "Junyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd142",
+          "name": "Runpei Dong",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd143",
+          "name": "Han Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd144",
+          "name": "Xuying Ning",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd145",
+          "name": "Haoran Geng",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd146",
+          "name": "Peihao Li",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd147",
+          "name": "Xialin He",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd148",
+          "name": "Yutong Bai",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd149",
+          "name": "Jitendra Malik",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd14a",
+          "name": "Saurabh Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b3de2a7d8d9778bd14b",
+          "name": "Huan Zhang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6201fc5d91d53938a6432fbf/dBNLCtnWBtBclw0ZZsYBU.png"
+      ],
+      "publishedAt": "2025-05-30T17:58:36.000Z",
+      "submittedOnDailyAt": "2025-06-02T00:55:04.615Z",
+      "title": "AlphaOne: Reasoning Models Thinking Slow and Fast at Test Time",
+      "submittedOnDailyBy": {
+        "_id": "6201fc5d91d53938a6432fbf",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6201fc5d91d53938a6432fbf/VLs8ZYaZrop4KBpZn53fH.jpeg",
+        "isPro": false,
+        "fullname": "Runpei Dong",
+        "user": "RunpeiDong",
+        "type": "user"
+      },
+      "summary": "This paper presents AlphaOne (alpha1), a universal framework for\nmodulating reasoning progress in large reasoning models (LRMs) at test time.\nalpha1 first introduces alpha moment, which represents the scaled\nthinking phase with a universal parameter alpha. Within this scaled\npre-alpha moment phase, it dynamically schedules slow thinking transitions\nby modeling the insertion of reasoning transition tokens as a Bernoulli\nstochastic process. After the alpha moment, alpha1 deterministically\nterminates slow thinking with the end-of-thinking token, thereby fostering fast\nreasoning and efficient answer generation. This approach unifies and\ngeneralizes existing monotonic scaling methods by enabling flexible and dense\nslow-to-fast reasoning modulation. Extensive empirical studies on various\nchallenging benchmarks across mathematical, coding, and scientific domains\ndemonstrate alpha1's superior reasoning capability and efficiency. Project\npage: https://alphaone-project.github.io/",
+      "upvotes": 13,
+      "discussionId": "683d0b3ee2a7d8d9778bd1ce"
+    },
+    "publishedAt": "2025-05-30T13:58:36.000Z",
+    "title": "AlphaOne: Reasoning Models Thinking Slow and Fast at Test Time",
+    "summary": "This paper presents AlphaOne (alpha1), a universal framework for\nmodulating reasoning progress in large reasoning models (LRMs) at test time.\nalpha1 first introduces alpha moment, which represents the scaled\nthinking phase with a universal parameter alpha. Within this scaled\npre-alpha moment phase, it dynamically schedules slow thinking transitions\nby modeling the insertion of reasoning transition tokens as a Bernoulli\nstochastic process. After the alpha moment, alpha1 deterministically\nterminates slow thinking with the end-of-thinking token, thereby fostering fast\nreasoning and efficient answer generation. This approach unifies and\ngeneralizes existing monotonic scaling methods by enabling flexible and dense\nslow-to-fast reasoning modulation. Extensive empirical studies on various\nchallenging benchmarks across mathematical, coding, and scientific domains\ndemonstrate alpha1's superior reasoning capability and efficiency. Project\npage: https://alphaone-project.github.io/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6201fc5d91d53938a6432fbf/dBNLCtnWBtBclw0ZZsYBU.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.24863.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6201fc5d91d53938a6432fbf",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6201fc5d91d53938a6432fbf/VLs8ZYaZrop4KBpZn53fH.jpeg",
+      "fullname": "Runpei Dong",
+      "name": "RunpeiDong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.24417",
+      "authors": [
+        {
+          "_id": "683d0b6c5810d395f0a9a49e",
+          "name": "Runnan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b6c5810d395f0a9a49f",
+          "name": "Yuxuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b6c5810d395f0a9a4a0",
+          "name": "Jailing Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b6c5810d395f0a9a4a1",
+          "name": "Haifa Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683d0b6c5810d395f0a9a4a2",
+          "name": "Yiren Song",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-30T09:55:39.000Z",
+      "submittedOnDailyAt": "2025-06-02T00:55:24.254Z",
+      "title": "EasyText: Controllable Diffusion Transformer for Multilingual Text\n  Rendering",
+      "submittedOnDailyBy": {
+        "_id": "64311a95034ecbefddd141ef",
+        "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+        "isPro": true,
+        "fullname": "Yiren Song",
+        "user": "yiren98",
+        "type": "user"
+      },
+      "summary": "Generating accurate multilingual text with diffusion models has long been\ndesired but remains challenging. Recent methods have made progress in rendering\ntext in a single language, but rendering arbitrary languages is still an\nunexplored area. This paper introduces EasyText, a text rendering framework\nbased on DiT (Diffusion Transformer), which connects denoising latents with\nmultilingual character tokens encoded as character tokens. We propose character\npositioning encoding and position encoding interpolation techniques to achieve\ncontrollable and precise text rendering. Additionally, we construct a\nlarge-scale synthetic text image dataset with 1 million multilingual image-text\nannotations as well as a high-quality dataset of 20K annotated images, which\nare used for pretraining and fine-tuning respectively. Extensive experiments\nand evaluations demonstrate the effectiveness and advancement of our approach\nin multilingual text rendering, visual quality, and layout-aware text\nintegration.",
+      "upvotes": 2,
+      "discussionId": "683d0b6f5810d395f0a9a57b"
+    },
+    "publishedAt": "2025-05-30T05:55:39.000Z",
+    "title": "EasyText: Controllable Diffusion Transformer for Multilingual Text\n  Rendering",
+    "summary": "Generating accurate multilingual text with diffusion models has long been\ndesired but remains challenging. Recent methods have made progress in rendering\ntext in a single language, but rendering arbitrary languages is still an\nunexplored area. This paper introduces EasyText, a text rendering framework\nbased on DiT (Diffusion Transformer), which connects denoising latents with\nmultilingual character tokens encoded as character tokens. We propose character\npositioning encoding and position encoding interpolation techniques to achieve\ncontrollable and precise text rendering. Additionally, we construct a\nlarge-scale synthetic text image dataset with 1 million multilingual image-text\nannotations as well as a high-quality dataset of 20K annotated images, which\nare used for pretraining and fine-tuning respectively. Extensive experiments\nand evaluations demonstrate the effectiveness and advancement of our approach\nin multilingual text rendering, visual quality, and layout-aware text\nintegration.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.24417.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64311a95034ecbefddd141ef",
+      "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+      "fullname": "Yiren Song",
+      "name": "yiren98",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 17
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.24293",
+      "authors": [
+        {
+          "_id": "683d01ec446fd0c8ff323010",
+          "user": {
+            "_id": "6658f863ce1b283888625af3",
+            "avatarUrl": "/avatars/e4b2c7df0f398eb68c0566031ceac99e.svg",
+            "isPro": false,
+            "fullname": "James Golden",
+            "user": "jamesgolden1",
+            "type": "user"
+          },
+          "name": "James R. Golden",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-06-02T02:38:10.635Z",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6658f863ce1b283888625af3/uulwAnV1EYXXSdsC-eDMW.png"
+      ],
+      "publishedAt": "2025-05-30T07:08:33.000Z",
+      "submittedOnDailyAt": "2025-06-02T01:02:58.980Z",
+      "title": "Large Language Models are Locally Linear Mappings",
+      "submittedOnDailyBy": {
+        "_id": "6658f863ce1b283888625af3",
+        "avatarUrl": "/avatars/e4b2c7df0f398eb68c0566031ceac99e.svg",
+        "isPro": false,
+        "fullname": "James Golden",
+        "user": "jamesgolden1",
+        "type": "user"
+      },
+      "summary": "We demonstrate that the inference operations of several open-weight large\nlanguage models (LLMs) can be mapped to an exactly equivalent linear system for\nan input sequence without modifying the model weights or altering output\npredictions. Extending techniques from image diffusion models that exhibit\nlocal or piecewise linearity, we strategically alter the gradient computation\nwith respect to a given input sequence for a next-token prediction such that\nthe Jacobian of the model nearly exactly reproduces the forward prediction with\na linear system. We demonstrate this approach across models (Llama 3, Gemma 3,\nQwen 3, Phi 4, Mistral Ministral and OLMo 2, up to Llama 3.3 70B Q4) and show\nthrough the singular value decomposition of the detached Jacobian that these\nLLMs operate in extremely low-dimensional subspaces where many of the largest\nsingular vectors decode to concepts related to the most-likely output token.\nThis approach also allows us to examine the operation of each successive layer\n(and its attention and MLP components) as nearly-exact linear systems and\nobserve the emergence of semantic concepts. Despite their expressive power and\nglobal nonlinearity, modern LLMs can be interpreted through nearly-exact\nlocally linear decompositions that provide insights into their internal\nrepresentations and reveal interpretable semantic structures in the next-token\nprediction process.",
+      "upvotes": 1,
+      "discussionId": "683d01ee446fd0c8ff323087",
+      "githubRepo": "https://github.com/jamesgolden1/llms-are-llms/"
+    },
+    "publishedAt": "2025-05-30T03:08:33.000Z",
+    "title": "Large Language Models are Locally Linear Mappings",
+    "summary": "We demonstrate that the inference operations of several open-weight large\nlanguage models (LLMs) can be mapped to an exactly equivalent linear system for\nan input sequence without modifying the model weights or altering output\npredictions. Extending techniques from image diffusion models that exhibit\nlocal or piecewise linearity, we strategically alter the gradient computation\nwith respect to a given input sequence for a next-token prediction such that\nthe Jacobian of the model nearly exactly reproduces the forward prediction with\na linear system. We demonstrate this approach across models (Llama 3, Gemma 3,\nQwen 3, Phi 4, Mistral Ministral and OLMo 2, up to Llama 3.3 70B Q4) and show\nthrough the singular value decomposition of the detached Jacobian that these\nLLMs operate in extremely low-dimensional subspaces where many of the largest\nsingular vectors decode to concepts related to the most-likely output token.\nThis approach also allows us to examine the operation of each successive layer\n(and its attention and MLP components) as nearly-exact linear systems and\nobserve the emergence of semantic concepts. Despite their expressive power and\nglobal nonlinearity, modern LLMs can be interpreted through nearly-exact\nlocally linear decompositions that provide insights into their internal\nrepresentations and reveal interpretable semantic structures in the next-token\nprediction process.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6658f863ce1b283888625af3/uulwAnV1EYXXSdsC-eDMW.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.24293.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6658f863ce1b283888625af3",
+      "avatarUrl": "/avatars/e4b2c7df0f398eb68c0566031ceac99e.svg",
+      "fullname": "James Golden",
+      "name": "jamesgolden1",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.23844",
+      "authors": [
+        {
+          "_id": "683d0ac47852d920b7dc3dc5",
+          "name": "Zhenglun Kong",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dc6",
+          "name": "Zheng Zhan",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dc7",
+          "name": "Shiyue Hou",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dc8",
+          "name": "Yifan Gong",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dc9",
+          "name": "Xin Meng",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dca",
+          "name": "Pengwei Sui",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dcb",
+          "name": "Peiyan Dong",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dcc",
+          "name": "Xuan Shen",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dcd",
+          "name": "Zifeng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dce",
+          "name": "Pu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dcf",
+          "name": "Hao Tang",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dd0",
+          "name": "Stratis Ioannidis",
+          "hidden": false
+        },
+        {
+          "_id": "683d0ac47852d920b7dc3dd1",
+          "name": "Yanzhi Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-28T16:24:50.000Z",
+      "submittedOnDailyAt": "2025-06-02T00:52:55.266Z",
+      "title": "Enabling Flexible Multi-LLM Integration for Scalable Knowledge\n  Aggregation",
+      "submittedOnDailyBy": {
+        "_id": "5f2c36551ebc8c6ede2f0e53",
+        "avatarUrl": "/avatars/e3ddbd15f50b86958377b5fc2460a57e.svg",
+        "isPro": false,
+        "fullname": "Tony Kong",
+        "user": "TonyK",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have shown remarkable promise but remain\nchallenging to continually improve through traditional finetuning, particularly\nwhen integrating capabilities from other specialized LLMs. Popular methods like\nensemble and weight merging require substantial memory and struggle to adapt to\nchanging data environments. Recent efforts have transferred knowledge from\nmultiple LLMs into a single target model; however, they suffer from\ninterference and degraded performance among tasks, largely due to limited\nflexibility in candidate selection and training pipelines. To address these\nissues, we propose a framework that adaptively selects and aggregates knowledge\nfrom diverse LLMs to build a single, stronger model, avoiding the high memory\noverhead of ensemble and inflexible weight merging. Specifically, we design an\nadaptive selection network that identifies the most relevant source LLMs based\non their scores, thereby reducing knowledge interference. We further propose a\ndynamic weighted fusion strategy that accounts for the inherent strengths of\ncandidate LLMs, along with a feedback-driven loss function that prevents the\nselector from converging on a single subset of sources. Experimental results\ndemonstrate that our method can enable a more stable and scalable knowledge\naggregation process while reducing knowledge interference by up to 50% compared\nto existing approaches. Code is avaliable at\nhttps://github.com/ZLKong/LLM_Integration",
+      "upvotes": 1,
+      "discussionId": "683d0ac57852d920b7dc3e20",
+      "projectPage": "https://github.com/ZLKong/LLM_Integration/tree/main",
+      "githubRepo": "https://github.com/ZLKong/LLM_Integration/tree/main"
+    },
+    "publishedAt": "2025-05-28T12:24:50.000Z",
+    "title": "Enabling Flexible Multi-LLM Integration for Scalable Knowledge\n  Aggregation",
+    "summary": "Large language models (LLMs) have shown remarkable promise but remain\nchallenging to continually improve through traditional finetuning, particularly\nwhen integrating capabilities from other specialized LLMs. Popular methods like\nensemble and weight merging require substantial memory and struggle to adapt to\nchanging data environments. Recent efforts have transferred knowledge from\nmultiple LLMs into a single target model; however, they suffer from\ninterference and degraded performance among tasks, largely due to limited\nflexibility in candidate selection and training pipelines. To address these\nissues, we propose a framework that adaptively selects and aggregates knowledge\nfrom diverse LLMs to build a single, stronger model, avoiding the high memory\noverhead of ensemble and inflexible weight merging. Specifically, we design an\nadaptive selection network that identifies the most relevant source LLMs based\non their scores, thereby reducing knowledge interference. We further propose a\ndynamic weighted fusion strategy that accounts for the inherent strengths of\ncandidate LLMs, along with a feedback-driven loss function that prevents the\nselector from converging on a single subset of sources. Experimental results\ndemonstrate that our method can enable a more stable and scalable knowledge\naggregation process while reducing knowledge interference by up to 50% compared\nto existing approaches. Code is avaliable at\nhttps://github.com/ZLKong/LLM_Integration",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.23844.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5f2c36551ebc8c6ede2f0e53",
+      "avatarUrl": "/avatars/e3ddbd15f50b86958377b5fc2460a57e.svg",
+      "fullname": "Tony Kong",
+      "name": "TonyK",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
