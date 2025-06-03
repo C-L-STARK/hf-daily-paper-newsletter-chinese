@@ -1,0 +1,421 @@
+[
+  {
+    "paper": {
+      "id": "2505.23001",
+      "authors": [
+        {
+          "_id": "6839f87c49d173e7b23f220b",
+          "user": {
+            "_id": "66fa2c61c25c3fcb32f9f131",
+            "avatarUrl": "/avatars/05387c30f2d1803fa0a5b176c3706772.svg",
+            "isPro": false,
+            "fullname": "Yize Cheng",
+            "user": "yizecheng",
+            "type": "user"
+          },
+          "name": "Yize Cheng",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-30T18:27:47.059Z",
+          "hidden": false
+        },
+        {
+          "_id": "6839f87c49d173e7b23f220c",
+          "user": {
+            "_id": "659dc02d72238596c24d49f5",
+            "avatarUrl": "/avatars/d4600d23ccc72f296fab7f626d5895e7.svg",
+            "isPro": false,
+            "fullname": "Wenxiao Wang",
+            "user": "wangwenxiao",
+            "type": "user"
+          },
+          "name": "Wenxiao Wang",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-30T18:28:18.975Z",
+          "hidden": false
+        },
+        {
+          "_id": "6839f87c49d173e7b23f220d",
+          "user": {
+            "_id": "63449874ee1504dbcd59af3d",
+            "avatarUrl": "/avatars/57a805d82d16de9544c98585bd7a3e55.svg",
+            "isPro": false,
+            "fullname": "MazdaM",
+            "user": "mmoayeri",
+            "type": "user"
+          },
+          "name": "Mazda Moayeri",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-05-30T20:01:34.913Z",
+          "hidden": false
+        },
+        {
+          "_id": "6839f87c49d173e7b23f220e",
+          "name": "Soheil Feizi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-29T02:22:14.000Z",
+      "submittedOnDailyAt": "2025-06-03T00:16:12.678Z",
+      "title": "DyePack: Provably Flagging Test Set Contamination in LLMs Using\n  Backdoors",
+      "submittedOnDailyBy": {
+        "_id": "66fa2c61c25c3fcb32f9f131",
+        "avatarUrl": "/avatars/05387c30f2d1803fa0a5b176c3706772.svg",
+        "isPro": false,
+        "fullname": "Yize Cheng",
+        "user": "yizecheng",
+        "type": "user"
+      },
+      "summary": "Open benchmarks are essential for evaluating and advancing large language\nmodels, offering reproducibility and transparency. However, their accessibility\nmakes them likely targets of test set contamination. In this work, we introduce\nDyePack, a framework that leverages backdoor attacks to identify models that\nused benchmark test sets during training, without requiring access to the loss,\nlogits, or any internal details of the model. Like how banks mix dye packs with\ntheir money to mark robbers, DyePack mixes backdoor samples with the test data\nto flag models that trained on it. We propose a principled design incorporating\nmultiple backdoors with stochastic targets, enabling exact false positive rate\n(FPR) computation when flagging every model. This provably prevents false\naccusations while providing strong evidence for every detected case of\ncontamination. We evaluate DyePack on five models across three datasets,\ncovering both multiple-choice and open-ended generation tasks. For\nmultiple-choice questions, it successfully detects all contaminated models with\nguaranteed FPRs as low as 0.000073% on MMLU-Pro and 0.000017% on Big-Bench-Hard\nusing eight backdoors. For open-ended generation tasks, it generalizes well and\nidentifies all contaminated models on Alpaca with a guaranteed false positive\nrate of just 0.127% using six backdoors.",
+      "upvotes": 8,
+      "discussionId": "6839f87c49d173e7b23f222c",
+      "githubRepo": "https://github.com/chengez/DyePack",
+      "ai_summary": "DyePack, a framework using backdoor attacks, identifies models that leveraged benchmark test sets during training by introducing benign backdoor samples, ensuring precise false positive rates while preventing false accusations.",
+      "ai_keywords": [
+        "backdoor attacks",
+        "test set contamination",
+        "false positive rate",
+        "FPR",
+        "DyePack",
+        "multiple backdoors",
+        "stochastic targets",
+        "MMLU-Pro",
+        "Big-Bench-Hard",
+        "Alpaca",
+        "multiple-choice questions",
+        "open-ended generation tasks"
+      ]
+    },
+    "publishedAt": "2025-05-28T22:22:14.000Z",
+    "title": "DyePack: Provably Flagging Test Set Contamination in LLMs Using\n  Backdoors",
+    "summary": "Open benchmarks are essential for evaluating and advancing large language\nmodels, offering reproducibility and transparency. However, their accessibility\nmakes them likely targets of test set contamination. In this work, we introduce\nDyePack, a framework that leverages backdoor attacks to identify models that\nused benchmark test sets during training, without requiring access to the loss,\nlogits, or any internal details of the model. Like how banks mix dye packs with\ntheir money to mark robbers, DyePack mixes backdoor samples with the test data\nto flag models that trained on it. We propose a principled design incorporating\nmultiple backdoors with stochastic targets, enabling exact false positive rate\n(FPR) computation when flagging every model. This provably prevents false\naccusations while providing strong evidence for every detected case of\ncontamination. We evaluate DyePack on five models across three datasets,\ncovering both multiple-choice and open-ended generation tasks. For\nmultiple-choice questions, it successfully detects all contaminated models with\nguaranteed FPRs as low as 0.000073% on MMLU-Pro and 0.000017% on Big-Bench-Hard\nusing eight backdoors. For open-ended generation tasks, it generalizes well and\nidentifies all contaminated models on Alpaca with a guaranteed false positive\nrate of just 0.127% using six backdoors.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.23001.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66fa2c61c25c3fcb32f9f131",
+      "avatarUrl": "/avatars/05387c30f2d1803fa0a5b176c3706772.svg",
+      "fullname": "Yize Cheng",
+      "name": "yizecheng",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.01049",
+      "authors": [
+        {
+          "_id": "683e5b9a1167d9630159b27f",
+          "name": "Siyuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "683e5b9a1167d9630159b280",
+          "name": "Juanxi Tian",
+          "hidden": false
+        },
+        {
+          "_id": "683e5b9a1167d9630159b281",
+          "name": "Zedong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683e5b9a1167d9630159b282",
+          "name": "Xin Jin",
+          "hidden": false
+        },
+        {
+          "_id": "683e5b9a1167d9630159b283",
+          "name": "Zicheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683e5b9a1167d9630159b284",
+          "name": "Wentao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683e5b9a1167d9630159b285",
+          "name": "Dan Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-01T15:30:37.000Z",
+      "submittedOnDailyAt": "2025-06-03T00:52:33.852Z",
+      "title": "Taming LLMs by Scaling Learning Rates with Gradient Grouping",
+      "submittedOnDailyBy": {
+        "_id": "6594d390674349122ce6f368",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6594d390674349122ce6f368/KdWz6lZyGYQpjAgBDeiC1.jpeg",
+        "isPro": false,
+        "fullname": "Zedong Wang (Jacky)",
+        "user": "ZedongWangAI",
+        "type": "user"
+      },
+      "summary": "Training large language models (LLMs) poses challenges due to their massive\nscale and heterogeneous architectures. While adaptive optimizers like AdamW\nhelp address gradient variations, they still struggle with efficient and\neffective parameter-wise learning rate estimation, resulting in training\ninstability, slow convergence, and poor compatibility with parameter-efficient\nfine-tuning (PEFT) techniques. This work introduces Scaling with Gradient\nGrouping (SGG), an optimizer wrapper that improves adaptive learning rate\nestimation by dynamic grouping and group-specific scaling. SGG first groups\ngradient statistics in each layer into clusters and then applies\ncluster-specific scaling to calibrate learning rates for each parameter, thus\nimposing collective group-wise constraints while maintaining precise\nper-parameter adaptation. Experiments on diverse (M)LLM benchmarks show that\nSGG integrates seamlessly with existing optimizers, and offers consistent gains\nand faster convergence over baselines, with various model sizes. Its stability\nacross varying batch sizes and learning rates establishes SGG as a robust\nchoice for LLM optimization.",
+      "upvotes": 7,
+      "discussionId": "683e5b9b1167d9630159b2ef",
+      "ai_summary": "SGG, an optimizer wrapper, enhances adaptive learning rates for large language models by grouping gradients and applying cluster-specific scaling, improving convergence and stability.",
+      "ai_keywords": [
+        "large language models",
+        "adaptive optimizers",
+        "AdamW",
+        "parameter-wise learning rate estimation",
+        "training instability",
+        "parameter-efficient fine-tuning",
+        "Scaling with Gradient Grouping",
+        "gradient grouping",
+        "cluster-specific scaling",
+        "LLM benchmarks",
+        "robust choice for LLM optimization"
+      ]
+    },
+    "publishedAt": "2025-06-01T11:30:37.000Z",
+    "title": "Taming LLMs by Scaling Learning Rates with Gradient Grouping",
+    "summary": "Training large language models (LLMs) poses challenges due to their massive\nscale and heterogeneous architectures. While adaptive optimizers like AdamW\nhelp address gradient variations, they still struggle with efficient and\neffective parameter-wise learning rate estimation, resulting in training\ninstability, slow convergence, and poor compatibility with parameter-efficient\nfine-tuning (PEFT) techniques. This work introduces Scaling with Gradient\nGrouping (SGG), an optimizer wrapper that improves adaptive learning rate\nestimation by dynamic grouping and group-specific scaling. SGG first groups\ngradient statistics in each layer into clusters and then applies\ncluster-specific scaling to calibrate learning rates for each parameter, thus\nimposing collective group-wise constraints while maintaining precise\nper-parameter adaptation. Experiments on diverse (M)LLM benchmarks show that\nSGG integrates seamlessly with existing optimizers, and offers consistent gains\nand faster convergence over baselines, with various model sizes. Its stability\nacross varying batch sizes and learning rates establishes SGG as a robust\nchoice for LLM optimization.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.01049.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6594d390674349122ce6f368",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6594d390674349122ce6f368/KdWz6lZyGYQpjAgBDeiC1.jpeg",
+      "fullname": "Zedong Wang (Jacky)",
+      "name": "ZedongWangAI",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.24625",
+      "authors": [
+        {
+          "_id": "683e5569fce31842c60675d7",
+          "name": "Duo Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "683e5569fce31842c60675d8",
+          "name": "Shijia Huang",
+          "hidden": false
+        },
+        {
+          "_id": "683e5569fce31842c60675d9",
+          "name": "Yanyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "683e5569fce31842c60675da",
+          "name": "Liwei Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-30T14:16:41.000Z",
+      "submittedOnDailyAt": "2025-06-03T00:24:09.506Z",
+      "title": "Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision\n  Geometry Priors",
+      "submittedOnDailyBy": {
+        "_id": "646e2fcaf813cfe153f1af6c",
+        "avatarUrl": "/avatars/2f87d0e5c071000990da29cd744bc03d.svg",
+        "isPro": false,
+        "fullname": "Duo Zheng",
+        "user": "zd11024",
+        "type": "user"
+      },
+      "summary": "Previous research has investigated the application of Multimodal Large\nLanguage Models (MLLMs) in understanding 3D scenes by interpreting them as\nvideos. These approaches generally depend on comprehensive 3D data inputs, such\nas point clouds or reconstructed Bird's-Eye View (BEV) maps. In our research,\nwe advance this field by enhancing the capability of MLLMs to understand and\nreason in 3D spaces directly from video data, without the need for additional\n3D input. We propose a novel and efficient method, the Video-3D Geometry Large\nLanguage Model (VG LLM). Our approach employs a 3D visual geometry encoder that\nextracts 3D prior information from video sequences. This information is\nintegrated with visual tokens and fed into the MLLM. Extensive experiments have\nshown that our method has achieved substantial improvements in various tasks\nrelated to 3D scene understanding and spatial reasoning, all directly learned\nfrom video sources. Impressively, our 4B model, which does not rely on explicit\n3D data inputs, achieves competitive results compared to existing\nstate-of-the-art methods, and even surpasses the Gemini-1.5-Pro in the\nVSI-Bench evaluations.",
+      "upvotes": 3,
+      "discussionId": "683e556efce31842c6067737",
+      "projectPage": "https://lavi-lab.github.io/VG-LLM/",
+      "githubRepo": "https://github.com/LaVi-Lab/VG-LLM",
+      "ai_summary": "A novel Video-3D Geometry Large Language Model (VG LLM) extracts 3D information directly from video sequences to enhance 3D scene understanding without additional 3D data, achieving competitive results in various tasks.",
+      "ai_keywords": [
+        "MLLMs",
+        "Video-3D Geometry Large Language Model",
+        "VG LLM",
+        "3D visual geometry encoder",
+        "VSI-Bench"
+      ]
+    },
+    "publishedAt": "2025-05-30T10:16:41.000Z",
+    "title": "Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision\n  Geometry Priors",
+    "summary": "Previous research has investigated the application of Multimodal Large\nLanguage Models (MLLMs) in understanding 3D scenes by interpreting them as\nvideos. These approaches generally depend on comprehensive 3D data inputs, such\nas point clouds or reconstructed Bird's-Eye View (BEV) maps. In our research,\nwe advance this field by enhancing the capability of MLLMs to understand and\nreason in 3D spaces directly from video data, without the need for additional\n3D input. We propose a novel and efficient method, the Video-3D Geometry Large\nLanguage Model (VG LLM). Our approach employs a 3D visual geometry encoder that\nextracts 3D prior information from video sequences. This information is\nintegrated with visual tokens and fed into the MLLM. Extensive experiments have\nshown that our method has achieved substantial improvements in various tasks\nrelated to 3D scene understanding and spatial reasoning, all directly learned\nfrom video sources. Impressively, our 4B model, which does not rely on explicit\n3D data inputs, achieves competitive results compared to existing\nstate-of-the-art methods, and even surpasses the Gemini-1.5-Pro in the\nVSI-Bench evaluations.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.24625.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "646e2fcaf813cfe153f1af6c",
+      "avatarUrl": "/avatars/2f87d0e5c071000990da29cd744bc03d.svg",
+      "fullname": "Duo Zheng",
+      "name": "zd11024",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.23977",
+      "authors": [
+        {
+          "_id": "683e380cb028cae60270adcf",
+          "name": "Yichen Feng",
+          "hidden": false
+        },
+        {
+          "_id": "683e380cb028cae60270add0",
+          "name": "Zhangchen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "683e380cb028cae60270add1",
+          "name": "Fengqing Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "683e380cb028cae60270add2",
+          "name": "Yuetai Li",
+          "hidden": false
+        },
+        {
+          "_id": "683e380cb028cae60270add3",
+          "name": "Bhaskar Ramasubramanian",
+          "hidden": false
+        },
+        {
+          "_id": "683e380cb028cae60270add4",
+          "name": "Luyao Niu",
+          "hidden": false
+        },
+        {
+          "_id": "683e380cb028cae60270add5",
+          "name": "Bill Yuchen Lin",
+          "hidden": false
+        },
+        {
+          "_id": "683e380cb028cae60270add6",
+          "name": "Radha Poovendran",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-29T20:08:36.000Z",
+      "submittedOnDailyAt": "2025-06-03T01:08:43.749Z",
+      "title": "VisualSphinx: Large-Scale Synthetic Vision Logic Puzzles for RL",
+      "submittedOnDailyBy": {
+        "_id": "653df1323479e9ebbe3eb6cc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653df1323479e9ebbe3eb6cc/K_g-r1iMRNKj99LXPuYF3.jpeg",
+        "isPro": true,
+        "fullname": "Zhangchen Xu",
+        "user": "zhangchenxu",
+        "type": "user"
+      },
+      "summary": "Vision language models (VLMs) are expected to perform effective multimodal\nreasoning and make logically coherent decisions, which is critical to tasks\nsuch as diagram understanding and spatial problem solving. However, current VLM\nreasoning lacks large-scale and well-structured training datasets. To bridge\nthis gap, we propose VisualSphinx, a first-of-its-kind large-scale synthetic\nvisual logical reasoning training data. To tackle the challenge of image\nsynthesis with grounding answers, we propose a rule-to-image synthesis\npipeline, which extracts and expands puzzle rules from seed questions and\ngenerates the code of grounding synthesis image synthesis for puzzle sample\nassembly. Experiments demonstrate that VLM trained using GRPO on VisualSphinx\nbenefit from logical coherence and readability of our dataset and exhibit\nimproved performance on logical reasoning tasks. The enhanced reasoning\ncapabilities developed from VisualSphinx also benefit other reasoning tasks\nsuch as algebraic reasoning, arithmetic reasoning and geometry reasoning.",
+      "upvotes": 3,
+      "discussionId": "683e380eb028cae60270ae82",
+      "ai_summary": "VisualSphinx provides a large-scale synthetic dataset to improve multimodal reasoning in vision language models, enhancing performance on various logical reasoning tasks.",
+      "ai_keywords": [
+        "vision language models",
+        "multimodal reasoning",
+        "logical reasoning",
+        "large-scale synthetic visual logical reasoning",
+        "image synthesis",
+        "rule-to-image synthesis",
+        "GRPO"
+      ]
+    },
+    "publishedAt": "2025-05-29T16:08:36.000Z",
+    "title": "VisualSphinx: Large-Scale Synthetic Vision Logic Puzzles for RL",
+    "summary": "Vision language models (VLMs) are expected to perform effective multimodal\nreasoning and make logically coherent decisions, which is critical to tasks\nsuch as diagram understanding and spatial problem solving. However, current VLM\nreasoning lacks large-scale and well-structured training datasets. To bridge\nthis gap, we propose VisualSphinx, a first-of-its-kind large-scale synthetic\nvisual logical reasoning training data. To tackle the challenge of image\nsynthesis with grounding answers, we propose a rule-to-image synthesis\npipeline, which extracts and expands puzzle rules from seed questions and\ngenerates the code of grounding synthesis image synthesis for puzzle sample\nassembly. Experiments demonstrate that VLM trained using GRPO on VisualSphinx\nbenefit from logical coherence and readability of our dataset and exhibit\nimproved performance on logical reasoning tasks. The enhanced reasoning\ncapabilities developed from VisualSphinx also benefit other reasoning tasks\nsuch as algebraic reasoning, arithmetic reasoning and geometry reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.23977.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "653df1323479e9ebbe3eb6cc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653df1323479e9ebbe3eb6cc/K_g-r1iMRNKj99LXPuYF3.jpeg",
+      "fullname": "Zhangchen Xu",
+      "name": "zhangchenxu",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 15
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.23504",
+      "authors": [
+        {
+          "_id": "683e501c89dc42ba0515a4d8",
+          "name": "Liyun Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "683e501c89dc42ba0515a4d9",
+          "name": "Qixiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "683e501c89dc42ba0515a4da",
+          "name": "Xi Shen",
+          "hidden": false
+        },
+        {
+          "_id": "683e501c89dc42ba0515a4db",
+          "name": "Xiaodong Cun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-29T14:48:10.000Z",
+      "submittedOnDailyAt": "2025-06-03T00:01:06.695Z",
+      "title": "VAU-R1: Advancing Video Anomaly Understanding via Reinforcement\n  Fine-Tuning",
+      "submittedOnDailyBy": {
+        "_id": "63184c517ca1b876d99b7e0e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63184c517ca1b876d99b7e0e/b-qDExoeJuDXK0cJBZKnz.jpeg",
+        "isPro": false,
+        "fullname": "Xiaodong Cun",
+        "user": "vinthony",
+        "type": "user"
+      },
+      "summary": "Video Anomaly Understanding (VAU) is essential for applications such as smart\ncities, security surveillance, and disaster alert systems, yet remains\nchallenging due to its demand for fine-grained spatio-temporal perception and\nrobust reasoning under ambiguity. Despite advances in anomaly detection,\nexisting methods often lack interpretability and struggle to capture the causal\nand contextual aspects of abnormal events. This limitation is further\ncompounded by the absence of comprehensive benchmarks for evaluating reasoning\nability in anomaly scenarios. To address both challenges, we introduce VAU-R1,\na data-efficient framework built upon Multimodal Large Language Models (MLLMs),\nwhich enhances anomaly reasoning through Reinforcement Fine-Tuning (RFT).\nBesides, we propose VAU-Bench, the first Chain-of-Thought benchmark tailored\nfor video anomaly reasoning, featuring multiple-choice QA, detailed rationales,\ntemporal annotations, and descriptive captions. Empirical results show that\nVAU-R1 significantly improves question answering accuracy, temporal grounding,\nand reasoning coherence across diverse contexts. Together, our method and\nbenchmark establish a strong foundation for interpretable and reasoning-aware\nvideo anomaly understanding. Our code is available at\nhttps://github.com/GVCLab/VAU-R1.",
+      "upvotes": 3,
+      "discussionId": "683e502189dc42ba0515a5e1",
+      "ai_summary": "VAU-R1 uses Multimodal Large Language Models with Reinforcement Fine-Tuning to enhance video anomaly reasoning, complemented by VAU-Bench, a Chain-of-Thought benchmark for evaluating anomaly understanding.",
+      "ai_keywords": [
+        "Multimodal Large Language Models (MLLMs)",
+        "Reinforcement Fine-Tuning (RFT)",
+        "Chain-of-Thought",
+        "benchmark",
+        "question answering",
+        "temporal grounding",
+        "reasoning coherence"
+      ]
+    },
+    "publishedAt": "2025-05-29T10:48:10.000Z",
+    "title": "VAU-R1: Advancing Video Anomaly Understanding via Reinforcement\n  Fine-Tuning",
+    "summary": "Video Anomaly Understanding (VAU) is essential for applications such as smart\ncities, security surveillance, and disaster alert systems, yet remains\nchallenging due to its demand for fine-grained spatio-temporal perception and\nrobust reasoning under ambiguity. Despite advances in anomaly detection,\nexisting methods often lack interpretability and struggle to capture the causal\nand contextual aspects of abnormal events. This limitation is further\ncompounded by the absence of comprehensive benchmarks for evaluating reasoning\nability in anomaly scenarios. To address both challenges, we introduce VAU-R1,\na data-efficient framework built upon Multimodal Large Language Models (MLLMs),\nwhich enhances anomaly reasoning through Reinforcement Fine-Tuning (RFT).\nBesides, we propose VAU-Bench, the first Chain-of-Thought benchmark tailored\nfor video anomaly reasoning, featuring multiple-choice QA, detailed rationales,\ntemporal annotations, and descriptive captions. Empirical results show that\nVAU-R1 significantly improves question answering accuracy, temporal grounding,\nand reasoning coherence across diverse contexts. Together, our method and\nbenchmark establish a strong foundation for interpretable and reasoning-aware\nvideo anomaly understanding. Our code is available at\nhttps://github.com/GVCLab/VAU-R1.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.23504.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63184c517ca1b876d99b7e0e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63184c517ca1b876d99b7e0e/b-qDExoeJuDXK0cJBZKnz.jpeg",
+      "fullname": "Xiaodong Cun",
+      "name": "vinthony",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 323
+    },
+    "isAuthorParticipating": false
+  }
+]
