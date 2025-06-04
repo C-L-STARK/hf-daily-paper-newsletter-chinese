@@ -1,0 +1,702 @@
+[
+  {
+    "paper": {
+      "id": "2506.01674",
+      "authors": [
+        {
+          "_id": "683faa6515abeae85e13336b",
+          "name": "Yipeng Du",
+          "hidden": false
+        },
+        {
+          "_id": "683faa6515abeae85e13336c",
+          "name": "Tiehan Fan",
+          "hidden": false
+        },
+        {
+          "_id": "683faa6515abeae85e13336d",
+          "name": "Kepan Nan",
+          "hidden": false
+        },
+        {
+          "_id": "683faa6515abeae85e13336e",
+          "name": "Rui Xie",
+          "hidden": false
+        },
+        {
+          "_id": "683faa6515abeae85e13336f",
+          "name": "Penghao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "683faa6515abeae85e133370",
+          "name": "Xiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "683faa6515abeae85e133371",
+          "name": "Jian Yang",
+          "hidden": false
+        },
+        {
+          "_id": "683faa6515abeae85e133372",
+          "name": "Zhenheng Yang",
+          "hidden": false
+        },
+        {
+          "_id": "683faa6515abeae85e133373",
+          "name": "Ying Tai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-02T13:44:56.000Z",
+      "submittedOnDailyAt": "2025-06-04T00:38:03.935Z",
+      "title": "MotionSight: Boosting Fine-Grained Motion Understanding in Multimodal\n  LLMs",
+      "submittedOnDailyBy": {
+        "_id": "65927f3b754092f6b1e187a7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65927f3b754092f6b1e187a7/gUrNvIQHmsl1vLwSUxpmL.jpeg",
+        "isPro": false,
+        "fullname": "tiehan fan",
+        "user": "AnonMegumi",
+        "type": "user"
+      },
+      "summary": "Despite advancements in Multimodal Large Language Models (MLLMs), their\nproficiency in fine-grained video motion understanding remains critically\nlimited. They often lack inter-frame differencing and tend to average or ignore\nsubtle visual cues. Furthermore, while visual prompting has shown potential in\nstatic images, its application to video's temporal complexities, particularly\nfor fine-grained motion understanding, remains largely unexplored. We\ninvestigate whether inherent capability can be unlocked and boost MLLMs' motion\nperception and enable distinct visual signatures tailored to decouple object\nand camera motion cues. In this study, we introduce MotionSight, a novel\nzero-shot method pioneering object-centric visual spotlight and motion blur as\nvisual prompts to effectively improve fine-grained motion understanding without\ntraining. To convert this into valuable data assets, we curated MotionVid-QA,\nthe first large-scale dataset for fine-grained video motion understanding, with\nhierarchical annotations including SFT and preference data, {\\Theta}(40K) video\nclips and {\\Theta}(87K) QAs. Experiments show MotionSight achieves\nstate-of-the-art open-source performance and competitiveness with commercial\nmodels. In particular, for fine-grained motion understanding we present a novel\nzero-shot technique and a large-scale, high-quality dataset. All the code and\nannotations will be publicly available.",
+      "upvotes": 10,
+      "discussionId": "683faa6615abeae85e1333c2",
+      "projectPage": "https://nju-pcalab.github.io/projects/MotionSight/",
+      "githubRepo": "https://github.com/NJU-PCALab/MotionSight",
+      "ai_summary": "MotionSight, a zero-shot method using object-centric visual spotlight and motion blur as prompts, enhances fine-grained video motion understanding and achieves state-of-the-art performance on MotionVid-QA, a large-scale dataset with hierarchical annotations.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "MLLMs",
+        "fine-grained video motion understanding",
+        "inter-frame differencing",
+        "visual prompting",
+        "temporal complexities",
+        "MotionSight",
+        "object-centric visual spotlight",
+        "motion blur",
+        "MotionVid-QA",
+        "hierarchical annotations",
+        "SFT",
+        "preference data",
+        "state-of-the-art performance"
+      ]
+    },
+    "publishedAt": "2025-06-02T09:44:56.000Z",
+    "title": "MotionSight: Boosting Fine-Grained Motion Understanding in Multimodal\n  LLMs",
+    "summary": "Despite advancements in Multimodal Large Language Models (MLLMs), their\nproficiency in fine-grained video motion understanding remains critically\nlimited. They often lack inter-frame differencing and tend to average or ignore\nsubtle visual cues. Furthermore, while visual prompting has shown potential in\nstatic images, its application to video's temporal complexities, particularly\nfor fine-grained motion understanding, remains largely unexplored. We\ninvestigate whether inherent capability can be unlocked and boost MLLMs' motion\nperception and enable distinct visual signatures tailored to decouple object\nand camera motion cues. In this study, we introduce MotionSight, a novel\nzero-shot method pioneering object-centric visual spotlight and motion blur as\nvisual prompts to effectively improve fine-grained motion understanding without\ntraining. To convert this into valuable data assets, we curated MotionVid-QA,\nthe first large-scale dataset for fine-grained video motion understanding, with\nhierarchical annotations including SFT and preference data, {\\Theta}(40K) video\nclips and {\\Theta}(87K) QAs. Experiments show MotionSight achieves\nstate-of-the-art open-source performance and competitiveness with commercial\nmodels. In particular, for fine-grained motion understanding we present a novel\nzero-shot technique and a large-scale, high-quality dataset. All the code and\nannotations will be publicly available.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.01674.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65927f3b754092f6b1e187a7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65927f3b754092f6b1e187a7/gUrNvIQHmsl1vLwSUxpmL.jpeg",
+      "fullname": "tiehan fan",
+      "name": "AnonMegumi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.03136",
+      "authors": [
+        {
+          "_id": "683fa2ddbde0ae60c2f16183",
+          "name": "Yinjie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683fa2ddbde0ae60c2f16184",
+          "name": "Ling Yang",
+          "hidden": false
+        },
+        {
+          "_id": "683fa2ddbde0ae60c2f16185",
+          "name": "Ye Tian",
+          "hidden": false
+        },
+        {
+          "_id": "683fa2ddbde0ae60c2f16186",
+          "name": "Ke Shen",
+          "hidden": false
+        },
+        {
+          "_id": "683fa2ddbde0ae60c2f16187",
+          "name": "Mengdi Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-03T17:58:42.000Z",
+      "submittedOnDailyAt": "2025-06-04T00:39:07.151Z",
+      "title": "Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "64fde4e252e82dd432b74ce9",
+        "avatarUrl": "/avatars/061a69d858b86d1600be916122cae7fc.svg",
+        "isPro": false,
+        "fullname": "Ling Yang",
+        "user": "Lingaaaaaaa",
+        "type": "user"
+      },
+      "summary": "We propose CURE, a novel reinforcement learning framework with a dedicated\nreward design that co-evolves coding and unit test generation capabilities\nbased on their interaction outcomes, without any ground-truth code as\nsupervision. This approach enables flexible and scalable training and allows\nthe unit tester to learn directly from the coder's mistakes. Our derived\nReasonFlux-Coder-7B and 14B models improve code generation accuracy by 5.3% and\nBest-of-N accuracy by 9.0% after optimization on Qwen2.5-Instruct models,\noutperforming similarly sized Qwen-Coder, DeepSeek-Coder, and Seed-Coder. They\nnaturally extend to downstream tasks such as test-time scaling and agentic\ncoding-achieving a 8.1% improvement over the base model. For the long-CoT\nmodel, our ReasonFlux-Coder-4B consistently outperforms Qwen3-4B while\nachieving 64.8% inference efficiency in unit test generation. Notably, we also\nfind that our model can serve as an effective reward model for reinforcement\nlearning on base models. Project: https://github.com/Gen-Verse/CURE",
+      "upvotes": 9,
+      "discussionId": "683fa2debde0ae60c2f161cb",
+      "projectPage": "https://huggingface.co/collections/Gen-Verse/reasonflux-coder-6833109ed9300c62deb32c6b",
+      "githubRepo": "https://github.com/Gen-Verse/CURE",
+      "ai_summary": "CURE, a reinforcement learning framework, improves code and unit test generation accuracy without ground-truth supervision, enhancing performance in various coding and testing tasks.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "reward design",
+        "coding",
+        "unit test generation",
+        "ReasonFlux-Coder",
+        "Qwen2.5-Instruct",
+        "Qwen-Coder",
+        "DeepSeek-Coder",
+        "Seed-Coder",
+        "test-time scaling",
+        "agentic coding",
+        "long-CoT",
+        "inference efficiency",
+        "reward model"
+      ]
+    },
+    "publishedAt": "2025-06-03T13:58:42.000Z",
+    "title": "Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning",
+    "summary": "We propose CURE, a novel reinforcement learning framework with a dedicated\nreward design that co-evolves coding and unit test generation capabilities\nbased on their interaction outcomes, without any ground-truth code as\nsupervision. This approach enables flexible and scalable training and allows\nthe unit tester to learn directly from the coder's mistakes. Our derived\nReasonFlux-Coder-7B and 14B models improve code generation accuracy by 5.3% and\nBest-of-N accuracy by 9.0% after optimization on Qwen2.5-Instruct models,\noutperforming similarly sized Qwen-Coder, DeepSeek-Coder, and Seed-Coder. They\nnaturally extend to downstream tasks such as test-time scaling and agentic\ncoding-achieving a 8.1% improvement over the base model. For the long-CoT\nmodel, our ReasonFlux-Coder-4B consistently outperforms Qwen3-4B while\nachieving 64.8% inference efficiency in unit test generation. Notably, we also\nfind that our model can serve as an effective reward model for reinforcement\nlearning on base models. Project: https://github.com/Gen-Verse/CURE",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.03136.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64fde4e252e82dd432b74ce9",
+      "avatarUrl": "/avatars/061a69d858b86d1600be916122cae7fc.svg",
+      "fullname": "Ling Yang",
+      "name": "Lingaaaaaaa",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.03147",
+      "authors": [
+        {
+          "_id": "683fae55c6b71c5994ccd4fe",
+          "name": "Bin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd4ff",
+          "name": "Zongjian Li",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd500",
+          "name": "Xinhua Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd501",
+          "name": "Yuwei Niu",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd502",
+          "name": "Yang Ye",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd503",
+          "name": "Xianyi He",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd504",
+          "name": "Shenghai Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd505",
+          "name": "Wangbo Yu",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd506",
+          "name": "Shaodong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd507",
+          "name": "Yunyang Ge",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd508",
+          "name": "Yatian Pang",
+          "hidden": false
+        },
+        {
+          "_id": "683fae55c6b71c5994ccd509",
+          "name": "Li Yuan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-03T17:59:33.000Z",
+      "submittedOnDailyAt": "2025-06-04T00:55:35.016Z",
+      "title": "UniWorld: High-Resolution Semantic Encoders for Unified Visual\n  Understanding and Generation",
+      "submittedOnDailyBy": {
+        "_id": "63468720dd6d90d82ccf3450",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+        "isPro": false,
+        "fullname": "YSH",
+        "user": "BestWishYsh",
+        "type": "user"
+      },
+      "summary": "Although existing unified models deliver strong performance on\nvision-language understanding and text-to-image generation, their models are\nlimited in exploring image perception and manipulation tasks, which are\nurgently desired by users for wide applications. Recently, OpenAI released\ntheir powerful GPT-4o-Image model for comprehensive image perception and\nmanipulation, achieving expressive capability and attracting community\ninterests. By observing the performance of GPT-4o-Image in our carefully\nconstructed experiments, we infer that GPT-4o-Image leverages features\nextracted by semantic encoders instead of VAE, while VAEs are considered\nessential components in many image manipulation models. Motivated by such\ninspiring observations, we present a unified generative framework named\nUniWorld based on semantic features provided by powerful visual-language models\nand contrastive semantic encoders. As a result, we build a strong unified model\nusing only 1% amount of BAGEL's data, which consistently outperforms BAGEL on\nimage editing benchmarks. UniWorld also maintains competitive image\nunderstanding and generation capabilities, achieving strong performance across\nmultiple image perception tasks. We fully open-source our models, including\nmodel weights, training and evaluation scripts, and datasets.",
+      "upvotes": 7,
+      "discussionId": "683fae56c6b71c5994ccd548",
+      "githubRepo": "https://github.com/PKU-YuanGroup/UniWorld-V1",
+      "ai_summary": "A unified generative framework called UniWorld uses semantic features from visual-language models for image perception and manipulation, outperforming BAGEL with reduced data.",
+      "ai_keywords": [
+        "GPT-4o-Image",
+        "semantic encoders",
+        "VAE",
+        "UniWorld",
+        "visual-language models",
+        "contrastive semantic encoders",
+        "image editing benchmarks",
+        "image perception tasks"
+      ]
+    },
+    "publishedAt": "2025-06-03T13:59:33.000Z",
+    "title": "UniWorld: High-Resolution Semantic Encoders for Unified Visual\n  Understanding and Generation",
+    "summary": "Although existing unified models deliver strong performance on\nvision-language understanding and text-to-image generation, their models are\nlimited in exploring image perception and manipulation tasks, which are\nurgently desired by users for wide applications. Recently, OpenAI released\ntheir powerful GPT-4o-Image model for comprehensive image perception and\nmanipulation, achieving expressive capability and attracting community\ninterests. By observing the performance of GPT-4o-Image in our carefully\nconstructed experiments, we infer that GPT-4o-Image leverages features\nextracted by semantic encoders instead of VAE, while VAEs are considered\nessential components in many image manipulation models. Motivated by such\ninspiring observations, we present a unified generative framework named\nUniWorld based on semantic features provided by powerful visual-language models\nand contrastive semantic encoders. As a result, we build a strong unified model\nusing only 1% amount of BAGEL's data, which consistently outperforms BAGEL on\nimage editing benchmarks. UniWorld also maintains competitive image\nunderstanding and generation capabilities, achieving strong performance across\nmultiple image perception tasks. We fully open-source our models, including\nmodel weights, training and evaluation scripts, and datasets.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.03147.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63468720dd6d90d82ccf3450",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+      "fullname": "YSH",
+      "name": "BestWishYsh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 56
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.02096",
+      "authors": [
+        {
+          "_id": "683fa36f7ed99d0040761114",
+          "name": "Zijian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "683fa36f7ed99d0040761115",
+          "name": "Jinjie Ni",
+          "hidden": false
+        },
+        {
+          "_id": "683fa36f7ed99d0040761116",
+          "name": "Xiangyan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683fa36f7ed99d0040761117",
+          "name": "Zichen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683fa36f7ed99d0040761118",
+          "name": "Hang Yan",
+          "hidden": false
+        },
+        {
+          "_id": "683fa36f7ed99d0040761119",
+          "name": "Michael Qizhe Shieh",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-02T17:45:16.000Z",
+      "submittedOnDailyAt": "2025-06-04T00:44:38.612Z",
+      "title": "SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis",
+      "submittedOnDailyBy": {
+        "_id": "6486b09e8315b19342f0bf5e",
+        "avatarUrl": "/avatars/bc5f22f231c884146d373fe1042d81bd.svg",
+        "isPro": false,
+        "fullname": "Xiangyan Liu",
+        "user": "xyliu6",
+        "type": "user"
+      },
+      "summary": "Vision-language models (VLMs) trained via reinforcement learning with\nverifiable reward (RLVR) have shown notable progress in scaling test-time\ncompute effectively. In this work, we investigate how synthesized RL data can\nfurther improve RLVR. To this end, we propose SynthRL-a scalable and\nguaranteed pipeline for automatic data scaling in reasoning-oriented RL\ntraining. SynthRL comprises three key stages: (1) selecting seed questions with\nappropriate distribution, (2) augmenting them into more challenging variants\nwhile preserving the original answers, and (3) a guaranteed verification stage\nthat ensures near-perfect correctness and difficulty enhancement. Our empirical\nexperiments demonstrate SynthRL's scalability and effectiveness. When applied\nto the MMK12 dataset, SynthRL synthesizes over 3.3K additional verifiable,\nchallenging questions from approximately 8K seed samples. Models trained with\nour synthesized data achieve consistent gains across five out-of-domain visual\nmath reasoning benchmarks, with a significant improvement over baseline models\ntrained on seed data alone. Notably, detailed analysis reveals that the gains\nare more pronounced on the most challenging evaluation samples, highlighting\nSynthRL's effectiveness in eliciting deeper and more complex reasoning\npatterns.",
+      "upvotes": 6,
+      "discussionId": "683fa3707ed99d0040761154",
+      "ai_summary": "SynthRL, a scalable pipeline for data synthesis in reinforcement learning with verifiable rewards, enhances visual math reasoning VLMs by generating challenging, verifiable questions.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "verifiable reward",
+        "RLVR",
+        "SynthRL",
+        "seed questions",
+        "data augmentation",
+        "verification stage",
+        "MMK12 dataset",
+        "visual math reasoning benchmarks"
+      ]
+    },
+    "publishedAt": "2025-06-02T13:45:16.000Z",
+    "title": "SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis",
+    "summary": "Vision-language models (VLMs) trained via reinforcement learning with\nverifiable reward (RLVR) have shown notable progress in scaling test-time\ncompute effectively. In this work, we investigate how synthesized RL data can\nfurther improve RLVR. To this end, we propose SynthRL-a scalable and\nguaranteed pipeline for automatic data scaling in reasoning-oriented RL\ntraining. SynthRL comprises three key stages: (1) selecting seed questions with\nappropriate distribution, (2) augmenting them into more challenging variants\nwhile preserving the original answers, and (3) a guaranteed verification stage\nthat ensures near-perfect correctness and difficulty enhancement. Our empirical\nexperiments demonstrate SynthRL's scalability and effectiveness. When applied\nto the MMK12 dataset, SynthRL synthesizes over 3.3K additional verifiable,\nchallenging questions from approximately 8K seed samples. Models trained with\nour synthesized data achieve consistent gains across five out-of-domain visual\nmath reasoning benchmarks, with a significant improvement over baseline models\ntrained on seed data alone. Notably, detailed analysis reveals that the gains\nare more pronounced on the most challenging evaluation samples, highlighting\nSynthRL's effectiveness in eliciting deeper and more complex reasoning\npatterns.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.02096.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6486b09e8315b19342f0bf5e",
+      "avatarUrl": "/avatars/bc5f22f231c884146d373fe1042d81bd.svg",
+      "fullname": "Xiangyan Liu",
+      "name": "xyliu6",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.24714",
+      "authors": [
+        {
+          "_id": "683d04c751706d12b2c262ea",
+          "name": "Junyu Luo",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262eb",
+          "name": "Zhizhuo Kou",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262ec",
+          "name": "Liming Yang",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262ed",
+          "name": "Xiao Luo",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262ee",
+          "name": "Jinsheng Huang",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262ef",
+          "name": "Zhiping Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262f0",
+          "name": "Jingshu Peng",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262f1",
+          "name": "Chengzhong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262f2",
+          "name": "Jiaming Ji",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262f3",
+          "name": "Xuanzhe Liu",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262f4",
+          "name": "Sirui Han",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262f5",
+          "name": "Ming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683d04c751706d12b2c262f6",
+          "name": "Yike Guo",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/642da1cd99f3110ac27caca5/ilkQ2K5LD4SPQ5oCcV2aB.png"
+      ],
+      "publishedAt": "2025-05-30T15:36:19.000Z",
+      "submittedOnDailyAt": "2025-06-04T01:04:36.480Z",
+      "title": "FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation",
+      "submittedOnDailyBy": {
+        "_id": "642da1cd99f3110ac27caca5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642da1cd99f3110ac27caca5/C1QJY3R_ZdaeANG1y8iW7.jpeg",
+        "isPro": false,
+        "fullname": "junyu",
+        "user": "luojunyu",
+        "type": "user"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) have experienced rapid development\nin recent years. However, in the financial domain, there is a notable lack of\neffective and specialized multimodal evaluation datasets. To advance the\ndevelopment of MLLMs in the finance domain, we introduce FinMME, encompassing\nmore than 11,000 high-quality financial research samples across 18 financial\ndomains and 6 asset classes, featuring 10 major chart types and 21 subtypes. We\nensure data quality through 20 annotators and carefully designed validation\nmechanisms. Additionally, we develop FinScore, an evaluation system\nincorporating hallucination penalties and multi-dimensional capability\nassessment to provide an unbiased evaluation. Extensive experimental results\ndemonstrate that even state-of-the-art models like GPT-4o exhibit\nunsatisfactory performance on FinMME, highlighting its challenging nature. The\nbenchmark exhibits high robustness with prediction variations under different\nprompts remaining below 1%, demonstrating superior reliability compared to\nexisting datasets. Our dataset and evaluation protocol are available at\nhttps://huggingface.co/datasets/luojunyu/FinMME and\nhttps://github.com/luo-junyu/FinMME.",
+      "upvotes": 5,
+      "discussionId": "683d04c951706d12b2c26367",
+      "projectPage": "https://huggingface.co/datasets/luojunyu/FinMME",
+      "githubRepo": "https://github.com/luo-junyu/FinMME",
+      "ai_summary": "FinMME is a comprehensive multimodal dataset for financial research and FinScore is an evaluation system that highlights the challenges faced by even advanced models like GPT-4o in the finance domain.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "FinMME",
+        "financial research samples",
+        "high-quality dataset",
+        "financial domains",
+        "asset classes",
+        "chart types",
+        "data quality",
+        "FinScore",
+        "hallucination penalties",
+        "multi-dimensional capability assessment",
+        "benchmark dataset",
+        "prediction robustness"
+      ]
+    },
+    "publishedAt": "2025-05-30T11:36:19.000Z",
+    "title": "FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation",
+    "summary": "Multimodal Large Language Models (MLLMs) have experienced rapid development\nin recent years. However, in the financial domain, there is a notable lack of\neffective and specialized multimodal evaluation datasets. To advance the\ndevelopment of MLLMs in the finance domain, we introduce FinMME, encompassing\nmore than 11,000 high-quality financial research samples across 18 financial\ndomains and 6 asset classes, featuring 10 major chart types and 21 subtypes. We\nensure data quality through 20 annotators and carefully designed validation\nmechanisms. Additionally, we develop FinScore, an evaluation system\nincorporating hallucination penalties and multi-dimensional capability\nassessment to provide an unbiased evaluation. Extensive experimental results\ndemonstrate that even state-of-the-art models like GPT-4o exhibit\nunsatisfactory performance on FinMME, highlighting its challenging nature. The\nbenchmark exhibits high robustness with prediction variations under different\nprompts remaining below 1%, demonstrating superior reliability compared to\nexisting datasets. Our dataset and evaluation protocol are available at\nhttps://huggingface.co/datasets/luojunyu/FinMME and\nhttps://github.com/luo-junyu/FinMME.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/642da1cd99f3110ac27caca5/ilkQ2K5LD4SPQ5oCcV2aB.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.24714.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "642da1cd99f3110ac27caca5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642da1cd99f3110ac27caca5/C1QJY3R_ZdaeANG1y8iW7.jpeg",
+      "fullname": "junyu",
+      "name": "luojunyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.02387",
+      "authors": [
+        {
+          "_id": "683fa95ea0770843560c7ae3",
+          "user": {
+            "_id": "653a5b0f7c01c693a16dd184",
+            "avatarUrl": "/avatars/4b43d88709dc8037250404452e81adcf.svg",
+            "isPro": false,
+            "fullname": "Zelai Xu",
+            "user": "zelaix",
+            "type": "user"
+          },
+          "name": "Zelai Xu",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-04T02:03:11.372Z",
+          "hidden": false
+        },
+        {
+          "_id": "683fa95ea0770843560c7ae4",
+          "name": "Zhexuan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "683fa95ea0770843560c7ae5",
+          "name": "Xiangmin Yi",
+          "hidden": false
+        },
+        {
+          "_id": "683fa95ea0770843560c7ae6",
+          "name": "Huining Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "683fa95ea0770843560c7ae7",
+          "name": "Xinlei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "683fa95ea0770843560c7ae8",
+          "name": "Yi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "683fa95ea0770843560c7ae9",
+          "name": "Chao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "683fa95ea0770843560c7aea",
+          "name": "Yu Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-03T02:57:38.000Z",
+      "submittedOnDailyAt": "2025-06-04T00:58:29.506Z",
+      "title": "VS-Bench: Evaluating VLMs for Strategic Reasoning and Decision-Making in\n  Multi-Agent Environments",
+      "submittedOnDailyBy": {
+        "_id": "653a5b0f7c01c693a16dd184",
+        "avatarUrl": "/avatars/4b43d88709dc8037250404452e81adcf.svg",
+        "isPro": false,
+        "fullname": "Zelai Xu",
+        "user": "zelaix",
+        "type": "user"
+      },
+      "summary": "Recent advancements in Vision Language Models (VLMs) have expanded their\ncapabilities to interactive agent tasks, yet existing benchmarks remain limited\nto single-agent or text-only environments. In contrast, real-world scenarios\noften involve multiple agents interacting within rich visual and linguistic\ncontexts, posing challenges with both multimodal observations and strategic\ninteractions. To bridge this gap, we introduce Visual Strategic Bench\n(VS-Bench), a multimodal benchmark that evaluates VLMs for strategic reasoning\nand decision-making in multi-agent environments. VS-Bench comprises eight\nvision-grounded environments spanning cooperative, competitive, and\nmixed-motive interactions, designed to assess agents' ability to predict\nothers' future moves and optimize for long-term objectives. We consider two\ncomplementary evaluation dimensions, including offline evaluation of strategic\nreasoning by next-action prediction accuracy and online evaluation of\ndecision-making by normalized episode return. Extensive experiments of fourteen\nleading VLMs reveal a significant gap between current models and optimal\nperformance, with the best models attaining 47.8% prediction accuracy and 24.3%\nnormalized return. We further conduct in-depth analyses on multimodal\nobservations, test-time scaling, social behaviors, and failure cases of VLM\nagents. By standardizing the evaluation and highlighting the limitations of\nexisting models, we envision VS-Bench as a foundation for future research on\nstrategic multimodal agents. Code and data are available at\nhttps://vs-bench.github.io.",
+      "upvotes": 3,
+      "discussionId": "683fa95fa0770843560c7b3d",
+      "projectPage": "https://vs-bench.github.io",
+      "githubRepo": "https://github.com/zelaix/VS-Bench",
+      "ai_summary": "VS-Bench is a multimodal benchmark designed to evaluate Vision Language Models' strategic reasoning and decision-making in complex multi-agent environments.",
+      "ai_keywords": [
+        "Vision Language Models",
+        "VS-Bench",
+        "multimodal benchmark",
+        "strategic reasoning",
+        "decision-making",
+        "multi-agent environments",
+        "vision-grounded environments",
+        "cooperative",
+        "competitive",
+        "mixed-motive interactions",
+        "next-action prediction",
+        "normalized episode return",
+        "multimodal observations",
+        "test-time scaling",
+        "social behaviors",
+        "failure cases"
+      ]
+    },
+    "publishedAt": "2025-06-02T22:57:38.000Z",
+    "title": "VS-Bench: Evaluating VLMs for Strategic Reasoning and Decision-Making in\n  Multi-Agent Environments",
+    "summary": "Recent advancements in Vision Language Models (VLMs) have expanded their\ncapabilities to interactive agent tasks, yet existing benchmarks remain limited\nto single-agent or text-only environments. In contrast, real-world scenarios\noften involve multiple agents interacting within rich visual and linguistic\ncontexts, posing challenges with both multimodal observations and strategic\ninteractions. To bridge this gap, we introduce Visual Strategic Bench\n(VS-Bench), a multimodal benchmark that evaluates VLMs for strategic reasoning\nand decision-making in multi-agent environments. VS-Bench comprises eight\nvision-grounded environments spanning cooperative, competitive, and\nmixed-motive interactions, designed to assess agents' ability to predict\nothers' future moves and optimize for long-term objectives. We consider two\ncomplementary evaluation dimensions, including offline evaluation of strategic\nreasoning by next-action prediction accuracy and online evaluation of\ndecision-making by normalized episode return. Extensive experiments of fourteen\nleading VLMs reveal a significant gap between current models and optimal\nperformance, with the best models attaining 47.8% prediction accuracy and 24.3%\nnormalized return. We further conduct in-depth analyses on multimodal\nobservations, test-time scaling, social behaviors, and failure cases of VLM\nagents. By standardizing the evaluation and highlighting the limitations of\nexisting models, we envision VS-Bench as a foundation for future research on\nstrategic multimodal agents. Code and data are available at\nhttps://vs-bench.github.io.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.02387.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "653a5b0f7c01c693a16dd184",
+      "avatarUrl": "/avatars/4b43d88709dc8037250404452e81adcf.svg",
+      "fullname": "Zelai Xu",
+      "name": "zelaix",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.02510",
+      "authors": [
+        {
+          "_id": "683faa31f0564d1fb4b9ffc6",
+          "name": "Jie Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "683faa31f0564d1fb4b9ffc7",
+          "name": "Junhui Li",
+          "hidden": false
+        },
+        {
+          "_id": "683faa31f0564d1fb4b9ffc8",
+          "name": "Yalong Wen",
+          "hidden": false
+        },
+        {
+          "_id": "683faa31f0564d1fb4b9ffc9",
+          "name": "Xiandong Li",
+          "hidden": false
+        },
+        {
+          "_id": "683faa31f0564d1fb4b9ffca",
+          "name": "Lifan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "683faa31f0564d1fb4b9ffcb",
+          "name": "Feng Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-03T06:41:09.000Z",
+      "submittedOnDailyAt": "2025-06-04T00:38:17.377Z",
+      "title": "M^3FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial\n  Meeting Understanding Evaluation Dataset",
+      "submittedOnDailyBy": {
+        "_id": "642656cbad1e3b0e6e91b752",
+        "avatarUrl": "/avatars/3bf0ee15fd528e09b2b889f5cce3cbd0.svg",
+        "isPro": false,
+        "fullname": "Jie Zhu",
+        "user": "amazingj",
+        "type": "user"
+      },
+      "summary": "Recent breakthroughs in large language models (LLMs) have led to the\ndevelopment of new benchmarks for evaluating their performance in the financial\ndomain. However, current financial benchmarks often rely on news articles,\nearnings reports, or announcements, making it challenging to capture the\nreal-world dynamics of financial meetings. To address this gap, we propose a\nnovel benchmark called M^3FinMeeting, which is a multilingual,\nmulti-sector, and multi-task dataset designed for financial meeting\nunderstanding. First, M^3FinMeeting supports English, Chinese, and\nJapanese, enhancing comprehension of financial discussions in diverse\nlinguistic contexts. Second, it encompasses various industry sectors defined by\nthe Global Industry Classification Standard (GICS), ensuring that the benchmark\nspans a broad range of financial activities. Finally,\nM^3FinMeeting includes three tasks: summarization, question-answer\n(QA) pair extraction, and question answering, facilitating a more realistic and\ncomprehensive evaluation of understanding. Experimental results with seven\npopular LLMs reveal that even the most advanced long-context models have\nsignificant room for improvement, demonstrating the effectiveness of\nM^3FinMeeting as a benchmark for assessing LLMs' financial meeting\ncomprehension skills.",
+      "upvotes": 1,
+      "discussionId": "683faa32f0564d1fb4ba0005",
+      "projectPage": "https://github.com/aliyun/qwen-dianjin",
+      "githubRepo": "https://github.com/aliyun/qwen-dianjin",
+      "ai_summary": "A new multilingual, multi-sector, and multi-task benchmark, M³FinMeeting, evaluates large language models' performance in understanding financial meetings across different languages and industries.",
+      "ai_keywords": [
+        "large language models",
+        "multilingual",
+        "multi-sector",
+        "multi-task",
+        "benchmark",
+        "financial meeting understanding",
+        "Global Industry Classification Standard (GICS)",
+        "summarization",
+        "question-answer pair extraction",
+        "question answering"
+      ]
+    },
+    "publishedAt": "2025-06-03T02:41:09.000Z",
+    "title": "M^3FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial\n  Meeting Understanding Evaluation Dataset",
+    "summary": "Recent breakthroughs in large language models (LLMs) have led to the\ndevelopment of new benchmarks for evaluating their performance in the financial\ndomain. However, current financial benchmarks often rely on news articles,\nearnings reports, or announcements, making it challenging to capture the\nreal-world dynamics of financial meetings. To address this gap, we propose a\nnovel benchmark called M^3FinMeeting, which is a multilingual,\nmulti-sector, and multi-task dataset designed for financial meeting\nunderstanding. First, M^3FinMeeting supports English, Chinese, and\nJapanese, enhancing comprehension of financial discussions in diverse\nlinguistic contexts. Second, it encompasses various industry sectors defined by\nthe Global Industry Classification Standard (GICS), ensuring that the benchmark\nspans a broad range of financial activities. Finally,\nM^3FinMeeting includes three tasks: summarization, question-answer\n(QA) pair extraction, and question answering, facilitating a more realistic and\ncomprehensive evaluation of understanding. Experimental results with seven\npopular LLMs reveal that even the most advanced long-context models have\nsignificant room for improvement, demonstrating the effectiveness of\nM^3FinMeeting as a benchmark for assessing LLMs' financial meeting\ncomprehension skills.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.02510.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "642656cbad1e3b0e6e91b752",
+      "avatarUrl": "/avatars/3bf0ee15fd528e09b2b889f5cce3cbd0.svg",
+      "fullname": "Jie Zhu",
+      "name": "amazingj",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
