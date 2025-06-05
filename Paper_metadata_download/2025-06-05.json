@@ -1,0 +1,1317 @@
+[
+  {
+    "paper": {
+      "id": "2506.03569",
+      "authors": [
+        {
+          "_id": "6841003e45e7d8a890731765",
+          "name": "Xiaomi LLM-Core Team",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731767",
+          "name": "Zihao Yue",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731768",
+          "name": "Zhenru Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731769",
+          "name": "Yifan Song",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073176a",
+          "name": "Weikun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073176b",
+          "name": "Shuhuai Ren",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073176c",
+          "name": "Shuhao Gu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073176d",
+          "name": "Shicheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073176e",
+          "name": "Peidian Li",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073176f",
+          "name": "Liang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731770",
+          "name": "Lei Li",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731771",
+          "name": "Kainan Bao",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731772",
+          "name": "Hao Tian",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731773",
+          "name": "Hailin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731774",
+          "name": "Gang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731775",
+          "name": "Dawei Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731776",
+          "name": "Cici",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731777",
+          "name": "Chenhong He",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731778",
+          "name": "Bowen Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731779",
+          "name": "Bowen Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073177a",
+          "name": "Zihan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073177b",
+          "name": "Zihan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073177c",
+          "name": "Zhixian Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073177d",
+          "name": "Zhichao Song",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073177e",
+          "name": "Zhenbo Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073177f",
+          "name": "Yue Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731780",
+          "name": "Yudong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731781",
+          "name": "Yuanyuan Tian",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731782",
+          "name": "Yu Tu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731783",
+          "name": "Yihan Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731784",
+          "name": "Yi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731785",
+          "name": "Xu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731786",
+          "name": "Xinzhe Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731787",
+          "name": "Xingchen Song",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731788",
+          "name": "Xing Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731789",
+          "name": "Xing Yong",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073178a",
+          "name": "Xin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073178b",
+          "name": "Xiangwei Deng",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073178c",
+          "name": "Wenyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073178d",
+          "name": "Wenhan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073178e",
+          "name": "Weiwei Lv",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073178f",
+          "name": "Weiji Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731790",
+          "name": "Wei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731791",
+          "name": "Sirui Deng",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731792",
+          "name": "Shuo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731793",
+          "name": "Shimao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731794",
+          "name": "Shihua Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731795",
+          "name": "Shaohui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731796",
+          "name": "Shande Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731797",
+          "name": "Rui Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731798",
+          "name": "Qiantong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a890731799",
+          "name": "Peng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073179a",
+          "name": "Nuo Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073179b",
+          "name": "Menghang Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073179c",
+          "name": "Kangyang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073179d",
+          "name": "Kang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073179e",
+          "name": "Kai Fang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a89073179f",
+          "name": "Jun Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a0",
+          "name": "Jinhao Dong",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a1",
+          "name": "Jiebao Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a2",
+          "name": "Jiaming Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a3",
+          "name": "Huaqiu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a4",
+          "name": "Hongshen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a5",
+          "name": "Heng Qu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a6",
+          "name": "Haochen Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a7",
+          "name": "Hanglong Lv",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a8",
+          "name": "Guoan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317a9",
+          "name": "Duo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317aa",
+          "name": "Dong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317ab",
+          "name": "Di Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317ac",
+          "name": "Chong Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317ad",
+          "name": "Chang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317ae",
+          "name": "Can Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6841003e45e7d8a8907317af",
+          "name": "Bingquan Xia",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-04T04:32:54.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:57:27.734Z",
+      "title": "MiMo-VL Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "6038d6d0612f5eef3cc05ea9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6038d6d0612f5eef3cc05ea9/ryhvAX5djQpD5OrIlZQ1f.jpeg",
+        "isPro": false,
+        "fullname": "Lei Li",
+        "user": "tobiaslee",
+        "type": "user"
+      },
+      "summary": "We open-source MiMo-VL-7B-SFT and MiMo-VL-7B-RL, two powerful vision-language\nmodels delivering state-of-the-art performance in both general visual\nunderstanding and multimodal reasoning. MiMo-VL-7B-RL outperforms Qwen2.5-VL-7B\non 35 out of 40 evaluated tasks, and scores 59.4 on OlympiadBench, surpassing\nmodels with up to 78B parameters. For GUI grounding applications, it sets a new\nstandard with 56.1 on OSWorld-G, even outperforming specialized models such as\nUI-TARS. Our training combines four-stage pre-training (2.4 trillion tokens)\nwith Mixed On-policy Reinforcement Learning (MORL) integrating diverse reward\nsignals. We identify the importance of incorporating high-quality reasoning\ndata with long Chain-of-Thought into pre-training stages, and the benefits of\nmixed RL despite challenges in simultaneous multi-domain optimization. We also\ncontribute a comprehensive evaluation suite covering 50+ tasks to promote\nreproducibility and advance the field. The model checkpoints and full\nevaluation suite are available at https://github.com/XiaomiMiMo/MiMo-VL.",
+      "upvotes": 9,
+      "discussionId": "6841004145e7d8a890731853",
+      "githubRepo": "https://github.com/XiaomiMiMo/MiMo-VL"
+    },
+    "publishedAt": "2025-06-04T00:32:54.000Z",
+    "title": "MiMo-VL Technical Report",
+    "summary": "We open-source MiMo-VL-7B-SFT and MiMo-VL-7B-RL, two powerful vision-language\nmodels delivering state-of-the-art performance in both general visual\nunderstanding and multimodal reasoning. MiMo-VL-7B-RL outperforms Qwen2.5-VL-7B\non 35 out of 40 evaluated tasks, and scores 59.4 on OlympiadBench, surpassing\nmodels with up to 78B parameters. For GUI grounding applications, it sets a new\nstandard with 56.1 on OSWorld-G, even outperforming specialized models such as\nUI-TARS. Our training combines four-stage pre-training (2.4 trillion tokens)\nwith Mixed On-policy Reinforcement Learning (MORL) integrating diverse reward\nsignals. We identify the importance of incorporating high-quality reasoning\ndata with long Chain-of-Thought into pre-training stages, and the benefits of\nmixed RL despite challenges in simultaneous multi-domain optimization. We also\ncontribute a comprehensive evaluation suite covering 50+ tasks to promote\nreproducibility and advance the field. The model checkpoints and full\nevaluation suite are available at https://github.com/XiaomiMiMo/MiMo-VL.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.03569.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6038d6d0612f5eef3cc05ea9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6038d6d0612f5eef3cc05ea9/ryhvAX5djQpD5OrIlZQ1f.jpeg",
+      "fullname": "Lei Li",
+      "name": "tobiaslee",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.24500",
+      "authors": [
+        {
+          "_id": "683fb063ef97de05eb2a44cc",
+          "name": "Guiyang Hou",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44cd",
+          "name": "Xing Gao",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44ce",
+          "name": "Yuchuan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44cf",
+          "name": "Xiang Huang",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44d0",
+          "name": "Wenqi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44d1",
+          "name": "Zhe Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44d2",
+          "name": "Yongliang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44d3",
+          "name": "Jialu Du",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44d4",
+          "name": "Fei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44d5",
+          "name": "Yongbin Li",
+          "hidden": false
+        },
+        {
+          "_id": "683fb063ef97de05eb2a44d6",
+          "name": "Weiming Lu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-30T12:01:06.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:45:50.911Z",
+      "title": "TimeHC-RL: Temporal-aware Hierarchical Cognitive Reinforcement Learning\n  for Enhancing LLMs' Social Intelligence",
+      "submittedOnDailyBy": {
+        "_id": "67c03110e8c7d56a8e135ac8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/eP3y_8_tyB8tcrT7py4L7.png",
+        "isPro": false,
+        "fullname": "Hou",
+        "user": "Guiyang1001",
+        "type": "user"
+      },
+      "summary": "Recently, Large Language Models (LLMs) have made significant progress in\nIQ-related domains that require careful thinking, such as mathematics and\ncoding. However, enhancing LLMs' cognitive development in social domains,\nparticularly from a post-training perspective, remains underexplored.\nRecognizing that the social world follows a distinct timeline and requires a\nricher blend of cognitive modes (from intuitive reactions (System 1) and\nsurface-level thinking to deliberate thinking (System 2)) than mathematics,\nwhich primarily relies on System 2 cognition (careful, step-by-step reasoning),\nwe introduce Temporal-aware Hierarchical Cognitive Reinforcement Learning\n(TimeHC-RL) for enhancing LLMs' social intelligence. In our experiments, we\nsystematically explore improving LLMs' social intelligence and validate the\neffectiveness of the TimeHC-RL method, through five other post-training\nparadigms and two test-time intervention paradigms on eight datasets with\ndiverse data patterns. Experimental results reveal the superiority of our\nproposed TimeHC-RL method compared to the widely adopted System 2 RL method. It\ngives the 7B backbone model wings, enabling it to rival the performance of\nadvanced models like DeepSeek-R1 and OpenAI-O3. Additionally, the systematic\nexploration from post-training and test-time interventions perspectives to\nimprove LLMs' social intelligence has uncovered several valuable insights.",
+      "upvotes": 9,
+      "discussionId": "683fb064ef97de05eb2a452b",
+      "ai_summary": "Temporal-aware Hierarchical Cognitive Reinforcement Learning enhances LLMs' social intelligence by addressing the distinct cognitive demands of social domains.",
+      "ai_keywords": [
+        "Large Language Models",
+        "Temporal-aware Hierarchical Cognitive Reinforcement Learning",
+        "TimeHC-RL",
+        "System 1",
+        "System 2",
+        "RL",
+        "DeepSeek-R1",
+        "OpenAI-O3"
+      ]
+    },
+    "publishedAt": "2025-05-30T08:01:06.000Z",
+    "title": "TimeHC-RL: Temporal-aware Hierarchical Cognitive Reinforcement Learning\n  for Enhancing LLMs' Social Intelligence",
+    "summary": "Recently, Large Language Models (LLMs) have made significant progress in\nIQ-related domains that require careful thinking, such as mathematics and\ncoding. However, enhancing LLMs' cognitive development in social domains,\nparticularly from a post-training perspective, remains underexplored.\nRecognizing that the social world follows a distinct timeline and requires a\nricher blend of cognitive modes (from intuitive reactions (System 1) and\nsurface-level thinking to deliberate thinking (System 2)) than mathematics,\nwhich primarily relies on System 2 cognition (careful, step-by-step reasoning),\nwe introduce Temporal-aware Hierarchical Cognitive Reinforcement Learning\n(TimeHC-RL) for enhancing LLMs' social intelligence. In our experiments, we\nsystematically explore improving LLMs' social intelligence and validate the\neffectiveness of the TimeHC-RL method, through five other post-training\nparadigms and two test-time intervention paradigms on eight datasets with\ndiverse data patterns. Experimental results reveal the superiority of our\nproposed TimeHC-RL method compared to the widely adopted System 2 RL method. It\ngives the 7B backbone model wings, enabling it to rival the performance of\nadvanced models like DeepSeek-R1 and OpenAI-O3. Additionally, the systematic\nexploration from post-training and test-time interventions perspectives to\nimprove LLMs' social intelligence has uncovered several valuable insights.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.24500.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67c03110e8c7d56a8e135ac8",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/eP3y_8_tyB8tcrT7py4L7.png",
+      "fullname": "Hou",
+      "name": "Guiyang1001",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.04180",
+      "authors": [
+        {
+          "_id": "6840fefb3098ab525906d852",
+          "name": "Yuhao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6840fefb3098ab525906d853",
+          "name": "Yushi Bai",
+          "hidden": false
+        },
+        {
+          "_id": "6840fefb3098ab525906d854",
+          "name": "Zhiqiang Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6840fefb3098ab525906d855",
+          "name": "Juanzi Li",
+          "hidden": false
+        },
+        {
+          "_id": "6840fefb3098ab525906d856",
+          "name": "Roy Ka-Wei Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-04T17:27:42.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:58:27.883Z",
+      "title": "SuperWriter: Reflection-Driven Long-Form Generation with Large Language\n  Models",
+      "submittedOnDailyBy": {
+        "_id": "64ed568ccf6118a9379a61b8",
+        "avatarUrl": "/avatars/6d040cbcb4a9b624cbe64c9d01cd5c88.svg",
+        "isPro": false,
+        "fullname": "Yushi Bai",
+        "user": "bys0318",
+        "type": "user"
+      },
+      "summary": "Long-form text generation remains a significant challenge for large language\nmodels (LLMs), particularly in maintaining coherence, ensuring logical\nconsistency, and preserving text quality as sequence length increases. To\naddress these limitations, we propose SuperWriter-Agent, an agent-based\nframework designed to enhance the quality and consistency of long-form text\ngeneration. SuperWriter-Agent introduces explicit structured thinking-through\nplanning and refinement stages into the generation pipeline, guiding the model\nto follow a more deliberate and cognitively grounded process akin to that of a\nprofessional writer. Based on this framework, we construct a supervised\nfine-tuning dataset to train a 7B SuperWriter-LM. We further develop a\nhierarchical Direct Preference Optimization (DPO) procedure that uses Monte\nCarlo Tree Search (MCTS) to propagate final quality assessments and optimize\neach generation step accordingly. Empirical results across diverse benchmarks\ndemonstrate that SuperWriter-LM achieves state-of-the-art performance,\nsurpassing even larger-scale baseline models in both automatic evaluation and\nhuman evaluation. Furthermore, comprehensive ablation studies demonstrate the\neffectiveness of hierarchical DPO and underscore the value of incorporating\nstructured thinking steps to improve the quality of long-form text generation.",
+      "upvotes": 4,
+      "discussionId": "6840fefc3098ab525906d89c"
+    },
+    "publishedAt": "2025-06-04T13:27:42.000Z",
+    "title": "SuperWriter: Reflection-Driven Long-Form Generation with Large Language\n  Models",
+    "summary": "Long-form text generation remains a significant challenge for large language\nmodels (LLMs), particularly in maintaining coherence, ensuring logical\nconsistency, and preserving text quality as sequence length increases. To\naddress these limitations, we propose SuperWriter-Agent, an agent-based\nframework designed to enhance the quality and consistency of long-form text\ngeneration. SuperWriter-Agent introduces explicit structured thinking-through\nplanning and refinement stages into the generation pipeline, guiding the model\nto follow a more deliberate and cognitively grounded process akin to that of a\nprofessional writer. Based on this framework, we construct a supervised\nfine-tuning dataset to train a 7B SuperWriter-LM. We further develop a\nhierarchical Direct Preference Optimization (DPO) procedure that uses Monte\nCarlo Tree Search (MCTS) to propagate final quality assessments and optimize\neach generation step accordingly. Empirical results across diverse benchmarks\ndemonstrate that SuperWriter-LM achieves state-of-the-art performance,\nsurpassing even larger-scale baseline models in both automatic evaluation and\nhuman evaluation. Furthermore, comprehensive ablation studies demonstrate the\neffectiveness of hierarchical DPO and underscore the value of incorporating\nstructured thinking steps to improve the quality of long-form text generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04180.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64ed568ccf6118a9379a61b8",
+      "avatarUrl": "/avatars/6d040cbcb4a9b624cbe64c9d01cd5c88.svg",
+      "fullname": "Yushi Bai",
+      "name": "bys0318",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.04158",
+      "authors": [
+        {
+          "_id": "6840fb71d4e16ff5f95108aa",
+          "name": "Yujia Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6840fb71d4e16ff5f95108ab",
+          "name": "Songhua Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6840fb71d4e16ff5f95108ac",
+          "name": "Zhenxiong Tan",
+          "hidden": false
+        },
+        {
+          "_id": "6840fb71d4e16ff5f95108ad",
+          "name": "Xingyi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6840fb71d4e16ff5f95108ae",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/634cfebc350bcee9bed20a4d/tp0cLz8OZhdI3vs50cxhF.jpeg"
+      ],
+      "publishedAt": "2025-06-04T16:57:24.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:38:20.484Z",
+      "title": "Image Editing As Programs with Diffusion Models",
+      "submittedOnDailyBy": {
+        "_id": "634cfebc350bcee9bed20a4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634cfebc350bcee9bed20a4d/fN47nN5rhw-HJaFLBZWQy.png",
+        "isPro": false,
+        "fullname": "Xingyi Yang",
+        "user": "adamdad",
+        "type": "user"
+      },
+      "summary": "While diffusion models have achieved remarkable success in text-to-image\ngeneration, they encounter significant challenges with instruction-driven image\nediting. Our research highlights a key challenge: these models particularly\nstruggle with structurally inconsistent edits that involve substantial layout\nchanges. To mitigate this gap, we introduce Image Editing As Programs (IEAP), a\nunified image editing framework built upon the Diffusion Transformer (DiT)\narchitecture. At its core, IEAP approaches instructional editing through a\nreductionist lens, decomposing complex editing instructions into sequences of\natomic operations. Each operation is implemented via a lightweight adapter\nsharing the same DiT backbone and is specialized for a specific type of edit.\nProgrammed by a vision-language model (VLM)-based agent, these operations\ncollaboratively support arbitrary and structurally inconsistent\ntransformations. By modularizing and sequencing edits in this way, IEAP\ngeneralizes robustly across a wide range of editing tasks, from simple\nadjustments to substantial structural changes. Extensive experiments\ndemonstrate that IEAP significantly outperforms state-of-the-art methods on\nstandard benchmarks across various editing scenarios. In these evaluations, our\nframework delivers superior accuracy and semantic fidelity, particularly for\ncomplex, multi-step instructions. Codes are available at\nhttps://github.com/YujiaHu1109/IEAP.",
+      "upvotes": 2,
+      "discussionId": "6840fb73d4e16ff5f9510950",
+      "projectPage": "https://yujiahu1109.github.io/IEAP/",
+      "githubRepo": "https://github.com/YujiaHu1109/IEAP"
+    },
+    "publishedAt": "2025-06-04T12:57:24.000Z",
+    "title": "Image Editing As Programs with Diffusion Models",
+    "summary": "While diffusion models have achieved remarkable success in text-to-image\ngeneration, they encounter significant challenges with instruction-driven image\nediting. Our research highlights a key challenge: these models particularly\nstruggle with structurally inconsistent edits that involve substantial layout\nchanges. To mitigate this gap, we introduce Image Editing As Programs (IEAP), a\nunified image editing framework built upon the Diffusion Transformer (DiT)\narchitecture. At its core, IEAP approaches instructional editing through a\nreductionist lens, decomposing complex editing instructions into sequences of\natomic operations. Each operation is implemented via a lightweight adapter\nsharing the same DiT backbone and is specialized for a specific type of edit.\nProgrammed by a vision-language model (VLM)-based agent, these operations\ncollaboratively support arbitrary and structurally inconsistent\ntransformations. By modularizing and sequencing edits in this way, IEAP\ngeneralizes robustly across a wide range of editing tasks, from simple\nadjustments to substantial structural changes. Extensive experiments\ndemonstrate that IEAP significantly outperforms state-of-the-art methods on\nstandard benchmarks across various editing scenarios. In these evaluations, our\nframework delivers superior accuracy and semantic fidelity, particularly for\ncomplex, multi-step instructions. Codes are available at\nhttps://github.com/YujiaHu1109/IEAP.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/634cfebc350bcee9bed20a4d/tp0cLz8OZhdI3vs50cxhF.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04158.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "634cfebc350bcee9bed20a4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634cfebc350bcee9bed20a4d/fN47nN5rhw-HJaFLBZWQy.png",
+      "fullname": "Xingyi Yang",
+      "name": "adamdad",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 16
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.04228",
+      "authors": [
+        {
+          "_id": "684103aed45a1fc5540ddc10",
+          "name": "Sihui Ji",
+          "hidden": false
+        },
+        {
+          "_id": "684103aed45a1fc5540ddc11",
+          "name": "Hao Luo",
+          "hidden": false
+        },
+        {
+          "_id": "684103aed45a1fc5540ddc12",
+          "name": "Xi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "684103aed45a1fc5540ddc13",
+          "name": "Yuanpeng Tu",
+          "hidden": false
+        },
+        {
+          "_id": "684103aed45a1fc5540ddc14",
+          "name": "Yiyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684103aed45a1fc5540ddc15",
+          "name": "Hengshuang Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-04T17:59:58.000Z",
+      "submittedOnDailyAt": "2025-06-05T01:11:16.967Z",
+      "title": "LayerFlow: A Unified Model for Layer-aware Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "644a1b6401e18bf93a6f45c1",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644a1b6401e18bf93a6f45c1/P0i_CgCrIzOS2tYRlxoE9.png",
+        "isPro": false,
+        "fullname": "xichen",
+        "user": "xichenhku",
+        "type": "user"
+      },
+      "summary": "We present LayerFlow, a unified solution for layer-aware video generation.\nGiven per-layer prompts, LayerFlow generates videos for the transparent\nforeground, clean background, and blended scene. It also supports versatile\nvariants like decomposing a blended video or generating the background for the\ngiven foreground and vice versa. Starting from a text-to-video diffusion\ntransformer, we organize the videos for different layers as sub-clips, and\nleverage layer embeddings to distinguish each clip and the corresponding\nlayer-wise prompts. In this way, we seamlessly support the aforementioned\nvariants in one unified framework. For the lack of high-quality layer-wise\ntraining videos, we design a multi-stage training strategy to accommodate\nstatic images with high-quality layer annotations. Specifically, we first train\nthe model with low-quality video data. Then, we tune a motion LoRA to make the\nmodel compatible with static frames. Afterward, we train the content LoRA on\nthe mixture of image data with high-quality layered images along with\ncopy-pasted video data. During inference, we remove the motion LoRA thus\ngenerating smooth videos with desired layers.",
+      "upvotes": 1,
+      "discussionId": "684103b0d45a1fc5540ddca8"
+    },
+    "publishedAt": "2025-06-04T13:59:58.000Z",
+    "title": "LayerFlow: A Unified Model for Layer-aware Video Generation",
+    "summary": "We present LayerFlow, a unified solution for layer-aware video generation.\nGiven per-layer prompts, LayerFlow generates videos for the transparent\nforeground, clean background, and blended scene. It also supports versatile\nvariants like decomposing a blended video or generating the background for the\ngiven foreground and vice versa. Starting from a text-to-video diffusion\ntransformer, we organize the videos for different layers as sub-clips, and\nleverage layer embeddings to distinguish each clip and the corresponding\nlayer-wise prompts. In this way, we seamlessly support the aforementioned\nvariants in one unified framework. For the lack of high-quality layer-wise\ntraining videos, we design a multi-stage training strategy to accommodate\nstatic images with high-quality layer annotations. Specifically, we first train\nthe model with low-quality video data. Then, we tune a motion LoRA to make the\nmodel compatible with static frames. Afterward, we train the content LoRA on\nthe mixture of image data with high-quality layered images along with\ncopy-pasted video data. During inference, we remove the motion LoRA thus\ngenerating smooth videos with desired layers.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04228.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "644a1b6401e18bf93a6f45c1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644a1b6401e18bf93a6f45c1/P0i_CgCrIzOS2tYRlxoE9.png",
+      "fullname": "xichen",
+      "name": "xichenhku",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 41
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.04133",
+      "authors": [
+        {
+          "_id": "6840f32dda736de98e843831",
+          "user": {
+            "_id": "64d3c16a0553a2522f1aa792",
+            "avatarUrl": "/avatars/951e272ffccf2388f138b248e5ef7142.svg",
+            "isPro": false,
+            "fullname": "Shaina Raza",
+            "user": "shainar",
+            "type": "user"
+          },
+          "name": "Shaina Raza",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-06-05T01:39:24.184Z",
+          "hidden": false
+        },
+        {
+          "_id": "6840f32dda736de98e843832",
+          "name": "Ranjan Sapkota",
+          "hidden": false
+        },
+        {
+          "_id": "6840f32dda736de98e843833",
+          "name": "Manoj Karkee",
+          "hidden": false
+        },
+        {
+          "_id": "6840f32dda736de98e843834",
+          "name": "Christos Emmanouilidis",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/7jK4mzUkVjPRUDMAacaCO.jpeg"
+      ],
+      "publishedAt": "2025-06-04T16:26:11.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:02:27.010Z",
+      "title": "TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management\n  in LLM-based Agentic Multi-Agent Systems",
+      "submittedOnDailyBy": {
+        "_id": "67ddd80896ac367438d400a6",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/C1NY6Nv5i0erwLnzCrTUM.png",
+        "isPro": false,
+        "fullname": "Ranjan Sapkota",
+        "user": "RanjanSapkota",
+        "type": "user"
+      },
+      "summary": "Agentic AI systems, built on large language models (LLMs) and deployed in\nmulti-agent configurations, are redefining intelligent autonomy, collaboration\nand decision-making across enterprise and societal domains. This review\npresents a structured analysis of Trust, Risk, and Security Management (TRiSM)\nin the context of LLM-based agentic multi-agent systems (AMAS). We begin by\nexamining the conceptual foundations of agentic AI, its architectural\ndifferences from traditional AI agents, and the emerging system designs that\nenable scalable, tool-using autonomy. The TRiSM in the agentic AI framework is\nthen detailed through four pillars governance, explainability, ModelOps, and\nprivacy/security each contextualized for agentic LLMs. We identify unique\nthreat vectors and introduce a comprehensive risk taxonomy for the agentic AI\napplications, supported by case studies illustrating real-world\nvulnerabilities. Furthermore, the paper also surveys trust-building mechanisms,\ntransparency and oversight techniques, and state-of-the-art explainability\nstrategies in distributed LLM agent systems. Additionally, metrics for\nevaluating trust, interpretability, and human-centered performance are reviewed\nalongside open benchmarking challenges. Security and privacy are addressed\nthrough encryption, adversarial defense, and compliance with evolving AI\nregulations. The paper concludes with a roadmap for responsible agentic AI,\nproposing research directions to align emerging multi-agent systems with robust\nTRiSM principles for safe, accountable, and transparent deployment.",
+      "upvotes": 1,
+      "discussionId": "6840f32eda736de98e843858",
+      "ai_summary": "A review of trust, risk, and security management in LLM-based agentic multi-agent systems, examining governance, explainability, ModelOps, and privacy/security.",
+      "ai_keywords": [
+        "LLMs",
+        "agentic AI",
+        "multi-agent systems",
+        "TRiSM",
+        "governance",
+        "explainability",
+        "ModelOps",
+        "privacy",
+        "security",
+        "encryption",
+        "adversarial defense",
+        "compliance",
+        "AI regulations",
+        "trust-building mechanisms",
+        "transparency",
+        "oversight",
+        "interpretability",
+        "human-centered performance",
+        "benchmarking",
+        "responsible AI",
+        "research directions"
+      ]
+    },
+    "publishedAt": "2025-06-04T12:26:11.000Z",
+    "title": "TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management\n  in LLM-based Agentic Multi-Agent Systems",
+    "summary": "Agentic AI systems, built on large language models (LLMs) and deployed in\nmulti-agent configurations, are redefining intelligent autonomy, collaboration\nand decision-making across enterprise and societal domains. This review\npresents a structured analysis of Trust, Risk, and Security Management (TRiSM)\nin the context of LLM-based agentic multi-agent systems (AMAS). We begin by\nexamining the conceptual foundations of agentic AI, its architectural\ndifferences from traditional AI agents, and the emerging system designs that\nenable scalable, tool-using autonomy. The TRiSM in the agentic AI framework is\nthen detailed through four pillars governance, explainability, ModelOps, and\nprivacy/security each contextualized for agentic LLMs. We identify unique\nthreat vectors and introduce a comprehensive risk taxonomy for the agentic AI\napplications, supported by case studies illustrating real-world\nvulnerabilities. Furthermore, the paper also surveys trust-building mechanisms,\ntransparency and oversight techniques, and state-of-the-art explainability\nstrategies in distributed LLM agent systems. Additionally, metrics for\nevaluating trust, interpretability, and human-centered performance are reviewed\nalongside open benchmarking challenges. Security and privacy are addressed\nthrough encryption, adversarial defense, and compliance with evolving AI\nregulations. The paper concludes with a roadmap for responsible agentic AI,\nproposing research directions to align emerging multi-agent systems with robust\nTRiSM principles for safe, accountable, and transparent deployment.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/7jK4mzUkVjPRUDMAacaCO.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04133.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67ddd80896ac367438d400a6",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/C1NY6Nv5i0erwLnzCrTUM.png",
+      "fullname": "Ranjan Sapkota",
+      "name": "RanjanSapkota",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.04034",
+      "authors": [
+        {
+          "_id": "6840ff0b535bfb4942b31576",
+          "name": "Qing Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6840ff0b535bfb4942b31577",
+          "name": "Xingyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6840ff0b535bfb4942b31578",
+          "name": "Zhaoyang Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6840ff0b535bfb4942b31579",
+          "name": "Junzhi Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6840ff0b535bfb4942b3157a",
+          "name": "Lei Zhang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/647f46b6838ac3601fc89852/0J-cvgz2dA6bVQJJNb_Yz.jpeg"
+      ],
+      "publishedAt": "2025-06-04T14:56:57.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:56:30.698Z",
+      "title": "Rex-Thinker: Grounded Object Referring via Chain-of-Thought Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "647f46b6838ac3601fc89852",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647f46b6838ac3601fc89852/N5cr1MFEtgKLJ4sVAhS04.jpeg",
+        "isPro": true,
+        "fullname": "Qing Jiang",
+        "user": "Mountchicken",
+        "type": "user"
+      },
+      "summary": "Object referring aims to detect all objects in an image that match a given\nnatural language description. We argue that a robust object referring model\nshould be grounded, meaning its predictions should be both explainable and\nfaithful to the visual content. Specifically, it should satisfy two key\nproperties: 1) Verifiable, by producing interpretable reasoning that justifies\nits predictions and clearly links them to visual evidence; and 2) Trustworthy,\nby learning to abstain when no object in the image satisfies the given\nexpression. However, most methods treat referring as a direct bounding box\nprediction task, offering limited interpretability and struggling to reject\nexpressions with no matching object. In this work, we propose Rex-Thinker, a\nmodel that formulates object referring as an explicit CoT reasoning task. Given\na referring expression, we first identify all candidate object instances\ncorresponding to the referred object category. Rex-Thinker then performs\nstep-by-step reasoning over each candidate to assess whether it matches the\ngiven expression, before making a final prediction. To support this paradigm,\nwe construct a large-scale CoT-style referring dataset named HumanRef-CoT by\nprompting GPT-4o on the HumanRef dataset. Each reasoning trace follows a\nstructured planning, action, and summarization format, enabling the model to\nlearn decomposed, interpretable reasoning over object candidates. We then train\nRex-Thinker in two stages: a cold-start supervised fine-tuning phase to teach\nthe model how to perform structured reasoning, followed by GRPO-based RL\nlearning to improve accuracy and generalization. Experiments show that our\napproach outperforms standard baselines in both precision and interpretability\non in-domain evaluation, while also demonstrating improved ability to reject\nhallucinated outputs and strong generalization in out-of-domain settings.",
+      "upvotes": 1,
+      "discussionId": "6840ff0e535bfb4942b3165f",
+      "projectPage": "https://rexthinker.github.io/",
+      "githubRepo": "https://github.com/IDEA-Research/Rex-Thinker"
+    },
+    "publishedAt": "2025-06-04T10:56:57.000Z",
+    "title": "Rex-Thinker: Grounded Object Referring via Chain-of-Thought Reasoning",
+    "summary": "Object referring aims to detect all objects in an image that match a given\nnatural language description. We argue that a robust object referring model\nshould be grounded, meaning its predictions should be both explainable and\nfaithful to the visual content. Specifically, it should satisfy two key\nproperties: 1) Verifiable, by producing interpretable reasoning that justifies\nits predictions and clearly links them to visual evidence; and 2) Trustworthy,\nby learning to abstain when no object in the image satisfies the given\nexpression. However, most methods treat referring as a direct bounding box\nprediction task, offering limited interpretability and struggling to reject\nexpressions with no matching object. In this work, we propose Rex-Thinker, a\nmodel that formulates object referring as an explicit CoT reasoning task. Given\na referring expression, we first identify all candidate object instances\ncorresponding to the referred object category. Rex-Thinker then performs\nstep-by-step reasoning over each candidate to assess whether it matches the\ngiven expression, before making a final prediction. To support this paradigm,\nwe construct a large-scale CoT-style referring dataset named HumanRef-CoT by\nprompting GPT-4o on the HumanRef dataset. Each reasoning trace follows a\nstructured planning, action, and summarization format, enabling the model to\nlearn decomposed, interpretable reasoning over object candidates. We then train\nRex-Thinker in two stages: a cold-start supervised fine-tuning phase to teach\nthe model how to perform structured reasoning, followed by GRPO-based RL\nlearning to improve accuracy and generalization. Experiments show that our\napproach outperforms standard baselines in both precision and interpretability\non in-domain evaluation, while also demonstrating improved ability to reject\nhallucinated outputs and strong generalization in out-of-domain settings.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/647f46b6838ac3601fc89852/0J-cvgz2dA6bVQJJNb_Yz.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04034.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "647f46b6838ac3601fc89852",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647f46b6838ac3601fc89852/N5cr1MFEtgKLJ4sVAhS04.jpeg",
+      "fullname": "Qing Jiang",
+      "name": "Mountchicken",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.02945",
+      "authors": [
+        {
+          "_id": "6841008f2f66f731bf010feb",
+          "name": "Aishwarya Sahoo",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010fec",
+          "name": "Jeevana Kruthi Karnuthala",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010fed",
+          "name": "Tushar Parmanand Budhwani",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010fee",
+          "name": "Pranchal Agarwal",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010fef",
+          "name": "Sankaran Vaidyanathan",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010ff0",
+          "name": "Alexa Siu",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010ff1",
+          "name": "Franck Dernoncourt",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010ff2",
+          "name": "Jennifer Healey",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010ff3",
+          "name": "Nedim Lipka",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010ff4",
+          "name": "Ryan Rossi",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010ff5",
+          "name": "Uttaran Bhattacharya",
+          "hidden": false
+        },
+        {
+          "_id": "6841008f2f66f731bf010ff6",
+          "name": "Branislav Kveton",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-03T14:44:23.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:57:33.123Z",
+      "title": "Quantitative LLM Judges",
+      "submittedOnDailyBy": {
+        "_id": "62c5947524171688a9feb992",
+        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+        "isPro": false,
+        "fullname": "Franck Dernoncourt",
+        "user": "Franck-Dernoncourt",
+        "type": "user"
+      },
+      "summary": "LLM-as-a-judge is a framework in which a large language model (LLM)\nautomatically evaluates the output of another LLM. We propose quantitative LLM\njudges, which align evaluation scores of existing LLM judges to human scores in\na given domain using regression models. The models are trained to improve the\nscore of the original judge by using the judge's textual evaluation and score.\nWe present four quantitative judges for different types of absolute and\nrelative feedback, which showcases the generality and versatility of our\nframework. Our framework is more computationally efficient than supervised\nfine-tuning and can be more statistically efficient when human feedback is\nlimited, which is expected in most applications of our work. We validate these\nclaims empirically on four datasets using two base judges. Our experiments show\nthat quantitative judges can effectively improve the predictive power of\nexisting judges through post-hoc modeling.",
+      "upvotes": 1,
+      "discussionId": "684100902f66f731bf01101e"
+    },
+    "publishedAt": "2025-06-03T10:44:23.000Z",
+    "title": "Quantitative LLM Judges",
+    "summary": "LLM-as-a-judge is a framework in which a large language model (LLM)\nautomatically evaluates the output of another LLM. We propose quantitative LLM\njudges, which align evaluation scores of existing LLM judges to human scores in\na given domain using regression models. The models are trained to improve the\nscore of the original judge by using the judge's textual evaluation and score.\nWe present four quantitative judges for different types of absolute and\nrelative feedback, which showcases the generality and versatility of our\nframework. Our framework is more computationally efficient than supervised\nfine-tuning and can be more statistically efficient when human feedback is\nlimited, which is expected in most applications of our work. We validate these\nclaims empirically on four datasets using two base judges. Our experiments show\nthat quantitative judges can effectively improve the predictive power of\nexisting judges through post-hoc modeling.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.02945.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c5947524171688a9feb992",
+      "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+      "fullname": "Franck Dernoncourt",
+      "name": "Franck-Dernoncourt",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.01344",
+      "authors": [
+        {
+          "_id": "6841009bdf863485e04879c8",
+          "name": "Manan Suri",
+          "hidden": false
+        },
+        {
+          "_id": "6841009bdf863485e04879c9",
+          "user": {
+            "_id": "65c16444d4c3b8dff2f0d78d",
+            "avatarUrl": "/avatars/4ed764c1657bd260d2a12ba61c111062.svg",
+            "isPro": false,
+            "fullname": "Puneet Mathur",
+            "user": "puneetm",
+            "type": "user"
+          },
+          "name": "Puneet Mathur",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-05T02:27:41.018Z",
+          "hidden": false
+        },
+        {
+          "_id": "6841009bdf863485e04879ca",
+          "name": "Nedim Lipka",
+          "hidden": false
+        },
+        {
+          "_id": "6841009bdf863485e04879cb",
+          "name": "Franck Dernoncourt",
+          "hidden": false
+        },
+        {
+          "_id": "6841009bdf863485e04879cc",
+          "name": "Ryan A. Rossi",
+          "hidden": false
+        },
+        {
+          "_id": "6841009bdf863485e04879cd",
+          "name": "Vivek Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "6841009bdf863485e04879ce",
+          "name": "Dinesh Manocha",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-02T06:02:41.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:57:44.204Z",
+      "title": "Follow the Flow: Fine-grained Flowchart Attribution with Neurosymbolic\n  Agents",
+      "submittedOnDailyBy": {
+        "_id": "62c5947524171688a9feb992",
+        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+        "isPro": false,
+        "fullname": "Franck Dernoncourt",
+        "user": "Franck-Dernoncourt",
+        "type": "user"
+      },
+      "summary": "Flowcharts are a critical tool for visualizing decision-making processes.\nHowever, their non-linear structure and complex visual-textual relationships\nmake it challenging to interpret them using LLMs, as vision-language models\nfrequently hallucinate nonexistent connections and decision paths when\nanalyzing these diagrams. This leads to compromised reliability for automated\nflowchart processing in critical domains such as logistics, health, and\nengineering. We introduce the task of Fine-grained Flowchart Attribution, which\ntraces specific components grounding a flowchart referring LLM response.\nFlowchart Attribution ensures the verifiability of LLM predictions and improves\nexplainability by linking generated responses to the flowchart's structure. We\npropose FlowPathAgent, a neurosymbolic agent that performs fine-grained post\nhoc attribution through graph-based reasoning. It first segments the flowchart,\nthen converts it into a structured symbolic graph, and then employs an agentic\napproach to dynamically interact with the graph, to generate attribution paths.\nAdditionally, we present FlowExplainBench, a novel benchmark for evaluating\nflowchart attributions across diverse styles, domains, and question types.\nExperimental results show that FlowPathAgent mitigates visual hallucinations in\nLLM answers over flowchart QA, outperforming strong baselines by 10-14% on our\nproposed FlowExplainBench dataset.",
+      "upvotes": 1,
+      "discussionId": "6841009ddf863485e0487a38"
+    },
+    "publishedAt": "2025-06-02T02:02:41.000Z",
+    "title": "Follow the Flow: Fine-grained Flowchart Attribution with Neurosymbolic\n  Agents",
+    "summary": "Flowcharts are a critical tool for visualizing decision-making processes.\nHowever, their non-linear structure and complex visual-textual relationships\nmake it challenging to interpret them using LLMs, as vision-language models\nfrequently hallucinate nonexistent connections and decision paths when\nanalyzing these diagrams. This leads to compromised reliability for automated\nflowchart processing in critical domains such as logistics, health, and\nengineering. We introduce the task of Fine-grained Flowchart Attribution, which\ntraces specific components grounding a flowchart referring LLM response.\nFlowchart Attribution ensures the verifiability of LLM predictions and improves\nexplainability by linking generated responses to the flowchart's structure. We\npropose FlowPathAgent, a neurosymbolic agent that performs fine-grained post\nhoc attribution through graph-based reasoning. It first segments the flowchart,\nthen converts it into a structured symbolic graph, and then employs an agentic\napproach to dynamically interact with the graph, to generate attribution paths.\nAdditionally, we present FlowExplainBench, a novel benchmark for evaluating\nflowchart attributions across diverse styles, domains, and question types.\nExperimental results show that FlowPathAgent mitigates visual hallucinations in\nLLM answers over flowchart QA, outperforming strong baselines by 10-14% on our\nproposed FlowExplainBench dataset.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.01344.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c5947524171688a9feb992",
+      "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+      "fullname": "Franck Dernoncourt",
+      "name": "Franck-Dernoncourt",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.23807",
+      "authors": [
+        {
+          "_id": "683fec0a9f37285365be6142",
+          "user": {
+            "_id": "656201912d309fa7e27ddf40",
+            "avatarUrl": "/avatars/d1bb9b263a758a0b0e7f803f4f888e95.svg",
+            "isPro": false,
+            "fullname": "Yuli chen",
+            "user": "yulichen",
+            "type": "user"
+          },
+          "name": "Yuli Chen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-04T15:03:32.826Z",
+          "hidden": false
+        },
+        {
+          "_id": "683fec0a9f37285365be6143",
+          "name": "Bo Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "683fec0a9f37285365be6144",
+          "name": "Jiale Han",
+          "hidden": false
+        },
+        {
+          "_id": "683fec0a9f37285365be6145",
+          "name": "Yingying Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "683fec0a9f37285365be6146",
+          "name": "Yingting Li",
+          "hidden": false
+        },
+        {
+          "_id": "683fec0a9f37285365be6147",
+          "name": "Shuhao Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-27T07:35:00.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:42:31.891Z",
+      "title": "DLP: Dynamic Layerwise Pruning in Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "656201912d309fa7e27ddf40",
+        "avatarUrl": "/avatars/d1bb9b263a758a0b0e7f803f4f888e95.svg",
+        "isPro": false,
+        "fullname": "Yuli chen",
+        "user": "yulichen",
+        "type": "user"
+      },
+      "summary": "Pruning has recently been widely adopted to reduce the parameter scale and\nimprove the inference efficiency of Large Language Models (LLMs). Mainstream\npruning techniques often rely on uniform layerwise pruning strategies, which\ncan lead to severe performance degradation at high sparsity levels. Recognizing\nthe varying contributions of different layers in LLMs, recent studies have\nshifted their focus toward non-uniform layerwise pruning. However, these\napproaches often rely on pre-defined values, which can result in suboptimal\nperformance. To overcome these limitations, we propose a novel method called\nDynamic Layerwise Pruning (DLP). This approach adaptively determines the\nrelative importance of each layer by integrating model weights with input\nactivation information, assigning pruning rates accordingly. Experimental\nresults show that DLP effectively preserves model performance at high sparsity\nlevels across multiple LLMs. Specifically, at 70% sparsity, DLP reduces the\nperplexity of LLaMA2-7B by 7.79 and improves the average accuracy by 2.7%\ncompared to state-of-the-art methods. Moreover, DLP is compatible with various\nexisting LLM compression techniques and can be seamlessly integrated into\nParameter-Efficient Fine-Tuning (PEFT). We release the code at\nhttps://github.com/ironartisan/DLP to facilitate future research.",
+      "upvotes": 1,
+      "discussionId": "683fec0a9f37285365be617f",
+      "ai_summary": "A dynamic layerwise pruning method adaptively determines layer importance by combining model weights and activation information to maintain performance in large language models at high sparsity.",
+      "ai_keywords": [
+        "pruning",
+        "Large Language Models (LLMs)",
+        "uniform layerwise pruning",
+        "non-uniform layerwise pruning",
+        "Dynamic Layerwise Pruning (DLP)",
+        "perplexity",
+        "Parameter-Efficient Fine-Tuning (PEFT)"
+      ]
+    },
+    "publishedAt": "2025-05-27T03:35:00.000Z",
+    "title": "DLP: Dynamic Layerwise Pruning in Large Language Models",
+    "summary": "Pruning has recently been widely adopted to reduce the parameter scale and\nimprove the inference efficiency of Large Language Models (LLMs). Mainstream\npruning techniques often rely on uniform layerwise pruning strategies, which\ncan lead to severe performance degradation at high sparsity levels. Recognizing\nthe varying contributions of different layers in LLMs, recent studies have\nshifted their focus toward non-uniform layerwise pruning. However, these\napproaches often rely on pre-defined values, which can result in suboptimal\nperformance. To overcome these limitations, we propose a novel method called\nDynamic Layerwise Pruning (DLP). This approach adaptively determines the\nrelative importance of each layer by integrating model weights with input\nactivation information, assigning pruning rates accordingly. Experimental\nresults show that DLP effectively preserves model performance at high sparsity\nlevels across multiple LLMs. Specifically, at 70% sparsity, DLP reduces the\nperplexity of LLaMA2-7B by 7.79 and improves the average accuracy by 2.7%\ncompared to state-of-the-art methods. Moreover, DLP is compatible with various\nexisting LLM compression techniques and can be seamlessly integrated into\nParameter-Efficient Fine-Tuning (PEFT). We release the code at\nhttps://github.com/ironartisan/DLP to facilitate future research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.23807.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "656201912d309fa7e27ddf40",
+      "avatarUrl": "/avatars/d1bb9b263a758a0b0e7f803f4f888e95.svg",
+      "fullname": "Yuli chen",
+      "name": "yulichen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2505.21541",
+      "authors": [
+        {
+          "_id": "6840f79ceb249b555b244efc",
+          "name": "Zitong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6840f79ceb249b555b244efd",
+          "name": "Hang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6840f79ceb249b555b244efe",
+          "name": "Qianyu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6840f79ceb249b555b244eff",
+          "name": "Xuequan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6840f79ceb249b555b244f00",
+          "name": "Xiangtai Li",
+          "hidden": false
+        },
+        {
+          "_id": "6840f79ceb249b555b244f01",
+          "name": "Yiren Song",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-24T16:08:04.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:21:34.798Z",
+      "title": "DiffDecompose: Layer-Wise Decomposition of Alpha-Composited Images via\n  Diffusion Transformers",
+      "submittedOnDailyBy": {
+        "_id": "64311a95034ecbefddd141ef",
+        "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+        "isPro": true,
+        "fullname": "Yiren Song",
+        "user": "yiren98",
+        "type": "user"
+      },
+      "summary": "Diffusion models have recently motivated great success in many generation\ntasks like object removal. Nevertheless, existing image decomposition methods\nstruggle to disentangle semi-transparent or transparent layer occlusions due to\nmask prior dependencies, static object assumptions, and the lack of datasets.\nIn this paper, we delve into a novel task: Layer-Wise Decomposition of\nAlpha-Composited Images, aiming to recover constituent layers from single\noverlapped images under the condition of semi-transparent/transparent alpha\nlayer non-linear occlusion. To address challenges in layer ambiguity,\ngeneralization, and data scarcity, we first introduce AlphaBlend, the first\nlarge-scale and high-quality dataset for transparent and semi-transparent layer\ndecomposition, supporting six real-world subtasks (e.g., translucent flare\nremoval, semi-transparent cell decomposition, glassware decomposition).\nBuilding on this dataset, we present DiffDecompose, a diffusion\nTransformer-based framework that learns the posterior over possible layer\ndecompositions conditioned on the input image, semantic prompts, and blending\ntype. Rather than regressing alpha mattes directly, DiffDecompose performs\nIn-Context Decomposition, enabling the model to predict one or multiple layers\nwithout per-layer supervision, and introduces Layer Position Encoding Cloning\nto maintain pixel-level correspondence across layers. Extensive experiments on\nthe proposed AlphaBlend dataset and public LOGO dataset verify the\neffectiveness of DiffDecompose. The code and dataset will be available upon\npaper acceptance. Our code will be available at:\nhttps://github.com/Wangzt1121/DiffDecompose.",
+      "upvotes": 1,
+      "discussionId": "6840f7a1eb249b555b244ffe",
+      "ai_summary": "DiffDecompose, a diffusion Transformer-based framework, effectively decomposes images into constituent layers with semantic prompts, addressing challenges in transparent layer decomposition.",
+      "ai_keywords": [
+        "diffusion models",
+        "diffusion Transformer",
+        "posterior",
+        "semantic prompts",
+        "blending type",
+        "In-Context Decomposition",
+        "Layer Position Encoding Cloning",
+        "AlphaBlend dataset",
+        "translucent flare removal",
+        "semi-transparent cell decomposition",
+        "glassware decomposition",
+        "LOGO dataset"
+      ]
+    },
+    "publishedAt": "2025-05-24T12:08:04.000Z",
+    "title": "DiffDecompose: Layer-Wise Decomposition of Alpha-Composited Images via\n  Diffusion Transformers",
+    "summary": "Diffusion models have recently motivated great success in many generation\ntasks like object removal. Nevertheless, existing image decomposition methods\nstruggle to disentangle semi-transparent or transparent layer occlusions due to\nmask prior dependencies, static object assumptions, and the lack of datasets.\nIn this paper, we delve into a novel task: Layer-Wise Decomposition of\nAlpha-Composited Images, aiming to recover constituent layers from single\noverlapped images under the condition of semi-transparent/transparent alpha\nlayer non-linear occlusion. To address challenges in layer ambiguity,\ngeneralization, and data scarcity, we first introduce AlphaBlend, the first\nlarge-scale and high-quality dataset for transparent and semi-transparent layer\ndecomposition, supporting six real-world subtasks (e.g., translucent flare\nremoval, semi-transparent cell decomposition, glassware decomposition).\nBuilding on this dataset, we present DiffDecompose, a diffusion\nTransformer-based framework that learns the posterior over possible layer\ndecompositions conditioned on the input image, semantic prompts, and blending\ntype. Rather than regressing alpha mattes directly, DiffDecompose performs\nIn-Context Decomposition, enabling the model to predict one or multiple layers\nwithout per-layer supervision, and introduces Layer Position Encoding Cloning\nto maintain pixel-level correspondence across layers. Extensive experiments on\nthe proposed AlphaBlend dataset and public LOGO dataset verify the\neffectiveness of DiffDecompose. The code and dataset will be available upon\npaper acceptance. Our code will be available at:\nhttps://github.com/Wangzt1121/DiffDecompose.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.21541.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64311a95034ecbefddd141ef",
+      "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+      "fullname": "Yiren Song",
+      "name": "yiren98",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 21
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.02294",
+      "authors": [
+        {
+          "_id": "6840cd169241913d43af9d28",
+          "name": "Niclas Popp",
+          "hidden": false
+        },
+        {
+          "_id": "6840cd169241913d43af9d29",
+          "name": "Kevin Alexander Laube",
+          "hidden": false
+        },
+        {
+          "_id": "6840cd169241913d43af9d2a",
+          "name": "Matthias Hein",
+          "hidden": false
+        },
+        {
+          "_id": "6840cd169241913d43af9d2b",
+          "name": "Lukas Schott",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-02T22:15:59.000Z",
+      "submittedOnDailyAt": "2025-06-05T00:15:23.870Z",
+      "title": "Improving Knowledge Distillation Under Unknown Covariate Shift Through\n  Confidence-Guided Data Augmentation",
+      "submittedOnDailyBy": {
+        "_id": "655646baf8a2d3c020546ec8",
+        "avatarUrl": "/avatars/4ca8de82745bb5a4fda511569bb6bd94.svg",
+        "isPro": false,
+        "fullname": "Niclas P",
+        "user": "NPBP26",
+        "type": "user"
+      },
+      "summary": "Large foundation models trained on extensive datasets demonstrate strong\nzero-shot capabilities in various domains. To replicate their success when data\nand model size are constrained, knowledge distillation has become an\nestablished tool for transferring knowledge from foundation models to small\nstudent networks. However, the effectiveness of distillation is critically\nlimited by the available training data. This work addresses the common\npractical issue of covariate shift in knowledge distillation, where spurious\nfeatures appear during training but not at test time. We ask the question: when\nthese spurious features are unknown, yet a robust teacher is available, is it\npossible for a student to also become robust to them? We address this problem\nby introducing a novel diffusion-based data augmentation strategy that\ngenerates images by maximizing the disagreement between the teacher and the\nstudent, effectively creating challenging samples that the student struggles\nwith. Experiments demonstrate that our approach significantly improves worst\ngroup and mean group accuracy on CelebA and SpuCo Birds as well as the spurious\nmAUC on spurious ImageNet under covariate shift, outperforming state-of-the-art\ndiffusion-based data augmentation baselines",
+      "upvotes": 0,
+      "discussionId": "6840cd199241913d43af9dac",
+      "ai_summary": "A diffusion-based data augmentation strategy improves robustness in knowledge distillation by generating challenging samples, enhancing accuracy and spurious feature resilience.",
+      "ai_keywords": [
+        "knowledge distillation",
+        "diffusion-based data augmentation",
+        "covariate shift",
+        "teacher-student model",
+        "CelebA",
+        "SpuCo Birds",
+        "spurious ImageNet",
+        "mean group accuracy",
+        "worst group accuracy",
+        "spurious mAUC"
+      ]
+    },
+    "publishedAt": "2025-06-02T18:15:59.000Z",
+    "title": "Improving Knowledge Distillation Under Unknown Covariate Shift Through\n  Confidence-Guided Data Augmentation",
+    "summary": "Large foundation models trained on extensive datasets demonstrate strong\nzero-shot capabilities in various domains. To replicate their success when data\nand model size are constrained, knowledge distillation has become an\nestablished tool for transferring knowledge from foundation models to small\nstudent networks. However, the effectiveness of distillation is critically\nlimited by the available training data. This work addresses the common\npractical issue of covariate shift in knowledge distillation, where spurious\nfeatures appear during training but not at test time. We ask the question: when\nthese spurious features are unknown, yet a robust teacher is available, is it\npossible for a student to also become robust to them? We address this problem\nby introducing a novel diffusion-based data augmentation strategy that\ngenerates images by maximizing the disagreement between the teacher and the\nstudent, effectively creating challenging samples that the student struggles\nwith. Experiments demonstrate that our approach significantly improves worst\ngroup and mean group accuracy on CelebA and SpuCo Birds as well as the spurious\nmAUC on spurious ImageNet under covariate shift, outperforming state-of-the-art\ndiffusion-based data augmentation baselines",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.02294.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "655646baf8a2d3c020546ec8",
+      "avatarUrl": "/avatars/4ca8de82745bb5a4fda511569bb6bd94.svg",
+      "fullname": "Niclas P",
+      "name": "NPBP26",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
