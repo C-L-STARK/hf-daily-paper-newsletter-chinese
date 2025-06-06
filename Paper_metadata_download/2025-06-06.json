@@ -1,0 +1,932 @@
+[
+  {
+    "paper": {
+      "id": "2506.04308",
+      "authors": [
+        {
+          "_id": "68424dc48d0422fce0273e99",
+          "name": "Enshen Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273e9a",
+          "name": "Jingkun An",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273e9b",
+          "name": "Cheng Chi",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273e9c",
+          "name": "Yi Han",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273e9d",
+          "name": "Shanyu Rong",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273e9e",
+          "name": "Chi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273e9f",
+          "name": "Pengwei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273ea0",
+          "name": "Zhongyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273ea1",
+          "name": "Tiejun Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273ea2",
+          "name": "Lu Sheng",
+          "hidden": false
+        },
+        {
+          "_id": "68424dc48d0422fce0273ea3",
+          "name": "Shanghang Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-04T17:59:27.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:41:30.786Z",
+      "title": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language\n  Models for Robotics",
+      "submittedOnDailyBy": {
+        "_id": "63f08dc79cf89c9ed1bb89cd",
+        "avatarUrl": "/avatars/37290358ad00bbd752f519cfdec02f3e.svg",
+        "isPro": false,
+        "fullname": "Zhoues",
+        "user": "Zhoues",
+        "type": "user"
+      },
+      "summary": "Spatial referring is a fundamental capability of embodied robots to interact\nwith the 3D physical world. However, even with the powerful pretrained vision\nlanguage models (VLMs), recent approaches are still not qualified to accurately\nunderstand the complex 3D scenes and dynamically reason about the\ninstruction-indicated locations for interaction. To this end, we propose\nRoboRefer, a 3D-aware VLM that can first achieve precise spatial understanding\nby integrating a disentangled but dedicated depth encoder via supervised\nfine-tuning (SFT). Moreover, RoboRefer advances generalized multi-step spatial\nreasoning via reinforcement fine-tuning (RFT), with metric-sensitive process\nreward functions tailored for spatial referring tasks. To support SFT and RFT\ntraining, we introduce RefSpatial, a large-scale dataset of 20M QA pairs (2x\nprior), covering 31 spatial relations (vs. 15 prior) and supporting complex\nreasoning processes (up to 5 steps). In addition, we introduce\nRefSpatial-Bench, a challenging benchmark filling the gap in evaluating spatial\nreferring with multi-step reasoning. Experiments show that SFT-trained\nRoboRefer achieves state-of-the-art spatial understanding, with an average\nsuccess rate of 89.6%. RFT-trained RoboRefer further outperforms all other\nbaselines by a large margin, even surpassing Gemini-2.5-Pro by 17.4% in average\naccuracy on RefSpatial-Bench. Notably, RoboRefer can be integrated with various\ncontrol policies to execute long-horizon, dynamic tasks across diverse robots\n(e,g., UR5, G1 humanoid) in cluttered real-world scenes.",
+      "upvotes": 8,
+      "discussionId": "68424dc88d0422fce0273fb5",
+      "githubRepo": "https://github.com/Zhoues/RoboRefer"
+    },
+    "publishedAt": "2025-06-04T13:59:27.000Z",
+    "title": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language\n  Models for Robotics",
+    "summary": "Spatial referring is a fundamental capability of embodied robots to interact\nwith the 3D physical world. However, even with the powerful pretrained vision\nlanguage models (VLMs), recent approaches are still not qualified to accurately\nunderstand the complex 3D scenes and dynamically reason about the\ninstruction-indicated locations for interaction. To this end, we propose\nRoboRefer, a 3D-aware VLM that can first achieve precise spatial understanding\nby integrating a disentangled but dedicated depth encoder via supervised\nfine-tuning (SFT). Moreover, RoboRefer advances generalized multi-step spatial\nreasoning via reinforcement fine-tuning (RFT), with metric-sensitive process\nreward functions tailored for spatial referring tasks. To support SFT and RFT\ntraining, we introduce RefSpatial, a large-scale dataset of 20M QA pairs (2x\nprior), covering 31 spatial relations (vs. 15 prior) and supporting complex\nreasoning processes (up to 5 steps). In addition, we introduce\nRefSpatial-Bench, a challenging benchmark filling the gap in evaluating spatial\nreferring with multi-step reasoning. Experiments show that SFT-trained\nRoboRefer achieves state-of-the-art spatial understanding, with an average\nsuccess rate of 89.6%. RFT-trained RoboRefer further outperforms all other\nbaselines by a large margin, even surpassing Gemini-2.5-Pro by 17.4% in average\naccuracy on RefSpatial-Bench. Notably, RoboRefer can be integrated with various\ncontrol policies to execute long-horizon, dynamic tasks across diverse robots\n(e,g., UR5, G1 humanoid) in cluttered real-world scenes.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04308.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63f08dc79cf89c9ed1bb89cd",
+      "avatarUrl": "/avatars/37290358ad00bbd752f519cfdec02f3e.svg",
+      "fullname": "Zhoues",
+      "name": "Zhoues",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2505.23656",
+      "authors": [
+        {
+          "_id": "6842520f05049fa51eed0e9f",
+          "name": "Xiangdong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6842520f05049fa51eed0ea0",
+          "name": "Jiaqi Liao",
+          "hidden": false
+        },
+        {
+          "_id": "6842520f05049fa51eed0ea1",
+          "name": "Shaofeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6842520f05049fa51eed0ea2",
+          "name": "Fanqing Meng",
+          "hidden": false
+        },
+        {
+          "_id": "6842520f05049fa51eed0ea3",
+          "name": "Xiangpeng Wan",
+          "hidden": false
+        },
+        {
+          "_id": "6842520f05049fa51eed0ea4",
+          "name": "Junchi Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6842520f05049fa51eed0ea5",
+          "name": "Yu Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-29T17:06:44.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:59:51.401Z",
+      "title": "VideoREPA: Learning Physics for Video Generation through Relational\n  Alignment with Foundation Models",
+      "submittedOnDailyBy": {
+        "_id": "63a2a51ef30c464227924fc6",
+        "avatarUrl": "/avatars/e109e85abd25b97bb29dbbe007119e34.svg",
+        "isPro": false,
+        "fullname": "Haoyu Sun",
+        "user": "Mikivis",
+        "type": "user"
+      },
+      "summary": "Recent advancements in text-to-video (T2V) diffusion models have enabled\nhigh-fidelity and realistic video synthesis. However, current T2V models often\nstruggle to generate physically plausible content due to their limited inherent\nability to accurately understand physics. We found that while the\nrepresentations within T2V models possess some capacity for physics\nunderstanding, they lag significantly behind those from recent video\nself-supervised learning methods. To this end, we propose a novel framework\ncalled VideoREPA, which distills physics understanding capability from video\nunderstanding foundation models into T2V models by aligning token-level\nrelations. This closes the physics understanding gap and enable more\nphysics-plausible generation. Specifically, we introduce the Token Relation\nDistillation (TRD) loss, leveraging spatio-temporal alignment to provide soft\nguidance suitable for finetuning powerful pre-trained T2V models, a critical\ndeparture from prior representation alignment (REPA) methods. To our knowledge,\nVideoREPA is the first REPA method designed for finetuning T2V models and\nspecifically for injecting physical knowledge. Empirical evaluations show that\nVideoREPA substantially enhances the physics commonsense of baseline method,\nCogVideoX, achieving significant improvement on relevant benchmarks and\ndemonstrating a strong capacity for generating videos consistent with intuitive\nphysics. More video results are available at https://videorepa.github.io/.",
+      "upvotes": 5,
+      "discussionId": "6842521205049fa51eed0f67"
+    },
+    "publishedAt": "2025-05-29T13:06:44.000Z",
+    "title": "VideoREPA: Learning Physics for Video Generation through Relational\n  Alignment with Foundation Models",
+    "summary": "Recent advancements in text-to-video (T2V) diffusion models have enabled\nhigh-fidelity and realistic video synthesis. However, current T2V models often\nstruggle to generate physically plausible content due to their limited inherent\nability to accurately understand physics. We found that while the\nrepresentations within T2V models possess some capacity for physics\nunderstanding, they lag significantly behind those from recent video\nself-supervised learning methods. To this end, we propose a novel framework\ncalled VideoREPA, which distills physics understanding capability from video\nunderstanding foundation models into T2V models by aligning token-level\nrelations. This closes the physics understanding gap and enable more\nphysics-plausible generation. Specifically, we introduce the Token Relation\nDistillation (TRD) loss, leveraging spatio-temporal alignment to provide soft\nguidance suitable for finetuning powerful pre-trained T2V models, a critical\ndeparture from prior representation alignment (REPA) methods. To our knowledge,\nVideoREPA is the first REPA method designed for finetuning T2V models and\nspecifically for injecting physical knowledge. Empirical evaluations show that\nVideoREPA substantially enhances the physics commonsense of baseline method,\nCogVideoX, achieving significant improvement on relevant benchmarks and\ndemonstrating a strong capacity for generating videos consistent with intuitive\nphysics. More video results are available at https://videorepa.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.23656.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63a2a51ef30c464227924fc6",
+      "avatarUrl": "/avatars/e109e85abd25b97bb29dbbe007119e34.svg",
+      "fullname": "Haoyu Sun",
+      "name": "Mikivis",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.04209",
+      "authors": [
+        {
+          "_id": "68413c8eb64ba498925da6a8",
+          "user": {
+            "_id": "65d45fbf9f087171b805c428",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d45fbf9f087171b805c428/bgxwcn2p_D9qEa5vynSxV.jpeg",
+            "isPro": false,
+            "fullname": "Jingfeng Yang",
+            "user": "JingfengY",
+            "type": "user"
+          },
+          "name": "Jingfeng Yang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-05T07:26:26.842Z",
+          "hidden": false
+        },
+        {
+          "_id": "68413c8eb64ba498925da6a9",
+          "name": "Ziyang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68413c8eb64ba498925da6aa",
+          "name": "Yue Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68413c8eb64ba498925da6ab",
+          "name": "Yi Ma",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-04T17:51:56.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:43:44.611Z",
+      "title": "Language-Image Alignment with Fixed Text Encoders",
+      "submittedOnDailyBy": {
+        "_id": "65d45fbf9f087171b805c428",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d45fbf9f087171b805c428/bgxwcn2p_D9qEa5vynSxV.jpeg",
+        "isPro": false,
+        "fullname": "Jingfeng Yang",
+        "user": "JingfengY",
+        "type": "user"
+      },
+      "summary": "Currently, the most dominant approach to establishing language-image\nalignment is to pre-train text and image encoders jointly through contrastive\nlearning, such as CLIP and its variants. In this work, we question whether such\na costly joint training is necessary. In particular, we investigate if a\npre-trained fixed large language model (LLM) offers a good enough text encoder\nto guide visual representation learning. That is, we propose to learn\nLanguage-Image alignment with a Fixed Text encoder (LIFT) from an LLM by\ntraining only the image encoder. Somewhat surprisingly, through comprehensive\nbenchmarking and ablation studies, we find that this much simplified framework\nLIFT is highly effective and it outperforms CLIP in most scenarios that involve\ncompositional understanding and long captions, while achieving considerable\ngains in computational efficiency. Our work takes a first step towards\nsystematically exploring how text embeddings from LLMs can guide visual\nlearning and suggests an alternative design choice for learning\nlanguage-aligned visual representations.",
+      "upvotes": 4,
+      "discussionId": "68413c8fb64ba498925da720",
+      "projectPage": "https://jingfeng0705.github.io/LIFT/lift.html",
+      "githubRepo": "https://github.com/Jingfeng0705/LIFT",
+      "ai_summary": "Learning Language-Image alignment with a Fixed Text encoder (LIFT) using pre-trained large language models effectively guides visual representation learning, outperforming joint training methods like CLIP in compositional understanding and long captions.",
+      "ai_keywords": [
+        "contrastive learning",
+        "CLIP",
+        "pre-trained fixed large language model",
+        "LLM",
+        "Language-Image alignment",
+        "LIFT",
+        "image encoder",
+        "compositional understanding",
+        "long captions"
+      ]
+    },
+    "publishedAt": "2025-06-04T13:51:56.000Z",
+    "title": "Language-Image Alignment with Fixed Text Encoders",
+    "summary": "Currently, the most dominant approach to establishing language-image\nalignment is to pre-train text and image encoders jointly through contrastive\nlearning, such as CLIP and its variants. In this work, we question whether such\na costly joint training is necessary. In particular, we investigate if a\npre-trained fixed large language model (LLM) offers a good enough text encoder\nto guide visual representation learning. That is, we propose to learn\nLanguage-Image alignment with a Fixed Text encoder (LIFT) from an LLM by\ntraining only the image encoder. Somewhat surprisingly, through comprehensive\nbenchmarking and ablation studies, we find that this much simplified framework\nLIFT is highly effective and it outperforms CLIP in most scenarios that involve\ncompositional understanding and long captions, while achieving considerable\ngains in computational efficiency. Our work takes a first step towards\nsystematically exploring how text embeddings from LLMs can guide visual\nlearning and suggests an alternative design choice for learning\nlanguage-aligned visual representations.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04209.png",
+    "numComments": 3,
+    "submittedBy": {
+      "_id": "65d45fbf9f087171b805c428",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d45fbf9f087171b805c428/bgxwcn2p_D9qEa5vynSxV.jpeg",
+      "fullname": "Jingfeng Yang",
+      "name": "JingfengY",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.05344",
+      "authors": [
+        {
+          "_id": "68424fe9bdc448822b31beac",
+          "name": "Jiahui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68424fe9bdc448822b31bead",
+          "name": "Zuyan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68424fe9bdc448822b31beae",
+          "name": "Yongming Rao",
+          "hidden": false
+        },
+        {
+          "_id": "68424fe9bdc448822b31beaf",
+          "name": "Jiwen Lu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-05T17:59:55.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:48:21.379Z",
+      "title": "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs",
+      "submittedOnDailyBy": {
+        "_id": "64f001bfabd9fb1914398bd5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f001bfabd9fb1914398bd5/9teH82hkBI4csIz_WQh5q.jpeg",
+        "isPro": false,
+        "fullname": "liuzuyan",
+        "user": "Zuyan",
+        "type": "user"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) are commonly derived by extending\npre-trained Large Language Models (LLMs) with visual capabilities. In this\nwork, we investigate how MLLMs process visual inputs by analyzing their\nattention mechanisms. We reveal a surprising sparsity phenomenon: only a small\nsubset (approximately less than 5%) of attention heads in LLMs actively\ncontribute to visual understanding, termed visual heads. To identify these\nheads efficiently, we design a training-free framework that quantifies\nhead-level visual relevance through targeted response analysis. Building on\nthis discovery, we introduce SparseMM, a KV-Cache optimization strategy that\nallocates asymmetric computation budgets to heads in LLMs based on their visual\nscores, leveraging the sparity of visual heads for accelerating the inference\nof MLLMs. Compared with prior KV-Cache acceleration methods that ignore the\nparticularity of visual, SparseMM prioritizes stress and retaining visual\nsemantics during decoding. Extensive evaluations across mainstream multimodal\nbenchmarks demonstrate that SparseMM achieves superior accuracy-efficiency\ntrade-offs. Notably, SparseMM delivers 1.38x real-time acceleration and 52%\nmemory reduction during generation while maintaining performance parity on\nefficiency test. Our project is open sourced at\nhttps://github.com/CR400AF-A/SparseMM.",
+      "upvotes": 3,
+      "discussionId": "68424febbdc448822b31bf2c",
+      "projectPage": "https://cr400af-a.github.io/SparseMM/",
+      "githubRepo": "https://github.com/CR400AF-A/SparseMM"
+    },
+    "publishedAt": "2025-06-05T13:59:55.000Z",
+    "title": "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs",
+    "summary": "Multimodal Large Language Models (MLLMs) are commonly derived by extending\npre-trained Large Language Models (LLMs) with visual capabilities. In this\nwork, we investigate how MLLMs process visual inputs by analyzing their\nattention mechanisms. We reveal a surprising sparsity phenomenon: only a small\nsubset (approximately less than 5%) of attention heads in LLMs actively\ncontribute to visual understanding, termed visual heads. To identify these\nheads efficiently, we design a training-free framework that quantifies\nhead-level visual relevance through targeted response analysis. Building on\nthis discovery, we introduce SparseMM, a KV-Cache optimization strategy that\nallocates asymmetric computation budgets to heads in LLMs based on their visual\nscores, leveraging the sparity of visual heads for accelerating the inference\nof MLLMs. Compared with prior KV-Cache acceleration methods that ignore the\nparticularity of visual, SparseMM prioritizes stress and retaining visual\nsemantics during decoding. Extensive evaluations across mainstream multimodal\nbenchmarks demonstrate that SparseMM achieves superior accuracy-efficiency\ntrade-offs. Notably, SparseMM delivers 1.38x real-time acceleration and 52%\nmemory reduction during generation while maintaining performance parity on\nefficiency test. Our project is open sourced at\nhttps://github.com/CR400AF-A/SparseMM.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.05344.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "64f001bfabd9fb1914398bd5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f001bfabd9fb1914398bd5/9teH82hkBI4csIz_WQh5q.jpeg",
+      "fullname": "liuzuyan",
+      "name": "Zuyan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.05328",
+      "authors": [
+        {
+          "_id": "68424822f0c91a7dcb64193b",
+          "name": "Lidong Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68424822f0c91a7dcb64193c",
+          "name": "Guo Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68424822f0c91a7dcb64193d",
+          "name": "Zhiqi Li",
+          "hidden": false
+        },
+        {
+          "_id": "68424822f0c91a7dcb64193e",
+          "name": "Yicheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68424822f0c91a7dcb64193f",
+          "name": "Tong Lu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-05T17:58:33.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:16:44.777Z",
+      "title": "AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual\n  Counting for MLLMs",
+      "submittedOnDailyBy": {
+        "_id": "64a3de701698ad2985277148",
+        "avatarUrl": "/avatars/09eebadbbea53ed2800591564ff5c931.svg",
+        "isPro": false,
+        "fullname": "lulidong",
+        "user": "lulidong",
+        "type": "user"
+      },
+      "summary": "Despite progress in video understanding, current MLLMs struggle with counting\ntasks. Existing benchmarks are limited by short videos, close-set queries, lack\nof clue annotations, and weak multimodal coverage. In this paper, we introduce\nCG-AV-Counting, a manually-annotated clue-grounded counting benchmark with\n1,027 multimodal questions and 5,845 annotated clues over 497 long videos. It\nsupports both black-box and white-box evaluation, serving as a comprehensive\ntestbed for both end-to-end and reasoning-based counting. To explore ways to\nimprove model's counting capability, we propose AV-Reasoner, a model trained\nwith GRPO and curriculum learning to generalize counting ability from related\ntasks. AV-Reasoner achieves state-of-the-art results across multiple\nbenchmarks, demonstrating the effectiveness of reinforcement learning. However,\nexperiments show that on out-of-domain benchmarks, reasoning in the language\nspace fails to bring performance gains. The code and benchmark have been\nrealeased on https://av-reasoner.github.io.",
+      "upvotes": 3,
+      "discussionId": "68424823f0c91a7dcb6419c7",
+      "projectPage": "https://AV-Reasoner.github.io",
+      "githubRepo": "https://github.com/AV-Reasoner/AV-Reasoner"
+    },
+    "publishedAt": "2025-06-05T13:58:33.000Z",
+    "title": "AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual\n  Counting for MLLMs",
+    "summary": "Despite progress in video understanding, current MLLMs struggle with counting\ntasks. Existing benchmarks are limited by short videos, close-set queries, lack\nof clue annotations, and weak multimodal coverage. In this paper, we introduce\nCG-AV-Counting, a manually-annotated clue-grounded counting benchmark with\n1,027 multimodal questions and 5,845 annotated clues over 497 long videos. It\nsupports both black-box and white-box evaluation, serving as a comprehensive\ntestbed for both end-to-end and reasoning-based counting. To explore ways to\nimprove model's counting capability, we propose AV-Reasoner, a model trained\nwith GRPO and curriculum learning to generalize counting ability from related\ntasks. AV-Reasoner achieves state-of-the-art results across multiple\nbenchmarks, demonstrating the effectiveness of reinforcement learning. However,\nexperiments show that on out-of-domain benchmarks, reasoning in the language\nspace fails to bring performance gains. The code and benchmark have been\nrealeased on https://av-reasoner.github.io.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.05328.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64a3de701698ad2985277148",
+      "avatarUrl": "/avatars/09eebadbbea53ed2800591564ff5c931.svg",
+      "fullname": "lulidong",
+      "name": "lulidong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.05176",
+      "authors": [
+        {
+          "_id": "6842521939f41e76fd96ae38",
+          "name": "Yanzhao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae39",
+          "name": "Mingxin Li",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae3a",
+          "name": "Dingkun Long",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae3b",
+          "name": "Xin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae3c",
+          "name": "Huan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae3d",
+          "name": "Baosong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae3e",
+          "name": "Pengjun Xie",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae3f",
+          "name": "An Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae40",
+          "name": "Dayiheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae41",
+          "name": "Junyang Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae42",
+          "name": "Fei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6842521939f41e76fd96ae43",
+          "name": "Jingren Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-05T15:49:48.000Z",
+      "submittedOnDailyAt": "2025-06-06T01:01:32.740Z",
+      "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through\n  Foundation Models",
+      "submittedOnDailyBy": {
+        "_id": "616adb8578833ce5997e441a",
+        "avatarUrl": "/avatars/bf5c04a6032709f35e3fb48e1be6976f.svg",
+        "isPro": false,
+        "fullname": "Dingkun Long",
+        "user": "thenlper",
+        "type": "user"
+      },
+      "summary": "In this work, we introduce the Qwen3 Embedding series, a significant\nadvancement over its predecessor, the GTE-Qwen series, in text embedding and\nreranking capabilities, built upon the Qwen3 foundation models. Leveraging the\nQwen3 LLMs' robust capabilities in multilingual text understanding and\ngeneration, our innovative multi-stage training pipeline combines large-scale\nunsupervised pre-training with supervised fine-tuning on high-quality datasets.\nEffective model merging strategies further ensure the robustness and\nadaptability of the Qwen3 Embedding series. During the training process, the\nQwen3 LLMs serve not only as backbone models but also play a crucial role in\nsynthesizing high-quality, rich, and diverse training data across multiple\ndomains and languages, thus enhancing the training pipeline. The Qwen3\nEmbedding series offers a spectrum of model sizes (0.6B, 4B, 8B) for both\nembedding and reranking tasks, addressing diverse deployment scenarios where\nusers can optimize for either efficiency or effectiveness. Empirical\nevaluations demonstrate that the Qwen3 Embedding series achieves\nstate-of-the-art results across diverse benchmarks. Notably, it excels on the\nmultilingual evaluation benchmark MTEB for text embedding, as well as in\nvarious retrieval tasks, including code retrieval, cross-lingual retrieval and\nmultilingual retrieval. To facilitate reproducibility and promote\ncommunity-driven research and development, the Qwen3 Embedding models are\npublicly available under the Apache 2.0 license.",
+      "upvotes": 3,
+      "discussionId": "6842521a39f41e76fd96ae6f"
+    },
+    "publishedAt": "2025-06-05T11:49:48.000Z",
+    "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through\n  Foundation Models",
+    "summary": "In this work, we introduce the Qwen3 Embedding series, a significant\nadvancement over its predecessor, the GTE-Qwen series, in text embedding and\nreranking capabilities, built upon the Qwen3 foundation models. Leveraging the\nQwen3 LLMs' robust capabilities in multilingual text understanding and\ngeneration, our innovative multi-stage training pipeline combines large-scale\nunsupervised pre-training with supervised fine-tuning on high-quality datasets.\nEffective model merging strategies further ensure the robustness and\nadaptability of the Qwen3 Embedding series. During the training process, the\nQwen3 LLMs serve not only as backbone models but also play a crucial role in\nsynthesizing high-quality, rich, and diverse training data across multiple\ndomains and languages, thus enhancing the training pipeline. The Qwen3\nEmbedding series offers a spectrum of model sizes (0.6B, 4B, 8B) for both\nembedding and reranking tasks, addressing diverse deployment scenarios where\nusers can optimize for either efficiency or effectiveness. Empirical\nevaluations demonstrate that the Qwen3 Embedding series achieves\nstate-of-the-art results across diverse benchmarks. Notably, it excels on the\nmultilingual evaluation benchmark MTEB for text embedding, as well as in\nvarious retrieval tasks, including code retrieval, cross-lingual retrieval and\nmultilingual retrieval. To facilitate reproducibility and promote\ncommunity-driven research and development, the Qwen3 Embedding models are\npublicly available under the Apache 2.0 license.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.05176.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "616adb8578833ce5997e441a",
+      "avatarUrl": "/avatars/bf5c04a6032709f35e3fb48e1be6976f.svg",
+      "fullname": "Dingkun Long",
+      "name": "thenlper",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 95
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.05240",
+      "authors": [
+        {
+          "_id": "684249e23fb0b2ecb854594a",
+          "name": "Yizhuo Li",
+          "hidden": false
+        },
+        {
+          "_id": "684249e23fb0b2ecb854594b",
+          "name": "Yuying Ge",
+          "hidden": false
+        },
+        {
+          "_id": "684249e23fb0b2ecb854594c",
+          "name": "Yixiao Ge",
+          "hidden": false
+        },
+        {
+          "_id": "684249e23fb0b2ecb854594d",
+          "name": "Ying Shan",
+          "hidden": false
+        },
+        {
+          "_id": "684249e23fb0b2ecb854594e",
+          "name": "Ping Luo",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-05T16:59:53.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:26:53.631Z",
+      "title": "Aligning Latent Spaces with Flow Priors",
+      "submittedOnDailyBy": {
+        "_id": "630b094f8b327c7b8b94d24c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/630b094f8b327c7b8b94d24c/Fd0ugLOHJZIi8oUZScOmX.jpeg",
+        "isPro": false,
+        "fullname": "Yizhuo Li",
+        "user": "liyz",
+        "type": "user"
+      },
+      "summary": "This paper presents a novel framework for aligning learnable latent spaces to\narbitrary target distributions by leveraging flow-based generative models as\npriors. Our method first pretrains a flow model on the target features to\ncapture the underlying distribution. This fixed flow model subsequently\nregularizes the latent space via an alignment loss, which reformulates the flow\nmatching objective to treat the latents as optimization targets. We formally\nprove that minimizing this alignment loss establishes a computationally\ntractable surrogate objective for maximizing a variational lower bound on the\nlog-likelihood of latents under the target distribution. Notably, the proposed\nmethod eliminates computationally expensive likelihood evaluations and avoids\nODE solving during optimization. As a proof of concept, we demonstrate in a\ncontrolled setting that the alignment loss landscape closely approximates the\nnegative log-likelihood of the target distribution. We further validate the\neffectiveness of our approach through large-scale image generation experiments\non ImageNet with diverse target distributions, accompanied by detailed\ndiscussions and ablation studies. With both theoretical and empirical\nvalidation, our framework paves a new way for latent space alignment.",
+      "upvotes": 2,
+      "discussionId": "684249e73fb0b2ecb8545afb",
+      "projectPage": "https://liyizhuo.com/align/",
+      "githubRepo": "https://github.com/liyz15/Aligning-Latent-Spaces-with-Flow-Priors"
+    },
+    "publishedAt": "2025-06-05T12:59:53.000Z",
+    "title": "Aligning Latent Spaces with Flow Priors",
+    "summary": "This paper presents a novel framework for aligning learnable latent spaces to\narbitrary target distributions by leveraging flow-based generative models as\npriors. Our method first pretrains a flow model on the target features to\ncapture the underlying distribution. This fixed flow model subsequently\nregularizes the latent space via an alignment loss, which reformulates the flow\nmatching objective to treat the latents as optimization targets. We formally\nprove that minimizing this alignment loss establishes a computationally\ntractable surrogate objective for maximizing a variational lower bound on the\nlog-likelihood of latents under the target distribution. Notably, the proposed\nmethod eliminates computationally expensive likelihood evaluations and avoids\nODE solving during optimization. As a proof of concept, we demonstrate in a\ncontrolled setting that the alignment loss landscape closely approximates the\nnegative log-likelihood of the target distribution. We further validate the\neffectiveness of our approach through large-scale image generation experiments\non ImageNet with diverse target distributions, accompanied by detailed\ndiscussions and ablation studies. With both theoretical and empirical\nvalidation, our framework paves a new way for latent space alignment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.05240.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "630b094f8b327c7b8b94d24c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/630b094f8b327c7b8b94d24c/Fd0ugLOHJZIi8oUZScOmX.jpeg",
+      "fullname": "Yizhuo Li",
+      "name": "liyz",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.04405",
+      "authors": [
+        {
+          "_id": "6842454fbdc448822b2f1c03",
+          "name": "Ran Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c04",
+          "name": "Yuchen Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c05",
+          "name": "Yishan Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c06",
+          "name": "Yue Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c07",
+          "name": "Xiangru Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c08",
+          "name": "Hang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c09",
+          "name": "May D. Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c0a",
+          "name": "Peifeng Ruan",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c0b",
+          "name": "Donghan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c0c",
+          "name": "Tao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c0d",
+          "name": "Guanghua Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c0e",
+          "name": "Carl Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c0f",
+          "name": "Yang Xie",
+          "hidden": false
+        },
+        {
+          "_id": "6842454fbdc448822b2f1c10",
+          "name": "Wenqi Shi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-04T19:38:55.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:21:54.285Z",
+      "title": "MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at\n  Scale",
+      "submittedOnDailyBy": {
+        "_id": "65cae89119683f9817c049ea",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65cae89119683f9817c049ea/A0XxjmaJldu28JhFvWmpP.jpeg",
+        "isPro": false,
+        "fullname": "Wenqi Shi",
+        "user": "wshi83",
+        "type": "user"
+      },
+      "summary": "We introduce MedAgentGYM, the first publicly available training environment\ndesigned to enhance coding-based medical reasoning capabilities in large\nlanguage model (LLM) agents. MedAgentGYM comprises 72,413 task instances across\n129 categories derived from authentic real-world biomedical scenarios. Tasks\nare encapsulated within executable coding environments, each featuring detailed\ntask descriptions, interactive feedback mechanisms, verifiable ground-truth\nannotations, and scalable training trajectory generation. Extensive\nbenchmarking of over 30 LLMs reveals a notable performance disparity between\ncommercial API-based models and open-source counterparts. Leveraging\nMedAgentGYM, Med-Copilot-7B achieves substantial performance gains through\nsupervised fine-tuning (+36.44%) and continued reinforcement learning\n(+42.47%), emerging as an affordable and privacy-preserving alternative\ncompetitive with gpt-4o. By offering both a comprehensive benchmark and\naccessible, expandable training resources within unified execution\nenvironments, MedAgentGYM delivers an integrated platform to develop LLM-based\ncoding assistants for advanced biomedical research and practice.",
+      "upvotes": 2,
+      "discussionId": "68424552bdc448822b2f1cd0",
+      "githubRepo": "https://github.com/wshi83/MedAgentGym"
+    },
+    "publishedAt": "2025-06-04T15:38:55.000Z",
+    "title": "MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at\n  Scale",
+    "summary": "We introduce MedAgentGYM, the first publicly available training environment\ndesigned to enhance coding-based medical reasoning capabilities in large\nlanguage model (LLM) agents. MedAgentGYM comprises 72,413 task instances across\n129 categories derived from authentic real-world biomedical scenarios. Tasks\nare encapsulated within executable coding environments, each featuring detailed\ntask descriptions, interactive feedback mechanisms, verifiable ground-truth\nannotations, and scalable training trajectory generation. Extensive\nbenchmarking of over 30 LLMs reveals a notable performance disparity between\ncommercial API-based models and open-source counterparts. Leveraging\nMedAgentGYM, Med-Copilot-7B achieves substantial performance gains through\nsupervised fine-tuning (+36.44%) and continued reinforcement learning\n(+42.47%), emerging as an affordable and privacy-preserving alternative\ncompetitive with gpt-4o. By offering both a comprehensive benchmark and\naccessible, expandable training resources within unified execution\nenvironments, MedAgentGYM delivers an integrated platform to develop LLM-based\ncoding assistants for advanced biomedical research and practice.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04405.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65cae89119683f9817c049ea",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65cae89119683f9817c049ea/A0XxjmaJldu28JhFvWmpP.jpeg",
+      "fullname": "Wenqi Shi",
+      "name": "wshi83",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.04734",
+      "authors": [
+        {
+          "_id": "6842537f1c4f28a2031f499c",
+          "name": "Lin Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f499d",
+          "name": "Weihong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f499e",
+          "name": "Jinzhu Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f499f",
+          "name": "Yongfu Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f49a0",
+          "name": "Xiaoqi Jian",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f49a1",
+          "name": "Guangxiang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f49a2",
+          "name": "Change Jia",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f49a3",
+          "name": "Linglin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f49a4",
+          "name": "Sai-er Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f49a5",
+          "name": "Yuhan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6842537f1c4f28a2031f49a6",
+          "name": "Xiangzheng Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-05T08:09:11.000Z",
+      "submittedOnDailyAt": "2025-06-06T01:04:27.438Z",
+      "title": "Evaluation is All You Need: Strategic Overclaiming of LLM Reasoning\n  Capabilities Through Evaluation Design",
+      "submittedOnDailyBy": {
+        "_id": "632c30576bcb864974cc40a8",
+        "avatarUrl": "/avatars/96aa948ad1dd35d355e20b5765a2563a.svg",
+        "isPro": false,
+        "fullname": "sunlin",
+        "user": "lincharliesun",
+        "type": "user"
+      },
+      "summary": "Reasoning models represented by the Deepseek-R1-Distill series have been\nwidely adopted by the open-source community due to their strong performance in\nmathematics, science, programming, and other domains. However, our study\nreveals that their benchmark evaluation results are subject to significant\nfluctuations caused by various factors. Subtle differences in evaluation\nconditions can lead to substantial variations in results. Similar phenomena are\nobserved in other open-source inference models fine-tuned based on the\nDeepseek-R1-Distill series, as well as in the QwQ-32B model, making their\nclaimed performance improvements difficult to reproduce reliably. Therefore, we\nadvocate for the establishment of a more rigorous paradigm for model\nperformance evaluation and present our empirical assessments of the\nDeepseek-R1-Distill series models.",
+      "upvotes": 1,
+      "discussionId": "684253811c4f28a2031f4a11"
+    },
+    "publishedAt": "2025-06-05T04:09:11.000Z",
+    "title": "Evaluation is All You Need: Strategic Overclaiming of LLM Reasoning\n  Capabilities Through Evaluation Design",
+    "summary": "Reasoning models represented by the Deepseek-R1-Distill series have been\nwidely adopted by the open-source community due to their strong performance in\nmathematics, science, programming, and other domains. However, our study\nreveals that their benchmark evaluation results are subject to significant\nfluctuations caused by various factors. Subtle differences in evaluation\nconditions can lead to substantial variations in results. Similar phenomena are\nobserved in other open-source inference models fine-tuned based on the\nDeepseek-R1-Distill series, as well as in the QwQ-32B model, making their\nclaimed performance improvements difficult to reproduce reliably. Therefore, we\nadvocate for the establishment of a more rigorous paradigm for model\nperformance evaluation and present our empirical assessments of the\nDeepseek-R1-Distill series models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04734.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "632c30576bcb864974cc40a8",
+      "avatarUrl": "/avatars/96aa948ad1dd35d355e20b5765a2563a.svg",
+      "fullname": "sunlin",
+      "name": "lincharliesun",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.03238",
+      "authors": [
+        {
+          "_id": "684158e2f11e4b2c51fce923",
+          "user": {
+            "_id": "6496eae78a7c70379a512e39",
+            "avatarUrl": "/avatars/f5ab483ae93cc04b43e825dfd9440905.svg",
+            "isPro": false,
+            "fullname": "Ziheng Zhao",
+            "user": "zzh99",
+            "type": "user"
+          },
+          "name": "Ziheng Zhao",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-05T10:00:00.086Z",
+          "hidden": false
+        },
+        {
+          "_id": "684158e2f11e4b2c51fce924",
+          "name": "Lisong Dai",
+          "hidden": false
+        },
+        {
+          "_id": "684158e2f11e4b2c51fce925",
+          "name": "Ya Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "684158e2f11e4b2c51fce926",
+          "name": "Yanfeng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684158e2f11e4b2c51fce927",
+          "name": "Weidi Xie",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-03T17:57:34.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:32:31.925Z",
+      "title": "Rethinking Whole-Body CT Image Interpretation: An Abnormality-Centric\n  Approach",
+      "submittedOnDailyBy": {
+        "_id": "6496eae78a7c70379a512e39",
+        "avatarUrl": "/avatars/f5ab483ae93cc04b43e825dfd9440905.svg",
+        "isPro": false,
+        "fullname": "Ziheng Zhao",
+        "user": "zzh99",
+        "type": "user"
+      },
+      "summary": "Automated interpretation of CT images-particularly localizing and describing\nabnormal findings across multi-plane and whole-body scans-remains a significant\nchallenge in clinical radiology. This work aims to address this challenge\nthrough four key contributions: (i) On taxonomy, we collaborate with senior\nradiologists to propose a comprehensive hierarchical classification system,\nwith 404 representative abnormal findings across all body regions; (ii) On\ndata, we contribute a dataset containing over 14.5K CT images from multiple\nplanes and all human body regions, and meticulously provide grounding\nannotations for over 19K abnormalities, each linked to the detailed description\nand cast into the taxonomy; (iii) On model development, we propose\nOminiAbnorm-CT, which can automatically ground and describe abnormal findings\non multi-plane and whole-body CT images based on text queries, while also\nallowing flexible interaction through visual prompts; (iv) On benchmarks, we\nestablish three representative evaluation tasks based on real clinical\nscenarios. Through extensive experiments, we show that OminiAbnorm-CT can\nsignificantly outperform existing methods on all the tasks and metrics.",
+      "upvotes": 1,
+      "discussionId": "684158e3f11e4b2c51fce9d7",
+      "ai_summary": "OminiAbnorm-CT, a model for automated interpretation of CT images, outperforms existing methods in localizing and describing abnormalities across different body regions using text queries and visual prompts.",
+      "ai_keywords": [
+        "OminiAbnorm-CT"
+      ]
+    },
+    "publishedAt": "2025-06-03T13:57:34.000Z",
+    "title": "Rethinking Whole-Body CT Image Interpretation: An Abnormality-Centric\n  Approach",
+    "summary": "Automated interpretation of CT images-particularly localizing and describing\nabnormal findings across multi-plane and whole-body scans-remains a significant\nchallenge in clinical radiology. This work aims to address this challenge\nthrough four key contributions: (i) On taxonomy, we collaborate with senior\nradiologists to propose a comprehensive hierarchical classification system,\nwith 404 representative abnormal findings across all body regions; (ii) On\ndata, we contribute a dataset containing over 14.5K CT images from multiple\nplanes and all human body regions, and meticulously provide grounding\nannotations for over 19K abnormalities, each linked to the detailed description\nand cast into the taxonomy; (iii) On model development, we propose\nOminiAbnorm-CT, which can automatically ground and describe abnormal findings\non multi-plane and whole-body CT images based on text queries, while also\nallowing flexible interaction through visual prompts; (iv) On benchmarks, we\nestablish three representative evaluation tasks based on real clinical\nscenarios. Through extensive experiments, we show that OminiAbnorm-CT can\nsignificantly outperform existing methods on all the tasks and metrics.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.03238.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6496eae78a7c70379a512e39",
+      "avatarUrl": "/avatars/f5ab483ae93cc04b43e825dfd9440905.svg",
+      "fullname": "Ziheng Zhao",
+      "name": "zzh99",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.04245",
+      "authors": [
+        {
+          "_id": "68425054feb46a093178003f",
+          "user": {
+            "_id": "64ff4b1a0e8369f6a8c47c7e",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ff4b1a0e8369f6a8c47c7e/X8ocOagj89gexSa253q_8.png",
+            "isPro": false,
+            "fullname": "Eric Lan",
+            "user": "Eric-Lan",
+            "type": "user"
+          },
+          "name": "Guangchen Lan",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-06-06T02:20:41.949Z",
+          "hidden": false
+        },
+        {
+          "_id": "68425054feb46a0931780040",
+          "name": "Huseyin A. Inan",
+          "hidden": false
+        },
+        {
+          "_id": "68425054feb46a0931780041",
+          "user": {
+            "_id": "65e88cdd95a27dfbf6b4e63b",
+            "avatarUrl": "/avatars/3d2d270398f0824b392f99e158e94f26.svg",
+            "isPro": false,
+            "fullname": "Sahar Abdelnabi",
+            "user": "sahar-abdelnabi",
+            "type": "user"
+          },
+          "name": "Sahar Abdelnabi",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-06T02:20:06.391Z",
+          "hidden": false
+        },
+        {
+          "_id": "68425054feb46a0931780042",
+          "name": "Janardhan Kulkarni",
+          "hidden": false
+        },
+        {
+          "_id": "68425054feb46a0931780043",
+          "user": {
+            "_id": "6380a37a5c62156ce7dff8b9",
+            "avatarUrl": "/avatars/fbe5a20869cb55ec43759c1b5f9c4135.svg",
+            "isPro": false,
+            "fullname": "Lukas Wutschitz",
+            "user": "wulu",
+            "type": "user"
+          },
+          "name": "Lukas Wutschitz",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-06T02:20:06.391Z",
+          "hidden": false
+        },
+        {
+          "_id": "68425054feb46a0931780044",
+          "name": "Reza Shokri",
+          "hidden": false
+        },
+        {
+          "_id": "68425054feb46a0931780045",
+          "name": "Christopher G. Brinton",
+          "hidden": false
+        },
+        {
+          "_id": "68425054feb46a0931780046",
+          "name": "Robert Sim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-05-29T21:26:21.000Z",
+      "submittedOnDailyAt": "2025-06-06T00:52:31.028Z",
+      "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "64ff4b1a0e8369f6a8c47c7e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ff4b1a0e8369f6a8c47c7e/X8ocOagj89gexSa253q_8.png",
+        "isPro": false,
+        "fullname": "Eric Lan",
+        "user": "Eric-Lan",
+        "type": "user"
+      },
+      "summary": "As the era of autonomous agents making decisions on behalf of users unfolds,\nensuring contextual integrity (CI) -- what is the appropriate information to\nshare while carrying out a certain task -- becomes a central question to the\nfield. We posit that CI demands a form of reasoning where the agent needs to\nreason about the context in which it is operating. To test this, we first\nprompt LLMs to reason explicitly about CI when deciding what information to\ndisclose. We then extend this approach by developing a reinforcement learning\n(RL) framework that further instills in models the reasoning necessary to\nachieve CI. Using a synthetic, automatically created, dataset of only sim700\nexamples but with diverse contexts and information disclosure norms, we show\nthat our method substantially reduces inappropriate information disclosure\nwhile maintaining task performance across multiple model sizes and families.\nImportantly, improvements transfer from this synthetic dataset to established\nCI benchmarks such as PrivacyLens that has human annotations and evaluates\nprivacy leakage of AI assistants in actions and tool calls.",
+      "upvotes": 1,
+      "discussionId": "68425056feb46a09317800d9"
+    },
+    "publishedAt": "2025-05-29T17:26:21.000Z",
+    "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
+    "summary": "As the era of autonomous agents making decisions on behalf of users unfolds,\nensuring contextual integrity (CI) -- what is the appropriate information to\nshare while carrying out a certain task -- becomes a central question to the\nfield. We posit that CI demands a form of reasoning where the agent needs to\nreason about the context in which it is operating. To test this, we first\nprompt LLMs to reason explicitly about CI when deciding what information to\ndisclose. We then extend this approach by developing a reinforcement learning\n(RL) framework that further instills in models the reasoning necessary to\nachieve CI. Using a synthetic, automatically created, dataset of only sim700\nexamples but with diverse contexts and information disclosure norms, we show\nthat our method substantially reduces inappropriate information disclosure\nwhile maintaining task performance across multiple model sizes and families.\nImportantly, improvements transfer from this synthetic dataset to established\nCI benchmarks such as PrivacyLens that has human annotations and evaluates\nprivacy leakage of AI assistants in actions and tool calls.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.04245.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64ff4b1a0e8369f6a8c47c7e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ff4b1a0e8369f6a8c47c7e/X8ocOagj89gexSa253q_8.png",
+      "fullname": "Eric Lan",
+      "name": "Eric-Lan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  }
+]
