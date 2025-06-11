@@ -1,0 +1,164 @@
+[
+  {
+    "paper": {
+      "id": "2506.05167",
+      "authors": [
+        {
+          "_id": "68468cb23ec10bdd8ab4db5b",
+          "user": {
+            "_id": "645aedd221ab438e732bff43",
+            "avatarUrl": "/avatars/31e14fee670fd5ddd296ea0249dbf710.svg",
+            "isPro": false,
+            "fullname": "Yeonseok Jeong",
+            "user": "yeonseokjeong",
+            "type": "user"
+          },
+          "name": "Yeonseok Jeong",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-09T10:11:11.745Z",
+          "hidden": false
+        },
+        {
+          "_id": "68468cb23ec10bdd8ab4db5c",
+          "name": "Jinsu Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68468cb23ec10bdd8ab4db5d",
+          "name": "Dohyeon Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68468cb23ec10bdd8ab4db5e",
+          "name": "Seung-won Hwang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-05T15:43:49.000Z",
+      "submittedOnDailyAt": "2025-06-11T00:47:14.627Z",
+      "title": "ECoRAG: Evidentiality-guided Compression for Long Context RAG",
+      "submittedOnDailyBy": {
+        "_id": "645aedd221ab438e732bff43",
+        "avatarUrl": "/avatars/31e14fee670fd5ddd296ea0249dbf710.svg",
+        "isPro": false,
+        "fullname": "Yeonseok Jeong",
+        "user": "yeonseokjeong",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have shown remarkable performance in Open-Domain\nQuestion Answering (ODQA) by leveraging external documents through\nRetrieval-Augmented Generation (RAG). To reduce RAG overhead, from longer\ncontext, context compression is necessary. However, prior compression methods\ndo not focus on filtering out non-evidential information, which limit the\nperformance in LLM-based RAG. We thus propose Evidentiality-guided RAG, or\nECoRAG framework. ECoRAG improves LLM performance by compressing retrieved\ndocuments based on evidentiality, ensuring whether answer generation is\nsupported by the correct evidence. As an additional step, ECoRAG reflects\nwhether the compressed content provides sufficient evidence, and if not,\nretrieves more until sufficient. Experiments show that ECoRAG improves LLM\nperformance on ODQA tasks, outperforming existing compression methods.\nFurthermore, ECoRAG is highly cost-efficient, as it not only reduces latency\nbut also minimizes token usage by retaining only the necessary information to\ngenerate the correct answer. Code is available at\nhttps://github.com/ldilab/ECoRAG.",
+      "upvotes": 2,
+      "discussionId": "68468cb23ec10bdd8ab4db5f",
+      "githubRepo": "https://github.com/ldilab/ECoRAG",
+      "ai_summary": "ECoRAG framework enhances LLM performance in ODQA by compressing retrieved documents based on evidentiality, reducing latency and token usage.",
+      "ai_keywords": [
+        "Retrieval-Augmented Generation (RAG)",
+        "context compression",
+        "evidentiality",
+        "LLM",
+        "Open-Domain Question Answering (ODQA)"
+      ]
+    },
+    "publishedAt": "2025-06-05T11:43:49.000Z",
+    "title": "ECoRAG: Evidentiality-guided Compression for Long Context RAG",
+    "summary": "Large Language Models (LLMs) have shown remarkable performance in Open-Domain\nQuestion Answering (ODQA) by leveraging external documents through\nRetrieval-Augmented Generation (RAG). To reduce RAG overhead, from longer\ncontext, context compression is necessary. However, prior compression methods\ndo not focus on filtering out non-evidential information, which limit the\nperformance in LLM-based RAG. We thus propose Evidentiality-guided RAG, or\nECoRAG framework. ECoRAG improves LLM performance by compressing retrieved\ndocuments based on evidentiality, ensuring whether answer generation is\nsupported by the correct evidence. As an additional step, ECoRAG reflects\nwhether the compressed content provides sufficient evidence, and if not,\nretrieves more until sufficient. Experiments show that ECoRAG improves LLM\nperformance on ODQA tasks, outperforming existing compression methods.\nFurthermore, ECoRAG is highly cost-efficient, as it not only reduces latency\nbut also minimizes token usage by retaining only the necessary information to\ngenerate the correct answer. Code is available at\nhttps://github.com/ldilab/ECoRAG.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.05167.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645aedd221ab438e732bff43",
+      "avatarUrl": "/avatars/31e14fee670fd5ddd296ea0249dbf710.svg",
+      "fullname": "Yeonseok Jeong",
+      "name": "yeonseokjeong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.05700",
+      "authors": [
+        {
+          "_id": "6848de6e42e4f9106973f273",
+          "user": {
+            "_id": "65d76cc5b9b7b8bf88faa916",
+            "avatarUrl": "/avatars/d95232cd0c307efab6197ade1a66190b.svg",
+            "isPro": true,
+            "fullname": "Yan Wang",
+            "user": "YanAdjeNole",
+            "type": "user"
+          },
+          "name": "Yan Wang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-11T01:39:59.328Z",
+          "hidden": false
+        },
+        {
+          "_id": "6848de6e42e4f9106973f274",
+          "name": "Yueru He",
+          "hidden": false
+        },
+        {
+          "_id": "6848de6e42e4f9106973f275",
+          "name": "Ruoyu Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "6848de6e42e4f9106973f276",
+          "name": "Jeff Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-06T03:02:52.000Z",
+      "submittedOnDailyAt": "2025-06-11T00:15:04.904Z",
+      "title": "RKEFino1: A Regulation Knowledge-Enhanced Large Language Model",
+      "submittedOnDailyBy": {
+        "_id": "65d76cc5b9b7b8bf88faa916",
+        "avatarUrl": "/avatars/d95232cd0c307efab6197ade1a66190b.svg",
+        "isPro": true,
+        "fullname": "Yan Wang",
+        "user": "YanAdjeNole",
+        "type": "user"
+      },
+      "summary": "Recent advances in large language models (LLMs) hold great promise for\nfinancial applications but introduce critical accuracy and compliance\nchallenges in Digital Regulatory Reporting (DRR). To address these issues, we\npropose RKEFino1, a regulation knowledge-enhanced financial reasoning model\nbuilt upon Fino1, fine-tuned with domain knowledge from XBRL, CDM, and MOF. We\nformulate two QA tasks-knowledge-based and mathematical reasoning-and introduce\na novel Numerical NER task covering financial entities in both sentences and\ntables. Experimental results demonstrate the effectiveness and generalization\ncapacity of RKEFino1 in compliance-critical financial tasks. We have released\nour model on Hugging Face.",
+      "upvotes": 1,
+      "discussionId": "6848de6e42e4f9106973f277",
+      "ai_summary": "RKEFino1, a knowledge-enhanced financial reasoning model, addresses accuracy and compliance challenges in Digital Regulatory Reporting through fine-tuning with domain knowledge from XBRL, CDM, and MOF, and introduces a novel Numerical NER task.",
+      "ai_keywords": [
+        "large language models",
+        "fine-tuned",
+        "domain knowledge",
+        "XBRL",
+        "CDM",
+        "MOF",
+        "QA tasks",
+        "knowledge-based",
+        "mathematical reasoning",
+        "Numerical NER",
+        "financial reasoning",
+        "digital regulatory reporting"
+      ]
+    },
+    "publishedAt": "2025-06-05T23:02:52.000Z",
+    "title": "RKEFino1: A Regulation Knowledge-Enhanced Large Language Model",
+    "summary": "Recent advances in large language models (LLMs) hold great promise for\nfinancial applications but introduce critical accuracy and compliance\nchallenges in Digital Regulatory Reporting (DRR). To address these issues, we\npropose RKEFino1, a regulation knowledge-enhanced financial reasoning model\nbuilt upon Fino1, fine-tuned with domain knowledge from XBRL, CDM, and MOF. We\nformulate two QA tasks-knowledge-based and mathematical reasoning-and introduce\na novel Numerical NER task covering financial entities in both sentences and\ntables. Experimental results demonstrate the effectiveness and generalization\ncapacity of RKEFino1 in compliance-critical financial tasks. We have released\nour model on Hugging Face.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.05700.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65d76cc5b9b7b8bf88faa916",
+      "avatarUrl": "/avatars/d95232cd0c307efab6197ade1a66190b.svg",
+      "fullname": "Yan Wang",
+      "name": "YanAdjeNole",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  }
+]
