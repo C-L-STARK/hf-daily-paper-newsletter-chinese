@@ -1,0 +1,1062 @@
+[
+  {
+    "paper": {
+      "id": "2506.09993",
+      "authors": [
+        {
+          "_id": "684ae204dbd21a9cc27b0fba",
+          "name": "Jaewon Min",
+          "hidden": false
+        },
+        {
+          "_id": "684ae204dbd21a9cc27b0fbb",
+          "name": "Jin Hyeon Kim",
+          "hidden": false
+        },
+        {
+          "_id": "684ae204dbd21a9cc27b0fbc",
+          "name": "Paul Hyunbin Cho",
+          "hidden": false
+        },
+        {
+          "_id": "684ae204dbd21a9cc27b0fbd",
+          "name": "Jaeeun Lee",
+          "hidden": false
+        },
+        {
+          "_id": "684ae204dbd21a9cc27b0fbe",
+          "name": "Jihye Park",
+          "hidden": false
+        },
+        {
+          "_id": "684ae204dbd21a9cc27b0fbf",
+          "name": "Minkyu Park",
+          "hidden": false
+        },
+        {
+          "_id": "684ae204dbd21a9cc27b0fc0",
+          "name": "Sangpil Kim",
+          "hidden": false
+        },
+        {
+          "_id": "684ae204dbd21a9cc27b0fc1",
+          "name": "Hyunhee Park",
+          "hidden": false
+        },
+        {
+          "_id": "684ae204dbd21a9cc27b0fc2",
+          "name": "Seungryong Kim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-11T17:59:46.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:32:01.285Z",
+      "title": "Text-Aware Image Restoration with Diffusion Models",
+      "submittedOnDailyBy": {
+        "_id": "66012e9c9e1cf5eb41ee0c4c",
+        "avatarUrl": "/avatars/b07240cb86315b9e33d14677e02e4024.svg",
+        "isPro": false,
+        "fullname": "Jaewon Min",
+        "user": "Min-Jaewon",
+        "type": "user"
+      },
+      "summary": "Image restoration aims to recover degraded images. However, existing\ndiffusion-based restoration methods, despite great success in natural image\nrestoration, often struggle to faithfully reconstruct textual regions in\ndegraded images. Those methods frequently generate plausible but incorrect\ntext-like patterns, a phenomenon we refer to as text-image hallucination. In\nthis paper, we introduce Text-Aware Image Restoration (TAIR), a novel\nrestoration task that requires the simultaneous recovery of visual contents and\ntextual fidelity. To tackle this task, we present SA-Text, a large-scale\nbenchmark of 100K high-quality scene images densely annotated with diverse and\ncomplex text instances. Furthermore, we propose a multi-task diffusion\nframework, called TeReDiff, that integrates internal features from diffusion\nmodels into a text-spotting module, enabling both components to benefit from\njoint training. This allows for the extraction of rich text representations,\nwhich are utilized as prompts in subsequent denoising steps. Extensive\nexperiments demonstrate that our approach consistently outperforms\nstate-of-the-art restoration methods, achieving significant gains in text\nrecognition accuracy. See our project page: https://cvlab-kaist.github.io/TAIR/",
+      "upvotes": 11,
+      "discussionId": "684ae204dbd21a9cc27b0fc5",
+      "projectPage": "https://cvlab-kaist.github.io/TAIR/",
+      "githubRepo": "https://github.com/cvlab-kaist/TAIR",
+      "ai_summary": "The proposed Text-Aware Image Restoration (TAIR) system integrates a multi-task diffusion framework with a text-spotting module to enhance both image recovery and textual fidelity, outperforming existing diffusion-based methods.",
+      "ai_keywords": [
+        "diffusion-based restoration",
+        "text-image hallucination",
+        "Text-Aware Image Restoration (TAIR)",
+        "SA-Text",
+        "multi-task diffusion framework",
+        "TeReDiff",
+        "text-spotting module",
+        "text recognition accuracy"
+      ]
+    },
+    "publishedAt": "2025-06-11T13:59:46.000Z",
+    "title": "Text-Aware Image Restoration with Diffusion Models",
+    "summary": "Image restoration aims to recover degraded images. However, existing\ndiffusion-based restoration methods, despite great success in natural image\nrestoration, often struggle to faithfully reconstruct textual regions in\ndegraded images. Those methods frequently generate plausible but incorrect\ntext-like patterns, a phenomenon we refer to as text-image hallucination. In\nthis paper, we introduce Text-Aware Image Restoration (TAIR), a novel\nrestoration task that requires the simultaneous recovery of visual contents and\ntextual fidelity. To tackle this task, we present SA-Text, a large-scale\nbenchmark of 100K high-quality scene images densely annotated with diverse and\ncomplex text instances. Furthermore, we propose a multi-task diffusion\nframework, called TeReDiff, that integrates internal features from diffusion\nmodels into a text-spotting module, enabling both components to benefit from\njoint training. This allows for the extraction of rich text representations,\nwhich are utilized as prompts in subsequent denoising steps. Extensive\nexperiments demonstrate that our approach consistently outperforms\nstate-of-the-art restoration methods, achieving significant gains in text\nrecognition accuracy. See our project page: https://cvlab-kaist.github.io/TAIR/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.09993.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66012e9c9e1cf5eb41ee0c4c",
+      "avatarUrl": "/avatars/b07240cb86315b9e33d14677e02e4024.svg",
+      "fullname": "Jaewon Min",
+      "name": "Min-Jaewon",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.10857",
+      "authors": [
+        {
+          "_id": "684b817e3b733ba333686f95",
+          "name": "Jiashuo Yu",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f96",
+          "name": "Yue Wu",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f97",
+          "name": "Meng Chu",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f98",
+          "name": "Zhifei Ren",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f99",
+          "name": "Zizheng Huang",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f9a",
+          "name": "Pei Chu",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f9b",
+          "name": "Ruijie Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f9c",
+          "name": "Yinan He",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f9d",
+          "name": "Qirui Li",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f9e",
+          "name": "Songze Li",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686f9f",
+          "name": "Zhenxiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686fa0",
+          "name": "Zhongying Tu",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686fa1",
+          "name": "Conghui He",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686fa2",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686fa3",
+          "name": "Yali Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686fa4",
+          "name": "Yi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684b817e3b733ba333686fa5",
+          "name": "Limin Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-12T16:17:17.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:10:47.082Z",
+      "title": "VRBench: A Benchmark for Multi-Step Reasoning in Long Narrative Videos",
+      "submittedOnDailyBy": {
+        "_id": "64b89a14cf14c2fabe96664c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/tEd3fBjMcEubF4plqzcUz.jpeg",
+        "isPro": false,
+        "fullname": "Jiashuo Yu",
+        "user": "awojustin",
+        "type": "user"
+      },
+      "summary": "We present VRBench, the first long narrative video benchmark crafted for\nevaluating large models' multi-step reasoning capabilities, addressing\nlimitations in existing evaluations that overlook temporal reasoning and\nprocedural validity. It comprises 1,010 long videos (with an average duration\nof 1.6 hours), along with 9,468 human-labeled multi-step question-answering\npairs and 30,292 reasoning steps with timestamps. These videos are curated via\na multi-stage filtering process including expert inter-rater reviewing to\nprioritize plot coherence. We develop a human-AI collaborative framework that\ngenerates coherent reasoning chains, each requiring multiple temporally\ngrounded steps, spanning seven types (e.g., event attribution, implicit\ninference). VRBench designs a multi-phase evaluation pipeline that assesses\nmodels at both the outcome and process levels. Apart from the MCQs for the\nfinal results, we propose a progress-level LLM-guided scoring metric to\nevaluate the quality of the reasoning chain from multiple dimensions\ncomprehensively. Through extensive evaluations of 12 LLMs and 16 VLMs on\nVRBench, we undertake a thorough analysis and provide valuable insights that\nadvance the field of multi-step reasoning.",
+      "upvotes": 9,
+      "discussionId": "684b817e3b733ba333686fa6",
+      "projectPage": "https://vrbench.github.io/",
+      "githubRepo": "https://github.com/OpenGVLab/VRBench",
+      "ai_summary": "VRBench evaluates long video understanding by assessing multi-step reasoning capabilities across temporal and procedural validity using human-labeled question-answering pairs and reasoning chains.",
+      "ai_keywords": [
+        "VRBench",
+        "large models",
+        "multi-step reasoning",
+        "temporal reasoning",
+        "procedural validity",
+        "long videos",
+        "human-labeled",
+        "multi-step question-answering",
+        "reasoning steps",
+        "timestamps",
+        "expert inter-rater reviewing",
+        "plot coherence",
+        "human-AI collaborative framework",
+        "reasoning chains",
+        "multi-phase evaluation pipeline",
+        "outcome evaluation",
+        "process evaluation",
+        "MCQs",
+        "progress-level LLM-guided scoring metric",
+        "LLMs",
+        "VLMs"
+      ]
+    },
+    "publishedAt": "2025-06-12T12:17:17.000Z",
+    "title": "VRBench: A Benchmark for Multi-Step Reasoning in Long Narrative Videos",
+    "summary": "We present VRBench, the first long narrative video benchmark crafted for\nevaluating large models' multi-step reasoning capabilities, addressing\nlimitations in existing evaluations that overlook temporal reasoning and\nprocedural validity. It comprises 1,010 long videos (with an average duration\nof 1.6 hours), along with 9,468 human-labeled multi-step question-answering\npairs and 30,292 reasoning steps with timestamps. These videos are curated via\na multi-stage filtering process including expert inter-rater reviewing to\nprioritize plot coherence. We develop a human-AI collaborative framework that\ngenerates coherent reasoning chains, each requiring multiple temporally\ngrounded steps, spanning seven types (e.g., event attribution, implicit\ninference). VRBench designs a multi-phase evaluation pipeline that assesses\nmodels at both the outcome and process levels. Apart from the MCQs for the\nfinal results, we propose a progress-level LLM-guided scoring metric to\nevaluate the quality of the reasoning chain from multiple dimensions\ncomprehensively. Through extensive evaluations of 12 LLMs and 16 VLMs on\nVRBench, we undertake a thorough analysis and provide valuable insights that\nadvance the field of multi-step reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.10857.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64b89a14cf14c2fabe96664c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/tEd3fBjMcEubF4plqzcUz.jpeg",
+      "fullname": "Jiashuo Yu",
+      "name": "awojustin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.09513",
+      "authors": [
+        {
+          "_id": "684b8dbd3b733ba33368701b",
+          "user": {
+            "_id": "6723079ad1306fe9c76a1d29",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/b4BNPCeZs59MKxo1qmT6r.png",
+            "isPro": false,
+            "fullname": "Yu Sun",
+            "user": "YuSun-AI",
+            "type": "user"
+          },
+          "name": "Yu Sun",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-13T02:32:30.652Z",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba33368701c",
+          "name": "Xingyu Qian",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba33368701d",
+          "name": "Weiwen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba33368701e",
+          "name": "Hao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba33368701f",
+          "name": "Chenghao Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba333687020",
+          "name": "Long Li",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba333687021",
+          "name": "Yu Rong",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba333687022",
+          "name": "Wenbing Huang",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba333687023",
+          "name": "Qifeng Bai",
+          "hidden": false
+        },
+        {
+          "_id": "684b8dbd3b733ba333687024",
+          "name": "Tingyang Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-11T08:36:55.000Z",
+      "submittedOnDailyAt": "2025-06-13T01:06:46.741Z",
+      "title": "ReasonMed: A 370K Multi-Agent Generated Dataset for Advancing Medical\n  Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6723079ad1306fe9c76a1d29",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/b4BNPCeZs59MKxo1qmT6r.png",
+        "isPro": false,
+        "fullname": "Yu Sun",
+        "user": "YuSun-AI",
+        "type": "user"
+      },
+      "summary": "Though reasoning-based large language models (LLMs) have excelled in\nmathematics and programming, their capabilities in knowledge-intensive medical\nquestion answering remain underexplored. To address this, we introduce\nReasonMed, the largest medical reasoning dataset, comprising 370k high-quality\nexamples distilled from 1.7 million initial reasoning paths generated by\nvarious LLMs. ReasonMed is constructed through a multi-agent\nverification and refinement process, where we design an Error Refiner\nto enhance the reasoning paths by identifying and correcting error-prone steps\nflagged by a verifier. Leveraging ReasonMed, we systematically investigate best\npractices for training medical reasoning models and find that combining\ndetailed Chain-of-Thought (CoT) reasoning with concise answer summaries yields\nthe most effective fine-tuning strategy. Based on this strategy, we train\nReasonMed-7B, which sets a new benchmark for sub-10B models, outperforming the\nprior best by 4.17\\% and even exceeding LLaMA3.1-70B on PubMedQA by 4.60\\%.",
+      "upvotes": 3,
+      "discussionId": "684b8dbe3b733ba333687025",
+      "ai_summary": "ReasonMed, a large medical reasoning dataset, enhances the accuracy of medical question answering models by combining detailed reasoning paths with concise summaries, setting new benchmarks for model performance.",
+      "ai_keywords": [
+        "reasoning-based large language models",
+        "LLMs",
+        "medical question answering",
+        "ReasonMed",
+        "multi-agent verification",
+        "Error Refiner",
+        "Chain-of-Thought",
+        "CoT reasoning",
+        "ReasonMed-7B",
+        "PubMedQA"
+      ]
+    },
+    "publishedAt": "2025-06-11T04:36:55.000Z",
+    "title": "ReasonMed: A 370K Multi-Agent Generated Dataset for Advancing Medical\n  Reasoning",
+    "summary": "Though reasoning-based large language models (LLMs) have excelled in\nmathematics and programming, their capabilities in knowledge-intensive medical\nquestion answering remain underexplored. To address this, we introduce\nReasonMed, the largest medical reasoning dataset, comprising 370k high-quality\nexamples distilled from 1.7 million initial reasoning paths generated by\nvarious LLMs. ReasonMed is constructed through a multi-agent\nverification and refinement process, where we design an Error Refiner\nto enhance the reasoning paths by identifying and correcting error-prone steps\nflagged by a verifier. Leveraging ReasonMed, we systematically investigate best\npractices for training medical reasoning models and find that combining\ndetailed Chain-of-Thought (CoT) reasoning with concise answer summaries yields\nthe most effective fine-tuning strategy. Based on this strategy, we train\nReasonMed-7B, which sets a new benchmark for sub-10B models, outperforming the\nprior best by 4.17\\% and even exceeding LLaMA3.1-70B on PubMedQA by 4.60\\%.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.09513.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6723079ad1306fe9c76a1d29",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/b4BNPCeZs59MKxo1qmT6r.png",
+      "fullname": "Yu Sun",
+      "name": "YuSun-AI",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.08060",
+      "authors": [
+        {
+          "_id": "6848e0b042e4f9106973f280",
+          "user": {
+            "_id": "62f32eab52ad88c930bb3f3b",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png",
+            "isPro": true,
+            "fullname": "Asankhaya Sharma",
+            "user": "codelion",
+            "type": "user"
+          },
+          "name": "Asankhaya Sharma",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-11T08:35:08.045Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-09T08:37:19.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:31:17.814Z",
+      "title": "Eliciting Fine-Tuned Transformer Capabilities via Inference-Time\n  Techniques",
+      "submittedOnDailyBy": {
+        "_id": "62f32eab52ad88c930bb3f3b",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png",
+        "isPro": true,
+        "fullname": "Asankhaya Sharma",
+        "user": "codelion",
+        "type": "user"
+      },
+      "summary": "Large language models have transformed natural language processing, yet\nsupervised fine-tuning (SFT) remains computationally intensive. This paper\nformally proves that capabilities acquired through SFT can be approximated by a\nbase transformer model using inference-time techniques, specifically in-context\nlearning (ICL), without altering model parameters, under idealized assumptions\nincluding unbounded computational resources and access to the fine-tuning\ndataset. We extend these results to practical scenarios with finite context\nlengths and partial dataset access. For text generation tasks with fixed output\nlength l, datasets of size Oleft( m V{varepsilon^2} log\nm{delta} right) or, with bounded context, Oleft( l\nlog V{varepsilon^2} log 1{delta} right) suffice to approximate\nfine-tuned behavior across m contexts within error varepsilon, where V\nis the vocabulary size and delta is the failure probability. For linear\nclassification, datasets of size Oleft( d{varepsilon}\nright) or, with fixed context, Oleft( 1{varepsilon^2} log\n1{delta} right) are sufficient, where d is the input dimension.\nGrounded in the Turing completeness of transformers, these results provide a\ntheoretical foundation for resource-efficient deployment of large language\nmodels, with practical techniques like retrieval-augmented generation bridging\ntheory to real-world applications.",
+      "upvotes": 3,
+      "discussionId": "6848e0b042e4f9106973f281",
+      "githubRepo": "https://github.com/codelion/optillm",
+      "ai_summary": "Transformers can approximate supervised fine-tuning capabilities through in-context learning without altering model parameters, supported by theoretical bounds and practical techniques.",
+      "ai_keywords": [
+        "supervised fine-tuning",
+        "in-context learning",
+        "base transformer model",
+        "Turing completeness",
+        "retrieval-augmented generation",
+        "text generation",
+        "linear classification"
+      ]
+    },
+    "publishedAt": "2025-06-09T04:37:19.000Z",
+    "title": "Eliciting Fine-Tuned Transformer Capabilities via Inference-Time\n  Techniques",
+    "summary": "Large language models have transformed natural language processing, yet\nsupervised fine-tuning (SFT) remains computationally intensive. This paper\nformally proves that capabilities acquired through SFT can be approximated by a\nbase transformer model using inference-time techniques, specifically in-context\nlearning (ICL), without altering model parameters, under idealized assumptions\nincluding unbounded computational resources and access to the fine-tuning\ndataset. We extend these results to practical scenarios with finite context\nlengths and partial dataset access. For text generation tasks with fixed output\nlength l, datasets of size Oleft( m V{varepsilon^2} log\nm{delta} right) or, with bounded context, Oleft( l\nlog V{varepsilon^2} log 1{delta} right) suffice to approximate\nfine-tuned behavior across m contexts within error varepsilon, where V\nis the vocabulary size and delta is the failure probability. For linear\nclassification, datasets of size Oleft( d{varepsilon}\nright) or, with fixed context, Oleft( 1{varepsilon^2} log\n1{delta} right) are sufficient, where d is the input dimension.\nGrounded in the Turing completeness of transformers, these results provide a\ntheoretical foundation for resource-efficient deployment of large language\nmodels, with practical techniques like retrieval-augmented generation bridging\ntheory to real-world applications.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.08060.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62f32eab52ad88c930bb3f3b",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png",
+      "fullname": "Asankhaya Sharma",
+      "name": "codelion",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 91
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.10890",
+      "authors": [
+        {
+          "_id": "684b8b533b733ba333686fe4",
+          "name": "Zhao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "684b8b533b733ba333686fe5",
+          "name": "Yutao Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "684b8b533b733ba333686fe6",
+          "user": {
+            "_id": "6669a0cc9f28880b31d7c4ef",
+            "avatarUrl": "/avatars/bd66a6f68a9af2bf7ee40510579e57fe.svg",
+            "isPro": false,
+            "fullname": "dexiang hong",
+            "user": "hxxxl",
+            "type": "user"
+          },
+          "name": "Dexiang Hong",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-13T02:22:14.202Z",
+          "hidden": false
+        },
+        {
+          "_id": "684b8b533b733ba333686fe7",
+          "user": {
+            "_id": "63fd7279ed9eead590fd02ed",
+            "avatarUrl": "/avatars/4cf6f005069412ee87ed07cd81500f1e.svg",
+            "isPro": false,
+            "fullname": "YangMaoke",
+            "user": "YangMaoke",
+            "type": "user"
+          },
+          "name": "Maoke Yang",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-13T02:22:14.202Z",
+          "hidden": false
+        },
+        {
+          "_id": "684b8b533b733ba333686fe8",
+          "user": {
+            "_id": "6436619ead9b9147de287a24",
+            "avatarUrl": "/avatars/180c43c79e552dd345636a47db80e3e9.svg",
+            "isPro": false,
+            "fullname": "ShiLayne",
+            "user": "ShiLayne",
+            "type": "user"
+          },
+          "name": "Gonglei Shi",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-06-13T02:23:52.345Z",
+          "hidden": true
+        },
+        {
+          "_id": "684b8b533b733ba333686fe9",
+          "name": "Lei Ma",
+          "hidden": false
+        },
+        {
+          "_id": "684b8b533b733ba333686fea",
+          "name": "Hui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "684b8b533b733ba333686feb",
+          "name": "Jie Shao",
+          "hidden": false
+        },
+        {
+          "_id": "684b8b533b733ba333686fec",
+          "name": "Xinglong Wu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-12T16:54:39.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:55:02.473Z",
+      "title": "CreatiPoster: Towards Editable and Controllable Multi-Layer Graphic\n  Design Generation",
+      "submittedOnDailyBy": {
+        "_id": "62bc1adacaf01b9bec398547",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1656494729797-noauth.png",
+        "isPro": false,
+        "fullname": "Zhao Zhang",
+        "user": "zbrl",
+        "type": "user"
+      },
+      "summary": "Graphic design plays a crucial role in both commercial and personal contexts,\nyet creating high-quality, editable, and aesthetically pleasing graphic\ncompositions remains a time-consuming and skill-intensive task, especially for\nbeginners. Current AI tools automate parts of the workflow, but struggle to\naccurately incorporate user-supplied assets, maintain editability, and achieve\nprofessional visual appeal. Commercial systems, like Canva Magic Design, rely\non vast template libraries, which are impractical for replicate. In this paper,\nwe introduce CreatiPoster, a framework that generates editable, multi-layer\ncompositions from optional natural-language instructions or assets. A protocol\nmodel, an RGBA large multimodal model, first produces a JSON specification\ndetailing every layer (text or asset) with precise layout, hierarchy, content\nand style, plus a concise background prompt. A conditional background model\nthen synthesizes a coherent background conditioned on this rendered foreground\nlayers. We construct a benchmark with automated metrics for graphic-design\ngeneration and show that CreatiPoster surpasses leading open-source approaches\nand proprietary commercial systems. To catalyze further research, we release a\ncopyright-free corpus of 100,000 multi-layer designs. CreatiPoster supports\ndiverse applications such as canvas editing, text overlay, responsive resizing,\nmultilingual adaptation, and animated posters, advancing the democratization of\nAI-assisted graphic design. Project homepage:\nhttps://github.com/graphic-design-ai/creatiposter",
+      "upvotes": 2,
+      "discussionId": "684b8b533b733ba333686fed",
+      "githubRepo": "https://github.com/graphic-design-ai/creatiposter",
+      "ai_summary": "CreatiPoster generates high-quality, editable, and customizable graphic compositions from text or assets, outperforming existing tools and templates.",
+      "ai_keywords": [
+        "RGBA large multimodal model",
+        "JSON specification",
+        "conditional background model",
+        "automated metrics",
+        "graphic-design generation",
+        "multi-layer designs",
+        "AI-assisted graphic design"
+      ]
+    },
+    "publishedAt": "2025-06-12T12:54:39.000Z",
+    "title": "CreatiPoster: Towards Editable and Controllable Multi-Layer Graphic\n  Design Generation",
+    "summary": "Graphic design plays a crucial role in both commercial and personal contexts,\nyet creating high-quality, editable, and aesthetically pleasing graphic\ncompositions remains a time-consuming and skill-intensive task, especially for\nbeginners. Current AI tools automate parts of the workflow, but struggle to\naccurately incorporate user-supplied assets, maintain editability, and achieve\nprofessional visual appeal. Commercial systems, like Canva Magic Design, rely\non vast template libraries, which are impractical for replicate. In this paper,\nwe introduce CreatiPoster, a framework that generates editable, multi-layer\ncompositions from optional natural-language instructions or assets. A protocol\nmodel, an RGBA large multimodal model, first produces a JSON specification\ndetailing every layer (text or asset) with precise layout, hierarchy, content\nand style, plus a concise background prompt. A conditional background model\nthen synthesizes a coherent background conditioned on this rendered foreground\nlayers. We construct a benchmark with automated metrics for graphic-design\ngeneration and show that CreatiPoster surpasses leading open-source approaches\nand proprietary commercial systems. To catalyze further research, we release a\ncopyright-free corpus of 100,000 multi-layer designs. CreatiPoster supports\ndiverse applications such as canvas editing, text overlay, responsive resizing,\nmultilingual adaptation, and animated posters, advancing the democratization of\nAI-assisted graphic design. Project homepage:\nhttps://github.com/graphic-design-ai/creatiposter",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.10890.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62bc1adacaf01b9bec398547",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1656494729797-noauth.png",
+      "fullname": "Zhao Zhang",
+      "name": "zbrl",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.10954",
+      "authors": [
+        {
+          "_id": "684b7ea83b733ba333686f8a",
+          "name": "Lianghong Guo",
+          "hidden": false
+        },
+        {
+          "_id": "684b7ea83b733ba333686f8b",
+          "name": "Yanlin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684b7ea83b733ba333686f8c",
+          "name": "Caihua Li",
+          "hidden": false
+        },
+        {
+          "_id": "684b7ea83b733ba333686f8d",
+          "name": "Pengyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "684b7ea83b733ba333686f8e",
+          "name": "Jiachi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "684b7ea83b733ba333686f8f",
+          "name": "Wei Tao",
+          "hidden": false
+        },
+        {
+          "_id": "684b7ea83b733ba333686f90",
+          "name": "Yingtian Zou",
+          "hidden": false
+        },
+        {
+          "_id": "684b7ea83b733ba333686f91",
+          "name": "Duyu Tang",
+          "hidden": false
+        },
+        {
+          "_id": "684b7ea83b733ba333686f92",
+          "name": "Zibin Zheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-12T17:54:17.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:07:20.052Z",
+      "title": "SWE-Factory: Your Automated Factory for Issue Resolution Training Data\n  and Evaluation Benchmarks",
+      "submittedOnDailyBy": {
+        "_id": "6355473d525beaee688b7ba1",
+        "avatarUrl": "/avatars/0a0f0acc65829c6d864440444c580698.svg",
+        "isPro": false,
+        "fullname": "Wei Tao",
+        "user": "itaowe",
+        "type": "user"
+      },
+      "summary": "Constructing large-scale datasets for the GitHub issue resolution task is\ncrucial for both training and evaluating the software engineering capabilities\nof Large Language Models (LLMs). However, the traditional process for creating\nsuch benchmarks is notoriously challenging and labor-intensive, particularly in\nthe stages of setting up evaluation environments, grading test outcomes, and\nvalidating task instances. In this paper, we propose SWE-Factory, an automated\npipeline designed to address these challenges. To tackle these issues, our\npipeline integrates three core automated components. First, we introduce\nSWE-Builder, a multi-agent system that automates evaluation environment\nconstruction, which employs four specialized agents that work in a\ncollaborative, iterative loop and leverages an environment memory pool to\nenhance efficiency. Second, we introduce a standardized, exit-code-based\ngrading method that eliminates the need for manually writing custom parsers.\nFinally, we automate the fail2pass validation process using these reliable exit\ncode signals. Experiments on 671 issues across four programming languages show\nthat our pipeline can effectively construct valid task instances; for example,\nwith GPT-4.1-mini, our SWE-Builder constructs 269 valid instances at 0.045 per\ninstance, while with Gemini-2.5-flash, it achieves comparable performance at\nthe lowest cost of 0.024 per instance. We also demonstrate that our\nexit-code-based grading achieves 100% accuracy compared to manual inspection,\nand our automated fail2pass validation reaches a precision of 0.92 and a recall\nof 1.00. We hope our automated pipeline will accelerate the collection of\nlarge-scale, high-quality GitHub issue resolution datasets for both training\nand evaluation. Our code and datasets are released at\nhttps://github.com/DeepSoftwareAnalytics/swe-factory.",
+      "upvotes": 1,
+      "discussionId": "684b7ea83b733ba333686f93",
+      "githubRepo": "https://github.com/DeepSoftwareAnalytics/swe-factory",
+      "ai_summary": "An automated pipeline, SWE-Factory, is introduced to facilitate the creation of large-scale datasets for evaluating and training Large Language Models in GitHub issue resolution tasks, offering efficient environment building, standardized grading, and automated validation.",
+      "ai_keywords": [
+        "multi-agent system",
+        "SWE-Builder",
+        "environment memory pool",
+        "exit-code-based grading",
+        "fail2pass validation",
+        "Large Language Models",
+        "LLMs",
+        "GPT",
+        "Gemini"
+      ]
+    },
+    "publishedAt": "2025-06-12T13:54:17.000Z",
+    "title": "SWE-Factory: Your Automated Factory for Issue Resolution Training Data\n  and Evaluation Benchmarks",
+    "summary": "Constructing large-scale datasets for the GitHub issue resolution task is\ncrucial for both training and evaluating the software engineering capabilities\nof Large Language Models (LLMs). However, the traditional process for creating\nsuch benchmarks is notoriously challenging and labor-intensive, particularly in\nthe stages of setting up evaluation environments, grading test outcomes, and\nvalidating task instances. In this paper, we propose SWE-Factory, an automated\npipeline designed to address these challenges. To tackle these issues, our\npipeline integrates three core automated components. First, we introduce\nSWE-Builder, a multi-agent system that automates evaluation environment\nconstruction, which employs four specialized agents that work in a\ncollaborative, iterative loop and leverages an environment memory pool to\nenhance efficiency. Second, we introduce a standardized, exit-code-based\ngrading method that eliminates the need for manually writing custom parsers.\nFinally, we automate the fail2pass validation process using these reliable exit\ncode signals. Experiments on 671 issues across four programming languages show\nthat our pipeline can effectively construct valid task instances; for example,\nwith GPT-4.1-mini, our SWE-Builder constructs 269 valid instances at 0.045 per\ninstance, while with Gemini-2.5-flash, it achieves comparable performance at\nthe lowest cost of 0.024 per instance. We also demonstrate that our\nexit-code-based grading achieves 100% accuracy compared to manual inspection,\nand our automated fail2pass validation reaches a precision of 0.92 and a recall\nof 1.00. We hope our automated pipeline will accelerate the collection of\nlarge-scale, high-quality GitHub issue resolution datasets for both training\nand evaluation. Our code and datasets are released at\nhttps://github.com/DeepSoftwareAnalytics/swe-factory.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.10954.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6355473d525beaee688b7ba1",
+      "avatarUrl": "/avatars/0a0f0acc65829c6d864440444c580698.svg",
+      "fullname": "Wei Tao",
+      "name": "itaowe",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.10357",
+      "authors": [
+        {
+          "_id": "684b86bf3b733ba333686fbe",
+          "name": "Zaijing Li",
+          "hidden": false
+        },
+        {
+          "_id": "684b86bf3b733ba333686fbf",
+          "name": "Yuquan Xie",
+          "hidden": false
+        },
+        {
+          "_id": "684b86bf3b733ba333686fc0",
+          "name": "Rui Shao",
+          "hidden": false
+        },
+        {
+          "_id": "684b86bf3b733ba333686fc1",
+          "name": "Gongwei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "684b86bf3b733ba333686fc2",
+          "name": "Weili Guan",
+          "hidden": false
+        },
+        {
+          "_id": "684b86bf3b733ba333686fc3",
+          "name": "Dongmei Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "684b86bf3b733ba333686fc4",
+          "name": "Liqiang Nie",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-12T05:29:40.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:37:48.793Z",
+      "title": "Optimus-3: Towards Generalist Multimodal Minecraft Agents with Scalable\n  Task Experts",
+      "submittedOnDailyBy": {
+        "_id": "66b45fe75d0ac130d7d82764",
+        "avatarUrl": "/avatars/09253f41f82c533b36199f82620cd075.svg",
+        "isPro": false,
+        "fullname": "Zaijing Li",
+        "user": "dawn0815",
+        "type": "user"
+      },
+      "summary": "Recently, agents based on multimodal large language models (MLLMs) have\nachieved remarkable progress across various domains. However, building a\ngeneralist agent with capabilities such as perception, planning, action,\ngrounding, and reflection in open-world environments like Minecraft remains\nchallenges: insufficient domain-specific data, interference among heterogeneous\ntasks, and visual diversity in open-world settings. In this paper, we address\nthese challenges through three key contributions. 1) We propose a\nknowledge-enhanced data generation pipeline to provide scalable and\nhigh-quality training data for agent development. 2) To mitigate interference\namong heterogeneous tasks, we introduce a Mixture-of-Experts (MoE) architecture\nwith task-level routing. 3) We develop a Multimodal Reasoning-Augmented\nReinforcement Learning approach to enhance the agent's reasoning ability for\nvisual diversity in Minecraft. Built upon these innovations, we present\nOptimus-3, a general-purpose agent for Minecraft. Extensive experimental\nresults demonstrate that Optimus-3 surpasses both generalist multimodal large\nlanguage models and existing state-of-the-art agents across a wide range of\ntasks in the Minecraft environment. Project page:\nhttps://cybertronagent.github.io/Optimus-3.github.io/",
+      "upvotes": 1,
+      "discussionId": "684b86bf3b733ba333686fc5",
+      "ai_summary": "Optimus-3, an agent using knowledge-enhanced data generation, Mixture-of-Experts routing, and multimodal reasoning-augmented reinforcement learning, achieves superior performance across various tasks in Minecraft.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "knowledge-enhanced data generation",
+        "Mixture-of-Experts",
+        "task-level routing",
+        "multimodal reasoning-augmented reinforcement learning"
+      ]
+    },
+    "publishedAt": "2025-06-12T01:29:40.000Z",
+    "title": "Optimus-3: Towards Generalist Multimodal Minecraft Agents with Scalable\n  Task Experts",
+    "summary": "Recently, agents based on multimodal large language models (MLLMs) have\nachieved remarkable progress across various domains. However, building a\ngeneralist agent with capabilities such as perception, planning, action,\ngrounding, and reflection in open-world environments like Minecraft remains\nchallenges: insufficient domain-specific data, interference among heterogeneous\ntasks, and visual diversity in open-world settings. In this paper, we address\nthese challenges through three key contributions. 1) We propose a\nknowledge-enhanced data generation pipeline to provide scalable and\nhigh-quality training data for agent development. 2) To mitigate interference\namong heterogeneous tasks, we introduce a Mixture-of-Experts (MoE) architecture\nwith task-level routing. 3) We develop a Multimodal Reasoning-Augmented\nReinforcement Learning approach to enhance the agent's reasoning ability for\nvisual diversity in Minecraft. Built upon these innovations, we present\nOptimus-3, a general-purpose agent for Minecraft. Extensive experimental\nresults demonstrate that Optimus-3 surpasses both generalist multimodal large\nlanguage models and existing state-of-the-art agents across a wide range of\ntasks in the Minecraft environment. Project page:\nhttps://cybertronagent.github.io/Optimus-3.github.io/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.10357.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66b45fe75d0ac130d7d82764",
+      "avatarUrl": "/avatars/09253f41f82c533b36199f82620cd075.svg",
+      "fullname": "Zaijing Li",
+      "name": "dawn0815",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.09942",
+      "authors": [
+        {
+          "_id": "684ae26adbd21a9cc27b1177",
+          "name": "Hao Peng",
+          "hidden": false
+        },
+        {
+          "_id": "684ae26adbd21a9cc27b1178",
+          "name": "Yunjia Qi",
+          "hidden": false
+        },
+        {
+          "_id": "684ae26adbd21a9cc27b1179",
+          "name": "Xiaozhi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684ae26adbd21a9cc27b117a",
+          "name": "Bin Xu",
+          "hidden": false
+        },
+        {
+          "_id": "684ae26adbd21a9cc27b117b",
+          "name": "Lei Hou",
+          "hidden": false
+        },
+        {
+          "_id": "684ae26adbd21a9cc27b117c",
+          "name": "Juanzi Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-11T17:10:36.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:15:19.828Z",
+      "title": "VerIF: Verification Engineering for Reinforcement Learning in\n  Instruction Following",
+      "submittedOnDailyBy": {
+        "_id": "625a5446f1063e7085d5178a",
+        "avatarUrl": "/avatars/5e78186f13f74b14e01583e06ff6c4dc.svg",
+        "isPro": false,
+        "fullname": "Hao Peng",
+        "user": "Wesleythu",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a key\ntechnique for enhancing large language models (LLMs), with verification\nengineering playing a central role. However, best practices for RL in\ninstruction following remain underexplored. In this work, we explore the\nverification challenge in RL for instruction following and propose VerIF, a\nverification method that combines rule-based code verification with LLM-based\nverification from a large reasoning model (e.g., QwQ-32B). To support this\napproach, we construct a high-quality instruction-following dataset,\nVerInstruct, containing approximately 22,000 instances with associated\nverification signals. We apply RL training with VerIF to two models, achieving\nsignificant improvements across several representative instruction-following\nbenchmarks. The trained models reach state-of-the-art performance among models\nof comparable size and generalize well to unseen constraints. We further\nobserve that their general capabilities remain unaffected, suggesting that RL\nwith VerIF can be integrated into existing RL recipes to enhance overall model\nperformance. We have released our datasets, codes, and models to facilitate\nfuture research at https://github.com/THU-KEG/VerIF.",
+      "upvotes": 1,
+      "discussionId": "684ae26adbd21a9cc27b117d",
+      "githubRepo": "https://github.com/THU-KEG/VerIF",
+      "ai_summary": "VerIF, a hybrid verification method combining rule-based and LLM-based approaches, enhances instruction-following RL with significant performance improvements and generalization.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "verifiable rewards",
+        "RLVR",
+        "large language models",
+        "LLMs",
+        "rule-based code verification",
+        "QwQ-32B",
+        "instruction-following",
+        "VerInstruct",
+        "RL training",
+        "instruction-following benchmarks",
+        "state-of-the-art performance",
+        "existing RL recipes"
+      ]
+    },
+    "publishedAt": "2025-06-11T13:10:36.000Z",
+    "title": "VerIF: Verification Engineering for Reinforcement Learning in\n  Instruction Following",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a key\ntechnique for enhancing large language models (LLMs), with verification\nengineering playing a central role. However, best practices for RL in\ninstruction following remain underexplored. In this work, we explore the\nverification challenge in RL for instruction following and propose VerIF, a\nverification method that combines rule-based code verification with LLM-based\nverification from a large reasoning model (e.g., QwQ-32B). To support this\napproach, we construct a high-quality instruction-following dataset,\nVerInstruct, containing approximately 22,000 instances with associated\nverification signals. We apply RL training with VerIF to two models, achieving\nsignificant improvements across several representative instruction-following\nbenchmarks. The trained models reach state-of-the-art performance among models\nof comparable size and generalize well to unseen constraints. We further\nobserve that their general capabilities remain unaffected, suggesting that RL\nwith VerIF can be integrated into existing RL recipes to enhance overall model\nperformance. We have released our datasets, codes, and models to facilitate\nfuture research at https://github.com/THU-KEG/VerIF.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.09942.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "625a5446f1063e7085d5178a",
+      "avatarUrl": "/avatars/5e78186f13f74b14e01583e06ff6c4dc.svg",
+      "fullname": "Hao Peng",
+      "name": "Wesleythu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.06561",
+      "authors": [
+        {
+          "_id": "684b88113b733ba333686fc7",
+          "name": "Ho Yin 'Sam' Ng",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fc8",
+          "name": "Ting-Yao Hsu",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fc9",
+          "name": "Aashish Anantha Ramakrishnan",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fca",
+          "name": "Branislav Kveton",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fcb",
+          "name": "Nedim Lipka",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fcc",
+          "name": "Franck Dernoncourt",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fcd",
+          "name": "Dongwon Lee",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fce",
+          "name": "Tong Yu",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fcf",
+          "name": "Sungchul Kim",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fd0",
+          "name": "Ryan A. Rossi",
+          "hidden": false
+        },
+        {
+          "_id": "684b88113b733ba333686fd1",
+          "name": "Ting-Hao 'Kenneth' Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-06T22:16:16.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:38:33.715Z",
+      "title": "LaMP-Cap: Personalized Figure Caption Generation With Multimodal Figure\n  Profiles",
+      "submittedOnDailyBy": {
+        "_id": "62c5947524171688a9feb992",
+        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+        "isPro": false,
+        "fullname": "Franck Dernoncourt",
+        "user": "Franck-Dernoncourt",
+        "type": "user"
+      },
+      "summary": "Figure captions are crucial for helping readers understand and remember a\nfigure's key message. Many models have been developed to generate these\ncaptions, helping authors compose better quality captions more easily. Yet,\nauthors almost always need to revise generic AI-generated captions to match\ntheir writing style and the domain's style, highlighting the need for\npersonalization. Despite language models' personalization (LaMP) advances,\nthese technologies often focus on text-only settings and rarely address\nscenarios where both inputs and profiles are multimodal. This paper introduces\nLaMP-Cap, a dataset for personalized figure caption generation with multimodal\nfigure profiles. For each target figure, LaMP-Cap provides not only the needed\ninputs, such as figure images, but also up to three other figures from the same\ndocument--each with its image, caption, and figure-mentioning paragraphs--as a\nprofile to characterize the context. Experiments with four LLMs show that using\nprofile information consistently helps generate captions closer to the original\nauthor-written ones. Ablation studies reveal that images in the profile are\nmore helpful than figure-mentioning paragraphs, highlighting the advantage of\nusing multimodal profiles over text-only ones.",
+      "upvotes": 1,
+      "discussionId": "684b88123b733ba333686fd2",
+      "ai_summary": "LaMP-Cap introduces a dataset for personalized figure caption generation using multimodal profiles to improve the quality of AI-generated captions.",
+      "ai_keywords": [
+        "LaMP-Cap",
+        "personalized figure caption generation",
+        "multimodal figures",
+        "figure profiles",
+        "ablation studies"
+      ]
+    },
+    "publishedAt": "2025-06-06T18:16:16.000Z",
+    "title": "LaMP-Cap: Personalized Figure Caption Generation With Multimodal Figure\n  Profiles",
+    "summary": "Figure captions are crucial for helping readers understand and remember a\nfigure's key message. Many models have been developed to generate these\ncaptions, helping authors compose better quality captions more easily. Yet,\nauthors almost always need to revise generic AI-generated captions to match\ntheir writing style and the domain's style, highlighting the need for\npersonalization. Despite language models' personalization (LaMP) advances,\nthese technologies often focus on text-only settings and rarely address\nscenarios where both inputs and profiles are multimodal. This paper introduces\nLaMP-Cap, a dataset for personalized figure caption generation with multimodal\nfigure profiles. For each target figure, LaMP-Cap provides not only the needed\ninputs, such as figure images, but also up to three other figures from the same\ndocument--each with its image, caption, and figure-mentioning paragraphs--as a\nprofile to characterize the context. Experiments with four LLMs show that using\nprofile information consistently helps generate captions closer to the original\nauthor-written ones. Ablation studies reveal that images in the profile are\nmore helpful than figure-mentioning paragraphs, highlighting the advantage of\nusing multimodal profiles over text-only ones.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.06561.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c5947524171688a9feb992",
+      "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+      "fullname": "Franck Dernoncourt",
+      "name": "Franck-Dernoncourt",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.05982",
+      "authors": [
+        {
+          "_id": "684b86913b733ba333686fb8",
+          "name": "Zonglin Wu",
+          "hidden": false
+        },
+        {
+          "_id": "684b86913b733ba333686fb9",
+          "name": "Yule Xue",
+          "hidden": false
+        },
+        {
+          "_id": "684b86913b733ba333686fba",
+          "name": "Xin Wei",
+          "hidden": false
+        },
+        {
+          "_id": "684b86913b733ba333686fbb",
+          "name": "Yiren Song",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-06T11:02:01.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:33:34.648Z",
+      "title": "MCA-Bench: A Multimodal Benchmark for Evaluating CAPTCHA Robustness\n  Against VLM-based Attacks",
+      "submittedOnDailyBy": {
+        "_id": "64311a95034ecbefddd141ef",
+        "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+        "isPro": true,
+        "fullname": "Yiren Song",
+        "user": "yiren98",
+        "type": "user"
+      },
+      "summary": "As automated attack techniques rapidly advance, CAPTCHAs remain a critical\ndefense mechanism against malicious bots. However, existing CAPTCHA schemes\nencompass a diverse range of modalities -- from static distorted text and\nobfuscated images to interactive clicks, sliding puzzles, and logic-based\nquestions -- yet the community still lacks a unified, large-scale, multimodal\nbenchmark to rigorously evaluate their security robustness. To address this\ngap, we introduce MCA-Bench, a comprehensive and reproducible benchmarking\nsuite that integrates heterogeneous CAPTCHA types into a single evaluation\nprotocol. Leveraging a shared vision-language model backbone, we fine-tune\nspecialized cracking agents for each CAPTCHA category, enabling consistent,\ncross-modal assessments. Extensive experiments reveal that MCA-Bench\neffectively maps the vulnerability spectrum of modern CAPTCHA designs under\nvaried attack settings, and crucially offers the first quantitative analysis of\nhow challenge complexity, interaction depth, and model solvability interrelate.\nBased on these findings, we propose three actionable design principles and\nidentify key open challenges, laying the groundwork for systematic CAPTCHA\nhardening, fair benchmarking, and broader community collaboration. Datasets and\ncode are available online.",
+      "upvotes": 1,
+      "discussionId": "684b86923b733ba333686fbc",
+      "ai_summary": "MCA-Bench is a multimodal benchmark suite for CAPTCHA security evaluation which fine-tunes specialized cracking agents using a shared vision-language model.",
+      "ai_keywords": [
+        "vision-language model",
+        "cracking agents",
+        "multimodal benchmark"
+      ]
+    },
+    "publishedAt": "2025-06-06T07:02:01.000Z",
+    "title": "MCA-Bench: A Multimodal Benchmark for Evaluating CAPTCHA Robustness\n  Against VLM-based Attacks",
+    "summary": "As automated attack techniques rapidly advance, CAPTCHAs remain a critical\ndefense mechanism against malicious bots. However, existing CAPTCHA schemes\nencompass a diverse range of modalities -- from static distorted text and\nobfuscated images to interactive clicks, sliding puzzles, and logic-based\nquestions -- yet the community still lacks a unified, large-scale, multimodal\nbenchmark to rigorously evaluate their security robustness. To address this\ngap, we introduce MCA-Bench, a comprehensive and reproducible benchmarking\nsuite that integrates heterogeneous CAPTCHA types into a single evaluation\nprotocol. Leveraging a shared vision-language model backbone, we fine-tune\nspecialized cracking agents for each CAPTCHA category, enabling consistent,\ncross-modal assessments. Extensive experiments reveal that MCA-Bench\neffectively maps the vulnerability spectrum of modern CAPTCHA designs under\nvaried attack settings, and crucially offers the first quantitative analysis of\nhow challenge complexity, interaction depth, and model solvability interrelate.\nBased on these findings, we propose three actionable design principles and\nidentify key open challenges, laying the groundwork for systematic CAPTCHA\nhardening, fair benchmarking, and broader community collaboration. Datasets and\ncode are available online.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.05982.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64311a95034ecbefddd141ef",
+      "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+      "fullname": "Yiren Song",
+      "name": "yiren98",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 22
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.08373",
+      "authors": [
+        {
+          "_id": "684ae1f3dbd21a9cc27b0f32",
+          "name": "Kevin Galim",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f3dbd21a9cc27b0f33",
+          "name": "Ethan Ewer",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f3dbd21a9cc27b0f34",
+          "name": "Wonjun Kang",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f3dbd21a9cc27b0f35",
+          "name": "Minjae Lee",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f3dbd21a9cc27b0f36",
+          "name": "Hyung Il Koo",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f3dbd21a9cc27b0f37",
+          "name": "Kangwook Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-10T02:37:46.000Z",
+      "submittedOnDailyAt": "2025-06-13T00:35:36.456Z",
+      "title": "Draft-based Approximate Inference for LLMs",
+      "submittedOnDailyBy": {
+        "_id": "630c90123dc31beba6e8f406",
+        "avatarUrl": "/avatars/2188b41fff122d4f5683b46c529ed79d.svg",
+        "isPro": false,
+        "fullname": "Kevin Galim",
+        "user": "kev95",
+        "type": "user"
+      },
+      "summary": "Optimizing inference for long-context Large Language Models (LLMs) is\nincreasingly important due to the quadratic compute and linear memory\ncomplexity of Transformers. Existing approximation methods, such as key-value\n(KV) cache dropping, sparse attention, and prompt compression, typically rely\non rough predictions of token or KV pair importance. We propose a novel\nframework for approximate LLM inference that leverages small draft models to\nmore accurately predict the importance of tokens and KV pairs. Specifically, we\nintroduce two instantiations of our proposed framework: (i) SpecKV, which\nleverages a draft output to accurately assess the importance of each KV pair\nfor more effective KV cache dropping, and (ii) SpecPC, which uses the draft\nmodel's attention activations to identify and discard unimportant prompt\ntokens. To the best of our knowledge, this is the first work to use draft\nmodels for approximate LLM inference acceleration, extending their utility\nbeyond traditional lossless speculative decoding. We motivate our methods with\ntheoretical and empirical analyses, and show a strong correlation between the\nattention patterns of draft and target models. Extensive experiments on\nlong-context benchmarks show that our methods consistently achieve higher\naccuracy than existing baselines, while preserving the same improvements in\nmemory usage, latency, and throughput. Our code is available at\nhttps://github.com/furiosa-ai/draft-based-approx-llm.",
+      "upvotes": 0,
+      "discussionId": "684ae1f3dbd21a9cc27b0f38",
+      "ai_summary": "A new framework using draft models enhances approximate inference for long-context LLMs by better predicting token and key-value pair importance, improving accuracy while maintaining memory and compute efficiency.",
+      "ai_keywords": [
+        "Large Language Models",
+        "Transformers",
+        "key-value cache dropping",
+        "sparse attention",
+        "prompt compression",
+        "draft models",
+        "SpecKV",
+        "SpecPC",
+        "attention activations",
+        "long-context benchmarks"
+      ]
+    },
+    "publishedAt": "2025-06-09T22:37:46.000Z",
+    "title": "Draft-based Approximate Inference for LLMs",
+    "summary": "Optimizing inference for long-context Large Language Models (LLMs) is\nincreasingly important due to the quadratic compute and linear memory\ncomplexity of Transformers. Existing approximation methods, such as key-value\n(KV) cache dropping, sparse attention, and prompt compression, typically rely\non rough predictions of token or KV pair importance. We propose a novel\nframework for approximate LLM inference that leverages small draft models to\nmore accurately predict the importance of tokens and KV pairs. Specifically, we\nintroduce two instantiations of our proposed framework: (i) SpecKV, which\nleverages a draft output to accurately assess the importance of each KV pair\nfor more effective KV cache dropping, and (ii) SpecPC, which uses the draft\nmodel's attention activations to identify and discard unimportant prompt\ntokens. To the best of our knowledge, this is the first work to use draft\nmodels for approximate LLM inference acceleration, extending their utility\nbeyond traditional lossless speculative decoding. We motivate our methods with\ntheoretical and empirical analyses, and show a strong correlation between the\nattention patterns of draft and target models. Extensive experiments on\nlong-context benchmarks show that our methods consistently achieve higher\naccuracy than existing baselines, while preserving the same improvements in\nmemory usage, latency, and throughput. Our code is available at\nhttps://github.com/furiosa-ai/draft-based-approx-llm.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.08373.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "630c90123dc31beba6e8f406",
+      "avatarUrl": "/avatars/2188b41fff122d4f5683b46c529ed79d.svg",
+      "fullname": "Kevin Galim",
+      "name": "kev95",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
