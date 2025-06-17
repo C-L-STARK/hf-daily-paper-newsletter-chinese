@@ -1,0 +1,1476 @@
+[
+  {
+    "paper": {
+      "id": "2506.13585",
+      "authors": [
+        {
+          "_id": "6850d0105e07650ecce89009",
+          "name": "MiniMax",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8900b",
+          "name": "Aili Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8900c",
+          "name": "Aonian Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8900d",
+          "name": "Bangwei Gong",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8900e",
+          "name": "Binyang Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8900f",
+          "name": "Bo Fei",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89010",
+          "name": "Bo Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89011",
+          "name": "Boji Shan",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89012",
+          "name": "Changqing Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89013",
+          "name": "Chao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89014",
+          "name": "Cheng Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89015",
+          "name": "Chengjun Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89016",
+          "name": "Chengyu Du",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89017",
+          "name": "Chi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89018",
+          "name": "Chu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89019",
+          "name": "Chunhao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8901a",
+          "name": "Chunhui Du",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8901b",
+          "name": "Congchao Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8901c",
+          "name": "Da Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8901d",
+          "name": "Deming Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8901e",
+          "name": "Dianjun Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8901f",
+          "name": "Dong Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89020",
+          "name": "Enwei Jiao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89021",
+          "name": "Haigang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89022",
+          "name": "Haimo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89023",
+          "name": "Han Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89024",
+          "name": "Haohai Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89025",
+          "name": "Haoyu Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89026",
+          "name": "Huaiguang Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89027",
+          "name": "Haichao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89028",
+          "name": "Jian Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89029",
+          "name": "Jiaqi Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8902a",
+          "name": "Jiaren Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8902b",
+          "name": "Jiayuan Song",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8902c",
+          "name": "Jin Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8902d",
+          "name": "Jingyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8902e",
+          "name": "Jinhao Tian",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8902f",
+          "name": "Jinli Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89030",
+          "name": "Junhao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89031",
+          "name": "Junjie Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89032",
+          "name": "Junteng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89033",
+          "name": "Junxian He",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89034",
+          "name": "Kaiyi Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89035",
+          "name": "Ke Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89036",
+          "name": "Kecheng Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89037",
+          "name": "Le Han",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89038",
+          "name": "Leyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89039",
+          "name": "Lianfei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8903a",
+          "name": "Liheng Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8903b",
+          "name": "Lin Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8903c",
+          "name": "Lin Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8903d",
+          "name": "Linge Du",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8903e",
+          "name": "Lingyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8903f",
+          "name": "Lunbin Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89040",
+          "name": "Minghui Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89041",
+          "name": "Mingliang Tao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89042",
+          "name": "Mingyuan Chi",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89043",
+          "name": "Mozhi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89044",
+          "name": "Mujie Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89045",
+          "name": "Nan Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89046",
+          "name": "Nongyu Di",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89047",
+          "name": "Peng Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89048",
+          "name": "Pengfei Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89049",
+          "name": "Pengyu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8904a",
+          "name": "Qibing Ren",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8904b",
+          "name": "Qidi Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8904c",
+          "name": "Qile Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8904d",
+          "name": "Qin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8904e",
+          "name": "Rong Tian",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8904f",
+          "name": "Ruitao Leng",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89050",
+          "name": "Shaoxiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89051",
+          "name": "Shaoyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89052",
+          "name": "Shengmin Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89053",
+          "name": "Shitong Weng",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89054",
+          "name": "Shuchang Guan",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89055",
+          "name": "Shuqi Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89056",
+          "name": "Sichen Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89057",
+          "name": "Songquan Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89058",
+          "name": "Tengfei Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89059",
+          "name": "Tianchi Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8905a",
+          "name": "Tianrun Liang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8905b",
+          "name": "Weiyu Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8905c",
+          "name": "Weize Kong",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8905d",
+          "name": "Wenkai Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8905e",
+          "name": "Xiancai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8905f",
+          "name": "Xiangjun Song",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89060",
+          "name": "Xiao Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89061",
+          "name": "Xiao Su",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89062",
+          "name": "Xiaobo Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89063",
+          "name": "Xiaodong Han",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89064",
+          "name": "Xinzhu Hou",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89065",
+          "name": "Xuan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89066",
+          "name": "Xun Zou",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89067",
+          "name": "Xuyang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89068",
+          "name": "Yan Gong",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89069",
+          "name": "Yan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8906a",
+          "name": "Yang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8906b",
+          "name": "Yiqi Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8906c",
+          "name": "Yiran Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8906d",
+          "name": "Yonghong Duan",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8906e",
+          "name": "Yongxiang Fu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8906f",
+          "name": "Yongyi Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89070",
+          "name": "Yu Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89071",
+          "name": "Yuanxiang Fan",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89072",
+          "name": "Yufeng Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89073",
+          "name": "Yuhao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89074",
+          "name": "Yulin Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89075",
+          "name": "Yunan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89076",
+          "name": "Yunji Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89077",
+          "name": "Yunzhi Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89078",
+          "name": "Yuxin Mao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89079",
+          "name": "Yuxuan Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8907a",
+          "name": "Yuze Wenren",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8907b",
+          "name": "Zehan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8907c",
+          "name": "Zelin Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8907d",
+          "name": "Zhanxu Tian",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8907e",
+          "name": "Zhengmao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce8907f",
+          "name": "Zhenhua Fan",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89080",
+          "name": "Zhenzhen Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89081",
+          "name": "Zhichao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89082",
+          "name": "Zhihang Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89083",
+          "name": "Zhiheng Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89084",
+          "name": "Zhuo Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89085",
+          "name": "Zibo Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89086",
+          "name": "Zijia Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89087",
+          "name": "Zijian Song",
+          "hidden": false
+        },
+        {
+          "_id": "6850d0105e07650ecce89088",
+          "name": "Zijun Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-16T15:08:02.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:48:14.831Z",
+      "title": "MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning\n  Attention",
+      "submittedOnDailyBy": {
+        "_id": "676e38ad04af5bec20bc9faf",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/AG8Q9wAUzGtPWyjd5QO2l.jpeg",
+        "isPro": false,
+        "fullname": "MiniMax",
+        "user": "MiniMax-AI",
+        "type": "user"
+      },
+      "summary": "We introduce MiniMax-M1, the world's first open-weight, large-scale\nhybrid-attention reasoning model. MiniMax-M1 is powered by a hybrid\nMixture-of-Experts (MoE) architecture combined with a lightning attention\nmechanism. The model is developed based on our previous MiniMax-Text-01 model,\nwhich contains a total of 456 billion parameters with 45.9 billion parameters\nactivated per token. The M1 model natively supports a context length of 1\nmillion tokens, 8x the context size of DeepSeek R1. Furthermore, the lightning\nattention mechanism in MiniMax-M1 enables efficient scaling of test-time\ncompute. These properties make M1 particularly suitable for complex tasks that\nrequire processing long inputs and thinking extensively. MiniMax-M1 is trained\nusing large-scale reinforcement learning (RL) on diverse problems including\nsandbox-based, real-world software engineering environments. In addition to\nM1's inherent efficiency advantage for RL training, we propose CISPO, a novel\nRL algorithm to further enhance RL efficiency. CISPO clips importance sampling\nweights rather than token updates, outperforming other competitive RL variants.\nCombining hybrid-attention and CISPO enables MiniMax-M1's full RL training on\n512 H800 GPUs to complete in only three weeks, with a rental cost of just\n$534,700. We release two versions of MiniMax-M1 models with 40K and 80K\nthinking budgets respectively, where the 40K model represents an intermediate\nphase of the 80K training. Experiments on standard benchmarks show that our\nmodels are comparable or superior to strong open-weight models such as the\noriginal DeepSeek-R1 and Qwen3-235B, with particular strengths in complex\nsoftware engineering, tool utilization, and long-context tasks. We publicly\nrelease MiniMax-M1 at https://github.com/MiniMax-AI/MiniMax-M1.",
+      "upvotes": 57,
+      "discussionId": "6850d0105e07650ecce89089",
+      "projectPage": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k",
+      "githubRepo": "https://github.com/MiniMax-AI/MiniMax-M1",
+      "ai_summary": "A hybrid-attention reasoning model called MiniMax-M1, featuring a Mixture-of-Experts architecture and lightning attention mechanism, is introduced for efficient long-input processing and reinforcement learning.",
+      "ai_keywords": [
+        "Mixture-of-Experts (MoE)",
+        "lightning attention mechanism",
+        "reinforcement learning (RL)",
+        "CISPO",
+        "importance sampling weights",
+        "token updates"
+      ]
+    },
+    "publishedAt": "2025-06-16T11:08:02.000Z",
+    "title": "MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning\n  Attention",
+    "summary": "We introduce MiniMax-M1, the world's first open-weight, large-scale\nhybrid-attention reasoning model. MiniMax-M1 is powered by a hybrid\nMixture-of-Experts (MoE) architecture combined with a lightning attention\nmechanism. The model is developed based on our previous MiniMax-Text-01 model,\nwhich contains a total of 456 billion parameters with 45.9 billion parameters\nactivated per token. The M1 model natively supports a context length of 1\nmillion tokens, 8x the context size of DeepSeek R1. Furthermore, the lightning\nattention mechanism in MiniMax-M1 enables efficient scaling of test-time\ncompute. These properties make M1 particularly suitable for complex tasks that\nrequire processing long inputs and thinking extensively. MiniMax-M1 is trained\nusing large-scale reinforcement learning (RL) on diverse problems including\nsandbox-based, real-world software engineering environments. In addition to\nM1's inherent efficiency advantage for RL training, we propose CISPO, a novel\nRL algorithm to further enhance RL efficiency. CISPO clips importance sampling\nweights rather than token updates, outperforming other competitive RL variants.\nCombining hybrid-attention and CISPO enables MiniMax-M1's full RL training on\n512 H800 GPUs to complete in only three weeks, with a rental cost of just\n$534,700. We release two versions of MiniMax-M1 models with 40K and 80K\nthinking budgets respectively, where the 40K model represents an intermediate\nphase of the 80K training. Experiments on standard benchmarks show that our\nmodels are comparable or superior to strong open-weight models such as the\noriginal DeepSeek-R1 and Qwen3-235B, with particular strengths in complex\nsoftware engineering, tool utilization, and long-context tasks. We publicly\nrelease MiniMax-M1 at https://github.com/MiniMax-AI/MiniMax-M1.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.13585.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "676e38ad04af5bec20bc9faf",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/AG8Q9wAUzGtPWyjd5QO2l.jpeg",
+      "fullname": "MiniMax",
+      "name": "MiniMax-AI",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 157
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.11763",
+      "authors": [
+        {
+          "_id": "684ff5051d9b438aa3957a7f",
+          "user": {
+            "_id": "646dbba74ad7f907279dd486",
+            "avatarUrl": "/avatars/fe2b95e9a55711164e9624e1d15e0af2.svg",
+            "isPro": false,
+            "fullname": "Mingxuan Du",
+            "user": "Ayanami0730",
+            "type": "user"
+          },
+          "name": "Mingxuan Du",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-16T12:56:12.158Z",
+          "hidden": false
+        },
+        {
+          "_id": "684ff5051d9b438aa3957a80",
+          "name": "Benfeng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "684ff5051d9b438aa3957a81",
+          "user": {
+            "_id": "663b22a80966eef8686aadaf",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/663b22a80966eef8686aadaf/iBzyQTyGZKf33RPVIFh9a.jpeg",
+            "isPro": false,
+            "fullname": "Chiwei Zhu",
+            "user": "IgnoraZ",
+            "type": "user"
+          },
+          "name": "Chiwei Zhu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-16T12:56:09.702Z",
+          "hidden": false
+        },
+        {
+          "_id": "684ff5051d9b438aa3957a82",
+          "name": "Xiaorui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684ff5051d9b438aa3957a83",
+          "name": "Zhendong Mao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-13T13:17:32.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:31:26.473Z",
+      "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+      "submittedOnDailyBy": {
+        "_id": "646dbba74ad7f907279dd486",
+        "avatarUrl": "/avatars/fe2b95e9a55711164e9624e1d15e0af2.svg",
+        "isPro": false,
+        "fullname": "Mingxuan Du",
+        "user": "Ayanami0730",
+        "type": "user"
+      },
+      "summary": "Deep Research Agents are a prominent category of LLM-based agents. By\nautonomously orchestrating multistep web exploration, targeted retrieval, and\nhigher-order synthesis, they transform vast amounts of online information into\nanalyst-grade, citation-rich reports--compressing hours of manual desk research\ninto minutes. However, a comprehensive benchmark for systematically evaluating\nthe capabilities of these agents remains absent. To bridge this gap, we present\nDeepResearch Bench, a benchmark consisting of 100 PhD-level research tasks,\neach meticulously crafted by domain experts across 22 distinct fields.\nEvaluating DRAs is inherently complex and labor-intensive. We therefore propose\ntwo novel methodologies that achieve strong alignment with human judgment. The\nfirst is a reference-based method with adaptive criteria to assess the quality\nof generated research reports. The other framework is introduced to evaluate\nDRA's information retrieval and collection capabilities by assessing its\neffective citation count and overall citation accuracy. We have open-sourced\nDeepResearch Bench and key components of these frameworks at\nhttps://github.com/Ayanami0730/deep_research_bench to accelerate the\ndevelopment of practical LLM-based agents.",
+      "upvotes": 6,
+      "discussionId": "684ff5051d9b438aa3957a84",
+      "projectPage": "https://deepresearch-bench.github.io",
+      "githubRepo": "https://github.com/Ayanami0730/deep_research_bench",
+      "ai_summary": "DeepResearch Bench offers a benchmark framework to evaluate the capabilities of Deep Research Agents in terms of research quality and information retrieval accuracy across multiple fields.",
+      "ai_keywords": [
+        "Deep Research Agents",
+        "LLM-based agents",
+        "multistep web exploration",
+        "targeted retrieval",
+        "higher-order synthesis",
+        "PhD-level research tasks",
+        "reference-based method",
+        "effective citation count",
+        "citation accuracy"
+      ]
+    },
+    "publishedAt": "2025-06-13T09:17:32.000Z",
+    "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+    "summary": "Deep Research Agents are a prominent category of LLM-based agents. By\nautonomously orchestrating multistep web exploration, targeted retrieval, and\nhigher-order synthesis, they transform vast amounts of online information into\nanalyst-grade, citation-rich reports--compressing hours of manual desk research\ninto minutes. However, a comprehensive benchmark for systematically evaluating\nthe capabilities of these agents remains absent. To bridge this gap, we present\nDeepResearch Bench, a benchmark consisting of 100 PhD-level research tasks,\neach meticulously crafted by domain experts across 22 distinct fields.\nEvaluating DRAs is inherently complex and labor-intensive. We therefore propose\ntwo novel methodologies that achieve strong alignment with human judgment. The\nfirst is a reference-based method with adaptive criteria to assess the quality\nof generated research reports. The other framework is introduced to evaluate\nDRA's information retrieval and collection capabilities by assessing its\neffective citation count and overall citation accuracy. We have open-sourced\nDeepResearch Bench and key components of these frameworks at\nhttps://github.com/Ayanami0730/deep_research_bench to accelerate the\ndevelopment of practical LLM-based agents.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.11763.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "646dbba74ad7f907279dd486",
+      "avatarUrl": "/avatars/fe2b95e9a55711164e9624e1d15e0af2.svg",
+      "fullname": "Mingxuan Du",
+      "name": "Ayanami0730",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.13759",
+      "authors": [
+        {
+          "_id": "6850ccab5e07650ecce88fd7",
+          "name": "Runpeng Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6850ccab5e07650ecce88fd8",
+          "name": "Qi Li",
+          "hidden": false
+        },
+        {
+          "_id": "6850ccab5e07650ecce88fd9",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-16T17:59:08.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:51:24.409Z",
+      "title": "Discrete Diffusion in Large Language and Multimodal Models: A Survey",
+      "submittedOnDailyBy": {
+        "_id": "635364b3c41f548fe39db945",
+        "avatarUrl": "/avatars/ad1916bbfabca0b6651c8eabacc5eba8.svg",
+        "isPro": false,
+        "fullname": "Runpeng Yu",
+        "user": "rp-yu",
+        "type": "user"
+      },
+      "summary": "In this work, we provide a systematic survey of Discrete Diffusion Language\nModels (dLLMs) and Discrete Diffusion Multimodal Language Models (dMLLMs).\nUnlike autoregressive (AR) models, dLLMs and dMLLMs adopt a multi-token,\nparallel decoding paradigm using full attention and a denoising-based\ngeneration strategy. This paradigm naturally enables parallel generation,\nfine-grained output controllability, and dynamic, response-aware perception.\nThese capabilities are previously difficult to achieve with AR models.\nRecently, a growing number of industrial-scale proprietary d(M)LLMs, as well as\na large number of open-source academic d(M)LLMs, have demonstrated performance\ncomparable to their autoregressive counterparts, while achieving up to 10x\nacceleration in inference speed.\n  The advancement of discrete diffusion LLMs and MLLMs has been largely driven\nby progress in two domains. The first is the development of autoregressive LLMs\nand MLLMs, which has accumulated vast amounts of data, benchmarks, and\nfoundational infrastructure for training and inference. The second contributing\ndomain is the evolution of the mathematical models underlying discrete\ndiffusion. Together, these advancements have catalyzed a surge in dLLMs and\ndMLLMs research in early 2025.\n  In this work, we present a comprehensive overview of the research in the dLLM\nand dMLLM domains. We trace the historical development of dLLMs and dMLLMs,\nformalize the underlying mathematical frameworks, and categorize representative\nmodels. We further analyze key techniques for training and inference, and\nsummarize emerging applications across language, vision-language, and\nbiological domains. We conclude by discussing future directions for research\nand deployment.\n  Paper collection: https://github.com/LiQiiiii/DLLM-Survey",
+      "upvotes": 4,
+      "discussionId": "6850ccab5e07650ecce88fda",
+      "githubRepo": "https://github.com/LiQiiiii/DLLM-Survey",
+      "ai_summary": "Discrete Diffusion Language Models (dLLMs) and Discrete Diffusion Multimodal Language Models (dMLLMs) enable parallel generation and faster inference compared to autoregressive models through denoising-based strategies and full attention mechanisms.",
+      "ai_keywords": [
+        "Discrete Diffusion Language Models",
+        "Discrete Diffusion Multimodal Language Models",
+        "autoregressive models",
+        "multi-token",
+        "parallel decoding",
+        "full attention",
+        "denoising-based generation",
+        "response-aware perception",
+        "inference speed",
+        "autoregressive LLMs",
+        "autoregressive MLLMs",
+        "mathematical models",
+        "historical development",
+        "training",
+        "inference",
+        "language applications",
+        "vision-language applications",
+        "biological applications",
+        "future research directions",
+        "deployment"
+      ]
+    },
+    "publishedAt": "2025-06-16T13:59:08.000Z",
+    "title": "Discrete Diffusion in Large Language and Multimodal Models: A Survey",
+    "summary": "In this work, we provide a systematic survey of Discrete Diffusion Language\nModels (dLLMs) and Discrete Diffusion Multimodal Language Models (dMLLMs).\nUnlike autoregressive (AR) models, dLLMs and dMLLMs adopt a multi-token,\nparallel decoding paradigm using full attention and a denoising-based\ngeneration strategy. This paradigm naturally enables parallel generation,\nfine-grained output controllability, and dynamic, response-aware perception.\nThese capabilities are previously difficult to achieve with AR models.\nRecently, a growing number of industrial-scale proprietary d(M)LLMs, as well as\na large number of open-source academic d(M)LLMs, have demonstrated performance\ncomparable to their autoregressive counterparts, while achieving up to 10x\nacceleration in inference speed.\n  The advancement of discrete diffusion LLMs and MLLMs has been largely driven\nby progress in two domains. The first is the development of autoregressive LLMs\nand MLLMs, which has accumulated vast amounts of data, benchmarks, and\nfoundational infrastructure for training and inference. The second contributing\ndomain is the evolution of the mathematical models underlying discrete\ndiffusion. Together, these advancements have catalyzed a surge in dLLMs and\ndMLLMs research in early 2025.\n  In this work, we present a comprehensive overview of the research in the dLLM\nand dMLLM domains. We trace the historical development of dLLMs and dMLLMs,\nformalize the underlying mathematical frameworks, and categorize representative\nmodels. We further analyze key techniques for training and inference, and\nsummarize emerging applications across language, vision-language, and\nbiological domains. We conclude by discussing future directions for research\nand deployment.\n  Paper collection: https://github.com/LiQiiiii/DLLM-Survey",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.13759.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "635364b3c41f548fe39db945",
+      "avatarUrl": "/avatars/ad1916bbfabca0b6651c8eabacc5eba8.svg",
+      "fullname": "Runpeng Yu",
+      "name": "rp-yu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.08343",
+      "authors": [
+        {
+          "_id": "684ae1f5dbd21a9cc27b0f3a",
+          "name": "Chenlong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f5dbd21a9cc27b0f3b",
+          "name": "Yuanning Feng",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f5dbd21a9cc27b0f3c",
+          "name": "Dongping Chen",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f5dbd21a9cc27b0f3d",
+          "name": "Zhaoyang Chu",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f5dbd21a9cc27b0f3e",
+          "name": "Ranjay Krishna",
+          "hidden": false
+        },
+        {
+          "_id": "684ae1f5dbd21a9cc27b0f3f",
+          "name": "Tianyi Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-10T01:54:04.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:33:58.377Z",
+      "title": "Wait, We Don't Need to \"Wait\"! Removing Thinking Tokens Improves\n  Reasoning Efficiency",
+      "submittedOnDailyBy": {
+        "_id": "643be8879f5d314db2d9ed23",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643be8879f5d314db2d9ed23/VrW2UtJ7ppOnGIYjTWd7b.png",
+        "isPro": false,
+        "fullname": "Chen Dongping",
+        "user": "shuaishuaicdp",
+        "type": "user"
+      },
+      "summary": "Recent advances in large reasoning models have enabled complex, step-by-step\nreasoning but often introduce significant overthinking, resulting in verbose\nand redundant outputs that hinder efficiency. In this study, we examine whether\nexplicit self-reflection, signaled by tokens such as \"Wait\" and \"Hmm\", is\nnecessary for advanced reasoning. We propose NoWait, a simple yet effective\napproach that disables explicit self-reflection by suppressing these tokens\nduring inference. Extensive experiments on ten benchmarks across textual,\nvisual, and video reasoning tasks show that NoWait reduces chain-of-thought\ntrajectory length by up to 27%-51% in five R1-style model series, without\ncompromising model utility. NoWait thus offers a plug-and-play solution for\nefficient and utility-preserving multimodal reasoning.",
+      "upvotes": 4,
+      "discussionId": "684ae1f5dbd21a9cc27b0f40",
+      "ai_summary": "NoWait suppresses explicit self-reflection tokens during inference to enhance efficiency in multimodal reasoning without reducing model utility.",
+      "ai_keywords": [
+        "reasoning models",
+        "self-reflection",
+        "tokens",
+        "NoWait",
+        "chain-of-thought trajectory length",
+        "R1-style model series",
+        "multimodal reasoning"
+      ]
+    },
+    "publishedAt": "2025-06-09T21:54:04.000Z",
+    "title": "Wait, We Don't Need to \"Wait\"! Removing Thinking Tokens Improves\n  Reasoning Efficiency",
+    "summary": "Recent advances in large reasoning models have enabled complex, step-by-step\nreasoning but often introduce significant overthinking, resulting in verbose\nand redundant outputs that hinder efficiency. In this study, we examine whether\nexplicit self-reflection, signaled by tokens such as \"Wait\" and \"Hmm\", is\nnecessary for advanced reasoning. We propose NoWait, a simple yet effective\napproach that disables explicit self-reflection by suppressing these tokens\nduring inference. Extensive experiments on ten benchmarks across textual,\nvisual, and video reasoning tasks show that NoWait reduces chain-of-thought\ntrajectory length by up to 27%-51% in five R1-style model series, without\ncompromising model utility. NoWait thus offers a plug-and-play solution for\nefficient and utility-preserving multimodal reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.08343.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643be8879f5d314db2d9ed23",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643be8879f5d314db2d9ed23/VrW2UtJ7ppOnGIYjTWd7b.png",
+      "fullname": "Chen Dongping",
+      "name": "shuaishuaicdp",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.03968",
+      "authors": [
+        {
+          "_id": "684169b041d567923aa6c5be",
+          "user": {
+            "_id": "663b22a80966eef8686aadaf",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/663b22a80966eef8686aadaf/iBzyQTyGZKf33RPVIFh9a.jpeg",
+            "isPro": false,
+            "fullname": "Chiwei Zhu",
+            "user": "IgnoraZ",
+            "type": "user"
+          },
+          "name": "Chiwei Zhu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-05T09:59:41.997Z",
+          "hidden": false
+        },
+        {
+          "_id": "684169b041d567923aa6c5bf",
+          "name": "Benfeng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "684169b041d567923aa6c5c0",
+          "name": "Xiaorui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684169b041d567923aa6c5c1",
+          "name": "Zhendong Mao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-04T14:00:47.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:33:16.832Z",
+      "title": "From Real to Synthetic: Synthesizing Millions of Diversified and\n  Complicated User Instructions with Attributed Grounding",
+      "submittedOnDailyBy": {
+        "_id": "663b22a80966eef8686aadaf",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/663b22a80966eef8686aadaf/iBzyQTyGZKf33RPVIFh9a.jpeg",
+        "isPro": false,
+        "fullname": "Chiwei Zhu",
+        "user": "IgnoraZ",
+        "type": "user"
+      },
+      "summary": "The pursuit of diverse, complex, and large-scale instruction data is crucial\nfor automatically aligning large language models (LLMs). While there are\nmethods capable of generating synthetic instructions at scale, they either\nsuffer from limited grounding sources, leading to a narrow distribution, or\nrely on trivial extensions that fail to produce meaningful trajectories in\nterms of complexity. In contrast, instructions that benefit efficient alignment\nare typically crafted with cognitive insights and grounded in real-world use\ncases. In this paper, we synthesize such instructions using attributed\ngrounding, which involves 1) a top-down attribution process that grounds a\nselective set of real instructions to situated users, and 2) a bottom-up\nsynthesis process that leverages web documents to first generate a situation,\nthen a meaningful instruction. This framework allows us to harvest diverse and\ncomplex instructions at scale, utilizing the vast range of web documents.\nSpecifically, we construct a dataset of 1 million instructions, called\nSynthQuestions, and demonstrate that models trained on it achieve leading\nperformance on several common benchmarks, with improvements that continually\nscale with more web corpora. Data, models and codes will be available at\nhttps://github.com/Ignoramus0817/SynthQuestions.",
+      "upvotes": 4,
+      "discussionId": "684169b141d567923aa6c603",
+      "githubRepo": "https://github.com/Ignoramus0817/SynthQuestions",
+      "ai_summary": "The paper presents a method for generating diverse and complex instruction data for large language models using attributed grounding, achieving top performance on benchmarks with a large synthesized dataset.",
+      "ai_keywords": [
+        "acknowledged grounding",
+        "top-down attribution process",
+        "bottom-up synthesis process",
+        "web documents",
+        "large language models",
+        "SynthQuestions"
+      ]
+    },
+    "publishedAt": "2025-06-04T10:00:47.000Z",
+    "title": "From Real to Synthetic: Synthesizing Millions of Diversified and\n  Complicated User Instructions with Attributed Grounding",
+    "summary": "The pursuit of diverse, complex, and large-scale instruction data is crucial\nfor automatically aligning large language models (LLMs). While there are\nmethods capable of generating synthetic instructions at scale, they either\nsuffer from limited grounding sources, leading to a narrow distribution, or\nrely on trivial extensions that fail to produce meaningful trajectories in\nterms of complexity. In contrast, instructions that benefit efficient alignment\nare typically crafted with cognitive insights and grounded in real-world use\ncases. In this paper, we synthesize such instructions using attributed\ngrounding, which involves 1) a top-down attribution process that grounds a\nselective set of real instructions to situated users, and 2) a bottom-up\nsynthesis process that leverages web documents to first generate a situation,\nthen a meaningful instruction. This framework allows us to harvest diverse and\ncomplex instructions at scale, utilizing the vast range of web documents.\nSpecifically, we construct a dataset of 1 million instructions, called\nSynthQuestions, and demonstrate that models trained on it achieve leading\nperformance on several common benchmarks, with improvements that continually\nscale with more web corpora. Data, models and codes will be available at\nhttps://github.com/Ignoramus0817/SynthQuestions.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.03968.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "663b22a80966eef8686aadaf",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/663b22a80966eef8686aadaf/iBzyQTyGZKf33RPVIFh9a.jpeg",
+      "fullname": "Chiwei Zhu",
+      "name": "IgnoraZ",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.07961",
+      "authors": [
+        {
+          "_id": "684eae5e60b4a34dbe0079ea",
+          "user": {
+            "_id": "6337e04b171879571956212f",
+            "avatarUrl": "/avatars/aa69142bf92e4c50b192463490251ed9.svg",
+            "isPro": false,
+            "fullname": "Li Peiyan",
+            "user": "LPY",
+            "type": "user"
+          },
+          "name": "Peiyan Li",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-16T07:16:27.694Z",
+          "hidden": false
+        },
+        {
+          "_id": "684eae5e60b4a34dbe0079eb",
+          "name": "Yixiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "684eae5e60b4a34dbe0079ec",
+          "name": "Hongtao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "684eae5e60b4a34dbe0079ed",
+          "name": "Xiao Ma",
+          "hidden": false
+        },
+        {
+          "_id": "684eae5e60b4a34dbe0079ee",
+          "name": "Xiangnan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "684eae5e60b4a34dbe0079ef",
+          "name": "Yan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "684eae5e60b4a34dbe0079f0",
+          "name": "Liang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "684eae5e60b4a34dbe0079f1",
+          "name": "Tao Kong",
+          "hidden": false
+        },
+        {
+          "_id": "684eae5e60b4a34dbe0079f2",
+          "name": "Tieniu Tan",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6337e04b171879571956212f/-CQCtJRF01UYHt7QmTwPl.mp4"
+      ],
+      "publishedAt": "2025-06-09T17:36:34.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:45:03.925Z",
+      "title": "BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning\n  with Vision-Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6337e04b171879571956212f",
+        "avatarUrl": "/avatars/aa69142bf92e4c50b192463490251ed9.svg",
+        "isPro": false,
+        "fullname": "Li Peiyan",
+        "user": "LPY",
+        "type": "user"
+      },
+      "summary": "Recently, leveraging pre-trained vision-language models (VLMs) for building\nvision-language-action (VLA) models has emerged as a promising approach to\neffective robot manipulation learning. However, only few methods incorporate 3D\nsignals into VLMs for action prediction, and they do not fully leverage the\nspatial structure inherent in 3D data, leading to low sample efficiency. In\nthis paper, we introduce BridgeVLA, a novel 3D VLA model that (1) projects 3D\ninputs to multiple 2D images, ensuring input alignment with the VLM backbone,\nand (2) utilizes 2D heatmaps for action prediction, unifying the input and\noutput spaces within a consistent 2D image space. In addition, we propose a\nscalable pre-training method that equips the VLM backbone with the capability\nto predict 2D heatmaps before downstream policy learning. Extensive experiments\nshow the proposed method is able to learn 3D manipulation efficiently and\neffectively. BridgeVLA outperforms state-of-the-art baseline methods across\nthree simulation benchmarks. In RLBench, it improves the average success rate\nfrom 81.4% to 88.2%. In COLOSSEUM, it demonstrates significantly better\nperformance in challenging generalization settings, boosting the average\nsuccess rate from 56.7% to 64.0%. In GemBench, it surpasses all the comparing\nbaseline methods in terms of average success rate. In real-robot experiments,\nBridgeVLA outperforms a state-of-the-art baseline method by 32% on average. It\ngeneralizes robustly in multiple out-of-distribution settings, including visual\ndisturbances and unseen instructions. Remarkably, it is able to achieve a\nsuccess rate of 96.8% on 10+ tasks with only 3 trajectories per task,\nhighlighting its extraordinary sample efficiency. Project\nWebsite:https://bridgevla.github.io/",
+      "upvotes": 3,
+      "discussionId": "684eae5e60b4a34dbe0079f3",
+      "projectPage": "https://bridgevla.github.io/",
+      "githubRepo": "https://github.com/BridgeVLA/BridgeVLA",
+      "ai_summary": "BridgeVLA is a 3D vision-language-action model that projects 3D inputs to 2D images and uses 2D heatmaps for efficient and effective action prediction, outperforming baselines in various benchmarks.",
+      "ai_keywords": [
+        "pre-trained vision-language models",
+        "3D VLA model",
+        "3D signals",
+        "2D images",
+        "VLM backbone",
+        "2D heatmaps",
+        "scalable pre-training method"
+      ]
+    },
+    "publishedAt": "2025-06-09T13:36:34.000Z",
+    "title": "BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning\n  with Vision-Language Models",
+    "summary": "Recently, leveraging pre-trained vision-language models (VLMs) for building\nvision-language-action (VLA) models has emerged as a promising approach to\neffective robot manipulation learning. However, only few methods incorporate 3D\nsignals into VLMs for action prediction, and they do not fully leverage the\nspatial structure inherent in 3D data, leading to low sample efficiency. In\nthis paper, we introduce BridgeVLA, a novel 3D VLA model that (1) projects 3D\ninputs to multiple 2D images, ensuring input alignment with the VLM backbone,\nand (2) utilizes 2D heatmaps for action prediction, unifying the input and\noutput spaces within a consistent 2D image space. In addition, we propose a\nscalable pre-training method that equips the VLM backbone with the capability\nto predict 2D heatmaps before downstream policy learning. Extensive experiments\nshow the proposed method is able to learn 3D manipulation efficiently and\neffectively. BridgeVLA outperforms state-of-the-art baseline methods across\nthree simulation benchmarks. In RLBench, it improves the average success rate\nfrom 81.4% to 88.2%. In COLOSSEUM, it demonstrates significantly better\nperformance in challenging generalization settings, boosting the average\nsuccess rate from 56.7% to 64.0%. In GemBench, it surpasses all the comparing\nbaseline methods in terms of average success rate. In real-robot experiments,\nBridgeVLA outperforms a state-of-the-art baseline method by 32% on average. It\ngeneralizes robustly in multiple out-of-distribution settings, including visual\ndisturbances and unseen instructions. Remarkably, it is able to achieve a\nsuccess rate of 96.8% on 10+ tasks with only 3 trajectories per task,\nhighlighting its extraordinary sample efficiency. Project\nWebsite:https://bridgevla.github.io/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6337e04b171879571956212f/-CQCtJRF01UYHt7QmTwPl.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.07961.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6337e04b171879571956212f",
+      "avatarUrl": "/avatars/aa69142bf92e4c50b192463490251ed9.svg",
+      "fullname": "Li Peiyan",
+      "name": "LPY",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.13750",
+      "authors": [
+        {
+          "_id": "6850d08d5e07650ecce8908b",
+          "name": "Yuheng Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6850d08d5e07650ecce8908c",
+          "name": "Qiuhong Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6850d08d5e07650ecce8908d",
+          "name": "Shizun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d08d5e07650ecce8908e",
+          "name": "Xingyi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d08d5e07650ecce8908f",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/67ac56c90f861b63617d153d/RxoJjrMeG2lKENvLl_bR0.mp4"
+      ],
+      "publishedAt": "2025-06-16T17:56:22.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:54:48.920Z",
+      "title": "Test3R: Learning to Reconstruct 3D at Test Time",
+      "submittedOnDailyBy": {
+        "_id": "67ac56c90f861b63617d153d",
+        "avatarUrl": "/avatars/96f5e60031fe4fe677159dccfecaa65c.svg",
+        "isPro": false,
+        "fullname": "Yuan Yuheng",
+        "user": "nopyyh",
+        "type": "user"
+      },
+      "summary": "Dense matching methods like DUSt3R regress pairwise pointmaps for 3D\nreconstruction. However, the reliance on pairwise prediction and the limited\ngeneralization capability inherently restrict the global geometric consistency.\nIn this work, we introduce Test3R, a surprisingly simple test-time learning\ntechnique that significantly boosts geometric accuracy. Using image triplets\n(I_1,I_2,I_3), Test3R generates reconstructions from pairs (I_1,I_2) and\n(I_1,I_3). The core idea is to optimize the network at test time via a\nself-supervised objective: maximizing the geometric consistency between these\ntwo reconstructions relative to the common image I_1. This ensures the model\nproduces cross-pair consistent outputs, regardless of the inputs. Extensive\nexperiments demonstrate that our technique significantly outperforms previous\nstate-of-the-art methods on the 3D reconstruction and multi-view depth\nestimation tasks. Moreover, it is universally applicable and nearly cost-free,\nmaking it easily applied to other models and implemented with minimal test-time\ntraining overhead and parameter footprint. Code is available at\nhttps://github.com/nopQAQ/Test3R.",
+      "upvotes": 2,
+      "discussionId": "6850d08e5e07650ecce89090",
+      "ai_summary": "Test3R, a test-time learning technique for 3D reconstruction, enhances geometric accuracy by optimizing network consistency using self-supervised learning on image triplets.",
+      "ai_keywords": [
+        "DUSt3R",
+        "dense matching",
+        "3D reconstruction",
+        "geometric accuracy",
+        "test-time learning",
+        "image triplets",
+        "self-supervised objective",
+        "cross-pair consistency"
+      ]
+    },
+    "publishedAt": "2025-06-16T13:56:22.000Z",
+    "title": "Test3R: Learning to Reconstruct 3D at Test Time",
+    "summary": "Dense matching methods like DUSt3R regress pairwise pointmaps for 3D\nreconstruction. However, the reliance on pairwise prediction and the limited\ngeneralization capability inherently restrict the global geometric consistency.\nIn this work, we introduce Test3R, a surprisingly simple test-time learning\ntechnique that significantly boosts geometric accuracy. Using image triplets\n(I_1,I_2,I_3), Test3R generates reconstructions from pairs (I_1,I_2) and\n(I_1,I_3). The core idea is to optimize the network at test time via a\nself-supervised objective: maximizing the geometric consistency between these\ntwo reconstructions relative to the common image I_1. This ensures the model\nproduces cross-pair consistent outputs, regardless of the inputs. Extensive\nexperiments demonstrate that our technique significantly outperforms previous\nstate-of-the-art methods on the 3D reconstruction and multi-view depth\nestimation tasks. Moreover, it is universally applicable and nearly cost-free,\nmaking it easily applied to other models and implemented with minimal test-time\ntraining overhead and parameter footprint. Code is available at\nhttps://github.com/nopQAQ/Test3R.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/67ac56c90f861b63617d153d/RxoJjrMeG2lKENvLl_bR0.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.13750.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67ac56c90f861b63617d153d",
+      "avatarUrl": "/avatars/96f5e60031fe4fe677159dccfecaa65c.svg",
+      "fullname": "Yuan Yuheng",
+      "name": "nopyyh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.12953",
+      "authors": [
+        {
+          "_id": "6850d2345e07650ecce89092",
+          "name": "Mayank Bumb",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce89093",
+          "name": "Anshul Vemulapalli",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce89094",
+          "name": "Sri Harsha Vardhan Prasad Jella",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce89095",
+          "name": "Anish Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce89096",
+          "name": "An La",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce89097",
+          "name": "Ryan A. Rossi",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce89098",
+          "name": "Hongjie Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce89099",
+          "name": "Franck Dernoncourt",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce8909a",
+          "name": "Nesreen K. Ahmed",
+          "hidden": false
+        },
+        {
+          "_id": "6850d2345e07650ecce8909b",
+          "name": "Yu Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-15T19:42:58.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:55:59.045Z",
+      "title": "Forecasting Time Series with LLMs via Patch-Based Prompting and\n  Decomposition",
+      "submittedOnDailyBy": {
+        "_id": "62c5947524171688a9feb992",
+        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+        "isPro": false,
+        "fullname": "Franck Dernoncourt",
+        "user": "Franck-Dernoncourt",
+        "type": "user"
+      },
+      "summary": "Recent advances in Large Language Models (LLMs) have demonstrated new\npossibilities for accurate and efficient time series analysis, but prior work\noften required heavy fine-tuning and/or ignored inter-series correlations. In\nthis work, we explore simple and flexible prompt-based strategies that enable\nLLMs to perform time series forecasting without extensive retraining or the use\nof a complex external architecture. Through the exploration of specialized\nprompting methods that leverage time series decomposition, patch-based\ntokenization, and similarity-based neighbor augmentation, we find that it is\npossible to enhance LLM forecasting quality while maintaining simplicity and\nrequiring minimal preprocessing of data. To this end, we propose our own\nmethod, PatchInstruct, which enables LLMs to make precise and effective\npredictions.",
+      "upvotes": 1,
+      "discussionId": "6850d2355e07650ecce8909c",
+      "ai_summary": "PatchInstruct enhances LLM forecasting quality through specialized prompting methods that include time series decomposition, patch-based tokenization, and similarity-based neighbor augmentation.",
+      "ai_keywords": [
+        "Large Language Models",
+        "LLMs",
+        "time series forecasting",
+        "prompt-based strategies",
+        "time series decomposition",
+        "patch-based tokenization",
+        "similarity-based neighbor augmentation",
+        "PatchInstruct"
+      ]
+    },
+    "publishedAt": "2025-06-15T15:42:58.000Z",
+    "title": "Forecasting Time Series with LLMs via Patch-Based Prompting and\n  Decomposition",
+    "summary": "Recent advances in Large Language Models (LLMs) have demonstrated new\npossibilities for accurate and efficient time series analysis, but prior work\noften required heavy fine-tuning and/or ignored inter-series correlations. In\nthis work, we explore simple and flexible prompt-based strategies that enable\nLLMs to perform time series forecasting without extensive retraining or the use\nof a complex external architecture. Through the exploration of specialized\nprompting methods that leverage time series decomposition, patch-based\ntokenization, and similarity-based neighbor augmentation, we find that it is\npossible to enhance LLM forecasting quality while maintaining simplicity and\nrequiring minimal preprocessing of data. To this end, we propose our own\nmethod, PatchInstruct, which enables LLMs to make precise and effective\npredictions.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.12953.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c5947524171688a9feb992",
+      "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+      "fullname": "Franck Dernoncourt",
+      "name": "Franck-Dernoncourt",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.12623",
+      "authors": [
+        {
+          "_id": "6850d25d5e07650ecce8909e",
+          "name": "Yuan Zang",
+          "hidden": false
+        },
+        {
+          "_id": "6850d25d5e07650ecce8909f",
+          "name": "Hao Tan",
+          "hidden": false
+        },
+        {
+          "_id": "6850d25d5e07650ecce890a0",
+          "name": "Seunghyun Yoon",
+          "hidden": false
+        },
+        {
+          "_id": "6850d25d5e07650ecce890a1",
+          "name": "Franck Dernoncourt",
+          "hidden": false
+        },
+        {
+          "_id": "6850d25d5e07650ecce890a2",
+          "name": "Jiuxiang Gu",
+          "hidden": false
+        },
+        {
+          "_id": "6850d25d5e07650ecce890a3",
+          "name": "Kushal Kafle",
+          "hidden": false
+        },
+        {
+          "_id": "6850d25d5e07650ecce890a4",
+          "name": "Chen Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6850d25d5e07650ecce890a5",
+          "name": "Trung Bui",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-14T20:39:32.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:56:38.375Z",
+      "title": "MS4UI: A Dataset for Multi-modal Summarization of User Interface\n  Instructional Videos",
+      "submittedOnDailyBy": {
+        "_id": "62c5947524171688a9feb992",
+        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+        "isPro": false,
+        "fullname": "Franck Dernoncourt",
+        "user": "Franck-Dernoncourt",
+        "type": "user"
+      },
+      "summary": "We study multi-modal summarization for instructional videos, whose goal is to\nprovide users an efficient way to learn skills in the form of text instructions\nand key video frames. We observe that existing benchmarks focus on generic\nsemantic-level video summarization, and are not suitable for providing\nstep-by-step executable instructions and illustrations, both of which are\ncrucial for instructional videos. We propose a novel benchmark for user\ninterface (UI) instructional video summarization to fill the gap. We collect a\ndataset of 2,413 UI instructional videos, which spans over 167 hours. These\nvideos are manually annotated for video segmentation, text summarization, and\nvideo summarization, which enable the comprehensive evaluations for concise and\nexecutable video summarization. We conduct extensive experiments on our\ncollected MS4UI dataset, which suggest that state-of-the-art multi-modal\nsummarization methods struggle on UI video summarization, and highlight the\nimportance of new methods for UI instructional video summarization.",
+      "upvotes": 1,
+      "discussionId": "6850d25d5e07650ecce890a6",
+      "ai_summary": "A novel benchmark and dataset are proposed for multi-modal summarization of UI instructional videos, addressing the need for step-by-step executable instructions and key video frames.",
+      "ai_keywords": [
+        "multi-modal summarization",
+        "instructional videos",
+        "video segmentation",
+        "text summarization",
+        "video summarization",
+        "MS4UI dataset"
+      ]
+    },
+    "publishedAt": "2025-06-14T16:39:32.000Z",
+    "title": "MS4UI: A Dataset for Multi-modal Summarization of User Interface\n  Instructional Videos",
+    "summary": "We study multi-modal summarization for instructional videos, whose goal is to\nprovide users an efficient way to learn skills in the form of text instructions\nand key video frames. We observe that existing benchmarks focus on generic\nsemantic-level video summarization, and are not suitable for providing\nstep-by-step executable instructions and illustrations, both of which are\ncrucial for instructional videos. We propose a novel benchmark for user\ninterface (UI) instructional video summarization to fill the gap. We collect a\ndataset of 2,413 UI instructional videos, which spans over 167 hours. These\nvideos are manually annotated for video segmentation, text summarization, and\nvideo summarization, which enable the comprehensive evaluations for concise and\nexecutable video summarization. We conduct extensive experiments on our\ncollected MS4UI dataset, which suggest that state-of-the-art multi-modal\nsummarization methods struggle on UI video summarization, and highlight the\nimportance of new methods for UI instructional video summarization.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.12623.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c5947524171688a9feb992",
+      "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+      "fullname": "Franck Dernoncourt",
+      "name": "Franck-Dernoncourt",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.12189",
+      "authors": [
+        {
+          "_id": "6850cb005e07650ecce88fc9",
+          "user": {
+            "_id": "64b89f096c57038f205a7751",
+            "avatarUrl": "/avatars/c268578685cf5b9f0e37ffbdcf239827.svg",
+            "isPro": false,
+            "fullname": "Pranav Agarwal",
+            "user": "pranavAL2109",
+            "type": "user"
+          },
+          "name": "Pranav Agarwal",
+          "status": "extracted_confirmed",
+          "statusLastChangedAt": "2025-06-17T01:55:41.273Z",
+          "hidden": false
+        },
+        {
+          "_id": "6850cb005e07650ecce88fca",
+          "name": "Ioana Ciucă",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-13T19:31:52.000Z",
+      "submittedOnDailyAt": "2025-06-17T00:35:05.037Z",
+      "title": "Supernova Event Dataset: Interpreting Large Language Model's Personality\n  through Critical Event Analysis",
+      "submittedOnDailyBy": {
+        "_id": "64b89f096c57038f205a7751",
+        "avatarUrl": "/avatars/c268578685cf5b9f0e37ffbdcf239827.svg",
+        "isPro": false,
+        "fullname": "Pranav Agarwal",
+        "user": "pranavAL2109",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) are increasingly integrated into everyday\napplications. As their influence grows, understanding their decision making and\nunderlying personality becomes essential. In this work, we interpret model\npersonality using our proposed Supernova Event Dataset, a novel dataset with\ndiverse articles spanning biographies, historical events, news, and scientific\ndiscoveries. We use this dataset to benchmark LLMs on extracting and ranking\nkey events from text, a subjective and complex challenge that requires\nreasoning over long-range context and modeling causal chains. We evaluate small\nmodels like Phi-4, Orca 2, and Qwen 2.5, and large, stronger models such as\nClaude 3.7, Gemini 2.5, and OpenAI o3, and propose a framework where another\nLLM acts as a judge to infer each model's personality based on its selection\nand classification of events. Our analysis shows distinct personality traits:\nfor instance, Orca 2 demonstrates emotional reasoning focusing on interpersonal\ndynamics, while Qwen 2.5 displays a more strategic, analytical style. When\nanalyzing scientific discovery events, Claude Sonnet 3.7 emphasizes conceptual\nframing, Gemini 2.5 Pro prioritizes empirical validation, and o3 favors\nstep-by-step causal reasoning. This analysis improves model interpretability,\nmaking them user-friendly for a wide range of diverse applications.",
+      "upvotes": 0,
+      "discussionId": "6850cb005e07650ecce88fcb",
+      "projectPage": "https://supernova-event.ai/",
+      "githubRepo": "https://github.com/pranavAL/Supernova-Event-Dataset",
+      "ai_summary": "The study evaluates various LLMs on diverse text tasks using a new dataset, revealing distinct personality traits and improving model interpretability.",
+      "ai_keywords": [
+        "Supernova Event Dataset",
+        "LLMs",
+        "key event extraction",
+        "reasoning",
+        "long-range context",
+        "causal chains",
+        "model personality",
+        "emotional reasoning",
+        "strategic",
+        "analytical style",
+        "conceptual framing",
+        "empirical validation",
+        "step-by-step causal reasoning"
+      ]
+    },
+    "publishedAt": "2025-06-13T15:31:52.000Z",
+    "title": "Supernova Event Dataset: Interpreting Large Language Model's Personality\n  through Critical Event Analysis",
+    "summary": "Large Language Models (LLMs) are increasingly integrated into everyday\napplications. As their influence grows, understanding their decision making and\nunderlying personality becomes essential. In this work, we interpret model\npersonality using our proposed Supernova Event Dataset, a novel dataset with\ndiverse articles spanning biographies, historical events, news, and scientific\ndiscoveries. We use this dataset to benchmark LLMs on extracting and ranking\nkey events from text, a subjective and complex challenge that requires\nreasoning over long-range context and modeling causal chains. We evaluate small\nmodels like Phi-4, Orca 2, and Qwen 2.5, and large, stronger models such as\nClaude 3.7, Gemini 2.5, and OpenAI o3, and propose a framework where another\nLLM acts as a judge to infer each model's personality based on its selection\nand classification of events. Our analysis shows distinct personality traits:\nfor instance, Orca 2 demonstrates emotional reasoning focusing on interpersonal\ndynamics, while Qwen 2.5 displays a more strategic, analytical style. When\nanalyzing scientific discovery events, Claude Sonnet 3.7 emphasizes conceptual\nframing, Gemini 2.5 Pro prioritizes empirical validation, and o3 favors\nstep-by-step causal reasoning. This analysis improves model interpretability,\nmaking them user-friendly for a wide range of diverse applications.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.12189.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64b89f096c57038f205a7751",
+      "avatarUrl": "/avatars/c268578685cf5b9f0e37ffbdcf239827.svg",
+      "fullname": "Pranav Agarwal",
+      "name": "pranavAL2109",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  }
+]
