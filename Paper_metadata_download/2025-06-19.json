@@ -1,0 +1,289 @@
+[
+  {
+    "paper": {
+      "id": "2506.15681",
+      "authors": [
+        {
+          "_id": "68536fc899bf39f9665c7961",
+          "name": "Byung-Kwan Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68536fc899bf39f9665c7962",
+          "user": {
+            "_id": "65b33e5f7cd0069ad648c4e8",
+            "avatarUrl": "/avatars/1a746ea535cffa92ea08006e05ea414a.svg",
+            "isPro": false,
+            "fullname": "Ryo Hachiuma",
+            "user": "rhachiuma",
+            "type": "user"
+          },
+          "name": "Ryo Hachiuma",
+          "status": "extracted_pending",
+          "statusLastChangedAt": "2025-06-19T02:02:49.546Z",
+          "hidden": false
+        },
+        {
+          "_id": "68536fc899bf39f9665c7963",
+          "name": "Yong Man Ro",
+          "hidden": false
+        },
+        {
+          "_id": "68536fc899bf39f9665c7964",
+          "name": "Yu-Chiang Frank Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68536fc899bf39f9665c7965",
+          "name": "Yueh-Hua Wu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/657152eb12f162153b50ec9d/2xNUivkkqkJWJLWtIPNvb.mp4"
+      ],
+      "publishedAt": "2025-06-18T17:59:49.000Z",
+      "submittedOnDailyAt": "2025-06-19T00:36:10.331Z",
+      "title": "GenRecal: Generation after Recalibration from Large to Small\n  Vision-Language Models",
+      "submittedOnDailyBy": {
+        "_id": "657152eb12f162153b50ec9d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/657152eb12f162153b50ec9d/qnldHP35PclV0pDz_05q8.jpeg",
+        "isPro": false,
+        "fullname": "Byung-Kwan Lee",
+        "user": "BK-Lee",
+        "type": "user"
+      },
+      "summary": "Recent advancements in vision-language models (VLMs) have leveraged large\nlanguage models (LLMs) to achieve performance on par with closed-source systems\nlike GPT-4V. However, deploying these models in real-world scenarios,\nparticularly on resource-constrained devices, remains challenging due to their\nsubstantial computational demands. This has spurred interest in distilling\nknowledge from large VLMs into smaller, more efficient counterparts. A key\nchallenge arises here from the diversity of VLM architectures, which are built\non different LLMs and employ varying token types-differing in vocabulary size,\ntoken splits, and token index ordering. To address this challenge of limitation\nto a specific VLM type, we present Generation after Recalibration (GenRecal), a\nnovel, general-purpose distillation framework for VLMs. GenRecal incorporates a\nRecalibrator that aligns and adapts feature representations between\nheterogeneous VLMs, enabling effective knowledge transfer across different\ntypes of VLMs. Through extensive experiments on multiple challenging\nbenchmarks, we demonstrate that GenRecal significantly improves baseline\nperformances, eventually outperforming large-scale open- and closed-source\nVLMs.",
+      "upvotes": 6,
+      "discussionId": "68536fc899bf39f9665c7966",
+      "projectPage": "https://byungkwanlee.github.io/GenRecal-page/",
+      "ai_summary": "GenRecal, a novel distillation framework, improves performance of vision-language models by aligning feature representations across different architectures.",
+      "ai_keywords": [
+        "vision-language models",
+        "large language models",
+        "distillation framework",
+        "GenerRecal",
+        "recalibration",
+        "feature representations",
+        "heterogeneous VLMs"
+      ]
+    },
+    "publishedAt": "2025-06-18T13:59:49.000Z",
+    "title": "GenRecal: Generation after Recalibration from Large to Small\n  Vision-Language Models",
+    "summary": "Recent advancements in vision-language models (VLMs) have leveraged large\nlanguage models (LLMs) to achieve performance on par with closed-source systems\nlike GPT-4V. However, deploying these models in real-world scenarios,\nparticularly on resource-constrained devices, remains challenging due to their\nsubstantial computational demands. This has spurred interest in distilling\nknowledge from large VLMs into smaller, more efficient counterparts. A key\nchallenge arises here from the diversity of VLM architectures, which are built\non different LLMs and employ varying token types-differing in vocabulary size,\ntoken splits, and token index ordering. To address this challenge of limitation\nto a specific VLM type, we present Generation after Recalibration (GenRecal), a\nnovel, general-purpose distillation framework for VLMs. GenRecal incorporates a\nRecalibrator that aligns and adapts feature representations between\nheterogeneous VLMs, enabling effective knowledge transfer across different\ntypes of VLMs. Through extensive experiments on multiple challenging\nbenchmarks, we demonstrate that GenRecal significantly improves baseline\nperformances, eventually outperforming large-scale open- and closed-source\nVLMs.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/657152eb12f162153b50ec9d/2xNUivkkqkJWJLWtIPNvb.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.15681.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "657152eb12f162153b50ec9d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/657152eb12f162153b50ec9d/qnldHP35PclV0pDz_05q8.jpeg",
+      "fullname": "Byung-Kwan Lee",
+      "name": "BK-Lee",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 56
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.15677",
+      "authors": [
+        {
+          "_id": "68536b2399bf39f9665c794c",
+          "name": "Yining Hong",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c794d",
+          "name": "Rui Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c794e",
+          "name": "Bingxuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c794f",
+          "name": "Xingcheng Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c7950",
+          "name": "Maxine Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c7951",
+          "name": "Alexander Chien",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c7952",
+          "name": "Da Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c7953",
+          "name": "Ying Nian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c7954",
+          "name": "Zhecan James Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68536b2399bf39f9665c7955",
+          "name": "Kai-Wei Chang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-18T17:58:17.000Z",
+      "submittedOnDailyAt": "2025-06-19T00:14:22.240Z",
+      "title": "Embodied Web Agents: Bridging Physical-Digital Realms for Integrated\n  Agent Intelligence",
+      "submittedOnDailyBy": {
+        "_id": "6431b64df76c34519e93d1ba",
+        "avatarUrl": "/avatars/ea577762b6b4798f87a7a3f1d53d082c.svg",
+        "isPro": true,
+        "fullname": "Yining Hong",
+        "user": "evelynhong",
+        "type": "user"
+      },
+      "summary": "AI agents today are mostly siloed - they either retrieve and reason over vast\namount of digital information and knowledge obtained online; or interact with\nthe physical world through embodied perception, planning and action - but\nrarely both. This separation limits their ability to solve tasks that require\nintegrated physical and digital intelligence, such as cooking from online\nrecipes, navigating with dynamic map data, or interpreting real-world landmarks\nusing web knowledge. We introduce Embodied Web Agents, a novel paradigm for AI\nagents that fluidly bridge embodiment and web-scale reasoning. To\noperationalize this concept, we first develop the Embodied Web Agents task\nenvironments, a unified simulation platform that tightly integrates realistic\n3D indoor and outdoor environments with functional web interfaces. Building\nupon this platform, we construct and release the Embodied Web Agents Benchmark,\nwhich encompasses a diverse suite of tasks including cooking, navigation,\nshopping, tourism, and geolocation - all requiring coordinated reasoning across\nphysical and digital realms for systematic assessment of cross-domain\nintelligence. Experimental results reveal significant performance gaps between\nstate-of-the-art AI systems and human capabilities, establishing both\nchallenges and opportunities at the intersection of embodied cognition and\nweb-scale knowledge access. All datasets, codes and websites are publicly\navailable at our project page https://embodied-web-agent.github.io/.",
+      "upvotes": 1,
+      "discussionId": "68536b2399bf39f9665c7956",
+      "ai_summary": "Embodied Web Agents integrate physical interaction and web-scale reasoning to assess cross-domain intelligence in a novel benchmark environment.",
+      "ai_keywords": [
+        "Embodied Web Agents",
+        "task environments",
+        "simulation platform",
+        "3D indoor and outdoor environments",
+        "functional web interfaces",
+        "Embodied Web Agents Benchmark",
+        "systematic assessment",
+        "cross-domain intelligence",
+        "embodied cognition"
+      ]
+    },
+    "publishedAt": "2025-06-18T13:58:17.000Z",
+    "title": "Embodied Web Agents: Bridging Physical-Digital Realms for Integrated\n  Agent Intelligence",
+    "summary": "AI agents today are mostly siloed - they either retrieve and reason over vast\namount of digital information and knowledge obtained online; or interact with\nthe physical world through embodied perception, planning and action - but\nrarely both. This separation limits their ability to solve tasks that require\nintegrated physical and digital intelligence, such as cooking from online\nrecipes, navigating with dynamic map data, or interpreting real-world landmarks\nusing web knowledge. We introduce Embodied Web Agents, a novel paradigm for AI\nagents that fluidly bridge embodiment and web-scale reasoning. To\noperationalize this concept, we first develop the Embodied Web Agents task\nenvironments, a unified simulation platform that tightly integrates realistic\n3D indoor and outdoor environments with functional web interfaces. Building\nupon this platform, we construct and release the Embodied Web Agents Benchmark,\nwhich encompasses a diverse suite of tasks including cooking, navigation,\nshopping, tourism, and geolocation - all requiring coordinated reasoning across\nphysical and digital realms for systematic assessment of cross-domain\nintelligence. Experimental results reveal significant performance gaps between\nstate-of-the-art AI systems and human capabilities, establishing both\nchallenges and opportunities at the intersection of embodied cognition and\nweb-scale knowledge access. All datasets, codes and websites are publicly\navailable at our project page https://embodied-web-agent.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.15677.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6431b64df76c34519e93d1ba",
+      "avatarUrl": "/avatars/ea577762b6b4798f87a7a3f1d53d082c.svg",
+      "fullname": "Yining Hong",
+      "name": "evelynhong",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.06279",
+      "authors": [
+        {
+          "_id": "6850e0285e07650ecce890f3",
+          "user": {
+            "_id": "637f22d27119bd030dfd4af8",
+            "avatarUrl": "/avatars/55c468c40ad3bd3218d086759fb1be3c.svg",
+            "isPro": false,
+            "fullname": "Shi Liu",
+            "user": "CLLBJ16",
+            "type": "user"
+          },
+          "name": "Shi Liu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-18T12:16:48.071Z",
+          "hidden": false
+        },
+        {
+          "_id": "6850e0285e07650ecce890f4",
+          "name": "Weijie Su",
+          "hidden": false
+        },
+        {
+          "_id": "6850e0285e07650ecce890f5",
+          "name": "Xizhou Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6850e0285e07650ecce890f6",
+          "name": "Wenhai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6850e0285e07650ecce890f7",
+          "name": "Jifeng Dai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-06T17:59:06.000Z",
+      "submittedOnDailyAt": "2025-06-19T00:24:25.743Z",
+      "title": "CoMemo: LVLMs Need Image Context with Image Memory",
+      "submittedOnDailyBy": {
+        "_id": "637f22d27119bd030dfd4af8",
+        "avatarUrl": "/avatars/55c468c40ad3bd3218d086759fb1be3c.svg",
+        "isPro": false,
+        "fullname": "Shi Liu",
+        "user": "CLLBJ16",
+        "type": "user"
+      },
+      "summary": "Recent advancements in Large Vision-Language Models built upon Large Language\nModels have established aligning visual features with LLM representations as\nthe dominant paradigm. However, inherited LLM architectural designs introduce\nsuboptimal characteristics for multimodal processing. First, LVLMs exhibit a\nbimodal distribution in attention allocation, leading to the progressive\nneglect of middle visual content as context expands. Second, conventional\npositional encoding schemes fail to preserve vital 2D structural relationships\nwhen processing dynamic high-resolution images. To address these limitations,\nwe propose CoMemo - a dual-path architecture that combines a Context image path\nwith an image Memory path for visual processing, effectively alleviating visual\ninformation neglect. Additionally, we introduce RoPE-DHR, a novel positional\nencoding mechanism that employs thumbnail-based positional aggregation to\nmaintain 2D spatial awareness while mitigating remote decay in extended\nsequences. Evaluations across seven benchmarks,including long-context\ncomprehension, multi-image reasoning, and visual question answering,\ndemonstrate CoMemo's superior performance compared to conventional LVLM\narchitectures. Project page is available at\nhttps://lalbj.github.io/projects/CoMemo/.",
+      "upvotes": 1,
+      "discussionId": "6850e0295e07650ecce890f8",
+      "projectPage": "https://lalbj.github.io/projects/CoMemo/",
+      "githubRepo": "https://github.com/LALBJ/CoMemo",
+      "ai_summary": "CoMemo addresses visual information neglect and spatial awareness in multimodal processing by using a dual-path architecture and a novel positional encoding mechanism.",
+      "ai_keywords": [
+        "Large Vision-Language Models",
+        "Large Language Models",
+        "multimodal processing",
+        "bimodal distribution",
+        "attention allocation",
+        "middle visual content",
+        "positional encoding",
+        "visual processing",
+        "image Memory path",
+        "RoPE-DHR",
+        "positional aggregation",
+        "2D structural relationships",
+        "spatial awareness",
+        "remote decay",
+        "long-context comprehension",
+        "multi-image reasoning",
+        "visual question answering"
+      ]
+    },
+    "publishedAt": "2025-06-06T13:59:06.000Z",
+    "title": "CoMemo: LVLMs Need Image Context with Image Memory",
+    "summary": "Recent advancements in Large Vision-Language Models built upon Large Language\nModels have established aligning visual features with LLM representations as\nthe dominant paradigm. However, inherited LLM architectural designs introduce\nsuboptimal characteristics for multimodal processing. First, LVLMs exhibit a\nbimodal distribution in attention allocation, leading to the progressive\nneglect of middle visual content as context expands. Second, conventional\npositional encoding schemes fail to preserve vital 2D structural relationships\nwhen processing dynamic high-resolution images. To address these limitations,\nwe propose CoMemo - a dual-path architecture that combines a Context image path\nwith an image Memory path for visual processing, effectively alleviating visual\ninformation neglect. Additionally, we introduce RoPE-DHR, a novel positional\nencoding mechanism that employs thumbnail-based positional aggregation to\nmaintain 2D spatial awareness while mitigating remote decay in extended\nsequences. Evaluations across seven benchmarks,including long-context\ncomprehension, multi-image reasoning, and visual question answering,\ndemonstrate CoMemo's superior performance compared to conventional LVLM\narchitectures. Project page is available at\nhttps://lalbj.github.io/projects/CoMemo/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.06279.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "637f22d27119bd030dfd4af8",
+      "avatarUrl": "/avatars/55c468c40ad3bd3218d086759fb1be3c.svg",
+      "fullname": "Shi Liu",
+      "name": "CLLBJ16",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  }
+]
