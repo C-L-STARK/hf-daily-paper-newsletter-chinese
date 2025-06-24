@@ -1,0 +1,533 @@
+[
+  {
+    "paper": {
+      "id": "2506.18871",
+      "authors": [
+        {
+          "_id": "685a0be90e4ad7e2197584f4",
+          "name": "Chenyuan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584f5",
+          "name": "Pengfei Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584f6",
+          "name": "Ruiran Yan",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584f7",
+          "name": "Shitao Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584f8",
+          "name": "Xin Luo",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584f9",
+          "name": "Yueze Wang",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584fa",
+          "name": "Wanli Li",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584fb",
+          "name": "Xiyan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584fc",
+          "name": "Yexin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584fd",
+          "name": "Junjie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584fe",
+          "name": "Ze Liu",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e2197584ff",
+          "name": "Ziyi Xia",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758500",
+          "name": "Chaofan Li",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758501",
+          "name": "Haoge Deng",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758502",
+          "name": "Jiahao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758503",
+          "name": "Kun Luo",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758504",
+          "name": "Bo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758505",
+          "name": "Defu Lian",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758506",
+          "name": "Xinlong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758507",
+          "name": "Zhongyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758508",
+          "name": "Tiejun Huang",
+          "hidden": false
+        },
+        {
+          "_id": "685a0be90e4ad7e219758509",
+          "name": "Zheng Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-23T17:38:54.000Z",
+      "submittedOnDailyAt": "2025-06-24T01:06:04.763Z",
+      "title": "OmniGen2: Exploration to Advanced Multimodal Generation",
+      "submittedOnDailyBy": {
+        "_id": "6564a2ceedae9c33b7654a1f",
+        "avatarUrl": "/avatars/42f09356a1282896573ccb44830cd327.svg",
+        "isPro": false,
+        "fullname": "JUNJIE ZHOU",
+        "user": "JUNJIE99",
+        "type": "user"
+      },
+      "summary": "In this work, we introduce OmniGen2, a versatile and open-source generative\nmodel designed to provide a unified solution for diverse generation tasks,\nincluding text-to-image, image editing, and in-context generation. Unlike\nOmniGen v1, OmniGen2 features two distinct decoding pathways for text and image\nmodalities, utilizing unshared parameters and a decoupled image tokenizer. This\ndesign enables OmniGen2 to build upon existing multimodal understanding models\nwithout the need to re-adapt VAE inputs, thereby preserving the original text\ngeneration capabilities. To facilitate the training of OmniGen2, we developed\ncomprehensive data construction pipelines, encompassing image editing and\nin-context generation data. Additionally, we introduce a reflection mechanism\ntailored for image generation tasks and curate a dedicated reflection dataset\nbased on OmniGen2. Despite its relatively modest parameter size, OmniGen2\nachieves competitive results on multiple task benchmarks, including\ntext-to-image and image editing. To further evaluate in-context generation,\nalso referred to as subject-driven tasks, we introduce a new benchmark named\nOmniContext. OmniGen2 achieves state-of-the-art performance among open-source\nmodels in terms of consistency. We will release our models, training code,\ndatasets, and data construction pipeline to support future research in this\nfield. Project Page: https://vectorspacelab.github.io/OmniGen2; GitHub Link:\nhttps://github.com/VectorSpaceLab/OmniGen2",
+      "upvotes": 9,
+      "discussionId": "685a0be90e4ad7e21975850a",
+      "projectPage": "https://vectorspacelab.github.io/OmniGen2/",
+      "githubRepo": "https://github.com/VectorSpaceLab/OmniGen2",
+      "ai_summary": "OmniGen2, a versatile generative model, introduces dual decoding pathways for text and images, preserves original text generation, and achieves competitive results with a new subject-driven benchmark.",
+      "ai_keywords": [
+        "decoding pathways",
+        "unshared parameters",
+        "decoupled image tokenizer",
+        "multimodal understanding models",
+        "reflection mechanism",
+        "reflection dataset",
+        "OmniContext",
+        "state-of-the-art performance"
+      ]
+    },
+    "publishedAt": "2025-06-23T13:38:54.000Z",
+    "title": "OmniGen2: Exploration to Advanced Multimodal Generation",
+    "summary": "In this work, we introduce OmniGen2, a versatile and open-source generative\nmodel designed to provide a unified solution for diverse generation tasks,\nincluding text-to-image, image editing, and in-context generation. Unlike\nOmniGen v1, OmniGen2 features two distinct decoding pathways for text and image\nmodalities, utilizing unshared parameters and a decoupled image tokenizer. This\ndesign enables OmniGen2 to build upon existing multimodal understanding models\nwithout the need to re-adapt VAE inputs, thereby preserving the original text\ngeneration capabilities. To facilitate the training of OmniGen2, we developed\ncomprehensive data construction pipelines, encompassing image editing and\nin-context generation data. Additionally, we introduce a reflection mechanism\ntailored for image generation tasks and curate a dedicated reflection dataset\nbased on OmniGen2. Despite its relatively modest parameter size, OmniGen2\nachieves competitive results on multiple task benchmarks, including\ntext-to-image and image editing. To further evaluate in-context generation,\nalso referred to as subject-driven tasks, we introduce a new benchmark named\nOmniContext. OmniGen2 achieves state-of-the-art performance among open-source\nmodels in terms of consistency. We will release our models, training code,\ndatasets, and data construction pipeline to support future research in this\nfield. Project Page: https://vectorspacelab.github.io/OmniGen2; GitHub Link:\nhttps://github.com/VectorSpaceLab/OmniGen2",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.18871.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6564a2ceedae9c33b7654a1f",
+      "avatarUrl": "/avatars/42f09356a1282896573ccb44830cd327.svg",
+      "fullname": "JUNJIE ZHOU",
+      "name": "JUNJIE99",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.18841",
+      "authors": [
+        {
+          "_id": "685a0f330e4ad7e219758514",
+          "name": "Yuhao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "685a0f330e4ad7e219758515",
+          "name": "Yushi Bai",
+          "hidden": false
+        },
+        {
+          "_id": "685a0f330e4ad7e219758516",
+          "name": "Zhiqiang Hu",
+          "hidden": false
+        },
+        {
+          "_id": "685a0f330e4ad7e219758517",
+          "name": "Roy Ka-Wei Lee",
+          "hidden": false
+        },
+        {
+          "_id": "685a0f330e4ad7e219758518",
+          "name": "Juanzi Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-23T16:59:02.000Z",
+      "submittedOnDailyAt": "2025-06-24T01:08:07.123Z",
+      "title": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement\n  Learning",
+      "submittedOnDailyBy": {
+        "_id": "63369da91ba5d5ece24118a4",
+        "avatarUrl": "/avatars/67889e1ecadb04100a77bc8b5284c6fd.svg",
+        "isPro": false,
+        "fullname": "wuyuhao",
+        "user": "mozhu",
+        "type": "user"
+      },
+      "summary": "Ultra-long generation by large language models (LLMs) is a widely demanded\nscenario, yet it remains a significant challenge due to their maximum\ngeneration length limit and overall quality degradation as sequence length\nincreases. Previous approaches, exemplified by LongWriter, typically rely on\n''teaching'', which involves supervised fine-tuning (SFT) on synthetic\nlong-form outputs. However, this strategy heavily depends on synthetic SFT\ndata, which is difficult and costly to construct, often lacks coherence and\nconsistency, and tends to be overly artificial and structurally monotonous. In\nthis work, we propose an incentivization-based approach that, starting entirely\nfrom scratch and without relying on any annotated or synthetic data, leverages\nreinforcement learning (RL) to foster the emergence of ultra-long, high-quality\ntext generation capabilities in LLMs. We perform RL training starting from a\nbase model, similar to R1-Zero, guiding it to engage in reasoning that\nfacilitates planning and refinement during the writing process. To support\nthis, we employ specialized reward models that steer the LLM towards improved\nlength control, writing quality, and structural formatting. Experimental\nevaluations show that our LongWriter-Zero model, trained from Qwen2.5-32B,\nconsistently outperforms traditional SFT methods on long-form writing tasks,\nachieving state-of-the-art results across all metrics on WritingBench and\nArena-Write, and even surpassing 100B+ models such as DeepSeek R1 and\nQwen3-235B. We open-source our data and model checkpoints under\nhttps://huggingface.co/THU-KEG/LongWriter-Zero-32B",
+      "upvotes": 8,
+      "discussionId": "685a0f340e4ad7e219758519",
+      "ai_summary": "An incentivization-based reinforcement learning approach is used to develop a large language model capable of generating ultra-long, high-quality text without the need for synthetic data or supervised fine-tuning.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "reward models",
+        "long-form text generation",
+        "ultra-long generation",
+        "large language models",
+        "synthetic fine-tuning",
+        "length control",
+        "writing quality",
+        "structural formatting",
+        "WritingBench",
+        "Arena-Write"
+      ]
+    },
+    "publishedAt": "2025-06-23T12:59:02.000Z",
+    "title": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement\n  Learning",
+    "summary": "Ultra-long generation by large language models (LLMs) is a widely demanded\nscenario, yet it remains a significant challenge due to their maximum\ngeneration length limit and overall quality degradation as sequence length\nincreases. Previous approaches, exemplified by LongWriter, typically rely on\n''teaching'', which involves supervised fine-tuning (SFT) on synthetic\nlong-form outputs. However, this strategy heavily depends on synthetic SFT\ndata, which is difficult and costly to construct, often lacks coherence and\nconsistency, and tends to be overly artificial and structurally monotonous. In\nthis work, we propose an incentivization-based approach that, starting entirely\nfrom scratch and without relying on any annotated or synthetic data, leverages\nreinforcement learning (RL) to foster the emergence of ultra-long, high-quality\ntext generation capabilities in LLMs. We perform RL training starting from a\nbase model, similar to R1-Zero, guiding it to engage in reasoning that\nfacilitates planning and refinement during the writing process. To support\nthis, we employ specialized reward models that steer the LLM towards improved\nlength control, writing quality, and structural formatting. Experimental\nevaluations show that our LongWriter-Zero model, trained from Qwen2.5-32B,\nconsistently outperforms traditional SFT methods on long-form writing tasks,\nachieving state-of-the-art results across all metrics on WritingBench and\nArena-Write, and even surpassing 100B+ models such as DeepSeek R1 and\nQwen3-235B. We open-source our data and model checkpoints under\nhttps://huggingface.co/THU-KEG/LongWriter-Zero-32B",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.18841.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63369da91ba5d5ece24118a4",
+      "avatarUrl": "/avatars/67889e1ecadb04100a77bc8b5284c6fd.svg",
+      "fullname": "wuyuhao",
+      "name": "mozhu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.18896",
+      "authors": [
+        {
+          "_id": "685a02790e4ad7e2197584b2",
+          "name": "Jiaru Zou",
+          "hidden": false
+        },
+        {
+          "_id": "685a02790e4ad7e2197584b3",
+          "name": "Ling Yang",
+          "hidden": false
+        },
+        {
+          "_id": "685a02790e4ad7e2197584b4",
+          "name": "Jingwen Gu",
+          "hidden": false
+        },
+        {
+          "_id": "685a02790e4ad7e2197584b5",
+          "name": "Jiahao Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "685a02790e4ad7e2197584b6",
+          "name": "Ke Shen",
+          "hidden": false
+        },
+        {
+          "_id": "685a02790e4ad7e2197584b7",
+          "name": "Jingrui He",
+          "hidden": false
+        },
+        {
+          "_id": "685a02790e4ad7e2197584b8",
+          "name": "Mengdi Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-23T17:59:02.000Z",
+      "submittedOnDailyAt": "2025-06-24T01:03:32.146Z",
+      "title": "ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought\n  Reasoning in LLMs",
+      "submittedOnDailyBy": {
+        "_id": "64fde4e252e82dd432b74ce9",
+        "avatarUrl": "/avatars/061a69d858b86d1600be916122cae7fc.svg",
+        "isPro": false,
+        "fullname": "Ling Yang",
+        "user": "Lingaaaaaaa",
+        "type": "user"
+      },
+      "summary": "Process Reward Models (PRMs) have recently emerged as a powerful framework\nfor supervising intermediate reasoning steps in large language models (LLMs).\nPrevious PRMs are primarily trained on model final output responses and\nstruggle to evaluate intermediate thinking trajectories robustly, especially in\nthe emerging setting of trajectory-response outputs generated by frontier\nreasoning models like Deepseek-R1. In this work, we introduce ReasonFlux-PRM, a\nnovel trajectory-aware PRM explicitly designed to evaluate the\ntrajectory-response type of reasoning traces. ReasonFlux-PRM incorporates both\nstep-level and trajectory-level supervision, enabling fine-grained reward\nassignment aligned with structured chain-of-thought data. We adapt\nReasonFlux-PRM to support reward supervision under both offline and online\nsettings, including (i) selecting high-quality model distillation data for\ndownstream supervised fine-tuning of smaller models, (ii) providing dense\nprocess-level rewards for policy optimization during reinforcement learning,\nand (iii) enabling reward-guided Best-of-N test-time scaling. Empirical results\non challenging downstream benchmarks such as AIME, MATH500, and GPQA-Diamond\ndemonstrate that ReasonFlux-PRM-7B selects higher quality data than strong PRMs\n(e.g., Qwen2.5-Math-PRM-72B) and human-curated baselines. Furthermore, our\nderived ReasonFlux-PRM-7B yields consistent performance improvements, achieving\naverage gains of 12.1% in supervised fine-tuning, 4.5% in reinforcement\nlearning, and 6.3% in test-time scaling. We also release our efficient\nReasonFlux-PRM-1.5B for resource-constrained applications and edge deployment.\nProjects: https://github.com/Gen-Verse/ReasonFlux",
+      "upvotes": 5,
+      "discussionId": "685a027a0e4ad7e2197584b9",
+      "projectPage": "https://huggingface.co/collections/Gen-Verse/reasonflux-prm-68463c73cf1c6a0ec6fafeb5",
+      "githubRepo": "https://github.com/Gen-Verse/ReasonFlux",
+      "ai_summary": "ReasonFlux-PRM, a novel trajectory-aware Process Reward Model, evaluates reasoning traces with step-level and trajectory-level supervision, enhancing performance in model distillation, reinforcement learning, and test-time scaling.",
+      "ai_keywords": [
+        "Process Reward Models",
+        "trajectory-aware PRM",
+        "trajectory-response outputs",
+        "step-level supervision",
+        "trajectory-level supervision",
+        "chain-of-thought data",
+        "model distillation",
+        "policy optimization",
+        "reinforcement learning",
+        "Best-of-N test-time scaling",
+        "AIME",
+        "MATH500",
+        "GPQA-Diamond"
+      ]
+    },
+    "publishedAt": "2025-06-23T13:59:02.000Z",
+    "title": "ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought\n  Reasoning in LLMs",
+    "summary": "Process Reward Models (PRMs) have recently emerged as a powerful framework\nfor supervising intermediate reasoning steps in large language models (LLMs).\nPrevious PRMs are primarily trained on model final output responses and\nstruggle to evaluate intermediate thinking trajectories robustly, especially in\nthe emerging setting of trajectory-response outputs generated by frontier\nreasoning models like Deepseek-R1. In this work, we introduce ReasonFlux-PRM, a\nnovel trajectory-aware PRM explicitly designed to evaluate the\ntrajectory-response type of reasoning traces. ReasonFlux-PRM incorporates both\nstep-level and trajectory-level supervision, enabling fine-grained reward\nassignment aligned with structured chain-of-thought data. We adapt\nReasonFlux-PRM to support reward supervision under both offline and online\nsettings, including (i) selecting high-quality model distillation data for\ndownstream supervised fine-tuning of smaller models, (ii) providing dense\nprocess-level rewards for policy optimization during reinforcement learning,\nand (iii) enabling reward-guided Best-of-N test-time scaling. Empirical results\non challenging downstream benchmarks such as AIME, MATH500, and GPQA-Diamond\ndemonstrate that ReasonFlux-PRM-7B selects higher quality data than strong PRMs\n(e.g., Qwen2.5-Math-PRM-72B) and human-curated baselines. Furthermore, our\nderived ReasonFlux-PRM-7B yields consistent performance improvements, achieving\naverage gains of 12.1% in supervised fine-tuning, 4.5% in reinforcement\nlearning, and 6.3% in test-time scaling. We also release our efficient\nReasonFlux-PRM-1.5B for resource-constrained applications and edge deployment.\nProjects: https://github.com/Gen-Verse/ReasonFlux",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.18896.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64fde4e252e82dd432b74ce9",
+      "avatarUrl": "/avatars/061a69d858b86d1600be916122cae7fc.svg",
+      "fullname": "Ling Yang",
+      "name": "Lingaaaaaaa",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.18851",
+      "authors": [
+        {
+          "_id": "685a0fb40e4ad7e219758528",
+          "name": "Zhuowei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e219758529",
+          "name": "Bingchuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e21975852a",
+          "name": "Tianxiang Ma",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e21975852b",
+          "name": "Lijie Liu",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e21975852c",
+          "name": "Mingcong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e21975852d",
+          "name": "Yi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e21975852e",
+          "name": "Gen Li",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e21975852f",
+          "name": "Xinghui Li",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e219758530",
+          "name": "Siyu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e219758531",
+          "name": "Qian He",
+          "hidden": false
+        },
+        {
+          "_id": "685a0fb40e4ad7e219758532",
+          "name": "Xinglong Wu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-23T17:11:56.000Z",
+      "submittedOnDailyAt": "2025-06-24T01:12:12.451Z",
+      "title": "Phantom-Data : Towards a General Subject-Consistent Video Generation\n  Dataset",
+      "submittedOnDailyBy": {
+        "_id": "6304e2dabad6ce7fc0287d57",
+        "avatarUrl": "/avatars/3fd4a9a62b0ef98db2573411463a9247.svg",
+        "isPro": false,
+        "fullname": "Zhuowei_Chen",
+        "user": "ZhuoweiChen",
+        "type": "user"
+      },
+      "summary": "Subject-to-video generation has witnessed substantial progress in recent\nyears. However, existing models still face significant challenges in faithfully\nfollowing textual instructions. This limitation, commonly known as the\ncopy-paste problem, arises from the widely used in-pair training paradigm. This\napproach inherently entangles subject identity with background and contextual\nattributes by sampling reference images from the same scene as the target\nvideo. To address this issue, we introduce Phantom-Data, the first\ngeneral-purpose cross-pair subject-to-video consistency dataset, containing\napproximately one million identity-consistent pairs across diverse categories.\nOur dataset is constructed via a three-stage pipeline: (1) a general and\ninput-aligned subject detection module, (2) large-scale cross-context subject\nretrieval from more than 53 million videos and 3 billion images, and (3)\nprior-guided identity verification to ensure visual consistency under\ncontextual variation. Comprehensive experiments show that training with\nPhantom-Data significantly improves prompt alignment and visual quality while\npreserving identity consistency on par with in-pair baselines.",
+      "upvotes": 1,
+      "discussionId": "685a0fb40e4ad7e219758535",
+      "ai_summary": "A cross-pair dataset called Phantom-Data improves subject-to-video generation by enhancing prompt alignment and visual quality while maintaining identity consistency.",
+      "ai_keywords": [
+        "Phantom-Data",
+        "subject-to-video generation",
+        "copy-paste problem",
+        "in-pair training paradigm",
+        "subject detection",
+        "cross-context subject retrieval",
+        "prior-guided identity verification"
+      ]
+    },
+    "publishedAt": "2025-06-23T13:11:56.000Z",
+    "title": "Phantom-Data : Towards a General Subject-Consistent Video Generation\n  Dataset",
+    "summary": "Subject-to-video generation has witnessed substantial progress in recent\nyears. However, existing models still face significant challenges in faithfully\nfollowing textual instructions. This limitation, commonly known as the\ncopy-paste problem, arises from the widely used in-pair training paradigm. This\napproach inherently entangles subject identity with background and contextual\nattributes by sampling reference images from the same scene as the target\nvideo. To address this issue, we introduce Phantom-Data, the first\ngeneral-purpose cross-pair subject-to-video consistency dataset, containing\napproximately one million identity-consistent pairs across diverse categories.\nOur dataset is constructed via a three-stage pipeline: (1) a general and\ninput-aligned subject detection module, (2) large-scale cross-context subject\nretrieval from more than 53 million videos and 3 billion images, and (3)\nprior-guided identity verification to ensure visual consistency under\ncontextual variation. Comprehensive experiments show that training with\nPhantom-Data significantly improves prompt alignment and visual quality while\npreserving identity consistency on par with in-pair baselines.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.18851.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6304e2dabad6ce7fc0287d57",
+      "avatarUrl": "/avatars/3fd4a9a62b0ef98db2573411463a9247.svg",
+      "fullname": "Zhuowei_Chen",
+      "name": "ZhuoweiChen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.18898",
+      "authors": [
+        {
+          "_id": "685a07510e4ad7e2197584c6",
+          "name": "Jiaming Han",
+          "hidden": false
+        },
+        {
+          "_id": "685a07510e4ad7e2197584c7",
+          "name": "Hao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "685a07510e4ad7e2197584c8",
+          "name": "Yang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "685a07510e4ad7e2197584c9",
+          "name": "Hanyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "685a07510e4ad7e2197584ca",
+          "name": "Qi Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "685a07510e4ad7e2197584cb",
+          "name": "Ziyan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "685a07510e4ad7e2197584cc",
+          "name": "Hao He",
+          "hidden": false
+        },
+        {
+          "_id": "685a07510e4ad7e2197584cd",
+          "name": "Xiangyu Yue",
+          "hidden": false
+        },
+        {
+          "_id": "685a07510e4ad7e2197584ce",
+          "name": "Lu Jiang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-23T17:59:14.000Z",
+      "submittedOnDailyAt": "2025-06-24T01:02:20.046Z",
+      "title": "Vision as a Dialect: Unifying Visual Understanding and Generation via\n  Text-Aligned Representations",
+      "submittedOnDailyBy": {
+        "_id": "62318c0386753f5f41d0e261",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62318c0386753f5f41d0e261/xO_5PvOf7lXhQPnQLcmnq.jpeg",
+        "isPro": false,
+        "fullname": "Jiaming Han",
+        "user": "csuhan",
+        "type": "user"
+      },
+      "summary": "This paper presents a multimodal framework that attempts to unify visual\nunderstanding and generation within a shared discrete semantic representation.\nAt its core is the Text-Aligned Tokenizer (TA-Tok), which converts images into\ndiscrete tokens using a text-aligned codebook projected from a large language\nmodel's (LLM) vocabulary. By integrating vision and text into a unified space\nwith an expanded vocabulary, our multimodal LLM, Tar, enables cross-modal input\nand output through a shared interface, without the need for modality-specific\ndesigns. Additionally, we propose scale-adaptive encoding and decoding to\nbalance efficiency and visual detail, along with a generative de-tokenizer to\nproduce high-fidelity visual outputs. To address diverse decoding needs, we\nutilize two complementary de-tokenizers: a fast autoregressive model and a\ndiffusion-based model. To enhance modality fusion, we investigate advanced\npre-training tasks, demonstrating improvements in both visual understanding and\ngeneration. Experiments across benchmarks show that Tar matches or surpasses\nexisting multimodal LLM methods, achieving faster convergence and greater\ntraining efficiency. Code, models, and data are available at\nhttps://tar.csuhan.com",
+      "upvotes": 0,
+      "discussionId": "685a07520e4ad7e2197584cf",
+      "ai_summary": "A multimodal framework uses a Text-Aligned Tokenizer (TA-Tok) to integrate vision and text into a unified space, employing a generative de-tokenizer with autoregressive and diffusion-based models for efficient and high-fidelity visual outputs.",
+      "ai_keywords": [
+        "Text-Aligned Tokenizer (TA-Tok)",
+        "multimodal LLM",
+        "Tar",
+        "scale-adaptive encoding",
+        "diffusion-based model",
+        "autoregressive model",
+        "modality fusion",
+        "pre-training tasks"
+      ]
+    },
+    "publishedAt": "2025-06-23T13:59:14.000Z",
+    "title": "Vision as a Dialect: Unifying Visual Understanding and Generation via\n  Text-Aligned Representations",
+    "summary": "This paper presents a multimodal framework that attempts to unify visual\nunderstanding and generation within a shared discrete semantic representation.\nAt its core is the Text-Aligned Tokenizer (TA-Tok), which converts images into\ndiscrete tokens using a text-aligned codebook projected from a large language\nmodel's (LLM) vocabulary. By integrating vision and text into a unified space\nwith an expanded vocabulary, our multimodal LLM, Tar, enables cross-modal input\nand output through a shared interface, without the need for modality-specific\ndesigns. Additionally, we propose scale-adaptive encoding and decoding to\nbalance efficiency and visual detail, along with a generative de-tokenizer to\nproduce high-fidelity visual outputs. To address diverse decoding needs, we\nutilize two complementary de-tokenizers: a fast autoregressive model and a\ndiffusion-based model. To enhance modality fusion, we investigate advanced\npre-training tasks, demonstrating improvements in both visual understanding and\ngeneration. Experiments across benchmarks show that Tar matches or surpasses\nexisting multimodal LLM methods, achieving faster convergence and greater\ntraining efficiency. Code, models, and data are available at\nhttps://tar.csuhan.com",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.18898.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62318c0386753f5f41d0e261",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62318c0386753f5f41d0e261/xO_5PvOf7lXhQPnQLcmnq.jpeg",
+      "fullname": "Jiaming Han",
+      "name": "csuhan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 15
+    },
+    "isAuthorParticipating": false
+  }
+]
