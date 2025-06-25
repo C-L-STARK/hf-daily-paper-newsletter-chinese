@@ -1,0 +1,196 @@
+[
+  {
+    "paper": {
+      "id": "2506.19851",
+      "authors": [
+        {
+          "_id": "685b5a46d2ee4fac76521dce",
+          "name": "Zehuan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "685b5a46d2ee4fac76521dcf",
+          "name": "Haoran Feng",
+          "hidden": false
+        },
+        {
+          "_id": "685b5a46d2ee4fac76521dd0",
+          "name": "Yangtian Sun",
+          "hidden": false
+        },
+        {
+          "_id": "685b5a46d2ee4fac76521dd1",
+          "name": "Yuanchen Guo",
+          "hidden": false
+        },
+        {
+          "_id": "685b5a46d2ee4fac76521dd2",
+          "name": "Yanpei Cao",
+          "hidden": false
+        },
+        {
+          "_id": "685b5a46d2ee4fac76521dd3",
+          "name": "Lu Sheng",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64a96a375a69e2ca889abdff/ttfXuQOJQmOqnO-_-F1op.mp4"
+      ],
+      "publishedAt": "2025-06-24T17:59:58.000Z",
+      "submittedOnDailyAt": "2025-06-25T01:12:40.364Z",
+      "title": "AnimaX: Animating the Inanimate in 3D with Joint Video-Pose Diffusion\n  Models",
+      "submittedOnDailyBy": {
+        "_id": "64a96a375a69e2ca889abdff",
+        "avatarUrl": "/avatars/f288c66ace09d907f132a79a740a3701.svg",
+        "isPro": false,
+        "fullname": "fanhongxing",
+        "user": "fanhongxing",
+        "type": "user"
+      },
+      "summary": "We present AnimaX, a feed-forward 3D animation framework that bridges the\nmotion priors of video diffusion models with the controllable structure of\nskeleton-based animation. Traditional motion synthesis methods are either\nrestricted to fixed skeletal topologies or require costly optimization in\nhigh-dimensional deformation spaces. In contrast, AnimaX effectively transfers\nvideo-based motion knowledge to the 3D domain, supporting diverse articulated\nmeshes with arbitrary skeletons. Our method represents 3D motion as multi-view,\nmulti-frame 2D pose maps, and enables joint video-pose diffusion conditioned on\ntemplate renderings and a textual motion prompt. We introduce shared positional\nencodings and modality-aware embeddings to ensure spatial-temporal alignment\nbetween video and pose sequences, effectively transferring video priors to\nmotion generation task. The resulting multi-view pose sequences are\ntriangulated into 3D joint positions and converted into mesh animation via\ninverse kinematics. Trained on a newly curated dataset of 160,000 rigged\nsequences, AnimaX achieves state-of-the-art results on VBench in\ngeneralization, motion fidelity, and efficiency, offering a scalable solution\nfor category-agnostic 3D animation. Project page:\nhttps://anima-x.github.io/{https://anima-x.github.io/}.",
+      "upvotes": 5,
+      "discussionId": "685b5a47d2ee4fac76521dd4",
+      "ai_summary": "AnimaX creates multi-skeleton 3D animations by blending video diffusion model priors with skeleton-based control, using joint video-pose diffusion and shared positional encodings.",
+      "ai_keywords": [
+        "feed-forward 3D animation framework",
+        "video diffusion models",
+        "skeleton-based animation",
+        "motion synthesis",
+        "high-dimensional deformation spaces",
+        "2D pose maps",
+        "joint video-pose diffusion",
+        "template renderings",
+        "textual motion prompt",
+        "shared positional encodings",
+        "modality-aware embeddings",
+        "spatial-temporal alignment",
+        "inverse kinematics",
+        "VBench",
+        "category-agnostic 3D animation"
+      ]
+    },
+    "publishedAt": "2025-06-24T13:59:58.000Z",
+    "title": "AnimaX: Animating the Inanimate in 3D with Joint Video-Pose Diffusion\n  Models",
+    "summary": "We present AnimaX, a feed-forward 3D animation framework that bridges the\nmotion priors of video diffusion models with the controllable structure of\nskeleton-based animation. Traditional motion synthesis methods are either\nrestricted to fixed skeletal topologies or require costly optimization in\nhigh-dimensional deformation spaces. In contrast, AnimaX effectively transfers\nvideo-based motion knowledge to the 3D domain, supporting diverse articulated\nmeshes with arbitrary skeletons. Our method represents 3D motion as multi-view,\nmulti-frame 2D pose maps, and enables joint video-pose diffusion conditioned on\ntemplate renderings and a textual motion prompt. We introduce shared positional\nencodings and modality-aware embeddings to ensure spatial-temporal alignment\nbetween video and pose sequences, effectively transferring video priors to\nmotion generation task. The resulting multi-view pose sequences are\ntriangulated into 3D joint positions and converted into mesh animation via\ninverse kinematics. Trained on a newly curated dataset of 160,000 rigged\nsequences, AnimaX achieves state-of-the-art results on VBench in\ngeneralization, motion fidelity, and efficiency, offering a scalable solution\nfor category-agnostic 3D animation. Project page:\nhttps://anima-x.github.io/{https://anima-x.github.io/}.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64a96a375a69e2ca889abdff/ttfXuQOJQmOqnO-_-F1op.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.19851.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64a96a375a69e2ca889abdff",
+      "avatarUrl": "/avatars/f288c66ace09d907f132a79a740a3701.svg",
+      "fullname": "fanhongxing",
+      "name": "fanhongxing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.19838",
+      "authors": [
+        {
+          "_id": "685b5e05d2ee4fac76521ddd",
+          "name": "Liangbin Xie",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521dde",
+          "name": "Yu Li",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521ddf",
+          "name": "Shian Du",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521de0",
+          "name": "Menghan Xia",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521de1",
+          "name": "Xintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521de2",
+          "name": "Fanghua Yu",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521de3",
+          "name": "Ziyan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521de4",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521de5",
+          "name": "Jiantao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "685b5e05d2ee4fac76521de6",
+          "name": "Chao Dong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-24T17:57:26.000Z",
+      "submittedOnDailyAt": "2025-06-25T00:55:41.694Z",
+      "title": "SimpleGVR: A Simple Baseline for Latent-Cascaded Video Super-Resolution",
+      "submittedOnDailyBy": {
+        "_id": "60f1abe7544c2adfd699860c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+        "isPro": true,
+        "fullname": "AK",
+        "user": "akhaliq",
+        "type": "user"
+      },
+      "summary": "Latent diffusion models have emerged as a leading paradigm for efficient\nvideo generation. However, as user expectations shift toward higher-resolution\noutputs, relying solely on latent computation becomes inadequate. A promising\napproach involves decoupling the process into two stages: semantic content\ngeneration and detail synthesis. The former employs a computationally intensive\nbase model at lower resolutions, while the latter leverages a lightweight\ncascaded video super-resolution (VSR) model to achieve high-resolution output.\nIn this work, we focus on studying key design principles for latter cascaded\nVSR models, which are underexplored currently. First, we propose two\ndegradation strategies to generate training pairs that better mimic the output\ncharacteristics of the base model, ensuring alignment between the VSR model and\nits upstream generator. Second, we provide critical insights into VSR model\nbehavior through systematic analysis of (1) timestep sampling strategies, (2)\nnoise augmentation effects on low-resolution (LR) inputs. These findings\ndirectly inform our architectural and training innovations. Finally, we\nintroduce interleaving temporal unit and sparse local attention to achieve\nefficient training and inference, drastically reducing computational overhead.\nExtensive experiments demonstrate the superiority of our framework over\nexisting methods, with ablation studies confirming the efficacy of each design\nchoice. Our work establishes a simple yet effective baseline for cascaded video\nsuper-resolution generation, offering practical insights to guide future\nadvancements in efficient cascaded synthesis systems.",
+      "upvotes": 0,
+      "discussionId": "685b5e05d2ee4fac76521de7",
+      "ai_summary": "Researchers propose design principles for cascaded video super-resolution models to improve high-resolution video generation by introduces degradation strategies, timestep sampling, noise augmentation, and interleaving temporal units with sparse local attention.",
+      "ai_keywords": [
+        "latent diffusion models",
+        "video generation",
+        "cascaded video super-resolution",
+        "VSR",
+        "degradation strategies",
+        "timestep sampling",
+        "noise augmentation",
+        "interleaving temporal unit",
+        "sparse local attention"
+      ]
+    },
+    "publishedAt": "2025-06-24T13:57:26.000Z",
+    "title": "SimpleGVR: A Simple Baseline for Latent-Cascaded Video Super-Resolution",
+    "summary": "Latent diffusion models have emerged as a leading paradigm for efficient\nvideo generation. However, as user expectations shift toward higher-resolution\noutputs, relying solely on latent computation becomes inadequate. A promising\napproach involves decoupling the process into two stages: semantic content\ngeneration and detail synthesis. The former employs a computationally intensive\nbase model at lower resolutions, while the latter leverages a lightweight\ncascaded video super-resolution (VSR) model to achieve high-resolution output.\nIn this work, we focus on studying key design principles for latter cascaded\nVSR models, which are underexplored currently. First, we propose two\ndegradation strategies to generate training pairs that better mimic the output\ncharacteristics of the base model, ensuring alignment between the VSR model and\nits upstream generator. Second, we provide critical insights into VSR model\nbehavior through systematic analysis of (1) timestep sampling strategies, (2)\nnoise augmentation effects on low-resolution (LR) inputs. These findings\ndirectly inform our architectural and training innovations. Finally, we\nintroduce interleaving temporal unit and sparse local attention to achieve\nefficient training and inference, drastically reducing computational overhead.\nExtensive experiments demonstrate the superiority of our framework over\nexisting methods, with ablation studies confirming the efficacy of each design\nchoice. Our work establishes a simple yet effective baseline for cascaded video\nsuper-resolution generation, offering practical insights to guide future\nadvancements in efficient cascaded synthesis systems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.19838.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60f1abe7544c2adfd699860c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+      "fullname": "AK",
+      "name": "akhaliq",
+      "type": "user",
+      "isPro": true,
+      "isHf": true,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7180
+    },
+    "isAuthorParticipating": false
+  }
+]
