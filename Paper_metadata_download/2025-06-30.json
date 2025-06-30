@@ -1,0 +1,172 @@
+[
+  {
+    "paper": {
+      "id": "2506.21862",
+      "authors": [
+        {
+          "_id": "6861eea79e7509383d29ab2f",
+          "name": "Boyuan Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6861eea79e7509383d29ab30",
+          "name": "Jiaxing Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6861eea79e7509383d29ab31",
+          "name": "Xihan Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6861eea79e7509383d29ab32",
+          "name": "Qibin Hou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-27T02:29:58.000Z",
+      "submittedOnDailyAt": "2025-06-30T00:31:12.107Z",
+      "title": "LLaVA-Scissor: Token Compression with Semantic Connected Components for\n  Video LLMs",
+      "submittedOnDailyBy": {
+        "_id": "6686044047f2a33570e59e31",
+        "avatarUrl": "/avatars/2656bf2cecd6d7cbffd0a912a54d25de.svg",
+        "isPro": false,
+        "fullname": "Jiaxing Zhao",
+        "user": "StarJiaxing",
+        "type": "user"
+      },
+      "summary": "In this paper, we present LLaVA-Scissor, a training-free token compression\nstrategy designed for video multimodal large language models. Previous methods\nmostly attempt to compress tokens based on attention scores, but fail to\neffectively capture all semantic regions and often lead to token redundancy.\nDifferently, we propose to leverage the Semantic Connected Components (SCC)\napproach that assigns tokens to distinct semantic regions within the token set,\nensuring comprehensive semantic coverage. The outcome is a two-step\nspatio-temporal token compression strategy that utilizes SCC in both spatial\nand temporal domains. This strategy can effectively compress tokens by\nrepresenting the entire video with a set of non-overlapping semantic tokens. We\nconduct extensive evaluations of the token compression capabilities of\nLLaVA-Scissor across diverse video understanding benchmarks, including video\nquestion answering, long video understanding, and comprehensive multi-choices\nbenchmarks. Experimental results show that the proposed LLaVA-Scissor\noutperforms other token compression methods, achieving superior performance in\nvarious video understanding benchmarks, particularly at low token retention\nratios. Project page: https://github.com/HumanMLLM/LLaVA-Scissor.",
+      "upvotes": 4,
+      "discussionId": "6861eea89e7509383d29ab33",
+      "ai_summary": "LLaVA-Scissor, a token compression strategy for video multimodal large language models, uses Semantic Connected Components to compress tokens effectively while maintaining semantic coverage and outperforming other methods.",
+      "ai_keywords": [
+        "token compression strategy",
+        "Semantic Connected Components (SCC)",
+        "spatio-temporal token compression strategy",
+        "video question answering",
+        "long video understanding",
+        "comprehensive multi-choice benchmarks"
+      ]
+    },
+    "publishedAt": "2025-06-26T22:29:58.000Z",
+    "title": "LLaVA-Scissor: Token Compression with Semantic Connected Components for\n  Video LLMs",
+    "summary": "In this paper, we present LLaVA-Scissor, a training-free token compression\nstrategy designed for video multimodal large language models. Previous methods\nmostly attempt to compress tokens based on attention scores, but fail to\neffectively capture all semantic regions and often lead to token redundancy.\nDifferently, we propose to leverage the Semantic Connected Components (SCC)\napproach that assigns tokens to distinct semantic regions within the token set,\nensuring comprehensive semantic coverage. The outcome is a two-step\nspatio-temporal token compression strategy that utilizes SCC in both spatial\nand temporal domains. This strategy can effectively compress tokens by\nrepresenting the entire video with a set of non-overlapping semantic tokens. We\nconduct extensive evaluations of the token compression capabilities of\nLLaVA-Scissor across diverse video understanding benchmarks, including video\nquestion answering, long video understanding, and comprehensive multi-choices\nbenchmarks. Experimental results show that the proposed LLaVA-Scissor\noutperforms other token compression methods, achieving superior performance in\nvarious video understanding benchmarks, particularly at low token retention\nratios. Project page: https://github.com/HumanMLLM/LLaVA-Scissor.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.21862.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6686044047f2a33570e59e31",
+      "avatarUrl": "/avatars/2656bf2cecd6d7cbffd0a912a54d25de.svg",
+      "fullname": "Jiaxing Zhao",
+      "name": "StarJiaxing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 17
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.21656",
+      "authors": [
+        {
+          "_id": "6861f2b89e7509383d29ab35",
+          "name": "Yifan Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6861f2b89e7509383d29ab36",
+          "name": "Yuanzhe Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6861f2b89e7509383d29ab37",
+          "name": "Jingyuan Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6861f2b89e7509383d29ab38",
+          "name": "Xu Cao",
+          "hidden": false
+        },
+        {
+          "_id": "6861f2b89e7509383d29ab39",
+          "name": "Xiaofeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6861f2b89e7509383d29ab3a",
+          "name": "Yixiao He",
+          "hidden": false
+        },
+        {
+          "_id": "6861f2b89e7509383d29ab3b",
+          "name": "Wenming Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6861f2b89e7509383d29ab3c",
+          "name": "James Matthew Rehg",
+          "hidden": false
+        },
+        {
+          "_id": "6861f2b89e7509383d29ab3d",
+          "name": "Ismini Lourentzou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-26T18:00:00.000Z",
+      "submittedOnDailyAt": "2025-06-30T00:44:37.025Z",
+      "title": "Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs",
+      "submittedOnDailyBy": {
+        "_id": "65e387095132c2edd193ae49",
+        "avatarUrl": "/avatars/39278e5b026bcbdde88c560fc54018c5.svg",
+        "isPro": false,
+        "fullname": "Yifan Shen",
+        "user": "SivanSX",
+        "type": "user"
+      },
+      "summary": "Current Vision-Language Models (VLMs) struggle with fine-grained spatial\nreasoning, particularly when multi-step logic and precise spatial alignment are\nrequired. In this work, we introduce SpatialReasoner-R1, a vision-language\nreasoning model designed to address these limitations. To construct\nhigh-quality supervision for spatial reasoning, we design a Multi-Model Monte\nCarlo Tree Search (M3CTS) method that generates diverse, logically consistent\nLong Chain-of-Thought (LongCoT) reasoning trajectories. In addition, we propose\nfine-grained Direct Preference Optimization (fDPO), which introduces\nsegment-specific preference granularity for descriptive grounding and logical\nreasoning, guided by a spatial reward mechanism that evaluates candidate\nresponses based on visual consistency, spatial grounding, and logical\ncoherence. Experimental results demonstrate that fDPO achieves an average\nimprovement of 4.1% over standard DPO across spatial quality tasks, and a 9.0%\ngain in spatial quantity tasks. SpatialReasoner-R1, trained with fDPO, sets a\nnew SoTA on SPATIALRGPT-Bench, outperforming the strongest baseline by 9.8% in\naverage accuracy, while maintaining competitive performance on general\nvision-language tasks.",
+      "upvotes": 2,
+      "discussionId": "6861f2b99e7509383d29ab3e",
+      "ai_summary": "SpatialReasoner-R1, a vision-language reasoning model, uses Multi-Model Monte Carlo Tree Search and fine-grained Direct Preference Optimization to improve spatial reasoning, setting a new state-of-the-art on SPATIALRGPT-Bench.",
+      "ai_keywords": [
+        "vision-language models",
+        "SpatialReasoner-R1",
+        "Multi-Model Monte Carlo Tree Search",
+        "M3CTS",
+        "Long Chain-of-Thought",
+        "LongCoT",
+        "fine-grained Direct Preference Optimization",
+        "fDPO",
+        "segment-specific preference granularity",
+        "descriptive grounding",
+        "logical reasoning",
+        "spatial reward mechanism",
+        "visual consistency",
+        "spatial grounding",
+        "logical coherence",
+        "SPATIALRGPT-Bench"
+      ]
+    },
+    "publishedAt": "2025-06-26T14:00:00.000Z",
+    "title": "Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs",
+    "summary": "Current Vision-Language Models (VLMs) struggle with fine-grained spatial\nreasoning, particularly when multi-step logic and precise spatial alignment are\nrequired. In this work, we introduce SpatialReasoner-R1, a vision-language\nreasoning model designed to address these limitations. To construct\nhigh-quality supervision for spatial reasoning, we design a Multi-Model Monte\nCarlo Tree Search (M3CTS) method that generates diverse, logically consistent\nLong Chain-of-Thought (LongCoT) reasoning trajectories. In addition, we propose\nfine-grained Direct Preference Optimization (fDPO), which introduces\nsegment-specific preference granularity for descriptive grounding and logical\nreasoning, guided by a spatial reward mechanism that evaluates candidate\nresponses based on visual consistency, spatial grounding, and logical\ncoherence. Experimental results demonstrate that fDPO achieves an average\nimprovement of 4.1% over standard DPO across spatial quality tasks, and a 9.0%\ngain in spatial quantity tasks. SpatialReasoner-R1, trained with fDPO, sets a\nnew SoTA on SPATIALRGPT-Bench, outperforming the strongest baseline by 9.8% in\naverage accuracy, while maintaining competitive performance on general\nvision-language tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.21656.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65e387095132c2edd193ae49",
+      "avatarUrl": "/avatars/39278e5b026bcbdde88c560fc54018c5.svg",
+      "fullname": "Yifan Shen",
+      "name": "SivanSX",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
