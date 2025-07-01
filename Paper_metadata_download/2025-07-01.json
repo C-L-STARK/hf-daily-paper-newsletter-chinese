@@ -1,0 +1,571 @@
+[
+  {
+    "paper": {
+      "id": "2506.24123",
+      "authors": [
+        {
+          "_id": "68634673588cea0da970c862",
+          "name": "Yue Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c863",
+          "name": "Qingyan Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c864",
+          "name": "Hao Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c865",
+          "name": "Ka Leong Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c866",
+          "name": "Qiuyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c867",
+          "name": "Hongyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c868",
+          "name": "Zichen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c869",
+          "name": "Haofan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c86a",
+          "name": "Jingye Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c86b",
+          "name": "Yujun Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68634673588cea0da970c86c",
+          "name": "Qifeng Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-30T17:59:06.000Z",
+      "submittedOnDailyAt": "2025-07-01T01:00:32.385Z",
+      "title": "Calligrapher: Freestyle Text Image Customization",
+      "submittedOnDailyBy": {
+        "_id": "63f0baf66309c84d5f4a2226",
+        "avatarUrl": "/avatars/a122f7d92441bd2feef7d4eda993fab7.svg",
+        "isPro": false,
+        "fullname": "Meme155",
+        "user": "Meme145",
+        "type": "user"
+      },
+      "summary": "We introduce Calligrapher, a novel diffusion-based framework that\ninnovatively integrates advanced text customization with artistic typography\nfor digital calligraphy and design applications. Addressing the challenges of\nprecise style control and data dependency in typographic customization, our\nframework incorporates three key technical contributions. First, we develop a\nself-distillation mechanism that leverages the pre-trained text-to-image\ngenerative model itself alongside the large language model to automatically\nconstruct a style-centric typography benchmark. Second, we introduce a\nlocalized style injection framework via a trainable style encoder, which\ncomprises both Qformer and linear layers, to extract robust style features from\nreference images. An in-context generation mechanism is also employed to\ndirectly embed reference images into the denoising process, further enhancing\nthe refined alignment of target styles. Extensive quantitative and qualitative\nevaluations across diverse fonts and design contexts confirm Calligrapher's\naccurate reproduction of intricate stylistic details and precise glyph\npositioning. By automating high-quality, visually consistent typography,\nCalligrapher surpasses traditional models, empowering creative practitioners in\ndigital art, branding, and contextual typographic design.",
+      "upvotes": 4,
+      "discussionId": "68634673588cea0da970c86d",
+      "projectPage": "https://calligrapher2025.github.io/Calligrapher/",
+      "githubRepo": "https://github.com/Calligrapher2025/Calligrapher",
+      "ai_summary": "Calligrapher uses a diffusion-based framework with self-distillation and localized style injection to generate high-quality, stylistically consistent digital typography.",
+      "ai_keywords": [
+        "diffusion-based framework",
+        "self-distillation mechanism",
+        "text-to-image generative model",
+        "large language model",
+        "localized style injection",
+        "Qformer",
+        "linear layers",
+        "style encoder",
+        "in-context generation mechanism",
+        "denoising process",
+        "stylistic details",
+        "glyph positioning"
+      ]
+    },
+    "publishedAt": "2025-06-30T13:59:06.000Z",
+    "title": "Calligrapher: Freestyle Text Image Customization",
+    "summary": "We introduce Calligrapher, a novel diffusion-based framework that\ninnovatively integrates advanced text customization with artistic typography\nfor digital calligraphy and design applications. Addressing the challenges of\nprecise style control and data dependency in typographic customization, our\nframework incorporates three key technical contributions. First, we develop a\nself-distillation mechanism that leverages the pre-trained text-to-image\ngenerative model itself alongside the large language model to automatically\nconstruct a style-centric typography benchmark. Second, we introduce a\nlocalized style injection framework via a trainable style encoder, which\ncomprises both Qformer and linear layers, to extract robust style features from\nreference images. An in-context generation mechanism is also employed to\ndirectly embed reference images into the denoising process, further enhancing\nthe refined alignment of target styles. Extensive quantitative and qualitative\nevaluations across diverse fonts and design contexts confirm Calligrapher's\naccurate reproduction of intricate stylistic details and precise glyph\npositioning. By automating high-quality, visually consistent typography,\nCalligrapher surpasses traditional models, empowering creative practitioners in\ndigital art, branding, and contextual typographic design.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.24123.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63f0baf66309c84d5f4a2226",
+      "avatarUrl": "/avatars/a122f7d92441bd2feef7d4eda993fab7.svg",
+      "fullname": "Meme155",
+      "name": "Meme145",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.23542",
+      "authors": [
+        {
+          "_id": "6863479d588cea0da970c86f",
+          "name": "Weida Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6863479d588cea0da970c870",
+          "name": "Changyong He",
+          "hidden": false
+        },
+        {
+          "_id": "6863479d588cea0da970c871",
+          "name": "Jin Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6863479d588cea0da970c872",
+          "name": "Di Qiu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-30T06:29:24.000Z",
+      "submittedOnDailyAt": "2025-07-01T01:05:13.898Z",
+      "title": "Consistent Time-of-Flight Depth Denoising via Graph-Informed Geometric\n  Attention",
+      "submittedOnDailyBy": {
+        "_id": "6684b284dc7b0ae2cc67660c",
+        "avatarUrl": "/avatars/54b3c0c4d808f293d78085d4d504570a.svg",
+        "isPro": false,
+        "fullname": "liuwanhao",
+        "user": "wanhaoliu",
+        "type": "user"
+      },
+      "summary": "Depth images captured by Time-of-Flight (ToF) sensors are prone to noise,\nrequiring denoising for reliable downstream applications. Previous works either\nfocus on single-frame processing, or perform multi-frame processing without\nconsidering depth variations at corresponding pixels across frames, leading to\nundesirable temporal inconsistency and spatial ambiguity. In this paper, we\npropose a novel ToF depth denoising network leveraging motion-invariant graph\nfusion to simultaneously enhance temporal stability and spatial sharpness.\nSpecifically, despite depth shifts across frames, graph structures exhibit\ntemporal self-similarity, enabling cross-frame geometric attention for graph\nfusion. Then, by incorporating an image smoothness prior on the fused graph and\ndata fidelity term derived from ToF noise distribution, we formulate a maximum\na posterior problem for ToF denoising. Finally, the solution is unrolled into\niterative filters whose weights are adaptively learned from the graph-informed\ngeometric attention, producing a high-performance yet interpretable network.\nExperimental results demonstrate that the proposed scheme achieves\nstate-of-the-art performance in terms of accuracy and consistency on synthetic\nDVToF dataset and exhibits robust generalization on the real Kinectv2 dataset.\nSource code will be released at\nhttps://github.com/davidweidawang/GIGA-ToF{https://github.com/davidweidawang/GIGA-ToF}.",
+      "upvotes": 4,
+      "discussionId": "6863479d588cea0da970c873",
+      "ai_summary": "A novel ToF depth denoising network uses motion-invariant graph fusion and adaptive filters to improve temporal stability and spatial sharpness, achieving state-of-the-art performance.",
+      "ai_keywords": [
+        "ToF depth denoising",
+        "motion-invariant graph fusion",
+        "graph structures",
+        "temporal self-similarity",
+        "geometric attention",
+        "image smoothness prior",
+        "maximum a posterior problem",
+        "iterative filters",
+        "DVToF dataset",
+        "Kinectv2 dataset"
+      ]
+    },
+    "publishedAt": "2025-06-30T02:29:24.000Z",
+    "title": "Consistent Time-of-Flight Depth Denoising via Graph-Informed Geometric\n  Attention",
+    "summary": "Depth images captured by Time-of-Flight (ToF) sensors are prone to noise,\nrequiring denoising for reliable downstream applications. Previous works either\nfocus on single-frame processing, or perform multi-frame processing without\nconsidering depth variations at corresponding pixels across frames, leading to\nundesirable temporal inconsistency and spatial ambiguity. In this paper, we\npropose a novel ToF depth denoising network leveraging motion-invariant graph\nfusion to simultaneously enhance temporal stability and spatial sharpness.\nSpecifically, despite depth shifts across frames, graph structures exhibit\ntemporal self-similarity, enabling cross-frame geometric attention for graph\nfusion. Then, by incorporating an image smoothness prior on the fused graph and\ndata fidelity term derived from ToF noise distribution, we formulate a maximum\na posterior problem for ToF denoising. Finally, the solution is unrolled into\niterative filters whose weights are adaptively learned from the graph-informed\ngeometric attention, producing a high-performance yet interpretable network.\nExperimental results demonstrate that the proposed scheme achieves\nstate-of-the-art performance in terms of accuracy and consistency on synthetic\nDVToF dataset and exhibits robust generalization on the real Kinectv2 dataset.\nSource code will be released at\nhttps://github.com/davidweidawang/GIGA-ToF{https://github.com/davidweidawang/GIGA-ToF}.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.23542.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6684b284dc7b0ae2cc67660c",
+      "avatarUrl": "/avatars/54b3c0c4d808f293d78085d4d504570a.svg",
+      "fullname": "liuwanhao",
+      "name": "wanhaoliu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.17930",
+      "authors": [
+        {
+          "_id": "68634a4e588cea0da970c8ba",
+          "name": "Jianyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68634a4e588cea0da970c8bb",
+          "name": "Zhiqiang Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68634a4e588cea0da970c8bc",
+          "name": "Lidong Bing",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-22T07:53:07.000Z",
+      "submittedOnDailyAt": "2025-07-01T01:09:47.554Z",
+      "title": "Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective",
+      "submittedOnDailyBy": {
+        "_id": "61e09ec13a1781f66b4e9ae2",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1642110635503-noauth.jpeg",
+        "isPro": false,
+        "fullname": "Jianyu Wang",
+        "user": "Jianyu",
+        "type": "user"
+      },
+      "summary": "We propose a novel prompt design paradigm that challenges conventional wisdom\nin large language model (LLM) prompting. While conventional wisdom prioritizes\nwell-crafted instructions and demonstrations for in-context learning (ICL), we\nshow that pruning random demonstrations into seemingly incoherent \"gibberish\"\ncan remarkably improve performance across diverse tasks. Notably, the\n\"gibberish\" always matches or surpasses state-of-the-art automatic prompt\noptimization techniques, achieving substantial gains regardless of LLM\nalignment. Nevertheless, discovering an effective pruning strategy is\nnon-trivial, as existing attribution methods and prompt compression algorithms\nfail to deliver robust results, let alone human intuition. In terms of this, we\npropose a self-discover prompt optimization framework, PromptQuine, an\nevolutionary search framework that automatically searches for the pruning\nstrategy by itself using only low-data regimes. Much like the emergent\ncomplexity in nature--such as symbiosis and self-organization--arising in\nresponse to resource constraints, our framework evolves and refines\nunconventional yet highly effective prompts by leveraging only the tokens\npresent within the context. We demonstrate its effectiveness across\nclassification, multi-choice question answering, generation and math reasoning\ntasks across LLMs, while achieving decent runtime efficiency. We hope our\nfindings can guide mechanistic studies on in-context learning, and provide a\ncall to action, to pave the way for more open-ended search algorithms for more\neffective LLM prompting.",
+      "upvotes": 3,
+      "discussionId": "68634a4f588cea0da970c8bd",
+      "ai_summary": "A novel prompt design paradigm, PromptQuine, shows that pruning random demonstrations into \"gibberish\" can improve large language model performance across various tasks, surpassing state-of-the-art methods.",
+      "ai_keywords": [
+        "prompt design paradigm",
+        "in-context learning",
+        "pruning",
+        "demonstrations",
+        "gibberish",
+        "prompt optimization",
+        "self-discover prompt optimization framework",
+        "PromptQuine",
+        "evolutionary search framework",
+        "classification",
+        "multi-choice question answering",
+        "generation",
+        "math reasoning",
+        "tokens",
+        "emergent complexity",
+        "symbiosis",
+        "self-organization"
+      ]
+    },
+    "publishedAt": "2025-06-22T03:53:07.000Z",
+    "title": "Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective",
+    "summary": "We propose a novel prompt design paradigm that challenges conventional wisdom\nin large language model (LLM) prompting. While conventional wisdom prioritizes\nwell-crafted instructions and demonstrations for in-context learning (ICL), we\nshow that pruning random demonstrations into seemingly incoherent \"gibberish\"\ncan remarkably improve performance across diverse tasks. Notably, the\n\"gibberish\" always matches or surpasses state-of-the-art automatic prompt\noptimization techniques, achieving substantial gains regardless of LLM\nalignment. Nevertheless, discovering an effective pruning strategy is\nnon-trivial, as existing attribution methods and prompt compression algorithms\nfail to deliver robust results, let alone human intuition. In terms of this, we\npropose a self-discover prompt optimization framework, PromptQuine, an\nevolutionary search framework that automatically searches for the pruning\nstrategy by itself using only low-data regimes. Much like the emergent\ncomplexity in nature--such as symbiosis and self-organization--arising in\nresponse to resource constraints, our framework evolves and refines\nunconventional yet highly effective prompts by leveraging only the tokens\npresent within the context. We demonstrate its effectiveness across\nclassification, multi-choice question answering, generation and math reasoning\ntasks across LLMs, while achieving decent runtime efficiency. We hope our\nfindings can guide mechanistic studies on in-context learning, and provide a\ncall to action, to pave the way for more open-ended search algorithms for more\neffective LLM prompting.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.17930.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61e09ec13a1781f66b4e9ae2",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1642110635503-noauth.jpeg",
+      "fullname": "Jianyu Wang",
+      "name": "Jianyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.17417",
+      "authors": [
+        {
+          "_id": "685c8635696820ba1f28f24b",
+          "user": {
+            "_id": "65d3b7ec8f6b98b34ee6bbe3",
+            "avatarUrl": "/avatars/53c2d4e4746147fc2559435d252e8951.svg",
+            "isPro": false,
+            "fullname": "Mingyuan Wu",
+            "user": "Mingyuan1997",
+            "type": "user"
+          },
+          "name": "Mingyuan Wu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-06-26T09:32:22.703Z",
+          "hidden": false
+        },
+        {
+          "_id": "685c8635696820ba1f28f24c",
+          "name": "Meitang Li",
+          "hidden": false
+        },
+        {
+          "_id": "685c8635696820ba1f28f24d",
+          "name": "Jingcheng Yang",
+          "hidden": false
+        },
+        {
+          "_id": "685c8635696820ba1f28f24e",
+          "name": "Jize Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "685c8635696820ba1f28f24f",
+          "name": "Kaizhuo Yan",
+          "hidden": false
+        },
+        {
+          "_id": "685c8635696820ba1f28f250",
+          "name": "Zhaoheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "685c8635696820ba1f28f251",
+          "name": "Minjia Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "685c8635696820ba1f28f252",
+          "name": "Klara Nahrstedt",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-20T18:23:48.000Z",
+      "submittedOnDailyAt": "2025-07-01T00:36:26.256Z",
+      "title": "Aha Moment Revisited: Are VLMs Truly Capable of Self Verification in\n  Inference-time Scaling?",
+      "submittedOnDailyBy": {
+        "_id": "65d3b7ec8f6b98b34ee6bbe3",
+        "avatarUrl": "/avatars/53c2d4e4746147fc2559435d252e8951.svg",
+        "isPro": false,
+        "fullname": "Mingyuan Wu",
+        "user": "Mingyuan1997",
+        "type": "user"
+      },
+      "summary": "Recent advances in large language models (LLMs) have demonstrated that\ninference-time computation techniques, such as decoding-time scaling and\nself-refinement, can significantly enhance reasoning capabilities without\nrelying on external knowledge. A key driver of this success is the emergence of\nself-correction and self-verification behaviors, often elicited through\nreinforcement learning (RL). In this paper, we investigate whether these\ninference-time techniques extend effectively to vision-language models (VLMs),\nparticularly those trained with RL. We find that while decoding strategies such\nas majority voting and best-of-N selection with self-verification all improve\nVLM reasoning performance, generation-reliant methods such as the former\nachieve significantly higher gains versus verification-reliant methods such as\nthe latter. Additionally, the self-correction behavior often associated with\nRL-tuned models, such as aha moment, does not lead to measurable gains. We show\nvia extensive experimentation within the inference-time scaling framework to\nidentify a key root cause: RL-trained VLMs still lack robust self-verification\ncapabilities across both visual and textual modalities.",
+      "upvotes": 3,
+      "discussionId": "685c8636696820ba1f28f253",
+      "ai_summary": "Inference-time techniques like decoding-time scaling and self-refinement enhance reasoning in vision-language models, with generation-based methods providing greater improvement than verification-based methods, despite RL-trained models not showing self-correction benefits.",
+      "ai_keywords": [
+        "large language models",
+        "inference-time computation",
+        "decoding-time scaling",
+        "self-refinement",
+        "self-correction",
+        "self-verification",
+        "reinforcement learning",
+        "vision-language models",
+        "majority voting",
+        "best-of-N selection",
+        "aha moment"
+      ]
+    },
+    "publishedAt": "2025-06-20T14:23:48.000Z",
+    "title": "Aha Moment Revisited: Are VLMs Truly Capable of Self Verification in\n  Inference-time Scaling?",
+    "summary": "Recent advances in large language models (LLMs) have demonstrated that\ninference-time computation techniques, such as decoding-time scaling and\nself-refinement, can significantly enhance reasoning capabilities without\nrelying on external knowledge. A key driver of this success is the emergence of\nself-correction and self-verification behaviors, often elicited through\nreinforcement learning (RL). In this paper, we investigate whether these\ninference-time techniques extend effectively to vision-language models (VLMs),\nparticularly those trained with RL. We find that while decoding strategies such\nas majority voting and best-of-N selection with self-verification all improve\nVLM reasoning performance, generation-reliant methods such as the former\nachieve significantly higher gains versus verification-reliant methods such as\nthe latter. Additionally, the self-correction behavior often associated with\nRL-tuned models, such as aha moment, does not lead to measurable gains. We show\nvia extensive experimentation within the inference-time scaling framework to\nidentify a key root cause: RL-trained VLMs still lack robust self-verification\ncapabilities across both visual and textual modalities.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.17417.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65d3b7ec8f6b98b34ee6bbe3",
+      "avatarUrl": "/avatars/53c2d4e4746147fc2559435d252e8951.svg",
+      "fullname": "Mingyuan Wu",
+      "name": "Mingyuan1997",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2506.24119",
+      "authors": [
+        {
+          "_id": "68634850588cea0da970c892",
+          "name": "Bo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c893",
+          "name": "Leon Guertler",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c894",
+          "name": "Simon Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c895",
+          "name": "Zichen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c896",
+          "name": "Penghui Qi",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c897",
+          "name": "Daniel Balcells",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c898",
+          "name": "Mickel Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c899",
+          "name": "Cheston Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c89a",
+          "name": "Weiyan Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c89b",
+          "name": "Min Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c89c",
+          "name": "Wee Sun Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68634850588cea0da970c89d",
+          "name": "Natasha Jaques",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-30T17:58:13.000Z",
+      "submittedOnDailyAt": "2025-07-01T01:11:49.104Z",
+      "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via\n  Multi-Agent Multi-Turn Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "635e3a76106f984574c36409",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667120725800-635e3a76106f984574c36409.png",
+        "isPro": false,
+        "fullname": "Bo Liu",
+        "user": "Benjamin-eecs",
+        "type": "user"
+      },
+      "summary": "Recent advances in reinforcement learning have shown that language models can\ndevelop sophisticated reasoning through training on tasks with verifiable\nrewards, but these approaches depend on human-curated problem-answer pairs and\ndomain-specific reward engineering. We introduce SPIRAL, a self-play framework\nwhere models learn by playing multi-turn, zero-sum games against continuously\nimproving versions of themselves, eliminating the need for human supervision.\nThrough self-play, SPIRAL generates an infinite curriculum of progressively\nchallenging problems as models must constantly adapt to stronger opponents. To\nenable this self-play training at scale, We implement a fully online,\nmulti-turn, multi-agent reinforcement learning system for LLMs and propose\nrole-conditioned advantage estimation (RAE) to stabilize multi-agent training.\nUsing SPIRAL, self-play on zero-sum games produces reasoning capabilities that\ntransfer broadly. Training Qwen3-4B-Base on Kuhn Poker alone achieves 8.6%\nimprovement on math and 8.4% on general reasoning, outperforming SFT on 25,000\nexpert game trajectories. Analysis reveals that this transfer occurs through\nthree cognitive patterns: systematic decomposition, expected value calculation,\nand case-by-case analysis. Multi-game training (TicTacToe, Kuhn Poker, Simple\nNegotiation) further enhances performance as each game develops distinct\nreasoning strengths. Applying SPIRAL to a strong reasoning model\n(DeepSeek-R1-Distill-Qwen-7B) can still lead to 2.0% average improvement. These\nresults demonstrate that zero-sum games naturally develop transferable\nreasoning capabilities, highlighting a promising direction for autonomous\nreasoning development.",
+      "upvotes": 2,
+      "discussionId": "68634850588cea0da970c89e",
+      "ai_summary": "Self-play in zero-sum games using SPIRAL enhances reasoning capabilities in language models through self-improvement and transfer learning.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "language models",
+        "self-play framework",
+        "multi-turn games",
+        "zero-sum games",
+        "reward engineering",
+        "role-conditioned advantage estimation",
+        "Kuhn Poker",
+        "TicTacToe",
+        "Simple Negotiation",
+        "transferable reasoning"
+      ]
+    },
+    "publishedAt": "2025-06-30T13:58:13.000Z",
+    "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via\n  Multi-Agent Multi-Turn Reinforcement Learning",
+    "summary": "Recent advances in reinforcement learning have shown that language models can\ndevelop sophisticated reasoning through training on tasks with verifiable\nrewards, but these approaches depend on human-curated problem-answer pairs and\ndomain-specific reward engineering. We introduce SPIRAL, a self-play framework\nwhere models learn by playing multi-turn, zero-sum games against continuously\nimproving versions of themselves, eliminating the need for human supervision.\nThrough self-play, SPIRAL generates an infinite curriculum of progressively\nchallenging problems as models must constantly adapt to stronger opponents. To\nenable this self-play training at scale, We implement a fully online,\nmulti-turn, multi-agent reinforcement learning system for LLMs and propose\nrole-conditioned advantage estimation (RAE) to stabilize multi-agent training.\nUsing SPIRAL, self-play on zero-sum games produces reasoning capabilities that\ntransfer broadly. Training Qwen3-4B-Base on Kuhn Poker alone achieves 8.6%\nimprovement on math and 8.4% on general reasoning, outperforming SFT on 25,000\nexpert game trajectories. Analysis reveals that this transfer occurs through\nthree cognitive patterns: systematic decomposition, expected value calculation,\nand case-by-case analysis. Multi-game training (TicTacToe, Kuhn Poker, Simple\nNegotiation) further enhances performance as each game develops distinct\nreasoning strengths. Applying SPIRAL to a strong reasoning model\n(DeepSeek-R1-Distill-Qwen-7B) can still lead to 2.0% average improvement. These\nresults demonstrate that zero-sum games naturally develop transferable\nreasoning capabilities, highlighting a promising direction for autonomous\nreasoning development.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.24119.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "635e3a76106f984574c36409",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667120725800-635e3a76106f984574c36409.png",
+      "fullname": "Bo Liu",
+      "name": "Benjamin-eecs",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 13
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.23858",
+      "authors": [
+        {
+          "_id": "686347d3588cea0da970c888",
+          "name": "Jianzong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "686347d3588cea0da970c889",
+          "name": "Liang Hou",
+          "hidden": false
+        },
+        {
+          "_id": "686347d3588cea0da970c88a",
+          "name": "Haotian Yang",
+          "hidden": false
+        },
+        {
+          "_id": "686347d3588cea0da970c88b",
+          "name": "Xin Tao",
+          "hidden": false
+        },
+        {
+          "_id": "686347d3588cea0da970c88c",
+          "name": "Ye Tian",
+          "hidden": false
+        },
+        {
+          "_id": "686347d3588cea0da970c88d",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "686347d3588cea0da970c88e",
+          "name": "Di Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686347d3588cea0da970c88f",
+          "name": "Yunhai Tong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-30T13:52:31.000Z",
+      "submittedOnDailyAt": "2025-07-01T00:59:37.837Z",
+      "title": "VMoBA: Mixture-of-Block Attention for Video Diffusion Models",
+      "submittedOnDailyBy": {
+        "_id": "657a6eed1ccc3c2a5ea7b585",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/RIQIF-JJdNI0SwJEq_9z7.jpeg",
+        "isPro": true,
+        "fullname": "Jianzong Wu",
+        "user": "jianzongwu",
+        "type": "user"
+      },
+      "summary": "The quadratic complexity of full attention mechanisms poses a significant\nbottleneck for Video Diffusion Models (VDMs) aiming to generate long-duration,\nhigh-resolution videos. While various sparse attention methods have been\nproposed, many are designed as training-free inference accelerators or do not\noptimally capture the unique spatio-temporal characteristics inherent in video\ndata when trained natively. This paper introduces Video Mixture of Block\nAttention (VMoBA), a novel sparse attention mechanism specifically adapted for\nVDMs. Motivated by an in-depth analysis of attention patterns within\npre-trained video transformers, which revealed strong spatio-temporal locality,\nvarying query importance, and head-specific concentration levels, VMoBA\nenhances the original MoBA framework with three key modifications: (1) a\nlayer-wise recurrent block partition scheme (1D-2D-3D) to dynamically adapt to\ndiverse spatio-temporal attention patterns and improve efficiency; (2) global\nblock selection to prioritize the most salient query-key block interactions\nacross an entire attention head; and (3) threshold-based block selection to\ndynamically determine the number of attended blocks based on their cumulative\nsimilarity. Extensive experiments demonstrate that VMoBA significantly\naccelerates the training of VDMs on longer sequences, achieving 2.92x FLOPs and\n1.48x latency speedup, while attaining comparable or even superior generation\nquality to full attention. Furthermore, VMoBA exhibits competitive performance\nin training-free inference, offering 2.40x FLOPs and 1.35x latency speedup for\nhigh-res video generation.",
+      "upvotes": 2,
+      "discussionId": "686347d3588cea0da970c890",
+      "ai_summary": "VMoBA, a novel sparse attention mechanism for Video Diffusion Models (VDMs), accelerates training and inference by addressing the quadratic complexity of full attention mechanisms while maintaining or improving video generation quality.",
+      "ai_keywords": [
+        "quadartic complexity",
+        "full attention mechanisms",
+        "Video Diffusion Models",
+        "VDMs",
+        "sparse attention methods",
+        "in-depth analysis",
+        "attention patterns",
+        "video transformers",
+        "spatio-temporal locality",
+        "query importance",
+        "head-specific concentration",
+        "layer-wise recurrent block partition scheme",
+        "global block selection",
+        "threshold-based block selection",
+        "FLOPs",
+        "latency",
+        "high-res video generation"
+      ]
+    },
+    "publishedAt": "2025-06-30T09:52:31.000Z",
+    "title": "VMoBA: Mixture-of-Block Attention for Video Diffusion Models",
+    "summary": "The quadratic complexity of full attention mechanisms poses a significant\nbottleneck for Video Diffusion Models (VDMs) aiming to generate long-duration,\nhigh-resolution videos. While various sparse attention methods have been\nproposed, many are designed as training-free inference accelerators or do not\noptimally capture the unique spatio-temporal characteristics inherent in video\ndata when trained natively. This paper introduces Video Mixture of Block\nAttention (VMoBA), a novel sparse attention mechanism specifically adapted for\nVDMs. Motivated by an in-depth analysis of attention patterns within\npre-trained video transformers, which revealed strong spatio-temporal locality,\nvarying query importance, and head-specific concentration levels, VMoBA\nenhances the original MoBA framework with three key modifications: (1) a\nlayer-wise recurrent block partition scheme (1D-2D-3D) to dynamically adapt to\ndiverse spatio-temporal attention patterns and improve efficiency; (2) global\nblock selection to prioritize the most salient query-key block interactions\nacross an entire attention head; and (3) threshold-based block selection to\ndynamically determine the number of attended blocks based on their cumulative\nsimilarity. Extensive experiments demonstrate that VMoBA significantly\naccelerates the training of VDMs on longer sequences, achieving 2.92x FLOPs and\n1.48x latency speedup, while attaining comparable or even superior generation\nquality to full attention. Furthermore, VMoBA exhibits competitive performance\nin training-free inference, offering 2.40x FLOPs and 1.35x latency speedup for\nhigh-res video generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.23858.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "657a6eed1ccc3c2a5ea7b585",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/RIQIF-JJdNI0SwJEq_9z7.jpeg",
+      "fullname": "Jianzong Wu",
+      "name": "jianzongwu",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 14
+    },
+    "isAuthorParticipating": false
+  }
+]
