@@ -1,0 +1,325 @@
+[
+  {
+    "paper": {
+      "id": "2506.23115",
+      "authors": [
+        {
+          "_id": "68634959588cea0da970c8a5",
+          "user": {
+            "_id": "66add675c7a575aa0e03d5f3",
+            "avatarUrl": "/avatars/b72b18130664c1de197c1f8df371aa70.svg",
+            "isPro": true,
+            "fullname": "Haonan Chen",
+            "user": "Haon-Chen",
+            "type": "user"
+          },
+          "name": "Haonan Chen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-07-01T10:13:35.715Z",
+          "hidden": false
+        },
+        {
+          "_id": "68634959588cea0da970c8a6",
+          "user": {
+            "_id": "648ba0d68e7f7a927675d4a3",
+            "avatarUrl": "/avatars/d82ced93656e03d60c8b55010694f908.svg",
+            "isPro": false,
+            "fullname": "Hong Liu",
+            "user": "hongliu9903",
+            "type": "user"
+          },
+          "name": "Hong Liu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-07-01T10:13:40.207Z",
+          "hidden": false
+        },
+        {
+          "_id": "68634959588cea0da970c8a7",
+          "user": {
+            "_id": "64ed68ce60f6345da7014b38",
+            "avatarUrl": "/avatars/adfc156482ef5570dc69329aa53975e6.svg",
+            "isPro": false,
+            "fullname": "Yuping Luo",
+            "user": "roosephu",
+            "type": "user"
+          },
+          "name": "Yuping Luo",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-07-01T10:13:37.881Z",
+          "hidden": false
+        },
+        {
+          "_id": "68634959588cea0da970c8a8",
+          "name": "Liang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68634959588cea0da970c8a9",
+          "name": "Nan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68634959588cea0da970c8aa",
+          "name": "Furu Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68634959588cea0da970c8ab",
+          "name": "Zhicheng Dou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-29T06:41:00.000Z",
+      "submittedOnDailyAt": "2025-07-02T00:57:35.541Z",
+      "title": "MoCa: Modality-aware Continual Pre-training Makes Better Bidirectional\n  Multimodal Embeddings",
+      "submittedOnDailyBy": {
+        "_id": "66add675c7a575aa0e03d5f3",
+        "avatarUrl": "/avatars/b72b18130664c1de197c1f8df371aa70.svg",
+        "isPro": true,
+        "fullname": "Haonan Chen",
+        "user": "Haon-Chen",
+        "type": "user"
+      },
+      "summary": "Multimodal embedding models, built upon causal Vision Language Models (VLMs),\nhave shown promise in various tasks. However, current approaches face three key\nlimitations: the use of causal attention in VLM backbones is suboptimal for\nembedding tasks; scalability issues due to reliance on high-quality labeled\npaired data for contrastive learning; and limited diversity in training\nobjectives and data. To address these issues, we propose MoCa, a two-stage\nframework for transforming pre-trained VLMs into effective bidirectional\nmultimodal embedding models. The first stage, Modality-aware Continual\nPre-training, introduces a joint reconstruction objective that simultaneously\ndenoises interleaved text and image inputs, enhancing bidirectional\ncontext-aware reasoning. The second stage, Heterogeneous Contrastive\nFine-tuning, leverages diverse, semantically rich multimodal data beyond simple\nimage-caption pairs to enhance generalization and alignment. Our method\naddresses the stated limitations by introducing bidirectional attention through\ncontinual pre-training, scaling effectively with massive unlabeled datasets via\njoint reconstruction objectives, and utilizing diverse multimodal data for\nenhanced representation robustness. Experiments demonstrate that MoCa\nconsistently improves performance across MMEB and ViDoRe-v2 benchmarks,\nachieving new state-of-the-art results, and exhibits strong scalability with\nboth model size and training data on MMEB.",
+      "upvotes": 12,
+      "discussionId": "6863495a588cea0da970c8ac",
+      "ai_summary": "MoCa, a two-stage framework, enhances pre-trained causal vision-language models for multimodal embedding by introducing bidirectional attention, scaling with unlabeled data, and diverse training objectives.",
+      "ai_keywords": [
+        "Vision Language Models",
+        "VLMs",
+        "bidirectional multimodal embedding models",
+        "modality-aware continual pre-training",
+        "joint reconstruction objective",
+        "heterogeneous contrastive fine-tuning",
+        "bidirectional attention",
+        "massive unlabeled datasets",
+        "MMEB",
+        "ViDoRe-v2"
+      ]
+    },
+    "publishedAt": "2025-06-29T02:41:00.000Z",
+    "title": "MoCa: Modality-aware Continual Pre-training Makes Better Bidirectional\n  Multimodal Embeddings",
+    "summary": "Multimodal embedding models, built upon causal Vision Language Models (VLMs),\nhave shown promise in various tasks. However, current approaches face three key\nlimitations: the use of causal attention in VLM backbones is suboptimal for\nembedding tasks; scalability issues due to reliance on high-quality labeled\npaired data for contrastive learning; and limited diversity in training\nobjectives and data. To address these issues, we propose MoCa, a two-stage\nframework for transforming pre-trained VLMs into effective bidirectional\nmultimodal embedding models. The first stage, Modality-aware Continual\nPre-training, introduces a joint reconstruction objective that simultaneously\ndenoises interleaved text and image inputs, enhancing bidirectional\ncontext-aware reasoning. The second stage, Heterogeneous Contrastive\nFine-tuning, leverages diverse, semantically rich multimodal data beyond simple\nimage-caption pairs to enhance generalization and alignment. Our method\naddresses the stated limitations by introducing bidirectional attention through\ncontinual pre-training, scaling effectively with massive unlabeled datasets via\njoint reconstruction objectives, and utilizing diverse multimodal data for\nenhanced representation robustness. Experiments demonstrate that MoCa\nconsistently improves performance across MMEB and ViDoRe-v2 benchmarks,\nachieving new state-of-the-art results, and exhibits strong scalability with\nboth model size and training data on MMEB.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.23115.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66add675c7a575aa0e03d5f3",
+      "avatarUrl": "/avatars/b72b18130664c1de197c1f8df371aa70.svg",
+      "fullname": "Haonan Chen",
+      "name": "Haon-Chen",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2507.00432",
+      "authors": [
+        {
+          "_id": "686490e9d59a9eda59024a64",
+          "name": "Maggie Huan",
+          "hidden": false
+        },
+        {
+          "_id": "686490e9d59a9eda59024a65",
+          "name": "Yuetai Li",
+          "hidden": false
+        },
+        {
+          "_id": "686490e9d59a9eda59024a66",
+          "name": "Tuney Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "686490e9d59a9eda59024a67",
+          "name": "Xiaoyu Xu",
+          "hidden": false
+        },
+        {
+          "_id": "686490e9d59a9eda59024a68",
+          "name": "Seungone Kim",
+          "hidden": false
+        },
+        {
+          "_id": "686490e9d59a9eda59024a69",
+          "name": "Minxin Du",
+          "hidden": false
+        },
+        {
+          "_id": "686490e9d59a9eda59024a6a",
+          "name": "Radha Poovendran",
+          "hidden": false
+        },
+        {
+          "_id": "686490e9d59a9eda59024a6b",
+          "name": "Graham Neubig",
+          "hidden": false
+        },
+        {
+          "_id": "686490e9d59a9eda59024a6c",
+          "name": "Xiang Yue",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-01T05:23:05.000Z",
+      "submittedOnDailyAt": "2025-07-02T00:24:45.275Z",
+      "title": "Does Math Reasoning Improve General LLM Capabilities? Understanding\n  Transferability of LLM Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6230d750d93e84e233882dbc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6230d750d93e84e233882dbc/4MGEekLW3oWzqeFWDWvIK.jpeg",
+        "isPro": false,
+        "fullname": "Xiang Yue",
+        "user": "yuexiang96",
+        "type": "user"
+      },
+      "summary": "Math reasoning has become the poster child of progress in large language\nmodels (LLMs), with new models rapidly surpassing human-level performance on\nbenchmarks like MATH and AIME. But as math leaderboards improve week by week,\nit is worth asking: do these gains reflect broader problem-solving ability or\njust narrow overfitting? To answer this question, we evaluate over 20\nopen-weight reasoning-tuned models across a broad suite of tasks, including\nmath, scientific QA, agent planning, coding, and standard\ninstruction-following. We surprisingly find that most models that succeed in\nmath fail to transfer their gains to other domains. To rigorously study this\nphenomenon, we conduct controlled experiments on Qwen3-14B models using\nmath-only data but different tuning methods. We find that reinforcement\nlearning (RL)-tuned models generalize well across domains, while supervised\nfine-tuning (SFT)-tuned models often forget general capabilities. Latent-space\nrepresentation and token-space distribution shift analyses reveal that SFT\ninduces substantial representation and output drift, while RL preserves\ngeneral-domain structure. Our results suggest a need to rethink standard\npost-training recipes, particularly the reliance on SFT-distilled data for\nadvancing reasoning models.",
+      "upvotes": 7,
+      "discussionId": "686490e9d59a9eda59024a6d",
+      "githubRepo": "https://github.com/ReasoningTransfer/Transferability-of-LLM-Reasoning",
+      "ai_summary": "Reinforcement learning-tuned models outperform supervised fine-tuned models in generalizing mathematical problem-solving abilities to other domains, indicating a need to re-evaluate training methods for reasoning models.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "supervised fine-tuning",
+        "latent-space representation",
+        "token-space distribution shift",
+        "general-domain structure"
+      ],
+      "githubStars": 0
+    },
+    "publishedAt": "2025-07-01T01:23:05.000Z",
+    "title": "Does Math Reasoning Improve General LLM Capabilities? Understanding\n  Transferability of LLM Reasoning",
+    "summary": "Math reasoning has become the poster child of progress in large language\nmodels (LLMs), with new models rapidly surpassing human-level performance on\nbenchmarks like MATH and AIME. But as math leaderboards improve week by week,\nit is worth asking: do these gains reflect broader problem-solving ability or\njust narrow overfitting? To answer this question, we evaluate over 20\nopen-weight reasoning-tuned models across a broad suite of tasks, including\nmath, scientific QA, agent planning, coding, and standard\ninstruction-following. We surprisingly find that most models that succeed in\nmath fail to transfer their gains to other domains. To rigorously study this\nphenomenon, we conduct controlled experiments on Qwen3-14B models using\nmath-only data but different tuning methods. We find that reinforcement\nlearning (RL)-tuned models generalize well across domains, while supervised\nfine-tuning (SFT)-tuned models often forget general capabilities. Latent-space\nrepresentation and token-space distribution shift analyses reveal that SFT\ninduces substantial representation and output drift, while RL preserves\ngeneral-domain structure. Our results suggest a need to rethink standard\npost-training recipes, particularly the reliance on SFT-distilled data for\nadvancing reasoning models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.00432.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6230d750d93e84e233882dbc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6230d750d93e84e233882dbc/4MGEekLW3oWzqeFWDWvIK.jpeg",
+      "fullname": "Xiang Yue",
+      "name": "yuexiang96",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 36
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.21277",
+      "authors": [
+        {
+          "_id": "68634a2c588cea0da970c8ae",
+          "name": "Qize Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8af",
+          "name": "Shimin Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8b0",
+          "name": "Weixuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8b1",
+          "name": "Shenghao Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8b2",
+          "name": "Detao Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8b3",
+          "name": "Jiaxing Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8b4",
+          "user": {
+            "_id": "66ef2611fcc1c455f8dce832",
+            "avatarUrl": "/avatars/c73ef2dfcd1e6ec8414a31226ad38e3b.svg",
+            "isPro": false,
+            "fullname": "Boyuan Sun",
+            "user": "BBBBCHAN",
+            "type": "user"
+          },
+          "name": "Boyuan Sun",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-07-01T10:13:33.669Z",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8b5",
+          "name": "Bowen Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8b6",
+          "name": "Xihan Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68634a2c588cea0da970c8b7",
+          "name": "Jingren Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-26T14:01:03.000Z",
+      "submittedOnDailyAt": "2025-07-02T00:57:00.933Z",
+      "title": "HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context",
+      "submittedOnDailyBy": {
+        "_id": "67067633351e0c16a5c27497",
+        "avatarUrl": "/avatars/356aa3431198c8931b820a714bcfb19d.svg",
+        "isPro": false,
+        "fullname": "Shenghao Fu",
+        "user": "fushh7",
+        "type": "user"
+      },
+      "summary": "With the rapid evolution of multimodal large language models, the capacity to\ndeeply understand and interpret human intentions has emerged as a critical\ncapability, which demands detailed and thoughtful reasoning. In recent studies,\nReinforcement Learning (RL) has demonstrated potential in enhancing the\nreasoning capabilities of Large Language Models (LLMs). Nonetheless, the\nchallenges associated with adapting RL to multimodal data and formats remain\nlargely unaddressed. In this paper, we identify two issues in existing\nmultimodal reasoning models: insufficient global context understanding and\nshortcut problems. Insufficient context understanding can happen when a model\nmisinterprets multimodal context, resulting in incorrect answers. The shortcut\nproblem occurs when the model overlooks crucial clues in multimodal inputs,\ndirectly addressing the query without considering the multimodal information.\nTo tackle these issues, we emphasize the necessity for the model to reason with\na clear understanding of the global context within multimodal inputs. This\nglobal context understanding can effectively prevent the model from overlooking\nkey multimodal cues and ensure a thorough reasoning process. To ensure the\naccurate interpretation of multimodal context information, we implement a\ncontext reward judged by a large language model, alongside format and accuracy\nrewards. Additionally, to improve complex reasoning capability, we employ the\nLLM to assess the logical reward, determining whether the reasoning process\nsuccessfully integrates multimodal information with logical methods. We also\nintroduce a reasoning omni-modal benchmark, IntentBench, aimed at evaluating\nmodels in understanding complex human intentions and emotions. Our proposed\nmethod demonstrates advanced performance across multiple omni-modal benchmarks\ncompared to other open-source omni-modal models.",
+      "upvotes": 3,
+      "discussionId": "68634a2c588cea0da970c8b8",
+      "githubRepo": "https://github.com/HumanMLLM/HumanOmniV2",
+      "ai_summary": "A reinforcement learning-based approach enhances multimodal reasoning by addressing context understanding and shortcut problems, using context, format, accuracy, and logical rewards, and achieving superior performance on the IntentBench benchmark.",
+      "ai_keywords": [
+        "Reinforcement Learning",
+        "Large Language Models",
+        "multimodal reasoning",
+        "global context understanding",
+        "shortcut problem",
+        "context reward",
+        "logical reward",
+        "IntentBench",
+        "multimodal benchmark"
+      ]
+    },
+    "publishedAt": "2025-06-26T10:01:03.000Z",
+    "title": "HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context",
+    "summary": "With the rapid evolution of multimodal large language models, the capacity to\ndeeply understand and interpret human intentions has emerged as a critical\ncapability, which demands detailed and thoughtful reasoning. In recent studies,\nReinforcement Learning (RL) has demonstrated potential in enhancing the\nreasoning capabilities of Large Language Models (LLMs). Nonetheless, the\nchallenges associated with adapting RL to multimodal data and formats remain\nlargely unaddressed. In this paper, we identify two issues in existing\nmultimodal reasoning models: insufficient global context understanding and\nshortcut problems. Insufficient context understanding can happen when a model\nmisinterprets multimodal context, resulting in incorrect answers. The shortcut\nproblem occurs when the model overlooks crucial clues in multimodal inputs,\ndirectly addressing the query without considering the multimodal information.\nTo tackle these issues, we emphasize the necessity for the model to reason with\na clear understanding of the global context within multimodal inputs. This\nglobal context understanding can effectively prevent the model from overlooking\nkey multimodal cues and ensure a thorough reasoning process. To ensure the\naccurate interpretation of multimodal context information, we implement a\ncontext reward judged by a large language model, alongside format and accuracy\nrewards. Additionally, to improve complex reasoning capability, we employ the\nLLM to assess the logical reward, determining whether the reasoning process\nsuccessfully integrates multimodal information with logical methods. We also\nintroduce a reasoning omni-modal benchmark, IntentBench, aimed at evaluating\nmodels in understanding complex human intentions and emotions. Our proposed\nmethod demonstrates advanced performance across multiple omni-modal benchmarks\ncompared to other open-source omni-modal models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.21277.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67067633351e0c16a5c27497",
+      "avatarUrl": "/avatars/356aa3431198c8931b820a714bcfb19d.svg",
+      "fullname": "Shenghao Fu",
+      "name": "fushh7",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  }
+]
