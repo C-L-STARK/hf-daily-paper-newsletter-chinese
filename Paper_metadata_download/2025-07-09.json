@@ -1,0 +1,944 @@
+[
+  {
+    "paper": {
+      "id": "2507.03112",
+      "authors": [
+        {
+          "_id": "686c8b1c364e2ad167eb53b4",
+          "name": "Peisong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53b5",
+          "name": "Ruotian Ma",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53b6",
+          "name": "Bang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53b7",
+          "name": "Xingyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53b8",
+          "name": "Zhiwei He",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53b9",
+          "name": "Kang Luo",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53ba",
+          "name": "Qingsong Lv",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53bb",
+          "name": "Qingxuan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53bc",
+          "name": "Zheng Xie",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53bd",
+          "name": "Shanyi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53be",
+          "name": "Yuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53bf",
+          "name": "Fanghua Ye",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53c0",
+          "name": "Jian Li",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53c1",
+          "name": "Yifan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53c2",
+          "name": "Zhaopeng Tu",
+          "hidden": false
+        },
+        {
+          "_id": "686c8b1c364e2ad167eb53c3",
+          "name": "Xiaolong Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-03T18:33:18.000Z",
+      "submittedOnDailyAt": "2025-07-09T01:05:45.652Z",
+      "title": "RLVER: Reinforcement Learning with Verifiable Emotion Rewards for\n  Empathetic Agents",
+      "submittedOnDailyBy": {
+        "_id": "61b859ddbdf1fac5ed499992",
+        "avatarUrl": "/avatars/2387fb9b8a46840bfc75248462f0a410.svg",
+        "isPro": false,
+        "fullname": "Jiaqi Chen",
+        "user": "judge",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) excel at logical and algorithmic reasoning, yet\ntheir emotional intelligence (EQ) still lags far behind their cognitive\nprowess. While reinforcement learning from verifiable rewards (RLVR) has\nadvanced in other domains, its application to dialogue-especially for emotional\nintelligence-remains underexplored. In this work, we introduce RLVER, the first\nend-to-end reinforcement learning framework that leverages verifiable emotion\nrewards from simulated users to cultivate higher-order empathetic abilities in\nLLMs. Within this framework, self-consistent affective simulated users engage\nin dialogue rollouts and produce deterministic emotion scores during\nconversations, serving as reward signals to guide the LLM's learning.\nFine-tuning publicly available Qwen2.5-7B-Instruct model with PPO boosts its\nSentient-Benchmark score from 13.3 to 79.2 while largely preserving\nmathematical and coding competence. Extensive experiments reveal that: (i)\nRLVER consistently improves multiple dialogue capabilities; (ii) Thinking and\nnon-thinking models show distinct trends--thinking models excel in empathy and\ninsight, while non-thinking models favor action; (iii) GRPO often yields stable\ngains, while PPO can push certain capabilities to a higher ceiling; (iv) More\nchallenging environments are not always better-moderate ones can yield stronger\noutcomes. Our results show that RLVER is a practical route toward emotionally\nintelligent and broadly capable language agents.",
+      "upvotes": 8,
+      "discussionId": "686c8b1c364e2ad167eb53c4",
+      "ai_summary": "An end-to-end reinforcement learning framework using simulated user emotion rewards enhances emotional intelligence in large language models while maintaining cognitive skills.",
+      "ai_keywords": [
+        "large language models",
+        "RLVR",
+        "RLVER",
+        "reinforcement learning",
+        "affective simulated users",
+        "dialogue rollouts",
+        "deterministic emotion scores",
+        "reward signals",
+        "fine-tuning",
+        "Qwen2.5-7B-Instruct",
+        "PPO",
+        "Sentient-Benchmark",
+        "thinking models",
+        "non-thinking models",
+        "GRPO",
+        "dialogue capabilities",
+        "empathy",
+        "insight",
+        "action",
+        "emotionally intelligent",
+        "broadly capable language agents"
+      ]
+    },
+    "publishedAt": "2025-07-03T14:33:18.000Z",
+    "title": "RLVER: Reinforcement Learning with Verifiable Emotion Rewards for\n  Empathetic Agents",
+    "summary": "Large language models (LLMs) excel at logical and algorithmic reasoning, yet\ntheir emotional intelligence (EQ) still lags far behind their cognitive\nprowess. While reinforcement learning from verifiable rewards (RLVR) has\nadvanced in other domains, its application to dialogue-especially for emotional\nintelligence-remains underexplored. In this work, we introduce RLVER, the first\nend-to-end reinforcement learning framework that leverages verifiable emotion\nrewards from simulated users to cultivate higher-order empathetic abilities in\nLLMs. Within this framework, self-consistent affective simulated users engage\nin dialogue rollouts and produce deterministic emotion scores during\nconversations, serving as reward signals to guide the LLM's learning.\nFine-tuning publicly available Qwen2.5-7B-Instruct model with PPO boosts its\nSentient-Benchmark score from 13.3 to 79.2 while largely preserving\nmathematical and coding competence. Extensive experiments reveal that: (i)\nRLVER consistently improves multiple dialogue capabilities; (ii) Thinking and\nnon-thinking models show distinct trends--thinking models excel in empathy and\ninsight, while non-thinking models favor action; (iii) GRPO often yields stable\ngains, while PPO can push certain capabilities to a higher ceiling; (iv) More\nchallenging environments are not always better-moderate ones can yield stronger\noutcomes. Our results show that RLVER is a practical route toward emotionally\nintelligent and broadly capable language agents.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.03112.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61b859ddbdf1fac5ed499992",
+      "avatarUrl": "/avatars/2387fb9b8a46840bfc75248462f0a410.svg",
+      "fullname": "Jiaqi Chen",
+      "name": "judge",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.06223",
+      "authors": [
+        {
+          "_id": "686dc72ccb5725779c60b356",
+          "name": "Zhiyuan Peng",
+          "hidden": false
+        },
+        {
+          "_id": "686dc72ccb5725779c60b357",
+          "name": "Ting-ruen Wei",
+          "hidden": false
+        },
+        {
+          "_id": "686dc72ccb5725779c60b358",
+          "name": "Tingyu Song",
+          "hidden": false
+        },
+        {
+          "_id": "686dc72ccb5725779c60b359",
+          "name": "Yilun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "686dc72ccb5725779c60b35a",
+          "name": "Yi Fang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-08T17:56:28.000Z",
+      "submittedOnDailyAt": "2025-07-09T00:20:14.472Z",
+      "title": "Efficiency-Effectiveness Reranking FLOPs for LLM-based Rerankers",
+      "submittedOnDailyBy": {
+        "_id": "64dc29d9b5d625e0e9a6ecb9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/QxGBsnk1cNsBEPqSx4ae-.jpeg",
+        "isPro": false,
+        "fullname": "Tingyu Song",
+        "user": "songtingyu",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have recently been applied to reranking tasks in\ninformation retrieval, achieving strong performance. However, their high\ncomputational demands often hinder practical deployment. Existing studies\nevaluate the efficiency of LLM-based rerankers using proxy metrics such as\nlatency, the number of forward passes, input tokens, and output tokens.\nHowever, these metrics depend on hardware and running-time choices (\\eg\nparallel or not, batch size, etc), and often fail to account for model size,\nmaking it difficult to interpret and obscuring the evaluation of the\nefficiency-effectiveness tradeoff. To address this issue, we propose\nE2R-FLOPs, for LLM-based rerankers: ranking metrics per\nPetaFLOP (RPP) for relevance per compute and queries per PetaFLOP (QPP) for\nhardware-agnostic throughput. Companied with the new metrics, an interpretable\nFLOPs estimator is built to estimate the FLOPs of an LLM-based reranker even\nwithout running any experiments. Based on the proposed metrics, we conduct\ncomprehensive experiments to evaluate a wide range of LLM-based rerankers with\ndifferent architecture, studying the efficiency-effectiveness trade-off and\nbringing this issue to the attention of the research community.",
+      "upvotes": 6,
+      "discussionId": "686dc72ccb5725779c60b35b",
+      "ai_summary": "E\\textsuperscript{2}R-FLOPs evaluates LLM-based rerankers by measuring relevance and throughput per PetaFLOP, providing a hardware-agnostic metric for efficiency and effectiveness.",
+      "ai_keywords": [
+        "E\\textsuperscript{2}R-FLOPs",
+        "ranking metrics per PetaFLOP",
+        "queries per PetaFLOP",
+        "FLOPs estimator",
+        "LLM-based rerankers",
+        "efficiency-effectiveness trade-off"
+      ]
+    },
+    "publishedAt": "2025-07-08T13:56:28.000Z",
+    "title": "Efficiency-Effectiveness Reranking FLOPs for LLM-based Rerankers",
+    "summary": "Large Language Models (LLMs) have recently been applied to reranking tasks in\ninformation retrieval, achieving strong performance. However, their high\ncomputational demands often hinder practical deployment. Existing studies\nevaluate the efficiency of LLM-based rerankers using proxy metrics such as\nlatency, the number of forward passes, input tokens, and output tokens.\nHowever, these metrics depend on hardware and running-time choices (\\eg\nparallel or not, batch size, etc), and often fail to account for model size,\nmaking it difficult to interpret and obscuring the evaluation of the\nefficiency-effectiveness tradeoff. To address this issue, we propose\nE2R-FLOPs, for LLM-based rerankers: ranking metrics per\nPetaFLOP (RPP) for relevance per compute and queries per PetaFLOP (QPP) for\nhardware-agnostic throughput. Companied with the new metrics, an interpretable\nFLOPs estimator is built to estimate the FLOPs of an LLM-based reranker even\nwithout running any experiments. Based on the proposed metrics, we conduct\ncomprehensive experiments to evaluate a wide range of LLM-based rerankers with\ndifferent architecture, studying the efficiency-effectiveness trade-off and\nbringing this issue to the attention of the research community.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.06223.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64dc29d9b5d625e0e9a6ecb9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/QxGBsnk1cNsBEPqSx4ae-.jpeg",
+      "fullname": "Tingyu Song",
+      "name": "songtingyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.05791",
+      "authors": [
+        {
+          "_id": "686dcbe6cb5725779c60b37f",
+          "name": "Yan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b380",
+          "name": "Dongxu Li",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b381",
+          "name": "Yutong Dai",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b382",
+          "name": "Yuhao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b383",
+          "name": "Ziyang Luo",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b384",
+          "name": "Zirui Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b385",
+          "name": "Zhiyuan Hu",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b386",
+          "name": "Junzhe Huang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b387",
+          "name": "Amrita Saha",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b388",
+          "name": "Zeyuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b389",
+          "name": "Ran Xu",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b38a",
+          "name": "Liyuan Pan",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b38b",
+          "name": "Caiming Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "686dcbe6cb5725779c60b38c",
+          "name": "Junnan Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-08T08:52:18.000Z",
+      "submittedOnDailyAt": "2025-07-09T00:25:26.046Z",
+      "title": "GTA1: GUI Test-time Scaling Agent",
+      "submittedOnDailyBy": {
+        "_id": "655b813476e4fad5529f3256",
+        "avatarUrl": "/avatars/73d83e45d921531f9830a0ea80f76491.svg",
+        "isPro": true,
+        "fullname": "Yan Yang",
+        "user": "HelloKKMe",
+        "type": "user"
+      },
+      "summary": "Graphical user interface (GUI) agents autonomously operate across platforms\n(e.g., Linux) to complete tasks by interacting with visual elements.\nSpecifically, a user instruction is decomposed into a sequence of action\nproposals, each corresponding to an interaction with the GUI. After each\naction, the agent observes the updated GUI environment to plan the next step.\nHowever, two main challenges arise: i) resolving ambiguity in task planning\n(i.e., the action proposal sequence), where selecting an appropriate plan is\nnon-trivial, as many valid ones may exist; ii) accurately grounding actions in\ncomplex and high-resolution interfaces, i.e., precisely interacting with visual\ntargets.\n  This paper investigates the two aforementioned challenges with our GUI\nTest-time Scaling Agent, namely GTA1. First, to select the most appropriate\naction proposal, we introduce a test-time scaling method. At each step, we\nsample multiple candidate action proposals and leverage a judge model to\nevaluate and select the most suitable one. It trades off computation for better\ndecision quality by concurrent sampling, shortening task execution steps, and\nimproving overall performance. Second, we propose a model that achieves\nimproved accuracy when grounding the selected action proposal to its\ncorresponding visual elements. Our key insight is that reinforcement learning\n(RL) facilitates visual grounding through inherent objective alignments,\nrewarding successful clicks on interface elements.\n  Experimentally, our method establishes state-of-the-art performance across\ndiverse benchmarks. For example, GTA1-7B achieves 50.1%, 92.4%, and 67.7%\naccuracies on Screenspot-Pro, Screenspot-V2, and OSWorld-G, respectively. When\npaired with a planner applying our test-time scaling strategy, it exhibits\nstate-of-the-art agentic performance (e.g., 45.2% task success rate on\nOSWorld). We open-source our code and models here.",
+      "upvotes": 6,
+      "discussionId": "686dcbe6cb5725779c60b38d",
+      "githubRepo": "https://github.com/Yan98/GTA1",
+      "ai_summary": "GTA1 addresses task planning ambiguity and visual grounding in GUI interactions using test-time scaling and reinforcement learning, achieving state-of-the-art performance across benchmarks.",
+      "ai_keywords": [
+        "GUI",
+        "test-time scaling",
+        "action proposals",
+        "judge model",
+        "reinforcement learning",
+        "visual grounding",
+        "task planning",
+        "state-of-the-art",
+        "Screenspot-Pro",
+        "Screenspot-V2",
+        "OSWorld-G",
+        "task success rate"
+      ],
+      "githubStars": 22
+    },
+    "publishedAt": "2025-07-08T04:52:18.000Z",
+    "title": "GTA1: GUI Test-time Scaling Agent",
+    "summary": "Graphical user interface (GUI) agents autonomously operate across platforms\n(e.g., Linux) to complete tasks by interacting with visual elements.\nSpecifically, a user instruction is decomposed into a sequence of action\nproposals, each corresponding to an interaction with the GUI. After each\naction, the agent observes the updated GUI environment to plan the next step.\nHowever, two main challenges arise: i) resolving ambiguity in task planning\n(i.e., the action proposal sequence), where selecting an appropriate plan is\nnon-trivial, as many valid ones may exist; ii) accurately grounding actions in\ncomplex and high-resolution interfaces, i.e., precisely interacting with visual\ntargets.\n  This paper investigates the two aforementioned challenges with our GUI\nTest-time Scaling Agent, namely GTA1. First, to select the most appropriate\naction proposal, we introduce a test-time scaling method. At each step, we\nsample multiple candidate action proposals and leverage a judge model to\nevaluate and select the most suitable one. It trades off computation for better\ndecision quality by concurrent sampling, shortening task execution steps, and\nimproving overall performance. Second, we propose a model that achieves\nimproved accuracy when grounding the selected action proposal to its\ncorresponding visual elements. Our key insight is that reinforcement learning\n(RL) facilitates visual grounding through inherent objective alignments,\nrewarding successful clicks on interface elements.\n  Experimentally, our method establishes state-of-the-art performance across\ndiverse benchmarks. For example, GTA1-7B achieves 50.1%, 92.4%, and 67.7%\naccuracies on Screenspot-Pro, Screenspot-V2, and OSWorld-G, respectively. When\npaired with a planner applying our test-time scaling strategy, it exhibits\nstate-of-the-art agentic performance (e.g., 45.2% task success rate on\nOSWorld). We open-source our code and models here.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.05791.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "655b813476e4fad5529f3256",
+      "avatarUrl": "/avatars/73d83e45d921531f9830a0ea80f76491.svg",
+      "fullname": "Yan Yang",
+      "name": "HelloKKMe",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 16
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.03698",
+      "authors": [
+        {
+          "_id": "686dc7ebcb5725779c60b35d",
+          "name": "Zhiling Yan",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b35e",
+          "name": "Sifan Song",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b35f",
+          "name": "Dingjie Song",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b360",
+          "name": "Yiwei Li",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b361",
+          "name": "Rong Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b362",
+          "name": "Weixiang Sun",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b363",
+          "name": "Zhennong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b364",
+          "name": "Sekeun Kim",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b365",
+          "name": "Hui Ren",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b366",
+          "name": "Tianming Liu",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b367",
+          "name": "Quanzheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b368",
+          "name": "Xiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b369",
+          "name": "Lifang He",
+          "hidden": false
+        },
+        {
+          "_id": "686dc7ebcb5725779c60b36a",
+          "name": "Lichao Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-04T16:30:38.000Z",
+      "submittedOnDailyAt": "2025-07-09T00:08:40.667Z",
+      "title": "SAMed-2: Selective Memory Enhanced Medical Segment Anything Model",
+      "submittedOnDailyBy": {
+        "_id": "619f01b8cc04eadf54fa5d5d",
+        "avatarUrl": "/avatars/928f3d1a6146e2e1ae4860445d929d5c.svg",
+        "isPro": false,
+        "fullname": "Song Dingjie",
+        "user": "songdj",
+        "type": "user"
+      },
+      "summary": "Recent \"segment anything\" efforts show promise by learning from large-scale\ndata, but adapting such models directly to medical images remains challenging\ndue to the complexity of medical data, noisy annotations, and continual\nlearning requirements across diverse modalities and anatomical structures. In\nthis work, we propose SAMed-2, a new foundation model for medical image\nsegmentation built upon the SAM-2 architecture. Specifically, we introduce a\ntemporal adapter into the image encoder to capture image correlations and a\nconfidence-driven memory mechanism to store high-certainty features for later\nretrieval. This memory-based strategy counters the pervasive noise in\nlarge-scale medical datasets and mitigates catastrophic forgetting when\nencountering new tasks or modalities. To train and evaluate SAMed-2, we curate\nMedBank-100k, a comprehensive dataset spanning seven imaging modalities and 21\nmedical segmentation tasks. Our experiments on both internal benchmarks and 10\nexternal datasets demonstrate superior performance over state-of-the-art\nbaselines in multi-task scenarios. The code is available at:\nhttps://github.com/ZhilingYan/Medical-SAM-Bench.",
+      "upvotes": 6,
+      "discussionId": "686dc7eccb5725779c60b36b",
+      "ai_summary": "SAMed-2, an adaptation of SAM-2 for medical image segmentation, incorporates a temporal adapter and confidence-driven memory to improve performance across diverse medical datasets and tasks.",
+      "ai_keywords": [
+        "SAM-2",
+        "temporal adapter",
+        "confidence-driven memory",
+        "MedBank-100k",
+        "medical segmentation",
+        "catastrophic forgetting",
+        "multi-task scenarios"
+      ]
+    },
+    "publishedAt": "2025-07-04T12:30:38.000Z",
+    "title": "SAMed-2: Selective Memory Enhanced Medical Segment Anything Model",
+    "summary": "Recent \"segment anything\" efforts show promise by learning from large-scale\ndata, but adapting such models directly to medical images remains challenging\ndue to the complexity of medical data, noisy annotations, and continual\nlearning requirements across diverse modalities and anatomical structures. In\nthis work, we propose SAMed-2, a new foundation model for medical image\nsegmentation built upon the SAM-2 architecture. Specifically, we introduce a\ntemporal adapter into the image encoder to capture image correlations and a\nconfidence-driven memory mechanism to store high-certainty features for later\nretrieval. This memory-based strategy counters the pervasive noise in\nlarge-scale medical datasets and mitigates catastrophic forgetting when\nencountering new tasks or modalities. To train and evaluate SAMed-2, we curate\nMedBank-100k, a comprehensive dataset spanning seven imaging modalities and 21\nmedical segmentation tasks. Our experiments on both internal benchmarks and 10\nexternal datasets demonstrate superior performance over state-of-the-art\nbaselines in multi-task scenarios. The code is available at:\nhttps://github.com/ZhilingYan/Medical-SAM-Bench.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.03698.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "619f01b8cc04eadf54fa5d5d",
+      "avatarUrl": "/avatars/928f3d1a6146e2e1ae4860445d929d5c.svg",
+      "fullname": "Song Dingjie",
+      "name": "songdj",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.06181",
+      "authors": [
+        {
+          "_id": "686dcc36cb5725779c60b393",
+          "name": "Zhongyuan Peng",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b394",
+          "name": "Yifan Yao",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b395",
+          "name": "Kaijing Ma",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b396",
+          "name": "Shuyue Guo",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b397",
+          "name": "Yizhe Li",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b398",
+          "name": "Yichi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b399",
+          "name": "Chenchen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b39a",
+          "name": "Yifan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b39b",
+          "name": "Zhouliang Yu",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b39c",
+          "name": "Luming Li",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b39d",
+          "name": "Minghao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b39e",
+          "name": "Yihang Xia",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b39f",
+          "name": "Jiawei Shen",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b3a0",
+          "name": "Yuchen Wu",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b3a1",
+          "name": "Yixin Cao",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b3a2",
+          "name": "Zhaoxiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b3a3",
+          "name": "Wenhao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b3a4",
+          "name": "Jiaheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc36cb5725779c60b3a5",
+          "name": "Ge Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-08T17:03:39.000Z",
+      "submittedOnDailyAt": "2025-07-09T00:45:12.634Z",
+      "title": "CriticLean: Critic-Guided Reinforcement Learning for Mathematical\n  Formalization",
+      "submittedOnDailyBy": {
+        "_id": "63299f93688ad82b783aaf20",
+        "avatarUrl": "/avatars/7c11e60e551ef1c62aa2862529e357f5.svg",
+        "isPro": false,
+        "fullname": "zhongyuan peng",
+        "user": "happzy2633",
+        "type": "user"
+      },
+      "summary": "Translating natural language mathematical statements into formal, executable\ncode is a fundamental challenge in automated theorem proving. While prior work\nhas focused on generation and compilation success, little attention has been\npaid to the critic phase-the evaluation of whether generated formalizations\ntruly capture the semantic intent of the original problem. In this paper, we\nintroduce CriticLean, a novel critic-guided reinforcement learning framework\nthat elevates the role of the critic from a passive validator to an active\nlearning component. Specifically, first, we propose the CriticLeanGPT, trained\nvia supervised fine-tuning and reinforcement learning, to rigorously assess the\nsemantic fidelity of Lean 4 formalizations. Then, we introduce CriticLeanBench,\na benchmark designed to measure models' ability to distinguish semantically\ncorrect from incorrect formalizations, and demonstrate that our trained\nCriticLeanGPT models can significantly outperform strong open- and\nclosed-source baselines. Building on the CriticLean framework, we construct\nFineLeanCorpus, a dataset comprising over 285K problems that exhibits rich\ndomain diversity, broad difficulty coverage, and high correctness based on\nhuman evaluation. Overall, our findings highlight that optimizing the critic\nphase is essential for producing reliable formalizations, and we hope our\nCriticLean will provide valuable insights for future advances in formal\nmathematical reasoning.",
+      "upvotes": 4,
+      "discussionId": "686dcc36cb5725779c60b3a6",
+      "githubRepo": "https://github.com/multimodal-art-projection/CriticLean",
+      "ai_summary": "CriticLean, a reinforcement learning framework with CriticLeanGPT and CriticLeanBench, enhances semantic evaluation in automated theorem proving by actively learning to distinguish correct from incorrect formalizations.",
+      "ai_keywords": [
+        "critic phase",
+        "reinforcement learning",
+        "CriticLeanGPT",
+        "supervised fine-tuning",
+        "semantic fidelity",
+        "Lean 4 formalizations",
+        "CriticLeanBench",
+        "FineLeanCorpus",
+        "formal mathematical reasoning"
+      ]
+    },
+    "publishedAt": "2025-07-08T13:03:39.000Z",
+    "title": "CriticLean: Critic-Guided Reinforcement Learning for Mathematical\n  Formalization",
+    "summary": "Translating natural language mathematical statements into formal, executable\ncode is a fundamental challenge in automated theorem proving. While prior work\nhas focused on generation and compilation success, little attention has been\npaid to the critic phase-the evaluation of whether generated formalizations\ntruly capture the semantic intent of the original problem. In this paper, we\nintroduce CriticLean, a novel critic-guided reinforcement learning framework\nthat elevates the role of the critic from a passive validator to an active\nlearning component. Specifically, first, we propose the CriticLeanGPT, trained\nvia supervised fine-tuning and reinforcement learning, to rigorously assess the\nsemantic fidelity of Lean 4 formalizations. Then, we introduce CriticLeanBench,\na benchmark designed to measure models' ability to distinguish semantically\ncorrect from incorrect formalizations, and demonstrate that our trained\nCriticLeanGPT models can significantly outperform strong open- and\nclosed-source baselines. Building on the CriticLean framework, we construct\nFineLeanCorpus, a dataset comprising over 285K problems that exhibits rich\ndomain diversity, broad difficulty coverage, and high correctness based on\nhuman evaluation. Overall, our findings highlight that optimizing the critic\nphase is essential for producing reliable formalizations, and we hope our\nCriticLean will provide valuable insights for future advances in formal\nmathematical reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.06181.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63299f93688ad82b783aaf20",
+      "avatarUrl": "/avatars/7c11e60e551ef1c62aa2862529e357f5.svg",
+      "fullname": "zhongyuan peng",
+      "name": "happzy2633",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 17
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.05101",
+      "authors": [
+        {
+          "_id": "686dc2d1cb5725779c60b342",
+          "name": "Xinzhe Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b343",
+          "name": "Hao Du",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b344",
+          "name": "Fanding Xu",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b345",
+          "name": "Jinzhe Li",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b346",
+          "name": "Zhiyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b347",
+          "name": "Wenkang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b348",
+          "name": "Tao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b349",
+          "name": "Wanli Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b34a",
+          "name": "Stan Z. Li",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b34b",
+          "name": "Yan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b34c",
+          "name": "Nanqing Dong",
+          "hidden": false
+        },
+        {
+          "_id": "686dc2d1cb5725779c60b34d",
+          "name": "Yang Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-07T15:21:05.000Z",
+      "submittedOnDailyAt": "2025-07-09T01:01:03.312Z",
+      "title": "PRING: Rethinking Protein-Protein Interaction Prediction from Pairs to\n  Graphs",
+      "submittedOnDailyBy": {
+        "_id": "6310a3cd531cc21f9e06de6a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6310a3cd531cc21f9e06de6a/aTGMx3O41lUARK9s3dAik.jpeg",
+        "isPro": false,
+        "fullname": "Zhiyuan Liu",
+        "user": "acharkq",
+        "type": "user"
+      },
+      "summary": "Deep learning-based computational methods have achieved promising results in\npredicting protein-protein interactions (PPIs). However, existing benchmarks\npredominantly focus on isolated pairwise evaluations, overlooking a model's\ncapability to reconstruct biologically meaningful PPI networks, which is\ncrucial for biology research. To address this gap, we introduce PRING, the\nfirst comprehensive benchmark that evaluates protein-protein interaction\nprediction from a graph-level perspective. PRING curates a high-quality,\nmulti-species PPI network dataset comprising 21,484 proteins and 186,818\ninteractions, with well-designed strategies to address both data redundancy and\nleakage. Building on this golden-standard dataset, we establish two\ncomplementary evaluation paradigms: (1) topology-oriented tasks, which assess\nintra and cross-species PPI network construction, and (2) function-oriented\ntasks, including protein complex pathway prediction, GO module analysis, and\nessential protein justification. These evaluations not only reflect the model's\ncapability to understand the network topology but also facilitate protein\nfunction annotation, biological module detection, and even disease mechanism\nanalysis. Extensive experiments on four representative model categories,\nconsisting of sequence similarity-based, naive sequence-based, protein language\nmodel-based, and structure-based approaches, demonstrate that current PPI\nmodels have potential limitations in recovering both structural and functional\nproperties of PPI networks, highlighting the gap in supporting real-world\nbiological applications. We believe PRING provides a reliable platform to guide\nthe development of more effective PPI prediction models for the community. The\ndataset and source code of PRING are available at\nhttps://github.com/SophieSarceau/PRING.",
+      "upvotes": 4,
+      "discussionId": "686dc2d1cb5725779c60b34e"
+    },
+    "publishedAt": "2025-07-07T11:21:05.000Z",
+    "title": "PRING: Rethinking Protein-Protein Interaction Prediction from Pairs to\n  Graphs",
+    "summary": "Deep learning-based computational methods have achieved promising results in\npredicting protein-protein interactions (PPIs). However, existing benchmarks\npredominantly focus on isolated pairwise evaluations, overlooking a model's\ncapability to reconstruct biologically meaningful PPI networks, which is\ncrucial for biology research. To address this gap, we introduce PRING, the\nfirst comprehensive benchmark that evaluates protein-protein interaction\nprediction from a graph-level perspective. PRING curates a high-quality,\nmulti-species PPI network dataset comprising 21,484 proteins and 186,818\ninteractions, with well-designed strategies to address both data redundancy and\nleakage. Building on this golden-standard dataset, we establish two\ncomplementary evaluation paradigms: (1) topology-oriented tasks, which assess\nintra and cross-species PPI network construction, and (2) function-oriented\ntasks, including protein complex pathway prediction, GO module analysis, and\nessential protein justification. These evaluations not only reflect the model's\ncapability to understand the network topology but also facilitate protein\nfunction annotation, biological module detection, and even disease mechanism\nanalysis. Extensive experiments on four representative model categories,\nconsisting of sequence similarity-based, naive sequence-based, protein language\nmodel-based, and structure-based approaches, demonstrate that current PPI\nmodels have potential limitations in recovering both structural and functional\nproperties of PPI networks, highlighting the gap in supporting real-world\nbiological applications. We believe PRING provides a reliable platform to guide\nthe development of more effective PPI prediction models for the community. The\ndataset and source code of PRING are available at\nhttps://github.com/SophieSarceau/PRING.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.05101.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6310a3cd531cc21f9e06de6a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6310a3cd531cc21f9e06de6a/aTGMx3O41lUARK9s3dAik.jpeg",
+      "fullname": "Zhiyuan Liu",
+      "name": "acharkq",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.06219",
+      "authors": [
+        {
+          "_id": "686dcc7fcb5725779c60b3a8",
+          "name": "Modi Shi",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3a9",
+          "name": "Li Chen",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3aa",
+          "name": "Jin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3ab",
+          "name": "Yuxiang Lu",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3ac",
+          "name": "Chiming Liu",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3ad",
+          "name": "Guanghui Ren",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3ae",
+          "name": "Ping Luo",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3af",
+          "name": "Di Huang",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3b0",
+          "name": "Maoqing Yao",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc7fcb5725779c60b3b1",
+          "name": "Hongyang Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-08T17:52:44.000Z",
+      "submittedOnDailyAt": "2025-07-09T00:29:16.132Z",
+      "title": "Is Diversity All You Need for Scalable Robotic Manipulation?",
+      "submittedOnDailyBy": {
+        "_id": "64b8faeb8b53fb5dbdfecae5",
+        "avatarUrl": "/avatars/9f5919600ee69c38be896dd959bb8724.svg",
+        "isPro": false,
+        "fullname": "Yuxiang Lu",
+        "user": "yxlu0",
+        "type": "user"
+      },
+      "summary": "Data scaling has driven remarkable success in foundation models for Natural\nLanguage Processing (NLP) and Computer Vision (CV), yet the principles of\neffective data scaling in robotic manipulation remain insufficiently\nunderstood. In this work, we investigate the nuanced role of data diversity in\nrobot learning by examining three critical dimensions-task (what to do),\nembodiment (which robot to use), and expert (who demonstrates)-challenging the\nconventional intuition of \"more diverse is better\". Throughout extensive\nexperiments on various robot platforms, we reveal that (1) task diversity\nproves more critical than per-task demonstration quantity, benefiting transfer\nfrom diverse pre-training tasks to novel downstream scenarios; (2)\nmulti-embodiment pre-training data is optional for cross-embodiment\ntransfer-models trained on high-quality single-embodiment data can efficiently\ntransfer to different platforms, showing more desirable scaling property during\nfine-tuning than multi-embodiment pre-trained models; and (3) expert diversity,\narising from individual operational preferences and stochastic variations in\nhuman demonstrations, can be confounding to policy learning, with velocity\nmultimodality emerging as a key contributing factor. Based on this insight, we\npropose a distribution debiasing method to mitigate velocity ambiguity, the\nyielding GO-1-Pro achieves substantial performance gains of 15%, equivalent to\nusing 2.5 times pre-training data. Collectively, these findings provide new\nperspectives and offer practical guidance on how to scale robotic manipulation\ndatasets effectively.",
+      "upvotes": 2,
+      "discussionId": "686dcc7fcb5725779c60b3b2",
+      "ai_summary": "Investigation into data diversity in robotic manipulation reveals that task diversity is crucial, multi-embodiment data is optional, and expert diversity can be confounding, leading to a distribution debiasing method for improved performance.",
+      "ai_keywords": [
+        "task diversity",
+        "embodiment",
+        "expert diversity",
+        "multi-embodiment pre-training",
+        "cross-embodiment transfer",
+        "policy learning",
+        "distribution debiasing"
+      ]
+    },
+    "publishedAt": "2025-07-08T13:52:44.000Z",
+    "title": "Is Diversity All You Need for Scalable Robotic Manipulation?",
+    "summary": "Data scaling has driven remarkable success in foundation models for Natural\nLanguage Processing (NLP) and Computer Vision (CV), yet the principles of\neffective data scaling in robotic manipulation remain insufficiently\nunderstood. In this work, we investigate the nuanced role of data diversity in\nrobot learning by examining three critical dimensions-task (what to do),\nembodiment (which robot to use), and expert (who demonstrates)-challenging the\nconventional intuition of \"more diverse is better\". Throughout extensive\nexperiments on various robot platforms, we reveal that (1) task diversity\nproves more critical than per-task demonstration quantity, benefiting transfer\nfrom diverse pre-training tasks to novel downstream scenarios; (2)\nmulti-embodiment pre-training data is optional for cross-embodiment\ntransfer-models trained on high-quality single-embodiment data can efficiently\ntransfer to different platforms, showing more desirable scaling property during\nfine-tuning than multi-embodiment pre-trained models; and (3) expert diversity,\narising from individual operational preferences and stochastic variations in\nhuman demonstrations, can be confounding to policy learning, with velocity\nmultimodality emerging as a key contributing factor. Based on this insight, we\npropose a distribution debiasing method to mitigate velocity ambiguity, the\nyielding GO-1-Pro achieves substantial performance gains of 15%, equivalent to\nusing 2.5 times pre-training data. Collectively, these findings provide new\nperspectives and offer practical guidance on how to scale robotic manipulation\ndatasets effectively.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.06219.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64b8faeb8b53fb5dbdfecae5",
+      "avatarUrl": "/avatars/9f5919600ee69c38be896dd959bb8724.svg",
+      "fullname": "Yuxiang Lu",
+      "name": "yxlu0",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.04610",
+      "authors": [
+        {
+          "_id": "686dcc0bcb5725779c60b38f",
+          "name": "Mostafa Elhoushi",
+          "hidden": false
+        },
+        {
+          "_id": "686dcc0bcb5725779c60b390",
+          "name": "Jeff Johnson",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-07T01:59:47.000Z",
+      "submittedOnDailyAt": "2025-07-09T00:32:16.318Z",
+      "title": "any4: Learned 4-bit Numeric Representation for LLMs",
+      "submittedOnDailyBy": {
+        "_id": "63c9725ebedad7e2bf160bdc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63c9725ebedad7e2bf160bdc/wzPuyhOXCYBNGwZDshbnL.jpeg",
+        "isPro": false,
+        "fullname": "Mostafa Elhoushi",
+        "user": "melhoushi",
+        "type": "user"
+      },
+      "summary": "We present any4, a learned 4-bit weight quantization solution for large\nlanguage models (LLMs) providing arbitrary numeric representations without\nrequiring pre-processing of weights or activations. any4 yields higher accuracy\ncompared to other related 4-bit numeric representation types: int4, fp4 and\nnf4, as evaluated on a range of model sizes, generations and families (Llama 2,\nLlama 3, Mistral and Mixtral). While any4 does not require preprocessing of\nweights or activations, it is also competitive with orthogonal techniques that\nrequire such preprocessing (e.g., AWQ and GPTQ). We also experiment with any3\nand any2 and show competitiveness at lower bits. Additionally, we show that we\ncan calibrate using a single curated diverse sample rather than hundreds of\nsamples from a dataset as done in most quantization approaches. We also open\nsource tinygemm, a latency optimized GPU matrix multiplication library for\nLLMs, that implements any4 using a GPU-efficient lookup table strategy along\nwith other common quantization methods. We open source our code at\nhttps://github.com/facebookresearch/any4 .",
+      "upvotes": 2,
+      "discussionId": "686dcc0ccb5725779c60b391",
+      "githubRepo": "https://github.com/facebookresearch/any4",
+      "ai_summary": "any4 is a learned 4-bit weight quantization method for LLMs that achieves high accuracy without preprocessing and uses a GPU-efficient lookup table strategy.",
+      "ai_keywords": [
+        "weight quantization",
+        "LLMs",
+        "int4",
+        "fp4",
+        "nf4",
+        "AWQ",
+        "GPTQ",
+        "calibration",
+        "GPU matrix multiplication",
+        "lookup table strategy"
+      ],
+      "githubStars": 15
+    },
+    "publishedAt": "2025-07-06T21:59:47.000Z",
+    "title": "any4: Learned 4-bit Numeric Representation for LLMs",
+    "summary": "We present any4, a learned 4-bit weight quantization solution for large\nlanguage models (LLMs) providing arbitrary numeric representations without\nrequiring pre-processing of weights or activations. any4 yields higher accuracy\ncompared to other related 4-bit numeric representation types: int4, fp4 and\nnf4, as evaluated on a range of model sizes, generations and families (Llama 2,\nLlama 3, Mistral and Mixtral). While any4 does not require preprocessing of\nweights or activations, it is also competitive with orthogonal techniques that\nrequire such preprocessing (e.g., AWQ and GPTQ). We also experiment with any3\nand any2 and show competitiveness at lower bits. Additionally, we show that we\ncan calibrate using a single curated diverse sample rather than hundreds of\nsamples from a dataset as done in most quantization approaches. We also open\nsource tinygemm, a latency optimized GPU matrix multiplication library for\nLLMs, that implements any4 using a GPU-efficient lookup table strategy along\nwith other common quantization methods. We open source our code at\nhttps://github.com/facebookresearch/any4 .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.04610.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63c9725ebedad7e2bf160bdc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63c9725ebedad7e2bf160bdc/wzPuyhOXCYBNGwZDshbnL.jpeg",
+      "fullname": "Mostafa Elhoushi",
+      "name": "melhoushi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 34
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.05578",
+      "authors": [
+        {
+          "_id": "686dca00cb5725779c60b379",
+          "name": "Alexander Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "686dca00cb5725779c60b37a",
+          "name": "Xuandong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "686dca00cb5725779c60b37b",
+          "name": "Aneesh Pappu",
+          "hidden": false
+        },
+        {
+          "_id": "686dca00cb5725779c60b37c",
+          "name": "Dawn Song",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-08T01:30:46.000Z",
+      "submittedOnDailyAt": "2025-07-09T00:17:12.585Z",
+      "title": "The Landscape of Memorization in LLMs: Mechanisms, Measurement, and\n  Mitigation",
+      "submittedOnDailyBy": {
+        "_id": "6275a465597c70eb8949fce5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6275a465597c70eb8949fce5/ph4UogqMurMB0hSXZC38w.png",
+        "isPro": false,
+        "fullname": "Xuandong Zhao",
+        "user": "Xuandong",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across\na wide range of tasks, yet they also exhibit memorization of their training\ndata. This phenomenon raises critical questions about model behavior, privacy\nrisks, and the boundary between learning and memorization. Addressing these\nconcerns, this paper synthesizes recent studies and investigates the landscape\nof memorization, the factors influencing it, and methods for its detection and\nmitigation. We explore key drivers, including training data duplication,\ntraining dynamics, and fine-tuning procedures that influence data memorization.\nIn addition, we examine methodologies such as prefix-based extraction,\nmembership inference, and adversarial prompting, assessing their effectiveness\nin detecting and measuring memorized content. Beyond technical analysis, we\nalso explore the broader implications of memorization, including the legal and\nethical implications. Finally, we discuss mitigation strategies, including data\ncleaning, differential privacy, and post-training unlearning, while\nhighlighting open challenges in balancing the minimization of harmful\nmemorization with utility. This paper provides a comprehensive overview of the\ncurrent state of research on LLM memorization across technical, privacy, and\nperformance dimensions, identifying critical directions for future work.",
+      "upvotes": 1,
+      "discussionId": "686dca01cb5725779c60b37d",
+      "ai_summary": "The paper reviews recent studies on memorization in Large Language Models, exploring factors that influence memorization, detection methodologies, and mitigation strategies, while addressing privacy and ethical implications.",
+      "ai_keywords": [
+        "Large Language Models",
+        "memorization",
+        "training data duplication",
+        "training dynamics",
+        "fine-tuning procedures",
+        "prefix-based extraction",
+        "membership inference",
+        "adversarial prompting",
+        "data cleaning",
+        "differential privacy",
+        "post-training unlearning"
+      ]
+    },
+    "publishedAt": "2025-07-07T21:30:46.000Z",
+    "title": "The Landscape of Memorization in LLMs: Mechanisms, Measurement, and\n  Mitigation",
+    "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across\na wide range of tasks, yet they also exhibit memorization of their training\ndata. This phenomenon raises critical questions about model behavior, privacy\nrisks, and the boundary between learning and memorization. Addressing these\nconcerns, this paper synthesizes recent studies and investigates the landscape\nof memorization, the factors influencing it, and methods for its detection and\nmitigation. We explore key drivers, including training data duplication,\ntraining dynamics, and fine-tuning procedures that influence data memorization.\nIn addition, we examine methodologies such as prefix-based extraction,\nmembership inference, and adversarial prompting, assessing their effectiveness\nin detecting and measuring memorized content. Beyond technical analysis, we\nalso explore the broader implications of memorization, including the legal and\nethical implications. Finally, we discuss mitigation strategies, including data\ncleaning, differential privacy, and post-training unlearning, while\nhighlighting open challenges in balancing the minimization of harmful\nmemorization with utility. This paper provides a comprehensive overview of the\ncurrent state of research on LLM memorization across technical, privacy, and\nperformance dimensions, identifying critical directions for future work.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.05578.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6275a465597c70eb8949fce5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6275a465597c70eb8949fce5/ph4UogqMurMB0hSXZC38w.png",
+      "fullname": "Xuandong Zhao",
+      "name": "Xuandong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  }
+]
