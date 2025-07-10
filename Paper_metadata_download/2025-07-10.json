@@ -1,0 +1,617 @@
+[
+  {
+    "paper": {
+      "id": "2507.06804",
+      "authors": [
+        {
+          "_id": "686f1f4dd938c25d68441b24",
+          "name": "Zhenwen Liang",
+          "hidden": false
+        },
+        {
+          "_id": "686f1f4dd938c25d68441b25",
+          "name": "Linfeng Song",
+          "hidden": false
+        },
+        {
+          "_id": "686f1f4dd938c25d68441b26",
+          "name": "Yang Li",
+          "hidden": false
+        },
+        {
+          "_id": "686f1f4dd938c25d68441b27",
+          "name": "Tao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "686f1f4dd938c25d68441b28",
+          "name": "Feng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686f1f4dd938c25d68441b29",
+          "name": "Haitao Mi",
+          "hidden": false
+        },
+        {
+          "_id": "686f1f4dd938c25d68441b2a",
+          "name": "Dong Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-07T22:38:49.000Z",
+      "submittedOnDailyAt": "2025-07-10T00:33:32.493Z",
+      "title": "Towards Solving More Challenging IMO Problems via Decoupled Reasoning\n  and Proving",
+      "submittedOnDailyBy": {
+        "_id": "62ffa3f8311cad266f9af236",
+        "avatarUrl": "/avatars/203dac40bc546ee25a01d8715a4b3049.svg",
+        "isPro": false,
+        "fullname": "Zhenwen Liang",
+        "user": "invokerliang",
+        "type": "user"
+      },
+      "summary": "Automated Theorem Proving (ATP) in formal languages is a foundational\nchallenge for AI. While Large Language Models (LLMs) have driven remarkable\nprogress, a significant gap remains between their powerful informal reasoning\ncapabilities and their weak formal proving performance. Recent studies show\nthat the informal accuracy exceeds 80% while formal success remains below 8% on\nbenchmarks like PutnamBench. We argue this gap persists because current\nstate-of-the-art provers, by tightly coupling reasoning and proving, are\ntrained with paradigms that inadvertently punish deep reasoning in favor of\nshallow, tactic-based strategies. To bridge this fundamental gap, we propose a\nnovel framework that decouples high-level reasoning from low-level proof\ngeneration. Our approach utilizes two distinct, specialized models: a powerful,\ngeneral-purpose Reasoner to generate diverse, strategic subgoal lemmas, and an\nefficient Prover to rigorously verify them. This modular design liberates the\nmodel's full reasoning potential and bypasses the pitfalls of end-to-end\ntraining. We evaluate our method on a challenging set of post-2000 IMO\nproblems, a problem set on which no prior open-source prover has reported\nsuccess. Our decoupled framework successfully solves 5 of these problems,\ndemonstrating a significant step towards automated reasoning on exceptionally\ndifficult mathematical challenges. To foster future research, we release our\nfull dataset of generated and verified lemmas for a wide range of IMO problems,\navailable at https://tencent-imo.github.io/ .",
+      "upvotes": 4,
+      "discussionId": "686f1f4ed938c25d68441b2b",
+      "ai_summary": "A novel framework decouples reasoning and proving in ATP to improve formal proving performance, achieving success on challenging IMO problems.",
+      "ai_keywords": [
+        "Automated Theorem Proving",
+        "Large Language Models",
+        "formal proving",
+        "informal reasoning",
+        "PutnamBench",
+        "subgoal lemmas",
+        "Reasoner",
+        "Prover",
+        "modular design",
+        "end-to-end training",
+        "IMO problems"
+      ]
+    },
+    "publishedAt": "2025-07-07T18:38:49.000Z",
+    "title": "Towards Solving More Challenging IMO Problems via Decoupled Reasoning\n  and Proving",
+    "summary": "Automated Theorem Proving (ATP) in formal languages is a foundational\nchallenge for AI. While Large Language Models (LLMs) have driven remarkable\nprogress, a significant gap remains between their powerful informal reasoning\ncapabilities and their weak formal proving performance. Recent studies show\nthat the informal accuracy exceeds 80% while formal success remains below 8% on\nbenchmarks like PutnamBench. We argue this gap persists because current\nstate-of-the-art provers, by tightly coupling reasoning and proving, are\ntrained with paradigms that inadvertently punish deep reasoning in favor of\nshallow, tactic-based strategies. To bridge this fundamental gap, we propose a\nnovel framework that decouples high-level reasoning from low-level proof\ngeneration. Our approach utilizes two distinct, specialized models: a powerful,\ngeneral-purpose Reasoner to generate diverse, strategic subgoal lemmas, and an\nefficient Prover to rigorously verify them. This modular design liberates the\nmodel's full reasoning potential and bypasses the pitfalls of end-to-end\ntraining. We evaluate our method on a challenging set of post-2000 IMO\nproblems, a problem set on which no prior open-source prover has reported\nsuccess. Our decoupled framework successfully solves 5 of these problems,\ndemonstrating a significant step towards automated reasoning on exceptionally\ndifficult mathematical challenges. To foster future research, we release our\nfull dataset of generated and verified lemmas for a wide range of IMO problems,\navailable at https://tencent-imo.github.io/ .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.06804.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62ffa3f8311cad266f9af236",
+      "avatarUrl": "/avatars/203dac40bc546ee25a01d8715a4b3049.svg",
+      "fullname": "Zhenwen Liang",
+      "name": "invokerliang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.05687",
+      "authors": [
+        {
+          "_id": "686e2c00a5f0f70d9de40c8c",
+          "name": "Shangzhan Li",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c8d",
+          "name": "Zefan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c8e",
+          "name": "Ye He",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c8f",
+          "name": "Yuxuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c90",
+          "user": {
+            "_id": "62ccd26d376917c022420a46",
+            "avatarUrl": "/avatars/629858b1c7419dbcdbead3484a36abd1.svg",
+            "isPro": false,
+            "fullname": "Qi Shi",
+            "user": "qshi",
+            "type": "user"
+          },
+          "name": "Qi Shi",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-07-09T08:49:03.237Z",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c91",
+          "name": "Jianling Li",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c92",
+          "name": "Yonggang Hu",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c93",
+          "name": "Wanxiang Che",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c94",
+          "name": "Xu Han",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c95",
+          "name": "Zhiyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "686e2c00a5f0f70d9de40c96",
+          "name": "Maosong Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-08T05:38:24.000Z",
+      "submittedOnDailyAt": "2025-07-10T00:44:20.590Z",
+      "title": "AutoTriton: Automatic Triton Programming with Reinforcement Learning in\n  LLMs",
+      "submittedOnDailyBy": {
+        "_id": "62ccd26d376917c022420a46",
+        "avatarUrl": "/avatars/629858b1c7419dbcdbead3484a36abd1.svg",
+        "isPro": false,
+        "fullname": "Qi Shi",
+        "user": "qshi",
+        "type": "user"
+      },
+      "summary": "Kernel development in deep learning requires optimizing computational units\nacross hardware while balancing memory management, parallelism, and\nhardware-specific optimizations through extensive empirical tuning. Although\ndomain-specific languages like Triton simplify GPU programming by abstracting\nlow-level details, developers must still manually tune critical parameters such\nas tile sizes and memory access patterns through iterative experimentation,\ncreating substantial barriers to optimal performance and wider adoption. In\nthis work, we introduce AutoTriton, the first model dedicated to Triton\nprogramming powered by reinforcement learning (RL). AutoTriton performs\nsupervised fine-tuning (SFT) to be equipped with essential Triton programming\nexpertise using a high-quality data gathering pipeline, and conducts RL with\nGroup Relative Policy Optimization (GRPO) algorithm, combining a rule-based\nreward and an execution-based reward to further improve Triton programming\nability, sequentially. Experiments across five evaluation channels of\nTritonBench and KernelBench illustrate that our 8B model AutoTriton achieves\nperformance comparable to mainstream large models, including Claude-4-Sonnet\nand DeepSeek-R1-0528. Further experimental analysis demonstrates the crucial\nrole of each module within AutoTriton, including the SFT stage, the RL stage,\nand the reward design strategy. These findings underscore the promise of RL for\nautomatically generating high-performance kernels, and since high-performance\nkernels are core components of AI systems, this breakthrough establishes an\nimportant foundation for building more efficient AI systems. The model and code\nwill be available at https://github.com/AI9Stars/AutoTriton.",
+      "upvotes": 3,
+      "discussionId": "686e2c00a5f0f70d9de40c97"
+    },
+    "publishedAt": "2025-07-08T01:38:24.000Z",
+    "title": "AutoTriton: Automatic Triton Programming with Reinforcement Learning in\n  LLMs",
+    "summary": "Kernel development in deep learning requires optimizing computational units\nacross hardware while balancing memory management, parallelism, and\nhardware-specific optimizations through extensive empirical tuning. Although\ndomain-specific languages like Triton simplify GPU programming by abstracting\nlow-level details, developers must still manually tune critical parameters such\nas tile sizes and memory access patterns through iterative experimentation,\ncreating substantial barriers to optimal performance and wider adoption. In\nthis work, we introduce AutoTriton, the first model dedicated to Triton\nprogramming powered by reinforcement learning (RL). AutoTriton performs\nsupervised fine-tuning (SFT) to be equipped with essential Triton programming\nexpertise using a high-quality data gathering pipeline, and conducts RL with\nGroup Relative Policy Optimization (GRPO) algorithm, combining a rule-based\nreward and an execution-based reward to further improve Triton programming\nability, sequentially. Experiments across five evaluation channels of\nTritonBench and KernelBench illustrate that our 8B model AutoTriton achieves\nperformance comparable to mainstream large models, including Claude-4-Sonnet\nand DeepSeek-R1-0528. Further experimental analysis demonstrates the crucial\nrole of each module within AutoTriton, including the SFT stage, the RL stage,\nand the reward design strategy. These findings underscore the promise of RL for\nautomatically generating high-performance kernels, and since high-performance\nkernels are core components of AI systems, this breakthrough establishes an\nimportant foundation for building more efficient AI systems. The model and code\nwill be available at https://github.com/AI9Stars/AutoTriton.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.05687.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62ccd26d376917c022420a46",
+      "avatarUrl": "/avatars/629858b1c7419dbcdbead3484a36abd1.svg",
+      "fullname": "Qi Shi",
+      "name": "qshi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2507.07095",
+      "authors": [
+        {
+          "_id": "686f2579d938c25d68441b43",
+          "name": "Ke Fan",
+          "hidden": false
+        },
+        {
+          "_id": "686f2579d938c25d68441b44",
+          "name": "Shunlin Lu",
+          "hidden": false
+        },
+        {
+          "_id": "686f2579d938c25d68441b45",
+          "name": "Minyue Dai",
+          "hidden": false
+        },
+        {
+          "_id": "686f2579d938c25d68441b46",
+          "name": "Runyi Yu",
+          "hidden": false
+        },
+        {
+          "_id": "686f2579d938c25d68441b47",
+          "name": "Lixing Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "686f2579d938c25d68441b48",
+          "name": "Zhiyang Dou",
+          "hidden": false
+        },
+        {
+          "_id": "686f2579d938c25d68441b49",
+          "name": "Junting Dong",
+          "hidden": false
+        },
+        {
+          "_id": "686f2579d938c25d68441b4a",
+          "name": "Lizhuang Ma",
+          "hidden": false
+        },
+        {
+          "_id": "686f2579d938c25d68441b4b",
+          "name": "Jingbo Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-09T17:52:04.000Z",
+      "submittedOnDailyAt": "2025-07-10T01:12:54.854Z",
+      "title": "Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data",
+      "submittedOnDailyBy": {
+        "_id": "66d59dc9b005ad82ca6fc61d",
+        "avatarUrl": "/avatars/0ba424690afd1144a89665c5bacdfde7.svg",
+        "isPro": false,
+        "fullname": "Runyi YU",
+        "user": "IngridYU",
+        "type": "user"
+      },
+      "summary": "Generating diverse and natural human motion sequences based on textual\ndescriptions constitutes a fundamental and challenging research area within the\ndomains of computer vision, graphics, and robotics. Despite significant\nadvancements in this field, current methodologies often face challenges\nregarding zero-shot generalization capabilities, largely attributable to the\nlimited size of training datasets. Moreover, the lack of a comprehensive\nevaluation framework impedes the advancement of this task by failing to\nidentify directions for improvement. In this work, we aim to push\ntext-to-motion into a new era, that is, to achieve the generalization ability\nof zero-shot. To this end, firstly, we develop an efficient annotation pipeline\nand introduce MotionMillion-the largest human motion dataset to date, featuring\nover 2,000 hours and 2 million high-quality motion sequences. Additionally, we\npropose MotionMillion-Eval, the most comprehensive benchmark for evaluating\nzero-shot motion generation. Leveraging a scalable architecture, we scale our\nmodel to 7B parameters and validate its performance on MotionMillion-Eval. Our\nresults demonstrate strong generalization to out-of-domain and complex\ncompositional motions, marking a significant step toward zero-shot human motion\ngeneration. The code is available at\nhttps://github.com/VankouF/MotionMillion-Codes.",
+      "upvotes": 2,
+      "discussionId": "686f2579d938c25d68441b4c",
+      "ai_summary": "A new dataset and evaluation framework improve zero-shot text-to-motion generation through a large-scale, high-quality dataset and a scalable model architecture.",
+      "ai_keywords": [
+        "MotionMillion",
+        "MotionMillion-Eval",
+        "zero-shot motion generation",
+        "scalable architecture"
+      ]
+    },
+    "publishedAt": "2025-07-09T13:52:04.000Z",
+    "title": "Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data",
+    "summary": "Generating diverse and natural human motion sequences based on textual\ndescriptions constitutes a fundamental and challenging research area within the\ndomains of computer vision, graphics, and robotics. Despite significant\nadvancements in this field, current methodologies often face challenges\nregarding zero-shot generalization capabilities, largely attributable to the\nlimited size of training datasets. Moreover, the lack of a comprehensive\nevaluation framework impedes the advancement of this task by failing to\nidentify directions for improvement. In this work, we aim to push\ntext-to-motion into a new era, that is, to achieve the generalization ability\nof zero-shot. To this end, firstly, we develop an efficient annotation pipeline\nand introduce MotionMillion-the largest human motion dataset to date, featuring\nover 2,000 hours and 2 million high-quality motion sequences. Additionally, we\npropose MotionMillion-Eval, the most comprehensive benchmark for evaluating\nzero-shot motion generation. Leveraging a scalable architecture, we scale our\nmodel to 7B parameters and validate its performance on MotionMillion-Eval. Our\nresults demonstrate strong generalization to out-of-domain and complex\ncompositional motions, marking a significant step toward zero-shot human motion\ngeneration. The code is available at\nhttps://github.com/VankouF/MotionMillion-Codes.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.07095.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66d59dc9b005ad82ca6fc61d",
+      "avatarUrl": "/avatars/0ba424690afd1144a89665c5bacdfde7.svg",
+      "fullname": "Runyi YU",
+      "name": "IngridYU",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.06920",
+      "authors": [
+        {
+          "_id": "686f1da1d938c25d68441b1b",
+          "name": "Zihan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "686f1da1d938c25d68441b1c",
+          "name": "Taolin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686f1da1d938c25d68441b1d",
+          "name": "Maosong Cao",
+          "hidden": false
+        },
+        {
+          "_id": "686f1da1d938c25d68441b1e",
+          "name": "Wenwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686f1da1d938c25d68441b1f",
+          "name": "Minnan Luo",
+          "hidden": false
+        },
+        {
+          "_id": "686f1da1d938c25d68441b20",
+          "name": "Songyang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "686f1da1d938c25d68441b21",
+          "name": "Kai Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-09T14:58:47.000Z",
+      "submittedOnDailyAt": "2025-07-10T00:31:10.862Z",
+      "title": "Rethinking Verification for LLM Code Generation: From Generation to\n  Testing",
+      "submittedOnDailyBy": {
+        "_id": "677e869467f3bb8d8215eec6",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/677e869467f3bb8d8215eec6/kEC6JOKObgLHA22jRcP4H.jpeg",
+        "isPro": false,
+        "fullname": "Zihan Ma",
+        "user": "MichaelErchi",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have recently achieved notable success in\ncode-generation benchmarks such as HumanEval and LiveCodeBench. However, a\ndetailed examination reveals that these evaluation suites often comprise only a\nlimited number of homogeneous test cases, resulting in subtle faults going\nundetected. This not only artificially inflates measured performance but also\ncompromises accurate reward estimation in reinforcement learning frameworks\nutilizing verifiable rewards (RLVR). To address these critical shortcomings, we\nsystematically investigate the test-case generation (TCG) task by proposing\nmulti-dimensional metrics designed to rigorously quantify test-suite\nthoroughness. Furthermore, we introduce a human-LLM collaborative method\n(SAGA), leveraging human programming expertise with LLM reasoning capability,\naimed at significantly enhancing both the coverage and the quality of generated\ntest cases. In addition, we develop a TCGBench to facilitate the study of the\nTCG task. Experiments show that SAGA achieves a detection rate of 90.62% and a\nverifier accuracy of 32.58% on TCGBench. The Verifier Accuracy (Verifier Acc)\nof the code generation evaluation benchmark synthesized by SAGA is 10.78%\nhigher than that of LiveCodeBench-v6. These results demonstrate the\neffectiveness of our proposed method. We hope this work contributes to building\na scalable foundation for reliable LLM code evaluation, further advancing RLVR\nin code generation, and paving the way for automated adversarial test synthesis\nand adaptive benchmark integration.",
+      "upvotes": 1,
+      "discussionId": "686f1da1d938c25d68441b22",
+      "ai_summary": "A human-LLM collaborative method enhances code generation test case generation, improving reliability and detection rates in code evaluation benchmarks.",
+      "ai_keywords": [
+        "large language models",
+        "code-generation",
+        "HumanEval",
+        "LiveCodeBench",
+        "test-case generation",
+        "multi-dimensional metrics",
+        "human-LLM collaboration",
+        "SAGA",
+        "TCGBench",
+        "reinforcement learning frameworks",
+        "verifiable rewards",
+        "RLVR",
+        "verifier accuracy",
+        "adversarial test synthesis",
+        "adaptive benchmark integration"
+      ]
+    },
+    "publishedAt": "2025-07-09T10:58:47.000Z",
+    "title": "Rethinking Verification for LLM Code Generation: From Generation to\n  Testing",
+    "summary": "Large language models (LLMs) have recently achieved notable success in\ncode-generation benchmarks such as HumanEval and LiveCodeBench. However, a\ndetailed examination reveals that these evaluation suites often comprise only a\nlimited number of homogeneous test cases, resulting in subtle faults going\nundetected. This not only artificially inflates measured performance but also\ncompromises accurate reward estimation in reinforcement learning frameworks\nutilizing verifiable rewards (RLVR). To address these critical shortcomings, we\nsystematically investigate the test-case generation (TCG) task by proposing\nmulti-dimensional metrics designed to rigorously quantify test-suite\nthoroughness. Furthermore, we introduce a human-LLM collaborative method\n(SAGA), leveraging human programming expertise with LLM reasoning capability,\naimed at significantly enhancing both the coverage and the quality of generated\ntest cases. In addition, we develop a TCGBench to facilitate the study of the\nTCG task. Experiments show that SAGA achieves a detection rate of 90.62% and a\nverifier accuracy of 32.58% on TCGBench. The Verifier Accuracy (Verifier Acc)\nof the code generation evaluation benchmark synthesized by SAGA is 10.78%\nhigher than that of LiveCodeBench-v6. These results demonstrate the\neffectiveness of our proposed method. We hope this work contributes to building\na scalable foundation for reliable LLM code evaluation, further advancing RLVR\nin code generation, and paving the way for automated adversarial test synthesis\nand adaptive benchmark integration.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.06920.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "677e869467f3bb8d8215eec6",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/677e869467f3bb8d8215eec6/kEC6JOKObgLHA22jRcP4H.jpeg",
+      "fullname": "Zihan Ma",
+      "name": "MichaelErchi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2506.24044",
+      "authors": [
+        {
+          "_id": "68681d82213f123a1f88b973",
+          "user": {
+            "_id": "683daabc402acb18654e4674",
+            "avatarUrl": "/avatars/9307b4c1c248e45b2daa8ffa1d74d4b4.svg",
+            "isPro": false,
+            "fullname": "Sicong Jiang",
+            "user": "Max2045",
+            "type": "user"
+          },
+          "name": "Sicong Jiang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-07-05T07:52:40.893Z",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b974",
+          "name": "Zilin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b975",
+          "name": "Kangan Qian",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b976",
+          "name": "Ziang Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b977",
+          "name": "Tianze Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b978",
+          "name": "Yang Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b979",
+          "name": "Yihong Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b97a",
+          "name": "Menglin Kong",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b97b",
+          "name": "Yunlong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b97c",
+          "name": "Siwen Jiao",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b97d",
+          "name": "Hao Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b97e",
+          "name": "Zihao Sheng",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b97f",
+          "name": "Xin Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b980",
+          "name": "Tuopu Wen",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b981",
+          "name": "Zheng Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b982",
+          "name": "Sikai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b983",
+          "name": "Kun Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b984",
+          "name": "Diange Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b985",
+          "name": "Seongjin Choi",
+          "hidden": false
+        },
+        {
+          "_id": "68681d82213f123a1f88b986",
+          "name": "Lijun Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-06-30T16:50:02.000Z",
+      "submittedOnDailyAt": "2025-07-10T01:10:17.895Z",
+      "title": "A Survey on Vision-Language-Action Models for Autonomous Driving",
+      "submittedOnDailyBy": {
+        "_id": "683daabc402acb18654e4674",
+        "avatarUrl": "/avatars/9307b4c1c248e45b2daa8ffa1d74d4b4.svg",
+        "isPro": false,
+        "fullname": "Sicong Jiang",
+        "user": "Max2045",
+        "type": "user"
+      },
+      "summary": "The rapid progress of multimodal large language models (MLLM) has paved the\nway for Vision-Language-Action (VLA) paradigms, which integrate visual\nperception, natural language understanding, and control within a single policy.\nResearchers in autonomous driving are actively adapting these methods to the\nvehicle domain. Such models promise autonomous vehicles that can interpret\nhigh-level instructions, reason about complex traffic scenes, and make their\nown decisions. However, the literature remains fragmented and is rapidly\nexpanding. This survey offers the first comprehensive overview of VLA for\nAutonomous Driving (VLA4AD). We (i) formalize the architectural building blocks\nshared across recent work, (ii) trace the evolution from early explainer to\nreasoning-centric VLA models, and (iii) compare over 20 representative models\naccording to VLA's progress in the autonomous driving domain. We also\nconsolidate existing datasets and benchmarks, highlighting protocols that\njointly measure driving safety, accuracy, and explanation quality. Finally, we\ndetail open challenges - robustness, real-time efficiency, and formal\nverification - and outline future directions of VLA4AD. This survey provides a\nconcise yet complete reference for advancing interpretable socially aligned\nautonomous vehicles. Github repo is available at\nhttps://github.com/JohnsonJiang1996/Awesome-VLA4AD{SicongJiang/Awesome-VLA4AD}.",
+      "upvotes": 1,
+      "discussionId": "68681d82213f123a1f88b987",
+      "githubRepo": "https://github.com/JohnsonJiang1996/Awesome-VLA4AD",
+      "ai_summary": "This survey provides a comprehensive overview of Vision-Language-Action (VLA) paradigms and their adaptation for autonomous driving, detailing architectural components, evolution of models, datasets, and future challenges.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "Vision-Language-Action",
+        "VLA",
+        "VLA for Autonomous Driving",
+        "VLA4AD",
+        "explainer",
+        "reasoning-centric models",
+        "autonomous driving",
+        "driving safety",
+        "accuracy",
+        "explanation quality",
+        "robustness",
+        "real-time efficiency",
+        "formal verification",
+        "interpretable socially aligned autonomous vehicles"
+      ],
+      "githubStars": 170
+    },
+    "publishedAt": "2025-06-30T12:50:02.000Z",
+    "title": "A Survey on Vision-Language-Action Models for Autonomous Driving",
+    "summary": "The rapid progress of multimodal large language models (MLLM) has paved the\nway for Vision-Language-Action (VLA) paradigms, which integrate visual\nperception, natural language understanding, and control within a single policy.\nResearchers in autonomous driving are actively adapting these methods to the\nvehicle domain. Such models promise autonomous vehicles that can interpret\nhigh-level instructions, reason about complex traffic scenes, and make their\nown decisions. However, the literature remains fragmented and is rapidly\nexpanding. This survey offers the first comprehensive overview of VLA for\nAutonomous Driving (VLA4AD). We (i) formalize the architectural building blocks\nshared across recent work, (ii) trace the evolution from early explainer to\nreasoning-centric VLA models, and (iii) compare over 20 representative models\naccording to VLA's progress in the autonomous driving domain. We also\nconsolidate existing datasets and benchmarks, highlighting protocols that\njointly measure driving safety, accuracy, and explanation quality. Finally, we\ndetail open challenges - robustness, real-time efficiency, and formal\nverification - and outline future directions of VLA4AD. This survey provides a\nconcise yet complete reference for advancing interpretable socially aligned\nautonomous vehicles. Github repo is available at\nhttps://github.com/JohnsonJiang1996/Awesome-VLA4AD{SicongJiang/Awesome-VLA4AD}.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.24044.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "683daabc402acb18654e4674",
+      "avatarUrl": "/avatars/9307b4c1c248e45b2daa8ffa1d74d4b4.svg",
+      "fullname": "Sicong Jiang",
+      "name": "Max2045",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2507.06260",
+      "authors": [
+        {
+          "_id": "686f14e3d938c25d68441af8",
+          "name": "Satyapriya Krishna",
+          "hidden": false
+        },
+        {
+          "_id": "686f14e3d938c25d68441af9",
+          "name": "Ninareh Mehrabi",
+          "hidden": false
+        },
+        {
+          "_id": "686f14e3d938c25d68441afa",
+          "name": "Abhinav Mohanty",
+          "hidden": false
+        },
+        {
+          "_id": "686f14e3d938c25d68441afb",
+          "name": "Matteo Memelli",
+          "hidden": false
+        },
+        {
+          "_id": "686f14e3d938c25d68441afc",
+          "name": "Vincent Ponzo",
+          "hidden": false
+        },
+        {
+          "_id": "686f14e3d938c25d68441afd",
+          "name": "Payal Motwani",
+          "hidden": false
+        },
+        {
+          "_id": "686f14e3d938c25d68441afe",
+          "name": "Rahul Gupta",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-07T13:33:35.000Z",
+      "submittedOnDailyAt": "2025-07-10T00:10:50.485Z",
+      "title": "Evaluating the Critical Risks of Amazon's Nova Premier under the\n  Frontier Model Safety Framework",
+      "submittedOnDailyBy": {
+        "_id": "6186fef1b1085ab638324e7f",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6186fef1b1085ab638324e7f/BL6_WJCkxB-BatBUBilT8.jpeg",
+        "isPro": false,
+        "fullname": "Satya",
+        "user": "skrishna",
+        "type": "user"
+      },
+      "summary": "Nova Premier is Amazon's most capable multimodal foundation model and teacher\nfor model distillation. It processes text, images, and video with a\none-million-token context window, enabling analysis of large codebases,\n400-page documents, and 90-minute videos in a single prompt. We present the\nfirst comprehensive evaluation of Nova Premier's critical risk profile under\nthe Frontier Model Safety Framework. Evaluations target three high-risk domains\n-- Chemical, Biological, Radiological & Nuclear (CBRN), Offensive Cyber\nOperations, and Automated AI R&D -- and combine automated benchmarks, expert\nred-teaming, and uplift studies to determine whether the model exceeds release\nthresholds. We summarize our methodology and report core findings. Based on\nthis evaluation, we find that Nova Premier is safe for public release as per\nour commitments made at the 2025 Paris AI Safety Summit. We will continue to\nenhance our safety evaluation and mitigation pipelines as new risks and\ncapabilities associated with frontier models are identified.",
+      "upvotes": 0,
+      "discussionId": "686f14e4d938c25d68441aff"
+    },
+    "publishedAt": "2025-07-07T09:33:35.000Z",
+    "title": "Evaluating the Critical Risks of Amazon's Nova Premier under the\n  Frontier Model Safety Framework",
+    "summary": "Nova Premier is Amazon's most capable multimodal foundation model and teacher\nfor model distillation. It processes text, images, and video with a\none-million-token context window, enabling analysis of large codebases,\n400-page documents, and 90-minute videos in a single prompt. We present the\nfirst comprehensive evaluation of Nova Premier's critical risk profile under\nthe Frontier Model Safety Framework. Evaluations target three high-risk domains\n-- Chemical, Biological, Radiological & Nuclear (CBRN), Offensive Cyber\nOperations, and Automated AI R&D -- and combine automated benchmarks, expert\nred-teaming, and uplift studies to determine whether the model exceeds release\nthresholds. We summarize our methodology and report core findings. Based on\nthis evaluation, we find that Nova Premier is safe for public release as per\nour commitments made at the 2025 Paris AI Safety Summit. We will continue to\nenhance our safety evaluation and mitigation pipelines as new risks and\ncapabilities associated with frontier models are identified.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.06260.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6186fef1b1085ab638324e7f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6186fef1b1085ab638324e7f/BL6_WJCkxB-BatBUBilT8.jpeg",
+      "fullname": "Satya",
+      "name": "skrishna",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  }
+]
