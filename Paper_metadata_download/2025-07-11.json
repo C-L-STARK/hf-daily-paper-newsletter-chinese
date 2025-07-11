@@ -1,0 +1,353 @@
+[
+  {
+    "paper": {
+      "id": "2507.07966",
+      "authors": [
+        {
+          "_id": "68706bdcc8391850d60977eb",
+          "name": "Yukang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977ec",
+          "name": "Wei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977ed",
+          "name": "Baifeng Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977ee",
+          "name": "Qinghao Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977ef",
+          "name": "Hanrong Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f0",
+          "name": "Ligeng Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f1",
+          "name": "Zhijian Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f2",
+          "name": "Pavlo Molchanov",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f3",
+          "name": "Jan Kautz",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f4",
+          "name": "Xiaojuan Qi",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f5",
+          "name": "Sifei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f6",
+          "name": "Hongxu Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f7",
+          "name": "Yao Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68706bdcc8391850d60977f8",
+          "name": "Song Han",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/62919485a29097b211bc7b83/Tu__SuWZeWyCBPoK8YUyh.mp4"
+      ],
+      "publishedAt": "2025-07-10T17:47:40.000Z",
+      "submittedOnDailyAt": "2025-07-11T00:13:53.988Z",
+      "title": "Scaling RL to Long Videos",
+      "submittedOnDailyBy": {
+        "_id": "62919485a29097b211bc7b83",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653710384819-62919485a29097b211bc7b83.png",
+        "isPro": false,
+        "fullname": "YukangChen",
+        "user": "Yukang",
+        "type": "user"
+      },
+      "summary": "We introduce a full-stack framework that scales up reasoning in\nvision-language models (VLMs) to long videos, leveraging reinforcement\nlearning. We address the unique challenges of long video reasoning by\nintegrating three critical components: (1) a large-scale dataset,\nLongVideo-Reason, comprising 52K long video QA pairs with high-quality\nreasoning annotations across diverse domains such as sports, games, and vlogs;\n(2) a two-stage training pipeline that extends VLMs with chain-of-thought\nsupervised fine-tuning (CoT-SFT) and reinforcement learning (RL); and (3) a\ntraining infrastructure for long video RL, named Multi-modal Reinforcement\nSequence Parallelism (MR-SP), which incorporates sequence parallelism and a\nvLLM-based engine tailored for long video, using cached video embeddings for\nefficient rollout and prefilling. In experiments, LongVILA-R1-7B achieves\nstrong performance on long video QA benchmarks such as VideoMME. It also\noutperforms Video-R1-7B and even matches Gemini-1.5-Pro across temporal\nreasoning, goal and purpose reasoning, spatial reasoning, and plot reasoning on\nour LongVideo-Reason-eval benchmark. Notably, our MR-SP system achieves up to\n2.1x speedup on long video RL training. LongVILA-R1 demonstrates consistent\nperformance gains as the number of input video frames scales. LongVILA-R1 marks\na firm step towards long video reasoning in VLMs. In addition, we release our\ntraining system for public availability that supports RL training on various\nmodalities (video, text, and audio), various models (VILA and Qwen series), and\neven image and video generation models. On a single A100 node (8 GPUs), it\nsupports RL training on hour-long videos (e.g., 3,600 frames / around 256k\ntokens).",
+      "upvotes": 24,
+      "discussionId": "68706bdcc8391850d60977f9",
+      "projectPage": "https://github.com/NVlabs/Long-RL",
+      "githubRepo": "https://github.com/NVlabs/Long-RL",
+      "ai_summary": "A framework for scaling vision-language models to long videos using reinforcement learning, achieving strong performance on various reasoning tasks with a specialized training infrastructure.",
+      "ai_keywords": [
+        "vision-language models",
+        "reinforcement learning",
+        "chain-of-thought supervised fine-tuning",
+        "CoT-SFT",
+        "Multi-modal Reinforcement Sequence Parallelism",
+        "MR-SP",
+        "sequence parallelism",
+        "vLLM",
+        "long video QA",
+        "VideoMME",
+        "LongVideo-Reason-eval",
+        "temporal reasoning",
+        "goal and purpose reasoning",
+        "spatial reasoning",
+        "plot reasoning",
+        "RL training",
+        "image and video generation models"
+      ],
+      "githubStars": 22
+    },
+    "publishedAt": "2025-07-10T13:47:40.000Z",
+    "title": "Scaling RL to Long Videos",
+    "summary": "We introduce a full-stack framework that scales up reasoning in\nvision-language models (VLMs) to long videos, leveraging reinforcement\nlearning. We address the unique challenges of long video reasoning by\nintegrating three critical components: (1) a large-scale dataset,\nLongVideo-Reason, comprising 52K long video QA pairs with high-quality\nreasoning annotations across diverse domains such as sports, games, and vlogs;\n(2) a two-stage training pipeline that extends VLMs with chain-of-thought\nsupervised fine-tuning (CoT-SFT) and reinforcement learning (RL); and (3) a\ntraining infrastructure for long video RL, named Multi-modal Reinforcement\nSequence Parallelism (MR-SP), which incorporates sequence parallelism and a\nvLLM-based engine tailored for long video, using cached video embeddings for\nefficient rollout and prefilling. In experiments, LongVILA-R1-7B achieves\nstrong performance on long video QA benchmarks such as VideoMME. It also\noutperforms Video-R1-7B and even matches Gemini-1.5-Pro across temporal\nreasoning, goal and purpose reasoning, spatial reasoning, and plot reasoning on\nour LongVideo-Reason-eval benchmark. Notably, our MR-SP system achieves up to\n2.1x speedup on long video RL training. LongVILA-R1 demonstrates consistent\nperformance gains as the number of input video frames scales. LongVILA-R1 marks\na firm step towards long video reasoning in VLMs. In addition, we release our\ntraining system for public availability that supports RL training on various\nmodalities (video, text, and audio), various models (VILA and Qwen series), and\neven image and video generation models. On a single A100 node (8 GPUs), it\nsupports RL training on hour-long videos (e.g., 3,600 frames / around 256k\ntokens).",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/62919485a29097b211bc7b83/Tu__SuWZeWyCBPoK8YUyh.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.07966.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62919485a29097b211bc7b83",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653710384819-62919485a29097b211bc7b83.png",
+      "fullname": "YukangChen",
+      "name": "Yukang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 61
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.07999",
+      "authors": [
+        {
+          "_id": "68706dcdc8391850d60977fb",
+          "name": "Haochen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d60977fc",
+          "name": "Xiangtai Li",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d60977fd",
+          "name": "Zilong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d60977fe",
+          "name": "Anran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d60977ff",
+          "name": "Jiacong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d6097800",
+          "name": "Tao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d6097801",
+          "name": "Jiani Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d6097802",
+          "name": "Sule Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d6097803",
+          "name": "Zijian Kang",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d6097804",
+          "name": "Jiashi Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d6097805",
+          "name": "Zhuochen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68706dcdc8391850d6097806",
+          "name": "Zhaoxiang Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-10T17:59:58.000Z",
+      "submittedOnDailyAt": "2025-07-11T00:29:18.339Z",
+      "title": "Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and\n  Methodology",
+      "submittedOnDailyBy": {
+        "_id": "6499809cf19fc795e7724e43",
+        "avatarUrl": "/avatars/4b3adce8c85e2f3ef05318ded6c89c3e.svg",
+        "isPro": false,
+        "fullname": "HaochenWang",
+        "user": "HaochenWang",
+        "type": "user"
+      },
+      "summary": "Models like OpenAI-o3 pioneer visual grounded reasoning by dynamically\nreferencing visual regions, just like human \"thinking with images\". However, no\nbenchmark exists to evaluate these capabilities holistically. To bridge this\ngap, we propose TreeBench (Traceable Evidence Evaluation Benchmark), a\ndiagnostic benchmark built on three principles: (1) focused visual perception\nof subtle targets in complex scenes, (2) traceable evidence via bounding box\nevaluation, and (3) second-order reasoning to test object interactions and\nspatial hierarchies beyond simple object localization. Prioritizing images with\ndense objects, we initially sample 1K high-quality images from SA-1B, and\nincorporate eight LMM experts to manually annotate questions, candidate\noptions, and answers for each image. After three stages of quality control,\nTreeBench consists of 405 challenging visual question-answering pairs, even the\nmost advanced models struggle with this benchmark, where none of them reach 60%\naccuracy, e.g., OpenAI-o3 scores only 54.87. Furthermore, we introduce TreeVGR\n(Traceable Evidence Enhanced Visual Grounded Reasoning), a training paradigm to\nsupervise localization and reasoning jointly with reinforcement learning,\nenabling accurate localizations and explainable reasoning pathways. Initialized\nfrom Qwen2.5-VL-7B, it improves V* Bench (+16.8), MME-RealWorld (+12.6), and\nTreeBench (+13.4), proving traceability is key to advancing vision-grounded\nreasoning. The code is available at https://github.com/Haochen-Wang409/TreeVGR.",
+      "upvotes": 19,
+      "discussionId": "68706dcec8391850d6097807",
+      "projectPage": "https://github.com/Haochen-Wang409/TreeVGR",
+      "githubRepo": "https://github.com/Haochen-Wang409/TreeVGR",
+      "ai_summary": "TreeBench evaluates visual grounded reasoning through subtle target detection, traceable evidence, and second-order reasoning, while TreeVGR enhances this with joint localization and reasoning using reinforcement learning.",
+      "ai_keywords": [
+        "visual grounded reasoning",
+        "bounding box evaluation",
+        "second-order reasoning",
+        "TreeBench",
+        "TreeVGR",
+        "reinforcement learning",
+        "localization",
+        "reasoning pathways",
+        "V* Bench",
+        "MME-RealWorld"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2025-07-10T13:59:58.000Z",
+    "title": "Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and\n  Methodology",
+    "summary": "Models like OpenAI-o3 pioneer visual grounded reasoning by dynamically\nreferencing visual regions, just like human \"thinking with images\". However, no\nbenchmark exists to evaluate these capabilities holistically. To bridge this\ngap, we propose TreeBench (Traceable Evidence Evaluation Benchmark), a\ndiagnostic benchmark built on three principles: (1) focused visual perception\nof subtle targets in complex scenes, (2) traceable evidence via bounding box\nevaluation, and (3) second-order reasoning to test object interactions and\nspatial hierarchies beyond simple object localization. Prioritizing images with\ndense objects, we initially sample 1K high-quality images from SA-1B, and\nincorporate eight LMM experts to manually annotate questions, candidate\noptions, and answers for each image. After three stages of quality control,\nTreeBench consists of 405 challenging visual question-answering pairs, even the\nmost advanced models struggle with this benchmark, where none of them reach 60%\naccuracy, e.g., OpenAI-o3 scores only 54.87. Furthermore, we introduce TreeVGR\n(Traceable Evidence Enhanced Visual Grounded Reasoning), a training paradigm to\nsupervise localization and reasoning jointly with reinforcement learning,\nenabling accurate localizations and explainable reasoning pathways. Initialized\nfrom Qwen2.5-VL-7B, it improves V* Bench (+16.8), MME-RealWorld (+12.6), and\nTreeBench (+13.4), proving traceability is key to advancing vision-grounded\nreasoning. The code is available at https://github.com/Haochen-Wang409/TreeVGR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.07999.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6499809cf19fc795e7724e43",
+      "avatarUrl": "/avatars/4b3adce8c85e2f3ef05318ded6c89c3e.svg",
+      "fullname": "HaochenWang",
+      "name": "HaochenWang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.07998",
+      "authors": [
+        {
+          "_id": "687068dec8391850d60977e2",
+          "name": "Shitian Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "687068dec8391850d60977e3",
+          "name": "Haoquan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "687068dec8391850d60977e4",
+          "name": "Shaoheng Lin",
+          "hidden": false
+        },
+        {
+          "_id": "687068dec8391850d60977e5",
+          "name": "Ming Li",
+          "hidden": false
+        },
+        {
+          "_id": "687068dec8391850d60977e6",
+          "name": "Qilong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "687068dec8391850d60977e7",
+          "name": "Kaipeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "687068dec8391850d60977e8",
+          "name": "Chen Wei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-10T17:59:55.000Z",
+      "submittedOnDailyAt": "2025-07-11T00:33:22.135Z",
+      "title": "PyVision: Agentic Vision with Dynamic Tooling",
+      "submittedOnDailyBy": {
+        "_id": "62c66504031996c36c86976a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62c66504031996c36c86976a/wIq0YJhkWnEhlzsh-TGYO.png",
+        "isPro": true,
+        "fullname": "steve z",
+        "user": "stzhao",
+        "type": "user"
+      },
+      "summary": "LLMs are increasingly deployed as agents, systems capable of planning,\nreasoning, and dynamically calling external tools. However, in visual\nreasoning, prior approaches largely remain limited by predefined workflows and\nstatic toolsets. In this report, we present PyVision, an interactive,\nmulti-turn framework that enables MLLMs to autonomously generate, execute, and\nrefine Python-based tools tailored to the task at hand, unlocking flexible and\ninterpretable problem-solving. We develop a taxonomy of the tools created by\nPyVision and analyze their usage across a diverse set of benchmarks.\nQuantitatively, PyVision achieves consistent performance gains, boosting\nGPT-4.1 by +7.8% on V* and Claude-4.0-Sonnet by +31.1% on VLMsAreBlind-mini.\nThese results point to a broader shift: dynamic tooling allows models not just\nto use tools, but to invent them, advancing toward more agentic visual\nreasoning.",
+      "upvotes": 7,
+      "discussionId": "687068dec8391850d60977e9",
+      "projectPage": "https://agent-x.space/pyvision/",
+      "githubRepo": "https://github.com/agents-x-project/PyVision",
+      "ai_summary": "PyVision, an interactive framework, enables LLMs to autonomously create and refine Python-based tools for visual reasoning, achieving significant performance improvements across benchmarks.",
+      "ai_keywords": [
+        "LLMs",
+        "agents",
+        "visual reasoning",
+        "predefined workflows",
+        "static toolsets",
+        "interactive framework",
+        "multi-turn framework",
+        "autonomously generate",
+        "execute",
+        "refine",
+        "Python-based tools",
+        "taxonomy",
+        "benchmarks",
+        "GPT-4.1",
+        "Claude-4.0-Sonnet",
+        "V*",
+        "VLMsAreBlind-mini",
+        "dynamic tooling",
+        "agentic visual reasoning"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2025-07-10T13:59:55.000Z",
+    "title": "PyVision: Agentic Vision with Dynamic Tooling",
+    "summary": "LLMs are increasingly deployed as agents, systems capable of planning,\nreasoning, and dynamically calling external tools. However, in visual\nreasoning, prior approaches largely remain limited by predefined workflows and\nstatic toolsets. In this report, we present PyVision, an interactive,\nmulti-turn framework that enables MLLMs to autonomously generate, execute, and\nrefine Python-based tools tailored to the task at hand, unlocking flexible and\ninterpretable problem-solving. We develop a taxonomy of the tools created by\nPyVision and analyze their usage across a diverse set of benchmarks.\nQuantitatively, PyVision achieves consistent performance gains, boosting\nGPT-4.1 by +7.8% on V* and Claude-4.0-Sonnet by +31.1% on VLMsAreBlind-mini.\nThese results point to a broader shift: dynamic tooling allows models not just\nto use tools, but to invent them, advancing toward more agentic visual\nreasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.07998.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c66504031996c36c86976a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62c66504031996c36c86976a/wIq0YJhkWnEhlzsh-TGYO.png",
+      "fullname": "steve z",
+      "name": "stzhao",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8
+    },
+    "isAuthorParticipating": false
+  }
+]
