@@ -1,0 +1,549 @@
+[
+  {
+    "paper": {
+      "id": "2507.08776",
+      "authors": [
+        {
+          "_id": "68745e0f257d4f0435370288",
+          "name": "Zhengqing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68745e0f257d4f0435370289",
+          "name": "Yuefan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68745e0f257d4f043537028a",
+          "name": "Jiacheng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68745e0f257d4f043537028b",
+          "name": "Fuyang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68745e0f257d4f043537028c",
+          "name": "Yasutaka Furukawa",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64d97c5bfd0b55d501ba00cf/xQVrjtR_Sb4SOz-GghYdp.mp4"
+      ],
+      "publishedAt": "2025-07-11T17:38:52.000Z",
+      "submittedOnDailyAt": "2025-07-14T00:07:38.676Z",
+      "title": "CLiFT: Compressive Light-Field Tokens for Compute-Efficient and Adaptive\n  Neural Rendering",
+      "submittedOnDailyBy": {
+        "_id": "64d97c5bfd0b55d501ba00cf",
+        "avatarUrl": "/avatars/47505f2a573acea7176a96f538226ecb.svg",
+        "isPro": false,
+        "fullname": "Zhengqing Wang",
+        "user": "EricW123456",
+        "type": "user"
+      },
+      "summary": "This paper proposes a neural rendering approach that represents a scene as\n\"compressed light-field tokens (CLiFTs)\", retaining rich appearance and\ngeometric information of a scene. CLiFT enables compute-efficient rendering by\ncompressed tokens, while being capable of changing the number of tokens to\nrepresent a scene or render a novel view with one trained network. Concretely,\ngiven a set of images, multi-view encoder tokenizes the images with the camera\nposes. Latent-space K-means selects a reduced set of rays as cluster centroids\nusing the tokens. The multi-view ``condenser'' compresses the information of\nall the tokens into the centroid tokens to construct CLiFTs. At test time,\ngiven a target view and a compute budget (i.e., the number of CLiFTs), the\nsystem collects the specified number of nearby tokens and synthesizes a novel\nview using a compute-adaptive renderer. Extensive experiments on RealEstate10K\nand DL3DV datasets quantitatively and qualitatively validate our approach,\nachieving significant data reduction with comparable rendering quality and the\nhighest overall rendering score, while providing trade-offs of data size,\nrendering quality, and rendering speed.",
+      "upvotes": 28,
+      "discussionId": "68745e10257d4f043537028d",
+      "projectPage": "https://clift-nvs.github.io/",
+      "githubRepo": "https://github.com/eric-zqwang/CLiFT",
+      "ai_summary": "A neural rendering method uses compressed light-field tokens to efficiently represent scenes and render novel views with varying compute budgets.",
+      "ai_keywords": [
+        "neural rendering",
+        "compressed light-field tokens",
+        "CLiFTs",
+        "multi-view encoder",
+        "latent-space K-means",
+        "condenser",
+        "compute-adaptive renderer",
+        "RealEstate10K",
+        "DL3DV datasets"
+      ],
+      "githubStars": 4
+    },
+    "publishedAt": "2025-07-11T13:38:52.000Z",
+    "title": "CLiFT: Compressive Light-Field Tokens for Compute-Efficient and Adaptive\n  Neural Rendering",
+    "summary": "This paper proposes a neural rendering approach that represents a scene as\n\"compressed light-field tokens (CLiFTs)\", retaining rich appearance and\ngeometric information of a scene. CLiFT enables compute-efficient rendering by\ncompressed tokens, while being capable of changing the number of tokens to\nrepresent a scene or render a novel view with one trained network. Concretely,\ngiven a set of images, multi-view encoder tokenizes the images with the camera\nposes. Latent-space K-means selects a reduced set of rays as cluster centroids\nusing the tokens. The multi-view ``condenser'' compresses the information of\nall the tokens into the centroid tokens to construct CLiFTs. At test time,\ngiven a target view and a compute budget (i.e., the number of CLiFTs), the\nsystem collects the specified number of nearby tokens and synthesizes a novel\nview using a compute-adaptive renderer. Extensive experiments on RealEstate10K\nand DL3DV datasets quantitatively and qualitatively validate our approach,\nachieving significant data reduction with comparable rendering quality and the\nhighest overall rendering score, while providing trade-offs of data size,\nrendering quality, and rendering speed.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64d97c5bfd0b55d501ba00cf/xQVrjtR_Sb4SOz-GghYdp.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.08776.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64d97c5bfd0b55d501ba00cf",
+      "avatarUrl": "/avatars/47505f2a573acea7176a96f538226ecb.svg",
+      "fullname": "Zhengqing Wang",
+      "name": "EricW123456",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.08801",
+      "authors": [
+        {
+          "_id": "68746fc3257d4f04353702ce",
+          "name": "Hangjie Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702cf",
+          "name": "Weihua Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d0",
+          "name": "Jun Cen",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d1",
+          "name": "Hu Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d2",
+          "name": "Jingyun Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d3",
+          "name": "Shuning Chang",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d4",
+          "name": "Zhihui Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d5",
+          "name": "Tao Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d6",
+          "name": "Pengwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d7",
+          "name": "Jiazheng Xing",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d8",
+          "name": "Hao Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702d9",
+          "name": "Jiasheng Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702da",
+          "name": "Fan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68746fc3257d4f04353702db",
+          "name": "Yi Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-11T17:59:42.000Z",
+      "submittedOnDailyAt": "2025-07-14T01:18:10.056Z",
+      "title": "Lumos-1: On Autoregressive Video Generation from a Unified Model\n  Perspective",
+      "submittedOnDailyBy": {
+        "_id": "649d54b314afbb10ce2a9eeb",
+        "avatarUrl": "/avatars/15c325d8c2273ff63569f23015e98486.svg",
+        "isPro": false,
+        "fullname": "Hangjie Yuan",
+        "user": "JacobYuan",
+        "type": "user"
+      },
+      "summary": "Autoregressive large language models (LLMs) have unified a vast range of\nlanguage tasks, inspiring preliminary efforts in autoregressive video\ngeneration. Existing autoregressive video generators either diverge from\nstandard LLM architectures, depend on bulky external text encoders, or incur\nprohibitive latency due to next-token decoding. In this paper, we introduce\nLumos-1, an autoregressive video generator that retains the LLM architecture\nwith minimal architectural modifications. To inject spatiotemporal correlations\nin LLMs, we identify the efficacy of incorporating 3D RoPE and diagnose its\nimbalanced frequency spectrum ranges. Therefore, we propose MM-RoPE, a RoPE\nscheme that preserves the original textual RoPE while providing comprehensive\nfrequency spectra and scaled 3D positions for modeling multimodal\nspatiotemporal data. Moreover, Lumos-1 resorts to a token dependency strategy\nthat obeys intra-frame bidirectionality and inter-frame temporal causality.\nBased on this dependency strategy, we identify the issue of frame-wise loss\nimbalance caused by spatial information redundancy and solve it by proposing\nAutoregressive Discrete Diffusion Forcing (AR-DF). AR-DF introduces temporal\ntube masking during training with a compatible inference-time masking policy to\navoid quality degradation. By using memory-efficient training techniques, we\npre-train Lumos-1 on only 48 GPUs, achieving performance comparable to EMU3 on\nGenEval, COSMOS-Video2World on VBench-I2V, and OpenSoraPlan on VBench-T2V. Code\nand models are available at https://github.com/alibaba-damo-academy/Lumos.",
+      "upvotes": 4,
+      "discussionId": "68746fc3257d4f04353702dc",
+      "projectPage": "https://github.com/alibaba-damo-academy/Lumos",
+      "githubRepo": "https://github.com/alibaba-damo-academy/Lumos",
+      "ai_summary": "Lumos-1 is an autoregressive video generator that uses a modified LLM architecture with MM-RoPE and AR-DF to address spatiotemporal correlation and frame-wise loss imbalance, achieving competitive performance with fewer resources.",
+      "ai_keywords": [
+        "autoregressive large language models",
+        "LLMs",
+        "autoregressive video generation",
+        "3D RoPE",
+        "MM-RoPE",
+        "token dependency strategy",
+        "intra-frame bidirectionality",
+        "inter-frame temporal causality",
+        "frame-wise loss imbalance",
+        "Autoregressive Discrete Diffusion Forcing",
+        "AR-DF",
+        "temporal tube masking",
+        "GenEval",
+        "COSMOS-Video2World",
+        "VBench-I2V",
+        "OpenSoraPlan",
+        "VBench-T2V"
+      ]
+    },
+    "publishedAt": "2025-07-11T13:59:42.000Z",
+    "title": "Lumos-1: On Autoregressive Video Generation from a Unified Model\n  Perspective",
+    "summary": "Autoregressive large language models (LLMs) have unified a vast range of\nlanguage tasks, inspiring preliminary efforts in autoregressive video\ngeneration. Existing autoregressive video generators either diverge from\nstandard LLM architectures, depend on bulky external text encoders, or incur\nprohibitive latency due to next-token decoding. In this paper, we introduce\nLumos-1, an autoregressive video generator that retains the LLM architecture\nwith minimal architectural modifications. To inject spatiotemporal correlations\nin LLMs, we identify the efficacy of incorporating 3D RoPE and diagnose its\nimbalanced frequency spectrum ranges. Therefore, we propose MM-RoPE, a RoPE\nscheme that preserves the original textual RoPE while providing comprehensive\nfrequency spectra and scaled 3D positions for modeling multimodal\nspatiotemporal data. Moreover, Lumos-1 resorts to a token dependency strategy\nthat obeys intra-frame bidirectionality and inter-frame temporal causality.\nBased on this dependency strategy, we identify the issue of frame-wise loss\nimbalance caused by spatial information redundancy and solve it by proposing\nAutoregressive Discrete Diffusion Forcing (AR-DF). AR-DF introduces temporal\ntube masking during training with a compatible inference-time masking policy to\navoid quality degradation. By using memory-efficient training techniques, we\npre-train Lumos-1 on only 48 GPUs, achieving performance comparable to EMU3 on\nGenEval, COSMOS-Video2World on VBench-I2V, and OpenSoraPlan on VBench-T2V. Code\nand models are available at https://github.com/alibaba-damo-academy/Lumos.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.08801.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "649d54b314afbb10ce2a9eeb",
+      "avatarUrl": "/avatars/15c325d8c2273ff63569f23015e98486.svg",
+      "fullname": "Hangjie Yuan",
+      "name": "JacobYuan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.01951",
+      "authors": [
+        {
+          "_id": "6868daac213f123a1f88b9c8",
+          "name": "Zixiao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9c9",
+          "name": "Yuxin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9ca",
+          "name": "Xiaorui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9cb",
+          "name": "Mengting Xing",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9cc",
+          "name": "Jie Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9cd",
+          "name": "Jianjun Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9ce",
+          "name": "Guangcan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9cf",
+          "name": "Chenhui Jin",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9d0",
+          "name": "Zhuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9d1",
+          "name": "Shengzhuo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6868daac213f123a1f88b9d2",
+          "name": "Hongtao Xie",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/638700c723da90491eb72722/mRIN68aSkxejrT4UqCaKz.jpeg"
+      ],
+      "publishedAt": "2025-07-02T17:58:01.000Z",
+      "submittedOnDailyAt": "2025-07-14T00:42:27.924Z",
+      "title": "Test-Time Scaling with Reflective Generative Model",
+      "submittedOnDailyBy": {
+        "_id": "638700c723da90491eb72722",
+        "avatarUrl": "/avatars/6dcddca5c31121b60e45aab0816e11be.svg",
+        "isPro": false,
+        "fullname": "Yuxin Wang",
+        "user": "wangyuxin87",
+        "type": "user"
+      },
+      "summary": "We introduce our first reflective generative model MetaStone-S1, which\nobtains OpenAI o3's performance via the self-supervised process reward model\n(SPRM). Through sharing the backbone network and using task-specific heads for\nnext token prediction and process scoring respectively, SPRM successfully\nintegrates the policy model and process reward model(PRM) into a unified\ninterface without extra process annotation, reducing over 99% PRM parameters\nfor efficient reasoning. Equipped with SPRM, MetaStone-S1 is naturally suitable\nfor test time scaling (TTS), and we provide three reasoning effort modes (low,\nmedium, and high), based on the controllable thinking length. Moreover, we\nempirically establish a scaling law that reveals the relationship between total\nthinking computation and TTS performance. Experiments demonstrate that our\nMetaStone-S1 achieves comparable performance to OpenAI-o3-mini's series with\nonly 32B parameter size. To support the research community, we have\nopen-sourced MetaStone-S1 at https://github.com/MetaStone-AI/MetaStone-S1.",
+      "upvotes": 4,
+      "discussionId": "6868daac213f123a1f88b9d3",
+      "githubRepo": "https://github.com/MetaStone-AI/MetaStone-S1",
+      "ai_summary": "MetaStone-S1, a reflective generative model using a self-supervised process reward model, achieves efficient reasoning and scalable performance with fewer parameters compared to existing models.",
+      "ai_keywords": [
+        "reflective generative model",
+        "self-supervised process reward model",
+        "backbone network",
+        "task-specific heads",
+        "policy model",
+        "process reward model",
+        "test time scaling",
+        "controllable thinking length",
+        "scaling law",
+        "total thinking computation"
+      ],
+      "githubStars": 29
+    },
+    "publishedAt": "2025-07-02T13:58:01.000Z",
+    "title": "Test-Time Scaling with Reflective Generative Model",
+    "summary": "We introduce our first reflective generative model MetaStone-S1, which\nobtains OpenAI o3's performance via the self-supervised process reward model\n(SPRM). Through sharing the backbone network and using task-specific heads for\nnext token prediction and process scoring respectively, SPRM successfully\nintegrates the policy model and process reward model(PRM) into a unified\ninterface without extra process annotation, reducing over 99% PRM parameters\nfor efficient reasoning. Equipped with SPRM, MetaStone-S1 is naturally suitable\nfor test time scaling (TTS), and we provide three reasoning effort modes (low,\nmedium, and high), based on the controllable thinking length. Moreover, we\nempirically establish a scaling law that reveals the relationship between total\nthinking computation and TTS performance. Experiments demonstrate that our\nMetaStone-S1 achieves comparable performance to OpenAI-o3-mini's series with\nonly 32B parameter size. To support the research community, we have\nopen-sourced MetaStone-S1 at https://github.com/MetaStone-AI/MetaStone-S1.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/638700c723da90491eb72722/mRIN68aSkxejrT4UqCaKz.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.01951.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "638700c723da90491eb72722",
+      "avatarUrl": "/avatars/6dcddca5c31121b60e45aab0816e11be.svg",
+      "fullname": "Yuxin Wang",
+      "name": "wangyuxin87",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.08800",
+      "authors": [
+        {
+          "_id": "6874615e257d4f043537028f",
+          "name": "Luke Rivard",
+          "hidden": false
+        },
+        {
+          "_id": "6874615e257d4f0435370290",
+          "name": "Sun Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6874615e257d4f0435370291",
+          "name": "Hongyu Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6874615e257d4f0435370292",
+          "name": "Wenhu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6874615e257d4f0435370293",
+          "name": "Yuntian Deng",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/8bwvqBSzlNYlfcdn-pVWu.mp4"
+      ],
+      "publishedAt": "2025-07-11T17:59:40.000Z",
+      "submittedOnDailyAt": "2025-07-14T01:10:17.755Z",
+      "title": "NeuralOS: Towards Simulating Operating Systems via Neural Generative\n  Models",
+      "submittedOnDailyBy": {
+        "_id": "63081e15a670ed10f9d44229",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63081e15a670ed10f9d44229/w1b9uq-9774bMMgJbSPsS.jpeg",
+        "isPro": true,
+        "fullname": "Yuntian Deng",
+        "user": "yuntian-deng",
+        "type": "user"
+      },
+      "summary": "We introduce NeuralOS, a neural framework that simulates graphical user\ninterfaces (GUIs) of operating systems by directly predicting screen frames in\nresponse to user inputs such as mouse movements, clicks, and keyboard events.\nNeuralOS combines a recurrent neural network (RNN), which tracks computer\nstate, with a diffusion-based neural renderer that generates screen images. The\nmodel is trained on a large-scale dataset of Ubuntu XFCE recordings, which\ninclude both randomly generated interactions and realistic interactions\nproduced by AI agents. Experiments show that NeuralOS successfully renders\nrealistic GUI sequences, accurately captures mouse interactions, and reliably\npredicts state transitions like application launches. Although modeling\nfine-grained keyboard interactions precisely remains challenging, NeuralOS\noffers a step toward creating fully adaptive, generative neural interfaces for\nfuture human-computer interaction systems.",
+      "upvotes": 3,
+      "discussionId": "6874615e257d4f0435370294",
+      "ai_summary": "NeuralOS uses a combination of RNNs and diffusion-based rendering to simulate OS GUIs by predicting screen frames from user inputs, demonstrating realistic GUI rendering and state transitions.",
+      "ai_keywords": [
+        "recurrent neural network",
+        "RNN",
+        "diffusion-based neural renderer",
+        "GUI",
+        "user inputs",
+        "mouse interactions",
+        "keyboard events",
+        "state transitions",
+        "application launches"
+      ]
+    },
+    "publishedAt": "2025-07-11T13:59:40.000Z",
+    "title": "NeuralOS: Towards Simulating Operating Systems via Neural Generative\n  Models",
+    "summary": "We introduce NeuralOS, a neural framework that simulates graphical user\ninterfaces (GUIs) of operating systems by directly predicting screen frames in\nresponse to user inputs such as mouse movements, clicks, and keyboard events.\nNeuralOS combines a recurrent neural network (RNN), which tracks computer\nstate, with a diffusion-based neural renderer that generates screen images. The\nmodel is trained on a large-scale dataset of Ubuntu XFCE recordings, which\ninclude both randomly generated interactions and realistic interactions\nproduced by AI agents. Experiments show that NeuralOS successfully renders\nrealistic GUI sequences, accurately captures mouse interactions, and reliably\npredicts state transitions like application launches. Although modeling\nfine-grained keyboard interactions precisely remains challenging, NeuralOS\noffers a step toward creating fully adaptive, generative neural interfaces for\nfuture human-computer interaction systems.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/8bwvqBSzlNYlfcdn-pVWu.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.08800.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63081e15a670ed10f9d44229",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63081e15a670ed10f9d44229/w1b9uq-9774bMMgJbSPsS.jpeg",
+      "fullname": "Yuntian Deng",
+      "name": "yuntian-deng",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 245
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.08772",
+      "authors": [
+        {
+          "_id": "68746c95257d4f04353702b7",
+          "name": "Shaocong Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702b8",
+          "name": "Lihe Ding",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702b9",
+          "name": "Xiao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702ba",
+          "name": "Yaokun Li",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702bb",
+          "name": "Yuxin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702bc",
+          "name": "Yucheng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702bd",
+          "name": "Qi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702be",
+          "name": "Jaehyeok Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702bf",
+          "name": "Chenjian Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702c0",
+          "name": "Zhanpeng Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702c1",
+          "name": "Zibin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702c2",
+          "name": "Tianfan Xue",
+          "hidden": false
+        },
+        {
+          "_id": "68746c95257d4f04353702c3",
+          "name": "Dan Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-11T17:33:18.000Z",
+      "submittedOnDailyAt": "2025-07-14T01:05:21.741Z",
+      "title": "From One to More: Contextual Part Latents for 3D Generation",
+      "submittedOnDailyBy": {
+        "_id": "63ae91af2314b93f9e6dde42",
+        "avatarUrl": "/avatars/792ce138cbee85b8754fdcec7fb1ff52.svg",
+        "isPro": false,
+        "fullname": "Shaocong Dong",
+        "user": "dscdyc",
+        "type": "user"
+      },
+      "summary": "Recent advances in 3D generation have transitioned from multi-view 2D\nrendering approaches to 3D-native latent diffusion frameworks that exploit\ngeometric priors in ground truth data. Despite progress, three key limitations\npersist: (1) Single-latent representations fail to capture complex multi-part\ngeometries, causing detail degradation; (2) Holistic latent coding neglects\npart independence and interrelationships critical for compositional design; (3)\nGlobal conditioning mechanisms lack fine-grained controllability. Inspired by\nhuman 3D design workflows, we propose CoPart - a part-aware diffusion framework\nthat decomposes 3D objects into contextual part latents for coherent multi-part\ngeneration. This paradigm offers three advantages: i) Reduces encoding\ncomplexity through part decomposition; ii) Enables explicit part relationship\nmodeling; iii) Supports part-level conditioning. We further develop a mutual\nguidance strategy to fine-tune pre-trained diffusion models for joint part\nlatent denoising, ensuring both geometric coherence and foundation model\npriors. To enable large-scale training, we construct Partverse - a novel 3D\npart dataset derived from Objaverse through automated mesh segmentation and\nhuman-verified annotations. Extensive experiments demonstrate CoPart's superior\ncapabilities in part-level editing, articulated object generation, and scene\ncomposition with unprecedented controllability.",
+      "upvotes": 3,
+      "discussionId": "68746c96257d4f04353702c4",
+      "projectPage": "https://hkdsc.github.io/project/copart/",
+      "githubRepo": "https://github.com/hkdsc/copart",
+      "ai_summary": "A part-aware diffusion framework, CoPart, enhances 3D generation by decomposing objects into contextual parts, improving complexity handling, relationship modeling, and part-level conditioning.",
+      "ai_keywords": [
+        "latent diffusion frameworks",
+        "geometric priors",
+        "single-latent representations",
+        "holistic latent coding",
+        "part independence",
+        "interrelationships",
+        "compositional design",
+        "global conditioning mechanisms",
+        "fine-grained controllability",
+        "human 3D design workflows",
+        "part-aware diffusion framework",
+        "contextual part latents",
+        "coherent multi-part generation",
+        "encoding complexity",
+        "part relationship modeling",
+        "part-level conditioning",
+        "mutual guidance strategy",
+        "joint part latent denoising",
+        "geometric coherence",
+        "foundation model priors",
+        "Partverse",
+        "Objaverse",
+        "automated mesh segmentation",
+        "human-verified annotations",
+        "part-level editing",
+        "articulated object generation",
+        "scene composition"
+      ]
+    },
+    "publishedAt": "2025-07-11T13:33:18.000Z",
+    "title": "From One to More: Contextual Part Latents for 3D Generation",
+    "summary": "Recent advances in 3D generation have transitioned from multi-view 2D\nrendering approaches to 3D-native latent diffusion frameworks that exploit\ngeometric priors in ground truth data. Despite progress, three key limitations\npersist: (1) Single-latent representations fail to capture complex multi-part\ngeometries, causing detail degradation; (2) Holistic latent coding neglects\npart independence and interrelationships critical for compositional design; (3)\nGlobal conditioning mechanisms lack fine-grained controllability. Inspired by\nhuman 3D design workflows, we propose CoPart - a part-aware diffusion framework\nthat decomposes 3D objects into contextual part latents for coherent multi-part\ngeneration. This paradigm offers three advantages: i) Reduces encoding\ncomplexity through part decomposition; ii) Enables explicit part relationship\nmodeling; iii) Supports part-level conditioning. We further develop a mutual\nguidance strategy to fine-tune pre-trained diffusion models for joint part\nlatent denoising, ensuring both geometric coherence and foundation model\npriors. To enable large-scale training, we construct Partverse - a novel 3D\npart dataset derived from Objaverse through automated mesh segmentation and\nhuman-verified annotations. Extensive experiments demonstrate CoPart's superior\ncapabilities in part-level editing, articulated object generation, and scene\ncomposition with unprecedented controllability.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.08772.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "63ae91af2314b93f9e6dde42",
+      "avatarUrl": "/avatars/792ce138cbee85b8754fdcec7fb1ff52.svg",
+      "fullname": "Shaocong Dong",
+      "name": "dscdyc",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
