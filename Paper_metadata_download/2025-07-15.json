@@ -1,0 +1,103 @@
+[
+  {
+    "paper": {
+      "id": "2507.09862",
+      "authors": [
+        {
+          "_id": "6875c14a257d4f043537056b",
+          "name": "Youliang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6875c14a257d4f043537056c",
+          "name": "Zhaoyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6875c14a257d4f043537056d",
+          "name": "Duomin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6875c14a257d4f043537056e",
+          "name": "Jiahe Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6875c14a257d4f043537056f",
+          "name": "Deyu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6875c14a257d4f0435370570",
+          "name": "Zixin Yin",
+          "hidden": false
+        },
+        {
+          "_id": "6875c14a257d4f0435370571",
+          "name": "Xili Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6875c14a257d4f0435370572",
+          "name": "Gang Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6875c14a257d4f0435370573",
+          "name": "Xiu Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-14T02:22:47.000Z",
+      "submittedOnDailyAt": "2025-07-15T01:26:49.276Z",
+      "title": "SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual\n  Dyadic Interactive Human Generation",
+      "submittedOnDailyBy": {
+        "_id": "64ae9b88a22a179fc4d07992",
+        "avatarUrl": "/avatars/c9065f04a1188ea3129e56a90328ffd3.svg",
+        "isPro": false,
+        "fullname": "wang",
+        "user": "dorni",
+        "type": "user"
+      },
+      "summary": "The rapid development of large-scale models has catalyzed significant\nbreakthroughs in the digital human domain. These advanced methodologies offer\nhigh-fidelity solutions for avatar driving and rendering, leading academia to\nfocus on the next major challenge: audio-visual dyadic interactive virtual\nhuman. To facilitate research in this emerging area, we present SpeakerVid-5M\ndataset, the first large-scale, high-quality dataset designed for audio-visual\ndyadic interactive virtual human generation. Totaling over 8,743 hours,\nSpeakerVid-5M contains more than 5.2 million video clips of human portraits. It\ncovers diverse scales and interaction types, including monadic talking,\nlistening, and dyadic conversations. Crucially, the dataset is structured along\ntwo key dimensions: interaction type and data quality. First, it is categorized\ninto four types (dialogue branch, single branch, listening branch and\nmulti-turn branch) based on the interaction scenario. Second, it is stratified\ninto a large-scale pre-training subset and a curated, high-quality subset for\nSupervised Fine-Tuning (SFT). This dual structure accommodates a wide array of\n2D virtual human tasks. In addition, we provide an autoregressive (AR)-based\nvideo chat baseline trained on this data, accompanied by a dedicated set of\nmetrics and test data to serve as a benchmark VidChatBench for future work.\nBoth the dataset and the corresponding data processing code will be publicly\nreleased. Project page: https://dorniwang.github.io/SpeakerVid-5M/",
+      "upvotes": 0,
+      "discussionId": "6875c14a257d4f0435370574",
+      "ai_summary": "A large-scale dataset named SpeakerVid-5M is introduced for audio-visual dyadic interactive virtual human generation, featuring diverse interactions and high-quality data for various virtual human tasks.",
+      "ai_keywords": [
+        "audio-visual dyadic interactive virtual human",
+        "SpeakerVid-5M",
+        "video clips",
+        "monadic talking",
+        "listening",
+        "dyadic conversations",
+        "dialogue branch",
+        "single branch",
+        "listening branch",
+        "multi-turn branch",
+        "pre-training subset",
+        "Supervised Fine-Tuning",
+        "autoregressive",
+        "video chat baseline",
+        "VidChatBench"
+      ]
+    },
+    "publishedAt": "2025-07-13T22:22:47.000Z",
+    "title": "SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual\n  Dyadic Interactive Human Generation",
+    "summary": "The rapid development of large-scale models has catalyzed significant\nbreakthroughs in the digital human domain. These advanced methodologies offer\nhigh-fidelity solutions for avatar driving and rendering, leading academia to\nfocus on the next major challenge: audio-visual dyadic interactive virtual\nhuman. To facilitate research in this emerging area, we present SpeakerVid-5M\ndataset, the first large-scale, high-quality dataset designed for audio-visual\ndyadic interactive virtual human generation. Totaling over 8,743 hours,\nSpeakerVid-5M contains more than 5.2 million video clips of human portraits. It\ncovers diverse scales and interaction types, including monadic talking,\nlistening, and dyadic conversations. Crucially, the dataset is structured along\ntwo key dimensions: interaction type and data quality. First, it is categorized\ninto four types (dialogue branch, single branch, listening branch and\nmulti-turn branch) based on the interaction scenario. Second, it is stratified\ninto a large-scale pre-training subset and a curated, high-quality subset for\nSupervised Fine-Tuning (SFT). This dual structure accommodates a wide array of\n2D virtual human tasks. In addition, we provide an autoregressive (AR)-based\nvideo chat baseline trained on this data, accompanied by a dedicated set of\nmetrics and test data to serve as a benchmark VidChatBench for future work.\nBoth the dataset and the corresponding data processing code will be publicly\nreleased. Project page: https://dorniwang.github.io/SpeakerVid-5M/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.09862.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64ae9b88a22a179fc4d07992",
+      "avatarUrl": "/avatars/c9065f04a1188ea3129e56a90328ffd3.svg",
+      "fullname": "wang",
+      "name": "dorni",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
