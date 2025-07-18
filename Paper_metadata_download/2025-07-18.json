@@ -1,0 +1,375 @@
+[
+  {
+    "paper": {
+      "id": "2507.13334",
+      "authors": [
+        {
+          "_id": "6879aad021b37e676c8e406b",
+          "name": "Lingrui Mei",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e406c",
+          "name": "Jiayu Yao",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e406d",
+          "name": "Yuyao Ge",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e406e",
+          "name": "Yiwei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e406f",
+          "name": "Baolong Bi",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4070",
+          "name": "Yujun Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4071",
+          "name": "Jiazhi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4072",
+          "name": "Mingyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4073",
+          "name": "Zhong-Zhi Li",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4074",
+          "name": "Duzhen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4075",
+          "name": "Chenlin Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4076",
+          "name": "Jiayi Mao",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4077",
+          "name": "Tianze Xia",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4078",
+          "name": "Jiafeng Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6879aad021b37e676c8e4079",
+          "name": "Shenghua Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-17T17:50:36.000Z",
+      "submittedOnDailyAt": "2025-07-18T00:52:14.092Z",
+      "title": "A Survey of Context Engineering for Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "63120517ae8896941da4c5da",
+        "avatarUrl": "/avatars/10e1be026035f3e24225e6782a710083.svg",
+        "isPro": false,
+        "fullname": "Lingrui Mei",
+        "user": "Chevalier",
+        "type": "user"
+      },
+      "summary": "The performance of Large Language Models (LLMs) is fundamentally determined\nby the contextual information provided during inference. This survey introduces\nContext Engineering, a formal discipline that transcends simple prompt design\nto encompass the systematic optimization of information payloads for LLMs. We\npresent a comprehensive taxonomy decomposing Context Engineering into its\nfoundational components and the sophisticated implementations that integrate\nthem into intelligent systems. We first examine the foundational components:\ncontext retrieval and generation, context processing and context management. We\nthen explore how these components are architecturally integrated to create\nsophisticated system implementations: retrieval-augmented generation (RAG),\nmemory systems and tool-integrated reasoning, and multi-agent systems. Through\nthis systematic analysis of over 1300 research papers, our survey not only\nestablishes a technical roadmap for the field but also reveals a critical\nresearch gap: a fundamental asymmetry exists between model capabilities. While\ncurrent models, augmented by advanced context engineering, demonstrate\nremarkable proficiency in understanding complex contexts, they exhibit\npronounced limitations in generating equally sophisticated, long-form outputs.\nAddressing this gap is a defining priority for future research. Ultimately,\nthis survey provides a unified framework for both researchers and engineers\nadvancing context-aware AI.",
+      "upvotes": 18,
+      "discussionId": "6879aad021b37e676c8e407a",
+      "githubRepo": "https://github.com/Meirtz/Awesome-Context-Engineering",
+      "ai_summary": "Context Engineering systematically optimizes information payloads for Large Language Models, addressing gaps in generating sophisticated, long-form outputs.",
+      "ai_keywords": [
+        "Context Engineering",
+        "context retrieval",
+        "context generation",
+        "context processing",
+        "context management",
+        "retrieval-augmented generation",
+        "memory systems",
+        "tool-integrated reasoning",
+        "multi-agent systems"
+      ]
+    },
+    "publishedAt": "2025-07-17T13:50:36.000Z",
+    "title": "A Survey of Context Engineering for Large Language Models",
+    "summary": "The performance of Large Language Models (LLMs) is fundamentally determined\nby the contextual information provided during inference. This survey introduces\nContext Engineering, a formal discipline that transcends simple prompt design\nto encompass the systematic optimization of information payloads for LLMs. We\npresent a comprehensive taxonomy decomposing Context Engineering into its\nfoundational components and the sophisticated implementations that integrate\nthem into intelligent systems. We first examine the foundational components:\ncontext retrieval and generation, context processing and context management. We\nthen explore how these components are architecturally integrated to create\nsophisticated system implementations: retrieval-augmented generation (RAG),\nmemory systems and tool-integrated reasoning, and multi-agent systems. Through\nthis systematic analysis of over 1300 research papers, our survey not only\nestablishes a technical roadmap for the field but also reveals a critical\nresearch gap: a fundamental asymmetry exists between model capabilities. While\ncurrent models, augmented by advanced context engineering, demonstrate\nremarkable proficiency in understanding complex contexts, they exhibit\npronounced limitations in generating equally sophisticated, long-form outputs.\nAddressing this gap is a defining priority for future research. Ultimately,\nthis survey provides a unified framework for both researchers and engineers\nadvancing context-aware AI.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.13334.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63120517ae8896941da4c5da",
+      "avatarUrl": "/avatars/10e1be026035f3e24225e6782a710083.svg",
+      "fullname": "Lingrui Mei",
+      "name": "Chevalier",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.13332",
+      "authors": [
+        {
+          "_id": "6879b01621b37e676c8e40a8",
+          "name": "Zhouqi Hua",
+          "hidden": false
+        },
+        {
+          "_id": "6879b01621b37e676c8e40a9",
+          "name": "Wenwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6879b01621b37e676c8e40aa",
+          "name": "Chengqi Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "6879b01621b37e676c8e40ab",
+          "name": "Yuzhe Gu",
+          "hidden": false
+        },
+        {
+          "_id": "6879b01621b37e676c8e40ac",
+          "name": "Songyang Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6879b01621b37e676c8e40ad",
+          "name": "Kuikun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6879b01621b37e676c8e40ae",
+          "name": "Kai Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-17T17:50:07.000Z",
+      "submittedOnDailyAt": "2025-07-18T00:59:46.053Z",
+      "title": "The Imitation Game: Turing Machine Imitator is Length Generalizable\n  Reasoner",
+      "submittedOnDailyBy": {
+        "_id": "6601196cc91ba4c08ad6e270",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6601196cc91ba4c08ad6e270/X2YPNzUOQXBz5Gv-xR9LW.jpeg",
+        "isPro": false,
+        "fullname": "yuzhe gu",
+        "user": "vanilla1116",
+        "type": "user"
+      },
+      "summary": "Length generalization, the ability to solve problems of longer sequences than\nthose observed during training, poses a core challenge of Transformer-based\nlarge language models (LLM). Although existing studies have predominantly\nfocused on data-driven approaches for arithmetic operations and symbolic\nmanipulation tasks, these approaches tend to be task-specific with limited\noverall performance. To pursue a more general solution, this paper focuses on a\nbroader case of reasoning problems that are computable, i.e., problems that\nalgorithms can solve, thus can be solved by the Turing Machine. From this\nperspective, this paper proposes Turing MAchine Imitation Learning (TAIL) to\nimprove the length generalization ability of LLMs. TAIL synthesizes\nchain-of-thoughts (CoT) data that imitate the execution process of a Turing\nMachine by computer programs, which linearly expands the reasoning steps into\natomic states to alleviate shortcut learning and explicit memory fetch\nmechanism to reduce the difficulties of dynamic and long-range data access in\nelementary operations. To validate the reliability and universality of TAIL, we\nconstruct a challenging synthetic dataset covering 8 classes of algorithms and\n18 tasks. Without bells and whistles, TAIL significantly improves the length\ngeneralization ability as well as the performance of Qwen2.5-7B on various\ntasks using only synthetic data, surpassing previous methods and DeepSeek-R1.\nThe experimental results reveal that the key concepts in the Turing Machine,\ninstead of the thinking styles, are indispensable for TAIL for length\ngeneralization, through which the model exhibits read-and-write behaviors\nconsistent with the properties of the Turing Machine in their attention layers.\nThis work provides a promising direction for future research in the learning of\nLLM reasoning from synthetic data.",
+      "upvotes": 9,
+      "discussionId": "6879b01721b37e676c8e40af",
+      "ai_summary": "TAIL, a method that imitates Turing Machine execution processes, enhances the length generalization and performance of LLMs by synthesizing chain-of-thought data and reducing shortcut learning.",
+      "ai_keywords": [
+        "Transformer-based large language models",
+        "length generalization",
+        "Turing MAchine Imitation Learning",
+        "TAIL",
+        "chain-of-thoughts",
+        "Turing Machine",
+        "synthetic dataset",
+        "Qwen2.5-7B",
+        "read-and-write behaviors",
+        "attention layers"
+      ]
+    },
+    "publishedAt": "2025-07-17T13:50:07.000Z",
+    "title": "The Imitation Game: Turing Machine Imitator is Length Generalizable\n  Reasoner",
+    "summary": "Length generalization, the ability to solve problems of longer sequences than\nthose observed during training, poses a core challenge of Transformer-based\nlarge language models (LLM). Although existing studies have predominantly\nfocused on data-driven approaches for arithmetic operations and symbolic\nmanipulation tasks, these approaches tend to be task-specific with limited\noverall performance. To pursue a more general solution, this paper focuses on a\nbroader case of reasoning problems that are computable, i.e., problems that\nalgorithms can solve, thus can be solved by the Turing Machine. From this\nperspective, this paper proposes Turing MAchine Imitation Learning (TAIL) to\nimprove the length generalization ability of LLMs. TAIL synthesizes\nchain-of-thoughts (CoT) data that imitate the execution process of a Turing\nMachine by computer programs, which linearly expands the reasoning steps into\natomic states to alleviate shortcut learning and explicit memory fetch\nmechanism to reduce the difficulties of dynamic and long-range data access in\nelementary operations. To validate the reliability and universality of TAIL, we\nconstruct a challenging synthetic dataset covering 8 classes of algorithms and\n18 tasks. Without bells and whistles, TAIL significantly improves the length\ngeneralization ability as well as the performance of Qwen2.5-7B on various\ntasks using only synthetic data, surpassing previous methods and DeepSeek-R1.\nThe experimental results reveal that the key concepts in the Turing Machine,\ninstead of the thinking styles, are indispensable for TAIL for length\ngeneralization, through which the model exhibits read-and-write behaviors\nconsistent with the properties of the Turing Machine in their attention layers.\nThis work provides a promising direction for future research in the learning of\nLLM reasoning from synthetic data.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.13332.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6601196cc91ba4c08ad6e270",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6601196cc91ba4c08ad6e270/X2YPNzUOQXBz5Gv-xR9LW.jpeg",
+      "fullname": "yuzhe gu",
+      "name": "vanilla1116",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.12720",
+      "authors": [
+        {
+          "_id": "68799d0521b37e676c8e4060",
+          "name": "Abraham Toluase Owodunni",
+          "hidden": false
+        },
+        {
+          "_id": "68799d0521b37e676c8e4061",
+          "name": "Orevaoghene Ahia",
+          "hidden": false
+        },
+        {
+          "_id": "68799d0521b37e676c8e4062",
+          "name": "Sachin Kumar",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-17T01:55:41.000Z",
+      "submittedOnDailyAt": "2025-07-18T00:36:57.429Z",
+      "title": "FLEXITOKENS: Flexible Tokenization for Evolving Language Models",
+      "submittedOnDailyBy": {
+        "_id": "626d1e1e72169e781945bf44",
+        "avatarUrl": "/avatars/6bf9f35042b6d939f2ab525816ad0423.svg",
+        "isPro": false,
+        "fullname": "Abraham  Owodunni",
+        "user": "Owos",
+        "type": "user"
+      },
+      "summary": "Language models (LMs) are challenging to adapt to new data distributions by\nsimple finetuning. This is due to the rigidity of their subword tokenizers,\nwhich typically remain unchanged during adaptation. This inflexibility often\nleads to inefficient tokenization, causing overfragmentation of\nout-of-distribution domains, unseen languages, or scripts. In this work, we\ndevelop byte-level LMs with learnable tokenizers to make tokenization adaptive.\nOur models include a submodule that learns to predict boundaries between the\ninput byte sequence, encoding it into variable-length segments. Existing\ntokenizer-free methods train this boundary predictor using an auxiliary loss\nthat enforces a fixed compression rate across the training corpus, introducing\na new kind of rigidity. We propose FLEXITOKENS, a simplified training objective\nthat enables significantly greater flexibility during adaptation. Evaluating\nacross multiple multilingual benchmarks, morphologically diverse tasks, and\ndomains, we demonstrate that FLEXITOKENS consistently reduces token\nover-fragmentation and achieves up to 10\\% improvements on downstream task\nperformance compared to subword and other gradient-based tokenizers. Code and\ndata for our experiments will be released at\nhttps://github.com/owos/flexitokens",
+      "upvotes": 1,
+      "discussionId": "68799d0521b37e676c8e4063",
+      "ai_summary": "FLEXITOKENS, a byte-level language model with a learnable tokenizer, reduces token over-fragmentation and improves performance across multilingual and morphologically diverse tasks.",
+      "ai_keywords": [
+        "byte-level LMs",
+        "learnable tokenizers",
+        "boundary predictor",
+        "FLEXITOKENS",
+        "token over-fragmentation",
+        "subword tokenizers",
+        "gradient-based tokenizers"
+      ]
+    },
+    "publishedAt": "2025-07-16T21:55:41.000Z",
+    "title": "FLEXITOKENS: Flexible Tokenization for Evolving Language Models",
+    "summary": "Language models (LMs) are challenging to adapt to new data distributions by\nsimple finetuning. This is due to the rigidity of their subword tokenizers,\nwhich typically remain unchanged during adaptation. This inflexibility often\nleads to inefficient tokenization, causing overfragmentation of\nout-of-distribution domains, unseen languages, or scripts. In this work, we\ndevelop byte-level LMs with learnable tokenizers to make tokenization adaptive.\nOur models include a submodule that learns to predict boundaries between the\ninput byte sequence, encoding it into variable-length segments. Existing\ntokenizer-free methods train this boundary predictor using an auxiliary loss\nthat enforces a fixed compression rate across the training corpus, introducing\na new kind of rigidity. We propose FLEXITOKENS, a simplified training objective\nthat enables significantly greater flexibility during adaptation. Evaluating\nacross multiple multilingual benchmarks, morphologically diverse tasks, and\ndomains, we demonstrate that FLEXITOKENS consistently reduces token\nover-fragmentation and achieves up to 10\\% improvements on downstream task\nperformance compared to subword and other gradient-based tokenizers. Code and\ndata for our experiments will be released at\nhttps://github.com/owos/flexitokens",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.12720.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "626d1e1e72169e781945bf44",
+      "avatarUrl": "/avatars/6bf9f35042b6d939f2ab525816ad0423.svg",
+      "fullname": "Abraham  Owodunni",
+      "name": "Owos",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.12508",
+      "authors": [
+        {
+          "_id": "6879af4f21b37e676c8e409b",
+          "name": "Yuncong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6879af4f21b37e676c8e409c",
+          "name": "Jiageng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6879af4f21b37e676c8e409d",
+          "name": "Zheyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6879af4f21b37e676c8e409e",
+          "name": "Siyuan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6879af4f21b37e676c8e409f",
+          "name": "Reuben Tan",
+          "hidden": false
+        },
+        {
+          "_id": "6879af4f21b37e676c8e40a0",
+          "name": "Jianwei Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6879af4f21b37e676c8e40a1",
+          "name": "Yilun Du",
+          "hidden": false
+        },
+        {
+          "_id": "6879af4f21b37e676c8e40a2",
+          "name": "Chuang Gan",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/65e919332fd9300c7eb96556/sRj5beNxspccadVwKC_vj.mp4"
+      ],
+      "publishedAt": "2025-07-16T17:59:36.000Z",
+      "submittedOnDailyAt": "2025-07-18T00:56:28.122Z",
+      "title": "MindJourney: Test-Time Scaling with World Models for Spatial Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "65e919332fd9300c7eb96556",
+        "avatarUrl": "/avatars/a826f7e14acf34603aa68e4fc27f12af.svg",
+        "isPro": false,
+        "fullname": "Yuncong Yang",
+        "user": "yyuncong",
+        "type": "user"
+      },
+      "summary": "Spatial reasoning in 3D space is central to human cognition and indispensable\nfor embodied tasks such as navigation and manipulation. However,\nstate-of-the-art vision-language models (VLMs) struggle frequently with tasks\nas simple as anticipating how a scene will look after an egocentric motion:\nthey perceive 2D images but lack an internal model of 3D dynamics. We therefore\npropose MindJourney, a test-time scaling framework that grants a VLM with this\nmissing capability by coupling it to a controllable world model based on video\ndiffusion. The VLM iteratively sketches a concise camera trajectory, while the\nworld model synthesizes the corresponding view at each step. The VLM then\nreasons over this multi-view evidence gathered during the interactive\nexploration. Without any fine-tuning, our MindJourney achieves over an average\n8% performance boost on the representative spatial reasoning benchmark SAT,\nshowing that pairing VLMs with world models for test-time scaling offers a\nsimple, plug-and-play route to robust 3D reasoning. Meanwhile, our method also\nimproves upon the test-time inference VLMs trained through reinforcement\nlearning, which demonstrates the potential of our method that utilizes world\nmodels for test-time scaling.",
+      "upvotes": 1,
+      "discussionId": "6879af5021b37e676c8e40a3",
+      "ai_summary": "MindJourney enhances vision-language models with 3D reasoning by coupling them with a video diffusion-based world model, achieving improved performance on spatial reasoning tasks without fine-tuning.",
+      "ai_keywords": [
+        "vision-language models",
+        "VLMs",
+        "world model",
+        "video diffusion",
+        "camera trajectory",
+        "multi-view evidence",
+        "spatial reasoning",
+        "SAT benchmark",
+        "reinforcement learning"
+      ]
+    },
+    "publishedAt": "2025-07-16T13:59:36.000Z",
+    "title": "MindJourney: Test-Time Scaling with World Models for Spatial Reasoning",
+    "summary": "Spatial reasoning in 3D space is central to human cognition and indispensable\nfor embodied tasks such as navigation and manipulation. However,\nstate-of-the-art vision-language models (VLMs) struggle frequently with tasks\nas simple as anticipating how a scene will look after an egocentric motion:\nthey perceive 2D images but lack an internal model of 3D dynamics. We therefore\npropose MindJourney, a test-time scaling framework that grants a VLM with this\nmissing capability by coupling it to a controllable world model based on video\ndiffusion. The VLM iteratively sketches a concise camera trajectory, while the\nworld model synthesizes the corresponding view at each step. The VLM then\nreasons over this multi-view evidence gathered during the interactive\nexploration. Without any fine-tuning, our MindJourney achieves over an average\n8% performance boost on the representative spatial reasoning benchmark SAT,\nshowing that pairing VLMs with world models for test-time scaling offers a\nsimple, plug-and-play route to robust 3D reasoning. Meanwhile, our method also\nimproves upon the test-time inference VLMs trained through reinforcement\nlearning, which demonstrates the potential of our method that utilizes world\nmodels for test-time scaling.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/65e919332fd9300c7eb96556/sRj5beNxspccadVwKC_vj.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.12508.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65e919332fd9300c7eb96556",
+      "avatarUrl": "/avatars/a826f7e14acf34603aa68e4fc27f12af.svg",
+      "fullname": "Yuncong Yang",
+      "name": "yyuncong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
