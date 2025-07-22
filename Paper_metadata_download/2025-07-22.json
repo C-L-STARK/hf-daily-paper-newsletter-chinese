@@ -1,0 +1,283 @@
+[
+  {
+    "paper": {
+      "id": "2507.15061",
+      "authors": [
+        {
+          "_id": "687ef39133947f780d9b4a7f",
+          "name": "Zhengwei Tao",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a80",
+          "name": "Jialong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a81",
+          "name": "Wenbiao Yin",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a82",
+          "name": "Junkai Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a83",
+          "name": "Baixuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a84",
+          "name": "Haiyang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a85",
+          "name": "Kuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a86",
+          "name": "Liwen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a87",
+          "name": "Xinyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a88",
+          "name": "Yong Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a89",
+          "name": "Pengjun Xie",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a8a",
+          "name": "Fei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "687ef39133947f780d9b4a8b",
+          "name": "Jingren Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-20T17:53:37.000Z",
+      "submittedOnDailyAt": "2025-07-22T01:17:25.547Z",
+      "title": "WebShaper: Agentically Data Synthesizing via Information-Seeking\n  Formalization",
+      "submittedOnDailyBy": {
+        "_id": "644a4fbc2166258fccc664bc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+        "isPro": false,
+        "fullname": "Jialong Wu",
+        "user": "callanwu",
+        "type": "user"
+      },
+      "summary": "The advent of Large Language Model (LLM)-powered agents has revolutionized\nartificial intelligence by enabling solutions to complex, open-ended tasks\nthrough web-based information-seeking (IS) capabilities. The scarcity of\nhigh-quality training data has limited the development of IS agents. Existing\napproaches typically adopt an information-driven paradigm that first collects\nweb data and then generates questions based on the retrieval. However, this may\nlead to inconsistency between information structure and reasoning structure,\nquestion and answer. To mitigate, we propose a formalization-driven IS data\nsynthesis framework WebShaper to construct a dataset. WebShaper systematically\nformalizes IS tasks through set theory. Central to the formalization is the\nconcept of Knowledge Projections (KP), which enables precise control over\nreasoning structure by KP operation compositions. During synthesis, we begin by\ncreating seed tasks, then use a multi-step expansion process. At each step, an\nagentic Expander expands the current formal question more complex with\nretrieval and validation tools based on our formalization. We train our model\non the synthesized dataset. Experiment results demonstrate that WebShaper\nachieves state-of-the-art performance among open-sourced IS agents on GAIA and\nWebWalkerQA benchmarks.",
+      "upvotes": 12,
+      "discussionId": "687ef39133947f780d9b4a8c",
+      "ai_summary": "A formalization-driven framework called WebShaper synthesizes information-seeking datasets using set theory and Knowledge Projections, enhancing the performance of LLM-powered agents on open-ended tasks.",
+      "ai_keywords": [
+        "Large Language Model",
+        "LLM-powered agents",
+        "information-seeking",
+        "web-based information-seeking",
+        "set theory",
+        "Knowledge Projections",
+        "KP operation compositions",
+        "agentic Expander",
+        "GAIA benchmark",
+        "WebWalkerQA benchmark"
+      ]
+    },
+    "publishedAt": "2025-07-20T13:53:37.000Z",
+    "title": "WebShaper: Agentically Data Synthesizing via Information-Seeking\n  Formalization",
+    "summary": "The advent of Large Language Model (LLM)-powered agents has revolutionized\nartificial intelligence by enabling solutions to complex, open-ended tasks\nthrough web-based information-seeking (IS) capabilities. The scarcity of\nhigh-quality training data has limited the development of IS agents. Existing\napproaches typically adopt an information-driven paradigm that first collects\nweb data and then generates questions based on the retrieval. However, this may\nlead to inconsistency between information structure and reasoning structure,\nquestion and answer. To mitigate, we propose a formalization-driven IS data\nsynthesis framework WebShaper to construct a dataset. WebShaper systematically\nformalizes IS tasks through set theory. Central to the formalization is the\nconcept of Knowledge Projections (KP), which enables precise control over\nreasoning structure by KP operation compositions. During synthesis, we begin by\ncreating seed tasks, then use a multi-step expansion process. At each step, an\nagentic Expander expands the current formal question more complex with\nretrieval and validation tools based on our formalization. We train our model\non the synthesized dataset. Experiment results demonstrate that WebShaper\nachieves state-of-the-art performance among open-sourced IS agents on GAIA and\nWebWalkerQA benchmarks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.15061.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "644a4fbc2166258fccc664bc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+      "fullname": "Jialong Wu",
+      "name": "callanwu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 11
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.15846",
+      "authors": [
+        {
+          "_id": "687ef89633947f780d9b4aad",
+          "name": "Fei Tang",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4aae",
+          "name": "Zhangxuan Gu",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4aaf",
+          "name": "Zhengxi Lu",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab0",
+          "name": "Xuyang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab1",
+          "name": "Shuheng Shen",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab2",
+          "name": "Changhua Meng",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab3",
+          "name": "Wen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab4",
+          "name": "Wenqi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab5",
+          "name": "Yongliang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab6",
+          "name": "Weiming Lu",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab7",
+          "name": "Jun Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "687ef89633947f780d9b4ab8",
+          "name": "Yueting Zhuang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-21T17:53:42.000Z",
+      "submittedOnDailyAt": "2025-07-22T01:05:30.910Z",
+      "title": "GUI-G^2: Gaussian Reward Modeling for GUI Grounding",
+      "submittedOnDailyBy": {
+        "_id": "5e1058e9fcf41d740b69966d",
+        "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+        "isPro": false,
+        "fullname": "Yongliang Shen",
+        "user": "tricktreat",
+        "type": "user"
+      },
+      "summary": "Graphical User Interface (GUI) grounding maps natural language instructions\nto precise interface locations for autonomous interaction. Current\nreinforcement learning approaches use binary rewards that treat elements as\nhit-or-miss targets, creating sparse signals that ignore the continuous nature\nof spatial interactions. Motivated by human clicking behavior that naturally\nforms Gaussian distributions centered on target elements, we introduce GUI\nGaussian Grounding Rewards (GUI-G^2), a principled reward framework that\nmodels GUI elements as continuous Gaussian distributions across the interface\nplane. GUI-G^2 incorporates two synergistic mechanisms: Gaussian point\nrewards model precise localization through exponentially decaying distributions\ncentered on element centroids, while coverage rewards assess spatial alignment\nby measuring the overlap between predicted Gaussian distributions and target\nregions. To handle diverse element scales, we develop an adaptive variance\nmechanism that calibrates reward distributions based on element dimensions.\nThis framework transforms GUI grounding from sparse binary classification to\ndense continuous optimization, where Gaussian distributions generate rich\ngradient signals that guide models toward optimal interaction positions.\nExtensive experiments across ScreenSpot, ScreenSpot-v2, and ScreenSpot-Pro\nbenchmarks demonstrate that GUI-G^2, substantially outperforms\nstate-of-the-art method UI-TARS-72B, with the most significant improvement of\n24.7% on ScreenSpot-Pro. Our analysis reveals that continuous modeling provides\nsuperior robustness to interface variations and enhanced generalization to\nunseen layouts, establishing a new paradigm for spatial reasoning in GUI\ninteraction tasks.",
+      "upvotes": 5,
+      "discussionId": "687ef89633947f780d9b4ab9"
+    },
+    "publishedAt": "2025-07-21T13:53:42.000Z",
+    "title": "GUI-G^2: Gaussian Reward Modeling for GUI Grounding",
+    "summary": "Graphical User Interface (GUI) grounding maps natural language instructions\nto precise interface locations for autonomous interaction. Current\nreinforcement learning approaches use binary rewards that treat elements as\nhit-or-miss targets, creating sparse signals that ignore the continuous nature\nof spatial interactions. Motivated by human clicking behavior that naturally\nforms Gaussian distributions centered on target elements, we introduce GUI\nGaussian Grounding Rewards (GUI-G^2), a principled reward framework that\nmodels GUI elements as continuous Gaussian distributions across the interface\nplane. GUI-G^2 incorporates two synergistic mechanisms: Gaussian point\nrewards model precise localization through exponentially decaying distributions\ncentered on element centroids, while coverage rewards assess spatial alignment\nby measuring the overlap between predicted Gaussian distributions and target\nregions. To handle diverse element scales, we develop an adaptive variance\nmechanism that calibrates reward distributions based on element dimensions.\nThis framework transforms GUI grounding from sparse binary classification to\ndense continuous optimization, where Gaussian distributions generate rich\ngradient signals that guide models toward optimal interaction positions.\nExtensive experiments across ScreenSpot, ScreenSpot-v2, and ScreenSpot-Pro\nbenchmarks demonstrate that GUI-G^2, substantially outperforms\nstate-of-the-art method UI-TARS-72B, with the most significant improvement of\n24.7% on ScreenSpot-Pro. Our analysis reveals that continuous modeling provides\nsuperior robustness to interface variations and enhanced generalization to\nunseen layouts, establishing a new paradigm for spatial reasoning in GUI\ninteraction tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.15846.png",
+    "numComments": 3,
+    "submittedBy": {
+      "_id": "5e1058e9fcf41d740b69966d",
+      "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+      "fullname": "Yongliang Shen",
+      "name": "tricktreat",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 23
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.15778",
+      "authors": [
+        {
+          "_id": "687efb4433947f780d9b4ae7",
+          "name": "Jiakang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "687efb4433947f780d9b4ae8",
+          "name": "Runze Liu",
+          "hidden": false
+        },
+        {
+          "_id": "687efb4433947f780d9b4ae9",
+          "name": "Fuzheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "687efb4433947f780d9b4aea",
+          "name": "Xiu Li",
+          "hidden": false
+        },
+        {
+          "_id": "687efb4433947f780d9b4aeb",
+          "name": "Guorui Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-21T16:34:01.000Z",
+      "submittedOnDailyAt": "2025-07-22T01:17:50.371Z",
+      "title": "Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for\n  RLVR",
+      "submittedOnDailyBy": {
+        "_id": "667187ba9ab144eb3ac43a1b",
+        "avatarUrl": "/avatars/db5558aa1c5160b9aee8b58573271959.svg",
+        "isPro": false,
+        "fullname": "Runze Liu",
+        "user": "RyanLiu112",
+        "type": "user"
+      },
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has become an effective\npost-training method for improving the reasoning abilities of Large Language\nModels (LLMs), mainly by shaping higher-order behaviors such as reflection and\nplanning. However, previous RLVR algorithms often apply uniform training\nsignals to all tokens, without considering the different roles of low-entropy\nknowledge-related tokens and high-entropy reasoning-related tokens. Some recent\nmethods try to separate these token types by gradient masking or asynchronous\nupdates, but these approaches may break semantic dependencies in the model\noutput and hinder effective learning. In this work, we propose Archer, an\nentropy-aware RLVR approach with dual-token constraints and synchronous\nupdates. Specifically, our method applies weaker KL regularization and higher\nclipping thresholds to reasoning tokens to encourage exploration, while using\nstronger constraints on knowledge tokens to maintain factual knowledge.\nExperimental results on several mathematical reasoning and code generation\nbenchmarks show that our approach significantly outperforms previous RLVR\nmethods, reaching or exceeding state-of-the-art performance among models of\ncomparable size. The code is available at\nhttps://github.com/wizard-III/ArcherCodeR.",
+      "upvotes": 3,
+      "discussionId": "687efb4533947f780d9b4aec",
+      "githubRepo": "https://github.com/wizard-III/ArcherCodeR"
+    },
+    "publishedAt": "2025-07-21T12:34:01.000Z",
+    "title": "Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for\n  RLVR",
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has become an effective\npost-training method for improving the reasoning abilities of Large Language\nModels (LLMs), mainly by shaping higher-order behaviors such as reflection and\nplanning. However, previous RLVR algorithms often apply uniform training\nsignals to all tokens, without considering the different roles of low-entropy\nknowledge-related tokens and high-entropy reasoning-related tokens. Some recent\nmethods try to separate these token types by gradient masking or asynchronous\nupdates, but these approaches may break semantic dependencies in the model\noutput and hinder effective learning. In this work, we propose Archer, an\nentropy-aware RLVR approach with dual-token constraints and synchronous\nupdates. Specifically, our method applies weaker KL regularization and higher\nclipping thresholds to reasoning tokens to encourage exploration, while using\nstronger constraints on knowledge tokens to maintain factual knowledge.\nExperimental results on several mathematical reasoning and code generation\nbenchmarks show that our approach significantly outperforms previous RLVR\nmethods, reaching or exceeding state-of-the-art performance among models of\ncomparable size. The code is available at\nhttps://github.com/wizard-III/ArcherCodeR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.15778.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "667187ba9ab144eb3ac43a1b",
+      "avatarUrl": "/avatars/db5558aa1c5160b9aee8b58573271959.svg",
+      "fullname": "Runze Liu",
+      "name": "RyanLiu112",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  }
+]
