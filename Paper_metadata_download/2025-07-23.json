@@ -1,0 +1,413 @@
+[
+  {
+    "paper": {
+      "id": "2507.16815",
+      "authors": [
+        {
+          "_id": "688044e800f4b5a05f2fbdd8",
+          "name": "Chi-Pin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "688044e800f4b5a05f2fbdd9",
+          "name": "Yueh-Hua Wu",
+          "hidden": false
+        },
+        {
+          "_id": "688044e800f4b5a05f2fbdda",
+          "name": "Min-Hung Chen",
+          "hidden": false
+        },
+        {
+          "_id": "688044e800f4b5a05f2fbddb",
+          "name": "Yu-Chiang Frank Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688044e800f4b5a05f2fbddc",
+          "name": "Fu-En Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-22T17:59:46.000Z",
+      "submittedOnDailyAt": "2025-07-23T00:44:28.338Z",
+      "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent\n  Planning",
+      "submittedOnDailyBy": {
+        "_id": "64705d224be5cf1f3348d6bc",
+        "avatarUrl": "/avatars/270bff7c7cb326528dc192fc38561a8b.svg",
+        "isPro": false,
+        "fullname": "Chi-Pin Huang",
+        "user": "jasper0314-huang",
+        "type": "user"
+      },
+      "summary": "Vision-language-action (VLA) reasoning tasks require agents to interpret\nmultimodal instructions, perform long-horizon planning, and act adaptively in\ndynamic environments. Existing approaches typically train VLA models in an\nend-to-end fashion, directly mapping inputs to actions without explicit\nreasoning, which hinders their ability to plan over multiple steps or adapt to\ncomplex task variations. In this paper, we propose ThinkAct, a dual-system\nframework that bridges high-level reasoning with low-level action execution via\nreinforced visual latent planning. ThinkAct trains a multimodal LLM to generate\nembodied reasoning plans guided by reinforcing action-aligned visual rewards\nbased on goal completion and trajectory consistency. These reasoning plans are\ncompressed into a visual plan latent that conditions a downstream action model\nfor robust action execution on target environments. Extensive experiments on\nembodied reasoning and robot manipulation benchmarks demonstrate that ThinkAct\nenables few-shot adaptation, long-horizon planning, and self-correction\nbehaviors in complex embodied AI tasks.",
+      "upvotes": 5,
+      "discussionId": "688044e800f4b5a05f2fbddd",
+      "ai_summary": "ThinkAct, a dual-system framework, uses reinforced visual latent planning to enable high-level reasoning and robust action execution in vision-language-action tasks.",
+      "ai_keywords": [
+        "multimodal LLM",
+        "embodied reasoning plans",
+        "reinforced action-aligned visual rewards",
+        "visual plan latent",
+        "downstream action model",
+        "few-shot adaptation",
+        "long-horizon planning",
+        "self-correction behaviors"
+      ]
+    },
+    "publishedAt": "2025-07-22T13:59:46.000Z",
+    "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent\n  Planning",
+    "summary": "Vision-language-action (VLA) reasoning tasks require agents to interpret\nmultimodal instructions, perform long-horizon planning, and act adaptively in\ndynamic environments. Existing approaches typically train VLA models in an\nend-to-end fashion, directly mapping inputs to actions without explicit\nreasoning, which hinders their ability to plan over multiple steps or adapt to\ncomplex task variations. In this paper, we propose ThinkAct, a dual-system\nframework that bridges high-level reasoning with low-level action execution via\nreinforced visual latent planning. ThinkAct trains a multimodal LLM to generate\nembodied reasoning plans guided by reinforcing action-aligned visual rewards\nbased on goal completion and trajectory consistency. These reasoning plans are\ncompressed into a visual plan latent that conditions a downstream action model\nfor robust action execution on target environments. Extensive experiments on\nembodied reasoning and robot manipulation benchmarks demonstrate that ThinkAct\nenables few-shot adaptation, long-horizon planning, and self-correction\nbehaviors in complex embodied AI tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.16815.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64705d224be5cf1f3348d6bc",
+      "avatarUrl": "/avatars/270bff7c7cb326528dc192fc38561a8b.svg",
+      "fullname": "Chi-Pin Huang",
+      "name": "jasper0314-huang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.16812",
+      "authors": [
+        {
+          "_id": "688037ee00f4b5a05f2fbda9",
+          "name": "Run-Ze Fan",
+          "hidden": false
+        },
+        {
+          "_id": "688037ee00f4b5a05f2fbdaa",
+          "name": "Zengzhi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688037ee00f4b5a05f2fbdab",
+          "name": "Pengfei Liu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/616bfc2b40e2f69baa1c7add/7o5TZQfu85o-FOJofCLul.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/616bfc2b40e2f69baa1c7add/L24hJQbCMi6F8Uei_GBlW.png"
+      ],
+      "publishedAt": "2025-07-22T17:59:03.000Z",
+      "submittedOnDailyAt": "2025-07-23T00:20:14.145Z",
+      "title": "MegaScience: Pushing the Frontiers of Post-Training Datasets for Science\n  Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "616bfc2b40e2f69baa1c7add",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/616bfc2b40e2f69baa1c7add/Os7_qgMei-2lRVelrOG7B.jpeg",
+        "isPro": false,
+        "fullname": "Run-Ze Fan",
+        "user": "Vfrz",
+        "type": "user"
+      },
+      "summary": "Scientific reasoning is critical for developing AI scientists and supporting\nhuman researchers in advancing the frontiers of natural science discovery.\nHowever, the open-source community has primarily focused on mathematics and\ncoding while neglecting the scientific domain, largely due to the absence of\nopen, large-scale, high-quality, verifiable scientific reasoning datasets. To\nbridge this gap, we first present TextbookReasoning, an open dataset featuring\ntruthful reference answers extracted from 12k university-level scientific\ntextbooks, comprising 650k reasoning questions spanning 7 scientific\ndisciplines. We further introduce MegaScience, a large-scale mixture of\nhigh-quality open-source datasets totaling 1.25 million instances, developed\nthrough systematic ablation studies that evaluate various data selection\nmethodologies to identify the optimal subset for each publicly available\nscientific dataset. Meanwhile, we build a comprehensive evaluation system\ncovering diverse subjects and question types across 15 benchmarks,\nincorporating comprehensive answer extraction strategies to ensure accurate\nevaluation metrics. Our experiments demonstrate that our datasets achieve\nsuperior performance and training efficiency with more concise response lengths\ncompared to existing open-source scientific datasets. Furthermore, we train\nLlama3.1, Qwen2.5, and Qwen3 series base models on MegaScience, which\nsignificantly outperform the corresponding official instruct models in average\nperformance. In addition, MegaScience exhibits greater effectiveness for larger\nand stronger models, suggesting a scaling benefit for scientific tuning. We\nrelease our data curation pipeline, evaluation system, datasets, and seven\ntrained models to the community to advance scientific reasoning research.",
+      "upvotes": 3,
+      "discussionId": "6880381f00f4b5a05f2fbdac",
+      "projectPage": "https://huggingface.co/MegaScience",
+      "githubRepo": "https://github.com/GAIR-NLP/MegaScience",
+      "ai_summary": "MegaScience, a large-scale dataset of scientific reasoning questions, enhances the performance and training efficiency of AI models compared to existing datasets.",
+      "ai_keywords": [
+        "TextbookReasoning",
+        "MegaScience",
+        "reasoning questions",
+        "scientific disciplines",
+        "data selection methodologies",
+        "evaluation system",
+        "Llama3.1",
+        "Qwen2.5",
+        "Qwen3",
+        "scientific tuning"
+      ],
+      "githubStars": 5
+    },
+    "publishedAt": "2025-07-22T13:59:03.000Z",
+    "title": "MegaScience: Pushing the Frontiers of Post-Training Datasets for Science\n  Reasoning",
+    "summary": "Scientific reasoning is critical for developing AI scientists and supporting\nhuman researchers in advancing the frontiers of natural science discovery.\nHowever, the open-source community has primarily focused on mathematics and\ncoding while neglecting the scientific domain, largely due to the absence of\nopen, large-scale, high-quality, verifiable scientific reasoning datasets. To\nbridge this gap, we first present TextbookReasoning, an open dataset featuring\ntruthful reference answers extracted from 12k university-level scientific\ntextbooks, comprising 650k reasoning questions spanning 7 scientific\ndisciplines. We further introduce MegaScience, a large-scale mixture of\nhigh-quality open-source datasets totaling 1.25 million instances, developed\nthrough systematic ablation studies that evaluate various data selection\nmethodologies to identify the optimal subset for each publicly available\nscientific dataset. Meanwhile, we build a comprehensive evaluation system\ncovering diverse subjects and question types across 15 benchmarks,\nincorporating comprehensive answer extraction strategies to ensure accurate\nevaluation metrics. Our experiments demonstrate that our datasets achieve\nsuperior performance and training efficiency with more concise response lengths\ncompared to existing open-source scientific datasets. Furthermore, we train\nLlama3.1, Qwen2.5, and Qwen3 series base models on MegaScience, which\nsignificantly outperform the corresponding official instruct models in average\nperformance. In addition, MegaScience exhibits greater effectiveness for larger\nand stronger models, suggesting a scaling benefit for scientific tuning. We\nrelease our data curation pipeline, evaluation system, datasets, and seven\ntrained models to the community to advance scientific reasoning research.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/616bfc2b40e2f69baa1c7add/7o5TZQfu85o-FOJofCLul.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/616bfc2b40e2f69baa1c7add/L24hJQbCMi6F8Uei_GBlW.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.16812.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "616bfc2b40e2f69baa1c7add",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/616bfc2b40e2f69baa1c7add/Os7_qgMei-2lRVelrOG7B.jpeg",
+      "fullname": "Run-Ze Fan",
+      "name": "Vfrz",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.16746",
+      "authors": [
+        {
+          "_id": "68803f5300f4b5a05f2fbdba",
+          "name": "Ang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdbb",
+          "name": "Charles Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdbc",
+          "name": "Kaiyu Yue",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdbd",
+          "name": "Zikui Cai",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdbe",
+          "name": "Ollie Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdbf",
+          "name": "Deqing Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdc0",
+          "name": "Peng Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdc1",
+          "name": "Wang Bill Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdc2",
+          "name": "Vatsal Sharan",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdc3",
+          "name": "Robin Jia",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdc4",
+          "name": "Willie Neiswanger",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdc5",
+          "name": "Furong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdc6",
+          "name": "Tom Goldstein",
+          "hidden": false
+        },
+        {
+          "_id": "68803f5300f4b5a05f2fbdc7",
+          "name": "Micah Goldblum",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-22T16:35:36.000Z",
+      "submittedOnDailyAt": "2025-07-23T00:22:07.469Z",
+      "title": "Zebra-CoT: A Dataset for Interleaved Vision Language Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "63c8454e46421a2efe82709d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63c8454e46421a2efe82709d/3BcSk4KOwAgWHEPVtsAV3.png",
+        "isPro": true,
+        "fullname": "Deqing Fu",
+        "user": "deqing",
+        "type": "user"
+      },
+      "summary": "Humans often use visual aids, for example diagrams or sketches, when solving\ncomplex problems. Training multimodal models to do the same, known as Visual\nChain of Thought (Visual CoT), is challenging due to: (1) poor off-the-shelf\nvisual CoT performance, which hinders reinforcement learning, and (2) the lack\nof high-quality visual CoT training data. We introduce Zebra-CoT, a\ndiverse large-scale dataset with 182,384 samples, containing logically coherent\ninterleaved text-image reasoning traces. We focus on four categories of tasks\nwhere sketching or visual reasoning is especially natural, spanning scientific\nquestions such as geometry, physics, and algorithms; 2D visual reasoning tasks\nlike visual search and jigsaw puzzles; 3D reasoning tasks including 3D\nmulti-hop inference, embodied and robot planning; visual logic problems and\nstrategic games like chess. Fine-tuning the Anole-7B model on the Zebra-CoT\ntraining corpus results in an improvement of +12% in our test-set accuracy and\nyields up to +13% performance gain on standard VLM benchmark evaluations.\nFine-tuning Bagel-7B yields a model that generates high-quality interleaved\nvisual reasoning chains, underscoring Zebra-CoT's effectiveness for developing\nmultimodal reasoning abilities. We open-source our dataset and models to\nsupport development and evaluation of visual CoT.",
+      "upvotes": 2,
+      "discussionId": "68803f5400f4b5a05f2fbdc8"
+    },
+    "publishedAt": "2025-07-22T12:35:36.000Z",
+    "title": "Zebra-CoT: A Dataset for Interleaved Vision Language Reasoning",
+    "summary": "Humans often use visual aids, for example diagrams or sketches, when solving\ncomplex problems. Training multimodal models to do the same, known as Visual\nChain of Thought (Visual CoT), is challenging due to: (1) poor off-the-shelf\nvisual CoT performance, which hinders reinforcement learning, and (2) the lack\nof high-quality visual CoT training data. We introduce Zebra-CoT, a\ndiverse large-scale dataset with 182,384 samples, containing logically coherent\ninterleaved text-image reasoning traces. We focus on four categories of tasks\nwhere sketching or visual reasoning is especially natural, spanning scientific\nquestions such as geometry, physics, and algorithms; 2D visual reasoning tasks\nlike visual search and jigsaw puzzles; 3D reasoning tasks including 3D\nmulti-hop inference, embodied and robot planning; visual logic problems and\nstrategic games like chess. Fine-tuning the Anole-7B model on the Zebra-CoT\ntraining corpus results in an improvement of +12% in our test-set accuracy and\nyields up to +13% performance gain on standard VLM benchmark evaluations.\nFine-tuning Bagel-7B yields a model that generates high-quality interleaved\nvisual reasoning chains, underscoring Zebra-CoT's effectiveness for developing\nmultimodal reasoning abilities. We open-source our dataset and models to\nsupport development and evaluation of visual CoT.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.16746.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63c8454e46421a2efe82709d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63c8454e46421a2efe82709d/3BcSk4KOwAgWHEPVtsAV3.png",
+      "fullname": "Deqing Fu",
+      "name": "deqing",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.16813",
+      "authors": [
+        {
+          "_id": "68803aa000f4b5a05f2fbdb4",
+          "name": "Dong Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68803aa000f4b5a05f2fbdb5",
+          "name": "Jinyuan Jia",
+          "hidden": false
+        },
+        {
+          "_id": "68803aa000f4b5a05f2fbdb6",
+          "name": "Yuhao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68803aa000f4b5a05f2fbdb7",
+          "name": "Rynson W. H. Lau",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6351463b8445bbe32e944f6c/wr4t2EY1Jx56UA6EUPfYl.png"
+      ],
+      "publishedAt": "2025-07-22T17:59:21.000Z",
+      "submittedOnDailyAt": "2025-07-23T00:10:46.593Z",
+      "title": "HOComp: Interaction-Aware Human-Object Composition",
+      "submittedOnDailyBy": {
+        "_id": "6351463b8445bbe32e944f6c",
+        "avatarUrl": "/avatars/ec0e8f378d5314d4af97d6c488771b3d.svg",
+        "isPro": false,
+        "fullname": "Yuhao Liu",
+        "user": "LeoLau",
+        "type": "user"
+      },
+      "summary": "While existing image-guided composition methods may help insert a foreground\nobject onto a user-specified region of a background image, achieving natural\nblending inside the region with the rest of the image unchanged, we observe\nthat these existing methods often struggle in synthesizing seamless\ninteraction-aware compositions when the task involves human-object\ninteractions. In this paper, we first propose HOComp, a novel approach for\ncompositing a foreground object onto a human-centric background image, while\nensuring harmonious interactions between the foreground object and the\nbackground person and their consistent appearances. Our approach includes two\nkey designs: (1) MLLMs-driven Region-based Pose Guidance (MRPG), which utilizes\nMLLMs to identify the interaction region as well as the interaction type (e.g.,\nholding and lefting) to provide coarse-to-fine constraints to the generated\npose for the interaction while incorporating human pose landmarks to track\naction variations and enforcing fine-grained pose constraints; and (2)\nDetail-Consistent Appearance Preservation (DCAP), which unifies a shape-aware\nattention modulation mechanism, a multi-view appearance loss, and a background\nconsistency loss to ensure consistent shapes/textures of the foreground and\nfaithful reproduction of the background human. We then propose the first\ndataset, named Interaction-aware Human-Object Composition (IHOC), for the task.\nExperimental results on our dataset show that HOComp effectively generates\nharmonious human-object interactions with consistent appearances, and\noutperforms relevant methods qualitatively and quantitatively.",
+      "upvotes": 1,
+      "discussionId": "68803aa000f4b5a05f2fbdb8",
+      "projectPage": "https://dliang293.github.io/HOComp-project",
+      "ai_summary": "HOComp uses MLLMs and attention mechanisms to achieve seamless human-object interactions with consistent appearances in image compositing.",
+      "ai_keywords": [
+        "MLLMs",
+        "Region-based Pose Guidance",
+        "MRPG",
+        "Detail-Consistent Appearance Preservation",
+        "DCAP",
+        "shape-aware attention modulation",
+        "multi-view appearance loss",
+        "background consistency loss",
+        "Interaction-aware Human-Object Composition",
+        "IHOC"
+      ]
+    },
+    "publishedAt": "2025-07-22T13:59:21.000Z",
+    "title": "HOComp: Interaction-Aware Human-Object Composition",
+    "summary": "While existing image-guided composition methods may help insert a foreground\nobject onto a user-specified region of a background image, achieving natural\nblending inside the region with the rest of the image unchanged, we observe\nthat these existing methods often struggle in synthesizing seamless\ninteraction-aware compositions when the task involves human-object\ninteractions. In this paper, we first propose HOComp, a novel approach for\ncompositing a foreground object onto a human-centric background image, while\nensuring harmonious interactions between the foreground object and the\nbackground person and their consistent appearances. Our approach includes two\nkey designs: (1) MLLMs-driven Region-based Pose Guidance (MRPG), which utilizes\nMLLMs to identify the interaction region as well as the interaction type (e.g.,\nholding and lefting) to provide coarse-to-fine constraints to the generated\npose for the interaction while incorporating human pose landmarks to track\naction variations and enforcing fine-grained pose constraints; and (2)\nDetail-Consistent Appearance Preservation (DCAP), which unifies a shape-aware\nattention modulation mechanism, a multi-view appearance loss, and a background\nconsistency loss to ensure consistent shapes/textures of the foreground and\nfaithful reproduction of the background human. We then propose the first\ndataset, named Interaction-aware Human-Object Composition (IHOC), for the task.\nExperimental results on our dataset show that HOComp effectively generates\nharmonious human-object interactions with consistent appearances, and\noutperforms relevant methods qualitatively and quantitatively.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6351463b8445bbe32e944f6c/wr4t2EY1Jx56UA6EUPfYl.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.16813.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6351463b8445bbe32e944f6c",
+      "avatarUrl": "/avatars/ec0e8f378d5314d4af97d6c488771b3d.svg",
+      "fullname": "Yuhao Liu",
+      "name": "LeoLau",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.15245",
+      "authors": [
+        {
+          "_id": "688042e900f4b5a05f2fbdd0",
+          "name": "Xiaofeng Shi",
+          "hidden": false
+        },
+        {
+          "_id": "688042e900f4b5a05f2fbdd1",
+          "name": "Yuduo Li",
+          "hidden": false
+        },
+        {
+          "_id": "688042e900f4b5a05f2fbdd2",
+          "name": "Qian Kou",
+          "hidden": false
+        },
+        {
+          "_id": "688042e900f4b5a05f2fbdd3",
+          "name": "Longbin Yu",
+          "hidden": false
+        },
+        {
+          "_id": "688042e900f4b5a05f2fbdd4",
+          "name": "Jinxin Xie",
+          "hidden": false
+        },
+        {
+          "_id": "688042e900f4b5a05f2fbdd5",
+          "name": "Hua Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-21T05:06:53.000Z",
+      "submittedOnDailyAt": "2025-07-23T00:35:53.723Z",
+      "title": "SPAR: Scholar Paper Retrieval with LLM-based Agents for Enhanced\n  Academic Search",
+      "submittedOnDailyBy": {
+        "_id": "642f6c64f945a8a5c9ee5b5d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642f6c64f945a8a5c9ee5b5d/V_4S_39gZc3ttiO4rXccj.png",
+        "isPro": false,
+        "fullname": "XiaofengShi",
+        "user": "MonteXiaofeng",
+        "type": "user"
+      },
+      "summary": "Recent advances in large language models (LLMs) have opened new opportunities\nfor academic literature retrieval. However, existing systems often rely on\nrigid pipelines and exhibit limited reasoning capabilities. We introduce SPAR,\na multi-agent framework that incorporates RefChain-based query decomposition\nand query evolution to enable more flexible and effective search. To facilitate\nsystematic evaluation, we also construct SPARBench, a challenging benchmark\nwith expert-annotated relevance labels. Experimental results demonstrate that\nSPAR substantially outperforms strong baselines, achieving up to +56% F1 on\nAutoScholar and +23% F1 on SPARBench over the best-performing baseline.\nTogether, SPAR and SPARBench provide a scalable, interpretable, and\nhigh-performing foundation for advancing research in scholarly retrieval. Code\nand data will be available at: https://github.com/xiaofengShi/SPAR",
+      "upvotes": 0,
+      "discussionId": "688042ea00f4b5a05f2fbdd6",
+      "githubRepo": "https://github.com/xiaofengShi/SPAR",
+      "githubStars": 2
+    },
+    "publishedAt": "2025-07-21T01:06:53.000Z",
+    "title": "SPAR: Scholar Paper Retrieval with LLM-based Agents for Enhanced\n  Academic Search",
+    "summary": "Recent advances in large language models (LLMs) have opened new opportunities\nfor academic literature retrieval. However, existing systems often rely on\nrigid pipelines and exhibit limited reasoning capabilities. We introduce SPAR,\na multi-agent framework that incorporates RefChain-based query decomposition\nand query evolution to enable more flexible and effective search. To facilitate\nsystematic evaluation, we also construct SPARBench, a challenging benchmark\nwith expert-annotated relevance labels. Experimental results demonstrate that\nSPAR substantially outperforms strong baselines, achieving up to +56% F1 on\nAutoScholar and +23% F1 on SPARBench over the best-performing baseline.\nTogether, SPAR and SPARBench provide a scalable, interpretable, and\nhigh-performing foundation for advancing research in scholarly retrieval. Code\nand data will be available at: https://github.com/xiaofengShi/SPAR",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.15245.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "642f6c64f945a8a5c9ee5b5d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642f6c64f945a8a5c9ee5b5d/V_4S_39gZc3ttiO4rXccj.png",
+      "fullname": "XiaofengShi",
+      "name": "MonteXiaofeng",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  }
+]
