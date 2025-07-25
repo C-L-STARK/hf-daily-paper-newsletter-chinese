@@ -1,0 +1,258 @@
+[
+  {
+    "paper": {
+      "id": "2507.18537",
+      "authors": [
+        {
+          "_id": "6882ea76846d2e78b7548a40",
+          "name": "Zhekai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea76846d2e78b7548a41",
+          "name": "Ruihang Chu",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea76846d2e78b7548a42",
+          "name": "Yukang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea76846d2e78b7548a43",
+          "name": "Shiwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea76846d2e78b7548a44",
+          "name": "Yujie Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea76846d2e78b7548a45",
+          "name": "Yingya Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea76846d2e78b7548a46",
+          "name": "Xihui Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-24T16:04:55.000Z",
+      "submittedOnDailyAt": "2025-07-25T01:24:35.060Z",
+      "title": "TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive\n  Generation",
+      "submittedOnDailyBy": {
+        "_id": "62d812e143df7719860d05d1",
+        "avatarUrl": "/avatars/412f7ec5c9f54990f4b562652d3e2c59.svg",
+        "isPro": false,
+        "fullname": "zhekai chen",
+        "user": "Azily",
+        "type": "user"
+      },
+      "summary": "Scaling visual generation models is essential for real-world content\ncreation, yet requires substantial training and computational expenses.\nAlternatively, test-time scaling has garnered growing attention due to resource\nefficiency and promising performance. In this work, we present TTS-VAR, the\nfirst general test-time scaling framework for visual auto-regressive (VAR)\nmodels, modeling the generation process as a path searching problem. To\ndynamically balance computational efficiency with exploration capacity, we\nfirst introduce an adaptive descending batch size schedule throughout the\ncausal generation process. Besides, inspired by VAR's hierarchical\ncoarse-to-fine multi-scale generation, our framework integrates two key\ncomponents: (i) At coarse scales, we observe that generated tokens are hard for\nevaluation, possibly leading to erroneous acceptance of inferior samples or\nrejection of superior samples. Noticing that the coarse scales contain\nsufficient structural information, we propose clustering-based diversity\nsearch. It preserves structural variety through semantic feature clustering,\nenabling later selection on samples with higher potential. (ii) In fine scales,\nresampling-based potential selection prioritizes promising candidates using\npotential scores, which are defined as reward functions incorporating\nmulti-scale generation history. Experiments on the powerful VAR model Infinity\nshow a notable 8.7% GenEval score improvement (from 0.69 to 0.75). Key insights\nreveal that early-stage structural features effectively influence final\nquality, and resampling efficacy varies across generation scales. Code is\navailable at https://github.com/ali-vilab/TTS-VAR.",
+      "upvotes": 1,
+      "discussionId": "6882ea76846d2e78b7548a47",
+      "githubRepo": "https://github.com/ali-vilab/TTS-VAR",
+      "ai_summary": "TTS-VAR, a test-time scaling framework for visual auto-regressive models, improves generation quality by dynamically adjusting batch sizes and using clustering and resampling techniques.",
+      "ai_keywords": [
+        "test-time scaling",
+        "visual auto-regressive models",
+        "path searching problem",
+        "adaptive descending batch size schedule",
+        "causal generation process",
+        "clustering-based diversity search",
+        "resampling-based potential selection",
+        "potential scores",
+        "reward functions",
+        "multi-scale generation history",
+        "Infinity model",
+        "GenEval score"
+      ]
+    },
+    "publishedAt": "2025-07-24T12:04:55.000Z",
+    "title": "TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive\n  Generation",
+    "summary": "Scaling visual generation models is essential for real-world content\ncreation, yet requires substantial training and computational expenses.\nAlternatively, test-time scaling has garnered growing attention due to resource\nefficiency and promising performance. In this work, we present TTS-VAR, the\nfirst general test-time scaling framework for visual auto-regressive (VAR)\nmodels, modeling the generation process as a path searching problem. To\ndynamically balance computational efficiency with exploration capacity, we\nfirst introduce an adaptive descending batch size schedule throughout the\ncausal generation process. Besides, inspired by VAR's hierarchical\ncoarse-to-fine multi-scale generation, our framework integrates two key\ncomponents: (i) At coarse scales, we observe that generated tokens are hard for\nevaluation, possibly leading to erroneous acceptance of inferior samples or\nrejection of superior samples. Noticing that the coarse scales contain\nsufficient structural information, we propose clustering-based diversity\nsearch. It preserves structural variety through semantic feature clustering,\nenabling later selection on samples with higher potential. (ii) In fine scales,\nresampling-based potential selection prioritizes promising candidates using\npotential scores, which are defined as reward functions incorporating\nmulti-scale generation history. Experiments on the powerful VAR model Infinity\nshow a notable 8.7% GenEval score improvement (from 0.69 to 0.75). Key insights\nreveal that early-stage structural features effectively influence final\nquality, and resampling efficacy varies across generation scales. Code is\navailable at https://github.com/ali-vilab/TTS-VAR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.18537.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62d812e143df7719860d05d1",
+      "avatarUrl": "/avatars/412f7ec5c9f54990f4b562652d3e2c59.svg",
+      "fullname": "zhekai chen",
+      "name": "Azily",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.16535",
+      "authors": [
+        {
+          "_id": "688237c76a54dd1e77daa95c",
+          "user": {
+            "_id": "64de108815b7ebabdfa928d2",
+            "avatarUrl": "/avatars/63fa034ab4c427f195cc743bfa4e2299.svg",
+            "isPro": false,
+            "fullname": "Liu",
+            "user": "ShuYaoLiu",
+            "type": "user"
+          },
+          "name": "Shang Liu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-07-24T14:11:16.075Z",
+          "hidden": false
+        },
+        {
+          "_id": "688237c76a54dd1e77daa95d",
+          "name": "Chenjie Cao",
+          "hidden": false
+        },
+        {
+          "_id": "688237c76a54dd1e77daa95e",
+          "name": "Chaohui Yu",
+          "hidden": false
+        },
+        {
+          "_id": "688237c76a54dd1e77daa95f",
+          "name": "Wen Qian",
+          "hidden": false
+        },
+        {
+          "_id": "688237c76a54dd1e77daa960",
+          "name": "Jing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688237c76a54dd1e77daa961",
+          "name": "Fan Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-22T12:46:48.000Z",
+      "submittedOnDailyAt": "2025-07-25T00:36:12.372Z",
+      "title": "EarthCrafter: Scalable 3D Earth Generation via Dual-Sparse Latent\n  Diffusion",
+      "submittedOnDailyBy": {
+        "_id": "64de108815b7ebabdfa928d2",
+        "avatarUrl": "/avatars/63fa034ab4c427f195cc743bfa4e2299.svg",
+        "isPro": false,
+        "fullname": "Liu",
+        "user": "ShuYaoLiu",
+        "type": "user"
+      },
+      "summary": "Despite the remarkable developments achieved by recent 3D generation works,\nscaling these methods to geographic extents, such as modeling thousands of\nsquare kilometers of Earth's surface, remains an open challenge. We address\nthis through a dual innovation in data infrastructure and model architecture.\nFirst, we introduce Aerial-Earth3D, the largest 3D aerial dataset to date,\nconsisting of 50k curated scenes (each measuring 600m x 600m) captured across\nthe U.S. mainland, comprising 45M multi-view Google Earth frames. Each scene\nprovides pose-annotated multi-view images, depth maps, normals, semantic\nsegmentation, and camera poses, with explicit quality control to ensure terrain\ndiversity. Building on this foundation, we propose EarthCrafter, a tailored\nframework for large-scale 3D Earth generation via sparse-decoupled latent\ndiffusion. Our architecture separates structural and textural generation: 1)\nDual sparse 3D-VAEs compress high-resolution geometric voxels and textural 2D\nGaussian Splats (2DGS) into compact latent spaces, largely alleviating the\ncostly computation suffering from vast geographic scales while preserving\ncritical information. 2) We propose condition-aware flow matching models\ntrained on mixed inputs (semantics, images, or neither) to flexibly model\nlatent geometry and texture features independently. Extensive experiments\ndemonstrate that EarthCrafter performs substantially better in extremely\nlarge-scale generation. The framework further supports versatile applications,\nfrom semantic-guided urban layout generation to unconditional terrain\nsynthesis, while maintaining geographic plausibility through our rich data\npriors from Aerial-Earth3D. Our project page is available at\nhttps://whiteinblue.github.io/earthcrafter/",
+      "upvotes": 1,
+      "discussionId": "688237c76a54dd1e77daa962"
+    },
+    "publishedAt": "2025-07-22T08:46:48.000Z",
+    "title": "EarthCrafter: Scalable 3D Earth Generation via Dual-Sparse Latent\n  Diffusion",
+    "summary": "Despite the remarkable developments achieved by recent 3D generation works,\nscaling these methods to geographic extents, such as modeling thousands of\nsquare kilometers of Earth's surface, remains an open challenge. We address\nthis through a dual innovation in data infrastructure and model architecture.\nFirst, we introduce Aerial-Earth3D, the largest 3D aerial dataset to date,\nconsisting of 50k curated scenes (each measuring 600m x 600m) captured across\nthe U.S. mainland, comprising 45M multi-view Google Earth frames. Each scene\nprovides pose-annotated multi-view images, depth maps, normals, semantic\nsegmentation, and camera poses, with explicit quality control to ensure terrain\ndiversity. Building on this foundation, we propose EarthCrafter, a tailored\nframework for large-scale 3D Earth generation via sparse-decoupled latent\ndiffusion. Our architecture separates structural and textural generation: 1)\nDual sparse 3D-VAEs compress high-resolution geometric voxels and textural 2D\nGaussian Splats (2DGS) into compact latent spaces, largely alleviating the\ncostly computation suffering from vast geographic scales while preserving\ncritical information. 2) We propose condition-aware flow matching models\ntrained on mixed inputs (semantics, images, or neither) to flexibly model\nlatent geometry and texture features independently. Extensive experiments\ndemonstrate that EarthCrafter performs substantially better in extremely\nlarge-scale generation. The framework further supports versatile applications,\nfrom semantic-guided urban layout generation to unconditional terrain\nsynthesis, while maintaining geographic plausibility through our rich data\npriors from Aerial-Earth3D. Our project page is available at\nhttps://whiteinblue.github.io/earthcrafter/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.16535.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64de108815b7ebabdfa928d2",
+      "avatarUrl": "/avatars/63fa034ab4c427f195cc743bfa4e2299.svg",
+      "fullname": "Liu",
+      "name": "ShuYaoLiu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2507.14988",
+      "authors": [
+        {
+          "_id": "6882ea91846d2e78b7548a49",
+          "name": "Yinghao Aaron Li",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea91846d2e78b7548a4a",
+          "name": "Xilin Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea91846d2e78b7548a4b",
+          "name": "Fei Tao",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea91846d2e78b7548a4c",
+          "name": "Cheng Niu",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea91846d2e78b7548a4d",
+          "name": "Kaifeng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea91846d2e78b7548a4e",
+          "name": "Juntong Song",
+          "hidden": false
+        },
+        {
+          "_id": "6882ea91846d2e78b7548a4f",
+          "name": "Nima Mesgarani",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-20T14:48:48.000Z",
+      "submittedOnDailyAt": "2025-07-25T01:01:10.523Z",
+      "title": "DMOSpeech 2: Reinforcement Learning for Duration Prediction in\n  Metric-Optimized Speech Synthesis",
+      "submittedOnDailyBy": {
+        "_id": "6531a65daed617662c7f1007",
+        "avatarUrl": "/avatars/ea2e504780dc40719f7501ab2c7d9c91.svg",
+        "isPro": false,
+        "fullname": "Xilin Jiang",
+        "user": "xi-j",
+        "type": "user"
+      },
+      "summary": "Diffusion-based text-to-speech (TTS) systems have made remarkable progress in\nzero-shot speech synthesis, yet optimizing all components for perceptual\nmetrics remains challenging. Prior work with DMOSpeech demonstrated direct\nmetric optimization for speech generation components, but duration prediction\nremained unoptimized. This paper presents DMOSpeech 2, which extends metric\noptimization to the duration predictor through a reinforcement learning\napproach. The proposed system implements a novel duration policy framework\nusing group relative preference optimization (GRPO) with speaker similarity and\nword error rate as reward signals. By optimizing this previously unoptimized\ncomponent, DMOSpeech 2 creates a more complete metric-optimized synthesis\npipeline. Additionally, this paper introduces teacher-guided sampling, a hybrid\napproach leveraging a teacher model for initial denoising steps before\ntransitioning to the student model, significantly improving output diversity\nwhile maintaining efficiency. Comprehensive evaluations demonstrate superior\nperformance across all metrics compared to previous systems, while reducing\nsampling steps by half without quality degradation. These advances represent a\nsignificant step toward speech synthesis systems with metric optimization\nacross multiple components. The audio samples, code and pre-trained models are\navailable at https://dmospeech2.github.io/.",
+      "upvotes": 0,
+      "discussionId": "6882ea92846d2e78b7548a50",
+      "ai_summary": "DMOSpeech 2 optimizes duration prediction and introduces teacher-guided sampling to enhance speech synthesis performance and diversity.",
+      "ai_keywords": [
+        "diffusion-based text-to-speech",
+        "DMOSpeech",
+        "metric optimization",
+        "duration prediction",
+        "reinforcement learning",
+        "group relative preference optimization",
+        "GRPO",
+        "speaker similarity",
+        "word error rate",
+        "teacher-guided sampling",
+        "speech synthesis",
+        "output diversity"
+      ]
+    },
+    "publishedAt": "2025-07-20T10:48:48.000Z",
+    "title": "DMOSpeech 2: Reinforcement Learning for Duration Prediction in\n  Metric-Optimized Speech Synthesis",
+    "summary": "Diffusion-based text-to-speech (TTS) systems have made remarkable progress in\nzero-shot speech synthesis, yet optimizing all components for perceptual\nmetrics remains challenging. Prior work with DMOSpeech demonstrated direct\nmetric optimization for speech generation components, but duration prediction\nremained unoptimized. This paper presents DMOSpeech 2, which extends metric\noptimization to the duration predictor through a reinforcement learning\napproach. The proposed system implements a novel duration policy framework\nusing group relative preference optimization (GRPO) with speaker similarity and\nword error rate as reward signals. By optimizing this previously unoptimized\ncomponent, DMOSpeech 2 creates a more complete metric-optimized synthesis\npipeline. Additionally, this paper introduces teacher-guided sampling, a hybrid\napproach leveraging a teacher model for initial denoising steps before\ntransitioning to the student model, significantly improving output diversity\nwhile maintaining efficiency. Comprehensive evaluations demonstrate superior\nperformance across all metrics compared to previous systems, while reducing\nsampling steps by half without quality degradation. These advances represent a\nsignificant step toward speech synthesis systems with metric optimization\nacross multiple components. The audio samples, code and pre-trained models are\navailable at https://dmospeech2.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.14988.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6531a65daed617662c7f1007",
+      "avatarUrl": "/avatars/ea2e504780dc40719f7501ab2c7d9c91.svg",
+      "fullname": "Xilin Jiang",
+      "name": "xi-j",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
