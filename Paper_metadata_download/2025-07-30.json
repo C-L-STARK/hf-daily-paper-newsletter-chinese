@@ -1,0 +1,389 @@
+[
+  {
+    "paper": {
+      "id": "2507.22058",
+      "authors": [
+        {
+          "_id": "6889746631e1218a08928182",
+          "name": "Zigang Geng",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a08928183",
+          "name": "Yibing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a08928184",
+          "name": "Yeyao Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a08928185",
+          "name": "Chen Li",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a08928186",
+          "name": "Yongming Rao",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a08928187",
+          "name": "Shuyang Gu",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a08928188",
+          "name": "Zhao Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a08928189",
+          "name": "Qinglin Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a0892818a",
+          "name": "Han Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a0892818b",
+          "name": "Xiaosong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a0892818c",
+          "name": "Linus",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a0892818d",
+          "name": "Di Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6889746631e1218a0892818e",
+          "name": "Jie Jiang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-29T17:59:04.000Z",
+      "submittedOnDailyAt": "2025-07-30T01:00:10.830Z",
+      "title": "X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image\n  Generative Models Great Again",
+      "submittedOnDailyBy": {
+        "_id": "64e473f0b78bc92221ab1883",
+        "avatarUrl": "/avatars/85dd02c2b4879d7696b552f0f9dc2680.svg",
+        "isPro": true,
+        "fullname": "Xiaosong Zhang",
+        "user": "zhangxiaosong18",
+        "type": "user"
+      },
+      "summary": "Numerous efforts have been made to extend the ``next token prediction''\nparadigm to visual contents, aiming to create a unified approach for both image\ngeneration and understanding. Nevertheless, attempts to generate images through\nautoregressive modeling with discrete tokens have been plagued by issues such\nas low visual fidelity, distorted outputs, and failure to adhere to complex\ninstructions when rendering intricate details. These shortcomings are likely\nattributed to cumulative errors during autoregressive inference or information\nloss incurred during the discretization process. Probably due to this\nchallenge, recent research has increasingly shifted toward jointly training\nimage generation with diffusion objectives and language generation with\nautoregressive objectives, moving away from unified modeling approaches. In\nthis work, we demonstrate that reinforcement learning can effectively mitigate\nartifacts and largely enhance the generation quality of a discrete\nautoregressive modeling method, thereby enabling seamless integration of image\nand language generation. Our framework comprises a semantic image tokenizer, a\nunified autoregressive model for both language and images, and an offline\ndiffusion decoder for image generation, termed X-Omni. X-Omni achieves\nstate-of-the-art performance in image generation tasks using a 7B language\nmodel, producing images with high aesthetic quality while exhibiting strong\ncapabilities in following instructions and rendering long texts.",
+      "upvotes": 6,
+      "discussionId": "6889746631e1218a0892818f",
+      "ai_summary": "Reinforcement learning enhances discrete autoregressive modeling for image and language generation, achieving high-quality image generation and instruction-following capabilities.",
+      "ai_keywords": [
+        "autoregressive modeling",
+        "discrete tokens",
+        "visual fidelity",
+        "distorted outputs",
+        "cumulative errors",
+        "information loss",
+        "diffusion objectives",
+        "language generation",
+        "reinforcement learning",
+        "semantic image tokenizer",
+        "unified autoregressive model",
+        "offline diffusion decoder",
+        "X-Omni",
+        "image generation",
+        "aesthetic quality",
+        "instruction-following"
+      ]
+    },
+    "publishedAt": "2025-07-29T13:59:04.000Z",
+    "title": "X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image\n  Generative Models Great Again",
+    "summary": "Numerous efforts have been made to extend the ``next token prediction''\nparadigm to visual contents, aiming to create a unified approach for both image\ngeneration and understanding. Nevertheless, attempts to generate images through\nautoregressive modeling with discrete tokens have been plagued by issues such\nas low visual fidelity, distorted outputs, and failure to adhere to complex\ninstructions when rendering intricate details. These shortcomings are likely\nattributed to cumulative errors during autoregressive inference or information\nloss incurred during the discretization process. Probably due to this\nchallenge, recent research has increasingly shifted toward jointly training\nimage generation with diffusion objectives and language generation with\nautoregressive objectives, moving away from unified modeling approaches. In\nthis work, we demonstrate that reinforcement learning can effectively mitigate\nartifacts and largely enhance the generation quality of a discrete\nautoregressive modeling method, thereby enabling seamless integration of image\nand language generation. Our framework comprises a semantic image tokenizer, a\nunified autoregressive model for both language and images, and an offline\ndiffusion decoder for image generation, termed X-Omni. X-Omni achieves\nstate-of-the-art performance in image generation tasks using a 7B language\nmodel, producing images with high aesthetic quality while exhibiting strong\ncapabilities in following instructions and rendering long texts.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.22058.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64e473f0b78bc92221ab1883",
+      "avatarUrl": "/avatars/85dd02c2b4879d7696b552f0f9dc2680.svg",
+      "fullname": "Xiaosong Zhang",
+      "name": "zhangxiaosong18",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.21183",
+      "authors": [
+        {
+          "_id": "68897f3631e1218a08928196",
+          "name": "Guangchen Lan",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a08928197",
+          "name": "Sipeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a08928198",
+          "name": "Tianle Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a08928199",
+          "name": "Yuwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a0892819a",
+          "name": "Daoan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a0892819b",
+          "name": "Xinpeng Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a0892819c",
+          "name": "Xiaoman Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a0892819d",
+          "name": "Hongming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a0892819e",
+          "name": "Dong-Jun Han",
+          "hidden": false
+        },
+        {
+          "_id": "68897f3631e1218a0892819f",
+          "name": "Christopher G. Brinton",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-27T05:26:50.000Z",
+      "submittedOnDailyAt": "2025-07-30T00:41:59.921Z",
+      "title": "MaPPO: Maximum a Posteriori Preference Optimization with Prior Knowledge",
+      "submittedOnDailyBy": {
+        "_id": "64ff4b1a0e8369f6a8c47c7e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ff4b1a0e8369f6a8c47c7e/X8ocOagj89gexSa253q_8.png",
+        "isPro": false,
+        "fullname": "Eric Lan",
+        "user": "Eric-Lan",
+        "type": "user"
+      },
+      "summary": "As the era of large language models (LLMs) on behalf of users unfolds,\nPreference Optimization (PO) methods have become a central approach to aligning\nLLMs with human preferences and improving performance. We propose Maximum a\nPosteriori Preference Optimization (MaPPO), a framework for learning from\npreferences that explicitly incorporates prior reward knowledge into the\noptimization objective. While existing methods such as Direct Preference\nOptimization (DPO) and its variants treat preference learning as a Maximum\nLikelihood Estimation (MLE) problem, MaPPO extends this paradigm by integrating\nprior reward estimates into a principled Maximum a Posteriori (MaP) objective.\nThis not only generalizes DPO and its variants, but also enhances alignment by\nmitigating the oversimplified binary classification of responses. More\nimportantly, MaPPO introduces no additional hyperparameter, and supports\npreference optimization in both offline and online settings. In addition, MaPPO\ncan be used as a plugin with consistent improvement on DPO variants, including\nwidely used SimPO, IPO, and CPO. Extensive empirical evaluations of different\nmodel sizes and model series on three standard benchmarks, including MT-Bench,\nAlpacaEval 2.0, and Arena-Hard, demonstrate consistent improvements in\nalignment performance without sacrificing computational efficiency.",
+      "upvotes": 4,
+      "discussionId": "68897f3731e1218a089281a0",
+      "ai_summary": "MaPPO, a framework for preference optimization, enhances alignment of large language models with human preferences by integrating prior reward knowledge into a Maximum a Posteriori objective, improving performance across various benchmarks.",
+      "ai_keywords": [
+        "Maximum a Posteriori Preference Optimization",
+        "MaPPO",
+        "Preference Optimization",
+        "Direct Preference Optimization",
+        "DPO",
+        "Maximum Likelihood Estimation",
+        "MLE",
+        "Maximum a Posteriori",
+        "MaP",
+        "SimPO",
+        "IPO",
+        "CPO",
+        "MT-Bench",
+        "AlpacaEval 2.0",
+        "Arena-Hard"
+      ]
+    },
+    "publishedAt": "2025-07-27T01:26:50.000Z",
+    "title": "MaPPO: Maximum a Posteriori Preference Optimization with Prior Knowledge",
+    "summary": "As the era of large language models (LLMs) on behalf of users unfolds,\nPreference Optimization (PO) methods have become a central approach to aligning\nLLMs with human preferences and improving performance. We propose Maximum a\nPosteriori Preference Optimization (MaPPO), a framework for learning from\npreferences that explicitly incorporates prior reward knowledge into the\noptimization objective. While existing methods such as Direct Preference\nOptimization (DPO) and its variants treat preference learning as a Maximum\nLikelihood Estimation (MLE) problem, MaPPO extends this paradigm by integrating\nprior reward estimates into a principled Maximum a Posteriori (MaP) objective.\nThis not only generalizes DPO and its variants, but also enhances alignment by\nmitigating the oversimplified binary classification of responses. More\nimportantly, MaPPO introduces no additional hyperparameter, and supports\npreference optimization in both offline and online settings. In addition, MaPPO\ncan be used as a plugin with consistent improvement on DPO variants, including\nwidely used SimPO, IPO, and CPO. Extensive empirical evaluations of different\nmodel sizes and model series on three standard benchmarks, including MT-Bench,\nAlpacaEval 2.0, and Arena-Hard, demonstrate consistent improvements in\nalignment performance without sacrificing computational efficiency.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.21183.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64ff4b1a0e8369f6a8c47c7e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ff4b1a0e8369f6a8c47c7e/X8ocOagj89gexSa253q_8.png",
+      "fullname": "Eric Lan",
+      "name": "Eric-Lan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.22061",
+      "authors": [
+        {
+          "_id": "6889763131e1218a08928191",
+          "name": "Kaining Ying",
+          "hidden": false
+        },
+        {
+          "_id": "6889763131e1218a08928192",
+          "name": "Hengrui Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6889763131e1218a08928193",
+          "name": "Henghui Ding",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-29T17:59:35.000Z",
+      "submittedOnDailyAt": "2025-07-30T00:04:41.715Z",
+      "title": "MOVE: Motion-Guided Few-Shot Video Object Segmentation",
+      "submittedOnDailyBy": {
+        "_id": "67ff29ecbf6889a333c69c7a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/fYIJFtF0uciB-1wb0lmTY.png",
+        "isPro": false,
+        "fullname": "Henghui Ding",
+        "user": "HenghuiDing",
+        "type": "user"
+      },
+      "summary": "This work addresses motion-guided few-shot video object segmentation (FSVOS),\nwhich aims to segment dynamic objects in videos based on a few annotated\nexamples with the same motion patterns. Existing FSVOS datasets and methods\ntypically focus on object categories, which are static attributes that ignore\nthe rich temporal dynamics in videos, limiting their application in scenarios\nrequiring motion understanding. To fill this gap, we introduce MOVE, a\nlarge-scale dataset specifically designed for motion-guided FSVOS. Based on\nMOVE, we comprehensively evaluate 6 state-of-the-art methods from 3 different\nrelated tasks across 2 experimental settings. Our results reveal that current\nmethods struggle to address motion-guided FSVOS, prompting us to analyze the\nassociated challenges and propose a baseline method, Decoupled Motion\nAppearance Network (DMA). Experiments demonstrate that our approach achieves\nsuperior performance in few shot motion understanding, establishing a solid\nfoundation for future research in this direction.",
+      "upvotes": 0,
+      "discussionId": "6889763131e1218a08928194",
+      "ai_summary": "A new dataset and baseline method for motion-guided few-shot video object segmentation are introduced, addressing challenges in motion understanding.",
+      "ai_keywords": [
+        "few-shot video object segmentation",
+        "FSVOS",
+        "motion-guided",
+        "temporal dynamics",
+        "Decoupled Motion Appearance Network",
+        "DMA"
+      ]
+    },
+    "publishedAt": "2025-07-29T13:59:35.000Z",
+    "title": "MOVE: Motion-Guided Few-Shot Video Object Segmentation",
+    "summary": "This work addresses motion-guided few-shot video object segmentation (FSVOS),\nwhich aims to segment dynamic objects in videos based on a few annotated\nexamples with the same motion patterns. Existing FSVOS datasets and methods\ntypically focus on object categories, which are static attributes that ignore\nthe rich temporal dynamics in videos, limiting their application in scenarios\nrequiring motion understanding. To fill this gap, we introduce MOVE, a\nlarge-scale dataset specifically designed for motion-guided FSVOS. Based on\nMOVE, we comprehensively evaluate 6 state-of-the-art methods from 3 different\nrelated tasks across 2 experimental settings. Our results reveal that current\nmethods struggle to address motion-guided FSVOS, prompting us to analyze the\nassociated challenges and propose a baseline method, Decoupled Motion\nAppearance Network (DMA). Experiments demonstrate that our approach achieves\nsuperior performance in few shot motion understanding, establishing a solid\nfoundation for future research in this direction.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.22061.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67ff29ecbf6889a333c69c7a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/fYIJFtF0uciB-1wb0lmTY.png",
+      "fullname": "Henghui Ding",
+      "name": "HenghuiDing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.21364",
+      "authors": [
+        {
+          "_id": "6889808631e1218a089281a2",
+          "name": "Lukman Jibril Aliyu",
+          "hidden": false
+        },
+        {
+          "_id": "6889808631e1218a089281a3",
+          "name": "Umar Sani Muhammad",
+          "hidden": false
+        },
+        {
+          "_id": "6889808631e1218a089281a4",
+          "name": "Bilqisu Ismail",
+          "hidden": false
+        },
+        {
+          "_id": "6889808631e1218a089281a5",
+          "name": "Nasiru Muhammad",
+          "hidden": false
+        },
+        {
+          "_id": "6889808631e1218a089281a6",
+          "name": "Almustapha A Wakili",
+          "hidden": false
+        },
+        {
+          "_id": "6889808631e1218a089281a7",
+          "name": "Seid Muhie Yimam",
+          "hidden": false
+        },
+        {
+          "_id": "6889808631e1218a089281a8",
+          "name": "Shamsuddeen Hassan Muhammad",
+          "hidden": false
+        },
+        {
+          "_id": "6889808631e1218a089281a9",
+          "name": "Mustapha Abdullahi",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64e88f2ff2f5545edaff5083/pkJkGJ8E36E41YOorr0DA.png"
+      ],
+      "publishedAt": "2025-07-28T22:18:13.000Z",
+      "submittedOnDailyAt": "2025-07-30T00:55:14.904Z",
+      "title": "Evaluating Deep Learning Models for African Wildlife Image\n  Classification: From DenseNet to Vision Transformers",
+      "submittedOnDailyBy": {
+        "_id": "64e88f2ff2f5545edaff5083",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e88f2ff2f5545edaff5083/ckZTNArwRsH5RfJksL-YJ.jpeg",
+        "isPro": false,
+        "fullname": "Lukman Jibril Aliyu",
+        "user": "lukmanaj",
+        "type": "user"
+      },
+      "summary": "Wildlife populations in Africa face severe threats, with vertebrate numbers\ndeclining by over 65% in the past five decades. In response, image\nclassification using deep learning has emerged as a promising tool for\nbiodiversity monitoring and conservation. This paper presents a comparative\nstudy of deep learning models for automatically classifying African wildlife\nimages, focusing on transfer learning with frozen feature extractors. Using a\npublic dataset of four species: buffalo, elephant, rhinoceros, and zebra; we\nevaluate the performance of DenseNet-201, ResNet-152, EfficientNet-B4, and\nVision Transformer ViT-H/14. DenseNet-201 achieved the best performance among\nconvolutional networks (67% accuracy), while ViT-H/14 achieved the highest\noverall accuracy (99%), but with significantly higher computational cost,\nraising deployment concerns. Our experiments highlight the trade-offs between\naccuracy, resource requirements, and deployability. The best-performing CNN\n(DenseNet-201) was integrated into a Hugging Face Gradio Space for real-time\nfield use, demonstrating the feasibility of deploying lightweight models in\nconservation settings. This work contributes to African-grounded AI research by\noffering practical insights into model selection, dataset preparation, and\nresponsible deployment of deep learning tools for wildlife conservation.",
+      "upvotes": 0,
+      "discussionId": "6889808631e1218a089281aa",
+      "ai_summary": "A comparative study of deep learning models for wildlife image classification highlights trade-offs between accuracy, resource requirements, and deployability, with DenseNet-201 and Vision Transformer ViT-H/14 performing best among evaluated models.",
+      "ai_keywords": [
+        "transfer learning",
+        "frozen feature extractors",
+        "DenseNet-201",
+        "ResNet-152",
+        "EfficientNet-B4",
+        "Vision Transformer ViT-H/14",
+        "convolutional networks",
+        "Hugging Face Gradio Space"
+      ]
+    },
+    "publishedAt": "2025-07-28T18:18:13.000Z",
+    "title": "Evaluating Deep Learning Models for African Wildlife Image\n  Classification: From DenseNet to Vision Transformers",
+    "summary": "Wildlife populations in Africa face severe threats, with vertebrate numbers\ndeclining by over 65% in the past five decades. In response, image\nclassification using deep learning has emerged as a promising tool for\nbiodiversity monitoring and conservation. This paper presents a comparative\nstudy of deep learning models for automatically classifying African wildlife\nimages, focusing on transfer learning with frozen feature extractors. Using a\npublic dataset of four species: buffalo, elephant, rhinoceros, and zebra; we\nevaluate the performance of DenseNet-201, ResNet-152, EfficientNet-B4, and\nVision Transformer ViT-H/14. DenseNet-201 achieved the best performance among\nconvolutional networks (67% accuracy), while ViT-H/14 achieved the highest\noverall accuracy (99%), but with significantly higher computational cost,\nraising deployment concerns. Our experiments highlight the trade-offs between\naccuracy, resource requirements, and deployability. The best-performing CNN\n(DenseNet-201) was integrated into a Hugging Face Gradio Space for real-time\nfield use, demonstrating the feasibility of deploying lightweight models in\nconservation settings. This work contributes to African-grounded AI research by\noffering practical insights into model selection, dataset preparation, and\nresponsible deployment of deep learning tools for wildlife conservation.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64e88f2ff2f5545edaff5083/pkJkGJ8E36E41YOorr0DA.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.21364.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64e88f2ff2f5545edaff5083",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e88f2ff2f5545edaff5083/ckZTNArwRsH5RfJksL-YJ.jpeg",
+      "fullname": "Lukman Jibril Aliyu",
+      "name": "lukmanaj",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 37
+    },
+    "isAuthorParticipating": false
+  }
+]
