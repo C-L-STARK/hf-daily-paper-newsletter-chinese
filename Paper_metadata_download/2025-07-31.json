@@ -1,0 +1,156 @@
+[
+  {
+    "paper": {
+      "id": "2507.21493",
+      "authors": [
+        {
+          "_id": "688ad3c18b724c8c7187dd67",
+          "name": "Longwen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "688ad3c18b724c8c7187dd68",
+          "name": "Qixuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "688ad3c18b724c8c7187dd69",
+          "name": "Haoran Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "688ad3c18b724c8c7187dd6a",
+          "name": "Yinuo Bai",
+          "hidden": false
+        },
+        {
+          "_id": "688ad3c18b724c8c7187dd6b",
+          "name": "Wei Yang",
+          "hidden": false
+        },
+        {
+          "_id": "688ad3c18b724c8c7187dd6c",
+          "name": "Lan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "688ad3c18b724c8c7187dd6d",
+          "name": "Jingyi Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-29T04:21:21.000Z",
+      "submittedOnDailyAt": "2025-07-31T00:56:30.360Z",
+      "title": "BANG: Dividing 3D Assets via Generative Exploded Dynamics",
+      "submittedOnDailyBy": {
+        "_id": "636d12455aaed143cd665607",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1679399015950-636d12455aaed143cd665607.png",
+        "isPro": false,
+        "fullname": "ZLW",
+        "user": "ZarkLngeW",
+        "type": "user"
+      },
+      "summary": "3D creation has always been a unique human strength, driven by our ability to\ndeconstruct and reassemble objects using our eyes, mind and hand. However,\ncurrent 3D design tools struggle to replicate this natural process, requiring\nconsiderable artistic expertise and manual labor. This paper introduces BANG, a\nnovel generative approach that bridges 3D generation and reasoning, allowing\nfor intuitive and flexible part-level decomposition of 3D objects. At the heart\nof BANG is \"Generative Exploded Dynamics\", which creates a smooth sequence of\nexploded states for an input geometry, progressively separating parts while\npreserving their geometric and semantic coherence.\n  BANG utilizes a pre-trained large-scale latent diffusion model, fine-tuned\nfor exploded dynamics with a lightweight exploded view adapter, allowing\nprecise control over the decomposition process. It also incorporates a temporal\nattention module to ensure smooth transitions and consistency across time. BANG\nenhances control with spatial prompts, such as bounding boxes and surface\nregions, enabling users to specify which parts to decompose and how. This\ninteraction can be extended with multimodal models like GPT-4, enabling\n2D-to-3D manipulations for more intuitive and creative workflows.\n  The capabilities of BANG extend to generating detailed part-level geometry,\nassociating parts with functional descriptions, and facilitating\ncomponent-aware 3D creation and manufacturing workflows. Additionally, BANG\noffers applications in 3D printing, where separable parts are generated for\neasy printing and reassembly. In essence, BANG enables seamless transformation\nfrom imaginative concepts to detailed 3D assets, offering a new perspective on\ncreation that resonates with human intuition.",
+      "upvotes": 16,
+      "discussionId": "688ad3c18b724c8c7187dd6e",
+      "projectPage": "https://sites.google.com/view/bang7355608",
+      "ai_summary": "BANG is a generative approach that uses latent diffusion models and temporal attention to enable intuitive part-level decomposition and manipulation of 3D objects, enhancing 3D creation workflows.",
+      "ai_keywords": [
+        "Generative Exploded Dynamics",
+        "latent diffusion model",
+        "exploded view adapter",
+        "temporal attention module",
+        "spatial prompts",
+        "multimodal models",
+        "GPT-4",
+        "2D-to-3D manipulations",
+        "component-aware 3D creation",
+        "3D printing"
+      ]
+    },
+    "publishedAt": "2025-07-29T00:21:21.000Z",
+    "title": "BANG: Dividing 3D Assets via Generative Exploded Dynamics",
+    "summary": "3D creation has always been a unique human strength, driven by our ability to\ndeconstruct and reassemble objects using our eyes, mind and hand. However,\ncurrent 3D design tools struggle to replicate this natural process, requiring\nconsiderable artistic expertise and manual labor. This paper introduces BANG, a\nnovel generative approach that bridges 3D generation and reasoning, allowing\nfor intuitive and flexible part-level decomposition of 3D objects. At the heart\nof BANG is \"Generative Exploded Dynamics\", which creates a smooth sequence of\nexploded states for an input geometry, progressively separating parts while\npreserving their geometric and semantic coherence.\n  BANG utilizes a pre-trained large-scale latent diffusion model, fine-tuned\nfor exploded dynamics with a lightweight exploded view adapter, allowing\nprecise control over the decomposition process. It also incorporates a temporal\nattention module to ensure smooth transitions and consistency across time. BANG\nenhances control with spatial prompts, such as bounding boxes and surface\nregions, enabling users to specify which parts to decompose and how. This\ninteraction can be extended with multimodal models like GPT-4, enabling\n2D-to-3D manipulations for more intuitive and creative workflows.\n  The capabilities of BANG extend to generating detailed part-level geometry,\nassociating parts with functional descriptions, and facilitating\ncomponent-aware 3D creation and manufacturing workflows. Additionally, BANG\noffers applications in 3D printing, where separable parts are generated for\neasy printing and reassembly. In essence, BANG enables seamless transformation\nfrom imaginative concepts to detailed 3D assets, offering a new perspective on\ncreation that resonates with human intuition.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.21493.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "636d12455aaed143cd665607",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1679399015950-636d12455aaed143cd665607.png",
+      "fullname": "ZLW",
+      "name": "ZarkLngeW",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.22886",
+      "authors": [
+        {
+          "_id": "688ac9788b724c8c7187dd54",
+          "name": "Kaining Ying",
+          "hidden": false
+        },
+        {
+          "_id": "688ac9788b724c8c7187dd55",
+          "name": "Henghui Ding",
+          "hidden": false
+        },
+        {
+          "_id": "688ac9788b724c8c7187dd56",
+          "name": "Guanquan Jie",
+          "hidden": false
+        },
+        {
+          "_id": "688ac9788b724c8c7187dd57",
+          "name": "Yu-Gang Jiang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-30T17:59:31.000Z",
+      "submittedOnDailyAt": "2025-07-31T00:11:21.540Z",
+      "title": "Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual\n  Segmentation",
+      "submittedOnDailyBy": {
+        "_id": "67ff29ecbf6889a333c69c7a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/fYIJFtF0uciB-1wb0lmTY.png",
+        "isPro": false,
+        "fullname": "Henghui Ding",
+        "user": "HenghuiDing",
+        "type": "user"
+      },
+      "summary": "Referring audio-visual segmentation (RAVS) has recently seen significant\nadvancements, yet challenges remain in integrating multimodal information and\ndeeply understanding and reasoning about audiovisual content. To extend the\nboundaries of RAVS and facilitate future research in this field, we propose\nOmnimodal Referring Audio-Visual Segmentation (OmniAVS), a new dataset\ncontaining 2,098 videos and 59,458 multimodal referring expressions. OmniAVS\nstands out with three key innovations: (1) 8 types of multimodal expressions\nthat flexibly combine text, speech, sound, and visual cues; (2) an emphasis on\nunderstanding audio content beyond just detecting their presence; and (3) the\ninclusion of complex reasoning and world knowledge in expressions. Furthermore,\nwe introduce Omnimodal Instructed Segmentation Assistant (OISA), to address the\nchallenges of multimodal reasoning and fine-grained understanding of\naudiovisual content in OmniAVS. OISA uses MLLM to comprehend complex cues and\nperform reasoning-based segmentation. Extensive experiments show that OISA\noutperforms existing methods on OmniAVS and achieves competitive results on\nother related tasks.",
+      "upvotes": 3,
+      "discussionId": "688ac9798b724c8c7187dd58",
+      "ai_summary": "Omnimodal Referring Audio-Visual Segmentation (OmniAVS) and Omnimodal Instructed Segmentation Assistant (OISA) advance audio-visual segmentation by integrating complex multimodal expressions and leveraging MLLM for reasoning.",
+      "ai_keywords": [
+        "multimodal referring expressions",
+        "audio-visual segmentation",
+        "multimodal reasoning",
+        "fine-grained understanding",
+        "MLLM"
+      ]
+    },
+    "publishedAt": "2025-07-30T13:59:31.000Z",
+    "title": "Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual\n  Segmentation",
+    "summary": "Referring audio-visual segmentation (RAVS) has recently seen significant\nadvancements, yet challenges remain in integrating multimodal information and\ndeeply understanding and reasoning about audiovisual content. To extend the\nboundaries of RAVS and facilitate future research in this field, we propose\nOmnimodal Referring Audio-Visual Segmentation (OmniAVS), a new dataset\ncontaining 2,098 videos and 59,458 multimodal referring expressions. OmniAVS\nstands out with three key innovations: (1) 8 types of multimodal expressions\nthat flexibly combine text, speech, sound, and visual cues; (2) an emphasis on\nunderstanding audio content beyond just detecting their presence; and (3) the\ninclusion of complex reasoning and world knowledge in expressions. Furthermore,\nwe introduce Omnimodal Instructed Segmentation Assistant (OISA), to address the\nchallenges of multimodal reasoning and fine-grained understanding of\naudiovisual content in OmniAVS. OISA uses MLLM to comprehend complex cues and\nperform reasoning-based segmentation. Extensive experiments show that OISA\noutperforms existing methods on OmniAVS and achieves competitive results on\nother related tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.22886.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67ff29ecbf6889a333c69c7a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/fYIJFtF0uciB-1wb0lmTY.png",
+      "fullname": "Henghui Ding",
+      "name": "HenghuiDing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
