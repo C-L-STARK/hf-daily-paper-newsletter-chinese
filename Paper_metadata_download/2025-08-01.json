@@ -1,0 +1,626 @@
+[
+  {
+    "paper": {
+      "id": "2507.23726",
+      "authors": [
+        {
+          "_id": "688c16788c434640078cc348",
+          "name": "Luoxin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc349",
+          "name": "Jinming Gu",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc34a",
+          "name": "Liankai Huang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc34b",
+          "name": "Wenhao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc34c",
+          "name": "Zhicheng Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc34d",
+          "name": "Allan Jie",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc34e",
+          "name": "Xiaoran Jin",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc34f",
+          "name": "Xing Jin",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc350",
+          "name": "Chenggang Li",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc351",
+          "name": "Kaijing Ma",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc352",
+          "name": "Cheng Ren",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc353",
+          "name": "Jiawei Shen",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc354",
+          "name": "Wenlei Shi",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc355",
+          "name": "Tong Sun",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc356",
+          "name": "He Sun",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc357",
+          "name": "Jiahui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc358",
+          "name": "Siran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc359",
+          "name": "Zhihong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc35a",
+          "name": "Chenrui Wei",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc35b",
+          "name": "Shufa Wei",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc35c",
+          "name": "Yonghui Wu",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc35d",
+          "name": "Yuchen Wu",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc35e",
+          "name": "Yihang Xia",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc35f",
+          "name": "Huajian Xin",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc360",
+          "name": "Fan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc361",
+          "name": "Huaiyuan Ying",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc362",
+          "name": "Hongyi Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc363",
+          "name": "Zheng Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc364",
+          "name": "Tianyang Zhan",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc365",
+          "name": "Chi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc366",
+          "name": "Yue Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc367",
+          "name": "Ge Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc368",
+          "name": "Tianyun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc369",
+          "name": "Jianqiu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc36a",
+          "name": "Yichi Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "688c16788c434640078cc36b",
+          "name": "Thomas Hanwen Zhu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-31T17:00:30.000Z",
+      "submittedOnDailyAt": "2025-08-01T00:07:55.891Z",
+      "title": "Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving",
+      "submittedOnDailyBy": {
+        "_id": "5f694b8b5e78cc6b0ed31bd2",
+        "avatarUrl": "/avatars/63f21d30918c34fff9ea592e1039b3f0.svg",
+        "isPro": false,
+        "fullname": "Zheng Yuan",
+        "user": "GanjinZero",
+        "type": "user"
+      },
+      "summary": "LLMs have demonstrated strong mathematical reasoning abilities by leveraging\nreinforcement learning with long chain-of-thought, yet they continue to\nstruggle with theorem proving due to the lack of clear supervision signals when\nsolely using natural language. Dedicated domain-specific languages like Lean\nprovide clear supervision via formal verification of proofs, enabling effective\ntraining through reinforcement learning. In this work, we propose\nSeed-Prover, a lemma-style whole-proof reasoning model. Seed-Prover\ncan iteratively refine its proof based on Lean feedback, proved lemmas, and\nself-summarization. To solve IMO-level contest problems, we design three\ntest-time inference strategies that enable both deep and broad reasoning.\nSeed-Prover proves 78.1% of formalized past IMO problems, saturates MiniF2F,\nand achieves over 50\\% on PutnamBench, outperforming the previous\nstate-of-the-art by a large margin. To address the lack of geometry support in\nLean, we introduce a geometry reasoning engine Seed-Geometry, which\noutperforms previous formal geometry engines. We use these two systems to\nparticipate in IMO 2025 and fully prove 5 out of 6 problems. This work\nrepresents a significant advancement in automated mathematical reasoning,\ndemonstrating the effectiveness of formal verification with long\nchain-of-thought reasoning.",
+      "upvotes": 29,
+      "discussionId": "688c16798c434640078cc36c",
+      "githubRepo": "https://github.com/ByteDance-Seed/Seed-Prover",
+      "ai_summary": "Seed-Prover, a lemma-style reasoning model using Lean, achieves high performance in formal theorem proving and automated mathematical reasoning through iterative refinement and specialized geometry support.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "long chain-of-thought",
+        "theorem proving",
+        "formal verification",
+        "lemma-style reasoning",
+        "Seed-Prover",
+        "MiniF2F",
+        "PutnamBench",
+        "Seed-Geometry",
+        "automated mathematical reasoning"
+      ],
+      "githubStars": 107
+    },
+    "publishedAt": "2025-07-31T13:00:30.000Z",
+    "title": "Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving",
+    "summary": "LLMs have demonstrated strong mathematical reasoning abilities by leveraging\nreinforcement learning with long chain-of-thought, yet they continue to\nstruggle with theorem proving due to the lack of clear supervision signals when\nsolely using natural language. Dedicated domain-specific languages like Lean\nprovide clear supervision via formal verification of proofs, enabling effective\ntraining through reinforcement learning. In this work, we propose\nSeed-Prover, a lemma-style whole-proof reasoning model. Seed-Prover\ncan iteratively refine its proof based on Lean feedback, proved lemmas, and\nself-summarization. To solve IMO-level contest problems, we design three\ntest-time inference strategies that enable both deep and broad reasoning.\nSeed-Prover proves 78.1% of formalized past IMO problems, saturates MiniF2F,\nand achieves over 50\\% on PutnamBench, outperforming the previous\nstate-of-the-art by a large margin. To address the lack of geometry support in\nLean, we introduce a geometry reasoning engine Seed-Geometry, which\noutperforms previous formal geometry engines. We use these two systems to\nparticipate in IMO 2025 and fully prove 5 out of 6 problems. This work\nrepresents a significant advancement in automated mathematical reasoning,\ndemonstrating the effectiveness of formal verification with long\nchain-of-thought reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.23726.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5f694b8b5e78cc6b0ed31bd2",
+      "avatarUrl": "/avatars/63f21d30918c34fff9ea592e1039b3f0.svg",
+      "fullname": "Zheng Yuan",
+      "name": "GanjinZero",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.22879",
+      "authors": [
+        {
+          "_id": "688aebf98b724c8c7187dd92",
+          "name": "Chao Yi",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd93",
+          "name": "Dian Chen",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd94",
+          "name": "Gaoyang Guo",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd95",
+          "name": "Jiakai Tang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd96",
+          "name": "Jian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd97",
+          "name": "Jing Yu",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd98",
+          "name": "Sunhao Dai",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd99",
+          "name": "Wen Chen",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd9a",
+          "name": "Wenjun Yang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd9b",
+          "name": "Yuning Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd9c",
+          "name": "Zhujin Gao",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd9d",
+          "name": "Bo Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd9e",
+          "name": "Chi Li",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dd9f",
+          "name": "Dimin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda0",
+          "name": "Dixuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda1",
+          "name": "Fan Li",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda2",
+          "name": "Fan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda3",
+          "name": "Haibin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda4",
+          "name": "Haozhuang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda5",
+          "name": "Jialin Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda6",
+          "name": "Jiamang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda7",
+          "name": "Jiawei Wu",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda8",
+          "name": "Jin Cui",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187dda9",
+          "name": "Ju Huang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddaa",
+          "name": "Kai Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddab",
+          "name": "Kan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddac",
+          "name": "Lang Tian",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddad",
+          "name": "Liang Rao",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddae",
+          "name": "Longbin Li",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddaf",
+          "name": "Lulu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb0",
+          "name": "Mao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb1",
+          "name": "Na He",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb2",
+          "name": "Peiyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb3",
+          "name": "Qiqi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb4",
+          "name": "Tao Luo",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb5",
+          "name": "Wenbo Su",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb6",
+          "name": "Xiaoxiao He",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb7",
+          "name": "Xin Tong",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb8",
+          "name": "Xu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddb9",
+          "name": "Xunke Xi",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddba",
+          "name": "Yang Li",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddbb",
+          "name": "Yaxuan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddbc",
+          "name": "Yeqiu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddbd",
+          "name": "Yi Hu",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddbe",
+          "name": "Yinnan Song",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddbf",
+          "name": "Yuchen Li",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddc0",
+          "name": "Yujie Luo",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddc1",
+          "name": "Yujin Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddc2",
+          "name": "Yuliang Yan",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddc3",
+          "name": "Zhengyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddc4",
+          "name": "Zhibo Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddc5",
+          "name": "Zhixin Ma",
+          "hidden": false
+        },
+        {
+          "_id": "688aebf98b724c8c7187ddc6",
+          "name": "Zile Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-30T17:55:06.000Z",
+      "submittedOnDailyAt": "2025-08-01T00:07:39.236Z",
+      "title": "RecGPT Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "65acfb3a14e6582c30b4ce76",
+        "avatarUrl": "/avatars/3402ba72fe2436a9c2c2f92e56b15deb.svg",
+        "isPro": false,
+        "fullname": "TangJiakai",
+        "user": "TangJiakai5704",
+        "type": "user"
+      },
+      "summary": "Recommender systems are among the most impactful applications of artificial\nintelligence, serving as critical infrastructure connecting users, merchants,\nand platforms. However, most current industrial systems remain heavily reliant\non historical co-occurrence patterns and log-fitting objectives, i.e.,\noptimizing for past user interactions without explicitly modeling user intent.\nThis log-fitting approach often leads to overfitting to narrow historical\npreferences, failing to capture users' evolving and latent interests. As a\nresult, it reinforces filter bubbles and long-tail phenomena, ultimately\nharming user experience and threatening the sustainability of the whole\nrecommendation ecosystem.\n  To address these challenges, we rethink the overall design paradigm of\nrecommender systems and propose RecGPT, a next-generation framework that places\nuser intent at the center of the recommendation pipeline. By integrating large\nlanguage models (LLMs) into key stages of user interest mining, item retrieval,\nand explanation generation, RecGPT transforms log-fitting recommendation into\nan intent-centric process. To effectively align general-purpose LLMs to the\nabove domain-specific recommendation tasks at scale, RecGPT incorporates a\nmulti-stage training paradigm, which integrates reasoning-enhanced\npre-alignment and self-training evolution, guided by a Human-LLM cooperative\njudge system. Currently, RecGPT has been fully deployed on the Taobao App.\nOnline experiments demonstrate that RecGPT achieves consistent performance\ngains across stakeholders: users benefit from increased content diversity and\nsatisfaction, merchants and the platform gain greater exposure and conversions.\nThese comprehensive improvement results across all stakeholders validates that\nLLM-driven, intent-centric design can foster a more sustainable and mutually\nbeneficial recommendation ecosystem.",
+      "upvotes": 9,
+      "discussionId": "688aebf98b724c8c7187ddc7",
+      "ai_summary": "RecGPT integrates large language models into recommender systems to focus on user intent, improving content diversity and satisfaction while enhancing merchant and platform performance.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "user intent",
+        "user interest mining",
+        "item retrieval",
+        "explanation generation",
+        "reasoning-enhanced pre-alignment",
+        "self-training evolution",
+        "Human-LLM cooperative judge system"
+      ]
+    },
+    "publishedAt": "2025-07-30T13:55:06.000Z",
+    "title": "RecGPT Technical Report",
+    "summary": "Recommender systems are among the most impactful applications of artificial\nintelligence, serving as critical infrastructure connecting users, merchants,\nand platforms. However, most current industrial systems remain heavily reliant\non historical co-occurrence patterns and log-fitting objectives, i.e.,\noptimizing for past user interactions without explicitly modeling user intent.\nThis log-fitting approach often leads to overfitting to narrow historical\npreferences, failing to capture users' evolving and latent interests. As a\nresult, it reinforces filter bubbles and long-tail phenomena, ultimately\nharming user experience and threatening the sustainability of the whole\nrecommendation ecosystem.\n  To address these challenges, we rethink the overall design paradigm of\nrecommender systems and propose RecGPT, a next-generation framework that places\nuser intent at the center of the recommendation pipeline. By integrating large\nlanguage models (LLMs) into key stages of user interest mining, item retrieval,\nand explanation generation, RecGPT transforms log-fitting recommendation into\nan intent-centric process. To effectively align general-purpose LLMs to the\nabove domain-specific recommendation tasks at scale, RecGPT incorporates a\nmulti-stage training paradigm, which integrates reasoning-enhanced\npre-alignment and self-training evolution, guided by a Human-LLM cooperative\njudge system. Currently, RecGPT has been fully deployed on the Taobao App.\nOnline experiments demonstrate that RecGPT achieves consistent performance\ngains across stakeholders: users benefit from increased content diversity and\nsatisfaction, merchants and the platform gain greater exposure and conversions.\nThese comprehensive improvement results across all stakeholders validates that\nLLM-driven, intent-centric design can foster a more sustainable and mutually\nbeneficial recommendation ecosystem.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.22879.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65acfb3a14e6582c30b4ce76",
+      "avatarUrl": "/avatars/3402ba72fe2436a9c2c2f92e56b15deb.svg",
+      "fullname": "TangJiakai",
+      "name": "TangJiakai5704",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.22968",
+      "authors": [
+        {
+          "_id": "688c13408c434640078cc335",
+          "name": "Chengqian Ma",
+          "hidden": false
+        },
+        {
+          "_id": "688c13408c434640078cc336",
+          "name": "Wei Tao",
+          "hidden": false
+        },
+        {
+          "_id": "688c13408c434640078cc337",
+          "name": "Yiwen Guo",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-30T17:56:23.000Z",
+      "submittedOnDailyAt": "2025-08-01T00:51:53.259Z",
+      "title": "C3: A Bilingual Benchmark for Spoken Dialogue Models Exploring\n  Challenges in Complex Conversations",
+      "submittedOnDailyBy": {
+        "_id": "6355473d525beaee688b7ba1",
+        "avatarUrl": "/avatars/0a0f0acc65829c6d864440444c580698.svg",
+        "isPro": false,
+        "fullname": "Wei Tao",
+        "user": "itaowe",
+        "type": "user"
+      },
+      "summary": "Spoken Dialogue Models (SDMs) have recently attracted significant attention\nfor their ability to generate voice responses directly to users' spoken\nqueries. Despite their increasing popularity, there exists a gap in research\nfocused on comprehensively understanding their practical effectiveness in\ncomprehending and emulating human conversations. This is especially true\ncompared to text-based Large Language Models (LLMs), which benefit from\nextensive benchmarking. Human voice interactions are inherently more complex\nthan text due to characteristics unique to spoken dialogue. Ambiguity poses one\nchallenge, stemming from semantic factors like polysemy, as well as\nphonological aspects such as heterograph, heteronyms, and stress patterns.\nAdditionally, context-dependency, like omission, coreference, and multi-turn\ninteraction, adds further complexity to human conversational dynamics. To\nilluminate the current state of SDM development and to address these\nchallenges, we present a benchmark dataset in this paper, which comprises 1,079\ninstances in English and Chinese. Accompanied by an LLM-based evaluation method\nthat closely aligns with human judgment, this dataset facilitates a\ncomprehensive exploration of the performance of SDMs in tackling these\npractical challenges.",
+      "upvotes": 5,
+      "discussionId": "688c13418c434640078cc338",
+      "projectPage": "https://step-out.github.io/C3-web/",
+      "githubRepo": "https://github.com/step-out/C3",
+      "ai_summary": "A benchmark dataset for Spoken Dialogue Models (SDMs) in English and Chinese is presented to evaluate their performance in understanding and emulating human spoken conversations, addressing challenges like ambiguity and context-dependency.",
+      "ai_keywords": [
+        "Spoken Dialogue Models",
+        "SDMs",
+        "Large Language Models",
+        "LLMs",
+        "benchmark dataset",
+        "human judgment",
+        "ambiguity",
+        "polysemy",
+        "heterograph",
+        "heteronyms",
+        "stress patterns",
+        "context-dependency",
+        "omission",
+        "coreference",
+        "multi-turn interaction"
+      ]
+    },
+    "publishedAt": "2025-07-30T13:56:23.000Z",
+    "title": "C3: A Bilingual Benchmark for Spoken Dialogue Models Exploring\n  Challenges in Complex Conversations",
+    "summary": "Spoken Dialogue Models (SDMs) have recently attracted significant attention\nfor their ability to generate voice responses directly to users' spoken\nqueries. Despite their increasing popularity, there exists a gap in research\nfocused on comprehensively understanding their practical effectiveness in\ncomprehending and emulating human conversations. This is especially true\ncompared to text-based Large Language Models (LLMs), which benefit from\nextensive benchmarking. Human voice interactions are inherently more complex\nthan text due to characteristics unique to spoken dialogue. Ambiguity poses one\nchallenge, stemming from semantic factors like polysemy, as well as\nphonological aspects such as heterograph, heteronyms, and stress patterns.\nAdditionally, context-dependency, like omission, coreference, and multi-turn\ninteraction, adds further complexity to human conversational dynamics. To\nilluminate the current state of SDM development and to address these\nchallenges, we present a benchmark dataset in this paper, which comprises 1,079\ninstances in English and Chinese. Accompanied by an LLM-based evaluation method\nthat closely aligns with human judgment, this dataset facilitates a\ncomprehensive exploration of the performance of SDMs in tackling these\npractical challenges.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.22968.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6355473d525beaee688b7ba1",
+      "avatarUrl": "/avatars/0a0f0acc65829c6d864440444c580698.svg",
+      "fullname": "Wei Tao",
+      "name": "itaowe",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  }
+]
