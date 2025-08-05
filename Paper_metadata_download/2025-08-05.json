@@ -1,0 +1,246 @@
+[
+  {
+    "paper": {
+      "id": "2508.01059",
+      "authors": [
+        {
+          "_id": "68916c3af01a094725f83460",
+          "name": "Sajana Weerawardhena",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83461",
+          "name": "Paul Kassianik",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83462",
+          "name": "Blaine Nelson",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83463",
+          "name": "Baturay Saglam",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83464",
+          "name": "Anu Vellore",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83465",
+          "name": "Aman Priyanshu",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83466",
+          "name": "Supriti Vijay",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83467",
+          "name": "Massimo Aufiero",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83468",
+          "name": "Arthur Goldblatt",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83469",
+          "name": "Fraser Burch",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f8346a",
+          "name": "Ed Li",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f8346b",
+          "name": "Jianliang He",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f8346c",
+          "name": "Dhruv Kedia",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f8346d",
+          "name": "Kojin Oshiba",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f8346e",
+          "name": "Zhouran Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f8346f",
+          "name": "Yaron Singer",
+          "hidden": false
+        },
+        {
+          "_id": "68916c3af01a094725f83470",
+          "name": "Amin Karbasi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-01T20:25:57.000Z",
+      "submittedOnDailyAt": "2025-08-05T01:01:25.435Z",
+      "title": "Llama-3.1-FoundationAI-SecurityLLM-8B-Instruct Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "620042b28c2eb991da50d34e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/620042b28c2eb991da50d34e/Q5cj1GIq3XnKj-K64Mtyd.jpeg",
+        "isPro": true,
+        "fullname": "Aman Priyanshu",
+        "user": "AmanPriyanshu",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have shown remarkable success across many\ndomains, yet their integration into cybersecurity applications remains limited\ndue to a lack of general-purpose cybersecurity data, representational\ncomplexity, and safety and regulatory concerns. To address this gap, we\npreviously introduced Foundation-Sec-8B, a cybersecurity-focused LLM suitable\nfor fine-tuning on downstream tasks. That model, however, was not designed for\nchat-style interactions or instruction-following. In this report, we release\nFoundation-Sec-8B-Instruct: a model specifically trained for general-purpose\ncybersecurity dialogue. Built on Foundation-Sec-8B, it combines domain-specific\nknowledge with instruction-following, conversational capabilities, and\nalignment with human preferences to produce high-quality, relevant responses.\nComprehensive evaluations show that Foundation-Sec-8B-Instruct outperforms\nLlama 3.1-8B-Instruct on a range of cybersecurity tasks while matching its\ninstruction-following performance. It is also competitive with GPT-4o-mini on\ncyber threat intelligence and instruction-following tasks. We envision\nFoundation-Sec-8B-Instruct becoming an indispensable assistant in the daily\nworkflows of cybersecurity professionals. We release the model publicly at\nhttps://huggingface.co/fdtn-ai/Foundation-Sec-8B-Instruct.",
+      "upvotes": 5,
+      "discussionId": "68916c3af01a094725f83471",
+      "ai_summary": "Foundation-Sec-8B-Instruct is a cybersecurity-focused LLM designed for chat-style interactions and instruction-following, outperforming other models in cybersecurity tasks while matching their instruction-following capabilities.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "cybersecurity",
+        "Foundation-Sec-8B",
+        "fine-tuning",
+        "instruction-following",
+        "conversational capabilities",
+        "human preferences",
+        "cybersecurity dialogue",
+        "Llama 3.1-8B-Instruct",
+        "GPT-4o-mini",
+        "cyber threat intelligence"
+      ]
+    },
+    "publishedAt": "2025-08-01T16:25:57.000Z",
+    "title": "Llama-3.1-FoundationAI-SecurityLLM-8B-Instruct Technical Report",
+    "summary": "Large language models (LLMs) have shown remarkable success across many\ndomains, yet their integration into cybersecurity applications remains limited\ndue to a lack of general-purpose cybersecurity data, representational\ncomplexity, and safety and regulatory concerns. To address this gap, we\npreviously introduced Foundation-Sec-8B, a cybersecurity-focused LLM suitable\nfor fine-tuning on downstream tasks. That model, however, was not designed for\nchat-style interactions or instruction-following. In this report, we release\nFoundation-Sec-8B-Instruct: a model specifically trained for general-purpose\ncybersecurity dialogue. Built on Foundation-Sec-8B, it combines domain-specific\nknowledge with instruction-following, conversational capabilities, and\nalignment with human preferences to produce high-quality, relevant responses.\nComprehensive evaluations show that Foundation-Sec-8B-Instruct outperforms\nLlama 3.1-8B-Instruct on a range of cybersecurity tasks while matching its\ninstruction-following performance. It is also competitive with GPT-4o-mini on\ncyber threat intelligence and instruction-following tasks. We envision\nFoundation-Sec-8B-Instruct becoming an indispensable assistant in the daily\nworkflows of cybersecurity professionals. We release the model publicly at\nhttps://huggingface.co/fdtn-ai/Foundation-Sec-8B-Instruct.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.01059.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "620042b28c2eb991da50d34e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/620042b28c2eb991da50d34e/Q5cj1GIq3XnKj-K64Mtyd.jpeg",
+      "fullname": "Aman Priyanshu",
+      "name": "AmanPriyanshu",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2507.17520",
+      "authors": [
+        {
+          "_id": "68917181f01a094725f8348d",
+          "name": "Shuai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f8348e",
+          "name": "Hao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f8348f",
+          "name": "Yilun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f83490",
+          "name": "Bin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f83491",
+          "name": "Yang Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f83492",
+          "name": "Tai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f83493",
+          "name": "Hanqing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f83494",
+          "name": "Feng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f83495",
+          "name": "Yiyi Liao",
+          "hidden": false
+        },
+        {
+          "_id": "68917181f01a094725f83496",
+          "name": "Jiangmiao Pang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-07-23T13:57:06.000Z",
+      "submittedOnDailyAt": "2025-08-05T01:24:22.392Z",
+      "title": "InstructVLA: Vision-Language-Action Instruction Tuning from\n  Understanding to Manipulation",
+      "submittedOnDailyBy": {
+        "_id": "64548f6c363bb3aaf9cba136",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64548f6c363bb3aaf9cba136/HqJL9HQ5CWVOJCsHyuMOm.jpeg",
+        "isPro": false,
+        "fullname": "Shuai Yang",
+        "user": "ShuaiYang03",
+        "type": "user"
+      },
+      "summary": "To operate effectively in the real world, robots must integrate multimodal\nreasoning with precise action generation. However, existing\nvision-language-action (VLA) models often sacrifice one for the other, narrow\ntheir abilities to task-specific manipulation data, and suffer catastrophic\nforgetting of pre-trained vision-language capabilities. To bridge this gap, we\nintroduce InstructVLA, an end-to-end VLA model that preserves the flexible\nreasoning of large vision-language models (VLMs) while delivering leading\nmanipulation performance. InstructVLA introduces a novel training paradigm,\nVision-Language-Action Instruction Tuning (VLA-IT), which employs multimodal\ntraining with mixture-of-experts adaptation to jointly optimize textual\nreasoning and action generation on both standard VLM corpora and a curated\n650K-sample VLA-IT dataset. On in-domain SimplerEnv tasks, InstructVLA achieves\n30.5% improvement over SpatialVLA. To evaluate generalization, we introduce\nSimplerEnv-Instruct, an 80-task benchmark requiring closed-loop control and\nhigh-level instruction understanding, where it outperforms a fine-tuned OpenVLA\nby 92% and an action expert aided by GPT-4o by 29%. Additionally, InstructVLA\nsurpasses baseline VLMs on multimodal tasks and exhibits inference-time scaling\nby leveraging textual reasoning to boost manipulation performance in both\nsimulated and real-world settings. These results demonstrate InstructVLA's\npotential for bridging intuitive and steerable human-robot interaction with\nefficient policy learning.",
+      "upvotes": 0,
+      "discussionId": "68917182f01a094725f83497",
+      "ai_summary": "InstructVLA is an end-to-end vision-language-action model that enhances manipulation performance while preserving vision-language reasoning through multimodal training and mixture-of-experts adaptation.",
+      "ai_keywords": [
+        "vision-language-action (VLA) models",
+        "multimodal reasoning",
+        "precise action generation",
+        "catastrophic forgetting",
+        "large vision-language models (VLMs)",
+        "Vision-Language-Action Instruction Tuning (VLA-IT)",
+        "mixture-of-experts adaptation",
+        "SimplerEnv tasks",
+        "SimplerEnv-Instruct",
+        "OpenVLA",
+        "GPT-4o",
+        "multimodal tasks",
+        "inference-time scaling",
+        "policy learning"
+      ]
+    },
+    "publishedAt": "2025-07-23T09:57:06.000Z",
+    "title": "InstructVLA: Vision-Language-Action Instruction Tuning from\n  Understanding to Manipulation",
+    "summary": "To operate effectively in the real world, robots must integrate multimodal\nreasoning with precise action generation. However, existing\nvision-language-action (VLA) models often sacrifice one for the other, narrow\ntheir abilities to task-specific manipulation data, and suffer catastrophic\nforgetting of pre-trained vision-language capabilities. To bridge this gap, we\nintroduce InstructVLA, an end-to-end VLA model that preserves the flexible\nreasoning of large vision-language models (VLMs) while delivering leading\nmanipulation performance. InstructVLA introduces a novel training paradigm,\nVision-Language-Action Instruction Tuning (VLA-IT), which employs multimodal\ntraining with mixture-of-experts adaptation to jointly optimize textual\nreasoning and action generation on both standard VLM corpora and a curated\n650K-sample VLA-IT dataset. On in-domain SimplerEnv tasks, InstructVLA achieves\n30.5% improvement over SpatialVLA. To evaluate generalization, we introduce\nSimplerEnv-Instruct, an 80-task benchmark requiring closed-loop control and\nhigh-level instruction understanding, where it outperforms a fine-tuned OpenVLA\nby 92% and an action expert aided by GPT-4o by 29%. Additionally, InstructVLA\nsurpasses baseline VLMs on multimodal tasks and exhibits inference-time scaling\nby leveraging textual reasoning to boost manipulation performance in both\nsimulated and real-world settings. These results demonstrate InstructVLA's\npotential for bridging intuitive and steerable human-robot interaction with\nefficient policy learning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.17520.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64548f6c363bb3aaf9cba136",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64548f6c363bb3aaf9cba136/HqJL9HQ5CWVOJCsHyuMOm.jpeg",
+      "fullname": "Shuai Yang",
+      "name": "ShuaiYang03",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
