@@ -1,0 +1,237 @@
+[
+  {
+    "paper": {
+      "id": "2508.03694",
+      "authors": [
+        {
+          "_id": "6892b64d8da45ffb0a2b23d4",
+          "name": "Jianxiong Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6892b64d8da45ffb0a2b23d5",
+          "name": "Zhaoxi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6892b64d8da45ffb0a2b23d6",
+          "name": "Xian Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6892b64d8da45ffb0a2b23d7",
+          "name": "Jianfeng Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6892b64d8da45ffb0a2b23d8",
+          "name": "Chenyang Si",
+          "hidden": false
+        },
+        {
+          "_id": "6892b64d8da45ffb0a2b23d9",
+          "name": "Yanwei Fu",
+          "hidden": false
+        },
+        {
+          "_id": "6892b64d8da45ffb0a2b23da",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "6892b64d8da45ffb0a2b23db",
+          "name": "Ziwei Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-05T17:59:58.000Z",
+      "submittedOnDailyAt": "2025-08-06T00:30:01.624Z",
+      "title": "LongVie: Multimodal-Guided Controllable Ultra-Long Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "643815c4961bb61e463c5896",
+        "avatarUrl": "/avatars/3b44592472f16c56105bff8c314d9939.svg",
+        "isPro": false,
+        "fullname": "Jianxiong Gao",
+        "user": "Jianxiong",
+        "type": "user"
+      },
+      "summary": "Controllable ultra-long video generation is a fundamental yet challenging\ntask. Although existing methods are effective for short clips, they struggle to\nscale due to issues such as temporal inconsistency and visual degradation. In\nthis paper, we initially investigate and identify three key factors: separate\nnoise initialization, independent control signal normalization, and the\nlimitations of single-modality guidance. To address these issues, we propose\nLongVie, an end-to-end autoregressive framework for controllable long video\ngeneration. LongVie introduces two core designs to ensure temporal consistency:\n1) a unified noise initialization strategy that maintains consistent generation\nacross clips, and 2) global control signal normalization that enforces\nalignment in the control space throughout the entire video. To mitigate visual\ndegradation, LongVie employs 3) a multi-modal control framework that integrates\nboth dense (e.g., depth maps) and sparse (e.g., keypoints) control signals,\ncomplemented by 4) a degradation-aware training strategy that adaptively\nbalances modality contributions over time to preserve visual quality. We also\nintroduce LongVGenBench, a comprehensive benchmark consisting of 100\nhigh-resolution videos spanning diverse real-world and synthetic environments,\neach lasting over one minute. Extensive experiments show that LongVie achieves\nstate-of-the-art performance in long-range controllability, consistency, and\nquality.",
+      "upvotes": 9,
+      "discussionId": "6892b64d8da45ffb0a2b23dc",
+      "ai_summary": "LongVie, an end-to-end autoregressive framework, addresses temporal consistency and visual degradation in ultra-long video generation through unified noise initialization, global control signal normalization, multi-modal control, and degradation-aware training.",
+      "ai_keywords": [
+        "autoregressive framework",
+        "temporal consistency",
+        "visual degradation",
+        "unified noise initialization",
+        "global control signal normalization",
+        "multi-modal control",
+        "degradation-aware training",
+        "LongVGenBench"
+      ]
+    },
+    "publishedAt": "2025-08-05T13:59:58.000Z",
+    "title": "LongVie: Multimodal-Guided Controllable Ultra-Long Video Generation",
+    "summary": "Controllable ultra-long video generation is a fundamental yet challenging\ntask. Although existing methods are effective for short clips, they struggle to\nscale due to issues such as temporal inconsistency and visual degradation. In\nthis paper, we initially investigate and identify three key factors: separate\nnoise initialization, independent control signal normalization, and the\nlimitations of single-modality guidance. To address these issues, we propose\nLongVie, an end-to-end autoregressive framework for controllable long video\ngeneration. LongVie introduces two core designs to ensure temporal consistency:\n1) a unified noise initialization strategy that maintains consistent generation\nacross clips, and 2) global control signal normalization that enforces\nalignment in the control space throughout the entire video. To mitigate visual\ndegradation, LongVie employs 3) a multi-modal control framework that integrates\nboth dense (e.g., depth maps) and sparse (e.g., keypoints) control signals,\ncomplemented by 4) a degradation-aware training strategy that adaptively\nbalances modality contributions over time to preserve visual quality. We also\nintroduce LongVGenBench, a comprehensive benchmark consisting of 100\nhigh-resolution videos spanning diverse real-world and synthetic environments,\neach lasting over one minute. Extensive experiments show that LongVie achieves\nstate-of-the-art performance in long-range controllability, consistency, and\nquality.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.03694.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643815c4961bb61e463c5896",
+      "avatarUrl": "/avatars/3b44592472f16c56105bff8c314d9939.svg",
+      "fullname": "Jianxiong Gao",
+      "name": "Jianxiong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.02079",
+      "authors": [
+        {
+          "_id": "6892c2a18da45ffb0a2b241e",
+          "name": "Amitava Das",
+          "hidden": false
+        },
+        {
+          "_id": "6892c2a18da45ffb0a2b241f",
+          "name": "Abhilekh Borah",
+          "hidden": false
+        },
+        {
+          "_id": "6892c2a18da45ffb0a2b2420",
+          "name": "Vinija Jain",
+          "hidden": false
+        },
+        {
+          "_id": "6892c2a18da45ffb0a2b2421",
+          "name": "Aman Chadha",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-04T05:45:24.000Z",
+      "submittedOnDailyAt": "2025-08-06T01:22:23.102Z",
+      "title": "AlignGuard-LoRA: Alignment-Preserving Fine-Tuning via Fisher-Guided\n  Decomposition and Riemannian-Geodesic Collision Regularization",
+      "submittedOnDailyBy": {
+        "_id": "63a4754927f1f64ed7238dac",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a4754927f1f64ed7238dac/aH-eJF-31g4vof9jv2gmI.jpeg",
+        "isPro": false,
+        "fullname": "Aman Chadha",
+        "user": "amanchadha",
+        "type": "user"
+      },
+      "summary": "Low-rank adaptation (LoRA) has become a standard tool for efficiently\nfine-tuning large language models (LLMs). Yet, even minor LoRA updates can\ninduce alignment drift, weakening safety and behavioral constraints through\nentangled parameter changes. To address this, we propose AlignGuard-LoRA (AGL),\na principled framework for preserving alignment during finetuning. AGL\nintroduces several key components: a primary task loss for supervision, Fisher\nInformation Matrix-based regularization to restrict updates in\nalignment-sensitive subspaces, and task-specific regularization to stabilize\nthe integration of new knowledge. We further introduce collision-aware\nregularization, blending Riemannian overlap -- which penalizes coordinate-wise\ninterference -- and geodesic separation -- which encourages disjoint update\ngeometry. We curate DriftCaps, a targeted diagnostic benchmark of safe and\nunsafe prompts designed to quantify alignment drift and safety degradation.\nEmpirical evaluations show that AGL mitigates alignment drift by up to 50% on\nsafety-critical benchmarks without degrading downstream task performance.\nComprehensive ablation confirms that each component contributes distinctly to\npreserving latent safety behaviors. Finally, we derive and validate a scaling\nlaw for catastrophic forgetting, revealing that AGL flattens post-finetuning\nloss escalation while preserving adaptation dynamics. AGL is a structurally\ngrounded refinement of LoRA, ensuring alignment preservation with minimal\ntrade-offs. To encourage further exploration and development, we open-source\nour implementation.",
+      "upvotes": 1,
+      "discussionId": "6892c2a18da45ffb0a2b2422",
+      "ai_summary": "AlignGuard-LoRA (AGL) is a framework that preserves alignment during fine-tuning of large language models by introducing regularization techniques and a diagnostic benchmark to mitigate alignment drift.",
+      "ai_keywords": [
+        "LoRA",
+        "AlignGuard-LoRA",
+        "primary task loss",
+        "Fisher Information Matrix-based regularization",
+        "task-specific regularization",
+        "collision-aware regularization",
+        "Riemannian overlap",
+        "geodesic separation",
+        "DriftCaps",
+        "alignment drift",
+        "catastrophic forgetting",
+        "adaptation dynamics"
+      ]
+    },
+    "publishedAt": "2025-08-04T01:45:24.000Z",
+    "title": "AlignGuard-LoRA: Alignment-Preserving Fine-Tuning via Fisher-Guided\n  Decomposition and Riemannian-Geodesic Collision Regularization",
+    "summary": "Low-rank adaptation (LoRA) has become a standard tool for efficiently\nfine-tuning large language models (LLMs). Yet, even minor LoRA updates can\ninduce alignment drift, weakening safety and behavioral constraints through\nentangled parameter changes. To address this, we propose AlignGuard-LoRA (AGL),\na principled framework for preserving alignment during finetuning. AGL\nintroduces several key components: a primary task loss for supervision, Fisher\nInformation Matrix-based regularization to restrict updates in\nalignment-sensitive subspaces, and task-specific regularization to stabilize\nthe integration of new knowledge. We further introduce collision-aware\nregularization, blending Riemannian overlap -- which penalizes coordinate-wise\ninterference -- and geodesic separation -- which encourages disjoint update\ngeometry. We curate DriftCaps, a targeted diagnostic benchmark of safe and\nunsafe prompts designed to quantify alignment drift and safety degradation.\nEmpirical evaluations show that AGL mitigates alignment drift by up to 50% on\nsafety-critical benchmarks without degrading downstream task performance.\nComprehensive ablation confirms that each component contributes distinctly to\npreserving latent safety behaviors. Finally, we derive and validate a scaling\nlaw for catastrophic forgetting, revealing that AGL flattens post-finetuning\nloss escalation while preserving adaptation dynamics. AGL is a structurally\ngrounded refinement of LoRA, ensuring alignment preservation with minimal\ntrade-offs. To encourage further exploration and development, we open-source\nour implementation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.02079.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63a4754927f1f64ed7238dac",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a4754927f1f64ed7238dac/aH-eJF-31g4vof9jv2gmI.jpeg",
+      "fullname": "Aman Chadha",
+      "name": "amanchadha",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.02063",
+      "authors": [
+        {
+          "_id": "6892c3aa8da45ffb0a2b242c",
+          "name": "Amitava Das",
+          "hidden": false
+        },
+        {
+          "_id": "6892c3aa8da45ffb0a2b242d",
+          "name": "Vinija Jain",
+          "hidden": false
+        },
+        {
+          "_id": "6892c3aa8da45ffb0a2b242e",
+          "name": "Aman Chadha",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-04T05:03:35.000Z",
+      "submittedOnDailyAt": "2025-08-06T01:23:46.765Z",
+      "title": "TRACEALIGN -- Tracing the Drift: Attributing Alignment Failures to\n  Training-Time Belief Sources in LLMs",
+      "submittedOnDailyBy": {
+        "_id": "63a4754927f1f64ed7238dac",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a4754927f1f64ed7238dac/aH-eJF-31g4vof9jv2gmI.jpeg",
+        "isPro": false,
+        "fullname": "Aman Chadha",
+        "user": "amanchadha",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) fine-tuned to align with human values often\nexhibit alignment drift, producing unsafe or policy-violating completions when\nexposed to adversarial prompts, decoding perturbations, or paraphrased\njailbreaks. While prior work has behaviorally characterized alignment failure,\nlittle is known about the training-time belief sources underlying these\nfailures. We introduce TraceAlign, a unified framework for tracing unsafe\ncompletions back to their root causes in the model's training corpus. Central\nto our approach is the Belief Conflict Index (BCI), which quantifies semantic\ninconsistency between generated spans and aligned policies, based on retrieved\ntraining documents using suffix-array matching. We propose three complementary\ninterventions: (i) TraceShield, an inference-time safety filter that refuses\ncompletions with high-BCI spans, (ii) Contrastive Belief Deconfliction Loss, a\ncontrastive fine-tuning objective penalizing high-BCI continuations during DPO,\nand (iii) Prov-Decode, a provenance-aware decoding strategy that vetoes beam\nexpansions predicted to yield high-BCI spans. Together, these defenses reduce\nalignment drift by up to 85% on our curated Alignment Drift Benchmark (ADB)\nwhile preserving utility on standard tasks, with delta less than 0.2 and\nimproved refusal quality. We further derive a theoretical upper bound on drift\nlikelihood via suffix-array span statistics, linking memorization frequency and\nlength to adversarial reactivation risk. TraceAlign thus provides the first\nscalable, traceable, and grounded toolkit for understanding and mitigating\nalignment failures at source. To encourage further exploration and development,\nwe open-source our implementation at:\nhttps://anonymous.4open.science/r/tracealign-2DA7",
+      "upvotes": 0,
+      "discussionId": "6892c3ab8da45ffb0a2b242f",
+      "ai_summary": "TraceAlign is a framework that identifies and mitigates alignment drift in LLMs by tracing unsafe completions to their training sources and applying interventions to reduce drift while maintaining utility.",
+      "ai_keywords": [
+        "Large Language Models",
+        "alignment drift",
+        "adversarial prompts",
+        "decoding perturbations",
+        "paraphrased jailbreaks",
+        "TraceAlign",
+        "Belief Conflict Index",
+        "suffix-array matching",
+        "TraceShield",
+        "Contrastive Belief Deconfliction Loss",
+        "Prov-Decode",
+        "Alignment Drift Benchmark",
+        "memorization frequency",
+        "adversarial reactivation risk"
+      ]
+    },
+    "publishedAt": "2025-08-04T01:03:35.000Z",
+    "title": "TRACEALIGN -- Tracing the Drift: Attributing Alignment Failures to\n  Training-Time Belief Sources in LLMs",
+    "summary": "Large Language Models (LLMs) fine-tuned to align with human values often\nexhibit alignment drift, producing unsafe or policy-violating completions when\nexposed to adversarial prompts, decoding perturbations, or paraphrased\njailbreaks. While prior work has behaviorally characterized alignment failure,\nlittle is known about the training-time belief sources underlying these\nfailures. We introduce TraceAlign, a unified framework for tracing unsafe\ncompletions back to their root causes in the model's training corpus. Central\nto our approach is the Belief Conflict Index (BCI), which quantifies semantic\ninconsistency between generated spans and aligned policies, based on retrieved\ntraining documents using suffix-array matching. We propose three complementary\ninterventions: (i) TraceShield, an inference-time safety filter that refuses\ncompletions with high-BCI spans, (ii) Contrastive Belief Deconfliction Loss, a\ncontrastive fine-tuning objective penalizing high-BCI continuations during DPO,\nand (iii) Prov-Decode, a provenance-aware decoding strategy that vetoes beam\nexpansions predicted to yield high-BCI spans. Together, these defenses reduce\nalignment drift by up to 85% on our curated Alignment Drift Benchmark (ADB)\nwhile preserving utility on standard tasks, with delta less than 0.2 and\nimproved refusal quality. We further derive a theoretical upper bound on drift\nlikelihood via suffix-array span statistics, linking memorization frequency and\nlength to adversarial reactivation risk. TraceAlign thus provides the first\nscalable, traceable, and grounded toolkit for understanding and mitigating\nalignment failures at source. To encourage further exploration and development,\nwe open-source our implementation at:\nhttps://anonymous.4open.science/r/tracealign-2DA7",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.02063.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63a4754927f1f64ed7238dac",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a4754927f1f64ed7238dac/aH-eJF-31g4vof9jv2gmI.jpeg",
+      "fullname": "Aman Chadha",
+      "name": "amanchadha",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  }
+]
