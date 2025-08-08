@@ -1,0 +1,653 @@
+[
+  {
+    "paper": {
+      "id": "2508.05004",
+      "authors": [
+        {
+          "_id": "68955cff48b0ae5ca2710d2b",
+          "name": "Chengsong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68955cff48b0ae5ca2710d2c",
+          "name": "Wenhao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68955cff48b0ae5ca2710d2d",
+          "name": "Xiaoyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68955cff48b0ae5ca2710d2e",
+          "name": "Hongming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68955cff48b0ae5ca2710d2f",
+          "name": "Zongxia Li",
+          "hidden": false
+        },
+        {
+          "_id": "68955cff48b0ae5ca2710d30",
+          "name": "Ruosen Li",
+          "hidden": false
+        },
+        {
+          "_id": "68955cff48b0ae5ca2710d31",
+          "name": "Jiaxin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68955cff48b0ae5ca2710d32",
+          "name": "Haitao Mi",
+          "hidden": false
+        },
+        {
+          "_id": "68955cff48b0ae5ca2710d33",
+          "name": "Dong Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T03:38:16.000Z",
+      "submittedOnDailyAt": "2025-08-08T00:42:59.915Z",
+      "title": "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+      "submittedOnDailyBy": {
+        "_id": "62ea79dd01ed9b0e8f61ccd3",
+        "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+        "isPro": false,
+        "fullname": "Chengsong Huang",
+        "user": "ChengsongHuang",
+        "type": "user"
+      },
+      "summary": "Self-evolving Large Language Models (LLMs) offer a scalable path toward\nsuper-intelligence by autonomously generating, refining, and learning from\ntheir own experiences. However, existing methods for training such models still\nrely heavily on vast human-curated tasks and labels, typically via fine-tuning\nor reinforcement learning, which poses a fundamental bottleneck to advancing AI\nsystems toward capabilities beyond human intelligence. To overcome this\nlimitation, we introduce R-Zero, a fully autonomous framework that generates\nits own training data from scratch. Starting from a single base LLM, R-Zero\ninitializes two independent models with distinct roles, a Challenger and a\nSolver. These models are optimized separately and co-evolve through\ninteraction: the Challenger is rewarded for proposing tasks near the edge of\nthe Solver capability, and the Solver is rewarded for solving increasingly\nchallenging tasks posed by the Challenger. This process yields a targeted,\nself-improving curriculum without any pre-existing tasks and labels.\nEmpirically, R-Zero substantially improves reasoning capability across\ndifferent backbone LLMs, e.g., boosting the Qwen3-4B-Base by +6.49 on\nmath-reasoning benchmarks and +7.54 on general-domain reasoning benchmarks.",
+      "upvotes": 17,
+      "discussionId": "68955cff48b0ae5ca2710d34",
+      "projectPage": "https://chengsong-huang.github.io/R-Zero.github.io/",
+      "githubRepo": "https://github.com/Chengsong-Huang/R-Zero",
+      "ai_summary": "R-Zero is a self-evolving framework that autonomously generates and learns from its own training data, improving reasoning capabilities in LLMs without human-curated tasks.",
+      "ai_keywords": [
+        "Self-evolving Large Language Models",
+        "LLMs",
+        "R-Zero",
+        "Challenger",
+        "Solver",
+        "co-evolve",
+        "math-reasoning benchmarks",
+        "general-domain reasoning benchmarks"
+      ],
+      "githubStars": 9
+    },
+    "publishedAt": "2025-08-06T23:38:16.000Z",
+    "title": "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+    "summary": "Self-evolving Large Language Models (LLMs) offer a scalable path toward\nsuper-intelligence by autonomously generating, refining, and learning from\ntheir own experiences. However, existing methods for training such models still\nrely heavily on vast human-curated tasks and labels, typically via fine-tuning\nor reinforcement learning, which poses a fundamental bottleneck to advancing AI\nsystems toward capabilities beyond human intelligence. To overcome this\nlimitation, we introduce R-Zero, a fully autonomous framework that generates\nits own training data from scratch. Starting from a single base LLM, R-Zero\ninitializes two independent models with distinct roles, a Challenger and a\nSolver. These models are optimized separately and co-evolve through\ninteraction: the Challenger is rewarded for proposing tasks near the edge of\nthe Solver capability, and the Solver is rewarded for solving increasingly\nchallenging tasks posed by the Challenger. This process yields a targeted,\nself-improving curriculum without any pre-existing tasks and labels.\nEmpirically, R-Zero substantially improves reasoning capability across\ndifferent backbone LLMs, e.g., boosting the Qwen3-4B-Base by +6.49 on\nmath-reasoning benchmarks and +7.54 on general-domain reasoning benchmarks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05004.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62ea79dd01ed9b0e8f61ccd3",
+      "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+      "fullname": "Chengsong Huang",
+      "name": "ChengsongHuang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.05629",
+      "authors": [
+        {
+          "_id": "6895566648b0ae5ca2710d05",
+          "name": "Yongliang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d06",
+          "name": "Yizhou Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d07",
+          "name": "Zhou Ziheng",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d08",
+          "name": "Yingzhe Peng",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d09",
+          "name": "Xinyu Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d0a",
+          "name": "Xinting Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d0b",
+          "name": "Wenbo Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d0c",
+          "name": "Lu Qi",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d0d",
+          "name": "Ming-Hsuan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6895566648b0ae5ca2710d0e",
+          "name": "Xu Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T17:59:04.000Z",
+      "submittedOnDailyAt": "2025-08-08T00:15:11.093Z",
+      "title": "On the Generalization of SFT: A Reinforcement Learning Perspective with\n  Reward Rectification",
+      "submittedOnDailyBy": {
+        "_id": "66f6bc97980d52c75c300511",
+        "avatarUrl": "/avatars/f7c23c4b09701580b533212ec9b6e306.svg",
+        "isPro": false,
+        "fullname": "Yongliang",
+        "user": "Liang0223",
+        "type": "user"
+      },
+      "summary": "We present a simple yet theoretically motivated improvement to Supervised\nFine-Tuning (SFT) for the Large Language Model (LLM), addressing its limited\ngeneralization compared to reinforcement learning (RL). Through mathematical\nanalysis, we reveal that standard SFT gradients implicitly encode a problematic\nreward structure that may severely restrict the generalization capabilities of\nmodel. To rectify this, we propose Dynamic Fine-Tuning (DFT), stabilizing\ngradient updates for each token by dynamically rescaling the objective function\nwith the probability of this token. Remarkably, this single-line code change\nsignificantly outperforms standard SFT across multiple challenging benchmarks\nand base models, demonstrating greatly improved generalization. Additionally,\nour approach shows competitive results in offline RL settings, offering an\neffective yet simpler alternative. This work bridges theoretical insight and\npractical solutions, substantially advancing SFT performance. The code will be\navailable at https://github.com/yongliang-wu/DFT.",
+      "upvotes": 8,
+      "discussionId": "6895566648b0ae5ca2710d0f",
+      "ai_summary": "Dynamic Fine-Tuning (DFT) improves the generalization of Large Language Models (LLMs) by dynamically rescaling gradients, outperforming standard Supervised Fine-Tuning (SFT) and showing competitive results in offline reinforcement learning.",
+      "ai_keywords": [
+        "Supervised Fine-Tuning",
+        "Large Language Model",
+        "reinforcement learning",
+        "gradient updates",
+        "token probability",
+        "Dynamic Fine-Tuning",
+        "offline RL"
+      ]
+    },
+    "publishedAt": "2025-08-07T13:59:04.000Z",
+    "title": "On the Generalization of SFT: A Reinforcement Learning Perspective with\n  Reward Rectification",
+    "summary": "We present a simple yet theoretically motivated improvement to Supervised\nFine-Tuning (SFT) for the Large Language Model (LLM), addressing its limited\ngeneralization compared to reinforcement learning (RL). Through mathematical\nanalysis, we reveal that standard SFT gradients implicitly encode a problematic\nreward structure that may severely restrict the generalization capabilities of\nmodel. To rectify this, we propose Dynamic Fine-Tuning (DFT), stabilizing\ngradient updates for each token by dynamically rescaling the objective function\nwith the probability of this token. Remarkably, this single-line code change\nsignificantly outperforms standard SFT across multiple challenging benchmarks\nand base models, demonstrating greatly improved generalization. Additionally,\nour approach shows competitive results in offline RL settings, offering an\neffective yet simpler alternative. This work bridges theoretical insight and\npractical solutions, substantially advancing SFT performance. The code will be\navailable at https://github.com/yongliang-wu/DFT.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05629.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66f6bc97980d52c75c300511",
+      "avatarUrl": "/avatars/f7c23c4b09701580b533212ec9b6e306.svg",
+      "fullname": "Yongliang",
+      "name": "Liang0223",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.03990",
+      "authors": [
+        {
+          "_id": "68955a4548b0ae5ca2710d24",
+          "name": "Bohan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68955a4548b0ae5ca2710d25",
+          "name": "Dawei Li",
+          "hidden": false
+        },
+        {
+          "_id": "68955a4548b0ae5ca2710d26",
+          "name": "Zhen Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68955a4548b0ae5ca2710d27",
+          "name": "Chengshuai Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68955a4548b0ae5ca2710d28",
+          "name": "Huan Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-06T00:45:02.000Z",
+      "submittedOnDailyAt": "2025-08-08T00:37:55.642Z",
+      "title": "Are Today's LLMs Ready to Explain Well-Being Concepts?",
+      "submittedOnDailyBy": {
+        "_id": "61f087a0a57920a251ec1a6f",
+        "avatarUrl": "/avatars/4402b7986152bb37e02f1305c6bcce2e.svg",
+        "isPro": false,
+        "fullname": "Bohan Jiang",
+        "user": "Bohan-Jiang",
+        "type": "user"
+      },
+      "summary": "Well-being encompasses mental, physical, and social dimensions essential to\npersonal growth and informed life decisions. As individuals increasingly\nconsult Large Language Models (LLMs) to understand well-being, a key challenge\nemerges: Can LLMs generate explanations that are not only accurate but also\ntailored to diverse audiences? High-quality explanations require both factual\ncorrectness and the ability to meet the expectations of users with varying\nexpertise. In this work, we construct a large-scale dataset comprising 43,880\nexplanations of 2,194 well-being concepts, generated by ten diverse LLMs. We\nintroduce a principle-guided LLM-as-a-judge evaluation framework, employing\ndual judges to assess explanation quality. Furthermore, we show that\nfine-tuning an open-source LLM using Supervised Fine-Tuning (SFT) and Direct\nPreference Optimization (DPO) can significantly enhance the quality of\ngenerated explanations. Our results reveal: (1) The proposed LLM judges align\nwell with human evaluations; (2) explanation quality varies significantly\nacross models, audiences, and categories; and (3) DPO- and SFT-finetuned models\noutperform their larger counterparts, demonstrating the effectiveness of\npreference-based learning for specialized explanation tasks.",
+      "upvotes": 6,
+      "discussionId": "68955a4648b0ae5ca2710d29",
+      "ai_summary": "LLMs can be fine-tuned to generate high-quality, audience-tailored explanations of well-being concepts using Supervised Fine-Tuning and Direct Preference Optimization.",
+      "ai_keywords": [
+        "Large Language Models",
+        "LLMs",
+        "Supervised Fine-Tuning",
+        "Direct Preference Optimization",
+        "LLM-as-a-judge",
+        "explanation quality",
+        "fine-tuning",
+        "preference-based learning"
+      ]
+    },
+    "publishedAt": "2025-08-05T20:45:02.000Z",
+    "title": "Are Today's LLMs Ready to Explain Well-Being Concepts?",
+    "summary": "Well-being encompasses mental, physical, and social dimensions essential to\npersonal growth and informed life decisions. As individuals increasingly\nconsult Large Language Models (LLMs) to understand well-being, a key challenge\nemerges: Can LLMs generate explanations that are not only accurate but also\ntailored to diverse audiences? High-quality explanations require both factual\ncorrectness and the ability to meet the expectations of users with varying\nexpertise. In this work, we construct a large-scale dataset comprising 43,880\nexplanations of 2,194 well-being concepts, generated by ten diverse LLMs. We\nintroduce a principle-guided LLM-as-a-judge evaluation framework, employing\ndual judges to assess explanation quality. Furthermore, we show that\nfine-tuning an open-source LLM using Supervised Fine-Tuning (SFT) and Direct\nPreference Optimization (DPO) can significantly enhance the quality of\ngenerated explanations. Our results reveal: (1) The proposed LLM judges align\nwell with human evaluations; (2) explanation quality varies significantly\nacross models, audiences, and categories; and (3) DPO- and SFT-finetuned models\noutperform their larger counterparts, demonstrating the effectiveness of\npreference-based learning for specialized explanation tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.03990.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61f087a0a57920a251ec1a6f",
+      "avatarUrl": "/avatars/4402b7986152bb37e02f1305c6bcce2e.svg",
+      "fullname": "Bohan Jiang",
+      "name": "Bohan-Jiang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.05630",
+      "authors": [
+        {
+          "_id": "689554af48b0ae5ca2710cdd",
+          "name": "Henghui Ding",
+          "hidden": false
+        },
+        {
+          "_id": "689554af48b0ae5ca2710cde",
+          "name": "Kaining Ying",
+          "hidden": false
+        },
+        {
+          "_id": "689554af48b0ae5ca2710cdf",
+          "name": "Chang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "689554af48b0ae5ca2710ce0",
+          "name": "Shuting He",
+          "hidden": false
+        },
+        {
+          "_id": "689554af48b0ae5ca2710ce1",
+          "name": "Xudong Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "689554af48b0ae5ca2710ce2",
+          "name": "Yu-Gang Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "689554af48b0ae5ca2710ce3",
+          "name": "Philip H. S. Torr",
+          "hidden": false
+        },
+        {
+          "_id": "689554af48b0ae5ca2710ce4",
+          "name": "Song Bai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T17:59:27.000Z",
+      "submittedOnDailyAt": "2025-08-08T00:08:51.130Z",
+      "title": "MOSEv2: A More Challenging Dataset for Video Object Segmentation in\n  Complex Scenes",
+      "submittedOnDailyBy": {
+        "_id": "67ff29ecbf6889a333c69c7a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67ff29ecbf6889a333c69c7a/zilMQrxIgUKYvHBVCHaKL.jpeg",
+        "isPro": false,
+        "fullname": "Henghui Ding",
+        "user": "HenghuiDing",
+        "type": "user"
+      },
+      "summary": "Video object segmentation (VOS) aims to segment specified target objects\nthroughout a video. Although state-of-the-art methods have achieved impressive\nperformance (e.g., 90+% J&F) on existing benchmarks such as DAVIS and\nYouTube-VOS, these datasets primarily contain salient, dominant, and isolated\nobjects, limiting their generalization to real-world scenarios. To advance VOS\ntoward more realistic environments, coMplex video Object SEgmentation (MOSEv1)\nwas introduced to facilitate VOS research in complex scenes. Building on the\nstrengths and limitations of MOSEv1, we present MOSEv2, a significantly more\nchallenging dataset designed to further advance VOS methods under real-world\nconditions. MOSEv2 consists of 5,024 videos and over 701,976 high-quality masks\nfor 10,074 objects across 200 categories. Compared to its predecessor, MOSEv2\nintroduces significantly greater scene complexity, including more frequent\nobject disappearance and reappearance, severe occlusions and crowding, smaller\nobjects, as well as a range of new challenges such as adverse weather (e.g.,\nrain, snow, fog), low-light scenes (e.g., nighttime, underwater), multi-shot\nsequences, camouflaged objects, non-physical targets (e.g., shadows,\nreflections), scenarios requiring external knowledge, etc. We benchmark 20\nrepresentative VOS methods under 5 different settings and observe consistent\nperformance drops. For example, SAM2 drops from 76.4% on MOSEv1 to only 50.9%\non MOSEv2. We further evaluate 9 video object tracking methods and find similar\ndeclines, demonstrating that MOSEv2 presents challenges across tasks. These\nresults highlight that despite high accuracy on existing datasets, current VOS\nmethods still struggle under real-world complexities. MOSEv2 is publicly\navailable at https://MOSE.video.",
+      "upvotes": 2,
+      "discussionId": "689554af48b0ae5ca2710ce5",
+      "ai_summary": "MOSEv2, a more challenging dataset, highlights the limitations of current VOS methods in real-world scenarios with increased complexity and diverse challenges.",
+      "ai_keywords": [
+        "Video object segmentation",
+        "VOS",
+        "DAVIS",
+        "YouTube-VOS",
+        "J&F",
+        "MOSEv1",
+        "MOSEv2",
+        "high-quality masks",
+        "scene complexity",
+        "object disappearance",
+        "occlusions",
+        "crowding",
+        "adverse weather",
+        "low-light scenes",
+        "multi-shot sequences",
+        "camouflaged objects",
+        "non-physical targets",
+        "external knowledge",
+        "SAM2",
+        "video object tracking"
+      ]
+    },
+    "publishedAt": "2025-08-07T13:59:27.000Z",
+    "title": "MOSEv2: A More Challenging Dataset for Video Object Segmentation in\n  Complex Scenes",
+    "summary": "Video object segmentation (VOS) aims to segment specified target objects\nthroughout a video. Although state-of-the-art methods have achieved impressive\nperformance (e.g., 90+% J&F) on existing benchmarks such as DAVIS and\nYouTube-VOS, these datasets primarily contain salient, dominant, and isolated\nobjects, limiting their generalization to real-world scenarios. To advance VOS\ntoward more realistic environments, coMplex video Object SEgmentation (MOSEv1)\nwas introduced to facilitate VOS research in complex scenes. Building on the\nstrengths and limitations of MOSEv1, we present MOSEv2, a significantly more\nchallenging dataset designed to further advance VOS methods under real-world\nconditions. MOSEv2 consists of 5,024 videos and over 701,976 high-quality masks\nfor 10,074 objects across 200 categories. Compared to its predecessor, MOSEv2\nintroduces significantly greater scene complexity, including more frequent\nobject disappearance and reappearance, severe occlusions and crowding, smaller\nobjects, as well as a range of new challenges such as adverse weather (e.g.,\nrain, snow, fog), low-light scenes (e.g., nighttime, underwater), multi-shot\nsequences, camouflaged objects, non-physical targets (e.g., shadows,\nreflections), scenarios requiring external knowledge, etc. We benchmark 20\nrepresentative VOS methods under 5 different settings and observe consistent\nperformance drops. For example, SAM2 drops from 76.4% on MOSEv1 to only 50.9%\non MOSEv2. We further evaluate 9 video object tracking methods and find similar\ndeclines, demonstrating that MOSEv2 presents challenges across tasks. These\nresults highlight that despite high accuracy on existing datasets, current VOS\nmethods still struggle under real-world complexities. MOSEv2 is publicly\navailable at https://MOSE.video.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05630.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67ff29ecbf6889a333c69c7a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67ff29ecbf6889a333c69c7a/zilMQrxIgUKYvHBVCHaKL.jpeg",
+      "fullname": "Henghui Ding",
+      "name": "HenghuiDing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.05609",
+      "authors": [
+        {
+          "_id": "6895575348b0ae5ca2710d11",
+          "name": "Yuhan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6895575348b0ae5ca2710d12",
+          "name": "Long Zhuo",
+          "hidden": false
+        },
+        {
+          "_id": "6895575348b0ae5ca2710d13",
+          "name": "Ziyang Chu",
+          "hidden": false
+        },
+        {
+          "_id": "6895575348b0ae5ca2710d14",
+          "name": "Tong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6895575348b0ae5ca2710d15",
+          "name": "Zhibing Li",
+          "hidden": false
+        },
+        {
+          "_id": "6895575348b0ae5ca2710d16",
+          "name": "Liang Pan",
+          "hidden": false
+        },
+        {
+          "_id": "6895575348b0ae5ca2710d17",
+          "name": "Dahua Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6895575348b0ae5ca2710d18",
+          "name": "Ziwei Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T17:50:13.000Z",
+      "submittedOnDailyAt": "2025-08-08T00:28:08.152Z",
+      "title": "Hi3DEval: Advancing 3D Generation Evaluation with Hierarchical Validity",
+      "submittedOnDailyBy": {
+        "_id": "604599a0e6aa3e130cb9286c",
+        "avatarUrl": "/avatars/c9c723a4911b1a1b8870f44595fc9ca6.svg",
+        "isPro": false,
+        "fullname": "Zyh",
+        "user": "ZhangYuhan",
+        "type": "user"
+      },
+      "summary": "Despite rapid advances in 3D content generation, quality assessment for the\ngenerated 3D assets remains challenging. Existing methods mainly rely on\nimage-based metrics and operate solely at the object level, limiting their\nability to capture spatial coherence, material authenticity, and high-fidelity\nlocal details. 1) To address these challenges, we introduce Hi3DEval, a\nhierarchical evaluation framework tailored for 3D generative content. It\ncombines both object-level and part-level evaluation, enabling holistic\nassessments across multiple dimensions as well as fine-grained quality\nanalysis. Additionally, we extend texture evaluation beyond aesthetic\nappearance by explicitly assessing material realism, focusing on attributes\nsuch as albedo, saturation, and metallicness. 2) To support this framework, we\nconstruct Hi3DBench, a large-scale dataset comprising diverse 3D assets and\nhigh-quality annotations, accompanied by a reliable multi-agent annotation\npipeline. We further propose a 3D-aware automated scoring system based on\nhybrid 3D representations. Specifically, we leverage video-based\nrepresentations for object-level and material-subject evaluations to enhance\nmodeling of spatio-temporal consistency and employ pretrained 3D features for\npart-level perception. Extensive experiments demonstrate that our approach\noutperforms existing image-based metrics in modeling 3D characteristics and\nachieves superior alignment with human preference, providing a scalable\nalternative to manual evaluations. The project page is available at\nhttps://zyh482.github.io/Hi3DEval/.",
+      "upvotes": 2,
+      "discussionId": "6895575348b0ae5ca2710d19",
+      "ai_summary": "Hi3DEval is a hierarchical evaluation framework for 3D generative content that combines object-level and part-level assessments, including material realism, using a large-scale dataset and hybrid 3D representations.",
+      "ai_keywords": [
+        "Hi3DEval",
+        "hierarchical evaluation framework",
+        "object-level evaluation",
+        "part-level evaluation",
+        "material realism",
+        "Hi3DBench",
+        "multi-agent annotation pipeline",
+        "3D-aware automated scoring system",
+        "video-based representations",
+        "pretrained 3D features",
+        "spatio-temporal consistency",
+        "part-level perception"
+      ]
+    },
+    "publishedAt": "2025-08-07T13:50:13.000Z",
+    "title": "Hi3DEval: Advancing 3D Generation Evaluation with Hierarchical Validity",
+    "summary": "Despite rapid advances in 3D content generation, quality assessment for the\ngenerated 3D assets remains challenging. Existing methods mainly rely on\nimage-based metrics and operate solely at the object level, limiting their\nability to capture spatial coherence, material authenticity, and high-fidelity\nlocal details. 1) To address these challenges, we introduce Hi3DEval, a\nhierarchical evaluation framework tailored for 3D generative content. It\ncombines both object-level and part-level evaluation, enabling holistic\nassessments across multiple dimensions as well as fine-grained quality\nanalysis. Additionally, we extend texture evaluation beyond aesthetic\nappearance by explicitly assessing material realism, focusing on attributes\nsuch as albedo, saturation, and metallicness. 2) To support this framework, we\nconstruct Hi3DBench, a large-scale dataset comprising diverse 3D assets and\nhigh-quality annotations, accompanied by a reliable multi-agent annotation\npipeline. We further propose a 3D-aware automated scoring system based on\nhybrid 3D representations. Specifically, we leverage video-based\nrepresentations for object-level and material-subject evaluations to enhance\nmodeling of spatio-temporal consistency and employ pretrained 3D features for\npart-level perception. Extensive experiments demonstrate that our approach\noutperforms existing image-based metrics in modeling 3D characteristics and\nachieves superior alignment with human preference, providing a scalable\nalternative to manual evaluations. The project page is available at\nhttps://zyh482.github.io/Hi3DEval/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05609.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "604599a0e6aa3e130cb9286c",
+      "avatarUrl": "/avatars/c9c723a4911b1a1b8870f44595fc9ca6.svg",
+      "fullname": "Zyh",
+      "name": "ZhangYuhan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.04699",
+      "authors": [
+        {
+          "_id": "68955ed748b0ae5ca2710d36",
+          "name": "Anushka Yadav",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d37",
+          "name": "Isha Nalawade",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d38",
+          "name": "Srujana Pillarichety",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d39",
+          "name": "Yashwanth Babu",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d3a",
+          "name": "Reshmi Ghosh",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d3b",
+          "name": "Samyadeep Basu",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d3c",
+          "name": "Wenlong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d3d",
+          "name": "Ali Nasaeh",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d3e",
+          "name": "Sriram Balasubramanian",
+          "hidden": false
+        },
+        {
+          "_id": "68955ed748b0ae5ca2710d3f",
+          "name": "Soundararajan Srinivasan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-06T17:58:36.000Z",
+      "submittedOnDailyAt": "2025-08-08T00:51:05.999Z",
+      "title": "Hop, Skip, and Overthink: Diagnosing Why Reasoning Models Fumble during\n  Multi-Hop Analysis",
+      "submittedOnDailyBy": {
+        "_id": "63228cad95d6f717a8c8e1ec",
+        "avatarUrl": "/avatars/5fa606f63f841879af1a7617366d18b4.svg",
+        "isPro": false,
+        "fullname": "Reshmi Ghosh",
+        "user": "reshmighosh",
+        "type": "user"
+      },
+      "summary": "The emergence of reasoning models and their integration into practical AI\nchat bots has led to breakthroughs in solving advanced math, deep search, and\nextractive question answering problems that requires a complex and multi-step\nthought process. Yet, a complete understanding of why these models hallucinate\nmore than general purpose language models is missing. In this investigative\nstudy, we systematicallyexplore reasoning failures of contemporary language\nmodels on multi-hop question answering tasks. We introduce a novel, nuanced\nerror categorization framework that examines failures across three critical\ndimensions: the diversity and uniqueness of source documents involved (\"hops\"),\ncompleteness in capturing relevant information (\"coverage\"), and cognitive\ninefficiency (\"overthinking\"). Through rigorous hu-man annotation, supported by\ncomplementary automated metrics, our exploration uncovers intricate error\npatterns often hidden by accuracy-centric evaluations. This investigative\napproach provides deeper insights into the cognitive limitations of current\nmodels and offers actionable guidance toward enhancing reasoning fidelity,\ntransparency, and robustness in future language modeling efforts.",
+      "upvotes": 1,
+      "discussionId": "68955ed848b0ae5ca2710d40",
+      "ai_summary": "Research investigates reasoning failures in language models for multi-hop question answering, introducing a framework to categorize errors and improve model fidelity.",
+      "ai_keywords": [
+        "reasoning models",
+        "multi-hop question answering",
+        "error categorization",
+        "cognitive limitations",
+        "reasoning fidelity",
+        "transparency",
+        "robustness"
+      ]
+    },
+    "publishedAt": "2025-08-06T13:58:36.000Z",
+    "title": "Hop, Skip, and Overthink: Diagnosing Why Reasoning Models Fumble during\n  Multi-Hop Analysis",
+    "summary": "The emergence of reasoning models and their integration into practical AI\nchat bots has led to breakthroughs in solving advanced math, deep search, and\nextractive question answering problems that requires a complex and multi-step\nthought process. Yet, a complete understanding of why these models hallucinate\nmore than general purpose language models is missing. In this investigative\nstudy, we systematicallyexplore reasoning failures of contemporary language\nmodels on multi-hop question answering tasks. We introduce a novel, nuanced\nerror categorization framework that examines failures across three critical\ndimensions: the diversity and uniqueness of source documents involved (\"hops\"),\ncompleteness in capturing relevant information (\"coverage\"), and cognitive\ninefficiency (\"overthinking\"). Through rigorous hu-man annotation, supported by\ncomplementary automated metrics, our exploration uncovers intricate error\npatterns often hidden by accuracy-centric evaluations. This investigative\napproach provides deeper insights into the cognitive limitations of current\nmodels and offers actionable guidance toward enhancing reasoning fidelity,\ntransparency, and robustness in future language modeling efforts.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.04699.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63228cad95d6f717a8c8e1ec",
+      "avatarUrl": "/avatars/5fa606f63f841879af1a7617366d18b4.svg",
+      "fullname": "Reshmi Ghosh",
+      "name": "reshmighosh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.04423",
+      "authors": [
+        {
+          "_id": "6895590348b0ae5ca2710d1b",
+          "name": "Jie Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6895590348b0ae5ca2710d1c",
+          "name": "Huaixia Dou",
+          "hidden": false
+        },
+        {
+          "_id": "6895590348b0ae5ca2710d1d",
+          "name": "Junhui Li",
+          "hidden": false
+        },
+        {
+          "_id": "6895590348b0ae5ca2710d1e",
+          "name": "Lifan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6895590348b0ae5ca2710d1f",
+          "name": "Feng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6895590348b0ae5ca2710d20",
+          "name": "Chi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6895590348b0ae5ca2710d21",
+          "name": "Fang Kong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-06T13:11:17.000Z",
+      "submittedOnDailyAt": "2025-08-08T00:25:48.382Z",
+      "title": "Evaluating, Synthesizing, and Enhancing for Customer Support\n  Conversation",
+      "submittedOnDailyBy": {
+        "_id": "642656cbad1e3b0e6e91b752",
+        "avatarUrl": "/avatars/3bf0ee15fd528e09b2b889f5cce3cbd0.svg",
+        "isPro": false,
+        "fullname": "Jie Zhu",
+        "user": "amazingj",
+        "type": "user"
+      },
+      "summary": "Effective customer support requires not only accurate problem solving but\nalso structured and empathetic communication aligned with professional\nstandards. However, existing dialogue datasets often lack strategic guidance,\nand real-world service data is difficult to access and annotate. To address\nthis, we introduce the task of Customer Support Conversation (CSC), aimed at\ntraining customer service agents to respond using well-defined support\nstrategies. We propose a structured CSC framework grounded in COPC guidelines,\ndefining five conversational stages and twelve strategies to guide high-quality\ninteractions. Based on this, we construct CSConv, an evaluation dataset of\n1,855 real-world customer-agent conversations rewritten using LLMs to reflect\ndeliberate strategy use, and annotated accordingly. Additionally, we develop a\nrole-playing approach that simulates strategy-rich conversations using\nLLM-powered roles aligned with the CSC framework, resulting in the training\ndataset RoleCS. Experiments show that fine-tuning strong LLMs on RoleCS\nsignificantly improves their ability to generate high-quality, strategy-aligned\nresponses on CSConv. Human evaluations further confirm gains in problem\nresolution. All code and data will be made publicly available at\nhttps://github.com/aliyun/qwen-dianjin.",
+      "upvotes": 1,
+      "discussionId": "6895590348b0ae5ca2710d22",
+      "ai_summary": "A structured framework and datasets for training customer service agents using well-defined support strategies improve the quality of customer support interactions and problem resolution.",
+      "ai_keywords": [
+        "COPC guidelines",
+        "conversational stages",
+        "support strategies",
+        "CSConv",
+        "LLMs",
+        "role-playing approach",
+        "RoleCS",
+        "fine-tuning",
+        "high-quality responses"
+      ]
+    },
+    "publishedAt": "2025-08-06T09:11:17.000Z",
+    "title": "Evaluating, Synthesizing, and Enhancing for Customer Support\n  Conversation",
+    "summary": "Effective customer support requires not only accurate problem solving but\nalso structured and empathetic communication aligned with professional\nstandards. However, existing dialogue datasets often lack strategic guidance,\nand real-world service data is difficult to access and annotate. To address\nthis, we introduce the task of Customer Support Conversation (CSC), aimed at\ntraining customer service agents to respond using well-defined support\nstrategies. We propose a structured CSC framework grounded in COPC guidelines,\ndefining five conversational stages and twelve strategies to guide high-quality\ninteractions. Based on this, we construct CSConv, an evaluation dataset of\n1,855 real-world customer-agent conversations rewritten using LLMs to reflect\ndeliberate strategy use, and annotated accordingly. Additionally, we develop a\nrole-playing approach that simulates strategy-rich conversations using\nLLM-powered roles aligned with the CSC framework, resulting in the training\ndataset RoleCS. Experiments show that fine-tuning strong LLMs on RoleCS\nsignificantly improves their ability to generate high-quality, strategy-aligned\nresponses on CSConv. Human evaluations further confirm gains in problem\nresolution. All code and data will be made publicly available at\nhttps://github.com/aliyun/qwen-dianjin.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.04423.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "642656cbad1e3b0e6e91b752",
+      "avatarUrl": "/avatars/3bf0ee15fd528e09b2b889f5cce3cbd0.svg",
+      "fullname": "Jie Zhu",
+      "name": "amazingj",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
