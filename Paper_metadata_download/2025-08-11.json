@@ -1,0 +1,380 @@
+[
+  {
+    "paper": {
+      "id": "2508.05988",
+      "authors": [
+        {
+          "_id": "68994f80f022d141f5d434cf",
+          "name": "Wenhao Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68994f80f022d141f5d434d0",
+          "name": "Yaoning Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68994f80f022d141f5d434d1",
+          "name": "Chao Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68994f80f022d141f5d434d2",
+          "name": "Yuling Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68994f80f022d141f5d434d3",
+          "name": "Chengcheng Wan",
+          "hidden": false
+        },
+        {
+          "_id": "68994f80f022d141f5d434d4",
+          "name": "Hongyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68994f80f022d141f5d434d5",
+          "name": "Xiaodong Gu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-08T03:46:21.000Z",
+      "submittedOnDailyAt": "2025-08-11T00:37:13.589Z",
+      "title": "Pruning the Unsurprising: Efficient Code Reasoning via First-Token\n  Surprisal",
+      "submittedOnDailyBy": {
+        "_id": "645b0c3ec35da9c7afd95421",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+        "isPro": false,
+        "fullname": "Yuling",
+        "user": "YerbaPage",
+        "type": "user"
+      },
+      "summary": "Recently, Large Reasoning Models (LRMs) have demonstrated remarkable\ncapabilities in code reasoning by scaling up the length of Chain-of-Thought\n(CoT). However, excessively long reasoning traces introduce substantial\nchallenges in terms of training cost, inference latency, and deployment\nfeasibility. While various CoT compression approaches have emerged to address\nthis challenge, they face inherent trade-offs: token-level methods often\ndisrupt syntactic and logical coherence, while step-level methods based on\nperplexity fail to reliably capture the logically critical reasoning steps. In\nthis paper, we propose ASAP (Anchor-guided, Surprisal-based Pruning), a novel\ncoarse-to-fine framework for CoT compression. ASAP first performs anchor-guided\npruning to preserve the core reasoning structure, which efficiently reduces the\nsearch space for subsequent processing. It then enables a logic-aware pruning\nby selecting logically essential reasoning steps based on a novel first-token\nsurprisal metric. Finally, ASAP teaches models to autonomously generate and\nleverage these concise CoTs at inference time, enabling efficient reasoning in\ncoding tasks. Experiments show that ASAP achieves state-of-the-art accuracy\nacross multiple code generation benchmarks while substantially reducing\ntraining and inference costs. On the challenging LiveCodeBench v4_v5 benchmark,\nour approach reduces token generation by 23.5% and inference latency by 43.5%\ncompared to the strongest baseline, while achieving a competitive accuracy of\n36.19% in Pass@1. Our results highlight a promising direction for building\npowerful and efficient LRMs.",
+      "upvotes": 7,
+      "discussionId": "68994f80f022d141f5d434d6",
+      "githubRepo": "https://github.com/Zengwh02/ASAP",
+      "ai_summary": "ASAP, a novel coarse-to-fine framework, compresses Chain-of-Thought in code reasoning by preserving core structure and essential steps, reducing costs and improving efficiency.",
+      "ai_keywords": [
+        "Large Reasoning Models",
+        "Chain-of-Thought",
+        "CoT compression",
+        "anchor-guided pruning",
+        "logic-aware pruning",
+        "first-token surprisal metric",
+        "LiveCodeBench",
+        "Pass@1"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2025-08-07T23:46:21.000Z",
+    "title": "Pruning the Unsurprising: Efficient Code Reasoning via First-Token\n  Surprisal",
+    "summary": "Recently, Large Reasoning Models (LRMs) have demonstrated remarkable\ncapabilities in code reasoning by scaling up the length of Chain-of-Thought\n(CoT). However, excessively long reasoning traces introduce substantial\nchallenges in terms of training cost, inference latency, and deployment\nfeasibility. While various CoT compression approaches have emerged to address\nthis challenge, they face inherent trade-offs: token-level methods often\ndisrupt syntactic and logical coherence, while step-level methods based on\nperplexity fail to reliably capture the logically critical reasoning steps. In\nthis paper, we propose ASAP (Anchor-guided, Surprisal-based Pruning), a novel\ncoarse-to-fine framework for CoT compression. ASAP first performs anchor-guided\npruning to preserve the core reasoning structure, which efficiently reduces the\nsearch space for subsequent processing. It then enables a logic-aware pruning\nby selecting logically essential reasoning steps based on a novel first-token\nsurprisal metric. Finally, ASAP teaches models to autonomously generate and\nleverage these concise CoTs at inference time, enabling efficient reasoning in\ncoding tasks. Experiments show that ASAP achieves state-of-the-art accuracy\nacross multiple code generation benchmarks while substantially reducing\ntraining and inference costs. On the challenging LiveCodeBench v4_v5 benchmark,\nour approach reduces token generation by 23.5% and inference latency by 43.5%\ncompared to the strongest baseline, while achieving a competitive accuracy of\n36.19% in Pass@1. Our results highlight a promising direction for building\npowerful and efficient LRMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05988.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645b0c3ec35da9c7afd95421",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+      "fullname": "Yuling",
+      "name": "YerbaPage",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 276
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.04825",
+      "authors": [
+        {
+          "_id": "6895558948b0ae5ca2710cf7",
+          "user": {
+            "_id": "660eb276a0de79aa07e754df",
+            "avatarUrl": "/avatars/48ee2d484e70714516589a8b13137036.svg",
+            "isPro": false,
+            "fullname": "Seungyong Lee",
+            "user": "RyanL22",
+            "type": "user"
+          },
+          "name": "Seungyong Lee",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-08-08T16:20:16.112Z",
+          "hidden": false
+        },
+        {
+          "_id": "6895558948b0ae5ca2710cf8",
+          "user": {
+            "_id": "635035fedc10894a3f66ea79",
+            "avatarUrl": "/avatars/bd9c373705d29ad8f14987a2864e5956.svg",
+            "isPro": false,
+            "fullname": "Jeong-gi Kwak",
+            "user": "jgkwak",
+            "type": "user"
+          },
+          "name": "Jeong-gi Kwak",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-08-08T16:20:12.557Z",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/660eb276a0de79aa07e754df/kVH3Bi0LdvAD7H_HuIGRm.png"
+      ],
+      "publishedAt": "2025-08-06T19:10:58.000Z",
+      "submittedOnDailyAt": "2025-08-11T00:37:43.016Z",
+      "title": "Voost: A Unified and Scalable Diffusion Transformer for Bidirectional\n  Virtual Try-On and Try-Off",
+      "submittedOnDailyBy": {
+        "_id": "660eb276a0de79aa07e754df",
+        "avatarUrl": "/avatars/48ee2d484e70714516589a8b13137036.svg",
+        "isPro": false,
+        "fullname": "Seungyong Lee",
+        "user": "RyanL22",
+        "type": "user"
+      },
+      "summary": "Virtual try-on aims to synthesize a realistic image of a person wearing a\ntarget garment, but accurately modeling garment-body correspondence remains a\npersistent challenge, especially under pose and appearance variation. In this\npaper, we propose Voost - a unified and scalable framework that jointly learns\nvirtual try-on and try-off with a single diffusion transformer. By modeling\nboth tasks jointly, Voost enables each garment-person pair to supervise both\ndirections and supports flexible conditioning over generation direction and\ngarment category, enhancing garment-body relational reasoning without\ntask-specific networks, auxiliary losses, or additional labels. In addition, we\nintroduce two inference-time techniques: attention temperature scaling for\nrobustness to resolution or mask variation, and self-corrective sampling that\nleverages bidirectional consistency between tasks. Extensive experiments\ndemonstrate that Voost achieves state-of-the-art results on both try-on and\ntry-off benchmarks, consistently outperforming strong baselines in alignment\naccuracy, visual fidelity, and generalization.",
+      "upvotes": 7,
+      "discussionId": "6895558948b0ae5ca2710cf9",
+      "projectPage": "https://nxnai.github.io/Voost/",
+      "githubRepo": "https://github.com/nxnai/Voost",
+      "ai_summary": "Voost, a unified diffusion transformer framework, jointly learns virtual try-on and try-off, enhancing garment-body correspondence and achieving state-of-the-art results across benchmarks.",
+      "ai_keywords": [
+        "diffusion transformer",
+        "garment-body correspondence",
+        "virtual try-on",
+        "virtual try-off",
+        "attention temperature scaling",
+        "self-corrective sampling",
+        "bidirectional consistency"
+      ],
+      "githubStars": 4
+    },
+    "publishedAt": "2025-08-06T15:10:58.000Z",
+    "title": "Voost: A Unified and Scalable Diffusion Transformer for Bidirectional\n  Virtual Try-On and Try-Off",
+    "summary": "Virtual try-on aims to synthesize a realistic image of a person wearing a\ntarget garment, but accurately modeling garment-body correspondence remains a\npersistent challenge, especially under pose and appearance variation. In this\npaper, we propose Voost - a unified and scalable framework that jointly learns\nvirtual try-on and try-off with a single diffusion transformer. By modeling\nboth tasks jointly, Voost enables each garment-person pair to supervise both\ndirections and supports flexible conditioning over generation direction and\ngarment category, enhancing garment-body relational reasoning without\ntask-specific networks, auxiliary losses, or additional labels. In addition, we\nintroduce two inference-time techniques: attention temperature scaling for\nrobustness to resolution or mask variation, and self-corrective sampling that\nleverages bidirectional consistency between tasks. Extensive experiments\ndemonstrate that Voost achieves state-of-the-art results on both try-on and\ntry-off benchmarks, consistently outperforming strong baselines in alignment\naccuracy, visual fidelity, and generalization.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/660eb276a0de79aa07e754df/kVH3Bi0LdvAD7H_HuIGRm.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.04825.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "660eb276a0de79aa07e754df",
+      "avatarUrl": "/avatars/48ee2d484e70714516589a8b13137036.svg",
+      "fullname": "Seungyong Lee",
+      "name": "RyanL22",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2508.05731",
+      "authors": [
+        {
+          "_id": "689945f3f022d141f5d434a5",
+          "name": "Yuhang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434a6",
+          "name": "Zeyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434a7",
+          "name": "Shuanghe Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434a8",
+          "name": "Pengxiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434a9",
+          "name": "Congkai Xie",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434aa",
+          "name": "Jiasheng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434ab",
+          "name": "Xueyu Hu",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434ac",
+          "name": "Xiaotian Han",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434ad",
+          "name": "Jianbo Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434ae",
+          "name": "Xinyao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434af",
+          "name": "Shengyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434b0",
+          "name": "Hongxia Yang",
+          "hidden": false
+        },
+        {
+          "_id": "689945f3f022d141f5d434b1",
+          "name": "Fei Wu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T17:49:56.000Z",
+      "submittedOnDailyAt": "2025-08-11T00:34:02.328Z",
+      "title": "InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy\n  Optimization",
+      "submittedOnDailyBy": {
+        "_id": "62722849517c0ca41f7cd13d",
+        "avatarUrl": "/avatars/bb1f8f2f2665944930cb5a7ce19c47d4.svg",
+        "isPro": false,
+        "fullname": "Yuhang Liu",
+        "user": "SiriusL",
+        "type": "user"
+      },
+      "summary": "The emergence of Multimodal Large Language Models (MLLMs) has propelled the\ndevelopment of autonomous agents that operate on Graphical User Interfaces\n(GUIs) using pure visual input. A fundamental challenge is robustly grounding\nnatural language instructions. This requires a precise spatial alignment, which\naccurately locates the coordinates of each element, and, more critically, a\ncorrect semantic alignment, which matches the instructions to the functionally\nappropriate UI element. Although Reinforcement Learning with Verifiable Rewards\n(RLVR) has proven to be effective at improving spatial alignment for these\nMLLMs, we find that inefficient exploration bottlenecks semantic alignment,\nwhich prevent models from learning difficult semantic associations. To address\nthis exploration problem, we present Adaptive Exploration Policy Optimization\n(AEPO), a new policy optimization framework. AEPO employs a multi-answer\ngeneration strategy to enforce broader exploration, which is then guided by a\ntheoretically grounded Adaptive Exploration Reward (AER) function derived from\nfirst principles of efficiency eta=U/C. Our AEPO-trained models, InfiGUI-G1-3B\nand InfiGUI-G1-7B, establish new state-of-the-art results across multiple\nchallenging GUI grounding benchmarks, achieving significant relative\nimprovements of up to 9.0% against the naive RLVR baseline on benchmarks\ndesigned to test generalization and semantic understanding. Resources are\navailable at https://github.com/InfiXAI/InfiGUI-G1.",
+      "upvotes": 4,
+      "discussionId": "689945f3f022d141f5d434b2",
+      "githubRepo": "https://github.com/InfiXAI/InfiGUI-G1",
+      "ai_summary": "Adaptive Exploration Policy Optimization (AEPO) enhances semantic alignment in Multimodal Large Language Models (MLLMs) for GUI interaction, improving performance on benchmarks by up to 9.0% compared to RLVR.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "GUIs",
+        "Reinforcement Learning with Verifiable Rewards",
+        "Adaptive Exploration Policy Optimization",
+        "multi-answer generation",
+        "Adaptive Exploration Reward",
+        "efficiency eta=U/C",
+        "InfiGUI-G1-3B",
+        "InfiGUI-G1-7B"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2025-08-07T13:49:56.000Z",
+    "title": "InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy\n  Optimization",
+    "summary": "The emergence of Multimodal Large Language Models (MLLMs) has propelled the\ndevelopment of autonomous agents that operate on Graphical User Interfaces\n(GUIs) using pure visual input. A fundamental challenge is robustly grounding\nnatural language instructions. This requires a precise spatial alignment, which\naccurately locates the coordinates of each element, and, more critically, a\ncorrect semantic alignment, which matches the instructions to the functionally\nappropriate UI element. Although Reinforcement Learning with Verifiable Rewards\n(RLVR) has proven to be effective at improving spatial alignment for these\nMLLMs, we find that inefficient exploration bottlenecks semantic alignment,\nwhich prevent models from learning difficult semantic associations. To address\nthis exploration problem, we present Adaptive Exploration Policy Optimization\n(AEPO), a new policy optimization framework. AEPO employs a multi-answer\ngeneration strategy to enforce broader exploration, which is then guided by a\ntheoretically grounded Adaptive Exploration Reward (AER) function derived from\nfirst principles of efficiency eta=U/C. Our AEPO-trained models, InfiGUI-G1-3B\nand InfiGUI-G1-7B, establish new state-of-the-art results across multiple\nchallenging GUI grounding benchmarks, achieving significant relative\nimprovements of up to 9.0% against the naive RLVR baseline on benchmarks\ndesigned to test generalization and semantic understanding. Resources are\navailable at https://github.com/InfiXAI/InfiGUI-G1.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05731.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62722849517c0ca41f7cd13d",
+      "avatarUrl": "/avatars/bb1f8f2f2665944930cb5a7ce19c47d4.svg",
+      "fullname": "Yuhang Liu",
+      "name": "SiriusL",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.05502",
+      "authors": [
+        {
+          "_id": "68994b7bf022d141f5d434be",
+          "name": "Yufei Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68994b7bf022d141f5d434bf",
+          "name": "Jiaying Fei",
+          "hidden": false
+        },
+        {
+          "_id": "68994b7bf022d141f5d434c0",
+          "name": "Nuo Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68994b7bf022d141f5d434c1",
+          "name": "Ruirui Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68994b7bf022d141f5d434c2",
+          "name": "Guohang Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68994b7bf022d141f5d434c3",
+          "name": "Yunshi Lan",
+          "hidden": false
+        },
+        {
+          "_id": "68994b7bf022d141f5d434c4",
+          "name": "Botian Shi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T15:36:24.000Z",
+      "submittedOnDailyAt": "2025-08-11T00:17:30.049Z",
+      "title": "MELLA: Bridging Linguistic Capability and Cultural Groundedness for\n  Low-Resource Language MLLMs",
+      "submittedOnDailyBy": {
+        "_id": "655469586bc4180700cf7a34",
+        "avatarUrl": "/avatars/252392d0c45783d8f149feac7a6215ec.svg",
+        "isPro": false,
+        "fullname": "Kejia Zhang",
+        "user": "KejiaRobust",
+        "type": "user"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) have shown remarkable performance in\nhigh-resource languages. However, their effectiveness diminishes significantly\nin the contexts of low-resource languages. Current multilingual enhancement\nmethods are often limited to text modality or rely solely on machine\ntranslation. While such approaches help models acquire basic linguistic\ncapabilities and produce \"thin descriptions\", they neglect the importance of\nmultimodal informativeness and cultural groundedness, both of which are crucial\nfor serving low-resource language users effectively. To bridge this gap, in\nthis study, we identify two significant objectives for a truly effective MLLM\nin low-resource language settings, namely 1) linguistic capability and 2)\ncultural groundedness, placing special emphasis on cultural awareness. To\nachieve these dual objectives, we propose a dual-source strategy that guides\nthe collection of data tailored to each goal, sourcing native web alt-text for\nculture and MLLM-generated captions for linguistics. As a concrete\nimplementation, we introduce MELLA, a multimodal, multilingual dataset.\nExperiment results show that after fine-tuning on MELLA, there is a general\nperformance improvement for the eight languages on various MLLM backbones, with\nmodels producing \"thick descriptions\". We verify that the performance gains are\nfrom both cultural knowledge enhancement and linguistic capability enhancement.\nOur dataset can be found at https://opendatalab.com/applyMultilingualCorpus.",
+      "upvotes": 0,
+      "discussionId": "68994b7bf022d141f5d434c5",
+      "ai_summary": "MELLA, a multimodal, multilingual dataset, enhances MLLMs in low-resource languages by improving linguistic capability and cultural groundedness through native web alt-text and MLLM-generated captions.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "MLLMs",
+        "low-resource languages",
+        "multilingual enhancement",
+        "native web alt-text",
+        "MLLM-generated captions",
+        "cultural awareness",
+        "thick descriptions"
+      ]
+    },
+    "publishedAt": "2025-08-07T11:36:24.000Z",
+    "title": "MELLA: Bridging Linguistic Capability and Cultural Groundedness for\n  Low-Resource Language MLLMs",
+    "summary": "Multimodal Large Language Models (MLLMs) have shown remarkable performance in\nhigh-resource languages. However, their effectiveness diminishes significantly\nin the contexts of low-resource languages. Current multilingual enhancement\nmethods are often limited to text modality or rely solely on machine\ntranslation. While such approaches help models acquire basic linguistic\ncapabilities and produce \"thin descriptions\", they neglect the importance of\nmultimodal informativeness and cultural groundedness, both of which are crucial\nfor serving low-resource language users effectively. To bridge this gap, in\nthis study, we identify two significant objectives for a truly effective MLLM\nin low-resource language settings, namely 1) linguistic capability and 2)\ncultural groundedness, placing special emphasis on cultural awareness. To\nachieve these dual objectives, we propose a dual-source strategy that guides\nthe collection of data tailored to each goal, sourcing native web alt-text for\nculture and MLLM-generated captions for linguistics. As a concrete\nimplementation, we introduce MELLA, a multimodal, multilingual dataset.\nExperiment results show that after fine-tuning on MELLA, there is a general\nperformance improvement for the eight languages on various MLLM backbones, with\nmodels producing \"thick descriptions\". We verify that the performance gains are\nfrom both cultural knowledge enhancement and linguistic capability enhancement.\nOur dataset can be found at https://opendatalab.com/applyMultilingualCorpus.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05502.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "655469586bc4180700cf7a34",
+      "avatarUrl": "/avatars/252392d0c45783d8f149feac7a6215ec.svg",
+      "fullname": "Kejia Zhang",
+      "name": "KejiaRobust",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
