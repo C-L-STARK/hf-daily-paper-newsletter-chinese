@@ -1,0 +1,675 @@
+[
+  {
+    "paper": {
+      "id": "2508.05614",
+      "authors": [
+        {
+          "_id": "6895644d48b0ae5ca2710d64",
+          "user": {
+            "_id": "677d3523a6918748bf81d0e9",
+            "avatarUrl": "/avatars/c9961ac54d089efb36db20c421c2bea2.svg",
+            "isPro": false,
+            "fullname": "wangzixuan",
+            "user": "wangzx1210",
+            "type": "user"
+          },
+          "name": "Zixuan Wang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-08-08T16:19:35.707Z",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d65",
+          "name": "Dingming Li",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d66",
+          "name": "Hongxing Li",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d67",
+          "name": "Shuo Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d68",
+          "user": {
+            "_id": "64098738342c26884c792c93",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64098738342c26884c792c93/SxBUd-wLrl-PjQsrVYJte.jpeg",
+            "isPro": false,
+            "fullname": "Yuchen Yan",
+            "user": "yanyc",
+            "type": "user"
+          },
+          "name": "Yuchen Yan",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-08-11T06:50:03.727Z",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d69",
+          "name": "Wenqi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d6a",
+          "user": {
+            "_id": "5e1058e9fcf41d740b69966d",
+            "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+            "isPro": false,
+            "fullname": "Yongliang Shen",
+            "user": "tricktreat",
+            "type": "user"
+          },
+          "name": "Yongliang Shen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-08-11T06:50:07.402Z",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d6b",
+          "name": "Weiming Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d6c",
+          "name": "Jun Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6895644d48b0ae5ca2710d6d",
+          "name": "Yueting Zhuang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T17:54:15.000Z",
+      "submittedOnDailyAt": "2025-08-12T00:34:06.839Z",
+      "title": "OmniEAR: Benchmarking Agent Reasoning in Embodied Tasks",
+      "submittedOnDailyBy": {
+        "_id": "5e1058e9fcf41d740b69966d",
+        "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+        "isPro": false,
+        "fullname": "Yongliang Shen",
+        "user": "tricktreat",
+        "type": "user"
+      },
+      "summary": "Large language models excel at abstract reasoning but their capacity for\nembodied agent reasoning remains largely unexplored. We present OmniEAR, a\ncomprehensive framework for evaluating how language models reason about\nphysical interactions, tool usage, and multi-agent coordination in embodied\ntasks. Unlike existing benchmarks that provide predefined tool sets or explicit\ncollaboration directives, OmniEAR requires agents to dynamically acquire\ncapabilities and autonomously determine coordination strategies based on task\ndemands. Through text-based environment representation, we model continuous\nphysical properties and complex spatial relationships across 1,500 scenarios\nspanning household and industrial domains. Our systematic evaluation reveals\nsevere performance degradation when models must reason from constraints: while\nachieving 85-96% success with explicit instructions, performance drops to\n56-85% for tool reasoning and 63-85% for implicit collaboration, with compound\ntasks showing over 50% failure rates. Surprisingly, complete environmental\ninformation degrades coordination performance, indicating models cannot filter\ntask-relevant constraints. Fine-tuning improves single-agent tasks dramatically\n(0.6% to 76.3%) but yields minimal multi-agent gains (1.5% to 5.5%), exposing\nfundamental architectural limitations. These findings demonstrate that embodied\nreasoning poses fundamentally different challenges than current models can\naddress, establishing OmniEAR as a rigorous benchmark for evaluating and\nadvancing embodied AI systems. Our code and data are included in the\nsupplementary materials and will be open-sourced upon acceptance.",
+      "upvotes": 10,
+      "discussionId": "6895644d48b0ae5ca2710d6e",
+      "projectPage": "https://zju-real.github.io/OmniEmbodied/",
+      "githubRepo": "https://github.com/ZJU-REAL/OmniEmbodied",
+      "ai_summary": "OmniEAR evaluates language models' embodied reasoning capabilities in physical interactions, tool usage, and multi-agent coordination, revealing performance degradation under constraints and highlighting architectural limitations.",
+      "ai_keywords": [
+        "embodied agent reasoning",
+        "OmniEAR",
+        "text-based environment representation",
+        "continuous physical properties",
+        "complex spatial relationships",
+        "tool reasoning",
+        "implicit collaboration",
+        "fine-tuning",
+        "embodied AI systems"
+      ],
+      "githubStars": 24
+    },
+    "publishedAt": "2025-08-07T13:54:15.000Z",
+    "title": "OmniEAR: Benchmarking Agent Reasoning in Embodied Tasks",
+    "summary": "Large language models excel at abstract reasoning but their capacity for\nembodied agent reasoning remains largely unexplored. We present OmniEAR, a\ncomprehensive framework for evaluating how language models reason about\nphysical interactions, tool usage, and multi-agent coordination in embodied\ntasks. Unlike existing benchmarks that provide predefined tool sets or explicit\ncollaboration directives, OmniEAR requires agents to dynamically acquire\ncapabilities and autonomously determine coordination strategies based on task\ndemands. Through text-based environment representation, we model continuous\nphysical properties and complex spatial relationships across 1,500 scenarios\nspanning household and industrial domains. Our systematic evaluation reveals\nsevere performance degradation when models must reason from constraints: while\nachieving 85-96% success with explicit instructions, performance drops to\n56-85% for tool reasoning and 63-85% for implicit collaboration, with compound\ntasks showing over 50% failure rates. Surprisingly, complete environmental\ninformation degrades coordination performance, indicating models cannot filter\ntask-relevant constraints. Fine-tuning improves single-agent tasks dramatically\n(0.6% to 76.3%) but yields minimal multi-agent gains (1.5% to 5.5%), exposing\nfundamental architectural limitations. These findings demonstrate that embodied\nreasoning poses fundamentally different challenges than current models can\naddress, establishing OmniEAR as a rigorous benchmark for evaluating and\nadvancing embodied AI systems. Our code and data are included in the\nsupplementary materials and will be open-sourced upon acceptance.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05614.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5e1058e9fcf41d740b69966d",
+      "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+      "fullname": "Yongliang Shen",
+      "name": "tricktreat",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 26
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2508.07999",
+      "authors": [
+        {
+          "_id": "689aa9c6fab6fdd2e52ac459",
+          "name": "Ryan Wong",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac45a",
+          "name": "Jiawei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac45b",
+          "name": "Junjie Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac45c",
+          "name": "Li Chen",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac45d",
+          "name": "Yan Gao",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac45e",
+          "name": "Long Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac45f",
+          "name": "Xuan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac460",
+          "name": "Zuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac461",
+          "name": "Kai Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac462",
+          "name": "Ge Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac463",
+          "name": "Wenhao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac464",
+          "name": "Yang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa9c6fab6fdd2e52ac465",
+          "name": "Ke Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-11T14:03:09.000Z",
+      "submittedOnDailyAt": "2025-08-12T01:13:47.675Z",
+      "title": "WideSearch: Benchmarking Agentic Broad Info-Seeking",
+      "submittedOnDailyBy": {
+        "_id": "64060b49a577649430bf6974",
+        "avatarUrl": "/avatars/74d0d6ed656b593e4c101b09edf18c7a.svg",
+        "isPro": false,
+        "fullname": "Jiawei Wang",
+        "user": "Jarvis1111",
+        "type": "user"
+      },
+      "summary": "From professional research to everyday planning, many tasks are bottlenecked\nby wide-scale information seeking, which is more repetitive than cognitively\ncomplex. With the rapid development of Large Language Models (LLMs), automated\nsearch agents powered by LLMs offer a promising solution to liberate humans\nfrom this tedious work. However, the capability of these agents to perform such\n\"wide-context\" collection reliably and completely remains largely unevaluated\ndue to a lack of suitable benchmarks. To bridge this gap, we introduce\nWideSearch, a new benchmark engineered to evaluate agent reliability on these\nlarge-scale collection tasks. The benchmark features 200 manually curated\nquestions (100 in English, 100 in Chinese) from over 15 diverse domains,\ngrounded in real user queries. Each task requires agents to collect large-scale\natomic information, which could be verified one by one objectively, and arrange\nit into a well-organized output. A rigorous five-stage quality control pipeline\nensures the difficulty, completeness, and verifiability of the dataset. We\nbenchmark over 10 state-of-the-art agentic search systems, including\nsingle-agent, multi-agent frameworks, and end-to-end commercial systems. Most\nsystems achieve overall success rates near 0\\%, with the best performer\nreaching just 5\\%. However, given sufficient time, cross-validation by multiple\nhuman testers can achieve a near 100\\% success rate. These results demonstrate\nthat present search agents have critical deficiencies in large-scale\ninformation seeking, underscoring urgent areas for future research and\ndevelopment in agentic search. Our dataset, evaluation pipeline, and benchmark\nresults have been publicly released at https://widesearch-seed.github.io/",
+      "upvotes": 1,
+      "discussionId": "689aa9c6fab6fdd2e52ac466",
+      "ai_summary": "WideSearch is a new benchmark evaluating the reliability of automated search agents in large-scale information collection tasks, revealing significant deficiencies in current systems.",
+      "ai_keywords": [
+        "Large Language Models",
+        "automated search agents",
+        "WideSearch",
+        "benchmark",
+        "quality control pipeline",
+        "agentic search systems",
+        "single-agent",
+        "multi-agent frameworks",
+        "end-to-end commercial systems"
+      ]
+    },
+    "publishedAt": "2025-08-11T10:03:09.000Z",
+    "title": "WideSearch: Benchmarking Agentic Broad Info-Seeking",
+    "summary": "From professional research to everyday planning, many tasks are bottlenecked\nby wide-scale information seeking, which is more repetitive than cognitively\ncomplex. With the rapid development of Large Language Models (LLMs), automated\nsearch agents powered by LLMs offer a promising solution to liberate humans\nfrom this tedious work. However, the capability of these agents to perform such\n\"wide-context\" collection reliably and completely remains largely unevaluated\ndue to a lack of suitable benchmarks. To bridge this gap, we introduce\nWideSearch, a new benchmark engineered to evaluate agent reliability on these\nlarge-scale collection tasks. The benchmark features 200 manually curated\nquestions (100 in English, 100 in Chinese) from over 15 diverse domains,\ngrounded in real user queries. Each task requires agents to collect large-scale\natomic information, which could be verified one by one objectively, and arrange\nit into a well-organized output. A rigorous five-stage quality control pipeline\nensures the difficulty, completeness, and verifiability of the dataset. We\nbenchmark over 10 state-of-the-art agentic search systems, including\nsingle-agent, multi-agent frameworks, and end-to-end commercial systems. Most\nsystems achieve overall success rates near 0\\%, with the best performer\nreaching just 5\\%. However, given sufficient time, cross-validation by multiple\nhuman testers can achieve a near 100\\% success rate. These results demonstrate\nthat present search agents have critical deficiencies in large-scale\ninformation seeking, underscoring urgent areas for future research and\ndevelopment in agentic search. Our dataset, evaluation pipeline, and benchmark\nresults have been publicly released at https://widesearch-seed.github.io/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.07999.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64060b49a577649430bf6974",
+      "avatarUrl": "/avatars/74d0d6ed656b593e4c101b09edf18c7a.svg",
+      "fullname": "Jiawei Wang",
+      "name": "Jarvis1111",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.07917",
+      "authors": [
+        {
+          "_id": "689aa8affab6fdd2e52ac42b",
+          "name": "Jason Lee",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac42c",
+          "name": "Jiafei Duan",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac42d",
+          "name": "Haoquan Fang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac42e",
+          "name": "Yuquan Deng",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac42f",
+          "name": "Shuo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac430",
+          "name": "Boyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac431",
+          "name": "Bohan Fang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac432",
+          "name": "Jieyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac433",
+          "name": "Yi Ru Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac434",
+          "name": "Sangho Lee",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac435",
+          "name": "Winson Han",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac436",
+          "name": "Wilbert Pumacay",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac437",
+          "name": "Angelica Wu",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac438",
+          "name": "Rose Hendrix",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac439",
+          "name": "Karen Farley",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac43a",
+          "name": "Eli VanderBilt",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac43b",
+          "name": "Ali Farhadi",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac43c",
+          "name": "Dieter Fox",
+          "hidden": false
+        },
+        {
+          "_id": "689aa8affab6fdd2e52ac43d",
+          "name": "Ranjay Krishna",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/632b42626110e37dba3d5bcb/IjiimEs8QhghdkWHmhrsu.png"
+      ],
+      "publishedAt": "2025-08-11T12:32:45.000Z",
+      "submittedOnDailyAt": "2025-08-12T01:08:01.584Z",
+      "title": "MolmoAct: Action Reasoning Models that can Reason in Space",
+      "submittedOnDailyBy": {
+        "_id": "632b42626110e37dba3d5bcb",
+        "avatarUrl": "/avatars/ca70a15def71ee84f4f149db5e954843.svg",
+        "isPro": false,
+        "fullname": "Duan",
+        "user": "Jiafei1224",
+        "type": "user"
+      },
+      "summary": "Reasoning is central to purposeful action, yet most robotic foundation models\nmap perception and instructions directly to control, which limits adaptability,\ngeneralization, and semantic grounding. We introduce Action Reasoning Models\n(ARMs), a class of vision-language-action models that integrate perception,\nplanning, and control through a structured three-stage pipeline. Our model,\nMolmoAct, encodes observations and instructions into depth-aware perception\ntokens, generates mid-level spatial plans as editable trajectory traces, and\npredicts precise low-level actions, enabling explainable and steerable\nbehavior. MolmoAct-7B-D achieves strong performance across simulation and\nreal-world settings: 70.5% zero-shot accuracy on SimplerEnv Visual Matching\ntasks, surpassing closed-source Pi-0 and GR00T N1; 86.6% average success on\nLIBERO, including an additional 6.3% gain over ThinkAct on long-horizon tasks;\nand in real-world fine-tuning, an additional 10% (single-arm) and an additional\n22.7% (bimanual) task progression over Pi-0-FAST. It also outperforms baselines\nby an additional 23.3% on out-of-distribution generalization and achieves top\nhuman-preference scores for open-ended instruction following and trajectory\nsteering. Furthermore, we release, for the first time, the MolmoAct Dataset --\na mid-training robot dataset comprising over 10,000 high quality robot\ntrajectories across diverse scenarios and tasks. Training with this dataset\nyields an average 5.5% improvement in general performance over the base model.\nWe release all model weights, training code, our collected dataset, and our\naction reasoning dataset, establishing MolmoAct as both a state-of-the-art\nrobotics foundation model and an open blueprint for building ARMs that\ntransform perception into purposeful action through structured reasoning.\nBlogpost: https://allenai.org/blog/molmoact",
+      "upvotes": 1,
+      "discussionId": "689aa8b0fab6fdd2e52ac43e",
+      "ai_summary": "Action Reasoning Models (ARMs) integrate perception, planning, and control to enable adaptable and explainable robotic behavior, achieving superior performance across various tasks and settings.",
+      "ai_keywords": [
+        "Action Reasoning Models",
+        "ARMs",
+        "MolmoAct",
+        "depth-aware perception tokens",
+        "mid-level spatial plans",
+        "trajectory traces",
+        "low-level actions",
+        "SimplerEnv Visual Matching",
+        "LIBERO",
+        "ThinkAct",
+        "MolmoAct Dataset",
+        "open-ended instruction following",
+        "trajectory steering"
+      ]
+    },
+    "publishedAt": "2025-08-11T08:32:45.000Z",
+    "title": "MolmoAct: Action Reasoning Models that can Reason in Space",
+    "summary": "Reasoning is central to purposeful action, yet most robotic foundation models\nmap perception and instructions directly to control, which limits adaptability,\ngeneralization, and semantic grounding. We introduce Action Reasoning Models\n(ARMs), a class of vision-language-action models that integrate perception,\nplanning, and control through a structured three-stage pipeline. Our model,\nMolmoAct, encodes observations and instructions into depth-aware perception\ntokens, generates mid-level spatial plans as editable trajectory traces, and\npredicts precise low-level actions, enabling explainable and steerable\nbehavior. MolmoAct-7B-D achieves strong performance across simulation and\nreal-world settings: 70.5% zero-shot accuracy on SimplerEnv Visual Matching\ntasks, surpassing closed-source Pi-0 and GR00T N1; 86.6% average success on\nLIBERO, including an additional 6.3% gain over ThinkAct on long-horizon tasks;\nand in real-world fine-tuning, an additional 10% (single-arm) and an additional\n22.7% (bimanual) task progression over Pi-0-FAST. It also outperforms baselines\nby an additional 23.3% on out-of-distribution generalization and achieves top\nhuman-preference scores for open-ended instruction following and trajectory\nsteering. Furthermore, we release, for the first time, the MolmoAct Dataset --\na mid-training robot dataset comprising over 10,000 high quality robot\ntrajectories across diverse scenarios and tasks. Training with this dataset\nyields an average 5.5% improvement in general performance over the base model.\nWe release all model weights, training code, our collected dataset, and our\naction reasoning dataset, establishing MolmoAct as both a state-of-the-art\nrobotics foundation model and an open blueprint for building ARMs that\ntransform perception into purposeful action through structured reasoning.\nBlogpost: https://allenai.org/blog/molmoact",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/632b42626110e37dba3d5bcb/IjiimEs8QhghdkWHmhrsu.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.07917.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "632b42626110e37dba3d5bcb",
+      "avatarUrl": "/avatars/ca70a15def71ee84f4f149db5e954843.svg",
+      "fullname": "Duan",
+      "name": "Jiafei1224",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.06601",
+      "authors": [
+        {
+          "_id": "689aa13ffab6fdd2e52ac416",
+          "name": "Kyle O'Brien",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac417",
+          "name": "Stephen Casper",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac418",
+          "name": "Quentin Anthony",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac419",
+          "name": "Tomek Korbak",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac41a",
+          "name": "Robert Kirk",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac41b",
+          "name": "Xander Davies",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac41c",
+          "name": "Ishan Mishra",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac41d",
+          "name": "Geoffrey Irving",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac41e",
+          "name": "Yarin Gal",
+          "hidden": false
+        },
+        {
+          "_id": "689aa13ffab6fdd2e52ac41f",
+          "name": "Stella Biderman",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-08T17:59:47.000Z",
+      "submittedOnDailyAt": "2025-08-12T00:35:06.219Z",
+      "title": "Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant\n  Safeguards into Open-Weight LLMs",
+      "submittedOnDailyBy": {
+        "_id": "60347d3660e3dd96631c9093",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60347d3660e3dd96631c9093/B3fuZer5N04tZIAYrLnz4.jpeg",
+        "isPro": false,
+        "fullname": "Stella Biderman",
+        "user": "stellaathena",
+        "type": "user"
+      },
+      "summary": "Open-weight AI systems offer unique benefits, including enhanced\ntransparency, open research, and decentralized access. However, they are\nvulnerable to tampering attacks which can efficiently elicit harmful behaviors\nby modifying weights or activations. Currently, there is not yet a robust\nscience of open-weight model risk management. Existing safety fine-tuning\nmethods and other post-training techniques have struggled to make LLMs\nresistant to more than a few dozen steps of adversarial fine-tuning. In this\npaper, we investigate whether filtering text about dual-use topics from\ntraining data can prevent unwanted capabilities and serve as a more\ntamper-resistant safeguard. We introduce a multi-stage pipeline for scalable\ndata filtering and show that it offers a tractable and effective method for\nminimizing biothreat proxy knowledge in LLMs. We pretrain multiple\n6.9B-parameter models from scratch and find that they exhibit substantial\nresistance to adversarial fine-tuning attacks on up to 10,000 steps and 300M\ntokens of biothreat-related text -- outperforming existing post-training\nbaselines by over an order of magnitude -- with no observed degradation to\nunrelated capabilities. However, while filtered models lack internalized\ndangerous knowledge, we find that they can still leverage such information when\nit is provided in context (e.g., via search tool augmentation), demonstrating a\nneed for a defense-in-depth approach. Overall, these findings help to establish\npretraining data curation as a promising layer of defense for open-weight AI\nsystems.",
+      "upvotes": 0,
+      "discussionId": "689aa140fab6fdd2e52ac420",
+      "ai_summary": "Data filtering during pretraining enhances LLM resistance to adversarial fine-tuning attacks without degrading unrelated capabilities, offering a promising defense mechanism for open-weight AI systems.",
+      "ai_keywords": [
+        "open-weight AI systems",
+        "tampering attacks",
+        "adversarial fine-tuning",
+        "data filtering",
+        "multi-stage pipeline",
+        "biothreat proxy knowledge",
+        "pretraining",
+        "defense-in-depth"
+      ]
+    },
+    "publishedAt": "2025-08-08T13:59:47.000Z",
+    "title": "Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant\n  Safeguards into Open-Weight LLMs",
+    "summary": "Open-weight AI systems offer unique benefits, including enhanced\ntransparency, open research, and decentralized access. However, they are\nvulnerable to tampering attacks which can efficiently elicit harmful behaviors\nby modifying weights or activations. Currently, there is not yet a robust\nscience of open-weight model risk management. Existing safety fine-tuning\nmethods and other post-training techniques have struggled to make LLMs\nresistant to more than a few dozen steps of adversarial fine-tuning. In this\npaper, we investigate whether filtering text about dual-use topics from\ntraining data can prevent unwanted capabilities and serve as a more\ntamper-resistant safeguard. We introduce a multi-stage pipeline for scalable\ndata filtering and show that it offers a tractable and effective method for\nminimizing biothreat proxy knowledge in LLMs. We pretrain multiple\n6.9B-parameter models from scratch and find that they exhibit substantial\nresistance to adversarial fine-tuning attacks on up to 10,000 steps and 300M\ntokens of biothreat-related text -- outperforming existing post-training\nbaselines by over an order of magnitude -- with no observed degradation to\nunrelated capabilities. However, while filtered models lack internalized\ndangerous knowledge, we find that they can still leverage such information when\nit is provided in context (e.g., via search tool augmentation), demonstrating a\nneed for a defense-in-depth approach. Overall, these findings help to establish\npretraining data curation as a promising layer of defense for open-weight AI\nsystems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.06601.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60347d3660e3dd96631c9093",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60347d3660e3dd96631c9093/B3fuZer5N04tZIAYrLnz4.jpeg",
+      "fullname": "Stella Biderman",
+      "name": "stellaathena",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3444
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.06600",
+      "authors": [
+        {
+          "_id": "689aa99dfab6fdd2e52ac443",
+          "name": "Zijian Chen",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac444",
+          "name": "Xueguang Ma",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac445",
+          "name": "Shengyao Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac446",
+          "name": "Ping Nie",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac447",
+          "name": "Kai Zou",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac448",
+          "name": "Andrew Liu",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac449",
+          "name": "Joshua Green",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac44a",
+          "name": "Kshama Patel",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac44b",
+          "name": "Ruoxi Meng",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac44c",
+          "name": "Mingyi Su",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac44d",
+          "name": "Sahel Sharifymoghaddam",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac44e",
+          "name": "Yanxi Li",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac44f",
+          "name": "Haoran Hong",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac450",
+          "name": "Xinyu Shi",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac451",
+          "name": "Xuye Liu",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac452",
+          "name": "Nandan Thakur",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac453",
+          "name": "Crystina Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac454",
+          "name": "Luyu Gao",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac455",
+          "name": "Wenhu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "689aa99dfab6fdd2e52ac456",
+          "name": "Jimmy Lin",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/5ec82854968f6028e0559f70/1jy5u5L06u17REGKLZqjH.png"
+      ],
+      "publishedAt": "2025-08-08T17:55:11.000Z",
+      "submittedOnDailyAt": "2025-08-12T01:14:41.177Z",
+      "title": "BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of\n  Deep-Research Agent",
+      "submittedOnDailyBy": {
+        "_id": "5ec82854968f6028e0559f70",
+        "avatarUrl": "/avatars/45b58d912f7d00cb351947cd79d5eeb4.svg",
+        "isPro": true,
+        "fullname": "Xueguang Ma",
+        "user": "MrLight",
+        "type": "user"
+      },
+      "summary": "Deep-Research agents, which integrate large language models (LLMs) with\nsearch tools, have shown success in improving the effectiveness of handling\ncomplex queries that require iterative search planning and reasoning over\nsearch results. Evaluations on current benchmarks like BrowseComp relies on\nblack-box live web search APIs, have notable limitations in (1) fairness:\ndynamic and opaque web APIs hinder fair comparisons and reproducibility of deep\nresearch methods; (2) transparency: lack of control over the document corpus\nmakes it difficult to isolate retriever contributions. In other words, the\ncurrent evaluations may compare a complete deep research system at a given\ntime, but they do not foster well-controlled experiments to provide insights\ninto the capability of underlying deep research LLMs. To address these\nchallenges, we introduce BrowseComp-Plus, a benchmark derived from BrowseComp,\nemploying a fixed, carefully curated corpus. Each query in BrowseComp-Plus\nincludes human-verified supporting documents and mined challenging negatives,\nenabling controlled experimentation. The benchmark is shown to be effective in\ndistinguishing the performance of deep research systems. For instance, the\nopen-source model Search-R1, when paired with the BM25 retriever, achieves\n3.86% accuracy, whereas the GPT-5 achieves 55.9%. Integrating the GPT-5 with\nthe Qwen3-Embedding-8B retriever further enhances its accuracy to 70.1% with\nfewer search calls. This benchmark allows comprehensive evaluation and\ndisentangled analysis of deep research agents and retrieval methods, fostering\ninsights into retrieval effectiveness, citation accuracy, and context\nengineering in Deep-Research system.",
+      "upvotes": 0,
+      "discussionId": "689aa99dfab6fdd2e52ac457",
+      "ai_summary": "BrowseComp-Plus, a curated benchmark, enables controlled evaluation of deep research agents and retrieval methods, providing insights into their performance and effectiveness.",
+      "ai_keywords": [
+        "deep-Research agents",
+        "large language models (LLMs)",
+        "search tools",
+        "iterative search planning",
+        "BrowseComp",
+        "black-box live web search APIs",
+        "fairness",
+        "transparency",
+        "document corpus",
+        "retriever contributions",
+        "BrowseComp-Plus",
+        "human-verified supporting documents",
+        "challenging negatives",
+        "Search-R1",
+        "GPT-5",
+        "Qwen3-Embedding-8B",
+        "retrieval effectiveness",
+        "citation accuracy",
+        "context engineering"
+      ]
+    },
+    "publishedAt": "2025-08-08T13:55:11.000Z",
+    "title": "BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of\n  Deep-Research Agent",
+    "summary": "Deep-Research agents, which integrate large language models (LLMs) with\nsearch tools, have shown success in improving the effectiveness of handling\ncomplex queries that require iterative search planning and reasoning over\nsearch results. Evaluations on current benchmarks like BrowseComp relies on\nblack-box live web search APIs, have notable limitations in (1) fairness:\ndynamic and opaque web APIs hinder fair comparisons and reproducibility of deep\nresearch methods; (2) transparency: lack of control over the document corpus\nmakes it difficult to isolate retriever contributions. In other words, the\ncurrent evaluations may compare a complete deep research system at a given\ntime, but they do not foster well-controlled experiments to provide insights\ninto the capability of underlying deep research LLMs. To address these\nchallenges, we introduce BrowseComp-Plus, a benchmark derived from BrowseComp,\nemploying a fixed, carefully curated corpus. Each query in BrowseComp-Plus\nincludes human-verified supporting documents and mined challenging negatives,\nenabling controlled experimentation. The benchmark is shown to be effective in\ndistinguishing the performance of deep research systems. For instance, the\nopen-source model Search-R1, when paired with the BM25 retriever, achieves\n3.86% accuracy, whereas the GPT-5 achieves 55.9%. Integrating the GPT-5 with\nthe Qwen3-Embedding-8B retriever further enhances its accuracy to 70.1% with\nfewer search calls. This benchmark allows comprehensive evaluation and\ndisentangled analysis of deep research agents and retrieval methods, fostering\ninsights into retrieval effectiveness, citation accuracy, and context\nengineering in Deep-Research system.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/5ec82854968f6028e0559f70/1jy5u5L06u17REGKLZqjH.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.06600.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5ec82854968f6028e0559f70",
+      "avatarUrl": "/avatars/45b58d912f7d00cb351947cd79d5eeb4.svg",
+      "fullname": "Xueguang Ma",
+      "name": "MrLight",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 28
+    },
+    "isAuthorParticipating": false
+  }
+]
