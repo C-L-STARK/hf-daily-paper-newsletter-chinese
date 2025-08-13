@@ -1,0 +1,533 @@
+[
+  {
+    "paper": {
+      "id": "2508.08086",
+      "authors": [
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e0",
+          "name": "Zhongqi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e1",
+          "name": "Wenhang Ge",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e2",
+          "name": "Yuqi Li",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e3",
+          "name": "Jiaqi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e4",
+          "name": "Haoyuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e5",
+          "name": "Mengyin An",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e6",
+          "name": "Fei Kang",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e7",
+          "name": "Hua Xue",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e8",
+          "name": "Baixin Xu",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4e9",
+          "name": "Yuyang Yin",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4ea",
+          "name": "Eric Li",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4eb",
+          "name": "Yang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4ec",
+          "name": "Yikai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4ed",
+          "name": "Hao-Xiang Guo",
+          "hidden": false
+        },
+        {
+          "_id": "689ac0a0fab6fdd2e52ac4ee",
+          "name": "Yahui Zhou",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64758ee7d815855e4efa206b/gD6oavgX7cDu24qQLbXir.png"
+      ],
+      "publishedAt": "2025-08-11T15:29:57.000Z",
+      "submittedOnDailyAt": "2025-08-13T00:45:23.058Z",
+      "title": "Matrix-3D: Omnidirectional Explorable 3D World Generation",
+      "submittedOnDailyBy": {
+        "_id": "64758ee7d815855e4efa206b",
+        "avatarUrl": "/avatars/105ada08a9a982fc7b723bdc678f7e72.svg",
+        "isPro": false,
+        "fullname": "wenhang ge",
+        "user": "spongy",
+        "type": "user"
+      },
+      "summary": "Explorable 3D world generation from a single image or text prompt forms a\ncornerstone of spatial intelligence. Recent works utilize video model to\nachieve wide-scope and generalizable 3D world generation. However, existing\napproaches often suffer from a limited scope in the generated scenes. In this\nwork, we propose Matrix-3D, a framework that utilize panoramic representation\nfor wide-coverage omnidirectional explorable 3D world generation that combines\nconditional video generation and panoramic 3D reconstruction. We first train a\ntrajectory-guided panoramic video diffusion model that employs scene mesh\nrenders as condition, to enable high-quality and geometrically consistent scene\nvideo generation. To lift the panorama scene video to 3D world, we propose two\nseparate methods: (1) a feed-forward large panorama reconstruction model for\nrapid 3D scene reconstruction and (2) an optimization-based pipeline for\naccurate and detailed 3D scene reconstruction. To facilitate effective\ntraining, we also introduce the Matrix-Pano dataset, the first large-scale\nsynthetic collection comprising 116K high-quality static panoramic video\nsequences with depth and trajectory annotations. Extensive experiments\ndemonstrate that our proposed framework achieves state-of-the-art performance\nin panoramic video generation and 3D world generation. See more in\nhttps://matrix-3d.github.io.",
+      "upvotes": 29,
+      "discussionId": "689ac0a0fab6fdd2e52ac4ef",
+      "ai_summary": "Matrix-3D generates wide-coverage 3D worlds from single images or text using panoramic video diffusion and reconstruction models.",
+      "ai_keywords": [
+        "panoramic representation",
+        "wide-coverage",
+        "omnidirectional",
+        "explorable 3D world generation",
+        "conditional video generation",
+        "panoramic 3D reconstruction",
+        "trajectory-guided",
+        "panoramic video diffusion model",
+        "scene mesh renders",
+        "feed-forward large panorama reconstruction model",
+        "optimization-based pipeline",
+        "Matrix-Pano dataset",
+        "panoramic video generation",
+        "3D world generation"
+      ]
+    },
+    "publishedAt": "2025-08-11T11:29:57.000Z",
+    "title": "Matrix-3D: Omnidirectional Explorable 3D World Generation",
+    "summary": "Explorable 3D world generation from a single image or text prompt forms a\ncornerstone of spatial intelligence. Recent works utilize video model to\nachieve wide-scope and generalizable 3D world generation. However, existing\napproaches often suffer from a limited scope in the generated scenes. In this\nwork, we propose Matrix-3D, a framework that utilize panoramic representation\nfor wide-coverage omnidirectional explorable 3D world generation that combines\nconditional video generation and panoramic 3D reconstruction. We first train a\ntrajectory-guided panoramic video diffusion model that employs scene mesh\nrenders as condition, to enable high-quality and geometrically consistent scene\nvideo generation. To lift the panorama scene video to 3D world, we propose two\nseparate methods: (1) a feed-forward large panorama reconstruction model for\nrapid 3D scene reconstruction and (2) an optimization-based pipeline for\naccurate and detailed 3D scene reconstruction. To facilitate effective\ntraining, we also introduce the Matrix-Pano dataset, the first large-scale\nsynthetic collection comprising 116K high-quality static panoramic video\nsequences with depth and trajectory annotations. Extensive experiments\ndemonstrate that our proposed framework achieves state-of-the-art performance\nin panoramic video generation and 3D world generation. See more in\nhttps://matrix-3d.github.io.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64758ee7d815855e4efa206b/gD6oavgX7cDu24qQLbXir.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.08086.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64758ee7d815855e4efa206b",
+      "avatarUrl": "/avatars/105ada08a9a982fc7b723bdc678f7e72.svg",
+      "fullname": "wenhang ge",
+      "name": "spongy",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.05615",
+      "authors": [
+        {
+          "_id": "6895643848b0ae5ca2710d5a",
+          "name": "Yong Du",
+          "hidden": false
+        },
+        {
+          "_id": "6895643848b0ae5ca2710d5b",
+          "user": {
+            "_id": "64098738342c26884c792c93",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64098738342c26884c792c93/SxBUd-wLrl-PjQsrVYJte.jpeg",
+            "isPro": false,
+            "fullname": "Yuchen Yan",
+            "user": "yanyc",
+            "type": "user"
+          },
+          "name": "Yuchen Yan",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-08-11T06:49:57.884Z",
+          "hidden": false
+        },
+        {
+          "_id": "6895643848b0ae5ca2710d5c",
+          "name": "Fei Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6895643848b0ae5ca2710d5d",
+          "name": "Zhengxi Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6895643848b0ae5ca2710d5e",
+          "name": "Chang Zong",
+          "hidden": false
+        },
+        {
+          "_id": "6895643848b0ae5ca2710d5f",
+          "name": "Weiming Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6895643848b0ae5ca2710d60",
+          "name": "Shengpei Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6895643848b0ae5ca2710d61",
+          "user": {
+            "_id": "5e1058e9fcf41d740b69966d",
+            "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+            "isPro": false,
+            "fullname": "Yongliang Shen",
+            "user": "tricktreat",
+            "type": "user"
+          },
+          "name": "Yongliang Shen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-08-11T06:50:01.160Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T17:54:27.000Z",
+      "submittedOnDailyAt": "2025-08-13T00:38:26.010Z",
+      "title": "Test-Time Reinforcement Learning for GUI Grounding via Region\n  Consistency",
+      "submittedOnDailyBy": {
+        "_id": "64098738342c26884c792c93",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64098738342c26884c792c93/SxBUd-wLrl-PjQsrVYJte.jpeg",
+        "isPro": false,
+        "fullname": "Yuchen Yan",
+        "user": "yanyc",
+        "type": "user"
+      },
+      "summary": "Graphical User Interface (GUI) grounding, the task of mapping natural\nlanguage instructions to precise screen coordinates, is fundamental to\nautonomous GUI agents. While existing methods achieve strong performance\nthrough extensive supervised training or reinforcement learning with labeled\nrewards, they remain constrained by the cost and availability of pixel-level\nannotations. We observe that when models generate multiple predictions for the\nsame GUI element, the spatial overlap patterns reveal implicit confidence\nsignals that can guide more accurate localization. Leveraging this insight, we\npropose GUI-RC (Region Consistency), a test-time scaling method that constructs\nspatial voting grids from multiple sampled predictions to identify consensus\nregions where models show highest agreement. Without any training, GUI-RC\nimproves accuracy by 2-3% across various architectures on ScreenSpot\nbenchmarks. We further introduce GUI-RCPO (Region Consistency Policy\nOptimization), which transforms these consistency patterns into rewards for\ntest-time reinforcement learning. By computing how well each prediction aligns\nwith the collective consensus, GUI-RCPO enables models to iteratively refine\ntheir outputs on unlabeled data during inference. Extensive experiments\ndemonstrate the generality of our approach: GUI-RC boosts\nQwen2.5-VL-3B-Instruct from 80.11% to 83.57% on ScreenSpot-v2, while GUI-RCPO\nfurther improves it to 85.14% through self-supervised optimization. Our\napproach reveals the untapped potential of test-time scaling and test-time\nreinforcement learning for GUI grounding, offering a promising path toward more\nrobust and data-efficient GUI agents.",
+      "upvotes": 6,
+      "discussionId": "6895643948b0ae5ca2710d62",
+      "projectPage": "https://zju-real.github.io/gui-rcpo/",
+      "githubRepo": "https://github.com/zju-real/gui-rcpo",
+      "ai_summary": "GUI-RC and GUI-RCPO enhance GUI grounding accuracy by leveraging spatial consistency and reinforcement learning without additional training data.",
+      "ai_keywords": [
+        "GUI grounding",
+        "spatial overlap patterns",
+        "spatial voting grids",
+        "consensus regions",
+        "test-time scaling",
+        "test-time reinforcement learning",
+        "ScreenSpot benchmarks",
+        "Qwen2.5-VL-3B-Instruct",
+        "ScreenSpot-v2"
+      ],
+      "githubStars": 15
+    },
+    "publishedAt": "2025-08-07T13:54:27.000Z",
+    "title": "Test-Time Reinforcement Learning for GUI Grounding via Region\n  Consistency",
+    "summary": "Graphical User Interface (GUI) grounding, the task of mapping natural\nlanguage instructions to precise screen coordinates, is fundamental to\nautonomous GUI agents. While existing methods achieve strong performance\nthrough extensive supervised training or reinforcement learning with labeled\nrewards, they remain constrained by the cost and availability of pixel-level\nannotations. We observe that when models generate multiple predictions for the\nsame GUI element, the spatial overlap patterns reveal implicit confidence\nsignals that can guide more accurate localization. Leveraging this insight, we\npropose GUI-RC (Region Consistency), a test-time scaling method that constructs\nspatial voting grids from multiple sampled predictions to identify consensus\nregions where models show highest agreement. Without any training, GUI-RC\nimproves accuracy by 2-3% across various architectures on ScreenSpot\nbenchmarks. We further introduce GUI-RCPO (Region Consistency Policy\nOptimization), which transforms these consistency patterns into rewards for\ntest-time reinforcement learning. By computing how well each prediction aligns\nwith the collective consensus, GUI-RCPO enables models to iteratively refine\ntheir outputs on unlabeled data during inference. Extensive experiments\ndemonstrate the generality of our approach: GUI-RC boosts\nQwen2.5-VL-3B-Instruct from 80.11% to 83.57% on ScreenSpot-v2, while GUI-RCPO\nfurther improves it to 85.14% through self-supervised optimization. Our\napproach reveals the untapped potential of test-time scaling and test-time\nreinforcement learning for GUI grounding, offering a promising path toward more\nrobust and data-efficient GUI agents.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05615.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64098738342c26884c792c93",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64098738342c26884c792c93/SxBUd-wLrl-PjQsrVYJte.jpeg",
+      "fullname": "Yuchen Yan",
+      "name": "yanyc",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2508.09138",
+      "authors": [
+        {
+          "_id": "689befdbfab6fdd2e52ac80c",
+          "name": "Wen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689befdbfab6fdd2e52ac80d",
+          "name": "Bozhen Fang",
+          "hidden": false
+        },
+        {
+          "_id": "689befdbfab6fdd2e52ac80e",
+          "name": "Chenchen Jing",
+          "hidden": false
+        },
+        {
+          "_id": "689befdbfab6fdd2e52ac80f",
+          "name": "Yongliang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "689befdbfab6fdd2e52ac810",
+          "name": "Yangyi Shen",
+          "hidden": false
+        },
+        {
+          "_id": "689befdbfab6fdd2e52ac811",
+          "name": "Qiuyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689befdbfab6fdd2e52ac812",
+          "name": "Hao Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "689befdbfab6fdd2e52ac813",
+          "name": "Hao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "689befdbfab6fdd2e52ac814",
+          "name": "Chunhua Shen",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/63f089456309c84d5f47f951/znHPdJqj7uNrvTS4acpqM.png"
+      ],
+      "publishedAt": "2025-08-12T17:59:57.000Z",
+      "submittedOnDailyAt": "2025-08-13T00:24:54.833Z",
+      "title": "Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language\n  Models",
+      "submittedOnDailyBy": {
+        "_id": "63f089456309c84d5f47f951",
+        "avatarUrl": "/avatars/04b926a7f2ad091ee00fef0c59903492.svg",
+        "isPro": false,
+        "fullname": "Wen Wang",
+        "user": "wwen1997",
+        "type": "user"
+      },
+      "summary": "Diffusion large language models (dLLMs) generate text through iterative\ndenoising, yet current decoding strategies discard rich intermediate\npredictions in favor of the final output. Our work here reveals a critical\nphenomenon, temporal oscillation, where correct answers often emerge in the\nmiddle process, but are overwritten in later denoising steps. To address this\nissue, we introduce two complementary methods that exploit temporal\nconsistency: 1) Temporal Self-Consistency Voting, a training-free, test-time\ndecoding strategy that aggregates predictions across denoising steps to select\nthe most consistent output; and 2) a post-training method termed Temporal\nConsistency Reinforcement, which uses Temporal Semantic Entropy (TSE), a\nmeasure of semantic stability across intermediate predictions, as a reward\nsignal to encourage stable generations. Empirical results across multiple\nbenchmarks demonstrate the effectiveness of our approach. Using the negative\nTSE reward alone, we observe a remarkable average improvement of 24.7% on the\nCountdown dataset over an existing dLLM. Combined with the accuracy reward, we\nachieve absolute gains of 2.0% on GSM8K, 4.3% on MATH500, 6.6% on SVAMP, and\n25.3% on Countdown, respectively. Our findings underscore the untapped\npotential of temporal dynamics in dLLMs and offer two simple yet effective\ntools to harness them.",
+      "upvotes": 4,
+      "discussionId": "689befdbfab6fdd2e52ac815",
+      "projectPage": "https://aim-uofa.github.io/dLLM-MidTruth/",
+      "githubRepo": "https://github.com/aim-uofa/dLLM-MidTruth",
+      "ai_summary": "Two methods, Temporal Self-Consistency Voting and Temporal Consistency Reinforcement, improve diffusion large language models by leveraging temporal consistency in intermediate predictions.",
+      "ai_keywords": [
+        "diffusion large language models",
+        "denoising",
+        "temporal oscillation",
+        "Temporal Self-Consistency Voting",
+        "Temporal Consistency Reinforcement",
+        "Temporal Semantic Entropy",
+        "semantic stability",
+        "Countdown dataset",
+        "GSM8K",
+        "MATH500",
+        "SVAMP"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2025-08-12T13:59:57.000Z",
+    "title": "Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language\n  Models",
+    "summary": "Diffusion large language models (dLLMs) generate text through iterative\ndenoising, yet current decoding strategies discard rich intermediate\npredictions in favor of the final output. Our work here reveals a critical\nphenomenon, temporal oscillation, where correct answers often emerge in the\nmiddle process, but are overwritten in later denoising steps. To address this\nissue, we introduce two complementary methods that exploit temporal\nconsistency: 1) Temporal Self-Consistency Voting, a training-free, test-time\ndecoding strategy that aggregates predictions across denoising steps to select\nthe most consistent output; and 2) a post-training method termed Temporal\nConsistency Reinforcement, which uses Temporal Semantic Entropy (TSE), a\nmeasure of semantic stability across intermediate predictions, as a reward\nsignal to encourage stable generations. Empirical results across multiple\nbenchmarks demonstrate the effectiveness of our approach. Using the negative\nTSE reward alone, we observe a remarkable average improvement of 24.7% on the\nCountdown dataset over an existing dLLM. Combined with the accuracy reward, we\nachieve absolute gains of 2.0% on GSM8K, 4.3% on MATH500, 6.6% on SVAMP, and\n25.3% on Countdown, respectively. Our findings underscore the untapped\npotential of temporal dynamics in dLLMs and offer two simple yet effective\ntools to harness them.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/63f089456309c84d5f47f951/znHPdJqj7uNrvTS4acpqM.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.09138.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63f089456309c84d5f47f951",
+      "avatarUrl": "/avatars/04b926a7f2ad091ee00fef0c59903492.svg",
+      "fullname": "Wen Wang",
+      "name": "wwen1997",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 24
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.05399",
+      "authors": [
+        {
+          "_id": "689bea5afab6fdd2e52ac7d1",
+          "name": "Wonjun Kang",
+          "hidden": false
+        },
+        {
+          "_id": "689bea5afab6fdd2e52ac7d2",
+          "name": "Byeongkeun Ahn",
+          "hidden": false
+        },
+        {
+          "_id": "689bea5afab6fdd2e52ac7d3",
+          "name": "Minjae Lee",
+          "hidden": false
+        },
+        {
+          "_id": "689bea5afab6fdd2e52ac7d4",
+          "name": "Kevin Galim",
+          "hidden": false
+        },
+        {
+          "_id": "689bea5afab6fdd2e52ac7d5",
+          "name": "Seunghyuk Oh",
+          "hidden": false
+        },
+        {
+          "_id": "689bea5afab6fdd2e52ac7d6",
+          "name": "Hyung Il Koo",
+          "hidden": false
+        },
+        {
+          "_id": "689bea5afab6fdd2e52ac7d7",
+          "name": "Nam Ik Cho",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-07T13:51:17.000Z",
+      "submittedOnDailyAt": "2025-08-13T00:40:20.574Z",
+      "title": "UNCAGE: Contrastive Attention Guidance for Masked Generative\n  Transformers in Text-to-Image Generation",
+      "submittedOnDailyBy": {
+        "_id": "63e1d5247fbb6ae4d4f4cc8e",
+        "avatarUrl": "/avatars/8a8f700adf9e8000641c2c2f6bd56080.svg",
+        "isPro": false,
+        "fullname": "Wonjun Kang",
+        "user": "wjkang",
+        "type": "user"
+      },
+      "summary": "Text-to-image (T2I) generation has been actively studied using Diffusion\nModels and Autoregressive Models. Recently, Masked Generative Transformers have\ngained attention as an alternative to Autoregressive Models to overcome the\ninherent limitations of causal attention and autoregressive decoding through\nbidirectional attention and parallel decoding, enabling efficient and\nhigh-quality image generation. However, compositional T2I generation remains\nchallenging, as even state-of-the-art Diffusion Models often fail to accurately\nbind attributes and achieve proper text-image alignment. While Diffusion Models\nhave been extensively studied for this issue, Masked Generative Transformers\nexhibit similar limitations but have not been explored in this context. To\naddress this, we propose Unmasking with Contrastive Attention Guidance\n(UNCAGE), a novel training-free method that improves compositional fidelity by\nleveraging attention maps to prioritize the unmasking of tokens that clearly\nrepresent individual objects. UNCAGE consistently improves performance in both\nquantitative and qualitative evaluations across multiple benchmarks and\nmetrics, with negligible inference overhead. Our code is available at\nhttps://github.com/furiosa-ai/uncage.",
+      "upvotes": 3,
+      "discussionId": "689bea5bfab6fdd2e52ac7d8",
+      "ai_summary": "UNCAGE, a training-free method using contrastive attention guidance, enhances compositional fidelity in text-to-image generation by prioritizing the unmasking of object-representing tokens.",
+      "ai_keywords": [
+        "Diffusion Models",
+        "Autoregressive Models",
+        "Masked Generative Transformers",
+        "bidirectional attention",
+        "parallel decoding",
+        "compositional T2I generation",
+        "attention maps",
+        "text-image alignment",
+        "UNCAGE"
+      ]
+    },
+    "publishedAt": "2025-08-07T09:51:17.000Z",
+    "title": "UNCAGE: Contrastive Attention Guidance for Masked Generative\n  Transformers in Text-to-Image Generation",
+    "summary": "Text-to-image (T2I) generation has been actively studied using Diffusion\nModels and Autoregressive Models. Recently, Masked Generative Transformers have\ngained attention as an alternative to Autoregressive Models to overcome the\ninherent limitations of causal attention and autoregressive decoding through\nbidirectional attention and parallel decoding, enabling efficient and\nhigh-quality image generation. However, compositional T2I generation remains\nchallenging, as even state-of-the-art Diffusion Models often fail to accurately\nbind attributes and achieve proper text-image alignment. While Diffusion Models\nhave been extensively studied for this issue, Masked Generative Transformers\nexhibit similar limitations but have not been explored in this context. To\naddress this, we propose Unmasking with Contrastive Attention Guidance\n(UNCAGE), a novel training-free method that improves compositional fidelity by\nleveraging attention maps to prioritize the unmasking of tokens that clearly\nrepresent individual objects. UNCAGE consistently improves performance in both\nquantitative and qualitative evaluations across multiple benchmarks and\nmetrics, with negligible inference overhead. Our code is available at\nhttps://github.com/furiosa-ai/uncage.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.05399.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63e1d5247fbb6ae4d4f4cc8e",
+      "avatarUrl": "/avatars/8a8f700adf9e8000641c2c2f6bd56080.svg",
+      "fullname": "Wonjun Kang",
+      "name": "wjkang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.08088",
+      "authors": [
+        {
+          "_id": "689ac80efab6fdd2e52ac510",
+          "name": "Jiejun Tan",
+          "hidden": false
+        },
+        {
+          "_id": "689ac80efab6fdd2e52ac511",
+          "name": "Zhicheng Dou",
+          "hidden": false
+        },
+        {
+          "_id": "689ac80efab6fdd2e52ac512",
+          "name": "Yan Yu",
+          "hidden": false
+        },
+        {
+          "_id": "689ac80efab6fdd2e52ac513",
+          "name": "Jiehan Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "689ac80efab6fdd2e52ac514",
+          "name": "Qiang Ju",
+          "hidden": false
+        },
+        {
+          "_id": "689ac80efab6fdd2e52ac515",
+          "name": "Jian Xie",
+          "hidden": false
+        },
+        {
+          "_id": "689ac80efab6fdd2e52ac516",
+          "name": "Ji-Rong Wen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-11T15:31:47.000Z",
+      "submittedOnDailyAt": "2025-08-13T01:08:11.771Z",
+      "title": "HierSearch: A Hierarchical Enterprise Deep Search Framework Integrating\n  Local and Web Searches",
+      "submittedOnDailyBy": {
+        "_id": "62e52483a944e2a56cd2c6ca",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62e52483a944e2a56cd2c6ca/pG44O-1qD00q5CEJMMyFQ.jpeg",
+        "isPro": false,
+        "fullname": "Jiejun Tan",
+        "user": "zstanjj",
+        "type": "user"
+      },
+      "summary": "Recently, large reasoning models have demonstrated strong mathematical and\ncoding abilities, and deep search leverages their reasoning capabilities in\nchallenging information retrieval tasks. Existing deep search works are\ngenerally limited to a single knowledge source, either local or the Web.\nHowever, enterprises often require private deep search systems that can\nleverage search tools over both local and the Web corpus. Simply training an\nagent equipped with multiple search tools using flat reinforcement learning\n(RL) is a straightforward idea, but it has problems such as low training data\nefficiency and poor mastery of complex tools. To address the above issue, we\npropose a hierarchical agentic deep search framework, HierSearch, trained with\nhierarchical RL. At the low level, a local deep search agent and a Web deep\nsearch agent are trained to retrieve evidence from their corresponding domains.\nAt the high level, a planner agent coordinates low-level agents and provides\nthe final answer. Moreover, to prevent direct answer copying and error\npropagation, we design a knowledge refiner that filters out hallucinations and\nirrelevant evidence returned by low-level agents. Experiments show that\nHierSearch achieves better performance compared to flat RL, and outperforms\nvarious deep search and multi-source retrieval-augmented generation baselines\nin six benchmarks across general, finance, and medical domains.",
+      "upvotes": 1,
+      "discussionId": "689ac80efab6fdd2e52ac517",
+      "githubRepo": "https://github.com/plageon/HierSearch",
+      "ai_summary": "HierSearch, a hierarchical agentic deep search framework using hierarchical RL, improves performance in multi-source retrieval tasks by coordinating local and Web search agents and refining knowledge.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "hierarchical RL",
+        "local deep search agent",
+        "Web deep search agent",
+        "planner agent",
+        "knowledge refiner",
+        "hallucinations",
+        "irrelevant evidence",
+        "multi-source retrieval-augmented generation",
+        "benchmarks"
+      ]
+    },
+    "publishedAt": "2025-08-11T11:31:47.000Z",
+    "title": "HierSearch: A Hierarchical Enterprise Deep Search Framework Integrating\n  Local and Web Searches",
+    "summary": "Recently, large reasoning models have demonstrated strong mathematical and\ncoding abilities, and deep search leverages their reasoning capabilities in\nchallenging information retrieval tasks. Existing deep search works are\ngenerally limited to a single knowledge source, either local or the Web.\nHowever, enterprises often require private deep search systems that can\nleverage search tools over both local and the Web corpus. Simply training an\nagent equipped with multiple search tools using flat reinforcement learning\n(RL) is a straightforward idea, but it has problems such as low training data\nefficiency and poor mastery of complex tools. To address the above issue, we\npropose a hierarchical agentic deep search framework, HierSearch, trained with\nhierarchical RL. At the low level, a local deep search agent and a Web deep\nsearch agent are trained to retrieve evidence from their corresponding domains.\nAt the high level, a planner agent coordinates low-level agents and provides\nthe final answer. Moreover, to prevent direct answer copying and error\npropagation, we design a knowledge refiner that filters out hallucinations and\nirrelevant evidence returned by low-level agents. Experiments show that\nHierSearch achieves better performance compared to flat RL, and outperforms\nvarious deep search and multi-source retrieval-augmented generation baselines\nin six benchmarks across general, finance, and medical domains.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.08088.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62e52483a944e2a56cd2c6ca",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62e52483a944e2a56cd2c6ca/pG44O-1qD00q5CEJMMyFQ.jpeg",
+      "fullname": "Jiejun Tan",
+      "name": "zstanjj",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 14
+    },
+    "isAuthorParticipating": false
+  }
+]
