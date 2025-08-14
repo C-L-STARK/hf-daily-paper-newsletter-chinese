@@ -1,0 +1,79 @@
+[
+  {
+    "paper": {
+      "id": "2508.09889",
+      "authors": [
+        {
+          "_id": "689d4a16b083e610d741e9c1",
+          "name": "Zhitian Xie",
+          "hidden": false
+        },
+        {
+          "_id": "689d4a16b083e610d741e9c2",
+          "name": "Qintong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "689d4a16b083e610d741e9c3",
+          "name": "Chengyue Yu",
+          "hidden": false
+        },
+        {
+          "_id": "689d4a16b083e610d741e9c4",
+          "name": "Chenyi Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "689d4a16b083e610d741e9c5",
+          "name": "Jinjie Gu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-13T15:46:25.000Z",
+      "submittedOnDailyAt": "2025-08-14T01:13:03.061Z",
+      "title": "AWorld: Dynamic Multi-Agent System with Stable Maneuvering for Robust\n  GAIA Problem Solving",
+      "submittedOnDailyBy": {
+        "_id": "64e847ab5ddcace745b8f5b1",
+        "avatarUrl": "/avatars/89525e66ff2900f86f66a11043a298f9.svg",
+        "isPro": true,
+        "fullname": "chenyi zhuang",
+        "user": "chengle",
+        "type": "user"
+      },
+      "summary": "The rapid advancement of large language models (LLMs) has empowered\nintelligent agents to leverage diverse external tools for solving complex\nreal-world problems. However, as agents increasingly depend on multiple tools,\nthey encounter new challenges: extended contexts from disparate sources and\nnoisy or irrelevant tool outputs can undermine system reliability and accuracy.\nThese challenges underscore the necessity for enhanced stability in agent-based\nsystems. To address this, we introduce dynamic supervision and maneuvering\nmechanisms, constructing a robust and dynamic Multi-Agent System (MAS)\narchitecture within the AWorld framework. In our approach, the Execution Agent\ninvokes the Guard Agent at critical steps to verify and correct the reasoning\nprocess, effectively reducing errors arising from noise and bolstering\nproblem-solving robustness. Extensive experiments on the GAIA test dataset\nreveal that our dynamic maneuvering mechanism significantly improves both the\neffectiveness and stability of solutions, outperforming single-agent system\n(SAS) and standard tool-augmented systems. As a result, our dynamic MAS system\nachieved first place among open-source projects on the prestigious GAIA\nleaderboard. These findings highlight the practical value of collaborative\nagent roles in developing more reliable and trustworthy intelligent systems.",
+      "upvotes": 3,
+      "discussionId": "689d4a17b083e610d741e9c6",
+      "ai_summary": "A dynamic Multi-Agent System (MAS) with Execution and Guard Agents improves the reliability and effectiveness of intelligent agents using external tools, outperforming single-agent systems on the GAIA leaderboard.",
+      "ai_keywords": [
+        "large language models",
+        "Multi-Agent System",
+        "Execution Agent",
+        "Guard Agent",
+        "dynamic supervision",
+        "maneuvering mechanisms",
+        "GAIA test dataset",
+        "single-agent system",
+        "tool-augmented systems",
+        "GAIA leaderboard"
+      ]
+    },
+    "publishedAt": "2025-08-13T11:46:25.000Z",
+    "title": "AWorld: Dynamic Multi-Agent System with Stable Maneuvering for Robust\n  GAIA Problem Solving",
+    "summary": "The rapid advancement of large language models (LLMs) has empowered\nintelligent agents to leverage diverse external tools for solving complex\nreal-world problems. However, as agents increasingly depend on multiple tools,\nthey encounter new challenges: extended contexts from disparate sources and\nnoisy or irrelevant tool outputs can undermine system reliability and accuracy.\nThese challenges underscore the necessity for enhanced stability in agent-based\nsystems. To address this, we introduce dynamic supervision and maneuvering\nmechanisms, constructing a robust and dynamic Multi-Agent System (MAS)\narchitecture within the AWorld framework. In our approach, the Execution Agent\ninvokes the Guard Agent at critical steps to verify and correct the reasoning\nprocess, effectively reducing errors arising from noise and bolstering\nproblem-solving robustness. Extensive experiments on the GAIA test dataset\nreveal that our dynamic maneuvering mechanism significantly improves both the\neffectiveness and stability of solutions, outperforming single-agent system\n(SAS) and standard tool-augmented systems. As a result, our dynamic MAS system\nachieved first place among open-source projects on the prestigious GAIA\nleaderboard. These findings highlight the practical value of collaborative\nagent roles in developing more reliable and trustworthy intelligent systems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.09889.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64e847ab5ddcace745b8f5b1",
+      "avatarUrl": "/avatars/89525e66ff2900f86f66a11043a298f9.svg",
+      "fullname": "chenyi zhuang",
+      "name": "chengle",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  }
+]
