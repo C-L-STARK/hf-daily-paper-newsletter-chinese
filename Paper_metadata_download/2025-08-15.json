@@ -1,0 +1,407 @@
+[
+  {
+    "paper": {
+      "id": "2508.10433",
+      "authors": [
+        {
+          "_id": "689e8afda4caabb4320e5cca",
+          "name": "Runqi Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5ccb",
+          "name": "Qiuna Tan",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5ccc",
+          "name": "Peiqing Yang",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5ccd",
+          "name": "Yanzi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cce",
+          "name": "Xiaowan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5ccf",
+          "name": "Enhui Wan",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cd0",
+          "name": "Sitong Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cd1",
+          "name": "Guanting Dong",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cd2",
+          "name": "Yuchen Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cd3",
+          "name": "Yida Xu",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cd4",
+          "name": "Jie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cd5",
+          "name": "Chong Sun",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cd6",
+          "name": "Chen Li",
+          "hidden": false
+        },
+        {
+          "_id": "689e8afda4caabb4320e5cd7",
+          "name": "Honggang Zhang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6683a05e74fb1736a4b7c934/ByDtHPTXv1Xt6pmngd3no.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/6683a05e74fb1736a4b7c934/dzhRhIcGJYT-gHIG0J9JU.png"
+      ],
+      "publishedAt": "2025-08-14T08:15:41.000Z",
+      "submittedOnDailyAt": "2025-08-15T01:02:46.436Z",
+      "title": "We-Math 2.0: A Versatile MathBook System for Incentivizing Visual\n  Mathematical Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6683a05e74fb1736a4b7c934",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6683a05e74fb1736a4b7c934/eiz6qlqIUjAWGy5zfg8Cs.jpeg",
+        "isPro": false,
+        "fullname": "QRQ",
+        "user": "RichardQRQ",
+        "type": "user"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) have demonstrated impressive\ncapabilities across various tasks, but still struggle with complex mathematical\nreasoning. Existing research primarily focuses on dataset construction and\nmethod optimization, often overlooking two critical aspects: comprehensive\nknowledge-driven design and model-centric data space modeling. In this paper,\nwe introduce We-Math 2.0, a unified system that integrates a structured\nmathematical knowledge system, model-centric data space modeling, and a\nreinforcement learning (RL)-based training paradigm to comprehensively enhance\nthe mathematical reasoning abilities of MLLMs. The key contributions of We-Math\n2.0 are fourfold: (1) MathBook Knowledge System: We construct a five-level\nhierarchical system encompassing 491 knowledge points and 1,819 fundamental\nprinciples. (2) MathBook-Standard & Pro: We develop MathBook-Standard, a\ndataset that ensures broad conceptual coverage and flexibility through dual\nexpansion. Additionally, we define a three-dimensional difficulty space and\ngenerate 7 progressive variants per problem to build MathBook-Pro, a\nchallenging dataset for robust training. (3) MathBook-RL: We propose a\ntwo-stage RL framework comprising: (i) Cold-Start Fine-tuning, which aligns the\nmodel with knowledge-oriented chain-of-thought reasoning; and (ii) Progressive\nAlignment RL, leveraging average-reward learning and dynamic data scheduling to\nachieve progressive alignment across difficulty levels. (4) MathBookEval: We\nintroduce a comprehensive benchmark covering all 491 knowledge points with\ndiverse reasoning step distributions. Experimental results show that\nMathBook-RL performs competitively with existing baselines on four widely-used\nbenchmarks and achieves strong results on MathBookEval, suggesting promising\ngeneralization in mathematical reasoning.",
+      "upvotes": 7,
+      "discussionId": "689e8afea4caabb4320e5cd8",
+      "projectPage": "https://we-math2.github.io/",
+      "githubRepo": "https://github.com/We-Math/We-Math2.0",
+      "ai_summary": "We-Math 2.0 enhances MLLMs' mathematical reasoning through a structured knowledge system, model-centric data space modeling, and reinforcement learning, demonstrating competitive performance on benchmarks.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "MLLMs",
+        "mathematical reasoning",
+        "MathBook Knowledge System",
+        "MathBook-Standard",
+        "MathBook-Pro",
+        "MathBook-RL",
+        "Cold-Start Fine-tuning",
+        "Progressive Alignment RL",
+        "MathBookEval",
+        "chain-of-thought reasoning",
+        "average-reward learning",
+        "dynamic data scheduling"
+      ]
+    },
+    "publishedAt": "2025-08-14T04:15:41.000Z",
+    "title": "We-Math 2.0: A Versatile MathBook System for Incentivizing Visual\n  Mathematical Reasoning",
+    "summary": "Multimodal Large Language Models (MLLMs) have demonstrated impressive\ncapabilities across various tasks, but still struggle with complex mathematical\nreasoning. Existing research primarily focuses on dataset construction and\nmethod optimization, often overlooking two critical aspects: comprehensive\nknowledge-driven design and model-centric data space modeling. In this paper,\nwe introduce We-Math 2.0, a unified system that integrates a structured\nmathematical knowledge system, model-centric data space modeling, and a\nreinforcement learning (RL)-based training paradigm to comprehensively enhance\nthe mathematical reasoning abilities of MLLMs. The key contributions of We-Math\n2.0 are fourfold: (1) MathBook Knowledge System: We construct a five-level\nhierarchical system encompassing 491 knowledge points and 1,819 fundamental\nprinciples. (2) MathBook-Standard & Pro: We develop MathBook-Standard, a\ndataset that ensures broad conceptual coverage and flexibility through dual\nexpansion. Additionally, we define a three-dimensional difficulty space and\ngenerate 7 progressive variants per problem to build MathBook-Pro, a\nchallenging dataset for robust training. (3) MathBook-RL: We propose a\ntwo-stage RL framework comprising: (i) Cold-Start Fine-tuning, which aligns the\nmodel with knowledge-oriented chain-of-thought reasoning; and (ii) Progressive\nAlignment RL, leveraging average-reward learning and dynamic data scheduling to\nachieve progressive alignment across difficulty levels. (4) MathBookEval: We\nintroduce a comprehensive benchmark covering all 491 knowledge points with\ndiverse reasoning step distributions. Experimental results show that\nMathBook-RL performs competitively with existing baselines on four widely-used\nbenchmarks and achieves strong results on MathBookEval, suggesting promising\ngeneralization in mathematical reasoning.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6683a05e74fb1736a4b7c934/ByDtHPTXv1Xt6pmngd3no.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/6683a05e74fb1736a4b7c934/dzhRhIcGJYT-gHIG0J9JU.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.10433.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6683a05e74fb1736a4b7c934",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6683a05e74fb1736a4b7c934/eiz6qlqIUjAWGy5zfg8Cs.jpeg",
+      "fullname": "QRQ",
+      "name": "RichardQRQ",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.09848",
+      "authors": [
+        {
+          "_id": "689dc868b083e610d741eb30",
+          "name": "Mo Yu",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb31",
+          "name": "Tsz Ting Chung",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb32",
+          "name": "Chulun Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb33",
+          "name": "Tong Li",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb34",
+          "name": "Rui Lu",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb35",
+          "name": "Jiangnan Li",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb36",
+          "name": "Liyan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb37",
+          "name": "Haoshu Lu",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb38",
+          "name": "Ning Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb39",
+          "name": "Jing Li",
+          "hidden": false
+        },
+        {
+          "_id": "689dc868b083e610d741eb3a",
+          "name": "Jie Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-13T14:28:25.000Z",
+      "submittedOnDailyAt": "2025-08-15T01:12:28.551Z",
+      "title": "PRELUDE: A Benchmark Designed to Require Global Comprehension and\n  Reasoning over Long Contexts",
+      "submittedOnDailyBy": {
+        "_id": "60ab6b2ee3de7c7440abb845",
+        "avatarUrl": "/avatars/22916bece3b5b951c016bf2ddd8dda1c.svg",
+        "isPro": false,
+        "fullname": "Cindy",
+        "user": "ttchungc",
+        "type": "user"
+      },
+      "summary": "We introduce PRELUDE, a benchmark for evaluating long-context understanding\nthrough the task of determining whether a character's prequel story is\nconsistent with the canonical narrative of the original book. Our task poses a\nstronger demand for global comprehension and deep reasoning than existing\nbenchmarks -- as the prequels are not part of the original story, assessing\ntheir plausibility typically requires searching and integrating information\nthat is only indirectly related. Empirically, 88% of instances require evidence\nfrom multiple parts of the narrative. Experimental results highlight the\nchallenge of our task: in-context learning, RAG and in-domain training with\nstate-of-the-art LLMs, and commercial DeepResearch services, lag behind humans\nby >15%. A further human study reveals that models often produce correct\nanswers with flawed reasoning, leading to an over 30% gap in reasoning accuracy\ncompared to humans. These findings underscore the substantial room for\nimprovement in long-context understanding and reasoning.",
+      "upvotes": 4,
+      "discussionId": "689dc869b083e610d741eb3b",
+      "projectPage": "https://gorov.github.io/prelude",
+      "ai_summary": "A benchmark called PRELUDE evaluates long-context understanding by assessing the consistency of prequel stories with original books, revealing significant challenges for models compared to humans.",
+      "ai_keywords": [
+        "PRELUDE",
+        "long-context understanding",
+        "in-context learning",
+        "RAG",
+        "state-of-the-art LLMs",
+        "DeepResearch",
+        "reasoning accuracy"
+      ]
+    },
+    "publishedAt": "2025-08-13T10:28:25.000Z",
+    "title": "PRELUDE: A Benchmark Designed to Require Global Comprehension and\n  Reasoning over Long Contexts",
+    "summary": "We introduce PRELUDE, a benchmark for evaluating long-context understanding\nthrough the task of determining whether a character's prequel story is\nconsistent with the canonical narrative of the original book. Our task poses a\nstronger demand for global comprehension and deep reasoning than existing\nbenchmarks -- as the prequels are not part of the original story, assessing\ntheir plausibility typically requires searching and integrating information\nthat is only indirectly related. Empirically, 88% of instances require evidence\nfrom multiple parts of the narrative. Experimental results highlight the\nchallenge of our task: in-context learning, RAG and in-domain training with\nstate-of-the-art LLMs, and commercial DeepResearch services, lag behind humans\nby >15%. A further human study reveals that models often produce correct\nanswers with flawed reasoning, leading to an over 30% gap in reasoning accuracy\ncompared to humans. These findings underscore the substantial room for\nimprovement in long-context understanding and reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.09848.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60ab6b2ee3de7c7440abb845",
+      "avatarUrl": "/avatars/22916bece3b5b951c016bf2ddd8dda1c.svg",
+      "fullname": "Cindy",
+      "name": "ttchungc",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.10860",
+      "authors": [
+        {
+          "_id": "689e9a49a4caabb4320e5d12",
+          "name": "Zhaokun Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "689e9a49a4caabb4320e5d13",
+          "name": "Ziyin Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-14T17:31:18.000Z",
+      "submittedOnDailyAt": "2025-08-15T00:56:04.904Z",
+      "title": "From Black Box to Transparency: Enhancing Automated Interpreting\n  Assessment with Explainable AI in College Classrooms",
+      "submittedOnDailyBy": {
+        "_id": "6430bdd8cd31d174a9f900fb",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Y9SPnRfpKSbYc7MhNdP-H.jpeg",
+        "isPro": false,
+        "fullname": "Ziyin Zhang",
+        "user": "Geralt-Targaryen",
+        "type": "user"
+      },
+      "summary": "Recent advancements in machine learning have spurred growing interests in\nautomated interpreting quality assessment. Nevertheless, existing research\nsuffers from insufficient examination of language use quality, unsatisfactory\nmodeling effectiveness due to data scarcity and imbalance, and a lack of\nefforts to explain model predictions. To address these gaps, we propose a\nmulti-dimensional modeling framework that integrates feature engineering, data\naugmentation, and explainable machine learning. This approach prioritizes\nexplainability over ``black box'' predictions by utilizing only\nconstruct-relevant, transparent features and conducting Shapley Value (SHAP)\nanalysis. Our results demonstrate strong predictive performance on a novel\nEnglish-Chinese consecutive interpreting dataset, identifying BLEURT and\nCometKiwi scores to be the strongest predictive features for fidelity,\npause-related features for fluency, and Chinese-specific phraseological\ndiversity metrics for language use. Overall, by placing particular emphasis on\nexplainability, we present a scalable, reliable, and transparent alternative to\ntraditional human evaluation, facilitating the provision of detailed diagnostic\nfeedback for learners and supporting self-regulated learning advantages not\nafforded by automated scores in isolation.",
+      "upvotes": 2,
+      "discussionId": "689e9a4aa4caabb4320e5d14",
+      "ai_summary": "A multi-dimensional modeling framework enhances automated interpreting quality assessment by integrating feature engineering, data augmentation, and explainable machine learning, focusing on transparency and detailed diagnostic feedback.",
+      "ai_keywords": [
+        "feature engineering",
+        "data augmentation",
+        "explainable machine learning",
+        "Shapley Value (SHAP)",
+        "BLEURT",
+        "CometKiwi",
+        "language use quality",
+        "model predictions",
+        "English-Chinese consecutive interpreting",
+        "fidelity",
+        "fluency",
+        "Chinese-specific phraseological diversity metrics",
+        "self-regulated learning"
+      ]
+    },
+    "publishedAt": "2025-08-14T13:31:18.000Z",
+    "title": "From Black Box to Transparency: Enhancing Automated Interpreting\n  Assessment with Explainable AI in College Classrooms",
+    "summary": "Recent advancements in machine learning have spurred growing interests in\nautomated interpreting quality assessment. Nevertheless, existing research\nsuffers from insufficient examination of language use quality, unsatisfactory\nmodeling effectiveness due to data scarcity and imbalance, and a lack of\nefforts to explain model predictions. To address these gaps, we propose a\nmulti-dimensional modeling framework that integrates feature engineering, data\naugmentation, and explainable machine learning. This approach prioritizes\nexplainability over ``black box'' predictions by utilizing only\nconstruct-relevant, transparent features and conducting Shapley Value (SHAP)\nanalysis. Our results demonstrate strong predictive performance on a novel\nEnglish-Chinese consecutive interpreting dataset, identifying BLEURT and\nCometKiwi scores to be the strongest predictive features for fidelity,\npause-related features for fluency, and Chinese-specific phraseological\ndiversity metrics for language use. Overall, by placing particular emphasis on\nexplainability, we present a scalable, reliable, and transparent alternative to\ntraditional human evaluation, facilitating the provision of detailed diagnostic\nfeedback for learners and supporting self-regulated learning advantages not\nafforded by automated scores in isolation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.10860.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6430bdd8cd31d174a9f900fb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Y9SPnRfpKSbYc7MhNdP-H.jpeg",
+      "fullname": "Ziyin Zhang",
+      "name": "Geralt-Targaryen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.10576",
+      "authors": [
+        {
+          "_id": "689e9eb4a4caabb4320e5d3a",
+          "name": "Zheng Qin",
+          "hidden": false
+        },
+        {
+          "_id": "689e9eb4a4caabb4320e5d3b",
+          "name": "Ruobing Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "689e9eb4a4caabb4320e5d3c",
+          "name": "Yabing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "689e9eb4a4caabb4320e5d3d",
+          "name": "Tianqi Li",
+          "hidden": false
+        },
+        {
+          "_id": "689e9eb4a4caabb4320e5d3e",
+          "name": "Yi Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "689e9eb4a4caabb4320e5d3f",
+          "name": "Jingdong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "689e9eb4a4caabb4320e5d40",
+          "name": "Le Wang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/676a52b5c32a51c8a39d5307/LIaSWGn6wk1CRhZBtXa02.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/676a52b5c32a51c8a39d5307/nq95U2jcbJuumsLZUC39u.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/676a52b5c32a51c8a39d5307/zGxKiqoSYP3KXy5F8O7SU.png"
+      ],
+      "publishedAt": "2025-08-14T12:14:15.000Z",
+      "submittedOnDailyAt": "2025-08-15T01:16:03.262Z",
+      "title": "HumanSense: From Multimodal Perception to Empathetic Context-Aware\n  Responses through Reasoning MLLMs",
+      "submittedOnDailyBy": {
+        "_id": "676a52b5c32a51c8a39d5307",
+        "avatarUrl": "/avatars/b7493ed8e8cc3aab8cc0ca89a326f3c4.svg",
+        "isPro": false,
+        "fullname": "ruobing zheng",
+        "user": "RobinRoaR",
+        "type": "user"
+      },
+      "summary": "While Multimodal Large Language Models (MLLMs) show immense promise for\nachieving truly human-like interactions, progress is hindered by the lack of\nfine-grained evaluation frameworks for human-centered scenarios, encompassing\nboth the understanding of complex human intentions and the provision of\nempathetic, context-aware responses. Here we introduce HumanSense, a\ncomprehensive benchmark designed to evaluate the human-centered perception and\ninteraction capabilities of MLLMs, with a particular focus on deep\nunderstanding of extended multimodal contexts and the formulation of rational\nfeedback. Our evaluation reveals that leading MLLMs still have considerable\nroom for improvement, particularly for advanced interaction-oriented tasks.\nSupplementing visual input with audio and text information yields substantial\nimprovements, and Omni-modal models show advantages on these tasks.\nFurthermore, we argue that appropriate feedback stems from a contextual\nanalysis of the interlocutor's needs and emotions, with reasoning ability\nserving as the key to unlocking it. Accordingly, we employ a multi-stage,\nmodality-progressive reinforcement learning to enhance the reasoning abilities\nof an Omni model, achieving substantial gains on evaluation results.\nAdditionally, we observe that successful reasoning processes exhibit highly\nconsistent thought patterns. By designing corresponding prompts, we also\nenhance the performance of non-reasoning models in a training-free manner.\nProject page:\nbrightpinkhttps://digital-avatar.github.io/ai/HumanSense/",
+      "upvotes": 1,
+      "discussionId": "689e9eb4a4caabb4320e5d41",
+      "projectPage": "https://digital-avatar.github.io/ai/HumanSense/",
+      "ai_summary": "HumanSense is a benchmark for evaluating human-centered perception and interaction in Multimodal Large Language Models, focusing on multimodal context understanding and rational feedback through reinforcement learning.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "HumanSense",
+        "benchmark",
+        "human-centered perception",
+        "interaction capabilities",
+        "extended multimodal contexts",
+        "rational feedback",
+        "reinforcement learning",
+        "Omni-modal models",
+        "contextual analysis",
+        "reasoning abilities",
+        "thought patterns",
+        "prompts"
+      ]
+    },
+    "publishedAt": "2025-08-14T08:14:15.000Z",
+    "title": "HumanSense: From Multimodal Perception to Empathetic Context-Aware\n  Responses through Reasoning MLLMs",
+    "summary": "While Multimodal Large Language Models (MLLMs) show immense promise for\nachieving truly human-like interactions, progress is hindered by the lack of\nfine-grained evaluation frameworks for human-centered scenarios, encompassing\nboth the understanding of complex human intentions and the provision of\nempathetic, context-aware responses. Here we introduce HumanSense, a\ncomprehensive benchmark designed to evaluate the human-centered perception and\ninteraction capabilities of MLLMs, with a particular focus on deep\nunderstanding of extended multimodal contexts and the formulation of rational\nfeedback. Our evaluation reveals that leading MLLMs still have considerable\nroom for improvement, particularly for advanced interaction-oriented tasks.\nSupplementing visual input with audio and text information yields substantial\nimprovements, and Omni-modal models show advantages on these tasks.\nFurthermore, we argue that appropriate feedback stems from a contextual\nanalysis of the interlocutor's needs and emotions, with reasoning ability\nserving as the key to unlocking it. Accordingly, we employ a multi-stage,\nmodality-progressive reinforcement learning to enhance the reasoning abilities\nof an Omni model, achieving substantial gains on evaluation results.\nAdditionally, we observe that successful reasoning processes exhibit highly\nconsistent thought patterns. By designing corresponding prompts, we also\nenhance the performance of non-reasoning models in a training-free manner.\nProject page:\nbrightpinkhttps://digital-avatar.github.io/ai/HumanSense/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/676a52b5c32a51c8a39d5307/LIaSWGn6wk1CRhZBtXa02.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/676a52b5c32a51c8a39d5307/nq95U2jcbJuumsLZUC39u.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/676a52b5c32a51c8a39d5307/zGxKiqoSYP3KXy5F8O7SU.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.10576.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "676a52b5c32a51c8a39d5307",
+      "avatarUrl": "/avatars/b7493ed8e8cc3aab8cc0ca89a326f3c4.svg",
+      "fullname": "ruobing zheng",
+      "name": "RobinRoaR",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
