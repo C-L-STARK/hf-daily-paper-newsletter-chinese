@@ -1,0 +1,240 @@
+[
+  {
+    "paper": {
+      "id": "2508.11630",
+      "authors": [
+        {
+          "_id": "68a286afa4caabb4320e63b6",
+          "name": "Yi-Fan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63b7",
+          "name": "Xingyu Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63b8",
+          "name": "Shukang Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63b9",
+          "name": "Chaoyou Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63ba",
+          "name": "Wei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63bb",
+          "name": "Xiao Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63bc",
+          "name": "Bin Wen",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63bd",
+          "name": "Kaiyu Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63be",
+          "name": "Changyi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63bf",
+          "name": "Tianke Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c0",
+          "name": "Haonan Fan",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c1",
+          "name": "Kaibing Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c2",
+          "name": "Jiankang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c3",
+          "name": "Haojie Ding",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c4",
+          "name": "Kaiyu Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c5",
+          "name": "Zhang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c6",
+          "name": "Liang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c7",
+          "name": "Fan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c8",
+          "name": "Tingting Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68a286afa4caabb4320e63c9",
+          "name": "Guorui Zhou",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/623d8ca4c29adf5ef6175615/EugCupc41u3ZdJyP6uqWm.png"
+      ],
+      "publishedAt": "2025-08-15T17:59:49.000Z",
+      "submittedOnDailyAt": "2025-08-18T00:21:09.935Z",
+      "title": "Thyme: Think Beyond Images",
+      "submittedOnDailyBy": {
+        "_id": "623d8ca4c29adf5ef6175615",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623d8ca4c29adf5ef6175615/q7lHao7UPwU1u7YLSP56m.jpeg",
+        "isPro": false,
+        "fullname": "Yi-Fan Zhang",
+        "user": "yifanzhang114",
+        "type": "user"
+      },
+      "summary": "Following OpenAI's introduction of the ``thinking with images'' concept,\nrecent efforts have explored stimulating the use of visual information in the\nreasoning process to enhance model performance in perception and reasoning\ntasks. However, to the best of our knowledge, no open-source work currently\noffers a feature set as rich as proprietary models (O3), which can perform\ndiverse image manipulations and simultaneously enhance logical reasoning\ncapabilities through code. In this paper, we make a preliminary attempt in this\ndirection by introducing Thyme (Think Beyond Images), a novel paradigm for\nenabling MLLMs to transcend existing ``think with images'' approaches by\nautonomously generating and executing diverse image processing and\ncomputational operations via executable code. This approach not only\nfacilitates a rich, on-the-fly set of image manipulations (e.g., cropping,\nrotation, contrast enhancement) but also allows for mathematical computations,\nall while maintaining high autonomy in deciding when and how to apply these\noperations. We activate this capability through a two-stage training strategy:\nan initial SFT on a curated dataset of 500K samples to teach code generation,\nfollowed by a RL phase to refine decision-making. For the RL stage, we manually\ncollect and design high-resolution question-answer pairs to increase the\nlearning difficulty, and we propose GRPO-ATS (Group Relative Policy\nOptimization with Adaptive Temperature Sampling), an algorithm that applies\ndistinct temperatures to text and code generation to balance reasoning\nexploration with code execution precision. We conduct extensive experimental\nanalysis and ablation studies. Comprehensive evaluations on nearly 20\nbenchmarks show that Thyme yields significant and consistent performance gains,\nparticularly in challenging high-resolution perception and complex reasoning\ntasks.",
+      "upvotes": 9,
+      "discussionId": "68a286afa4caabb4320e63ca",
+      "projectPage": "https://thyme-vl.github.io/",
+      "githubRepo": "https://github.com/yfzhang114/Thyme",
+      "ai_summary": "Thyme, a novel paradigm, enables MLLMs to autonomously perform image manipulations and computations, enhancing performance in perception and reasoning tasks through a two-stage training strategy and GRPO-ATS algorithm.",
+      "ai_keywords": [
+        "MLLMs",
+        "think with images",
+        "image processing",
+        "computational operations",
+        "executable code",
+        "SFT",
+        "RL",
+        "GRPO-ATS",
+        "Group Relative Policy Optimization",
+        "Adaptive Temperature Sampling"
+      ],
+      "githubStars": 11
+    },
+    "publishedAt": "2025-08-15T13:59:49.000Z",
+    "title": "Thyme: Think Beyond Images",
+    "summary": "Following OpenAI's introduction of the ``thinking with images'' concept,\nrecent efforts have explored stimulating the use of visual information in the\nreasoning process to enhance model performance in perception and reasoning\ntasks. However, to the best of our knowledge, no open-source work currently\noffers a feature set as rich as proprietary models (O3), which can perform\ndiverse image manipulations and simultaneously enhance logical reasoning\ncapabilities through code. In this paper, we make a preliminary attempt in this\ndirection by introducing Thyme (Think Beyond Images), a novel paradigm for\nenabling MLLMs to transcend existing ``think with images'' approaches by\nautonomously generating and executing diverse image processing and\ncomputational operations via executable code. This approach not only\nfacilitates a rich, on-the-fly set of image manipulations (e.g., cropping,\nrotation, contrast enhancement) but also allows for mathematical computations,\nall while maintaining high autonomy in deciding when and how to apply these\noperations. We activate this capability through a two-stage training strategy:\nan initial SFT on a curated dataset of 500K samples to teach code generation,\nfollowed by a RL phase to refine decision-making. For the RL stage, we manually\ncollect and design high-resolution question-answer pairs to increase the\nlearning difficulty, and we propose GRPO-ATS (Group Relative Policy\nOptimization with Adaptive Temperature Sampling), an algorithm that applies\ndistinct temperatures to text and code generation to balance reasoning\nexploration with code execution precision. We conduct extensive experimental\nanalysis and ablation studies. Comprehensive evaluations on nearly 20\nbenchmarks show that Thyme yields significant and consistent performance gains,\nparticularly in challenging high-resolution perception and complex reasoning\ntasks.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/623d8ca4c29adf5ef6175615/EugCupc41u3ZdJyP6uqWm.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.11630.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "623d8ca4c29adf5ef6175615",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623d8ca4c29adf5ef6175615/q7lHao7UPwU1u7YLSP56m.jpeg",
+      "fullname": "Yi-Fan Zhang",
+      "name": "yifanzhang114",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.11116",
+      "authors": [
+        {
+          "_id": "68a28285a4caabb4320e63ae",
+          "name": "Zhuoqun Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a28285a4caabb4320e63af",
+          "name": "Xuanang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a28285a4caabb4320e63b0",
+          "name": "Hongyu Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68a28285a4caabb4320e63b1",
+          "name": "Yaojie Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68a28285a4caabb4320e63b2",
+          "name": "Xianpei Han",
+          "hidden": false
+        },
+        {
+          "_id": "68a28285a4caabb4320e63b3",
+          "name": "Le Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-14T23:43:46.000Z",
+      "submittedOnDailyAt": "2025-08-18T00:02:29.714Z",
+      "title": "PaperRegister: Boosting Flexible-grained Paper Search via Hierarchical\n  Register Indexing",
+      "submittedOnDailyBy": {
+        "_id": "63664c8fa2abcdf2fd6425ed",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63664c8fa2abcdf2fd6425ed/IywpB0DXZ_twkmZmVSCCD.jpeg",
+        "isPro": false,
+        "fullname": "Li Zhuoqun",
+        "user": "lzq2021",
+        "type": "user"
+      },
+      "summary": "Paper search is an important activity for researchers, typically involving\nusing a query with description of a topic to find relevant papers. As research\ndeepens, paper search requirements may become more flexible, sometimes\ninvolving specific details such as module configuration rather than being\nlimited to coarse-grained topics. However, previous paper search systems are\nunable to meet these flexible-grained requirements, as these systems mainly\ncollect paper abstracts to construct index of corpus, which lack detailed\ninformation to support retrieval by finer-grained queries. In this work, we\npropose PaperRegister, consisted of offline hierarchical indexing and online\nadaptive retrieval, transforming traditional abstract-based index into\nhierarchical index tree for paper search, thereby supporting queries at\nflexible granularity. Experiments on paper search tasks across a range of\ngranularity demonstrate that PaperRegister achieves the state-of-the-art\nperformance, and particularly excels in fine-grained scenarios, highlighting\nthe good potential as an effective solution for flexible-grained paper search\nin real-world applications. Code for this work is in\nhttps://github.com/Li-Z-Q/PaperRegister.",
+      "upvotes": 1,
+      "discussionId": "68a28285a4caabb4320e63b4",
+      "githubRepo": "https://github.com/Li-Z-Q/PaperRegister",
+      "ai_summary": "PaperRegister enhances paper search by using hierarchical indexing and adaptive retrieval, supporting flexible and fine-grained queries beyond traditional abstract-based systems.",
+      "ai_keywords": [
+        "hierarchical indexing",
+        "adaptive retrieval",
+        "fine-grained queries"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2025-08-14T19:43:46.000Z",
+    "title": "PaperRegister: Boosting Flexible-grained Paper Search via Hierarchical\n  Register Indexing",
+    "summary": "Paper search is an important activity for researchers, typically involving\nusing a query with description of a topic to find relevant papers. As research\ndeepens, paper search requirements may become more flexible, sometimes\ninvolving specific details such as module configuration rather than being\nlimited to coarse-grained topics. However, previous paper search systems are\nunable to meet these flexible-grained requirements, as these systems mainly\ncollect paper abstracts to construct index of corpus, which lack detailed\ninformation to support retrieval by finer-grained queries. In this work, we\npropose PaperRegister, consisted of offline hierarchical indexing and online\nadaptive retrieval, transforming traditional abstract-based index into\nhierarchical index tree for paper search, thereby supporting queries at\nflexible granularity. Experiments on paper search tasks across a range of\ngranularity demonstrate that PaperRegister achieves the state-of-the-art\nperformance, and particularly excels in fine-grained scenarios, highlighting\nthe good potential as an effective solution for flexible-grained paper search\nin real-world applications. Code for this work is in\nhttps://github.com/Li-Z-Q/PaperRegister.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.11116.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "63664c8fa2abcdf2fd6425ed",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63664c8fa2abcdf2fd6425ed/IywpB0DXZ_twkmZmVSCCD.jpeg",
+      "fullname": "Li Zhuoqun",
+      "name": "lzq2021",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
