@@ -1,0 +1,308 @@
+[
+  {
+    "paper": {
+      "id": "2508.09834",
+      "authors": [
+        {
+          "_id": "68a31244b65388761d074306",
+          "name": "Weigao Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d074307",
+          "name": "Jiaxi Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d074308",
+          "name": "Yucheng Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d074309",
+          "name": "Jusen Du",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d07430a",
+          "name": "Disen Lan",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d07430b",
+          "name": "Kexin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d07430c",
+          "name": "Tong Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d07430d",
+          "name": "Xiaoye Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d07430e",
+          "name": "Yu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d07430f",
+          "name": "Xiaoyu Mo",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d074310",
+          "name": "Daizong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d074311",
+          "name": "Yuxuan Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d074312",
+          "name": "Wenliang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d074313",
+          "name": "Guoqi Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a31244b65388761d074314",
+          "name": "Yu Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-13T14:13:46.000Z",
+      "submittedOnDailyAt": "2025-08-19T01:03:34.076Z",
+      "title": "Speed Always Wins: A Survey on Efficient Architectures for Large\n  Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6246bb33da617c00b48e4d92",
+        "avatarUrl": "/avatars/0304a9f6eb7f5dee4d933d03222f94e9.svg",
+        "isPro": false,
+        "fullname": "Weigao Sun",
+        "user": "weigao266",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have delivered impressive results in language\nunderstanding, generation, reasoning, and pushes the ability boundary of\nmultimodal models. Transformer models, as the foundation of modern LLMs, offer\na strong baseline with excellent scaling properties. However, the traditional\ntransformer architecture requires substantial computations and poses\nsignificant obstacles for large-scale training and practical deployment. In\nthis survey, we offer a systematic examination of innovative LLM architectures\nthat address the inherent limitations of transformers and boost the efficiency.\nStarting from language modeling, this survey covers the background and\ntechnical details of linear and sparse sequence modeling methods, efficient\nfull attention variants, sparse mixture-of-experts, hybrid model architectures\nincorporating the above techniques, and emerging diffusion LLMs. Additionally,\nwe discuss applications of these techniques to other modalities and consider\ntheir wider implications for developing scalable, resource-aware foundation\nmodels. By grouping recent studies into the above category, this survey\npresents a blueprint of modern efficient LLM architectures, and we hope this\ncould help motivate future research toward more efficient, versatile AI\nsystems.",
+      "upvotes": 3,
+      "discussionId": "68a31244b65388761d074315",
+      "projectPage": "https://github.com/weigao266/Awesome-Efficient-Arch",
+      "githubRepo": "https://github.com/weigao266/Awesome-Efficient-Arch",
+      "ai_summary": "This survey examines innovative architectures for large language models to enhance efficiency, covering linear and sparse sequence modeling, efficient attention mechanisms, sparse mixture-of-experts, hybrid models, and diffusion LLMs.",
+      "ai_keywords": [
+        "transformer models",
+        "linear sequence modeling",
+        "sparse sequence modeling",
+        "efficient full attention",
+        "sparse mixture-of-experts",
+        "hybrid model architectures",
+        "diffusion LLMs"
+      ]
+    },
+    "publishedAt": "2025-08-13T10:13:46.000Z",
+    "title": "Speed Always Wins: A Survey on Efficient Architectures for Large\n  Language Models",
+    "summary": "Large Language Models (LLMs) have delivered impressive results in language\nunderstanding, generation, reasoning, and pushes the ability boundary of\nmultimodal models. Transformer models, as the foundation of modern LLMs, offer\na strong baseline with excellent scaling properties. However, the traditional\ntransformer architecture requires substantial computations and poses\nsignificant obstacles for large-scale training and practical deployment. In\nthis survey, we offer a systematic examination of innovative LLM architectures\nthat address the inherent limitations of transformers and boost the efficiency.\nStarting from language modeling, this survey covers the background and\ntechnical details of linear and sparse sequence modeling methods, efficient\nfull attention variants, sparse mixture-of-experts, hybrid model architectures\nincorporating the above techniques, and emerging diffusion LLMs. Additionally,\nwe discuss applications of these techniques to other modalities and consider\ntheir wider implications for developing scalable, resource-aware foundation\nmodels. By grouping recent studies into the above category, this survey\npresents a blueprint of modern efficient LLM architectures, and we hope this\ncould help motivate future research toward more efficient, versatile AI\nsystems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.09834.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6246bb33da617c00b48e4d92",
+      "avatarUrl": "/avatars/0304a9f6eb7f5dee4d933d03222f94e9.svg",
+      "fullname": "Weigao Sun",
+      "name": "weigao266",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.13154",
+      "authors": [
+        {
+          "_id": "68a3dfefb65388761d074471",
+          "name": "Zhaoxi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a3dfefb65388761d074472",
+          "name": "Tianqi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a3dfefb65388761d074473",
+          "name": "Long Zhuo",
+          "hidden": false
+        },
+        {
+          "_id": "68a3dfefb65388761d074474",
+          "name": "Jiawei Ren",
+          "hidden": false
+        },
+        {
+          "_id": "68a3dfefb65388761d074475",
+          "name": "Zeng Tao",
+          "hidden": false
+        },
+        {
+          "_id": "68a3dfefb65388761d074476",
+          "name": "He Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68a3dfefb65388761d074477",
+          "name": "Fangzhou Hong",
+          "hidden": false
+        },
+        {
+          "_id": "68a3dfefb65388761d074478",
+          "name": "Liang Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68a3dfefb65388761d074479",
+          "name": "Ziwei Liu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/66d347eebb76fb26eedb256e/ll8ni6nZZorhKA7jCZgT_.mp4"
+      ],
+      "publishedAt": "2025-08-18T17:59:55.000Z",
+      "submittedOnDailyAt": "2025-08-19T00:55:49.901Z",
+      "title": "4DNeX: Feed-Forward 4D Generative Modeling Made Easy",
+      "submittedOnDailyBy": {
+        "_id": "66d347eebb76fb26eedb256e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66d347eebb76fb26eedb256e/iCPF7GkmZu--XCsWzoucl.jpeg",
+        "isPro": false,
+        "fullname": "tianqi liu",
+        "user": "tqliu",
+        "type": "user"
+      },
+      "summary": "We present 4DNeX, the first feed-forward framework for generating 4D (i.e.,\ndynamic 3D) scene representations from a single image. In contrast to existing\nmethods that rely on computationally intensive optimization or require\nmulti-frame video inputs, 4DNeX enables efficient, end-to-end image-to-4D\ngeneration by fine-tuning a pretrained video diffusion model. Specifically, 1)\nto alleviate the scarcity of 4D data, we construct 4DNeX-10M, a large-scale\ndataset with high-quality 4D annotations generated using advanced\nreconstruction approaches. 2) we introduce a unified 6D video representation\nthat jointly models RGB and XYZ sequences, facilitating structured learning of\nboth appearance and geometry. 3) we propose a set of simple yet effective\nadaptation strategies to repurpose pretrained video diffusion models for 4D\nmodeling. 4DNeX produces high-quality dynamic point clouds that enable\nnovel-view video synthesis. Extensive experiments demonstrate that 4DNeX\noutperforms existing 4D generation methods in efficiency and generalizability,\noffering a scalable solution for image-to-4D modeling and laying the foundation\nfor generative 4D world models that simulate dynamic scene evolution.",
+      "upvotes": 2,
+      "discussionId": "68a3dfefb65388761d07447a",
+      "projectPage": "https://4dnex.github.io/",
+      "githubRepo": "https://github.com/3DTopia/4DNeX",
+      "ai_summary": "4DNeX generates high-quality dynamic 3D scene representations from a single image using a fine-tuned pretrained video diffusion model, outperforming existing methods in efficiency and generalizability.",
+      "ai_keywords": [
+        "feed-forward framework",
+        "4D scene representations",
+        "video diffusion model",
+        "4DNeX-10M",
+        "6D video representation",
+        "RGB",
+        "XYZ sequences",
+        "dynamic point clouds",
+        "novel-view video synthesis",
+        "generative 4D world models"
+      ]
+    },
+    "publishedAt": "2025-08-18T13:59:55.000Z",
+    "title": "4DNeX: Feed-Forward 4D Generative Modeling Made Easy",
+    "summary": "We present 4DNeX, the first feed-forward framework for generating 4D (i.e.,\ndynamic 3D) scene representations from a single image. In contrast to existing\nmethods that rely on computationally intensive optimization or require\nmulti-frame video inputs, 4DNeX enables efficient, end-to-end image-to-4D\ngeneration by fine-tuning a pretrained video diffusion model. Specifically, 1)\nto alleviate the scarcity of 4D data, we construct 4DNeX-10M, a large-scale\ndataset with high-quality 4D annotations generated using advanced\nreconstruction approaches. 2) we introduce a unified 6D video representation\nthat jointly models RGB and XYZ sequences, facilitating structured learning of\nboth appearance and geometry. 3) we propose a set of simple yet effective\nadaptation strategies to repurpose pretrained video diffusion models for 4D\nmodeling. 4DNeX produces high-quality dynamic point clouds that enable\nnovel-view video synthesis. Extensive experiments demonstrate that 4DNeX\noutperforms existing 4D generation methods in efficiency and generalizability,\noffering a scalable solution for image-to-4D modeling and laying the foundation\nfor generative 4D world models that simulate dynamic scene evolution.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/66d347eebb76fb26eedb256e/ll8ni6nZZorhKA7jCZgT_.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.13154.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66d347eebb76fb26eedb256e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66d347eebb76fb26eedb256e/iCPF7GkmZu--XCsWzoucl.jpeg",
+      "fullname": "tianqi liu",
+      "name": "tqliu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.12466",
+      "authors": [
+        {
+          "_id": "68a3deb1b65388761d07446d",
+          "name": "Xuhui Zhan",
+          "hidden": false
+        },
+        {
+          "_id": "68a3deb1b65388761d07446e",
+          "name": "Tyler Derr",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/652c6ee9b118f26df765e4bb/PVHGV5FdpWkY4RFJ0CeG1.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/652c6ee9b118f26df765e4bb/hFDLfJ2ksRL_mCDzGr70m.png"
+      ],
+      "publishedAt": "2025-08-17T18:36:04.000Z",
+      "submittedOnDailyAt": "2025-08-19T00:49:35.874Z",
+      "title": "Inverse-LLaVA: Eliminating Alignment Pre-training Through Text-to-Vision\n  Mapping",
+      "submittedOnDailyBy": {
+        "_id": "652c6ee9b118f26df765e4bb",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/652c6ee9b118f26df765e4bb/SwKLzRs5iVm0ORSCH-WLH.jpeg",
+        "isPro": false,
+        "fullname": "Xuhui Zhan",
+        "user": "xuhuizhan5",
+        "type": "user"
+      },
+      "summary": "Traditional multimodal learning approaches require expensive alignment\npre-training to bridge vision and language modalities, typically projecting\nvisual features into discrete text token spaces. We challenge both fundamental\nassumptions underlying this paradigm by proposing Inverse-LLaVA, a novel\napproach that eliminates alignment pre-training entirely while inverting the\nconventional mapping direction. Rather than projecting visual features to text\nspace, our method maps text embeddings into continuous visual representation\nspace and performs fusion within transformer intermediate layers. Through\nselective additive components in attention mechanisms, we enable dynamic\nintegration of visual and textual representations without requiring massive\nimage-text alignment datasets. Comprehensive experiments across nine multimodal\nbenchmarks demonstrate nuanced performance trade-offs: Inverse-LLaVA achieves\nnotable improvements on reasoning-intensive and cognitive tasks (MM-VET: +0.2%,\nVizWiz: +1.8%, ScienceQA: +0.2%, cognitive reasoning: +27.2%), while showing\nexpected decreases in perception tasks requiring memorized visual-text\nassociations (celebrity recognition: -49.5%, OCR: -21.3%). These results\nprovide the first empirical evidence that alignment pre-training is not\nnecessary for effective multimodal learning, particularly for complex reasoning\ntasks. Our work establishes the feasibility of a new paradigm that reduces\ncomputational requirements by 45%, challenges conventional wisdom about\nmodality fusion, and opens new research directions for efficient multimodal\narchitectures that preserve modality-specific characteristics. Our project\nwebsite with code and additional resources is available at\nhttps://inverse-llava.github.io.",
+      "upvotes": 1,
+      "discussionId": "68a3decbb65388761d07446f",
+      "projectPage": "https://inverse-llava.github.io",
+      "githubRepo": "https://github.com/xuhuizhan5/Inverse-LLaVA",
+      "ai_summary": "Inverse-LLaVA eliminates alignment pre-training by mapping text embeddings into continuous visual representation space, improving reasoning tasks while reducing computational requirements.",
+      "ai_keywords": [
+        "Inverse-LLaVA",
+        "multimodal learning",
+        "alignment pre-training",
+        "visual features",
+        "text embeddings",
+        "continuous visual representation space",
+        "transformer intermediate layers",
+        "attention mechanisms",
+        "MM-VET",
+        "VizWiz",
+        "ScienceQA",
+        "cognitive reasoning",
+        "celebrity recognition",
+        "OCR"
+      ]
+    },
+    "publishedAt": "2025-08-17T14:36:04.000Z",
+    "title": "Inverse-LLaVA: Eliminating Alignment Pre-training Through Text-to-Vision\n  Mapping",
+    "summary": "Traditional multimodal learning approaches require expensive alignment\npre-training to bridge vision and language modalities, typically projecting\nvisual features into discrete text token spaces. We challenge both fundamental\nassumptions underlying this paradigm by proposing Inverse-LLaVA, a novel\napproach that eliminates alignment pre-training entirely while inverting the\nconventional mapping direction. Rather than projecting visual features to text\nspace, our method maps text embeddings into continuous visual representation\nspace and performs fusion within transformer intermediate layers. Through\nselective additive components in attention mechanisms, we enable dynamic\nintegration of visual and textual representations without requiring massive\nimage-text alignment datasets. Comprehensive experiments across nine multimodal\nbenchmarks demonstrate nuanced performance trade-offs: Inverse-LLaVA achieves\nnotable improvements on reasoning-intensive and cognitive tasks (MM-VET: +0.2%,\nVizWiz: +1.8%, ScienceQA: +0.2%, cognitive reasoning: +27.2%), while showing\nexpected decreases in perception tasks requiring memorized visual-text\nassociations (celebrity recognition: -49.5%, OCR: -21.3%). These results\nprovide the first empirical evidence that alignment pre-training is not\nnecessary for effective multimodal learning, particularly for complex reasoning\ntasks. Our work establishes the feasibility of a new paradigm that reduces\ncomputational requirements by 45%, challenges conventional wisdom about\nmodality fusion, and opens new research directions for efficient multimodal\narchitectures that preserve modality-specific characteristics. Our project\nwebsite with code and additional resources is available at\nhttps://inverse-llava.github.io.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/652c6ee9b118f26df765e4bb/PVHGV5FdpWkY4RFJ0CeG1.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/652c6ee9b118f26df765e4bb/hFDLfJ2ksRL_mCDzGr70m.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.12466.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "652c6ee9b118f26df765e4bb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/652c6ee9b118f26df765e4bb/SwKLzRs5iVm0ORSCH-WLH.jpeg",
+      "fullname": "Xuhui Zhan",
+      "name": "xuhuizhan5",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
