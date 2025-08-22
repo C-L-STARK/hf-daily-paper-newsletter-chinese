@@ -1,0 +1,1184 @@
+[
+  {
+    "paper": {
+      "id": "2508.15763",
+      "authors": [
+        {
+          "_id": "68a7ca3639413c456c05afcc",
+          "name": "Lei Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afcd",
+          "name": "Zhongrui Cai",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afce",
+          "name": "Maosong Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afcf",
+          "name": "Weihan Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd0",
+          "name": "Chiyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd1",
+          "name": "Haojiong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd2",
+          "name": "Kai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd3",
+          "name": "Pengcheng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd4",
+          "name": "Ying Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd5",
+          "name": "Yongkang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd6",
+          "name": "Yu Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd7",
+          "name": "Yu Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd8",
+          "name": "Pei Chu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afd9",
+          "name": "Tao Chu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afda",
+          "name": "Erfei Cui",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afdb",
+          "name": "Ganqu Cui",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afdc",
+          "name": "Long Cui",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afdd",
+          "name": "Ziyun Cui",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afde",
+          "name": "Nianchen Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afdf",
+          "name": "Ning Ding",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe0",
+          "name": "Nanqin Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe1",
+          "name": "Peijie Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe2",
+          "name": "Shihan Dou",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe3",
+          "name": "Sinan Du",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe4",
+          "name": "Haodong Duan",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe5",
+          "name": "Caihua Fan",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe6",
+          "name": "Ben Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe7",
+          "name": "Changjiang Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe8",
+          "name": "Jianfei Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afe9",
+          "name": "Songyang Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afea",
+          "name": "Yang Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afeb",
+          "name": "Zhangwei Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afec",
+          "name": "Jiaye Ge",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afed",
+          "name": "Qiming Ge",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afee",
+          "name": "Lixin Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afef",
+          "name": "Yuzhe Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff0",
+          "name": "Aijia Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff1",
+          "name": "Qipeng Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff2",
+          "name": "Xu Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff3",
+          "name": "Conghui He",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff4",
+          "name": "Junjun He",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff5",
+          "name": "Yili Hong",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff6",
+          "name": "Siyuan Hou",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff7",
+          "name": "Caiyu Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff8",
+          "name": "Hanglei Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05aff9",
+          "name": "Jucheng Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05affa",
+          "name": "Ming Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05affb",
+          "name": "Zhouqi Hua",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05affc",
+          "name": "Haian Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05affd",
+          "name": "Junhao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05affe",
+          "name": "Xu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05afff",
+          "name": "Zixian Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b000",
+          "name": "Zhe Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b001",
+          "name": "Lingkai Kong",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b002",
+          "name": "Linyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b003",
+          "name": "Peiji Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b004",
+          "name": "Pengze Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b005",
+          "name": "Shuaibin Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b006",
+          "name": "Tianbin Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b007",
+          "name": "Wei Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b008",
+          "name": "Yuqiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b009",
+          "name": "Dahua Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b00a",
+          "name": "Junyao Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b00b",
+          "name": "Tianyi Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b00c",
+          "name": "Zhishan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b00d",
+          "name": "Hongwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b00e",
+          "name": "Jiangning Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b00f",
+          "name": "Jiyao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b010",
+          "name": "Junnan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b011",
+          "name": "Kai Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b012",
+          "name": "Kaiwen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b013",
+          "name": "Kuikun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b014",
+          "name": "Shichun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b015",
+          "name": "Shudong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b016",
+          "name": "Wei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b017",
+          "name": "Xinyao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b018",
+          "name": "Yuhong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b019",
+          "name": "Zhan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b01a",
+          "name": "Yinquan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b01b",
+          "name": "Haijun Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b01c",
+          "name": "Hongxia Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b01d",
+          "name": "Huijie Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b01e",
+          "name": "Qidang Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b01f",
+          "name": "Ying Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b020",
+          "name": "Chengqi Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b021",
+          "name": "Chenglong Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b022",
+          "name": "Jianpeng Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b023",
+          "name": "Ren Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b024",
+          "name": "Runmin Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b025",
+          "name": "Runyuan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b026",
+          "name": "Xinzhu Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b027",
+          "name": "Yichuan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b028",
+          "name": "Zihan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b029",
+          "name": "Sixuan Mi",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b02a",
+          "name": "Junzhi Ning",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b02b",
+          "name": "Wenchang Ning",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b02c",
+          "name": "Xinle Pang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b02d",
+          "name": "Jiahui Peng",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b02e",
+          "name": "Runyu Peng",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b02f",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b030",
+          "name": "Jiantao Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b031",
+          "name": "Xiaoye Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b032",
+          "name": "Yuan Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b033",
+          "name": "Yuchen Ren",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b034",
+          "name": "Fukai Shang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b035",
+          "name": "Wenqi Shao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b036",
+          "name": "Junhao Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b037",
+          "name": "Shuaike Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b038",
+          "name": "Chunfeng Song",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b039",
+          "name": "Demin Song",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b03a",
+          "name": "Diping Song",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b03b",
+          "name": "Chenlin Su",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b03c",
+          "name": "Weijie Su",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b03d",
+          "name": "Weigao Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b03e",
+          "name": "Yu Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b03f",
+          "name": "Qian Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b040",
+          "name": "Cheng Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b041",
+          "name": "Huanze Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b042",
+          "name": "Kexian Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b043",
+          "name": "Shixiang Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b044",
+          "name": "Jian Tong",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b045",
+          "name": "Aoran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b046",
+          "name": "Bin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b047",
+          "name": "Dong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b048",
+          "name": "Lintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b049",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b04a",
+          "name": "Weiyun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b04b",
+          "name": "Wenhai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b04c",
+          "name": "Yi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b04d",
+          "name": "Ziyi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b04e",
+          "name": "Ling-I Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b04f",
+          "name": "Wen Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b050",
+          "name": "Yue Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b051",
+          "name": "Zijian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b052",
+          "name": "Linchen Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b053",
+          "name": "Shuhao Xing",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b054",
+          "name": "Chao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b055",
+          "name": "Huihui Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b056",
+          "name": "Jun Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b057",
+          "name": "Ruiliang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b058",
+          "name": "Wanghan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b059",
+          "name": "GanLin Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b05a",
+          "name": "Yuming Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b05b",
+          "name": "Haochen Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b05c",
+          "name": "Jin Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b05d",
+          "name": "Shenglong Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b05e",
+          "name": "Jia Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b05f",
+          "name": "Jiashuo Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b060",
+          "name": "Jing Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b061",
+          "name": "Fei Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b062",
+          "name": "Bo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b063",
+          "name": "Chao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b064",
+          "name": "Chen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b065",
+          "name": "Hongjie Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b066",
+          "name": "Jin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b067",
+          "name": "Qiaosheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b068",
+          "name": "Qiuyinzhe Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b069",
+          "name": "Songyang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b06a",
+          "name": "Taolin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b06b",
+          "name": "Wenlong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b06c",
+          "name": "Wenwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b06d",
+          "name": "Yechen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b06e",
+          "name": "Ziyang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b06f",
+          "name": "Haiteng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b070",
+          "name": "Qian Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b071",
+          "name": "Xiangyu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b072",
+          "name": "Xiangyu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b073",
+          "name": "Bowen Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b074",
+          "name": "Dongzhan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b075",
+          "name": "Peiheng Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b076",
+          "name": "Yuhao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b077",
+          "name": "Yunhua Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b078",
+          "name": "Dongsheng Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b079",
+          "name": "Lin Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca3639413c456c05b07a",
+          "name": "Yicheng Zou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-21T17:58:00.000Z",
+      "submittedOnDailyAt": "2025-08-22T00:12:32.664Z",
+      "title": "Intern-S1: A Scientific Multimodal Foundation Model",
+      "submittedOnDailyBy": {
+        "_id": "64e8505321540e1da3226b54",
+        "avatarUrl": "/avatars/18958b8406d1ce492b54c1c839f18c54.svg",
+        "isPro": false,
+        "fullname": "Wenwei Zhang",
+        "user": "ZwwWayne",
+        "type": "user"
+      },
+      "summary": "In recent years, a plethora of open-source foundation models have emerged,\nachieving remarkable progress in some widely attended fields, with performance\nbeing quite close to that of closed-source models. However, in high-value but\nmore challenging scientific professional fields, either the fields still rely\non expert models, or the progress of general foundation models lags\nsignificantly compared to those in popular areas, far from sufficient for\ntransforming scientific research and leaving substantial gap between\nopen-source models and closed-source models in these scientific domains. To\nmitigate this gap and explore a step further toward Artificial General\nIntelligence (AGI), we introduce Intern-S1, a specialized generalist equipped\nwith general understanding and reasoning capabilities with expertise to analyze\nmultiple science modal data. Intern-S1 is a multimodal Mixture-of-Experts (MoE)\nmodel with 28 billion activated parameters and 241 billion total parameters,\ncontinually pre-trained on 5T tokens, including over 2.5T tokens from\nscientific domains. In the post-training stage, Intern-S1 undergoes offline and\nthen online reinforcement learning (RL) in InternBootCamp, where we propose\nMixture-of-Rewards (MoR) to synergize the RL training on more than 1000 tasks\nsimultaneously. Through integrated innovations in algorithms, data, and\ntraining systems, Intern-S1 achieved top-tier performance in online RL\ntraining.On comprehensive evaluation benchmarks, Intern-S1 demonstrates\ncompetitive performance on general reasoning tasks among open-source models and\nsignificantly outperforms open-source models in scientific domains, surpassing\nclosed-source state-of-the-art models in professional tasks, such as molecular\nsynthesis planning, reaction condition prediction, predicting thermodynamic\nstabilities for crystals. Our models are available at\nhttps://huggingface.co/internlm/Intern-S1.",
+      "upvotes": 64,
+      "discussionId": "68a7ca3639413c456c05b07b",
+      "githubRepo": "https://github.com/InternLM/Intern-S1",
+      "ai_summary": "Intern-S1, a multimodal Mixture-of-Experts model with extensive pre-training and reinforcement learning, achieves top-tier performance in general reasoning and outperforms closed-source models in scientific tasks.",
+      "ai_keywords": [
+        "Mixture-of-Experts (MoE)",
+        "reinforcement learning (RL)",
+        "Mixture-of-Rewards (MoR)",
+        "molecular synthesis planning",
+        "reaction condition prediction",
+        "thermodynamic stabilities"
+      ],
+      "githubStars": 407
+    },
+    "publishedAt": "2025-08-21T13:58:00.000Z",
+    "title": "Intern-S1: A Scientific Multimodal Foundation Model",
+    "summary": "In recent years, a plethora of open-source foundation models have emerged,\nachieving remarkable progress in some widely attended fields, with performance\nbeing quite close to that of closed-source models. However, in high-value but\nmore challenging scientific professional fields, either the fields still rely\non expert models, or the progress of general foundation models lags\nsignificantly compared to those in popular areas, far from sufficient for\ntransforming scientific research and leaving substantial gap between\nopen-source models and closed-source models in these scientific domains. To\nmitigate this gap and explore a step further toward Artificial General\nIntelligence (AGI), we introduce Intern-S1, a specialized generalist equipped\nwith general understanding and reasoning capabilities with expertise to analyze\nmultiple science modal data. Intern-S1 is a multimodal Mixture-of-Experts (MoE)\nmodel with 28 billion activated parameters and 241 billion total parameters,\ncontinually pre-trained on 5T tokens, including over 2.5T tokens from\nscientific domains. In the post-training stage, Intern-S1 undergoes offline and\nthen online reinforcement learning (RL) in InternBootCamp, where we propose\nMixture-of-Rewards (MoR) to synergize the RL training on more than 1000 tasks\nsimultaneously. Through integrated innovations in algorithms, data, and\ntraining systems, Intern-S1 achieved top-tier performance in online RL\ntraining.On comprehensive evaluation benchmarks, Intern-S1 demonstrates\ncompetitive performance on general reasoning tasks among open-source models and\nsignificantly outperforms open-source models in scientific domains, surpassing\nclosed-source state-of-the-art models in professional tasks, such as molecular\nsynthesis planning, reaction condition prediction, predicting thermodynamic\nstabilities for crystals. Our models are available at\nhttps://huggingface.co/internlm/Intern-S1.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.15763.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64e8505321540e1da3226b54",
+      "avatarUrl": "/avatars/18958b8406d1ce492b54c1c839f18c54.svg",
+      "fullname": "Wenwei Zhang",
+      "name": "ZwwWayne",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 14
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.15260",
+      "authors": [
+        {
+          "_id": "68a7ca1239413c456c05afc6",
+          "name": "Yichao Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca1239413c456c05afc7",
+          "name": "Xuewei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca1239413c456c05afc8",
+          "name": "Yuandong Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68a7ca1239413c456c05afc9",
+          "name": "Jiawei Zhao",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64dd8355573d067c9e858262/UB_URJ70REn1i4nd66ow-.png"
+      ],
+      "publishedAt": "2025-08-21T05:48:38.000Z",
+      "submittedOnDailyAt": "2025-08-22T00:17:29.045Z",
+      "title": "Deep Think with Confidence",
+      "submittedOnDailyBy": {
+        "_id": "64dd8355573d067c9e858262",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64dd8355573d067c9e858262/Bu2kFs6-lcYc93A_SE8WU.jpeg",
+        "isPro": false,
+        "fullname": "Jiawei Zhao",
+        "user": "jiaweizhao",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have shown great potential in reasoning tasks\nthrough test-time scaling methods like self-consistency with majority voting.\nHowever, this approach often leads to diminishing returns in accuracy and high\ncomputational overhead. To address these challenges, we introduce Deep Think\nwith Confidence (DeepConf), a simple yet powerful method that enhances both\nreasoning efficiency and performance at test time. DeepConf leverages\nmodel-internal confidence signals to dynamically filter out low-quality\nreasoning traces during or after generation. It requires no additional model\ntraining or hyperparameter tuning and can be seamlessly integrated into\nexisting serving frameworks. We evaluate DeepConf across a variety of reasoning\ntasks and the latest open-source models, including Qwen 3 and GPT-OSS series.\nNotably, on challenging benchmarks such as AIME 2025, DeepConf@512 achieves up\nto 99.9% accuracy and reduces generated tokens by up to 84.7% compared to full\nparallel thinking.",
+      "upvotes": 6,
+      "discussionId": "68a7ca1239413c456c05afca",
+      "projectPage": "https://jiaweizzhao.github.io/deepconf/",
+      "ai_summary": "DeepConf enhances reasoning efficiency and performance by filtering low-quality reasoning traces using model-internal confidence signals, achieving high accuracy and reducing token generation.",
+      "ai_keywords": [
+        "Deep Think with Confidence",
+        "DeepConf",
+        "model-internal confidence signals",
+        "reasoning traces",
+        "Qwen 3",
+        "GPT-OSS series",
+        "AIME 2025"
+      ]
+    },
+    "publishedAt": "2025-08-21T01:48:38.000Z",
+    "title": "Deep Think with Confidence",
+    "summary": "Large Language Models (LLMs) have shown great potential in reasoning tasks\nthrough test-time scaling methods like self-consistency with majority voting.\nHowever, this approach often leads to diminishing returns in accuracy and high\ncomputational overhead. To address these challenges, we introduce Deep Think\nwith Confidence (DeepConf), a simple yet powerful method that enhances both\nreasoning efficiency and performance at test time. DeepConf leverages\nmodel-internal confidence signals to dynamically filter out low-quality\nreasoning traces during or after generation. It requires no additional model\ntraining or hyperparameter tuning and can be seamlessly integrated into\nexisting serving frameworks. We evaluate DeepConf across a variety of reasoning\ntasks and the latest open-source models, including Qwen 3 and GPT-OSS series.\nNotably, on challenging benchmarks such as AIME 2025, DeepConf@512 achieves up\nto 99.9% accuracy and reduces generated tokens by up to 84.7% compared to full\nparallel thinking.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64dd8355573d067c9e858262/UB_URJ70REn1i4nd66ow-.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.15260.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64dd8355573d067c9e858262",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64dd8355573d067c9e858262/Bu2kFs6-lcYc93A_SE8WU.jpeg",
+      "fullname": "Jiawei Zhao",
+      "name": "jiaweizhao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.15769",
+      "authors": [
+        {
+          "_id": "68a7cd5939413c456c05b09e",
+          "name": "Yanxu Meng",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd5939413c456c05b09f",
+          "name": "Haoning Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd5939413c456c05b0a0",
+          "name": "Ya Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd5939413c456c05b0a1",
+          "name": "Weidi Xie",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/632c7a0d1d303f5f9acf01b8/rmLnc0_Wu60sfTJ6zBQdi.jpeg"
+      ],
+      "publishedAt": "2025-08-21T17:59:16.000Z",
+      "submittedOnDailyAt": "2025-08-22T00:30:58.941Z",
+      "title": "SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass",
+      "submittedOnDailyBy": {
+        "_id": "632c7a0d1d303f5f9acf01b8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/632c7a0d1d303f5f9acf01b8/T010IFuCp6UaOeIyWhbCk.jpeg",
+        "isPro": false,
+        "fullname": "Haoning Wu",
+        "user": "haoningwu",
+        "type": "user"
+      },
+      "summary": "3D content generation has recently attracted significant research interest\ndue to its applications in VR/AR and embodied AI. In this work, we address the\nchallenging task of synthesizing multiple 3D assets within a single scene\nimage. Concretely, our contributions are fourfold: (i) we present SceneGen, a\nnovel framework that takes a scene image and corresponding object masks as\ninput, simultaneously producing multiple 3D assets with geometry and texture.\nNotably, SceneGen operates with no need for optimization or asset retrieval;\n(ii) we introduce a novel feature aggregation module that integrates local and\nglobal scene information from visual and geometric encoders within the feature\nextraction module. Coupled with a position head, this enables the generation of\n3D assets and their relative spatial positions in a single feedforward pass;\n(iii) we demonstrate SceneGen's direct extensibility to multi-image input\nscenarios. Despite being trained solely on single-image inputs, our\narchitectural design enables improved generation performance with multi-image\ninputs; and (iv) extensive quantitative and qualitative evaluations confirm the\nefficiency and robust generation abilities of our approach. We believe this\nparadigm offers a novel solution for high-quality 3D content generation,\npotentially advancing its practical applications in downstream tasks. The code\nand model will be publicly available at: https://mengmouxu.github.io/SceneGen.",
+      "upvotes": 2,
+      "discussionId": "68a7cd5939413c456c05b0a2",
+      "projectPage": "https://mengmouxu.github.io/SceneGen/",
+      "githubRepo": "https://github.com/Mengmouxu/SceneGen",
+      "ai_summary": "SceneGen generates multiple 3D assets from a single scene image using a novel framework that integrates local and global scene information, enabling efficient and robust 3D content creation.",
+      "ai_keywords": [
+        "SceneGen",
+        "feature aggregation module",
+        "visual encoders",
+        "geometric encoders",
+        "position head",
+        "multi-image input",
+        "3D content generation",
+        "VR/AR",
+        "embodied AI"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2025-08-21T13:59:16.000Z",
+    "title": "SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass",
+    "summary": "3D content generation has recently attracted significant research interest\ndue to its applications in VR/AR and embodied AI. In this work, we address the\nchallenging task of synthesizing multiple 3D assets within a single scene\nimage. Concretely, our contributions are fourfold: (i) we present SceneGen, a\nnovel framework that takes a scene image and corresponding object masks as\ninput, simultaneously producing multiple 3D assets with geometry and texture.\nNotably, SceneGen operates with no need for optimization or asset retrieval;\n(ii) we introduce a novel feature aggregation module that integrates local and\nglobal scene information from visual and geometric encoders within the feature\nextraction module. Coupled with a position head, this enables the generation of\n3D assets and their relative spatial positions in a single feedforward pass;\n(iii) we demonstrate SceneGen's direct extensibility to multi-image input\nscenarios. Despite being trained solely on single-image inputs, our\narchitectural design enables improved generation performance with multi-image\ninputs; and (iv) extensive quantitative and qualitative evaluations confirm the\nefficiency and robust generation abilities of our approach. We believe this\nparadigm offers a novel solution for high-quality 3D content generation,\npotentially advancing its practical applications in downstream tasks. The code\nand model will be publicly available at: https://mengmouxu.github.io/SceneGen.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/632c7a0d1d303f5f9acf01b8/rmLnc0_Wu60sfTJ6zBQdi.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.15769.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "632c7a0d1d303f5f9acf01b8",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/632c7a0d1d303f5f9acf01b8/T010IFuCp6UaOeIyWhbCk.jpeg",
+      "fullname": "Haoning Wu",
+      "name": "haoningwu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.15202",
+      "authors": [
+        {
+          "_id": "68a7cd6f39413c456c05b0a4",
+          "name": "Yuanchen Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd6f39413c456c05b0a5",
+          "name": "Shuo Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd6f39413c456c05b0a6",
+          "name": "Jie Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd6f39413c456c05b0a7",
+          "name": "Junhui Li",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd6f39413c456c05b0a8",
+          "name": "Lifan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd6f39413c456c05b0a9",
+          "name": "Feng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68a7cd6f39413c456c05b0aa",
+          "name": "Chi Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-21T03:31:11.000Z",
+      "submittedOnDailyAt": "2025-08-22T00:23:11.006Z",
+      "title": "Fin-PRM: A Domain-Specialized Process Reward Model for Financial\n  Reasoning in Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "642656cbad1e3b0e6e91b752",
+        "avatarUrl": "/avatars/3bf0ee15fd528e09b2b889f5cce3cbd0.svg",
+        "isPro": false,
+        "fullname": "Jie Zhu",
+        "user": "amazingj",
+        "type": "user"
+      },
+      "summary": "Process Reward Models (PRMs) have emerged as a promising framework for\nsupervising intermediate reasoning in large language models (LLMs), yet\nexisting PRMs are primarily trained on general or Science, Technology,\nEngineering, and Mathematics (STEM) domains and fall short in domain-specific\ncontexts such as finance, where reasoning is more structured, symbolic, and\nsensitive to factual and regulatory correctness. We introduce Fin-PRM,\na domain-specialized, trajectory-aware PRM tailored to evaluate intermediate\nreasoning steps in financial tasks. Fin-PRM integrates step-level and\ntrajectory-level reward supervision, enabling fine-grained evaluation of\nreasoning traces aligned with financial logic. We apply Fin-PRM in both offline\nand online reward learning settings, supporting three key applications: (i)\nselecting high-quality reasoning trajectories for distillation-based supervised\nfine-tuning, (ii) providing dense process-level rewards for reinforcement\nlearning, and (iii) guiding reward-informed Best-of-N inference at test time.\nExperimental results on financial reasoning benchmarks, including CFLUE and\nFinQA, demonstrate that Fin-PRM consistently outperforms general-purpose PRMs\nand strong domain baselines in trajectory selection quality. Downstream models\ntrained with Fin-PRM yield substantial improvements with baselines, with gains\nof 12.9\\% in supervised learning, 5.2\\% in reinforcement learning, and 5.1\\% in\ntest-time performance. These findings highlight the value of domain-specialized\nreward modeling for aligning LLMs with expert-level financial reasoning. Our\nproject resources will be available at https://github.com/aliyun/qwen-dianjin.",
+      "upvotes": 0,
+      "discussionId": "68a7cd6f39413c456c05b0ab",
+      "ai_summary": "Fin-PRM, a domain-specialized reward model for finance, enhances intermediate reasoning in LLMs through step-level and trajectory-level supervision, improving performance in supervised learning, reinforcement learning, and test-time inference.",
+      "ai_keywords": [
+        "Process Reward Models",
+        "PRMs",
+        "large language models",
+        "LLMs",
+        "domain-specific",
+        "finance",
+        "structured reasoning",
+        "symbolic reasoning",
+        "factual correctness",
+        "regulatory correctness",
+        "trajectory-aware",
+        "step-level supervision",
+        "trajectory-level supervision",
+        "reasoning traces",
+        "financial logic",
+        "distillation-based supervised fine-tuning",
+        "dense process-level rewards",
+        "reinforcement learning",
+        "reward-informed Best-of-N inference",
+        "CFLUE",
+        "FinQA",
+        "trajectory selection quality",
+        "supervised learning",
+        "test-time performance"
+      ]
+    },
+    "publishedAt": "2025-08-20T23:31:11.000Z",
+    "title": "Fin-PRM: A Domain-Specialized Process Reward Model for Financial\n  Reasoning in Large Language Models",
+    "summary": "Process Reward Models (PRMs) have emerged as a promising framework for\nsupervising intermediate reasoning in large language models (LLMs), yet\nexisting PRMs are primarily trained on general or Science, Technology,\nEngineering, and Mathematics (STEM) domains and fall short in domain-specific\ncontexts such as finance, where reasoning is more structured, symbolic, and\nsensitive to factual and regulatory correctness. We introduce Fin-PRM,\na domain-specialized, trajectory-aware PRM tailored to evaluate intermediate\nreasoning steps in financial tasks. Fin-PRM integrates step-level and\ntrajectory-level reward supervision, enabling fine-grained evaluation of\nreasoning traces aligned with financial logic. We apply Fin-PRM in both offline\nand online reward learning settings, supporting three key applications: (i)\nselecting high-quality reasoning trajectories for distillation-based supervised\nfine-tuning, (ii) providing dense process-level rewards for reinforcement\nlearning, and (iii) guiding reward-informed Best-of-N inference at test time.\nExperimental results on financial reasoning benchmarks, including CFLUE and\nFinQA, demonstrate that Fin-PRM consistently outperforms general-purpose PRMs\nand strong domain baselines in trajectory selection quality. Downstream models\ntrained with Fin-PRM yield substantial improvements with baselines, with gains\nof 12.9\\% in supervised learning, 5.2\\% in reinforcement learning, and 5.1\\% in\ntest-time performance. These findings highlight the value of domain-specialized\nreward modeling for aligning LLMs with expert-level financial reasoning. Our\nproject resources will be available at https://github.com/aliyun/qwen-dianjin.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.15202.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "642656cbad1e3b0e6e91b752",
+      "avatarUrl": "/avatars/3bf0ee15fd528e09b2b889f5cce3cbd0.svg",
+      "fullname": "Jie Zhu",
+      "name": "amazingj",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
