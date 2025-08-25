@@ -1,0 +1,93 @@
+[
+  {
+    "paper": {
+      "id": "2508.15881",
+      "authors": [
+        {
+          "_id": "68abc7c886b21a0e2e358a78",
+          "name": "Xiaojuan Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68abc7c886b21a0e2e358a79",
+          "name": "Fanxu Meng",
+          "hidden": false
+        },
+        {
+          "_id": "68abc7c886b21a0e2e358a7a",
+          "name": "Pingzhi Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68abc7c886b21a0e2e358a7b",
+          "name": "Yuxuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68abc7c886b21a0e2e358a7c",
+          "name": "Di Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68abc7c886b21a0e2e358a7d",
+          "name": "Xing Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68abc7c886b21a0e2e358a7e",
+          "name": "Muhan Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-21T15:25:40.000Z",
+      "submittedOnDailyAt": "2025-08-25T00:50:18.402Z",
+      "title": "TPLA: Tensor Parallel Latent Attention for Efficient Disaggregated\n  Prefill \\& Decode Inference",
+      "submittedOnDailyBy": {
+        "_id": "643f55d4ec817b766686438a",
+        "avatarUrl": "/avatars/0feb460432c92ab9ada0d417a7a38f6a.svg",
+        "isPro": false,
+        "fullname": "mengfanxu",
+        "user": "fxmeng",
+        "type": "user"
+      },
+      "summary": "Multi-Head Latent Attention (MLA), introduced in DeepSeek-V2, compresses\nkey-value states into a low-rank latent vector, caching only this vector to\nreduce memory. In tensor parallelism (TP), however, attention heads are\ncomputed across multiple devices, and each device must load the full cache,\neroding the advantage of MLA over Grouped Query Attention (GQA). We propose\nTensor-Parallel Latent Attention (TPLA): a scheme that partitions both the\nlatent representation and each head's input dimension across devices, performs\nattention independently per shard, and then combines results with an\nall-reduce. TPLA preserves the benefits of a compressed KV cache while\nunlocking TP efficiency. Unlike Grouped Latent Attention (GLA), every head in\nTPLA still leverages the full latent representation, maintaining stronger\nrepresentational capacity. TPLA is drop-in compatible with models pre-trained\nusing MLA: it supports MLA-style prefilling and enables efficient\ntensor-parallel decoding without retraining. Applying simple orthogonal\ntransforms -- e.g., the Hadamard transform or PCA -- before TP slicing further\nmitigates cross-shard interference, yielding minimal accuracy degradation. By\nreducing the per-device KV cache for DeepSeek-V3 and Kimi-K2, we achieve 1.79x\nand 1.93x speedups, respectively, at a 32K-token context length while\nmaintaining performance on commonsense and LongBench benchmarks. TPLA can be\nimplemented with FlashAttention-3, enabling practical end-to-end acceleration.",
+      "upvotes": 0,
+      "discussionId": "68abc7c886b21a0e2e358a7f",
+      "ai_summary": "Tensor-Parallel Latent Attention (TPLA) enhances tensor parallelism efficiency by partitioning latent representations and input dimensions, preserving the benefits of compressed key-value caches while maintaining strong representational capacity.",
+      "ai_keywords": [
+        "Multi-Head Latent Attention (MLA)",
+        "tensor parallelism (TP)",
+        "latent representation",
+        "attention heads",
+        "Grouped Query Attention (GQA)",
+        "Tensor-Parallel Latent Attention (TPLA)",
+        "Grouped Latent Attention (GLA)",
+        "prefilling",
+        "tensor-parallel decoding",
+        "Hadamard transform",
+        "PCA",
+        "FlashAttention-3",
+        "commonsense",
+        "LongBench benchmarks"
+      ]
+    },
+    "publishedAt": "2025-08-21T11:25:40.000Z",
+    "title": "TPLA: Tensor Parallel Latent Attention for Efficient Disaggregated\n  Prefill \\& Decode Inference",
+    "summary": "Multi-Head Latent Attention (MLA), introduced in DeepSeek-V2, compresses\nkey-value states into a low-rank latent vector, caching only this vector to\nreduce memory. In tensor parallelism (TP), however, attention heads are\ncomputed across multiple devices, and each device must load the full cache,\neroding the advantage of MLA over Grouped Query Attention (GQA). We propose\nTensor-Parallel Latent Attention (TPLA): a scheme that partitions both the\nlatent representation and each head's input dimension across devices, performs\nattention independently per shard, and then combines results with an\nall-reduce. TPLA preserves the benefits of a compressed KV cache while\nunlocking TP efficiency. Unlike Grouped Latent Attention (GLA), every head in\nTPLA still leverages the full latent representation, maintaining stronger\nrepresentational capacity. TPLA is drop-in compatible with models pre-trained\nusing MLA: it supports MLA-style prefilling and enables efficient\ntensor-parallel decoding without retraining. Applying simple orthogonal\ntransforms -- e.g., the Hadamard transform or PCA -- before TP slicing further\nmitigates cross-shard interference, yielding minimal accuracy degradation. By\nreducing the per-device KV cache for DeepSeek-V3 and Kimi-K2, we achieve 1.79x\nand 1.93x speedups, respectively, at a 32K-token context length while\nmaintaining performance on commonsense and LongBench benchmarks. TPLA can be\nimplemented with FlashAttention-3, enabling practical end-to-end acceleration.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.15881.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643f55d4ec817b766686438a",
+      "avatarUrl": "/avatars/0feb460432c92ab9ada0d417a7a38f6a.svg",
+      "fullname": "mengfanxu",
+      "name": "fxmeng",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 17
+    },
+    "isAuthorParticipating": false
+  }
+]
