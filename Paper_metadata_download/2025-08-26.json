@@ -1,0 +1,209 @@
+[
+  {
+    "paper": {
+      "id": "2508.17580",
+      "authors": [
+        {
+          "_id": "68ad09b186b21a0e2e358cf5",
+          "name": "Fan Nie",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cf6",
+          "name": "Ken Ziyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cf7",
+          "name": "Zihao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cf8",
+          "name": "Rui Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cf9",
+          "name": "Wei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cfa",
+          "name": "Weijia Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cfb",
+          "name": "Huaxiu Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cfc",
+          "name": "Linjun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cfd",
+          "name": "Andrew Y. Ng",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cfe",
+          "name": "James Zou",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358cff",
+          "name": "Sanmi Koyejo",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358d00",
+          "name": "Yejin Choi",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358d01",
+          "name": "Percy Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68ad09b186b21a0e2e358d02",
+          "name": "Niklas Muennighoff",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/5f1eb362eec0ad2a071ad6e2/EIc8-2VZpt0d-mBAk6K1z.png"
+      ],
+      "publishedAt": "2025-08-25T01:07:59.000Z",
+      "submittedOnDailyAt": "2025-08-26T00:31:47.088Z",
+      "title": "UQ: Assessing Language Models on Unsolved Questions",
+      "submittedOnDailyBy": {
+        "_id": "5f1eb362eec0ad2a071ad6e2",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f1eb362eec0ad2a071ad6e2/IXMYkYKuTwn6kBdWnQeeY.png",
+        "isPro": false,
+        "fullname": "Niklas Muennighoff",
+        "user": "Muennighoff",
+        "type": "user"
+      },
+      "summary": "Benchmarks shape progress in AI research. A useful benchmark should be both\ndifficult and realistic: questions should challenge frontier models while also\nreflecting real-world usage. Yet, current paradigms face a difficulty-realism\ntension: exam-style benchmarks are often made artificially difficult with\nlimited real-world value, while benchmarks based on real user interaction often\nskew toward easy, high-frequency problems. In this work, we explore a radically\ndifferent paradigm: assessing models on unsolved questions. Rather than a\nstatic benchmark scored once, we curate unsolved questions and evaluate models\nasynchronously over time with validator-assisted screening and community\nverification. We introduce UQ, a testbed of 500 challenging, diverse questions\nsourced from Stack Exchange, spanning topics from CS theory and math to sci-fi\nand history, probing capabilities including reasoning, factuality, and\nbrowsing. UQ is difficult and realistic by construction: unsolved questions are\noften hard and naturally arise when humans seek answers, thus solving them\nyields direct real-world value. Our contributions are threefold: (1) UQ-Dataset\nand its collection pipeline combining rule-based filters, LLM judges, and human\nreview to ensure question quality (e.g., well-defined and difficult); (2)\nUQ-Validators, compound validation strategies that leverage the\ngenerator-validator gap to provide evaluation signals and pre-screen candidate\nsolutions for human review; and (3) UQ-Platform, an open platform where experts\ncollectively verify questions and solutions. The top model passes UQ-validation\non only 15% of questions, and preliminary human verification has already\nidentified correct answers among those that passed. UQ charts a path for\nevaluating frontier models on real-world, open-ended challenges, where success\npushes the frontier of human knowledge. We release UQ at\nhttps://uq.stanford.edu.",
+      "upvotes": 1,
+      "discussionId": "68ad09b286b21a0e2e358d03",
+      "ai_summary": "UQ is a benchmark for evaluating AI models on unsolved questions, combining difficulty and realism to assess capabilities like reasoning, factuality, and browsing.",
+      "ai_keywords": [
+        "unsolved questions",
+        "UQ",
+        "UQ-Dataset",
+        "UQ-Validators",
+        "UQ-Platform",
+        "generator-validator gap",
+        "human verification",
+        "reasoning",
+        "factuality",
+        "browsing"
+      ]
+    },
+    "publishedAt": "2025-08-24T21:07:59.000Z",
+    "title": "UQ: Assessing Language Models on Unsolved Questions",
+    "summary": "Benchmarks shape progress in AI research. A useful benchmark should be both\ndifficult and realistic: questions should challenge frontier models while also\nreflecting real-world usage. Yet, current paradigms face a difficulty-realism\ntension: exam-style benchmarks are often made artificially difficult with\nlimited real-world value, while benchmarks based on real user interaction often\nskew toward easy, high-frequency problems. In this work, we explore a radically\ndifferent paradigm: assessing models on unsolved questions. Rather than a\nstatic benchmark scored once, we curate unsolved questions and evaluate models\nasynchronously over time with validator-assisted screening and community\nverification. We introduce UQ, a testbed of 500 challenging, diverse questions\nsourced from Stack Exchange, spanning topics from CS theory and math to sci-fi\nand history, probing capabilities including reasoning, factuality, and\nbrowsing. UQ is difficult and realistic by construction: unsolved questions are\noften hard and naturally arise when humans seek answers, thus solving them\nyields direct real-world value. Our contributions are threefold: (1) UQ-Dataset\nand its collection pipeline combining rule-based filters, LLM judges, and human\nreview to ensure question quality (e.g., well-defined and difficult); (2)\nUQ-Validators, compound validation strategies that leverage the\ngenerator-validator gap to provide evaluation signals and pre-screen candidate\nsolutions for human review; and (3) UQ-Platform, an open platform where experts\ncollectively verify questions and solutions. The top model passes UQ-validation\non only 15% of questions, and preliminary human verification has already\nidentified correct answers among those that passed. UQ charts a path for\nevaluating frontier models on real-world, open-ended challenges, where success\npushes the frontier of human knowledge. We release UQ at\nhttps://uq.stanford.edu.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/5f1eb362eec0ad2a071ad6e2/EIc8-2VZpt0d-mBAk6K1z.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.17580.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5f1eb362eec0ad2a071ad6e2",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f1eb362eec0ad2a071ad6e2/IXMYkYKuTwn6kBdWnQeeY.png",
+      "fullname": "Niklas Muennighoff",
+      "name": "Muennighoff",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 146
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.17188",
+      "authors": [
+        {
+          "_id": "68ad136786b21a0e2e358d1c",
+          "name": "Zhilin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68ad136786b21a0e2e358d1d",
+          "name": "Xiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68ad136786b21a0e2e358d1e",
+          "name": "Jiaqi Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68ad136786b21a0e2e358d1f",
+          "name": "Yiwei Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68ad136786b21a0e2e358d20",
+          "name": "Chenyu You",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-24T02:25:45.000Z",
+      "submittedOnDailyAt": "2025-08-26T00:23:03.761Z",
+      "title": "PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent\n  LLMs",
+      "submittedOnDailyBy": {
+        "_id": "656553d89bf6665f10e3a92d",
+        "avatarUrl": "/avatars/f55b09e249c48ef3fe484afa33a182ae.svg",
+        "isPro": false,
+        "fullname": "xiang wyatt zhang",
+        "user": "Wyattz23",
+        "type": "user"
+      },
+      "summary": "Multi-agent systems built upon large language models (LLMs) have demonstrated\nremarkable capabilities in tackling complex compositional tasks. In this work,\nwe apply this paradigm to the paper-to-poster generation problem, a practical\nyet time-consuming process faced by researchers preparing for conferences.\nWhile recent approaches have attempted to automate this task, most neglect core\ndesign and aesthetic principles, resulting in posters that require substantial\nmanual refinement. To address these design limitations, we propose PosterGen, a\nmulti-agent framework that mirrors the workflow of professional poster\ndesigners. It consists of four collaborative specialized agents: (1) Parser and\nCurator agents extract content from the paper and organize storyboard; (2)\nLayout agent maps the content into a coherent spatial layout; (3) Stylist\nagents apply visual design elements such as color and typography; and (4)\nRenderer composes the final poster. Together, these agents produce posters that\nare both semantically grounded and visually appealing. To evaluate design\nquality, we introduce a vision-language model (VLM)-based rubric that measures\nlayout balance, readability, and aesthetic coherence. Experimental results show\nthat PosterGen consistently matches in content fidelity, and significantly\noutperforms existing methods in visual designs, generating posters that are\npresentation-ready with minimal human refinements.",
+      "upvotes": 0,
+      "discussionId": "68ad136786b21a0e2e358d21",
+      "ai_summary": "PosterGen, a multi-agent framework using large language models, automates paper-to-poster generation with high design quality and minimal manual refinement.",
+      "ai_keywords": [
+        "multi-agent systems",
+        "large language models",
+        "paper-to-poster generation",
+        "Parser",
+        "Curator",
+        "Layout agent",
+        "Stylist agents",
+        "Renderer",
+        "vision-language model",
+        "VLM",
+        "layout balance",
+        "readability",
+        "aesthetic coherence"
+      ]
+    },
+    "publishedAt": "2025-08-23T22:25:45.000Z",
+    "title": "PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent\n  LLMs",
+    "summary": "Multi-agent systems built upon large language models (LLMs) have demonstrated\nremarkable capabilities in tackling complex compositional tasks. In this work,\nwe apply this paradigm to the paper-to-poster generation problem, a practical\nyet time-consuming process faced by researchers preparing for conferences.\nWhile recent approaches have attempted to automate this task, most neglect core\ndesign and aesthetic principles, resulting in posters that require substantial\nmanual refinement. To address these design limitations, we propose PosterGen, a\nmulti-agent framework that mirrors the workflow of professional poster\ndesigners. It consists of four collaborative specialized agents: (1) Parser and\nCurator agents extract content from the paper and organize storyboard; (2)\nLayout agent maps the content into a coherent spatial layout; (3) Stylist\nagents apply visual design elements such as color and typography; and (4)\nRenderer composes the final poster. Together, these agents produce posters that\nare both semantically grounded and visually appealing. To evaluate design\nquality, we introduce a vision-language model (VLM)-based rubric that measures\nlayout balance, readability, and aesthetic coherence. Experimental results show\nthat PosterGen consistently matches in content fidelity, and significantly\noutperforms existing methods in visual designs, generating posters that are\npresentation-ready with minimal human refinements.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.17188.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "656553d89bf6665f10e3a92d",
+      "avatarUrl": "/avatars/f55b09e249c48ef3fe484afa33a182ae.svg",
+      "fullname": "xiang wyatt zhang",
+      "name": "Wyattz23",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
