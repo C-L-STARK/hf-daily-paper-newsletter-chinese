@@ -1,0 +1,222 @@
+[
+  {
+    "paper": {
+      "id": "2508.19205",
+      "authors": [
+        {
+          "_id": "68ae6a0f364411bea07df70f",
+          "name": "Zhiliang Peng",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df710",
+          "name": "Jianwei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df711",
+          "name": "Wenhui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df712",
+          "name": "Yaoyao Chang",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df713",
+          "name": "Yutao Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df714",
+          "name": "Li Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df715",
+          "name": "Yi Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df716",
+          "name": "Weijiang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df717",
+          "name": "Hangbo Bao",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df718",
+          "name": "Zehua Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df719",
+          "name": "Shaohan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df71a",
+          "name": "Yan Xia",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6a0f364411bea07df71b",
+          "name": "Furu Wei",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/5df85abada6d0311fd3d5408/6tNh2DlU1e_nu7eznNjy1.png"
+      ],
+      "publishedAt": "2025-08-26T17:09:12.000Z",
+      "submittedOnDailyAt": "2025-08-27T00:47:28.459Z",
+      "title": "VibeVoice Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "5df85abada6d0311fd3d5408",
+        "avatarUrl": "/avatars/2331cf703c1b5d3a62e2050b1a6eb108.svg",
+        "isPro": false,
+        "fullname": "Li Dong",
+        "user": "unilm",
+        "type": "user"
+      },
+      "summary": "This report presents VibeVoice, a novel model designed to synthesize\nlong-form speech with multiple speakers by employing next-token diffusion,\nwhich is a unified method for modeling continuous data by autoregressively\ngenerating latent vectors via diffusion. To enable this, we introduce a novel\ncontinuous speech tokenizer that, when compared to the popular Encodec model,\nimproves data compression by 80 times while maintaining comparable performance.\nThe tokenizer effectively preserves audio fidelity while significantly boosting\ncomputational efficiency for processing long sequences. Thus, VibeVoice can\nsynthesize long-form speech for up to 90 minutes (in a 64K context window\nlength) with a maximum of 4 speakers, capturing the authentic conversational\n``vibe'' and surpassing open-source and proprietary dialogue models.",
+      "upvotes": 4,
+      "discussionId": "68ae6a0f364411bea07df71c",
+      "projectPage": "https://microsoft.github.io/VibeVoice/",
+      "githubRepo": "https://github.com/microsoft/VibeVoice",
+      "ai_summary": "VibeVoice synthesizes long-form multi-speaker speech using next-token diffusion and a highly efficient continuous speech tokenizer, achieving superior performance and fidelity.",
+      "ai_keywords": [
+        "next-token diffusion",
+        "continuous speech tokenizer",
+        "Encodec",
+        "audio fidelity",
+        "computational efficiency",
+        "long-form speech",
+        "multi-speaker synthesis",
+        "conversational vibe",
+        "dialogue models"
+      ]
+    },
+    "publishedAt": "2025-08-26T13:09:12.000Z",
+    "title": "VibeVoice Technical Report",
+    "summary": "This report presents VibeVoice, a novel model designed to synthesize\nlong-form speech with multiple speakers by employing next-token diffusion,\nwhich is a unified method for modeling continuous data by autoregressively\ngenerating latent vectors via diffusion. To enable this, we introduce a novel\ncontinuous speech tokenizer that, when compared to the popular Encodec model,\nimproves data compression by 80 times while maintaining comparable performance.\nThe tokenizer effectively preserves audio fidelity while significantly boosting\ncomputational efficiency for processing long sequences. Thus, VibeVoice can\nsynthesize long-form speech for up to 90 minutes (in a 64K context window\nlength) with a maximum of 4 speakers, capturing the authentic conversational\n``vibe'' and surpassing open-source and proprietary dialogue models.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/5df85abada6d0311fd3d5408/6tNh2DlU1e_nu7eznNjy1.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.19205.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5df85abada6d0311fd3d5408",
+      "avatarUrl": "/avatars/2331cf703c1b5d3a62e2050b1a6eb108.svg",
+      "fullname": "Li Dong",
+      "name": "unilm",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 36
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.19247",
+      "authors": [
+        {
+          "_id": "68ae6936364411bea07df706",
+          "name": "Lin Li",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6936364411bea07df707",
+          "name": "Zehuan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6936364411bea07df708",
+          "name": "Haoran Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6936364411bea07df709",
+          "name": "Gengxiong Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6936364411bea07df70a",
+          "name": "Rui Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6936364411bea07df70b",
+          "name": "Chunchao Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68ae6936364411bea07df70c",
+          "name": "Lu Sheng",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6375d136dee28348a9c63cbf/xB1n4tiK3oy96ElCeYlbY.mp4"
+      ],
+      "publishedAt": "2025-08-26T17:59:47.000Z",
+      "submittedOnDailyAt": "2025-08-27T00:43:10.461Z",
+      "title": "VoxHammer: Training-Free Precise and Coherent 3D Editing in Native 3D\n  Space",
+      "submittedOnDailyBy": {
+        "_id": "6375d136dee28348a9c63cbf",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6375d136dee28348a9c63cbf/gK465HBrQWIOZ-qtHb-Vh.jpeg",
+        "isPro": false,
+        "fullname": "zehuan-huang",
+        "user": "huanngzh",
+        "type": "user"
+      },
+      "summary": "3D local editing of specified regions is crucial for game industry and robot\ninteraction. Recent methods typically edit rendered multi-view images and then\nreconstruct 3D models, but they face challenges in precisely preserving\nunedited regions and overall coherence. Inspired by structured 3D generative\nmodels, we propose VoxHammer, a novel training-free approach that performs\nprecise and coherent editing in 3D latent space. Given a 3D model, VoxHammer\nfirst predicts its inversion trajectory and obtains its inverted latents and\nkey-value tokens at each timestep. Subsequently, in the denoising and editing\nphase, we replace the denoising features of preserved regions with the\ncorresponding inverted latents and cached key-value tokens. By retaining these\ncontextual features, this approach ensures consistent reconstruction of\npreserved areas and coherent integration of edited parts. To evaluate the\nconsistency of preserved regions, we constructed Edit3D-Bench, a\nhuman-annotated dataset comprising hundreds of samples, each with carefully\nlabeled 3D editing regions. Experiments demonstrate that VoxHammer\nsignificantly outperforms existing methods in terms of both 3D consistency of\npreserved regions and overall quality. Our method holds promise for\nsynthesizing high-quality edited paired data, thereby laying the data\nfoundation for in-context 3D generation. See our project page at\nhttps://huanngzh.github.io/VoxHammer-Page/.",
+      "upvotes": 3,
+      "discussionId": "68ae6936364411bea07df70d",
+      "projectPage": "https://huanngzh.github.io/VoxHammer-Page/",
+      "githubRepo": "https://github.com/Nelipot-Lee/VoxHammer",
+      "ai_summary": "VoxHammer is a training-free method that performs precise and coherent 3D editing in latent space, ensuring consistency in preserved regions and high-quality overall results.",
+      "ai_keywords": [
+        "structured 3D generative models",
+        "VoxHammer",
+        "3D latent space",
+        "inversion trajectory",
+        "inverted latents",
+        "key-value tokens",
+        "denoising",
+        "Edit3D-Bench",
+        "3D consistency",
+        "in-context 3D generation"
+      ],
+      "githubStars": 0
+    },
+    "publishedAt": "2025-08-26T13:59:47.000Z",
+    "title": "VoxHammer: Training-Free Precise and Coherent 3D Editing in Native 3D\n  Space",
+    "summary": "3D local editing of specified regions is crucial for game industry and robot\ninteraction. Recent methods typically edit rendered multi-view images and then\nreconstruct 3D models, but they face challenges in precisely preserving\nunedited regions and overall coherence. Inspired by structured 3D generative\nmodels, we propose VoxHammer, a novel training-free approach that performs\nprecise and coherent editing in 3D latent space. Given a 3D model, VoxHammer\nfirst predicts its inversion trajectory and obtains its inverted latents and\nkey-value tokens at each timestep. Subsequently, in the denoising and editing\nphase, we replace the denoising features of preserved regions with the\ncorresponding inverted latents and cached key-value tokens. By retaining these\ncontextual features, this approach ensures consistent reconstruction of\npreserved areas and coherent integration of edited parts. To evaluate the\nconsistency of preserved regions, we constructed Edit3D-Bench, a\nhuman-annotated dataset comprising hundreds of samples, each with carefully\nlabeled 3D editing regions. Experiments demonstrate that VoxHammer\nsignificantly outperforms existing methods in terms of both 3D consistency of\npreserved regions and overall quality. Our method holds promise for\nsynthesizing high-quality edited paired data, thereby laying the data\nfoundation for in-context 3D generation. See our project page at\nhttps://huanngzh.github.io/VoxHammer-Page/.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6375d136dee28348a9c63cbf/xB1n4tiK3oy96ElCeYlbY.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.19247.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6375d136dee28348a9c63cbf",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6375d136dee28348a9c63cbf/gK465HBrQWIOZ-qtHb-Vh.jpeg",
+      "fullname": "zehuan-huang",
+      "name": "huanngzh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 38
+    },
+    "isAuthorParticipating": false
+  }
+]
