@@ -1,0 +1,109 @@
+[
+  {
+    "paper": {
+      "id": "2508.19652",
+      "authors": [
+        {
+          "_id": "68afb491245176306494cbb0",
+          "name": "Zongxia Li",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb1",
+          "name": "Wenhao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb2",
+          "name": "Chengsong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb3",
+          "name": "Rui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb4",
+          "name": "Zhenwen Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb5",
+          "name": "Fuxiao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb6",
+          "name": "Jingxi Che",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb7",
+          "name": "Dian Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb8",
+          "name": "Jordan Boyd-Graber",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbb9",
+          "name": "Haitao Mi",
+          "hidden": false
+        },
+        {
+          "_id": "68afb491245176306494cbba",
+          "name": "Dong Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-27T08:01:03.000Z",
+      "submittedOnDailyAt": "2025-08-28T00:15:36.833Z",
+      "title": "Self-Rewarding Vision-Language Model via Reasoning Decomposition",
+      "submittedOnDailyBy": {
+        "_id": "5feab3a28a3201f8e554c969",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660795228685-5feab3a28a3201f8e554c969.png",
+        "isPro": false,
+        "fullname": "Wenhao Yu",
+        "user": "wyu1",
+        "type": "user"
+      },
+      "summary": "Vision-Language Models (VLMs) often suffer from visual hallucinations, saying\nthings that are not actually in the image, and language shortcuts, where they\nskip the visual part and just rely on text priors. These issues arise because\nmost post-training methods for VLMs rely on simple verifiable answer matching\nand supervise only final outputs, leaving intermediate visual reasoning without\nexplicit guidance. As a result, VLMs receive sparse visual signals and often\nlearn to prioritize language-based reasoning over visual perception. To\nmitigate this, some existing methods add visual supervision using human\nannotations or distilled labels from external large models. However, human\nannotations are labor-intensive and costly, and because external signals cannot\nadapt to the evolving policy, they cause distributional shifts that can lead to\nreward hacking. In this paper, we introduce Vision-SR1, a self-rewarding method\nthat improves visual reasoning without relying on external visual supervisions\nvia reinforcement learning. Vision-SR1 decomposes VLM reasoning into two\nstages: visual perception and language reasoning. The model is first prompted\nto produce self-contained visual perceptions that are sufficient to answer the\nquestion without referring back the input image. To validate this\nself-containment, the same VLM model is then re-prompted to perform language\nreasoning using only the generated perception as input to compute reward. This\nself-reward is combined with supervision on final outputs, providing a balanced\ntraining signal that strengthens both visual perception and language reasoning.\nOur experiments demonstrate that Vision-SR1 improves visual reasoning,\nmitigates visual hallucinations, and reduces reliance on language shortcuts\nacross diverse vision-language tasks.",
+      "upvotes": 2,
+      "discussionId": "68afb491245176306494cbbb",
+      "ai_summary": "Vision-SR1 uses reinforcement learning to enhance visual reasoning in vision-language models by decomposing the process into visual perception and language reasoning stages, improving accuracy and reducing hallucinations.",
+      "ai_keywords": [
+        "vision-language models",
+        "visual hallucinations",
+        "language shortcuts",
+        "visual reasoning",
+        "reinforcement learning",
+        "self-rewarding method",
+        "visual perception",
+        "language reasoning",
+        "self-containment",
+        "reward hacking"
+      ]
+    },
+    "publishedAt": "2025-08-27T04:01:03.000Z",
+    "title": "Self-Rewarding Vision-Language Model via Reasoning Decomposition",
+    "summary": "Vision-Language Models (VLMs) often suffer from visual hallucinations, saying\nthings that are not actually in the image, and language shortcuts, where they\nskip the visual part and just rely on text priors. These issues arise because\nmost post-training methods for VLMs rely on simple verifiable answer matching\nand supervise only final outputs, leaving intermediate visual reasoning without\nexplicit guidance. As a result, VLMs receive sparse visual signals and often\nlearn to prioritize language-based reasoning over visual perception. To\nmitigate this, some existing methods add visual supervision using human\nannotations or distilled labels from external large models. However, human\nannotations are labor-intensive and costly, and because external signals cannot\nadapt to the evolving policy, they cause distributional shifts that can lead to\nreward hacking. In this paper, we introduce Vision-SR1, a self-rewarding method\nthat improves visual reasoning without relying on external visual supervisions\nvia reinforcement learning. Vision-SR1 decomposes VLM reasoning into two\nstages: visual perception and language reasoning. The model is first prompted\nto produce self-contained visual perceptions that are sufficient to answer the\nquestion without referring back the input image. To validate this\nself-containment, the same VLM model is then re-prompted to perform language\nreasoning using only the generated perception as input to compute reward. This\nself-reward is combined with supervision on final outputs, providing a balanced\ntraining signal that strengthens both visual perception and language reasoning.\nOur experiments demonstrate that Vision-SR1 improves visual reasoning,\nmitigates visual hallucinations, and reduces reliance on language shortcuts\nacross diverse vision-language tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.19652.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5feab3a28a3201f8e554c969",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660795228685-5feab3a28a3201f8e554c969.png",
+      "fullname": "Wenhao Yu",
+      "name": "wyu1",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  }
+]
