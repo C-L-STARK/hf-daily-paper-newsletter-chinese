@@ -1,0 +1,212 @@
+[
+  {
+    "paper": {
+      "id": "2508.21113",
+      "authors": [
+        {
+          "_id": "68b4f36d851c6e7b001ec9c5",
+          "name": "Jie Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68b4f36d851c6e7b001ec9c6",
+          "name": "Qi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68b4f36d851c6e7b001ec9c7",
+          "name": "Bolin Ni",
+          "hidden": false
+        },
+        {
+          "_id": "68b4f36d851c6e7b001ec9c8",
+          "name": "Shiming Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "68b4f36d851c6e7b001ec9c9",
+          "name": "Han Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68b4f36d851c6e7b001ec9ca",
+          "name": "Houwen Peng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-28T17:48:19.000Z",
+      "submittedOnDailyAt": "2025-09-01T00:10:31.599Z",
+      "title": "R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs\n  via Bi-Mode Annealing and Reinforce Learning",
+      "submittedOnDailyBy": {
+        "_id": "643e45c4c639f8bc9727810a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643e45c4c639f8bc9727810a/BJR1cvSCxcqxr08iS7GsI.jpeg",
+        "isPro": false,
+        "fullname": "YannQi",
+        "user": "YannQi",
+        "type": "user"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) equipped with step-by-step thinking\ncapabilities have demonstrated remarkable performance on complex reasoning\nproblems. However, this thinking process is redundant for simple problems\nsolvable without complex reasoning. To address this inefficiency, we propose\nR-4B, an auto-thinking MLLM, which can adaptively decide when to think based on\nproblem complexity. The central idea of R-4B is to empower the model with both\nthinking and non-thinking capabilities using bi-mode annealing, and apply\nBi-mode Policy Optimization~(BPO) to improve the model's accuracy in\ndetermining whether to activate the thinking process. Specifically, we first\ntrain the model on a carefully curated dataset spanning various topics, which\ncontains samples from both thinking and non-thinking modes. Then it undergoes a\nsecond phase of training under an improved GRPO framework, where the policy\nmodel is forced to generate responses from both modes for each input query.\nExperimental results show that R-4B achieves state-of-the-art performance\nacross 25 challenging benchmarks. It outperforms Qwen2.5-VL-7B in most tasks\nand achieves performance comparable to larger models such as\nKimi-VL-A3B-Thinking-2506 (16B) on reasoning-intensive benchmarks with lower\ncomputational cost.",
+      "upvotes": 17,
+      "discussionId": "68b4f36d851c6e7b001ec9cb",
+      "githubRepo": "https://github.com/yannqi/R-4B",
+      "ai_summary": "R-4B, an auto-thinking multimodal large language model, uses bi-mode annealing and Bi-mode Policy Optimization to adaptively decide on problem-solving strategies, achieving state-of-the-art performance with lower computational cost.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "step-by-step thinking",
+        "auto-thinking",
+        "bi-mode annealing",
+        "Bi-mode Policy Optimization",
+        "GRPO framework",
+        "policy model",
+        "reasoning-intensive benchmarks"
+      ],
+      "githubStars": 12
+    },
+    "publishedAt": "2025-08-28T13:48:19.000Z",
+    "title": "R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs\n  via Bi-Mode Annealing and Reinforce Learning",
+    "summary": "Multimodal Large Language Models (MLLMs) equipped with step-by-step thinking\ncapabilities have demonstrated remarkable performance on complex reasoning\nproblems. However, this thinking process is redundant for simple problems\nsolvable without complex reasoning. To address this inefficiency, we propose\nR-4B, an auto-thinking MLLM, which can adaptively decide when to think based on\nproblem complexity. The central idea of R-4B is to empower the model with both\nthinking and non-thinking capabilities using bi-mode annealing, and apply\nBi-mode Policy Optimization~(BPO) to improve the model's accuracy in\ndetermining whether to activate the thinking process. Specifically, we first\ntrain the model on a carefully curated dataset spanning various topics, which\ncontains samples from both thinking and non-thinking modes. Then it undergoes a\nsecond phase of training under an improved GRPO framework, where the policy\nmodel is forced to generate responses from both modes for each input query.\nExperimental results show that R-4B achieves state-of-the-art performance\nacross 25 challenging benchmarks. It outperforms Qwen2.5-VL-7B in most tasks\nand achieves performance comparable to larger models such as\nKimi-VL-A3B-Thinking-2506 (16B) on reasoning-intensive benchmarks with lower\ncomputational cost.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.21113.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643e45c4c639f8bc9727810a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643e45c4c639f8bc9727810a/BJR1cvSCxcqxr08iS7GsI.jpeg",
+      "fullname": "YannQi",
+      "name": "YannQi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2508.21112",
+      "authors": [
+        {
+          "_id": "68b4e4e7851c6e7b001ec9a7",
+          "name": "Delin Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9a8",
+          "name": "Haoming Song",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9a9",
+          "name": "Qizhi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9aa",
+          "name": "Zhaoqing Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9ab",
+          "name": "Xianqiang Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9ac",
+          "name": "Xinyi Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9ad",
+          "name": "Qi Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9ae",
+          "name": "Modi Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9af",
+          "name": "Guanghui Ren",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9b0",
+          "name": "Cheng Ruan",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9b1",
+          "name": "Maoqing Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9b2",
+          "name": "Haoran Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9b3",
+          "name": "Jiacheng Bao",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9b4",
+          "name": "Bin Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68b4e4e7851c6e7b001ec9b5",
+          "name": "Dong Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-28T17:26:15.000Z",
+      "submittedOnDailyAt": "2025-09-01T00:04:28.519Z",
+      "title": "EmbodiedOneVision: Interleaved Vision-Text-Action Pretraining for\n  General Robot Control",
+      "submittedOnDailyBy": {
+        "_id": "64daecec888b7e9c400f59b5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64daecec888b7e9c400f59b5/f4pfOfWk6jYJX-Nf2-qHn.png",
+        "isPro": false,
+        "fullname": "Delin Qu",
+        "user": "delinqu",
+        "type": "user"
+      },
+      "summary": "The human ability to seamlessly perform multimodal reasoning and physical\ninteraction in the open world is a core goal for general-purpose embodied\nintelligent systems. Recent vision-language-action (VLA) models, which are\nco-trained on large-scale robot and visual-text data, have demonstrated notable\nprogress in general robot control. However, they still fail to achieve\nhuman-level flexibility in interleaved reasoning and interaction. In this work,\nintroduce EO-Robotics, consists of EO-1 model and EO-Data1.5M dataset. EO-1 is\na unified embodied foundation model that achieves superior performance in\nmultimodal embodied reasoning and robot control through interleaved\nvision-text-action pre-training. The development of EO-1 is based on two key\npillars: (i) a unified architecture that processes multimodal inputs\nindiscriminately (image, text, video, and action), and (ii) a massive,\nhigh-quality multimodal embodied reasoning dataset, EO-Data1.5M, which contains\nover 1.5 million samples with emphasis on interleaved vision-text-action\ncomprehension. EO-1 is trained through synergies between auto-regressive\ndecoding and flow matching denoising on EO-Data1.5M, enabling seamless robot\naction generation and multimodal embodied reasoning. Extensive experiments\ndemonstrate the effectiveness of interleaved vision-text-action learning for\nopen-world understanding and generalization, validated through a variety of\nlong-horizon, dexterous manipulation tasks across multiple embodiments. This\npaper details the architecture of EO-1, the data construction strategy of\nEO-Data1.5M, and the training methodology, offering valuable insights for\ndeveloping advanced embodied foundation models.",
+      "upvotes": 16,
+      "discussionId": "68b4e4e7851c6e7b001ec9b6",
+      "projectPage": "https://eo-robotics.ai/eo-1",
+      "githubRepo": "https://github.com/EO-Robotics/EO-1",
+      "ai_summary": "EO-Robotics, comprising EO-1 model and EO-Data1.5M dataset, advances multimodal embodied reasoning and robot control through interleaved vision-text-action pre-training.",
+      "ai_keywords": [
+        "vision-language-action (VLA) models",
+        "embodied foundation model",
+        "multimodal inputs",
+        "auto-regressive decoding",
+        "flow matching denoising",
+        "interleaved vision-text-action comprehension",
+        "long-horizon tasks",
+        "dexterous manipulation"
+      ],
+      "githubStars": 36
+    },
+    "publishedAt": "2025-08-28T13:26:15.000Z",
+    "title": "EmbodiedOneVision: Interleaved Vision-Text-Action Pretraining for\n  General Robot Control",
+    "summary": "The human ability to seamlessly perform multimodal reasoning and physical\ninteraction in the open world is a core goal for general-purpose embodied\nintelligent systems. Recent vision-language-action (VLA) models, which are\nco-trained on large-scale robot and visual-text data, have demonstrated notable\nprogress in general robot control. However, they still fail to achieve\nhuman-level flexibility in interleaved reasoning and interaction. In this work,\nintroduce EO-Robotics, consists of EO-1 model and EO-Data1.5M dataset. EO-1 is\na unified embodied foundation model that achieves superior performance in\nmultimodal embodied reasoning and robot control through interleaved\nvision-text-action pre-training. The development of EO-1 is based on two key\npillars: (i) a unified architecture that processes multimodal inputs\nindiscriminately (image, text, video, and action), and (ii) a massive,\nhigh-quality multimodal embodied reasoning dataset, EO-Data1.5M, which contains\nover 1.5 million samples with emphasis on interleaved vision-text-action\ncomprehension. EO-1 is trained through synergies between auto-regressive\ndecoding and flow matching denoising on EO-Data1.5M, enabling seamless robot\naction generation and multimodal embodied reasoning. Extensive experiments\ndemonstrate the effectiveness of interleaved vision-text-action learning for\nopen-world understanding and generalization, validated through a variety of\nlong-horizon, dexterous manipulation tasks across multiple embodiments. This\npaper details the architecture of EO-1, the data construction strategy of\nEO-Data1.5M, and the training methodology, offering valuable insights for\ndeveloping advanced embodied foundation models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.21112.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64daecec888b7e9c400f59b5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64daecec888b7e9c400f59b5/f4pfOfWk6jYJX-Nf2-qHn.png",
+      "fullname": "Delin Qu",
+      "name": "delinqu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  }
+]
