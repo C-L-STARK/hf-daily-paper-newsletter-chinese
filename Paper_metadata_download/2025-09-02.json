@@ -1,0 +1,102 @@
+[
+  {
+    "paper": {
+      "id": "2508.21104",
+      "authors": [
+        {
+          "_id": "68b50650851c6e7b001eca07",
+          "name": "Wenfeng Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68b50650851c6e7b001eca08",
+          "name": "Penghong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68b50650851c6e7b001eca09",
+          "user": {
+            "_id": "644a1dbb9c340e5e1e713153",
+            "avatarUrl": "/avatars/21cb93ad067a798a39829ef7e67c70b8.svg",
+            "isPro": false,
+            "fullname": "JGC",
+            "user": "Nothing2Say",
+            "type": "user"
+          },
+          "name": "Guochao Jiang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-09-01T07:50:45.446Z",
+          "hidden": false
+        },
+        {
+          "_id": "68b50650851c6e7b001eca0a",
+          "name": "Chuzhan Hao",
+          "hidden": false
+        },
+        {
+          "_id": "68b50650851c6e7b001eca0b",
+          "name": "Yuewei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68b50650851c6e7b001eca0c",
+          "name": "Hao Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-28T09:18:26.000Z",
+      "submittedOnDailyAt": "2025-09-02T00:25:08.396Z",
+      "title": "PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic\n  Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "644a1dbb9c340e5e1e713153",
+        "avatarUrl": "/avatars/21cb93ad067a798a39829ef7e67c70b8.svg",
+        "isPro": false,
+        "fullname": "JGC",
+        "user": "Nothing2Say",
+        "type": "user"
+      },
+      "summary": "Critic-free reinforcement learning methods, particularly group policies, have\nattracted considerable attention for their efficiency in complex tasks.\nHowever, these methods rely heavily on multiple sampling and comparisons within\nthe policy to estimate advantage, which may cause the policy to fall into local\noptimum and increase computational cost. To address these issues, we propose\nPVPO, an efficient reinforcement learning method enhanced by an advantage\nreference anchor and data pre-sampling. Specifically, we use the reference\nmodel to rollout in advance and employ the calculated reward score as a\nreference anchor. Our approach effectively corrects the cumulative bias\nintroduced by intra-group comparisons and significantly reduces reliance on the\nnumber of rollouts. Meanwhile, the reference model can assess sample difficulty\nduring data pre-sampling, enabling effective selection of high-gain data to\nimprove training efficiency. Experiments conducted on nine datasets across two\ndomains demonstrate that PVPO achieves State-Of-The-Art (SOTA) performance. Our\napproach not only demonstrates robust generalization across multiple tasks, but\nalso exhibits scalable performance across models of varying scales.",
+      "upvotes": 5,
+      "discussionId": "68b50651851c6e7b001eca0d",
+      "ai_summary": "PVPO, an enhanced reinforcement learning method using a reference anchor and data pre-sampling, achieves state-of-the-art performance with reduced computational cost and improved generalization.",
+      "ai_keywords": [
+        "critic-free reinforcement learning",
+        "group policies",
+        "advantage estimation",
+        "local optimum",
+        "computational cost",
+        "advantage reference anchor",
+        "data pre-sampling",
+        "reference model",
+        "rollout",
+        "reward score",
+        "cumulative bias",
+        "intra-group comparisons",
+        "sample difficulty",
+        "high-gain data",
+        "training efficiency",
+        "state-of-the-art performance",
+        "robust generalization",
+        "scalable performance"
+      ]
+    },
+    "publishedAt": "2025-08-28T05:18:26.000Z",
+    "title": "PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic\n  Reasoning",
+    "summary": "Critic-free reinforcement learning methods, particularly group policies, have\nattracted considerable attention for their efficiency in complex tasks.\nHowever, these methods rely heavily on multiple sampling and comparisons within\nthe policy to estimate advantage, which may cause the policy to fall into local\noptimum and increase computational cost. To address these issues, we propose\nPVPO, an efficient reinforcement learning method enhanced by an advantage\nreference anchor and data pre-sampling. Specifically, we use the reference\nmodel to rollout in advance and employ the calculated reward score as a\nreference anchor. Our approach effectively corrects the cumulative bias\nintroduced by intra-group comparisons and significantly reduces reliance on the\nnumber of rollouts. Meanwhile, the reference model can assess sample difficulty\nduring data pre-sampling, enabling effective selection of high-gain data to\nimprove training efficiency. Experiments conducted on nine datasets across two\ndomains demonstrate that PVPO achieves State-Of-The-Art (SOTA) performance. Our\napproach not only demonstrates robust generalization across multiple tasks, but\nalso exhibits scalable performance across models of varying scales.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.21104.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "644a1dbb9c340e5e1e713153",
+      "avatarUrl": "/avatars/21cb93ad067a798a39829ef7e67c70b8.svg",
+      "fullname": "JGC",
+      "name": "Nothing2Say",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": true
+  }
+]
