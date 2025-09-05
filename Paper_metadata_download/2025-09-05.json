@@ -1,0 +1,284 @@
+[
+  {
+    "paper": {
+      "id": "2509.01396",
+      "authors": [
+        {
+          "_id": "68b98e69736018af705e8d41",
+          "user": {
+            "_id": "65a8bcb717d869bb7487c2a1",
+            "avatarUrl": "/avatars/261c28f7e616a8482970f50c1f8919fd.svg",
+            "isPro": false,
+            "fullname": "Haiyuan Wan",
+            "user": "haiyuanwan",
+            "type": "user"
+          },
+          "name": "Haiyuan Wan",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-09-04T19:36:56.793Z",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d42",
+          "name": "Chen Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d43",
+          "name": "Junchi Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d44",
+          "name": "Meiqi Tu",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d45",
+          "name": "Jiaxuan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d46",
+          "name": "Di Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d47",
+          "name": "Jianbao Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d48",
+          "name": "Ben Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d49",
+          "name": "Jiaqing Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d4a",
+          "name": "Aoran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d4b",
+          "name": "Wenlong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d4c",
+          "name": "Philip Torr",
+          "hidden": false
+        },
+        {
+          "_id": "68b98e69736018af705e8d4d",
+          "name": "Dongzhan Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-01T11:42:47.000Z",
+      "submittedOnDailyAt": "2025-09-05T00:41:12.849Z",
+      "title": "DeepResearch Arena: The First Exam of LLMs' Research Abilities via\n  Seminar-Grounded Tasks",
+      "submittedOnDailyBy": {
+        "_id": "65a8bcb717d869bb7487c2a1",
+        "avatarUrl": "/avatars/261c28f7e616a8482970f50c1f8919fd.svg",
+        "isPro": false,
+        "fullname": "Haiyuan Wan",
+        "user": "haiyuanwan",
+        "type": "user"
+      },
+      "summary": "Deep research agents have attracted growing attention for their potential to\norchestrate multi-stage research workflows, spanning literature synthesis,\nmethodological design, and empirical verification. Despite these strides,\nevaluating their research capability faithfully is rather challenging due to\nthe difficulty of collecting frontier research questions that genuinely capture\nresearchers' attention and intellectual curiosity. To address this gap, we\nintroduce DeepResearch Arena, a benchmark grounded in academic seminars that\ncapture rich expert discourse and interaction, better reflecting real-world\nresearch environments and reducing the risk of data leakage. To automatically\nconstruct DeepResearch Arena, we propose a Multi-Agent Hierarchical Task\nGeneration (MAHTG) system that extracts research-worthy inspirations from\nseminar transcripts. The MAHTG system further translates research-worthy\ninspirations into high-quality research tasks, ensuring the traceability of\nresearch task formulation while filtering noise. With the MAHTG system, we\ncurate DeepResearch Arena with over 10,000 high-quality research tasks from\nover 200 academic seminars, spanning 12 disciplines, such as literature,\nhistory, and science. Our extensive evaluation shows that DeepResearch Arena\npresents substantial challenges for current state-of-the-art agents, with clear\nperformance gaps observed across different models.",
+      "upvotes": 6,
+      "discussionId": "68b98e6a736018af705e8d4e",
+      "ai_summary": "DeepResearch Arena, a benchmark using academic seminar transcripts, provides high-quality research tasks to evaluate deep research agents across multiple disciplines.",
+      "ai_keywords": [
+        "DeepResearch Arena",
+        "Multi-Agent Hierarchical Task Generation",
+        "MAHTG",
+        "research tasks",
+        "academic seminars",
+        "research agents"
+      ]
+    },
+    "publishedAt": "2025-09-01T07:42:47.000Z",
+    "title": "DeepResearch Arena: The First Exam of LLMs' Research Abilities via\n  Seminar-Grounded Tasks",
+    "summary": "Deep research agents have attracted growing attention for their potential to\norchestrate multi-stage research workflows, spanning literature synthesis,\nmethodological design, and empirical verification. Despite these strides,\nevaluating their research capability faithfully is rather challenging due to\nthe difficulty of collecting frontier research questions that genuinely capture\nresearchers' attention and intellectual curiosity. To address this gap, we\nintroduce DeepResearch Arena, a benchmark grounded in academic seminars that\ncapture rich expert discourse and interaction, better reflecting real-world\nresearch environments and reducing the risk of data leakage. To automatically\nconstruct DeepResearch Arena, we propose a Multi-Agent Hierarchical Task\nGeneration (MAHTG) system that extracts research-worthy inspirations from\nseminar transcripts. The MAHTG system further translates research-worthy\ninspirations into high-quality research tasks, ensuring the traceability of\nresearch task formulation while filtering noise. With the MAHTG system, we\ncurate DeepResearch Arena with over 10,000 high-quality research tasks from\nover 200 academic seminars, spanning 12 disciplines, such as literature,\nhistory, and science. Our extensive evaluation shows that DeepResearch Arena\npresents substantial challenges for current state-of-the-art agents, with clear\nperformance gaps observed across different models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.01396.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65a8bcb717d869bb7487c2a1",
+      "avatarUrl": "/avatars/261c28f7e616a8482970f50c1f8919fd.svg",
+      "fullname": "Haiyuan Wan",
+      "name": "haiyuanwan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2508.18733",
+      "authors": [
+        {
+          "_id": "68b993e5736018af705e8d50",
+          "name": "Feiwei Qin",
+          "hidden": false
+        },
+        {
+          "_id": "68b993e5736018af705e8d51",
+          "name": "Shichao Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68b993e5736018af705e8d52",
+          "user": {
+            "_id": "64258e73120a3ed32333319e",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64258e73120a3ed32333319e/f1_eZ6slEoVq8Kn4WbQDC.png",
+            "isPro": false,
+            "fullname": "Junhao Hou",
+            "user": "1nnoh",
+            "type": "user"
+          },
+          "name": "Junhao Hou",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-09-04T19:34:40.271Z",
+          "hidden": false
+        },
+        {
+          "_id": "68b993e5736018af705e8d53",
+          "name": "Changmiao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68b993e5736018af705e8d54",
+          "name": "Meie Fang",
+          "hidden": false
+        },
+        {
+          "_id": "68b993e5736018af705e8d55",
+          "name": "Ligang Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-08-26T07:01:58.000Z",
+      "submittedOnDailyAt": "2025-09-05T00:39:47.038Z",
+      "title": "Drawing2CAD: Sequence-to-Sequence Learning for CAD Generation from\n  Vector Drawings",
+      "submittedOnDailyBy": {
+        "_id": "64258e73120a3ed32333319e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64258e73120a3ed32333319e/f1_eZ6slEoVq8Kn4WbQDC.png",
+        "isPro": false,
+        "fullname": "Junhao Hou",
+        "user": "1nnoh",
+        "type": "user"
+      },
+      "summary": "Computer-Aided Design (CAD) generative modeling is driving significant\ninnovations across industrial applications. Recent works have shown remarkable\nprogress in creating solid models from various inputs such as point clouds,\nmeshes, and text descriptions. However, these methods fundamentally diverge\nfrom traditional industrial workflows that begin with 2D engineering drawings.\nThe automatic generation of parametric CAD models from these 2D vector drawings\nremains underexplored despite being a critical step in engineering design. To\naddress this gap, our key insight is to reframe CAD generation as a\nsequence-to-sequence learning problem where vector drawing primitives directly\ninform the generation of parametric CAD operations, preserving geometric\nprecision and design intent throughout the transformation process. We propose\nDrawing2CAD, a framework with three key technical components: a\nnetwork-friendly vector primitive representation that preserves precise\ngeometric information, a dual-decoder transformer architecture that decouples\ncommand type and parameter generation while maintaining precise correspondence,\nand a soft target distribution loss function accommodating inherent flexibility\nin CAD parameters. To train and evaluate Drawing2CAD, we create CAD-VGDrawing,\na dataset of paired engineering drawings and parametric CAD models, and conduct\nthorough experiments to demonstrate the effectiveness of our method. Code and\ndataset are available at https://github.com/lllssc/Drawing2CAD.",
+      "upvotes": 1,
+      "discussionId": "68b993e5736018af705e8d56",
+      "githubRepo": "https://github.com/lllssc/Drawing2CAD",
+      "ai_summary": "Drawing2CAD is a framework that converts 2D vector drawings into parametric CAD models using a sequence-to-sequence learning approach with a dual-decoder transformer architecture and a soft target distribution loss function.",
+      "ai_keywords": [
+        "sequence-to-sequence learning",
+        "vector primitive representation",
+        "dual-decoder transformer architecture",
+        "soft target distribution loss function",
+        "parametric CAD models"
+      ],
+      "githubStars": 45
+    },
+    "publishedAt": "2025-08-26T03:01:58.000Z",
+    "title": "Drawing2CAD: Sequence-to-Sequence Learning for CAD Generation from\n  Vector Drawings",
+    "summary": "Computer-Aided Design (CAD) generative modeling is driving significant\ninnovations across industrial applications. Recent works have shown remarkable\nprogress in creating solid models from various inputs such as point clouds,\nmeshes, and text descriptions. However, these methods fundamentally diverge\nfrom traditional industrial workflows that begin with 2D engineering drawings.\nThe automatic generation of parametric CAD models from these 2D vector drawings\nremains underexplored despite being a critical step in engineering design. To\naddress this gap, our key insight is to reframe CAD generation as a\nsequence-to-sequence learning problem where vector drawing primitives directly\ninform the generation of parametric CAD operations, preserving geometric\nprecision and design intent throughout the transformation process. We propose\nDrawing2CAD, a framework with three key technical components: a\nnetwork-friendly vector primitive representation that preserves precise\ngeometric information, a dual-decoder transformer architecture that decouples\ncommand type and parameter generation while maintaining precise correspondence,\nand a soft target distribution loss function accommodating inherent flexibility\nin CAD parameters. To train and evaluate Drawing2CAD, we create CAD-VGDrawing,\na dataset of paired engineering drawings and parametric CAD models, and conduct\nthorough experiments to demonstrate the effectiveness of our method. Code and\ndataset are available at https://github.com/lllssc/Drawing2CAD.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2508.18733.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64258e73120a3ed32333319e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64258e73120a3ed32333319e/f1_eZ6slEoVq8Kn4WbQDC.png",
+      "fullname": "Junhao Hou",
+      "name": "1nnoh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2509.03888",
+      "authors": [
+        {
+          "_id": "68ba4063736018af705e8e2e",
+          "name": "Cheng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ba4063736018af705e8e2f",
+          "name": "Zeming Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68ba4063736018af705e8e30",
+          "name": "Qin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ba4063736018af705e8e31",
+          "name": "Muhao Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-04T05:15:55.000Z",
+      "submittedOnDailyAt": "2025-09-05T00:43:07.219Z",
+      "title": "False Sense of Security: Why Probing-based Malicious Input Detection\n  Fails to Generalize",
+      "submittedOnDailyBy": {
+        "_id": "6329c57e6813868fa49efeaa",
+        "avatarUrl": "/avatars/59f46607d3bd33d98a35679e99a00b32.svg",
+        "isPro": false,
+        "fullname": "Zeming Wei",
+        "user": "ZemingWei",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) can comply with harmful instructions, raising\nserious safety concerns despite their impressive capabilities. Recent work has\nleveraged probing-based approaches to study the separability of malicious and\nbenign inputs in LLMs' internal representations, and researchers have proposed\nusing such probing methods for safety detection. We systematically re-examine\nthis paradigm. Motivated by poor out-of-distribution performance, we\nhypothesize that probes learn superficial patterns rather than semantic\nharmfulness. Through controlled experiments, we confirm this hypothesis and\nidentify the specific patterns learned: instructional patterns and trigger\nwords. Our investigation follows a systematic approach, progressing from\ndemonstrating comparable performance of simple n-gram methods, to controlled\nexperiments with semantically cleaned datasets, to detailed analysis of pattern\ndependencies. These results reveal a false sense of security around current\nprobing-based approaches and highlight the need to redesign both models and\nevaluation protocols, for which we provide further discussions in the hope of\nsuggesting responsible further research in this direction. We have open-sourced\nthe project at https://github.com/WangCheng0116/Why-Probe-Fails.",
+      "upvotes": 0,
+      "discussionId": "68ba4063736018af705e8e32",
+      "ai_summary": "Probing-based approaches for detecting harmful instructions in LLMs are found to rely on superficial patterns rather than semantic understanding, indicating a need for redesigning models and evaluation methods.",
+      "ai_keywords": [
+        "Large Language Models",
+        "LLMs",
+        "probing-based approaches",
+        "internal representations",
+        "safety detection",
+        "out-of-distribution performance",
+        "instructional patterns",
+        "trigger words",
+        "n-gram methods",
+        "semantically cleaned datasets",
+        "pattern dependencies"
+      ]
+    },
+    "publishedAt": "2025-09-04T01:15:55.000Z",
+    "title": "False Sense of Security: Why Probing-based Malicious Input Detection\n  Fails to Generalize",
+    "summary": "Large Language Models (LLMs) can comply with harmful instructions, raising\nserious safety concerns despite their impressive capabilities. Recent work has\nleveraged probing-based approaches to study the separability of malicious and\nbenign inputs in LLMs' internal representations, and researchers have proposed\nusing such probing methods for safety detection. We systematically re-examine\nthis paradigm. Motivated by poor out-of-distribution performance, we\nhypothesize that probes learn superficial patterns rather than semantic\nharmfulness. Through controlled experiments, we confirm this hypothesis and\nidentify the specific patterns learned: instructional patterns and trigger\nwords. Our investigation follows a systematic approach, progressing from\ndemonstrating comparable performance of simple n-gram methods, to controlled\nexperiments with semantically cleaned datasets, to detailed analysis of pattern\ndependencies. These results reveal a false sense of security around current\nprobing-based approaches and highlight the need to redesign both models and\nevaluation protocols, for which we provide further discussions in the hope of\nsuggesting responsible further research in this direction. We have open-sourced\nthe project at https://github.com/WangCheng0116/Why-Probe-Fails.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.03888.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6329c57e6813868fa49efeaa",
+      "avatarUrl": "/avatars/59f46607d3bd33d98a35679e99a00b32.svg",
+      "fullname": "Zeming Wei",
+      "name": "ZemingWei",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
