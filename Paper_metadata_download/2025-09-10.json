@@ -1,0 +1,600 @@
+[
+  {
+    "paper": {
+      "id": "2509.07980",
+      "authors": [
+        {
+          "_id": "68c0d8e13912ed54cf543209",
+          "name": "Tong Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf54320a",
+          "name": "Hongming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf54320b",
+          "name": "Wenhao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf54320c",
+          "name": "Xiaoyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf54320d",
+          "name": "Xinyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf54320e",
+          "name": "Runpeng Dai",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf54320f",
+          "name": "Rui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf543210",
+          "name": "Huiwen Bao",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf543211",
+          "name": "Chengsong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf543212",
+          "name": "Heng Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8e13912ed54cf543213",
+          "name": "Dong Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-09T17:59:35.000Z",
+      "submittedOnDailyAt": "2025-09-10T00:20:34.994Z",
+      "title": "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "64f58b970b24e548a85522bc",
+        "avatarUrl": "/avatars/c8ca1294b5a1edd609694877e335b22f.svg",
+        "isPro": false,
+        "fullname": "Xinyu Yang",
+        "user": "Hanyuezhuohua",
+        "type": "user"
+      },
+      "summary": "Parallel thinking has emerged as a novel approach for enhancing the reasoning\ncapabilities of large language models (LLMs) by exploring multiple reasoning\npaths concurrently. However, activating such capabilities through training\nremains challenging, as existing methods predominantly rely on supervised\nfine-tuning (SFT) over synthetic data, which encourages teacher-forced\nimitation rather than exploration and generalization. Different from them, we\npropose Parallel-R1, the first reinforcement learning (RL) framework\nthat enables parallel thinking behaviors for complex real-world reasoning\ntasks. Our framework employs a progressive curriculum that explicitly addresses\nthe cold-start problem in training parallel thinking with RL. We first use SFT\non prompt-generated trajectories from easier tasks to instill the parallel\nthinking ability, then transition to RL to explore and generalize this skill on\nharder problems. Experiments on various math benchmarks, including MATH, AMC23,\nand AIME, show that Parallel-R1 successfully instills parallel thinking,\nleading to 8.4% accuracy improvements over the sequential thinking model\ntrained directly on challenging tasks with RL. Further analysis reveals a clear\nshift in the model's thinking behavior: at an early stage, it uses parallel\nthinking as an exploration strategy, while in a later stage, it uses the same\ncapability for multi-perspective verification. Most significantly, we validate\nparallel thinking as a mid-training exploration scaffold, where this\ntemporary exploratory phase unlocks a higher performance ceiling after RL,\nyielding a 42.9% improvement over the baseline on AIME25. Our model, data, and\ncode will be open-source at https://github.com/zhengkid/Parallel-R1.",
+      "upvotes": 23,
+      "discussionId": "68c0d8e23912ed54cf543214",
+      "githubRepo": "https://github.com/zhengkid/Parallel-R1",
+      "ai_summary": "Parallel-R1, a reinforcement learning framework, enhances large language models' reasoning capabilities by enabling parallel thinking through a progressive curriculum, leading to significant performance improvements on math benchmarks.",
+      "ai_keywords": [
+        "parallel thinking",
+        "reinforcement learning",
+        "progressive curriculum",
+        "cold-start problem",
+        "supervised fine-tuning",
+        "prompt-generated trajectories",
+        "sequential thinking",
+        "multi-perspective verification",
+        "mid-training exploration scaffold"
+      ],
+      "githubStars": 5
+    },
+    "publishedAt": "2025-09-09T13:59:35.000Z",
+    "title": "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning",
+    "summary": "Parallel thinking has emerged as a novel approach for enhancing the reasoning\ncapabilities of large language models (LLMs) by exploring multiple reasoning\npaths concurrently. However, activating such capabilities through training\nremains challenging, as existing methods predominantly rely on supervised\nfine-tuning (SFT) over synthetic data, which encourages teacher-forced\nimitation rather than exploration and generalization. Different from them, we\npropose Parallel-R1, the first reinforcement learning (RL) framework\nthat enables parallel thinking behaviors for complex real-world reasoning\ntasks. Our framework employs a progressive curriculum that explicitly addresses\nthe cold-start problem in training parallel thinking with RL. We first use SFT\non prompt-generated trajectories from easier tasks to instill the parallel\nthinking ability, then transition to RL to explore and generalize this skill on\nharder problems. Experiments on various math benchmarks, including MATH, AMC23,\nand AIME, show that Parallel-R1 successfully instills parallel thinking,\nleading to 8.4% accuracy improvements over the sequential thinking model\ntrained directly on challenging tasks with RL. Further analysis reveals a clear\nshift in the model's thinking behavior: at an early stage, it uses parallel\nthinking as an exploration strategy, while in a later stage, it uses the same\ncapability for multi-perspective verification. Most significantly, we validate\nparallel thinking as a mid-training exploration scaffold, where this\ntemporary exploratory phase unlocks a higher performance ceiling after RL,\nyielding a 42.9% improvement over the baseline on AIME25. Our model, data, and\ncode will be open-source at https://github.com/zhengkid/Parallel-R1.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.07980.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64f58b970b24e548a85522bc",
+      "avatarUrl": "/avatars/c8ca1294b5a1edd609694877e335b22f.svg",
+      "fullname": "Xinyu Yang",
+      "name": "Hanyuezhuohua",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.06923",
+      "authors": [
+        {
+          "_id": "68bf933e207285de11b07b6c",
+          "user": {
+            "_id": "636a7459eb076ec3f4030e7d",
+            "avatarUrl": "/avatars/832dc709211e3a2ea5e93caea3768122.svg",
+            "isPro": false,
+            "fullname": "Ziheng Li",
+            "user": "ChillingDream",
+            "type": "user"
+          },
+          "name": "Ziheng Li",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-09-09T13:48:12.520Z",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b6d",
+          "name": "Zexu Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b6e",
+          "user": {
+            "_id": "6546ecc9cd0a56213929fd18",
+            "avatarUrl": "/avatars/9f4d4e369f0ca6e5669b038badc4e622.svg",
+            "isPro": false,
+            "fullname": "jinman",
+            "user": "zhaojinm",
+            "type": "user"
+          },
+          "name": "Jinman Zhao",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-09-09T13:48:10.358Z",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b6f",
+          "name": "Erxue Min",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b70",
+          "name": "Yongcheng Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b71",
+          "name": "Hui Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b72",
+          "name": "Hengyi Cai",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b73",
+          "name": "Shuaiqiang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b74",
+          "name": "Dawei Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b75",
+          "name": "Xu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68bf933e207285de11b07b76",
+          "name": "Zhi-Hong Deng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-08T17:36:21.000Z",
+      "submittedOnDailyAt": "2025-09-10T00:16:30.819Z",
+      "title": "Staying in the Sweet Spot: Responsive Reasoning Evolution via\n  Capability-Adaptive Hint Scaffolding",
+      "submittedOnDailyBy": {
+        "_id": "636a7459eb076ec3f4030e7d",
+        "avatarUrl": "/avatars/832dc709211e3a2ea5e93caea3768122.svg",
+        "isPro": false,
+        "fullname": "Ziheng Li",
+        "user": "ChillingDream",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has achieved remarkable\nsuccess in enhancing the reasoning capabilities of large language models\n(LLMs). However, existing RLVR methods often suffer from exploration\ninefficiency due to mismatches between the training data's difficulty and the\nmodel's capability. LLMs fail to discover viable reasoning paths when problems\nare overly difficult, while learning little new capability when problems are\ntoo simple. In this work, we formalize the impact of problem difficulty by\nquantifying the relationship between loss descent speed and rollout accuracy.\nBuilding on this analysis, we propose SEELE, a novel supervision-aided RLVR\nframework that dynamically adjusts problem difficulty to stay within the\nhigh-efficiency region. SEELE augments each training sample by appending a hint\n(part of a full solution) after the original problem. Unlike previous\nhint-based approaches, SEELE deliberately and adaptively adjusts the hint\nlength for each problem to achieve an optimal difficulty. To determine the\noptimal hint length, SEELE employs a multi-round rollout sampling strategy. In\neach round, it fits an item response theory model to the accuracy-hint pairs\ncollected in preceding rounds to predict the required hint length for the next\nround. This instance-level, real-time difficulty adjustment aligns problem\ndifficulty with the evolving model capability, thereby improving exploration\nefficiency. Experimental results show that SEELE outperforms Group Relative\nPolicy Optimization (GRPO) and Supervised Fine-tuning (SFT) by +11.8 and +10.5\npoints, respectively, and surpasses the best previous supervision-aided\napproach by +3.6 points on average across six math reasoning benchmarks.",
+      "upvotes": 12,
+      "discussionId": "68bf933f207285de11b07b77",
+      "ai_summary": "SEELE, a novel RLVR framework, dynamically adjusts problem difficulty using adaptive hint lengths to enhance exploration efficiency and improve performance in math reasoning tasks.",
+      "ai_keywords": [
+        "reinforcement learning with verifiable rewards",
+        "RLVR",
+        "large language models",
+        "LLMs",
+        "exploration inefficiency",
+        "problem difficulty",
+        "loss descent speed",
+        "rollout accuracy",
+        "SEELE",
+        "supervision-aided RLVR",
+        "hint length",
+        "multi-round rollout sampling",
+        "item response theory model",
+        "Group Relative Policy Optimization",
+        "GRPO",
+        "Supervised Fine-tuning",
+        "SFT"
+      ]
+    },
+    "publishedAt": "2025-09-08T13:36:21.000Z",
+    "title": "Staying in the Sweet Spot: Responsive Reasoning Evolution via\n  Capability-Adaptive Hint Scaffolding",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has achieved remarkable\nsuccess in enhancing the reasoning capabilities of large language models\n(LLMs). However, existing RLVR methods often suffer from exploration\ninefficiency due to mismatches between the training data's difficulty and the\nmodel's capability. LLMs fail to discover viable reasoning paths when problems\nare overly difficult, while learning little new capability when problems are\ntoo simple. In this work, we formalize the impact of problem difficulty by\nquantifying the relationship between loss descent speed and rollout accuracy.\nBuilding on this analysis, we propose SEELE, a novel supervision-aided RLVR\nframework that dynamically adjusts problem difficulty to stay within the\nhigh-efficiency region. SEELE augments each training sample by appending a hint\n(part of a full solution) after the original problem. Unlike previous\nhint-based approaches, SEELE deliberately and adaptively adjusts the hint\nlength for each problem to achieve an optimal difficulty. To determine the\noptimal hint length, SEELE employs a multi-round rollout sampling strategy. In\neach round, it fits an item response theory model to the accuracy-hint pairs\ncollected in preceding rounds to predict the required hint length for the next\nround. This instance-level, real-time difficulty adjustment aligns problem\ndifficulty with the evolving model capability, thereby improving exploration\nefficiency. Experimental results show that SEELE outperforms Group Relative\nPolicy Optimization (GRPO) and Supervised Fine-tuning (SFT) by +11.8 and +10.5\npoints, respectively, and surpasses the best previous supervision-aided\napproach by +3.6 points on average across six math reasoning benchmarks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.06923.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "636a7459eb076ec3f4030e7d",
+      "avatarUrl": "/avatars/832dc709211e3a2ea5e93caea3768122.svg",
+      "fullname": "Ziheng Li",
+      "name": "ChillingDream",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2509.07969",
+      "authors": [
+        {
+          "_id": "68c0d77d3912ed54cf543201",
+          "name": "Xin Lai",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d77d3912ed54cf543202",
+          "name": "Junyi Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d77d3912ed54cf543203",
+          "name": "Wei Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d77d3912ed54cf543204",
+          "name": "Tao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d77d3912ed54cf543205",
+          "name": "Tianjian Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d77d3912ed54cf543206",
+          "name": "Hengshuang Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-09T17:54:21.000Z",
+      "submittedOnDailyAt": "2025-09-10T00:12:34.256Z",
+      "title": "Mini-o3: Scaling Up Reasoning Patterns and Interaction Turns for Visual\n  Search",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advances in large multimodal models have leveraged image-based tools\nwith reinforcement learning to tackle visual problems. However, existing\nopen-source approaches often exhibit monotonous reasoning patterns and allow\nonly a limited number of interaction turns, making them inadequate for\ndifficult tasks that require trial-and-error exploration. In this work, we\naddress this limitation by scaling up tool-based interactions and introduce\nMini-o3, a system that executes deep, multi-turn reasoning -- spanning tens of\nsteps -- and achieves state-of-the-art performance on challenging visual search\ntasks. Our recipe for reproducing OpenAI o3-style behaviors comprises three key\ncomponents. First, we construct the Visual Probe Dataset, a collection of\nthousands of challenging visual search problems designed for exploratory\nreasoning. Second, we develop an iterative data collection pipeline to obtain\ncold-start trajectories that exhibit diverse reasoning patterns, including\ndepth-first search, trial-and-error, and goal maintenance. Third, we propose an\nover-turn masking strategy that prevents penalization of over-turn responses\n(those that hit the maximum number of turns) during reinforcement learning,\nthereby balancing training-time efficiency with test-time scalability. Despite\ntraining with an upper bound of only six interaction turns, our model generates\ntrajectories that naturally scale to tens of turns at inference time, with\naccuracy improving as the number of turns increases. Extensive experiments\ndemonstrate that Mini-o3 produces rich reasoning patterns and deep thinking\npaths, effectively solving challenging visual search problems.",
+      "upvotes": 3,
+      "discussionId": "68c0d77d3912ed54cf543207",
+      "projectPage": "https://mini-o3.github.io/",
+      "githubRepo": "https://github.com/Mini-o3/Mini-o3",
+      "ai_summary": "Mini-o3, a system for deep, multi-turn reasoning in visual search tasks, uses an iterative data collection pipeline and over-turn masking strategy to achieve state-of-the-art performance with rich reasoning patterns.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "Visual Probe Dataset",
+        "iterative data collection pipeline",
+        "depth-first search",
+        "trial-and-error",
+        "goal maintenance",
+        "over-turn masking strategy"
+      ],
+      "githubStars": 6
+    },
+    "publishedAt": "2025-09-09T13:54:21.000Z",
+    "title": "Mini-o3: Scaling Up Reasoning Patterns and Interaction Turns for Visual\n  Search",
+    "summary": "Recent advances in large multimodal models have leveraged image-based tools\nwith reinforcement learning to tackle visual problems. However, existing\nopen-source approaches often exhibit monotonous reasoning patterns and allow\nonly a limited number of interaction turns, making them inadequate for\ndifficult tasks that require trial-and-error exploration. In this work, we\naddress this limitation by scaling up tool-based interactions and introduce\nMini-o3, a system that executes deep, multi-turn reasoning -- spanning tens of\nsteps -- and achieves state-of-the-art performance on challenging visual search\ntasks. Our recipe for reproducing OpenAI o3-style behaviors comprises three key\ncomponents. First, we construct the Visual Probe Dataset, a collection of\nthousands of challenging visual search problems designed for exploratory\nreasoning. Second, we develop an iterative data collection pipeline to obtain\ncold-start trajectories that exhibit diverse reasoning patterns, including\ndepth-first search, trial-and-error, and goal maintenance. Third, we propose an\nover-turn masking strategy that prevents penalization of over-turn responses\n(those that hit the maximum number of turns) during reinforcement learning,\nthereby balancing training-time efficiency with test-time scalability. Despite\ntraining with an upper bound of only six interaction turns, our model generates\ntrajectories that naturally scale to tens of turns at inference time, with\naccuracy improving as the number of turns increases. Extensive experiments\ndemonstrate that Mini-o3 produces rich reasoning patterns and deep thinking\npaths, effectively solving challenging visual search problems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.07969.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 102
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.07979",
+      "authors": [
+        {
+          "_id": "68c0d8f13912ed54cf543216",
+          "name": "Heeji Yoon",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf543217",
+          "name": "Jaewoo Jung",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf543218",
+          "name": "Junwan Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf543219",
+          "name": "Hyungyu Choi",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf54321a",
+          "name": "Heeseong Shin",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf54321b",
+          "name": "Sangbeom Lim",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf54321c",
+          "name": "Honggyu An",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf54321d",
+          "name": "Chaehyun Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf54321e",
+          "name": "Jisang Han",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf54321f",
+          "name": "Donghyun Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf543220",
+          "name": "Chanho Eom",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf543221",
+          "name": "Sunghwan Hong",
+          "hidden": false
+        },
+        {
+          "_id": "68c0d8f13912ed54cf543222",
+          "name": "Seungryong Kim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-09T17:59:14.000Z",
+      "submittedOnDailyAt": "2025-09-10T00:18:48.073Z",
+      "title": "Visual Representation Alignment for Multimodal Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Multimodal large language models (MLLMs) trained with visual instruction\ntuning have achieved strong performance across diverse tasks, yet they remain\nlimited in vision-centric tasks such as object counting or spatial reasoning.\nWe attribute this gap to the prevailing text-only supervision paradigm, which\nprovides only indirect guidance for the visual pathway and often leads MLLMs to\ndiscard fine-grained visual details during training. In this paper, we present\nVIsual Representation ALignment (VIRAL), a simple yet effective regularization\nstrategy that aligns the internal visual representations of MLLMs with those of\npre-trained vision foundation models (VFMs). By explicitly enforcing this\nalignment, VIRAL enables the model not only to retain critical visual details\nfrom the input vision encoder but also to complement additional visual\nknowledge from VFMs, thereby enhancing its ability to reason over complex\nvisual inputs. Our experiments demonstrate consistent improvements across all\ntasks on widely adopted multimodal benchmarks. Furthermore, we conduct\ncomprehensive ablation studies to validate the key design choices underlying\nour framework. We believe this simple finding opens up an important direction\nfor the effective integration of visual information in training MLLMs.",
+      "upvotes": 1,
+      "discussionId": "68c0d8f23912ed54cf543223",
+      "projectPage": "https://cvlab-kaist.github.io/VIRAL/",
+      "ai_summary": "VIRAL, a regularization strategy, aligns MLLMs' visual representations with pre-trained VFMs, enhancing performance on vision-centric tasks.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "MLLMs",
+        "visual instruction tuning",
+        "vision-centric tasks",
+        "object counting",
+        "spatial reasoning",
+        "text-only supervision",
+        "visual pathway",
+        "fine-grained visual details",
+        "Visual Representation ALignment",
+        "VIRAL",
+        "pre-trained vision foundation models",
+        "VFMs",
+        "internal visual representations",
+        "visual encoder",
+        "visual knowledge",
+        "reasoning over complex visual inputs",
+        "multimodal benchmarks",
+        "ablation studies"
+      ]
+    },
+    "publishedAt": "2025-09-09T13:59:14.000Z",
+    "title": "Visual Representation Alignment for Multimodal Large Language Models",
+    "summary": "Multimodal large language models (MLLMs) trained with visual instruction\ntuning have achieved strong performance across diverse tasks, yet they remain\nlimited in vision-centric tasks such as object counting or spatial reasoning.\nWe attribute this gap to the prevailing text-only supervision paradigm, which\nprovides only indirect guidance for the visual pathway and often leads MLLMs to\ndiscard fine-grained visual details during training. In this paper, we present\nVIsual Representation ALignment (VIRAL), a simple yet effective regularization\nstrategy that aligns the internal visual representations of MLLMs with those of\npre-trained vision foundation models (VFMs). By explicitly enforcing this\nalignment, VIRAL enables the model not only to retain critical visual details\nfrom the input vision encoder but also to complement additional visual\nknowledge from VFMs, thereby enhancing its ability to reason over complex\nvisual inputs. Our experiments demonstrate consistent improvements across all\ntasks on widely adopted multimodal benchmarks. Furthermore, we conduct\ncomprehensive ablation studies to validate the key design choices underlying\nour framework. We believe this simple finding opens up an important direction\nfor the effective integration of visual information in training MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.07979.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 102
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.07968",
+      "authors": [
+        {
+          "_id": "68c0db913912ed54cf543246",
+          "name": "Lukas Haas",
+          "hidden": false
+        },
+        {
+          "_id": "68c0db913912ed54cf543247",
+          "name": "Gal Yona",
+          "hidden": false
+        },
+        {
+          "_id": "68c0db913912ed54cf543248",
+          "name": "Giovanni D'Antonio",
+          "hidden": false
+        },
+        {
+          "_id": "68c0db913912ed54cf543249",
+          "name": "Sasha Goldshtein",
+          "hidden": false
+        },
+        {
+          "_id": "68c0db913912ed54cf54324a",
+          "name": "Dipanjan Das",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-09T17:53:58.000Z",
+      "submittedOnDailyAt": "2025-09-10T00:30:00.404Z",
+      "title": "SimpleQA Verified: A Reliable Factuality Benchmark to Measure Parametric\n  Knowledge",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce SimpleQA Verified, a 1,000-prompt benchmark for evaluating Large\nLanguage Model (LLM) short-form factuality based on OpenAI's SimpleQA. It\naddresses critical limitations in OpenAI's benchmark, including noisy and\nincorrect labels, topical biases, and question redundancy. SimpleQA Verified\nwas created through a rigorous multi-stage filtering process involving\nde-duplication, topic balancing, and source reconciliation to produce a more\nreliable and challenging evaluation set, alongside improvements in the\nautorater prompt. On this new benchmark, Gemini 2.5 Pro achieves a\nstate-of-the-art F1-score of 55.6, outperforming other frontier models,\nincluding GPT-5. This work provides the research community with a\nhigher-fidelity tool to track genuine progress in parametric model factuality\nand to mitigate hallucinations. The benchmark dataset, evaluation code, and\nleaderboard are available at:\nhttps://www.kaggle.com/benchmarks/deepmind/simpleqa-verified.",
+      "upvotes": 1,
+      "discussionId": "68c0db913912ed54cf54324b",
+      "projectPage": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+      "ai_summary": "SimpleQA Verified is a refined benchmark for evaluating the factuality of Large Language Models, addressing issues in previous benchmarks and providing a more reliable evaluation tool.",
+      "ai_keywords": [
+        "Large Language Model",
+        "LLM",
+        "SimpleQA",
+        "SimpleQA Verified",
+        "F1-score",
+        "parametric model factuality",
+        "hallucinations"
+      ]
+    },
+    "publishedAt": "2025-09-09T13:53:58.000Z",
+    "title": "SimpleQA Verified: A Reliable Factuality Benchmark to Measure Parametric\n  Knowledge",
+    "summary": "We introduce SimpleQA Verified, a 1,000-prompt benchmark for evaluating Large\nLanguage Model (LLM) short-form factuality based on OpenAI's SimpleQA. It\naddresses critical limitations in OpenAI's benchmark, including noisy and\nincorrect labels, topical biases, and question redundancy. SimpleQA Verified\nwas created through a rigorous multi-stage filtering process involving\nde-duplication, topic balancing, and source reconciliation to produce a more\nreliable and challenging evaluation set, alongside improvements in the\nautorater prompt. On this new benchmark, Gemini 2.5 Pro achieves a\nstate-of-the-art F1-score of 55.6, outperforming other frontier models,\nincluding GPT-5. This work provides the research community with a\nhigher-fidelity tool to track genuine progress in parametric model factuality\nand to mitigate hallucinations. The benchmark dataset, evaluation code, and\nleaderboard are available at:\nhttps://www.kaggle.com/benchmarks/deepmind/simpleqa-verified.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.07968.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 102
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.07414",
+      "authors": [
+        {
+          "_id": "68c0dee53912ed54cf543256",
+          "name": "Jakub Grudzien Kuba",
+          "hidden": false
+        },
+        {
+          "_id": "68c0dee53912ed54cf543257",
+          "name": "Mengting Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68c0dee53912ed54cf543258",
+          "name": "Qi Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68c0dee53912ed54cf543259",
+          "name": "Yuandong Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68c0dee53912ed54cf54325a",
+          "name": "Vijai Mohan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-09T05:51:34.000Z",
+      "submittedOnDailyAt": "2025-09-10T00:44:10.481Z",
+      "title": "Language Self-Play For Data-Free Training",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have advanced rapidly in recent years, driven by\nscale, abundant high-quality training data, and reinforcement learning. Yet\nthis progress faces a fundamental bottleneck: the need for ever more data from\nwhich models can continue to learn. In this work, we propose a reinforcement\nlearning approach that removes this dependency by enabling models to improve\nwithout additional data. Our method leverages a game-theoretic framework of\nself-play, where a model's capabilities are cast as performance in a\ncompetitive game and stronger policies emerge by having the model play against\nitself - a process we call Language Self-Play (LSP). Experiments with\nLlama-3.2-3B-Instruct on instruction-following benchmarks show that pretrained\nmodels can not only enhance their performance on challenging tasks through\nself-play alone, but can also do so more effectively than data-driven\nbaselines.",
+      "upvotes": 1,
+      "discussionId": "68c0dee53912ed54cf54325b",
+      "ai_summary": "Language Self-Play (LSP) enhances large language models' performance on instruction-following tasks through self-play, surpassing data-driven methods.",
+      "ai_keywords": [
+        "large language models",
+        "reinforcement learning",
+        "self-play",
+        "Language Self-Play (LSP)",
+        "instruction-following benchmarks",
+        "pretrained models"
+      ]
+    },
+    "publishedAt": "2025-09-09T01:51:34.000Z",
+    "title": "Language Self-Play For Data-Free Training",
+    "summary": "Large language models (LLMs) have advanced rapidly in recent years, driven by\nscale, abundant high-quality training data, and reinforcement learning. Yet\nthis progress faces a fundamental bottleneck: the need for ever more data from\nwhich models can continue to learn. In this work, we propose a reinforcement\nlearning approach that removes this dependency by enabling models to improve\nwithout additional data. Our method leverages a game-theoretic framework of\nself-play, where a model's capabilities are cast as performance in a\ncompetitive game and stronger policies emerge by having the model play against\nitself - a process we call Language Self-Play (LSP). Experiments with\nLlama-3.2-3B-Instruct on instruction-following benchmarks show that pretrained\nmodels can not only enhance their performance on challenging tasks through\nself-play alone, but can also do so more effectively than data-driven\nbaselines.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.07414.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 102
+    },
+    "isAuthorParticipating": false
+  }
+]
