@@ -1,0 +1,364 @@
+[
+  {
+    "paper": {
+      "id": "2509.08826",
+      "authors": [
+        {
+          "_id": "68c2308c29b8ec9932cd08f3",
+          "name": "Jie Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08f4",
+          "name": "Yu Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08f5",
+          "name": "Zilyu Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08f6",
+          "name": "Ming Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08f7",
+          "name": "Liang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08f8",
+          "name": "Hanzhong Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08f9",
+          "name": "Jie Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08fa",
+          "name": "Zeyue Xue",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08fb",
+          "name": "Xiaoxia Hou",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08fc",
+          "name": "Wei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08fd",
+          "name": "Yan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68c2308c29b8ec9932cd08fe",
+          "name": "Weilin Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-10T17:59:31.000Z",
+      "submittedOnDailyAt": "2025-09-11T00:44:48.257Z",
+      "title": "RewardDance: Reward Scaling in Visual Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Reward Models (RMs) are critical for improving generation models via\nReinforcement Learning (RL), yet the RM scaling paradigm in visual generation\nremains largely unexplored. It primarily due to fundamental limitations in\nexisting approaches: CLIP-based RMs suffer from architectural and input\nmodality constraints, while prevalent Bradley-Terry losses are fundamentally\nmisaligned with the next-token prediction mechanism of Vision-Language Models\n(VLMs), hindering effective scaling. More critically, the RLHF optimization\nprocess is plagued by Reward Hacking issue, where models exploit flaws in the\nreward signal without improving true quality. To address these challenges, we\nintroduce RewardDance, a scalable reward modeling framework that overcomes\nthese barriers through a novel generative reward paradigm. By reformulating the\nreward score as the model's probability of predicting a \"yes\" token, indicating\nthat the generated image outperforms a reference image according to specific\ncriteria, RewardDance intrinsically aligns reward objectives with VLM\narchitectures. This alignment unlocks scaling across two dimensions: (1) Model\nScaling: Systematic scaling of RMs up to 26 billion parameters; (2) Context\nScaling: Integration of task-specific instructions, reference examples, and\nchain-of-thought (CoT) reasoning. Extensive experiments demonstrate that\nRewardDance significantly surpasses state-of-the-art methods in text-to-image,\ntext-to-video, and image-to-video generation. Crucially, we resolve the\npersistent challenge of \"reward hacking\": Our large-scale RMs exhibit and\nmaintain high reward variance during RL fine-tuning, proving their resistance\nto hacking and ability to produce diverse, high-quality outputs. It greatly\nrelieves the mode collapse problem that plagues smaller models.",
+      "upvotes": 4,
+      "discussionId": "68c2308c29b8ec9932cd08ff",
+      "ai_summary": "RewardDance is a scalable reward modeling framework that aligns with VLM architectures, enabling effective scaling of RMs and resolving reward hacking issues in generation models.",
+      "ai_keywords": [
+        "CLIP-based RMs",
+        "Bradley-Terry losses",
+        "Vision-Language Models (VLMs)",
+        "RLHF optimization",
+        "Reward Hacking",
+        "RewardDance",
+        "generative reward paradigm",
+        "model scaling",
+        "context scaling",
+        "task-specific instructions",
+        "reference examples",
+        "chain-of-thought (CoT) reasoning",
+        "text-to-image",
+        "text-to-video",
+        "image-to-video generation",
+        "mode collapse"
+      ]
+    },
+    "publishedAt": "2025-09-10T13:59:31.000Z",
+    "title": "RewardDance: Reward Scaling in Visual Generation",
+    "summary": "Reward Models (RMs) are critical for improving generation models via\nReinforcement Learning (RL), yet the RM scaling paradigm in visual generation\nremains largely unexplored. It primarily due to fundamental limitations in\nexisting approaches: CLIP-based RMs suffer from architectural and input\nmodality constraints, while prevalent Bradley-Terry losses are fundamentally\nmisaligned with the next-token prediction mechanism of Vision-Language Models\n(VLMs), hindering effective scaling. More critically, the RLHF optimization\nprocess is plagued by Reward Hacking issue, where models exploit flaws in the\nreward signal without improving true quality. To address these challenges, we\nintroduce RewardDance, a scalable reward modeling framework that overcomes\nthese barriers through a novel generative reward paradigm. By reformulating the\nreward score as the model's probability of predicting a \"yes\" token, indicating\nthat the generated image outperforms a reference image according to specific\ncriteria, RewardDance intrinsically aligns reward objectives with VLM\narchitectures. This alignment unlocks scaling across two dimensions: (1) Model\nScaling: Systematic scaling of RMs up to 26 billion parameters; (2) Context\nScaling: Integration of task-specific instructions, reference examples, and\nchain-of-thought (CoT) reasoning. Extensive experiments demonstrate that\nRewardDance significantly surpasses state-of-the-art methods in text-to-image,\ntext-to-video, and image-to-video generation. Crucially, we resolve the\npersistent challenge of \"reward hacking\": Our large-scale RMs exhibit and\nmaintain high reward variance during RL fine-tuning, proving their resistance\nto hacking and ability to produce diverse, high-quality outputs. It greatly\nrelieves the mode collapse problem that plagues smaller models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.08826.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 102
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.08827",
+      "authors": [
+        {
+          "_id": "68c228e829b8ec9932cd08ca",
+          "name": "Kaiyan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08cb",
+          "name": "Yuxin Zuo",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08cc",
+          "name": "Bingxiang He",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08cd",
+          "name": "Youbang Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08ce",
+          "name": "Runze Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08cf",
+          "name": "Che Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d0",
+          "name": "Yuchen Fan",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d1",
+          "name": "Kai Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d2",
+          "name": "Guoli Jia",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d3",
+          "name": "Pengfei Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d4",
+          "name": "Yu Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d5",
+          "name": "Xingtai Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d6",
+          "name": "Yuchen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d7",
+          "name": "Sihang Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d8",
+          "name": "Shang Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08d9",
+          "name": "Haozhan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08da",
+          "name": "Shijie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08db",
+          "name": "Yuru Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08dc",
+          "name": "Xinwei Long",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08dd",
+          "name": "Fangfu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08de",
+          "name": "Xiang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08df",
+          "name": "Jiaze Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e0",
+          "name": "Xuekai Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e1",
+          "name": "Ermo Hua",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e2",
+          "name": "Yihao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e3",
+          "name": "Zonglin Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e4",
+          "name": "Huayu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e5",
+          "name": "Xiaoye Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e6",
+          "name": "Yafu Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e7",
+          "name": "Weize Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e8",
+          "name": "Zhenzhao Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08e9",
+          "name": "Junqi Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08ea",
+          "name": "Dong Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08eb",
+          "name": "Zhiyuan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08ec",
+          "name": "Ganqu Cui",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08ed",
+          "name": "Zhiyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08ee",
+          "name": "Biqing Qi",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08ef",
+          "name": "Ning Ding",
+          "hidden": false
+        },
+        {
+          "_id": "68c228e829b8ec9932cd08f0",
+          "name": "Bowen Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-10T17:59:43.000Z",
+      "submittedOnDailyAt": "2025-09-11T00:49:36.249Z",
+      "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+      "submittedOnDailyBy": {
+        "_id": "60bc94cd85a3ab33829b6211",
+        "avatarUrl": "/avatars/b57d36c7577fbbb42ea5b963eef4144a.svg",
+        "isPro": false,
+        "fullname": "Kaiyan Zhang",
+        "user": "iseesaw",
+        "type": "user"
+      },
+      "summary": "In this paper, we survey recent advances in Reinforcement Learning (RL) for\nreasoning with Large Language Models (LLMs). RL has achieved remarkable success\nin advancing the frontier of LLM capabilities, particularly in addressing\ncomplex logical tasks such as mathematics and coding. As a result, RL has\nemerged as a foundational methodology for transforming LLMs into LRMs. With the\nrapid progress of the field, further scaling of RL for LRMs now faces\nfoundational challenges not only in computational resources but also in\nalgorithm design, training data, and infrastructure. To this end, it is timely\nto revisit the development of this domain, reassess its trajectory, and explore\nstrategies to enhance the scalability of RL toward Artificial SuperIntelligence\n(ASI). In particular, we examine research applying RL to LLMs and LRMs for\nreasoning abilities, especially since the release of DeepSeek-R1, including\nfoundational components, core problems, training resources, and downstream\napplications, to identify future opportunities and directions for this rapidly\nevolving area. We hope this review will promote future research on RL for\nbroader reasoning models. Github:\nhttps://github.com/TsinghuaC3I/Awesome-RL-for-LRMs",
+      "upvotes": 1,
+      "discussionId": "68c228e929b8ec9932cd08f1",
+      "projectPage": "https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs",
+      "githubRepo": "https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs",
+      "ai_summary": "Reinforcement Learning enhances Large Language Models for complex reasoning tasks, facing challenges in scalability and infrastructure as the field advances.",
+      "ai_keywords": [
+        "Reinforcement Learning",
+        "Large Language Models",
+        "LRMs",
+        "DeepSeek-R1",
+        "Artificial SuperIntelligence"
+      ]
+    },
+    "publishedAt": "2025-09-10T13:59:43.000Z",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "summary": "In this paper, we survey recent advances in Reinforcement Learning (RL) for\nreasoning with Large Language Models (LLMs). RL has achieved remarkable success\nin advancing the frontier of LLM capabilities, particularly in addressing\ncomplex logical tasks such as mathematics and coding. As a result, RL has\nemerged as a foundational methodology for transforming LLMs into LRMs. With the\nrapid progress of the field, further scaling of RL for LRMs now faces\nfoundational challenges not only in computational resources but also in\nalgorithm design, training data, and infrastructure. To this end, it is timely\nto revisit the development of this domain, reassess its trajectory, and explore\nstrategies to enhance the scalability of RL toward Artificial SuperIntelligence\n(ASI). In particular, we examine research applying RL to LLMs and LRMs for\nreasoning abilities, especially since the release of DeepSeek-R1, including\nfoundational components, core problems, training resources, and downstream\napplications, to identify future opportunities and directions for this rapidly\nevolving area. We hope this review will promote future research on RL for\nbroader reasoning models. Github:\nhttps://github.com/TsinghuaC3I/Awesome-RL-for-LRMs",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.08827.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60bc94cd85a3ab33829b6211",
+      "avatarUrl": "/avatars/b57d36c7577fbbb42ea5b963eef4144a.svg",
+      "fullname": "Kaiyan Zhang",
+      "name": "iseesaw",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  }
+]
