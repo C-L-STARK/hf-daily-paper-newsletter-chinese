@@ -1,0 +1,564 @@
+[
+  {
+    "paper": {
+      "id": "2509.09677",
+      "authors": [
+        {
+          "_id": "68c38a6afc1747b912403a3c",
+          "user": {
+            "_id": "651c184bdea81981d51158dd",
+            "avatarUrl": "/avatars/8afe17fcbd15d8ee767f24e4e8f34bbb.svg",
+            "isPro": false,
+            "fullname": "Akshit Sinha",
+            "user": "viciousa3gis",
+            "type": "user"
+          },
+          "name": "Akshit Sinha",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-09-12T16:08:01.121Z",
+          "hidden": false
+        },
+        {
+          "_id": "68c38a6afc1747b912403a3d",
+          "user": {
+            "_id": "62cd4dd7c5cc157be82f287a",
+            "avatarUrl": "/avatars/eb2e819dcdb67bafecbe0db3b1302c61.svg",
+            "isPro": false,
+            "fullname": "Arvindh Arun",
+            "user": "arvindh75",
+            "type": "user"
+          },
+          "name": "Arvindh Arun",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-09-12T16:07:57.509Z",
+          "hidden": false
+        },
+        {
+          "_id": "68c38a6afc1747b912403a3e",
+          "name": "Shashwat Goel",
+          "hidden": false
+        },
+        {
+          "_id": "68c38a6afc1747b912403a3f",
+          "name": "Steffen Staab",
+          "hidden": false
+        },
+        {
+          "_id": "68c38a6afc1747b912403a40",
+          "name": "Jonas Geiping",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-11T17:59:34.000Z",
+      "submittedOnDailyAt": "2025-09-15T00:05:27.675Z",
+      "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in\n  LLMs",
+      "submittedOnDailyBy": {
+        "_id": "6506832221ac448013f94995",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6506832221ac448013f94995/sVUI1JV4Dxan5l-MqNze4.jpeg",
+        "isPro": false,
+        "fullname": "Shashwat Goel",
+        "user": "shash42",
+        "type": "user"
+      },
+      "summary": "Does continued scaling of large language models (LLMs) yield diminishing\nreturns? Real-world value often stems from the length of task an agent can\ncomplete. We start this work by observing the simple but counterintuitive fact\nthat marginal gains in single-step accuracy can compound into exponential\nimprovements in the length of a task a model can successfully complete. Then,\nwe argue that failures of LLMs when simple tasks are made longer arise from\nmistakes in execution, rather than an inability to reason. We propose isolating\nexecution capability, by explicitly providing the knowledge and plan needed to\nsolve a long-horizon task. We find that larger models can correctly execute\nsignificantly more turns even when small models have 100\\% single-turn\naccuracy. We observe that the per-step accuracy of models degrades as the\nnumber of steps increases. This is not just due to long-context limitations --\ncuriously, we observe a self-conditioning effect -- models become more likely\nto make mistakes when the context contains their errors from prior turns.\nSelf-conditioning does not reduce by just scaling the model size. In contrast,\nrecent thinking models do not self-condition, and can also execute much longer\ntasks in a single turn. We conclude by benchmarking frontier thinking models on\nthe length of task they can execute in a single turn. Overall, by focusing on\nthe ability to execute, we hope to reconcile debates on how LLMs can solve\ncomplex reasoning problems yet fail at simple tasks when made longer, and\nhighlight the massive benefits of scaling model size and sequential test-time\ncompute for long-horizon tasks.",
+      "upvotes": 6,
+      "discussionId": "68c38a6afc1747b912403a41",
+      "ai_summary": "Scaling large language models improves their ability to execute longer tasks by isolating execution capability and mitigating self-conditioning effects, despite diminishing single-step accuracy.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "single-step accuracy",
+        "long-horizon tasks",
+        "execution capability",
+        "self-conditioning",
+        "thinking models",
+        "sequential test-time compute"
+      ]
+    },
+    "publishedAt": "2025-09-11T13:59:34.000Z",
+    "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in\n  LLMs",
+    "summary": "Does continued scaling of large language models (LLMs) yield diminishing\nreturns? Real-world value often stems from the length of task an agent can\ncomplete. We start this work by observing the simple but counterintuitive fact\nthat marginal gains in single-step accuracy can compound into exponential\nimprovements in the length of a task a model can successfully complete. Then,\nwe argue that failures of LLMs when simple tasks are made longer arise from\nmistakes in execution, rather than an inability to reason. We propose isolating\nexecution capability, by explicitly providing the knowledge and plan needed to\nsolve a long-horizon task. We find that larger models can correctly execute\nsignificantly more turns even when small models have 100\\% single-turn\naccuracy. We observe that the per-step accuracy of models degrades as the\nnumber of steps increases. This is not just due to long-context limitations --\ncuriously, we observe a self-conditioning effect -- models become more likely\nto make mistakes when the context contains their errors from prior turns.\nSelf-conditioning does not reduce by just scaling the model size. In contrast,\nrecent thinking models do not self-condition, and can also execute much longer\ntasks in a single turn. We conclude by benchmarking frontier thinking models on\nthe length of task they can execute in a single turn. Overall, by focusing on\nthe ability to execute, we hope to reconcile debates on how LLMs can solve\ncomplex reasoning problems yet fail at simple tasks when made longer, and\nhighlight the massive benefits of scaling model size and sequential test-time\ncompute for long-horizon tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.09677.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6506832221ac448013f94995",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6506832221ac448013f94995/sVUI1JV4Dxan5l-MqNze4.jpeg",
+      "fullname": "Shashwat Goel",
+      "name": "shash42",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.10441",
+      "authors": [
+        {
+          "_id": "68c76c47ee0eed1697d6b662",
+          "name": "Tao Han",
+          "hidden": false
+        },
+        {
+          "_id": "68c76c47ee0eed1697d6b663",
+          "name": "Wanghan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68c76c47ee0eed1697d6b664",
+          "name": "Junchao Gong",
+          "hidden": false
+        },
+        {
+          "_id": "68c76c47ee0eed1697d6b665",
+          "name": "Xiaoyu Yue",
+          "hidden": false
+        },
+        {
+          "_id": "68c76c47ee0eed1697d6b666",
+          "name": "Song Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68c76c47ee0eed1697d6b667",
+          "name": "Luping Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68c76c47ee0eed1697d6b668",
+          "name": "Lei Bai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-12T17:48:57.000Z",
+      "submittedOnDailyAt": "2025-09-15T00:01:05.617Z",
+      "title": "InfGen: A Resolution-Agnostic Paradigm for Scalable Image Synthesis",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Arbitrary resolution image generation provides a consistent visual experience\nacross devices, having extensive applications for producers and consumers.\nCurrent diffusion models increase computational demand quadratically with\nresolution, causing 4K image generation delays over 100 seconds. To solve this,\nwe explore the second generation upon the latent diffusion models, where the\nfixed latent generated by diffusion models is regarded as the content\nrepresentation and we propose to decode arbitrary resolution images with a\ncompact generated latent using a one-step generator. Thus, we present the\nInfGen, replacing the VAE decoder with the new generator, for\ngenerating images at any resolution from a fixed-size latent without retraining\nthe diffusion models, which simplifies the process, reducing computational\ncomplexity and can be applied to any model using the same latent space.\nExperiments show InfGen is capable of improving many models into the arbitrary\nhigh-resolution era while cutting 4K image generation time to under 10 seconds.",
+      "upvotes": 1,
+      "discussionId": "68c76c48ee0eed1697d6b669",
+      "ai_summary": "InfGen, a one-step generator replacing the VAE decoder, enables arbitrary high-resolution image generation from a fixed-size latent, significantly reducing computational complexity and generation time.",
+      "ai_keywords": [
+        "diffusion models",
+        "latent diffusion models",
+        "VAE decoder",
+        "one-step generator",
+        "arbitrary resolution",
+        "computational complexity",
+        "image generation time"
+      ]
+    },
+    "publishedAt": "2025-09-12T13:48:57.000Z",
+    "title": "InfGen: A Resolution-Agnostic Paradigm for Scalable Image Synthesis",
+    "summary": "Arbitrary resolution image generation provides a consistent visual experience\nacross devices, having extensive applications for producers and consumers.\nCurrent diffusion models increase computational demand quadratically with\nresolution, causing 4K image generation delays over 100 seconds. To solve this,\nwe explore the second generation upon the latent diffusion models, where the\nfixed latent generated by diffusion models is regarded as the content\nrepresentation and we propose to decode arbitrary resolution images with a\ncompact generated latent using a one-step generator. Thus, we present the\nInfGen, replacing the VAE decoder with the new generator, for\ngenerating images at any resolution from a fixed-size latent without retraining\nthe diffusion models, which simplifies the process, reducing computational\ncomplexity and can be applied to any model using the same latent space.\nExperiments show InfGen is capable of improving many models into the arbitrary\nhigh-resolution era while cutting 4K image generation time to under 10 seconds.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.10441.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 104
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.10058",
+      "authors": [
+        {
+          "_id": "68c76cd9ee0eed1697d6b670",
+          "name": "Sung-Lin Tsai",
+          "hidden": false
+        },
+        {
+          "_id": "68c76cd9ee0eed1697d6b671",
+          "name": "Bo-Lun Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68c76cd9ee0eed1697d6b672",
+          "name": "Yu Ting Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68c76cd9ee0eed1697d6b673",
+          "name": "Cheng Yu Yeo",
+          "hidden": false
+        },
+        {
+          "_id": "68c76cd9ee0eed1697d6b674",
+          "name": "Chiang Tseng",
+          "hidden": false
+        },
+        {
+          "_id": "68c76cd9ee0eed1697d6b675",
+          "name": "Bo-Kai Ruan",
+          "hidden": false
+        },
+        {
+          "_id": "68c76cd9ee0eed1697d6b676",
+          "name": "Wen-Sheng Lien",
+          "hidden": false
+        },
+        {
+          "_id": "68c76cd9ee0eed1697d6b677",
+          "name": "Hong-Han Shuai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-12T08:44:22.000Z",
+      "submittedOnDailyAt": "2025-09-15T00:03:26.917Z",
+      "title": "Color Me Correctly: Bridging Perceptual Color Spaces and Text Embeddings\n  for Improved Diffusion Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Accurate color alignment in text-to-image (T2I) generation is critical for\napplications such as fashion, product visualization, and interior design, yet\ncurrent diffusion models struggle with nuanced and compound color terms (e.g.,\nTiffany blue, lime green, hot pink), often producing images that are misaligned\nwith human intent. Existing approaches rely on cross-attention manipulation,\nreference images, or fine-tuning but fail to systematically resolve ambiguous\ncolor descriptions. To precisely render colors under prompt ambiguity, we\npropose a training-free framework that enhances color fidelity by leveraging a\nlarge language model (LLM) to disambiguate color-related prompts and guiding\ncolor blending operations directly in the text embedding space. Our method\nfirst employs a large language model (LLM) to resolve ambiguous color terms in\nthe text prompt, and then refines the text embeddings based on the spatial\nrelationships of the resulting color terms in the CIELAB color space. Unlike\nprior methods, our approach improves color accuracy without requiring\nadditional training or external reference images. Experimental results\ndemonstrate that our framework improves color alignment without compromising\nimage quality, bridging the gap between text semantics and visual generation.",
+      "upvotes": 1,
+      "discussionId": "68c76cdaee0eed1697d6b678",
+      "ai_summary": "A training-free framework uses a large language model to disambiguate color terms and refine text embeddings for improved color accuracy in text-to-image generation.",
+      "ai_keywords": [
+        "diffusion models",
+        "text-to-image (T2I) generation",
+        "color fidelity",
+        "large language model (LLM)",
+        "color-related prompts",
+        "text embeddings",
+        "CIELAB color space",
+        "color accuracy",
+        "image quality",
+        "text semantics",
+        "visual generation"
+      ]
+    },
+    "publishedAt": "2025-09-12T04:44:22.000Z",
+    "title": "Color Me Correctly: Bridging Perceptual Color Spaces and Text Embeddings\n  for Improved Diffusion Generation",
+    "summary": "Accurate color alignment in text-to-image (T2I) generation is critical for\napplications such as fashion, product visualization, and interior design, yet\ncurrent diffusion models struggle with nuanced and compound color terms (e.g.,\nTiffany blue, lime green, hot pink), often producing images that are misaligned\nwith human intent. Existing approaches rely on cross-attention manipulation,\nreference images, or fine-tuning but fail to systematically resolve ambiguous\ncolor descriptions. To precisely render colors under prompt ambiguity, we\npropose a training-free framework that enhances color fidelity by leveraging a\nlarge language model (LLM) to disambiguate color-related prompts and guiding\ncolor blending operations directly in the text embedding space. Our method\nfirst employs a large language model (LLM) to resolve ambiguous color terms in\nthe text prompt, and then refines the text embeddings based on the spatial\nrelationships of the resulting color terms in the CIELAB color space. Unlike\nprior methods, our approach improves color accuracy without requiring\nadditional training or external reference images. Experimental results\ndemonstrate that our framework improves color alignment without compromising\nimage quality, bridging the gap between text semantics and visual generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.10058.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 104
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.09995",
+      "authors": [
+        {
+          "_id": "68c77229ee0eed1697d6b6ae",
+          "name": "Fei Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68c77229ee0eed1697d6b6af",
+          "name": "Xiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68c77229ee0eed1697d6b6b0",
+          "name": "Aosong Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68c77229ee0eed1697d6b6b1",
+          "name": "Siqi Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68c77229ee0eed1697d6b6b2",
+          "name": "Chenyu You",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-12T06:35:40.000Z",
+      "submittedOnDailyAt": "2025-09-15T00:26:15.778Z",
+      "title": "QuantAgent: Price-Driven Multi-Agent LLMs for High-Frequency Trading",
+      "submittedOnDailyBy": {
+        "_id": "656553d89bf6665f10e3a92d",
+        "avatarUrl": "/avatars/f55b09e249c48ef3fe484afa33a182ae.svg",
+        "isPro": false,
+        "fullname": "xiang wyatt zhang",
+        "user": "Wyattz23",
+        "type": "user"
+      },
+      "summary": "Recent advances in Large Language Models (LLMs) have demonstrated impressive\ncapabilities in financial reasoning and market understanding. Multi-agent LLM\nframeworks such as TradingAgent and FINMEM augment these models to long-horizon\ninvestment tasks, leveraging fundamental and sentiment-based inputs for\nstrategic decision-making. However, such systems are ill-suited for the\nhigh-speed, precision-critical demands of High-Frequency Trading (HFT). HFT\nrequires rapid, risk-aware decisions based on structured, short-horizon\nsignals, including technical indicators, chart patterns, and trend-based\nfeatures, distinct from the long-term semantic reasoning typical of traditional\nfinancial LLM applications. To this end, we introduce QuantAgent, the first\nmulti-agent LLM framework explicitly designed for high-frequency algorithmic\ntrading. The system decomposes trading into four specialized agents, Indicator,\nPattern, Trend, and Risk, each equipped with domain-specific tools and\nstructured reasoning capabilities to capture distinct aspects of market\ndynamics over short temporal windows. In zero-shot evaluations across ten\nfinancial instruments, including Bitcoin and Nasdaq futures, QuantAgent\ndemonstrates superior performance in both predictive accuracy and cumulative\nreturn over 4-hour trading intervals, outperforming strong neural and\nrule-based baselines. Our findings suggest that combining structured financial\npriors with language-native reasoning unlocks new potential for traceable,\nreal-time decision systems in high-frequency financial markets.",
+      "upvotes": 1,
+      "discussionId": "68c77229ee0eed1697d6b6b3",
+      "ai_summary": "QuantAgent, a multi-agent LLM framework, excels in high-frequency trading by leveraging specialized agents for technical indicators, chart patterns, trends, and risk, outperforming existing neural and rule-based systems.",
+      "ai_keywords": [
+        "Large Language Models",
+        "LLMs",
+        "Multi-agent LLM frameworks",
+        "TradingAgent",
+        "FINMEM",
+        "High-Frequency Trading",
+        "HFT",
+        "structured reasoning",
+        "technical indicators",
+        "chart patterns",
+        "trend-based features",
+        "zero-shot evaluations",
+        "predictive accuracy",
+        "cumulative return",
+        "financial instruments",
+        "Bitcoin",
+        "Nasdaq futures",
+        "domain-specific tools",
+        "traceable",
+        "real-time decision systems"
+      ]
+    },
+    "publishedAt": "2025-09-12T02:35:40.000Z",
+    "title": "QuantAgent: Price-Driven Multi-Agent LLMs for High-Frequency Trading",
+    "summary": "Recent advances in Large Language Models (LLMs) have demonstrated impressive\ncapabilities in financial reasoning and market understanding. Multi-agent LLM\nframeworks such as TradingAgent and FINMEM augment these models to long-horizon\ninvestment tasks, leveraging fundamental and sentiment-based inputs for\nstrategic decision-making. However, such systems are ill-suited for the\nhigh-speed, precision-critical demands of High-Frequency Trading (HFT). HFT\nrequires rapid, risk-aware decisions based on structured, short-horizon\nsignals, including technical indicators, chart patterns, and trend-based\nfeatures, distinct from the long-term semantic reasoning typical of traditional\nfinancial LLM applications. To this end, we introduce QuantAgent, the first\nmulti-agent LLM framework explicitly designed for high-frequency algorithmic\ntrading. The system decomposes trading into four specialized agents, Indicator,\nPattern, Trend, and Risk, each equipped with domain-specific tools and\nstructured reasoning capabilities to capture distinct aspects of market\ndynamics over short temporal windows. In zero-shot evaluations across ten\nfinancial instruments, including Bitcoin and Nasdaq futures, QuantAgent\ndemonstrates superior performance in both predictive accuracy and cumulative\nreturn over 4-hour trading intervals, outperforming strong neural and\nrule-based baselines. Our findings suggest that combining structured financial\npriors with language-native reasoning unlocks new potential for traceable,\nreal-time decision systems in high-frequency financial markets.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.09995.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "656553d89bf6665f10e3a92d",
+      "avatarUrl": "/avatars/f55b09e249c48ef3fe484afa33a182ae.svg",
+      "fullname": "xiang wyatt zhang",
+      "name": "Wyattz23",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.09734",
+      "authors": [
+        {
+          "_id": "68c76e07ee0eed1697d6b68a",
+          "name": "Zikang Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68c76e07ee0eed1697d6b68b",
+          "name": "Benfeng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68c76e07ee0eed1697d6b68c",
+          "name": "Chiwei Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68c76e07ee0eed1697d6b68d",
+          "name": "Wentao Hong",
+          "hidden": false
+        },
+        {
+          "_id": "68c76e07ee0eed1697d6b68e",
+          "name": "Xiaorui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68c76e07ee0eed1697d6b68f",
+          "name": "Zhendong Mao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-10T14:08:40.000Z",
+      "submittedOnDailyAt": "2025-09-15T00:08:27.739Z",
+      "title": "MCP-AgentBench: Evaluating Real-World Language Agent Performance with\n  MCP-Mediated Tools",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The Model Context Protocol (MCP) is rapidly emerging as a pivotal open\nstandard, designed to enhance agent-tool integration and interoperability, and\nis positioned to unlock a new era of powerful, interconnected, and genuinely\nutilitarian agentic AI. However, despite MCP's growing adoption, existing\nbenchmarks often fail to capture real-world agent performance within this new\nparadigm, leading to a distorted perception of their true operational value and\nan inability to reliably differentiate proficiencies. To bridge this critical\nevaluation gap, we introduce MCP-AgentBench -- a comprehensive benchmark\nspecifically engineered to rigorously assess language agent capabilities in\nMCP-mediated tool interactions. Core contributions of MCP-AgentBench include:\nthe establishment of a robust MCP testbed comprising 33 operational servers\nwith 188 distinct tools; the development of a benchmark featuring 600\nsystematically designed queries distributed across 6 distinct categories of\nvarying interaction complexity; and the introduction of MCP-Eval, a novel\noutcome-oriented evaluation methodology prioritizing real-world task success.\nThrough extensive empirical evaluation of leading language agents, we provide\nfoundational insights. MCP-AgentBench aims to equip the research community with\na standardized and reliable framework to build, validate, and advance agents\ncapable of fully leveraging MCP's transformative benefits, thereby accelerating\nprogress toward truly capable and interoperable AI systems.",
+      "upvotes": 1,
+      "discussionId": "68c76e07ee0eed1697d6b690",
+      "ai_summary": "MCP-AgentBench is a benchmark designed to evaluate language agents in MCP-mediated tool interactions, providing a standardized framework for assessing real-world performance.",
+      "ai_keywords": [
+        "MCP",
+        "MCP-AgentBench",
+        "MCP testbed",
+        "MCP-Eval",
+        "language agents",
+        "tool interactions",
+        "benchmark",
+        "evaluation methodology",
+        "real-world task success"
+      ]
+    },
+    "publishedAt": "2025-09-10T10:08:40.000Z",
+    "title": "MCP-AgentBench: Evaluating Real-World Language Agent Performance with\n  MCP-Mediated Tools",
+    "summary": "The Model Context Protocol (MCP) is rapidly emerging as a pivotal open\nstandard, designed to enhance agent-tool integration and interoperability, and\nis positioned to unlock a new era of powerful, interconnected, and genuinely\nutilitarian agentic AI. However, despite MCP's growing adoption, existing\nbenchmarks often fail to capture real-world agent performance within this new\nparadigm, leading to a distorted perception of their true operational value and\nan inability to reliably differentiate proficiencies. To bridge this critical\nevaluation gap, we introduce MCP-AgentBench -- a comprehensive benchmark\nspecifically engineered to rigorously assess language agent capabilities in\nMCP-mediated tool interactions. Core contributions of MCP-AgentBench include:\nthe establishment of a robust MCP testbed comprising 33 operational servers\nwith 188 distinct tools; the development of a benchmark featuring 600\nsystematically designed queries distributed across 6 distinct categories of\nvarying interaction complexity; and the introduction of MCP-Eval, a novel\noutcome-oriented evaluation methodology prioritizing real-world task success.\nThrough extensive empirical evaluation of leading language agents, we provide\nfoundational insights. MCP-AgentBench aims to equip the research community with\na standardized and reliable framework to build, validate, and advance agents\ncapable of fully leveraging MCP's transformative benefits, thereby accelerating\nprogress toward truly capable and interoperable AI systems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.09734.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 104
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.09716",
+      "authors": [
+        {
+          "_id": "68c76d28ee0eed1697d6b67a",
+          "name": "Jun Zhan",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b67b",
+          "name": "Mingyang Han",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b67c",
+          "name": "Yuxuan Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b67d",
+          "name": "Chen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b67e",
+          "name": "Dong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b67f",
+          "name": "Kexin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b680",
+          "name": "Haoxiang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b681",
+          "name": "DongXiao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b682",
+          "name": "Tengtao Song",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b683",
+          "name": "Qinyuan Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b684",
+          "name": "Shimin Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b685",
+          "name": "Jun Song",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b686",
+          "name": "Xipeng Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "68c76d28ee0eed1697d6b687",
+          "name": "Bo Zheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-09T14:28:58.000Z",
+      "submittedOnDailyAt": "2025-09-15T00:27:51.405Z",
+      "title": "VStyle: A Benchmark for Voice Style Adaptation with Spoken Instructions",
+      "submittedOnDailyBy": {
+        "_id": "6509858fa2abcb18d633597b",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6509858fa2abcb18d633597b/uxfPgCvhL1Tzw_lDR9hW-.jpeg",
+        "isPro": false,
+        "fullname": "JunZhan",
+        "user": "zhanjun",
+        "type": "user"
+      },
+      "summary": "Spoken language models (SLMs) have emerged as a unified paradigm for speech\nunderstanding and generation, enabling natural human machine interaction.\nHowever, while most progress has focused on semantic accuracy and instruction\nfollowing, the ability of SLMs to adapt their speaking style based on spoken\ninstructions has received limited attention. We introduce Voice Style\nAdaptation (VSA), a new task that examines whether SLMs can modify their\nspeaking style, such as timbre, prosody, or persona following natural language\nspoken commands. To study this task, we present VStyle, a bilingual (Chinese &\nEnglish) benchmark covering four categories of speech generation: acoustic\nattributes, natural language instruction, role play, and implicit empathy. We\nalso introduce the Large Audio Language Model as a Judge (LALM as a Judge)\nframework, which progressively evaluates outputs along textual faithfulness,\nstyle adherence, and naturalness, ensuring reproducible and objective\nassessment. Experiments on commercial systems and open source SLMs demonstrate\nthat current models face clear limitations in controllable style adaptation,\nhighlighting both the novelty and challenge of this task. By releasing VStyle\nand its evaluation toolkit, we aim to provide the community with a foundation\nfor advancing human centered spoken interaction. The dataset and code are\npublicly available at\nhttps://junzhan2000.github.io/VStyle.github.io/{project's homepage}.",
+      "upvotes": 1,
+      "discussionId": "68c76d28ee0eed1697d6b688",
+      "ai_summary": "Voice Style Adaptation (VSA) evaluates the ability of spoken language models to modify their speaking style based on spoken instructions, using a bilingual benchmark and a Large Audio Language Model as a Judge framework.",
+      "ai_keywords": [
+        "spoken language models",
+        "Voice Style Adaptation",
+        "VStyle",
+        "acoustic attributes",
+        "natural language instruction",
+        "role play",
+        "implicit empathy",
+        "Large Audio Language Model as a Judge",
+        "textual faithfulness",
+        "style adherence",
+        "naturalness"
+      ]
+    },
+    "publishedAt": "2025-09-09T10:28:58.000Z",
+    "title": "VStyle: A Benchmark for Voice Style Adaptation with Spoken Instructions",
+    "summary": "Spoken language models (SLMs) have emerged as a unified paradigm for speech\nunderstanding and generation, enabling natural human machine interaction.\nHowever, while most progress has focused on semantic accuracy and instruction\nfollowing, the ability of SLMs to adapt their speaking style based on spoken\ninstructions has received limited attention. We introduce Voice Style\nAdaptation (VSA), a new task that examines whether SLMs can modify their\nspeaking style, such as timbre, prosody, or persona following natural language\nspoken commands. To study this task, we present VStyle, a bilingual (Chinese &\nEnglish) benchmark covering four categories of speech generation: acoustic\nattributes, natural language instruction, role play, and implicit empathy. We\nalso introduce the Large Audio Language Model as a Judge (LALM as a Judge)\nframework, which progressively evaluates outputs along textual faithfulness,\nstyle adherence, and naturalness, ensuring reproducible and objective\nassessment. Experiments on commercial systems and open source SLMs demonstrate\nthat current models face clear limitations in controllable style adaptation,\nhighlighting both the novelty and challenge of this task. By releasing VStyle\nand its evaluation toolkit, we aim to provide the community with a foundation\nfor advancing human centered spoken interaction. The dataset and code are\npublicly available at\nhttps://junzhan2000.github.io/VStyle.github.io/{project's homepage}.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.09716.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6509858fa2abcb18d633597b",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6509858fa2abcb18d633597b/uxfPgCvhL1Tzw_lDR9hW-.jpeg",
+      "fullname": "JunZhan",
+      "name": "zhanjun",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  }
+]
