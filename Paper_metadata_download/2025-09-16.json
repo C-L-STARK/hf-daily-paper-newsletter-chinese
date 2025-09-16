@@ -1,0 +1,247 @@
+[
+  {
+    "paper": {
+      "id": "2509.11648",
+      "authors": [
+        {
+          "_id": "68c8c3ac733e345e52ac1e58",
+          "name": "Sai Kartheek Reddy Kasu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-15T07:35:35.000Z",
+      "submittedOnDailyAt": "2025-09-16T00:28:30.435Z",
+      "title": "EthicsMH: A Pilot Benchmark for Ethical Reasoning in Mental Health AI",
+      "submittedOnDailyBy": {
+        "_id": "651692d718f3a57f869a5a0a",
+        "avatarUrl": "/avatars/d5fe48de11e46675b05e1e2e1cf3505c.svg",
+        "isPro": false,
+        "fullname": "Sai Kartheek Reddy",
+        "user": "UVSKKR",
+        "type": "user"
+      },
+      "summary": "The deployment of large language models (LLMs) in mental health and other\nsensitive domains raises urgent questions about ethical reasoning, fairness,\nand responsible alignment. Yet, existing benchmarks for moral and clinical\ndecision-making do not adequately capture the unique ethical dilemmas\nencountered in mental health practice, where confidentiality, autonomy,\nbeneficence, and bias frequently intersect. To address this gap, we introduce\nEthical Reasoning in Mental Health (EthicsMH), a pilot dataset of 125 scenarios\ndesigned to evaluate how AI systems navigate ethically charged situations in\ntherapeutic and psychiatric contexts. Each scenario is enriched with structured\nfields, including multiple decision options, expert-aligned reasoning, expected\nmodel behavior, real-world impact, and multi-stakeholder viewpoints. This\nstructure enables evaluation not only of decision accuracy but also of\nexplanation quality and alignment with professional norms. Although modest in\nscale and developed with model-assisted generation, EthicsMH establishes a task\nframework that bridges AI ethics and mental health decision-making. By\nreleasing this dataset, we aim to provide a seed resource that can be expanded\nthrough community and expert contributions, fostering the development of AI\nsystems capable of responsibly handling some of society's most delicate\ndecisions.",
+      "upvotes": 1,
+      "discussionId": "68c8c3ad733e345e52ac1e59",
+      "ai_summary": "EthicsMH is a dataset of 125 scenarios designed to evaluate AI systems' ethical reasoning in mental health contexts, focusing on decision accuracy, explanation quality, and alignment with professional norms.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "ethical reasoning",
+        "fairness",
+        "responsible alignment",
+        "mental health",
+        "ethical dilemmas",
+        "confidentiality",
+        "autonomy",
+        "beneficence",
+        "bias",
+        "pilot dataset",
+        "decision options",
+        "expert-aligned reasoning",
+        "expected model behavior",
+        "real-world impact",
+        "multi-stakeholder viewpoints",
+        "AI ethics",
+        "mental health decision-making"
+      ]
+    },
+    "publishedAt": "2025-09-15T03:35:35.000Z",
+    "title": "EthicsMH: A Pilot Benchmark for Ethical Reasoning in Mental Health AI",
+    "summary": "The deployment of large language models (LLMs) in mental health and other\nsensitive domains raises urgent questions about ethical reasoning, fairness,\nand responsible alignment. Yet, existing benchmarks for moral and clinical\ndecision-making do not adequately capture the unique ethical dilemmas\nencountered in mental health practice, where confidentiality, autonomy,\nbeneficence, and bias frequently intersect. To address this gap, we introduce\nEthical Reasoning in Mental Health (EthicsMH), a pilot dataset of 125 scenarios\ndesigned to evaluate how AI systems navigate ethically charged situations in\ntherapeutic and psychiatric contexts. Each scenario is enriched with structured\nfields, including multiple decision options, expert-aligned reasoning, expected\nmodel behavior, real-world impact, and multi-stakeholder viewpoints. This\nstructure enables evaluation not only of decision accuracy but also of\nexplanation quality and alignment with professional norms. Although modest in\nscale and developed with model-assisted generation, EthicsMH establishes a task\nframework that bridges AI ethics and mental health decision-making. By\nreleasing this dataset, we aim to provide a seed resource that can be expanded\nthrough community and expert contributions, fostering the development of AI\nsystems capable of responsibly handling some of society's most delicate\ndecisions.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.11648.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "651692d718f3a57f869a5a0a",
+      "avatarUrl": "/avatars/d5fe48de11e46675b05e1e2e1cf3505c.svg",
+      "fullname": "Sai Kartheek Reddy",
+      "name": "UVSKKR",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.11452",
+      "authors": [
+        {
+          "_id": "68c8c651733e345e52ac1e5b",
+          "name": "Yining Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68c8c651733e345e52ac1e5c",
+          "name": "Zilong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68c8c651733e345e52ac1e5d",
+          "name": "Shiyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68c8c651733e345e52ac1e5e",
+          "name": "Xin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68c8c651733e345e52ac1e5f",
+          "name": "Changlong Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68c8c651733e345e52ac1e60",
+          "name": "Qingyu Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68c8c651733e345e52ac1e61",
+          "name": "Zhan Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68c8c651733e345e52ac1e62",
+          "name": "Zixuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68c8c651733e345e52ac1e63",
+          "name": "Meng Jiang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-14T21:56:35.000Z",
+      "submittedOnDailyAt": "2025-09-16T00:38:36.427Z",
+      "title": "Learning to Optimize Multi-Objective Alignment Through Dynamic Reward\n  Weighting",
+      "submittedOnDailyBy": {
+        "_id": "642f742270daaa6e7209a2c8",
+        "avatarUrl": "/avatars/746fb840c220329f69a17905ea519322.svg",
+        "isPro": false,
+        "fullname": "Yining Lu",
+        "user": "ylu610",
+        "type": "user"
+      },
+      "summary": "Prior works in multi-objective reinforcement learning typically use linear\nreward scalarization with fixed weights, which provably fail to capture\nnon-convex Pareto fronts and thus yield suboptimal results. This limitation\nbecomes especially critical in online preference alignment for large language\nmodels. Here, stochastic trajectories generated by parameterized policies\ncreate highly non-linear and non-convex mappings from parameters to objectives\nthat no single static weighting scheme can find optimal trade-offs. We address\nthis limitation by introducing dynamic reward weighting, which adaptively\nadjusts reward weights during the online reinforcement learning process. Unlike\nexisting approaches that rely on fixed-weight interpolation, our dynamic\nweighting continuously balances and prioritizes objectives in training,\nfacilitating effective exploration of Pareto fronts in objective space. We\nintroduce two approaches of increasing sophistication and generalizability: (1)\nhypervolume-guided weight adaptation and (2) gradient-based weight\noptimization, offering a versatile toolkit for online multi-objective\nalignment. Our extensive experiments demonstrate their compatibility with\ncommonly used online reinforcement learning algorithms (including GRPO,\nREINFORCE, and RLOO), effectiveness across multiple mathematical reasoning\ndatasets, and applicability to different model families, consistently achieving\nPareto dominant solutions with fewer training steps than fixed-weight linear\nscalarization baselines.",
+      "upvotes": 1,
+      "discussionId": "68c8c651733e345e52ac1e64",
+      "projectPage": "https://yining610.github.io/dynamic-reward-weighting-webpage/",
+      "githubRepo": "https://github.com/yining610/dynamic-reward-weighting",
+      "ai_summary": "Dynamic reward weighting in multi-objective reinforcement learning adaptively adjusts weights during training to explore Pareto fronts effectively, outperforming fixed-weight scalarization methods.",
+      "ai_keywords": [
+        "multi-objective reinforcement learning",
+        "linear reward scalarization",
+        "non-convex Pareto fronts",
+        "parameterized policies",
+        "dynamic reward weighting",
+        "hypervolume-guided weight adaptation",
+        "gradient-based weight optimization",
+        "GRPO",
+        "REINFORCE",
+        "RLOO",
+        "Pareto dominant solutions"
+      ],
+      "githubStars": 0
+    },
+    "publishedAt": "2025-09-14T17:56:35.000Z",
+    "title": "Learning to Optimize Multi-Objective Alignment Through Dynamic Reward\n  Weighting",
+    "summary": "Prior works in multi-objective reinforcement learning typically use linear\nreward scalarization with fixed weights, which provably fail to capture\nnon-convex Pareto fronts and thus yield suboptimal results. This limitation\nbecomes especially critical in online preference alignment for large language\nmodels. Here, stochastic trajectories generated by parameterized policies\ncreate highly non-linear and non-convex mappings from parameters to objectives\nthat no single static weighting scheme can find optimal trade-offs. We address\nthis limitation by introducing dynamic reward weighting, which adaptively\nadjusts reward weights during the online reinforcement learning process. Unlike\nexisting approaches that rely on fixed-weight interpolation, our dynamic\nweighting continuously balances and prioritizes objectives in training,\nfacilitating effective exploration of Pareto fronts in objective space. We\nintroduce two approaches of increasing sophistication and generalizability: (1)\nhypervolume-guided weight adaptation and (2) gradient-based weight\noptimization, offering a versatile toolkit for online multi-objective\nalignment. Our extensive experiments demonstrate their compatibility with\ncommonly used online reinforcement learning algorithms (including GRPO,\nREINFORCE, and RLOO), effectiveness across multiple mathematical reasoning\ndatasets, and applicability to different model families, consistently achieving\nPareto dominant solutions with fewer training steps than fixed-weight linear\nscalarization baselines.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.11452.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "642f742270daaa6e7209a2c8",
+      "avatarUrl": "/avatars/746fb840c220329f69a17905ea519322.svg",
+      "fullname": "Yining Lu",
+      "name": "ylu610",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.11444",
+      "authors": [
+        {
+          "_id": "68c8bef9733e345e52ac1e38",
+          "name": "Gaurab Chhetri",
+          "hidden": false
+        },
+        {
+          "_id": "68c8bef9733e345e52ac1e39",
+          "name": "Anandi Dutta",
+          "hidden": false
+        },
+        {
+          "_id": "68c8bef9733e345e52ac1e3a",
+          "name": "Subasish Das",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/685204843761e5afb796bc57/4aU7jSLmMB3daVepAE8Fv.png"
+      ],
+      "publishedAt": "2025-09-14T21:37:24.000Z",
+      "submittedOnDailyAt": "2025-09-16T00:35:07.371Z",
+      "title": "CognitiveSky: Scalable Sentiment and Narrative Analysis for\n  Decentralized Social Media",
+      "submittedOnDailyBy": {
+        "_id": "685204843761e5afb796bc57",
+        "avatarUrl": "/avatars/1224f12ba48912dd59f22a7a6af683bc.svg",
+        "isPro": false,
+        "fullname": "Gaurab Chhetri",
+        "user": "gauravfs-14",
+        "type": "user"
+      },
+      "summary": "The emergence of decentralized social media platforms presents new\nopportunities and challenges for real-time analysis of public discourse. This\nstudy introduces CognitiveSky, an open-source and scalable framework designed\nfor sentiment, emotion, and narrative analysis on Bluesky, a federated Twitter\nor X.com alternative. By ingesting data through Bluesky's Application\nProgramming Interface (API), CognitiveSky applies transformer-based models to\nannotate large-scale user-generated content and produces structured and\nanalyzable outputs. These summaries drive a dynamic dashboard that visualizes\nevolving patterns in emotion, activity, and conversation topics. Built entirely\non free-tier infrastructure, CognitiveSky achieves both low operational cost\nand high accessibility. While demonstrated here for monitoring mental health\ndiscourse, its modular design enables applications across domains such as\ndisinformation detection, crisis response, and civic sentiment analysis. By\nbridging large language models with decentralized networks, CognitiveSky offers\na transparent, extensible tool for computational social science in an era of\nshifting digital ecosystems.",
+      "upvotes": 1,
+      "discussionId": "68c8bef9733e345e52ac1e3b",
+      "projectPage": "https://cognitivesky.gaurabchhetri.com.np/",
+      "githubRepo": "https://github.com/gauravfs-14/CognitiveSky",
+      "ai_summary": "CognitiveSky, a transformer-based framework, analyzes sentiment, emotion, and narratives on Bluesky, providing insights through a dynamic dashboard and supporting various applications in computational social science.",
+      "ai_keywords": [
+        "transformer-based models",
+        "sentiment analysis",
+        "emotion analysis",
+        "narrative analysis",
+        "Bluesky",
+        "Application Programming Interface (API)",
+        "dynamic dashboard",
+        "mental health discourse",
+        "disinformation detection",
+        "crisis response",
+        "civic sentiment analysis",
+        "large language models",
+        "decentralized networks"
+      ],
+      "githubStars": 0
+    },
+    "publishedAt": "2025-09-14T17:37:24.000Z",
+    "title": "CognitiveSky: Scalable Sentiment and Narrative Analysis for\n  Decentralized Social Media",
+    "summary": "The emergence of decentralized social media platforms presents new\nopportunities and challenges for real-time analysis of public discourse. This\nstudy introduces CognitiveSky, an open-source and scalable framework designed\nfor sentiment, emotion, and narrative analysis on Bluesky, a federated Twitter\nor X.com alternative. By ingesting data through Bluesky's Application\nProgramming Interface (API), CognitiveSky applies transformer-based models to\nannotate large-scale user-generated content and produces structured and\nanalyzable outputs. These summaries drive a dynamic dashboard that visualizes\nevolving patterns in emotion, activity, and conversation topics. Built entirely\non free-tier infrastructure, CognitiveSky achieves both low operational cost\nand high accessibility. While demonstrated here for monitoring mental health\ndiscourse, its modular design enables applications across domains such as\ndisinformation detection, crisis response, and civic sentiment analysis. By\nbridging large language models with decentralized networks, CognitiveSky offers\na transparent, extensible tool for computational social science in an era of\nshifting digital ecosystems.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/685204843761e5afb796bc57/4aU7jSLmMB3daVepAE8Fv.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.11444.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "685204843761e5afb796bc57",
+      "avatarUrl": "/avatars/1224f12ba48912dd59f22a7a6af683bc.svg",
+      "fullname": "Gaurab Chhetri",
+      "name": "gauravfs-14",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
