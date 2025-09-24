@@ -1,0 +1,828 @@
+[
+  {
+    "paper": {
+      "id": "2509.19296",
+      "authors": [
+        {
+          "_id": "68d34f1a0e215259d193b19c",
+          "name": "Sherwin Bahmani",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b19d",
+          "name": "Tianchang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b19e",
+          "name": "Jiawei Ren",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b19f",
+          "name": "Jiahui Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a0",
+          "name": "Yifeng Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a1",
+          "name": "Haithem Turki",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a2",
+          "name": "Andrea Tagliasacchi",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a3",
+          "name": "David B. Lindell",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a4",
+          "name": "Zan Gojcic",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a5",
+          "name": "Sanja Fidler",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a6",
+          "name": "Huan Ling",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a7",
+          "name": "Jun Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68d34f1a0e215259d193b1a8",
+          "name": "Xuanchi Ren",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-23T17:58:01.000Z",
+      "submittedOnDailyAt": "2025-09-24T00:23:39.732Z",
+      "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model\n  Self-Distillation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The ability to generate virtual environments is crucial for applications\nranging from gaming to physical AI domains such as robotics, autonomous\ndriving, and industrial AI. Current learning-based 3D reconstruction methods\nrely on the availability of captured real-world multi-view data, which is not\nalways readily available. Recent advancements in video diffusion models have\nshown remarkable imagination capabilities, yet their 2D nature limits the\napplications to simulation where a robot needs to navigate and interact with\nthe environment. In this paper, we propose a self-distillation framework that\naims to distill the implicit 3D knowledge in the video diffusion models into an\nexplicit 3D Gaussian Splatting (3DGS) representation, eliminating the need for\nmulti-view training data. Specifically, we augment the typical RGB decoder with\na 3DGS decoder, which is supervised by the output of the RGB decoder. In this\napproach, the 3DGS decoder can be purely trained with synthetic data generated\nby video diffusion models. At inference time, our model can synthesize 3D\nscenes from either a text prompt or a single image for real-time rendering. Our\nframework further extends to dynamic 3D scene generation from a monocular input\nvideo. Experimental results show that our framework achieves state-of-the-art\nperformance in static and dynamic 3D scene generation.",
+      "upvotes": 2,
+      "discussionId": "68d34f1b0e215259d193b1a9",
+      "projectPage": "https://research.nvidia.com/labs/toronto-ai/lyra/",
+      "githubRepo": "https://github.com/nv-tlabs/lyra",
+      "ai_summary": "A self-distillation framework converts implicit 3D knowledge from video diffusion models into an explicit 3D Gaussian Splatting representation, enabling 3D scene generation from text or images.",
+      "ai_keywords": [
+        "video diffusion models",
+        "3D Gaussian Splatting",
+        "3DGS",
+        "RGB decoder",
+        "3D scene generation",
+        "text prompt",
+        "monocular input video",
+        "dynamic 3D scene generation"
+      ],
+      "githubStars": 11
+    },
+    "publishedAt": "2025-09-23T13:58:01.000Z",
+    "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model\n  Self-Distillation",
+    "summary": "The ability to generate virtual environments is crucial for applications\nranging from gaming to physical AI domains such as robotics, autonomous\ndriving, and industrial AI. Current learning-based 3D reconstruction methods\nrely on the availability of captured real-world multi-view data, which is not\nalways readily available. Recent advancements in video diffusion models have\nshown remarkable imagination capabilities, yet their 2D nature limits the\napplications to simulation where a robot needs to navigate and interact with\nthe environment. In this paper, we propose a self-distillation framework that\naims to distill the implicit 3D knowledge in the video diffusion models into an\nexplicit 3D Gaussian Splatting (3DGS) representation, eliminating the need for\nmulti-view training data. Specifically, we augment the typical RGB decoder with\na 3DGS decoder, which is supervised by the output of the RGB decoder. In this\napproach, the 3DGS decoder can be purely trained with synthetic data generated\nby video diffusion models. At inference time, our model can synthesize 3D\nscenes from either a text prompt or a single image for real-time rendering. Our\nframework further extends to dynamic 3D scene generation from a monocular input\nvideo. Experimental results show that our framework achieves state-of-the-art\nperformance in static and dynamic 3D scene generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.19296.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 108
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.19284",
+      "authors": [
+        {
+          "_id": "68d3538e0e215259d193b220",
+          "name": "Yunzhen Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68d3538e0e215259d193b221",
+          "name": "Julia Kempe",
+          "hidden": false
+        },
+        {
+          "_id": "68d3538e0e215259d193b222",
+          "name": "Cheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d3538e0e215259d193b223",
+          "name": "Parag Jain",
+          "hidden": false
+        },
+        {
+          "_id": "68d3538e0e215259d193b224",
+          "name": "Anthony Hartshorn",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-23T17:50:54.000Z",
+      "submittedOnDailyAt": "2025-09-24T00:43:19.278Z",
+      "title": "What Characterizes Effective Reasoning? Revisiting Length, Review, and\n  Structure of CoT",
+      "submittedOnDailyBy": {
+        "_id": "65cbfa6c968742be942e6cba",
+        "avatarUrl": "/avatars/1a6cc0983edc28fa92178d3abc283ba1.svg",
+        "isPro": false,
+        "fullname": "Feng",
+        "user": "Yunzhen",
+        "type": "user"
+      },
+      "summary": "Large reasoning models (LRMs) spend substantial test-time compute on long\nchain-of-thought (CoT) traces, but what *characterizes* an effective CoT\nremains unclear. While prior work reports gains from lengthening CoTs and\nincreasing review (revisiting earlier steps) via appended *wait* tokens, recent\nstudies suggest that shorter thinking can outperform longer traces. We\ntherefore conduct a systematic evaluation across ten LRMs on math and\nscientific reasoning. Contrary to the \"longer-is-better\" narrative, we find\nthat both naive CoT lengthening and increased review are associated with\n*lower* accuracy.\n  As CoT unfolds step by step, token-level metrics can conflate verbosity with\nprocess quality. We introduce a graph view of CoT to extract structure and\nidentify a single statistic-the *Failed-Step Fraction (FSF)*, the fraction of\nsteps in abandoned branches-that consistently outpredicts length and review\nratio for correctness across models. To probe causality, we design two\ninterventions. First, we rank candidate CoTs by each metric at test time, where\nFSF yields the largest pass@1 gains; second, we edit CoTs to remove failed\nbranches, which significantly improves accuracy, indicating that failed\nbranches bias subsequent reasoning. Taken together, these results characterize\neffective CoTs as those that *fail less* and support *structure-aware*\ntest-time scaling over indiscriminately generating long CoT.",
+      "upvotes": 1,
+      "discussionId": "68d3538e0e215259d193b225",
+      "ai_summary": "Effective chain-of-thoughts in large reasoning models are characterized by fewer failed steps and better structural quality, not necessarily by length or review.",
+      "ai_keywords": [
+        "chain-of-thought",
+        "CoT",
+        "large reasoning models",
+        "LRMs",
+        "wait tokens",
+        "Failed-Step Fraction",
+        "FSF",
+        "structure-aware",
+        "test-time scaling"
+      ]
+    },
+    "publishedAt": "2025-09-23T13:50:54.000Z",
+    "title": "What Characterizes Effective Reasoning? Revisiting Length, Review, and\n  Structure of CoT",
+    "summary": "Large reasoning models (LRMs) spend substantial test-time compute on long\nchain-of-thought (CoT) traces, but what *characterizes* an effective CoT\nremains unclear. While prior work reports gains from lengthening CoTs and\nincreasing review (revisiting earlier steps) via appended *wait* tokens, recent\nstudies suggest that shorter thinking can outperform longer traces. We\ntherefore conduct a systematic evaluation across ten LRMs on math and\nscientific reasoning. Contrary to the \"longer-is-better\" narrative, we find\nthat both naive CoT lengthening and increased review are associated with\n*lower* accuracy.\n  As CoT unfolds step by step, token-level metrics can conflate verbosity with\nprocess quality. We introduce a graph view of CoT to extract structure and\nidentify a single statistic-the *Failed-Step Fraction (FSF)*, the fraction of\nsteps in abandoned branches-that consistently outpredicts length and review\nratio for correctness across models. To probe causality, we design two\ninterventions. First, we rank candidate CoTs by each metric at test time, where\nFSF yields the largest pass@1 gains; second, we edit CoTs to remove failed\nbranches, which significantly improves accuracy, indicating that failed\nbranches bias subsequent reasoning. Taken together, these results characterize\neffective CoTs as those that *fail less* and support *structure-aware*\ntest-time scaling over indiscriminately generating long CoT.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.19284.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65cbfa6c968742be942e6cba",
+      "avatarUrl": "/avatars/1a6cc0983edc28fa92178d3abc283ba1.svg",
+      "fullname": "Feng",
+      "name": "Yunzhen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.19249",
+      "authors": [
+        {
+          "_id": "68d352680e215259d193b1fa",
+          "name": "Siheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b1fb",
+          "name": "Kejiao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b1fc",
+          "name": "Zenan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b1fd",
+          "name": "Guanhua Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b1fe",
+          "name": "Evander Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b1ff",
+          "name": "Kun Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b200",
+          "name": "Haoyuan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b201",
+          "name": "Jiajia Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b202",
+          "name": "Zihao Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b203",
+          "name": "Chenchen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b204",
+          "name": "Kun Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b205",
+          "name": "Kyrierl Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b206",
+          "name": "Qi Yi",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b207",
+          "name": "Ruibin Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b208",
+          "name": "Tingqiang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b209",
+          "name": "Yuhao Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b20a",
+          "name": "Jianfeng Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b20b",
+          "name": "Yuyuan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b20c",
+          "name": "Guanghui Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b20d",
+          "name": "Jinbao Xue",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b20e",
+          "name": "Zhijiang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b20f",
+          "name": "Zheng Fang",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b210",
+          "name": "Shuai Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b211",
+          "name": "Qibin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b212",
+          "name": "Xiaoxue Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b213",
+          "name": "Zhuoyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b214",
+          "name": "Yangyu Tao",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b215",
+          "name": "Fei Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b216",
+          "name": "Cheng Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b217",
+          "name": "Bo Chao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b218",
+          "name": "Kai Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b219",
+          "name": "Jianchen Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b21a",
+          "name": "Wai Lam",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b21b",
+          "name": "Wayyt Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b21c",
+          "name": "Bo Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68d352680e215259d193b21d",
+          "name": "Di Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-23T17:10:40.000Z",
+      "submittedOnDailyAt": "2025-09-24T00:37:49.095Z",
+      "title": "Reinforcement Learning on Pre-Training Data",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The growing disparity between the exponential scaling of computational\nresources and the finite growth of high-quality text data now constrains\nconventional scaling approaches for large language models (LLMs). To address\nthis challenge, we introduce Reinforcement Learning on Pre-Training data\n(RLPT), a new training-time scaling paradigm for optimizing LLMs. In contrast\nto prior approaches that scale training primarily through supervised learning,\nRLPT enables the policy to autonomously explore meaningful trajectories to\nlearn from pre-training data and improve its capability through reinforcement\nlearning (RL). While existing RL strategies such as reinforcement learning from\nhuman feedback (RLHF) and reinforcement learning with verifiable rewards (RLVR)\nrely on human annotation for reward construction, RLPT eliminates this\ndependency by deriving reward signals directly from pre-training data.\nSpecifically, it adopts a next-segment reasoning objective, rewarding the\npolicy for accurately predicting subsequent text segments conditioned on the\npreceding context. This formulation allows RL to be scaled on pre-training\ndata, encouraging the exploration of richer trajectories across broader\ncontexts and thereby fostering more generalizable reasoning skills. Extensive\nexperiments on both general-domain and mathematical reasoning benchmarks across\nmultiple models validate the effectiveness of RLPT. For example, when applied\nto Qwen3-4B-Base, RLPT yields absolute improvements of 3.0, 5.1, 8.1,\n6.0, 6.6, and 5.3 on MMLU, MMLU-Pro, GPQA-Diamond, KOR-Bench, AIME24, and\nAIME25, respectively. The results further demonstrate favorable scaling\nbehavior, suggesting strong potential for continued gains with more compute. In\naddition, RLPT provides a solid foundation, extending the reasoning boundaries\nof LLMs and enhancing RLVR performance.",
+      "upvotes": 1,
+      "discussionId": "68d352680e215259d193b21e",
+      "ai_summary": "Reinforcement Learning on Pre-Training data (RLPT) optimizes large language models by autonomously exploring meaningful trajectories in pre-training data, improving generalizable reasoning skills without human annotation.",
+      "ai_keywords": [
+        "Reinforcement Learning on Pre-Training data",
+        "RLPT",
+        "large language models",
+        "LLMs",
+        "reinforcement learning",
+        "RL",
+        "reinforcement learning from human feedback",
+        "RLHF",
+        "reinforcement learning with verifiable rewards",
+        "RLVR",
+        "next-segment reasoning objective",
+        "MMLU",
+        "MMLU-Pro",
+        "GPQA-Diamond",
+        "KOR-Bench",
+        "AIME24",
+        "AIME25"
+      ]
+    },
+    "publishedAt": "2025-09-23T13:10:40.000Z",
+    "title": "Reinforcement Learning on Pre-Training Data",
+    "summary": "The growing disparity between the exponential scaling of computational\nresources and the finite growth of high-quality text data now constrains\nconventional scaling approaches for large language models (LLMs). To address\nthis challenge, we introduce Reinforcement Learning on Pre-Training data\n(RLPT), a new training-time scaling paradigm for optimizing LLMs. In contrast\nto prior approaches that scale training primarily through supervised learning,\nRLPT enables the policy to autonomously explore meaningful trajectories to\nlearn from pre-training data and improve its capability through reinforcement\nlearning (RL). While existing RL strategies such as reinforcement learning from\nhuman feedback (RLHF) and reinforcement learning with verifiable rewards (RLVR)\nrely on human annotation for reward construction, RLPT eliminates this\ndependency by deriving reward signals directly from pre-training data.\nSpecifically, it adopts a next-segment reasoning objective, rewarding the\npolicy for accurately predicting subsequent text segments conditioned on the\npreceding context. This formulation allows RL to be scaled on pre-training\ndata, encouraging the exploration of richer trajectories across broader\ncontexts and thereby fostering more generalizable reasoning skills. Extensive\nexperiments on both general-domain and mathematical reasoning benchmarks across\nmultiple models validate the effectiveness of RLPT. For example, when applied\nto Qwen3-4B-Base, RLPT yields absolute improvements of 3.0, 5.1, 8.1,\n6.0, 6.6, and 5.3 on MMLU, MMLU-Pro, GPQA-Diamond, KOR-Bench, AIME24, and\nAIME25, respectively. The results further demonstrate favorable scaling\nbehavior, suggesting strong potential for continued gains with more compute. In\naddition, RLPT provides a solid foundation, extending the reasoning boundaries\nof LLMs and enhancing RLVR performance.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.19249.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 108
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.19087",
+      "authors": [
+        {
+          "_id": "68d350120e215259d193b1b7",
+          "name": "Ganesh Mallya",
+          "hidden": false
+        },
+        {
+          "_id": "68d350120e215259d193b1b8",
+          "name": "Yotam Gigi",
+          "hidden": false
+        },
+        {
+          "_id": "68d350120e215259d193b1b9",
+          "name": "Dahun Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68d350120e215259d193b1ba",
+          "name": "Maxim Neumann",
+          "hidden": false
+        },
+        {
+          "_id": "68d350120e215259d193b1bb",
+          "name": "Genady Beryozkin",
+          "hidden": false
+        },
+        {
+          "_id": "68d350120e215259d193b1bc",
+          "name": "Tomer Shekel",
+          "hidden": false
+        },
+        {
+          "_id": "68d350120e215259d193b1bd",
+          "name": "Anelia Angelova",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-23T14:40:52.000Z",
+      "submittedOnDailyAt": "2025-09-24T00:27:49.250Z",
+      "title": "Zero-Shot Multi-Spectral Learning: Reimagining a Generalist Multimodal\n  Gemini 2.5 Model for Remote Sensing Applications",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Multi-spectral imagery plays a crucial role in diverse Remote Sensing\napplications including land-use classification, environmental monitoring and\nurban planning. These images are widely adopted because their additional\nspectral bands correlate strongly with physical materials on the ground, such\nas ice, water, and vegetation. This allows for more accurate identification,\nand their public availability from missions, such as Sentinel-2 and Landsat,\nonly adds to their value. Currently, the automatic analysis of such data is\npredominantly managed through machine learning models specifically trained for\nmulti-spectral input, which are costly to train and support. Furthermore,\nalthough providing a lot of utility for Remote Sensing, such additional inputs\ncannot be used with powerful generalist large multimodal models, which are\ncapable of solving many visual problems, but are not able to understand\nspecialized multi-spectral signals.\n  To address this, we propose a training-free approach which introduces new\nmulti-spectral data in a Zero-Shot-only mode, as inputs to generalist\nmultimodal models, trained on RGB-only inputs. Our approach leverages the\nmultimodal models' understanding of the visual space, and proposes to adapt to\ninputs to that space, and to inject domain-specific information as instructions\ninto the model. We exemplify this idea with the Gemini2.5 model and observe\nstrong Zero-Shot performance gains of the approach on popular Remote Sensing\nbenchmarks for land cover and land use classification and demonstrate the easy\nadaptability of Gemini2.5 to new inputs. These results highlight the potential\nfor geospatial professionals, working with non-standard specialized inputs, to\neasily leverage powerful multimodal models, such as Gemini2.5, to accelerate\ntheir work, benefiting from their rich reasoning and contextual capabilities,\ngrounded in the specialized sensor data.",
+      "upvotes": 1,
+      "discussionId": "68d350120e215259d193b1be",
+      "ai_summary": "A training-free method enables generalist multimodal models to process multi-spectral imagery in a zero-shot manner, enhancing performance on remote sensing tasks.",
+      "ai_keywords": [
+        "multi-spectral imagery",
+        "remote sensing",
+        "land-use classification",
+        "environmental monitoring",
+        "urban planning",
+        "machine learning models",
+        "multimodal models",
+        "zero-shot learning",
+        "Gemini2.5",
+        "land cover",
+        "land use classification"
+      ]
+    },
+    "publishedAt": "2025-09-23T10:40:52.000Z",
+    "title": "Zero-Shot Multi-Spectral Learning: Reimagining a Generalist Multimodal\n  Gemini 2.5 Model for Remote Sensing Applications",
+    "summary": "Multi-spectral imagery plays a crucial role in diverse Remote Sensing\napplications including land-use classification, environmental monitoring and\nurban planning. These images are widely adopted because their additional\nspectral bands correlate strongly with physical materials on the ground, such\nas ice, water, and vegetation. This allows for more accurate identification,\nand their public availability from missions, such as Sentinel-2 and Landsat,\nonly adds to their value. Currently, the automatic analysis of such data is\npredominantly managed through machine learning models specifically trained for\nmulti-spectral input, which are costly to train and support. Furthermore,\nalthough providing a lot of utility for Remote Sensing, such additional inputs\ncannot be used with powerful generalist large multimodal models, which are\ncapable of solving many visual problems, but are not able to understand\nspecialized multi-spectral signals.\n  To address this, we propose a training-free approach which introduces new\nmulti-spectral data in a Zero-Shot-only mode, as inputs to generalist\nmultimodal models, trained on RGB-only inputs. Our approach leverages the\nmultimodal models' understanding of the visual space, and proposes to adapt to\ninputs to that space, and to inject domain-specific information as instructions\ninto the model. We exemplify this idea with the Gemini2.5 model and observe\nstrong Zero-Shot performance gains of the approach on popular Remote Sensing\nbenchmarks for land cover and land use classification and demonstrate the easy\nadaptability of Gemini2.5 to new inputs. These results highlight the potential\nfor geospatial professionals, working with non-standard specialized inputs, to\neasily leverage powerful multimodal models, such as Gemini2.5, to accelerate\ntheir work, benefiting from their rich reasoning and contextual capabilities,\ngrounded in the specialized sensor data.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.19087.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 108
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.18824",
+      "authors": [
+        {
+          "_id": "68d350cf0e215259d193b1c4",
+          "name": "Yanzuo Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68d350cf0e215259d193b1c5",
+          "name": "Xin Xia",
+          "hidden": false
+        },
+        {
+          "_id": "68d350cf0e215259d193b1c6",
+          "name": "Manlin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d350cf0e215259d193b1c7",
+          "name": "Huafeng Kuang",
+          "hidden": false
+        },
+        {
+          "_id": "68d350cf0e215259d193b1c8",
+          "name": "Jianbin Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68d350cf0e215259d193b1c9",
+          "name": "Yuxi Ren",
+          "hidden": false
+        },
+        {
+          "_id": "68d350cf0e215259d193b1ca",
+          "name": "Xuefeng Xiao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-23T09:12:46.000Z",
+      "submittedOnDailyAt": "2025-09-24T00:30:55.687Z",
+      "title": "Hyper-Bagel: A Unified Acceleration Framework for Multimodal\n  Understanding and Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Unified multimodal models have recently attracted considerable attention for\ntheir remarkable abilities in jointly understanding and generating diverse\ncontent. However, as contexts integrate increasingly numerous interleaved\nmultimodal tokens, the iterative processes of diffusion denoising and\nautoregressive decoding impose significant computational overhead. To address\nthis, we propose Hyper-Bagel, a unified acceleration framework designed to\nsimultaneously speed up both multimodal understanding and generation tasks. Our\napproach uses a divide-and-conquer strategy, employing speculative decoding for\nnext-token prediction and a multi-stage distillation process for diffusion\ndenoising. The framework delivers substantial performance gains, achieving over\na 2x speedup in multimodal understanding. For generative tasks, our resulting\nlossless 6-NFE model yields a 16.67x speedup in text-to-image generation and a\n22x speedup in image editing, all while preserving the high-quality output of\nthe original model. We further develop a highly efficient 1-NFE model that\nenables near real-time interactive editing and generation. By combining\nadvanced adversarial distillation with human feedback learning, this model\nachieves ultimate cost-effectiveness and responsiveness, making complex\nmultimodal interactions seamless and instantaneous.",
+      "upvotes": 1,
+      "discussionId": "68d350cf0e215259d193b1cb",
+      "projectPage": "https://hyper-bagel.github.io/",
+      "ai_summary": "Hyper-Bagel accelerates multimodal understanding and generation tasks using speculative decoding and multi-stage distillation, achieving significant speedups while maintaining high-quality outputs.",
+      "ai_keywords": [
+        "diffusion denoising",
+        "autoregressive decoding",
+        "speculative decoding",
+        "multi-stage distillation",
+        "text-to-image generation",
+        "image editing",
+        "adversarial distillation",
+        "human feedback learning"
+      ]
+    },
+    "publishedAt": "2025-09-23T05:12:46.000Z",
+    "title": "Hyper-Bagel: A Unified Acceleration Framework for Multimodal\n  Understanding and Generation",
+    "summary": "Unified multimodal models have recently attracted considerable attention for\ntheir remarkable abilities in jointly understanding and generating diverse\ncontent. However, as contexts integrate increasingly numerous interleaved\nmultimodal tokens, the iterative processes of diffusion denoising and\nautoregressive decoding impose significant computational overhead. To address\nthis, we propose Hyper-Bagel, a unified acceleration framework designed to\nsimultaneously speed up both multimodal understanding and generation tasks. Our\napproach uses a divide-and-conquer strategy, employing speculative decoding for\nnext-token prediction and a multi-stage distillation process for diffusion\ndenoising. The framework delivers substantial performance gains, achieving over\na 2x speedup in multimodal understanding. For generative tasks, our resulting\nlossless 6-NFE model yields a 16.67x speedup in text-to-image generation and a\n22x speedup in image editing, all while preserving the high-quality output of\nthe original model. We further develop a highly efficient 1-NFE model that\nenables near real-time interactive editing and generation. By combining\nadvanced adversarial distillation with human feedback learning, this model\nachieves ultimate cost-effectiveness and responsiveness, making complex\nmultimodal interactions seamless and instantaneous.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.18824.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 108
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.18154",
+      "authors": [
+        {
+          "_id": "68d351d70e215259d193b1d6",
+          "name": "Tianyu Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1d7",
+          "name": "Zefan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1d8",
+          "name": "Chongyi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1d9",
+          "name": "Fuwei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1da",
+          "name": "Wenshuo Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1db",
+          "name": "Zhihui He",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1dc",
+          "name": "Tianchi Cai",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1dd",
+          "name": "Weize Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1de",
+          "name": "Yuxiang Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1df",
+          "name": "Yuanqian Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e0",
+          "name": "Bokai Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e1",
+          "name": "Junbo Cui",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e2",
+          "name": "Yingjing Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e3",
+          "name": "Liqing Ruan",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e4",
+          "name": "Luoyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e5",
+          "name": "Hanyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e6",
+          "name": "Jingkun Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e7",
+          "name": "Hongyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e8",
+          "name": "Qining Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1e9",
+          "name": "Wenhao Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1ea",
+          "name": "Bingxiang He",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1eb",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1ec",
+          "name": "Jie Cai",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1ed",
+          "name": "Ji Qi",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1ee",
+          "name": "Zonghao Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1ef",
+          "name": "Chi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1f0",
+          "name": "Guoyang Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1f1",
+          "name": "Yuxuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1f2",
+          "name": "Ganqu Cui",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1f3",
+          "name": "Ning Ding",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1f4",
+          "name": "Xu Han",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1f5",
+          "name": "Yuan Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1f6",
+          "name": "Zhiyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d351d70e215259d193b1f7",
+          "name": "Maosong Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-16T19:41:48.000Z",
+      "submittedOnDailyAt": "2025-09-24T00:35:18.789Z",
+      "title": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and\n  Training Recipe",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) are undergoing rapid progress and\nrepresent the frontier of AI development. However, their training and inference\nefficiency have emerged as a core bottleneck in making MLLMs more accessible\nand scalable. To address the challenges, we present MiniCPM-V 4.5, an 8B\nparameter model designed for high efficiency and strong performance. We\nintroduce three core improvements in model architecture, data strategy and\ntraining method: a unified 3D-Resampler model architecture for highly compact\nencoding over images and videos, a unified learning paradigm for document\nknowledge and text recognition without heavy data engineering, and a hybrid\nreinforcement learning strategy for proficiency in both short and long\nreasoning modes. Comprehensive experimental results in OpenCompass evaluation\nshow that MiniCPM-V 4.5 surpasses widely used proprietary models such as\nGPT-4o-latest, and significantly larger open-source models such as Qwen2.5-VL\n72B. Notably, the strong performance is achieved with remarkable efficiency.\nFor example, on the widely adopted VideoMME benchmark, MiniCPM-V 4.5 achieves\nstate-of-the-art performance among models under 30B size, using just 46.7\\% GPU\nmemory cost and 8.7\\% inference time of Qwen2.5-VL 7B.",
+      "upvotes": 1,
+      "discussionId": "68d351d80e215259d193b1f8",
+      "githubRepo": "https://github.com/OpenBMB/MiniCPM-V",
+      "ai_summary": "MiniCPM-V 4.5, a 8B parameter multimodal large language model, achieves high performance and efficiency through a unified 3D-Resampler architecture, a unified learning paradigm, and a hybrid reinforcement learning strategy.",
+      "ai_keywords": [
+        "3D-Resampler",
+        "unified learning paradigm",
+        "hybrid reinforcement learning strategy",
+        "multimodal large language models",
+        "OpenCompass evaluation",
+        "VideoMME benchmark"
+      ],
+      "githubStars": 21914
+    },
+    "publishedAt": "2025-09-16T15:41:48.000Z",
+    "title": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and\n  Training Recipe",
+    "summary": "Multimodal Large Language Models (MLLMs) are undergoing rapid progress and\nrepresent the frontier of AI development. However, their training and inference\nefficiency have emerged as a core bottleneck in making MLLMs more accessible\nand scalable. To address the challenges, we present MiniCPM-V 4.5, an 8B\nparameter model designed for high efficiency and strong performance. We\nintroduce three core improvements in model architecture, data strategy and\ntraining method: a unified 3D-Resampler model architecture for highly compact\nencoding over images and videos, a unified learning paradigm for document\nknowledge and text recognition without heavy data engineering, and a hybrid\nreinforcement learning strategy for proficiency in both short and long\nreasoning modes. Comprehensive experimental results in OpenCompass evaluation\nshow that MiniCPM-V 4.5 surpasses widely used proprietary models such as\nGPT-4o-latest, and significantly larger open-source models such as Qwen2.5-VL\n72B. Notably, the strong performance is achieved with remarkable efficiency.\nFor example, on the widely adopted VideoMME benchmark, MiniCPM-V 4.5 achieves\nstate-of-the-art performance among models under 30B size, using just 46.7\\% GPU\nmemory cost and 8.7\\% inference time of Qwen2.5-VL 7B.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.18154.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 108
+    },
+    "isAuthorParticipating": false
+  }
+]
