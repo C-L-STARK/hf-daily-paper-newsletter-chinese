@@ -1,0 +1,1351 @@
+[
+  {
+    "paper": {
+      "id": "2509.21268",
+      "authors": [
+        {
+          "_id": "68d5f4108ccd91bdd39ffd93",
+          "name": "Sicong Leng",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd94",
+          "name": "Jing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd95",
+          "name": "Jiaxi Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd96",
+          "name": "Hao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd97",
+          "name": "Zhiqiang Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd98",
+          "name": "Boqiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd99",
+          "name": "Yuming Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd9a",
+          "name": "Hang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd9b",
+          "name": "Xin Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd9c",
+          "name": "Lidong Bing",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd9d",
+          "name": "Deli Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd9e",
+          "name": "Wei Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffd9f",
+          "name": "Yu Rong",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffda0",
+          "name": "Aixin Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f4108ccd91bdd39ffda1",
+          "name": "Shijian Lu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-25T14:58:29.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:35:18.352Z",
+      "title": "MMR1: Enhancing Multimodal Reasoning with Variance-Aware Sampling and\n  Open Resources",
+      "submittedOnDailyBy": {
+        "_id": "609115c79a8bcaa437b234a9",
+        "avatarUrl": "/avatars/1631a91030703d8397133363cf82c863.svg",
+        "isPro": true,
+        "fullname": "Leng Sicong",
+        "user": "Sicong",
+        "type": "user"
+      },
+      "summary": "Large multimodal reasoning models have achieved rapid progress, but their\nadvancement is constrained by two major limitations: the absence of open,\nlarge-scale, high-quality long chain-of-thought (CoT) data, and the instability\nof reinforcement learning (RL) algorithms in post-training. Group Relative\nPolicy Optimization (GRPO), the standard framework for RL fine-tuning, is prone\nto gradient vanishing when reward variance is low, which weakens optimization\nsignals and impairs convergence. This work makes three contributions: (1) We\npropose Variance-Aware Sampling (VAS), a data selection strategy guided by\nVariance Promotion Score (VPS) that combines outcome variance and trajectory\ndiversity to promote reward variance and stabilize policy optimization. (2) We\nrelease large-scale, carefully curated resources containing ~1.6M long CoT\ncold-start data and ~15k RL QA pairs, designed to ensure quality, difficulty,\nand diversity, along with a fully reproducible end-to-end training codebase.\n(3) We open-source a family of multimodal reasoning models in multiple scales,\nestablishing standardized baselines for the community. Experiments across\nmathematical reasoning benchmarks demonstrate the effectiveness of both the\ncurated data and the proposed VAS. Comprehensive ablation studies and analyses\nprovide further insight into the contributions of each component. In addition,\nwe theoretically establish that reward variance lower-bounds the expected\npolicy gradient magnitude, with VAS serving as a practical mechanism to realize\nthis guarantee. Our code, data, and checkpoints are available at\nhttps://github.com/LengSicong/MMR1.",
+      "upvotes": 13,
+      "discussionId": "68d5f4218ccd91bdd39ffda2",
+      "ai_summary": "Variance-Aware Sampling and large-scale CoT data improve multimodal reasoning models by stabilizing RL fine-tuning and enhancing performance on benchmarks.",
+      "ai_keywords": [
+        "Variance-Aware Sampling",
+        "Variance Promotion Score",
+        "Group Relative Policy Optimization",
+        "gradient vanishing",
+        "reward variance",
+        "policy optimization",
+        "long chain-of-thought data",
+        "multimodal reasoning models",
+        "reinforcement learning fine-tuning",
+        "mathematical reasoning benchmarks"
+      ]
+    },
+    "publishedAt": "2025-09-25T10:58:29.000Z",
+    "title": "MMR1: Enhancing Multimodal Reasoning with Variance-Aware Sampling and\n  Open Resources",
+    "summary": "Large multimodal reasoning models have achieved rapid progress, but their\nadvancement is constrained by two major limitations: the absence of open,\nlarge-scale, high-quality long chain-of-thought (CoT) data, and the instability\nof reinforcement learning (RL) algorithms in post-training. Group Relative\nPolicy Optimization (GRPO), the standard framework for RL fine-tuning, is prone\nto gradient vanishing when reward variance is low, which weakens optimization\nsignals and impairs convergence. This work makes three contributions: (1) We\npropose Variance-Aware Sampling (VAS), a data selection strategy guided by\nVariance Promotion Score (VPS) that combines outcome variance and trajectory\ndiversity to promote reward variance and stabilize policy optimization. (2) We\nrelease large-scale, carefully curated resources containing ~1.6M long CoT\ncold-start data and ~15k RL QA pairs, designed to ensure quality, difficulty,\nand diversity, along with a fully reproducible end-to-end training codebase.\n(3) We open-source a family of multimodal reasoning models in multiple scales,\nestablishing standardized baselines for the community. Experiments across\nmathematical reasoning benchmarks demonstrate the effectiveness of both the\ncurated data and the proposed VAS. Comprehensive ablation studies and analyses\nprovide further insight into the contributions of each component. In addition,\nwe theoretically establish that reward variance lower-bounds the expected\npolicy gradient magnitude, with VAS serving as a practical mechanism to realize\nthis guarantee. Our code, data, and checkpoints are available at\nhttps://github.com/LengSicong/MMR1.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21268.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "609115c79a8bcaa437b234a9",
+      "avatarUrl": "/avatars/1631a91030703d8397133363cf82c863.svg",
+      "fullname": "Leng Sicong",
+      "name": "Sicong",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.20427",
+      "authors": [
+        {
+          "_id": "68d5f0368ccd91bdd39ffd04",
+          "name": "Team Seedream",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd05",
+          "name": "Yunpeng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd06",
+          "name": "Yu Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd07",
+          "name": "Lixue Gong",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd08",
+          "name": "Meng Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd09",
+          "name": "Qiushan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd0a",
+          "name": "Zhiyao Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd0b",
+          "name": "Xiaoxia Hou",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd0c",
+          "name": "Weilin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd0d",
+          "name": "Yixuan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd0e",
+          "name": "Xiaowen Jian",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd0f",
+          "name": "Huafeng Kuang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd10",
+          "name": "Zhichao Lai",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd11",
+          "name": "Fanshi Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd12",
+          "name": "Liang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd13",
+          "name": "Xiaochen Lian",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd14",
+          "name": "Chao Liao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd15",
+          "name": "Liyang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd16",
+          "name": "Wei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd17",
+          "name": "Yanzuo Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd18",
+          "name": "Zhengxiong Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd19",
+          "name": "Tongtong Ou",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd1a",
+          "name": "Guang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd1b",
+          "name": "Yichun Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd1c",
+          "name": "Shiqi Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd1d",
+          "name": "Yu Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd1e",
+          "name": "Zhi Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd1f",
+          "name": "Peng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd20",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd21",
+          "name": "Xun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd22",
+          "name": "Ye Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd23",
+          "name": "Guofeng Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd24",
+          "name": "Jie Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd25",
+          "name": "Wenxu Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd26",
+          "name": "Yonghui Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd27",
+          "name": "Xin Xia",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd28",
+          "name": "Xuefeng Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd29",
+          "name": "Shuang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd2a",
+          "name": "Xin Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd2b",
+          "name": "Ceyuan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd2c",
+          "name": "Jianchao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd2d",
+          "name": "Zhonghua Zhai",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd2e",
+          "name": "Chenlin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd2f",
+          "name": "Heng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd30",
+          "name": "Qi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd31",
+          "name": "Xinyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd32",
+          "name": "Yuwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd33",
+          "name": "Shijia Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd34",
+          "name": "Wenliang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f0368ccd91bdd39ffd35",
+          "name": "Wenjia Zhu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-24T17:59:04.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:16:02.923Z",
+      "title": "Seedream 4.0: Toward Next-generation Multimodal Image Generation",
+      "submittedOnDailyBy": {
+        "_id": "6381c5d63680a7cf34e08ca9",
+        "avatarUrl": "/avatars/731467e2d80d0ae163c4a00a9e3ff9e5.svg",
+        "isPro": false,
+        "fullname": "wujie10558@gmail.com",
+        "user": "wujie10",
+        "type": "user"
+      },
+      "summary": "We introduce Seedream 4.0, an efficient and high-performance multimodal image\ngeneration system that unifies text-to-image (T2I) synthesis, image editing,\nand multi-image composition within a single framework. We develop a highly\nefficient diffusion transformer with a powerful VAE which also can reduce the\nnumber of image tokens considerably. This allows for efficient training of our\nmodel, and enables it to fast generate native high-resolution images (e.g.,\n1K-4K). Seedream 4.0 is pretrained on billions of text-image pairs spanning\ndiverse taxonomies and knowledge-centric concepts. Comprehensive data\ncollection across hundreds of vertical scenarios, coupled with optimized\nstrategies, ensures stable and large-scale training, with strong\ngeneralization. By incorporating a carefully fine-tuned VLM model, we perform\nmulti-modal post-training for training both T2I and image editing tasks\njointly. For inference acceleration, we integrate adversarial distillation,\ndistribution matching, and quantization, as well as speculative decoding. It\nachieves an inference time of up to 1.8 seconds for generating a 2K image\n(without a LLM/VLM as PE model). Comprehensive evaluations reveal that Seedream\n4.0 can achieve state-of-the-art results on both T2I and multimodal image\nediting. In particular, it demonstrates exceptional multimodal capabilities in\ncomplex tasks, including precise image editing and in-context reasoning, and\nalso allows for multi-image reference, and can generate multiple output images.\nThis extends traditional T2I systems into an more interactive and\nmultidimensional creative tool, pushing the boundary of generative AI for both\ncreativity and professional applications. Seedream 4.0 is now accessible on\nhttps://www.volcengine.com/experience/ark?launch=seedream.",
+      "upvotes": 6,
+      "discussionId": "68d5f0368ccd91bdd39ffd36",
+      "ai_summary": "Seedream 4.0 is a high-performance multimodal image generation system that integrates text-to-image synthesis, image editing, and multi-image composition using a diffusion transformer and VAE, achieving state-of-the-art results with efficient training and inference.",
+      "ai_keywords": [
+        "diffusion transformer",
+        "VAE",
+        "image tokens",
+        "text-to-image synthesis",
+        "image editing",
+        "multi-image composition",
+        "multimodal post-training",
+        "adversarial distillation",
+        "distribution matching",
+        "quantization",
+        "speculative decoding",
+        "VLM model",
+        "in-context reasoning",
+        "multi-image reference"
+      ]
+    },
+    "publishedAt": "2025-09-24T13:59:04.000Z",
+    "title": "Seedream 4.0: Toward Next-generation Multimodal Image Generation",
+    "summary": "We introduce Seedream 4.0, an efficient and high-performance multimodal image\ngeneration system that unifies text-to-image (T2I) synthesis, image editing,\nand multi-image composition within a single framework. We develop a highly\nefficient diffusion transformer with a powerful VAE which also can reduce the\nnumber of image tokens considerably. This allows for efficient training of our\nmodel, and enables it to fast generate native high-resolution images (e.g.,\n1K-4K). Seedream 4.0 is pretrained on billions of text-image pairs spanning\ndiverse taxonomies and knowledge-centric concepts. Comprehensive data\ncollection across hundreds of vertical scenarios, coupled with optimized\nstrategies, ensures stable and large-scale training, with strong\ngeneralization. By incorporating a carefully fine-tuned VLM model, we perform\nmulti-modal post-training for training both T2I and image editing tasks\njointly. For inference acceleration, we integrate adversarial distillation,\ndistribution matching, and quantization, as well as speculative decoding. It\nachieves an inference time of up to 1.8 seconds for generating a 2K image\n(without a LLM/VLM as PE model). Comprehensive evaluations reveal that Seedream\n4.0 can achieve state-of-the-art results on both T2I and multimodal image\nediting. In particular, it demonstrates exceptional multimodal capabilities in\ncomplex tasks, including precise image editing and in-context reasoning, and\nalso allows for multi-image reference, and can generate multiple output images.\nThis extends traditional T2I systems into an more interactive and\nmultidimensional creative tool, pushing the boundary of generative AI for both\ncreativity and professional applications. Seedream 4.0 is now accessible on\nhttps://www.volcengine.com/experience/ark?launch=seedream.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20427.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6381c5d63680a7cf34e08ca9",
+      "avatarUrl": "/avatars/731467e2d80d0ae163c4a00a9e3ff9e5.svg",
+      "fullname": "wujie10558@gmail.com",
+      "name": "wujie10",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.21318",
+      "authors": [
+        {
+          "_id": "68d5f6668ccd91bdd39ffdab",
+          "name": "Hmrishav Bandyopadhyay",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f6668ccd91bdd39ffdac",
+          "name": "Rahim Entezari",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f6668ccd91bdd39ffdad",
+          "name": "Jim Scott",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f6668ccd91bdd39ffdae",
+          "name": "Reshinth Adithyan",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f6668ccd91bdd39ffdaf",
+          "name": "Yi-Zhe Song",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f6668ccd91bdd39ffdb0",
+          "name": "Varun Jampani",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-25T16:07:38.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:41:57.573Z",
+      "title": "SD3.5-Flash: Distribution-Guided Distillation of Generative Flows",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We present SD3.5-Flash, an efficient few-step distillation framework that\nbrings high-quality image generation to accessible consumer devices. Our\napproach distills computationally prohibitive rectified flow models through a\nreformulated distribution matching objective tailored specifically for few-step\ngeneration. We introduce two key innovations: \"timestep sharing\" to reduce\ngradient noise and \"split-timestep fine-tuning\" to improve prompt alignment.\nCombined with comprehensive pipeline optimizations like text encoder\nrestructuring and specialized quantization, our system enables both rapid\ngeneration and memory-efficient deployment across different hardware\nconfigurations. This democratizes access across the full spectrum of devices,\nfrom mobile phones to desktop computers. Through extensive evaluation including\nlarge-scale user studies, we demonstrate that SD3.5-Flash consistently\noutperforms existing few-step methods, making advanced generative AI truly\naccessible for practical deployment.",
+      "upvotes": 1,
+      "discussionId": "68d5f6668ccd91bdd39ffdb1",
+      "ai_summary": "SD3.5-Flash is an efficient few-step distillation framework that enhances image generation on consumer devices using rectified flow models with innovations like timestep sharing and split-timestep fine-tuning.",
+      "ai_keywords": [
+        "rectified flow models",
+        "distribution matching objective",
+        "timestep sharing",
+        "split-timestep fine-tuning",
+        "text encoder restructuring",
+        "specialized quantization"
+      ]
+    },
+    "publishedAt": "2025-09-25T12:07:38.000Z",
+    "title": "SD3.5-Flash: Distribution-Guided Distillation of Generative Flows",
+    "summary": "We present SD3.5-Flash, an efficient few-step distillation framework that\nbrings high-quality image generation to accessible consumer devices. Our\napproach distills computationally prohibitive rectified flow models through a\nreformulated distribution matching objective tailored specifically for few-step\ngeneration. We introduce two key innovations: \"timestep sharing\" to reduce\ngradient noise and \"split-timestep fine-tuning\" to improve prompt alignment.\nCombined with comprehensive pipeline optimizations like text encoder\nrestructuring and specialized quantization, our system enables both rapid\ngeneration and memory-efficient deployment across different hardware\nconfigurations. This democratizes access across the full spectrum of devices,\nfrom mobile phones to desktop computers. Through extensive evaluation including\nlarge-scale user studies, we demonstrate that SD3.5-Flash consistently\noutperforms existing few-step methods, making advanced generative AI truly\naccessible for practical deployment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21318.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 109
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.21317",
+      "authors": [
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffce3",
+          "name": "Jiakai Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffce4",
+          "name": "Yujie Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffce5",
+          "name": "Xunke Xi",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffce6",
+          "name": "Fei Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffce7",
+          "name": "Xueyang Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffce8",
+          "name": "Sunhao Dai",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffce9",
+          "name": "Chao Yi",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffcea",
+          "name": "Dian Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffceb",
+          "name": "Zhujin Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffcec",
+          "name": "Yang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffced",
+          "name": "Xu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffcee",
+          "name": "Wen Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffcef",
+          "name": "Jian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffcf0",
+          "name": "Yuning Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5ee2e8ccd91bdd39ffcf1",
+          "name": "Bo Zheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-25T15:38:27.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:29:49.984Z",
+      "title": "Interactive Recommendation Agent with Active User Commands",
+      "submittedOnDailyBy": {
+        "_id": "65acfb3a14e6582c30b4ce76",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65acfb3a14e6582c30b4ce76/RhEhePggBtyM0RIIqXQen.jpeg",
+        "isPro": false,
+        "fullname": "TangJiakai",
+        "user": "TangJiakai5704",
+        "type": "user"
+      },
+      "summary": "Traditional recommender systems rely on passive feedback mechanisms that\nlimit users to simple choices such as like and dislike. However, these\ncoarse-grained signals fail to capture users' nuanced behavior motivations and\nintentions. In turn, current systems cannot also distinguish which specific\nitem attributes drive user satisfaction or dissatisfaction, resulting in\ninaccurate preference modeling. These fundamental limitations create a\npersistent gap between user intentions and system interpretations, ultimately\nundermining user satisfaction and harming system effectiveness.\n  To address these limitations, we introduce the Interactive Recommendation\nFeed (IRF), a pioneering paradigm that enables natural language commands within\nmainstream recommendation feeds. Unlike traditional systems that confine users\nto passive implicit behavioral influence, IRF empowers active explicit control\nover recommendation policies through real-time linguistic commands. To support\nthis paradigm, we develop RecBot, a dual-agent architecture where a Parser\nAgent transforms linguistic expressions into structured preferences and a\nPlanner Agent dynamically orchestrates adaptive tool chains for on-the-fly\npolicy adjustment. To enable practical deployment, we employ\nsimulation-augmented knowledge distillation to achieve efficient performance\nwhile maintaining strong reasoning capabilities. Through extensive offline and\nlong-term online experiments, RecBot shows significant improvements in both\nuser satisfaction and business outcomes.",
+      "upvotes": 1,
+      "discussionId": "68d5ee2e8ccd91bdd39ffcf2",
+      "ai_summary": "IRF, a new recommendation system using natural language commands, improves user satisfaction and business outcomes through a dual-agent architecture and simulation-augmented knowledge distillation.",
+      "ai_keywords": [
+        "Interactive Recommendation Feed",
+        "IRF",
+        "Parser Agent",
+        "Planner Agent",
+        "dual-agent architecture",
+        "simulation-augmented knowledge distillation"
+      ]
+    },
+    "publishedAt": "2025-09-25T11:38:27.000Z",
+    "title": "Interactive Recommendation Agent with Active User Commands",
+    "summary": "Traditional recommender systems rely on passive feedback mechanisms that\nlimit users to simple choices such as like and dislike. However, these\ncoarse-grained signals fail to capture users' nuanced behavior motivations and\nintentions. In turn, current systems cannot also distinguish which specific\nitem attributes drive user satisfaction or dissatisfaction, resulting in\ninaccurate preference modeling. These fundamental limitations create a\npersistent gap between user intentions and system interpretations, ultimately\nundermining user satisfaction and harming system effectiveness.\n  To address these limitations, we introduce the Interactive Recommendation\nFeed (IRF), a pioneering paradigm that enables natural language commands within\nmainstream recommendation feeds. Unlike traditional systems that confine users\nto passive implicit behavioral influence, IRF empowers active explicit control\nover recommendation policies through real-time linguistic commands. To support\nthis paradigm, we develop RecBot, a dual-agent architecture where a Parser\nAgent transforms linguistic expressions into structured preferences and a\nPlanner Agent dynamically orchestrates adaptive tool chains for on-the-fly\npolicy adjustment. To enable practical deployment, we employ\nsimulation-augmented knowledge distillation to achieve efficient performance\nwhile maintaining strong reasoning capabilities. Through extensive offline and\nlong-term online experiments, RecBot shows significant improvements in both\nuser satisfaction and business outcomes.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21317.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65acfb3a14e6582c30b4ce76",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65acfb3a14e6582c30b4ce76/RhEhePggBtyM0RIIqXQen.jpeg",
+      "fullname": "TangJiakai",
+      "name": "TangJiakai5704",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.21245",
+      "authors": [
+        {
+          "_id": "68d5f2138ccd91bdd39ffd3f",
+          "name": "Team Hunyuan3D",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd41",
+          "name": "Bowen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd42",
+          "name": "Chunchao Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd43",
+          "name": "Haolin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd44",
+          "name": "Hongyu Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd45",
+          "name": "Huiwen Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd46",
+          "name": "Jingwei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd47",
+          "name": "Junlin Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd48",
+          "name": "Kunhong Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd49",
+          "name": "Linus",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd4a",
+          "name": "Penghao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd4b",
+          "name": "Qingxiang Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd4c",
+          "name": "Sicong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd4d",
+          "name": "Xianghui Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd4e",
+          "name": "Yixuan Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd4f",
+          "name": "Yunfei Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd50",
+          "name": "Zeqiang Lai",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd51",
+          "name": "Zhihao Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2138ccd91bdd39ffd52",
+          "name": "Zibo Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-25T14:39:17.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:23:33.409Z",
+      "title": "Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D\n  Assets",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advances in 3D-native generative models have accelerated asset\ncreation for games, film, and design. However, most methods still rely\nprimarily on image or text conditioning and lack fine-grained, cross-modal\ncontrols, which limits controllability and practical adoption. To address this\ngap, we present Hunyuan3D-Omni, a unified framework for fine-grained,\ncontrollable 3D asset generation built on Hunyuan3D 2.1. In addition to images,\nHunyuan3D-Omni accepts point clouds, voxels, bounding boxes, and skeletal pose\npriors as conditioning signals, enabling precise control over geometry,\ntopology, and pose. Instead of separate heads for each modality, our model\nunifies all signals in a single cross-modal architecture. We train with a\nprogressive, difficulty-aware sampling strategy that selects one control\nmodality per example and biases sampling toward harder signals (e.g., skeletal\npose) while downweighting easier ones (e.g., point clouds), encouraging robust\nmulti-modal fusion and graceful handling of missing inputs. Experiments show\nthat these additional controls improve generation accuracy, enable\ngeometry-aware transformations, and increase robustness for production\nworkflows.",
+      "upvotes": 1,
+      "discussionId": "68d5f2148ccd91bdd39ffd53",
+      "projectPage": "https://3d.hunyuan.tencent.com/",
+      "ai_summary": "Hunyuan3D-Omni is a unified 3D asset generation framework that accepts multiple conditioning signals, improving controllability and robustness in production workflows.",
+      "ai_keywords": [
+        "3D-native generative models",
+        "point clouds",
+        "voxels",
+        "bounding boxes",
+        "skeletal pose priors",
+        "cross-modal architecture",
+        "progressive sampling strategy",
+        "difficulty-aware sampling",
+        "multi-modal fusion"
+      ]
+    },
+    "publishedAt": "2025-09-25T10:39:17.000Z",
+    "title": "Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D\n  Assets",
+    "summary": "Recent advances in 3D-native generative models have accelerated asset\ncreation for games, film, and design. However, most methods still rely\nprimarily on image or text conditioning and lack fine-grained, cross-modal\ncontrols, which limits controllability and practical adoption. To address this\ngap, we present Hunyuan3D-Omni, a unified framework for fine-grained,\ncontrollable 3D asset generation built on Hunyuan3D 2.1. In addition to images,\nHunyuan3D-Omni accepts point clouds, voxels, bounding boxes, and skeletal pose\npriors as conditioning signals, enabling precise control over geometry,\ntopology, and pose. Instead of separate heads for each modality, our model\nunifies all signals in a single cross-modal architecture. We train with a\nprogressive, difficulty-aware sampling strategy that selects one control\nmodality per example and biases sampling toward harder signals (e.g., skeletal\npose) while downweighting easier ones (e.g., point clouds), encouraging robust\nmulti-modal fusion and graceful handling of missing inputs. Experiments show\nthat these additional controls improve generation accuracy, enable\ngeometry-aware transformations, and increase robustness for production\nworkflows.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21245.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 109
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.20868",
+      "authors": [
+        {
+          "_id": "68d5f5278ccd91bdd39ffda4",
+          "name": "Junyu Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f5278ccd91bdd39ffda5",
+          "name": "Shangding Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f5278ccd91bdd39ffda6",
+          "name": "Ming Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f5278ccd91bdd39ffda7",
+          "name": "Costas Spanos",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f5278ccd91bdd39ffda8",
+          "name": "Javad Lavaei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-25T08:00:39.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:36:49.132Z",
+      "title": "StyleBench: Evaluating thinking styles in Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The effectiveness of Large Language Models (LLMs) is heavily influenced by\nthe reasoning strategies, or styles of thought, employed in their prompts.\nHowever, the interplay between these reasoning styles, model architecture, and\ntask type remains poorly understood. To address this, we introduce StyleBench,\na comprehensive benchmark for systematically evaluating reasoning styles across\ndiverse tasks and models. We assess five representative reasoning styles,\nincluding Chain of Thought (CoT), Tree of Thought (ToT), Algorithm of Thought\n(AoT), Sketch of Thought (SoT), and Chain-of-Draft (CoD) on five reasoning\ntasks, using 15 open-source models from major families (LLaMA, Qwen, Mistral,\nGemma, GPT-OSS, Phi, and DeepSeek) ranging from 270M to 120B parameters. Our\nlarge-scale analysis reveals that no single style is universally optimal. We\ndemonstrate that strategy efficacy is highly contingent on both model scale and\ntask type: search-based methods (AoT, ToT) excel in open-ended problems but\nrequire large-scale models, while concise styles (SoT, CoD) achieve radical\nefficiency gains on well-defined tasks. Furthermore, we identify key behavioral\npatterns: smaller models frequently fail to follow output instructions and\ndefault to guessing, while reasoning robustness emerges as a function of scale.\nOur findings offer a crucial roadmap for selecting optimal reasoning strategies\nbased on specific constraints, we open source the benchmark in\nhttps://github.com/JamesJunyuGuo/Style_Bench.",
+      "upvotes": 1,
+      "discussionId": "68d5f5278ccd91bdd39ffda9",
+      "githubRepo": "https://github.com/JamesJunyuGuo/Style_Bench",
+      "ai_summary": "StyleBench evaluates various reasoning styles across tasks and models, revealing that strategy efficacy depends on model scale and task type.",
+      "ai_keywords": [
+        "Large Language Models (LLMs)",
+        "Chain of Thought (CoT)",
+        "Tree of Thought (ToT)",
+        "Algorithm of Thought (AoT)",
+        "Sketch of Thought (SoT)",
+        "Chain-of-Draft (CoD)",
+        "StyleBench",
+        "open-source models",
+        "LLaMA",
+        "Qwen",
+        "Mistral",
+        "Gemma",
+        "GPT-OSS",
+        "Phi",
+        "DeepSeek",
+        "reasoning robustness"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2025-09-25T04:00:39.000Z",
+    "title": "StyleBench: Evaluating thinking styles in Large Language Models",
+    "summary": "The effectiveness of Large Language Models (LLMs) is heavily influenced by\nthe reasoning strategies, or styles of thought, employed in their prompts.\nHowever, the interplay between these reasoning styles, model architecture, and\ntask type remains poorly understood. To address this, we introduce StyleBench,\na comprehensive benchmark for systematically evaluating reasoning styles across\ndiverse tasks and models. We assess five representative reasoning styles,\nincluding Chain of Thought (CoT), Tree of Thought (ToT), Algorithm of Thought\n(AoT), Sketch of Thought (SoT), and Chain-of-Draft (CoD) on five reasoning\ntasks, using 15 open-source models from major families (LLaMA, Qwen, Mistral,\nGemma, GPT-OSS, Phi, and DeepSeek) ranging from 270M to 120B parameters. Our\nlarge-scale analysis reveals that no single style is universally optimal. We\ndemonstrate that strategy efficacy is highly contingent on both model scale and\ntask type: search-based methods (AoT, ToT) excel in open-ended problems but\nrequire large-scale models, while concise styles (SoT, CoD) achieve radical\nefficiency gains on well-defined tasks. Furthermore, we identify key behavioral\npatterns: smaller models frequently fail to follow output instructions and\ndefault to guessing, while reasoning robustness emerges as a function of scale.\nOur findings offer a crucial roadmap for selecting optimal reasoning strategies\nbased on specific constraints, we open source the benchmark in\nhttps://github.com/JamesJunyuGuo/Style_Bench.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20868.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 109
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.20712",
+      "authors": [
+        {
+          "_id": "68d5eeeb8ccd91bdd39ffcfa",
+          "name": "Zhenpeng Su",
+          "hidden": false
+        },
+        {
+          "_id": "68d5eeeb8ccd91bdd39ffcfb",
+          "name": "Leiyu Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68d5eeeb8ccd91bdd39ffcfc",
+          "name": "Minxuan Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68d5eeeb8ccd91bdd39ffcfd",
+          "name": "Yuntao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5eeeb8ccd91bdd39ffcfe",
+          "name": "Wenping Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5eeeb8ccd91bdd39ffcff",
+          "name": "Fuzheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5eeeb8ccd91bdd39ffd00",
+          "name": "Kun Gai",
+          "hidden": false
+        },
+        {
+          "_id": "68d5eeeb8ccd91bdd39ffd01",
+          "name": "Guorui Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-25T03:22:04.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:12:45.051Z",
+      "title": "CE-GPPO: Controlling Entropy via Gradient-Preserving Clipping Policy\n  Optimization in Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "61c2cf8d1172fa7969904d99",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61c2cf8d1172fa7969904d99/R10G5h3d9Q_YQ__Hc-H4k.jpeg",
+        "isPro": false,
+        "fullname": "suu",
+        "user": "Suu",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning (RL) has become a powerful paradigm for optimizing\nlarge language models (LLMs) to handle complex reasoning tasks. A core\nchallenge in this process lies in managing policy entropy, which reflects the\nbalance between exploration and exploitation during training. Existing methods,\nsuch as proximal policy optimization (PPO) and its variants, discard valuable\ngradient signals from low-probability tokens due to the clipping mechanism. We\nsystematically analyze the entropy dynamics and reveal that these clipped\ntokens play a critical yet overlooked role in regulating entropy evolution. We\npropose Controlling Entropy via\nGradient-Preserving Policy Optimization\n(CE-GPPO), a novel algorithm that reintroduces gradients from clipped tokens in\nnative PPO in a gentle and bounded manner. By controlling the magnitude of\ngradients from tokens outside the clipping interval, CE-GPPO is able to achieve\nan exploration-exploitation trade-off. We provide theoretical justification and\nempirical evidence showing that CE-GPPO effectively mitigates entropy\ninstability. Extensive experiments on mathematical reasoning benchmarks show\nthat CE-GPPO consistently outperforms strong baselines across different model\nscales.",
+      "upvotes": 1,
+      "discussionId": "68d5eeeb8ccd91bdd39ffd02",
+      "githubRepo": "https://github.com/Kwai-Klear/CE-GPPO",
+      "ai_summary": "A novel reinforcement learning algorithm, CE-GPPO, reintroduces gradients from clipped tokens to improve the exploration-exploitation balance in training large language models.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "large language models",
+        "policy entropy",
+        "proximal policy optimization",
+        "gradient signals",
+        "entropy dynamics",
+        "exploration-exploitation trade-off",
+        "entropy instability",
+        "mathematical reasoning benchmarks"
+      ],
+      "githubStars": 4
+    },
+    "publishedAt": "2025-09-24T23:22:04.000Z",
+    "title": "CE-GPPO: Controlling Entropy via Gradient-Preserving Clipping Policy\n  Optimization in Reinforcement Learning",
+    "summary": "Reinforcement learning (RL) has become a powerful paradigm for optimizing\nlarge language models (LLMs) to handle complex reasoning tasks. A core\nchallenge in this process lies in managing policy entropy, which reflects the\nbalance between exploration and exploitation during training. Existing methods,\nsuch as proximal policy optimization (PPO) and its variants, discard valuable\ngradient signals from low-probability tokens due to the clipping mechanism. We\nsystematically analyze the entropy dynamics and reveal that these clipped\ntokens play a critical yet overlooked role in regulating entropy evolution. We\npropose Controlling Entropy via\nGradient-Preserving Policy Optimization\n(CE-GPPO), a novel algorithm that reintroduces gradients from clipped tokens in\nnative PPO in a gentle and bounded manner. By controlling the magnitude of\ngradients from tokens outside the clipping interval, CE-GPPO is able to achieve\nan exploration-exploitation trade-off. We provide theoretical justification and\nempirical evidence showing that CE-GPPO effectively mitigates entropy\ninstability. Extensive experiments on mathematical reasoning benchmarks show\nthat CE-GPPO consistently outperforms strong baselines across different model\nscales.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20712.png",
+    "numComments": 3,
+    "submittedBy": {
+      "_id": "61c2cf8d1172fa7969904d99",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61c2cf8d1172fa7969904d99/R10G5h3d9Q_YQ__Hc-H4k.jpeg",
+      "fullname": "suu",
+      "name": "Suu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.20414",
+      "authors": [
+        {
+          "_id": "68d5f3868ccd91bdd39ffd88",
+          "name": "Yandan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f3868ccd91bdd39ffd89",
+          "name": "Baoxiong Jia",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f3868ccd91bdd39ffd8a",
+          "name": "Shujie Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f3868ccd91bdd39ffd8b",
+          "name": "Siyuan Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-24T09:06:41.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:29:46.432Z",
+      "title": "SceneWeaver: All-in-One 3D Scene Synthesis with an Extensible and\n  Self-Reflective Agent",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Indoor scene synthesis has become increasingly important with the rise of\nEmbodied AI, which requires 3D environments that are not only visually\nrealistic but also physically plausible and functionally diverse. While recent\napproaches have advanced visual fidelity, they often remain constrained to\nfixed scene categories, lack sufficient object-level detail and physical\nconsistency, and struggle to align with complex user instructions. In this\nwork, we present SceneWeaver, a reflective agentic framework that unifies\ndiverse scene synthesis paradigms through tool-based iterative refinement. At\nits core, SceneWeaver employs a language model-based planner to select from a\nsuite of extensible scene generation tools, ranging from data-driven generative\nmodels to visual- and LLM-based methods, guided by self-evaluation of physical\nplausibility, visual realism, and semantic alignment with user input. This\nclosed-loop reason-act-reflect design enables the agent to identify semantic\ninconsistencies, invoke targeted tools, and update the environment over\nsuccessive iterations. Extensive experiments on both common and open-vocabulary\nroom types demonstrate that SceneWeaver not only outperforms prior methods on\nphysical, visual, and semantic metrics, but also generalizes effectively to\ncomplex scenes with diverse instructions, marking a step toward general-purpose\n3D environment generation. Project website: https://scene-weaver.github.io/.",
+      "upvotes": 1,
+      "discussionId": "68d5f3868ccd91bdd39ffd8c",
+      "projectPage": "https://scene-weaver.github.io/",
+      "ai_summary": "SceneWeaver, a reflective agentic framework, uses a language model-based planner to iteratively refine 3D scene synthesis, achieving high physical, visual, and semantic quality across diverse instructions.",
+      "ai_keywords": [
+        "language model-based planner",
+        "scene generation tools",
+        "data-driven generative models",
+        "visual- and LLM-based methods",
+        "self-evaluation",
+        "physical plausibility",
+        "visual realism",
+        "semantic alignment",
+        "closed-loop reason-act-reflect design",
+        "semantic inconsistencies",
+        "targeted tools",
+        "general-purpose 3D environment generation"
+      ]
+    },
+    "publishedAt": "2025-09-24T05:06:41.000Z",
+    "title": "SceneWeaver: All-in-One 3D Scene Synthesis with an Extensible and\n  Self-Reflective Agent",
+    "summary": "Indoor scene synthesis has become increasingly important with the rise of\nEmbodied AI, which requires 3D environments that are not only visually\nrealistic but also physically plausible and functionally diverse. While recent\napproaches have advanced visual fidelity, they often remain constrained to\nfixed scene categories, lack sufficient object-level detail and physical\nconsistency, and struggle to align with complex user instructions. In this\nwork, we present SceneWeaver, a reflective agentic framework that unifies\ndiverse scene synthesis paradigms through tool-based iterative refinement. At\nits core, SceneWeaver employs a language model-based planner to select from a\nsuite of extensible scene generation tools, ranging from data-driven generative\nmodels to visual- and LLM-based methods, guided by self-evaluation of physical\nplausibility, visual realism, and semantic alignment with user input. This\nclosed-loop reason-act-reflect design enables the agent to identify semantic\ninconsistencies, invoke targeted tools, and update the environment over\nsuccessive iterations. Extensive experiments on both common and open-vocabulary\nroom types demonstrate that SceneWeaver not only outperforms prior methods on\nphysical, visual, and semantic metrics, but also generalizes effectively to\ncomplex scenes with diverse instructions, marking a step toward general-purpose\n3D environment generation. Project website: https://scene-weaver.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20414.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 109
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.14662",
+      "authors": [
+        {
+          "_id": "68d5f2608ccd91bdd39ffd55",
+          "name": "Ming Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2608ccd91bdd39ffd56",
+          "name": "Nan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2608ccd91bdd39ffd57",
+          "name": "Chenrui Fan",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2608ccd91bdd39ffd58",
+          "name": "Hong Jiao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2608ccd91bdd39ffd59",
+          "name": "Yanbin Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2608ccd91bdd39ffd5a",
+          "name": "Sydney Peters",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2608ccd91bdd39ffd5b",
+          "name": "Qingshu Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2608ccd91bdd39ffd5c",
+          "name": "Robert Lissitz",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2608ccd91bdd39ffd5d",
+          "name": "Tianyi Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-18T06:42:41.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:28:31.323Z",
+      "title": "Understanding the Thinking Process of Reasoning Models: A Perspective\n  from Schoenfeld's Episode Theory",
+      "submittedOnDailyBy": {
+        "_id": "65031d01cccc7b28a388c719",
+        "avatarUrl": "/avatars/9d8c94b6ab8ad8b4faba3221b7e76053.svg",
+        "isPro": false,
+        "fullname": "Ming Li",
+        "user": "MingLiiii",
+        "type": "user"
+      },
+      "summary": "While Large Reasoning Models (LRMs) generate extensive chain-of-thought\nreasoning, we lack a principled framework for understanding how these thoughts\nare structured. In this paper, we introduce a novel approach by applying\nSchoenfeld's Episode Theory, a classic cognitive framework for human\nmathematical problem-solving, to analyze the reasoning traces of LRMs. We\nannotated thousands of sentences and paragraphs from model-generated solutions\nto math problems using seven cognitive labels (e.g., Plan, Implement, Verify).\nThe result is the first publicly available benchmark for the fine-grained\nanalysis of machine reasoning, including a large annotated corpus and detailed\nannotation guidebooks. Our preliminary analysis reveals distinct patterns in\nLRM reasoning, such as the transition dynamics between cognitive states. This\nframework provides a theoretically grounded methodology for interpreting LRM\ncognition and enables future work on more controllable and transparent\nreasoning systems.",
+      "upvotes": 1,
+      "discussionId": "68d5f2618ccd91bdd39ffd5e",
+      "ai_summary": "A novel framework using Schoenfeld's Episode Theory is introduced to analyze the reasoning patterns of Large Reasoning Models in solving math problems, providing a benchmark for machine reasoning.",
+      "ai_keywords": [
+        "Large Reasoning Models",
+        "Schoenfeld's Episode Theory",
+        "cognitive framework",
+        "reasoning traces",
+        "annotation corpus",
+        "annotation guidebooks",
+        "cognitive states",
+        "transition dynamics",
+        "controllable reasoning systems",
+        "transparent reasoning systems"
+      ]
+    },
+    "publishedAt": "2025-09-18T02:42:41.000Z",
+    "title": "Understanding the Thinking Process of Reasoning Models: A Perspective\n  from Schoenfeld's Episode Theory",
+    "summary": "While Large Reasoning Models (LRMs) generate extensive chain-of-thought\nreasoning, we lack a principled framework for understanding how these thoughts\nare structured. In this paper, we introduce a novel approach by applying\nSchoenfeld's Episode Theory, a classic cognitive framework for human\nmathematical problem-solving, to analyze the reasoning traces of LRMs. We\nannotated thousands of sentences and paragraphs from model-generated solutions\nto math problems using seven cognitive labels (e.g., Plan, Implement, Verify).\nThe result is the first publicly available benchmark for the fine-grained\nanalysis of machine reasoning, including a large annotated corpus and detailed\nannotation guidebooks. Our preliminary analysis reveals distinct patterns in\nLRM reasoning, such as the transition dynamics between cognitive states. This\nframework provides a theoretically grounded methodology for interpreting LRM\ncognition and enables future work on more controllable and transparent\nreasoning systems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.14662.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65031d01cccc7b28a388c719",
+      "avatarUrl": "/avatars/9d8c94b6ab8ad8b4faba3221b7e76053.svg",
+      "fullname": "Ming Li",
+      "name": "MingLiiii",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.21320",
+      "authors": [
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd60",
+          "name": "Yizhou Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd61",
+          "name": "Chen Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd62",
+          "name": "Han Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd63",
+          "name": "Jiabei Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd64",
+          "name": "Jiaqi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd65",
+          "name": "Jianyu Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd66",
+          "name": "Jun Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd67",
+          "name": "Pengze Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd68",
+          "name": "Encheng Su",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd69",
+          "name": "Lintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd6a",
+          "name": "Guohang Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd6b",
+          "name": "Yuchen Ren",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd6c",
+          "name": "Ben Fei",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd6d",
+          "name": "Ming Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd6e",
+          "name": "Xin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd6f",
+          "name": "Dongzhan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd70",
+          "name": "Junjun He",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd71",
+          "name": "Xiangyu Yue",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd72",
+          "name": "Zhenfei Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd73",
+          "name": "Jiamin Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd74",
+          "name": "Qihao Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd75",
+          "name": "Yuhao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd76",
+          "name": "Huihui Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd77",
+          "name": "Chenglong Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd78",
+          "name": "Yan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd79",
+          "name": "Wenlong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd7a",
+          "name": "Chunfeng Song",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd7b",
+          "name": "Philip Torr",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd7c",
+          "name": "Shixiang Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd7d",
+          "name": "Xinzhu Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd7e",
+          "name": "Wanli Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "68d5f2f98ccd91bdd39ffd7f",
+          "name": "Lei Bai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-25T17:52:06.000Z",
+      "submittedOnDailyAt": "2025-09-26T00:45:16.820Z",
+      "title": "SciReasoner: Laying the Scientific Reasoning Ground Across Disciplines",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We present a scientific reasoning foundation model that aligns natural\nlanguage with heterogeneous scientific representations. The model is pretrained\non a 206B-token corpus spanning scientific text, pure sequences, and\nsequence-text pairs, then aligned via SFT on 40M instructions, annealed\ncold-start bootstrapping to elicit long-form chain-of-thought, and\nreinforcement learning with task-specific reward shaping, which instills\ndeliberate scientific reasoning. It supports four capability families, covering\nup to 103 tasks across workflows: (i) faithful translation between text and\nscientific formats, (ii) text/knowledge extraction, (iii) property prediction,\n(iv) property classification, (v) unconditional and conditional sequence\ngeneration and design. Compared with specialist systems, our approach broadens\ninstruction coverage, improves cross-domain generalization, and enhances\nfidelity. We detail data curation and training and show that cross-discipline\nlearning strengthens transfer and downstream reliability. The model, instruct\ntuning datasets and the evaluation code are open-sourced at\nhttps://huggingface.co/SciReason and\nhttps://github.com/open-sciencelab/SciReason.",
+      "upvotes": 0,
+      "discussionId": "68d5f2f98ccd91bdd39ffd80",
+      "githubRepo": "https://github.com/open-sciencelab/SciReason",
+      "ai_summary": "A scientific reasoning foundation model pre-trained on diverse scientific data supports multiple tasks and enhances cross-domain generalization and fidelity through specialized training techniques.",
+      "ai_keywords": [
+        "scientific reasoning foundation model",
+        "SFT",
+        "cold-start bootstrapping",
+        "reinforcement learning",
+        "task-specific reward shaping",
+        "chain-of-thought",
+        "translation",
+        "text/knowledge extraction",
+        "property prediction",
+        "property classification",
+        "sequence generation",
+        "sequence design",
+        "cross-discipline learning",
+        "transfer",
+        "downstream reliability"
+      ]
+    },
+    "publishedAt": "2025-09-25T13:52:06.000Z",
+    "title": "SciReasoner: Laying the Scientific Reasoning Ground Across Disciplines",
+    "summary": "We present a scientific reasoning foundation model that aligns natural\nlanguage with heterogeneous scientific representations. The model is pretrained\non a 206B-token corpus spanning scientific text, pure sequences, and\nsequence-text pairs, then aligned via SFT on 40M instructions, annealed\ncold-start bootstrapping to elicit long-form chain-of-thought, and\nreinforcement learning with task-specific reward shaping, which instills\ndeliberate scientific reasoning. It supports four capability families, covering\nup to 103 tasks across workflows: (i) faithful translation between text and\nscientific formats, (ii) text/knowledge extraction, (iii) property prediction,\n(iv) property classification, (v) unconditional and conditional sequence\ngeneration and design. Compared with specialist systems, our approach broadens\ninstruction coverage, improves cross-domain generalization, and enhances\nfidelity. We detail data curation and training and show that cross-discipline\nlearning strengthens transfer and downstream reliability. The model, instruct\ntuning datasets and the evaluation code are open-sourced at\nhttps://huggingface.co/SciReason and\nhttps://github.com/open-sciencelab/SciReason.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21320.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 109
+    },
+    "isAuthorParticipating": false
+  }
+]
