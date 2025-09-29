@@ -1,0 +1,1028 @@
+[
+  {
+    "paper": {
+      "id": "2509.22576",
+      "authors": [
+        {
+          "_id": "68d9e47c0177a6054b013a13",
+          "name": "Xu Wujiang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e47c0177a6054b013a14",
+          "name": "Wentian Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e47c0177a6054b013a15",
+          "name": "Zhenting Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e47c0177a6054b013a16",
+          "name": "Li Yu-Jhe",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e47c0177a6054b013a17",
+          "name": "Jin Can",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e47c0177a6054b013a18",
+          "name": "Jin Mingyu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e47c0177a6054b013a19",
+          "name": "Mei Kai",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e47c0177a6054b013a1a",
+          "name": "Wan Kun",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e47c0177a6054b013a1b",
+          "name": "Metaxas Dimitris",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-26T16:51:44.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:52:23.571Z",
+      "title": "EPO: Entropy-regularized Policy Optimization for LLM Agents\n  Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "64dfcc62e8b6f3f3baa950e0",
+        "avatarUrl": "/avatars/21bbff67d46c08044efe2406575aa77e.svg",
+        "isPro": false,
+        "fullname": "Zhenting Wang",
+        "user": "ztwang",
+        "type": "user"
+      },
+      "summary": "Training LLM agents in multi-turn environments with sparse rewards, where\ncompleting a single task requires 30+ turns of interaction within an episode,\npresents a fundamental challenge for reinforcement learning. We identify a\ncritical failure mode unique to this setting: the exploration-exploitation\ncascade failure. This cascade begins with early-stage policy premature\nconvergence, where sparse feedback causes agents to commit to flawed,\nlow-entropy strategies. Subsequently, agents enter late-stage policy collapse,\nwhere conventional entropy regularization becomes counterproductive, promoting\nchaotic exploration that destabilizes training. We propose Entropy-regularized\nPolicy Optimization (EPO), a general framework that breaks this failure cycle\nthrough three synergistic mechanisms: (1) adopting entropy regularization in\nmulti-turn settings to enhance exploration, (2) an entropy smoothing\nregularizer that bounds policy entropy within historical averages to prevent\nabrupt fluctuations, and (3) adaptive phase-based weighting that balances\nexploration and exploitation across training. Our analysis justifies that EPO\nguarantees monotonically decreasing entropy variance while maintaining\nconvergence. EPO achieves up to 152% performance improvement on ScienceWorld\nand up to 19.8% on ALFWorld. Our work demonstrates that multi-turn\nsparse-reward settings require fundamentally different entropy control than\ntraditional RL, with broad implications for LLM agent training.",
+      "upvotes": 22,
+      "discussionId": "68d9e47c0177a6054b013a1c",
+      "ai_summary": "Entropy-regularized Policy Optimization (EPO) addresses exploration-exploitation challenges in multi-turn environments with sparse rewards, improving performance in tasks like ScienceWorld and ALFWorld.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "exploration-exploitation cascade failure",
+        "premature convergence",
+        "policy collapse",
+        "entropy regularization",
+        "entropy smoothing regularizer",
+        "adaptive phase-based weighting",
+        "entropy variance",
+        "ScienceWorld",
+        "ALFWorld"
+      ]
+    },
+    "publishedAt": "2025-09-26T12:51:44.000Z",
+    "title": "EPO: Entropy-regularized Policy Optimization for LLM Agents\n  Reinforcement Learning",
+    "summary": "Training LLM agents in multi-turn environments with sparse rewards, where\ncompleting a single task requires 30+ turns of interaction within an episode,\npresents a fundamental challenge for reinforcement learning. We identify a\ncritical failure mode unique to this setting: the exploration-exploitation\ncascade failure. This cascade begins with early-stage policy premature\nconvergence, where sparse feedback causes agents to commit to flawed,\nlow-entropy strategies. Subsequently, agents enter late-stage policy collapse,\nwhere conventional entropy regularization becomes counterproductive, promoting\nchaotic exploration that destabilizes training. We propose Entropy-regularized\nPolicy Optimization (EPO), a general framework that breaks this failure cycle\nthrough three synergistic mechanisms: (1) adopting entropy regularization in\nmulti-turn settings to enhance exploration, (2) an entropy smoothing\nregularizer that bounds policy entropy within historical averages to prevent\nabrupt fluctuations, and (3) adaptive phase-based weighting that balances\nexploration and exploitation across training. Our analysis justifies that EPO\nguarantees monotonically decreasing entropy variance while maintaining\nconvergence. EPO achieves up to 152% performance improvement on ScienceWorld\nand up to 19.8% on ALFWorld. Our work demonstrates that multi-turn\nsparse-reward settings require fundamentally different entropy control than\ntraditional RL, with broad implications for LLM agent training.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.22576.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64dfcc62e8b6f3f3baa950e0",
+      "avatarUrl": "/avatars/21bbff67d46c08044efe2406575aa77e.svg",
+      "fullname": "Zhenting Wang",
+      "name": "ztwang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.21760",
+      "authors": [
+        {
+          "_id": "68d9e7890177a6054b013a25",
+          "name": "Lan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e7890177a6054b013a26",
+          "name": "Yuchao Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e7890177a6054b013a27",
+          "name": "Qi Mao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-26T01:43:40.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:29:37.279Z",
+      "title": "UniVid: Unifying Vision Tasks with Pre-trained Video Generation Models",
+      "submittedOnDailyBy": {
+        "_id": "640d704c8036cc2142299c19",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/640d704c8036cc2142299c19/Wt9AslcVxWOSSc11epk8l.jpeg",
+        "isPro": false,
+        "fullname": "Lan Chen",
+        "user": "Orannue",
+        "type": "user"
+      },
+      "summary": "Large language models, trained on extensive corpora, successfully unify\ndiverse linguistic tasks within a single generative framework. Inspired by\nthis, recent works like Large Vision Model (LVM) extend this paradigm to vision\nby organizing tasks into sequential visual sentences, where visual prompts\nserve as the context to guide outputs. However, such modeling requires\ntask-specific pre-training across modalities and sources, which is costly and\nlimits scalability to unseen tasks. Given that pre-trained video generation\nmodels inherently capture temporal sequence dependencies, we explore a more\nunified and scalable alternative: can a pre-trained video generation model\nadapt to diverse image and video tasks? To answer this, we propose UniVid, a\nframework that fine-tunes a video diffusion transformer to handle various\nvision tasks without task-specific modifications. Tasks are represented as\nvisual sentences, where the context sequence defines both the task and the\nexpected output modality. We evaluate the generalization of UniVid from two\nperspectives: (1) cross-modal inference with contexts composed of both images\nand videos, extending beyond LVM's uni-modal setting; (2) cross-source tasks\nfrom natural to annotated data, without multi-source pre-training. Despite\nbeing trained solely on natural video data, UniVid generalizes well in both\nsettings. Notably, understanding and generation tasks can easily switch by\nsimply reversing the visual sentence order in this paradigm. These findings\nhighlight the potential of pre-trained video generation models to serve as a\nscalable and unified foundation for vision modeling. Our code will be released\nat https://github.com/CUC-MIPG/UniVid.",
+      "upvotes": 4,
+      "discussionId": "68d9e78a0177a6054b013a28",
+      "githubRepo": "https://github.com/CUC-MIPG/UniVid",
+      "ai_summary": "A pre-trained video diffusion transformer, UniVid, is fine-tuned to handle diverse vision tasks without task-specific modifications, demonstrating cross-modal and cross-source generalization.",
+      "ai_keywords": [
+        "Large Vision Model",
+        "visual sentences",
+        "video diffusion transformer",
+        "UniVid",
+        "cross-modal inference",
+        "cross-source tasks",
+        "natural video data",
+        "understanding and generation tasks"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2025-09-25T21:43:40.000Z",
+    "title": "UniVid: Unifying Vision Tasks with Pre-trained Video Generation Models",
+    "summary": "Large language models, trained on extensive corpora, successfully unify\ndiverse linguistic tasks within a single generative framework. Inspired by\nthis, recent works like Large Vision Model (LVM) extend this paradigm to vision\nby organizing tasks into sequential visual sentences, where visual prompts\nserve as the context to guide outputs. However, such modeling requires\ntask-specific pre-training across modalities and sources, which is costly and\nlimits scalability to unseen tasks. Given that pre-trained video generation\nmodels inherently capture temporal sequence dependencies, we explore a more\nunified and scalable alternative: can a pre-trained video generation model\nadapt to diverse image and video tasks? To answer this, we propose UniVid, a\nframework that fine-tunes a video diffusion transformer to handle various\nvision tasks without task-specific modifications. Tasks are represented as\nvisual sentences, where the context sequence defines both the task and the\nexpected output modality. We evaluate the generalization of UniVid from two\nperspectives: (1) cross-modal inference with contexts composed of both images\nand videos, extending beyond LVM's uni-modal setting; (2) cross-source tasks\nfrom natural to annotated data, without multi-source pre-training. Despite\nbeing trained solely on natural video data, UniVid generalizes well in both\nsettings. Notably, understanding and generation tasks can easily switch by\nsimply reversing the visual sentence order in this paradigm. These findings\nhighlight the potential of pre-trained video generation models to serve as a\nscalable and unified foundation for vision modeling. Our code will be released\nat https://github.com/CUC-MIPG/UniVid.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21760.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "640d704c8036cc2142299c19",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/640d704c8036cc2142299c19/Wt9AslcVxWOSSc11epk8l.jpeg",
+      "fullname": "Lan Chen",
+      "name": "Orannue",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.22622",
+      "authors": [
+        {
+          "_id": "68d9e2a20177a6054b013a05",
+          "name": "Shuai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a06",
+          "name": "Wei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a07",
+          "name": "Ruihang Chu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a08",
+          "name": "Yicheng Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a09",
+          "name": "Yuyang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a0a",
+          "name": "Xianbang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a0b",
+          "name": "Muyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a0c",
+          "name": "Enze Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a0d",
+          "name": "Yingcong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a0e",
+          "name": "Yao Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a0f",
+          "name": "Song Han",
+          "hidden": false
+        },
+        {
+          "_id": "68d9e2a20177a6054b013a10",
+          "name": "Yukang Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-26T17:48:24.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:52:38.341Z",
+      "title": "LongLive: Real-time Interactive Long Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "634ce90e741a5e37886a19e3",
+        "avatarUrl": "/avatars/0d1579039136b37db5b67282b0a34c33.svg",
+        "isPro": false,
+        "fullname": "Syang",
+        "user": "Andyson",
+        "type": "user"
+      },
+      "summary": "We present LongLive, a frame-level autoregressive (AR) framework for\nreal-time and interactive long video generation. Long video generation presents\nchallenges in both efficiency and quality. Diffusion and Diffusion-Forcing\nmodels can produce high-quality videos but suffer from low efficiency due to\nbidirectional attention. Causal attention AR models support KV caching for\nfaster inference, but often degrade in quality on long videos due to memory\nchallenges during long-video training. In addition, beyond static prompt-based\ngeneration, interactive capabilities, such as streaming prompt inputs, are\ncritical for dynamic content creation, enabling users to guide narratives in\nreal time. This interactive requirement significantly increases complexity,\nespecially in ensuring visual consistency and semantic coherence during prompt\ntransitions. To address these challenges, LongLive adopts a causal, frame-level\nAR design that integrates a KV-recache mechanism that refreshes cached states\nwith new prompts for smooth, adherent switches; streaming long tuning to enable\nlong video training and to align training and inference (train-long-test-long);\nand short window attention paired with a frame-level attention sink, shorten as\nframe sink, preserving long-range consistency while enabling faster generation.\nWith these key designs, LongLive fine-tunes a 1.3B-parameter short-clip model\nto minute-long generation in just 32 GPU-days. At inference, LongLive sustains\n20.7 FPS on a single NVIDIA H100, achieves strong performance on VBench in both\nshort and long videos. LongLive supports up to 240-second videos on a single\nH100 GPU. LongLive further supports INT8-quantized inference with only marginal\nquality loss.",
+      "upvotes": 2,
+      "discussionId": "68d9e2a20177a6054b013a11",
+      "ai_summary": "LongLive is a frame-level autoregressive framework for real-time and interactive long video generation, addressing efficiency and quality challenges through causal attention, KV-recache, streaming long tuning, and short window attention.",
+      "ai_keywords": [
+        "frame-level autoregressive",
+        "diffusion models",
+        "diffusion-forcing models",
+        "bidirectional attention",
+        "causal attention",
+        "KV caching",
+        "interactive capabilities",
+        "streaming prompt inputs",
+        "KV-recache mechanism",
+        "streaming long tuning",
+        "short window attention",
+        "frame-level attention sink",
+        "frame sink",
+        "long-range consistency",
+        "VBench",
+        "INT8-quantized inference"
+      ]
+    },
+    "publishedAt": "2025-09-26T13:48:24.000Z",
+    "title": "LongLive: Real-time Interactive Long Video Generation",
+    "summary": "We present LongLive, a frame-level autoregressive (AR) framework for\nreal-time and interactive long video generation. Long video generation presents\nchallenges in both efficiency and quality. Diffusion and Diffusion-Forcing\nmodels can produce high-quality videos but suffer from low efficiency due to\nbidirectional attention. Causal attention AR models support KV caching for\nfaster inference, but often degrade in quality on long videos due to memory\nchallenges during long-video training. In addition, beyond static prompt-based\ngeneration, interactive capabilities, such as streaming prompt inputs, are\ncritical for dynamic content creation, enabling users to guide narratives in\nreal time. This interactive requirement significantly increases complexity,\nespecially in ensuring visual consistency and semantic coherence during prompt\ntransitions. To address these challenges, LongLive adopts a causal, frame-level\nAR design that integrates a KV-recache mechanism that refreshes cached states\nwith new prompts for smooth, adherent switches; streaming long tuning to enable\nlong video training and to align training and inference (train-long-test-long);\nand short window attention paired with a frame-level attention sink, shorten as\nframe sink, preserving long-range consistency while enabling faster generation.\nWith these key designs, LongLive fine-tunes a 1.3B-parameter short-clip model\nto minute-long generation in just 32 GPU-days. At inference, LongLive sustains\n20.7 FPS on a single NVIDIA H100, achieves strong performance on VBench in both\nshort and long videos. LongLive supports up to 240-second videos on a single\nH100 GPU. LongLive further supports INT8-quantized inference with only marginal\nquality loss.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.22622.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "634ce90e741a5e37886a19e3",
+      "avatarUrl": "/avatars/0d1579039136b37db5b67282b0a34c33.svg",
+      "fullname": "Syang",
+      "name": "Andyson",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "submitterOrganization": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "name": "nvidia",
+      "fullname": "NVIDIA",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.22496",
+      "authors": [
+        {
+          "_id": "68d9eb0f0177a6054b013a3e",
+          "name": "Ruoyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d9eb0f0177a6054b013a3f",
+          "name": "Xiaoqing Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68d9eb0f0177a6054b013a40",
+          "name": "Kangwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9eb0f0177a6054b013a41",
+          "name": "Siyuan Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9eb0f0177a6054b013a42",
+          "name": "Shiming Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9eb0f0177a6054b013a43",
+          "name": "Qunli Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9eb0f0177a6054b013a44",
+          "name": "Hua Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9eb0f0177a6054b013a45",
+          "name": "Xiaochun Cao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-26T15:38:42.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:42:49.775Z",
+      "title": "Where MLLMs Attend and What They Rely On: Explaining Autoregressive\n  Token Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Multimodal large language models (MLLMs) have demonstrated remarkable\ncapabilities in aligning visual inputs with natural language outputs. Yet, the\nextent to which generated tokens depend on visual modalities remains poorly\nunderstood, limiting interpretability and reliability. In this work, we present\nEAGLE, a lightweight black-box framework for explaining autoregressive token\ngeneration in MLLMs. EAGLE attributes any selected tokens to compact perceptual\nregions while quantifying the relative influence of language priors and\nperceptual evidence. The framework introduces an objective function that\nunifies sufficiency (insight score) and indispensability (necessity score),\noptimized via greedy search over sparsified image regions for faithful and\nefficient attribution. Beyond spatial attribution, EAGLE performs\nmodality-aware analysis that disentangles what tokens rely on, providing\nfine-grained interpretability of model decisions. Extensive experiments across\nopen-source MLLMs show that EAGLE consistently outperforms existing methods in\nfaithfulness, localization, and hallucination diagnosis, while requiring\nsubstantially less GPU memory. These results highlight its effectiveness and\npracticality for advancing the interpretability of MLLMs. The code is available\nat https://github.com/RuoyuChen10/EAGLE.",
+      "upvotes": 2,
+      "discussionId": "68d9eb0f0177a6054b013a46",
+      "ai_summary": "EAGLE is a lightweight framework that explains token generation in multimodal large language models by attributing tokens to visual regions and quantifying the influence of language and perceptual evidence.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "MLLMs",
+        "EAGLE",
+        "autoregressive token generation",
+        "perceptual regions",
+        "language priors",
+        "perceptual evidence",
+        "objective function",
+        "insight score",
+        "necessity score",
+        "greedy search",
+        "spatial attribution",
+        "modality-aware analysis",
+        "disentanglement",
+        "faithfulness",
+        "localization",
+        "hallucination diagnosis"
+      ]
+    },
+    "publishedAt": "2025-09-26T11:38:42.000Z",
+    "title": "Where MLLMs Attend and What They Rely On: Explaining Autoregressive\n  Token Generation",
+    "summary": "Multimodal large language models (MLLMs) have demonstrated remarkable\ncapabilities in aligning visual inputs with natural language outputs. Yet, the\nextent to which generated tokens depend on visual modalities remains poorly\nunderstood, limiting interpretability and reliability. In this work, we present\nEAGLE, a lightweight black-box framework for explaining autoregressive token\ngeneration in MLLMs. EAGLE attributes any selected tokens to compact perceptual\nregions while quantifying the relative influence of language priors and\nperceptual evidence. The framework introduces an objective function that\nunifies sufficiency (insight score) and indispensability (necessity score),\noptimized via greedy search over sparsified image regions for faithful and\nefficient attribution. Beyond spatial attribution, EAGLE performs\nmodality-aware analysis that disentangles what tokens rely on, providing\nfine-grained interpretability of model decisions. Extensive experiments across\nopen-source MLLMs show that EAGLE consistently outperforms existing methods in\nfaithfulness, localization, and hallucination diagnosis, while requiring\nsubstantially less GPU memory. These results highlight its effectiveness and\npracticality for advancing the interpretability of MLLMs. The code is available\nat https://github.com/RuoyuChen10/EAGLE.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.22496.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 110
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.22186",
+      "authors": [
+        {
+          "_id": "68d9ebf80177a6054b013a58",
+          "name": "Junbo Niu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a59",
+          "name": "Zheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a5a",
+          "name": "Zhuangcheng Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a5b",
+          "name": "Bin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a5c",
+          "name": "Linke Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a5d",
+          "name": "Zhiyuan Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a5e",
+          "name": "Tao Chu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a5f",
+          "name": "Tianyao He",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a60",
+          "name": "Fan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a61",
+          "name": "Qintong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a62",
+          "name": "Zhenjiang Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a63",
+          "name": "Guang Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a64",
+          "name": "Rui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a65",
+          "name": "Wenzheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a66",
+          "name": "Yuan Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a67",
+          "name": "Zhifei Ren",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a68",
+          "name": "Yuefeng Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a69",
+          "name": "Yuanhong Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a6a",
+          "name": "Dongsheng Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a6b",
+          "name": "Zirui Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a6c",
+          "name": "Boyu Niu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a6d",
+          "name": "Ziyang Miao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a6e",
+          "name": "Hejun Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a6f",
+          "name": "Siyi Qian",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a70",
+          "name": "Junyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a71",
+          "name": "Jingzhou Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a72",
+          "name": "Fangdong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a73",
+          "name": "Xiaomeng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a74",
+          "name": "Liqun Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a75",
+          "name": "Wei Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a76",
+          "name": "Shasha Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a77",
+          "name": "Ruiliang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a78",
+          "name": "Yuanyuan Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a79",
+          "name": "Lu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a7a",
+          "name": "Qianqian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a7b",
+          "name": "Huaiyu Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a7c",
+          "name": "Lindong Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a7d",
+          "name": "Keming Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a7e",
+          "name": "Dechen Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a7f",
+          "name": "Guanlin Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a80",
+          "name": "Xuanhe Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a81",
+          "name": "Linfeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a82",
+          "name": "Yuhang Zang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a83",
+          "name": "Xiaoyi Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a84",
+          "name": "Jiaqi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a85",
+          "name": "Bo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a86",
+          "name": "Lei Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a87",
+          "name": "Pei Chu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a88",
+          "name": "Weijia Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a89",
+          "name": "Jiang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a8a",
+          "name": "Lijun Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a8b",
+          "name": "Zhenxiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a8c",
+          "name": "Guangyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a8d",
+          "name": "Zhongying Tu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a8e",
+          "name": "Chao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a8f",
+          "name": "Kai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a90",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a91",
+          "name": "Bowen Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a92",
+          "name": "Dahua Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a93",
+          "name": "Wentao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebf80177a6054b013a94",
+          "name": "Conghui He",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-26T10:45:48.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:46:33.156Z",
+      "title": "MinerU2.5: A Decoupled Vision-Language Model for Efficient\n  High-Resolution Document Parsing",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce MinerU2.5, a 1.2B-parameter document parsing vision-language\nmodel that achieves state-of-the-art recognition accuracy while maintaining\nexceptional computational efficiency. Our approach employs a coarse-to-fine,\ntwo-stage parsing strategy that decouples global layout analysis from local\ncontent recognition. In the first stage, the model performs efficient layout\nanalysis on downsampled images to identify structural elements, circumventing\nthe computational overhead of processing high-resolution inputs. In the second\nstage, guided by the global layout, it performs targeted content recognition on\nnative-resolution crops extracted from the original image, preserving\nfine-grained details in dense text, complex formulas, and tables. To support\nthis strategy, we developed a comprehensive data engine that generates diverse,\nlarge-scale training corpora for both pretraining and fine-tuning. Ultimately,\nMinerU2.5 demonstrates strong document parsing ability, achieving\nstate-of-the-art performance on multiple benchmarks, surpassing both\ngeneral-purpose and domain-specific models across various recognition tasks,\nwhile maintaining significantly lower computational overhead.",
+      "upvotes": 2,
+      "discussionId": "68d9ebf80177a6054b013a95",
+      "projectPage": "https://opendatalab.github.io/MinerU/",
+      "githubRepo": "https://github.com/opendatalab/MinerU",
+      "ai_summary": "MinerU2.5, a 1.2B-parameter document parsing vision-language model, achieves state-of-the-art recognition accuracy with computational efficiency through a coarse-to-fine parsing strategy.",
+      "ai_keywords": [
+        "document parsing",
+        "vision-language model",
+        "coarse-to-fine",
+        "two-stage parsing",
+        "layout analysis",
+        "content recognition",
+        "downsampled images",
+        "native-resolution crops",
+        "data engine",
+        "pretraining",
+        "fine-tuning",
+        "state-of-the-art performance",
+        "computational overhead"
+      ]
+    },
+    "publishedAt": "2025-09-26T06:45:48.000Z",
+    "title": "MinerU2.5: A Decoupled Vision-Language Model for Efficient\n  High-Resolution Document Parsing",
+    "summary": "We introduce MinerU2.5, a 1.2B-parameter document parsing vision-language\nmodel that achieves state-of-the-art recognition accuracy while maintaining\nexceptional computational efficiency. Our approach employs a coarse-to-fine,\ntwo-stage parsing strategy that decouples global layout analysis from local\ncontent recognition. In the first stage, the model performs efficient layout\nanalysis on downsampled images to identify structural elements, circumventing\nthe computational overhead of processing high-resolution inputs. In the second\nstage, guided by the global layout, it performs targeted content recognition on\nnative-resolution crops extracted from the original image, preserving\nfine-grained details in dense text, complex formulas, and tables. To support\nthis strategy, we developed a comprehensive data engine that generates diverse,\nlarge-scale training corpora for both pretraining and fine-tuning. Ultimately,\nMinerU2.5 demonstrates strong document parsing ability, achieving\nstate-of-the-art performance on multiple benchmarks, surpassing both\ngeneral-purpose and domain-specific models across various recognition tasks,\nwhile maintaining significantly lower computational overhead.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.22186.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 110
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.21574",
+      "authors": [
+        {
+          "_id": "68d9ed0d0177a6054b013a9f",
+          "name": "You Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa0",
+          "name": "Tianpei Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa1",
+          "name": "Zenan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa2",
+          "name": "Chenxu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa3",
+          "name": "Guoxian Song",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa4",
+          "name": "Xiaochen Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa5",
+          "name": "Chao Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa6",
+          "name": "Jianwen Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa7",
+          "name": "Hongyi Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ed0d0177a6054b013aa8",
+          "name": "Linjie Luo",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-25T20:53:27.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:51:11.933Z",
+      "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce X-Streamer, an end-to-end multimodal human world modeling\nframework for building digital human agents capable of infinite interactions\nacross text, speech, and video within a single unified architecture. Starting\nfrom a single portrait, X-Streamer enables real-time, open-ended video calls\ndriven by streaming multimodal inputs. At its core is a Thinker-Actor\ndual-transformer architecture that unifies multimodal understanding and\ngeneration, turning a static portrait into persistent and intelligent\naudiovisual interactions. The Thinker module perceives and reasons over\nstreaming user inputs, while its hidden states are translated by the Actor into\nsynchronized multimodal streams in real time. Concretely, the Thinker leverages\na pretrained large language-speech model, while the Actor employs a chunk-wise\nautoregressive diffusion model that cross-attends to the Thinker's hidden\nstates to produce time-aligned multimodal responses with interleaved discrete\ntext and audio tokens and continuous video latents. To ensure long-horizon\nstability, we design inter- and intra-chunk attentions with time-aligned\nmultimodal positional embeddings for fine-grained cross-modality alignment and\ncontext retention, further reinforced by chunk-wise diffusion forcing and\nglobal identity referencing. X-Streamer runs in real time on two A100 GPUs,\nsustaining hours-long consistent video chat experiences from arbitrary\nportraits and paving the way toward unified world modeling of interactive\ndigital humans.",
+      "upvotes": 1,
+      "discussionId": "68d9ed0d0177a6054b013aa9",
+      "ai_summary": "X-Streamer is a unified multimodal framework using dual-transformer architecture for real-time, open-ended interactions across text, speech, and video, leveraging large language-speech models and autoregressive diffusion models.",
+      "ai_keywords": [
+        "multimodal human world modeling",
+        "Thinker-Actor dual-transformer architecture",
+        "Thinker module",
+        "Actor module",
+        "pretrained large language-speech model",
+        "chunk-wise autoregressive diffusion model",
+        "cross-attention",
+        "time-aligned multimodal responses",
+        "discrete text and audio tokens",
+        "continuous video latents",
+        "inter-chunk attentions",
+        "intra-chunk attentions",
+        "time-aligned multimodal positional embeddings",
+        "chunk-wise diffusion forcing",
+        "global identity referencing"
+      ]
+    },
+    "publishedAt": "2025-09-25T16:53:27.000Z",
+    "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction",
+    "summary": "We introduce X-Streamer, an end-to-end multimodal human world modeling\nframework for building digital human agents capable of infinite interactions\nacross text, speech, and video within a single unified architecture. Starting\nfrom a single portrait, X-Streamer enables real-time, open-ended video calls\ndriven by streaming multimodal inputs. At its core is a Thinker-Actor\ndual-transformer architecture that unifies multimodal understanding and\ngeneration, turning a static portrait into persistent and intelligent\naudiovisual interactions. The Thinker module perceives and reasons over\nstreaming user inputs, while its hidden states are translated by the Actor into\nsynchronized multimodal streams in real time. Concretely, the Thinker leverages\na pretrained large language-speech model, while the Actor employs a chunk-wise\nautoregressive diffusion model that cross-attends to the Thinker's hidden\nstates to produce time-aligned multimodal responses with interleaved discrete\ntext and audio tokens and continuous video latents. To ensure long-horizon\nstability, we design inter- and intra-chunk attentions with time-aligned\nmultimodal positional embeddings for fine-grained cross-modality alignment and\ncontext retention, further reinforced by chunk-wise diffusion forcing and\nglobal identity referencing. X-Streamer runs in real time on two A100 GPUs,\nsustaining hours-long consistent video chat experiences from arbitrary\nportraits and paving the way toward unified world modeling of interactive\ndigital humans.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21574.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 110
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.22244",
+      "authors": [
+        {
+          "_id": "68d9ebab0177a6054b013a48",
+          "name": "Junyi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebab0177a6054b013a49",
+          "name": "Zhiteng Li",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebab0177a6054b013a4a",
+          "name": "Haotong Qin",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebab0177a6054b013a4b",
+          "name": "Xiaohong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebab0177a6054b013a4c",
+          "name": "Linghe Kong",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebab0177a6054b013a4d",
+          "name": "Yulun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d9ebab0177a6054b013a4e",
+          "name": "Xiaokang Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-26T11:59:30.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:45:23.659Z",
+      "title": "FlashEdit: Decoupling Speed, Structure, and Semantics for Precise Image\n  Editing",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Text-guided image editing with diffusion models has achieved remarkable\nquality but suffers from prohibitive latency, hindering real-world\napplications. We introduce FlashEdit, a novel framework designed to enable\nhigh-fidelity, real-time image editing. Its efficiency stems from three key\ninnovations: (1) a One-Step Inversion-and-Editing (OSIE) pipeline that bypasses\ncostly iterative processes; (2) a Background Shield (BG-Shield) technique that\nguarantees background preservation by selectively modifying features only\nwithin the edit region; and (3) a Sparsified Spatial Cross-Attention (SSCA)\nmechanism that ensures precise, localized edits by suppressing semantic leakage\nto the background. Extensive experiments demonstrate that FlashEdit maintains\nsuperior background consistency and structural integrity, while performing\nedits in under 0.2 seconds, which is an over 150times speedup compared to\nprior multi-step methods. Our code will be made publicly available at\nhttps://github.com/JunyiWuCode/FlashEdit.",
+      "upvotes": 0,
+      "discussionId": "68d9ebab0177a6054b013a4f",
+      "githubRepo": "https://github.com/JunyiWuCode/FlashEdit",
+      "ai_summary": "FlashEdit enables real-time, high-fidelity image editing with diffusion models through efficient inversion, background preservation, and localized attention mechanisms.",
+      "ai_keywords": [
+        "One-Step Inversion-and-Editing",
+        "OSIE",
+        "Background Shield",
+        "BG-Shield",
+        "Sparsified Spatial Cross-Attention",
+        "SSCA",
+        "diffusion models",
+        "image editing",
+        "background consistency",
+        "structural integrity"
+      ]
+    },
+    "publishedAt": "2025-09-26T07:59:30.000Z",
+    "title": "FlashEdit: Decoupling Speed, Structure, and Semantics for Precise Image\n  Editing",
+    "summary": "Text-guided image editing with diffusion models has achieved remarkable\nquality but suffers from prohibitive latency, hindering real-world\napplications. We introduce FlashEdit, a novel framework designed to enable\nhigh-fidelity, real-time image editing. Its efficiency stems from three key\ninnovations: (1) a One-Step Inversion-and-Editing (OSIE) pipeline that bypasses\ncostly iterative processes; (2) a Background Shield (BG-Shield) technique that\nguarantees background preservation by selectively modifying features only\nwithin the edit region; and (3) a Sparsified Spatial Cross-Attention (SSCA)\nmechanism that ensures precise, localized edits by suppressing semantic leakage\nto the background. Extensive experiments demonstrate that FlashEdit maintains\nsuperior background consistency and structural integrity, while performing\nedits in under 0.2 seconds, which is an over 150times speedup compared to\nprior multi-step methods. Our code will be made publicly available at\nhttps://github.com/JunyiWuCode/FlashEdit.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.22244.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 110
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.19768",
+      "authors": [
+        {
+          "_id": "68d7bda90177a6054b0137dc",
+          "name": "Sina J. Semnani",
+          "hidden": false
+        },
+        {
+          "_id": "68d7bda90177a6054b0137dd",
+          "name": "Han Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68d7bda90177a6054b0137de",
+          "name": "Xinyan He",
+          "hidden": false
+        },
+        {
+          "_id": "68d7bda90177a6054b0137df",
+          "name": "Merve Tekgürler",
+          "hidden": false
+        },
+        {
+          "_id": "68d7bda90177a6054b0137e0",
+          "name": "Monica S. Lam",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-24T05:38:45.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:47:35.179Z",
+      "title": "CHURRO: Making History Readable with an Open-Weight Large\n  Vision-Language Model for High-Accuracy, Low-Cost Historical Text Recognition",
+      "submittedOnDailyBy": {
+        "_id": "62ed66743d88d075d72515fe",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1659725419224-noauth.jpeg",
+        "isPro": false,
+        "fullname": "Sina S",
+        "user": "s-jse",
+        "type": "user"
+      },
+      "summary": "Accurate text recognition for historical documents can greatly advance the\nstudy and preservation of cultural heritage. Existing vision-language models\n(VLMs), however, are designed for modern, standardized texts and are not\nequipped to read the diverse languages and scripts, irregular layouts, and\nfrequent degradation found in historical materials.\n  This paper presents CHURRO, a 3B-parameter open-weight VLM specialized for\nhistorical text recognition. The model is trained on CHURRO-DS, the largest\nhistorical text recognition dataset to date. CHURRO-DS unifies 155 historical\ncorpora comprising 99,491 pages, spanning 22 centuries of textual heritage\nacross 46 language clusters, including historical variants and dead languages.\n  We evaluate several open-weight and closed VLMs and optical character\nrecognition (OCR) systems on CHURRO-DS and find that CHURRO outperforms all\nother VLMs. On the CHURRO-DS test set, CHURRO achieves 82.3% (printed) and\n70.1% (handwritten) normalized Levenshtein similarity, surpassing the\nsecond-best model, Gemini 2.5 Pro, by 1.4% and 6.5%, respectively, while being\n15.5 times more cost-effective.\n  By releasing the model and dataset, we aim to enable community-driven\nresearch to improve the readability of historical texts and accelerate\nscholarship.",
+      "upvotes": 0,
+      "discussionId": "68d7bdaa0177a6054b0137e1",
+      "ai_summary": "CHURRO, a 3B-parameter open-weight vision-language model, outperforms existing models in historical text recognition using the largest dataset to date, CHURRO-DS, and is more cost-effective.",
+      "ai_keywords": [
+        "vision-language models",
+        "historical text recognition",
+        "CHURRO",
+        "CHURRO-DS",
+        "historical corpora",
+        "language clusters",
+        "optical character recognition",
+        "Levenshtein similarity",
+        "Gemini 2.5 Pro"
+      ]
+    },
+    "publishedAt": "2025-09-24T01:38:45.000Z",
+    "title": "CHURRO: Making History Readable with an Open-Weight Large\n  Vision-Language Model for High-Accuracy, Low-Cost Historical Text Recognition",
+    "summary": "Accurate text recognition for historical documents can greatly advance the\nstudy and preservation of cultural heritage. Existing vision-language models\n(VLMs), however, are designed for modern, standardized texts and are not\nequipped to read the diverse languages and scripts, irregular layouts, and\nfrequent degradation found in historical materials.\n  This paper presents CHURRO, a 3B-parameter open-weight VLM specialized for\nhistorical text recognition. The model is trained on CHURRO-DS, the largest\nhistorical text recognition dataset to date. CHURRO-DS unifies 155 historical\ncorpora comprising 99,491 pages, spanning 22 centuries of textual heritage\nacross 46 language clusters, including historical variants and dead languages.\n  We evaluate several open-weight and closed VLMs and optical character\nrecognition (OCR) systems on CHURRO-DS and find that CHURRO outperforms all\nother VLMs. On the CHURRO-DS test set, CHURRO achieves 82.3% (printed) and\n70.1% (handwritten) normalized Levenshtein similarity, surpassing the\nsecond-best model, Gemini 2.5 Pro, by 1.4% and 6.5%, respectively, while being\n15.5 times more cost-effective.\n  By releasing the model and dataset, we aim to enable community-driven\nresearch to improve the readability of historical texts and accelerate\nscholarship.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.19768.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62ed66743d88d075d72515fe",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1659725419224-noauth.jpeg",
+      "fullname": "Sina S",
+      "name": "s-jse",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "submitterOrganization": {
+      "_id": "62ed67f67c64f97bcf2c708a",
+      "name": "stanford-oval",
+      "fullname": "Stanford Open Virtual Assistant Lab (OVAL)",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1659726066453-62ed66743d88d075d72515fe.jpeg"
+    },
+    "isAuthorParticipating": false
+  }
+]
