@@ -1,0 +1,232 @@
+[
+  {
+    "paper": {
+      "id": "2509.23371",
+      "authors": [
+        {
+          "_id": "68db3818d2bf1f4b15ec7290",
+          "name": "Junming Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68db3818d2bf1f4b15ec7291",
+          "name": "Ning Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68db3818d2bf1f4b15ec7292",
+          "name": "Biao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68db3818d2bf1f4b15ec7293",
+          "name": "Shiqi Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "68db3818d2bf1f4b15ec7294",
+          "name": "Xin Geng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-27T15:38:24.000Z",
+      "submittedOnDailyAt": "2025-09-30T00:28:47.911Z",
+      "title": "Alignment through Meta-Weighted Online Sampling: Bridging the Gap\n  between Data Generation and Preference Optimization",
+      "submittedOnDailyBy": {
+        "_id": "653f1d243bd61358055ad51d",
+        "avatarUrl": "/avatars/698c03b9a4bb69659d2ed594626e3895.svg",
+        "isPro": false,
+        "fullname": "junmingyang",
+        "user": "jmyang",
+        "type": "user"
+      },
+      "summary": "Preference optimization is crucial for aligning large language models (LLMs)\nwith human values and intentions. A significant challenge in this process is\nthe distribution mismatch between pre-collected offline preference data and the\nevolving model policy. Existing methods attempt to reduce this gap using static\nheuristics or decoupled online sampling strategies, but they often fail to\nadapt to the model's dynamic learning state. To bridge this gap, we propose\nMeta-Weighted Adaptive Preference Optimization (MetaAPO), a novel framework\nthat dynamically couples data generation with model training. MetaAPO employs a\nlightweight meta-learner, as an \"alignment gap estimator\", to evaluate the\npotential benefits of on-policy sampling in relation to offline data. This\nguides targeted online generation and assigns sample-wise meta-weights to the\noptimization objective, dynamically balancing the quality and distribution of\nonline and offline data. Experiments on AlpacaEval 2, Arena-Hard and MT-Bench\ndemonstrate that MetaAPO consistently outperforms existing preference\noptimization approaches across various settings, while reducing 42% in online\nannotation costs.",
+      "upvotes": 1,
+      "discussionId": "68db3819d2bf1f4b15ec7295",
+      "ai_summary": "Meta-Weighted Adaptive Preference Optimization (MetaAPO) dynamically balances online and offline data to align large language models with human preferences, outperforming existing methods and reducing annotation costs.",
+      "ai_keywords": [
+        "Meta-Weighted Adaptive Preference Optimization",
+        "MetaAPO",
+        "meta-learner",
+        "alignment gap estimator",
+        "on-policy sampling",
+        "AlpacaEval 2",
+        "Arena-Hard",
+        "MT-Bench"
+      ]
+    },
+    "publishedAt": "2025-09-27T11:38:24.000Z",
+    "title": "Alignment through Meta-Weighted Online Sampling: Bridging the Gap\n  between Data Generation and Preference Optimization",
+    "summary": "Preference optimization is crucial for aligning large language models (LLMs)\nwith human values and intentions. A significant challenge in this process is\nthe distribution mismatch between pre-collected offline preference data and the\nevolving model policy. Existing methods attempt to reduce this gap using static\nheuristics or decoupled online sampling strategies, but they often fail to\nadapt to the model's dynamic learning state. To bridge this gap, we propose\nMeta-Weighted Adaptive Preference Optimization (MetaAPO), a novel framework\nthat dynamically couples data generation with model training. MetaAPO employs a\nlightweight meta-learner, as an \"alignment gap estimator\", to evaluate the\npotential benefits of on-policy sampling in relation to offline data. This\nguides targeted online generation and assigns sample-wise meta-weights to the\noptimization objective, dynamically balancing the quality and distribution of\nonline and offline data. Experiments on AlpacaEval 2, Arena-Hard and MT-Bench\ndemonstrate that MetaAPO consistently outperforms existing preference\noptimization approaches across various settings, while reducing 42% in online\nannotation costs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.23371.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "653f1d243bd61358055ad51d",
+      "avatarUrl": "/avatars/698c03b9a4bb69659d2ed594626e3895.svg",
+      "fullname": "junmingyang",
+      "name": "jmyang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.23285",
+      "authors": [
+        {
+          "_id": "68db3809d2bf1f4b15ec728b",
+          "name": "Yifei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68db3809d2bf1f4b15ec728c",
+          "name": "Guanting Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68db3809d2bf1f4b15ec728d",
+          "name": "Zhicheng Dou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-27T12:53:37.000Z",
+      "submittedOnDailyAt": "2025-09-30T00:35:38.566Z",
+      "title": "Toward Effective Tool-Integrated Reasoning via Self-Evolved Preference\n  Learning",
+      "submittedOnDailyBy": {
+        "_id": "6621ec2524eb2673fe0790fc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6621ec2524eb2673fe0790fc/cooTXi12eRWFiSSIj_nA-.jpeg",
+        "isPro": false,
+        "fullname": "Ania Forge",
+        "user": "zhangboguodong",
+        "type": "user"
+      },
+      "summary": "Tool-Integrated Reasoning (TIR) enables large language models (LLMs) to\nimprove their internal reasoning ability by integrating external tools.\nHowever, models employing TIR often display suboptimal behaviors, such as\ninsufficient or excessive tool usage and overthinking after tool calls. The\nchallenge of incentivizing LLMs to perform TIR efficiently and accurately,\nwhile stabilizing the reasoning process, remains an open question. In this\npaper, we start by exploring the impact of tool calls on model reasoning from\nthe perspective of information entropy. Our findings indicate that tool call\nresults lead to a distinct change in the information entropy of subsequent\nreasoning, with the overall entropy of the reasoning chain varying based on the\nnumber of tool calls. Building on these insights, we propose Tool-Light, a\nframework designed to encourage LLMs to perform TIR efficiently and accurately.\nOur framework includes dataset construction and multi-stage fine-tuning. For\ndataset construction, we employ continuous self-evolved sampling using the\nfine-tuned model, integrating both vanilla sampling and entropy-guided\nsampling. Besides, we establish strict criteria for selecting positive-negative\npairs during sampling. The training process involves a two-stage approach,\ncomprising Supervised Fine-Tuning (SFT) and Self-Evolved Direct Preference\nOptimization (DPO). Experimental results on 10 datasets demonstrate the\neffectiveness of Tool-Light, significantly improving the model's efficiency in\nexecuting TIR tasks.",
+      "upvotes": 1,
+      "discussionId": "68db3809d2bf1f4b15ec728e",
+      "ai_summary": "Tool-Light framework improves large language models' tool-integrated reasoning efficiency and accuracy by leveraging information entropy and a two-stage fine-tuning process.",
+      "ai_keywords": [
+        "Tool-Integrated Reasoning",
+        "large language models",
+        "information entropy",
+        "Tool-Light",
+        "dataset construction",
+        "continuous self-evolved sampling",
+        "entropy-guided sampling",
+        "positive-negative pairs",
+        "Supervised Fine-Tuning",
+        "Self-Evolved Direct Preference Optimization"
+      ]
+    },
+    "publishedAt": "2025-09-27T08:53:37.000Z",
+    "title": "Toward Effective Tool-Integrated Reasoning via Self-Evolved Preference\n  Learning",
+    "summary": "Tool-Integrated Reasoning (TIR) enables large language models (LLMs) to\nimprove their internal reasoning ability by integrating external tools.\nHowever, models employing TIR often display suboptimal behaviors, such as\ninsufficient or excessive tool usage and overthinking after tool calls. The\nchallenge of incentivizing LLMs to perform TIR efficiently and accurately,\nwhile stabilizing the reasoning process, remains an open question. In this\npaper, we start by exploring the impact of tool calls on model reasoning from\nthe perspective of information entropy. Our findings indicate that tool call\nresults lead to a distinct change in the information entropy of subsequent\nreasoning, with the overall entropy of the reasoning chain varying based on the\nnumber of tool calls. Building on these insights, we propose Tool-Light, a\nframework designed to encourage LLMs to perform TIR efficiently and accurately.\nOur framework includes dataset construction and multi-stage fine-tuning. For\ndataset construction, we employ continuous self-evolved sampling using the\nfine-tuned model, integrating both vanilla sampling and entropy-guided\nsampling. Besides, we establish strict criteria for selecting positive-negative\npairs during sampling. The training process involves a two-stage approach,\ncomprising Supervised Fine-Tuning (SFT) and Self-Evolved Direct Preference\nOptimization (DPO). Experimental results on 10 datasets demonstrate the\neffectiveness of Tool-Light, significantly improving the model's efficiency in\nexecuting TIR tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.23285.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6621ec2524eb2673fe0790fc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6621ec2524eb2673fe0790fc/cooTXi12eRWFiSSIj_nA-.jpeg",
+      "fullname": "Ania Forge",
+      "name": "zhangboguodong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "submitterOrganization": {
+      "_id": "622177ac43826d6f261f8208",
+      "name": "RUC",
+      "fullname": "Renmin University of China",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.21953",
+      "authors": [
+        {
+          "_id": "68db399cd2bf1f4b15ec7297",
+          "name": "Tao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68db399cd2bf1f4b15ec7298",
+          "name": "Yibo Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68db399cd2bf1f4b15ec7299",
+          "name": "Yehao Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68db399cd2bf1f4b15ec729a",
+          "name": "Zhizhong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68db399cd2bf1f4b15ec729b",
+          "name": "Zeyi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68db399cd2bf1f4b15ec729c",
+          "name": "Zequn Qin",
+          "hidden": false
+        },
+        {
+          "_id": "68db399cd2bf1f4b15ec729d",
+          "name": "Xi Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-26T06:41:43.000Z",
+      "submittedOnDailyAt": "2025-09-30T00:30:46.930Z",
+      "title": "MultiCrafter: High-Fidelity Multi-Subject Generation via Spatially\n  Disentangled Attention and Identity-Aware Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "676a2ca72d7050defde9b25d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/qNWwTpxhHfbRSHdtdDhQl.png",
+        "isPro": false,
+        "fullname": "Suger",
+        "user": "SugerWu",
+        "type": "user"
+      },
+      "summary": "Multi-subject image generation aims to synthesize user-provided subjects in a\nsingle image while preserving subject fidelity, ensuring prompt consistency,\nand aligning with human aesthetic preferences. However, existing methods,\nparticularly those built on the In-Context-Learning paradigm, are limited by\ntheir reliance on simple reconstruction-based objectives, leading to both\nsevere attribute leakage that compromises subject fidelity and failing to align\nwith nuanced human preferences. To address this, we propose MultiCrafter, a\nframework that ensures high-fidelity, preference-aligned generation. First, we\nfind that the root cause of attribute leakage is a significant entanglement of\nattention between different subjects during the generation process. Therefore,\nwe introduce explicit positional supervision to explicitly separate attention\nregions for each subject, effectively mitigating attribute leakage. To enable\nthe model to accurately plan the attention region of different subjects in\ndiverse scenarios, we employ a Mixture-of-Experts architecture to enhance the\nmodel's capacity, allowing different experts to focus on different scenarios.\nFinally, we design a novel online reinforcement learning framework to align the\nmodel with human preferences, featuring a scoring mechanism to accurately\nassess multi-subject fidelity and a more stable training strategy tailored for\nthe MoE architecture. Experiments validate that our framework significantly\nimproves subject fidelity while aligning with human preferences better.",
+      "upvotes": 1,
+      "discussionId": "68db399dd2bf1f4b15ec729e",
+      "ai_summary": "MultiCrafter framework improves multi-subject image generation by addressing attribute leakage through explicit positional supervision, utilizing a Mixture-of-Experts architecture, and aligning with human preferences via online reinforcement learning.",
+      "ai_keywords": [
+        "multi-subject image generation",
+        "attribute leakage",
+        "explicit positional supervision",
+        "Mixture-of-Experts architecture",
+        "online reinforcement learning",
+        "scoring mechanism"
+      ]
+    },
+    "publishedAt": "2025-09-26T02:41:43.000Z",
+    "title": "MultiCrafter: High-Fidelity Multi-Subject Generation via Spatially\n  Disentangled Attention and Identity-Aware Reinforcement Learning",
+    "summary": "Multi-subject image generation aims to synthesize user-provided subjects in a\nsingle image while preserving subject fidelity, ensuring prompt consistency,\nand aligning with human aesthetic preferences. However, existing methods,\nparticularly those built on the In-Context-Learning paradigm, are limited by\ntheir reliance on simple reconstruction-based objectives, leading to both\nsevere attribute leakage that compromises subject fidelity and failing to align\nwith nuanced human preferences. To address this, we propose MultiCrafter, a\nframework that ensures high-fidelity, preference-aligned generation. First, we\nfind that the root cause of attribute leakage is a significant entanglement of\nattention between different subjects during the generation process. Therefore,\nwe introduce explicit positional supervision to explicitly separate attention\nregions for each subject, effectively mitigating attribute leakage. To enable\nthe model to accurately plan the attention region of different subjects in\ndiverse scenarios, we employ a Mixture-of-Experts architecture to enhance the\nmodel's capacity, allowing different experts to focus on different scenarios.\nFinally, we design a novel online reinforcement learning framework to align the\nmodel with human preferences, featuring a scoring mechanism to accurately\nassess multi-subject fidelity and a more stable training strategy tailored for\nthe MoE architecture. Experiments validate that our framework significantly\nimproves subject fidelity while aligning with human preferences better.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21953.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "676a2ca72d7050defde9b25d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/qNWwTpxhHfbRSHdtdDhQl.png",
+      "fullname": "Suger",
+      "name": "SugerWu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
