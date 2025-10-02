@@ -1,0 +1,1085 @@
+[
+  {
+    "paper": {
+      "id": "2510.00184",
+      "authors": [
+        {
+          "_id": "68ddd5b56024653e8a3ed063",
+          "name": "Xiaoyan Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd5b56024653e8a3ed064",
+          "name": "Itamar Pres",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd5b56024653e8a3ed065",
+          "name": "Yuntian Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd5b56024653e8a3ed066",
+          "name": "Chenhao Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd5b56024653e8a3ed067",
+          "name": "Stuart Shieber",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd5b56024653e8a3ed068",
+          "name": "Fernanda Viégas",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd5b56024653e8a3ed069",
+          "name": "Martin Wattenberg",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd5b56024653e8a3ed06a",
+          "name": "Andrew Lee",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/Ey4NUP7APueLX50YzeHCp.png"
+      ],
+      "publishedAt": "2025-09-30T19:03:26.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:14:01.486Z",
+      "title": "Why Can't Transformers Learn Multiplication? Reverse-Engineering Reveals\n  Long-Range Dependency Pitfalls",
+      "submittedOnDailyBy": {
+        "_id": "63081e15a670ed10f9d44229",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63081e15a670ed10f9d44229/w1b9uq-9774bMMgJbSPsS.jpeg",
+        "isPro": true,
+        "fullname": "Yuntian Deng",
+        "user": "yuntian-deng",
+        "type": "user"
+      },
+      "summary": "Language models are increasingly capable, yet still fail at a seemingly\nsimple task of multi-digit multiplication. In this work, we study why, by\nreverse-engineering a model that successfully learns multiplication via\nimplicit chain-of-thought, and report three findings: (1) Evidence of\nlong-range structure: Logit attributions and linear probes indicate that the\nmodel encodes the necessary long-range dependencies for multi-digit\nmultiplication. (2) Mechanism: the model encodes long-range dependencies using\nattention to construct a directed acyclic graph to ``cache'' and ``retrieve''\npairwise partial products. (3) Geometry: the model implements partial products\nin attention heads by forming Minkowski sums between pairs of digits, and\ndigits are represented using a Fourier basis, both of which are intuitive and\nefficient representations that the standard fine-tuning model lacks. With these\ninsights, we revisit the learning dynamics of standard fine-tuning and find\nthat the model converges to a local optimum that lacks the required long-range\ndependencies. We further validate this understanding by introducing an\nauxiliary loss that predicts the ``running sum'' via a linear regression probe,\nwhich provides an inductive bias that enables the model to successfully learn\nmulti-digit multiplication. In summary, by reverse-engineering the mechanisms\nof an implicit chain-of-thought model we uncover a pitfall for learning\nlong-range dependencies in Transformers and provide an example of how the\ncorrect inductive bias can address this issue.",
+      "upvotes": 5,
+      "discussionId": "68ddd5b66024653e8a3ed06b",
+      "githubRepo": "https://github.com/ajyl/icot",
+      "ai_summary": "Reverse-engineering a model that learns multi-digit multiplication via implicit chain-of-thought reveals that it uses attention to encode long-range dependencies and represents partial products efficiently, insights that help address limitations in standard fine-tuning.",
+      "ai_keywords": [
+        "implicit chain-of-thought",
+        "logit attributions",
+        "linear probes",
+        "long-range dependencies",
+        "attention",
+        "directed acyclic graph",
+        "Minkowski sums",
+        "Fourier basis",
+        "learning dynamics",
+        "standard fine-tuning",
+        "local optimum",
+        "auxiliary loss",
+        "linear regression probe",
+        "inductive bias"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2025-09-30T15:03:26.000Z",
+    "title": "Why Can't Transformers Learn Multiplication? Reverse-Engineering Reveals\n  Long-Range Dependency Pitfalls",
+    "summary": "Language models are increasingly capable, yet still fail at a seemingly\nsimple task of multi-digit multiplication. In this work, we study why, by\nreverse-engineering a model that successfully learns multiplication via\nimplicit chain-of-thought, and report three findings: (1) Evidence of\nlong-range structure: Logit attributions and linear probes indicate that the\nmodel encodes the necessary long-range dependencies for multi-digit\nmultiplication. (2) Mechanism: the model encodes long-range dependencies using\nattention to construct a directed acyclic graph to ``cache'' and ``retrieve''\npairwise partial products. (3) Geometry: the model implements partial products\nin attention heads by forming Minkowski sums between pairs of digits, and\ndigits are represented using a Fourier basis, both of which are intuitive and\nefficient representations that the standard fine-tuning model lacks. With these\ninsights, we revisit the learning dynamics of standard fine-tuning and find\nthat the model converges to a local optimum that lacks the required long-range\ndependencies. We further validate this understanding by introducing an\nauxiliary loss that predicts the ``running sum'' via a linear regression probe,\nwhich provides an inductive bias that enables the model to successfully learn\nmulti-digit multiplication. In summary, by reverse-engineering the mechanisms\nof an implicit chain-of-thought model we uncover a pitfall for learning\nlong-range dependencies in Transformers and provide an example of how the\ncorrect inductive bias can address this issue.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/Ey4NUP7APueLX50YzeHCp.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00184.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63081e15a670ed10f9d44229",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63081e15a670ed10f9d44229/w1b9uq-9774bMMgJbSPsS.jpeg",
+      "fullname": "Yuntian Deng",
+      "name": "yuntian-deng",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 258
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01174",
+      "authors": [
+        {
+          "_id": "68dddb006024653e8a3ed075",
+          "name": "Yanzhe Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68dddb006024653e8a3ed076",
+          "name": "Kevin Qinghong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68dddb006024653e8a3ed077",
+          "name": "Mike Zheng Shou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T17:56:48.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:23:15.150Z",
+      "title": "Code2Video: A Code-centric Paradigm for Educational Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "While recent generative models advance pixel-space video synthesis, they\nremain limited in producing professional educational videos, which demand\ndisciplinary knowledge, precise visual structures, and coherent transitions,\nlimiting their applicability in educational scenarios. Intuitively, such\nrequirements are better addressed through the manipulation of a renderable\nenvironment, which can be explicitly controlled via logical commands (e.g.,\ncode). In this work, we propose Code2Video, a code-centric agent framework for\ngenerating educational videos via executable Python code. The framework\ncomprises three collaborative agents: (i) Planner, which structures lecture\ncontent into temporally coherent flows and prepares corresponding visual\nassets; (ii) Coder, which converts structured instructions into executable\nPython codes while incorporating scope-guided auto-fix to enhance efficiency;\nand (iii) Critic, which leverages vision-language models (VLM) with visual\nanchor prompts to refine spatial layout and ensure clarity. To support\nsystematic evaluation, we build MMMC, a benchmark of professionally produced,\ndiscipline-specific educational videos. We evaluate MMMC across diverse\ndimensions, including VLM-as-a-Judge aesthetic scores, code efficiency, and\nparticularly, TeachQuiz, a novel end-to-end metric that quantifies how well a\nVLM, after unlearning, can recover knowledge by watching the generated videos.\nOur results demonstrate the potential of Code2Video as a scalable,\ninterpretable, and controllable approach, achieving 40% improvement over direct\ncode generation and producing videos comparable to human-crafted tutorials. The\ncode and datasets are available at https://github.com/showlab/Code2Video.",
+      "upvotes": 4,
+      "discussionId": "68dddb006024653e8a3ed078",
+      "projectPage": "https://showlab.github.io/Code2Video/",
+      "githubRepo": "https://github.com/showlab/Code2Video",
+      "ai_summary": "Code2Video generates educational videos using a code-centric agent framework, improving coherence and interpretability compared to direct code generation.",
+      "ai_keywords": [
+        "generative models",
+        "pixel-space video synthesis",
+        "renderable environment",
+        "logical commands",
+        "code-centric agent framework",
+        "Planner",
+        "Coder",
+        "Critic",
+        "vision-language models",
+        "VLM",
+        "visual anchor prompts",
+        "MMMC",
+        "TeachQuiz",
+        "direct code generation",
+        "human-crafted tutorials"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2025-10-01T13:56:48.000Z",
+    "title": "Code2Video: A Code-centric Paradigm for Educational Video Generation",
+    "summary": "While recent generative models advance pixel-space video synthesis, they\nremain limited in producing professional educational videos, which demand\ndisciplinary knowledge, precise visual structures, and coherent transitions,\nlimiting their applicability in educational scenarios. Intuitively, such\nrequirements are better addressed through the manipulation of a renderable\nenvironment, which can be explicitly controlled via logical commands (e.g.,\ncode). In this work, we propose Code2Video, a code-centric agent framework for\ngenerating educational videos via executable Python code. The framework\ncomprises three collaborative agents: (i) Planner, which structures lecture\ncontent into temporally coherent flows and prepares corresponding visual\nassets; (ii) Coder, which converts structured instructions into executable\nPython codes while incorporating scope-guided auto-fix to enhance efficiency;\nand (iii) Critic, which leverages vision-language models (VLM) with visual\nanchor prompts to refine spatial layout and ensure clarity. To support\nsystematic evaluation, we build MMMC, a benchmark of professionally produced,\ndiscipline-specific educational videos. We evaluate MMMC across diverse\ndimensions, including VLM-as-a-Judge aesthetic scores, code efficiency, and\nparticularly, TeachQuiz, a novel end-to-end metric that quantifies how well a\nVLM, after unlearning, can recover knowledge by watching the generated videos.\nOur results demonstrate the potential of Code2Video as a scalable,\ninterpretable, and controllable approach, achieving 40% improvement over direct\ncode generation and producing videos comparable to human-crafted tutorials. The\ncode and datasets are available at https://github.com/showlab/Code2Video.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01174.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 115
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00526",
+      "authors": [
+        {
+          "_id": "68dddc4c6024653e8a3ed083",
+          "name": "Gaotang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc4c6024653e8a3ed084",
+          "name": "Ruizhong Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc4c6024653e8a3ed085",
+          "name": "Xiusi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc4c6024653e8a3ed086",
+          "name": "Heng Ji",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc4c6024653e8a3ed087",
+          "name": "Hanghang Tong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T05:17:47.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:33:45.370Z",
+      "title": "Beyond Log Likelihood: Probability-Based Objectives for Supervised\n  Fine-Tuning across the Model Capability Continuum",
+      "submittedOnDailyBy": {
+        "_id": "654d784d71a30c4bca09a319",
+        "avatarUrl": "/avatars/ab9f93122903ccd662267232bab30ad8.svg",
+        "isPro": false,
+        "fullname": "Gaotang Li",
+        "user": "gaotang",
+        "type": "user"
+      },
+      "summary": "Supervised fine-tuning (SFT) is the standard approach for post-training large\nlanguage models (LLMs), yet it often shows limited generalization. We trace\nthis limitation to its default training objective: negative log likelihood\n(NLL). While NLL is classically optimal when training from scratch,\npost-training operates in a different paradigm and could violate its optimality\nassumptions, where models already encode task-relevant priors and supervision\ncan be long and noisy. To this end, we study a general family of\nprobability-based objectives and characterize their effectiveness under\ndifferent conditions. Through comprehensive experiments and extensive ablation\nstudies across 7 model backbones, 14 benchmarks, and 3 domains, we uncover a\ncritical dimension that governs objective behavior: the model-capability\ncontinuum. Near the model-strong end, prior-leaning objectives that downweight\nlow-probability tokens (e.g., -p, -p^{10}, thresholded variants)\nconsistently outperform NLL; toward the model-weak end, NLL dominates; in\nbetween, no single objective prevails. Our theoretical analysis further\nelucidates how objectives trade places across the continuum, providing a\nprincipled foundation for adapting objectives to model capability. Our code is\navailable at https://github.com/GaotangLi/Beyond-Log-Likelihood.",
+      "upvotes": 4,
+      "discussionId": "68dddc4c6024653e8a3ed088",
+      "githubRepo": "https://github.com/GaotangLi/Beyond-Log-Likelihood",
+      "ai_summary": "Research identifies probability-based objectives that outperform negative log likelihood for fine-tuning large language models, depending on model capability.",
+      "ai_keywords": [
+        "supervised fine-tuning",
+        "large language models",
+        "negative log likelihood",
+        "probability-based objectives",
+        "model-capability continuum",
+        "prior-leaning objectives"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2025-10-01T01:17:47.000Z",
+    "title": "Beyond Log Likelihood: Probability-Based Objectives for Supervised\n  Fine-Tuning across the Model Capability Continuum",
+    "summary": "Supervised fine-tuning (SFT) is the standard approach for post-training large\nlanguage models (LLMs), yet it often shows limited generalization. We trace\nthis limitation to its default training objective: negative log likelihood\n(NLL). While NLL is classically optimal when training from scratch,\npost-training operates in a different paradigm and could violate its optimality\nassumptions, where models already encode task-relevant priors and supervision\ncan be long and noisy. To this end, we study a general family of\nprobability-based objectives and characterize their effectiveness under\ndifferent conditions. Through comprehensive experiments and extensive ablation\nstudies across 7 model backbones, 14 benchmarks, and 3 domains, we uncover a\ncritical dimension that governs objective behavior: the model-capability\ncontinuum. Near the model-strong end, prior-leaning objectives that downweight\nlow-probability tokens (e.g., -p, -p^{10}, thresholded variants)\nconsistently outperform NLL; toward the model-weak end, NLL dominates; in\nbetween, no single objective prevails. Our theoretical analysis further\nelucidates how objectives trade places across the continuum, providing a\nprincipled foundation for adapting objectives to model capability. Our code is\navailable at https://github.com/GaotangLi/Beyond-Log-Likelihood.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00526.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "654d784d71a30c4bca09a319",
+      "avatarUrl": "/avatars/ab9f93122903ccd662267232bab30ad8.svg",
+      "fullname": "Gaotang Li",
+      "name": "gaotang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00232",
+      "authors": [
+        {
+          "_id": "68ddd96f6024653e8a3ed06d",
+          "name": "Xin Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd96f6024653e8a3ed06e",
+          "name": "Xunzhi He",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd96f6024653e8a3ed06f",
+          "name": "Churan Zhi",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd96f6024653e8a3ed070",
+          "name": "Ruizhe Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd96f6024653e8a3ed071",
+          "name": "Julian McAuley",
+          "hidden": false
+        },
+        {
+          "_id": "68ddd96f6024653e8a3ed072",
+          "name": "Zexue He",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-30T19:56:54.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:22:25.710Z",
+      "title": "BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model\n  Responses",
+      "submittedOnDailyBy": {
+        "_id": "6190ab805ca89a28e9f66873",
+        "avatarUrl": "/avatars/3c7ecc398fbf851acd2a132e947a92be.svg",
+        "isPro": false,
+        "fullname": "Xin Xu",
+        "user": "XinXuNLPer",
+        "type": "user"
+      },
+      "summary": "Existing studies on bias mitigation methods for large language models (LLMs)\nuse diverse baselines and metrics to evaluate debiasing performance, leading to\ninconsistent comparisons among them. Moreover, their evaluations are mostly\nbased on the comparison between LLMs' probabilities of biased and unbiased\ncontexts, which ignores the gap between such evaluations and real-world use\ncases where users interact with LLMs by reading model responses and expect fair\nand safe outputs rather than LLMs' probabilities. To enable consistent\nevaluation across debiasing methods and bridge this gap, we introduce\nBiasFreeBench, an empirical benchmark that comprehensively compares eight\nmainstream bias mitigation techniques (covering four prompting-based and four\ntraining-based methods) on two test scenarios (multi-choice QA and open-ended\nmulti-turn QA) by reorganizing existing datasets into a unified query-response\nsetting. We further introduce a response-level metric, Bias-Free Score, to\nmeasure the extent to which LLM responses are fair, safe, and\nanti-stereotypical. Debiasing performances are systematically compared and\nanalyzed across key dimensions: the prompting vs. training paradigm, model\nsize, and generalization of different training strategies to unseen bias types.\nWe will publicly release our benchmark, aiming to establish a unified testbed\nfor bias mitigation research.",
+      "upvotes": 2,
+      "discussionId": "68ddd96f6024653e8a3ed073",
+      "githubRepo": "https://github.com/xxupiano/BiasFreeBench",
+      "ai_summary": "BiasFreeBench evaluates bias mitigation techniques in large language models using a unified benchmark and response-level metric to ensure fair and safe outputs in real-world scenarios.",
+      "ai_keywords": [
+        "large language models",
+        "bias mitigation",
+        "BiasFreeBench",
+        "prompting-based methods",
+        "training-based methods",
+        "multi-choice QA",
+        "open-ended multi-turn QA",
+        "Bias-Free Score",
+        "model size",
+        "generalization"
+      ],
+      "githubStars": 0
+    },
+    "publishedAt": "2025-09-30T15:56:54.000Z",
+    "title": "BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model\n  Responses",
+    "summary": "Existing studies on bias mitigation methods for large language models (LLMs)\nuse diverse baselines and metrics to evaluate debiasing performance, leading to\ninconsistent comparisons among them. Moreover, their evaluations are mostly\nbased on the comparison between LLMs' probabilities of biased and unbiased\ncontexts, which ignores the gap between such evaluations and real-world use\ncases where users interact with LLMs by reading model responses and expect fair\nand safe outputs rather than LLMs' probabilities. To enable consistent\nevaluation across debiasing methods and bridge this gap, we introduce\nBiasFreeBench, an empirical benchmark that comprehensively compares eight\nmainstream bias mitigation techniques (covering four prompting-based and four\ntraining-based methods) on two test scenarios (multi-choice QA and open-ended\nmulti-turn QA) by reorganizing existing datasets into a unified query-response\nsetting. We further introduce a response-level metric, Bias-Free Score, to\nmeasure the extent to which LLM responses are fair, safe, and\nanti-stereotypical. Debiasing performances are systematically compared and\nanalyzed across key dimensions: the prompting vs. training paradigm, model\nsize, and generalization of different training strategies to unseen bias types.\nWe will publicly release our benchmark, aiming to establish a unified testbed\nfor bias mitigation research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00232.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6190ab805ca89a28e9f66873",
+      "avatarUrl": "/avatars/3c7ecc398fbf851acd2a132e947a92be.svg",
+      "fullname": "Xin Xu",
+      "name": "XinXuNLPer",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01051",
+      "authors": [
+        {
+          "_id": "68ddde806024653e8a3ed0a9",
+          "name": "Zichen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0aa",
+          "name": "Anya Sims",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0ab",
+          "name": "Keyu Duan",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0ac",
+          "name": "Changyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0ad",
+          "name": "Simon Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0ae",
+          "name": "Xiangxin Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0af",
+          "name": "Haotian Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b0",
+          "name": "Shaopan Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b1",
+          "name": "Bo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b2",
+          "name": "Chenmien Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b3",
+          "name": "Chuen Yang Beh",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b4",
+          "name": "Weixun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b5",
+          "name": "Hao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b6",
+          "name": "Weiyan Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b7",
+          "name": "Diyi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b8",
+          "name": "Michael Shieh",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0b9",
+          "name": "Yee Whye Teh",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0ba",
+          "name": "Wee Sun Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68ddde806024653e8a3ed0bb",
+          "name": "Min Lin",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T15:55:57.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:38:09.699Z",
+      "title": "GEM: A Gym for Agentic LLMs",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The training paradigm for large language models (LLMs) is moving from static\ndatasets to experience-based learning, where agents acquire skills via\ninteracting with complex environments. To facilitate this transition we\nintroduce GEM (General Experience Maker), an open-source environment simulator\ndesigned for the age of LLMs. Analogous to OpenAI-Gym for traditional\nreinforcement learning (RL), GEM provides a standardized framework for the\nenvironment-agent interface, including asynchronous vectorized execution for\nhigh throughput, and flexible wrappers for easy extensibility. GEM also\nfeatures a diverse suite of environments, robust integrated tools, and\nsingle-file example scripts demonstrating using GEM with five popular RL\ntraining frameworks. Along with this, we also provide a set of baselines across\n24 environments using REINFORCE with Return Batch Normalization (ReBN), which\n-- unlike GRPO -- is compatible with the full RL setting of dense per-turn\nrewards and offers better credit assignment. We further conduct apple-to-apple\nbenchmarking of PPO, GRPO and REINFORCE in both single- and multi-turn settings\nusing GEM to shed light on the algorithmic designs. Lastly, GEM also functions\nas a convenient evaluation toolkit besides a training environment. We hope this\nframework can help accelerate future agentic LLM research.",
+      "upvotes": 1,
+      "discussionId": "68ddde806024653e8a3ed0bc",
+      "githubRepo": "https://github.com/axon-rl/gem",
+      "ai_summary": "GEM, an open-source environment simulator, facilitates experience-based learning for large language models by providing a standardized framework and diverse environments for training and benchmarking reinforcement learning algorithms.",
+      "ai_keywords": [
+        "large language models",
+        "experience-based learning",
+        "GEM",
+        "environment simulator",
+        "OpenAI-Gym",
+        "asynchronous vectorized execution",
+        "flexible wrappers",
+        "REINFORCE",
+        "Return Batch Normalization",
+        "ReBN",
+        "GRPO",
+        "PPO",
+        "benchmarking",
+        "agentic LLM research"
+      ],
+      "githubStars": 133
+    },
+    "publishedAt": "2025-10-01T11:55:57.000Z",
+    "title": "GEM: A Gym for Agentic LLMs",
+    "summary": "The training paradigm for large language models (LLMs) is moving from static\ndatasets to experience-based learning, where agents acquire skills via\ninteracting with complex environments. To facilitate this transition we\nintroduce GEM (General Experience Maker), an open-source environment simulator\ndesigned for the age of LLMs. Analogous to OpenAI-Gym for traditional\nreinforcement learning (RL), GEM provides a standardized framework for the\nenvironment-agent interface, including asynchronous vectorized execution for\nhigh throughput, and flexible wrappers for easy extensibility. GEM also\nfeatures a diverse suite of environments, robust integrated tools, and\nsingle-file example scripts demonstrating using GEM with five popular RL\ntraining frameworks. Along with this, we also provide a set of baselines across\n24 environments using REINFORCE with Return Batch Normalization (ReBN), which\n-- unlike GRPO -- is compatible with the full RL setting of dense per-turn\nrewards and offers better credit assignment. We further conduct apple-to-apple\nbenchmarking of PPO, GRPO and REINFORCE in both single- and multi-turn settings\nusing GEM to shed light on the algorithmic designs. Lastly, GEM also functions\nas a convenient evaluation toolkit besides a training environment. We hope this\nframework can help accelerate future agentic LLM research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01051.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 115
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00777",
+      "authors": [
+        {
+          "_id": "68dddb2c6024653e8a3ed07a",
+          "name": "Youngbin Choi",
+          "hidden": false
+        },
+        {
+          "_id": "68dddb2c6024653e8a3ed07b",
+          "name": "Minjong Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68dddb2c6024653e8a3ed07c",
+          "name": "Saemi Moon",
+          "hidden": false
+        },
+        {
+          "_id": "68dddb2c6024653e8a3ed07d",
+          "name": "Seunghyuk Cho",
+          "hidden": false
+        },
+        {
+          "_id": "68dddb2c6024653e8a3ed07e",
+          "name": "Chaehyeon Chung",
+          "hidden": false
+        },
+        {
+          "_id": "68dddb2c6024653e8a3ed07f",
+          "name": "MoonJeong Park",
+          "hidden": false
+        },
+        {
+          "_id": "68dddb2c6024653e8a3ed080",
+          "name": "Dongwoo Kim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T11:16:04.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:24:22.727Z",
+      "title": "In-Place Feedback: A New Paradigm for Guiding LLMs in Multi-Turn\n  Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "650a4546a0f81fbc0a94ef1a",
+        "avatarUrl": "/avatars/4aed2b283e0c0e2567c14eb81adf809a.svg",
+        "isPro": false,
+        "fullname": "Minjong Lee",
+        "user": "Minjong",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) are increasingly studied in the context of\nmulti-turn reasoning, where models iteratively refine their outputs based on\nuser-provided feedback. Such settings are crucial for tasks that require\ncomplex reasoning, yet existing feedback paradigms often rely on issuing new\nmessages. LLMs struggle to integrate these reliably, leading to inconsistent\nimprovements. In this work, we introduce in-place feedback, a novel interaction\nparadigm in which users directly edit an LLM's previous response, and the model\nconditions on this modified response to generate its revision. Empirical\nevaluations on diverse reasoning-intensive benchmarks reveal that in-place\nfeedback achieves better performance than conventional multi-turn feedback\nwhile using 79.1% fewer tokens. Complementary analyses on controlled\nenvironments further demonstrate that in-place feedback resolves a core\nlimitation of multi-turn feedback: models often fail to apply feedback\nprecisely to erroneous parts of the response, leaving errors uncorrected and\nsometimes introducing new mistakes into previously correct content. These\nfindings suggest that in-place feedback offers a more natural and effective\nmechanism for guiding LLMs in reasoning-intensive tasks.",
+      "upvotes": 1,
+      "discussionId": "68dddb2c6024653e8a3ed081",
+      "ai_summary": "In-place feedback allows users to directly edit LLM responses, improving performance and reducing token usage in multi-turn reasoning tasks.",
+      "ai_keywords": [
+        "large language models",
+        "multi-turn reasoning",
+        "in-place feedback",
+        "feedback paradigms",
+        "token usage",
+        "reasoning-intensive benchmarks",
+        "controlled environments"
+      ]
+    },
+    "publishedAt": "2025-10-01T07:16:04.000Z",
+    "title": "In-Place Feedback: A New Paradigm for Guiding LLMs in Multi-Turn\n  Reasoning",
+    "summary": "Large language models (LLMs) are increasingly studied in the context of\nmulti-turn reasoning, where models iteratively refine their outputs based on\nuser-provided feedback. Such settings are crucial for tasks that require\ncomplex reasoning, yet existing feedback paradigms often rely on issuing new\nmessages. LLMs struggle to integrate these reliably, leading to inconsistent\nimprovements. In this work, we introduce in-place feedback, a novel interaction\nparadigm in which users directly edit an LLM's previous response, and the model\nconditions on this modified response to generate its revision. Empirical\nevaluations on diverse reasoning-intensive benchmarks reveal that in-place\nfeedback achieves better performance than conventional multi-turn feedback\nwhile using 79.1% fewer tokens. Complementary analyses on controlled\nenvironments further demonstrate that in-place feedback resolves a core\nlimitation of multi-turn feedback: models often fail to apply feedback\nprecisely to erroneous parts of the response, leaving errors uncorrected and\nsometimes introducing new mistakes into previously correct content. These\nfindings suggest that in-place feedback offers a more natural and effective\nmechanism for guiding LLMs in reasoning-intensive tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00777.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "650a4546a0f81fbc0a94ef1a",
+      "avatarUrl": "/avatars/4aed2b283e0c0e2567c14eb81adf809a.svg",
+      "fullname": "Minjong Lee",
+      "name": "Minjong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00553",
+      "authors": [
+        {
+          "_id": "68dddc7b6024653e8a3ed08a",
+          "name": "Yuchen Cai",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc7b6024653e8a3ed08b",
+          "name": "Ding Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc7b6024653e8a3ed08c",
+          "name": "Xin Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc7b6024653e8a3ed08d",
+          "name": "Zijun Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc7b6024653e8a3ed08e",
+          "name": "Yuqing Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc7b6024653e8a3ed08f",
+          "name": "Zhenyu Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc7b6024653e8a3ed090",
+          "name": "Benyi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc7b6024653e8a3ed091",
+          "name": "Guiquan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68dddc7b6024653e8a3ed092",
+          "name": "Junfeng Fang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T06:13:50.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:30:18.583Z",
+      "title": "On Predictability of Reinforcement Learning Dynamics for Large Language\n  Models",
+      "submittedOnDailyBy": {
+        "_id": "64e2d169d2af12910d682130",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e2d169d2af12910d682130/VG8UdqJCJGc0K4G0P0XQP.jpeg",
+        "isPro": false,
+        "fullname": "xuxin",
+        "user": "xx18",
+        "type": "user"
+      },
+      "summary": "Recent advances in reasoning capabilities of large language models (LLMs) are\nlargely driven by reinforcement learning (RL), yet the underlying parameter\ndynamics during RL training remain poorly understood. This work identifies two\nfundamental properties of RL-induced parameter updates in LLMs: (1) Rank-1\nDominance, where the top singular subspace of the parameter update matrix\nnearly fully determines reasoning improvements, recovering over 99\\% of\nperformance gains; and (2) Rank-1 Linear Dynamics, where this dominant subspace\nevolves linearly throughout training, enabling accurate prediction from early\ncheckpoints. Extensive experiments across 8 LLMs and 7 algorithms validate the\ngeneralizability of these properties. More importantly, based on these\nfindings, we propose AlphaRL, a plug-in acceleration framework that\nextrapolates the final parameter update using a short early training window,\nachieving up to 2.5 speedup while retaining \\textgreater 96\\% of reasoning\nperformance without extra modules or hyperparameter tuning. This positions our\nfinding as a versatile and practical tool for large-scale RL, opening a path\ntoward principled, interpretable, and efficient training paradigm for LLMs.",
+      "upvotes": 1,
+      "discussionId": "68dddc7b6024653e8a3ed093",
+      "ai_summary": "Two fundamental properties of reinforcement learning-induced parameter updates in large language models are identified, leading to a plug-in acceleration framework that significantly speeds up training without sacrificing performance.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "parameter updates",
+        "Rank-1 Dominance",
+        "singular subspace",
+        "Rank-1 Linear Dynamics",
+        "AlphaRL",
+        "large language models"
+      ]
+    },
+    "publishedAt": "2025-10-01T02:13:50.000Z",
+    "title": "On Predictability of Reinforcement Learning Dynamics for Large Language\n  Models",
+    "summary": "Recent advances in reasoning capabilities of large language models (LLMs) are\nlargely driven by reinforcement learning (RL), yet the underlying parameter\ndynamics during RL training remain poorly understood. This work identifies two\nfundamental properties of RL-induced parameter updates in LLMs: (1) Rank-1\nDominance, where the top singular subspace of the parameter update matrix\nnearly fully determines reasoning improvements, recovering over 99\\% of\nperformance gains; and (2) Rank-1 Linear Dynamics, where this dominant subspace\nevolves linearly throughout training, enabling accurate prediction from early\ncheckpoints. Extensive experiments across 8 LLMs and 7 algorithms validate the\ngeneralizability of these properties. More importantly, based on these\nfindings, we propose AlphaRL, a plug-in acceleration framework that\nextrapolates the final parameter update using a short early training window,\nachieving up to 2.5 speedup while retaining \\textgreater 96\\% of reasoning\nperformance without extra modules or hyperparameter tuning. This positions our\nfinding as a versatile and practical tool for large-scale RL, opening a path\ntoward principled, interpretable, and efficient training paradigm for LLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00553.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64e2d169d2af12910d682130",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e2d169d2af12910d682130/VG8UdqJCJGc0K4G0P0XQP.jpeg",
+      "fullname": "xuxin",
+      "name": "xx18",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00536",
+      "authors": [
+        {
+          "_id": "68ddddfc6024653e8a3ed0a2",
+          "name": "Kung-Hsiang Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68ddddfc6024653e8a3ed0a3",
+          "name": "Haoyi Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "68ddddfc6024653e8a3ed0a4",
+          "name": "Yutong Dai",
+          "hidden": false
+        },
+        {
+          "_id": "68ddddfc6024653e8a3ed0a5",
+          "name": "Caiming Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68ddddfc6024653e8a3ed0a6",
+          "name": "Chien-Sheng Wu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T05:37:54.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:35:56.555Z",
+      "title": "GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Graphical user interface (GUI) agents built on vision-language models have\nemerged as a promising approach to automate human-computer workflows. However,\nthey also face the inefficiency challenge as they process long sequences of\nhigh-resolution screenshots and solving long-horizon tasks, making inference\nslow, costly and memory-bound. While key-value (KV) caching can mitigate this,\nstoring the full cache is prohibitive for image-heavy contexts. Existing\ncache-compression methods are sub-optimal as they do not account for the\nspatial and temporal redundancy of GUIs. In this work, we first analyze\nattention patterns in GUI agent workloads and find that, unlike in natural\nimages, attention sparsity is uniformly high across all transformer layers.\nThis insight motivates a simple uniform budget allocation strategy, which we\nshow empirically outperforms more complex layer-varying schemes. Building on\nthis, we introduce GUI-KV, a plug-and-play KV cache compression method for GUI\nagents that requires no retraining. GUI-KV combines two novel techniques: (i)\nspatial saliency guidance, which augments attention scores with the L2 norm of\nhidden states to better preserve semantically important visual tokens, and (ii)\ntemporal redundancy scoring, which projects previous frames' keys onto the\ncurrent frame's key subspace to preferentially prune redundant history. Across\nstandard GUI agent benchmarks and models, GUI-KV outperforms competitive KV\ncompression baselines, closely matching full-cache accuracy at modest budgets.\nNotably, in a 5-screenshot setting on the AgentNetBench benchmark, GUI-KV\nreduces decoding FLOPs by 38.9% while increasing step accuracy by 4.1% over the\nfull-cache baseline. These results demonstrate that exploiting GUI-specific\nredundancies enables efficient and reliable agent performance.",
+      "upvotes": 1,
+      "discussionId": "68ddddfc6024653e8a3ed0a7",
+      "ai_summary": "GUI-KV, a KV cache compression method for GUI agents, improves efficiency by exploiting spatial and temporal redundancies, reducing computational cost while maintaining accuracy.",
+      "ai_keywords": [
+        "vision-language models",
+        "GUI agents",
+        "attention patterns",
+        "transformer layers",
+        "attention sparsity",
+        "KV cache compression",
+        "spatial saliency guidance",
+        "temporal redundancy scoring",
+        "AgentNetBench benchmark",
+        "decoding FLOPs",
+        "step accuracy"
+      ]
+    },
+    "publishedAt": "2025-10-01T01:37:54.000Z",
+    "title": "GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness",
+    "summary": "Graphical user interface (GUI) agents built on vision-language models have\nemerged as a promising approach to automate human-computer workflows. However,\nthey also face the inefficiency challenge as they process long sequences of\nhigh-resolution screenshots and solving long-horizon tasks, making inference\nslow, costly and memory-bound. While key-value (KV) caching can mitigate this,\nstoring the full cache is prohibitive for image-heavy contexts. Existing\ncache-compression methods are sub-optimal as they do not account for the\nspatial and temporal redundancy of GUIs. In this work, we first analyze\nattention patterns in GUI agent workloads and find that, unlike in natural\nimages, attention sparsity is uniformly high across all transformer layers.\nThis insight motivates a simple uniform budget allocation strategy, which we\nshow empirically outperforms more complex layer-varying schemes. Building on\nthis, we introduce GUI-KV, a plug-and-play KV cache compression method for GUI\nagents that requires no retraining. GUI-KV combines two novel techniques: (i)\nspatial saliency guidance, which augments attention scores with the L2 norm of\nhidden states to better preserve semantically important visual tokens, and (ii)\ntemporal redundancy scoring, which projects previous frames' keys onto the\ncurrent frame's key subspace to preferentially prune redundant history. Across\nstandard GUI agent benchmarks and models, GUI-KV outperforms competitive KV\ncompression baselines, closely matching full-cache accuracy at modest budgets.\nNotably, in a 5-screenshot setting on the AgentNetBench benchmark, GUI-KV\nreduces decoding FLOPs by 38.9% while increasing step accuracy by 4.1% over the\nfull-cache baseline. These results demonstrate that exploiting GUI-specific\nredundancies enables efficient and reliable agent performance.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00536.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 115
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00510",
+      "authors": [
+        {
+          "_id": "68dde0406024653e8a3ed0be",
+          "name": "Jiarun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0bf",
+          "name": "Shiyue Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c0",
+          "name": "Shangkun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c1",
+          "name": "Yang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c2",
+          "name": "Wen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c3",
+          "name": "Min Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c4",
+          "name": "Xiaoqing Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c5",
+          "name": "Hanmin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c6",
+          "name": "Shilin Jia",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c7",
+          "name": "zhen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c8",
+          "name": "Shaohua Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0c9",
+          "name": "Hanhao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0ca",
+          "name": "Junbo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0cb",
+          "name": "Yongli Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0cc",
+          "name": "Peng Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68dde0406024653e8a3ed0cd",
+          "name": "Haofen Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T04:41:58.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:45:45.437Z",
+      "title": "JoyAgent-JDGenie: Technical Report on the GAIA",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Large Language Models are increasingly deployed as autonomous agents for\ncomplex real-world tasks, yet existing systems often focus on isolated\nimprovements without a unifying design for robustness and adaptability. We\npropose a generalist agent architecture that integrates three core components:\na collective multi-agent framework combining planning and execution agents with\ncritic model voting, a hierarchical memory system spanning working, semantic,\nand procedural layers, and a refined tool suite for search, code execution, and\nmultimodal parsing. Evaluated on a comprehensive benchmark, our framework\nconsistently outperforms open-source baselines and approaches the performance\nof proprietary systems. These results demonstrate the importance of\nsystem-level integration and highlight a path toward scalable, resilient, and\nadaptive AI assistants capable of operating across diverse domains and tasks.",
+      "upvotes": 1,
+      "discussionId": "68dde0406024653e8a3ed0ce",
+      "githubRepo": "https://github.com/jd-opensource/joyagent-jdgenie",
+      "ai_summary": "A generalist agent architecture combining multi-agent planning, hierarchical memory, and a refined tool suite outperforms existing systems in diverse tasks.",
+      "ai_keywords": [
+        "multi-agent framework",
+        "planning agents",
+        "execution agents",
+        "critic model voting",
+        "hierarchical memory system",
+        "working memory",
+        "semantic memory",
+        "procedural memory",
+        "tool suite",
+        "search",
+        "code execution",
+        "multimodal parsing"
+      ]
+    },
+    "publishedAt": "2025-10-01T00:41:58.000Z",
+    "title": "JoyAgent-JDGenie: Technical Report on the GAIA",
+    "summary": "Large Language Models are increasingly deployed as autonomous agents for\ncomplex real-world tasks, yet existing systems often focus on isolated\nimprovements without a unifying design for robustness and adaptability. We\npropose a generalist agent architecture that integrates three core components:\na collective multi-agent framework combining planning and execution agents with\ncritic model voting, a hierarchical memory system spanning working, semantic,\nand procedural layers, and a refined tool suite for search, code execution, and\nmultimodal parsing. Evaluated on a comprehensive benchmark, our framework\nconsistently outperforms open-source baselines and approaches the performance\nof proprietary systems. These results demonstrate the importance of\nsystem-level integration and highlight a path toward scalable, resilient, and\nadaptive AI assistants capable of operating across diverse domains and tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00510.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 115
+    },
+    "submitterOrganization": {
+      "_id": "682a97a154b087448a5504ee",
+      "name": "jingdong1",
+      "fullname": "jingdong",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/682a966182dc4fc3e373e3ed/9xUgXZCij6qGJpLqpR99M.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00406",
+      "authors": [
+        {
+          "_id": "68dddcb66024653e8a3ed095",
+          "name": "Hengtao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed096",
+          "name": "Pengxiang Ding",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed097",
+          "name": "Runze Suo",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed098",
+          "name": "Yihao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed099",
+          "name": "Zirui Ge",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed09a",
+          "name": "Dongyuan Zang",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed09b",
+          "name": "Kexian Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed09c",
+          "name": "Mingyang Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed09d",
+          "name": "Hongyin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed09e",
+          "name": "Donglin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68dddcb66024653e8a3ed09f",
+          "name": "Weihua Su",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T01:33:10.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:30:41.593Z",
+      "title": "VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified\n  Rewards in World Simulators",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Vision-Language-Action (VLA) models enable embodied decision-making but rely\nheavily on imitation learning, leading to compounding errors and poor\nrobustness under distribution shift. Reinforcement learning (RL) can mitigate\nthese issues yet typically demands costly real-world interactions or suffers\nfrom sim-to-real gaps. We introduce VLA-RFT, a reinforcement fine-tuning\nframework that leverages a data-driven world model as a controllable simulator.\nTrained from real interaction data, the simulator predicts future visual\nobservations conditioned on actions, allowing policy rollouts with dense,\ntrajectory-level rewards derived from goal-achieving references. This design\ndelivers an efficient and action-aligned learning signal, drastically lowering\nsample requirements. With fewer than 400 fine-tuning steps, VLA-RFT surpasses\nstrong supervised baselines and achieves greater efficiency than\nsimulator-based RL. Moreover, it exhibits strong robustness under perturbed\nconditions, sustaining stable task execution. Our results establish\nworld-model-based RFT as a practical post-training paradigm to enhance the\ngeneralization and robustness of VLA models. For more details, please refer to\nhttps://vla-rft.github.io/.",
+      "upvotes": 1,
+      "discussionId": "68dddcb66024653e8a3ed0a0",
+      "projectPage": "https://vla-rft.github.io/",
+      "githubRepo": "https://github.com/OpenHelix-Team/VLA-RFT",
+      "ai_summary": "VLA-RFT uses a data-driven world model to fine-tune VLA models efficiently, reducing sample requirements and improving robustness under perturbations.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "imitation learning",
+        "distribution shift",
+        "world model",
+        "policy rollouts",
+        "trajectory-level rewards",
+        "goal-achieving references",
+        "sample requirements",
+        "generalization",
+        "robustness"
+      ],
+      "githubStars": 6
+    },
+    "publishedAt": "2025-09-30T21:33:10.000Z",
+    "title": "VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified\n  Rewards in World Simulators",
+    "summary": "Vision-Language-Action (VLA) models enable embodied decision-making but rely\nheavily on imitation learning, leading to compounding errors and poor\nrobustness under distribution shift. Reinforcement learning (RL) can mitigate\nthese issues yet typically demands costly real-world interactions or suffers\nfrom sim-to-real gaps. We introduce VLA-RFT, a reinforcement fine-tuning\nframework that leverages a data-driven world model as a controllable simulator.\nTrained from real interaction data, the simulator predicts future visual\nobservations conditioned on actions, allowing policy rollouts with dense,\ntrajectory-level rewards derived from goal-achieving references. This design\ndelivers an efficient and action-aligned learning signal, drastically lowering\nsample requirements. With fewer than 400 fine-tuning steps, VLA-RFT surpasses\nstrong supervised baselines and achieves greater efficiency than\nsimulator-based RL. Moreover, it exhibits strong robustness under perturbed\nconditions, sustaining stable task execution. Our results establish\nworld-model-based RFT as a practical post-training paradigm to enhance the\ngeneralization and robustness of VLA models. For more details, please refer to\nhttps://vla-rft.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00406.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 115
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.23250",
+      "authors": [
+        {
+          "_id": "68db7e0ad2bf1f4b15ec77ae",
+          "name": "Brandon Ong",
+          "hidden": false
+        },
+        {
+          "_id": "68db7e0ad2bf1f4b15ec77af",
+          "name": "Tej Deep Pala",
+          "hidden": false
+        },
+        {
+          "_id": "68db7e0ad2bf1f4b15ec77b0",
+          "name": "Vernon Toh",
+          "hidden": false
+        },
+        {
+          "_id": "68db7e0ad2bf1f4b15ec77b1",
+          "name": "William Chandra Tjhi",
+          "hidden": false
+        },
+        {
+          "_id": "68db7e0ad2bf1f4b15ec77b2",
+          "name": "Soujanya Poria",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-27T10:56:58.000Z",
+      "submittedOnDailyAt": "2025-10-02T00:29:03.356Z",
+      "title": "Training Vision-Language Process Reward Models for Test-Time Scaling in\n  Multimodal Reasoning: Key Insights and Lessons Learned",
+      "submittedOnDailyBy": {
+        "_id": "626b626405fe1cb65725aca1",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/626b626405fe1cb65725aca1/ZVSbhynzpQhVGq9kGywW6.png",
+        "isPro": false,
+        "fullname": "Soujanya Poria",
+        "user": "soujanyaporia",
+        "type": "user"
+      },
+      "summary": "Process Reward Models (PRMs) provide step-level supervision that improves the\nreliability of reasoning in large language models. While PRMs have been\nextensively studied in text-based domains, their extension to Vision Language\nModels (VLMs) remains limited. Existing Vision-Language PRMs (VL-PRMs) rely on\nMonte Carlo Tree Search (MCTS) for data construction, which can often produce\nnoisy supervision signals and limit generalization across tasks. In this work,\nwe aim to elucidate the design space of VL-PRMs by exploring diverse strategies\nfor dataset construction, training, and test-time scaling. First, we introduce\na hybrid data synthesis framework that combines MCTS with judgments from a\nstrong VLM, producing more accurate step-level labels. Second, we propose\nperception-focused supervision, enabling our PRM to explicitly detect errors at\nthe visual grounding stage of reasoning. Third, we systematically evaluate\nmultiple test-time scaling strategies, showing that our PRMs can reliably guide\nVLMs toward more accurate solutions. Our experiments covering five diverse\nmultimodal benchmarks (MMMU, PuzzleVQA, AlgoPuzzleVQA, MathVista, and\nMathVision) reveal several key insights: (i) VL-PRMs when used as Outcome\nReward Models (ORMs) during test-time scaling (TTS) can outperform VL-PRM\nguided process step selection, (ii) smaller VL-PRMs can match or even surpass\nlarger ones in detecting process errors, (iii) VL-PRMs uncover latent reasoning\nabilities in stronger VLM backbones, (iv) perception-level supervision leads to\nsignificant gains in test-time scaling, and (v) TTS performance of different\npolicies improve on advanced math reasoning datasets despite not training\nVL-PRMs on such datasets. We hope our work will motivate further research and\nsupport the advancement of VLMs.",
+      "upvotes": 1,
+      "discussionId": "68db7e0ad2bf1f4b15ec77b3",
+      "githubRepo": "https://github.com/theogbrand/vlprm",
+      "ai_summary": "Hybrid data synthesis and perception-focused supervision improve the reliability of Vision-Language Process Reward Models (VL-PRMs) in guiding VLMs across diverse multimodal benchmarks.",
+      "ai_keywords": [
+        "Process Reward Models",
+        "Vision Language Models",
+        "Monte Carlo Tree Search",
+        "hybrid data synthesis",
+        "perception-focused supervision",
+        "Outcome Reward Models",
+        "test-time scaling",
+        "multimodal benchmarks",
+        "visual grounding",
+        "process errors",
+        "latent reasoning abilities"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2025-09-27T06:56:58.000Z",
+    "title": "Training Vision-Language Process Reward Models for Test-Time Scaling in\n  Multimodal Reasoning: Key Insights and Lessons Learned",
+    "summary": "Process Reward Models (PRMs) provide step-level supervision that improves the\nreliability of reasoning in large language models. While PRMs have been\nextensively studied in text-based domains, their extension to Vision Language\nModels (VLMs) remains limited. Existing Vision-Language PRMs (VL-PRMs) rely on\nMonte Carlo Tree Search (MCTS) for data construction, which can often produce\nnoisy supervision signals and limit generalization across tasks. In this work,\nwe aim to elucidate the design space of VL-PRMs by exploring diverse strategies\nfor dataset construction, training, and test-time scaling. First, we introduce\na hybrid data synthesis framework that combines MCTS with judgments from a\nstrong VLM, producing more accurate step-level labels. Second, we propose\nperception-focused supervision, enabling our PRM to explicitly detect errors at\nthe visual grounding stage of reasoning. Third, we systematically evaluate\nmultiple test-time scaling strategies, showing that our PRMs can reliably guide\nVLMs toward more accurate solutions. Our experiments covering five diverse\nmultimodal benchmarks (MMMU, PuzzleVQA, AlgoPuzzleVQA, MathVista, and\nMathVision) reveal several key insights: (i) VL-PRMs when used as Outcome\nReward Models (ORMs) during test-time scaling (TTS) can outperform VL-PRM\nguided process step selection, (ii) smaller VL-PRMs can match or even surpass\nlarger ones in detecting process errors, (iii) VL-PRMs uncover latent reasoning\nabilities in stronger VLM backbones, (iv) perception-level supervision leads to\nsignificant gains in test-time scaling, and (v) TTS performance of different\npolicies improve on advanced math reasoning datasets despite not training\nVL-PRMs on such datasets. We hope our work will motivate further research and\nsupport the advancement of VLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.23250.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "626b626405fe1cb65725aca1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/626b626405fe1cb65725aca1/ZVSbhynzpQhVGq9kGywW6.png",
+      "fullname": "Soujanya Poria",
+      "name": "soujanyaporia",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "submitterOrganization": {
+      "_id": "626ab9dac804c432c1b27a48",
+      "name": "declare-lab",
+      "fullname": "Deep Cognition and Language Research (DeCLaRe) Lab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/626b626405fe1cb65725aca1/grq3rj2uj0WRjjPjAtR1I.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
