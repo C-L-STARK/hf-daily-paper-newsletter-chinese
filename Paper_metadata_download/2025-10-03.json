@@ -1,0 +1,1936 @@
+[
+  {
+    "paper": {
+      "id": "2510.00446",
+      "authors": [
+        {
+          "_id": "68ddef306024653e8a3ed0e9",
+          "user": {
+            "_id": "645b0c3ec35da9c7afd95421",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+            "isPro": false,
+            "fullname": "Yuling",
+            "user": "YerbaPage",
+            "type": "user"
+          },
+          "name": "Yuling Shi",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-02T13:55:10.013Z",
+          "hidden": false
+        },
+        {
+          "_id": "68ddef306024653e8a3ed0ea",
+          "name": "Yichun Qian",
+          "hidden": false
+        },
+        {
+          "_id": "68ddef306024653e8a3ed0eb",
+          "name": "Hongyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68ddef306024653e8a3ed0ec",
+          "name": "Beijun Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68ddef306024653e8a3ed0ed",
+          "name": "Xiaodong Gu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T02:54:57.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:37:13.283Z",
+      "title": "LongCodeZip: Compress Long Context for Code Language Models",
+      "submittedOnDailyBy": {
+        "_id": "645b0c3ec35da9c7afd95421",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+        "isPro": false,
+        "fullname": "Yuling",
+        "user": "YerbaPage",
+        "type": "user"
+      },
+      "summary": "Code generation under long contexts is becoming increasingly critical as\nLarge Language Models (LLMs) are required to reason over extensive information\nin the codebase. While recent advances enable code LLMs to process long inputs,\nhigh API costs and generation latency remain substantial bottlenecks. Existing\ncontext pruning techniques, such as LLMLingua, achieve promising results for\ngeneral text but overlook code-specific structures and dependencies, leading to\nsuboptimal performance in programming tasks. In this paper, we propose\nLongCodeZip, a novel plug-and-play code compression framework designed\nspecifically for code LLMs. LongCodeZip employs a dual-stage strategy: (1)\ncoarse-grained compression, which identifies and ranks function-level chunks\nusing conditional perplexity with respect to the instruction, retaining only\nthe most relevant functions; and (2) fine-grained compression, which segments\nretained functions into blocks based on perplexity and selects an optimal\nsubset under an adaptive token budget to maximize relevance. Evaluations across\nmultiple tasks, including code completion, summarization, and question\nanswering, show that LongCodeZip consistently outperforms baseline methods,\nachieving up to a 5.6x compression ratio without degrading task performance. By\neffectively reducing context size while preserving essential information,\nLongCodeZip enables LLMs to better scale to real-world, large-scale code\nscenarios, advancing the efficiency and capability of code intelligence\napplications.",
+      "upvotes": 27,
+      "discussionId": "68ddef316024653e8a3ed0ee",
+      "githubRepo": "https://github.com/YerbaPage/LongCodeZip",
+      "ai_summary": "LongCodeZip is a code compression framework for LLMs that uses dual-stage compression to reduce context size without degrading performance, improving efficiency in code intelligence applications.",
+      "ai_keywords": [
+        "Large Language Models",
+        "code LLMs",
+        "context pruning",
+        "LLMLingua",
+        "conditional perplexity",
+        "function-level chunks",
+        "fine-grained compression",
+        "token budget",
+        "code completion",
+        "code summarization",
+        "question answering",
+        "code intelligence applications"
+      ],
+      "githubStars": 13,
+      "organization": {
+        "_id": "6724d0b84c0a2bf36e39a226",
+        "name": "Stanford-University",
+        "fullname": "Stanford University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6724cfba409a4f96ce1d773b/BjPcf9AfmEU3WeSVb33s8.png"
+      }
+    },
+    "publishedAt": "2025-09-30T22:54:57.000Z",
+    "title": "LongCodeZip: Compress Long Context for Code Language Models",
+    "summary": "Code generation under long contexts is becoming increasingly critical as\nLarge Language Models (LLMs) are required to reason over extensive information\nin the codebase. While recent advances enable code LLMs to process long inputs,\nhigh API costs and generation latency remain substantial bottlenecks. Existing\ncontext pruning techniques, such as LLMLingua, achieve promising results for\ngeneral text but overlook code-specific structures and dependencies, leading to\nsuboptimal performance in programming tasks. In this paper, we propose\nLongCodeZip, a novel plug-and-play code compression framework designed\nspecifically for code LLMs. LongCodeZip employs a dual-stage strategy: (1)\ncoarse-grained compression, which identifies and ranks function-level chunks\nusing conditional perplexity with respect to the instruction, retaining only\nthe most relevant functions; and (2) fine-grained compression, which segments\nretained functions into blocks based on perplexity and selects an optimal\nsubset under an adaptive token budget to maximize relevance. Evaluations across\nmultiple tasks, including code completion, summarization, and question\nanswering, show that LongCodeZip consistently outperforms baseline methods,\nachieving up to a 5.6x compression ratio without degrading task performance. By\neffectively reducing context size while preserving essential information,\nLongCodeZip enables LLMs to better scale to real-world, large-scale code\nscenarios, advancing the efficiency and capability of code intelligence\napplications.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00446.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645b0c3ec35da9c7afd95421",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+      "fullname": "Yuling",
+      "name": "YerbaPage",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 245
+    },
+    "organization": {
+      "_id": "6724d0b84c0a2bf36e39a226",
+      "name": "Stanford-University",
+      "fullname": "Stanford University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6724cfba409a4f96ce1d773b/BjPcf9AfmEU3WeSVb33s8.png"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2510.02297",
+      "authors": [
+        {
+          "_id": "68df29e3df49fb0df1e03bca",
+          "name": "Wentao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68df29e3df49fb0df1e03bcb",
+          "name": "Yang Young Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68df29e3df49fb0df1e03bcc",
+          "name": "Yuntian Deng",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/eATqBkbxrVSqsBzcMJ__-.png"
+      ],
+      "publishedAt": "2025-10-02T17:59:00.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:14:16.738Z",
+      "title": "Interactive Training: Feedback-Driven Neural Network Optimization",
+      "submittedOnDailyBy": {
+        "_id": "63081e15a670ed10f9d44229",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63081e15a670ed10f9d44229/w1b9uq-9774bMMgJbSPsS.jpeg",
+        "isPro": true,
+        "fullname": "Yuntian Deng",
+        "user": "yuntian-deng",
+        "type": "user"
+      },
+      "summary": "Traditional neural network training typically follows fixed, predefined\noptimization recipes, lacking the flexibility to dynamically respond to\ninstabilities or emerging training issues. In this paper, we introduce\nInteractive Training, an open-source framework that enables real-time,\nfeedback-driven intervention during neural network training by human experts or\nautomated AI agents. At its core, Interactive Training uses a control server to\nmediate communication between users or agents and the ongoing training process,\nallowing users to dynamically adjust optimizer hyperparameters, training data,\nand model checkpoints. Through three case studies, we demonstrate that\nInteractive Training achieves superior training stability, reduced sensitivity\nto initial hyperparameters, and improved adaptability to evolving user needs,\npaving the way toward a future training paradigm where AI agents autonomously\nmonitor training logs, proactively resolve instabilities, and optimize training\ndynamics.",
+      "upvotes": 10,
+      "discussionId": "68df29e3df49fb0df1e03bcd",
+      "projectPage": "https://interactivetraining.ai/",
+      "githubRepo": "https://github.com/yuntian-group/interactive-training",
+      "ai_summary": "Interactive Training is a framework that allows real-time, feedback-driven intervention during neural network training, improving stability and adaptability.",
+      "ai_keywords": [
+        "Interactive Training",
+        "control server",
+        "optimizer hyperparameters",
+        "training data",
+        "model checkpoints",
+        "training stability",
+        "sensitivity to initial hyperparameters",
+        "adaptability",
+        "AI agents",
+        "training logs",
+        "training dynamics"
+      ],
+      "githubStars": 5,
+      "organization": {
+        "_id": "66e4ffb6caa240e5c2fa39e9",
+        "name": "yuntian-group",
+        "fullname": "Yuntian Group",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/6xB3f3moklDS6qrZAit3I.png"
+      }
+    },
+    "publishedAt": "2025-10-02T13:59:00.000Z",
+    "title": "Interactive Training: Feedback-Driven Neural Network Optimization",
+    "summary": "Traditional neural network training typically follows fixed, predefined\noptimization recipes, lacking the flexibility to dynamically respond to\ninstabilities or emerging training issues. In this paper, we introduce\nInteractive Training, an open-source framework that enables real-time,\nfeedback-driven intervention during neural network training by human experts or\nautomated AI agents. At its core, Interactive Training uses a control server to\nmediate communication between users or agents and the ongoing training process,\nallowing users to dynamically adjust optimizer hyperparameters, training data,\nand model checkpoints. Through three case studies, we demonstrate that\nInteractive Training achieves superior training stability, reduced sensitivity\nto initial hyperparameters, and improved adaptability to evolving user needs,\npaving the way toward a future training paradigm where AI agents autonomously\nmonitor training logs, proactively resolve instabilities, and optimize training\ndynamics.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/eATqBkbxrVSqsBzcMJ__-.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02297.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "63081e15a670ed10f9d44229",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63081e15a670ed10f9d44229/w1b9uq-9774bMMgJbSPsS.jpeg",
+      "fullname": "Yuntian Deng",
+      "name": "yuntian-deng",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 258
+    },
+    "organization": {
+      "_id": "66e4ffb6caa240e5c2fa39e9",
+      "name": "yuntian-group",
+      "fullname": "Yuntian Group",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/6xB3f3moklDS6qrZAit3I.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01591",
+      "authors": [
+        {
+          "_id": "68df27e9df49fb0df1e03bb7",
+          "name": "Zhenwen Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68df27e9df49fb0df1e03bb8",
+          "name": "Ruosen Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df27e9df49fb0df1e03bb9",
+          "name": "Yujun Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68df27e9df49fb0df1e03bba",
+          "name": "Linfeng Song",
+          "hidden": false
+        },
+        {
+          "_id": "68df27e9df49fb0df1e03bbb",
+          "name": "Dian Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68df27e9df49fb0df1e03bbc",
+          "name": "Xinya Du",
+          "hidden": false
+        },
+        {
+          "_id": "68df27e9df49fb0df1e03bbd",
+          "name": "Haitao Mi",
+          "hidden": false
+        },
+        {
+          "_id": "68df27e9df49fb0df1e03bbe",
+          "name": "Dong Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T02:14:33.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:04:05.892Z",
+      "title": "CLUE: Non-parametric Verification from Experience via Hidden-State\n  Clustering",
+      "submittedOnDailyBy": {
+        "_id": "62ffa3f8311cad266f9af236",
+        "avatarUrl": "/avatars/203dac40bc546ee25a01d8715a4b3049.svg",
+        "isPro": false,
+        "fullname": "Zhenwen Liang",
+        "user": "invokerliang",
+        "type": "user"
+      },
+      "summary": "Assessing the quality of Large Language Model (LLM) outputs presents a\ncritical challenge. Previous methods either rely on text-level information\n(e.g., reward models, majority voting), which can overfit to superficial cues,\nor on calibrated confidence from token probabilities, which would fail on\nless-calibrated models. Yet both of these signals are, in fact, partial\nprojections of a richer source of information: the model's internal hidden\nstates. Early layers, closer to token embeddings, preserve semantic and lexical\nfeatures that underpin text-based judgments, while later layers increasingly\nalign with output logits, embedding confidence-related information. This paper\nexplores hidden states directly as a unified foundation for verification. We\nshow that the correctness of a solution is encoded as a geometrically separable\nsignature within the trajectory of hidden activations. To validate this, we\npresent Clue (Clustering and Experience-based Verification), a deliberately\nminimalist, non-parametric verifier. With no trainable parameters, CLUE only\nsummarizes each reasoning trace by an hidden state delta and classifies\ncorrectness via nearest-centroid distance to ``success'' and ``failure''\nclusters formed from past experience. The simplicity of this method highlights\nthe strength of the underlying signal. Empirically, CLUE consistently\noutperforms LLM-as-a-judge baselines and matches or exceeds modern\nconfidence-based methods in reranking candidates, improving both top-1 and\nmajority-vote accuracy across AIME 24/25 and GPQA. As a highlight, on AIME 24\nwith a 1.5B model, CLUE boosts accuracy from 56.7% (majority@64) to 70.0%\n(top-maj@16).",
+      "upvotes": 10,
+      "discussionId": "68df27e9df49fb0df1e03bbf",
+      "ai_summary": "Hidden states in Large Language Models encode correctness as a separable signature, enabling a minimalist verifier (CLUE) to outperform text-level and confidence-based methods in reranking and accuracy.",
+      "ai_keywords": [
+        "Large Language Model",
+        "hidden states",
+        "token embeddings",
+        "semantic features",
+        "lexical features",
+        "output logits",
+        "confidence-related information",
+        "Clue",
+        "Clustering and Experience-based Verification",
+        "nearest-centroid distance",
+        "AIME",
+        "GPQA"
+      ]
+    },
+    "publishedAt": "2025-10-01T22:14:33.000Z",
+    "title": "CLUE: Non-parametric Verification from Experience via Hidden-State\n  Clustering",
+    "summary": "Assessing the quality of Large Language Model (LLM) outputs presents a\ncritical challenge. Previous methods either rely on text-level information\n(e.g., reward models, majority voting), which can overfit to superficial cues,\nor on calibrated confidence from token probabilities, which would fail on\nless-calibrated models. Yet both of these signals are, in fact, partial\nprojections of a richer source of information: the model's internal hidden\nstates. Early layers, closer to token embeddings, preserve semantic and lexical\nfeatures that underpin text-based judgments, while later layers increasingly\nalign with output logits, embedding confidence-related information. This paper\nexplores hidden states directly as a unified foundation for verification. We\nshow that the correctness of a solution is encoded as a geometrically separable\nsignature within the trajectory of hidden activations. To validate this, we\npresent Clue (Clustering and Experience-based Verification), a deliberately\nminimalist, non-parametric verifier. With no trainable parameters, CLUE only\nsummarizes each reasoning trace by an hidden state delta and classifies\ncorrectness via nearest-centroid distance to ``success'' and ``failure''\nclusters formed from past experience. The simplicity of this method highlights\nthe strength of the underlying signal. Empirically, CLUE consistently\noutperforms LLM-as-a-judge baselines and matches or exceeds modern\nconfidence-based methods in reranking candidates, improving both top-1 and\nmajority-vote accuracy across AIME 24/25 and GPQA. As a highlight, on AIME 24\nwith a 1.5B model, CLUE boosts accuracy from 56.7% (majority@64) to 70.0%\n(top-maj@16).",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01591.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "62ffa3f8311cad266f9af236",
+      "avatarUrl": "/avatars/203dac40bc546ee25a01d8715a4b3049.svg",
+      "fullname": "Zhenwen Liang",
+      "name": "invokerliang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01444",
+      "authors": [
+        {
+          "_id": "68df2e3edf49fb0df1e03c19",
+          "name": "Rui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c1a",
+          "name": "Dian Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c1b",
+          "name": "Tong Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c1c",
+          "name": "Runpeng Dai",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c1d",
+          "name": "Zongxia Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c1e",
+          "name": "Wenhao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c1f",
+          "name": "Zhenwen Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c20",
+          "name": "Linfeng Song",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c21",
+          "name": "Haitao Mi",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c22",
+          "name": "Pratap Tokekar",
+          "hidden": false
+        },
+        {
+          "_id": "68df2e3edf49fb0df1e03c23",
+          "name": "Dong Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T20:32:08.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:33:45.725Z",
+      "title": "VOGUE: Guiding Exploration with Visual Uncertainty Improves Multimodal\n  Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6656bf615b203a05a1f0968c",
+        "avatarUrl": "/avatars/1ee0b0099c10dd76c8e3b7d312221b15.svg",
+        "isPro": false,
+        "fullname": "Rui Liu",
+        "user": "lr10260",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) improves reasoning in\nlarge language models (LLMs) but struggles with exploration, an issue that\nstill persists for multimodal LLMs (MLLMs). Current methods treat the visual\ninput as a fixed, deterministic condition, overlooking a critical source of\nambiguity and struggling to build policies robust to plausible visual\nvariations. We introduce VOGUE (Visual Uncertainty Guided\nExploration), a novel method that shifts exploration from the output (text)\nto the input (visual) space. By treating the image as a stochastic context,\nVOGUE quantifies the policy's sensitivity to visual perturbations using the\nsymmetric KL divergence between a \"raw\" and \"noisy\" branch, creating a direct\nsignal for uncertainty-aware exploration. This signal shapes the learning\nobjective via an uncertainty-proportional bonus, which, combined with a\ntoken-entropy bonus and an annealed sampling schedule, effectively balances\nexploration and exploitation. Implemented within GRPO on two model scales\n(Qwen2.5-VL-3B/7B), VOGUE boosts pass@1 accuracy by an average of 2.6% on three\nvisual math benchmarks and 3.7% on three general-domain reasoning benchmarks,\nwhile simultaneously increasing pass@4 performance and mitigating the\nexploration decay commonly observed in RL fine-tuning. Our work shows that\ngrounding exploration in the inherent uncertainty of visual inputs is an\neffective strategy for improving multimodal reasoning.",
+      "upvotes": 7,
+      "discussionId": "68df2e3edf49fb0df1e03c24",
+      "ai_summary": "VOGUE, a method that shifts exploration to the visual input space by quantifying policy sensitivity to visual perturbations, enhances multimodal reasoning in large language models.",
+      "ai_keywords": [
+        "reinforcement learning with verifiable rewards",
+        "multimodal LLMs",
+        "visual uncertainty",
+        "stochastic context",
+        "symmetric KL divergence",
+        "uncertainty-aware exploration",
+        "token-entropy bonus",
+        "annealed sampling schedule",
+        "GRPO",
+        "pass@1 accuracy",
+        "pass@4 performance",
+        "exploration decay"
+      ],
+      "organization": {
+        "_id": "66543b6e420092799d2f625c",
+        "name": "tencent",
+        "fullname": "Tencent",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+      }
+    },
+    "publishedAt": "2025-10-01T16:32:08.000Z",
+    "title": "VOGUE: Guiding Exploration with Visual Uncertainty Improves Multimodal\n  Reasoning",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) improves reasoning in\nlarge language models (LLMs) but struggles with exploration, an issue that\nstill persists for multimodal LLMs (MLLMs). Current methods treat the visual\ninput as a fixed, deterministic condition, overlooking a critical source of\nambiguity and struggling to build policies robust to plausible visual\nvariations. We introduce VOGUE (Visual Uncertainty Guided\nExploration), a novel method that shifts exploration from the output (text)\nto the input (visual) space. By treating the image as a stochastic context,\nVOGUE quantifies the policy's sensitivity to visual perturbations using the\nsymmetric KL divergence between a \"raw\" and \"noisy\" branch, creating a direct\nsignal for uncertainty-aware exploration. This signal shapes the learning\nobjective via an uncertainty-proportional bonus, which, combined with a\ntoken-entropy bonus and an annealed sampling schedule, effectively balances\nexploration and exploitation. Implemented within GRPO on two model scales\n(Qwen2.5-VL-3B/7B), VOGUE boosts pass@1 accuracy by an average of 2.6% on three\nvisual math benchmarks and 3.7% on three general-domain reasoning benchmarks,\nwhile simultaneously increasing pass@4 performance and mitigating the\nexploration decay commonly observed in RL fine-tuning. Our work shows that\ngrounding exploration in the inherent uncertainty of visual inputs is an\neffective strategy for improving multimodal reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01444.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6656bf615b203a05a1f0968c",
+      "avatarUrl": "/avatars/1ee0b0099c10dd76c8e3b7d312221b15.svg",
+      "fullname": "Rui Liu",
+      "name": "lr10260",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "organization": {
+      "_id": "66543b6e420092799d2f625c",
+      "name": "tencent",
+      "fullname": "Tencent",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.02253",
+      "authors": [
+        {
+          "_id": "68df2c09df49fb0df1e03bf4",
+          "name": "Zihan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68df2c09df49fb0df1e03bf5",
+          "name": "Shilin Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2c09df49fb0df1e03bf6",
+          "name": "Shuli Leng",
+          "hidden": false
+        },
+        {
+          "_id": "68df2c09df49fb0df1e03bf7",
+          "name": "Shaocong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2c09df49fb0df1e03bf8",
+          "name": "Zhuming Lian",
+          "hidden": false
+        },
+        {
+          "_id": "68df2c09df49fb0df1e03bf9",
+          "name": "Xinlei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2c09df49fb0df1e03bfa",
+          "name": "Adams Wai-Kin Kong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T17:39:13.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:22:00.581Z",
+      "title": "DragFlow: Unleashing DiT Priors with Region Based Supervision for Drag\n  Editing",
+      "submittedOnDailyBy": {
+        "_id": "631c4a23aa346997917bcb89",
+        "avatarUrl": "/avatars/4a562ba78e6be289049027c27798cc6e.svg",
+        "isPro": false,
+        "fullname": "Shilin Lu",
+        "user": "Shilin-LU",
+        "type": "user"
+      },
+      "summary": "Drag-based image editing has long suffered from distortions in the target\nregion, largely because the priors of earlier base models, Stable Diffusion,\nare insufficient to project optimized latents back onto the natural image\nmanifold. With the shift from UNet-based DDPMs to more scalable DiT with flow\nmatching (e.g., SD3.5, FLUX), generative priors have become significantly\nstronger, enabling advances across diverse editing tasks. However, drag-based\nediting has yet to benefit from these stronger priors. This work proposes the\nfirst framework to effectively harness FLUX's rich prior for drag-based\nediting, dubbed DragFlow, achieving substantial gains over baselines. We first\nshow that directly applying point-based drag editing to DiTs performs poorly:\nunlike the highly compressed features of UNets, DiT features are insufficiently\nstructured to provide reliable guidance for point-wise motion supervision. To\novercome this limitation, DragFlow introduces a region-based editing paradigm,\nwhere affine transformations enable richer and more consistent feature\nsupervision. Additionally, we integrate pretrained open-domain personalization\nadapters (e.g., IP-Adapter) to enhance subject consistency, while preserving\nbackground fidelity through gradient mask-based hard constraints. Multimodal\nlarge language models (MLLMs) are further employed to resolve task ambiguities.\nFor evaluation, we curate a novel Region-based Dragging benchmark (ReD Bench)\nfeaturing region-level dragging instructions. Extensive experiments on\nDragBench-DR and ReD Bench show that DragFlow surpasses both point-based and\nregion-based baselines, setting a new state-of-the-art in drag-based image\nediting. Code and datasets will be publicly available upon publication.",
+      "upvotes": 5,
+      "discussionId": "68df2c0adf49fb0df1e03bfb",
+      "ai_summary": "DragFlow leverages FLUX's strong generative priors and region-based editing with affine transformations to achieve state-of-the-art performance in drag-based image editing.",
+      "ai_keywords": [
+        "DragFlow",
+        "FLUX",
+        "flow matching",
+        "DiT",
+        "UNet",
+        "DDPMs",
+        "affine transformations",
+        "pretrained open-domain personalization adapters",
+        "IP-Adapter",
+        "gradient mask-based hard constraints",
+        "multimodal large language models",
+        "MLLMs",
+        "Region-based Dragging benchmark",
+        "ReD Bench",
+        "DragBench-DR"
+      ]
+    },
+    "publishedAt": "2025-10-02T13:39:13.000Z",
+    "title": "DragFlow: Unleashing DiT Priors with Region Based Supervision for Drag\n  Editing",
+    "summary": "Drag-based image editing has long suffered from distortions in the target\nregion, largely because the priors of earlier base models, Stable Diffusion,\nare insufficient to project optimized latents back onto the natural image\nmanifold. With the shift from UNet-based DDPMs to more scalable DiT with flow\nmatching (e.g., SD3.5, FLUX), generative priors have become significantly\nstronger, enabling advances across diverse editing tasks. However, drag-based\nediting has yet to benefit from these stronger priors. This work proposes the\nfirst framework to effectively harness FLUX's rich prior for drag-based\nediting, dubbed DragFlow, achieving substantial gains over baselines. We first\nshow that directly applying point-based drag editing to DiTs performs poorly:\nunlike the highly compressed features of UNets, DiT features are insufficiently\nstructured to provide reliable guidance for point-wise motion supervision. To\novercome this limitation, DragFlow introduces a region-based editing paradigm,\nwhere affine transformations enable richer and more consistent feature\nsupervision. Additionally, we integrate pretrained open-domain personalization\nadapters (e.g., IP-Adapter) to enhance subject consistency, while preserving\nbackground fidelity through gradient mask-based hard constraints. Multimodal\nlarge language models (MLLMs) are further employed to resolve task ambiguities.\nFor evaluation, we curate a novel Region-based Dragging benchmark (ReD Bench)\nfeaturing region-level dragging instructions. Extensive experiments on\nDragBench-DR and ReD Bench show that DragFlow surpasses both point-based and\nregion-based baselines, setting a new state-of-the-art in drag-based image\nediting. Code and datasets will be publicly available upon publication.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02253.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "631c4a23aa346997917bcb89",
+      "avatarUrl": "/avatars/4a562ba78e6be289049027c27798cc6e.svg",
+      "fullname": "Shilin Lu",
+      "name": "Shilin-LU",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01179",
+      "authors": [
+        {
+          "_id": "68de23376024653e8a3ed1e2",
+          "name": "Zhangchen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68de23376024653e8a3ed1e3",
+          "name": "Adriana Meza Soria",
+          "hidden": false
+        },
+        {
+          "_id": "68de23376024653e8a3ed1e4",
+          "name": "Shawn Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68de23376024653e8a3ed1e5",
+          "name": "Anurag Roy",
+          "hidden": false
+        },
+        {
+          "_id": "68de23376024653e8a3ed1e6",
+          "name": "Ashish Sunil Agrawal",
+          "hidden": false
+        },
+        {
+          "_id": "68de23376024653e8a3ed1e7",
+          "name": "Radha Poovendran",
+          "hidden": false
+        },
+        {
+          "_id": "68de23376024653e8a3ed1e8",
+          "name": "Rameswar Panda",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T17:58:03.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:25:08.684Z",
+      "title": "TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP\n  Environments",
+      "submittedOnDailyBy": {
+        "_id": "653df1323479e9ebbe3eb6cc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653df1323479e9ebbe3eb6cc/K_g-r1iMRNKj99LXPuYF3.jpeg",
+        "isPro": true,
+        "fullname": "Zhangchen Xu",
+        "user": "zhangchenxu",
+        "type": "user"
+      },
+      "summary": "Large Language Model (LLM) agents are rapidly emerging as powerful systems\nfor automating tasks across domains. Yet progress in the open-source community\nis constrained by the lack of high quality permissively licensed tool-agentic\ntraining data. Existing datasets are often limited in diversity, realism, and\ncomplexity, particularly regarding multi-tool and multi-turn interactions. To\naddress this gap, we introduce Toucan, the largest publicly available\ntool-agentic dataset to date, containing 1.5 million trajectories synthesized\nfrom nearly 500 real-world Model Context Protocols (MCPs). Unlike prior work,\nToucan leverages authentic MCP environments to generate diverse, realistic, and\nchallenging tasks with trajectories involving real tool execution. Our pipeline\nfirst produces a broad spectrum of tool-use queries using five distinct models,\napplies model-based quality filtering, and then generates agentic trajectories\nwith three teacher models using two agentic frameworks. Rigorous rule-based and\nmodel-based validation ensures high-quality outputs. We also introduce three\nextension mechanisms to further diversify tasks and simulate multi-turn\nconversations. Models fine-tuned on Toucan outperform larger closed-source\ncounterparts on the BFCL V3 benchmark and push the Pareto frontier forward on\nMCP-Universe Bench.",
+      "upvotes": 4,
+      "discussionId": "68de23386024653e8a3ed1e9",
+      "githubRepo": "https://github.com/TheAgentArk/Toucan",
+      "ai_summary": "Toucan, a large publicly available tool-agentic dataset, enhances the performance of LLM agents by providing diverse, realistic, and complex multi-tool and multi-turn interactions.",
+      "ai_keywords": [
+        "Large Language Model (LLM)",
+        "tool-agentic training data",
+        "Model Context Protocols (MCPs)",
+        "tool-use queries",
+        "model-based quality filtering",
+        "agentic trajectories",
+        "teacher models",
+        "agentic frameworks",
+        "BFCL V3 benchmark",
+        "MCP-Universe Bench"
+      ],
+      "githubStars": 11,
+      "organization": {
+        "_id": "616e7b1d75754a5d5fa455cf",
+        "name": "ibm",
+        "fullname": "IBM",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/637bfdf60dc13843b468ac20/9228luWRoGbZwKGxkOOsj.png"
+      }
+    },
+    "publishedAt": "2025-10-01T13:58:03.000Z",
+    "title": "TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP\n  Environments",
+    "summary": "Large Language Model (LLM) agents are rapidly emerging as powerful systems\nfor automating tasks across domains. Yet progress in the open-source community\nis constrained by the lack of high quality permissively licensed tool-agentic\ntraining data. Existing datasets are often limited in diversity, realism, and\ncomplexity, particularly regarding multi-tool and multi-turn interactions. To\naddress this gap, we introduce Toucan, the largest publicly available\ntool-agentic dataset to date, containing 1.5 million trajectories synthesized\nfrom nearly 500 real-world Model Context Protocols (MCPs). Unlike prior work,\nToucan leverages authentic MCP environments to generate diverse, realistic, and\nchallenging tasks with trajectories involving real tool execution. Our pipeline\nfirst produces a broad spectrum of tool-use queries using five distinct models,\napplies model-based quality filtering, and then generates agentic trajectories\nwith three teacher models using two agentic frameworks. Rigorous rule-based and\nmodel-based validation ensures high-quality outputs. We also introduce three\nextension mechanisms to further diversify tasks and simulate multi-turn\nconversations. Models fine-tuned on Toucan outperform larger closed-source\ncounterparts on the BFCL V3 benchmark and push the Pareto frontier forward on\nMCP-Universe Bench.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01179.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "653df1323479e9ebbe3eb6cc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653df1323479e9ebbe3eb6cc/K_g-r1iMRNKj99LXPuYF3.jpeg",
+      "fullname": "Zhangchen Xu",
+      "name": "zhangchenxu",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 18
+    },
+    "organization": {
+      "_id": "616e7b1d75754a5d5fa455cf",
+      "name": "ibm",
+      "fullname": "IBM",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/637bfdf60dc13843b468ac20/9228luWRoGbZwKGxkOOsj.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.02283",
+      "authors": [
+        {
+          "_id": "68df2b55df49fb0df1e03be2",
+          "name": "Justin Cui",
+          "hidden": false
+        },
+        {
+          "_id": "68df2b55df49fb0df1e03be3",
+          "name": "Jie Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2b55df49fb0df1e03be4",
+          "name": "Ming Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df2b55df49fb0df1e03be5",
+          "name": "Tao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2b55df49fb0df1e03be6",
+          "name": "Xiaojie Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df2b55df49fb0df1e03be7",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2b55df49fb0df1e03be8",
+          "name": "Andrew Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68df2b55df49fb0df1e03be9",
+          "name": "Yuanhao Ban",
+          "hidden": false
+        },
+        {
+          "_id": "68df2b55df49fb0df1e03bea",
+          "name": "Cho-Jui Hsieh",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/65862671e878be571bf9fc52/Fb3ffDmXrslDcQSJH51MW.mp4",
+        "https://cdn-uploads.huggingface.co/production/uploads/65862671e878be571bf9fc52/I0qCOZqF-XJo2Xg3i__RJ.mp4"
+      ],
+      "publishedAt": "2025-10-02T17:55:42.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:21:50.292Z",
+      "title": "Self-Forcing++: Towards Minute-Scale High-Quality Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "65862671e878be571bf9fc52",
+        "avatarUrl": "/avatars/b2a1b939f3112b476e7641e0c5fd2dc7.svg",
+        "isPro": false,
+        "fullname": "cuijiaxing",
+        "user": "cuijiaxing",
+        "type": "user"
+      },
+      "summary": "Diffusion models have revolutionized image and video generation, achieving\nunprecedented visual quality. However, their reliance on transformer\narchitectures incurs prohibitively high computational costs, particularly when\nextending generation to long videos. Recent work has explored autoregressive\nformulations for long video generation, typically by distilling from\nshort-horizon bidirectional teachers. Nevertheless, given that teacher models\ncannot synthesize long videos, the extrapolation of student models beyond their\ntraining horizon often leads to pronounced quality degradation, arising from\nthe compounding of errors within the continuous latent space. In this paper, we\npropose a simple yet effective approach to mitigate quality degradation in\nlong-horizon video generation without requiring supervision from long-video\nteachers or retraining on long video datasets. Our approach centers on\nexploiting the rich knowledge of teacher models to provide guidance for the\nstudent model through sampled segments drawn from self-generated long videos.\nOur method maintains temporal consistency while scaling video length by up to\n20x beyond teacher's capability, avoiding common issues such as over-exposure\nand error-accumulation without recomputing overlapping frames like previous\nmethods. When scaling up the computation, our method shows the capability of\ngenerating videos up to 4 minutes and 15 seconds, equivalent to 99.9% of the\nmaximum span supported by our base model's position embedding and more than 50x\nlonger than that of our baseline model. Experiments on standard benchmarks and\nour proposed improved benchmark demonstrate that our approach substantially\noutperforms baseline methods in both fidelity and consistency. Our long-horizon\nvideos demo can be found at https://self-forcing-plus-plus.github.io/",
+      "upvotes": 3,
+      "discussionId": "68df2b56df49fb0df1e03beb",
+      "ai_summary": "A method is proposed to enhance long-horizon video generation by using sampled segments from self-generated long videos to guide student models, maintaining quality and consistency without additional supervision or retraining.",
+      "ai_keywords": [
+        "diffusion models",
+        "transformer architectures",
+        "autoregressive formulations",
+        "bidirectional teachers",
+        "latent space",
+        "quality degradation",
+        "temporal consistency",
+        "position embedding"
+      ]
+    },
+    "publishedAt": "2025-10-02T13:55:42.000Z",
+    "title": "Self-Forcing++: Towards Minute-Scale High-Quality Video Generation",
+    "summary": "Diffusion models have revolutionized image and video generation, achieving\nunprecedented visual quality. However, their reliance on transformer\narchitectures incurs prohibitively high computational costs, particularly when\nextending generation to long videos. Recent work has explored autoregressive\nformulations for long video generation, typically by distilling from\nshort-horizon bidirectional teachers. Nevertheless, given that teacher models\ncannot synthesize long videos, the extrapolation of student models beyond their\ntraining horizon often leads to pronounced quality degradation, arising from\nthe compounding of errors within the continuous latent space. In this paper, we\npropose a simple yet effective approach to mitigate quality degradation in\nlong-horizon video generation without requiring supervision from long-video\nteachers or retraining on long video datasets. Our approach centers on\nexploiting the rich knowledge of teacher models to provide guidance for the\nstudent model through sampled segments drawn from self-generated long videos.\nOur method maintains temporal consistency while scaling video length by up to\n20x beyond teacher's capability, avoiding common issues such as over-exposure\nand error-accumulation without recomputing overlapping frames like previous\nmethods. When scaling up the computation, our method shows the capability of\ngenerating videos up to 4 minutes and 15 seconds, equivalent to 99.9% of the\nmaximum span supported by our base model's position embedding and more than 50x\nlonger than that of our baseline model. Experiments on standard benchmarks and\nour proposed improved benchmark demonstrate that our approach substantially\noutperforms baseline methods in both fidelity and consistency. Our long-horizon\nvideos demo can be found at https://self-forcing-plus-plus.github.io/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/65862671e878be571bf9fc52/Fb3ffDmXrslDcQSJH51MW.mp4",
+      "https://cdn-uploads.huggingface.co/production/uploads/65862671e878be571bf9fc52/I0qCOZqF-XJo2Xg3i__RJ.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02283.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65862671e878be571bf9fc52",
+      "avatarUrl": "/avatars/b2a1b939f3112b476e7641e0c5fd2dc7.svg",
+      "fullname": "cuijiaxing",
+      "name": "cuijiaxing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.02294",
+      "authors": [
+        {
+          "_id": "68df2abedf49fb0df1e03bdb",
+          "name": "Ziyin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2abedf49fb0df1e03bdc",
+          "name": "Zihan Liao",
+          "hidden": false
+        },
+        {
+          "_id": "68df2abedf49fb0df1e03bdd",
+          "name": "Hang Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2abedf49fb0df1e03bde",
+          "name": "Peng Di",
+          "hidden": false
+        },
+        {
+          "_id": "68df2abedf49fb0df1e03bdf",
+          "name": "Rui Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T17:58:49.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:33:13.324Z",
+      "title": "F2LLM Technical Report: Matching SOTA Embedding Performance with 6\n  Million Open-Source Data",
+      "submittedOnDailyBy": {
+        "_id": "6430bdd8cd31d174a9f900fb",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Y9SPnRfpKSbYc7MhNdP-H.jpeg",
+        "isPro": false,
+        "fullname": "Ziyin Zhang",
+        "user": "Geralt-Targaryen",
+        "type": "user"
+      },
+      "summary": "We introduce F2LLM - Foundation to Feature Large Language Models, a suite of\nstate-of-the-art embedding models in three sizes: 0.6B, 1.7B, and 4B. Unlike\nprevious top-ranking embedding models that require massive contrastive\npretraining, sophisticated training pipelines, and costly synthetic training\ndata, F2LLM is directly finetuned from foundation models on 6 million\nquery-document-negative tuples curated from open-source, non-synthetic\ndatasets, striking a strong balance between training cost, model size, and\nembedding performance. On the MTEB English leaderboard, F2LLM-4B ranks 2nd\namong models with approximately 4B parameters and 7th overall, while F2LLM-1.7B\nranks 1st among models in the 1B-2B size range. To facilitate future research\nin the field, we release the models, training dataset, and code, positioning\nF2LLM as a strong, reproducible, and budget-friendly baseline for future works.",
+      "upvotes": 2,
+      "discussionId": "68df2abedf49fb0df1e03be0",
+      "githubRepo": "https://github.com/codefuse-ai/CodeFuse-Embeddings/tree/main/F2LLM",
+      "ai_summary": "F2LLM, a suite of large language models, achieves high embedding performance with efficient fine-tuning from foundation models using open-source datasets.",
+      "ai_keywords": [
+        "embedding models",
+        "foundation models",
+        "contrastive pretraining",
+        "training pipelines",
+        "synthetic training data",
+        "query-document-negative tuples",
+        "MTEB English leaderboard",
+        "parameter-efficient fine-tuning"
+      ],
+      "githubStars": 25,
+      "organization": {
+        "_id": "64f97f402003abb61b3d68de",
+        "name": "codefuse-ai",
+        "fullname": "CodeFuse AI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64ed861f254de0e729dba8f1/IxbJCzRWm0Ov645jLyupL.png"
+      }
+    },
+    "publishedAt": "2025-10-02T13:58:49.000Z",
+    "title": "F2LLM Technical Report: Matching SOTA Embedding Performance with 6\n  Million Open-Source Data",
+    "summary": "We introduce F2LLM - Foundation to Feature Large Language Models, a suite of\nstate-of-the-art embedding models in three sizes: 0.6B, 1.7B, and 4B. Unlike\nprevious top-ranking embedding models that require massive contrastive\npretraining, sophisticated training pipelines, and costly synthetic training\ndata, F2LLM is directly finetuned from foundation models on 6 million\nquery-document-negative tuples curated from open-source, non-synthetic\ndatasets, striking a strong balance between training cost, model size, and\nembedding performance. On the MTEB English leaderboard, F2LLM-4B ranks 2nd\namong models with approximately 4B parameters and 7th overall, while F2LLM-1.7B\nranks 1st among models in the 1B-2B size range. To facilitate future research\nin the field, we release the models, training dataset, and code, positioning\nF2LLM as a strong, reproducible, and budget-friendly baseline for future works.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02294.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6430bdd8cd31d174a9f900fb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Y9SPnRfpKSbYc7MhNdP-H.jpeg",
+      "fullname": "Ziyin Zhang",
+      "name": "Geralt-Targaryen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "organization": {
+      "_id": "64f97f402003abb61b3d68de",
+      "name": "codefuse-ai",
+      "fullname": "CodeFuse AI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64ed861f254de0e729dba8f1/IxbJCzRWm0Ov645jLyupL.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.02259",
+      "authors": [
+        {
+          "_id": "68df2a3fdf49fb0df1e03bd3",
+          "name": "Tobias Kreiman",
+          "hidden": false
+        },
+        {
+          "_id": "68df2a3fdf49fb0df1e03bd4",
+          "name": "Yutong Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68df2a3fdf49fb0df1e03bd5",
+          "name": "Fadi Atieh",
+          "hidden": false
+        },
+        {
+          "_id": "68df2a3fdf49fb0df1e03bd6",
+          "name": "Elizabeth Weaver",
+          "hidden": false
+        },
+        {
+          "_id": "68df2a3fdf49fb0df1e03bd7",
+          "name": "Eric Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2a3fdf49fb0df1e03bd8",
+          "name": "Aditi S. Krishnapriyan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T17:42:10.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:14:38.936Z",
+      "title": "Transformers Discover Molecular Structure Without Graph Priors",
+      "submittedOnDailyBy": {
+        "_id": "64bece3e01f1983a86a3e043",
+        "avatarUrl": "/avatars/7f6372d409e8eb0474f7ff6282cfd4e9.svg",
+        "isPro": false,
+        "fullname": "Toby Kreiman",
+        "user": "tkreiman",
+        "type": "user"
+      },
+      "summary": "Graph Neural Networks (GNNs) are the dominant architecture for molecular\nmachine learning, particularly for molecular property prediction and machine\nlearning interatomic potentials (MLIPs). GNNs perform message passing on\npredefined graphs often induced by a fixed radius cutoff or k-nearest neighbor\nscheme. While this design aligns with the locality present in many molecular\ntasks, a hard-coded graph can limit expressivity due to the fixed receptive\nfield and slows down inference with sparse graph operations. In this work, we\ninvestigate whether pure, unmodified Transformers trained directly on Cartesian\ncoordinatesx2013without predefined graphs or physical\npriorsx2013can approximate molecular energies and forces. As a\nstarting point for our analysis, we demonstrate how to train a Transformer to\ncompetitive energy and force mean absolute errors under a matched training\ncompute budget, relative to a state-of-the-art equivariant GNN on the OMol25\ndataset. We discover that the Transformer learns physically consistent\npatternsx2013such as attention weights that decay inversely with\ninteratomic distancex2013and flexibly adapts them across different\nmolecular environments due to the absence of hard-coded biases. The use of a\nstandard Transformer also unlocks predictable improvements with respect to\nscaling training resources, consistent with empirical scaling laws observed in\nother domains. Our results demonstrate that many favorable properties of GNNs\ncan emerge adaptively in Transformers, challenging the necessity of hard-coded\ngraph inductive biases and pointing toward standardized, scalable architectures\nfor molecular modeling.",
+      "upvotes": 2,
+      "discussionId": "68df2a3fdf49fb0df1e03bd9",
+      "ai_summary": "Transformers trained directly on Cartesian coordinates can achieve competitive performance in molecular energy and force prediction without predefined graphs, demonstrating adaptability and scalability.",
+      "ai_keywords": [
+        "Graph Neural Networks",
+        "GNNs",
+        "molecular machine learning",
+        "molecular property prediction",
+        "machine learning interatomic potentials",
+        "MLIPs",
+        "message passing",
+        "predefined graphs",
+        "fixed radius cutoff",
+        "k-nearest neighbor",
+        "receptive field",
+        "inference",
+        "sparse graph operations",
+        "Transformers",
+        "Cartesian coordinates",
+        "physical priors",
+        "energy and force mean absolute errors",
+        "OMol25 dataset",
+        "attention weights",
+        "interatomic distance",
+        "molecular environments",
+        "hard-coded biases",
+        "scaling training resources",
+        "empirical scaling laws",
+        "standardized architectures",
+        "molecular modeling"
+      ],
+      "organization": {
+        "_id": "61f20a9ce108f2cba2dc0730",
+        "name": "Berkeley",
+        "fullname": "UC Berkeley",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/0FjsTg2txEZZ4dEgmMnQL.png"
+      }
+    },
+    "publishedAt": "2025-10-02T13:42:10.000Z",
+    "title": "Transformers Discover Molecular Structure Without Graph Priors",
+    "summary": "Graph Neural Networks (GNNs) are the dominant architecture for molecular\nmachine learning, particularly for molecular property prediction and machine\nlearning interatomic potentials (MLIPs). GNNs perform message passing on\npredefined graphs often induced by a fixed radius cutoff or k-nearest neighbor\nscheme. While this design aligns with the locality present in many molecular\ntasks, a hard-coded graph can limit expressivity due to the fixed receptive\nfield and slows down inference with sparse graph operations. In this work, we\ninvestigate whether pure, unmodified Transformers trained directly on Cartesian\ncoordinatesx2013without predefined graphs or physical\npriorsx2013can approximate molecular energies and forces. As a\nstarting point for our analysis, we demonstrate how to train a Transformer to\ncompetitive energy and force mean absolute errors under a matched training\ncompute budget, relative to a state-of-the-art equivariant GNN on the OMol25\ndataset. We discover that the Transformer learns physically consistent\npatternsx2013such as attention weights that decay inversely with\ninteratomic distancex2013and flexibly adapts them across different\nmolecular environments due to the absence of hard-coded biases. The use of a\nstandard Transformer also unlocks predictable improvements with respect to\nscaling training resources, consistent with empirical scaling laws observed in\nother domains. Our results demonstrate that many favorable properties of GNNs\ncan emerge adaptively in Transformers, challenging the necessity of hard-coded\ngraph inductive biases and pointing toward standardized, scalable architectures\nfor molecular modeling.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02259.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64bece3e01f1983a86a3e043",
+      "avatarUrl": "/avatars/7f6372d409e8eb0474f7ff6282cfd4e9.svg",
+      "fullname": "Toby Kreiman",
+      "name": "tkreiman",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "organization": {
+      "_id": "61f20a9ce108f2cba2dc0730",
+      "name": "Berkeley",
+      "fullname": "UC Berkeley",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/0FjsTg2txEZZ4dEgmMnQL.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00523",
+      "authors": [
+        {
+          "_id": "68df2bccdf49fb0df1e03bed",
+          "name": "Wei-Yao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2bccdf49fb0df1e03bee",
+          "name": "Kazuya Tateishi",
+          "hidden": false
+        },
+        {
+          "_id": "68df2bccdf49fb0df1e03bef",
+          "name": "Qiyu Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2bccdf49fb0df1e03bf0",
+          "name": "Shusuke Takahashi",
+          "hidden": false
+        },
+        {
+          "_id": "68df2bccdf49fb0df1e03bf1",
+          "name": "Yuki Mitsufuji",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T05:11:54.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:22:23.038Z",
+      "title": "VIRTUE: Visual-Interactive Text-Image Universal Embedder",
+      "submittedOnDailyBy": {
+        "_id": "66fbb4eac5e1b393cf3266d8",
+        "avatarUrl": "/avatars/a9cff3c9466849dc19cad0bd37fb0459.svg",
+        "isPro": false,
+        "fullname": "Wei-Yao Wang",
+        "user": "SwyWang",
+        "type": "user"
+      },
+      "summary": "Multimodal representation learning models have demonstrated successful\noperation across complex tasks, and the integration of vision-language models\n(VLMs) has further enabled embedding models with instruction-following\ncapabilities. However, existing embedding models lack visual-interactive\ncapabilities to specify regions of interest from users (e.g., point, bounding\nbox, mask), which have been explored in generative models to broaden their\nhuman-interactive applicability. Equipping embedding models with visual\ninteractions not only would unlock new applications with localized grounding of\nuser intent, which remains unexplored, but also enable the models to learn\nentity-level information within images to complement their global\nrepresentations for conventional embedding tasks. In this paper, we propose a\nnovel Visual-InteRactive Text-Image Universal Embedder (VIRTUE) that extends\nthe capabilities of the segmentation model and the vision-language model to the\nrealm of representation learning. In VIRTUE, the segmentation model can process\nvisual prompts that pinpoint specific regions within an image, thereby enabling\nthe embedder to handle complex and ambiguous scenarios more precisely. To\nevaluate the visual-interaction ability of VIRTUE, we introduce a large-scale\nSegmentation-and-Scene Caption Retrieval (SCaR) benchmark comprising 1M samples\nthat aims to retrieve the text caption by jointly considering the entity with a\nspecific object and image scene. VIRTUE consistently achieves a\nstate-of-the-art performance with significant improvements across 36 universal\nMMEB (3.1%-8.5%) and five visual-interactive SCaR (15.2%-20.3%) tasks.",
+      "upvotes": 2,
+      "discussionId": "68df2bcddf49fb0df1e03bf2",
+      "ai_summary": "VIRTUE, a novel Visual-InteRactive Text-Image Universal Embedder, integrates segmentation and vision-language models to enable visual interactions and localized grounding, achieving state-of-the-art performance in representation learning tasks.",
+      "ai_keywords": [
+        "multimodal representation learning",
+        "vision-language models",
+        "visual-interactive capabilities",
+        "segmentation model",
+        "visual prompts",
+        "entity-level information",
+        "global representations",
+        "Segmentation-and-Scene Caption Retrieval",
+        "MMEB",
+        "SCaR"
+      ]
+    },
+    "publishedAt": "2025-10-01T01:11:54.000Z",
+    "title": "VIRTUE: Visual-Interactive Text-Image Universal Embedder",
+    "summary": "Multimodal representation learning models have demonstrated successful\noperation across complex tasks, and the integration of vision-language models\n(VLMs) has further enabled embedding models with instruction-following\ncapabilities. However, existing embedding models lack visual-interactive\ncapabilities to specify regions of interest from users (e.g., point, bounding\nbox, mask), which have been explored in generative models to broaden their\nhuman-interactive applicability. Equipping embedding models with visual\ninteractions not only would unlock new applications with localized grounding of\nuser intent, which remains unexplored, but also enable the models to learn\nentity-level information within images to complement their global\nrepresentations for conventional embedding tasks. In this paper, we propose a\nnovel Visual-InteRactive Text-Image Universal Embedder (VIRTUE) that extends\nthe capabilities of the segmentation model and the vision-language model to the\nrealm of representation learning. In VIRTUE, the segmentation model can process\nvisual prompts that pinpoint specific regions within an image, thereby enabling\nthe embedder to handle complex and ambiguous scenarios more precisely. To\nevaluate the visual-interaction ability of VIRTUE, we introduce a large-scale\nSegmentation-and-Scene Caption Retrieval (SCaR) benchmark comprising 1M samples\nthat aims to retrieve the text caption by jointly considering the entity with a\nspecific object and image scene. VIRTUE consistently achieves a\nstate-of-the-art performance with significant improvements across 36 universal\nMMEB (3.1%-8.5%) and five visual-interactive SCaR (15.2%-20.3%) tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00523.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66fbb4eac5e1b393cf3266d8",
+      "avatarUrl": "/avatars/a9cff3c9466849dc19cad0bd37fb0459.svg",
+      "fullname": "Wei-Yao Wang",
+      "name": "SwyWang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.02209",
+      "authors": [
+        {
+          "_id": "68df3031df49fb0df1e03c3a",
+          "name": "Yanxu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68df3031df49fb0df1e03c3b",
+          "name": "Zijun Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68df3031df49fb0df1e03c3c",
+          "name": "Yantao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68df3031df49fb0df1e03c3d",
+          "name": "Jin Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68df3031df49fb0df1e03c3e",
+          "name": "Jianing Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68df3031df49fb0df1e03c3f",
+          "name": "Lei Hou",
+          "hidden": false
+        },
+        {
+          "_id": "68df3031df49fb0df1e03c40",
+          "name": "Juanzi Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T16:54:57.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:38:58.116Z",
+      "title": "StockBench: Can LLM Agents Trade Stocks Profitably In Real-world\n  Markets?",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have recently demonstrated strong capabilities\nas autonomous agents, showing promise in reasoning, tool use, and sequential\ndecision-making. While prior benchmarks have evaluated LLM agents in domains\nsuch as software engineering and scientific discovery, the finance domain\nremains underexplored, despite its direct relevance to economic value and\nhigh-stakes decision-making. Existing financial benchmarks primarily test\nstatic knowledge through question answering, but they fall short of capturing\nthe dynamic and iterative nature of trading. To address this gap, we introduce\nStockBench, a contamination-free benchmark designed to evaluate LLM agents in\nrealistic, multi-month stock trading environments. Agents receive daily market\nsignals -- including prices, fundamentals, and news -- and must make sequential\nbuy, sell, or hold decisions. Performance is assessed using financial metrics\nsuch as cumulative return, maximum drawdown, and the Sortino ratio. Our\nevaluation of state-of-the-art proprietary (e.g., GPT-5, Claude-4) and\nopen-weight (e.g., Qwen3, Kimi-K2, GLM-4.5) models shows that while most LLM\nagents struggle to outperform the simple buy-and-hold baseline, several models\ndemonstrate the potential to deliver higher returns and manage risk more\neffectively. These findings highlight both the challenges and opportunities in\ndeveloping LLM-powered financial agents, showing that excelling at static\nfinancial knowledge tasks does not necessarily translate into successful\ntrading strategies. We release StockBench as an open-source resource to support\nreproducibility and advance future research in this domain.",
+      "upvotes": 1,
+      "discussionId": "68df3031df49fb0df1e03c41",
+      "ai_summary": "StockBench evaluates large language models in realistic stock trading environments, revealing challenges and opportunities in developing LLM-powered financial agents.",
+      "ai_keywords": [
+        "large language models",
+        "LLM agents",
+        "reasoning",
+        "tool use",
+        "sequential decision-making",
+        "software engineering",
+        "scientific discovery",
+        "finance domain",
+        "financial benchmarks",
+        "question answering",
+        "dynamic trading",
+        "contamination-free benchmark",
+        "daily market signals",
+        "prices",
+        "fundamentals",
+        "news",
+        "sequential buy",
+        "sell",
+        "hold decisions",
+        "cumulative return",
+        "maximum drawdown",
+        "Sortino ratio",
+        "GPT-5",
+        "Claude-4",
+        "Qwen3",
+        "Kimi-K2",
+        "GLM-4.5",
+        "buy-and-hold baseline",
+        "static financial knowledge tasks",
+        "trading strategies"
+      ]
+    },
+    "publishedAt": "2025-10-02T12:54:57.000Z",
+    "title": "StockBench: Can LLM Agents Trade Stocks Profitably In Real-world\n  Markets?",
+    "summary": "Large language models (LLMs) have recently demonstrated strong capabilities\nas autonomous agents, showing promise in reasoning, tool use, and sequential\ndecision-making. While prior benchmarks have evaluated LLM agents in domains\nsuch as software engineering and scientific discovery, the finance domain\nremains underexplored, despite its direct relevance to economic value and\nhigh-stakes decision-making. Existing financial benchmarks primarily test\nstatic knowledge through question answering, but they fall short of capturing\nthe dynamic and iterative nature of trading. To address this gap, we introduce\nStockBench, a contamination-free benchmark designed to evaluate LLM agents in\nrealistic, multi-month stock trading environments. Agents receive daily market\nsignals -- including prices, fundamentals, and news -- and must make sequential\nbuy, sell, or hold decisions. Performance is assessed using financial metrics\nsuch as cumulative return, maximum drawdown, and the Sortino ratio. Our\nevaluation of state-of-the-art proprietary (e.g., GPT-5, Claude-4) and\nopen-weight (e.g., Qwen3, Kimi-K2, GLM-4.5) models shows that while most LLM\nagents struggle to outperform the simple buy-and-hold baseline, several models\ndemonstrate the potential to deliver higher returns and manage risk more\neffectively. These findings highlight both the challenges and opportunities in\ndeveloping LLM-powered financial agents, showing that excelling at static\nfinancial knowledge tasks does not necessarily translate into successful\ntrading strategies. We release StockBench as an open-source resource to support\nreproducibility and advance future research in this domain.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02209.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 116
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.02190",
+      "authors": [
+        {
+          "_id": "68df3194df49fb0df1e03c4e",
+          "name": "Yang Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c4f",
+          "name": "Yixu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c50",
+          "name": "Yuxuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c51",
+          "name": "Yi Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c52",
+          "name": "Tianle Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c53",
+          "name": "Lingyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c54",
+          "name": "Dingyi Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c55",
+          "name": "Keming Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c56",
+          "name": "Haozhe Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c57",
+          "name": "Ping Nie",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c58",
+          "name": "Yan Teng",
+          "hidden": false
+        },
+        {
+          "_id": "68df3194df49fb0df1e03c59",
+          "name": "Yingchun Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T16:40:02.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:45:32.030Z",
+      "title": "A Rigorous Benchmark with Multidimensional Evaluation for Deep Research\n  Agents: From Answers to Reports",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Artificial intelligence is undergoing the paradigm shift from closed language\nmodels to interconnected agent systems capable of external perception and\ninformation integration. As a representative embodiment, Deep Research Agents\n(DRAs) systematically exhibit the capabilities for task decomposition,\ncross-source retrieval, multi-stage reasoning, and structured output, which\nmarkedly enhance performance on complex and open-ended tasks. However, existing\nbenchmarks remain deficient in evaluation dimensions, response formatting, and\nscoring mechanisms, limiting their capacity to assess such systems effectively.\nThis paper introduces a rigorous benchmark and a multidimensional evaluation\nframework tailored to DRAs and report-style responses. The benchmark comprises\n214 expert-curated challenging queries distributed across 10 broad thematic\ndomains, each accompanied by manually constructed reference bundles to support\ncomposite evaluation. The framework enables comprehensive evaluation of\nlong-form reports generated by DRAs, incorporating integrated scoring metrics\nfor semantic quality, topical focus, and retrieval trustworthiness. Extensive\nexperimentation confirms the superior performance of mainstream DRAs over\nweb-search-tool-augmented reasoning models, yet reveals considerable scope for\nfurther improvement. This study provides a robust foundation for capability\nassessment, architectural refinement, and paradigm advancement in DRA systems.",
+      "upvotes": 1,
+      "discussionId": "68df3195df49fb0df1e03c5a",
+      "ai_summary": "A benchmark and evaluation framework for Deep Research Agents (DRAs) assesses their performance on complex tasks with multidimensional metrics.",
+      "ai_keywords": [
+        "Deep Research Agents",
+        "task decomposition",
+        "cross-source retrieval",
+        "multi-stage reasoning",
+        "structured output",
+        "benchmark",
+        "evaluation framework",
+        "thematic domains",
+        "reference bundles",
+        "semantic quality",
+        "topical focus",
+        "retrieval trustworthiness"
+      ]
+    },
+    "publishedAt": "2025-10-02T12:40:02.000Z",
+    "title": "A Rigorous Benchmark with Multidimensional Evaluation for Deep Research\n  Agents: From Answers to Reports",
+    "summary": "Artificial intelligence is undergoing the paradigm shift from closed language\nmodels to interconnected agent systems capable of external perception and\ninformation integration. As a representative embodiment, Deep Research Agents\n(DRAs) systematically exhibit the capabilities for task decomposition,\ncross-source retrieval, multi-stage reasoning, and structured output, which\nmarkedly enhance performance on complex and open-ended tasks. However, existing\nbenchmarks remain deficient in evaluation dimensions, response formatting, and\nscoring mechanisms, limiting their capacity to assess such systems effectively.\nThis paper introduces a rigorous benchmark and a multidimensional evaluation\nframework tailored to DRAs and report-style responses. The benchmark comprises\n214 expert-curated challenging queries distributed across 10 broad thematic\ndomains, each accompanied by manually constructed reference bundles to support\ncomposite evaluation. The framework enables comprehensive evaluation of\nlong-form reports generated by DRAs, incorporating integrated scoring metrics\nfor semantic quality, topical focus, and retrieval trustworthiness. Extensive\nexperimentation confirms the superior performance of mainstream DRAs over\nweb-search-tool-augmented reasoning models, yet reveals considerable scope for\nfurther improvement. This study provides a robust foundation for capability\nassessment, architectural refinement, and paradigm advancement in DRA systems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02190.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 116
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01796",
+      "authors": [
+        {
+          "_id": "68df2db5df49fb0df1e03c13",
+          "name": "Meng-Hsi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68df2db5df49fb0df1e03c14",
+          "name": "Yu-Ang Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68df2db5df49fb0df1e03c15",
+          "name": "Feng-Ting Liao",
+          "hidden": false
+        },
+        {
+          "_id": "68df2db5df49fb0df1e03c16",
+          "name": "Da-shan Shiu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T08:38:15.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:28:44.666Z",
+      "title": "Rethinking the shape convention of an MLP",
+      "submittedOnDailyBy": {
+        "_id": "643fb7332397d8eef5b844cd",
+        "avatarUrl": "/avatars/e403a19fc13e478d5929c67028230b0e.svg",
+        "isPro": false,
+        "fullname": "Feng-Ting Liao",
+        "user": "FengTing",
+        "type": "user"
+      },
+      "summary": "Multi-layer perceptrons (MLPs) conventionally follow a narrow-wide-narrow\ndesign where skip connections operate at the input/output dimensions while\nprocessing occurs in expanded hidden spaces. We challenge this convention by\nproposing wide-narrow-wide (Hourglass) MLP blocks where skip connections\noperate at expanded dimensions while residual computation flows through narrow\nbottlenecks. This inversion leverages higher-dimensional spaces for incremental\nrefinement while maintaining computational efficiency through parameter-matched\ndesigns. Implementing Hourglass MLPs requires an initial projection to lift\ninput signals to expanded dimensions. We propose that this projection can\nremain fixed at random initialization throughout training, enabling efficient\ntraining and inference implementations. We evaluate both architectures on\ngenerative tasks over popular image datasets, characterizing\nperformance-parameter Pareto frontiers through systematic architectural search.\nResults show that Hourglass architectures consistently achieve superior Pareto\nfrontiers compared to conventional designs. As parameter budgets increase,\noptimal Hourglass configurations favor deeper networks with wider skip\nconnections and narrower bottlenecks-a scaling pattern distinct from\nconventional MLPs. Our findings suggest reconsidering skip connection placement\nin modern architectures, with potential applications extending to Transformers\nand other residual networks.",
+      "upvotes": 1,
+      "discussionId": "68df2db5df49fb0df1e03c17",
+      "ai_summary": "Hourglass MLP blocks, with skip connections in expanded dimensions and narrow bottlenecks, outperform conventional narrow-wide-narrow MLPs in generative tasks across image datasets.",
+      "ai_keywords": [
+        "multi-layer perceptrons",
+        "MLPs",
+        "wide-narrow-wide",
+        "Hourglass",
+        "skip connections",
+        "residual computation",
+        "parameter-matched designs",
+        "random initialization",
+        "generative tasks",
+        "Pareto frontiers",
+        "architectural search",
+        "Transformers",
+        "residual networks"
+      ],
+      "organization": {
+        "_id": "6388e08c5a3d2a335624705b",
+        "name": "MediaTek-Research",
+        "fullname": "MediaTek Research",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1669948083850-6213410828005421265b27d3.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-02T04:38:15.000Z",
+    "title": "Rethinking the shape convention of an MLP",
+    "summary": "Multi-layer perceptrons (MLPs) conventionally follow a narrow-wide-narrow\ndesign where skip connections operate at the input/output dimensions while\nprocessing occurs in expanded hidden spaces. We challenge this convention by\nproposing wide-narrow-wide (Hourglass) MLP blocks where skip connections\noperate at expanded dimensions while residual computation flows through narrow\nbottlenecks. This inversion leverages higher-dimensional spaces for incremental\nrefinement while maintaining computational efficiency through parameter-matched\ndesigns. Implementing Hourglass MLPs requires an initial projection to lift\ninput signals to expanded dimensions. We propose that this projection can\nremain fixed at random initialization throughout training, enabling efficient\ntraining and inference implementations. We evaluate both architectures on\ngenerative tasks over popular image datasets, characterizing\nperformance-parameter Pareto frontiers through systematic architectural search.\nResults show that Hourglass architectures consistently achieve superior Pareto\nfrontiers compared to conventional designs. As parameter budgets increase,\noptimal Hourglass configurations favor deeper networks with wider skip\nconnections and narrower bottlenecks-a scaling pattern distinct from\nconventional MLPs. Our findings suggest reconsidering skip connection placement\nin modern architectures, with potential applications extending to Transformers\nand other residual networks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01796.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643fb7332397d8eef5b844cd",
+      "avatarUrl": "/avatars/e403a19fc13e478d5929c67028230b0e.svg",
+      "fullname": "Feng-Ting Liao",
+      "name": "FengTing",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "organization": {
+      "_id": "6388e08c5a3d2a335624705b",
+      "name": "MediaTek-Research",
+      "fullname": "MediaTek Research",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1669948083850-6213410828005421265b27d3.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01691",
+      "authors": [
+        {
+          "_id": "68df2d8edf49fb0df1e03bfd",
+          "name": "Jiyao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03bfe",
+          "name": "Jinjie Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03bff",
+          "name": "Wanying Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c00",
+          "name": "Chenglong Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c01",
+          "name": "Junzhi Ning",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c02",
+          "name": "Yunheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c03",
+          "name": "Ying Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c04",
+          "name": "Xinzhe Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c05",
+          "name": "Pengcheng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c06",
+          "name": "Xin Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c07",
+          "name": "Ming Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c08",
+          "name": "Huihui Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c09",
+          "name": "Xin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c0a",
+          "name": "Shujian Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c0b",
+          "name": "Dingkang Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c0c",
+          "name": "Zhongying Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c0d",
+          "name": "Jin Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c0e",
+          "name": "Lihao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c0f",
+          "name": "Junjun He",
+          "hidden": false
+        },
+        {
+          "_id": "68df2d8edf49fb0df1e03c10",
+          "name": "Ningsheng Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T05:42:00.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:27:45.114Z",
+      "title": "MedQ-Bench: Evaluating and Exploring Medical Image Quality Assessment\n  Abilities in MLLMs",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Medical Image Quality Assessment (IQA) serves as the first-mile safety gate\nfor clinical AI, yet existing approaches remain constrained by scalar,\nscore-based metrics and fail to reflect the descriptive, human-like reasoning\nprocess central to expert evaluation. To address this gap, we introduce\nMedQ-Bench, a comprehensive benchmark that establishes a perception-reasoning\nparadigm for language-based evaluation of medical image quality with\nMulti-modal Large Language Models (MLLMs). MedQ-Bench defines two complementary\ntasks: (1) MedQ-Perception, which probes low-level perceptual capability via\nhuman-curated questions on fundamental visual attributes; and (2)\nMedQ-Reasoning, encompassing both no-reference and comparison reasoning tasks,\naligning model evaluation with human-like reasoning on image quality. The\nbenchmark spans five imaging modalities and over forty quality attributes,\ntotaling 2,600 perceptual queries and 708 reasoning assessments, covering\ndiverse image sources including authentic clinical acquisitions, images with\nsimulated degradations via physics-based reconstructions, and AI-generated\nimages. To evaluate reasoning ability, we propose a multi-dimensional judging\nprotocol that assesses model outputs along four complementary axes. We further\nconduct rigorous human-AI alignment validation by comparing LLM-based judgement\nwith radiologists. Our evaluation of 14 state-of-the-art MLLMs demonstrates\nthat models exhibit preliminary but unstable perceptual and reasoning skills,\nwith insufficient accuracy for reliable clinical use. These findings highlight\nthe need for targeted optimization of MLLMs in medical IQA. We hope that\nMedQ-Bench will catalyze further exploration and unlock the untapped potential\nof MLLMs for medical image quality evaluation.",
+      "upvotes": 1,
+      "discussionId": "68df2d8edf49fb0df1e03c11",
+      "ai_summary": "MedQ-Bench introduces a benchmark for language-based evaluation of medical image quality using Multi-modal Large Language Models, focusing on both perceptual and reasoning capabilities.",
+      "ai_keywords": [
+        "Multi-modal Large Language Models",
+        "MedQ-Bench",
+        "MedQ-Perception",
+        "MedQ-Reasoning",
+        "perception-reasoning paradigm",
+        "human-curated questions",
+        "visual attributes",
+        "no-reference reasoning",
+        "comparison reasoning",
+        "multi-dimensional judging protocol",
+        "human-AI alignment validation"
+      ]
+    },
+    "publishedAt": "2025-10-02T01:42:00.000Z",
+    "title": "MedQ-Bench: Evaluating and Exploring Medical Image Quality Assessment\n  Abilities in MLLMs",
+    "summary": "Medical Image Quality Assessment (IQA) serves as the first-mile safety gate\nfor clinical AI, yet existing approaches remain constrained by scalar,\nscore-based metrics and fail to reflect the descriptive, human-like reasoning\nprocess central to expert evaluation. To address this gap, we introduce\nMedQ-Bench, a comprehensive benchmark that establishes a perception-reasoning\nparadigm for language-based evaluation of medical image quality with\nMulti-modal Large Language Models (MLLMs). MedQ-Bench defines two complementary\ntasks: (1) MedQ-Perception, which probes low-level perceptual capability via\nhuman-curated questions on fundamental visual attributes; and (2)\nMedQ-Reasoning, encompassing both no-reference and comparison reasoning tasks,\naligning model evaluation with human-like reasoning on image quality. The\nbenchmark spans five imaging modalities and over forty quality attributes,\ntotaling 2,600 perceptual queries and 708 reasoning assessments, covering\ndiverse image sources including authentic clinical acquisitions, images with\nsimulated degradations via physics-based reconstructions, and AI-generated\nimages. To evaluate reasoning ability, we propose a multi-dimensional judging\nprotocol that assesses model outputs along four complementary axes. We further\nconduct rigorous human-AI alignment validation by comparing LLM-based judgement\nwith radiologists. Our evaluation of 14 state-of-the-art MLLMs demonstrates\nthat models exhibit preliminary but unstable perceptual and reasoning skills,\nwith insufficient accuracy for reliable clinical use. These findings highlight\nthe need for targeted optimization of MLLMs in medical IQA. We hope that\nMedQ-Bench will catalyze further exploration and unlock the untapped potential\nof MLLMs for medical image quality evaluation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01691.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 116
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01670",
+      "authors": [
+        {
+          "_id": "68df30a8df49fb0df1e03c43",
+          "name": "Erfan Shayegani",
+          "hidden": false
+        },
+        {
+          "_id": "68df30a8df49fb0df1e03c44",
+          "name": "Keegan Hines",
+          "hidden": false
+        },
+        {
+          "_id": "68df30a8df49fb0df1e03c45",
+          "name": "Yue Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68df30a8df49fb0df1e03c46",
+          "name": "Nael Abu-Ghazaleh",
+          "hidden": false
+        },
+        {
+          "_id": "68df30a8df49fb0df1e03c47",
+          "name": "Roman Lutz",
+          "hidden": false
+        },
+        {
+          "_id": "68df30a8df49fb0df1e03c48",
+          "name": "Spencer Whitehead",
+          "hidden": false
+        },
+        {
+          "_id": "68df30a8df49fb0df1e03c49",
+          "name": "Vidhisha Balachandran",
+          "hidden": false
+        },
+        {
+          "_id": "68df30a8df49fb0df1e03c4a",
+          "name": "Besmira Nushi",
+          "hidden": false
+        },
+        {
+          "_id": "68df30a8df49fb0df1e03c4b",
+          "name": "Vibhav Vineet",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T04:52:15.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:41:00.967Z",
+      "title": "Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Computer-Use Agents (CUAs) are an increasingly deployed class of agents that\ntake actions on GUIs to accomplish user goals. In this paper, we show that CUAs\nconsistently exhibit Blind Goal-Directedness (BGD): a bias to pursue goals\nregardless of feasibility, safety, reliability, or context. We characterize\nthree prevalent patterns of BGD: (i) lack of contextual reasoning, (ii)\nassumptions and decisions under ambiguity, and (iii) contradictory or\ninfeasible goals. We develop BLIND-ACT, a benchmark of 90 tasks capturing these\nthree patterns. Built on OSWorld, BLIND-ACT provides realistic environments and\nemploys LLM-based judges to evaluate agent behavior, achieving 93.75% agreement\nwith human annotations. We use BLIND-ACT to evaluate nine frontier models,\nincluding Claude Sonnet and Opus 4, Computer-Use-Preview, and GPT-5, observing\nhigh average BGD rates (80.8%) across them. We show that BGD exposes subtle\nrisks that arise even when inputs are not directly harmful. While\nprompting-based interventions lower BGD levels, substantial risk persists,\nhighlighting the need for stronger training- or inference-time interventions.\nQualitative analysis reveals observed failure modes: execution-first bias\n(focusing on how to act over whether to act), thought-action disconnect\n(execution diverging from reasoning), and request-primacy (justifying actions\ndue to user request). Identifying BGD and introducing BLIND-ACT establishes a\nfoundation for future research on studying and mitigating this fundamental risk\nand ensuring safe CUA deployment.",
+      "upvotes": 1,
+      "discussionId": "68df30a9df49fb0df1e03c4c",
+      "ai_summary": "Computer-Use Agents consistently exhibit Blind Goal-Directedness, a bias that leads to risky behavior regardless of feasibility or context, as demonstrated by the BLIND-ACT benchmark.",
+      "ai_keywords": [
+        "Blind Goal-Directedness",
+        "contextual reasoning",
+        "ambiguity",
+        "contradictory goals",
+        "benchmark",
+        "OSWorld",
+        "LLM-based judges",
+        "execution-first bias",
+        "thought-action disconnect",
+        "request-primacy"
+      ],
+      "organization": {
+        "_id": "5e6485f787403103f9f1055e",
+        "name": "microsoft",
+        "fullname": "Microsoft",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1583646260758-5e64858c87403103f9f1055d.png"
+      }
+    },
+    "publishedAt": "2025-10-02T00:52:15.000Z",
+    "title": "Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness",
+    "summary": "Computer-Use Agents (CUAs) are an increasingly deployed class of agents that\ntake actions on GUIs to accomplish user goals. In this paper, we show that CUAs\nconsistently exhibit Blind Goal-Directedness (BGD): a bias to pursue goals\nregardless of feasibility, safety, reliability, or context. We characterize\nthree prevalent patterns of BGD: (i) lack of contextual reasoning, (ii)\nassumptions and decisions under ambiguity, and (iii) contradictory or\ninfeasible goals. We develop BLIND-ACT, a benchmark of 90 tasks capturing these\nthree patterns. Built on OSWorld, BLIND-ACT provides realistic environments and\nemploys LLM-based judges to evaluate agent behavior, achieving 93.75% agreement\nwith human annotations. We use BLIND-ACT to evaluate nine frontier models,\nincluding Claude Sonnet and Opus 4, Computer-Use-Preview, and GPT-5, observing\nhigh average BGD rates (80.8%) across them. We show that BGD exposes subtle\nrisks that arise even when inputs are not directly harmful. While\nprompting-based interventions lower BGD levels, substantial risk persists,\nhighlighting the need for stronger training- or inference-time interventions.\nQualitative analysis reveals observed failure modes: execution-first bias\n(focusing on how to act over whether to act), thought-action disconnect\n(execution diverging from reasoning), and request-primacy (justifying actions\ndue to user request). Identifying BGD and introducing BLIND-ACT establishes a\nfoundation for future research on studying and mitigating this fundamental risk\nand ensuring safe CUA deployment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01670.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 116
+    },
+    "organization": {
+      "_id": "5e6485f787403103f9f1055e",
+      "name": "microsoft",
+      "fullname": "Microsoft",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1583646260758-5e64858c87403103f9f1055d.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2509.24304",
+      "authors": [
+        {
+          "_id": "68dc886d4159d1f2418f9a2e",
+          "name": "Zefeng He",
+          "hidden": false
+        },
+        {
+          "_id": "68dc886d4159d1f2418f9a2f",
+          "name": "Xiaoye Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68dc886d4159d1f2418f9a30",
+          "name": "Yafu Li",
+          "hidden": false
+        },
+        {
+          "_id": "68dc886d4159d1f2418f9a31",
+          "name": "Siyuan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68dc886d4159d1f2418f9a32",
+          "name": "Daizong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68dc886d4159d1f2418f9a33",
+          "name": "Yu Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-29T05:36:58.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:43:57.534Z",
+      "title": "FrameThinker: Learning to Think with Long Videos via Multi-Turn Frame\n  Spotlighting",
+      "submittedOnDailyBy": {
+        "_id": "64cb54da1af278541d663708",
+        "avatarUrl": "/avatars/c44507cc92bb2e83154bad31b90ce6dd.svg",
+        "isPro": false,
+        "fullname": "Xiaoye Qu",
+        "user": "Xiaoye08",
+        "type": "user"
+      },
+      "summary": "While Large Vision-Language Models (LVLMs) have achieved substantial progress\nin video understanding, their application to long video reasoning is hindered\nby uniform frame sampling and static textual reasoning, which are inefficient\nand struggle to handle visually intensive video tasks. To overcome these\nchallenges, in this paper, we introduce the concept of thinking with long\nvideos and propose a novel framework FrameThinker. Within this framework, LVLMs\nare able to iteratively interrogate video content. Developing such video\nreasoning capabilities in LVLMs presents notable challenges, particularly in\nadapting the model to new video actions (e.g. select frame), and designing\nreward functions to guide LVLMs to adopt the newly introduced action. To solve\nthese challenges, we propose a two-phase training strategy, first employing\nSupervised Fine-Tuning (SFT) to instill fundamental action capabilities,\nfollowed by Reinforcement Learning (RL) to optimize a strategic decision-making\npolicy. Notably, in this RL phase, we conduct an in-depth and comprehensive\nexploration of the reward design for each action and format reward. Extensive\nexperiments on reasoning benchmarks like Video-Holmes, LongVideo-Reason, and\nlong-video understanding benchmarks such as LongVideoBench, MLVU, VideoMME, and\nLVBench, demonstrate that FrameThinker achieves a significant average\nimprovement of +10.4% over baselines while drastically reducing the number of\nprocessed frames. Most notably, our 7B model, FrameThinker establishes a new\nstate-of-the-art on LongVideo-Reason, achieving 76.1% accuracy using an average\nof only 20.6 frames. This not only outperforms the competitive LongVILA-R1\n(72.0%) but does so with over 20x fewer frames (vs. 512), demonstrating\nunparalleled efficiency and effectiveness.",
+      "upvotes": 1,
+      "discussionId": "68dc886d4159d1f2418f9a34",
+      "projectPage": "https://github.com/lcqysl/FrameThinker-RL",
+      "githubRepo": "https://github.com/lcqysl/FrameThinker-RL",
+      "ai_summary": "FrameThinker, a novel framework, enhances video reasoning by iteratively interrogating video content through supervised fine-tuning and reinforcement learning, achieving significant improvements and efficiency over existing models.",
+      "ai_keywords": [
+        "Large Vision-Language Models",
+        "LVLMs",
+        "video understanding",
+        "long video reasoning",
+        "frame sampling",
+        "textual reasoning",
+        "FrameThinker",
+        "iterative interrogation",
+        "video reasoning capabilities",
+        "Supervised Fine-Tuning",
+        "SFT",
+        "Reinforcement Learning",
+        "RL",
+        "reward functions",
+        "Video-Holmes",
+        "LongVideo-Reason",
+        "LongVideoBench",
+        "MLVU",
+        "VideoMME",
+        "LVBench",
+        "LongVILA-R1"
+      ],
+      "githubStars": 7
+    },
+    "publishedAt": "2025-09-29T01:36:58.000Z",
+    "title": "FrameThinker: Learning to Think with Long Videos via Multi-Turn Frame\n  Spotlighting",
+    "summary": "While Large Vision-Language Models (LVLMs) have achieved substantial progress\nin video understanding, their application to long video reasoning is hindered\nby uniform frame sampling and static textual reasoning, which are inefficient\nand struggle to handle visually intensive video tasks. To overcome these\nchallenges, in this paper, we introduce the concept of thinking with long\nvideos and propose a novel framework FrameThinker. Within this framework, LVLMs\nare able to iteratively interrogate video content. Developing such video\nreasoning capabilities in LVLMs presents notable challenges, particularly in\nadapting the model to new video actions (e.g. select frame), and designing\nreward functions to guide LVLMs to adopt the newly introduced action. To solve\nthese challenges, we propose a two-phase training strategy, first employing\nSupervised Fine-Tuning (SFT) to instill fundamental action capabilities,\nfollowed by Reinforcement Learning (RL) to optimize a strategic decision-making\npolicy. Notably, in this RL phase, we conduct an in-depth and comprehensive\nexploration of the reward design for each action and format reward. Extensive\nexperiments on reasoning benchmarks like Video-Holmes, LongVideo-Reason, and\nlong-video understanding benchmarks such as LongVideoBench, MLVU, VideoMME, and\nLVBench, demonstrate that FrameThinker achieves a significant average\nimprovement of +10.4% over baselines while drastically reducing the number of\nprocessed frames. Most notably, our 7B model, FrameThinker establishes a new\nstate-of-the-art on LongVideo-Reason, achieving 76.1% accuracy using an average\nof only 20.6 frames. This not only outperforms the competitive LongVILA-R1\n(72.0%) but does so with over 20x fewer frames (vs. 512), demonstrating\nunparalleled efficiency and effectiveness.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.24304.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "64cb54da1af278541d663708",
+      "avatarUrl": "/avatars/c44507cc92bb2e83154bad31b90ce6dd.svg",
+      "fullname": "Xiaoye Qu",
+      "name": "Xiaoye08",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01241",
+      "authors": [
+        {
+          "_id": "68df2f6edf49fb0df1e03c26",
+          "name": "Hu Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c27",
+          "name": "Ze Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c28",
+          "name": "Boyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c29",
+          "name": "Linlin Miao",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c2a",
+          "name": "Weiqi Zhai",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c2b",
+          "name": "Yihan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c2c",
+          "name": "Zixuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c2d",
+          "name": "Zhijun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c2e",
+          "name": "Boya Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c2f",
+          "name": "Jianwei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c30",
+          "name": "Jialing Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c31",
+          "name": "Xiaoyue Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c32",
+          "name": "Cheng He",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c33",
+          "name": "Minglei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c34",
+          "name": "Zifan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c35",
+          "name": "Qianhui Li",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c36",
+          "name": "Wei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2f6edf49fb0df1e03c37",
+          "name": "Xiang Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-24T02:09:32.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:36:10.446Z",
+      "title": "SKYLENAGE Technical Report: Mathematical Reasoning and\n  Contest-Innovation Benchmarks for Multi-Level Math Evaluation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) now perform strongly on many public math suites,\nyet frontier separation within mathematics increasingly suffers from ceiling\neffects. We present two complementary benchmarks: SKYLENAGE-ReasoningMATH, a\n100-item, structure-aware diagnostic set with per-item metadata on length,\nnumeric density, and symbolic complexity; and SKYLENAGE-MATH, a 150-item\ncontest-style suite spanning four stages from high school to doctoral under a\nseven-subject taxonomy. We evaluate fifteen contemporary LLM variants under a\nsingle setup and analyze subject x model and grade x model performance. On the\ncontest suite, the strongest model reaches 44% while the runner-up reaches 37%;\naccuracy declines from high school to doctoral, and top systems exhibit a\ndoctoral-to-high-school retention near 79%. On the reasoning set, the best\nmodel attains 81% overall, and hardest-slice results reveal clear robustness\ngaps between leaders and the mid-tier. In summary, we release\nSKYLENAGE-ReasoningMATH and report aggregate results for SKYLENAGE-MATH;\ntogether, SKYLENAGE provides a hard, reasoning-centered and broadly covering\nmath benchmark with calibrated difficulty and rich metadata, serving as a\nreference benchmark for future evaluations of mathematical reasoning.",
+      "upvotes": 1,
+      "discussionId": "68df2f6edf49fb0df1e03c38",
+      "ai_summary": "SKYLENAGE benchmarks evaluate LLMs on math reasoning, revealing performance gaps and ceiling effects across different educational levels.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "SKYLENAGE-ReasoningMATH",
+        "SKYLENAGE-MATH",
+        "structure-aware diagnostic set",
+        "numeric density",
+        "symbolic complexity",
+        "contest-style suite",
+        "subject x model performance",
+        "grade x model performance",
+        "mathematical reasoning"
+      ]
+    },
+    "publishedAt": "2025-09-23T22:09:32.000Z",
+    "title": "SKYLENAGE Technical Report: Mathematical Reasoning and\n  Contest-Innovation Benchmarks for Multi-Level Math Evaluation",
+    "summary": "Large language models (LLMs) now perform strongly on many public math suites,\nyet frontier separation within mathematics increasingly suffers from ceiling\neffects. We present two complementary benchmarks: SKYLENAGE-ReasoningMATH, a\n100-item, structure-aware diagnostic set with per-item metadata on length,\nnumeric density, and symbolic complexity; and SKYLENAGE-MATH, a 150-item\ncontest-style suite spanning four stages from high school to doctoral under a\nseven-subject taxonomy. We evaluate fifteen contemporary LLM variants under a\nsingle setup and analyze subject x model and grade x model performance. On the\ncontest suite, the strongest model reaches 44% while the runner-up reaches 37%;\naccuracy declines from high school to doctoral, and top systems exhibit a\ndoctoral-to-high-school retention near 79%. On the reasoning set, the best\nmodel attains 81% overall, and hardest-slice results reveal clear robustness\ngaps between leaders and the mid-tier. In summary, we release\nSKYLENAGE-ReasoningMATH and report aggregate results for SKYLENAGE-MATH;\ntogether, SKYLENAGE provides a hard, reasoning-centered and broadly covering\nmath benchmark with calibrated difficulty and rich metadata, serving as a\nreference benchmark for future evaluations of mathematical reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01241.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 116
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00428",
+      "authors": [
+        {
+          "_id": "68de602e70ada21878c74fff",
+          "name": "Seongjae Kang",
+          "hidden": false
+        },
+        {
+          "_id": "68de602e70ada21878c75000",
+          "name": "Dong Bok Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68de602e70ada21878c75001",
+          "name": "Juho Jung",
+          "hidden": false
+        },
+        {
+          "_id": "68de602e70ada21878c75002",
+          "name": "Dongseop Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68de602e70ada21878c75003",
+          "name": "Won Hwa Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68de602e70ada21878c75004",
+          "name": "Sunghoon Joo",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T02:14:23.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:40:30.421Z",
+      "title": "Automated Structured Radiology Report Generation with Rich Clinical\n  Context",
+      "submittedOnDailyBy": {
+        "_id": "6357a08f8ed056fa1ccd3b38",
+        "avatarUrl": "/avatars/07d4ca8f3197a6945ad71e6150801135.svg",
+        "isPro": false,
+        "fullname": "Seongjae Kang",
+        "user": "erjui",
+        "type": "user"
+      },
+      "summary": "Automated structured radiology report generation (SRRG) from chest X-ray\nimages offers significant potential to reduce workload of radiologists by\ngenerating reports in structured formats that ensure clarity, consistency, and\nadherence to clinical reporting standards. While radiologists effectively\nutilize available clinical contexts in their diagnostic reasoning, existing\nSRRG systems overlook these essential elements. This fundamental gap leads to\ncritical problems including temporal hallucinations when referencing\nnon-existent clinical contexts. To address these limitations, we propose\ncontextualized SRRG (C-SRRG) that comprehensively incorporates rich clinical\ncontext for SRRG. We curate C-SRRG dataset by integrating comprehensive\nclinical context encompassing 1) multi-view X-ray images, 2) clinical\nindication, 3) imaging techniques, and 4) prior studies with corresponding\ncomparisons based on patient histories. Through extensive benchmarking with\nstate-of-the-art multimodal large language models, we demonstrate that\nincorporating clinical context with the proposed C-SRRG significantly improves\nreport generation quality. We publicly release dataset, code, and checkpoints\nto facilitate future research for clinically-aligned automated RRG at\nhttps://github.com/vuno/contextualized-srrg.",
+      "upvotes": 0,
+      "discussionId": "68de602e70ada21878c75005",
+      "ai_summary": "Incorporating clinical context into automated structured radiology report generation improves report quality by addressing temporal hallucinations and utilizing comprehensive patient data.",
+      "ai_keywords": [
+        "structured radiology report generation",
+        "chest X-ray images",
+        "clinical context",
+        "temporal hallucinations",
+        "multimodal large language models",
+        "multi-view X-ray images",
+        "clinical indication",
+        "imaging techniques",
+        "prior studies",
+        "patient histories"
+      ]
+    },
+    "publishedAt": "2025-09-30T22:14:23.000Z",
+    "title": "Automated Structured Radiology Report Generation with Rich Clinical\n  Context",
+    "summary": "Automated structured radiology report generation (SRRG) from chest X-ray\nimages offers significant potential to reduce workload of radiologists by\ngenerating reports in structured formats that ensure clarity, consistency, and\nadherence to clinical reporting standards. While radiologists effectively\nutilize available clinical contexts in their diagnostic reasoning, existing\nSRRG systems overlook these essential elements. This fundamental gap leads to\ncritical problems including temporal hallucinations when referencing\nnon-existent clinical contexts. To address these limitations, we propose\ncontextualized SRRG (C-SRRG) that comprehensively incorporates rich clinical\ncontext for SRRG. We curate C-SRRG dataset by integrating comprehensive\nclinical context encompassing 1) multi-view X-ray images, 2) clinical\nindication, 3) imaging techniques, and 4) prior studies with corresponding\ncomparisons based on patient histories. Through extensive benchmarking with\nstate-of-the-art multimodal large language models, we demonstrate that\nincorporating clinical context with the proposed C-SRRG significantly improves\nreport generation quality. We publicly release dataset, code, and checkpoints\nto facilitate future research for clinically-aligned automated RRG at\nhttps://github.com/vuno/contextualized-srrg.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00428.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6357a08f8ed056fa1ccd3b38",
+      "avatarUrl": "/avatars/07d4ca8f3197a6945ad71e6150801135.svg",
+      "fullname": "Seongjae Kang",
+      "name": "erjui",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.00352",
+      "authors": [
+        {
+          "_id": "68df2768df49fb0df1e03bb2",
+          "name": "Tong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68df2768df49fb0df1e03bb3",
+          "name": "Yinuo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68df2768df49fb0df1e03bb4",
+          "name": "Pranam Chatterjee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-30T23:33:33.000Z",
+      "submittedOnDailyAt": "2025-10-03T00:01:57.991Z",
+      "title": "AReUReDi: Annealed Rectified Updates for Refining Discrete Flows with\n  Multi-Objective Guidance",
+      "submittedOnDailyBy": {
+        "_id": "64cd5b3f0494187a9e8b7c69",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/eo9HiGbvCxHQZ-QJB1Y_o.jpeg",
+        "isPro": false,
+        "fullname": "Pranam Chatterjee",
+        "user": "pranamanam",
+        "type": "user"
+      },
+      "summary": "Designing sequences that satisfy multiple, often conflicting, objectives is a\ncentral challenge in therapeutic and biomolecular engineering. Existing\ngenerative frameworks largely operate in continuous spaces with\nsingle-objective guidance, while discrete approaches lack guarantees for\nmulti-objective Pareto optimality. We introduce AReUReDi (Annealed Rectified\nUpdates for Refining Discrete Flows), a discrete optimization algorithm with\ntheoretical guarantees of convergence to the Pareto front. Building on\nRectified Discrete Flows (ReDi), AReUReDi combines Tchebycheff scalarization,\nlocally balanced proposals, and annealed Metropolis-Hastings updates to bias\nsampling toward Pareto-optimal states while preserving distributional\ninvariance. Applied to peptide and SMILES sequence design, AReUReDi\nsimultaneously optimizes up to five therapeutic properties (including affinity,\nsolubility, hemolysis, half-life, and non-fouling) and outperforms both\nevolutionary and diffusion-based baselines. These results establish AReUReDi as\na powerful, sequence-based framework for multi-property biomolecule generation.",
+      "upvotes": 0,
+      "discussionId": "68df2768df49fb0df1e03bb5",
+      "ai_summary": "AReUReDi, a discrete optimization algorithm, achieves Pareto optimality in multi-objective biomolecule sequence design, outperforming evolutionary and diffusion-based methods.",
+      "ai_keywords": [
+        "Rectified Discrete Flows",
+        "Tchebycheff scalarization",
+        "locally balanced proposals",
+        "annealed Metropolis-Hastings updates",
+        "Pareto front",
+        "peptide design",
+        "SMILES sequence design",
+        "affinity",
+        "solubility",
+        "hemolysis",
+        "half-life",
+        "non-fouling"
+      ]
+    },
+    "publishedAt": "2025-09-30T19:33:33.000Z",
+    "title": "AReUReDi: Annealed Rectified Updates for Refining Discrete Flows with\n  Multi-Objective Guidance",
+    "summary": "Designing sequences that satisfy multiple, often conflicting, objectives is a\ncentral challenge in therapeutic and biomolecular engineering. Existing\ngenerative frameworks largely operate in continuous spaces with\nsingle-objective guidance, while discrete approaches lack guarantees for\nmulti-objective Pareto optimality. We introduce AReUReDi (Annealed Rectified\nUpdates for Refining Discrete Flows), a discrete optimization algorithm with\ntheoretical guarantees of convergence to the Pareto front. Building on\nRectified Discrete Flows (ReDi), AReUReDi combines Tchebycheff scalarization,\nlocally balanced proposals, and annealed Metropolis-Hastings updates to bias\nsampling toward Pareto-optimal states while preserving distributional\ninvariance. Applied to peptide and SMILES sequence design, AReUReDi\nsimultaneously optimizes up to five therapeutic properties (including affinity,\nsolubility, hemolysis, half-life, and non-fouling) and outperforms both\nevolutionary and diffusion-based baselines. These results establish AReUReDi as\na powerful, sequence-based framework for multi-property biomolecule generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00352.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64cd5b3f0494187a9e8b7c69",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/eo9HiGbvCxHQZ-QJB1Y_o.jpeg",
+      "fullname": "Pranam Chatterjee",
+      "name": "pranamanam",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  }
+]
