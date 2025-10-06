@@ -1,0 +1,700 @@
+[
+  {
+    "paper": {
+      "id": "2510.01068",
+      "authors": [
+        {
+          "_id": "68de0d466024653e8a3ed16f",
+          "name": "Jiahang Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed170",
+          "name": "Yize Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed171",
+          "name": "Hanzhong Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed172",
+          "name": "Rui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed173",
+          "name": "Mu Nan",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed174",
+          "name": "Weijian Mai",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed175",
+          "name": "Jiaxu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed176",
+          "name": "Hao Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed177",
+          "name": "Jingkai Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed178",
+          "name": "Gang Han",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed179",
+          "name": "Wen Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed17a",
+          "name": "Qiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed17b",
+          "name": "Yijie Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed17c",
+          "name": "Qihao Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed17d",
+          "name": "Chunfeng Song",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed17e",
+          "name": "Xiao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed17f",
+          "name": "Ping Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68de0d466024653e8a3ed180",
+          "name": "Andrew F. Luo",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64780ba6f32a4117fd182b81/bsb_536O8r19Ocb6K03Ww.png"
+      ],
+      "publishedAt": "2025-10-01T16:05:53.000Z",
+      "submittedOnDailyAt": "2025-10-06T00:35:20.824Z",
+      "title": "Compose Your Policies! Improving Diffusion-based or Flow-based Robot\n  Policies via Test-time Distribution-level Composition",
+      "submittedOnDailyBy": {
+        "_id": "64780ba6f32a4117fd182b81",
+        "avatarUrl": "/avatars/85f01f4c6c745a04f04805462f9fe9c2.svg",
+        "isPro": false,
+        "fullname": "CAO",
+        "user": "SAGE2000",
+        "type": "user"
+      },
+      "summary": "Diffusion-based models for robotic control, including vision-language-action\n(VLA) and vision-action (VA) policies, have demonstrated significant\ncapabilities. Yet their advancement is constrained by the high cost of\nacquiring large-scale interaction datasets. This work introduces an alternative\nparadigm for enhancing policy performance without additional model training.\nPerhaps surprisingly, we demonstrate that the composed policies can exceed the\nperformance of either parent policy. Our contribution is threefold. First, we\nestablish a theoretical foundation showing that the convex composition of\ndistributional scores from multiple diffusion models can yield a superior\none-step functional objective compared to any individual score. A\nGr\\\"onwall-type bound is then used to show that this single-step improvement\npropagates through entire generation trajectories, leading to systemic\nperformance gains. Second, motivated by these results, we propose General\nPolicy Composition (GPC), a training-free method that enhances performance by\ncombining the distributional scores of multiple pre-trained policies via a\nconvex combination and test-time search. GPC is versatile, allowing for the\nplug-and-play composition of heterogeneous policies, including VA and VLA\nmodels, as well as those based on diffusion or flow-matching, irrespective of\ntheir input visual modalities. Third, we provide extensive empirical\nvalidation. Experiments on Robomimic, PushT, and RoboTwin benchmarks, alongside\nreal-world robotic evaluations, confirm that GPC consistently improves\nperformance and adaptability across a diverse set of tasks. Further analysis of\nalternative composition operators and weighting strategies offers insights into\nthe mechanisms underlying the success of GPC. These results establish GPC as a\nsimple yet effective method for improving control performance by leveraging\nexisting policies.",
+      "upvotes": 3,
+      "discussionId": "68de0d476024653e8a3ed181",
+      "projectPage": "https://sagecao1125.github.io/GPC-Site/",
+      "githubRepo": "https://github.com/SageCao1125/GPC",
+      "ai_summary": "General Policy Composition (GPC) enhances robotic control performance by combining pre-trained diffusion-based policies without additional training, leading to superior results across various benchmarks.",
+      "ai_keywords": [
+        "diffusion-based models",
+        "vision-language-action",
+        "vision-action",
+        "distributional scores",
+        "convex composition",
+        "Gr\\\"onwall-type bound",
+        "General Policy Composition",
+        "GPC",
+        "pre-trained policies",
+        "Robomimic",
+        "PushT",
+        "RoboTwin",
+        "real-world robotic evaluations"
+      ],
+      "githubStars": 4,
+      "organization": {
+        "_id": "67ea9ecfc234715db8dbf339",
+        "name": "hkuhk",
+        "fullname": "The University of Hong Kong",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67ea9e8d2d95c10a0da11b0c/FNnR4M7YqKRuG43N5771B.png"
+      }
+    },
+    "publishedAt": "2025-10-01T12:05:53.000Z",
+    "title": "Compose Your Policies! Improving Diffusion-based or Flow-based Robot\n  Policies via Test-time Distribution-level Composition",
+    "summary": "Diffusion-based models for robotic control, including vision-language-action\n(VLA) and vision-action (VA) policies, have demonstrated significant\ncapabilities. Yet their advancement is constrained by the high cost of\nacquiring large-scale interaction datasets. This work introduces an alternative\nparadigm for enhancing policy performance without additional model training.\nPerhaps surprisingly, we demonstrate that the composed policies can exceed the\nperformance of either parent policy. Our contribution is threefold. First, we\nestablish a theoretical foundation showing that the convex composition of\ndistributional scores from multiple diffusion models can yield a superior\none-step functional objective compared to any individual score. A\nGr\\\"onwall-type bound is then used to show that this single-step improvement\npropagates through entire generation trajectories, leading to systemic\nperformance gains. Second, motivated by these results, we propose General\nPolicy Composition (GPC), a training-free method that enhances performance by\ncombining the distributional scores of multiple pre-trained policies via a\nconvex combination and test-time search. GPC is versatile, allowing for the\nplug-and-play composition of heterogeneous policies, including VA and VLA\nmodels, as well as those based on diffusion or flow-matching, irrespective of\ntheir input visual modalities. Third, we provide extensive empirical\nvalidation. Experiments on Robomimic, PushT, and RoboTwin benchmarks, alongside\nreal-world robotic evaluations, confirm that GPC consistently improves\nperformance and adaptability across a diverse set of tasks. Further analysis of\nalternative composition operators and weighting strategies offers insights into\nthe mechanisms underlying the success of GPC. These results establish GPC as a\nsimple yet effective method for improving control performance by leveraging\nexisting policies.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64780ba6f32a4117fd182b81/bsb_536O8r19Ocb6K03Ww.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01068.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "64780ba6f32a4117fd182b81",
+      "avatarUrl": "/avatars/85f01f4c6c745a04f04805462f9fe9c2.svg",
+      "fullname": "CAO",
+      "name": "SAGE2000",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "organization": {
+      "_id": "67ea9ecfc234715db8dbf339",
+      "name": "hkuhk",
+      "fullname": "The University of Hong Kong",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67ea9e8d2d95c10a0da11b0c/FNnR4M7YqKRuG43N5771B.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.02665",
+      "authors": [
+        {
+          "_id": "68e31d5073e20ab577841f93",
+          "name": "Shijian Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68e31d5073e20ab577841f94",
+          "name": "Kai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e31d5073e20ab577841f95",
+          "name": "Tianyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68e31d5073e20ab577841f96",
+          "name": "Harsh Singh",
+          "hidden": false
+        },
+        {
+          "_id": "68e31d5073e20ab577841f97",
+          "name": "Yapeng Tian",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-03T01:48:26.000Z",
+      "submittedOnDailyAt": "2025-10-06T00:10:23.995Z",
+      "title": "Self-Improvement in Multimodal Large Language Models: A Survey",
+      "submittedOnDailyBy": {
+        "_id": "668bafa02c3897266dcbacd0",
+        "avatarUrl": "/avatars/ef41cd4a855ebbe6efc79f34c38ef136.svg",
+        "isPro": false,
+        "fullname": "Shijian Deng",
+        "user": "ShijianDeng",
+        "type": "user"
+      },
+      "summary": "Recent advancements in self-improvement for Large Language Models (LLMs) have\nefficiently enhanced model capabilities without significantly increasing costs,\nparticularly in terms of human effort. While this area is still relatively\nyoung, its extension to the multimodal domain holds immense potential for\nleveraging diverse data sources and developing more general self-improving\nmodels. This survey is the first to provide a comprehensive overview of\nself-improvement in Multimodal LLMs (MLLMs). We provide a structured overview\nof the current literature and discuss methods from three perspectives: 1) data\ncollection, 2) data organization, and 3) model optimization, to facilitate the\nfurther development of self-improvement in MLLMs. We also include commonly used\nevaluations and downstream applications. Finally, we conclude by outlining open\nchallenges and future research directions.",
+      "upvotes": 2,
+      "discussionId": "68e31d5073e20ab577841f98",
+      "ai_summary": "A survey of self-improvement methods in Multimodal Large Language Models (MLLMs) from data collection, organization, and model optimization perspectives.",
+      "ai_keywords": [
+        "Large Language Models",
+        "Multimodal LLMs",
+        "self-improvement",
+        "data collection",
+        "data organization",
+        "model optimization",
+        "evaluations",
+        "downstream applications",
+        "open challenges",
+        "future research directions"
+      ]
+    },
+    "publishedAt": "2025-10-02T21:48:26.000Z",
+    "title": "Self-Improvement in Multimodal Large Language Models: A Survey",
+    "summary": "Recent advancements in self-improvement for Large Language Models (LLMs) have\nefficiently enhanced model capabilities without significantly increasing costs,\nparticularly in terms of human effort. While this area is still relatively\nyoung, its extension to the multimodal domain holds immense potential for\nleveraging diverse data sources and developing more general self-improving\nmodels. This survey is the first to provide a comprehensive overview of\nself-improvement in Multimodal LLMs (MLLMs). We provide a structured overview\nof the current literature and discuss methods from three perspectives: 1) data\ncollection, 2) data organization, and 3) model optimization, to facilitate the\nfurther development of self-improvement in MLLMs. We also include commonly used\nevaluations and downstream applications. Finally, we conclude by outlining open\nchallenges and future research directions.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02665.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "668bafa02c3897266dcbacd0",
+      "avatarUrl": "/avatars/ef41cd4a855ebbe6efc79f34c38ef136.svg",
+      "fullname": "Shijian Deng",
+      "name": "ShijianDeng",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.03230",
+      "authors": [
+        {
+          "_id": "68e31e7c73e20ab577841f9f",
+          "name": "Suyuchen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e31e7c73e20ab577841fa0",
+          "name": "Tianyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68e31e7c73e20ab577841fa1",
+          "name": "Ahmed Masry",
+          "hidden": false
+        },
+        {
+          "_id": "68e31e7c73e20ab577841fa2",
+          "name": "Christopher Pal",
+          "hidden": false
+        },
+        {
+          "_id": "68e31e7c73e20ab577841fa3",
+          "name": "Spandana Gella",
+          "hidden": false
+        },
+        {
+          "_id": "68e31e7c73e20ab577841fa4",
+          "name": "Bang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68e31e7c73e20ab577841fa5",
+          "name": "Perouz Taslakian",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-03T17:59:34.000Z",
+      "submittedOnDailyAt": "2025-10-06T00:12:29.606Z",
+      "title": "Improving GUI Grounding with Explicit Position-to-Coordinate Mapping",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "GUI grounding, the task of mapping natural-language instructions to pixel\ncoordinates, is crucial for autonomous agents, yet remains difficult for\ncurrent VLMs. The core bottleneck is reliable patch-to-pixel mapping, which\nbreaks when extrapolating to high-resolution displays unseen during training.\nCurrent approaches generate coordinates as text tokens directly from visual\nfeatures, forcing the model to infer complex position-to-pixel mappings\nimplicitly; as a result, accuracy degrades and failures proliferate on new\nresolutions. We address this with two complementary innovations. First, RULER\ntokens serve as explicit coordinate markers, letting the model reference\npositions similar to gridlines on a map and adjust rather than generate\ncoordinates from scratch. Second, Interleaved MRoPE (I-MRoPE) improves spatial\nencoding by ensuring that width and height dimensions are represented equally,\naddressing the asymmetry of standard positional schemes. Experiments on\nScreenSpot, ScreenSpot-V2, and ScreenSpot-Pro show consistent gains in\ngrounding accuracy, with the largest improvements on high-resolution\ninterfaces. By providing explicit spatial guidance rather than relying on\nimplicit learning, our approach enables more reliable GUI automation across\ndiverse resolutions and platforms.",
+      "upvotes": 1,
+      "discussionId": "68e31e7c73e20ab577841fa6",
+      "ai_summary": "Explicit coordinate markers and improved spatial encoding enhance GUI grounding accuracy across diverse resolutions and platforms.",
+      "ai_keywords": [
+        "RULER tokens",
+        "Interleaved MRoPE",
+        "I-MRoPE",
+        "spatial encoding",
+        "GUI grounding",
+        "ScreenSpot",
+        "ScreenSpot-V2",
+        "ScreenSpot-Pro"
+      ]
+    },
+    "publishedAt": "2025-10-03T13:59:34.000Z",
+    "title": "Improving GUI Grounding with Explicit Position-to-Coordinate Mapping",
+    "summary": "GUI grounding, the task of mapping natural-language instructions to pixel\ncoordinates, is crucial for autonomous agents, yet remains difficult for\ncurrent VLMs. The core bottleneck is reliable patch-to-pixel mapping, which\nbreaks when extrapolating to high-resolution displays unseen during training.\nCurrent approaches generate coordinates as text tokens directly from visual\nfeatures, forcing the model to infer complex position-to-pixel mappings\nimplicitly; as a result, accuracy degrades and failures proliferate on new\nresolutions. We address this with two complementary innovations. First, RULER\ntokens serve as explicit coordinate markers, letting the model reference\npositions similar to gridlines on a map and adjust rather than generate\ncoordinates from scratch. Second, Interleaved MRoPE (I-MRoPE) improves spatial\nencoding by ensuring that width and height dimensions are represented equally,\naddressing the asymmetry of standard positional schemes. Experiments on\nScreenSpot, ScreenSpot-V2, and ScreenSpot-Pro show consistent gains in\ngrounding accuracy, with the largest improvements on high-resolution\ninterfaces. By providing explicit spatial guidance rather than relying on\nimplicit learning, our approach enables more reliable GUI automation across\ndiverse resolutions and platforms.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.03230.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 119
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.03120",
+      "authors": [
+        {
+          "_id": "68e322c073e20ab577841fbb",
+          "name": "Zhaojun Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68e322c073e20ab577841fbc",
+          "name": "Xuzhou Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68e322c073e20ab577841fbd",
+          "name": "Xuanhe Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68e322c073e20ab577841fbe",
+          "name": "Xin Tong",
+          "hidden": false
+        },
+        {
+          "_id": "68e322c073e20ab577841fbf",
+          "name": "Shuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e322c073e20ab577841fc0",
+          "name": "Jie Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68e322c073e20ab577841fc1",
+          "name": "Guoliang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e322c073e20ab577841fc2",
+          "name": "Zhiyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68e322c073e20ab577841fc3",
+          "name": "Fan Wu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-03T15:49:09.000Z",
+      "submittedOnDailyAt": "2025-10-06T00:30:41.651Z",
+      "title": "SurveyBench: How Well Can LLM(-Agents) Write Academic Surveys?",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Academic survey writing, which distills vast literature into a coherent and\ninsightful narrative, remains a labor-intensive and intellectually demanding\ntask. While recent approaches, such as general DeepResearch agents and\nsurvey-specialized methods, can generate surveys automatically (a.k.a.\nLLM4Survey), their outputs often fall short of human standards and there lacks\na rigorous, reader-aligned benchmark for thoroughly revealing their\ndeficiencies. To fill the gap, we propose a fine-grained, quiz-driven\nevaluation framework SurveyBench, featuring (1) typical survey topics source\nfrom recent 11,343 arXiv papers and corresponding 4,947 high-quality surveys;\n(2) a multifaceted metric hierarchy that assesses the outline quality (e.g.,\ncoverage breadth, logical coherence), content quality (e.g., synthesis\ngranularity, clarity of insights), and non-textual richness; and (3) a\ndual-mode evaluation protocol that includes content-based and quiz-based\nanswerability tests, explicitly aligned with readers' informational needs.\nResults show SurveyBench effectively challenges existing LLM4Survey approaches\n(e.g., on average 21% lower than human in content-based evaluation).",
+      "upvotes": 1,
+      "discussionId": "68e322c073e20ab577841fc4",
+      "ai_summary": "A new evaluation framework, SurveyBench, assesses the quality of automatically generated academic surveys using a quiz-driven approach, revealing deficiencies in current LLM4Survey methods.",
+      "ai_keywords": [
+        "DeepResearch agents",
+        "LLM4Survey",
+        "SurveyBench",
+        "arXiv papers",
+        "high-quality surveys",
+        "outline quality",
+        "content quality",
+        "synthesis granularity",
+        "logical coherence",
+        "non-textual richness",
+        "content-based evaluation",
+        "quiz-based evaluation"
+      ]
+    },
+    "publishedAt": "2025-10-03T11:49:09.000Z",
+    "title": "SurveyBench: How Well Can LLM(-Agents) Write Academic Surveys?",
+    "summary": "Academic survey writing, which distills vast literature into a coherent and\ninsightful narrative, remains a labor-intensive and intellectually demanding\ntask. While recent approaches, such as general DeepResearch agents and\nsurvey-specialized methods, can generate surveys automatically (a.k.a.\nLLM4Survey), their outputs often fall short of human standards and there lacks\na rigorous, reader-aligned benchmark for thoroughly revealing their\ndeficiencies. To fill the gap, we propose a fine-grained, quiz-driven\nevaluation framework SurveyBench, featuring (1) typical survey topics source\nfrom recent 11,343 arXiv papers and corresponding 4,947 high-quality surveys;\n(2) a multifaceted metric hierarchy that assesses the outline quality (e.g.,\ncoverage breadth, logical coherence), content quality (e.g., synthesis\ngranularity, clarity of insights), and non-textual richness; and (3) a\ndual-mode evaluation protocol that includes content-based and quiz-based\nanswerability tests, explicitly aligned with readers' informational needs.\nResults show SurveyBench effectively challenges existing LLM4Survey approaches\n(e.g., on average 21% lower than human in content-based evaluation).",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.03120.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 119
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.02571",
+      "authors": [
+        {
+          "_id": "68e31f7073e20ab577841fb6",
+          "name": "Zhiting Mei",
+          "hidden": false
+        },
+        {
+          "_id": "68e31f7073e20ab577841fb7",
+          "name": "Ola Shorinwa",
+          "hidden": false
+        },
+        {
+          "_id": "68e31f7073e20ab577841fb8",
+          "name": "Anirudha Majumdar",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T21:20:41.000Z",
+      "submittedOnDailyAt": "2025-10-06T00:16:32.486Z",
+      "title": "How Confident are Video Models? Empowering Video Models to Express their\n  Uncertainty",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Generative video models demonstrate impressive text-to-video capabilities,\nspurring widespread adoption in many real-world applications. However, like\nlarge language models (LLMs), video generation models tend to hallucinate,\nproducing plausible videos even when they are factually wrong. Although\nuncertainty quantification (UQ) of LLMs has been extensively studied in prior\nwork, no UQ method for video models exists, raising critical safety concerns.\nTo our knowledge, this paper represents the first work towards quantifying the\nuncertainty of video models. We present a framework for uncertainty\nquantification of generative video models, consisting of: (i) a metric for\nevaluating the calibration of video models based on robust rank correlation\nestimation with no stringent modeling assumptions; (ii) a black-box UQ method\nfor video models (termed S-QUBED), which leverages latent modeling to\nrigorously decompose predictive uncertainty into its aleatoric and epistemic\ncomponents; and (iii) a UQ dataset to facilitate benchmarking calibration in\nvideo models. By conditioning the generation task in the latent space, we\ndisentangle uncertainty arising due to vague task specifications from that\narising from lack of knowledge. Through extensive experiments on benchmark\nvideo datasets, we demonstrate that S-QUBED computes calibrated total\nuncertainty estimates that are negatively correlated with the task accuracy and\neffectively computes the aleatoric and epistemic constituents.",
+      "upvotes": 1,
+      "discussionId": "68e31f7073e20ab577841fb9",
+      "projectPage": "https://s-qubed.github.io/",
+      "githubRepo": "https://github.com/irom-princeton/s-qubed",
+      "ai_summary": "A framework for uncertainty quantification in generative video models is introduced, including a metric for calibration, a black-box method called S-QUBED, and a benchmark dataset, demonstrating improved uncertainty estimates and task accuracy.",
+      "ai_keywords": [
+        "generative video models",
+        "text-to-video",
+        "uncertainty quantification",
+        "UQ",
+        "large language models",
+        "LLMs",
+        "robust rank correlation estimation",
+        "latent modeling",
+        "aleatoric uncertainty",
+        "epistemic uncertainty",
+        "latent space",
+        "benchmark video datasets"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2025-10-02T17:20:41.000Z",
+    "title": "How Confident are Video Models? Empowering Video Models to Express their\n  Uncertainty",
+    "summary": "Generative video models demonstrate impressive text-to-video capabilities,\nspurring widespread adoption in many real-world applications. However, like\nlarge language models (LLMs), video generation models tend to hallucinate,\nproducing plausible videos even when they are factually wrong. Although\nuncertainty quantification (UQ) of LLMs has been extensively studied in prior\nwork, no UQ method for video models exists, raising critical safety concerns.\nTo our knowledge, this paper represents the first work towards quantifying the\nuncertainty of video models. We present a framework for uncertainty\nquantification of generative video models, consisting of: (i) a metric for\nevaluating the calibration of video models based on robust rank correlation\nestimation with no stringent modeling assumptions; (ii) a black-box UQ method\nfor video models (termed S-QUBED), which leverages latent modeling to\nrigorously decompose predictive uncertainty into its aleatoric and epistemic\ncomponents; and (iii) a UQ dataset to facilitate benchmarking calibration in\nvideo models. By conditioning the generation task in the latent space, we\ndisentangle uncertainty arising due to vague task specifications from that\narising from lack of knowledge. Through extensive experiments on benchmark\nvideo datasets, we demonstrate that S-QUBED computes calibrated total\nuncertainty estimates that are negatively correlated with the task accuracy and\neffectively computes the aleatoric and epistemic constituents.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.02571.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 119
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01879",
+      "authors": [
+        {
+          "_id": "68e322f873e20ab577841fc6",
+          "name": "Yisu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e322f873e20ab577841fc7",
+          "name": "Ming Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e322f873e20ab577841fc8",
+          "name": "Haoyuan Song",
+          "hidden": false
+        },
+        {
+          "_id": "68e322f873e20ab577841fc9",
+          "name": "Wenjie Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68e322f873e20ab577841fca",
+          "name": "Chaozheng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e322f873e20ab577841fcb",
+          "name": "Yi Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68e322f873e20ab577841fcc",
+          "name": "Xuming Ran",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-02T10:35:39.000Z",
+      "submittedOnDailyAt": "2025-10-06T00:50:36.906Z",
+      "title": "REPAIR: Robust Editing via Progressive Adaptive Intervention and\n  Reintegration",
+      "submittedOnDailyBy": {
+        "_id": "644378a96cea0db46dc96b39",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644378a96cea0db46dc96b39/wjGNaXjfhSdWr8kM6Amai.jpeg",
+        "isPro": false,
+        "fullname": "Ming Wang",
+        "user": "sci-m-wang",
+        "type": "user"
+      },
+      "summary": "Post-training for large language models (LLMs) is constrained by the high\ncost of acquiring new knowledge or correcting errors and by the unintended side\neffects that frequently arise from retraining. To address these issues, we\nintroduce REPAIR (Robust Editing via Progressive Adaptive Intervention and\nReintegration), a lifelong editing framework designed to support precise and\nlow-cost model updates while preserving non-target knowledge. REPAIR mitigates\nthe instability and conflicts of large-scale sequential edits through a\nclosed-loop feedback mechanism coupled with dynamic memory management.\nFurthermore, by incorporating frequent knowledge fusion and enforcing strong\nlocality guards, REPAIR effectively addresses the shortcomings of traditional\ndistribution-agnostic approaches that often overlook unintended ripple effects.\nOur experiments demonstrate that REPAIR boosts editing accuracy by 10%-30%\nacross multiple model families and significantly reduces knowledge forgetting.\nThis work introduces a robust framework for developing reliable, scalable, and\ncontinually evolving LLMs.",
+      "upvotes": 1,
+      "discussionId": "68e322f973e20ab577841fcd",
+      "ai_summary": "REPAIR is a lifelong editing framework for large language models that enhances editing accuracy and reduces knowledge forgetting through progressive adaptive intervention and reintegration.",
+      "ai_keywords": [
+        "REPAIR",
+        "Robust Editing",
+        "Progressive Adaptive Intervention",
+        "Reintegration",
+        "lifelong editing framework",
+        "large language models",
+        "closed-loop feedback mechanism",
+        "dynamic memory management",
+        "knowledge fusion",
+        "locality guards",
+        "knowledge forgetting"
+      ],
+      "organization": {
+        "_id": "68e32652529937e426ebee7c",
+        "name": "ContiAI",
+        "fullname": "ContiAI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68e325231de2c8d44ab61237/ixA4ZfwwaFekwiLlMzWUy.png"
+      }
+    },
+    "publishedAt": "2025-10-02T06:35:39.000Z",
+    "title": "REPAIR: Robust Editing via Progressive Adaptive Intervention and\n  Reintegration",
+    "summary": "Post-training for large language models (LLMs) is constrained by the high\ncost of acquiring new knowledge or correcting errors and by the unintended side\neffects that frequently arise from retraining. To address these issues, we\nintroduce REPAIR (Robust Editing via Progressive Adaptive Intervention and\nReintegration), a lifelong editing framework designed to support precise and\nlow-cost model updates while preserving non-target knowledge. REPAIR mitigates\nthe instability and conflicts of large-scale sequential edits through a\nclosed-loop feedback mechanism coupled with dynamic memory management.\nFurthermore, by incorporating frequent knowledge fusion and enforcing strong\nlocality guards, REPAIR effectively addresses the shortcomings of traditional\ndistribution-agnostic approaches that often overlook unintended ripple effects.\nOur experiments demonstrate that REPAIR boosts editing accuracy by 10%-30%\nacross multiple model families and significantly reduces knowledge forgetting.\nThis work introduces a robust framework for developing reliable, scalable, and\ncontinually evolving LLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01879.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "644378a96cea0db46dc96b39",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644378a96cea0db46dc96b39/wjGNaXjfhSdWr8kM6Amai.jpeg",
+      "fullname": "Ming Wang",
+      "name": "sci-m-wang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "organization": {
+      "_id": "68e32652529937e426ebee7c",
+      "name": "ContiAI",
+      "fullname": "ContiAI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68e325231de2c8d44ab61237/ixA4ZfwwaFekwiLlMzWUy.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.03204",
+      "authors": [
+        {
+          "_id": "68e323b473e20ab577841fcf",
+          "name": "Imene Kerboua",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd0",
+          "name": "Sahar Omidi Shayegan",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd1",
+          "name": "Megh Thakkar",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd2",
+          "name": "Xing Han Lù",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd3",
+          "name": "Léo Boisvert",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd4",
+          "name": "Massimo Caccia",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd5",
+          "name": "Jérémy Espinas",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd6",
+          "name": "Alexandre Aussem",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd7",
+          "name": "Véronique Eglin",
+          "hidden": false
+        },
+        {
+          "_id": "68e323b473e20ab577841fd8",
+          "name": "Alexandre Lacoste",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-03T17:41:30.000Z",
+      "submittedOnDailyAt": "2025-10-06T00:34:46.420Z",
+      "title": "FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of\n  Web Agents",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Web agents powered by large language models (LLMs) must process lengthy web\npage observations to complete user goals; these pages often exceed tens of\nthousands of tokens. This saturates context limits and increases computational\ncost processing; moreover, processing full pages exposes agents to security\nrisks such as prompt injection. Existing pruning strategies either discard\nrelevant content or retain irrelevant context, leading to suboptimal action\nprediction. We introduce FocusAgent, a simple yet effective approach that\nleverages a lightweight LLM retriever to extract the most relevant lines from\naccessibility tree (AxTree) observations, guided by task goals. By pruning\nnoisy and irrelevant content, FocusAgent enables efficient reasoning while\nreducing vulnerability to injection attacks. Experiments on WorkArena and\nWebArena benchmarks show that FocusAgent matches the performance of strong\nbaselines, while reducing observation size by over 50%. Furthermore, a variant\nof FocusAgent significantly reduces the success rate of prompt-injection\nattacks, including banner and pop-up attacks, while maintaining task success\nperformance in attack-free settings. Our results highlight that targeted\nLLM-based retrieval is a practical and robust strategy for building web agents\nthat are efficient, effective, and secure.",
+      "upvotes": 0,
+      "discussionId": "68e323b473e20ab577841fd9",
+      "ai_summary": "FocusAgent uses a lightweight LLM retriever to extract relevant content from web page observations, improving efficiency and security in web agents.",
+      "ai_keywords": [
+        "large language models",
+        "LLM",
+        "accessibility tree",
+        "AxTree",
+        "prompt injection",
+        "WorkArena",
+        "WebArena",
+        "targeted LLM-based retrieval"
+      ]
+    },
+    "publishedAt": "2025-10-03T13:41:30.000Z",
+    "title": "FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of\n  Web Agents",
+    "summary": "Web agents powered by large language models (LLMs) must process lengthy web\npage observations to complete user goals; these pages often exceed tens of\nthousands of tokens. This saturates context limits and increases computational\ncost processing; moreover, processing full pages exposes agents to security\nrisks such as prompt injection. Existing pruning strategies either discard\nrelevant content or retain irrelevant context, leading to suboptimal action\nprediction. We introduce FocusAgent, a simple yet effective approach that\nleverages a lightweight LLM retriever to extract the most relevant lines from\naccessibility tree (AxTree) observations, guided by task goals. By pruning\nnoisy and irrelevant content, FocusAgent enables efficient reasoning while\nreducing vulnerability to injection attacks. Experiments on WorkArena and\nWebArena benchmarks show that FocusAgent matches the performance of strong\nbaselines, while reducing observation size by over 50%. Furthermore, a variant\nof FocusAgent significantly reduces the success rate of prompt-injection\nattacks, including banner and pop-up attacks, while maintaining task success\nperformance in attack-free settings. Our results highlight that targeted\nLLM-based retrieval is a practical and robust strategy for building web agents\nthat are efficient, effective, and secure.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.03204.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 119
+    },
+    "isAuthorParticipating": false
+  }
+]
