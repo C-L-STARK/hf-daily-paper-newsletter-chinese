@@ -1,0 +1,386 @@
+[
+  {
+    "paper": {
+      "id": "2510.00263",
+      "authors": [
+        {
+          "_id": "68e44581e4e093a7044e4c86",
+          "name": "Zhuohang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c87",
+          "name": "Xiaowei Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c88",
+          "name": "Chengyu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c89",
+          "name": "Guowang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c8a",
+          "name": "Katayoon Goshvadi",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c8b",
+          "name": "Bo Dai",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c8c",
+          "name": "Dale Schuurmans",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c8d",
+          "name": "Paul Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c8e",
+          "name": "Hamid Palangi",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c8f",
+          "name": "Yiwen Song",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c90",
+          "name": "Palash Goyal",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c91",
+          "name": "Murat Kantarcioglu",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c92",
+          "name": "Bradley A. Malin",
+          "hidden": false
+        },
+        {
+          "_id": "68e44581e4e093a7044e4c93",
+          "name": "Yuan Xue",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-30T20:36:41.000Z",
+      "submittedOnDailyAt": "2025-10-07T00:46:14.270Z",
+      "title": "Judging with Confidence: Calibrating Autoraters to Preference\n  Distributions",
+      "submittedOnDailyBy": {
+        "_id": "6328f05f84e4c8b42c5d14a4",
+        "avatarUrl": "/avatars/f8277830c7fc4978f0fc0535b25177cd.svg",
+        "isPro": false,
+        "fullname": "Zhuohang Li",
+        "user": "zhhli",
+        "type": "user"
+      },
+      "summary": "The alignment of large language models (LLMs) with human values increasingly\nrelies on using other LLMs as automated judges, or ``autoraters''. However,\ntheir reliability is limited by a foundational issue: they are trained on\ndiscrete preference labels, forcing a single ground truth onto tasks that are\noften subjective, ambiguous, or nuanced. We argue that a reliable autorater\nmust learn to model the full distribution of preferences defined by a target\npopulation. In this paper, we propose a general framework for calibrating\nprobabilistic autoraters to any given preference distribution. We formalize the\nproblem and present two learning methods tailored to different data conditions:\n1) a direct supervised fine-tuning for dense, probabilistic labels, and 2) a\nreinforcement learning approach for sparse, binary labels. Our empirical\nresults show that finetuning autoraters with a distribution-matching objective\nleads to verbalized probability predictions that are better aligned with the\ntarget preference distribution, with improved calibration and significantly\nlower positional bias, all while preserving performance on objective tasks.",
+      "upvotes": 5,
+      "discussionId": "68e44582e4e093a7044e4c94",
+      "ai_summary": "A framework for calibrating probabilistic autoraters to preference distributions using supervised fine-tuning and reinforcement learning improves alignment with human values and reduces bias.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "autoraters",
+        "preference labels",
+        "probabilistic autoraters",
+        "distribution-matching objective",
+        "verbalized probability predictions",
+        "calibration",
+        "positional bias"
+      ],
+      "organization": {
+        "_id": "5e6aca39878b8b2bf9806447",
+        "name": "google",
+        "fullname": "Google",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/WtA3YYitedOr9n02eHfJe.png"
+      }
+    },
+    "publishedAt": "2025-09-30T16:36:41.000Z",
+    "title": "Judging with Confidence: Calibrating Autoraters to Preference\n  Distributions",
+    "summary": "The alignment of large language models (LLMs) with human values increasingly\nrelies on using other LLMs as automated judges, or ``autoraters''. However,\ntheir reliability is limited by a foundational issue: they are trained on\ndiscrete preference labels, forcing a single ground truth onto tasks that are\noften subjective, ambiguous, or nuanced. We argue that a reliable autorater\nmust learn to model the full distribution of preferences defined by a target\npopulation. In this paper, we propose a general framework for calibrating\nprobabilistic autoraters to any given preference distribution. We formalize the\nproblem and present two learning methods tailored to different data conditions:\n1) a direct supervised fine-tuning for dense, probabilistic labels, and 2) a\nreinforcement learning approach for sparse, binary labels. Our empirical\nresults show that finetuning autoraters with a distribution-matching objective\nleads to verbalized probability predictions that are better aligned with the\ntarget preference distribution, with improved calibration and significantly\nlower positional bias, all while preserving performance on objective tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.00263.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6328f05f84e4c8b42c5d14a4",
+      "avatarUrl": "/avatars/f8277830c7fc4978f0fc0535b25177cd.svg",
+      "fullname": "Zhuohang Li",
+      "name": "zhhli",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "organization": {
+      "_id": "5e6aca39878b8b2bf9806447",
+      "name": "google",
+      "fullname": "Google",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/WtA3YYitedOr9n02eHfJe.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.03264",
+      "authors": [
+        {
+          "_id": "68e473a0e4e093a7044e4cd7",
+          "name": "Syeda Nahida Akter",
+          "hidden": false
+        },
+        {
+          "_id": "68e473a0e4e093a7044e4cd8",
+          "name": "Shrimai Prabhumoye",
+          "hidden": false
+        },
+        {
+          "_id": "68e473a0e4e093a7044e4cd9",
+          "name": "Eric Nyberg",
+          "hidden": false
+        },
+        {
+          "_id": "68e473a0e4e093a7044e4cda",
+          "name": "Mostofa Patwary",
+          "hidden": false
+        },
+        {
+          "_id": "68e473a0e4e093a7044e4cdb",
+          "name": "Mohammad Shoeybi",
+          "hidden": false
+        },
+        {
+          "_id": "68e473a0e4e093a7044e4cdc",
+          "name": "Yejin Choi",
+          "hidden": false
+        },
+        {
+          "_id": "68e473a0e4e093a7044e4cdd",
+          "name": "Bryan Catanzaro",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-09-26T20:08:51.000Z",
+      "submittedOnDailyAt": "2025-10-07T00:30:07.282Z",
+      "title": "Front-Loading Reasoning: The Synergy between Pretraining and\n  Post-Training Data",
+      "submittedOnDailyBy": {
+        "_id": "66980b9c9baa4382e1678809",
+        "avatarUrl": "/avatars/1a516bb7aa7871834c19de708cdd853a.svg",
+        "isPro": false,
+        "fullname": "Shrimai Prabhumoye",
+        "user": "shrimai19",
+        "type": "user"
+      },
+      "summary": "The prevailing paradigm for enhancing the reasoning abilities of LLMs\nrevolves around post-training on high-quality, reasoning-intensive data. While\nemerging literature suggests that reasoning data is increasingly incorporated\nalso during the mid-training stage-a practice that is relatively more\nproprietary and less openly characterized-the role of such data in pretraining\nremains unclear. In particular, due to the opaqueness of pretraining corpora in\nmost frontier models, the effect of reasoning data introduced at different\nphases of pre- and/or post-training is relatively less reported in the\nscientific literature. This raises several important questions: Is adding\nreasoning data earlier during pretraining any better than introducing it during\npost-training? Could earlier inclusion risk overfitting and harm\ngeneralization, or instead establish durable foundations that later fine-tuning\ncannot recover? We conduct the first systematic study of how reasoning\ndata-varying in scale, diversity, and quality-affects LLM performance when\nintroduced at different stages of training. We find that front-loading\nreasoning data into pretraining is critical (19% avg gain), establishing\nfoundational capabilities that cannot be fully replicated by later-stage SFT,\neven with more data. We uncover an asymmetric principle for optimal data\nallocation: pretraining benefits most from broad diversity in reasoning\npatterns (11% avg gain), while SFT is more sensitive to data quality (15% avg\ngain). We show that high-quality pretraining data has latent effects, activated\nonly after SFT, and that naively scaling SFT data can be detrimental, washing\naway the benefits of early reasoning injection. Our results challenge the\nconventional separation of language modeling and reasoning, providing a\nprincipled guide for strategically allocating data across the entire training\npipeline to build more capable models.",
+      "upvotes": 2,
+      "discussionId": "68e473f1e4e093a7044e4cde",
+      "ai_summary": "Introducing reasoning data during pretraining significantly enhances LLM performance compared to post-training, with pretraining benefiting more from diverse data patterns while SFT benefits more from high-quality data.",
+      "ai_keywords": [
+        "LLMs",
+        "reasoning data",
+        "pretraining",
+        "post-training",
+        "mid-training",
+        "overfitting",
+        "generalization",
+        "systematic study",
+        "SFT",
+        "data allocation",
+        "language modeling",
+        "reasoning"
+      ],
+      "organization": {
+        "_id": "60262b67268c201cdc8b7d43",
+        "name": "nvidia",
+        "fullname": "NVIDIA",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+      }
+    },
+    "publishedAt": "2025-09-26T16:08:51.000Z",
+    "title": "Front-Loading Reasoning: The Synergy between Pretraining and\n  Post-Training Data",
+    "summary": "The prevailing paradigm for enhancing the reasoning abilities of LLMs\nrevolves around post-training on high-quality, reasoning-intensive data. While\nemerging literature suggests that reasoning data is increasingly incorporated\nalso during the mid-training stage-a practice that is relatively more\nproprietary and less openly characterized-the role of such data in pretraining\nremains unclear. In particular, due to the opaqueness of pretraining corpora in\nmost frontier models, the effect of reasoning data introduced at different\nphases of pre- and/or post-training is relatively less reported in the\nscientific literature. This raises several important questions: Is adding\nreasoning data earlier during pretraining any better than introducing it during\npost-training? Could earlier inclusion risk overfitting and harm\ngeneralization, or instead establish durable foundations that later fine-tuning\ncannot recover? We conduct the first systematic study of how reasoning\ndata-varying in scale, diversity, and quality-affects LLM performance when\nintroduced at different stages of training. We find that front-loading\nreasoning data into pretraining is critical (19% avg gain), establishing\nfoundational capabilities that cannot be fully replicated by later-stage SFT,\neven with more data. We uncover an asymmetric principle for optimal data\nallocation: pretraining benefits most from broad diversity in reasoning\npatterns (11% avg gain), while SFT is more sensitive to data quality (15% avg\ngain). We show that high-quality pretraining data has latent effects, activated\nonly after SFT, and that naively scaling SFT data can be detrimental, washing\naway the benefits of early reasoning injection. Our results challenge the\nconventional separation of language modeling and reasoning, providing a\nprincipled guide for strategically allocating data across the entire training\npipeline to build more capable models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.03264.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66980b9c9baa4382e1678809",
+      "avatarUrl": "/avatars/1a516bb7aa7871834c19de708cdd853a.svg",
+      "fullname": "Shrimai Prabhumoye",
+      "name": "shrimai19",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "organization": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "name": "nvidia",
+      "fullname": "NVIDIA",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.04399",
+      "authors": [
+        {
+          "_id": "68e46e6ce4e093a7044e4cba",
+          "name": "Charles L. Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e46e6ce4e093a7044e4cbb",
+          "name": "Keir Dorchen",
+          "hidden": false
+        },
+        {
+          "_id": "68e46e6ce4e093a7044e4cbc",
+          "name": "Peter Jin",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-05T23:52:16.000Z",
+      "submittedOnDailyAt": "2025-10-07T00:09:07.390Z",
+      "title": "Utility-Learning Tension in Self-Modifying Agents",
+      "submittedOnDailyBy": {
+        "_id": "67c604ff3f8c7b027d479671",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c604ff3f8c7b027d479671/IhfN3eWRQ8iNfcsDKA1Ep.png",
+        "isPro": false,
+        "fullname": "Charles Wang",
+        "user": "charleslwang",
+        "type": "user"
+      },
+      "summary": "As systems trend toward superintelligence, a natural modeling premise is that\nagents can self-improve along every facet of their own design. We formalize\nthis with a five-axis decomposition and a decision layer, separating incentives\nfrom learning behavior and analyzing axes in isolation. Our central result\nidentifies and introduces a sharp utility--learning tension, the structural\nconflict in self-modifying systems whereby utility-driven changes that improve\nimmediate or expected performance can also erode the statistical preconditions\nfor reliable learning and generalization. Our findings show that\ndistribution-free guarantees are preserved iff the policy-reachable model\nfamily is uniformly capacity-bounded; when capacity can grow without limit,\nutility-rational self-changes can render learnable tasks unlearnable. Under\nstandard assumptions common in practice, these axes reduce to the same capacity\ncriterion, yielding a single boundary for safe self-modification. Numerical\nexperiments across several axes validate the theory by comparing destructive\nutility policies against our proposed two-gate policies that preserve\nlearnability.",
+      "upvotes": 1,
+      "discussionId": "68e46e6ce4e093a7044e4cbd",
+      "ai_summary": "Self-improving systems face a utility-learning tension that can degrade their ability to learn and generalize, requiring capacity bounds to ensure safe self-modification.",
+      "ai_keywords": [
+        "self-improving systems",
+        "utility--learning tension",
+        "statistical preconditions",
+        "reliable learning",
+        "generalization",
+        "distribution-free guarantees",
+        "policy-reachable model family",
+        "uniformly capacity-bounded",
+        "utility-rational self-changes",
+        "learnable tasks",
+        "two-gate policies"
+      ]
+    },
+    "publishedAt": "2025-10-05T19:52:16.000Z",
+    "title": "Utility-Learning Tension in Self-Modifying Agents",
+    "summary": "As systems trend toward superintelligence, a natural modeling premise is that\nagents can self-improve along every facet of their own design. We formalize\nthis with a five-axis decomposition and a decision layer, separating incentives\nfrom learning behavior and analyzing axes in isolation. Our central result\nidentifies and introduces a sharp utility--learning tension, the structural\nconflict in self-modifying systems whereby utility-driven changes that improve\nimmediate or expected performance can also erode the statistical preconditions\nfor reliable learning and generalization. Our findings show that\ndistribution-free guarantees are preserved iff the policy-reachable model\nfamily is uniformly capacity-bounded; when capacity can grow without limit,\nutility-rational self-changes can render learnable tasks unlearnable. Under\nstandard assumptions common in practice, these axes reduce to the same capacity\ncriterion, yielding a single boundary for safe self-modification. Numerical\nexperiments across several axes validate the theory by comparing destructive\nutility policies against our proposed two-gate policies that preserve\nlearnability.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.04399.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67c604ff3f8c7b027d479671",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c604ff3f8c7b027d479671/IhfN3eWRQ8iNfcsDKA1Ep.png",
+      "fullname": "Charles Wang",
+      "name": "charleslwang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.03561",
+      "authors": [
+        {
+          "_id": "68e46ffee4e093a7044e4ccb",
+          "name": "Adam Filipek",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/675197c3ae96d7ba4b4a6c66/mzVnK1wM9elG5vTCd4pi_.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/675197c3ae96d7ba4b4a6c66/emRA1Lr4AKtlLUVowTUjB.png"
+      ],
+      "publishedAt": "2025-10-03T23:18:07.000Z",
+      "submittedOnDailyAt": "2025-10-07T00:25:25.255Z",
+      "title": "Reactive Transformer (RxT) -- Stateful Real-Time Processing for\n  Event-Driven Reactive Language Models",
+      "submittedOnDailyBy": {
+        "_id": "675197c3ae96d7ba4b4a6c66",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/I2GHgrv70cfT8C5EbK6Q5.png",
+        "isPro": false,
+        "fullname": "Adam Filipek",
+        "user": "AdamF92",
+        "type": "user"
+      },
+      "summary": "The Transformer architecture has become the de facto standard for Large\nLanguage Models (LLMs), demonstrating remarkable capabilities in language\nunderstanding and generation. However, its application in conversational AI is\nfundamentally constrained by its stateless nature and the quadratic\ncomputational complexity (O(L^2)) with respect to sequence length L.\nCurrent models emulate memory by reprocessing an ever-expanding conversation\nhistory with each turn, leading to prohibitive costs and latency in long\ndialogues. This paper introduces the Reactive Transformer (RxT), a novel\narchitecture designed to overcome these limitations by shifting from a\ndata-driven to an event-driven paradigm. RxT processes each conversational turn\nas a discrete event in real-time, maintaining context in an integrated,\nfixed-size Short-Term Memory (STM) system. The architecture features a distinct\noperational cycle where a generator-decoder produces a response based on the\ncurrent query and the previous memory state, after which a memory-encoder and a\ndedicated Memory Attention network asynchronously update the STM with a\nrepresentation of the complete interaction. This design fundamentally alters\nthe scaling dynamics, reducing the total user-facing cost of a conversation\nfrom quadratic (O(N^2 cdot T)) to linear (O(N cdot T)) with respect to\nthe number of interactions N. By decoupling response generation from memory\nupdates, RxT achieves low latency, enabling truly real-time, stateful, and\neconomically viable long-form conversations. We validated our architecture with\na series of proof-of-concept experiments on synthetic data, demonstrating\nsuperior performance and constant-time inference latency compared to a baseline\nstateless model of comparable size.",
+      "upvotes": 1,
+      "discussionId": "68e47064e4e093a7044e4ccc",
+      "projectPage": "https://rxai.dev/research/reactive-transformer-introduction",
+      "githubRepo": "https://github.com/RxAI-dev/rxlm",
+      "ai_summary": "The Reactive Transformer (RxT) addresses the limitations of stateless Transformers in conversational AI by using an event-driven paradigm with a fixed-size Short-Term Memory (STM) system, achieving linear scaling and low latency.",
+      "ai_keywords": [
+        "Transformer architecture",
+        "Large Language Models (LLMs)",
+        "stateless nature",
+        "quadratic computational complexity",
+        "Reactive Transformer (RxT)",
+        "event-driven paradigm",
+        "Short-Term Memory (STM)",
+        "generator-decoder",
+        "memory-encoder",
+        "Memory Attention network",
+        "linear scaling",
+        "constant-time inference latency"
+      ],
+      "githubStars": 0,
+      "organization": {
+        "_id": "675776b060e4100500aeb4c8",
+        "name": "ReactiveAI",
+        "fullname": "Reactive AI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/675197c3ae96d7ba4b4a6c66/AJDkLuavcYfENIRDzxjqR.png"
+      }
+    },
+    "publishedAt": "2025-10-03T19:18:07.000Z",
+    "title": "Reactive Transformer (RxT) -- Stateful Real-Time Processing for\n  Event-Driven Reactive Language Models",
+    "summary": "The Transformer architecture has become the de facto standard for Large\nLanguage Models (LLMs), demonstrating remarkable capabilities in language\nunderstanding and generation. However, its application in conversational AI is\nfundamentally constrained by its stateless nature and the quadratic\ncomputational complexity (O(L^2)) with respect to sequence length L.\nCurrent models emulate memory by reprocessing an ever-expanding conversation\nhistory with each turn, leading to prohibitive costs and latency in long\ndialogues. This paper introduces the Reactive Transformer (RxT), a novel\narchitecture designed to overcome these limitations by shifting from a\ndata-driven to an event-driven paradigm. RxT processes each conversational turn\nas a discrete event in real-time, maintaining context in an integrated,\nfixed-size Short-Term Memory (STM) system. The architecture features a distinct\noperational cycle where a generator-decoder produces a response based on the\ncurrent query and the previous memory state, after which a memory-encoder and a\ndedicated Memory Attention network asynchronously update the STM with a\nrepresentation of the complete interaction. This design fundamentally alters\nthe scaling dynamics, reducing the total user-facing cost of a conversation\nfrom quadratic (O(N^2 cdot T)) to linear (O(N cdot T)) with respect to\nthe number of interactions N. By decoupling response generation from memory\nupdates, RxT achieves low latency, enabling truly real-time, stateful, and\neconomically viable long-form conversations. We validated our architecture with\na series of proof-of-concept experiments on synthetic data, demonstrating\nsuperior performance and constant-time inference latency compared to a baseline\nstateless model of comparable size.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/675197c3ae96d7ba4b4a6c66/mzVnK1wM9elG5vTCd4pi_.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/675197c3ae96d7ba4b4a6c66/emRA1Lr4AKtlLUVowTUjB.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.03561.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "675197c3ae96d7ba4b4a6c66",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/I2GHgrv70cfT8C5EbK6Q5.png",
+      "fullname": "Adam Filipek",
+      "name": "AdamF92",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "organization": {
+      "_id": "675776b060e4100500aeb4c8",
+      "name": "ReactiveAI",
+      "fullname": "Reactive AI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/675197c3ae96d7ba4b4a6c66/AJDkLuavcYfENIRDzxjqR.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
