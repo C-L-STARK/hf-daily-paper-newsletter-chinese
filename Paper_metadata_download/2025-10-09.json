@@ -1,0 +1,1034 @@
+[
+  {
+    "paper": {
+      "id": "2510.07315",
+      "authors": [
+        {
+          "_id": "68e714517ae125f9582e6903",
+          "name": "Ming Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e6904",
+          "name": "Xiang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e6905",
+          "name": "Ting-Yun Chang",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e6906",
+          "name": "Qingze Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e6907",
+          "name": "Nan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e6908",
+          "name": "Xiance Si",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e6909",
+          "name": "Dan Garrette",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e690a",
+          "name": "Shyam Upadhyay",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e690b",
+          "name": "Jeremiah Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e690c",
+          "name": "Jiawei Han",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e690d",
+          "name": "Benoit Schillings",
+          "hidden": false
+        },
+        {
+          "_id": "68e714517ae125f9582e690e",
+          "name": "Jiao Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-08T17:59:19.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:25:56.326Z",
+      "title": "Vibe Checker: Aligning Code Evaluation with Human Preference",
+      "submittedOnDailyBy": {
+        "_id": "61d53df2062444ea769d3b79",
+        "avatarUrl": "/avatars/fa771202368b6b2626a8fdf1c4369239.svg",
+        "isPro": false,
+        "fullname": "Ming Zhong",
+        "user": "MingZhong",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have catalyzed vibe coding, where users leverage\nLLMs to generate and iteratively refine code through natural language\ninteractions until it passes their vibe check. Vibe check is tied to real-world\nhuman preference and goes beyond functionality: the solution should feel right,\nread cleanly, preserve intent, and remain correct. However, current code\nevaluation remains anchored to pass@k and captures only functional correctness,\noverlooking the non-functional instructions that users routinely apply. In this\npaper, we hypothesize that instruction following is the missing piece\nunderlying vibe check that represents human preference in coding besides\nfunctional correctness. To quantify models' code instruction following\ncapabilities with measurable signals, we present VeriCode, a taxonomy of 30\nverifiable code instructions together with corresponding deterministic\nverifiers. We use the taxonomy to augment established evaluation suites,\nresulting in Vibe Checker, a testbed to assess both code instruction following\nand functional correctness. Upon evaluating 31 leading LLMs, we show that even\nthe strongest models struggle to comply with multiple instructions and exhibit\nclear functional regression. Most importantly, a composite score of functional\ncorrectness and instruction following correlates the best with human\npreference, with the latter emerging as the primary differentiator on\nreal-world programming tasks. Our work identifies core factors of the vibe\ncheck, providing a concrete path for benchmarking and developing models that\nbetter align with user preferences in coding.",
+      "upvotes": 7,
+      "discussionId": "68e714517ae125f9582e690f",
+      "ai_summary": "Vibe Checker evaluates LLMs by combining functional correctness and instruction following to better align with human coding preferences.",
+      "ai_keywords": [
+        "Large Language Models",
+        "LLMs",
+        "vibe coding",
+        "Vibe Checker",
+        "VeriCode",
+        "verifiable code instructions",
+        "deterministic verifiers",
+        "instruction following",
+        "functional correctness",
+        "human preference",
+        "coding preferences"
+      ],
+      "organization": {
+        "_id": "60f6cbb2852126bac698c89e",
+        "name": "deepmind",
+        "fullname": "Deepmind",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1638956859875-5f1158120c833276f61f1a84.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-08T13:59:19.000Z",
+    "title": "Vibe Checker: Aligning Code Evaluation with Human Preference",
+    "summary": "Large Language Models (LLMs) have catalyzed vibe coding, where users leverage\nLLMs to generate and iteratively refine code through natural language\ninteractions until it passes their vibe check. Vibe check is tied to real-world\nhuman preference and goes beyond functionality: the solution should feel right,\nread cleanly, preserve intent, and remain correct. However, current code\nevaluation remains anchored to pass@k and captures only functional correctness,\noverlooking the non-functional instructions that users routinely apply. In this\npaper, we hypothesize that instruction following is the missing piece\nunderlying vibe check that represents human preference in coding besides\nfunctional correctness. To quantify models' code instruction following\ncapabilities with measurable signals, we present VeriCode, a taxonomy of 30\nverifiable code instructions together with corresponding deterministic\nverifiers. We use the taxonomy to augment established evaluation suites,\nresulting in Vibe Checker, a testbed to assess both code instruction following\nand functional correctness. Upon evaluating 31 leading LLMs, we show that even\nthe strongest models struggle to comply with multiple instructions and exhibit\nclear functional regression. Most importantly, a composite score of functional\ncorrectness and instruction following correlates the best with human\npreference, with the latter emerging as the primary differentiator on\nreal-world programming tasks. Our work identifies core factors of the vibe\ncheck, providing a concrete path for benchmarking and developing models that\nbetter align with user preferences in coding.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.07315.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61d53df2062444ea769d3b79",
+      "avatarUrl": "/avatars/fa771202368b6b2626a8fdf1c4369239.svg",
+      "fullname": "Ming Zhong",
+      "name": "MingZhong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "organization": {
+      "_id": "60f6cbb2852126bac698c89e",
+      "name": "deepmind",
+      "fullname": "Deepmind",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1638956859875-5f1158120c833276f61f1a84.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.06917",
+      "authors": [
+        {
+          "_id": "68e70dc97ae125f9582e68c8",
+          "name": "Cheng-Han Chiang",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68c9",
+          "name": "Xiaofei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68ca",
+          "name": "Linjie Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68cb",
+          "name": "Chung-Ching Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68cc",
+          "name": "Kevin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68cd",
+          "name": "Shujie Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68ce",
+          "name": "Zhendong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68cf",
+          "name": "Zhengyuan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68d0",
+          "name": "Hung-yi Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68e70dc97ae125f9582e68d1",
+          "name": "Lijuan Wang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/622326ae0129f2097d69a3e2/N4e_VG2KksHuxbjoCTmWW.mp4"
+      ],
+      "publishedAt": "2025-10-08T11:48:59.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:11:57.362Z",
+      "title": "SHANKS: Simultaneous Hearing and Thinking for Spoken Language Models",
+      "submittedOnDailyBy": {
+        "_id": "622326ae0129f2097d69a3e2",
+        "avatarUrl": "/avatars/7665223e3fc8b820ce001e6003daf4d2.svg",
+        "isPro": false,
+        "fullname": "Cheng-Han Chiang",
+        "user": "dcml0714",
+        "type": "user"
+      },
+      "summary": "Current large language models (LLMs) and spoken language models (SLMs) begin\nthinking and taking actions only after the user has finished their turn. This\nprevents the model from interacting during the user's turn and can lead to high\nresponse latency while it waits to think. Consequently, thinking after\nreceiving the full input is not suitable for speech-to-speech interaction,\nwhere real-time, low-latency exchange is important. We address this by noting\nthat humans naturally \"think while listening.\" In this paper, we propose\nSHANKS, a general inference framework that enables SLMs to generate unspoken\nchain-of-thought reasoning while listening to the user input. SHANKS streams\nthe input speech in fixed-duration chunks and, as soon as a chunk is received,\ngenerates unspoken reasoning based on all previous speech and reasoning, while\nthe user continues speaking. SHANKS uses this unspoken reasoning to decide\nwhether to interrupt the user and to make tool calls to complete the task. We\ndemonstrate that SHANKS enhances real-time user-SLM interaction in two\nscenarios: (1) when the user is presenting a step-by-step solution to a math\nproblem, SHANKS can listen, reason, and interrupt when the user makes a\nmistake, achieving 37.1% higher interruption accuracy than a baseline that\ninterrupts without thinking; and (2) in a tool-augmented dialogue, SHANKS can\ncomplete 56.9% of the tool calls before the user finishes their turn. Overall,\nSHANKS moves toward models that keep thinking throughout the conversation, not\nonly after a turn ends. Animated illustrations of Shanks can be found at\nhttps://d223302.github.io/SHANKS/",
+      "upvotes": 7,
+      "discussionId": "68e70dca7ae125f9582e68d2",
+      "ai_summary": "SHANKS, a general inference framework, enables spoken language models to generate unspoken reasoning while listening to user input, enhancing real-time interaction and task completion.",
+      "ai_keywords": [
+        "SHANKS",
+        "spoken language models",
+        "unspoken chain-of-thought reasoning",
+        "real-time interaction",
+        "tool calls",
+        "interruption accuracy"
+      ]
+    },
+    "publishedAt": "2025-10-08T07:48:59.000Z",
+    "title": "SHANKS: Simultaneous Hearing and Thinking for Spoken Language Models",
+    "summary": "Current large language models (LLMs) and spoken language models (SLMs) begin\nthinking and taking actions only after the user has finished their turn. This\nprevents the model from interacting during the user's turn and can lead to high\nresponse latency while it waits to think. Consequently, thinking after\nreceiving the full input is not suitable for speech-to-speech interaction,\nwhere real-time, low-latency exchange is important. We address this by noting\nthat humans naturally \"think while listening.\" In this paper, we propose\nSHANKS, a general inference framework that enables SLMs to generate unspoken\nchain-of-thought reasoning while listening to the user input. SHANKS streams\nthe input speech in fixed-duration chunks and, as soon as a chunk is received,\ngenerates unspoken reasoning based on all previous speech and reasoning, while\nthe user continues speaking. SHANKS uses this unspoken reasoning to decide\nwhether to interrupt the user and to make tool calls to complete the task. We\ndemonstrate that SHANKS enhances real-time user-SLM interaction in two\nscenarios: (1) when the user is presenting a step-by-step solution to a math\nproblem, SHANKS can listen, reason, and interrupt when the user makes a\nmistake, achieving 37.1% higher interruption accuracy than a baseline that\ninterrupts without thinking; and (2) in a tool-augmented dialogue, SHANKS can\ncomplete 56.9% of the tool calls before the user finishes their turn. Overall,\nSHANKS moves toward models that keep thinking throughout the conversation, not\nonly after a turn ends. Animated illustrations of Shanks can be found at\nhttps://d223302.github.io/SHANKS/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/622326ae0129f2097d69a3e2/N4e_VG2KksHuxbjoCTmWW.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.06917.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "622326ae0129f2097d69a3e2",
+      "avatarUrl": "/avatars/7665223e3fc8b820ce001e6003daf4d2.svg",
+      "fullname": "Cheng-Han Chiang",
+      "name": "dcml0714",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.04678",
+      "authors": [
+        {
+          "_id": "68e62542975ac4c405ef21eb",
+          "name": "Zhanfeng Mo",
+          "hidden": false
+        },
+        {
+          "_id": "68e62542975ac4c405ef21ec",
+          "name": "Xingxuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e62542975ac4c405ef21ed",
+          "name": "Yuntao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68e62542975ac4c405ef21ee",
+          "name": "Lidong Bing",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-06T10:44:04.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:20:37.134Z",
+      "title": "Multi-Agent Tool-Integrated Policy Optimization",
+      "submittedOnDailyBy": {
+        "_id": "6362a77dd3be91534c2e9213",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6362a77dd3be91534c2e9213/3uUM3B1m2CFMukbkA0yDv.png",
+        "isPro": true,
+        "fullname": "Xingxuan Li",
+        "user": "veggiebird",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) increasingly rely on multi-turn tool-integrated\nplanning for knowledge-intensive and complex reasoning tasks. Existing\nimplementations typically rely on a single agent, but they suffer from limited\ncontext length and noisy tool responses. A natural solution is to adopt a\nmulti-agent framework with planner- and worker-agents to manage context.\nHowever, no existing methods support effective reinforcement learning\npost-training of tool-integrated multi-agent frameworks. To address this gap,\nwe propose Multi-Agent Tool-Integrated Policy Optimization (MATPO), which\nenables distinct roles (planner and worker) to be trained within a single LLM\ninstance using role-specific prompts via reinforcement learning. MATPO is\nderived from a principled credit assignment mechanism across planner and worker\nrollouts. This design eliminates the need to deploy multiple LLMs, which would\nbe memory-intensive, while preserving the benefits of specialization.\nExperiments on GAIA-text, WebWalkerQA, and FRAMES show that MATPO consistently\noutperforms single-agent baselines by an average of 18.38% relative improvement\nin performance and exhibits greater robustness to noisy tool outputs. Our\nfindings highlight the effectiveness of unifying multiple agent roles within a\nsingle LLM and provide practical insights for stable and efficient multi-agent\nRL training.",
+      "upvotes": 7,
+      "discussionId": "68e62596975ac4c405ef21ef",
+      "githubRepo": "https://github.com/mzf666/MATPO",
+      "ai_summary": "MATPO, a reinforcement learning method, optimizes tool-integrated multi-agent roles within a single LLM, improving performance and robustness over single-agent systems.",
+      "ai_keywords": [
+        "multi-turn tool-integrated planning",
+        "multi-agent framework",
+        "planner-agents",
+        "worker-agents",
+        "reinforcement learning",
+        "role-specific prompts",
+        "credit assignment mechanism",
+        "planner and worker rollouts",
+        "multi-agent RL training"
+      ],
+      "githubStars": 5
+    },
+    "publishedAt": "2025-10-06T06:44:04.000Z",
+    "title": "Multi-Agent Tool-Integrated Policy Optimization",
+    "summary": "Large language models (LLMs) increasingly rely on multi-turn tool-integrated\nplanning for knowledge-intensive and complex reasoning tasks. Existing\nimplementations typically rely on a single agent, but they suffer from limited\ncontext length and noisy tool responses. A natural solution is to adopt a\nmulti-agent framework with planner- and worker-agents to manage context.\nHowever, no existing methods support effective reinforcement learning\npost-training of tool-integrated multi-agent frameworks. To address this gap,\nwe propose Multi-Agent Tool-Integrated Policy Optimization (MATPO), which\nenables distinct roles (planner and worker) to be trained within a single LLM\ninstance using role-specific prompts via reinforcement learning. MATPO is\nderived from a principled credit assignment mechanism across planner and worker\nrollouts. This design eliminates the need to deploy multiple LLMs, which would\nbe memory-intensive, while preserving the benefits of specialization.\nExperiments on GAIA-text, WebWalkerQA, and FRAMES show that MATPO consistently\noutperforms single-agent baselines by an average of 18.38% relative improvement\nin performance and exhibits greater robustness to noisy tool outputs. Our\nfindings highlight the effectiveness of unifying multiple agent roles within a\nsingle LLM and provide practical insights for stable and efficient multi-agent\nRL training.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.04678.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6362a77dd3be91534c2e9213",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6362a77dd3be91534c2e9213/3uUM3B1m2CFMukbkA0yDv.png",
+      "fullname": "Xingxuan Li",
+      "name": "veggiebird",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.07318",
+      "authors": [
+        {
+          "_id": "68e713227ae125f9582e68fb",
+          "name": "Yunhao Fang",
+          "hidden": false
+        },
+        {
+          "_id": "68e713227ae125f9582e68fc",
+          "name": "Weihao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68e713227ae125f9582e68fd",
+          "name": "Shu Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "68e713227ae125f9582e68fe",
+          "name": "Qinghao Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68e713227ae125f9582e68ff",
+          "name": "Xuehan Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68e713227ae125f9582e6900",
+          "name": "Lai Wei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-08T17:59:55.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:16:06.988Z",
+      "title": "Artificial Hippocampus Networks for Efficient Long-Context Modeling",
+      "submittedOnDailyBy": {
+        "_id": "5df833bdda6d0311fd3d5403",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5df833bdda6d0311fd3d5403/62OtGJEQXdOuhV9yCd4HS.png",
+        "isPro": false,
+        "fullname": "Weihao Yu",
+        "user": "whyu",
+        "type": "user"
+      },
+      "summary": "Long-sequence modeling faces a fundamental trade-off between the efficiency\nof compressive fixed-size memory in RNN-like models and the fidelity of\nlossless growing memory in attention-based Transformers. Inspired by the\nMulti-Store Model in cognitive science, we introduce a memory framework of\nartificial neural networks. Our method maintains a sliding window of the\nTransformer's KV cache as lossless short-term memory, while a learnable module\ntermed Artificial Hippocampus Network (AHN) recurrently compresses\nout-of-window information into a fixed-size compact long-term memory. To\nvalidate this framework, we instantiate AHNs using modern RNN-like\narchitectures, including Mamba2, DeltaNet, and Gated DeltaNet. Extensive\nexperiments on long-context benchmarks LV-Eval and InfiniteBench demonstrate\nthat AHN-augmented models consistently outperform sliding window baselines and\nachieve performance comparable or even superior to full-attention models, while\nsubstantially reducing computational and memory requirements. For instance,\naugmenting the Qwen2.5-3B-Instruct with AHNs reduces inference FLOPs by 40.5%\nand memory cache by 74.0%, while improving its average score on LV-Eval (128k\nsequence length) from 4.41 to 5.88. Code is available at:\nhttps://github.com/ByteDance-Seed/AHN.",
+      "upvotes": 3,
+      "discussionId": "68e713227ae125f9582e6901",
+      "ai_summary": "A memory framework combining short-term and long-term memory in neural networks improves long-sequence modeling efficiency and performance.",
+      "ai_keywords": [
+        "RNN-like models",
+        "attention-based Transformers",
+        "Multi-Store Model",
+        "sliding window",
+        "KV cache",
+        "Artificial Hippocampus Network (AHN)",
+        "Mamba2",
+        "DeltaNet",
+        "Gated DeltaNet",
+        "LV-Eval",
+        "InfiniteBench",
+        "inference FLOPs",
+        "memory cache"
+      ],
+      "organization": {
+        "_id": "67d1140985ea0644e2f14b99",
+        "name": "ByteDance-Seed",
+        "fullname": "ByteDance Seed",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+      }
+    },
+    "publishedAt": "2025-10-08T13:59:55.000Z",
+    "title": "Artificial Hippocampus Networks for Efficient Long-Context Modeling",
+    "summary": "Long-sequence modeling faces a fundamental trade-off between the efficiency\nof compressive fixed-size memory in RNN-like models and the fidelity of\nlossless growing memory in attention-based Transformers. Inspired by the\nMulti-Store Model in cognitive science, we introduce a memory framework of\nartificial neural networks. Our method maintains a sliding window of the\nTransformer's KV cache as lossless short-term memory, while a learnable module\ntermed Artificial Hippocampus Network (AHN) recurrently compresses\nout-of-window information into a fixed-size compact long-term memory. To\nvalidate this framework, we instantiate AHNs using modern RNN-like\narchitectures, including Mamba2, DeltaNet, and Gated DeltaNet. Extensive\nexperiments on long-context benchmarks LV-Eval and InfiniteBench demonstrate\nthat AHN-augmented models consistently outperform sliding window baselines and\nachieve performance comparable or even superior to full-attention models, while\nsubstantially reducing computational and memory requirements. For instance,\naugmenting the Qwen2.5-3B-Instruct with AHNs reduces inference FLOPs by 40.5%\nand memory cache by 74.0%, while improving its average score on LV-Eval (128k\nsequence length) from 4.41 to 5.88. Code is available at:\nhttps://github.com/ByteDance-Seed/AHN.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.07318.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "5df833bdda6d0311fd3d5403",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5df833bdda6d0311fd3d5403/62OtGJEQXdOuhV9yCd4HS.png",
+      "fullname": "Weihao Yu",
+      "name": "whyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 14
+    },
+    "organization": {
+      "_id": "67d1140985ea0644e2f14b99",
+      "name": "ByteDance-Seed",
+      "fullname": "ByteDance Seed",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.03215",
+      "authors": [
+        {
+          "_id": "68e7171b7ae125f9582e6952",
+          "name": "Tianyu Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68e7171b7ae125f9582e6953",
+          "name": "Zihan Min",
+          "hidden": false
+        },
+        {
+          "_id": "68e7171b7ae125f9582e6954",
+          "name": "Hanling Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68e7171b7ae125f9582e6955",
+          "name": "Jichao Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68e7171b7ae125f9582e6956",
+          "name": "Guohao Dai",
+          "hidden": false
+        },
+        {
+          "_id": "68e7171b7ae125f9582e6957",
+          "name": "Wanli Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "68e7171b7ae125f9582e6958",
+          "name": "Yu Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-03T17:52:32.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:33:46.090Z",
+      "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language\n  Models",
+      "submittedOnDailyBy": {
+        "_id": "6445fd9ba56444c355dcbcba",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6445fd9ba56444c355dcbcba/NCyRCD-MK-yA0_qY6I2y0.png",
+        "isPro": false,
+        "fullname": "Tianyu Fu",
+        "user": "fuvty",
+        "type": "user"
+      },
+      "summary": "Multi-LLM systems harness the complementary strengths of diverse Large\nLanguage Models, achieving performance and efficiency gains unattainable by a\nsingle model. In existing designs, LLMs communicate through text, forcing\ninternal representations to be transformed into output token sequences. This\nprocess both loses rich semantic information and incurs token-by-token\ngeneration latency. Motivated by these limitations, we ask: Can LLMs\ncommunicate beyond text? Oracle experiments show that enriching the KV-Cache\nsemantics can improve response quality without increasing cache size,\nsupporting KV-Cache as an effective medium for inter-model communication. Thus,\nwe propose Cache-to-Cache (C2C), a new paradigm for direct semantic\ncommunication between LLMs. C2C uses a neural network to project and fuse the\nsource model's KV-cache with that of the target model to enable direct semantic\ntransfer. A learnable gating mechanism selects the target layers that benefit\nfrom cache communication. Compared with text communication, C2C utilizes the\ndeep, specialized semantics from both models, while avoiding explicit\nintermediate text generation. Experiments show that C2C achieves 8.5-10.5%\nhigher average accuracy than individual models. It further outperforms the text\ncommunication paradigm by approximately 3.0-5.0%, while delivering an average\n2.0x speedup in latency. Our code is available at\nhttps://github.com/thu-nics/C2C.",
+      "upvotes": 3,
+      "discussionId": "68e7171b7ae125f9582e6959",
+      "projectPage": "https://fuvty.github.io/C2C_Project_Page/",
+      "githubRepo": "https://github.com/thu-nics/C2C",
+      "ai_summary": "Cache-to-Cache (C2C) enables direct semantic communication between LLMs using neural network projections, improving accuracy and reducing latency compared to text-based communication.",
+      "ai_keywords": [
+        "Large Language Models",
+        "KV-Cache",
+        "Cache-to-Cache",
+        "neural network",
+        "semantic communication",
+        "gating mechanism",
+        "accuracy",
+        "latency"
+      ],
+      "githubStars": 11,
+      "organization": {
+        "_id": "64b74b5fb727f8771ab887f9",
+        "name": "nics-efc",
+        "fullname": "Tsinghua-NICS-EFC",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/641031b1a78453b8d96b8420/vmgxct2WsyHcKT2x2NAYT.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-03T13:52:32.000Z",
+    "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language\n  Models",
+    "summary": "Multi-LLM systems harness the complementary strengths of diverse Large\nLanguage Models, achieving performance and efficiency gains unattainable by a\nsingle model. In existing designs, LLMs communicate through text, forcing\ninternal representations to be transformed into output token sequences. This\nprocess both loses rich semantic information and incurs token-by-token\ngeneration latency. Motivated by these limitations, we ask: Can LLMs\ncommunicate beyond text? Oracle experiments show that enriching the KV-Cache\nsemantics can improve response quality without increasing cache size,\nsupporting KV-Cache as an effective medium for inter-model communication. Thus,\nwe propose Cache-to-Cache (C2C), a new paradigm for direct semantic\ncommunication between LLMs. C2C uses a neural network to project and fuse the\nsource model's KV-cache with that of the target model to enable direct semantic\ntransfer. A learnable gating mechanism selects the target layers that benefit\nfrom cache communication. Compared with text communication, C2C utilizes the\ndeep, specialized semantics from both models, while avoiding explicit\nintermediate text generation. Experiments show that C2C achieves 8.5-10.5%\nhigher average accuracy than individual models. It further outperforms the text\ncommunication paradigm by approximately 3.0-5.0%, while delivering an average\n2.0x speedup in latency. Our code is available at\nhttps://github.com/thu-nics/C2C.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.03215.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6445fd9ba56444c355dcbcba",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6445fd9ba56444c355dcbcba/NCyRCD-MK-yA0_qY6I2y0.png",
+      "fullname": "Tianyu Fu",
+      "name": "fuvty",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "organization": {
+      "_id": "64b74b5fb727f8771ab887f9",
+      "name": "nics-efc",
+      "fullname": "Tsinghua-NICS-EFC",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/641031b1a78453b8d96b8420/vmgxct2WsyHcKT2x2NAYT.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.05862",
+      "authors": [
+        {
+          "_id": "68e64fcf975ac4c405ef2263",
+          "name": "Zecheng Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68e64fcf975ac4c405ef2264",
+          "name": "Baibei Ji",
+          "hidden": false
+        },
+        {
+          "_id": "68e64fcf975ac4c405ef2265",
+          "name": "Juntao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e64fcf975ac4c405ef2266",
+          "name": "Lijun Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68e64fcf975ac4c405ef2267",
+          "name": "Haijia Gui",
+          "hidden": false
+        },
+        {
+          "_id": "68e64fcf975ac4c405ef2268",
+          "name": "Min Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-07T12:32:23.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:40:43.016Z",
+      "title": "Revisiting Long-context Modeling from Context Denoising Perspective",
+      "submittedOnDailyBy": {
+        "_id": "64096ef79e9f790c905b846d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64096ef79e9f790c905b846d/hVzw656lXdzbCxTtnheud.jpeg",
+        "isPro": false,
+        "fullname": "Zecheng Tang",
+        "user": "ZetangForward",
+        "type": "user"
+      },
+      "summary": "Long-context models (LCMs) have demonstrated great potential in processing\nlong sequences, facilitating many real-world applications. The success of LCMs\ncan be attributed to their ability to locate implicit critical information\nwithin the context for further prediction. However, recent research reveals\nthat LCMs are often susceptible to contextual noise, i.e., irrelevant tokens,\nthat can mislead model attention. In this paper, we conduct a fine-grained\nanalysis of the context noise and propose an effective metric, the Integrated\nGradient (IG) score, to detect and quantify the noise information within the\ncontext. Our findings reveal that even simple mitigation of detected context\nnoise can substantially boost the model's attention on critical tokens and\nbenefit subsequent predictions. Building on this insight, we propose Context\nDenoising Training (CDT), a straightforward yet effective training strategy\nthat improves attention on critical tokens while reinforcing their influence on\nmodel predictions. Extensive experiments across four tasks, under both context\nwindow scaling and long-context alignment settings, demonstrate the superiority\nof CDT. Notably, when trained with CDT, an open-source 8B model can achieve\nperformance (50.92) comparable to GPT-4o (51.00).",
+      "upvotes": 2,
+      "discussionId": "68e64fcf975ac4c405ef2269",
+      "ai_summary": "Context Denoising Training (CDT) improves long-context models' performance by mitigating contextual noise and enhancing attention on critical tokens.",
+      "ai_keywords": [
+        "long-context models",
+        "contextual noise",
+        "Integrated Gradient (IG) score",
+        "Context Denoising Training (CDT)",
+        "context window scaling",
+        "long-context alignment"
+      ],
+      "organization": {
+        "_id": "61f8e653129c9ff1b911293d",
+        "name": "SUDA",
+        "fullname": "Soochow University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643701821817-61f8e5934a8e5a275b2b3e5a.png"
+      }
+    },
+    "publishedAt": "2025-10-07T08:32:23.000Z",
+    "title": "Revisiting Long-context Modeling from Context Denoising Perspective",
+    "summary": "Long-context models (LCMs) have demonstrated great potential in processing\nlong sequences, facilitating many real-world applications. The success of LCMs\ncan be attributed to their ability to locate implicit critical information\nwithin the context for further prediction. However, recent research reveals\nthat LCMs are often susceptible to contextual noise, i.e., irrelevant tokens,\nthat can mislead model attention. In this paper, we conduct a fine-grained\nanalysis of the context noise and propose an effective metric, the Integrated\nGradient (IG) score, to detect and quantify the noise information within the\ncontext. Our findings reveal that even simple mitigation of detected context\nnoise can substantially boost the model's attention on critical tokens and\nbenefit subsequent predictions. Building on this insight, we propose Context\nDenoising Training (CDT), a straightforward yet effective training strategy\nthat improves attention on critical tokens while reinforcing their influence on\nmodel predictions. Extensive experiments across four tasks, under both context\nwindow scaling and long-context alignment settings, demonstrate the superiority\nof CDT. Notably, when trained with CDT, an open-source 8B model can achieve\nperformance (50.92) comparable to GPT-4o (51.00).",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.05862.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "64096ef79e9f790c905b846d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64096ef79e9f790c905b846d/hVzw656lXdzbCxTtnheud.jpeg",
+      "fullname": "Zecheng Tang",
+      "name": "ZetangForward",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "organization": {
+      "_id": "61f8e653129c9ff1b911293d",
+      "name": "SUDA",
+      "fullname": "Soochow University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643701821817-61f8e5934a8e5a275b2b3e5a.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.04212",
+      "authors": [
+        {
+          "_id": "68e7159d7ae125f9582e6916",
+          "name": "Haiquan Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "68e7159d7ae125f9582e6917",
+          "name": "Quanming Yao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-05T14:01:24.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:35:51.220Z",
+      "title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash\n  Attention",
+      "submittedOnDailyBy": {
+        "_id": "66cfda1386e3d910d7d88550",
+        "avatarUrl": "/avatars/e6c6537c0dc0a5e1b9d4f7fd62af60af.svg",
+        "isPro": false,
+        "fullname": "Haiquan Qiu",
+        "user": "huggingaaaaa",
+        "type": "user"
+      },
+      "summary": "The pursuit of computational efficiency has driven the adoption of\nlow-precision formats for training transformer models. However, this progress\nis often hindered by notorious training instabilities. This paper provides the\nfirst mechanistic explanation for a long-standing and unresolved failure case\nwhere training with flash attention in low-precision settings leads to\ncatastrophic loss explosions. Our in-depth analysis reveals that the failure is\nnot a random artifact but caused by two intertwined phenomena: the emergence of\nsimilar low-rank representations within the attention mechanism and the\ncompounding effect of biased rounding errors inherent in low-precision\narithmetic. We demonstrate how these factors create a vicious cycle of error\naccumulation that corrupts weight updates, ultimately derailing the training\ndynamics. To validate our findings, we introduce a minimal modification to the\nflash attention that mitigates the bias in rounding errors. This simple change\nstabilizes the training process, confirming our analysis and offering a\npractical solution to this persistent problem.",
+      "upvotes": 2,
+      "discussionId": "68e7159d7ae125f9582e6918",
+      "githubRepo": "https://github.com/ucker/why-low-precision-training-fails",
+      "ai_summary": "Low-precision training of transformer models with flash attention suffers from catastrophic loss explosions due to low-rank representations and biased rounding errors, which are addressed by a minimal modification to the flash attention mechanism.",
+      "ai_keywords": [
+        "low-precision formats",
+        "transformer models",
+        "flash attention",
+        "training instabilities",
+        "low-rank representations",
+        "biased rounding errors",
+        "error accumulation",
+        "weight updates",
+        "training dynamics"
+      ],
+      "githubStars": 0,
+      "organization": {
+        "_id": "64cc8e9b214a472dd85e7e1d",
+        "name": "THU1911",
+        "fullname": "Tsinghua University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61f8e5934a8e5a275b2b3e5a/oKO6FK_rTzzPHXihicZou.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-05T10:01:24.000Z",
+    "title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash\n  Attention",
+    "summary": "The pursuit of computational efficiency has driven the adoption of\nlow-precision formats for training transformer models. However, this progress\nis often hindered by notorious training instabilities. This paper provides the\nfirst mechanistic explanation for a long-standing and unresolved failure case\nwhere training with flash attention in low-precision settings leads to\ncatastrophic loss explosions. Our in-depth analysis reveals that the failure is\nnot a random artifact but caused by two intertwined phenomena: the emergence of\nsimilar low-rank representations within the attention mechanism and the\ncompounding effect of biased rounding errors inherent in low-precision\narithmetic. We demonstrate how these factors create a vicious cycle of error\naccumulation that corrupts weight updates, ultimately derailing the training\ndynamics. To validate our findings, we introduce a minimal modification to the\nflash attention that mitigates the bias in rounding errors. This simple change\nstabilizes the training process, confirming our analysis and offering a\npractical solution to this persistent problem.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.04212.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66cfda1386e3d910d7d88550",
+      "avatarUrl": "/avatars/e6c6537c0dc0a5e1b9d4f7fd62af60af.svg",
+      "fullname": "Haiquan Qiu",
+      "name": "huggingaaaaa",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "organization": {
+      "_id": "64cc8e9b214a472dd85e7e1d",
+      "name": "THU1911",
+      "fullname": "Tsinghua University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61f8e5934a8e5a275b2b3e5a/oKO6FK_rTzzPHXihicZou.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.07310",
+      "authors": [
+        {
+          "_id": "68e71a787ae125f9582e6969",
+          "name": "Siyoon Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68e71a787ae125f9582e696a",
+          "name": "Seongchan Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68e71a787ae125f9582e696b",
+          "name": "Dahyun Chung",
+          "hidden": false
+        },
+        {
+          "_id": "68e71a787ae125f9582e696c",
+          "name": "Jaeho Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68e71a787ae125f9582e696d",
+          "name": "Hyunwook Choi",
+          "hidden": false
+        },
+        {
+          "_id": "68e71a787ae125f9582e696e",
+          "name": "Jisu Nam",
+          "hidden": false
+        },
+        {
+          "_id": "68e71a787ae125f9582e696f",
+          "name": "Jiyoung Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68e71a787ae125f9582e6970",
+          "name": "Seungryong Kim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-08T17:57:38.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:44:33.311Z",
+      "title": "MATRIX: Mask Track Alignment for Interaction-aware Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Video DiTs have advanced video generation, yet they still struggle to model\nmulti-instance or subject-object interactions. This raises a key question: How\ndo these models internally represent interactions? To answer this, we curate\nMATRIX-11K, a video dataset with interaction-aware captions and multi-instance\nmask tracks. Using this dataset, we conduct a systematic analysis that\nformalizes two perspectives of video DiTs: semantic grounding, via\nvideo-to-text attention, which evaluates whether noun and verb tokens capture\ninstances and their relations; and semantic propagation, via video-to-video\nattention, which assesses whether instance bindings persist across frames. We\nfind both effects concentrate in a small subset of interaction-dominant layers.\nMotivated by this, we introduce MATRIX, a simple and effective regularization\nthat aligns attention in specific layers of video DiTs with multi-instance mask\ntracks from the MATRIX-11K dataset, enhancing both grounding and propagation.\nWe further propose InterGenEval, an evaluation protocol for interaction-aware\nvideo generation. In experiments, MATRIX improves both interaction fidelity and\nsemantic alignment while reducing drift and hallucination. Extensive ablations\nvalidate our design choices. Codes and weights will be released.",
+      "upvotes": 1,
+      "discussionId": "68e71a787ae125f9582e6971",
+      "projectPage": "https://cvlab-kaist.github.io/MATRIX/",
+      "githubRepo": "https://github.com/cvlab-kaist/MATRIX",
+      "ai_summary": "MATRIX-11K dataset and MATRIX regularization enhance interaction fidelity and semantic alignment in video DiTs by aligning attention with multi-instance mask tracks.",
+      "ai_keywords": [
+        "video DiTs",
+        "interaction-aware captions",
+        "multi-instance mask tracks",
+        "video-to-text attention",
+        "video-to-video attention",
+        "semantic grounding",
+        "semantic propagation",
+        "MATRIX regularization",
+        "InterGenEval",
+        "interaction fidelity",
+        "semantic alignment",
+        "drift",
+        "hallucination"
+      ]
+    },
+    "publishedAt": "2025-10-08T13:57:38.000Z",
+    "title": "MATRIX: Mask Track Alignment for Interaction-aware Video Generation",
+    "summary": "Video DiTs have advanced video generation, yet they still struggle to model\nmulti-instance or subject-object interactions. This raises a key question: How\ndo these models internally represent interactions? To answer this, we curate\nMATRIX-11K, a video dataset with interaction-aware captions and multi-instance\nmask tracks. Using this dataset, we conduct a systematic analysis that\nformalizes two perspectives of video DiTs: semantic grounding, via\nvideo-to-text attention, which evaluates whether noun and verb tokens capture\ninstances and their relations; and semantic propagation, via video-to-video\nattention, which assesses whether instance bindings persist across frames. We\nfind both effects concentrate in a small subset of interaction-dominant layers.\nMotivated by this, we introduce MATRIX, a simple and effective regularization\nthat aligns attention in specific layers of video DiTs with multi-instance mask\ntracks from the MATRIX-11K dataset, enhancing both grounding and propagation.\nWe further propose InterGenEval, an evaluation protocol for interaction-aware\nvideo generation. In experiments, MATRIX improves both interaction fidelity and\nsemantic alignment while reducing drift and hallucination. Extensive ablations\nvalidate our design choices. Codes and weights will be released.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.07310.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 120
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.07041",
+      "authors": [
+        {
+          "_id": "68e71b637ae125f9582e6985",
+          "name": "Fenghe Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e6986",
+          "name": "Chengqi Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e6987",
+          "name": "Wenxin Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e6988",
+          "name": "Zikang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e6989",
+          "name": "Heqin Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e698a",
+          "name": "Zihang Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e698b",
+          "name": "Rongsheng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e698c",
+          "name": "Yuhao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e698d",
+          "name": "Chenxu Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68e71b637ae125f9582e698e",
+          "name": "Shaohua Kevin Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-08T14:06:17.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:48:27.252Z",
+      "title": "U-Bench: A Comprehensive Understanding of U-Net through 100-Variant\n  Benchmarking",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Over the past decade, U-Net has been the dominant architecture in medical\nimage segmentation, leading to the development of thousands of U-shaped\nvariants. Despite its widespread adoption, there is still no comprehensive\nbenchmark to systematically evaluate their performance and utility, largely\nbecause of insufficient statistical validation and limited consideration of\nefficiency and generalization across diverse datasets. To bridge this gap, we\npresent U-Bench, the first large-scale, statistically rigorous benchmark that\nevaluates 100 U-Net variants across 28 datasets and 10 imaging modalities. Our\ncontributions are threefold: (1) Comprehensive Evaluation: U-Bench evaluates\nmodels along three key dimensions: statistical robustness, zero-shot\ngeneralization, and computational efficiency. We introduce a novel metric,\nU-Score, which jointly captures the performance-efficiency trade-off, offering\na deployment-oriented perspective on model progress. (2) Systematic Analysis\nand Model Selection Guidance: We summarize key findings from the large-scale\nevaluation and systematically analyze the impact of dataset characteristics and\narchitectural paradigms on model performance. Based on these insights, we\npropose a model advisor agent to guide researchers in selecting the most\nsuitable models for specific datasets and tasks. (3) Public Availability: We\nprovide all code, models, protocols, and weights, enabling the community to\nreproduce our results and extend the benchmark with future methods. In summary,\nU-Bench not only exposes gaps in previous evaluations but also establishes a\nfoundation for fair, reproducible, and practically relevant benchmarking in the\nnext decade of U-Net-based segmentation models. The project can be accessed at:\nhttps://fenghetan9.github.io/ubench. Code is available at:\nhttps://github.com/FengheTan9/U-Bench.",
+      "upvotes": 1,
+      "discussionId": "68e71b637ae125f9582e698f",
+      "projectPage": "https://fenghetan9.github.io/ubench/",
+      "githubRepo": "https://github.com/FengheTan9/U-Bench",
+      "ai_summary": "U-Bench is a comprehensive benchmark evaluating 100 U-Net variants across 28 datasets and 10 imaging modalities, focusing on statistical robustness, zero-shot generalization, and computational efficiency.",
+      "ai_keywords": [
+        "U-Net",
+        "U-Bench",
+        "U-Score",
+        "zero-shot generalization",
+        "computational efficiency",
+        "statistical robustness",
+        "model advisor agent"
+      ]
+    },
+    "publishedAt": "2025-10-08T10:06:17.000Z",
+    "title": "U-Bench: A Comprehensive Understanding of U-Net through 100-Variant\n  Benchmarking",
+    "summary": "Over the past decade, U-Net has been the dominant architecture in medical\nimage segmentation, leading to the development of thousands of U-shaped\nvariants. Despite its widespread adoption, there is still no comprehensive\nbenchmark to systematically evaluate their performance and utility, largely\nbecause of insufficient statistical validation and limited consideration of\nefficiency and generalization across diverse datasets. To bridge this gap, we\npresent U-Bench, the first large-scale, statistically rigorous benchmark that\nevaluates 100 U-Net variants across 28 datasets and 10 imaging modalities. Our\ncontributions are threefold: (1) Comprehensive Evaluation: U-Bench evaluates\nmodels along three key dimensions: statistical robustness, zero-shot\ngeneralization, and computational efficiency. We introduce a novel metric,\nU-Score, which jointly captures the performance-efficiency trade-off, offering\na deployment-oriented perspective on model progress. (2) Systematic Analysis\nand Model Selection Guidance: We summarize key findings from the large-scale\nevaluation and systematically analyze the impact of dataset characteristics and\narchitectural paradigms on model performance. Based on these insights, we\npropose a model advisor agent to guide researchers in selecting the most\nsuitable models for specific datasets and tasks. (3) Public Availability: We\nprovide all code, models, protocols, and weights, enabling the community to\nreproduce our results and extend the benchmark with future methods. In summary,\nU-Bench not only exposes gaps in previous evaluations but also establishes a\nfoundation for fair, reproducible, and practically relevant benchmarking in the\nnext decade of U-Net-based segmentation models. The project can be accessed at:\nhttps://fenghetan9.github.io/ubench. Code is available at:\nhttps://github.com/FengheTan9/U-Bench.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.07041.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 120
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.05891",
+      "authors": [
+        {
+          "_id": "68e663cd975ac4c405ef228a",
+          "name": "Yanran Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68e663cd975ac4c405ef228b",
+          "name": "Bingyao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68e663cd975ac4c405ef228c",
+          "name": "Yu Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68e663cd975ac4c405ef228d",
+          "name": "Wenzhao Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68e663cd975ac4c405ef228e",
+          "name": "Yueqi Duan",
+          "hidden": false
+        },
+        {
+          "_id": "68e663cd975ac4c405ef228f",
+          "name": "Lei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68e663cd975ac4c405ef2290",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68e663cd975ac4c405ef2291",
+          "name": "Jiwen Lu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-07T13:02:27.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:36:44.189Z",
+      "title": "D^3QE: Learning Discrete Distribution Discrepancy-aware\n  Quantization Error for Autoregressive-Generated Image Detection",
+      "submittedOnDailyBy": {
+        "_id": "661cfae9a853782abad2a495",
+        "avatarUrl": "/avatars/39723a07bf9efed8278e009fe966d044.svg",
+        "isPro": false,
+        "fullname": "Yanran Zhang",
+        "user": "Yanran21",
+        "type": "user"
+      },
+      "summary": "The emergence of visual autoregressive (AR) models has revolutionized image\ngeneration while presenting new challenges for synthetic image detection.\nUnlike previous GAN or diffusion-based methods, AR models generate images\nthrough discrete token prediction, exhibiting both marked improvements in image\nsynthesis quality and unique characteristics in their vector-quantized\nrepresentations. In this paper, we propose to leverage Discrete Distribution\nDiscrepancy-aware Quantization Error (D^3QE) for autoregressive-generated\nimage detection that exploits the distinctive patterns and the frequency\ndistribution bias of the codebook existing in real and fake images. We\nintroduce a discrete distribution discrepancy-aware transformer that integrates\ndynamic codebook frequency statistics into its attention mechanism, fusing\nsemantic features and quantization error latent. To evaluate our method, we\nconstruct a comprehensive dataset termed ARForensics covering 7 mainstream\nvisual AR models. Experiments demonstrate superior detection accuracy and\nstrong generalization of D^3QE across different AR models, with robustness to\nreal-world perturbations. Code is available at\nhttps://github.com/Zhangyr2022/D3QE{https://github.com/Zhangyr2022/D3QE}.",
+      "upvotes": 1,
+      "discussionId": "68e663ce975ac4c405ef2292",
+      "projectPage": "https://ivg-yanranzhang.github.io/D3QE/",
+      "githubRepo": "https://github.com/Zhangyr2022/D3QE",
+      "ai_summary": "A novel method using Discrete Distribution Discrepancy-aware Quantization Error (D$^3$QE) detects images generated by visual autoregressive models by analyzing codebook frequency statistics and quantization errors.",
+      "ai_keywords": [
+        "visual autoregressive (AR) models",
+        "image generation",
+        "synthetic image detection",
+        "discrete token prediction",
+        "vector-quantized representations",
+        "Discrete Distribution Discrepancy-aware Quantization Error (D$^3$QE)",
+        "discrete distribution discrepancy-aware transformer",
+        "attention mechanism",
+        "semantic features",
+        "quantization error latent",
+        "ARForensics dataset"
+      ]
+    },
+    "publishedAt": "2025-10-07T09:02:27.000Z",
+    "title": "D^3QE: Learning Discrete Distribution Discrepancy-aware\n  Quantization Error for Autoregressive-Generated Image Detection",
+    "summary": "The emergence of visual autoregressive (AR) models has revolutionized image\ngeneration while presenting new challenges for synthetic image detection.\nUnlike previous GAN or diffusion-based methods, AR models generate images\nthrough discrete token prediction, exhibiting both marked improvements in image\nsynthesis quality and unique characteristics in their vector-quantized\nrepresentations. In this paper, we propose to leverage Discrete Distribution\nDiscrepancy-aware Quantization Error (D^3QE) for autoregressive-generated\nimage detection that exploits the distinctive patterns and the frequency\ndistribution bias of the codebook existing in real and fake images. We\nintroduce a discrete distribution discrepancy-aware transformer that integrates\ndynamic codebook frequency statistics into its attention mechanism, fusing\nsemantic features and quantization error latent. To evaluate our method, we\nconstruct a comprehensive dataset termed ARForensics covering 7 mainstream\nvisual AR models. Experiments demonstrate superior detection accuracy and\nstrong generalization of D^3QE across different AR models, with robustness to\nreal-world perturbations. Code is available at\nhttps://github.com/Zhangyr2022/D3QE{https://github.com/Zhangyr2022/D3QE}.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.05891.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "661cfae9a853782abad2a495",
+      "avatarUrl": "/avatars/39723a07bf9efed8278e009fe966d044.svg",
+      "fullname": "Yanran Zhang",
+      "name": "Yanran21",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.04999",
+      "authors": [
+        {
+          "_id": "68e548b5975ac4c405ef1f19",
+          "user": {
+            "_id": "63cbb330f488db9bb3be6fe6",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63cbb330f488db9bb3be6fe6/66bg2FdIg4YSsqWzP8WAd.png",
+            "isPro": false,
+            "fullname": "Nilay K. Bhatnagar",
+            "user": "nnilayy",
+            "type": "user"
+          },
+          "name": "Nilay Kumar",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-08T08:01:20.349Z",
+          "hidden": false
+        },
+        {
+          "_id": "68e548b5975ac4c405ef1f1a",
+          "name": "Priyansh Bhandari",
+          "hidden": false
+        },
+        {
+          "_id": "68e548b5975ac4c405ef1f1b",
+          "name": "G. Maragatham",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-06T16:39:05.000Z",
+      "submittedOnDailyAt": "2025-10-09T00:48:18.817Z",
+      "title": "Bridging Text and Video Generation: A Survey",
+      "submittedOnDailyBy": {
+        "_id": "63cbb330f488db9bb3be6fe6",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63cbb330f488db9bb3be6fe6/66bg2FdIg4YSsqWzP8WAd.png",
+        "isPro": false,
+        "fullname": "Nilay K. Bhatnagar",
+        "user": "nnilayy",
+        "type": "user"
+      },
+      "summary": "Text-to-video (T2V) generation technology holds potential to transform\nmultiple domains such as education, marketing, entertainment, and assistive\ntechnologies for individuals with visual or reading comprehension challenges,\nby creating coherent visual content from natural language prompts. From its\ninception, the field has advanced from adversarial models to diffusion-based\nmodels, yielding higher-fidelity, temporally consistent outputs. Yet challenges\npersist, such as alignment, long-range coherence, and computational efficiency.\nAddressing this evolving landscape, we present a comprehensive survey of\ntext-to-video generative models, tracing their development from early GANs and\nVAEs to hybrid Diffusion-Transformer (DiT) architectures, detailing how these\nmodels work, what limitations they addressed in their predecessors, and why\nshifts toward new architectural paradigms were necessary to overcome challenges\nin quality, coherence, and control. We provide a systematic account of the\ndatasets, which the surveyed text-to-video models were trained and evaluated\non, and, to support reproducibility and assess the accessibility of training\nsuch models, we detail their training configurations, including their hardware\nspecifications, GPU counts, batch sizes, learning rates, optimizers, epochs,\nand other key hyperparameters. Further, we outline the evaluation metrics\ncommonly used for evaluating such models and present their performance across\nstandard benchmarks, while also discussing the limitations of these metrics and\nthe emerging shift toward more holistic, perception-aligned evaluation\nstrategies. Finally, drawing from our analysis, we outline the current open\nchallenges and propose a few promising future directions, laying out a\nperspective for future researchers to explore and build upon in advancing T2V\nresearch and applications.",
+      "upvotes": 1,
+      "discussionId": "68e548b5975ac4c405ef1f1c",
+      "ai_summary": "A survey of text-to-video generative models from GANs and VAEs to hybrid Diffusion-Transformer architectures, detailing their development, limitations, and future directions.",
+      "ai_keywords": [
+        "adversarial models",
+        "diffusion-based models",
+        "GANs",
+        "VAEs",
+        "Diffusion-Transformer (DiT) architectures",
+        "datasets",
+        "training configurations",
+        "evaluation metrics",
+        "perception-aligned evaluation strategies"
+      ]
+    },
+    "publishedAt": "2025-10-06T12:39:05.000Z",
+    "title": "Bridging Text and Video Generation: A Survey",
+    "summary": "Text-to-video (T2V) generation technology holds potential to transform\nmultiple domains such as education, marketing, entertainment, and assistive\ntechnologies for individuals with visual or reading comprehension challenges,\nby creating coherent visual content from natural language prompts. From its\ninception, the field has advanced from adversarial models to diffusion-based\nmodels, yielding higher-fidelity, temporally consistent outputs. Yet challenges\npersist, such as alignment, long-range coherence, and computational efficiency.\nAddressing this evolving landscape, we present a comprehensive survey of\ntext-to-video generative models, tracing their development from early GANs and\nVAEs to hybrid Diffusion-Transformer (DiT) architectures, detailing how these\nmodels work, what limitations they addressed in their predecessors, and why\nshifts toward new architectural paradigms were necessary to overcome challenges\nin quality, coherence, and control. We provide a systematic account of the\ndatasets, which the surveyed text-to-video models were trained and evaluated\non, and, to support reproducibility and assess the accessibility of training\nsuch models, we detail their training configurations, including their hardware\nspecifications, GPU counts, batch sizes, learning rates, optimizers, epochs,\nand other key hyperparameters. Further, we outline the evaluation metrics\ncommonly used for evaluating such models and present their performance across\nstandard benchmarks, while also discussing the limitations of these metrics and\nthe emerging shift toward more holistic, perception-aligned evaluation\nstrategies. Finally, drawing from our analysis, we outline the current open\nchallenges and propose a few promising future directions, laying out a\nperspective for future researchers to explore and build upon in advancing T2V\nresearch and applications.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.04999.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63cbb330f488db9bb3be6fe6",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63cbb330f488db9bb3be6fe6/66bg2FdIg4YSsqWzP8WAd.png",
+      "fullname": "Nilay K. Bhatnagar",
+      "name": "nnilayy",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "isAuthorParticipating": true
+  }
+]
