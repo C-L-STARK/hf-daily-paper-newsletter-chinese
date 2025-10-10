@@ -1,0 +1,710 @@
+[
+  {
+    "paper": {
+      "id": "2510.08483",
+      "authors": [
+        {
+          "_id": "68e8624a95e8e6771df3886a",
+          "name": "Shangqing Tu",
+          "hidden": false
+        },
+        {
+          "_id": "68e8624a95e8e6771df3886b",
+          "name": "Yaxuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e8624a95e8e6771df3886c",
+          "name": "Yushi Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68e8624a95e8e6771df3886d",
+          "name": "Lei Hou",
+          "hidden": false
+        },
+        {
+          "_id": "68e8624a95e8e6771df3886e",
+          "name": "Juanzi Li",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/648c48d8c0ddeee6df5b6d22/d1D0CmvxDAp-gD3SNBDs4.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/648c48d8c0ddeee6df5b6d22/1tuSZZNIzdebK1lbYkEaB.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/648c48d8c0ddeee6df5b6d22/K7eGzlhoch0C7GiUvTBg_.png"
+      ],
+      "publishedAt": "2025-10-09T17:24:54.000Z",
+      "submittedOnDailyAt": "2025-10-10T00:34:23.206Z",
+      "title": "DeepPrune: Parallel Scaling without Inter-trace Redundancy",
+      "submittedOnDailyBy": {
+        "_id": "648c48d8c0ddeee6df5b6d22",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648c48d8c0ddeee6df5b6d22/BlrYDv3eQxZ-Y5vtVGegX.jpeg",
+        "isPro": false,
+        "fullname": "Shangqing Tu",
+        "user": "tsq2000",
+        "type": "user"
+      },
+      "summary": "Parallel scaling has emerged as a powerful paradigm to enhance reasoning\ncapabilities in large language models (LLMs) by generating multiple\nChain-of-Thought (CoT) traces simultaneously. However, this approach introduces\nsignificant computational inefficiency due to inter-trace redundancy -- our\nanalysis reveals that over 80% of parallel reasoning traces yield identical\nfinal answers, representing substantial wasted computation. To address this\ncritical efficiency bottleneck, we propose DeepPrune, a novel framework that\nenables efficient parallel scaling through dynamic pruning. Our method features\na specialized judge model trained with focal loss and oversampling techniques\nto accurately predict answer equivalence from partial reasoning traces which\nrealizes 0.87 AUROC on equivalence prediction, combined with an online greedy\nclustering algorithm that dynamically prunes redundant paths while preserving\nanswer diversity. Comprehensive evaluations across three challenging benchmarks\n(AIME 2024, AIME 2025, and GPQA) and multiple reasoning models demonstrate that\nDeepPrune achieves remarkable token reduction by over 80% compared to\nconventional consensus sampling on most cases, while maintaining competitive\naccuracy within 3 percentage points. Our work establishes a new standard for\nefficient parallel reasoning, making high-performance reasoning more efficient.\nOur code and data are here: https://deepprune.github.io/",
+      "upvotes": 2,
+      "discussionId": "68e8624b95e8e6771df3886f",
+      "projectPage": "https://deepprune.github.io/",
+      "githubRepo": "https://github.com/THU-KEG/DeepPrune",
+      "ai_summary": "DeepPrune, a novel framework using dynamic pruning and a specialized judge model, significantly reduces computational inefficiency in parallel scaling of large language models by pruning redundant reasoning traces.",
+      "ai_keywords": [
+        "Chain-of-Thought",
+        "DeepPrune",
+        "dynamic pruning",
+        "judge model",
+        "focal loss",
+        "oversampling techniques",
+        "AUROC",
+        "online greedy clustering",
+        "token reduction",
+        "parallel reasoning",
+        "large language models"
+      ],
+      "githubStars": 4,
+      "organization": {
+        "_id": "64db4fc57266618e854318f4",
+        "name": "THU-KEG",
+        "fullname": "Knowledge Engineer Group @ Tsinghua University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/648c4b46e549be47af1aafcd/5atqdE9AUWvYAHm9FNkG_.png"
+      }
+    },
+    "publishedAt": "2025-10-09T13:24:54.000Z",
+    "title": "DeepPrune: Parallel Scaling without Inter-trace Redundancy",
+    "summary": "Parallel scaling has emerged as a powerful paradigm to enhance reasoning\ncapabilities in large language models (LLMs) by generating multiple\nChain-of-Thought (CoT) traces simultaneously. However, this approach introduces\nsignificant computational inefficiency due to inter-trace redundancy -- our\nanalysis reveals that over 80% of parallel reasoning traces yield identical\nfinal answers, representing substantial wasted computation. To address this\ncritical efficiency bottleneck, we propose DeepPrune, a novel framework that\nenables efficient parallel scaling through dynamic pruning. Our method features\na specialized judge model trained with focal loss and oversampling techniques\nto accurately predict answer equivalence from partial reasoning traces which\nrealizes 0.87 AUROC on equivalence prediction, combined with an online greedy\nclustering algorithm that dynamically prunes redundant paths while preserving\nanswer diversity. Comprehensive evaluations across three challenging benchmarks\n(AIME 2024, AIME 2025, and GPQA) and multiple reasoning models demonstrate that\nDeepPrune achieves remarkable token reduction by over 80% compared to\nconventional consensus sampling on most cases, while maintaining competitive\naccuracy within 3 percentage points. Our work establishes a new standard for\nefficient parallel reasoning, making high-performance reasoning more efficient.\nOur code and data are here: https://deepprune.github.io/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/648c48d8c0ddeee6df5b6d22/d1D0CmvxDAp-gD3SNBDs4.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/648c48d8c0ddeee6df5b6d22/1tuSZZNIzdebK1lbYkEaB.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/648c48d8c0ddeee6df5b6d22/K7eGzlhoch0C7GiUvTBg_.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08483.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "648c48d8c0ddeee6df5b6d22",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648c48d8c0ddeee6df5b6d22/BlrYDv3eQxZ-Y5vtVGegX.jpeg",
+      "fullname": "Shangqing Tu",
+      "name": "tsq2000",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "organization": {
+      "_id": "64db4fc57266618e854318f4",
+      "name": "THU-KEG",
+      "fullname": "Knowledge Engineer Group @ Tsinghua University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/648c4b46e549be47af1aafcd/5atqdE9AUWvYAHm9FNkG_.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.08308",
+      "authors": [
+        {
+          "_id": "68e869b695e8e6771df388d2",
+          "name": "Liwei Kang",
+          "hidden": false
+        },
+        {
+          "_id": "68e869b695e8e6771df388d3",
+          "name": "Yue Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68e869b695e8e6771df388d4",
+          "name": "Yao Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "68e869b695e8e6771df388d5",
+          "name": "Zhanfeng Mo",
+          "hidden": false
+        },
+        {
+          "_id": "68e869b695e8e6771df388d6",
+          "name": "Wee Sun Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68e869b695e8e6771df388d7",
+          "name": "Lidong Bing",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T14:57:10.000Z",
+      "submittedOnDailyAt": "2025-10-10T00:42:42.161Z",
+      "title": "First Try Matters: Revisiting the Role of Reflection in Reasoning Models",
+      "submittedOnDailyBy": {
+        "_id": "64c274aa2b1ffc2eecc068ec",
+        "avatarUrl": "/avatars/37d8dbe6e5e3431e72b2da18affcb639.svg",
+        "isPro": false,
+        "fullname": "Liwei Kang",
+        "user": "olafyiii",
+        "type": "user"
+      },
+      "summary": "Large language models have recently demonstrated significant gains in\nreasoning ability, often attributed to their capacity to generate longer chains\nof thought and engage in reflective reasoning. However, the contribution of\nreflections to performance improvement remains unclear. In this paper, we\nsystematically analyze the rollouts of eight reasoning models on five\nmathematical datasets. We focus on reflective behaviours where the model has\nalready produced an answer but continues reflecting before finalizing its\noutput. Our analysis reveals that reflections are predominantly confirmatory\nand rarely alter the model's initial answer, a pattern consistent across models\nand datasets. To understand the role of reflections in training, we construct\nsupervised fine-tuning (SFT) datasets with varying amounts of reflection steps.\nWe observe that training models on rollouts with more reflection steps\nprimarily enhances first-answer correctness rather than the ability to correct\ninitially wrong answers through reflections. This motivates us to propose a\nquestion-aware early-stopping method that enhances inference-time token\nefficiency by stopping the reasoning process once a few plausible candidate\nanswers are generated, thereby reducing unnecessary reflection steps. Motivated\nby this, we further propose to dynamically truncate the reflections after a\ncandidate answer has appeared during generation, which reduces reasoning tokens\nby 24.5% across five mathematical datasets, within a 2.9% drop in accuracy.",
+      "upvotes": 2,
+      "discussionId": "68e869b795e8e6771df388d8",
+      "ai_summary": "Analysis of reflective behaviors in reasoning models shows that reflections primarily confirm initial answers, and training with more reflections improves first-answer correctness; a question-aware early-stopping method reduces unnecessary reflections and tokens with minimal accuracy loss.",
+      "ai_keywords": [
+        "reasoning models",
+        "reflective behaviors",
+        "confirmatory reflections",
+        "supervised fine-tuning",
+        "early-stopping method",
+        "token efficiency",
+        "reasoning tokens",
+        "candidate answers"
+      ]
+    },
+    "publishedAt": "2025-10-09T10:57:10.000Z",
+    "title": "First Try Matters: Revisiting the Role of Reflection in Reasoning Models",
+    "summary": "Large language models have recently demonstrated significant gains in\nreasoning ability, often attributed to their capacity to generate longer chains\nof thought and engage in reflective reasoning. However, the contribution of\nreflections to performance improvement remains unclear. In this paper, we\nsystematically analyze the rollouts of eight reasoning models on five\nmathematical datasets. We focus on reflective behaviours where the model has\nalready produced an answer but continues reflecting before finalizing its\noutput. Our analysis reveals that reflections are predominantly confirmatory\nand rarely alter the model's initial answer, a pattern consistent across models\nand datasets. To understand the role of reflections in training, we construct\nsupervised fine-tuning (SFT) datasets with varying amounts of reflection steps.\nWe observe that training models on rollouts with more reflection steps\nprimarily enhances first-answer correctness rather than the ability to correct\ninitially wrong answers through reflections. This motivates us to propose a\nquestion-aware early-stopping method that enhances inference-time token\nefficiency by stopping the reasoning process once a few plausible candidate\nanswers are generated, thereby reducing unnecessary reflection steps. Motivated\nby this, we further propose to dynamically truncate the reflections after a\ncandidate answer has appeared during generation, which reduces reasoning tokens\nby 24.5% across five mathematical datasets, within a 2.9% drop in accuracy.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08308.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64c274aa2b1ffc2eecc068ec",
+      "avatarUrl": "/avatars/37d8dbe6e5e3431e72b2da18affcb639.svg",
+      "fullname": "Liwei Kang",
+      "name": "olafyiii",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.03663",
+      "authors": [
+        {
+          "_id": "68e7fb7e93680d7965e7c877",
+          "name": "Xiangyu Peng",
+          "hidden": false
+        },
+        {
+          "_id": "68e7fb7e93680d7965e7c878",
+          "name": "Cab Qin",
+          "hidden": false
+        },
+        {
+          "_id": "68e7fb7e93680d7965e7c879",
+          "name": "Zeyuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68e7fb7e93680d7965e7c87a",
+          "name": "Ran Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68e7fb7e93680d7965e7c87b",
+          "name": "Caiming Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68e7fb7e93680d7965e7c87c",
+          "name": "Chien-Sheng Wu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-04T04:30:13.000Z",
+      "submittedOnDailyAt": "2025-10-10T00:41:09.901Z",
+      "title": "UNIDOC-BENCH: A Unified Benchmark for Document-Centric Multimodal RAG",
+      "submittedOnDailyBy": {
+        "_id": "66a9bdfc35c89692442ba4b7",
+        "avatarUrl": "/avatars/ad87d1d2d81775eeb0920bf3ebe08cc2.svg",
+        "isPro": false,
+        "fullname": "Can Qin",
+        "user": "canqin001",
+        "type": "user"
+      },
+      "summary": "Multimodal retrieval-augmented generation (MM-RAG) is a key approach for\napplying large language models (LLMs) and agents to real-world knowledge bases,\nyet current evaluations are fragmented, focusing on either text or images in\nisolation or on simplified multimodal setups that fail to capture\ndocument-centric multimodal use cases. In this paper, we introduce\nUniDoc-Bench, the first large-scale, realistic benchmark for MM-RAG built from\n70k real-world PDF pages across eight domains. Our pipeline extracts and links\nevidence from text, tables, and figures, then generates 1,600 multimodal QA\npairs spanning factual retrieval, comparison, summarization, and logical\nreasoning queries. To ensure reliability, 20% of QA pairs are validated by\nmultiple annotators and expert adjudication. UniDoc-Bench supports\napples-to-apples comparison across four paradigms: (1) text-only, (2)\nimage-only, (3) multimodal text-image fusion, and (4) multimodal joint\nretrieval -- under a unified protocol with standardized candidate pools,\nprompts, and evaluation metrics. Our experiments show that multimodal\ntext-image fusion RAG systems consistently outperform both unimodal and jointly\nmultimodal embedding-based retrieval, indicating that neither text nor images\nalone are sufficient and that current multimodal embeddings remain inadequate.\nBeyond benchmarking, our analysis reveals when and how visual context\ncomplements textual evidence, uncovers systematic failure modes, and offers\nactionable guidance for developing more robust MM-RAG pipelines.",
+      "upvotes": 2,
+      "discussionId": "68e7fb7e93680d7965e7c87d",
+      "githubRepo": "https://github.com/SalesforceAIResearch/UniDoc-Bench",
+      "ai_summary": "UniDoc-Bench is a large-scale benchmark for multimodal retrieval-augmented generation, evaluating systems across text, images, and their fusion in real-world document-centric scenarios.",
+      "ai_keywords": [
+        "multimodal retrieval-augmented generation",
+        "large language models",
+        "knowledge bases",
+        "UniDoc-Bench",
+        "PDF pages",
+        "multimodal QA pairs",
+        "factual retrieval",
+        "comparison",
+        "summarization",
+        "logical reasoning",
+        "text-only",
+        "image-only",
+        "multimodal text-image fusion",
+        "multimodal joint retrieval",
+        "candidate pools",
+        "prompts",
+        "evaluation metrics",
+        "visual context",
+        "textual evidence",
+        "failure modes",
+        "robust MM-RAG pipelines"
+      ],
+      "githubStars": 1,
+      "organization": {
+        "_id": "5f6d64475e78cc6b0ed31e4c",
+        "name": "Salesforce",
+        "fullname": "Salesforce",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1602756670970-noauth.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-04T00:30:13.000Z",
+    "title": "UNIDOC-BENCH: A Unified Benchmark for Document-Centric Multimodal RAG",
+    "summary": "Multimodal retrieval-augmented generation (MM-RAG) is a key approach for\napplying large language models (LLMs) and agents to real-world knowledge bases,\nyet current evaluations are fragmented, focusing on either text or images in\nisolation or on simplified multimodal setups that fail to capture\ndocument-centric multimodal use cases. In this paper, we introduce\nUniDoc-Bench, the first large-scale, realistic benchmark for MM-RAG built from\n70k real-world PDF pages across eight domains. Our pipeline extracts and links\nevidence from text, tables, and figures, then generates 1,600 multimodal QA\npairs spanning factual retrieval, comparison, summarization, and logical\nreasoning queries. To ensure reliability, 20% of QA pairs are validated by\nmultiple annotators and expert adjudication. UniDoc-Bench supports\napples-to-apples comparison across four paradigms: (1) text-only, (2)\nimage-only, (3) multimodal text-image fusion, and (4) multimodal joint\nretrieval -- under a unified protocol with standardized candidate pools,\nprompts, and evaluation metrics. Our experiments show that multimodal\ntext-image fusion RAG systems consistently outperform both unimodal and jointly\nmultimodal embedding-based retrieval, indicating that neither text nor images\nalone are sufficient and that current multimodal embeddings remain inadequate.\nBeyond benchmarking, our analysis reveals when and how visual context\ncomplements textual evidence, uncovers systematic failure modes, and offers\nactionable guidance for developing more robust MM-RAG pipelines.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.03663.png",
+    "numComments": 3,
+    "submittedBy": {
+      "_id": "66a9bdfc35c89692442ba4b7",
+      "avatarUrl": "/avatars/ad87d1d2d81775eeb0920bf3ebe08cc2.svg",
+      "fullname": "Can Qin",
+      "name": "canqin001",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "organization": {
+      "_id": "5f6d64475e78cc6b0ed31e4c",
+      "name": "Salesforce",
+      "fullname": "Salesforce",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1602756670970-noauth.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.08565",
+      "authors": [
+        {
+          "_id": "68e866db95e8e6771df38877",
+          "name": "Changyao Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df38878",
+          "name": "Hao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df38879",
+          "name": "Gen Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df3887a",
+          "name": "Xizhou Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df3887b",
+          "name": "Weijie Su",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df3887c",
+          "name": "Hanming Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df3887d",
+          "name": "Jinguo Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df3887e",
+          "name": "Jie Shao",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df3887f",
+          "name": "Ziran Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df38880",
+          "name": "Yunpeng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df38881",
+          "name": "Lewei Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df38882",
+          "name": "Wenhai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df38883",
+          "name": "Hongsheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e866db95e8e6771df38884",
+          "name": "Jifeng Dai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T17:59:37.000Z",
+      "submittedOnDailyAt": "2025-10-10T00:25:01.334Z",
+      "title": "NaViL: Rethinking Scaling Properties of Native Multimodal Large Language\n  Models under Data Constraints",
+      "submittedOnDailyBy": {
+        "_id": "64b7475efa7eabaae5f7ba94",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b7475efa7eabaae5f7ba94/YLv44PZM6tw1sxACY1-U_.png",
+        "isPro": true,
+        "fullname": "Changyao Tian",
+        "user": "Changyao",
+        "type": "user"
+      },
+      "summary": "Compositional training has been the de-facto paradigm in existing Multimodal\nLarge Language Models (MLLMs), where pre-trained vision encoders are connected\nwith pre-trained LLMs through continuous multimodal pre-training. However, the\nmultimodal scaling property of this paradigm remains difficult to explore due\nto the separated training. In this paper, we focus on the native training of\nMLLMs in an end-to-end manner and systematically study its design space and\nscaling property under a practical setting, i.e., data constraint. Through\ncareful study of various choices in MLLM, we obtain the optimal\nmeta-architecture that best balances performance and training cost. After that,\nwe further explore the scaling properties of the native MLLM and indicate the\npositively correlated scaling relationship between visual encoders and LLMs.\nBased on these findings, we propose a native MLLM called NaViL, combined with a\nsimple and cost-effective recipe. Experimental results on 14 multimodal\nbenchmarks confirm the competitive performance of NaViL against existing MLLMs.\nBesides that, our findings and results provide in-depth insights for the future\nstudy of native MLLMs.",
+      "upvotes": 1,
+      "discussionId": "68e866db95e8e6771df38885",
+      "projectPage": "https://internvl.github.io/blog/2025-10-10-NaViL/",
+      "githubRepo": "https://github.com/OpenGVLab/NaViL",
+      "ai_summary": "Native end-to-end training of Multimodal Large Language Models (MLLMs) achieves competitive performance with a balanced design and scaling relationship between visual encoders and LLMs.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "compositional training",
+        "continuous multimodal pre-training",
+        "end-to-end training",
+        "meta-architecture",
+        "scaling property",
+        "visual encoders",
+        "LLMs",
+        "NaViL"
+      ],
+      "githubStars": 2,
+      "organization": {
+        "_id": "64006c57a3b8fe3ac0e9af7c",
+        "name": "OpenGVLab",
+        "fullname": "OpenGVLab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64006c09330a45b03605bba3/FvdxiTkTqH8rKDOzGZGUE.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-09T13:59:37.000Z",
+    "title": "NaViL: Rethinking Scaling Properties of Native Multimodal Large Language\n  Models under Data Constraints",
+    "summary": "Compositional training has been the de-facto paradigm in existing Multimodal\nLarge Language Models (MLLMs), where pre-trained vision encoders are connected\nwith pre-trained LLMs through continuous multimodal pre-training. However, the\nmultimodal scaling property of this paradigm remains difficult to explore due\nto the separated training. In this paper, we focus on the native training of\nMLLMs in an end-to-end manner and systematically study its design space and\nscaling property under a practical setting, i.e., data constraint. Through\ncareful study of various choices in MLLM, we obtain the optimal\nmeta-architecture that best balances performance and training cost. After that,\nwe further explore the scaling properties of the native MLLM and indicate the\npositively correlated scaling relationship between visual encoders and LLMs.\nBased on these findings, we propose a native MLLM called NaViL, combined with a\nsimple and cost-effective recipe. Experimental results on 14 multimodal\nbenchmarks confirm the competitive performance of NaViL against existing MLLMs.\nBesides that, our findings and results provide in-depth insights for the future\nstudy of native MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08565.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64b7475efa7eabaae5f7ba94",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b7475efa7eabaae5f7ba94/YLv44PZM6tw1sxACY1-U_.png",
+      "fullname": "Changyao Tian",
+      "name": "Changyao",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "organization": {
+      "_id": "64006c57a3b8fe3ac0e9af7c",
+      "name": "OpenGVLab",
+      "fullname": "OpenGVLab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64006c09330a45b03605bba3/FvdxiTkTqH8rKDOzGZGUE.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.07429",
+      "authors": [
+        {
+          "_id": "68e86c0e95e8e6771df38902",
+          "name": "Wang Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68e86c0e95e8e6771df38903",
+          "name": "Tiankai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68e86c0e95e8e6771df38904",
+          "name": "Hongjie Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68e86c0e95e8e6771df38905",
+          "name": "Yue Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68e86c0e95e8e6771df38906",
+          "name": "Franck Dernoncourt",
+          "hidden": false
+        },
+        {
+          "_id": "68e86c0e95e8e6771df38907",
+          "name": "Ryan A. Rossi",
+          "hidden": false
+        },
+        {
+          "_id": "68e86c0e95e8e6771df38908",
+          "name": "Hoda Eldardiry",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-08T18:24:59.000Z",
+      "submittedOnDailyAt": "2025-10-10T00:45:08.621Z",
+      "title": "Learning to Route LLMs from Bandit Feedback: One Policy, Many Trade-offs",
+      "submittedOnDailyBy": {
+        "_id": "62c5947524171688a9feb992",
+        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+        "isPro": false,
+        "fullname": "Franck Dernoncourt",
+        "user": "Franck-Dernoncourt",
+        "type": "user"
+      },
+      "summary": "Efficient use of large language models (LLMs) is critical for deployment at\nscale: without adaptive routing, systems either overpay for strong models or\nrisk poor performance from weaker ones. Selecting the right LLM for each query\nis fundamentally an online decision problem: models differ in strengths, prices\nfluctuate, and users value accuracy and cost differently. Yet most routers are\ntrained offline with labels for all candidate models, an assumption that breaks\nin deployment, where only the outcome of the chosen model is observed. We\nbridge this gap with BaRP, a Bandit-feedback Routing with Preferences approach\nthat trains under the same partial-feedback restriction as deployment, while\nsupporting preference-tunable inference: operators can dial the\nperformance/cost trade-off at test time without retraining. Framed as a\ncontextual bandit over prompt features and a user preference vector, our method\nsimulates an online feedback setting during training and adapts its routing\ndecisions to each new prompt, rather than depending on full-information offline\nsupervision. Comprehensive experiments show that our method consistently\noutperforms strong offline routers by at least 12.46% and the largest LLM by at\nleast 2.45%, and generalizes robustly for unseen tasks.",
+      "upvotes": 1,
+      "discussionId": "68e86c0e95e8e6771df38909",
+      "ai_summary": "BaRP, a Bandit-feedback Routing with Preferences approach, optimizes large language model selection in an online setting with partial feedback, outperforming offline routers and large models.",
+      "ai_keywords": [
+        "large language models",
+        "adaptive routing",
+        "online decision problem",
+        "partial-feedback restriction",
+        "contextual bandit",
+        "prompt features",
+        "user preference vector",
+        "performance/cost trade-off"
+      ]
+    },
+    "publishedAt": "2025-10-08T14:24:59.000Z",
+    "title": "Learning to Route LLMs from Bandit Feedback: One Policy, Many Trade-offs",
+    "summary": "Efficient use of large language models (LLMs) is critical for deployment at\nscale: without adaptive routing, systems either overpay for strong models or\nrisk poor performance from weaker ones. Selecting the right LLM for each query\nis fundamentally an online decision problem: models differ in strengths, prices\nfluctuate, and users value accuracy and cost differently. Yet most routers are\ntrained offline with labels for all candidate models, an assumption that breaks\nin deployment, where only the outcome of the chosen model is observed. We\nbridge this gap with BaRP, a Bandit-feedback Routing with Preferences approach\nthat trains under the same partial-feedback restriction as deployment, while\nsupporting preference-tunable inference: operators can dial the\nperformance/cost trade-off at test time without retraining. Framed as a\ncontextual bandit over prompt features and a user preference vector, our method\nsimulates an online feedback setting during training and adapts its routing\ndecisions to each new prompt, rather than depending on full-information offline\nsupervision. Comprehensive experiments show that our method consistently\noutperforms strong offline routers by at least 12.46% and the largest LLM by at\nleast 2.45%, and generalizes robustly for unseen tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.07429.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c5947524171688a9feb992",
+      "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+      "fullname": "Franck Dernoncourt",
+      "name": "Franck-Dernoncourt",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.06915",
+      "authors": [
+        {
+          "_id": "68e86a8f95e8e6771df388e6",
+          "name": "Zecheng Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68e86a8f95e8e6771df388e7",
+          "name": "Baibei Ji",
+          "hidden": false
+        },
+        {
+          "_id": "68e86a8f95e8e6771df388e8",
+          "name": "Quantong Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "68e86a8f95e8e6771df388e9",
+          "name": "Haitian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e86a8f95e8e6771df388ea",
+          "name": "Xiaobo Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68e86a8f95e8e6771df388eb",
+          "name": "Juntao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e86a8f95e8e6771df388ec",
+          "name": "Min Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-08T11:48:16.000Z",
+      "submittedOnDailyAt": "2025-10-10T00:39:31.912Z",
+      "title": "LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling",
+      "submittedOnDailyBy": {
+        "_id": "64096ef79e9f790c905b846d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64096ef79e9f790c905b846d/hVzw656lXdzbCxTtnheud.jpeg",
+        "isPro": false,
+        "fullname": "Zecheng Tang",
+        "user": "ZetangForward",
+        "type": "user"
+      },
+      "summary": "Reward model (RM) plays a pivotal role in aligning large language model (LLM)\nwith human preferences. As real-world applications increasingly involve long\nhistory trajectories, e.g., LLM agent, it becomes indispensable to evaluate\nwhether a model's responses are not only high-quality but also grounded in and\nconsistent with the provided context. Yet, current RMs remain confined to\nshort-context settings and primarily focus on response-level attributes (e.g.,\nsafety or helpfulness), while largely neglecting the critical dimension of long\ncontext-response consistency. In this work, we introduce Long-RewardBench, a\nbenchmark specifically designed for long-context RM evaluation, featuring both\nPairwise Comparison and Best-of-N tasks. Our preliminary study reveals that\neven state-of-the-art generative RMs exhibit significant fragility in\nlong-context scenarios, failing to maintain context-aware preference judgments.\nMotivated by the analysis of failure patterns observed in model outputs, we\npropose a general multi-stage training strategy that effectively scales\narbitrary models into robust Long-context RMs (LongRMs). Experiments show that\nour approach not only substantially improves performance on long-context\nevaluation but also preserves strong short-context capability. Notably, our 8B\nLongRM outperforms much larger 70B-scale baselines and matches the performance\nof the proprietary Gemini 2.5 Pro model.",
+      "upvotes": 1,
+      "discussionId": "68e86a8f95e8e6771df388ed",
+      "githubRepo": "https://github.com/LCM-Lab/LongRM",
+      "ai_summary": "A benchmark and training strategy for reward models to improve long-context consistency and performance in large language models.",
+      "ai_keywords": [
+        "reward model",
+        "large language model",
+        "long-context",
+        "short-context",
+        "Pairwise Comparison",
+        "Best-of-N",
+        "context-response consistency",
+        "multi-stage training",
+        "long-context RMs",
+        "LongRMs"
+      ],
+      "githubStars": 1,
+      "organization": {
+        "_id": "61f8e653129c9ff1b911293d",
+        "name": "SUDA",
+        "fullname": "Soochow University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643701821817-61f8e5934a8e5a275b2b3e5a.png"
+      }
+    },
+    "publishedAt": "2025-10-08T07:48:16.000Z",
+    "title": "LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling",
+    "summary": "Reward model (RM) plays a pivotal role in aligning large language model (LLM)\nwith human preferences. As real-world applications increasingly involve long\nhistory trajectories, e.g., LLM agent, it becomes indispensable to evaluate\nwhether a model's responses are not only high-quality but also grounded in and\nconsistent with the provided context. Yet, current RMs remain confined to\nshort-context settings and primarily focus on response-level attributes (e.g.,\nsafety or helpfulness), while largely neglecting the critical dimension of long\ncontext-response consistency. In this work, we introduce Long-RewardBench, a\nbenchmark specifically designed for long-context RM evaluation, featuring both\nPairwise Comparison and Best-of-N tasks. Our preliminary study reveals that\neven state-of-the-art generative RMs exhibit significant fragility in\nlong-context scenarios, failing to maintain context-aware preference judgments.\nMotivated by the analysis of failure patterns observed in model outputs, we\npropose a general multi-stage training strategy that effectively scales\narbitrary models into robust Long-context RMs (LongRMs). Experiments show that\nour approach not only substantially improves performance on long-context\nevaluation but also preserves strong short-context capability. Notably, our 8B\nLongRM outperforms much larger 70B-scale baselines and matches the performance\nof the proprietary Gemini 2.5 Pro model.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.06915.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64096ef79e9f790c905b846d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64096ef79e9f790c905b846d/hVzw656lXdzbCxTtnheud.jpeg",
+      "fullname": "Zecheng Tang",
+      "name": "ZetangForward",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "organization": {
+      "_id": "61f8e653129c9ff1b911293d",
+      "name": "SUDA",
+      "fullname": "Soochow University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643701821817-61f8e5934a8e5a275b2b3e5a.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.08547",
+      "authors": [
+        {
+          "_id": "68e868a495e8e6771df388c9",
+          "name": "Xiuwei Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68e868a495e8e6771df388ca",
+          "name": "Angyuan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68e868a495e8e6771df388cb",
+          "name": "Hankun Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e868a495e8e6771df388cc",
+          "name": "Bingyao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68e868a495e8e6771df388cd",
+          "name": "Zheng Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68e868a495e8e6771df388ce",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68e868a495e8e6771df388cf",
+          "name": "Jiwen Lu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/648ac65fd044b25978015634/TXgQACXpRv93_3lWH_xTi.mp4",
+        "https://cdn-uploads.huggingface.co/production/uploads/648ac65fd044b25978015634/ZYAoH5iCrWV5vaRGHPa3g.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/648ac65fd044b25978015634/uBguD4B5-gXY7CYx2Ob5F.png"
+      ],
+      "publishedAt": "2025-10-09T17:55:44.000Z",
+      "submittedOnDailyAt": "2025-10-10T00:43:49.458Z",
+      "title": "R2RGEN: Real-to-Real 3D Data Generation for Spatially Generalized\n  Manipulation",
+      "submittedOnDailyBy": {
+        "_id": "648ac65fd044b25978015634",
+        "avatarUrl": "/avatars/2278a66fdc953220e9f8fc0ccce3ff00.svg",
+        "isPro": false,
+        "fullname": "Xiuwei Xu",
+        "user": "xuxw98",
+        "type": "user"
+      },
+      "summary": "Towards the aim of generalized robotic manipulation, spatial generalization\nis the most fundamental capability that requires the policy to work robustly\nunder different spatial distribution of objects, environment and agent itself.\nTo achieve this, substantial human demonstrations need to be collected to cover\ndifferent spatial configurations for training a generalized visuomotor policy\nvia imitation learning. Prior works explore a promising direction that\nleverages data generation to acquire abundant spatially diverse data from\nminimal source demonstrations. However, most approaches face significant\nsim-to-real gap and are often limited to constrained settings, such as\nfixed-base scenarios and predefined camera viewpoints. In this paper, we\npropose a real-to-real 3D data generation framework (R2RGen) that directly\naugments the pointcloud observation-action pairs to generate real-world data.\nR2RGen is simulator- and rendering-free, thus being efficient and\nplug-and-play. Specifically, given a single source demonstration, we introduce\nan annotation mechanism for fine-grained parsing of scene and trajectory. A\ngroup-wise augmentation strategy is proposed to handle complex multi-object\ncompositions and diverse task constraints. We further present camera-aware\nprocessing to align the distribution of generated data with real-world 3D\nsensor. Empirically, R2RGen substantially enhances data efficiency on extensive\nexperiments and demonstrates strong potential for scaling and application on\nmobile manipulation.",
+      "upvotes": 0,
+      "discussionId": "68e868a495e8e6771df388d0",
+      "ai_summary": "A real-to-real 3D data generation framework enhances data efficiency for generalized robotic manipulation by augmenting pointcloud observations without simulation.",
+      "ai_keywords": [
+        "spatial generalization",
+        "visuomotor policy",
+        "imitation learning",
+        "data generation",
+        "pointcloud",
+        "real-to-real",
+        "annotation mechanism",
+        "group-wise augmentation",
+        "camera-aware processing",
+        "mobile manipulation"
+      ]
+    },
+    "publishedAt": "2025-10-09T13:55:44.000Z",
+    "title": "R2RGEN: Real-to-Real 3D Data Generation for Spatially Generalized\n  Manipulation",
+    "summary": "Towards the aim of generalized robotic manipulation, spatial generalization\nis the most fundamental capability that requires the policy to work robustly\nunder different spatial distribution of objects, environment and agent itself.\nTo achieve this, substantial human demonstrations need to be collected to cover\ndifferent spatial configurations for training a generalized visuomotor policy\nvia imitation learning. Prior works explore a promising direction that\nleverages data generation to acquire abundant spatially diverse data from\nminimal source demonstrations. However, most approaches face significant\nsim-to-real gap and are often limited to constrained settings, such as\nfixed-base scenarios and predefined camera viewpoints. In this paper, we\npropose a real-to-real 3D data generation framework (R2RGen) that directly\naugments the pointcloud observation-action pairs to generate real-world data.\nR2RGen is simulator- and rendering-free, thus being efficient and\nplug-and-play. Specifically, given a single source demonstration, we introduce\nan annotation mechanism for fine-grained parsing of scene and trajectory. A\ngroup-wise augmentation strategy is proposed to handle complex multi-object\ncompositions and diverse task constraints. We further present camera-aware\nprocessing to align the distribution of generated data with real-world 3D\nsensor. Empirically, R2RGen substantially enhances data efficiency on extensive\nexperiments and demonstrates strong potential for scaling and application on\nmobile manipulation.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/648ac65fd044b25978015634/TXgQACXpRv93_3lWH_xTi.mp4",
+      "https://cdn-uploads.huggingface.co/production/uploads/648ac65fd044b25978015634/ZYAoH5iCrWV5vaRGHPa3g.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/648ac65fd044b25978015634/uBguD4B5-gXY7CYx2Ob5F.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08547.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "648ac65fd044b25978015634",
+      "avatarUrl": "/avatars/2278a66fdc953220e9f8fc0ccce3ff00.svg",
+      "fullname": "Xiuwei Xu",
+      "name": "xuxw98",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
