@@ -1,0 +1,1735 @@
+[
+  {
+    "paper": {
+      "id": "2510.04533",
+      "authors": [
+        {
+          "_id": "68e67c91975ac4c405ef2334",
+          "user": {
+            "_id": "680ed019a9918bb1cbc66248",
+            "avatarUrl": "/avatars/904d243f2fad99341f11795e93788993.svg",
+            "isPro": true,
+            "fullname": "Hyunmin Cho",
+            "user": "hyeoncho01",
+            "type": "user"
+          },
+          "name": "Hyunmin Cho",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-09T06:51:20.523Z",
+          "hidden": false
+        },
+        {
+          "_id": "68e67c91975ac4c405ef2335",
+          "name": "Donghoon Ahn",
+          "hidden": false
+        },
+        {
+          "_id": "68e67c91975ac4c405ef2336",
+          "name": "Susung Hong",
+          "hidden": false
+        },
+        {
+          "_id": "68e67c91975ac4c405ef2337",
+          "name": "Jee Eun Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68e67c91975ac4c405ef2338",
+          "name": "Seungryong Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68e67c91975ac4c405ef2339",
+          "name": "Kyong Hwan Jin",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/680ed019a9918bb1cbc66248/QFu-1RXfK2GP-IUrFzCwl.png"
+      ],
+      "publishedAt": "2025-10-06T06:53:29.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:05:19.216Z",
+      "title": "TAG:Tangential Amplifying Guidance for Hallucination-Resistant Diffusion\n  Sampling",
+      "submittedOnDailyBy": {
+        "_id": "680ed019a9918bb1cbc66248",
+        "avatarUrl": "/avatars/904d243f2fad99341f11795e93788993.svg",
+        "isPro": true,
+        "fullname": "Hyunmin Cho",
+        "user": "hyeoncho01",
+        "type": "user"
+      },
+      "summary": "Recent diffusion models achieve the state-of-the-art performance in image\ngeneration, but often suffer from semantic inconsistencies or hallucinations.\nWhile various inference-time guidance methods can enhance generation, they\noften operate indirectly by relying on external signals or architectural\nmodifications, which introduces additional computational overhead. In this\npaper, we propose Tangential Amplifying Guidance (TAG), a more efficient and\ndirect guidance method that operates solely on trajectory signals without\nmodifying the underlying diffusion model. TAG leverages an intermediate sample\nas a projection basis and amplifies the tangential components of the estimated\nscores with respect to this basis to correct the sampling trajectory. We\nformalize this guidance process by leveraging a first-order Taylor expansion,\nwhich demonstrates that amplifying the tangential component steers the state\ntoward higher-probability regions, thereby reducing inconsistencies and\nenhancing sample quality. TAG is a plug-and-play, architecture-agnostic module\nthat improves diffusion sampling fidelity with minimal computational addition,\noffering a new perspective on diffusion guidance.",
+      "upvotes": 16,
+      "discussionId": "68e67c91975ac4c405ef233a",
+      "projectPage": "https://hyeon-cho.github.io/TAG/",
+      "ai_summary": "Tangential Amplifying Guidance (TAG) improves diffusion model sample quality by directly amplifying tangential components of estimated scores without modifying the model architecture.",
+      "ai_keywords": [
+        "diffusion models",
+        "image generation",
+        "semantic inconsistencies",
+        "hallucinations",
+        "inference-time guidance",
+        "trajectory signals",
+        "intermediate sample",
+        "projection basis",
+        "tangential components",
+        "first-order Taylor expansion",
+        "sampling trajectory",
+        "higher-probability regions",
+        "plug-and-play",
+        "architecture-agnostic"
+      ]
+    },
+    "publishedAt": "2025-10-06T02:53:29.000Z",
+    "title": "TAG:Tangential Amplifying Guidance for Hallucination-Resistant Diffusion\n  Sampling",
+    "summary": "Recent diffusion models achieve the state-of-the-art performance in image\ngeneration, but often suffer from semantic inconsistencies or hallucinations.\nWhile various inference-time guidance methods can enhance generation, they\noften operate indirectly by relying on external signals or architectural\nmodifications, which introduces additional computational overhead. In this\npaper, we propose Tangential Amplifying Guidance (TAG), a more efficient and\ndirect guidance method that operates solely on trajectory signals without\nmodifying the underlying diffusion model. TAG leverages an intermediate sample\nas a projection basis and amplifies the tangential components of the estimated\nscores with respect to this basis to correct the sampling trajectory. We\nformalize this guidance process by leveraging a first-order Taylor expansion,\nwhich demonstrates that amplifying the tangential component steers the state\ntoward higher-probability regions, thereby reducing inconsistencies and\nenhancing sample quality. TAG is a plug-and-play, architecture-agnostic module\nthat improves diffusion sampling fidelity with minimal computational addition,\noffering a new perspective on diffusion guidance.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/680ed019a9918bb1cbc66248/QFu-1RXfK2GP-IUrFzCwl.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.04533.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "680ed019a9918bb1cbc66248",
+      "avatarUrl": "/avatars/904d243f2fad99341f11795e93788993.svg",
+      "fullname": "Hyunmin Cho",
+      "name": "hyeoncho01",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2510.08673",
+      "authors": [
+        {
+          "_id": "68ec5edfcd07fb414898c93e",
+          "name": "Kang Liao",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5edfcd07fb414898c93f",
+          "name": "Size Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5edfcd07fb414898c940",
+          "name": "Zhonghua Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5edfcd07fb414898c941",
+          "name": "Linyi Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5edfcd07fb414898c942",
+          "name": "Chao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5edfcd07fb414898c943",
+          "name": "Yikai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5edfcd07fb414898c944",
+          "name": "Fei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5edfcd07fb414898c945",
+          "name": "Wei Li",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5edfcd07fb414898c946",
+          "name": "Chen Change Loy",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T17:59:29.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:45:06.202Z",
+      "title": "Thinking with Camera: A Unified Multimodal Model for Camera-Centric\n  Understanding and Generation",
+      "submittedOnDailyBy": {
+        "_id": "65bc98383b879593a5a2f5e5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65bc98383b879593a5a2f5e5/p2ZtoTFN6tW-QkcPJf7YT.jpeg",
+        "isPro": true,
+        "fullname": "Kang Liao",
+        "user": "KangLiao",
+        "type": "user"
+      },
+      "summary": "Camera-centric understanding and generation are two cornerstones of spatial\nintelligence, yet they are typically studied in isolation. We present Puffin, a\nunified camera-centric multimodal model that extends spatial awareness along\nthe camera dimension. Puffin integrates language regression and diffusion-based\ngeneration to interpret and create scenes from arbitrary viewpoints. To bridge\nthe modality gap between cameras and vision-language, we introduce a novel\nparadigm that treats camera as language, enabling thinking with camera. This\nguides the model to align spatially grounded visual cues with photographic\nterminology while reasoning across geometric context. Puffin is trained on\nPuffin-4M, a large-scale dataset of 4 million vision-language-camera triplets.\nWe incorporate both global camera parameters and pixel-wise camera maps,\nyielding flexible and reliable spatial generation. Experiments demonstrate\nPuffin superior performance over specialized models for camera-centric\ngeneration and understanding. With instruction tuning, Puffin generalizes to\ndiverse cross-view tasks such as spatial imagination, world exploration, and\nphotography guidance. We will release the code, models, dataset pipeline, and\nbenchmark to advance multimodal spatial intelligence research.",
+      "upvotes": 8,
+      "discussionId": "68ec5ee0cd07fb414898c947",
+      "projectPage": "https://kangliao929.github.io/projects/puffin/",
+      "githubRepo": "https://github.com/KangLiao929/Puffin",
+      "ai_summary": "Puffin, a unified multimodal model, integrates language regression and diffusion-based generation to enhance camera-centric spatial understanding and generation by treating camera parameters as language.",
+      "ai_keywords": [
+        "language regression",
+        "diffusion-based generation",
+        "camera-centric",
+        "multimodal model",
+        "spatial awareness",
+        "vision-language",
+        "camera as language",
+        "geometric context",
+        "Puffin-4M",
+        "global camera parameters",
+        "pixel-wise camera maps",
+        "spatial generation",
+        "instruction tuning",
+        "spatial imagination",
+        "world exploration",
+        "photography guidance"
+      ]
+    },
+    "publishedAt": "2025-10-09T13:59:29.000Z",
+    "title": "Thinking with Camera: A Unified Multimodal Model for Camera-Centric\n  Understanding and Generation",
+    "summary": "Camera-centric understanding and generation are two cornerstones of spatial\nintelligence, yet they are typically studied in isolation. We present Puffin, a\nunified camera-centric multimodal model that extends spatial awareness along\nthe camera dimension. Puffin integrates language regression and diffusion-based\ngeneration to interpret and create scenes from arbitrary viewpoints. To bridge\nthe modality gap between cameras and vision-language, we introduce a novel\nparadigm that treats camera as language, enabling thinking with camera. This\nguides the model to align spatially grounded visual cues with photographic\nterminology while reasoning across geometric context. Puffin is trained on\nPuffin-4M, a large-scale dataset of 4 million vision-language-camera triplets.\nWe incorporate both global camera parameters and pixel-wise camera maps,\nyielding flexible and reliable spatial generation. Experiments demonstrate\nPuffin superior performance over specialized models for camera-centric\ngeneration and understanding. With instruction tuning, Puffin generalizes to\ndiverse cross-view tasks such as spatial imagination, world exploration, and\nphotography guidance. We will release the code, models, dataset pipeline, and\nbenchmark to advance multimodal spatial intelligence research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08673.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65bc98383b879593a5a2f5e5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65bc98383b879593a5a2f5e5/p2ZtoTFN6tW-QkcPJf7YT.jpeg",
+      "fullname": "Kang Liao",
+      "name": "KangLiao",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.04759",
+      "authors": [
+        {
+          "_id": "68e9249395e8e6771df38ce2",
+          "user": {
+            "_id": "68de2ad5e795997c50a409eb",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68de2ad5e795997c50a409eb/VdVD6njmMlMbZIqe23cxT.jpeg",
+            "isPro": false,
+            "fullname": "YAN, Chi",
+            "user": "yanchi3dv",
+            "type": "user"
+          },
+          "name": "Chi Yan",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-11T13:45:21.924Z",
+          "hidden": false
+        },
+        {
+          "_id": "68e9249395e8e6771df38ce3",
+          "user": {
+            "_id": "66feab48651e00e22f33222e",
+            "avatarUrl": "/avatars/7344377e2c796c7ec85194bb2fc78521.svg",
+            "isPro": false,
+            "fullname": "Dan Xu",
+            "user": "danxuhk",
+            "type": "user"
+          },
+          "name": "Dan Xu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-11T13:45:14.344Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-06T12:36:07.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:32:19.506Z",
+      "title": "Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open\n  Vocabulary Occupancy Prediction",
+      "submittedOnDailyBy": {
+        "_id": "68de2ad5e795997c50a409eb",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68de2ad5e795997c50a409eb/VdVD6njmMlMbZIqe23cxT.jpeg",
+        "isPro": false,
+        "fullname": "YAN, Chi",
+        "user": "yanchi3dv",
+        "type": "user"
+      },
+      "summary": "The 3D occupancy prediction task has witnessed remarkable progress in recent\nyears, playing a crucial role in vision-based autonomous driving systems. While\ntraditional methods are limited to fixed semantic categories, recent approaches\nhave moved towards predicting text-aligned features to enable open-vocabulary\ntext queries in real-world scenes. However, there exists a trade-off in\ntext-aligned scene modeling: sparse Gaussian representation struggles to\ncapture small objects in the scene, while dense representation incurs\nsignificant computational overhead. To address these limitations, we present\nPG-Occ, an innovative Progressive Gaussian Transformer Framework that enables\nopen-vocabulary 3D occupancy prediction. Our framework employs progressive\nonline densification, a feed-forward strategy that gradually enhances the 3D\nGaussian representation to capture fine-grained scene details. By iteratively\nenhancing the representation, the framework achieves increasingly precise and\ndetailed scene understanding. Another key contribution is the introduction of\nan anisotropy-aware sampling strategy with spatio-temporal fusion, which\nadaptively assigns receptive fields to Gaussians at different scales and\nstages, enabling more effective feature aggregation and richer scene\ninformation capture. Through extensive evaluations, we demonstrate that PG-Occ\nachieves state-of-the-art performance with a relative 14.3% mIoU improvement\nover the previous best performing method. Code and pretrained models will be\nreleased upon publication on our project page:\nhttps://yanchi-3dv.github.io/PG-Occ",
+      "upvotes": 4,
+      "discussionId": "68e9249495e8e6771df38ce4",
+      "projectPage": "https://yanchi-3dv.github.io/PG-Occ/",
+      "githubRepo": "https://github.com/yanchi-3dv/PG-Occ",
+      "ai_summary": "PG-Occ, a Progressive Gaussian Transformer Framework, enhances 3D occupancy prediction with progressive densification and anisotropy-aware sampling, achieving state-of-the-art performance.",
+      "ai_keywords": [
+        "3D occupancy prediction",
+        "Gaussian representation",
+        "dense representation",
+        "Progressive Gaussian Transformer Framework",
+        "progressive online densification",
+        "feed-forward strategy",
+        "anisotropy-aware sampling",
+        "spatio-temporal fusion",
+        "mIoU improvement"
+      ],
+      "githubStars": 11
+    },
+    "publishedAt": "2025-10-06T08:36:07.000Z",
+    "title": "Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open\n  Vocabulary Occupancy Prediction",
+    "summary": "The 3D occupancy prediction task has witnessed remarkable progress in recent\nyears, playing a crucial role in vision-based autonomous driving systems. While\ntraditional methods are limited to fixed semantic categories, recent approaches\nhave moved towards predicting text-aligned features to enable open-vocabulary\ntext queries in real-world scenes. However, there exists a trade-off in\ntext-aligned scene modeling: sparse Gaussian representation struggles to\ncapture small objects in the scene, while dense representation incurs\nsignificant computational overhead. To address these limitations, we present\nPG-Occ, an innovative Progressive Gaussian Transformer Framework that enables\nopen-vocabulary 3D occupancy prediction. Our framework employs progressive\nonline densification, a feed-forward strategy that gradually enhances the 3D\nGaussian representation to capture fine-grained scene details. By iteratively\nenhancing the representation, the framework achieves increasingly precise and\ndetailed scene understanding. Another key contribution is the introduction of\nan anisotropy-aware sampling strategy with spatio-temporal fusion, which\nadaptively assigns receptive fields to Gaussians at different scales and\nstages, enabling more effective feature aggregation and richer scene\ninformation capture. Through extensive evaluations, we demonstrate that PG-Occ\nachieves state-of-the-art performance with a relative 14.3% mIoU improvement\nover the previous best performing method. Code and pretrained models will be\nreleased upon publication on our project page:\nhttps://yanchi-3dv.github.io/PG-Occ",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.04759.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "68de2ad5e795997c50a409eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68de2ad5e795997c50a409eb/VdVD6njmMlMbZIqe23cxT.jpeg",
+      "fullname": "YAN, Chi",
+      "name": "yanchi3dv",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2510.08867",
+      "authors": [
+        {
+          "_id": "68ec5814cd07fb414898c8db",
+          "name": "Gaurav Sahu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5814cd07fb414898c8dc",
+          "name": "Hugo Larochelle",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5814cd07fb414898c8dd",
+          "name": "Laurent Charlin",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5814cd07fb414898c8de",
+          "name": "Christopher Pal",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T23:53:19.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:09:58.734Z",
+      "title": "ReviewerToo: Should AI Join The Program Committee? A Look At The Future\n  of Peer Review",
+      "submittedOnDailyBy": {
+        "_id": "6377ac12f5fe4a39f783b05d",
+        "avatarUrl": "/avatars/5f8b6d999cf48dd4703bbd70236c38c8.svg",
+        "isPro": false,
+        "fullname": "G Sahu",
+        "user": "demfier",
+        "type": "user"
+      },
+      "summary": "Peer review is the cornerstone of scientific publishing, yet it suffers from\ninconsistencies, reviewer subjectivity, and scalability challenges. We\nintroduce ReviewerToo, a modular framework for studying and deploying\nAI-assisted peer review to complement human judgment with systematic and\nconsistent assessments. ReviewerToo supports systematic experiments with\nspecialized reviewer personas and structured evaluation criteria, and can be\npartially or fully integrated into real conference workflows. We validate\nReviewerToo on a carefully curated dataset of 1,963 paper submissions from ICLR\n2025, where our experiments with the gpt-oss-120b model achieves 81.8% accuracy\nfor the task of categorizing a paper as accept/reject compared to 83.9% for the\naverage human reviewer. Additionally, ReviewerToo-generated reviews are rated\nas higher quality than the human average by an LLM judge, though still trailing\nthe strongest expert contributions. Our analysis highlights domains where AI\nreviewers excel (e.g., fact-checking, literature coverage) and where they\nstruggle (e.g., assessing methodological novelty and theoretical\ncontributions), underscoring the continued need for human expertise. Based on\nthese findings, we propose guidelines for integrating AI into peer-review\npipelines, showing how AI can enhance consistency, coverage, and fairness while\nleaving complex evaluative judgments to domain experts. Our work provides a\nfoundation for systematic, hybrid peer-review systems that scale with the\ngrowth of scientific publishing.",
+      "upvotes": 3,
+      "discussionId": "68ec5814cd07fb414898c8df",
+      "ai_summary": "ReviewerToo, a modular AI-assisted peer review framework, complements human judgment with systematic assessments, achieving high accuracy and quality in specific domains while highlighting areas where human expertise remains essential.",
+      "ai_keywords": [
+        "AI-assisted peer review",
+        "reviewer personas",
+        "structured evaluation criteria",
+        "gpt-oss-120b",
+        "accuracy",
+        "LLM judge",
+        "methodological novelty",
+        "theoretical contributions",
+        "hybrid peer-review systems"
+      ]
+    },
+    "publishedAt": "2025-10-09T19:53:19.000Z",
+    "title": "ReviewerToo: Should AI Join The Program Committee? A Look At The Future\n  of Peer Review",
+    "summary": "Peer review is the cornerstone of scientific publishing, yet it suffers from\ninconsistencies, reviewer subjectivity, and scalability challenges. We\nintroduce ReviewerToo, a modular framework for studying and deploying\nAI-assisted peer review to complement human judgment with systematic and\nconsistent assessments. ReviewerToo supports systematic experiments with\nspecialized reviewer personas and structured evaluation criteria, and can be\npartially or fully integrated into real conference workflows. We validate\nReviewerToo on a carefully curated dataset of 1,963 paper submissions from ICLR\n2025, where our experiments with the gpt-oss-120b model achieves 81.8% accuracy\nfor the task of categorizing a paper as accept/reject compared to 83.9% for the\naverage human reviewer. Additionally, ReviewerToo-generated reviews are rated\nas higher quality than the human average by an LLM judge, though still trailing\nthe strongest expert contributions. Our analysis highlights domains where AI\nreviewers excel (e.g., fact-checking, literature coverage) and where they\nstruggle (e.g., assessing methodological novelty and theoretical\ncontributions), underscoring the continued need for human expertise. Based on\nthese findings, we propose guidelines for integrating AI into peer-review\npipelines, showing how AI can enhance consistency, coverage, and fairness while\nleaving complex evaluative judgments to domain experts. Our work provides a\nfoundation for systematic, hybrid peer-review systems that scale with the\ngrowth of scientific publishing.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08867.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6377ac12f5fe4a39f783b05d",
+      "avatarUrl": "/avatars/5f8b6d999cf48dd4703bbd70236c38c8.svg",
+      "fullname": "G Sahu",
+      "name": "demfier",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.08696",
+      "authors": [
+        {
+          "_id": "68ec56f8cd07fb414898c8d4",
+          "name": "Yunzhen Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56f8cd07fb414898c8d5",
+          "name": "Parag Jain",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56f8cd07fb414898c8d6",
+          "name": "Anthony Hartshorn",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56f8cd07fb414898c8d7",
+          "name": "Yaqi Duan",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56f8cd07fb414898c8d8",
+          "name": "Julia Kempe",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T18:01:44.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:04:12.104Z",
+      "title": "Don't Waste Mistakes: Leveraging Negative RL-Groups via Confidence\n  Reweighting",
+      "submittedOnDailyBy": {
+        "_id": "65cbfa6c968742be942e6cba",
+        "avatarUrl": "/avatars/1a6cc0983edc28fa92178d3abc283ba1.svg",
+        "isPro": false,
+        "fullname": "Feng",
+        "user": "Yunzhen",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard\nrecipe for improving large language models (LLMs) on reasoning tasks, with\nGroup Relative Policy Optimization (GRPO) widely used in practice. Yet GRPO\nwastes substantial compute on negative groups: groups in which no sampled\nresponse is correct yield zero advantage and thus no gradient. We ask whether\nnegative groups can be leveraged without extra supervision. Starting from a\nmaximum-likelihood (MLE) objective in reward modeling, we show that the MLE\ngradient is equivalent to a policy gradient for a modified value function. This\nvalue function adds a confidence-weighted penalty on incorrect responses,\nimposing larger penalties on more confident mistakes. We refer to this as\nLikelihood Estimation with Negative Samples\n(LENS). LENS modifies GRPO to assign non-zero, confidence-dependent\nrewards to incorrect generations, making negative groups informative and\nconverting previously wasted samples into useful gradient updates. On the MATH\nbenchmark with Llama-3.1-8B and Qwen-2.5-3B, the proposed variant consistently\noutperforms GRPO baseline, with significant gains on harder items. These\nresults demonstrate a principled and practical way to \"rescue\" negative groups,\nimproving efficiency and performance in RLVR.",
+      "upvotes": 3,
+      "discussionId": "68ec56f8cd07fb414898c8d9",
+      "ai_summary": "LENS modifies GRPO by assigning confidence-dependent rewards to incorrect responses, improving efficiency and performance in reinforcement learning with verifiable rewards.",
+      "ai_keywords": [
+        "Reinforcement learning with verifiable rewards",
+        "RLVR",
+        "Group Relative Policy Optimization",
+        "GRPO",
+        "maximum-likelihood",
+        "MLE",
+        "policy gradient",
+        "value function",
+        "confidence-weighted penalty",
+        "LENS",
+        "MATH benchmark",
+        "Llama-3.1-8B",
+        "Qwen-2.5-3B"
+      ]
+    },
+    "publishedAt": "2025-10-09T14:01:44.000Z",
+    "title": "Don't Waste Mistakes: Leveraging Negative RL-Groups via Confidence\n  Reweighting",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard\nrecipe for improving large language models (LLMs) on reasoning tasks, with\nGroup Relative Policy Optimization (GRPO) widely used in practice. Yet GRPO\nwastes substantial compute on negative groups: groups in which no sampled\nresponse is correct yield zero advantage and thus no gradient. We ask whether\nnegative groups can be leveraged without extra supervision. Starting from a\nmaximum-likelihood (MLE) objective in reward modeling, we show that the MLE\ngradient is equivalent to a policy gradient for a modified value function. This\nvalue function adds a confidence-weighted penalty on incorrect responses,\nimposing larger penalties on more confident mistakes. We refer to this as\nLikelihood Estimation with Negative Samples\n(LENS). LENS modifies GRPO to assign non-zero, confidence-dependent\nrewards to incorrect generations, making negative groups informative and\nconverting previously wasted samples into useful gradient updates. On the MATH\nbenchmark with Llama-3.1-8B and Qwen-2.5-3B, the proposed variant consistently\noutperforms GRPO baseline, with significant gains on harder items. These\nresults demonstrate a principled and practical way to \"rescue\" negative groups,\nimproving efficiency and performance in RLVR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08696.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65cbfa6c968742be942e6cba",
+      "avatarUrl": "/avatars/1a6cc0983edc28fa92178d3abc283ba1.svg",
+      "fullname": "Feng",
+      "name": "Yunzhen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.09606",
+      "authors": [
+        {
+          "_id": "68ec5975cd07fb414898c8ea",
+          "name": "Peiwen Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8eb",
+          "name": "Shiqiang Lang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8ec",
+          "name": "Dongming Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8ed",
+          "name": "Yi Ding",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8ee",
+          "name": "Kaituo Feng",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8ef",
+          "name": "Huadai Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8f0",
+          "name": "Zhen Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8f1",
+          "name": "Rui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8f2",
+          "name": "Yun-Hui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8f3",
+          "name": "Jianan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5975cd07fb414898c8f4",
+          "name": "Xiangyu Yue",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-10T17:59:46.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:14:31.615Z",
+      "title": "SpaceVista: All-Scale Visual Spatial Reasoning from mm to km",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "With the current surge in spatial reasoning explorations, researchers have\nmade significant progress in understanding indoor scenes, but still struggle\nwith diverse applications such as robotics and autonomous driving. This paper\naims to advance all-scale spatial reasoning across diverse scenarios by\ntackling two key challenges: 1) the heavy reliance on indoor 3D scans and\nlabor-intensive manual annotations for dataset curation; 2) the absence of\neffective all-scale scene modeling, which often leads to overfitting to\nindividual scenes. In this paper, we introduce a holistic solution that\nintegrates a structured spatial reasoning knowledge system, scale-aware\nmodeling, and a progressive training paradigm, as the first attempt to broaden\nthe all-scale spatial intelligence of MLLMs to the best of our knowledge. Using\na task-specific, specialist-driven automated pipeline, we curate over 38K video\nscenes across 5 spatial scales to create SpaceVista-1M, a dataset comprising\napproximately 1M spatial QA pairs spanning 19 diverse task types. While\nspecialist models can inject useful domain knowledge, they are not reliable for\nevaluation. We then build an all-scale benchmark with precise annotations by\nmanually recording, retrieving, and assembling video-based data. However, naive\ntraining with SpaceVista-1M often yields suboptimal results due to the\npotential knowledge conflict. Accordingly, we introduce SpaceVista-7B, a\nspatial reasoning model that accepts dense inputs beyond semantics and uses\nscale as an anchor for scale-aware experts and progressive rewards. Finally,\nextensive evaluations across 5 benchmarks, including our SpaceVista-Bench,\ndemonstrate competitive performance, showcasing strong generalization across\nall scales and scenarios. Our dataset, model, and benchmark will be released on\nhttps://peiwensun2000.github.io/mm2km .",
+      "upvotes": 2,
+      "discussionId": "68ec5975cd07fb414898c8f5",
+      "projectPage": "https://peiwensun2000.github.io/mm2km/",
+      "githubRepo": "https://github.com/PeiwenSun2000/SpaceVista",
+      "ai_summary": "A spatial reasoning model using scale-aware experts and progressive rewards demonstrates competitive performance across diverse tasks and scales using a large, curated dataset.",
+      "ai_keywords": [
+        "structured spatial reasoning",
+        "scale-aware modeling",
+        "progressive training",
+        "spatial QA pairs",
+        "spatial reasoning model",
+        "scale-aware experts",
+        "progressive rewards",
+        "SpaceVista-1M",
+        "SpaceVista-7B",
+        "SpaceVista-Bench"
+      ],
+      "githubStars": 8
+    },
+    "publishedAt": "2025-10-10T13:59:46.000Z",
+    "title": "SpaceVista: All-Scale Visual Spatial Reasoning from mm to km",
+    "summary": "With the current surge in spatial reasoning explorations, researchers have\nmade significant progress in understanding indoor scenes, but still struggle\nwith diverse applications such as robotics and autonomous driving. This paper\naims to advance all-scale spatial reasoning across diverse scenarios by\ntackling two key challenges: 1) the heavy reliance on indoor 3D scans and\nlabor-intensive manual annotations for dataset curation; 2) the absence of\neffective all-scale scene modeling, which often leads to overfitting to\nindividual scenes. In this paper, we introduce a holistic solution that\nintegrates a structured spatial reasoning knowledge system, scale-aware\nmodeling, and a progressive training paradigm, as the first attempt to broaden\nthe all-scale spatial intelligence of MLLMs to the best of our knowledge. Using\na task-specific, specialist-driven automated pipeline, we curate over 38K video\nscenes across 5 spatial scales to create SpaceVista-1M, a dataset comprising\napproximately 1M spatial QA pairs spanning 19 diverse task types. While\nspecialist models can inject useful domain knowledge, they are not reliable for\nevaluation. We then build an all-scale benchmark with precise annotations by\nmanually recording, retrieving, and assembling video-based data. However, naive\ntraining with SpaceVista-1M often yields suboptimal results due to the\npotential knowledge conflict. Accordingly, we introduce SpaceVista-7B, a\nspatial reasoning model that accepts dense inputs beyond semantics and uses\nscale as an anchor for scale-aware experts and progressive rewards. Finally,\nextensive evaluations across 5 benchmarks, including our SpaceVista-Bench,\ndemonstrate competitive performance, showcasing strong generalization across\nall scales and scenarios. Our dataset, model, and benchmark will be released on\nhttps://peiwensun2000.github.io/mm2km .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.09606.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 123
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.08189",
+      "authors": [
+        {
+          "_id": "68e9eab7012880a10864b725",
+          "user": {
+            "_id": "61fde97843eb0913fa2df67b",
+            "avatarUrl": "/avatars/6b739fa8ab23ba69accb5614d96b243b.svg",
+            "isPro": false,
+            "fullname": "Luyi",
+            "user": "lulululuyi",
+            "type": "user"
+          },
+          "name": "Yi Lu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-11T13:26:23.631Z",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b726",
+          "name": "Jianing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b727",
+          "name": "Linsen Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b728",
+          "name": "Wei He",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b729",
+          "name": "Hongyin Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b72a",
+          "name": "Tao Gui",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b72b",
+          "name": "Xuanjing Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b72c",
+          "name": "Xuezhi Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b72d",
+          "name": "Wei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e9eab7012880a10864b72e",
+          "name": "Xunliang Cai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T13:16:22.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:44:04.754Z",
+      "title": "R-Horizon: How Far Can Your Large Reasoning Model Really Go in Breadth\n  and Depth?",
+      "submittedOnDailyBy": {
+        "_id": "61fde97843eb0913fa2df67b",
+        "avatarUrl": "/avatars/6b739fa8ab23ba69accb5614d96b243b.svg",
+        "isPro": false,
+        "fullname": "Luyi",
+        "user": "lulululuyi",
+        "type": "user"
+      },
+      "summary": "Recent trends in test-time scaling for reasoning models (e.g., OpenAI o1,\nDeepSeek-R1) have led to remarkable improvements through long Chain-of-Thought\n(CoT). However, existing benchmarks mainly focus on immediate, single-horizon\ntasks, failing to adequately evaluate models' ability to understand and respond\nto complex, long-horizon scenarios. To address this incomplete evaluation of\nLarge Reasoning Models (LRMs), we propose R-HORIZON, a method designed to\nstimulate long-horizon reasoning behaviors in LRMs through query composition.\nBased on R-HORIZON, we construct a long-horizon reasoning benchmark, comprising\ncomplex multi-step reasoning tasks with interdependent problems that span long\nreasoning horizons. Through comprehensive evaluation of LRMs using the\nR-HORIZON benchmark, we find that even the most advanced LRMs suffer\nsignificant performance degradation. Our analysis reveals that LRMs exhibit\nlimited effective reasoning length and struggle to allocate thinking budget\nacross multiple problems appropriately. Recognizing these limitations, we use\nR-HORIZON to construct long-horizon reasoning data for reinforcement learning\nwith verified rewards (RLVR). Compared to training with single-horizon data,\nRLVR with R-HORIZON not only substantially improves performance on the\nmulti-horizon reasoning tasks, but also promotes accuracy on standard reasoning\ntasks, with an increase of 7.5 on AIME2024. These results position R-HORIZON as\na scalable, controllable, and low-cost paradigm for enhancing and evaluating\nthe long-horizon reasoning capabilities of LRMs.",
+      "upvotes": 2,
+      "discussionId": "68e9eab8012880a10864b72f",
+      "ai_summary": "R-HORIZON, a method using query composition, improves long-horizon reasoning in Large Reasoning Models through a benchmark of complex multi-step tasks, enhancing performance and accuracy.",
+      "ai_keywords": [
+        "Chain-of-Thought",
+        "CoT",
+        "Large Reasoning Models",
+        "LRMs",
+        "long-horizon reasoning",
+        "query composition",
+        "reinforcement learning with verified rewards",
+        "RLVR",
+        "AIME2024"
+      ],
+      "organization": {
+        "_id": "68b28d79a176a9beb30d2049",
+        "name": "meituan-longcat",
+        "fullname": "LongCat",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png"
+      }
+    },
+    "publishedAt": "2025-10-09T09:16:22.000Z",
+    "title": "R-Horizon: How Far Can Your Large Reasoning Model Really Go in Breadth\n  and Depth?",
+    "summary": "Recent trends in test-time scaling for reasoning models (e.g., OpenAI o1,\nDeepSeek-R1) have led to remarkable improvements through long Chain-of-Thought\n(CoT). However, existing benchmarks mainly focus on immediate, single-horizon\ntasks, failing to adequately evaluate models' ability to understand and respond\nto complex, long-horizon scenarios. To address this incomplete evaluation of\nLarge Reasoning Models (LRMs), we propose R-HORIZON, a method designed to\nstimulate long-horizon reasoning behaviors in LRMs through query composition.\nBased on R-HORIZON, we construct a long-horizon reasoning benchmark, comprising\ncomplex multi-step reasoning tasks with interdependent problems that span long\nreasoning horizons. Through comprehensive evaluation of LRMs using the\nR-HORIZON benchmark, we find that even the most advanced LRMs suffer\nsignificant performance degradation. Our analysis reveals that LRMs exhibit\nlimited effective reasoning length and struggle to allocate thinking budget\nacross multiple problems appropriately. Recognizing these limitations, we use\nR-HORIZON to construct long-horizon reasoning data for reinforcement learning\nwith verified rewards (RLVR). Compared to training with single-horizon data,\nRLVR with R-HORIZON not only substantially improves performance on the\nmulti-horizon reasoning tasks, but also promotes accuracy on standard reasoning\ntasks, with an increase of 7.5 on AIME2024. These results position R-HORIZON as\na scalable, controllable, and low-cost paradigm for enhancing and evaluating\nthe long-horizon reasoning capabilities of LRMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08189.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61fde97843eb0913fa2df67b",
+      "avatarUrl": "/avatars/6b739fa8ab23ba69accb5614d96b243b.svg",
+      "fullname": "Luyi",
+      "name": "lulululuyi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "organization": {
+      "_id": "68b28d79a176a9beb30d2049",
+      "name": "meituan-longcat",
+      "fullname": "LongCat",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2510.08047",
+      "authors": [
+        {
+          "_id": "68ec5661cd07fb414898c8b7",
+          "name": "Yi-Cheng Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5661cd07fb414898c8b8",
+          "name": "Yu-Hsuan Li Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5661cd07fb414898c8b9",
+          "name": "Hsuan Su",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5661cd07fb414898c8ba",
+          "name": "Tzu-Quan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5661cd07fb414898c8bb",
+          "name": "Shang-Tse Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5661cd07fb414898c8bc",
+          "name": "Yun-Nung Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5661cd07fb414898c8bd",
+          "name": "Hung-yi Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T10:31:47.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:01:41.326Z",
+      "title": "Pseudo2Real: Task Arithmetic for Pseudo-Label Correction in Automatic\n  Speech Recognition",
+      "submittedOnDailyBy": {
+        "_id": "608abf1272b50b02c4b02865",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1619708309549-608abf1272b50b02c4b02865.jpeg",
+        "isPro": false,
+        "fullname": "Hsuan Su",
+        "user": "jacksukk",
+        "type": "user"
+      },
+      "summary": "Robust ASR under domain shift is crucial because real-world systems encounter\nunseen accents and domains with limited labeled data. Although pseudo-labeling\noffers a practical workaround, it often introduces systematic, accent-specific\nerrors that filtering fails to fix. We ask: How can we correct these recurring\nbiases without target ground truth? We propose a simple parameter-space\ncorrection: in a source domain containing both real and pseudo-labeled data,\ntwo ASR models are fine-tuned from the same initialization, one on ground-truth\nlabels and the other on pseudo-labels, and their weight difference forms a\ncorrection vector that captures pseudo-label biases. When applied to a\npseudo-labeled target model, this vector enhances recognition, achieving up to\na 35% relative Word Error Rate (WER) reduction on AfriSpeech-200 across ten\nAfrican accents with the Whisper tiny model.",
+      "upvotes": 2,
+      "discussionId": "68ec5662cd07fb414898c8be",
+      "ai_summary": "A parameter-space correction method reduces Word Error Rate in ASR systems by addressing pseudo-label biases without target ground truth.",
+      "ai_keywords": [
+        "ASR",
+        "domain shift",
+        "pseudo-labeling",
+        "parameter-space correction",
+        "fine-tuning",
+        "correction vector",
+        "Word Error Rate (WER)",
+        "AfriSpeech-200",
+        "Whisper tiny model"
+      ]
+    },
+    "publishedAt": "2025-10-09T06:31:47.000Z",
+    "title": "Pseudo2Real: Task Arithmetic for Pseudo-Label Correction in Automatic\n  Speech Recognition",
+    "summary": "Robust ASR under domain shift is crucial because real-world systems encounter\nunseen accents and domains with limited labeled data. Although pseudo-labeling\noffers a practical workaround, it often introduces systematic, accent-specific\nerrors that filtering fails to fix. We ask: How can we correct these recurring\nbiases without target ground truth? We propose a simple parameter-space\ncorrection: in a source domain containing both real and pseudo-labeled data,\ntwo ASR models are fine-tuned from the same initialization, one on ground-truth\nlabels and the other on pseudo-labels, and their weight difference forms a\ncorrection vector that captures pseudo-label biases. When applied to a\npseudo-labeled target model, this vector enhances recognition, achieving up to\na 35% relative Word Error Rate (WER) reduction on AfriSpeech-200 across ten\nAfrican accents with the Whisper tiny model.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08047.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "608abf1272b50b02c4b02865",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1619708309549-608abf1272b50b02c4b02865.jpeg",
+      "fullname": "Hsuan Su",
+      "name": "jacksukk",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.09608",
+      "authors": [
+        {
+          "_id": "68ec5910cd07fb414898c8e1",
+          "name": "Ruyi Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5910cd07fb414898c8e2",
+          "name": "Guangxuan Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5910cd07fb414898c8e3",
+          "name": "Yukang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5910cd07fb414898c8e4",
+          "name": "Liuning He",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5910cd07fb414898c8e5",
+          "name": "Kelly Peng",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5910cd07fb414898c8e6",
+          "name": "Yao Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5910cd07fb414898c8e7",
+          "name": "Song Han",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-10T17:59:58.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:12:40.683Z",
+      "title": "StreamingVLM: Real-Time Understanding for Infinite Video Streams",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Vision-language models (VLMs) could power real-time assistants and autonomous\nagents, but they face a critical challenge: understanding near-infinite video\nstreams without escalating latency and memory usage. Processing entire videos\nwith full attention leads to quadratic computational costs and poor performance\non long videos. Meanwhile, simple sliding window methods are also flawed, as\nthey either break coherence or suffer from high latency due to redundant\nrecomputation. In this paper, we introduce StreamingVLM, a model designed for\nreal-time, stable understanding of infinite visual input. Our approach is a\nunified framework that aligns training with streaming inference. During\ninference, we maintain a compact KV cache by reusing states of attention sinks,\na short window of recent vision tokens, and a long window of recent text\ntokens. This streaming ability is instilled via a simple supervised fine-tuning\n(SFT) strategy that applies full attention on short, overlapped video chunks,\nwhich effectively mimics the inference-time attention pattern without training\non prohibitively long contexts. For evaluation, we build Inf-Streams-Eval, a\nnew benchmark with videos averaging over two hours that requires dense,\nper-second alignment between frames and text. On Inf-Streams-Eval, StreamingVLM\nachieves a 66.18% win rate against GPT-4O mini and maintains stable, real-time\nperformance at up to 8 FPS on a single NVIDIA H100. Notably, our SFT strategy\nalso enhances general VQA abilities without any VQA-specific fine-tuning,\nimproving performance on LongVideoBench by +4.30 and OVOBench Realtime by\n+5.96. Code is available at https://github.com/mit-han-lab/streaming-vlm.",
+      "upvotes": 1,
+      "discussionId": "68ec5910cd07fb414898c8e8",
+      "githubRepo": "https://github.com/mit-han-lab/streaming-vlm",
+      "ai_summary": "StreamingVLM is a real-time vision-language model that efficiently processes infinite video streams using a compact KV cache and supervised fine-tuning, achieving high performance on long videos and diverse benchmarks.",
+      "ai_keywords": [
+        "vision-language models",
+        "VLMs",
+        "real-time assistants",
+        "autonomous agents",
+        "video streams",
+        "quadratic computational costs",
+        "sliding window methods",
+        "attention sinks",
+        "vision tokens",
+        "text tokens",
+        "supervised fine-tuning",
+        "SFT",
+        "inference-time attention pattern",
+        "Inf-Streams-Eval",
+        "win rate",
+        "NVIDIA H100",
+        "VQA abilities",
+        "LongVideoBench",
+        "OVOBench Realtime"
+      ],
+      "githubStars": 10
+    },
+    "publishedAt": "2025-10-10T13:59:58.000Z",
+    "title": "StreamingVLM: Real-Time Understanding for Infinite Video Streams",
+    "summary": "Vision-language models (VLMs) could power real-time assistants and autonomous\nagents, but they face a critical challenge: understanding near-infinite video\nstreams without escalating latency and memory usage. Processing entire videos\nwith full attention leads to quadratic computational costs and poor performance\non long videos. Meanwhile, simple sliding window methods are also flawed, as\nthey either break coherence or suffer from high latency due to redundant\nrecomputation. In this paper, we introduce StreamingVLM, a model designed for\nreal-time, stable understanding of infinite visual input. Our approach is a\nunified framework that aligns training with streaming inference. During\ninference, we maintain a compact KV cache by reusing states of attention sinks,\na short window of recent vision tokens, and a long window of recent text\ntokens. This streaming ability is instilled via a simple supervised fine-tuning\n(SFT) strategy that applies full attention on short, overlapped video chunks,\nwhich effectively mimics the inference-time attention pattern without training\non prohibitively long contexts. For evaluation, we build Inf-Streams-Eval, a\nnew benchmark with videos averaging over two hours that requires dense,\nper-second alignment between frames and text. On Inf-Streams-Eval, StreamingVLM\nachieves a 66.18% win rate against GPT-4O mini and maintains stable, real-time\nperformance at up to 8 FPS on a single NVIDIA H100. Notably, our SFT strategy\nalso enhances general VQA abilities without any VQA-specific fine-tuning,\nimproving performance on LongVideoBench by +4.30 and OVOBench Realtime by\n+5.96. Code is available at https://github.com/mit-han-lab/streaming-vlm.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.09608.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 123
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.09592",
+      "authors": [
+        {
+          "_id": "68ec5bc2cd07fb414898c8f7",
+          "name": "Donghang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c8f8",
+          "name": "Haoyang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c8f9",
+          "name": "Jun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c8fa",
+          "name": "Xiangyu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c8fb",
+          "name": "Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c8fc",
+          "name": "Hexin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c8fd",
+          "name": "Eng Siong Chng",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c8fe",
+          "name": "Fei Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c8ff",
+          "name": "Xuerui Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c900",
+          "name": "Xiangyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c901",
+          "name": "Daxin Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5bc2cd07fb414898c902",
+          "name": "Gang Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-10T17:50:59.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:24:12.723Z",
+      "title": "Mind-Paced Speaking: A Dual-Brain Approach to Real-Time Reasoning in\n  Spoken Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Real-time Spoken Language Models (SLMs) struggle to leverage Chain-of-Thought\n(CoT) reasoning due to the prohibitive latency of generating the entire thought\nprocess sequentially. Enabling SLMs to think while speaking, similar to humans,\nis attracting increasing attention. We present, for the first time, Mind-Paced\nSpeaking (MPS), a brain-inspired framework that enables high-fidelity,\nreal-time reasoning. Similar to how humans utilize distinct brain regions for\nthinking and responding, we propose a novel dual-brain approach, employing a\n\"Formulation Brain\" for high-level reasoning to pace and guide a separate\n\"Articulation Brain\" for fluent speech generation. This division of labor\neliminates mode-switching, preserving the integrity of the reasoning process.\nExperiments show that MPS significantly outperforms existing\nthink-while-speaking methods and achieves reasoning performance comparable to\nmodels that pre-compute the full CoT before speaking, while drastically\nreducing latency. Under a zero-latency configuration, the proposed method\nachieves an accuracy of 92.8% on the mathematical reasoning task Spoken-MQA and\nattains a score of 82.5 on the speech conversation task URO-Bench. Our work\neffectively bridges the gap between high-quality reasoning and real-time\ninteraction.",
+      "upvotes": 1,
+      "discussionId": "68ec5bc3cd07fb414898c903",
+      "githubRepo": "https://github.com/stepfun-ai/Step-MPS",
+      "ai_summary": "Mind-Paced Speaking (MPS) is a brain-inspired framework that enables real-time reasoning and fluent speech generation by dividing the process into a \"Formulation Brain\" for reasoning and an \"Articulation Brain\" for speech, achieving high accuracy with low latency.",
+      "ai_keywords": [
+        "Chain-of-Thought (CoT) reasoning",
+        "Mind-Paced Speaking (MPS)",
+        "dual-brain approach",
+        "Formulation Brain",
+        "Articulation Brain",
+        "real-time reasoning",
+        "Spoken-MQA",
+        "URO-Bench"
+      ],
+      "githubStars": 8
+    },
+    "publishedAt": "2025-10-10T13:50:59.000Z",
+    "title": "Mind-Paced Speaking: A Dual-Brain Approach to Real-Time Reasoning in\n  Spoken Language Models",
+    "summary": "Real-time Spoken Language Models (SLMs) struggle to leverage Chain-of-Thought\n(CoT) reasoning due to the prohibitive latency of generating the entire thought\nprocess sequentially. Enabling SLMs to think while speaking, similar to humans,\nis attracting increasing attention. We present, for the first time, Mind-Paced\nSpeaking (MPS), a brain-inspired framework that enables high-fidelity,\nreal-time reasoning. Similar to how humans utilize distinct brain regions for\nthinking and responding, we propose a novel dual-brain approach, employing a\n\"Formulation Brain\" for high-level reasoning to pace and guide a separate\n\"Articulation Brain\" for fluent speech generation. This division of labor\neliminates mode-switching, preserving the integrity of the reasoning process.\nExperiments show that MPS significantly outperforms existing\nthink-while-speaking methods and achieves reasoning performance comparable to\nmodels that pre-compute the full CoT before speaking, while drastically\nreducing latency. Under a zero-latency configuration, the proposed method\nachieves an accuracy of 92.8% on the mathematical reasoning task Spoken-MQA and\nattains a score of 82.5 on the speech conversation task URO-Bench. Our work\neffectively bridges the gap between high-quality reasoning and real-time\ninteraction.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.09592.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 123
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.09577",
+      "authors": [
+        {
+          "_id": "68ec56edcd07fb414898c8c9",
+          "name": "Xiao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56edcd07fb414898c8ca",
+          "name": "Baolin Peng",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56edcd07fb414898c8cb",
+          "name": "Michel Galley",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56edcd07fb414898c8cc",
+          "name": "Hao Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56edcd07fb414898c8cd",
+          "name": "Qianhui Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56edcd07fb414898c8ce",
+          "name": "Janardhan Kulkarni",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56edcd07fb414898c8cf",
+          "name": "Suman Nath",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56edcd07fb414898c8d0",
+          "name": "Zhou Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec56edcd07fb414898c8d1",
+          "name": "Jianfeng Gao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-10T17:30:18.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:04:14.137Z",
+      "title": "Dyna-Mind: Learning to Simulate from Experience for Better AI Agents",
+      "submittedOnDailyBy": {
+        "_id": "6234fd736dcfc5fe9f5b8601",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1647639915850-noauth.jpeg",
+        "isPro": false,
+        "fullname": "Xiao Yu",
+        "user": "jasonyux",
+        "type": "user"
+      },
+      "summary": "Reasoning models have recently shown remarkable progress in domains such as\nmath and coding. However, their expert-level abilities in math and coding\ncontrast sharply with their performance in long-horizon, interactive tasks such\nas web navigation and computer/phone-use. Inspired by literature on human\ncognition, we argue that current AI agents need ''vicarious trial and error'' -\nthe capacity to mentally simulate alternative futures before acting - in order\nto enhance their understanding and performance in complex interactive\nenvironments. We introduce Dyna-Mind, a two-stage training framework that\nexplicitly teaches (V)LM agents to integrate such simulation into their\nreasoning. In stage 1, we introduce Reasoning with Simulations (ReSim), which\ntrains the agent to generate structured reasoning traces from expanded search\ntrees built from real experience gathered through environment interactions.\nReSim thus grounds the agent's reasoning in faithful world dynamics and equips\nit with the ability to anticipate future states in its reasoning. In stage 2,\nwe propose Dyna-GRPO, an online reinforcement learning method to further\nstrengthen the agent's simulation and decision-making ability by using both\noutcome rewards and intermediate states as feedback from real rollouts.\nExperiments on two synthetic benchmarks (Sokoban and ALFWorld) and one\nrealistic benchmark (AndroidWorld) demonstrate that (1) ReSim effectively\ninfuses simulation ability into AI agents, and (2) Dyna-GRPO leverages outcome\nand interaction-level signals to learn better policies for long-horizon,\nplanning-intensive tasks. Together, these results highlight the central role of\nsimulation in enabling AI agents to reason, plan, and act more effectively in\nthe ever more challenging environments.",
+      "upvotes": 1,
+      "discussionId": "68ec56edcd07fb414898c8d2",
+      "ai_summary": "Introducing Dyna-Mind, a two-stage training framework that enhances AI agents' reasoning and planning abilities through simulation, leading to improved performance in complex interactive environments.",
+      "ai_keywords": [
+        "vicarious trial and error",
+        "Dyna-Mind",
+        "Reasoning with Simulations",
+        "ReSim",
+        "Dyna-GRPO",
+        "online reinforcement learning",
+        "simulation ability",
+        "reasoning",
+        "planning",
+        "Sokoban",
+        "ALFWorld",
+        "AndroidWorld"
+      ]
+    },
+    "publishedAt": "2025-10-10T13:30:18.000Z",
+    "title": "Dyna-Mind: Learning to Simulate from Experience for Better AI Agents",
+    "summary": "Reasoning models have recently shown remarkable progress in domains such as\nmath and coding. However, their expert-level abilities in math and coding\ncontrast sharply with their performance in long-horizon, interactive tasks such\nas web navigation and computer/phone-use. Inspired by literature on human\ncognition, we argue that current AI agents need ''vicarious trial and error'' -\nthe capacity to mentally simulate alternative futures before acting - in order\nto enhance their understanding and performance in complex interactive\nenvironments. We introduce Dyna-Mind, a two-stage training framework that\nexplicitly teaches (V)LM agents to integrate such simulation into their\nreasoning. In stage 1, we introduce Reasoning with Simulations (ReSim), which\ntrains the agent to generate structured reasoning traces from expanded search\ntrees built from real experience gathered through environment interactions.\nReSim thus grounds the agent's reasoning in faithful world dynamics and equips\nit with the ability to anticipate future states in its reasoning. In stage 2,\nwe propose Dyna-GRPO, an online reinforcement learning method to further\nstrengthen the agent's simulation and decision-making ability by using both\noutcome rewards and intermediate states as feedback from real rollouts.\nExperiments on two synthetic benchmarks (Sokoban and ALFWorld) and one\nrealistic benchmark (AndroidWorld) demonstrate that (1) ReSim effectively\ninfuses simulation ability into AI agents, and (2) Dyna-GRPO leverages outcome\nand interaction-level signals to learn better policies for long-horizon,\nplanning-intensive tasks. Together, these results highlight the central role of\nsimulation in enabling AI agents to reason, plan, and act more effectively in\nthe ever more challenging environments.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.09577.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6234fd736dcfc5fe9f5b8601",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1647639915850-noauth.jpeg",
+      "fullname": "Xiao Yu",
+      "name": "jasonyux",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.09561",
+      "authors": [
+        {
+          "_id": "68ec5fdccd07fb414898c964",
+          "name": "Minkyoung Cho",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5fdccd07fb414898c965",
+          "name": "Ruben Ohana",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5fdccd07fb414898c966",
+          "name": "Christian Jacobsen",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5fdccd07fb414898c967",
+          "name": "Adityan Jothi",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5fdccd07fb414898c968",
+          "name": "Min-Hung Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5fdccd07fb414898c969",
+          "name": "Z. Morley Mao",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5fdccd07fb414898c96a",
+          "name": "Ethem Can",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-10T17:13:02.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:43:02.002Z",
+      "title": "TC-LoRA: Temporally Modulated Conditional LoRA for Adaptive Diffusion\n  Control",
+      "submittedOnDailyBy": {
+        "_id": "64ae22dd1aee69ece065cdcd",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ae22dd1aee69ece065cdcd/JG7QaHIrr4i2k4uwR4pZK.png",
+        "isPro": false,
+        "fullname": "Min-Hung Chen",
+        "user": "cmhungsteve",
+        "type": "user"
+      },
+      "summary": "Current controllable diffusion models typically rely on fixed architectures\nthat modify intermediate activations to inject guidance conditioned on a new\nmodality. This approach uses a static conditioning strategy for a dynamic,\nmulti-stage denoising process, limiting the model's ability to adapt its\nresponse as the generation evolves from coarse structure to fine detail. We\nintroduce TC-LoRA (Temporally Modulated Conditional LoRA), a new paradigm that\nenables dynamic, context-aware control by conditioning the model's weights\ndirectly. Our framework uses a hypernetwork to generate LoRA adapters\non-the-fly, tailoring weight modifications for the frozen backbone at each\ndiffusion step based on time and the user's condition. This mechanism enables\nthe model to learn and execute an explicit, adaptive strategy for applying\nconditional guidance throughout the entire generation process. Through\nexperiments on various data domains, we demonstrate that this dynamic,\nparametric control significantly enhances generative fidelity and adherence to\nspatial conditions compared to static, activation-based methods. TC-LoRA\nestablishes an alternative approach in which the model's conditioning strategy\nis modified through a deeper functional adaptation of its weights, allowing\ncontrol to align with the dynamic demands of the task and generative stage.",
+      "upvotes": 1,
+      "discussionId": "68ec5fddcd07fb414898c96b",
+      "ai_summary": "TC-LoRA enhances generative fidelity and adherence to spatial conditions by dynamically conditioning model weights through a hypernetwork, improving upon static activation-based methods in diffusion models.",
+      "ai_keywords": [
+        "diffusion models",
+        "TC-LoRA",
+        "Temporally Modulated Conditional LoRA",
+        "hypernetwork",
+        "LoRA adapters",
+        "generative fidelity",
+        "spatial conditions",
+        "dynamic conditioning",
+        "static conditioning",
+        "activation-based methods"
+      ]
+    },
+    "publishedAt": "2025-10-10T13:13:02.000Z",
+    "title": "TC-LoRA: Temporally Modulated Conditional LoRA for Adaptive Diffusion\n  Control",
+    "summary": "Current controllable diffusion models typically rely on fixed architectures\nthat modify intermediate activations to inject guidance conditioned on a new\nmodality. This approach uses a static conditioning strategy for a dynamic,\nmulti-stage denoising process, limiting the model's ability to adapt its\nresponse as the generation evolves from coarse structure to fine detail. We\nintroduce TC-LoRA (Temporally Modulated Conditional LoRA), a new paradigm that\nenables dynamic, context-aware control by conditioning the model's weights\ndirectly. Our framework uses a hypernetwork to generate LoRA adapters\non-the-fly, tailoring weight modifications for the frozen backbone at each\ndiffusion step based on time and the user's condition. This mechanism enables\nthe model to learn and execute an explicit, adaptive strategy for applying\nconditional guidance throughout the entire generation process. Through\nexperiments on various data domains, we demonstrate that this dynamic,\nparametric control significantly enhances generative fidelity and adherence to\nspatial conditions compared to static, activation-based methods. TC-LoRA\nestablishes an alternative approach in which the model's conditioning strategy\nis modified through a deeper functional adaptation of its weights, allowing\ncontrol to align with the dynamic demands of the task and generative stage.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.09561.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64ae22dd1aee69ece065cdcd",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ae22dd1aee69ece065cdcd/JG7QaHIrr4i2k4uwR4pZK.png",
+      "fullname": "Min-Hung Chen",
+      "name": "cmhungsteve",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.09507",
+      "authors": [
+        {
+          "_id": "68ec63a6cd07fb414898c989",
+          "name": "Zixin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec63a6cd07fb414898c98a",
+          "name": "Kanghao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68ec63a6cd07fb414898c98b",
+          "name": "Xingwang Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68ec63a6cd07fb414898c98c",
+          "name": "Lutao Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec63a6cd07fb414898c98d",
+          "name": "Xu Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68ec63a6cd07fb414898c98e",
+          "name": "Yuanhuiyi Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec63a6cd07fb414898c98f",
+          "name": "Litao Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68ec63a6cd07fb414898c990",
+          "name": "Yinchuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68ec63a6cd07fb414898c991",
+          "name": "Ying-Cong Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-10T16:10:45.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:57:50.917Z",
+      "title": "PhysToolBench: Benchmarking Physical Tool Understanding for MLLMs",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The ability to use, understand, and create tools is a hallmark of human\nintelligence, enabling sophisticated interaction with the physical world. For\nany general-purpose intelligent agent to achieve true versatility, it must also\nmaster these fundamental skills. While modern Multimodal Large Language Models\n(MLLMs) leverage their extensive common knowledge for high-level planning in\nembodied AI and in downstream Vision-Language-Action (VLA) models, the extent\nof their true understanding of physical tools remains unquantified. To bridge\nthis gap, we present PhysToolBench, the first benchmark dedicated to evaluating\nthe comprehension of physical tools by MLLMs. Our benchmark is structured as a\nVisual Question Answering (VQA) dataset comprising over 1,000 image-text pairs.\nIt assesses capabilities across three distinct difficulty levels: (1) Tool\nRecognition: Requiring the recognition of a tool's primary function. (2) Tool\nUnderstanding: Testing the ability to grasp the underlying principles of a\ntool's operation. (3) Tool Creation: Challenging the model to fashion a new\ntool from surrounding objects when conventional options are unavailable. Our\ncomprehensive evaluation of 32 MLLMs-spanning proprietary, open-source,\nspecialized embodied, and backbones in VLAs-reveals a significant deficiency in\ntool understanding. Furthermore, we provide an in-depth analysis and propose\npreliminary solutions. Code and dataset are publicly available.",
+      "upvotes": 1,
+      "discussionId": "68ec63a6cd07fb414898c992",
+      "githubRepo": "https://github.com/EnVision-Research/PhysToolBench",
+      "ai_summary": "PhysToolBench evaluates MLLMs' comprehension of physical tools through a VQA dataset, revealing significant deficiencies in tool understanding.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "MLLMs",
+        "embodied AI",
+        "Vision-Language-Action",
+        "VLA",
+        "Visual Question Answering",
+        "VQA",
+        "Tool Recognition",
+        "Tool Understanding",
+        "Tool Creation"
+      ]
+    },
+    "publishedAt": "2025-10-10T12:10:45.000Z",
+    "title": "PhysToolBench: Benchmarking Physical Tool Understanding for MLLMs",
+    "summary": "The ability to use, understand, and create tools is a hallmark of human\nintelligence, enabling sophisticated interaction with the physical world. For\nany general-purpose intelligent agent to achieve true versatility, it must also\nmaster these fundamental skills. While modern Multimodal Large Language Models\n(MLLMs) leverage their extensive common knowledge for high-level planning in\nembodied AI and in downstream Vision-Language-Action (VLA) models, the extent\nof their true understanding of physical tools remains unquantified. To bridge\nthis gap, we present PhysToolBench, the first benchmark dedicated to evaluating\nthe comprehension of physical tools by MLLMs. Our benchmark is structured as a\nVisual Question Answering (VQA) dataset comprising over 1,000 image-text pairs.\nIt assesses capabilities across three distinct difficulty levels: (1) Tool\nRecognition: Requiring the recognition of a tool's primary function. (2) Tool\nUnderstanding: Testing the ability to grasp the underlying principles of a\ntool's operation. (3) Tool Creation: Challenging the model to fashion a new\ntool from surrounding objects when conventional options are unavailable. Our\ncomprehensive evaluation of 32 MLLMs-spanning proprietary, open-source,\nspecialized embodied, and backbones in VLAs-reveals a significant deficiency in\ntool understanding. Furthermore, we provide an in-depth analysis and propose\npreliminary solutions. Code and dataset are publicly available.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.09507.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 123
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.08697",
+      "authors": [
+        {
+          "_id": "68ec5e33cd07fb414898c90f",
+          "name": "Terry Yue Zhuo",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c910",
+          "name": "Xiaolong Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c911",
+          "name": "Hange Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c912",
+          "name": "Juyong Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c913",
+          "name": "Tianyang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c914",
+          "name": "Chen Gong",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c915",
+          "name": "Bhupesh Bishnoi",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c916",
+          "name": "Vaisakhi Mishra",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c917",
+          "name": "Marek Suppa",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c918",
+          "name": "Noah Ziems",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c919",
+          "name": "Saiteja Utpala",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c91a",
+          "name": "Ming Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c91b",
+          "name": "Guangyu Song",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c91c",
+          "name": "Kaixin Li",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c91d",
+          "name": "Yuhan Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c91e",
+          "name": "Bo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c91f",
+          "name": "Zheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c920",
+          "name": "Sabina Abdurakhmanova",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c921",
+          "name": "Wenhao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c922",
+          "name": "Mengzhao Jia",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c923",
+          "name": "Jihan Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c924",
+          "name": "Kenneth Hamilton",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c925",
+          "name": "Kumar Shridhar",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c926",
+          "name": "Minh Chien Vu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c927",
+          "name": "Dingmin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c928",
+          "name": "Jiawei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c929",
+          "name": "Zijian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c92a",
+          "name": "Qian Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c92b",
+          "name": "Binyuan Hui",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c92c",
+          "name": "Meg Risdal",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c92d",
+          "name": "Ahsen Khaliq",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c92e",
+          "name": "Atin Sood",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c92f",
+          "name": "Zhenchang Xing",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c930",
+          "name": "Wasi Uddin Ahmad",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c931",
+          "name": "John Grundy",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c932",
+          "name": "David Lo",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c933",
+          "name": "Banghua Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c934",
+          "name": "Xiaoning Du",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c935",
+          "name": "Torsten Scholak",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5e33cd07fb414898c936",
+          "name": "Leandro von Werra",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T18:01:47.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:34:36.848Z",
+      "title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code\n  Generation via Execution",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Crowdsourced model evaluation platforms, such as Chatbot Arena, enable\nreal-time evaluation from human perspectives to assess the quality of model\nresponses. In the coding domain, manually examining the quality of\nLLM-generated content is extremely challenging, as it requires understanding\nlong chunks of raw code and deliberately simulating code execution. To this\nend, we introduce BigCodeArena, an open human evaluation platform for code\ngeneration backed by a comprehensive and on-the-fly execution environment.\nBuilt on top of Chatbot Arena, BigCodeArena enables the execution of\nLLM-generated code and allows humans to interact with the execution process and\noutcomes. We collected over 14,000 raw code-centric conversation sessions\nacross 10 widely used LLMs, spanning 10 languages and 8 types of execution\nenvironments. Among these conversations, we identified more than 4,700\nmulti-turn samples with pairwise human preferences. Further analysis uncovers\nunderexplored preferences of LLMs in fine-grained domains characterized by\ntasks, languages, and frameworks. To systematically examine code understanding\nand generation capabilities of frontier LLMs, we curated two benchmarks based\non the collected data, namely BigCodeReward and AutoCodeArena. For\nBigCodeReward, we post-processed the 4,700 conversations and evaluated the\nconsistency between reward models and human preferences. The evaluation shows\nthat most LLMs have superior performance in judging coding preferences when the\nexecution results are available. Inspired by these findings, we propose\nAutoCodeArena, an automatic Elo rating benchmark designed to assess the coding\nquality of LLMs without human involvement. We find that proprietary LLMs like\nGPT-5, Claude-Sonnet-4, and Claude-Opus-4 still lead in code generation\nperformance among recent emerging models.",
+      "upvotes": 1,
+      "discussionId": "68ec5e33cd07fb414898c937",
+      "ai_summary": "BigCodeArena is an open human evaluation platform for code generation that enables real-time execution and interaction, revealing preferences and capabilities of LLMs in coding tasks.",
+      "ai_keywords": [
+        "Chatbot Arena",
+        "BigCodeArena",
+        "LLM-generated code",
+        "code execution",
+        "human evaluation",
+        "BigCodeReward",
+        "AutoCodeArena",
+        "Elo rating benchmark",
+        "code understanding",
+        "code generation"
+      ]
+    },
+    "publishedAt": "2025-10-09T14:01:47.000Z",
+    "title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code\n  Generation via Execution",
+    "summary": "Crowdsourced model evaluation platforms, such as Chatbot Arena, enable\nreal-time evaluation from human perspectives to assess the quality of model\nresponses. In the coding domain, manually examining the quality of\nLLM-generated content is extremely challenging, as it requires understanding\nlong chunks of raw code and deliberately simulating code execution. To this\nend, we introduce BigCodeArena, an open human evaluation platform for code\ngeneration backed by a comprehensive and on-the-fly execution environment.\nBuilt on top of Chatbot Arena, BigCodeArena enables the execution of\nLLM-generated code and allows humans to interact with the execution process and\noutcomes. We collected over 14,000 raw code-centric conversation sessions\nacross 10 widely used LLMs, spanning 10 languages and 8 types of execution\nenvironments. Among these conversations, we identified more than 4,700\nmulti-turn samples with pairwise human preferences. Further analysis uncovers\nunderexplored preferences of LLMs in fine-grained domains characterized by\ntasks, languages, and frameworks. To systematically examine code understanding\nand generation capabilities of frontier LLMs, we curated two benchmarks based\non the collected data, namely BigCodeReward and AutoCodeArena. For\nBigCodeReward, we post-processed the 4,700 conversations and evaluated the\nconsistency between reward models and human preferences. The evaluation shows\nthat most LLMs have superior performance in judging coding preferences when the\nexecution results are available. Inspired by these findings, we propose\nAutoCodeArena, an automatic Elo rating benchmark designed to assess the coding\nquality of LLMs without human involvement. We find that proprietary LLMs like\nGPT-5, Claude-Sonnet-4, and Claude-Opus-4 still lead in code generation\nperformance among recent emerging models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08697.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 123
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.07319",
+      "authors": [
+        {
+          "_id": "68e717097ae125f9582e694a",
+          "name": "Ci-Siang Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68e717097ae125f9582e694b",
+          "user": {
+            "_id": "64ae22dd1aee69ece065cdcd",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ae22dd1aee69ece065cdcd/JG7QaHIrr4i2k4uwR4pZK.png",
+            "isPro": false,
+            "fullname": "Min-Hung Chen",
+            "user": "cmhungsteve",
+            "type": "user"
+          },
+          "name": "Min-Hung Chen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-09T06:50:25.264Z",
+          "hidden": false
+        },
+        {
+          "_id": "68e717097ae125f9582e694c",
+          "name": "I-Jieh Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68e717097ae125f9582e694d",
+          "name": "Chien-Yi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e717097ae125f9582e694e",
+          "name": "Sifei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68e717097ae125f9582e694f",
+          "name": "Yu-Chiang Frank Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-08T17:59:57.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:41:09.823Z",
+      "title": "Temporal Prompting Matters: Rethinking Referring Video Object\n  Segmentation",
+      "submittedOnDailyBy": {
+        "_id": "64ae22dd1aee69ece065cdcd",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ae22dd1aee69ece065cdcd/JG7QaHIrr4i2k4uwR4pZK.png",
+        "isPro": false,
+        "fullname": "Min-Hung Chen",
+        "user": "cmhungsteve",
+        "type": "user"
+      },
+      "summary": "Referring Video Object Segmentation (RVOS) aims to segment the object\nreferred to by the query sentence in the video. Most existing methods require\nend-to-end training with dense mask annotations, which could be\ncomputation-consuming and less scalable. In this work, we rethink the RVOS\nproblem and aim to investigate the key to this task. Based on existing\nfoundation segmentation models, we decompose the RVOS task into referring,\nvideo, and segmentation factors, and propose a Temporal Prompt Generation and\nSelection (Tenet) framework to address the referring and video factors while\nleaving the segmentation problem to foundation models. To efficiently adapt\nimage-based foundation segmentation models to referring video object\nsegmentation, we leverage off-the-shelf object detectors and trackers to\nproduce temporal prompts associated with the referring sentence. While\nhigh-quality temporal prompts could be produced, they can not be easily\nidentified from confidence scores. To tackle this issue, we propose Prompt\nPreference Learning to evaluate the quality of the produced temporal prompts.\nBy taking such prompts to instruct image-based foundation segmentation models,\nwe would be able to produce high-quality masks for the referred object,\nenabling efficient model adaptation to referring video object segmentation.\nExperiments on RVOS benchmarks demonstrate the effectiveness of the Tenet\nframework.",
+      "upvotes": 1,
+      "discussionId": "68e717097ae125f9582e6950",
+      "ai_summary": "The Tenet framework decomposes the RVOS task into referring, video, and segmentation factors, using temporal prompts and prompt preference learning to adapt image-based foundation segmentation models for efficient RVOS.",
+      "ai_keywords": [
+        "Referring Video Object Segmentation (RVOS)",
+        "Temporal Prompt Generation and Selection (Tenet)",
+        "foundation segmentation models",
+        "temporal prompts",
+        "Prompt Preference Learning",
+        "object detectors",
+        "trackers"
+      ]
+    },
+    "publishedAt": "2025-10-08T13:59:57.000Z",
+    "title": "Temporal Prompting Matters: Rethinking Referring Video Object\n  Segmentation",
+    "summary": "Referring Video Object Segmentation (RVOS) aims to segment the object\nreferred to by the query sentence in the video. Most existing methods require\nend-to-end training with dense mask annotations, which could be\ncomputation-consuming and less scalable. In this work, we rethink the RVOS\nproblem and aim to investigate the key to this task. Based on existing\nfoundation segmentation models, we decompose the RVOS task into referring,\nvideo, and segmentation factors, and propose a Temporal Prompt Generation and\nSelection (Tenet) framework to address the referring and video factors while\nleaving the segmentation problem to foundation models. To efficiently adapt\nimage-based foundation segmentation models to referring video object\nsegmentation, we leverage off-the-shelf object detectors and trackers to\nproduce temporal prompts associated with the referring sentence. While\nhigh-quality temporal prompts could be produced, they can not be easily\nidentified from confidence scores. To tackle this issue, we propose Prompt\nPreference Learning to evaluate the quality of the produced temporal prompts.\nBy taking such prompts to instruct image-based foundation segmentation models,\nwe would be able to produce high-quality masks for the referred object,\nenabling efficient model adaptation to referring video object segmentation.\nExperiments on RVOS benchmarks demonstrate the effectiveness of the Tenet\nframework.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.07319.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64ae22dd1aee69ece065cdcd",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ae22dd1aee69ece065cdcd/JG7QaHIrr4i2k4uwR4pZK.png",
+      "fullname": "Min-Hung Chen",
+      "name": "cmhungsteve",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2510.09201",
+      "authors": [
+        {
+          "_id": "68ec632fcd07fb414898c97b",
+          "name": "Yumin Choi",
+          "hidden": false
+        },
+        {
+          "_id": "68ec632fcd07fb414898c97c",
+          "name": "Dongki Kim",
+          "hidden": false
+        },
+        {
+          "_id": "68ec632fcd07fb414898c97d",
+          "name": "Jinheon Baek",
+          "hidden": false
+        },
+        {
+          "_id": "68ec632fcd07fb414898c97e",
+          "name": "Sung Ju Hwang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-10T09:41:25.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:56:45.053Z",
+      "title": "Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for\n  MLLMs",
+      "submittedOnDailyBy": {
+        "_id": "64cfa0b9749587dbe01d0079",
+        "avatarUrl": "/avatars/93ca0a1d9c5578d052c5af0d4d1a0252.svg",
+        "isPro": false,
+        "fullname": "Yumin Choi",
+        "user": "YuminChoi",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have shown remarkable success, and their\nmultimodal expansions (MLLMs) further unlock capabilities spanning images,\nvideos, and other modalities beyond text. However, despite this shift, prompt\noptimization approaches, designed to reduce the burden of manual prompt\ncrafting while maximizing performance, remain confined to text, ultimately\nlimiting the full potential of MLLMs. Motivated by this gap, we introduce the\nnew problem of multimodal prompt optimization, which expands the prior\ndefinition of prompt optimization to the multimodal space defined by the pairs\nof textual and non-textual prompts. To tackle this problem, we then propose the\nMultimodal Prompt Optimizer (MPO), a unified framework that not only performs\nthe joint optimization of multimodal prompts through alignment-preserving\nupdates but also guides the selection process of candidate prompts by\nleveraging earlier evaluations as priors in a Bayesian-based selection\nstrategy. Through extensive experiments across diverse modalities that go\nbeyond text, such as images, videos, and even molecules, we demonstrate that\nMPO outperforms leading text-only optimization methods, establishing multimodal\nprompt optimization as a crucial step to realizing the potential of MLLMs.",
+      "upvotes": 0,
+      "discussionId": "68ec632fcd07fb414898c97f",
+      "githubRepo": "https://github.com/Dozi01/MPO",
+      "ai_summary": "Multimodal Prompt Optimizer (MPO) extends prompt optimization to handle multiple data types, improving performance over text-only methods in various applications.",
+      "ai_keywords": [
+        "Large Language Models",
+        "multimodal expansions",
+        "prompt optimization",
+        "Multimodal Prompt Optimizer",
+        "alignment-preserving updates",
+        "Bayesian-based selection strategy"
+      ],
+      "organization": {
+        "_id": "6475760c33192631bad2bb38",
+        "name": "kaist-ai",
+        "fullname": "KAIST AI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6469949654873f0043b09c22/aaZFiyXe1qR-Dmy_xq67m.png"
+      }
+    },
+    "publishedAt": "2025-10-10T05:41:25.000Z",
+    "title": "Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for\n  MLLMs",
+    "summary": "Large Language Models (LLMs) have shown remarkable success, and their\nmultimodal expansions (MLLMs) further unlock capabilities spanning images,\nvideos, and other modalities beyond text. However, despite this shift, prompt\noptimization approaches, designed to reduce the burden of manual prompt\ncrafting while maximizing performance, remain confined to text, ultimately\nlimiting the full potential of MLLMs. Motivated by this gap, we introduce the\nnew problem of multimodal prompt optimization, which expands the prior\ndefinition of prompt optimization to the multimodal space defined by the pairs\nof textual and non-textual prompts. To tackle this problem, we then propose the\nMultimodal Prompt Optimizer (MPO), a unified framework that not only performs\nthe joint optimization of multimodal prompts through alignment-preserving\nupdates but also guides the selection process of candidate prompts by\nleveraging earlier evaluations as priors in a Bayesian-based selection\nstrategy. Through extensive experiments across diverse modalities that go\nbeyond text, such as images, videos, and even molecules, we demonstrate that\nMPO outperforms leading text-only optimization methods, establishing multimodal\nprompt optimization as a crucial step to realizing the potential of MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.09201.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64cfa0b9749587dbe01d0079",
+      "avatarUrl": "/avatars/93ca0a1d9c5578d052c5af0d4d1a0252.svg",
+      "fullname": "Yumin Choi",
+      "name": "YuminChoi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8
+    },
+    "organization": {
+      "_id": "6475760c33192631bad2bb38",
+      "name": "kaist-ai",
+      "fullname": "KAIST AI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6469949654873f0043b09c22/aaZFiyXe1qR-Dmy_xq67m.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.01119",
+      "authors": [
+        {
+          "_id": "68ec5ec4cd07fb414898c939",
+          "name": "Zhanpeng Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5ec4cd07fb414898c93a",
+          "name": "Haoxi Ran",
+          "hidden": false
+        },
+        {
+          "_id": "68ec5ec4cd07fb414898c93b",
+          "name": "Li Lu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-01T17:07:21.000Z",
+      "submittedOnDailyAt": "2025-10-13T00:37:38.826Z",
+      "title": "Instant4D: 4D Gaussian Splatting in Minutes",
+      "submittedOnDailyBy": {
+        "_id": "62a527f17157a88f920afc50",
+        "avatarUrl": "/avatars/d20c9afcdc42db686e05472459fc09f6.svg",
+        "isPro": false,
+        "fullname": "Haoxi Ran",
+        "user": "Hancy",
+        "type": "user"
+      },
+      "summary": "Dynamic view synthesis has seen significant advances, yet reconstructing\nscenes from uncalibrated, casual video remains challenging due to slow\noptimization and complex parameter estimation. In this work, we present\nInstant4D, a monocular reconstruction system that leverages native 4D\nrepresentation to efficiently process casual video sequences within minutes,\nwithout calibrated cameras or depth sensors. Our method begins with geometric\nrecovery through deep visual SLAM, followed by grid pruning to optimize scene\nrepresentation. Our design significantly reduces redundancy while maintaining\ngeometric integrity, cutting model size to under 10% of its original footprint.\nTo handle temporal dynamics efficiently, we introduce a streamlined 4D Gaussian\nrepresentation, achieving a 30x speed-up and reducing training time to within\ntwo minutes, while maintaining competitive performance across several\nbenchmarks. Our method reconstruct a single video within 10 minutes on the\nDycheck dataset or for a typical 200-frame video. We further apply our model to\nin-the-wild videos, showcasing its generalizability. Our project website is\npublished at https://instant4d.github.io/.",
+      "upvotes": 0,
+      "discussionId": "68ec5ec4cd07fb414898c93c",
+      "ai_summary": "Instant4D uses deep visual SLAM and a 4D Gaussian representation to efficiently reconstruct scenes from uncalibrated video sequences in minutes.",
+      "ai_keywords": [
+        "deep visual SLAM",
+        "4D representation",
+        "grid pruning",
+        "4D Gaussian representation"
+      ]
+    },
+    "publishedAt": "2025-10-01T13:07:21.000Z",
+    "title": "Instant4D: 4D Gaussian Splatting in Minutes",
+    "summary": "Dynamic view synthesis has seen significant advances, yet reconstructing\nscenes from uncalibrated, casual video remains challenging due to slow\noptimization and complex parameter estimation. In this work, we present\nInstant4D, a monocular reconstruction system that leverages native 4D\nrepresentation to efficiently process casual video sequences within minutes,\nwithout calibrated cameras or depth sensors. Our method begins with geometric\nrecovery through deep visual SLAM, followed by grid pruning to optimize scene\nrepresentation. Our design significantly reduces redundancy while maintaining\ngeometric integrity, cutting model size to under 10% of its original footprint.\nTo handle temporal dynamics efficiently, we introduce a streamlined 4D Gaussian\nrepresentation, achieving a 30x speed-up and reducing training time to within\ntwo minutes, while maintaining competitive performance across several\nbenchmarks. Our method reconstruct a single video within 10 minutes on the\nDycheck dataset or for a typical 200-frame video. We further apply our model to\nin-the-wild videos, showcasing its generalizability. Our project website is\npublished at https://instant4d.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.01119.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62a527f17157a88f920afc50",
+      "avatarUrl": "/avatars/d20c9afcdc42db686e05472459fc09f6.svg",
+      "fullname": "Haoxi Ran",
+      "name": "Hancy",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
