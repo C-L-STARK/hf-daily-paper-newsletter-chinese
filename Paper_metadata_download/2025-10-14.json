@@ -1,0 +1,618 @@
+[
+  {
+    "paper": {
+      "id": "2510.08886",
+      "authors": [
+        {
+          "_id": "68edac0dde1fee572713a705",
+          "name": "Yan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a706",
+          "name": "Keyi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a707",
+          "name": "Shanshan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a708",
+          "name": "Jaisal Patel",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a709",
+          "name": "Jeff Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a70a",
+          "name": "Fengran Mo",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a70b",
+          "name": "Xueqing Peng",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a70c",
+          "name": "Lingfei Qian",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a70d",
+          "name": "Jimin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a70e",
+          "name": "Guojun Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a70f",
+          "name": "Xiao-Yang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68edac0dde1fee572713a710",
+          "name": "Jian-Yun Nie",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-10T00:41:55.000Z",
+      "submittedOnDailyAt": "2025-10-14T00:23:32.419Z",
+      "title": "FinAuditing: A Financial Taxonomy-Structured Multi-Document Benchmark\n  for Evaluating LLMs",
+      "submittedOnDailyBy": {
+        "_id": "65d76cc5b9b7b8bf88faa916",
+        "avatarUrl": "/avatars/d95232cd0c307efab6197ade1a66190b.svg",
+        "isPro": true,
+        "fullname": "Yan Wang",
+        "user": "YanAdjeNole",
+        "type": "user"
+      },
+      "summary": "The complexity of the Generally Accepted Accounting Principles (GAAP) and the\nhierarchical structure of eXtensible Business Reporting Language (XBRL) filings\nmake financial auditing increasingly difficult to automate and verify. While\nlarge language models (LLMs) have demonstrated strong capabilities in\nunstructured text understanding, their ability to reason over structured,\ninterdependent, and taxonomy-driven financial documents remains largely\nunexplored. To fill this gap, we introduce FinAuditing, the first\ntaxonomy-aligned, structure-aware, multi-document benchmark for evaluating LLMs\non financial auditing tasks. Built from real US-GAAP-compliant XBRL filings,\nFinAuditing defines three complementary subtasks, FinSM for semantic\nconsistency, FinRE for relational consistency, and FinMR for numerical\nconsistency, each targeting a distinct aspect of structured auditing reasoning.\nWe further propose a unified evaluation framework integrating retrieval,\nclassification, and reasoning metrics across these subtasks. Extensive\nzero-shot experiments on 13 state-of-the-art LLMs reveal that current models\nperform inconsistently across semantic, relational, and mathematical\ndimensions, with accuracy drops of up to 60-90% when reasoning over\nhierarchical multi-document structures. Our findings expose the systematic\nlimitations of modern LLMs in taxonomy-grounded financial reasoning and\nestablish FinAuditing as a foundation for developing trustworthy,\nstructure-aware, and regulation-aligned financial intelligence systems. The\nbenchmark dataset is available at Hugging Face.",
+      "upvotes": 7,
+      "discussionId": "68edac0ede1fee572713a711",
+      "githubRepo": "https://github.com/The-FinAI/FinAuditing.git",
+      "ai_summary": "FinAuditing is a benchmark for evaluating LLMs on structured financial auditing tasks, revealing their limitations in handling taxonomy-driven, hierarchical financial documents.",
+      "ai_keywords": [
+        "LLMs",
+        "FinAuditing",
+        "taxonomy-aligned",
+        "structure-aware",
+        "multi-document benchmark",
+        "FinSM",
+        "FinRE",
+        "FinMR",
+        "semantic consistency",
+        "relational consistency",
+        "numerical consistency",
+        "retrieval",
+        "classification",
+        "reasoning metrics",
+        "zero-shot experiments",
+        "US-GAAP",
+        "XBRL filings"
+      ],
+      "githubStars": 0,
+      "organization": {
+        "_id": "658f4413674349122c0708e9",
+        "name": "TheFinAI",
+        "fullname": "The Fin AI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63b58ed5889aa6707f0bb0f4/ZK5nQKw34W3-eH3p4NAYc.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-09T20:41:55.000Z",
+    "title": "FinAuditing: A Financial Taxonomy-Structured Multi-Document Benchmark\n  for Evaluating LLMs",
+    "summary": "The complexity of the Generally Accepted Accounting Principles (GAAP) and the\nhierarchical structure of eXtensible Business Reporting Language (XBRL) filings\nmake financial auditing increasingly difficult to automate and verify. While\nlarge language models (LLMs) have demonstrated strong capabilities in\nunstructured text understanding, their ability to reason over structured,\ninterdependent, and taxonomy-driven financial documents remains largely\nunexplored. To fill this gap, we introduce FinAuditing, the first\ntaxonomy-aligned, structure-aware, multi-document benchmark for evaluating LLMs\non financial auditing tasks. Built from real US-GAAP-compliant XBRL filings,\nFinAuditing defines three complementary subtasks, FinSM for semantic\nconsistency, FinRE for relational consistency, and FinMR for numerical\nconsistency, each targeting a distinct aspect of structured auditing reasoning.\nWe further propose a unified evaluation framework integrating retrieval,\nclassification, and reasoning metrics across these subtasks. Extensive\nzero-shot experiments on 13 state-of-the-art LLMs reveal that current models\nperform inconsistently across semantic, relational, and mathematical\ndimensions, with accuracy drops of up to 60-90% when reasoning over\nhierarchical multi-document structures. Our findings expose the systematic\nlimitations of modern LLMs in taxonomy-grounded financial reasoning and\nestablish FinAuditing as a foundation for developing trustworthy,\nstructure-aware, and regulation-aligned financial intelligence systems. The\nbenchmark dataset is available at Hugging Face.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08886.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65d76cc5b9b7b8bf88faa916",
+      "avatarUrl": "/avatars/d95232cd0c307efab6197ade1a66190b.svg",
+      "fullname": "Yan Wang",
+      "name": "YanAdjeNole",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "organization": {
+      "_id": "658f4413674349122c0708e9",
+      "name": "TheFinAI",
+      "fullname": "The Fin AI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63b58ed5889aa6707f0bb0f4/ZK5nQKw34W3-eH3p4NAYc.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.10670",
+      "authors": [
+        {
+          "_id": "68edaa98de1fee572713a6d8",
+          "name": "Yu Li",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6d9",
+          "name": "Menghan Xia",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6da",
+          "name": "Gongye Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6db",
+          "name": "Jianhong Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6dc",
+          "name": "Xintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6dd",
+          "name": "Conglang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6de",
+          "name": "Yuxuan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6df",
+          "name": "Ruihang Chu",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6e0",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "68edaa98de1fee572713a6e1",
+          "name": "Yujiu Yang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/651ed7ef755e92f7f12742e6/E-2LhC-CbFdLdojYWTqLg.png"
+      ],
+      "publishedAt": "2025-10-12T15:55:44.000Z",
+      "submittedOnDailyAt": "2025-10-14T00:20:52.273Z",
+      "title": "AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning\n  in 4D Scenes",
+      "submittedOnDailyBy": {
+        "_id": "651ed7ef755e92f7f12742e6",
+        "avatarUrl": "/avatars/57a9cc189b4a59299aad6c96191b18d8.svg",
+        "isPro": false,
+        "fullname": "yu li",
+        "user": "lyabc",
+        "type": "user"
+      },
+      "summary": "Recent Text-to-Video (T2V) models have demonstrated powerful capability in\nvisual simulation of real-world geometry and physical laws, indicating its\npotential as implicit world models. Inspired by this, we explore the\nfeasibility of leveraging the video generation prior for viewpoint planning\nfrom given 4D scenes, since videos internally accompany dynamic scenes with\nnatural viewpoints. To this end, we propose a two-stage paradigm to adapt\npre-trained T2V models for viewpoint prediction, in a compatible manner. First,\nwe inject the 4D scene representation into the pre-trained T2V model via an\nadaptive learning branch, where the 4D scene is viewpoint-agnostic and the\nconditional generated video embeds the viewpoints visually. Then, we formulate\nviewpoint extraction as a hybrid-condition guided camera extrinsic denoising\nprocess. Specifically, a camera extrinsic diffusion branch is further\nintroduced onto the pre-trained T2V model, by taking the generated video and 4D\nscene as input. Experimental results show the superiority of our proposed\nmethod over existing competitors, and ablation studies validate the\neffectiveness of our key technical designs. To some extent, this work proves\nthe potential of video generation models toward 4D interaction in real world.",
+      "upvotes": 6,
+      "discussionId": "68edaa98de1fee572713a6e2",
+      "projectPage": "https://yuli0103.github.io/AdaViewPlanner/",
+      "ai_summary": "A two-stage paradigm adapts pre-trained Text-to-Video models for viewpoint prediction in 4D scenes by integrating an adaptive learning branch and a camera extrinsic diffusion branch.",
+      "ai_keywords": [
+        "Text-to-Video models",
+        "viewpoint planning",
+        "4D scenes",
+        "adaptive learning branch",
+        "viewpoint extraction",
+        "hybrid-condition guided camera extrinsic denoising",
+        "camera extrinsic diffusion branch"
+      ],
+      "organization": {
+        "_id": "662c559b322afcbae51b3c8b",
+        "name": "KwaiVGI",
+        "fullname": "Kuaishou Visual Generation and Interaction Center",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-12T11:55:44.000Z",
+    "title": "AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning\n  in 4D Scenes",
+    "summary": "Recent Text-to-Video (T2V) models have demonstrated powerful capability in\nvisual simulation of real-world geometry and physical laws, indicating its\npotential as implicit world models. Inspired by this, we explore the\nfeasibility of leveraging the video generation prior for viewpoint planning\nfrom given 4D scenes, since videos internally accompany dynamic scenes with\nnatural viewpoints. To this end, we propose a two-stage paradigm to adapt\npre-trained T2V models for viewpoint prediction, in a compatible manner. First,\nwe inject the 4D scene representation into the pre-trained T2V model via an\nadaptive learning branch, where the 4D scene is viewpoint-agnostic and the\nconditional generated video embeds the viewpoints visually. Then, we formulate\nviewpoint extraction as a hybrid-condition guided camera extrinsic denoising\nprocess. Specifically, a camera extrinsic diffusion branch is further\nintroduced onto the pre-trained T2V model, by taking the generated video and 4D\nscene as input. Experimental results show the superiority of our proposed\nmethod over existing competitors, and ablation studies validate the\neffectiveness of our key technical designs. To some extent, this work proves\nthe potential of video generation models toward 4D interaction in real world.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/651ed7ef755e92f7f12742e6/E-2LhC-CbFdLdojYWTqLg.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.10670.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "651ed7ef755e92f7f12742e6",
+      "avatarUrl": "/avatars/57a9cc189b4a59299aad6c96191b18d8.svg",
+      "fullname": "yu li",
+      "name": "lyabc",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "organization": {
+      "_id": "662c559b322afcbae51b3c8b",
+      "name": "KwaiVGI",
+      "fullname": "Kuaishou Visual Generation and Interaction Center",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.07841",
+      "authors": [
+        {
+          "_id": "68edaaf5de1fee572713a6e4",
+          "name": "Emre Can Acikgoz",
+          "hidden": false
+        },
+        {
+          "_id": "68edaaf5de1fee572713a6e5",
+          "name": "Cheng Qian",
+          "hidden": false
+        },
+        {
+          "_id": "68edaaf5de1fee572713a6e6",
+          "name": "Heng Ji",
+          "hidden": false
+        },
+        {
+          "_id": "68edaaf5de1fee572713a6e7",
+          "name": "Dilek Hakkani-Tür",
+          "hidden": false
+        },
+        {
+          "_id": "68edaaf5de1fee572713a6e8",
+          "name": "Gokhan Tur",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T06:37:35.000Z",
+      "submittedOnDailyAt": "2025-10-14T00:16:59.509Z",
+      "title": "Self-Improving LLM Agents at Test-Time",
+      "submittedOnDailyBy": {
+        "_id": "63888d3fd68e37abd599f428",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63888d3fd68e37abd599f428/YaNyxG_oM6IgrHTkFZ6Eq.jpeg",
+        "isPro": true,
+        "fullname": "emre can",
+        "user": "emrecanacikgoz",
+        "type": "user"
+      },
+      "summary": "One paradigm of language model (LM) fine-tuning relies on creating large\ntraining datasets, under the assumption that high quantity and diversity will\nenable models to generalize to novel tasks after post-training. In practice,\ngathering large sets of data is inefficient, and training on them is\nprohibitively expensive; worse, there is no guarantee that the resulting model\nwill handle complex scenarios or generalize better. Moreover, existing\ntechniques rarely assess whether a training sample provides novel information\nor is redundant with the knowledge already acquired by the model, resulting in\nunnecessary costs. In this work, we explore a new test-time self-improvement\nmethod to create more effective and generalizable agentic LMs on-the-fly. The\nproposed algorithm can be summarized in three steps: (i) first it identifies\nthe samples that model struggles with (self-awareness), (ii) then generates\nsimilar examples from detected uncertain samples (self-data augmentation), and\n(iii) uses these newly generated samples at test-time fine-tuning\n(self-improvement). We study two variants of this approach: Test-Time\nSelf-Improvement (TT-SI), where the same model generates additional training\nexamples from its own uncertain cases and then learns from them, and contrast\nthis approach with Test-Time Distillation (TT-D), where a stronger model\ngenerates similar examples for uncertain cases, enabling student to adapt using\ndistilled supervision. Empirical evaluations across different agent benchmarks\ndemonstrate that TT-SI improves the performance with +5.48% absolute accuracy\ngain on average across all benchmarks and surpasses other standard learning\nmethods, yet using 68x less training samples. Our findings highlight the\npromise of TT-SI, demonstrating the potential of self-improvement algorithms at\ntest-time as a new paradigm for building more capable agents toward\nself-evolution.",
+      "upvotes": 4,
+      "discussionId": "68edaaf5de1fee572713a6e9",
+      "ai_summary": "A test-time self-improvement method enhances language models by generating additional training examples from uncertain cases, leading to better performance with fewer samples.",
+      "ai_keywords": [
+        "language model fine-tuning",
+        "self-awareness",
+        "self-data augmentation",
+        "test-time fine-tuning",
+        "Test-Time Self-Improvement (TT-SI)",
+        "Test-Time Distillation (TT-D)",
+        "self-improvement algorithms",
+        "self-evolution"
+      ]
+    },
+    "publishedAt": "2025-10-09T02:37:35.000Z",
+    "title": "Self-Improving LLM Agents at Test-Time",
+    "summary": "One paradigm of language model (LM) fine-tuning relies on creating large\ntraining datasets, under the assumption that high quantity and diversity will\nenable models to generalize to novel tasks after post-training. In practice,\ngathering large sets of data is inefficient, and training on them is\nprohibitively expensive; worse, there is no guarantee that the resulting model\nwill handle complex scenarios or generalize better. Moreover, existing\ntechniques rarely assess whether a training sample provides novel information\nor is redundant with the knowledge already acquired by the model, resulting in\nunnecessary costs. In this work, we explore a new test-time self-improvement\nmethod to create more effective and generalizable agentic LMs on-the-fly. The\nproposed algorithm can be summarized in three steps: (i) first it identifies\nthe samples that model struggles with (self-awareness), (ii) then generates\nsimilar examples from detected uncertain samples (self-data augmentation), and\n(iii) uses these newly generated samples at test-time fine-tuning\n(self-improvement). We study two variants of this approach: Test-Time\nSelf-Improvement (TT-SI), where the same model generates additional training\nexamples from its own uncertain cases and then learns from them, and contrast\nthis approach with Test-Time Distillation (TT-D), where a stronger model\ngenerates similar examples for uncertain cases, enabling student to adapt using\ndistilled supervision. Empirical evaluations across different agent benchmarks\ndemonstrate that TT-SI improves the performance with +5.48% absolute accuracy\ngain on average across all benchmarks and surpasses other standard learning\nmethods, yet using 68x less training samples. Our findings highlight the\npromise of TT-SI, demonstrating the potential of self-improvement algorithms at\ntest-time as a new paradigm for building more capable agents toward\nself-evolution.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.07841.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63888d3fd68e37abd599f428",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63888d3fd68e37abd599f428/YaNyxG_oM6IgrHTkFZ6Eq.jpeg",
+      "fullname": "emre can",
+      "name": "emrecanacikgoz",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 22
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.08026",
+      "authors": [
+        {
+          "_id": "68eda813de1fee572713a6ad",
+          "name": "Chen Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68eda813de1fee572713a6ae",
+          "name": "Wei Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68eda813de1fee572713a6af",
+          "name": "Wenxuan Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-09T10:04:31.000Z",
+      "submittedOnDailyAt": "2025-10-14T00:03:21.288Z",
+      "title": "PEAR: Phase Entropy Aware Reward for Efficient Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "65d7b983baa72790a1151923",
+        "avatarUrl": "/avatars/938531e84ca01a0c5a2a174057e3e9c5.svg",
+        "isPro": false,
+        "fullname": "Chen Huang",
+        "user": "Albus-Chen",
+        "type": "user"
+      },
+      "summary": "Large Reasoning Models (LRMs) have achieved impressive performance on complex\nreasoning tasks by generating detailed chain-of-thought (CoT) explanations.\nHowever, these responses are often excessively long, containing redundant\nreasoning steps that inflate inference cost and reduce usability. Controlling\nthe length of generated reasoning without sacrificing accuracy remains an open\nchallenge. Through a systematic empirical analysis, we reveal a consistent\npositive correlation between model entropy and response length at different\nreasoning stages across diverse LRMs: the thinking phase exhibits higher\nentropy, reflecting exploratory behavior of longer responses, while the final\nanswer phase shows lower entropy, indicating a more deterministic solution.\nThis observation suggests that entropy at different reasoning stages can serve\nas a control knob for balancing conciseness and performance. Based on this\ninsight, this paper introduces Phase Entropy Aware Reward (PEAR), a reward\nmechanism that incorporating phase-dependent entropy into the reward design.\nInstead of treating all tokens uniformly, PEAR penalize excessive entropy\nduring the thinking phase and allowing moderate exploration at the final answer\nphase, which encourages models to generate concise reasoning traces that retain\nsufficient flexibility to solve the task correctly. This enables adaptive\ncontrol of response length without relying on explicit length targets or rigid\ntruncation rules. Extensive experiments across four benchmarks demonstrate that\nPEAR consistently reduces response length while sustaining competitive accuracy\nacross model scales. In addition, PEAR demonstrates strong out-of-distribution\n(OOD) robustness beyond the training distribution. Our code is available at:\nhttps://github.com/iNLP-Lab/PEAR.",
+      "upvotes": 2,
+      "discussionId": "68eda813de1fee572713a6b0",
+      "githubRepo": "https://github.com/iNLP-Lab/PEAR",
+      "ai_summary": "A reward mechanism called Phase Entropy Aware Reward (PEAR) controls the length of reasoning in large models by adjusting entropy at different stages, balancing conciseness and accuracy.",
+      "ai_keywords": [
+        "Large Reasoning Models",
+        "chain-of-thought",
+        "response length",
+        "model entropy",
+        "thinking phase",
+        "final answer phase",
+        "Phase Entropy Aware Reward",
+        "PEAR",
+        "out-of-distribution robustness"
+      ],
+      "githubStars": 0,
+      "organization": {
+        "_id": "68b82daee976083ccd80824b",
+        "name": "iNLP-Lab",
+        "fullname": "iNLP Lab @ SUTD",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60dff6ae19a362a8c27862aa/3Ukf0b4f546tJM84zynTz.png"
+      }
+    },
+    "publishedAt": "2025-10-09T06:04:31.000Z",
+    "title": "PEAR: Phase Entropy Aware Reward for Efficient Reasoning",
+    "summary": "Large Reasoning Models (LRMs) have achieved impressive performance on complex\nreasoning tasks by generating detailed chain-of-thought (CoT) explanations.\nHowever, these responses are often excessively long, containing redundant\nreasoning steps that inflate inference cost and reduce usability. Controlling\nthe length of generated reasoning without sacrificing accuracy remains an open\nchallenge. Through a systematic empirical analysis, we reveal a consistent\npositive correlation between model entropy and response length at different\nreasoning stages across diverse LRMs: the thinking phase exhibits higher\nentropy, reflecting exploratory behavior of longer responses, while the final\nanswer phase shows lower entropy, indicating a more deterministic solution.\nThis observation suggests that entropy at different reasoning stages can serve\nas a control knob for balancing conciseness and performance. Based on this\ninsight, this paper introduces Phase Entropy Aware Reward (PEAR), a reward\nmechanism that incorporating phase-dependent entropy into the reward design.\nInstead of treating all tokens uniformly, PEAR penalize excessive entropy\nduring the thinking phase and allowing moderate exploration at the final answer\nphase, which encourages models to generate concise reasoning traces that retain\nsufficient flexibility to solve the task correctly. This enables adaptive\ncontrol of response length without relying on explicit length targets or rigid\ntruncation rules. Extensive experiments across four benchmarks demonstrate that\nPEAR consistently reduces response length while sustaining competitive accuracy\nacross model scales. In addition, PEAR demonstrates strong out-of-distribution\n(OOD) robustness beyond the training distribution. Our code is available at:\nhttps://github.com/iNLP-Lab/PEAR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.08026.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65d7b983baa72790a1151923",
+      "avatarUrl": "/avatars/938531e84ca01a0c5a2a174057e3e9c5.svg",
+      "fullname": "Chen Huang",
+      "name": "Albus-Chen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "organization": {
+      "_id": "68b82daee976083ccd80824b",
+      "name": "iNLP-Lab",
+      "fullname": "iNLP Lab @ SUTD",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60dff6ae19a362a8c27862aa/3Ukf0b4f546tJM84zynTz.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.04617",
+      "authors": [
+        {
+          "_id": "68e5159bf9af2f6567eab906",
+          "user": {
+            "_id": "643525ea0b30bd434ea15363",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643525ea0b30bd434ea15363/7sAzllfWUPtt68NY1gDLj.png",
+            "isPro": false,
+            "fullname": "Jackie Lai",
+            "user": "DreamW1ngs",
+            "type": "user"
+          },
+          "name": "Zhejian Lai",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-08T08:01:46.085Z",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab907",
+          "name": "Xiang Geng",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab908",
+          "name": "Zhijun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab909",
+          "name": "Yang Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab90a",
+          "name": "Jiahuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab90b",
+          "name": "Rongxiang Weng",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab90c",
+          "name": "Jingang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab90d",
+          "name": "Xuezhi Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab90e",
+          "name": "Xunliang Cai",
+          "hidden": false
+        },
+        {
+          "_id": "68e5159bf9af2f6567eab90f",
+          "name": "Shujian Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-06T09:30:05.000Z",
+      "submittedOnDailyAt": "2025-10-14T00:44:28.428Z",
+      "title": "Making Mathematical Reasoning Adaptive",
+      "submittedOnDailyBy": {
+        "_id": "643525ea0b30bd434ea15363",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643525ea0b30bd434ea15363/7sAzllfWUPtt68NY1gDLj.png",
+        "isPro": false,
+        "fullname": "Jackie Lai",
+        "user": "DreamW1ngs",
+        "type": "user"
+      },
+      "summary": "Mathematical reasoning is a primary indicator of large language models (LLMs)\nintelligence. However, existing LLMs exhibit failures of robustness and\ngeneralization. This paper attributes these deficiencies to spurious reasoning,\ni.e., producing answers from superficial features. To address this challenge,\nwe propose the AdaR framework to enable adaptive reasoning, wherein models rely\non problem-solving logic to produce answers. AdaR synthesizes logically\nequivalent queries by varying variable values, and trains models with RLVR on\nthese data to penalize spurious logic while encouraging adaptive logic. To\nimprove data quality, we extract the problem-solving logic from the original\nquery and generate the corresponding answer by code execution, then apply a\nsanity check. Experimental results demonstrate that AdaR improves robustness\nand generalization, achieving substantial improvement in mathematical reasoning\nwhile maintaining high data efficiency. Analysis indicates that data synthesis\nand RLVR function in a coordinated manner to enable adaptive reasoning in LLMs.\nSubsequent analyses derive key design insights into the effect of critical\nfactors and the applicability to instruct LLMs. Our project is available at\nhttps://github.com/LaiZhejian/AdaR",
+      "upvotes": 1,
+      "discussionId": "68e5163ff9af2f6567eab910",
+      "githubRepo": "https://github.com/LaiZhejian/AdaR",
+      "ai_summary": "AdaR framework enhances LLMs' robustness and generalization in mathematical reasoning by synthesizing logically equivalent queries and using RLVR to penalize spurious logic.",
+      "ai_keywords": [
+        "AdaR",
+        "adaptive reasoning",
+        "spurious reasoning",
+        "logically equivalent queries",
+        "RLVR",
+        "data synthesis",
+        "mathematical reasoning",
+        "data efficiency"
+      ],
+      "githubStars": 7
+    },
+    "publishedAt": "2025-10-06T05:30:05.000Z",
+    "title": "Making Mathematical Reasoning Adaptive",
+    "summary": "Mathematical reasoning is a primary indicator of large language models (LLMs)\nintelligence. However, existing LLMs exhibit failures of robustness and\ngeneralization. This paper attributes these deficiencies to spurious reasoning,\ni.e., producing answers from superficial features. To address this challenge,\nwe propose the AdaR framework to enable adaptive reasoning, wherein models rely\non problem-solving logic to produce answers. AdaR synthesizes logically\nequivalent queries by varying variable values, and trains models with RLVR on\nthese data to penalize spurious logic while encouraging adaptive logic. To\nimprove data quality, we extract the problem-solving logic from the original\nquery and generate the corresponding answer by code execution, then apply a\nsanity check. Experimental results demonstrate that AdaR improves robustness\nand generalization, achieving substantial improvement in mathematical reasoning\nwhile maintaining high data efficiency. Analysis indicates that data synthesis\nand RLVR function in a coordinated manner to enable adaptive reasoning in LLMs.\nSubsequent analyses derive key design insights into the effect of critical\nfactors and the applicability to instruct LLMs. Our project is available at\nhttps://github.com/LaiZhejian/AdaR",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.04617.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643525ea0b30bd434ea15363",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643525ea0b30bd434ea15363/7sAzllfWUPtt68NY1gDLj.png",
+      "fullname": "Jackie Lai",
+      "name": "DreamW1ngs",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2510.04587",
+      "authors": [
+        {
+          "_id": "68edadefde1fee572713a739",
+          "name": "Sheng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68edadefde1fee572713a73a",
+          "name": "Ruiming Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68edadefde1fee572713a73b",
+          "name": "Charles Herndon",
+          "hidden": false
+        },
+        {
+          "_id": "68edadefde1fee572713a73c",
+          "name": "Yihang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68edadefde1fee572713a73d",
+          "name": "Shunsuke Koga",
+          "hidden": false
+        },
+        {
+          "_id": "68edadefde1fee572713a73e",
+          "name": "Jeanne Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68edadefde1fee572713a73f",
+          "name": "Zhi Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-06T08:44:04.000Z",
+      "submittedOnDailyAt": "2025-10-14T00:28:21.760Z",
+      "title": "Pathology-CoT: Learning Visual Chain-of-Thought Agent from Expert Whole\n  Slide Image Diagnosis Behavior",
+      "submittedOnDailyBy": {
+        "_id": "634b90db3a0cd2d498640479",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634b90db3a0cd2d498640479/hsM58SlJHK_PnLN2f2esf.jpeg",
+        "isPro": false,
+        "fullname": "Zhi Huang",
+        "user": "zhihuang",
+        "type": "user"
+      },
+      "summary": "Diagnosing a whole-slide image is an interactive, multi-stage process\ninvolving changes in magnification and movement between fields. Although recent\npathology foundation models are strong, practical agentic systems that decide\nwhat field to examine next, adjust magnification, and deliver explainable\ndiagnoses are still lacking. The blocker is data: scalable, clinically aligned\nsupervision of expert viewing behavior that is tacit and experience-based, not\nwritten in textbooks or online, and therefore absent from large language model\ntraining. We introduce the AI Session Recorder, which works with standard WSI\nviewers to unobtrusively record routine navigation and convert the viewer logs\ninto standardized behavioral commands (inspect or peek at discrete\nmagnifications) and bounding boxes. A lightweight human-in-the-loop review\nturns AI-drafted rationales into the Pathology-CoT dataset, a form of paired\n\"where to look\" and \"why it matters\" supervision produced at roughly six times\nlower labeling time. Using this behavioral data, we build Pathologist-o3, a\ntwo-stage agent that first proposes regions of interest and then performs\nbehavior-guided reasoning. On gastrointestinal lymph-node metastasis detection,\nit achieved 84.5% precision, 100.0% recall, and 75.4% accuracy, exceeding the\nstate-of-the-art OpenAI o3 model and generalizing across backbones. To our\nknowledge, this constitutes one of the first behavior-grounded agentic systems\nin pathology. Turning everyday viewer logs into scalable, expert-validated\nsupervision, our framework makes agentic pathology practical and establishes a\npath to human-aligned, upgradeable clinical AI.",
+      "upvotes": 0,
+      "discussionId": "68edadefde1fee572713a740",
+      "ai_summary": "A framework records and utilizes expert navigation behavior in whole-slide imaging to build an agentic system for pathology diagnosis, achieving high precision and recall in metastasis detection.",
+      "ai_keywords": [
+        "whole-slide image",
+        "AI Session Recorder",
+        "viewer logs",
+        "behavioral commands",
+        "bounding boxes",
+        "Pathology-CoT dataset",
+        "Pathologist-o3",
+        "regions of interest",
+        "behavior-guided reasoning",
+        "gastrointestinal lymph-node metastasis detection",
+        "OpenAI o3 model"
+      ],
+      "organization": {
+        "_id": "660222ec481b407776cf7eae",
+        "name": "zhihuanglab",
+        "fullname": "Zhi Huang Lab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/634b90db3a0cd2d498640479/zNqIiWA6p_0yin3Sp7eXb.png"
+      }
+    },
+    "publishedAt": "2025-10-06T04:44:04.000Z",
+    "title": "Pathology-CoT: Learning Visual Chain-of-Thought Agent from Expert Whole\n  Slide Image Diagnosis Behavior",
+    "summary": "Diagnosing a whole-slide image is an interactive, multi-stage process\ninvolving changes in magnification and movement between fields. Although recent\npathology foundation models are strong, practical agentic systems that decide\nwhat field to examine next, adjust magnification, and deliver explainable\ndiagnoses are still lacking. The blocker is data: scalable, clinically aligned\nsupervision of expert viewing behavior that is tacit and experience-based, not\nwritten in textbooks or online, and therefore absent from large language model\ntraining. We introduce the AI Session Recorder, which works with standard WSI\nviewers to unobtrusively record routine navigation and convert the viewer logs\ninto standardized behavioral commands (inspect or peek at discrete\nmagnifications) and bounding boxes. A lightweight human-in-the-loop review\nturns AI-drafted rationales into the Pathology-CoT dataset, a form of paired\n\"where to look\" and \"why it matters\" supervision produced at roughly six times\nlower labeling time. Using this behavioral data, we build Pathologist-o3, a\ntwo-stage agent that first proposes regions of interest and then performs\nbehavior-guided reasoning. On gastrointestinal lymph-node metastasis detection,\nit achieved 84.5% precision, 100.0% recall, and 75.4% accuracy, exceeding the\nstate-of-the-art OpenAI o3 model and generalizing across backbones. To our\nknowledge, this constitutes one of the first behavior-grounded agentic systems\nin pathology. Turning everyday viewer logs into scalable, expert-validated\nsupervision, our framework makes agentic pathology practical and establishes a\npath to human-aligned, upgradeable clinical AI.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.04587.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "634b90db3a0cd2d498640479",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634b90db3a0cd2d498640479/hsM58SlJHK_PnLN2f2esf.jpeg",
+      "fullname": "Zhi Huang",
+      "name": "zhihuang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "organization": {
+      "_id": "660222ec481b407776cf7eae",
+      "name": "zhihuanglab",
+      "fullname": "Zhi Huang Lab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/634b90db3a0cd2d498640479/zNqIiWA6p_0yin3Sp7eXb.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
