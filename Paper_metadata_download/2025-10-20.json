@@ -1,0 +1,1232 @@
+[
+  {
+    "paper": {
+      "id": "2510.15870",
+      "authors": [
+        {
+          "_id": "68f592478589920bf4d32084",
+          "name": "Hanrong Ye",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32085",
+          "name": "Chao-Han Huck Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32086",
+          "name": "Arushi Goel",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32087",
+          "name": "Wei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32088",
+          "name": "Ligeng Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32089",
+          "name": "Yuanhang Su",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3208a",
+          "name": "Sean Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3208b",
+          "name": "An-Chieh Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3208c",
+          "name": "Zhen Wan",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3208d",
+          "name": "Jinchuan Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3208e",
+          "name": "Yuming Lou",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3208f",
+          "name": "Dong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32090",
+          "name": "Zhijian Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32091",
+          "name": "Yukang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32092",
+          "name": "Ambrish Dantrey",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32093",
+          "name": "Ehsan Jahangiri",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32094",
+          "name": "Sreyan Ghosh",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32095",
+          "name": "Daguang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32096",
+          "name": "Ehsan Hosseini-Asl",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32097",
+          "name": "Danial Mohseni Taheri",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32098",
+          "name": "Vidya Murali",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d32099",
+          "name": "Sifei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3209a",
+          "name": "Jason Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3209b",
+          "name": "Oluwatobi Olabiyi",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3209c",
+          "name": "Frank Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3209d",
+          "name": "Rafael Valle",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3209e",
+          "name": "Bryan Catanzaro",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d3209f",
+          "name": "Andrew Tao",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d320a0",
+          "name": "Song Han",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d320a1",
+          "name": "Jan Kautz",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d320a2",
+          "name": "Hongxu Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68f592478589920bf4d320a3",
+          "name": "Pavlo Molchanov",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-17T17:59:59.000Z",
+      "submittedOnDailyAt": "2025-10-20T00:07:23.233Z",
+      "title": "OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding\n  LLM",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Advancing machine intelligence requires developing the ability to perceive\nacross multiple modalities, much as humans sense the world. We introduce\nOmniVinci, an initiative to build a strong, open-source, omni-modal LLM. We\ncarefully study the design choices across model architecture and data curation.\nFor model architecture, we present three key innovations: (i) OmniAlignNet for\nstrengthening alignment between vision and audio embeddings in a shared\nomni-modal latent space; (ii) Temporal Embedding Grouping for capturing\nrelative temporal alignment between vision and audio signals; and (iii)\nConstrained Rotary Time Embedding for encoding absolute temporal information in\nomni-modal embeddings. We introduce a curation and synthesis pipeline that\ngenerates 24M single-modal and omni-modal conversations. We find that\nmodalities reinforce one another in both perception and reasoning. Our model,\nOmniVinci, outperforms Qwen2.5-Omni with +19.05 on DailyOmni (cross-modal\nunderstanding), +1.7 on MMAR (audio), and +3.9 on Video-MME (vision), while\nusing just 0.2T training tokens - a 6 times reduction compared to\nQwen2.5-Omni's 1.2T. We finally demonstrate omni-modal advantages in downstream\napplications spanning robotics, medical AI, and smart factory.",
+      "upvotes": 12,
+      "discussionId": "68f592478589920bf4d320a4",
+      "projectPage": "https://nvlabs.github.io/OmniVinci/",
+      "githubRepo": "https://github.com/NVlabs/OmniVinci",
+      "ai_summary": "OmniVinci, an open-source omni-modal LLM, enhances cross-modal understanding and performance across audio, vision, and robotics applications with innovative architecture and efficient data curation.",
+      "ai_keywords": [
+        "OmniAlignNet",
+        "Temporal Embedding Grouping",
+        "Constrained Rotary Time Embedding",
+        "omni-modal latent space",
+        "DailyOmni",
+        "MMAR",
+        "Video-MME",
+        "omni-modal conversations",
+        "omni-modal advantages"
+      ],
+      "githubStars": 10,
+      "organization": {
+        "_id": "60262b67268c201cdc8b7d43",
+        "name": "nvidia",
+        "fullname": "NVIDIA",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+      }
+    },
+    "publishedAt": "2025-10-17T13:59:59.000Z",
+    "title": "OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding\n  LLM",
+    "summary": "Advancing machine intelligence requires developing the ability to perceive\nacross multiple modalities, much as humans sense the world. We introduce\nOmniVinci, an initiative to build a strong, open-source, omni-modal LLM. We\ncarefully study the design choices across model architecture and data curation.\nFor model architecture, we present three key innovations: (i) OmniAlignNet for\nstrengthening alignment between vision and audio embeddings in a shared\nomni-modal latent space; (ii) Temporal Embedding Grouping for capturing\nrelative temporal alignment between vision and audio signals; and (iii)\nConstrained Rotary Time Embedding for encoding absolute temporal information in\nomni-modal embeddings. We introduce a curation and synthesis pipeline that\ngenerates 24M single-modal and omni-modal conversations. We find that\nmodalities reinforce one another in both perception and reasoning. Our model,\nOmniVinci, outperforms Qwen2.5-Omni with +19.05 on DailyOmni (cross-modal\nunderstanding), +1.7 on MMAR (audio), and +3.9 on Video-MME (vision), while\nusing just 0.2T training tokens - a 6 times reduction compared to\nQwen2.5-Omni's 1.2T. We finally demonstrate omni-modal advantages in downstream\napplications spanning robotics, medical AI, and smart factory.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15870.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 130
+    },
+    "organization": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "name": "nvidia",
+      "fullname": "NVIDIA",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.15869",
+      "authors": [
+        {
+          "_id": "68f593468589920bf4d320d3",
+          "name": "Jie-Ying Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68f593468589920bf4d320d4",
+          "name": "Yi-Ruei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f593468589920bf4d320d5",
+          "name": "Shr-Ruei Tsai",
+          "hidden": false
+        },
+        {
+          "_id": "68f593468589920bf4d320d6",
+          "name": "Wei-Cheng Chang",
+          "hidden": false
+        },
+        {
+          "_id": "68f593468589920bf4d320d7",
+          "name": "Chung-Ho Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68f593468589920bf4d320d8",
+          "name": "Jiewen Chan",
+          "hidden": false
+        },
+        {
+          "_id": "68f593468589920bf4d320d9",
+          "name": "Zhenjun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68f593468589920bf4d320da",
+          "name": "Chieh Hubert Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68f593468589920bf4d320db",
+          "name": "Yu-Lun Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-17T17:59:51.000Z",
+      "submittedOnDailyAt": "2025-10-20T00:11:33.356Z",
+      "title": "Skyfall-GS: Synthesizing Immersive 3D Urban Scenes from Satellite\n  Imagery",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Synthesizing large-scale, explorable, and geometrically accurate 3D urban\nscenes is a challenging yet valuable task in providing immersive and embodied\napplications. The challenges lie in the lack of large-scale and high-quality\nreal-world 3D scans for training generalizable generative models. In this\npaper, we take an alternative route to create large-scale 3D scenes by\nsynergizing the readily available satellite imagery that supplies realistic\ncoarse geometry and the open-domain diffusion model for creating high-quality\nclose-up appearances. We propose Skyfall-GS, the first city-block\nscale 3D scene creation framework without costly 3D annotations, also featuring\nreal-time, immersive 3D exploration. We tailor a curriculum-driven iterative\nrefinement strategy to progressively enhance geometric completeness and\nphotorealistic textures. Extensive experiments demonstrate that Skyfall-GS\nprovides improved cross-view consistent geometry and more realistic textures\ncompared to state-of-the-art approaches. Project page:\nhttps://skyfall-gs.jayinnn.dev/",
+      "upvotes": 10,
+      "discussionId": "68f593468589920bf4d320dc",
+      "projectPage": "https://skyfall-gs.jayinnn.dev/",
+      "githubRepo": "https://github.com/jayin92/skyfall-gs",
+      "ai_summary": "Skyfall-GS creates large-scale, high-quality 3D urban scenes using satellite imagery and diffusion models, offering real-time exploration and improved geometry and texture consistency.",
+      "ai_keywords": [
+        "diffusion model",
+        "Skyfall-GS",
+        "curriculum-driven iterative refinement",
+        "geometric completeness",
+        "photorealistic textures",
+        "cross-view consistent geometry"
+      ],
+      "githubStars": 3
+    },
+    "publishedAt": "2025-10-17T13:59:51.000Z",
+    "title": "Skyfall-GS: Synthesizing Immersive 3D Urban Scenes from Satellite\n  Imagery",
+    "summary": "Synthesizing large-scale, explorable, and geometrically accurate 3D urban\nscenes is a challenging yet valuable task in providing immersive and embodied\napplications. The challenges lie in the lack of large-scale and high-quality\nreal-world 3D scans for training generalizable generative models. In this\npaper, we take an alternative route to create large-scale 3D scenes by\nsynergizing the readily available satellite imagery that supplies realistic\ncoarse geometry and the open-domain diffusion model for creating high-quality\nclose-up appearances. We propose Skyfall-GS, the first city-block\nscale 3D scene creation framework without costly 3D annotations, also featuring\nreal-time, immersive 3D exploration. We tailor a curriculum-driven iterative\nrefinement strategy to progressively enhance geometric completeness and\nphotorealistic textures. Extensive experiments demonstrate that Skyfall-GS\nprovides improved cross-view consistent geometry and more realistic textures\ncompared to state-of-the-art approaches. Project page:\nhttps://skyfall-gs.jayinnn.dev/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15869.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 130
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.14265",
+      "authors": [
+        {
+          "_id": "68f592bd8589920bf4d320be",
+          "name": "Xukai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320bf",
+          "name": "Xuanbo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c0",
+          "name": "Mingrui Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c1",
+          "name": "Haitian Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c2",
+          "name": "Xuanlin Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c3",
+          "name": "Bohan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c4",
+          "name": "Jinbo Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c5",
+          "name": "Hao Liang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c6",
+          "name": "Junbo Niu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c7",
+          "name": "Xuchen Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c8",
+          "name": "Ruitao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320c9",
+          "name": "Ruichuan An",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320ca",
+          "name": "Yang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320cb",
+          "name": "Liu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320cc",
+          "name": "Xu-Yao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320cd",
+          "name": "Qiang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320ce",
+          "name": "Zhouchen Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320cf",
+          "name": "Wentao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592bd8589920bf4d320d0",
+          "name": "Bin Dong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-16T03:30:56.000Z",
+      "submittedOnDailyAt": "2025-10-20T00:11:27.651Z",
+      "title": "MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6671214c92412fd4640714eb",
+        "avatarUrl": "/avatars/48fa84e7bc3bb92ad0192aa26b32de10.svg",
+        "isPro": false,
+        "fullname": "bohan zeng",
+        "user": "zbhpku",
+        "type": "user"
+      },
+      "summary": "With the advancement of powerful large-scale reasoning models, effectively\nevaluating the reasoning capabilities of these models has become increasingly\nimportant. However, existing benchmarks designed to assess the reasoning\nabilities of large models tend to be limited in scope and lack the flexibility\nto adapt their difficulty according to the evolving reasoning capacities of the\nmodels. To address this, we propose MorphoBench, a benchmark that incorporates\nmultidisciplinary questions to evaluate the reasoning capabilities of large\nmodels and can adjust and update question difficulty based on the reasoning\nabilities of advanced models. Specifically, we curate the benchmark by\nselecting and collecting complex reasoning questions from existing benchmarks\nand sources such as Olympiad-level competitions. Additionally, MorphoBench\nadaptively modifies the analytical challenge of questions by leveraging key\nstatements generated during the model's reasoning process. Furthermore, it\nincludes questions generated using simulation software, enabling dynamic\nadjustment of benchmark difficulty with minimal resource consumption. We have\ngathered over 1,300 test questions and iteratively adjusted the difficulty of\nMorphoBench based on the reasoning capabilities of models such as o3 and GPT-5.\nMorphoBench enhances the comprehensiveness and validity of model reasoning\nevaluation, providing reliable guidance for improving both the reasoning\nabilities and scientific robustness of large models. The code has been released\nin https://github.com/OpenDCAI/MorphoBench.",
+      "upvotes": 10,
+      "discussionId": "68f592bd8589920bf4d320d1",
+      "githubRepo": "https://github.com/OpenDCAI/MorphoBench",
+      "ai_summary": "MorphoBench is a benchmark that evaluates large models' reasoning capabilities using multidisciplinary questions, adaptive difficulty, and simulation-generated questions.",
+      "ai_keywords": [
+        "MorphoBench",
+        "reasoning capabilities",
+        "multidisciplinary questions",
+        "adaptive difficulty",
+        "simulation-generated questions"
+      ],
+      "githubStars": 4,
+      "organization": {
+        "_id": "68896d3a716ee5bfb1428441",
+        "name": "ZGCA",
+        "fullname": "Zhongguancun Academy",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6854c3ab09a3ba7d16243875/aZ3tp3lZk1yQoXDwSklye.png"
+      }
+    },
+    "publishedAt": "2025-10-15T23:30:56.000Z",
+    "title": "MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning",
+    "summary": "With the advancement of powerful large-scale reasoning models, effectively\nevaluating the reasoning capabilities of these models has become increasingly\nimportant. However, existing benchmarks designed to assess the reasoning\nabilities of large models tend to be limited in scope and lack the flexibility\nto adapt their difficulty according to the evolving reasoning capacities of the\nmodels. To address this, we propose MorphoBench, a benchmark that incorporates\nmultidisciplinary questions to evaluate the reasoning capabilities of large\nmodels and can adjust and update question difficulty based on the reasoning\nabilities of advanced models. Specifically, we curate the benchmark by\nselecting and collecting complex reasoning questions from existing benchmarks\nand sources such as Olympiad-level competitions. Additionally, MorphoBench\nadaptively modifies the analytical challenge of questions by leveraging key\nstatements generated during the model's reasoning process. Furthermore, it\nincludes questions generated using simulation software, enabling dynamic\nadjustment of benchmark difficulty with minimal resource consumption. We have\ngathered over 1,300 test questions and iteratively adjusted the difficulty of\nMorphoBench based on the reasoning capabilities of models such as o3 and GPT-5.\nMorphoBench enhances the comprehensiveness and validity of model reasoning\nevaluation, providing reliable guidance for improving both the reasoning\nabilities and scientific robustness of large models. The code has been released\nin https://github.com/OpenDCAI/MorphoBench.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.14265.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6671214c92412fd4640714eb",
+      "avatarUrl": "/avatars/48fa84e7bc3bb92ad0192aa26b32de10.svg",
+      "fullname": "bohan zeng",
+      "name": "zbhpku",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "organization": {
+      "_id": "68896d3a716ee5bfb1428441",
+      "name": "ZGCA",
+      "fullname": "Zhongguancun Academy",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6854c3ab09a3ba7d16243875/aZ3tp3lZk1yQoXDwSklye.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.15868",
+      "authors": [
+        {
+          "_id": "68f592b28589920bf4d320a6",
+          "name": "Shr-Ruei Tsai",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b28589920bf4d320a7",
+          "name": "Wei-Cheng Chang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b28589920bf4d320a8",
+          "name": "Jie-Ying Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b28589920bf4d320a9",
+          "name": "Chih-Hai Su",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b28589920bf4d320aa",
+          "name": "Yu-Lun Liu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6459d5da3b6fafd9664807ab/AA0iCVZKQKkdsonKfSirM.mp4"
+      ],
+      "publishedAt": "2025-10-17T17:59:50.000Z",
+      "submittedOnDailyAt": "2025-10-20T00:10:34.903Z",
+      "title": "LightsOut: Diffusion-based Outpainting for Enhanced Lens Flare Removal",
+      "submittedOnDailyBy": {
+        "_id": "6459d5da3b6fafd9664807ab",
+        "avatarUrl": "/avatars/57430d1bbde3a2fe5586e5fbcafb0e74.svg",
+        "isPro": false,
+        "fullname": "Yu-Lun Liu",
+        "user": "yulunliu",
+        "type": "user"
+      },
+      "summary": "Lens flare significantly degrades image quality, impacting critical computer\nvision tasks like object detection and autonomous driving. Recent Single Image\nFlare Removal (SIFR) methods perform poorly when off-frame light sources are\nincomplete or absent. We propose LightsOut, a diffusion-based outpainting\nframework tailored to enhance SIFR by reconstructing off-frame light sources.\nOur method leverages a multitask regression module and LoRA fine-tuned\ndiffusion model to ensure realistic and physically consistent outpainting\nresults. Comprehensive experiments demonstrate LightsOut consistently boosts\nthe performance of existing SIFR methods across challenging scenarios without\nadditional retraining, serving as a universally applicable plug-and-play\npreprocessing solution. Project page: https://ray-1026.github.io/lightsout/",
+      "upvotes": 8,
+      "discussionId": "68f592b38589920bf4d320ab",
+      "projectPage": "https://ray-1026.github.io/lightsout/",
+      "githubRepo": "https://github.com/Ray-1026/LightsOut-official",
+      "ai_summary": "LightsOut enhances Single Image Flare Removal by reconstructing off-frame light sources using a diffusion-based outpainting framework, improving performance across challenging scenarios.",
+      "ai_keywords": [
+        "diffusion-based outpainting",
+        "multitask regression module",
+        "LoRA fine-tuned diffusion model",
+        "Single Image Flare Removal",
+        "off-frame light sources"
+      ],
+      "githubStars": 3,
+      "organization": {
+        "_id": "63e39e6499a032b1c950403d",
+        "name": "NYCU",
+        "fullname": "National Yang Ming Chiao Tung University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63e39df6c65f975b436bb6b8/WLWf1bSpvrXBYYKEdXbgU.png"
+      }
+    },
+    "publishedAt": "2025-10-17T13:59:50.000Z",
+    "title": "LightsOut: Diffusion-based Outpainting for Enhanced Lens Flare Removal",
+    "summary": "Lens flare significantly degrades image quality, impacting critical computer\nvision tasks like object detection and autonomous driving. Recent Single Image\nFlare Removal (SIFR) methods perform poorly when off-frame light sources are\nincomplete or absent. We propose LightsOut, a diffusion-based outpainting\nframework tailored to enhance SIFR by reconstructing off-frame light sources.\nOur method leverages a multitask regression module and LoRA fine-tuned\ndiffusion model to ensure realistic and physically consistent outpainting\nresults. Comprehensive experiments demonstrate LightsOut consistently boosts\nthe performance of existing SIFR methods across challenging scenarios without\nadditional retraining, serving as a universally applicable plug-and-play\npreprocessing solution. Project page: https://ray-1026.github.io/lightsout/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6459d5da3b6fafd9664807ab/AA0iCVZKQKkdsonKfSirM.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15868.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6459d5da3b6fafd9664807ab",
+      "avatarUrl": "/avatars/57430d1bbde3a2fe5586e5fbcafb0e74.svg",
+      "fullname": "Yu-Lun Liu",
+      "name": "yulunliu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "organization": {
+      "_id": "63e39e6499a032b1c950403d",
+      "name": "NYCU",
+      "fullname": "National Yang Ming Chiao Tung University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63e39df6c65f975b436bb6b8/WLWf1bSpvrXBYYKEdXbgU.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.15857",
+      "authors": [
+        {
+          "_id": "68f592b68589920bf4d320ad",
+          "name": "Jiuhai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320ae",
+          "name": "Le Xue",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320af",
+          "name": "Zhiyang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b0",
+          "name": "Xichen Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b1",
+          "name": "Shusheng Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b2",
+          "name": "Can Qin",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b3",
+          "name": "An Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b4",
+          "name": "Honglu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b5",
+          "name": "Zeyuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b6",
+          "name": "Lifu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b7",
+          "name": "Tianyi Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b8",
+          "name": "Junnan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320b9",
+          "name": "Silvio Savarese",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320ba",
+          "name": "Caiming Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "68f592b68589920bf4d320bb",
+          "name": "Ran Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-17T17:50:58.000Z",
+      "submittedOnDailyAt": "2025-10-20T00:09:25.433Z",
+      "title": "BLIP3o-NEXT: Next Frontier of Native Image Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We present BLIP3o-NEXT, a fully open-source foundation model in the BLIP3\nseries that advances the next frontier of native image generation. BLIP3o-NEXT\nunifies text-to-image generation and image editing within a single\narchitecture, demonstrating strong image generation and image editing\ncapabilities. In developing the state-of-the-art native image generation model,\nwe identify four key insights: (1) Most architectural choices yield comparable\nperformance; an architecture can be deemed effective provided it scales\nefficiently and supports fast inference; (2) The successful application of\nreinforcement learning can further push the frontier of native image\ngeneration; (3) Image editing still remains a challenging task, yet instruction\nfollowing and the consistency between generated and reference images can be\nsignificantly enhanced through post-training and data engine; (4) Data quality\nand scale continue to be decisive factors that determine the upper bound of\nmodel performance. Building upon these insights, BLIP3o-NEXT leverages an\nAutoregressive + Diffusion architecture in which an autoregressive model first\ngenerates discrete image tokens conditioned on multimodal inputs, whose hidden\nstates are then used as conditioning signals for a diffusion model to generate\nhigh-fidelity images. This architecture integrates the reasoning strength and\ninstruction following of autoregressive models with the fine-detail rendering\nability of diffusion models, achieving a new level of coherence and realism.\nExtensive evaluations of various text-to-image and image-editing benchmarks\nshow that BLIP3o-NEXT achieves superior performance over existing models.",
+      "upvotes": 3,
+      "discussionId": "68f592b68589920bf4d320bc",
+      "projectPage": "https://jiuhaichen.github.io/BLIP3o-NEXT.github.io/",
+      "ai_summary": "BLIP3o-NEXT, a unified text-to-image generation and image editing model, uses an Autoregressive + Diffusion architecture to achieve superior performance and realism.",
+      "ai_keywords": [
+        "Autoregressive",
+        "Diffusion",
+        "text-to-image generation",
+        "image editing",
+        "discrete image tokens",
+        "multimodal inputs",
+        "hidden states",
+        "high-fidelity images",
+        "coherence",
+        "realism"
+      ],
+      "organization": {
+        "_id": "64e2dbe32fbff6ed9cf0a678",
+        "name": "Saleforce",
+        "fullname": "Salesforce",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64e2dbce8367d2da8ba618f2/u1ulbo4ifz1X4DV_ZwyPg.png"
+      }
+    },
+    "publishedAt": "2025-10-17T13:50:58.000Z",
+    "title": "BLIP3o-NEXT: Next Frontier of Native Image Generation",
+    "summary": "We present BLIP3o-NEXT, a fully open-source foundation model in the BLIP3\nseries that advances the next frontier of native image generation. BLIP3o-NEXT\nunifies text-to-image generation and image editing within a single\narchitecture, demonstrating strong image generation and image editing\ncapabilities. In developing the state-of-the-art native image generation model,\nwe identify four key insights: (1) Most architectural choices yield comparable\nperformance; an architecture can be deemed effective provided it scales\nefficiently and supports fast inference; (2) The successful application of\nreinforcement learning can further push the frontier of native image\ngeneration; (3) Image editing still remains a challenging task, yet instruction\nfollowing and the consistency between generated and reference images can be\nsignificantly enhanced through post-training and data engine; (4) Data quality\nand scale continue to be decisive factors that determine the upper bound of\nmodel performance. Building upon these insights, BLIP3o-NEXT leverages an\nAutoregressive + Diffusion architecture in which an autoregressive model first\ngenerates discrete image tokens conditioned on multimodal inputs, whose hidden\nstates are then used as conditioning signals for a diffusion model to generate\nhigh-fidelity images. This architecture integrates the reasoning strength and\ninstruction following of autoregressive models with the fine-detail rendering\nability of diffusion models, achieving a new level of coherence and realism.\nExtensive evaluations of various text-to-image and image-editing benchmarks\nshow that BLIP3o-NEXT achieves superior performance over existing models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15857.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 130
+    },
+    "organization": {
+      "_id": "64e2dbe32fbff6ed9cf0a678",
+      "name": "Saleforce",
+      "fullname": "Salesforce",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64e2dbce8367d2da8ba618f2/u1ulbo4ifz1X4DV_ZwyPg.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.15564",
+      "authors": [
+        {
+          "_id": "68f593d08589920bf4d320de",
+          "name": "Xiaoming Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320df",
+          "name": "Xu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e0",
+          "name": "Qinghongbing Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e1",
+          "name": "Zhi Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e2",
+          "name": "Junsheng Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e3",
+          "name": "Yirui Guan",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e4",
+          "name": "Zhongyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e5",
+          "name": "Lin Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e6",
+          "name": "Qijun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e7",
+          "name": "Ligang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f593d08589920bf4d320e8",
+          "name": "Long Zeng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-17T11:48:08.000Z",
+      "submittedOnDailyAt": "2025-10-20T00:13:55.960Z",
+      "title": "Imaginarium: Vision-guided High-Quality 3D Scene Layout Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Generating artistic and coherent 3D scene layouts is crucial in digital\ncontent creation. Traditional optimization-based methods are often constrained\nby cumbersome manual rules, while deep generative models face challenges in\nproducing content with richness and diversity. Furthermore, approaches that\nutilize large language models frequently lack robustness and fail to accurately\ncapture complex spatial relationships. To address these challenges, this paper\npresents a novel vision-guided 3D layout generation system. We first construct\na high-quality asset library containing 2,037 scene assets and 147 3D scene\nlayouts. Subsequently, we employ an image generation model to expand prompt\nrepresentations into images, fine-tuning it to align with our asset library. We\nthen develop a robust image parsing module to recover the 3D layout of scenes\nbased on visual semantics and geometric information. Finally, we optimize the\nscene layout using scene graphs and overall visual semantics to ensure logical\ncoherence and alignment with the images. Extensive user testing demonstrates\nthat our algorithm significantly outperforms existing methods in terms of\nlayout richness and quality. The code and dataset will be available at\nhttps://github.com/HiHiAllen/Imaginarium.",
+      "upvotes": 2,
+      "discussionId": "68f593d08589920bf4d320e9",
+      "ai_summary": "A vision-guided 3D layout generation system uses an image generation model and scene graphs to produce rich and coherent 3D scenes from prompts.",
+      "ai_keywords": [
+        "image generation model",
+        "image parsing module",
+        "scene graphs",
+        "3D layout generation",
+        "visual semantics",
+        "geometric information",
+        "scene graphs",
+        "logical coherence"
+      ]
+    },
+    "publishedAt": "2025-10-17T07:48:08.000Z",
+    "title": "Imaginarium: Vision-guided High-Quality 3D Scene Layout Generation",
+    "summary": "Generating artistic and coherent 3D scene layouts is crucial in digital\ncontent creation. Traditional optimization-based methods are often constrained\nby cumbersome manual rules, while deep generative models face challenges in\nproducing content with richness and diversity. Furthermore, approaches that\nutilize large language models frequently lack robustness and fail to accurately\ncapture complex spatial relationships. To address these challenges, this paper\npresents a novel vision-guided 3D layout generation system. We first construct\na high-quality asset library containing 2,037 scene assets and 147 3D scene\nlayouts. Subsequently, we employ an image generation model to expand prompt\nrepresentations into images, fine-tuning it to align with our asset library. We\nthen develop a robust image parsing module to recover the 3D layout of scenes\nbased on visual semantics and geometric information. Finally, we optimize the\nscene layout using scene graphs and overall visual semantics to ensure logical\ncoherence and alignment with the images. Extensive user testing demonstrates\nthat our algorithm significantly outperforms existing methods in terms of\nlayout richness and quality. The code and dataset will be available at\nhttps://github.com/HiHiAllen/Imaginarium.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15564.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 130
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.14438",
+      "authors": [
+        {
+          "_id": "68f1acf66e0bef323a68fda5",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fda6",
+          "name": "Ce Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fda7",
+          "name": "Jun-Yu Ma",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fda8",
+          "name": "Jianshu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fda9",
+          "name": "Hongru Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fdaa",
+          "name": "Yi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fdab",
+          "name": "Boyang Xue",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fdac",
+          "user": {
+            "_id": "641129818573c51c0458b793",
+            "avatarUrl": "/avatars/d4bc67c160a07146cf41c614678aa36b.svg",
+            "isPro": false,
+            "fullname": "Tianqing Fang",
+            "user": "tqfang229",
+            "type": "user"
+          },
+          "name": "Tianqing Fang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-17T05:56:46.664Z",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fdad",
+          "name": "Zhisong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fdae",
+          "name": "Hongming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fdaf",
+          "name": "Haitao Mi",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fdb0",
+          "name": "Dong Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68f1acf66e0bef323a68fdb1",
+          "name": "Kam-Fai Wong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-16T08:37:42.000Z",
+      "submittedOnDailyAt": "2025-10-20T00:22:05.632Z",
+      "title": "Explore to Evolve: Scaling Evolved Aggregation Logic via Proactive\n  Online Exploration for Deep Research Agents",
+      "submittedOnDailyBy": {
+        "_id": "67298b338c66e235932ca088",
+        "avatarUrl": "/avatars/912990b3b8b2e67663fc395c73287593.svg",
+        "isPro": false,
+        "fullname": "WANG Rui",
+        "user": "Ray121381",
+        "type": "user"
+      },
+      "summary": "Deep research web agents not only retrieve information from diverse sources\nsuch as web environments, files, and multimodal inputs, but more importantly,\nthey need to rigorously analyze and aggregate knowledge for insightful\nresearch. However, existing open-source deep research agents predominantly\nfocus on enhancing information-seeking capabilities of web agents to locate\nspecific information, while overlooking the essential need for information\naggregation, which would limit their ability to support in-depth research. We\npropose an Explore to Evolve paradigm to scalably construct verifiable training\ndata for web agents. Begins with proactive online exploration, an agent sources\ngrounded information by exploring the real web. Using the collected evidence,\nthe agent then self-evolves an aggregation program by selecting, composing, and\nrefining operations from 12 high-level logical types to synthesize a verifiable\nQA pair. This evolution from high-level guidance to concrete operations allowed\nus to scalably produce WebAggregatorQA, a dataset of 10K samples across 50K\nwebsites and 11 domains. Based on an open-source agent framework, SmolAgents,\nwe collect supervised fine-tuning trajectories to develop a series of\nfoundation models, WebAggregator. WebAggregator-8B matches the performance of\nGPT-4.1, while the 32B variant surpasses GPT-4.1 by more than 10% on GAIA-text\nand closely approaches Claude-3.7-sonnet. Moreover, given the limited\navailability of benchmarks that evaluate web agents' information aggregation\nabilities, we construct a human-annotated evaluation split of WebAggregatorQA\nas a challenging test set. On this benchmark, Claude-3.7-sonnet only achieves\n28%, and GPT-4.1 scores 25.8%. Even when agents manage to retrieve all\nreferences, they still struggle on WebAggregatorQA, highlighting the need to\nstrengthen the information aggregation capabilities of web agent foundations.",
+      "upvotes": 2,
+      "discussionId": "68f1acf66e0bef323a68fdb2",
+      "githubRepo": "https://github.com/Tencent/WebAggregator",
+      "ai_summary": "A new paradigm, Explore to Evolve, is proposed to enhance web agents' information aggregation by constructing a large dataset and developing foundation models that outperform existing models on a challenging benchmark.",
+      "ai_keywords": [
+        "Explore to Evolve",
+        "proactive online exploration",
+        "aggregation program",
+        "high-level logical types",
+        "verifiable QA pair",
+        "WebAggregatorQA",
+        "SmolAgents",
+        "WebAggregator",
+        "GPT-4.1",
+        "GAIA-text",
+        "Claude-3.7-sonnet",
+        "human-annotated evaluation split"
+      ],
+      "githubStars": 25
+    },
+    "publishedAt": "2025-10-16T04:37:42.000Z",
+    "title": "Explore to Evolve: Scaling Evolved Aggregation Logic via Proactive\n  Online Exploration for Deep Research Agents",
+    "summary": "Deep research web agents not only retrieve information from diverse sources\nsuch as web environments, files, and multimodal inputs, but more importantly,\nthey need to rigorously analyze and aggregate knowledge for insightful\nresearch. However, existing open-source deep research agents predominantly\nfocus on enhancing information-seeking capabilities of web agents to locate\nspecific information, while overlooking the essential need for information\naggregation, which would limit their ability to support in-depth research. We\npropose an Explore to Evolve paradigm to scalably construct verifiable training\ndata for web agents. Begins with proactive online exploration, an agent sources\ngrounded information by exploring the real web. Using the collected evidence,\nthe agent then self-evolves an aggregation program by selecting, composing, and\nrefining operations from 12 high-level logical types to synthesize a verifiable\nQA pair. This evolution from high-level guidance to concrete operations allowed\nus to scalably produce WebAggregatorQA, a dataset of 10K samples across 50K\nwebsites and 11 domains. Based on an open-source agent framework, SmolAgents,\nwe collect supervised fine-tuning trajectories to develop a series of\nfoundation models, WebAggregator. WebAggregator-8B matches the performance of\nGPT-4.1, while the 32B variant surpasses GPT-4.1 by more than 10% on GAIA-text\nand closely approaches Claude-3.7-sonnet. Moreover, given the limited\navailability of benchmarks that evaluate web agents' information aggregation\nabilities, we construct a human-annotated evaluation split of WebAggregatorQA\nas a challenging test set. On this benchmark, Claude-3.7-sonnet only achieves\n28%, and GPT-4.1 scores 25.8%. Even when agents manage to retrieve all\nreferences, they still struggle on WebAggregatorQA, highlighting the need to\nstrengthen the information aggregation capabilities of web agent foundations.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.14438.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67298b338c66e235932ca088",
+      "avatarUrl": "/avatars/912990b3b8b2e67663fc395c73287593.svg",
+      "fullname": "WANG Rui",
+      "name": "Ray121381",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.15842",
+      "authors": [
+        {
+          "_id": "68f595bf8589920bf4d320fa",
+          "name": "Yuhang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f595bf8589920bf4d320fb",
+          "name": "Tianpeng Lv",
+          "hidden": false
+        },
+        {
+          "_id": "68f595bf8589920bf4d320fc",
+          "name": "Siyi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f595bf8589920bf4d320fd",
+          "name": "Yixiang Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68f595bf8589920bf4d320fe",
+          "name": "Yao Wan",
+          "hidden": false
+        },
+        {
+          "_id": "68f595bf8589920bf4d320ff",
+          "name": "Philip S. Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68f595bf8589920bf4d32100",
+          "name": "Dongping Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-17T17:35:58.000Z",
+      "submittedOnDailyAt": "2025-10-20T00:22:22.687Z",
+      "title": "Paper2Web: Let's Make Your Paper Alive!",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Academic project websites can more effectively disseminate research when they\nclearly present core content and enable intuitive navigation and interaction.\nHowever, current approaches such as direct Large Language Model (LLM)\ngeneration, templates, or direct HTML conversion struggle to produce\nlayout-aware, interactive sites, and a comprehensive evaluation suite for this\ntask has been lacking. In this paper, we introduce Paper2Web, a benchmark\ndataset and multi-dimensional evaluation framework for assessing academic\nwebpage generation. It incorporates rule-based metrics like Connectivity,\nCompleteness and human-verified LLM-as-a-Judge (covering interactivity,\naesthetics, and informativeness), and PaperQuiz, which measures paper-level\nknowledge retention. We further present PWAgent, an autonomous pipeline that\nconverts scientific papers into interactive and multimedia-rich academic\nhomepages. The agent iteratively refines both content and layout through MCP\ntools that enhance emphasis, balance, and presentation quality. Our experiments\nshow that PWAgent consistently outperforms end-to-end baselines like\ntemplate-based webpages and arXiv/alphaXiv versions by a large margin while\nmaintaining low cost, achieving the Pareto-front in academic webpage\ngeneration.",
+      "upvotes": 1,
+      "discussionId": "68f595bf8589920bf4d32101",
+      "projectPage": "https://francischen3.github.io/P2W_Website/",
+      "ai_summary": "Paper2Web is a benchmark and evaluation framework for academic webpage generation, featuring PWAgent, an autonomous pipeline that enhances content and layout through MCP tools, outperforming end-to-end baselines.",
+      "ai_keywords": [
+        "Large Language Model (LLM)",
+        "Paper2Web",
+        "benchmark dataset",
+        "evaluation framework",
+        "Connectivity",
+        "Completeness",
+        "LLM-as-a-Judge",
+        "PaperQuiz",
+        "PWAgent",
+        "MCP tools",
+        "academic webpage generation",
+        "template-based webpages",
+        "arXiv/alphaXiv versions",
+        "Pareto-front"
+      ]
+    },
+    "publishedAt": "2025-10-17T13:35:58.000Z",
+    "title": "Paper2Web: Let's Make Your Paper Alive!",
+    "summary": "Academic project websites can more effectively disseminate research when they\nclearly present core content and enable intuitive navigation and interaction.\nHowever, current approaches such as direct Large Language Model (LLM)\ngeneration, templates, or direct HTML conversion struggle to produce\nlayout-aware, interactive sites, and a comprehensive evaluation suite for this\ntask has been lacking. In this paper, we introduce Paper2Web, a benchmark\ndataset and multi-dimensional evaluation framework for assessing academic\nwebpage generation. It incorporates rule-based metrics like Connectivity,\nCompleteness and human-verified LLM-as-a-Judge (covering interactivity,\naesthetics, and informativeness), and PaperQuiz, which measures paper-level\nknowledge retention. We further present PWAgent, an autonomous pipeline that\nconverts scientific papers into interactive and multimedia-rich academic\nhomepages. The agent iteratively refines both content and layout through MCP\ntools that enhance emphasis, balance, and presentation quality. Our experiments\nshow that PWAgent consistently outperforms end-to-end baselines like\ntemplate-based webpages and arXiv/alphaXiv versions by a large margin while\nmaintaining low cost, achieving the Pareto-front in academic webpage\ngeneration.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15842.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 130
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.15301",
+      "authors": [
+        {
+          "_id": "68f59fc78589920bf4d32123",
+          "name": "Minglei Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68f59fc78589920bf4d32124",
+          "name": "Haolin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f59fc78589920bf4d32125",
+          "name": "Wenzhao Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68f59fc78589920bf4d32126",
+          "name": "Ziyang Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68f59fc78589920bf4d32127",
+          "name": "Xiaoshi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68f59fc78589920bf4d32128",
+          "name": "Xintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f59fc78589920bf4d32129",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "68f59fc78589920bf4d3212a",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f59fc78589920bf4d3212b",
+          "name": "Jiwen Lu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-17T04:17:44.000Z",
+      "submittedOnDailyAt": "2025-10-20T01:05:37.276Z",
+      "title": "Latent Diffusion Model without Variational Autoencoder",
+      "submittedOnDailyBy": {
+        "_id": "662887715d246621f33d2ce6",
+        "avatarUrl": "/avatars/3e0b1017b1e1bf284758ce840c174290.svg",
+        "isPro": false,
+        "fullname": "Shi Minglei",
+        "user": "MingleiShi",
+        "type": "user"
+      },
+      "summary": "Recent progress in diffusion-based visual generation has largely relied on\nlatent diffusion models with variational autoencoders (VAEs). While effective\nfor high-fidelity synthesis, this VAE+diffusion paradigm suffers from limited\ntraining efficiency, slow inference, and poor transferability to broader vision\ntasks. These issues stem from a key limitation of VAE latent spaces: the lack\nof clear semantic separation and strong discriminative structure. Our analysis\nconfirms that these properties are crucial not only for perception and\nunderstanding tasks, but also for the stable and efficient training of latent\ndiffusion models. Motivated by this insight, we introduce SVG, a novel latent\ndiffusion model without variational autoencoders, which leverages\nself-supervised representations for visual generation. SVG constructs a feature\nspace with clear semantic discriminability by leveraging frozen DINO features,\nwhile a lightweight residual branch captures fine-grained details for\nhigh-fidelity reconstruction. Diffusion models are trained directly on this\nsemantically structured latent space to facilitate more efficient learning. As\na result, SVG enables accelerated diffusion training, supports few-step\nsampling, and improves generative quality. Experimental results further show\nthat SVG preserves the semantic and discriminative capabilities of the\nunderlying self-supervised representations, providing a principled pathway\ntoward task-general, high-quality visual representations.",
+      "upvotes": 1,
+      "discussionId": "68f59fc88589920bf4d3212c",
+      "projectPage": "https://howlin-wang.github.io/svg/",
+      "githubRepo": "https://github.com/shiml20/SVG",
+      "ai_summary": "SVG, a novel latent diffusion model without VAEs, uses self-supervised representations to enable efficient training, few-step sampling, and high-quality visual generation with semantic and discriminative capabilities.",
+      "ai_keywords": [
+        "latent diffusion models",
+        "variational autoencoders",
+        "diffusion models",
+        "self-supervised representations",
+        "DINO features",
+        "residual branch",
+        "high-fidelity reconstruction",
+        "semantic discriminability",
+        "task-general",
+        "visual representations"
+      ],
+      "organization": {
+        "_id": "662c559b322afcbae51b3c8b",
+        "name": "KwaiVGI",
+        "fullname": "Kuaishou Visual Generation and Interaction Center",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-17T00:17:44.000Z",
+    "title": "Latent Diffusion Model without Variational Autoencoder",
+    "summary": "Recent progress in diffusion-based visual generation has largely relied on\nlatent diffusion models with variational autoencoders (VAEs). While effective\nfor high-fidelity synthesis, this VAE+diffusion paradigm suffers from limited\ntraining efficiency, slow inference, and poor transferability to broader vision\ntasks. These issues stem from a key limitation of VAE latent spaces: the lack\nof clear semantic separation and strong discriminative structure. Our analysis\nconfirms that these properties are crucial not only for perception and\nunderstanding tasks, but also for the stable and efficient training of latent\ndiffusion models. Motivated by this insight, we introduce SVG, a novel latent\ndiffusion model without variational autoencoders, which leverages\nself-supervised representations for visual generation. SVG constructs a feature\nspace with clear semantic discriminability by leveraging frozen DINO features,\nwhile a lightweight residual branch captures fine-grained details for\nhigh-fidelity reconstruction. Diffusion models are trained directly on this\nsemantically structured latent space to facilitate more efficient learning. As\na result, SVG enables accelerated diffusion training, supports few-step\nsampling, and improves generative quality. Experimental results further show\nthat SVG preserves the semantic and discriminative capabilities of the\nunderlying self-supervised representations, providing a principled pathway\ntoward task-general, high-quality visual representations.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15301.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "662887715d246621f33d2ce6",
+      "avatarUrl": "/avatars/3e0b1017b1e1bf284758ce840c174290.svg",
+      "fullname": "Shi Minglei",
+      "name": "MingleiShi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "organization": {
+      "_id": "662c559b322afcbae51b3c8b",
+      "name": "KwaiVGI",
+      "fullname": "Kuaishou Visual Generation and Interaction Center",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.15232",
+      "authors": [
+        {
+          "_id": "68f59eb88589920bf4d3211b",
+          "name": "Tiansheng Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68f59eb88589920bf4d3211c",
+          "name": "Tongyan Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68f59eb88589920bf4d3211d",
+          "name": "Liuyang Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68f59eb88589920bf4d3211e",
+          "name": "Yilun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68f59eb88589920bf4d3211f",
+          "name": "Arman Cohan",
+          "hidden": false
+        },
+        {
+          "_id": "68f59eb88589920bf4d32120",
+          "name": "Chen Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-17T01:45:49.000Z",
+      "submittedOnDailyAt": "2025-10-20T01:02:05.029Z",
+      "title": "FinTrust: A Comprehensive Benchmark of Trustworthiness Evaluation in\n  Finance Domain",
+      "submittedOnDailyBy": {
+        "_id": "67492b9e347c3876f22b3684",
+        "avatarUrl": "/avatars/0d80d23f7b10ce8bac689f6e8317a014.svg",
+        "isPro": false,
+        "fullname": "Tiansheng Hu",
+        "user": "HughieHu",
+        "type": "user"
+      },
+      "summary": "Recent LLMs have demonstrated promising ability in solving finance related\nproblems. However, applying LLMs in real-world finance application remains\nchallenging due to its high risk and high stakes property. This paper\nintroduces FinTrust, a comprehensive benchmark specifically designed for\nevaluating the trustworthiness of LLMs in finance applications. Our benchmark\nfocuses on a wide range of alignment issues based on practical context and\nfeatures fine-grained tasks for each dimension of trustworthiness evaluation.\nWe assess eleven LLMs on FinTrust and find that proprietary models like o4-mini\noutperforms in most tasks such as safety while open-source models like\nDeepSeek-V3 have advantage in specific areas like industry-level fairness. For\nchallenging task like fiduciary alignment and disclosure, all LLMs fall short,\nshowing a significant gap in legal awareness. We believe that FinTrust can be a\nvaluable benchmark for LLMs' trustworthiness evaluation in finance domain.",
+      "upvotes": 1,
+      "discussionId": "68f59eb98589920bf4d32121",
+      "githubRepo": "https://github.com/HughieHu/FinTrust/",
+      "ai_summary": "FinTrust is a benchmark designed to evaluate the trustworthiness of LLMs in finance applications, focusing on alignment issues and revealing gaps in legal awareness.",
+      "ai_keywords": [
+        "LLMs",
+        "FinTrust",
+        "trustworthiness",
+        "alignment issues",
+        "safety",
+        "industry-level fairness",
+        "fiduciary alignment",
+        "disclosure",
+        "legal awareness"
+      ]
+    },
+    "publishedAt": "2025-10-16T21:45:49.000Z",
+    "title": "FinTrust: A Comprehensive Benchmark of Trustworthiness Evaluation in\n  Finance Domain",
+    "summary": "Recent LLMs have demonstrated promising ability in solving finance related\nproblems. However, applying LLMs in real-world finance application remains\nchallenging due to its high risk and high stakes property. This paper\nintroduces FinTrust, a comprehensive benchmark specifically designed for\nevaluating the trustworthiness of LLMs in finance applications. Our benchmark\nfocuses on a wide range of alignment issues based on practical context and\nfeatures fine-grained tasks for each dimension of trustworthiness evaluation.\nWe assess eleven LLMs on FinTrust and find that proprietary models like o4-mini\noutperforms in most tasks such as safety while open-source models like\nDeepSeek-V3 have advantage in specific areas like industry-level fairness. For\nchallenging task like fiduciary alignment and disclosure, all LLMs fall short,\nshowing a significant gap in legal awareness. We believe that FinTrust can be a\nvaluable benchmark for LLMs' trustworthiness evaluation in finance domain.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15232.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67492b9e347c3876f22b3684",
+      "avatarUrl": "/avatars/0d80d23f7b10ce8bac689f6e8317a014.svg",
+      "fullname": "Tiansheng Hu",
+      "name": "HughieHu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  }
+]
