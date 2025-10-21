@@ -1,0 +1,491 @@
+[
+  {
+    "paper": {
+      "id": "2510.16872",
+      "authors": [
+        {
+          "_id": "68f6ed0424c4489363111848",
+          "name": "Shaolei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0424c4489363111849",
+          "name": "Ju Fan",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0424c448936311184a",
+          "name": "Meihao Fan",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0424c448936311184b",
+          "name": "Guoliang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0424c448936311184c",
+          "name": "Xiaoyong Du",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-19T15:13:42.000Z",
+      "submittedOnDailyAt": "2025-10-21T00:48:17.032Z",
+      "title": "DeepAnalyze: Agentic Large Language Models for Autonomous Data Science",
+      "submittedOnDailyBy": {
+        "_id": "64803e5dc57f629056c601f1",
+        "avatarUrl": "/avatars/a9e9c97c70714e3a29bef2cf929ee6b3.svg",
+        "isPro": false,
+        "fullname": "Shaolei Zhang",
+        "user": "zhangshaolei",
+        "type": "user"
+      },
+      "summary": "Autonomous data science, from raw data sources to analyst-grade deep research\nreports, has been a long-standing challenge, and is now becoming feasible with\nthe emergence of powerful large language models (LLMs). Recent workflow-based\ndata agents have shown promising results on specific data tasks but remain\nfundamentally limited in achieving fully autonomous data science due to their\nreliance on predefined workflows. In this paper, we introduce DeepAnalyze-8B,\nthe first agentic LLM designed for autonomous data science, capable of\nautomatically completing the end-toend pipeline from data sources to\nanalyst-grade deep research reports. To tackle high-complexity data science\ntasks, we propose a curriculum-based agentic training paradigm that emulates\nthe learning trajectory of human data scientists, enabling LLMs to\nprogressively acquire and integrate multiple capabilities in real-world\nenvironments. We also introduce a data-grounded trajectory synthesis framework\nthat constructs high-quality training data. Through agentic training,\nDeepAnalyze learns to perform a broad spectrum of data tasks, ranging from data\nquestion answering and specialized analytical tasks to open-ended data\nresearch. Experiments demonstrate that, with only 8B parameters, DeepAnalyze\noutperforms previous workflow-based agents built on most advanced proprietary\nLLMs. The model, code, and training data of DeepAnalyze are open-sourced,\npaving the way toward autonomous data science.",
+      "upvotes": 8,
+      "discussionId": "68f6ed0424c448936311184d",
+      "ai_summary": "DeepAnalyze-8B, an agentic LLM, autonomously completes the data science pipeline from raw data to research reports using curriculum-based training and data-grounded trajectory synthesis.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "workflow-based data agents",
+        "agentic LLM",
+        "curriculum-based agentic training",
+        "data-grounded trajectory synthesis",
+        "data question answering",
+        "specialized analytical tasks",
+        "open-ended data research"
+      ],
+      "organization": {
+        "_id": "621a22353bae762bb9faaffb",
+        "name": "RUC-DataLab",
+        "fullname": "RUC-DataLab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64803e5dc57f629056c601f1/tsYgFKBKYc4VNfO8g5zmP.png"
+      }
+    },
+    "publishedAt": "2025-10-19T11:13:42.000Z",
+    "title": "DeepAnalyze: Agentic Large Language Models for Autonomous Data Science",
+    "summary": "Autonomous data science, from raw data sources to analyst-grade deep research\nreports, has been a long-standing challenge, and is now becoming feasible with\nthe emergence of powerful large language models (LLMs). Recent workflow-based\ndata agents have shown promising results on specific data tasks but remain\nfundamentally limited in achieving fully autonomous data science due to their\nreliance on predefined workflows. In this paper, we introduce DeepAnalyze-8B,\nthe first agentic LLM designed for autonomous data science, capable of\nautomatically completing the end-toend pipeline from data sources to\nanalyst-grade deep research reports. To tackle high-complexity data science\ntasks, we propose a curriculum-based agentic training paradigm that emulates\nthe learning trajectory of human data scientists, enabling LLMs to\nprogressively acquire and integrate multiple capabilities in real-world\nenvironments. We also introduce a data-grounded trajectory synthesis framework\nthat constructs high-quality training data. Through agentic training,\nDeepAnalyze learns to perform a broad spectrum of data tasks, ranging from data\nquestion answering and specialized analytical tasks to open-ended data\nresearch. Experiments demonstrate that, with only 8B parameters, DeepAnalyze\noutperforms previous workflow-based agents built on most advanced proprietary\nLLMs. The model, code, and training data of DeepAnalyze are open-sourced,\npaving the way toward autonomous data science.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.16872.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64803e5dc57f629056c601f1",
+      "avatarUrl": "/avatars/a9e9c97c70714e3a29bef2cf929ee6b3.svg",
+      "fullname": "Shaolei Zhang",
+      "name": "zhangshaolei",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "organization": {
+      "_id": "621a22353bae762bb9faaffb",
+      "name": "RUC-DataLab",
+      "fullname": "RUC-DataLab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64803e5dc57f629056c601f1/tsYgFKBKYc4VNfO8g5zmP.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.17803",
+      "authors": [
+        {
+          "_id": "68f6e6e924c44893631117db",
+          "name": "Zixin Yin",
+          "hidden": false
+        },
+        {
+          "_id": "68f6e6e924c44893631117dc",
+          "name": "Ling-Hao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f6e6e924c44893631117dd",
+          "name": "Lionel Ni",
+          "hidden": false
+        },
+        {
+          "_id": "68f6e6e924c44893631117de",
+          "name": "Xili Dai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-20T17:59:52.000Z",
+      "submittedOnDailyAt": "2025-10-21T00:43:49.416Z",
+      "title": "ConsistEdit: Highly Consistent and Precise Training-free Visual Editing",
+      "submittedOnDailyBy": {
+        "_id": "6503ccaf13d750b4604649e4",
+        "avatarUrl": "/avatars/96bebff9284d61f37c83e7da6a7e9bac.svg",
+        "isPro": false,
+        "fullname": "Zixin Yin",
+        "user": "zachary-yin",
+        "type": "user"
+      },
+      "summary": "Recent advances in training-free attention control methods have enabled\nflexible and efficient text-guided editing capabilities for existing generation\nmodels. However, current approaches struggle to simultaneously deliver strong\nediting strength while preserving consistency with the source. This limitation\nbecomes particularly critical in multi-round and video editing, where visual\nerrors can accumulate over time. Moreover, most existing methods enforce global\nconsistency, which limits their ability to modify individual attributes such as\ntexture while preserving others, thereby hindering fine-grained editing.\nRecently, the architectural shift from U-Net to MM-DiT has brought significant\nimprovements in generative performance and introduced a novel mechanism for\nintegrating text and vision modalities. These advancements pave the way for\novercoming challenges that previous methods failed to resolve. Through an\nin-depth analysis of MM-DiT, we identify three key insights into its attention\nmechanisms. Building on these, we propose ConsistEdit, a novel attention\ncontrol method specifically tailored for MM-DiT. ConsistEdit incorporates\nvision-only attention control, mask-guided pre-attention fusion, and\ndifferentiated manipulation of the query, key, and value tokens to produce\nconsistent, prompt-aligned edits. Extensive experiments demonstrate that\nConsistEdit achieves state-of-the-art performance across a wide range of image\nand video editing tasks, including both structure-consistent and\nstructure-inconsistent scenarios. Unlike prior methods, it is the first\napproach to perform editing across all inference steps and attention layers\nwithout handcraft, significantly enhancing reliability and consistency, which\nenables robust multi-round and multi-region editing. Furthermore, it supports\nprogressive adjustment of structural consistency, enabling finer control.",
+      "upvotes": 4,
+      "discussionId": "68f6e6ea24c44893631117df",
+      "ai_summary": "ConsistEdit, a novel attention control method for MM-DiT, enhances image and video editing by ensuring consistency and fine-grained control across all inference steps and attention layers.",
+      "ai_keywords": [
+        "attention control",
+        "MM-DiT",
+        "vision-only attention control",
+        "mask-guided pre-attention fusion",
+        "query",
+        "key",
+        "value tokens",
+        "structure-consistent",
+        "structure-inconsistent",
+        "multi-round editing",
+        "multi-region editing",
+        "progressive adjustment"
+      ]
+    },
+    "publishedAt": "2025-10-20T13:59:52.000Z",
+    "title": "ConsistEdit: Highly Consistent and Precise Training-free Visual Editing",
+    "summary": "Recent advances in training-free attention control methods have enabled\nflexible and efficient text-guided editing capabilities for existing generation\nmodels. However, current approaches struggle to simultaneously deliver strong\nediting strength while preserving consistency with the source. This limitation\nbecomes particularly critical in multi-round and video editing, where visual\nerrors can accumulate over time. Moreover, most existing methods enforce global\nconsistency, which limits their ability to modify individual attributes such as\ntexture while preserving others, thereby hindering fine-grained editing.\nRecently, the architectural shift from U-Net to MM-DiT has brought significant\nimprovements in generative performance and introduced a novel mechanism for\nintegrating text and vision modalities. These advancements pave the way for\novercoming challenges that previous methods failed to resolve. Through an\nin-depth analysis of MM-DiT, we identify three key insights into its attention\nmechanisms. Building on these, we propose ConsistEdit, a novel attention\ncontrol method specifically tailored for MM-DiT. ConsistEdit incorporates\nvision-only attention control, mask-guided pre-attention fusion, and\ndifferentiated manipulation of the query, key, and value tokens to produce\nconsistent, prompt-aligned edits. Extensive experiments demonstrate that\nConsistEdit achieves state-of-the-art performance across a wide range of image\nand video editing tasks, including both structure-consistent and\nstructure-inconsistent scenarios. Unlike prior methods, it is the first\napproach to perform editing across all inference steps and attention layers\nwithout handcraft, significantly enhancing reliability and consistency, which\nenables robust multi-round and multi-region editing. Furthermore, it supports\nprogressive adjustment of structural consistency, enabling finer control.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.17803.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6503ccaf13d750b4604649e4",
+      "avatarUrl": "/avatars/96bebff9284d61f37c83e7da6a7e9bac.svg",
+      "fullname": "Zixin Yin",
+      "name": "zachary-yin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.17681",
+      "authors": [
+        {
+          "_id": "68f6ed0724c448936311184f",
+          "name": "Yuandong Pu",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111850",
+          "name": "Le Zhuo",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111851",
+          "name": "Songhao Han",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111852",
+          "name": "Jinbo Xing",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111853",
+          "name": "Kaiwen Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111854",
+          "name": "Shuo Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111855",
+          "name": "Bin Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111856",
+          "name": "Si Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111857",
+          "name": "Hongsheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111858",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c4489363111859",
+          "name": "Wenlong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c448936311185a",
+          "name": "Xi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ed0724c448936311185b",
+          "name": "Yihao Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-20T15:53:57.000Z",
+      "submittedOnDailyAt": "2025-10-21T00:48:55.230Z",
+      "title": "PICABench: How Far Are We from Physically Realistic Image Editing?",
+      "submittedOnDailyBy": {
+        "_id": "625d5b9f0bec31f086e04cd9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650285458447-noauth.jpeg",
+        "isPro": false,
+        "fullname": "YuandongPu",
+        "user": "Andrew613",
+        "type": "user"
+      },
+      "summary": "Image editing has achieved remarkable progress recently. Modern editing\nmodels could already follow complex instructions to manipulate the original\ncontent. However, beyond completing the editing instructions, the accompanying\nphysical effects are the key to the generation realism. For example, removing\nan object should also remove its shadow, reflections, and interactions with\nnearby objects. Unfortunately, existing models and benchmarks mainly focus on\ninstruction completion but overlook these physical effects. So, at this moment,\nhow far are we from physically realistic image editing? To answer this, we\nintroduce PICABench, which systematically evaluates physical realism across\neight sub-dimension (spanning optics, mechanics, and state transitions) for\nmost of the common editing operations (add, remove, attribute change, etc). We\nfurther propose the PICAEval, a reliable evaluation protocol that uses\nVLM-as-a-judge with per-case, region-level human annotations and questions.\nBeyond benchmarking, we also explore effective solutions by learning physics\nfrom videos and construct a training dataset PICA-100K. After evaluating most\nof the mainstream models, we observe that physical realism remains a\nchallenging problem with large rooms to explore. We hope that our benchmark and\nproposed solutions can serve as a foundation for future work moving from naive\ncontent editing toward physically consistent realism.",
+      "upvotes": 2,
+      "discussionId": "68f6ed0724c448936311185c",
+      "projectPage": "https://picabench.github.io/",
+      "ai_summary": "PICABench and PICAEval evaluate physical realism in image editing by assessing eight sub-dimensions and using VLM-as-a-judge with human annotations, highlighting the need for physics-based solutions.",
+      "ai_keywords": [
+        "PICABench",
+        "PICAEval",
+        "VLM-as-a-judge",
+        "physical realism",
+        "image editing",
+        "physics-based solutions",
+        "PICA-100K"
+      ]
+    },
+    "publishedAt": "2025-10-20T11:53:57.000Z",
+    "title": "PICABench: How Far Are We from Physically Realistic Image Editing?",
+    "summary": "Image editing has achieved remarkable progress recently. Modern editing\nmodels could already follow complex instructions to manipulate the original\ncontent. However, beyond completing the editing instructions, the accompanying\nphysical effects are the key to the generation realism. For example, removing\nan object should also remove its shadow, reflections, and interactions with\nnearby objects. Unfortunately, existing models and benchmarks mainly focus on\ninstruction completion but overlook these physical effects. So, at this moment,\nhow far are we from physically realistic image editing? To answer this, we\nintroduce PICABench, which systematically evaluates physical realism across\neight sub-dimension (spanning optics, mechanics, and state transitions) for\nmost of the common editing operations (add, remove, attribute change, etc). We\nfurther propose the PICAEval, a reliable evaluation protocol that uses\nVLM-as-a-judge with per-case, region-level human annotations and questions.\nBeyond benchmarking, we also explore effective solutions by learning physics\nfrom videos and construct a training dataset PICA-100K. After evaluating most\nof the mainstream models, we observe that physical realism remains a\nchallenging problem with large rooms to explore. We hope that our benchmark and\nproposed solutions can serve as a foundation for future work moving from naive\ncontent editing toward physically consistent realism.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.17681.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "625d5b9f0bec31f086e04cd9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650285458447-noauth.jpeg",
+      "fullname": "YuandongPu",
+      "name": "Andrew613",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.16751",
+      "authors": [
+        {
+          "_id": "68f6ea4a24c4489363111810",
+          "name": "Erik Riise",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ea4a24c4489363111811",
+          "name": "Mehmet Onurcan Kaya",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ea4a24c4489363111812",
+          "name": "Dim P. Papadopoulos",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-19T08:28:06.000Z",
+      "submittedOnDailyAt": "2025-10-21T00:35:50.068Z",
+      "title": "Visual Autoregressive Models Beat Diffusion Models on Inference Time\n  Scaling",
+      "submittedOnDailyBy": {
+        "_id": "63be9021da08ed0544f36c38",
+        "avatarUrl": "/avatars/42511d8b1d3a3ef99bc154c98b72dfba.svg",
+        "isPro": false,
+        "fullname": "onurcan",
+        "user": "monurcan",
+        "type": "user"
+      },
+      "summary": "While inference-time scaling through search has revolutionized Large Language\nModels, translating these gains to image generation has proven difficult.\nRecent attempts to apply search strategies to continuous diffusion models show\nlimited benefits, with simple random sampling often performing best. We\ndemonstrate that the discrete, sequential nature of visual autoregressive\nmodels enables effective search for image generation. We show that beam search\nsubstantially improves text-to-image generation, enabling a 2B parameter\nautoregressive model to outperform a 12B parameter diffusion model across\nbenchmarks. Systematic ablations show that this advantage comes from the\ndiscrete token space, which allows early pruning and computational reuse, and\nour verifier analysis highlights trade-offs between speed and reasoning\ncapability. These findings suggest that model architecture, not just scale, is\ncritical for inference-time optimization in visual generation.",
+      "upvotes": 2,
+      "discussionId": "68f6ea4b24c4489363111813",
+      "ai_summary": "Beam search in discrete visual autoregressive models enhances text-to-image generation more effectively than search in continuous diffusion models, highlighting architecture's importance over scale.",
+      "ai_keywords": [
+        "visual autoregressive models",
+        "beam search",
+        "diffusion models",
+        "discrete token space",
+        "early pruning",
+        "computational reuse",
+        "verifier analysis"
+      ]
+    },
+    "publishedAt": "2025-10-19T04:28:06.000Z",
+    "title": "Visual Autoregressive Models Beat Diffusion Models on Inference Time\n  Scaling",
+    "summary": "While inference-time scaling through search has revolutionized Large Language\nModels, translating these gains to image generation has proven difficult.\nRecent attempts to apply search strategies to continuous diffusion models show\nlimited benefits, with simple random sampling often performing best. We\ndemonstrate that the discrete, sequential nature of visual autoregressive\nmodels enables effective search for image generation. We show that beam search\nsubstantially improves text-to-image generation, enabling a 2B parameter\nautoregressive model to outperform a 12B parameter diffusion model across\nbenchmarks. Systematic ablations show that this advantage comes from the\ndiscrete token space, which allows early pruning and computational reuse, and\nour verifier analysis highlights trade-offs between speed and reasoning\ncapability. These findings suggest that model architecture, not just scale, is\ncritical for inference-time optimization in visual generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.16751.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63be9021da08ed0544f36c38",
+      "avatarUrl": "/avatars/42511d8b1d3a3ef99bc154c98b72dfba.svg",
+      "fullname": "onurcan",
+      "name": "monurcan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.17354",
+      "authors": [
+        {
+          "_id": "68f6ebff24c448936311182d",
+          "name": "Chenghao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ebff24c448936311182e",
+          "name": "Guanting Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ebff24c448936311182f",
+          "name": "Xinyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f6ebff24c4489363111830",
+          "name": "Zhicheng Dou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-20T09:56:43.000Z",
+      "submittedOnDailyAt": "2025-10-21T00:50:13.474Z",
+      "title": "Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented\n  Generation",
+      "submittedOnDailyBy": {
+        "_id": "6710ac3fb4ee4920580a5f0e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6710ac3fb4ee4920580a5f0e/OhQQFlZmkmLQpMYqKCGP6.jpeg",
+        "isPro": false,
+        "fullname": "Chenghao Zhang",
+        "user": "SnowNation",
+        "type": "user"
+      },
+      "summary": "Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for\nenhancing large language models (LLMs) by retrieving relevant documents from an\nexternal corpus. However, existing RAG systems primarily focus on unimodal text\ndocuments, and often fall short in real-world scenarios where both queries and\ndocuments may contain mixed modalities (such as text and images). In this\npaper, we address the challenge of Universal Retrieval-Augmented Generation\n(URAG), which involves retrieving and reasoning over mixed-modal information to\nimprove vision-language generation. To this end, we propose Nyx, a unified\nmixed-modal to mixed-modal retriever tailored for URAG scenarios. To mitigate\nthe scarcity of realistic mixed-modal data, we introduce a four-stage automated\npipeline for generation and filtering, leveraging web documents to construct\nNyxQA, a dataset comprising diverse mixed-modal question-answer pairs that\nbetter reflect real-world information needs. Building on this high-quality\ndataset, we adopt a two-stage training framework for Nyx: we first perform\npre-training on NyxQA along with a variety of open-source retrieval datasets,\nfollowed by supervised fine-tuning using feedback from downstream\nvision-language models (VLMs) to align retrieval outputs with generative\npreferences. Experimental results demonstrate that Nyx not only performs\ncompetitively on standard text-only RAG benchmarks, but also excels in the more\ngeneral and realistic URAG setting, significantly improving generation quality\nin vision-language tasks.",
+      "upvotes": 1,
+      "discussionId": "68f6ec0024c4489363111831",
+      "ai_summary": "Nyx, a unified mixed-modal retriever, enhances vision-language generation by retrieving and reasoning over mixed-modal data, outperforming existing RAG systems in real-world scenarios.",
+      "ai_keywords": [
+        "Retrieval-Augmented Generation",
+        "RAG",
+        "large language models",
+        "LLMs",
+        "mixed modalities",
+        "Universal Retrieval-Augmented Generation",
+        "URAG",
+        "Nyx",
+        "NyxQA",
+        "two-stage training framework",
+        "pre-training",
+        "supervised fine-tuning",
+        "vision-language models",
+        "VLMs",
+        "generation quality",
+        "vision-language tasks"
+      ],
+      "organization": {
+        "_id": "622177ac43826d6f261f8208",
+        "name": "RUC",
+        "fullname": "Renmin University of China",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-20T05:56:43.000Z",
+    "title": "Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented\n  Generation",
+    "summary": "Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for\nenhancing large language models (LLMs) by retrieving relevant documents from an\nexternal corpus. However, existing RAG systems primarily focus on unimodal text\ndocuments, and often fall short in real-world scenarios where both queries and\ndocuments may contain mixed modalities (such as text and images). In this\npaper, we address the challenge of Universal Retrieval-Augmented Generation\n(URAG), which involves retrieving and reasoning over mixed-modal information to\nimprove vision-language generation. To this end, we propose Nyx, a unified\nmixed-modal to mixed-modal retriever tailored for URAG scenarios. To mitigate\nthe scarcity of realistic mixed-modal data, we introduce a four-stage automated\npipeline for generation and filtering, leveraging web documents to construct\nNyxQA, a dataset comprising diverse mixed-modal question-answer pairs that\nbetter reflect real-world information needs. Building on this high-quality\ndataset, we adopt a two-stage training framework for Nyx: we first perform\npre-training on NyxQA along with a variety of open-source retrieval datasets,\nfollowed by supervised fine-tuning using feedback from downstream\nvision-language models (VLMs) to align retrieval outputs with generative\npreferences. Experimental results demonstrate that Nyx not only performs\ncompetitively on standard text-only RAG benchmarks, but also excels in the more\ngeneral and realistic URAG setting, significantly improving generation quality\nin vision-language tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.17354.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6710ac3fb4ee4920580a5f0e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6710ac3fb4ee4920580a5f0e/OhQQFlZmkmLQpMYqKCGP6.jpeg",
+      "fullname": "Chenghao Zhang",
+      "name": "SnowNation",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7
+    },
+    "organization": {
+      "_id": "622177ac43826d6f261f8208",
+      "name": "RUC",
+      "fullname": "Renmin University of China",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.15527",
+      "authors": [
+        {
+          "_id": "68f6ea0d24c448936311180d",
+          "name": "Aditya Vir",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-17T10:59:24.000Z",
+      "submittedOnDailyAt": "2025-10-21T00:34:37.118Z",
+      "title": "Balanced Multi-Task Attention for Satellite Image Classification: A\n  Systematic Approach to Achieving 97.23% Accuracy on EuroSAT Without\n  Pre-Training",
+      "submittedOnDailyBy": {
+        "_id": "63be9021da08ed0544f36c38",
+        "avatarUrl": "/avatars/42511d8b1d3a3ef99bc154c98b72dfba.svg",
+        "isPro": false,
+        "fullname": "onurcan",
+        "user": "monurcan",
+        "type": "user"
+      },
+      "summary": "This work presents a systematic investigation of custom convolutional neural\nnetwork architectures for satellite land use classification, achieving 97.23%\ntest accuracy on the EuroSAT dataset without reliance on pre-trained models.\nThrough three progressive architectural iterations (baseline: 94.30%,\nCBAM-enhanced: 95.98%, and balanced multi-task attention: 97.23%) we identify\nand address specific failure modes in satellite imagery classification. Our\nprincipal contribution is a novel balanced multi-task attention mechanism that\ncombines Coordinate Attention for spatial feature extraction with\nSqueeze-Excitation blocks for spectral feature extraction, unified through a\nlearnable fusion parameter. Experimental results demonstrate that this\nlearnable parameter autonomously converges to alpha approximately 0.57,\nindicating near-equal importance of spatial and spectral modalities for\nsatellite imagery. We employ progressive DropBlock regularization (5-20% by\nnetwork depth) and class-balanced loss weighting to address overfitting and\nconfusion pattern imbalance. The final 12-layer architecture achieves Cohen's\nKappa of 0.9692 with all classes exceeding 94.46% accuracy, demonstrating\nconfidence calibration with a 24.25% gap between correct and incorrect\npredictions. Our approach achieves performance within 1.34% of fine-tuned\nResNet-50 (98.57%) while requiring no external data, validating the efficacy of\nsystematic architectural design for domain-specific applications. Complete\ncode, trained models, and evaluation scripts are publicly available.",
+      "upvotes": 1,
+      "discussionId": "68f6ea0e24c448936311180e",
+      "ai_summary": "A novel balanced multi-task attention mechanism in custom convolutional neural networks improves satellite land use classification accuracy to 97.23% on the EuroSAT dataset without pre-trained models.",
+      "ai_keywords": [
+        "convolutional neural networks",
+        "satellite land use classification",
+        "EuroSAT dataset",
+        "CBAM-enhanced",
+        "balanced multi-task attention",
+        "Coordinate Attention",
+        "Squeeze-Excitation blocks",
+        "learnable fusion parameter",
+        "progressive DropBlock regularization",
+        "class-balanced loss weighting",
+        "Cohen's Kappa",
+        "ResNet-50"
+      ]
+    },
+    "publishedAt": "2025-10-17T06:59:24.000Z",
+    "title": "Balanced Multi-Task Attention for Satellite Image Classification: A\n  Systematic Approach to Achieving 97.23% Accuracy on EuroSAT Without\n  Pre-Training",
+    "summary": "This work presents a systematic investigation of custom convolutional neural\nnetwork architectures for satellite land use classification, achieving 97.23%\ntest accuracy on the EuroSAT dataset without reliance on pre-trained models.\nThrough three progressive architectural iterations (baseline: 94.30%,\nCBAM-enhanced: 95.98%, and balanced multi-task attention: 97.23%) we identify\nand address specific failure modes in satellite imagery classification. Our\nprincipal contribution is a novel balanced multi-task attention mechanism that\ncombines Coordinate Attention for spatial feature extraction with\nSqueeze-Excitation blocks for spectral feature extraction, unified through a\nlearnable fusion parameter. Experimental results demonstrate that this\nlearnable parameter autonomously converges to alpha approximately 0.57,\nindicating near-equal importance of spatial and spectral modalities for\nsatellite imagery. We employ progressive DropBlock regularization (5-20% by\nnetwork depth) and class-balanced loss weighting to address overfitting and\nconfusion pattern imbalance. The final 12-layer architecture achieves Cohen's\nKappa of 0.9692 with all classes exceeding 94.46% accuracy, demonstrating\nconfidence calibration with a 24.25% gap between correct and incorrect\npredictions. Our approach achieves performance within 1.34% of fine-tuned\nResNet-50 (98.57%) while requiring no external data, validating the efficacy of\nsystematic architectural design for domain-specific applications. Complete\ncode, trained models, and evaluation scripts are publicly available.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.15527.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63be9021da08ed0544f36c38",
+      "avatarUrl": "/avatars/42511d8b1d3a3ef99bc154c98b72dfba.svg",
+      "fullname": "onurcan",
+      "name": "monurcan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
