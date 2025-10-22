@@ -1,0 +1,1637 @@
+[
+  {
+    "paper": {
+      "id": "2510.18866",
+      "authors": [
+        {
+          "_id": "68f838947669bcaeecce0c01",
+          "name": "Jizhan Fang",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c02",
+          "name": "Xinle Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c03",
+          "name": "Haoming Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c04",
+          "name": "Ziyan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c05",
+          "name": "Yuqi Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c06",
+          "name": "Ziwen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c07",
+          "name": "Shumin Deng",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c08",
+          "name": "Yunzhi Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c09",
+          "name": "Mengru Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c0a",
+          "name": "Shuofei Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c0b",
+          "name": "Huajun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f838947669bcaeecce0c0c",
+          "name": "Ningyu Zhang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/620b3bbb0668e435407c8d0a/M2oygkxDK_IQYqx0SE3VE.png"
+      ],
+      "publishedAt": "2025-10-21T17:58:17.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:37:06.095Z",
+      "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+      "submittedOnDailyBy": {
+        "_id": "620b3bbb0668e435407c8d0a",
+        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+        "isPro": true,
+        "fullname": "Ningyu Zhang",
+        "user": "Ningyu",
+        "type": "user"
+      },
+      "summary": "Despite their remarkable capabilities, Large Language Models (LLMs) struggle\nto effectively leverage historical interaction information in dynamic and\ncomplex environments. Memory systems enable LLMs to move beyond stateless\ninteractions by introducing persistent information storage, retrieval, and\nutilization mechanisms. However, existing memory systems often introduce\nsubstantial time and computational overhead. To this end, we introduce a new\nmemory system called LightMem, which strikes a balance between the performance\nand efficiency of memory systems. Inspired by the Atkinson-Shiffrin model of\nhuman memory, LightMem organizes memory into three complementary stages. First,\ncognition-inspired sensory memory rapidly filters irrelevant information\nthrough lightweight compression and groups information according to their\ntopics. Next, topic-aware short-term memory consolidates these topic-based\ngroups, organizing and summarizing content for more structured access. Finally,\nlong-term memory with sleep-time update employs an offline procedure that\ndecouples consolidation from online inference. Experiments on LongMemEval with\nGPT and Qwen backbones show that LightMem outperforms strong baselines in\naccuracy (up to 10.9% gains) while reducing token usage by up to 117x, API\ncalls by up to 159x, and runtime by over 12x. The code is available at\nhttps://github.com/zjunlp/LightMem.",
+      "upvotes": 18,
+      "discussionId": "68f838947669bcaeecce0c0d",
+      "githubRepo": "https://github.com/zjunlp/LightMem",
+      "ai_summary": "LightMem, a memory system inspired by human memory, enhances LLMs by efficiently managing historical interaction information, improving accuracy and reducing computational costs.",
+      "ai_keywords": [
+        "Large Language Models",
+        "LLMs",
+        "memory systems",
+        "LightMem",
+        "Atkinson-Shiffrin model",
+        "sensory memory",
+        "topic-aware short-term memory",
+        "long-term memory",
+        "sleep-time update",
+        "LongMemEval",
+        "GPT",
+        "Qwen",
+        "token usage",
+        "API calls",
+        "runtime"
+      ],
+      "githubStars": 29,
+      "organization": {
+        "_id": "6345aadf5efccdc07f1365a5",
+        "name": "ZhejiangUniversity",
+        "fullname": "Zhejiang University"
+      }
+    },
+    "publishedAt": "2025-10-21T13:58:17.000Z",
+    "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+    "summary": "Despite their remarkable capabilities, Large Language Models (LLMs) struggle\nto effectively leverage historical interaction information in dynamic and\ncomplex environments. Memory systems enable LLMs to move beyond stateless\ninteractions by introducing persistent information storage, retrieval, and\nutilization mechanisms. However, existing memory systems often introduce\nsubstantial time and computational overhead. To this end, we introduce a new\nmemory system called LightMem, which strikes a balance between the performance\nand efficiency of memory systems. Inspired by the Atkinson-Shiffrin model of\nhuman memory, LightMem organizes memory into three complementary stages. First,\ncognition-inspired sensory memory rapidly filters irrelevant information\nthrough lightweight compression and groups information according to their\ntopics. Next, topic-aware short-term memory consolidates these topic-based\ngroups, organizing and summarizing content for more structured access. Finally,\nlong-term memory with sleep-time update employs an offline procedure that\ndecouples consolidation from online inference. Experiments on LongMemEval with\nGPT and Qwen backbones show that LightMem outperforms strong baselines in\naccuracy (up to 10.9% gains) while reducing token usage by up to 117x, API\ncalls by up to 159x, and runtime by over 12x. The code is available at\nhttps://github.com/zjunlp/LightMem.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/620b3bbb0668e435407c8d0a/M2oygkxDK_IQYqx0SE3VE.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.18866.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "620b3bbb0668e435407c8d0a",
+      "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+      "fullname": "Ningyu Zhang",
+      "name": "Ningyu",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 30
+    },
+    "organization": {
+      "_id": "6345aadf5efccdc07f1365a5",
+      "name": "ZhejiangUniversity",
+      "fullname": "Zhejiang University"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.18855",
+      "authors": [
+        {
+          "_id": "68f8389c7669bcaeecce0c0f",
+          "name": "Ling Team",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c10",
+          "name": "Anqi Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c11",
+          "name": "Baihui Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c12",
+          "name": "Bin Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c13",
+          "name": "Bin Jing",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c14",
+          "name": "Cai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c15",
+          "name": "Chao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c16",
+          "name": "Chao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c17",
+          "name": "Chaokun Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c18",
+          "name": "Cheng Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c19",
+          "name": "Chengyao Wen",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c1a",
+          "name": "Congqi Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c1b",
+          "name": "Deng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c1c",
+          "name": "Dingbo Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c1d",
+          "name": "Donghai You",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c1e",
+          "name": "Fagui Mao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c1f",
+          "name": "Fanzhuang Meng",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c20",
+          "name": "Feng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c21",
+          "name": "Guojie Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c22",
+          "name": "Guowei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c23",
+          "name": "Hao Dai",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c24",
+          "name": "Haonan Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c25",
+          "name": "Hong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c26",
+          "name": "Jia Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c27",
+          "name": "Jiaming Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c28",
+          "name": "Jian Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c29",
+          "name": "Jianhao Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c2a",
+          "name": "Jiannan Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c2b",
+          "name": "Jianwen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c2c",
+          "name": "Jianxin Lai",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c2d",
+          "name": "Jin Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c2e",
+          "name": "Jun Mei",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c2f",
+          "name": "Jun Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c30",
+          "name": "Junbo Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c31",
+          "name": "Junping Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c32",
+          "name": "Kuan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c33",
+          "name": "Le Su",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c34",
+          "name": "Lei Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c35",
+          "name": "Li Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c36",
+          "name": "Liang Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c37",
+          "name": "Liangcheng Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c38",
+          "name": "Lianhao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c39",
+          "name": "Linfeng Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c3a",
+          "name": "Lisha Liao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c3b",
+          "name": "Longfei Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c3c",
+          "name": "Meng Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c3d",
+          "name": "Mingchun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c3e",
+          "name": "Qi Zuo",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c3f",
+          "name": "Qiang Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c40",
+          "name": "Qianggang Cao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c41",
+          "name": "Qitao Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c42",
+          "name": "Quanrui Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c43",
+          "name": "Senlin Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c44",
+          "name": "Shaofei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c45",
+          "name": "Shaomian Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c46",
+          "name": "Shuaicheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c47",
+          "name": "Shuwei Gu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c48",
+          "name": "Siba Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c49",
+          "name": "Tao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c4a",
+          "name": "Tao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c4b",
+          "name": "Tianyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c4c",
+          "name": "Tianyu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c4d",
+          "name": "Tiwei Bie",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c4e",
+          "name": "Tongkai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c4f",
+          "name": "Wang Hong",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c50",
+          "name": "Wang Ren",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c51",
+          "name": "Weihua Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c52",
+          "name": "Wenbo Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c53",
+          "name": "Wengang Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c54",
+          "name": "Xiangchun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c55",
+          "name": "Xiaodong Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c56",
+          "name": "Xiaopei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c57",
+          "name": "Xin Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c58",
+          "name": "Xinyu Kong",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c59",
+          "name": "Xinyu Tang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c5a",
+          "name": "Xudong Han",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c5b",
+          "name": "Xudong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c5c",
+          "name": "Xuemin Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c5d",
+          "name": "Xueyu Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c5e",
+          "name": "Yalin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c5f",
+          "name": "Yan Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c60",
+          "name": "Yicheng Shan",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c61",
+          "name": "Yilong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c62",
+          "name": "Yingying Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c63",
+          "name": "Yongkang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c64",
+          "name": "Yongzhen Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c65",
+          "name": "Yuanyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c66",
+          "name": "Yuchen Yan",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c67",
+          "name": "Yuefan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c68",
+          "name": "Yuhong Guo",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c69",
+          "name": "Zehuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c6a",
+          "name": "Zhankai Xu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c6b",
+          "name": "Zhe Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c6c",
+          "name": "Zhenduo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c6d",
+          "name": "Zhengke Gui",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c6e",
+          "name": "Zhenxuan Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c6f",
+          "name": "Zhenyu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c70",
+          "name": "Zhenzhong Lan",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c71",
+          "name": "Zhiqiang Ding",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c72",
+          "name": "Zhiqiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c73",
+          "name": "Zhixun Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c74",
+          "name": "Zhizhen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c75",
+          "name": "Zihao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8389c7669bcaeecce0c76",
+          "name": "Zujie Wen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-21T17:46:14.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:21:40.175Z",
+      "title": "Every Step Evolves: Scaling Reinforcement Learning for Trillion-Scale\n  Thinking Model",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We present Ring-1T, the first open-source, state-of-the-art thinking model\nwith a trillion-scale parameter. It features 1 trillion total parameters and\nactivates approximately 50 billion per token. Training such models at a\ntrillion-parameter scale introduces unprecedented challenges, including\ntrain-inference misalignment, inefficiencies in rollout processing, and\nbottlenecks in the RL system. To address these, we pioneer three interconnected\ninnovations: (1) IcePop stabilizes RL training via token-level discrepancy\nmasking and clipping, resolving instability from training-inference mismatches;\n(2) C3PO++ improves resource utilization for long rollouts under a token budget\nby dynamically partitioning them, thereby obtaining high time efficiency; and\n(3) ASystem, a high-performance RL framework designed to overcome the systemic\nbottlenecks that impede trillion-parameter model training. Ring-1T delivers\nbreakthrough results across critical benchmarks: 93.4 on AIME-2025, 86.72 on\nHMMT-2025, 2088 on CodeForces, and 55.94 on ARC-AGI-v1. Notably, it attains a\nsilver medal-level result on the IMO-2025, underscoring its exceptional\nreasoning capabilities. By releasing the complete 1T parameter MoE model to the\ncommunity, we provide the research community with direct access to cutting-edge\nreasoning capabilities. This contribution marks a significant milestone in\ndemocratizing large-scale reasoning intelligence and establishes a new baseline\nfor open-source model performance.",
+      "upvotes": 8,
+      "discussionId": "68f8389c7669bcaeecce0c77",
+      "githubRepo": "https://github.com/inclusionAI/Ring-V2",
+      "ai_summary": "Ring-1T, a trillion-parameter open-source thinking model, addresses training challenges with IcePop, C3PO++, and ASystem, achieving top results across benchmarks and democratizing large-scale reasoning intelligence.",
+      "ai_keywords": [
+        "IcePop",
+        "C3PO++",
+        "ASystem",
+        "MoE",
+        "token-level discrepancy masking",
+        "clipping",
+        "resource utilization",
+        "rollout processing",
+        "RL system",
+        "training-inference misalignment",
+        "trillion-parameter model",
+        "AIME-2025",
+        "HMMT-2025",
+        "CodeForces",
+        "ARC-AGI-v1",
+        "IMO-2025"
+      ],
+      "githubStars": 42,
+      "organization": {
+        "_id": "67aea5c8f086ab0f70ed97c9",
+        "name": "inclusionAI",
+        "fullname": "inclusionAI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/662e1f9da266499277937d33/fyKuazRifqiaIO34xrhhm.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-21T13:46:14.000Z",
+    "title": "Every Step Evolves: Scaling Reinforcement Learning for Trillion-Scale\n  Thinking Model",
+    "summary": "We present Ring-1T, the first open-source, state-of-the-art thinking model\nwith a trillion-scale parameter. It features 1 trillion total parameters and\nactivates approximately 50 billion per token. Training such models at a\ntrillion-parameter scale introduces unprecedented challenges, including\ntrain-inference misalignment, inefficiencies in rollout processing, and\nbottlenecks in the RL system. To address these, we pioneer three interconnected\ninnovations: (1) IcePop stabilizes RL training via token-level discrepancy\nmasking and clipping, resolving instability from training-inference mismatches;\n(2) C3PO++ improves resource utilization for long rollouts under a token budget\nby dynamically partitioning them, thereby obtaining high time efficiency; and\n(3) ASystem, a high-performance RL framework designed to overcome the systemic\nbottlenecks that impede trillion-parameter model training. Ring-1T delivers\nbreakthrough results across critical benchmarks: 93.4 on AIME-2025, 86.72 on\nHMMT-2025, 2088 on CodeForces, and 55.94 on ARC-AGI-v1. Notably, it attains a\nsilver medal-level result on the IMO-2025, underscoring its exceptional\nreasoning capabilities. By releasing the complete 1T parameter MoE model to the\ncommunity, we provide the research community with direct access to cutting-edge\nreasoning capabilities. This contribution marks a significant milestone in\ndemocratizing large-scale reasoning intelligence and establishes a new baseline\nfor open-source model performance.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.18855.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 134
+    },
+    "organization": {
+      "_id": "67aea5c8f086ab0f70ed97c9",
+      "name": "inclusionAI",
+      "fullname": "inclusionAI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/662e1f9da266499277937d33/fyKuazRifqiaIO34xrhhm.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.18876",
+      "authors": [
+        {
+          "_id": "68f837947669bcaeecce0be2",
+          "name": "Haochen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0be3",
+          "name": "Yuhao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0be4",
+          "name": "Tao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0be5",
+          "name": "Yikang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0be6",
+          "name": "Yanwei Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0be7",
+          "name": "Jiacong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0be8",
+          "name": "Ye Tian",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0be9",
+          "name": "Jiahao Meng",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0bea",
+          "name": "Zilong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0beb",
+          "name": "Guangcan Mai",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0bec",
+          "name": "Anran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0bed",
+          "name": "Yunhai Tong",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0bee",
+          "name": "Zhuochen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0bef",
+          "name": "Xiangtai Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f837947669bcaeecce0bf0",
+          "name": "Zhaoxiang Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-21T17:59:59.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:17:24.157Z",
+      "title": "Grasp Any Region: Towards Precise, Contextual Pixel Understanding for\n  Multimodal LLMs",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "While Multimodal Large Language Models (MLLMs) excel at holistic\nunderstanding, they struggle in capturing the dense world with complex scenes,\nrequiring fine-grained analysis of intricate details and object\ninter-relationships. Region-level MLLMs have been a promising step. However,\nprevious attempts are generally optimized to understand given regions in\nisolation, neglecting crucial global contexts. To address this, we introduce\nGrasp Any Region (GAR) for comprehen- sive region-level visual understanding.\nEmpowered by an effective RoI-aligned feature replay technique, GAR supports\n(1) precise perception by leveraging necessary global contexts, and (2)\nmodeling interactions between multiple prompts. Together, it then naturally\nachieves (3) advanced compositional reasoning to answer specific free-form\nquestions about any region, shifting the paradigm from passive description to\nactive dialogue. Moreover, we construct GAR-Bench, which not only provides a\nmore accurate evaluation of single-region comprehension, but also, more\nimportantly, measures interactions and complex reasoning across multiple\nregions. Extensive experiments have demonstrated that GAR-1B not only maintains\nthe state-of-the-art captioning capabilities, e.g., outperforming DAM-3B +4.5\non DLC-Bench, but also excels at modeling relationships between multiple\nprompts with advanced comprehension capabilities, even surpassing InternVL3-78B\non GAR-Bench-VQA. More importantly, our zero-shot GAR-8B even outperforms\nin-domain VideoRefer-7B on VideoRefer-BenchQ, indicating its strong\ncapabilities can be easily transferred to videos.",
+      "upvotes": 6,
+      "discussionId": "68f837957669bcaeecce0bf1",
+      "githubRepo": "https://github.com/Haochen-Wang409/Grasp-Any-Region",
+      "ai_summary": "Grasp Any Region (GAR) enhances region-level visual understanding by integrating global contexts and modeling interactions, achieving advanced reasoning and outperforming existing models in captioning and video reference tasks.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "Region-level MLLMs",
+        "Grasp Any Region",
+        "RoI-aligned feature replay",
+        "compositional reasoning",
+        "GAR-Bench",
+        "captioning",
+        "VideoRefer"
+      ],
+      "githubStars": 3,
+      "organization": {
+        "_id": "653b817d32c97d0655575872",
+        "name": "ByteDance",
+        "fullname": "ByteDance",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+      }
+    },
+    "publishedAt": "2025-10-21T13:59:59.000Z",
+    "title": "Grasp Any Region: Towards Precise, Contextual Pixel Understanding for\n  Multimodal LLMs",
+    "summary": "While Multimodal Large Language Models (MLLMs) excel at holistic\nunderstanding, they struggle in capturing the dense world with complex scenes,\nrequiring fine-grained analysis of intricate details and object\ninter-relationships. Region-level MLLMs have been a promising step. However,\nprevious attempts are generally optimized to understand given regions in\nisolation, neglecting crucial global contexts. To address this, we introduce\nGrasp Any Region (GAR) for comprehen- sive region-level visual understanding.\nEmpowered by an effective RoI-aligned feature replay technique, GAR supports\n(1) precise perception by leveraging necessary global contexts, and (2)\nmodeling interactions between multiple prompts. Together, it then naturally\nachieves (3) advanced compositional reasoning to answer specific free-form\nquestions about any region, shifting the paradigm from passive description to\nactive dialogue. Moreover, we construct GAR-Bench, which not only provides a\nmore accurate evaluation of single-region comprehension, but also, more\nimportantly, measures interactions and complex reasoning across multiple\nregions. Extensive experiments have demonstrated that GAR-1B not only maintains\nthe state-of-the-art captioning capabilities, e.g., outperforming DAM-3B +4.5\non DLC-Bench, but also excels at modeling relationships between multiple\nprompts with advanced comprehension capabilities, even surpassing InternVL3-78B\non GAR-Bench-VQA. More importantly, our zero-shot GAR-8B even outperforms\nin-domain VideoRefer-7B on VideoRefer-BenchQ, indicating its strong\ncapabilities can be easily transferred to videos.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.18876.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 134
+    },
+    "organization": {
+      "_id": "653b817d32c97d0655575872",
+      "name": "ByteDance",
+      "fullname": "ByteDance",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.16880",
+      "authors": [
+        {
+          "_id": "68f839d57669bcaeecce0cbe",
+          "name": "Weida Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cbf",
+          "name": "Benteng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc0",
+          "name": "Di Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc1",
+          "name": "Wanhao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc2",
+          "name": "Shuchen Pu",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc3",
+          "name": "Ben Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc4",
+          "name": "Jin Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc5",
+          "name": "Lei Bai",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc6",
+          "name": "Wanli Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc7",
+          "name": "Xiaoyong Wei",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc8",
+          "name": "Tianshu Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cc9",
+          "name": "Tianfan Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cca",
+          "name": "Shuzhou Sun",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0ccb",
+          "name": "Jiatong Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0ccc",
+          "name": "Zifu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0ccd",
+          "name": "Yuqiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f839d57669bcaeecce0cce",
+          "name": "Shufei Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-19T15:27:13.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:28:55.434Z",
+      "title": "Chem-R: Learning to Reason as a Chemist",
+      "submittedOnDailyBy": {
+        "_id": "661b9d96c153e4a0a25adc3e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/661b9d96c153e4a0a25adc3e/VRt7kCQ0KdJp-lhPLOajO.jpeg",
+        "isPro": false,
+        "fullname": "Weida Wang",
+        "user": "weidawang",
+        "type": "user"
+      },
+      "summary": "Although large language models (LLMs) have significant potential to advance\nchemical discovery, current LLMs lack core chemical knowledge, produce\nunreliable reasoning trajectories, and exhibit suboptimal performance across\ndiverse chemical tasks. To address these challenges, we propose Chem-R, a\ngeneralizable Chemical Reasoning model designed to emulate the deliberative\nprocesses of chemists. Chem-R is trained through a three-phase framework that\nprogressively builds advanced reasoning capabilities, including: 1) Chemical\nFoundation Training, which establishes core chemical knowledge. 2) Chemical\nReasoning Protocol Distillation, incorporating structured, expert-like\nreasoning traces to guide systematic and reliable problem solving. 3)\nMulti-task Group Relative Policy Optimization that optimizes the model for\nbalanced performance across diverse molecular- and reaction-level tasks. This\nstructured pipeline enables Chem-R to achieve state-of-the-art performance on\ncomprehensive benchmarks, surpassing leading large language models, including\nGemini-2.5-Pro and DeepSeek-R1, by up to 46% on molecular tasks and 66% on\nreaction tasks. Meanwhile, Chem-R also consistently outperforms the existing\nchemical foundation models across both molecular and reaction level tasks.\nThese results highlight Chem-R's robust generalization, interpretability, and\npotential as a foundation for next-generation AI-driven chemical discovery.",
+      "upvotes": 4,
+      "discussionId": "68f839d67669bcaeecce0ccf",
+      "githubRepo": "https://github.com/davidweidawang/Chem-R",
+      "ai_summary": "Chem-R, a three-phase trained Chemical Reasoning model, achieves superior performance on chemical tasks by integrating core knowledge, expert reasoning, and multi-task optimization.",
+      "ai_keywords": [
+        "Chem-R",
+        "Chemical Foundation Training",
+        "Chemical Reasoning Protocol Distillation",
+        "Multi-task Group Relative Policy Optimization",
+        "state-of-the-art performance",
+        "molecular tasks",
+        "reaction tasks",
+        "Gemini-2.5-Pro",
+        "DeepSeek-R1",
+        "robust generalization",
+        "interpretability"
+      ],
+      "githubStars": 3,
+      "organization": {
+        "_id": "6747ee5decec679eafb90450",
+        "name": "ShanghaiAiLab",
+        "fullname": "shanghai ailab "
+      }
+    },
+    "publishedAt": "2025-10-19T11:27:13.000Z",
+    "title": "Chem-R: Learning to Reason as a Chemist",
+    "summary": "Although large language models (LLMs) have significant potential to advance\nchemical discovery, current LLMs lack core chemical knowledge, produce\nunreliable reasoning trajectories, and exhibit suboptimal performance across\ndiverse chemical tasks. To address these challenges, we propose Chem-R, a\ngeneralizable Chemical Reasoning model designed to emulate the deliberative\nprocesses of chemists. Chem-R is trained through a three-phase framework that\nprogressively builds advanced reasoning capabilities, including: 1) Chemical\nFoundation Training, which establishes core chemical knowledge. 2) Chemical\nReasoning Protocol Distillation, incorporating structured, expert-like\nreasoning traces to guide systematic and reliable problem solving. 3)\nMulti-task Group Relative Policy Optimization that optimizes the model for\nbalanced performance across diverse molecular- and reaction-level tasks. This\nstructured pipeline enables Chem-R to achieve state-of-the-art performance on\ncomprehensive benchmarks, surpassing leading large language models, including\nGemini-2.5-Pro and DeepSeek-R1, by up to 46% on molecular tasks and 66% on\nreaction tasks. Meanwhile, Chem-R also consistently outperforms the existing\nchemical foundation models across both molecular and reaction level tasks.\nThese results highlight Chem-R's robust generalization, interpretability, and\npotential as a foundation for next-generation AI-driven chemical discovery.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.16880.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "661b9d96c153e4a0a25adc3e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/661b9d96c153e4a0a25adc3e/VRt7kCQ0KdJp-lhPLOajO.jpeg",
+      "fullname": "Weida Wang",
+      "name": "weidawang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 0
+    },
+    "organization": {
+      "_id": "6747ee5decec679eafb90450",
+      "name": "ShanghaiAiLab",
+      "fullname": "shanghai ailab "
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.18692",
+      "authors": [
+        {
+          "_id": "68f839b57669bcaeecce0cb3",
+          "name": "Weinan Jia",
+          "hidden": false
+        },
+        {
+          "_id": "68f839b57669bcaeecce0cb4",
+          "name": "Yuning Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68f839b57669bcaeecce0cb5",
+          "name": "Mengqi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839b57669bcaeecce0cb6",
+          "name": "Hualiang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839b57669bcaeecce0cb7",
+          "name": "Binyuan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839b57669bcaeecce0cb8",
+          "name": "Nan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68f839b57669bcaeecce0cb9",
+          "name": "Mu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f839b57669bcaeecce0cba",
+          "name": "Jidong Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839b57669bcaeecce0cbb",
+          "name": "Zhendong Mao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-21T14:50:42.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:26:18.559Z",
+      "title": "MoGA: Mixture-of-Groups Attention for End-to-End Long Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Long video generation with Diffusion Transformers (DiTs) is bottlenecked by\nthe quadratic scaling of full attention with sequence length. Since attention\nis highly redundant, outputs are dominated by a small subset of query-key\npairs. Existing sparse methods rely on blockwise coarse estimation, whose\naccuracy-efficiency trade-offs are constrained by block size. This paper\nintroduces Mixture-of-Groups Attention (MoGA), an efficient sparse attention\nthat uses a lightweight, learnable token router to precisely match tokens\nwithout blockwise estimation. Through semantic-aware routing, MoGA enables\neffective long-range interactions. As a kernel-free method, MoGA integrates\nseamlessly with modern attention stacks, including FlashAttention and sequence\nparallelism. Building on MoGA, we develop an efficient long video generation\nmodel that end-to-end produces minute-level, multi-shot, 480p videos at 24 fps,\nwith a context length of approximately 580k. Comprehensive experiments on\nvarious video generation tasks validate the effectiveness of our approach.",
+      "upvotes": 2,
+      "discussionId": "68f839b67669bcaeecce0cbc",
+      "ai_summary": "Mixture-of-Groups Attention (MoGA) enables efficient long video generation by addressing the quadratic scaling issue of full attention in Diffusion Transformers.",
+      "ai_keywords": [
+        "Diffusion Transformers",
+        "DiTs",
+        "full attention",
+        "sequence length",
+        "sparse attention",
+        "token router",
+        "semantic-aware routing",
+        "kernel-free method",
+        "FlashAttention",
+        "sequence parallelism",
+        "long video generation",
+        "minute-level",
+        "multi-shot",
+        "480p",
+        "24 fps",
+        "context length"
+      ],
+      "organization": {
+        "_id": "653b817d32c97d0655575872",
+        "name": "ByteDance",
+        "fullname": "ByteDance",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+      }
+    },
+    "publishedAt": "2025-10-21T10:50:42.000Z",
+    "title": "MoGA: Mixture-of-Groups Attention for End-to-End Long Video Generation",
+    "summary": "Long video generation with Diffusion Transformers (DiTs) is bottlenecked by\nthe quadratic scaling of full attention with sequence length. Since attention\nis highly redundant, outputs are dominated by a small subset of query-key\npairs. Existing sparse methods rely on blockwise coarse estimation, whose\naccuracy-efficiency trade-offs are constrained by block size. This paper\nintroduces Mixture-of-Groups Attention (MoGA), an efficient sparse attention\nthat uses a lightweight, learnable token router to precisely match tokens\nwithout blockwise estimation. Through semantic-aware routing, MoGA enables\neffective long-range interactions. As a kernel-free method, MoGA integrates\nseamlessly with modern attention stacks, including FlashAttention and sequence\nparallelism. Building on MoGA, we develop an efficient long video generation\nmodel that end-to-end produces minute-level, multi-shot, 480p videos at 24 fps,\nwith a context length of approximately 580k. Comprehensive experiments on\nvarious video generation tasks validate the effectiveness of our approach.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.18692.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 134
+    },
+    "organization": {
+      "_id": "653b817d32c97d0655575872",
+      "name": "ByteDance",
+      "fullname": "ByteDance",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.18775",
+      "authors": [
+        {
+          "_id": "68f838e87669bcaeecce0c79",
+          "name": "Teng Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68f838e87669bcaeecce0c7a",
+          "name": "Jiangning Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f838e87669bcaeecce0c7b",
+          "name": "Zihan Su",
+          "hidden": false
+        },
+        {
+          "_id": "68f838e87669bcaeecce0c7c",
+          "name": "Ran Yi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-21T16:23:21.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:24:14.336Z",
+      "title": "UltraGen: High-Resolution Video Generation with Hierarchical Attention",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advances in video generation have made it possible to produce visually\ncompelling videos, with wide-ranging applications in content creation,\nentertainment, and virtual reality. However, most existing diffusion\ntransformer based video generation models are limited to low-resolution outputs\n(<=720P) due to the quadratic computational complexity of the attention\nmechanism with respect to the output width and height. This computational\nbottleneck makes native high-resolution video generation (1080P/2K/4K)\nimpractical for both training and inference. To address this challenge, we\npresent UltraGen, a novel video generation framework that enables i) efficient\nand ii) end-to-end native high-resolution video synthesis. Specifically,\nUltraGen features a hierarchical dual-branch attention architecture based on\nglobal-local attention decomposition, which decouples full attention into a\nlocal attention branch for high-fidelity regional content and a global\nattention branch for overall semantic consistency. We further propose a\nspatially compressed global modeling strategy to efficiently learn global\ndependencies, and a hierarchical cross-window local attention mechanism to\nreduce computational costs while enhancing information flow across different\nlocal windows. Extensive experiments demonstrate that UltraGen can effectively\nscale pre-trained low-resolution video models to 1080P and even 4K resolution\nfor the first time, outperforming existing state-of-the-art methods and\nsuper-resolution based two-stage pipelines in both qualitative and quantitative\nevaluations.",
+      "upvotes": 1,
+      "discussionId": "68f838e87669bcaeecce0c7d",
+      "projectPage": "https://sjtuplayer.github.io/projects/UltraGen/",
+      "ai_summary": "UltraGen, a novel video generation framework, enables efficient high-resolution video synthesis using a hierarchical dual-branch attention architecture and spatially compressed global modeling.",
+      "ai_keywords": [
+        "diffusion transformer",
+        "video generation",
+        "low-resolution",
+        "high-resolution",
+        "attention mechanism",
+        "computational complexity",
+        "global-local attention decomposition",
+        "local attention",
+        "global attention",
+        "spatially compressed global modeling",
+        "hierarchical cross-window local attention",
+        "pre-trained models",
+        "super-resolution",
+        "two-stage pipelines"
+      ]
+    },
+    "publishedAt": "2025-10-21T12:23:21.000Z",
+    "title": "UltraGen: High-Resolution Video Generation with Hierarchical Attention",
+    "summary": "Recent advances in video generation have made it possible to produce visually\ncompelling videos, with wide-ranging applications in content creation,\nentertainment, and virtual reality. However, most existing diffusion\ntransformer based video generation models are limited to low-resolution outputs\n(<=720P) due to the quadratic computational complexity of the attention\nmechanism with respect to the output width and height. This computational\nbottleneck makes native high-resolution video generation (1080P/2K/4K)\nimpractical for both training and inference. To address this challenge, we\npresent UltraGen, a novel video generation framework that enables i) efficient\nand ii) end-to-end native high-resolution video synthesis. Specifically,\nUltraGen features a hierarchical dual-branch attention architecture based on\nglobal-local attention decomposition, which decouples full attention into a\nlocal attention branch for high-fidelity regional content and a global\nattention branch for overall semantic consistency. We further propose a\nspatially compressed global modeling strategy to efficiently learn global\ndependencies, and a hierarchical cross-window local attention mechanism to\nreduce computational costs while enhancing information flow across different\nlocal windows. Extensive experiments demonstrate that UltraGen can effectively\nscale pre-trained low-resolution video models to 1080P and even 4K resolution\nfor the first time, outperforming existing state-of-the-art methods and\nsuper-resolution based two-stage pipelines in both qualitative and quantitative\nevaluations.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.18775.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 134
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.18726",
+      "authors": [
+        {
+          "_id": "68f8390e7669bcaeecce0c7f",
+          "name": "Shihao Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c80",
+          "name": "Yuanxing Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c81",
+          "name": "Jiangtao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c82",
+          "name": "Zhide Lei",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c83",
+          "name": "Yiwen He",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c84",
+          "name": "Runzhe Wen",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c85",
+          "name": "Chenxi Liao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c86",
+          "name": "Chengkang Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c87",
+          "name": "An Ping",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c88",
+          "name": "Shuo Gao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c89",
+          "name": "Suhan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c8a",
+          "name": "Zhaozhou Bian",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c8b",
+          "name": "Zijun Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c8c",
+          "name": "Jingyi Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c8d",
+          "name": "Jiayi Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c8e",
+          "name": "Jing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c8f",
+          "name": "Yifan Yao",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c90",
+          "name": "Weihao Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c91",
+          "name": "Yingshui Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c92",
+          "name": "Yanghai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c93",
+          "name": "Qianqian Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c94",
+          "name": "Zhaoxiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f8390e7669bcaeecce0c95",
+          "name": "Jiaheng Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-21T15:25:08.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:24:02.796Z",
+      "title": "IF-VidCap: Can Video Caption Models Follow Instructions?",
+      "submittedOnDailyBy": {
+        "_id": "65377c30e48353201e6fdda0",
+        "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+        "isPro": false,
+        "fullname": "Jiaheng Liu",
+        "user": "CheeryLJH",
+        "type": "user"
+      },
+      "summary": "Although Multimodal Large Language Models (MLLMs) have demonstrated\nproficiency in video captioning, practical applications require captions that\nfollow specific user instructions rather than generating exhaustive,\nunconstrained descriptions. Current benchmarks, however, primarily assess\ndescriptive comprehensiveness while largely overlooking instruction-following\ncapabilities. To address this gap, we introduce IF-VidCap, a new benchmark for\nevaluating controllable video captioning, which contains 1,400 high-quality\nsamples. Distinct from existing video captioning or general\ninstruction-following benchmarks, IF-VidCap incorporates a systematic framework\nthat assesses captions on two dimensions: format correctness and content\ncorrectness. Our comprehensive evaluation of over 20 prominent models reveals a\nnuanced landscape: despite the continued dominance of proprietary models, the\nperformance gap is closing, with top-tier open-source solutions now achieving\nnear-parity. Furthermore, we find that models specialized for dense captioning\nunderperform general-purpose MLLMs on complex instructions, indicating that\nfuture work should simultaneously advance both descriptive richness and\ninstruction-following fidelity.",
+      "upvotes": 1,
+      "discussionId": "68f8390e7669bcaeecce0c96",
+      "projectPage": "https://if-vidcap.github.io/",
+      "githubRepo": "https://github.com/NJU-LINK/IF-VidCap",
+      "ai_summary": "A new benchmark, IF-VidCap, evaluates video captioning models on instruction-following capabilities, revealing that top-tier open-source models are closing the performance gap with proprietary models.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "MLLMs",
+        "video captioning",
+        "instruction-following",
+        "benchmark",
+        "format correctness",
+        "content correctness",
+        "dense captioning",
+        "general-purpose MLLMs"
+      ],
+      "githubStars": 3,
+      "organization": {
+        "_id": "68edc767abe005ac1b354573",
+        "name": "NJU-LINK",
+        "fullname": "NJU-LINK Lab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+      }
+    },
+    "publishedAt": "2025-10-21T11:25:08.000Z",
+    "title": "IF-VidCap: Can Video Caption Models Follow Instructions?",
+    "summary": "Although Multimodal Large Language Models (MLLMs) have demonstrated\nproficiency in video captioning, practical applications require captions that\nfollow specific user instructions rather than generating exhaustive,\nunconstrained descriptions. Current benchmarks, however, primarily assess\ndescriptive comprehensiveness while largely overlooking instruction-following\ncapabilities. To address this gap, we introduce IF-VidCap, a new benchmark for\nevaluating controllable video captioning, which contains 1,400 high-quality\nsamples. Distinct from existing video captioning or general\ninstruction-following benchmarks, IF-VidCap incorporates a systematic framework\nthat assesses captions on two dimensions: format correctness and content\ncorrectness. Our comprehensive evaluation of over 20 prominent models reveals a\nnuanced landscape: despite the continued dominance of proprietary models, the\nperformance gap is closing, with top-tier open-source solutions now achieving\nnear-parity. Furthermore, we find that models specialized for dense captioning\nunderperform general-purpose MLLMs on complex instructions, indicating that\nfuture work should simultaneously advance both descriptive richness and\ninstruction-following fidelity.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.18726.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65377c30e48353201e6fdda0",
+      "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+      "fullname": "Jiaheng Liu",
+      "name": "CheeryLJH",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 20
+    },
+    "organization": {
+      "_id": "68edc767abe005ac1b354573",
+      "name": "NJU-LINK",
+      "fullname": "NJU-LINK Lab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.17722",
+      "authors": [
+        {
+          "_id": "68f6f0d624c4489363111882",
+          "name": "Yaning Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c4489363111883",
+          "name": "Zekun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c4489363111884",
+          "name": "Qianqian Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c4489363111885",
+          "name": "Yongqian Wen",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c4489363111886",
+          "name": "Yuanxing Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c4489363111887",
+          "name": "Guohui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c4489363111888",
+          "name": "Haoxuan Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c4489363111889",
+          "name": "Zhiyu Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c448936311188a",
+          "name": "Yibing Huang",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c448936311188b",
+          "name": "Zhidong Gan",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c448936311188c",
+          "name": "Yonghong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c448936311188d",
+          "name": "An Ping",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c448936311188e",
+          "name": "Tianhao Peng",
+          "hidden": false
+        },
+        {
+          "_id": "68f6f0d624c448936311188f",
+          "name": "Jiaheng Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-20T16:38:40.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:24:54.221Z",
+      "title": "MT-Video-Bench: A Holistic Video Understanding Benchmark for Evaluating\n  Multimodal LLMs in Multi-Turn Dialogues",
+      "submittedOnDailyBy": {
+        "_id": "65377c30e48353201e6fdda0",
+        "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+        "isPro": false,
+        "fullname": "Jiaheng Liu",
+        "user": "CheeryLJH",
+        "type": "user"
+      },
+      "summary": "The recent development of Multimodal Large Language Models (MLLMs) has\nsignificantly advanced AI's ability to understand visual modalities. However,\nexisting evaluation benchmarks remain limited to single-turn question\nanswering, overlooking the complexity of multi-turn dialogues in real-world\nscenarios. To bridge this gap, we introduce MT-Video-Bench, a holistic video\nunderstanding benchmark for evaluating MLLMs in multi-turn dialogues.\nSpecifically, our MT-Video-Bench mainly assesses six core competencies that\nfocus on perceptivity and interactivity, encompassing 987 meticulously curated\nmulti-turn dialogues from diverse domains. These capabilities are rigorously\naligned with real-world applications, such as interactive sports analysis and\nmulti-turn video-based intelligent tutoring. With MT-Video-Bench, we\nextensively evaluate various state-of-the-art open-source and closed-source\nMLLMs, revealing their significant performance discrepancies and limitations in\nhandling multi-turn video dialogues. The benchmark will be publicly available\nto foster future research.",
+      "upvotes": 1,
+      "discussionId": "68f6f0d624c4489363111890",
+      "projectPage": "https://mt-video-bench.github.io/",
+      "githubRepo": "https://github.com/NJU-LINK/MT-Video-Bench",
+      "ai_summary": "MT-Video-Bench evaluates MLLMs in multi-turn video dialogues, assessing perceptivity and interactivity across diverse domains.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "MLLMs",
+        "video understanding benchmark",
+        "multi-turn dialogues",
+        "perceptivity",
+        "interactivity",
+        "interactive sports analysis",
+        "multi-turn video-based intelligent tutoring"
+      ],
+      "githubStars": 4,
+      "organization": {
+        "_id": "68edc767abe005ac1b354573",
+        "name": "NJU-LINK",
+        "fullname": "NJU-LINK Lab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+      }
+    },
+    "publishedAt": "2025-10-20T12:38:40.000Z",
+    "title": "MT-Video-Bench: A Holistic Video Understanding Benchmark for Evaluating\n  Multimodal LLMs in Multi-Turn Dialogues",
+    "summary": "The recent development of Multimodal Large Language Models (MLLMs) has\nsignificantly advanced AI's ability to understand visual modalities. However,\nexisting evaluation benchmarks remain limited to single-turn question\nanswering, overlooking the complexity of multi-turn dialogues in real-world\nscenarios. To bridge this gap, we introduce MT-Video-Bench, a holistic video\nunderstanding benchmark for evaluating MLLMs in multi-turn dialogues.\nSpecifically, our MT-Video-Bench mainly assesses six core competencies that\nfocus on perceptivity and interactivity, encompassing 987 meticulously curated\nmulti-turn dialogues from diverse domains. These capabilities are rigorously\naligned with real-world applications, such as interactive sports analysis and\nmulti-turn video-based intelligent tutoring. With MT-Video-Bench, we\nextensively evaluate various state-of-the-art open-source and closed-source\nMLLMs, revealing their significant performance discrepancies and limitations in\nhandling multi-turn video dialogues. The benchmark will be publicly available\nto foster future research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.17722.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65377c30e48353201e6fdda0",
+      "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+      "fullname": "Jiaheng Liu",
+      "name": "CheeryLJH",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 20
+    },
+    "organization": {
+      "_id": "68edc767abe005ac1b354573",
+      "name": "NJU-LINK",
+      "fullname": "NJU-LINK Lab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.18701",
+      "authors": [
+        {
+          "_id": "68f839917669bcaeecce0c98",
+          "name": "Yibin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0c99",
+          "name": "Zhimin Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0c9a",
+          "name": "Yuhang Zang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0c9b",
+          "name": "Jiazi Bu",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0c9c",
+          "name": "Yujie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0c9d",
+          "name": "Yi Xin",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0c9e",
+          "name": "Junjun He",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0c9f",
+          "name": "Chunyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0ca0",
+          "name": "Qinglin Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0ca1",
+          "name": "Cheng Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68f839917669bcaeecce0ca2",
+          "name": "Jiaqi Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-21T14:56:46.000Z",
+      "submittedOnDailyAt": "2025-10-22T00:25:38.299Z",
+      "title": "UniGenBench++: A Unified Semantic Evaluation Benchmark for Text-to-Image\n  Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent progress in text-to-image (T2I) generation underscores the importance\nof reliable benchmarks in evaluating how accurately generated images reflect\nthe semantics of their textual prompt. However, (1) existing benchmarks lack\nthe diversity of prompt scenarios and multilingual support, both essential for\nreal-world applicability; (2) they offer only coarse evaluations across primary\ndimensions, covering a narrow range of sub-dimensions, and fall short in\nfine-grained sub-dimension assessment. To address these limitations, we\nintroduce UniGenBench++, a unified semantic assessment benchmark for T2I\ngeneration. Specifically, it comprises 600 prompts organized hierarchically to\nensure both coverage and efficiency: (1) spans across diverse real-world\nscenarios, i.e., 5 main prompt themes and 20 subthemes; (2) comprehensively\nprobes T2I models' semantic consistency over 10 primary and 27 sub evaluation\ncriteria, with each prompt assessing multiple testpoints. To rigorously assess\nmodel robustness to variations in language and prompt length, we provide both\nEnglish and Chinese versions of each prompt in short and long forms. Leveraging\nthe general world knowledge and fine-grained image understanding capabilities\nof a closed-source Multi-modal Large Language Model (MLLM), i.e.,\nGemini-2.5-Pro, an effective pipeline is developed for reliable benchmark\nconstruction and streamlined model assessment. Moreover, to further facilitate\ncommunity use, we train a robust evaluation model that enables offline\nassessment of T2I model outputs. Through comprehensive benchmarking of both\nopen- and closed-sourced T2I models, we systematically reveal their strengths\nand weaknesses across various aspects.",
+      "upvotes": 0,
+      "discussionId": "68f839917669bcaeecce0ca3",
+      "projectPage": "https://codegoat24.github.io/UniGenBench/",
+      "githubRepo": "https://github.com/CodeGoat24/UniGenBench",
+      "ai_summary": "UniGenBench++ is a comprehensive benchmark for text-to-image generation that evaluates semantic consistency across diverse scenarios and languages using a hierarchical prompt structure and a robust evaluation pipeline.",
+      "ai_keywords": [
+        "text-to-image generation",
+        "semantic assessment",
+        "benchmark",
+        "prompt scenarios",
+        "multilingual support",
+        "semantic consistency",
+        "evaluation criteria",
+        "Multi-modal Large Language Model",
+        "MLLM",
+        "Gemini-2.5-Pro",
+        "offline assessment"
+      ],
+      "githubStars": 58
+    },
+    "publishedAt": "2025-10-21T10:56:46.000Z",
+    "title": "UniGenBench++: A Unified Semantic Evaluation Benchmark for Text-to-Image\n  Generation",
+    "summary": "Recent progress in text-to-image (T2I) generation underscores the importance\nof reliable benchmarks in evaluating how accurately generated images reflect\nthe semantics of their textual prompt. However, (1) existing benchmarks lack\nthe diversity of prompt scenarios and multilingual support, both essential for\nreal-world applicability; (2) they offer only coarse evaluations across primary\ndimensions, covering a narrow range of sub-dimensions, and fall short in\nfine-grained sub-dimension assessment. To address these limitations, we\nintroduce UniGenBench++, a unified semantic assessment benchmark for T2I\ngeneration. Specifically, it comprises 600 prompts organized hierarchically to\nensure both coverage and efficiency: (1) spans across diverse real-world\nscenarios, i.e., 5 main prompt themes and 20 subthemes; (2) comprehensively\nprobes T2I models' semantic consistency over 10 primary and 27 sub evaluation\ncriteria, with each prompt assessing multiple testpoints. To rigorously assess\nmodel robustness to variations in language and prompt length, we provide both\nEnglish and Chinese versions of each prompt in short and long forms. Leveraging\nthe general world knowledge and fine-grained image understanding capabilities\nof a closed-source Multi-modal Large Language Model (MLLM), i.e.,\nGemini-2.5-Pro, an effective pipeline is developed for reliable benchmark\nconstruction and streamlined model assessment. Moreover, to further facilitate\ncommunity use, we train a robust evaluation model that enables offline\nassessment of T2I model outputs. Through comprehensive benchmarking of both\nopen- and closed-sourced T2I models, we systematically reveal their strengths\nand weaknesses across various aspects.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.18701.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 134
+    },
+    "isAuthorParticipating": false
+  }
+]
