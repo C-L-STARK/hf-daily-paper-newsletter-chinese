@@ -1,0 +1,736 @@
+[
+  {
+    "paper": {
+      "id": "2510.19304",
+      "authors": [
+        {
+          "_id": "68fa31fef158a71c5a2f5608",
+          "user": {
+            "_id": "64c37ee87d89024360937d81",
+            "avatarUrl": "/avatars/cc9733b0862bbdca5e00f61a7ff7bb94.svg",
+            "isPro": false,
+            "fullname": "mingyu jo",
+            "user": "jojo0217",
+            "type": "user"
+          },
+          "name": "Mingyu Jo",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-24T01:07:20.272Z",
+          "hidden": false
+        },
+        {
+          "_id": "68fa31fef158a71c5a2f5609",
+          "name": "Jaesik Yoon",
+          "hidden": false
+        },
+        {
+          "_id": "68fa31fef158a71c5a2f560a",
+          "name": "Justin Deschenaux",
+          "hidden": false
+        },
+        {
+          "_id": "68fa31fef158a71c5a2f560b",
+          "name": "Caglar Gulcehre",
+          "hidden": false
+        },
+        {
+          "_id": "68fa31fef158a71c5a2f560c",
+          "name": "Sungjin Ahn",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-22T07:08:47.000Z",
+      "submittedOnDailyAt": "2025-10-24T00:27:36.960Z",
+      "title": "Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall",
+      "submittedOnDailyBy": {
+        "_id": "64c37ee87d89024360937d81",
+        "avatarUrl": "/avatars/cc9733b0862bbdca5e00f61a7ff7bb94.svg",
+        "isPro": false,
+        "fullname": "mingyu jo",
+        "user": "jojo0217",
+        "type": "user"
+      },
+      "summary": "Discrete diffusion models offer a promising alternative to autoregressive\ngeneration through parallel decoding, but they suffer from a sampling wall:\nonce categorical sampling occurs, rich distributional information collapses\ninto one-hot vectors and cannot be propagated across steps, forcing subsequent\nsteps to operate with limited information. To mitigate this problem, we\nintroduce Loopholing, a novel and simple mechanism that preserves this\ninformation via a deterministic latent pathway, leading to Loopholing Discrete\nDiffusion Models (LDDMs). Trained efficiently with a self-conditioning\nstrategy, LDDMs achieve substantial gains-reducing generative perplexity by up\nto 61% over prior baselines, closing (and in some cases surpassing) the gap\nwith autoregressive models, and producing more coherent text. Applied to\nreasoning tasks, LDDMs also improve performance on arithmetic benchmarks such\nas Countdown and Game of 24. These results also indicate that loopholing\nmitigates idle steps and oscillations, providing a scalable path toward\nhigh-quality non-autoregressive text generation.",
+      "upvotes": 8,
+      "discussionId": "68fa31fef158a71c5a2f560d",
+      "ai_summary": "Loopholing Discrete Diffusion Models (LDDMs) enhance text generation by preserving distributional information through a deterministic latent pathway, reducing perplexity and improving coherence and performance on reasoning tasks.",
+      "ai_keywords": [
+        "discrete diffusion models",
+        "parallel decoding",
+        "sampling wall",
+        "one-hot vectors",
+        "Loopholing",
+        "deterministic latent pathway",
+        "Loopholing Discrete Diffusion Models (LDDMs)",
+        "self-conditioning strategy",
+        "generative perplexity",
+        "autoregressive models",
+        "coherent text",
+        "arithmetic benchmarks",
+        "Countdown",
+        "Game of 24",
+        "idle steps",
+        "oscillations",
+        "non-autoregressive text generation"
+      ]
+    },
+    "publishedAt": "2025-10-22T03:08:47.000Z",
+    "title": "Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall",
+    "summary": "Discrete diffusion models offer a promising alternative to autoregressive\ngeneration through parallel decoding, but they suffer from a sampling wall:\nonce categorical sampling occurs, rich distributional information collapses\ninto one-hot vectors and cannot be propagated across steps, forcing subsequent\nsteps to operate with limited information. To mitigate this problem, we\nintroduce Loopholing, a novel and simple mechanism that preserves this\ninformation via a deterministic latent pathway, leading to Loopholing Discrete\nDiffusion Models (LDDMs). Trained efficiently with a self-conditioning\nstrategy, LDDMs achieve substantial gains-reducing generative perplexity by up\nto 61% over prior baselines, closing (and in some cases surpassing) the gap\nwith autoregressive models, and producing more coherent text. Applied to\nreasoning tasks, LDDMs also improve performance on arithmetic benchmarks such\nas Countdown and Game of 24. These results also indicate that loopholing\nmitigates idle steps and oscillations, providing a scalable path toward\nhigh-quality non-autoregressive text generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.19304.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64c37ee87d89024360937d81",
+      "avatarUrl": "/avatars/cc9733b0862bbdca5e00f61a7ff7bb94.svg",
+      "fullname": "mingyu jo",
+      "name": "jojo0217",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2510.20187",
+      "authors": [
+        {
+          "_id": "68fad821f158a71c5a2f57f4",
+          "name": "Dian Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68fad821f158a71c5a2f57f5",
+          "name": "Yulai Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68fad821f158a71c5a2f57f6",
+          "name": "Kishan Panaganti",
+          "hidden": false
+        },
+        {
+          "_id": "68fad821f158a71c5a2f57f7",
+          "name": "Linfeng Song",
+          "hidden": false
+        },
+        {
+          "_id": "68fad821f158a71c5a2f57f8",
+          "name": "Haitao Mi",
+          "hidden": false
+        },
+        {
+          "_id": "68fad821f158a71c5a2f57f9",
+          "name": "Dong Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T04:15:22.000Z",
+      "submittedOnDailyAt": "2025-10-24T00:18:52.427Z",
+      "title": "Every Question Has Its Own Value: Reinforcement Learning with Explicit\n  Human Values",
+      "submittedOnDailyBy": {
+        "_id": "62d58fd53bf5e059f7cc3245",
+        "avatarUrl": "/avatars/7a4f3ee4a37245f67efd26749d66a706.svg",
+        "isPro": false,
+        "fullname": "Dian Yu",
+        "user": "yudian",
+        "type": "user"
+      },
+      "summary": "We propose Reinforcement Learning with Explicit Human Values (RLEV), a method\nthat aligns Large Language Model (LLM) optimization directly with quantifiable\nhuman value signals. While Reinforcement Learning with Verifiable Rewards\n(RLVR) effectively trains models in objective domains using binary correctness\nrewards, it overlooks that not all tasks are equally significant. RLEV extends\nthis framework by incorporating human-defined value signals directly into the\nreward function. Using exam-style data with explicit ground-truth value labels,\nRLEV consistently outperforms correctness-only baselines across multiple RL\nalgorithms and model scales. Crucially, RLEV policies not only improve\nvalue-weighted accuracy but also learn a value-sensitive termination policy:\nconcise for low-value prompts, thorough for high-value ones. We demonstrate\nthis behavior stems from value-weighted gradient amplification on\nend-of-sequence tokens. Ablation studies confirm the gain is causally linked to\nvalue alignment. RLEV remains robust under noisy value signals, such as\ndifficulty-based labels, demonstrating that optimizing for an explicit utility\nfunction offers a practical path to aligning LLMs with human priorities.",
+      "upvotes": 7,
+      "discussionId": "68fad821f158a71c5a2f57fa",
+      "ai_summary": "RLEV, a reinforcement learning method, aligns LLM optimization with human value signals, improving value-weighted accuracy and learning value-sensitive termination policies.",
+      "ai_keywords": [
+        "Reinforcement Learning with Explicit Human Values (RLEV)",
+        "Large Language Model (LLM)",
+        "Reinforcement Learning with Verifiable Rewards (RLVR)",
+        "value signals",
+        "reward function",
+        "exam-style data",
+        "value-weighted accuracy",
+        "value-sensitive termination policy",
+        "gradient amplification",
+        "end-of-sequence tokens",
+        "ablation studies",
+        "value alignment",
+        "noisy value signals",
+        "utility function"
+      ],
+      "organization": {
+        "_id": "66543b6e420092799d2f625c",
+        "name": "tencent",
+        "fullname": "Tencent",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+      }
+    },
+    "publishedAt": "2025-10-23T00:15:22.000Z",
+    "title": "Every Question Has Its Own Value: Reinforcement Learning with Explicit\n  Human Values",
+    "summary": "We propose Reinforcement Learning with Explicit Human Values (RLEV), a method\nthat aligns Large Language Model (LLM) optimization directly with quantifiable\nhuman value signals. While Reinforcement Learning with Verifiable Rewards\n(RLVR) effectively trains models in objective domains using binary correctness\nrewards, it overlooks that not all tasks are equally significant. RLEV extends\nthis framework by incorporating human-defined value signals directly into the\nreward function. Using exam-style data with explicit ground-truth value labels,\nRLEV consistently outperforms correctness-only baselines across multiple RL\nalgorithms and model scales. Crucially, RLEV policies not only improve\nvalue-weighted accuracy but also learn a value-sensitive termination policy:\nconcise for low-value prompts, thorough for high-value ones. We demonstrate\nthis behavior stems from value-weighted gradient amplification on\nend-of-sequence tokens. Ablation studies confirm the gain is causally linked to\nvalue alignment. RLEV remains robust under noisy value signals, such as\ndifficulty-based labels, demonstrating that optimizing for an explicit utility\nfunction offers a practical path to aligning LLMs with human priorities.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20187.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62d58fd53bf5e059f7cc3245",
+      "avatarUrl": "/avatars/7a4f3ee4a37245f67efd26749d66a706.svg",
+      "fullname": "Dian Yu",
+      "name": "yudian",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5
+    },
+    "organization": {
+      "_id": "66543b6e420092799d2f625c",
+      "name": "tencent",
+      "fullname": "Tencent",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.20822",
+      "authors": [
+        {
+          "_id": "68fada12f158a71c5a2f5804",
+          "name": "Yihao Meng",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f5805",
+          "name": "Hao Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f5806",
+          "name": "Yue Yu",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f5807",
+          "name": "Qiuyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f5808",
+          "name": "Wen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f5809",
+          "name": "Ka Leong Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f580a",
+          "name": "Hanlin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f580b",
+          "name": "Yixuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f580c",
+          "name": "Cheng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f580d",
+          "name": "Yanhong Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f580e",
+          "name": "Yujun Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68fada12f158a71c5a2f580f",
+          "name": "Huamin Qu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T17:59:59.000Z",
+      "submittedOnDailyAt": "2025-10-24T00:15:58.230Z",
+      "title": "HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video\n  Narratives",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "State-of-the-art text-to-video models excel at generating isolated clips but\nfall short of creating the coherent, multi-shot narratives, which are the\nessence of storytelling. We bridge this \"narrative gap\" with HoloCine, a model\nthat generates entire scenes holistically to ensure global consistency from the\nfirst shot to the last. Our architecture achieves precise directorial control\nthrough a Window Cross-Attention mechanism that localizes text prompts to\nspecific shots, while a Sparse Inter-Shot Self-Attention pattern (dense within\nshots but sparse between them) ensures the efficiency required for minute-scale\ngeneration. Beyond setting a new state-of-the-art in narrative coherence,\nHoloCine develops remarkable emergent abilities: a persistent memory for\ncharacters and scenes, and an intuitive grasp of cinematic techniques. Our work\nmarks a pivotal shift from clip synthesis towards automated filmmaking, making\nend-to-end cinematic creation a tangible future. Our code is available at:\nhttps://holo-cine.github.io/.",
+      "upvotes": 3,
+      "discussionId": "68fada12f158a71c5a2f5810",
+      "projectPage": "https://holo-cine.github.io",
+      "ai_summary": "HoloCine generates coherent multi-shot narratives using a Window Cross-Attention mechanism and Sparse Inter-Shot Self-Attention, enabling end-to-end cinematic creation.",
+      "ai_keywords": [
+        "Window Cross-Attention",
+        "Sparse Inter-Shot Self-Attention",
+        "text-to-video models",
+        "narrative coherence",
+        "automated filmmaking"
+      ],
+      "organization": {
+        "_id": "67c1d682826160b28f778510",
+        "name": "antgroup",
+        "fullname": "Ant Group",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/662e1f9da266499277937d33/7VcPHdLSGlged3ixK1dys.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-23T13:59:59.000Z",
+    "title": "HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video\n  Narratives",
+    "summary": "State-of-the-art text-to-video models excel at generating isolated clips but\nfall short of creating the coherent, multi-shot narratives, which are the\nessence of storytelling. We bridge this \"narrative gap\" with HoloCine, a model\nthat generates entire scenes holistically to ensure global consistency from the\nfirst shot to the last. Our architecture achieves precise directorial control\nthrough a Window Cross-Attention mechanism that localizes text prompts to\nspecific shots, while a Sparse Inter-Shot Self-Attention pattern (dense within\nshots but sparse between them) ensures the efficiency required for minute-scale\ngeneration. Beyond setting a new state-of-the-art in narrative coherence,\nHoloCine develops remarkable emergent abilities: a persistent memory for\ncharacters and scenes, and an intuitive grasp of cinematic techniques. Our work\nmarks a pivotal shift from clip synthesis towards automated filmmaking, making\nend-to-end cinematic creation a tangible future. Our code is available at:\nhttps://holo-cine.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20822.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 142
+    },
+    "organization": {
+      "_id": "67c1d682826160b28f778510",
+      "name": "antgroup",
+      "fullname": "Ant Group",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/662e1f9da266499277937d33/7VcPHdLSGlged3ixK1dys.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.20579",
+      "authors": [
+        {
+          "_id": "68fadb71f158a71c5a2f582a",
+          "name": "Jiahao Meng",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f582b",
+          "name": "Xiangtai Li",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f582c",
+          "name": "Haochen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f582d",
+          "name": "Yue Tan",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f582e",
+          "name": "Tao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f582f",
+          "name": "Lingdong Kong",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f5830",
+          "name": "Yunhai Tong",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f5831",
+          "name": "Anran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f5832",
+          "name": "Zhiyang Teng",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f5833",
+          "name": "Yujing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fadb71f158a71c5a2f5834",
+          "name": "Zhuochen Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T14:05:56.000Z",
+      "submittedOnDailyAt": "2025-10-24T00:20:51.680Z",
+      "title": "Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal\n  Evidence",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Most video reasoning models only generate textual reasoning traces without\nindicating when and where key evidence appears. Recent models such as OpenAI-o3\nhave sparked wide interest in evidence-centered reasoning for images, yet\nextending this ability to videos is more challenging, as it requires joint\ntemporal tracking and spatial localization across dynamic scenes. We introduce\nOpen-o3 Video, a non-agent framework that integrates explicit spatio-temporal\nevidence into video reasoning, and carefully collect training data and design\ntraining strategies to address the aforementioned challenges. The model\nhighlights key timestamps, objects, and bounding boxes alongside its answers,\nallowing reasoning to be grounded in concrete visual observations. To enable\nthis functionality, we first curate and build two high-quality datasets,\nSTGR-CoT-30k for SFT and STGR-RL-36k for RL, with carefully constructed\ntemporal and spatial annotations, since most existing datasets offer either\ntemporal spans for videos or spatial boxes on images, lacking unified\nspatio-temporal supervision and reasoning traces. Then, we adopt a cold-start\nreinforcement learning strategy with multiple specially designed rewards that\njointly encourage answer accuracy, temporal alignment, and spatial precision.\nOn V-STAR benchmark, Open-o3 Video achieves state-of-the-art performance,\nraising mAM by 14.4% and mLGM by 24.2% on the Qwen2.5-VL baseline. Consistent\nimprovements are also observed on a broad range of video understanding\nbenchmarks, including VideoMME, WorldSense, VideoMMMU, and TVGBench. Beyond\naccuracy, the reasoning traces produced by Open-o3 Video also provide valuable\nsignals for test-time scaling, enabling confidence-aware verification and\nimproving answer reliability.",
+      "upvotes": 3,
+      "discussionId": "68fadb72f158a71c5a2f5835",
+      "projectPage": "https://marinero4972.github.io/projects/Open-o3-Video/",
+      "ai_summary": "Open-o3 Video integrates spatio-temporal evidence into video reasoning, achieving state-of-the-art performance on multiple benchmarks and providing valuable reasoning traces for test-time scaling.",
+      "ai_keywords": [
+        "spatio-temporal evidence",
+        "video reasoning",
+        "temporal tracking",
+        "spatial localization",
+        "non-agent framework",
+        "SFT",
+        "RL",
+        "cold-start reinforcement learning",
+        "V-STAR benchmark",
+        "mAM",
+        "mLGM",
+        "VideoMME",
+        "WorldSense",
+        "VideoMMMU",
+        "TVGBench",
+        "reasoning traces",
+        "confidence-aware verification"
+      ],
+      "organization": {
+        "_id": "653b817d32c97d0655575872",
+        "name": "ByteDance",
+        "fullname": "ByteDance",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+      }
+    },
+    "publishedAt": "2025-10-23T10:05:56.000Z",
+    "title": "Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal\n  Evidence",
+    "summary": "Most video reasoning models only generate textual reasoning traces without\nindicating when and where key evidence appears. Recent models such as OpenAI-o3\nhave sparked wide interest in evidence-centered reasoning for images, yet\nextending this ability to videos is more challenging, as it requires joint\ntemporal tracking and spatial localization across dynamic scenes. We introduce\nOpen-o3 Video, a non-agent framework that integrates explicit spatio-temporal\nevidence into video reasoning, and carefully collect training data and design\ntraining strategies to address the aforementioned challenges. The model\nhighlights key timestamps, objects, and bounding boxes alongside its answers,\nallowing reasoning to be grounded in concrete visual observations. To enable\nthis functionality, we first curate and build two high-quality datasets,\nSTGR-CoT-30k for SFT and STGR-RL-36k for RL, with carefully constructed\ntemporal and spatial annotations, since most existing datasets offer either\ntemporal spans for videos or spatial boxes on images, lacking unified\nspatio-temporal supervision and reasoning traces. Then, we adopt a cold-start\nreinforcement learning strategy with multiple specially designed rewards that\njointly encourage answer accuracy, temporal alignment, and spatial precision.\nOn V-STAR benchmark, Open-o3 Video achieves state-of-the-art performance,\nraising mAM by 14.4% and mLGM by 24.2% on the Qwen2.5-VL baseline. Consistent\nimprovements are also observed on a broad range of video understanding\nbenchmarks, including VideoMME, WorldSense, VideoMMMU, and TVGBench. Beyond\naccuracy, the reasoning traces produced by Open-o3 Video also provide valuable\nsignals for test-time scaling, enabling confidence-aware verification and\nimproving answer reliability.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20579.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 142
+    },
+    "organization": {
+      "_id": "653b817d32c97d0655575872",
+      "name": "ByteDance",
+      "fullname": "ByteDance",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.20820",
+      "authors": [
+        {
+          "_id": "68fada3af158a71c5a2f5812",
+          "name": "Guocheng Gordon Qian",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f5813",
+          "name": "Ruihang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f5814",
+          "name": "Tsai-Shien Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f5815",
+          "name": "Yusuf Dalva",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f5816",
+          "name": "Anujraaj Argo Goyal",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f5817",
+          "name": "Willi Menapace",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f5818",
+          "name": "Ivan Skorokhodov",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f5819",
+          "name": "Meng Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f581a",
+          "name": "Arpit Sahni",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f581b",
+          "name": "Daniil Ostashev",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f581c",
+          "name": "Ju Hu",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f581d",
+          "name": "Sergey Tulyakov",
+          "hidden": false
+        },
+        {
+          "_id": "68fada3af158a71c5a2f581e",
+          "name": "Kuan-Chieh Jackson Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T17:59:55.000Z",
+      "submittedOnDailyAt": "2025-10-24T00:16:05.053Z",
+      "title": "LayerComposer: Interactive Personalized T2I via Spatially-Aware Layered\n  Canvas",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Despite their impressive visual fidelity, existing personalized generative\nmodels lack interactive control over spatial composition and scale poorly to\nmultiple subjects. To address these limitations, we present LayerComposer, an\ninteractive framework for personalized, multi-subject text-to-image generation.\nOur approach introduces two main contributions: (1) a layered canvas, a novel\nrepresentation in which each subject is placed on a distinct layer, enabling\nocclusion-free composition; and (2) a locking mechanism that preserves selected\nlayers with high fidelity while allowing the remaining layers to adapt flexibly\nto the surrounding context. Similar to professional image-editing software, the\nproposed layered canvas allows users to place, resize, or lock input subjects\nthrough intuitive layer manipulation. Our versatile locking mechanism requires\nno architectural changes, relying instead on inherent positional embeddings\ncombined with a new complementary data sampling strategy. Extensive experiments\ndemonstrate that LayerComposer achieves superior spatial control and identity\npreservation compared to the state-of-the-art methods in multi-subject\npersonalized image generation.",
+      "upvotes": 2,
+      "discussionId": "68fada3af158a71c5a2f581f",
+      "projectPage": "https://snap-research.github.io/layercomposer/",
+      "ai_summary": "LayerComposer provides interactive control over spatial composition and scalability in multi-subject text-to-image generation through a layered canvas and locking mechanism.",
+      "ai_keywords": [
+        "layered canvas",
+        "locking mechanism",
+        "positional embeddings",
+        "data sampling strategy",
+        "text-to-image generation",
+        "spatial control",
+        "identity preservation"
+      ],
+      "organization": {
+        "_id": "63c87c41cd6a490608ce31d1",
+        "name": "snap-research",
+        "fullname": "Snap Research",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1674083325534-61f19829233c91cbd2f79e70.png"
+      }
+    },
+    "publishedAt": "2025-10-23T13:59:55.000Z",
+    "title": "LayerComposer: Interactive Personalized T2I via Spatially-Aware Layered\n  Canvas",
+    "summary": "Despite their impressive visual fidelity, existing personalized generative\nmodels lack interactive control over spatial composition and scale poorly to\nmultiple subjects. To address these limitations, we present LayerComposer, an\ninteractive framework for personalized, multi-subject text-to-image generation.\nOur approach introduces two main contributions: (1) a layered canvas, a novel\nrepresentation in which each subject is placed on a distinct layer, enabling\nocclusion-free composition; and (2) a locking mechanism that preserves selected\nlayers with high fidelity while allowing the remaining layers to adapt flexibly\nto the surrounding context. Similar to professional image-editing software, the\nproposed layered canvas allows users to place, resize, or lock input subjects\nthrough intuitive layer manipulation. Our versatile locking mechanism requires\nno architectural changes, relying instead on inherent positional embeddings\ncombined with a new complementary data sampling strategy. Extensive experiments\ndemonstrate that LayerComposer achieves superior spatial control and identity\npreservation compared to the state-of-the-art methods in multi-subject\npersonalized image generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20820.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 142
+    },
+    "organization": {
+      "_id": "63c87c41cd6a490608ce31d1",
+      "name": "snap-research",
+      "fullname": "Snap Research",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1674083325534-61f19829233c91cbd2f79e70.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.20771",
+      "authors": [
+        {
+          "_id": "68fadaeaf158a71c5a2f5821",
+          "name": "Huijie Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68fadaeaf158a71c5a2f5822",
+          "name": "Aliaksandr Siarohin",
+          "hidden": false
+        },
+        {
+          "_id": "68fadaeaf158a71c5a2f5823",
+          "name": "Willi Menapace",
+          "hidden": false
+        },
+        {
+          "_id": "68fadaeaf158a71c5a2f5824",
+          "name": "Michael Vasilkovsky",
+          "hidden": false
+        },
+        {
+          "_id": "68fadaeaf158a71c5a2f5825",
+          "name": "Sergey Tulyakov",
+          "hidden": false
+        },
+        {
+          "_id": "68fadaeaf158a71c5a2f5826",
+          "name": "Qing Qu",
+          "hidden": false
+        },
+        {
+          "_id": "68fadaeaf158a71c5a2f5827",
+          "name": "Ivan Skorokhodov",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T17:45:06.000Z",
+      "submittedOnDailyAt": "2025-10-24T00:19:24.773Z",
+      "title": "AlphaFlow: Understanding and Improving MeanFlow Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "MeanFlow has recently emerged as a powerful framework for few-step generative\nmodeling trained from scratch, but its success is not yet fully understood. In\nthis work, we show that the MeanFlow objective naturally decomposes into two\nparts: trajectory flow matching and trajectory consistency. Through gradient\nanalysis, we find that these terms are strongly negatively correlated, causing\noptimization conflict and slow convergence. Motivated by these insights, we\nintroduce alpha-Flow, a broad family of objectives that unifies trajectory\nflow matching, Shortcut Model, and MeanFlow under one formulation. By adopting\na curriculum strategy that smoothly anneals from trajectory flow matching to\nMeanFlow, alpha-Flow disentangles the conflicting objectives, and achieves\nbetter convergence. When trained from scratch on class-conditional ImageNet-1K\n256x256 with vanilla DiT backbones, alpha-Flow consistently outperforms\nMeanFlow across scales and settings. Our largest alpha-Flow-XL/2+ model\nachieves new state-of-the-art results using vanilla DiT backbones, with FID\nscores of 2.58 (1-NFE) and 2.15 (2-NFE).",
+      "upvotes": 1,
+      "discussionId": "68fadaebf158a71c5a2f5828",
+      "ai_summary": "The $\\alpha$-Flow framework improves few-step generative modeling by unifying and disentangling conflicting objectives, leading to better convergence and state-of-the-art performance on ImageNet-1K.",
+      "ai_keywords": [
+        "MeanFlow",
+        "trajectory flow matching",
+        "trajectory consistency",
+        "gradient analysis",
+        "$\\alpha$-Flow",
+        "Shortcut Model",
+        "curriculum strategy",
+        "class-conditional",
+        "ImageNet-1K",
+        "DiT backbones",
+        "FID scores"
+      ],
+      "organization": {
+        "_id": "63c87c41cd6a490608ce31d1",
+        "name": "snap-research",
+        "fullname": "Snap Research",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1674083325534-61f19829233c91cbd2f79e70.png"
+      }
+    },
+    "publishedAt": "2025-10-23T13:45:06.000Z",
+    "title": "AlphaFlow: Understanding and Improving MeanFlow Models",
+    "summary": "MeanFlow has recently emerged as a powerful framework for few-step generative\nmodeling trained from scratch, but its success is not yet fully understood. In\nthis work, we show that the MeanFlow objective naturally decomposes into two\nparts: trajectory flow matching and trajectory consistency. Through gradient\nanalysis, we find that these terms are strongly negatively correlated, causing\noptimization conflict and slow convergence. Motivated by these insights, we\nintroduce alpha-Flow, a broad family of objectives that unifies trajectory\nflow matching, Shortcut Model, and MeanFlow under one formulation. By adopting\na curriculum strategy that smoothly anneals from trajectory flow matching to\nMeanFlow, alpha-Flow disentangles the conflicting objectives, and achieves\nbetter convergence. When trained from scratch on class-conditional ImageNet-1K\n256x256 with vanilla DiT backbones, alpha-Flow consistently outperforms\nMeanFlow across scales and settings. Our largest alpha-Flow-XL/2+ model\nachieves new state-of-the-art results using vanilla DiT backbones, with FID\nscores of 2.58 (1-NFE) and 2.15 (2-NFE).",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20771.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 142
+    },
+    "organization": {
+      "_id": "63c87c41cd6a490608ce31d1",
+      "name": "snap-research",
+      "fullname": "Snap Research",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1674083325534-61f19829233c91cbd2f79e70.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.20270",
+      "authors": [
+        {
+          "_id": "68faded5f158a71c5a2f583b",
+          "name": "Ziqian Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "68faded5f158a71c5a2f583c",
+          "name": "Aditi Raghunathan",
+          "hidden": false
+        },
+        {
+          "_id": "68faded5f158a71c5a2f583d",
+          "name": "Nicholas Carlini",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T06:58:32.000Z",
+      "submittedOnDailyAt": "2025-10-24T00:35:23.999Z",
+      "title": "ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The tendency to find and exploit \"shortcuts\" to complete tasks poses\nsignificant risks for reliable assessment and deployment of large language\nmodels (LLMs). For example, an LLM agent with access to unit tests may delete\nfailing tests rather than fix the underlying bug. Such behavior undermines both\nthe validity of benchmark results and the reliability of real-world LLM coding\nassistant deployments.\n  To quantify, study, and mitigate such behavior, we introduce ImpossibleBench,\na benchmark framework that systematically measures LLM agents' propensity to\nexploit test cases. ImpossibleBench creates \"impossible\" variants of tasks from\nexisting benchmarks like LiveCodeBench and SWE-bench by introducing direct\nconflicts between the natural-language specification and the unit tests. We\nmeasure an agent's \"cheating rate\" as its pass rate on these impossible tasks,\nwhere any pass necessarily implies a specification-violating shortcut.\n  As a practical framework, ImpossibleBench is not just an evaluation but a\nversatile tool. We demonstrate its utility for: (1) studying model behaviors,\nrevealing more fine-grained details of cheating behaviors from simple test\nmodification to complex operator overloading; (2) context engineering, showing\nhow prompt, test access and feedback loop affect cheating rates; and (3)\ndeveloping monitoring tools, providing a testbed with verified deceptive\nsolutions. We hope ImpossibleBench serves as a useful framework for building\nmore robust and reliable LLM systems.\n  Our implementation can be found at\nhttps://github.com/safety-research/impossiblebench.",
+      "upvotes": 1,
+      "discussionId": "68faded5f158a71c5a2f583e",
+      "ai_summary": "ImpossibleBench is a benchmark framework that measures and mitigates LLMs' tendency to exploit test cases by introducing impossible task variants, thereby enhancing model reliability.",
+      "ai_keywords": [
+        "large language models",
+        "LLMs",
+        "unit tests",
+        "benchmark framework",
+        "ImpossibleBench",
+        "LiveCodeBench",
+        "SWE-bench",
+        "cheating rate",
+        "specification-violating shortcuts",
+        "context engineering",
+        "monitoring tools"
+      ]
+    },
+    "publishedAt": "2025-10-23T02:58:32.000Z",
+    "title": "ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases",
+    "summary": "The tendency to find and exploit \"shortcuts\" to complete tasks poses\nsignificant risks for reliable assessment and deployment of large language\nmodels (LLMs). For example, an LLM agent with access to unit tests may delete\nfailing tests rather than fix the underlying bug. Such behavior undermines both\nthe validity of benchmark results and the reliability of real-world LLM coding\nassistant deployments.\n  To quantify, study, and mitigate such behavior, we introduce ImpossibleBench,\na benchmark framework that systematically measures LLM agents' propensity to\nexploit test cases. ImpossibleBench creates \"impossible\" variants of tasks from\nexisting benchmarks like LiveCodeBench and SWE-bench by introducing direct\nconflicts between the natural-language specification and the unit tests. We\nmeasure an agent's \"cheating rate\" as its pass rate on these impossible tasks,\nwhere any pass necessarily implies a specification-violating shortcut.\n  As a practical framework, ImpossibleBench is not just an evaluation but a\nversatile tool. We demonstrate its utility for: (1) studying model behaviors,\nrevealing more fine-grained details of cheating behaviors from simple test\nmodification to complex operator overloading; (2) context engineering, showing\nhow prompt, test access and feedback loop affect cheating rates; and (3)\ndeveloping monitoring tools, providing a testbed with verified deceptive\nsolutions. We hope ImpossibleBench serves as a useful framework for building\nmore robust and reliable LLM systems.\n  Our implementation can be found at\nhttps://github.com/safety-research/impossiblebench.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20270.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 142
+    },
+    "isAuthorParticipating": false
+  }
+]
