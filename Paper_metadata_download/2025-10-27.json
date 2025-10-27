@@ -1,0 +1,1362 @@
+[
+  {
+    "paper": {
+      "id": "2510.21618",
+      "authors": [
+        {
+          "_id": "68fed3876cdff8b857f47116",
+          "name": "Xiaoxi Li",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f47117",
+          "name": "Wenxiang Jiao",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f47118",
+          "name": "Jiarui Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f47119",
+          "name": "Guanting Dong",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f4711a",
+          "name": "Jiajie Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f4711b",
+          "name": "Yinuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f4711c",
+          "name": "Hao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f4711d",
+          "name": "Yutao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f4711e",
+          "name": "Ji-Rong Wen",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f4711f",
+          "name": "Yuan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3876cdff8b857f47120",
+          "name": "Zhicheng Dou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-24T16:24:01.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:37:53.632Z",
+      "title": "DeepAgent: A General Reasoning Agent with Scalable Toolsets",
+      "submittedOnDailyBy": {
+        "_id": "66e03eace17fb5ff054b7686",
+        "avatarUrl": "/avatars/2b739ff11e43dd9e701c647a92617f20.svg",
+        "isPro": false,
+        "fullname": "Xiaoxi Li",
+        "user": "lixiaoxi45",
+        "type": "user"
+      },
+      "summary": "Large reasoning models have demonstrated strong problem-solving abilities,\nyet real-world tasks often require external tools and long-horizon\ninteractions. Existing agent frameworks typically follow predefined workflows,\nwhich limit autonomous and global task completion. In this paper, we introduce\nDeepAgent, an end-to-end deep reasoning agent that performs autonomous\nthinking, tool discovery, and action execution within a single, coherent\nreasoning process. To address the challenges of long-horizon interactions,\nparticularly the context length explosion from multiple tool calls and the\naccumulation of interaction history, we introduce an autonomous memory folding\nmechanism that compresses past interactions into structured episodic, working,\nand tool memories, reducing error accumulation while preserving critical\ninformation. To teach general-purpose tool use efficiently and stably, we\ndevelop an end-to-end reinforcement learning strategy, namely ToolPO, that\nleverages LLM-simulated APIs and applies tool-call advantage attribution to\nassign fine-grained credit to the tool invocation tokens. Extensive experiments\non eight benchmarks, including general tool-use tasks (ToolBench, API-Bank,\nTMDB, Spotify, ToolHop) and downstream applications (ALFWorld, WebShop, GAIA,\nHLE), demonstrate that DeepAgent consistently outperforms baselines across both\nlabeled-tool and open-set tool retrieval scenarios. This work takes a step\ntoward more general and capable agents for real-world applications. The code\nand demo are available at https://github.com/RUC-NLPIR/DeepAgent.",
+      "upvotes": 24,
+      "discussionId": "68fed3876cdff8b857f47121",
+      "githubRepo": "https://github.com/RUC-NLPIR/DeepAgent",
+      "ai_summary": "DeepAgent, an end-to-end deep reasoning agent, autonomously performs thinking, tool discovery, and action execution using memory folding and reinforcement learning, outperforming baselines in various tool-use and application tasks.",
+      "ai_keywords": [
+        "DeepAgent",
+        "autonomous thinking",
+        "tool discovery",
+        "action execution",
+        "autonomous memory folding",
+        "episodic memory",
+        "working memory",
+        "tool memory",
+        "reinforcement learning",
+        "ToolPO",
+        "LLM-simulated APIs",
+        "tool-call advantage attribution",
+        "ToolBench",
+        "API-Bank",
+        "TMDB",
+        "Spotify",
+        "ToolHop",
+        "ALFWorld",
+        "WebShop",
+        "GAIA",
+        "HLE"
+      ],
+      "githubStars": 12
+    },
+    "publishedAt": "2025-10-24T12:24:01.000Z",
+    "title": "DeepAgent: A General Reasoning Agent with Scalable Toolsets",
+    "summary": "Large reasoning models have demonstrated strong problem-solving abilities,\nyet real-world tasks often require external tools and long-horizon\ninteractions. Existing agent frameworks typically follow predefined workflows,\nwhich limit autonomous and global task completion. In this paper, we introduce\nDeepAgent, an end-to-end deep reasoning agent that performs autonomous\nthinking, tool discovery, and action execution within a single, coherent\nreasoning process. To address the challenges of long-horizon interactions,\nparticularly the context length explosion from multiple tool calls and the\naccumulation of interaction history, we introduce an autonomous memory folding\nmechanism that compresses past interactions into structured episodic, working,\nand tool memories, reducing error accumulation while preserving critical\ninformation. To teach general-purpose tool use efficiently and stably, we\ndevelop an end-to-end reinforcement learning strategy, namely ToolPO, that\nleverages LLM-simulated APIs and applies tool-call advantage attribution to\nassign fine-grained credit to the tool invocation tokens. Extensive experiments\non eight benchmarks, including general tool-use tasks (ToolBench, API-Bank,\nTMDB, Spotify, ToolHop) and downstream applications (ALFWorld, WebShop, GAIA,\nHLE), demonstrate that DeepAgent consistently outperforms baselines across both\nlabeled-tool and open-set tool retrieval scenarios. This work takes a step\ntoward more general and capable agents for real-world applications. The code\nand demo are available at https://github.com/RUC-NLPIR/DeepAgent.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.21618.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "66e03eace17fb5ff054b7686",
+      "avatarUrl": "/avatars/2b739ff11e43dd9e701c647a92617f20.svg",
+      "fullname": "Xiaoxi Li",
+      "name": "lixiaoxi45",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 13
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.20286",
+      "authors": [
+        {
+          "_id": "68fb1853f158a71c5a2f594c",
+          "name": "Liangyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f594d",
+          "name": "Hanzhang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f594e",
+          "name": "Chenglin Cai",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f594f",
+          "user": {
+            "_id": "6825ddbfcbbc52f7ad9aa4d1",
+            "avatarUrl": "/avatars/53def7ee23686a75a976a16d7533856f.svg",
+            "isPro": false,
+            "fullname": "zhang",
+            "user": "Jiananhello",
+            "type": "user"
+          },
+          "name": "Jianan Zhang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-24T16:00:57.725Z",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5950",
+          "name": "Panrong Tong",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5951",
+          "user": {
+            "_id": "638c05b7d274cbbad284ced0",
+            "avatarUrl": "/avatars/e26f659316b4975562e006c081a795ba.svg",
+            "isPro": false,
+            "fullname": "Quyu Kong",
+            "user": "kongquyu",
+            "type": "user"
+          },
+          "name": "Quyu Kong",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-24T16:00:53.633Z",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5952",
+          "name": "Xu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5953",
+          "name": "Chen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5954",
+          "name": "Yuqi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5955",
+          "name": "Wenxuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5956",
+          "name": "Yue Wang",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5957",
+          "name": "Qin Jin",
+          "hidden": false
+        },
+        {
+          "_id": "68fb1853f158a71c5a2f5958",
+          "name": "Steven Hoi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T07:18:32.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:35:43.317Z",
+      "title": "UI-Ins: Enhancing GUI Grounding with Multi-Perspective\n  Instruction-as-Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "669cefd6119595d21b55a995",
+        "avatarUrl": "/avatars/bafc2387ee70b263bf45c42159381da8.svg",
+        "isPro": false,
+        "fullname": "Yuqi Liu",
+        "user": "Ricky06662",
+        "type": "user"
+      },
+      "summary": "GUI grounding, which maps natural-language instructions to actionable UI\nelements, is a core capability of GUI agents. Prior works largely treats\ninstructions as a static proxy for user intent, overlooking the impact of\ninstruction diversity and quality on grounding performance. Through a careful\ninvestigation of existing grounding datasets, we find a 23.3% flaw rate in\ntheir instructions and show that inference-time exploitation of instruction\ndiversity yields up to a substantial 76% relative performance improvement. In\nthis paper, we introduce the Instruction-as-Reasoning paradigm, treating\ninstructions as dynamic analytical pathways that offer distinct perspectives\nand enabling the model to select the most effective pathway during reasoning.\nTo achieve this, we propose a two-stage training framework: supervised\nfine-tuning (SFT) on synthesized, diverse instructions to instill\nmulti-perspective reasoning, followed by reinforcement learning (RL) to\noptimize pathway selection and composition. Our resulting models, UI-Ins-7B and\nUI-Ins-32B, achieve state-of-the-art results on five challenging grounding\nbenchmarks and exhibit emergent reasoning, selectively composing and\nsynthesizing novel instruction pathways at inference. In particular, UI-Ins-32B\nattains the best grounding accuracy, scoring 87.3% on UI-I2E-Bench, 57.0% on\nScreenSpot-Pro, and 84.9% on MMBench-GUI L2. Furthermore, our model\ndemonstrates strong agentic potential, achieving a 74.1% success rate on\nAndroidWorld using UI-Ins-7B as the executor. Our in-depth analysis reveals\nadditional insights such as how reasoning can be formulated to enhance rather\nthan hinder grounding performance, and how our method mitigates policy collapse\nin the SFT+RL framework. All code and model checkpoints will be publicly\nreleased in https://github.com/alibaba/UI-Ins.",
+      "upvotes": 12,
+      "discussionId": "68fb1853f158a71c5a2f5959",
+      "ai_summary": "The Instruction-as-Reasoning paradigm enhances GUI grounding by treating instructions as dynamic pathways, improving performance through multi-perspective reasoning and reinforcement learning.",
+      "ai_keywords": [
+        "GUI grounding",
+        "Instruction-as-Reasoning",
+        "supervised fine-tuning",
+        "reinforcement learning",
+        "multi-perspective reasoning",
+        "pathway selection",
+        "policy collapse"
+      ],
+      "organization": {
+        "_id": "67d15cca6e2cf0e062dbfb54",
+        "name": "AlibabaTongyiLab",
+        "fullname": "TongyiLab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d1502bfabfe9974d1f77bb/XdUSVf6HqBzE7zFBfSDQP.png"
+      }
+    },
+    "publishedAt": "2025-10-23T03:18:32.000Z",
+    "title": "UI-Ins: Enhancing GUI Grounding with Multi-Perspective\n  Instruction-as-Reasoning",
+    "summary": "GUI grounding, which maps natural-language instructions to actionable UI\nelements, is a core capability of GUI agents. Prior works largely treats\ninstructions as a static proxy for user intent, overlooking the impact of\ninstruction diversity and quality on grounding performance. Through a careful\ninvestigation of existing grounding datasets, we find a 23.3% flaw rate in\ntheir instructions and show that inference-time exploitation of instruction\ndiversity yields up to a substantial 76% relative performance improvement. In\nthis paper, we introduce the Instruction-as-Reasoning paradigm, treating\ninstructions as dynamic analytical pathways that offer distinct perspectives\nand enabling the model to select the most effective pathway during reasoning.\nTo achieve this, we propose a two-stage training framework: supervised\nfine-tuning (SFT) on synthesized, diverse instructions to instill\nmulti-perspective reasoning, followed by reinforcement learning (RL) to\noptimize pathway selection and composition. Our resulting models, UI-Ins-7B and\nUI-Ins-32B, achieve state-of-the-art results on five challenging grounding\nbenchmarks and exhibit emergent reasoning, selectively composing and\nsynthesizing novel instruction pathways at inference. In particular, UI-Ins-32B\nattains the best grounding accuracy, scoring 87.3% on UI-I2E-Bench, 57.0% on\nScreenSpot-Pro, and 84.9% on MMBench-GUI L2. Furthermore, our model\ndemonstrates strong agentic potential, achieving a 74.1% success rate on\nAndroidWorld using UI-Ins-7B as the executor. Our in-depth analysis reveals\nadditional insights such as how reasoning can be formulated to enhance rather\nthan hinder grounding performance, and how our method mitigates policy collapse\nin the SFT+RL framework. All code and model checkpoints will be publicly\nreleased in https://github.com/alibaba/UI-Ins.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20286.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "669cefd6119595d21b55a995",
+      "avatarUrl": "/avatars/bafc2387ee70b263bf45c42159381da8.svg",
+      "fullname": "Yuqi Liu",
+      "name": "Ricky06662",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "organization": {
+      "_id": "67d15cca6e2cf0e062dbfb54",
+      "name": "AlibabaTongyiLab",
+      "fullname": "TongyiLab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d1502bfabfe9974d1f77bb/XdUSVf6HqBzE7zFBfSDQP.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.20888",
+      "authors": [
+        {
+          "_id": "68feb9916cdff8b857f470b6",
+          "name": "Yuxuan Bian",
+          "hidden": false
+        },
+        {
+          "_id": "68feb9916cdff8b857f470b7",
+          "name": "Xin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "68feb9916cdff8b857f470b8",
+          "name": "Zenan Li",
+          "hidden": false
+        },
+        {
+          "_id": "68feb9916cdff8b857f470b9",
+          "name": "Tiancheng Zhi",
+          "hidden": false
+        },
+        {
+          "_id": "68feb9916cdff8b857f470ba",
+          "name": "Shen Sang",
+          "hidden": false
+        },
+        {
+          "_id": "68feb9916cdff8b857f470bb",
+          "name": "Linjie Luo",
+          "hidden": false
+        },
+        {
+          "_id": "68feb9916cdff8b857f470bc",
+          "name": "Qiang Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T17:59:52.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:31:33.559Z",
+      "title": "Video-As-Prompt: Unified Semantic Control for Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "650447dd52ca06fef957f05d",
+        "avatarUrl": "/avatars/511c11ac9b3cc7a162bda5e07f6ee0a3.svg",
+        "isPro": true,
+        "fullname": "Yuxuan BIAN",
+        "user": "BianYx",
+        "type": "user"
+      },
+      "summary": "Unified, generalizable semantic control in video generation remains a\ncritical open challenge. Existing methods either introduce artifacts by\nenforcing inappropriate pixel-wise priors from structure-based controls, or\nrely on non-generalizable, condition-specific finetuning or task-specific\narchitectures. We introduce Video-As-Prompt (VAP), a new paradigm that reframes\nthis problem as in-context generation. VAP leverages a reference video as a\ndirect semantic prompt, guiding a frozen Video Diffusion Transformer (DiT) via\na plug-and-play Mixture-of-Transformers (MoT) expert. This architecture\nprevents catastrophic forgetting and is guided by a temporally biased position\nembedding that eliminates spurious mapping priors for robust context retrieval.\nTo power this approach and catalyze future research, we built VAP-Data, the\nlargest dataset for semantic-controlled video generation with over 100K paired\nvideos across 100 semantic conditions. As a single unified model, VAP sets a\nnew state-of-the-art for open-source methods, achieving a 38.7% user preference\nrate that rivals leading condition-specific commercial models. VAP's strong\nzero-shot generalization and support for various downstream applications mark a\nsignificant advance toward general-purpose, controllable video generation.",
+      "upvotes": 7,
+      "discussionId": "68feb9916cdff8b857f470bd",
+      "projectPage": "https://bytedance.github.io/Video-As-Prompt/",
+      "githubRepo": "https://github.com/bytedance/Video-As-Prompt",
+      "ai_summary": "Video-As-Prompt (VAP) uses a reference video to guide a frozen Video Diffusion Transformer via a Mixture-of-Transformers expert, achieving state-of-the-art results in semantic-controlled video generation with strong zero-shot generalization.",
+      "ai_keywords": [
+        "Video-As-Prompt",
+        "Video Diffusion Transformer",
+        "DiT",
+        "Mixture-of-Transformers",
+        "MoT",
+        "catastrophic forgetting",
+        "temporally biased position embedding",
+        "VAP-Data",
+        "zero-shot generalization"
+      ],
+      "organization": {
+        "_id": "653b817d32c97d0655575872",
+        "name": "ByteDance",
+        "fullname": "ByteDance",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+      }
+    },
+    "publishedAt": "2025-10-23T13:59:52.000Z",
+    "title": "Video-As-Prompt: Unified Semantic Control for Video Generation",
+    "summary": "Unified, generalizable semantic control in video generation remains a\ncritical open challenge. Existing methods either introduce artifacts by\nenforcing inappropriate pixel-wise priors from structure-based controls, or\nrely on non-generalizable, condition-specific finetuning or task-specific\narchitectures. We introduce Video-As-Prompt (VAP), a new paradigm that reframes\nthis problem as in-context generation. VAP leverages a reference video as a\ndirect semantic prompt, guiding a frozen Video Diffusion Transformer (DiT) via\na plug-and-play Mixture-of-Transformers (MoT) expert. This architecture\nprevents catastrophic forgetting and is guided by a temporally biased position\nembedding that eliminates spurious mapping priors for robust context retrieval.\nTo power this approach and catalyze future research, we built VAP-Data, the\nlargest dataset for semantic-controlled video generation with over 100K paired\nvideos across 100 semantic conditions. As a single unified model, VAP sets a\nnew state-of-the-art for open-source methods, achieving a 38.7% user preference\nrate that rivals leading condition-specific commercial models. VAP's strong\nzero-shot generalization and support for various downstream applications mark a\nsignificant advance toward general-purpose, controllable video generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20888.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "650447dd52ca06fef957f05d",
+      "avatarUrl": "/avatars/511c11ac9b3cc7a162bda5e07f6ee0a3.svg",
+      "fullname": "Yuxuan BIAN",
+      "name": "BianYx",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3
+    },
+    "organization": {
+      "_id": "653b817d32c97d0655575872",
+      "name": "ByteDance",
+      "fullname": "ByteDance",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.21682",
+      "authors": [
+        {
+          "_id": "68fecebf6cdff8b857f470e5",
+          "name": "Sikuang Li",
+          "hidden": false
+        },
+        {
+          "_id": "68fecebf6cdff8b857f470e6",
+          "name": "Chen Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68fecebf6cdff8b857f470e7",
+          "name": "Jiemin Fang",
+          "hidden": false
+        },
+        {
+          "_id": "68fecebf6cdff8b857f470e8",
+          "name": "Taoran Yi",
+          "hidden": false
+        },
+        {
+          "_id": "68fecebf6cdff8b857f470e9",
+          "name": "Jia Lu",
+          "hidden": false
+        },
+        {
+          "_id": "68fecebf6cdff8b857f470ea",
+          "name": "Jiazhong Cen",
+          "hidden": false
+        },
+        {
+          "_id": "68fecebf6cdff8b857f470eb",
+          "name": "Lingxi Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68fecebf6cdff8b857f470ec",
+          "name": "Wei Shen",
+          "hidden": false
+        },
+        {
+          "_id": "68fecebf6cdff8b857f470ed",
+          "name": "Qi Tian",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/D2ll1V8_PMy2ibjSCQHuu.mp4"
+      ],
+      "publishedAt": "2025-10-24T17:39:52.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:18:48.656Z",
+      "title": "WorldGrow: Generating Infinite 3D World",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We tackle the challenge of generating the infinitely extendable 3D world --\nlarge, continuous environments with coherent geometry and realistic appearance.\nExisting methods face key challenges: 2D-lifting approaches suffer from\ngeometric and appearance inconsistencies across views, 3D implicit\nrepresentations are hard to scale up, and current 3D foundation models are\nmostly object-centric, limiting their applicability to scene-level generation.\nOur key insight is leveraging strong generation priors from pre-trained 3D\nmodels for structured scene block generation. To this end, we propose\nWorldGrow, a hierarchical framework for unbounded 3D scene synthesis. Our\nmethod features three core components: (1) a data curation pipeline that\nextracts high-quality scene blocks for training, making the 3D structured\nlatent representations suitable for scene generation; (2) a 3D block inpainting\nmechanism that enables context-aware scene extension; and (3) a coarse-to-fine\ngeneration strategy that ensures both global layout plausibility and local\ngeometric/textural fidelity. Evaluated on the large-scale 3D-FRONT dataset,\nWorldGrow achieves SOTA performance in geometry reconstruction, while uniquely\nsupporting infinite scene generation with photorealistic and structurally\nconsistent outputs. These results highlight its capability for constructing\nlarge-scale virtual environments and potential for building future world\nmodels.",
+      "upvotes": 3,
+      "discussionId": "68fecebf6cdff8b857f470ee",
+      "ai_summary": "WorldGrow, a hierarchical framework, generates large, continuous 3D environments with coherent geometry and realistic appearance using pre-trained 3D models and a coarse-to-fine generation strategy.",
+      "ai_keywords": [
+        "3D implicit representations",
+        "3D foundation models",
+        "scene block generation",
+        "data curation pipeline",
+        "3D block inpainting",
+        "coarse-to-fine generation",
+        "geometry reconstruction",
+        "3D-FRONT dataset",
+        "world models"
+      ]
+    },
+    "publishedAt": "2025-10-24T13:39:52.000Z",
+    "title": "WorldGrow: Generating Infinite 3D World",
+    "summary": "We tackle the challenge of generating the infinitely extendable 3D world --\nlarge, continuous environments with coherent geometry and realistic appearance.\nExisting methods face key challenges: 2D-lifting approaches suffer from\ngeometric and appearance inconsistencies across views, 3D implicit\nrepresentations are hard to scale up, and current 3D foundation models are\nmostly object-centric, limiting their applicability to scene-level generation.\nOur key insight is leveraging strong generation priors from pre-trained 3D\nmodels for structured scene block generation. To this end, we propose\nWorldGrow, a hierarchical framework for unbounded 3D scene synthesis. Our\nmethod features three core components: (1) a data curation pipeline that\nextracts high-quality scene blocks for training, making the 3D structured\nlatent representations suitable for scene generation; (2) a 3D block inpainting\nmechanism that enables context-aware scene extension; and (3) a coarse-to-fine\ngeneration strategy that ensures both global layout plausibility and local\ngeometric/textural fidelity. Evaluated on the large-scale 3D-FRONT dataset,\nWorldGrow achieves SOTA performance in geometry reconstruction, while uniquely\nsupporting infinite scene generation with photorealistic and structurally\nconsistent outputs. These results highlight its capability for constructing\nlarge-scale virtual environments and potential for building future world\nmodels.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/D2ll1V8_PMy2ibjSCQHuu.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.21682.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 144
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.21223",
+      "authors": [
+        {
+          "_id": "68fed3e16cdff8b857f47123",
+          "name": "Kexuan Shi",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3e16cdff8b857f47124",
+          "name": "Yandong Wen",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3e16cdff8b857f47125",
+          "name": "Weiyang Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-24T07:54:06.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:54:49.563Z",
+      "title": "Model Merging with Functional Dual Anchors",
+      "submittedOnDailyBy": {
+        "_id": "67cff3de91473f9c5ccf0fa8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67cff3de91473f9c5ccf0fa8/lyHDTF4foLuOHBPmKc2NH.jpeg",
+        "isPro": false,
+        "fullname": "Kexuan Shi",
+        "user": "KexuanShi",
+        "type": "user"
+      },
+      "summary": "Model merging is an efficient post-training strategy for integrating\nknowledge from multiple finetuned checkpoints of a shared foundation model.\nExisting methods operate in the parameter space, combining task vectors to\nmitigate conflicts, but remain constrained by parameter inconsistencies. We\npropose Functional Dual Anchors (FDAs), a framework that instead models the\ninput-representation space. FDAs are synthetic inputs whose induced gradients\nalign with task vectors, capturing task-specific functional shifts relative to\nthe pretrained model. This perspective bridges joint multi-task training and\npost-hoc merging, offering both robustness and flexibility. We further\nintroduce a principled initialization scheme and show that FDAs are\ncomplementary to parameter-space model merging. Comprehensive experiments\ndemonstrate the effectiveness of FDAs in model merging.",
+      "upvotes": 3,
+      "discussionId": "68fed3e16cdff8b857f47126",
+      "projectPage": "https://spherelab.ai/fda/",
+      "githubRepo": "https://github.com/Sphere-AI-Lab/fda/tree/main",
+      "ai_summary": "Functional Dual Anchors (FDAs) enhance model merging by aligning gradients with task vectors in the input-representation space, offering robustness and flexibility compared to parameter-space methods.",
+      "ai_keywords": [
+        "Functional Dual Anchors",
+        "FDAs",
+        "input-representation space",
+        "task vectors",
+        "model merging",
+        "parameter-space",
+        "joint multi-task training",
+        "post-hoc merging"
+      ],
+      "organization": {
+        "_id": "6814c6bec8d4f013b0851a7f",
+        "name": "SphereLab",
+        "fullname": "CUHK SphereLab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/648905d1a15c43c791d4381f/3vQFn8UJLYbGZ04CADQsJ.png"
+      }
+    },
+    "publishedAt": "2025-10-24T03:54:06.000Z",
+    "title": "Model Merging with Functional Dual Anchors",
+    "summary": "Model merging is an efficient post-training strategy for integrating\nknowledge from multiple finetuned checkpoints of a shared foundation model.\nExisting methods operate in the parameter space, combining task vectors to\nmitigate conflicts, but remain constrained by parameter inconsistencies. We\npropose Functional Dual Anchors (FDAs), a framework that instead models the\ninput-representation space. FDAs are synthetic inputs whose induced gradients\nalign with task vectors, capturing task-specific functional shifts relative to\nthe pretrained model. This perspective bridges joint multi-task training and\npost-hoc merging, offering both robustness and flexibility. We further\nintroduce a principled initialization scheme and show that FDAs are\ncomplementary to parameter-space model merging. Comprehensive experiments\ndemonstrate the effectiveness of FDAs in model merging.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.21223.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67cff3de91473f9c5ccf0fa8",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67cff3de91473f9c5ccf0fa8/lyHDTF4foLuOHBPmKc2NH.jpeg",
+      "fullname": "Kexuan Shi",
+      "name": "KexuanShi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "organization": {
+      "_id": "6814c6bec8d4f013b0851a7f",
+      "name": "SphereLab",
+      "fullname": "CUHK SphereLab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/648905d1a15c43c791d4381f/3vQFn8UJLYbGZ04CADQsJ.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.18212",
+      "authors": [
+        {
+          "_id": "68f91c1db9b2e4ae0467366b",
+          "name": "Dan Hendrycks",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467366c",
+          "name": "Dawn Song",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467366d",
+          "name": "Christian Szegedy",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467366e",
+          "name": "Honglak Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467366f",
+          "name": "Yarin Gal",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673670",
+          "name": "Erik Brynjolfsson",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673671",
+          "name": "Sharon Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673672",
+          "name": "Andy Zou",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673673",
+          "name": "Lionel Levine",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673674",
+          "name": "Bo Han",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673675",
+          "name": "Jie Fu",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673676",
+          "name": "Ziwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673677",
+          "name": "Jinwoo Shin",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673678",
+          "name": "Kimin Lee",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673679",
+          "name": "Mantas Mazeika",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467367a",
+          "name": "Long Phan",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467367b",
+          "name": "George Ingebretsen",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467367c",
+          "name": "Adam Khoja",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467367d",
+          "name": "Cihang Xie",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467367e",
+          "name": "Olawale Salaudeen",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467367f",
+          "name": "Matthias Hein",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673680",
+          "name": "Kevin Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673681",
+          "name": "Alexander Pan",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673682",
+          "name": "David Duvenaud",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673683",
+          "name": "Bo Li",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673684",
+          "name": "Steve Omohundro",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673685",
+          "name": "Gabriel Alfour",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673686",
+          "name": "Max Tegmark",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673687",
+          "name": "Kevin McGrew",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673688",
+          "name": "Gary Marcus",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae04673689",
+          "name": "Jaan Tallinn",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467368a",
+          "name": "Eric Schmidt",
+          "hidden": false
+        },
+        {
+          "_id": "68f91c1db9b2e4ae0467368b",
+          "name": "Yoshua Bengio",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-21T01:28:35.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:52:54.087Z",
+      "title": "A Definition of AGI",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The lack of a concrete definition for Artificial General Intelligence (AGI)\nobscures the gap between today's specialized AI and human-level cognition. This\npaper introduces a quantifiable framework to address this, defining AGI as\nmatching the cognitive versatility and proficiency of a well-educated adult. To\noperationalize this, we ground our methodology in Cattell-Horn-Carroll theory,\nthe most empirically validated model of human cognition. The framework dissects\ngeneral intelligence into ten core cognitive domains-including reasoning,\nmemory, and perception-and adapts established human psychometric batteries to\nevaluate AI systems. Application of this framework reveals a highly \"jagged\"\ncognitive profile in contemporary models. While proficient in\nknowledge-intensive domains, current AI systems have critical deficits in\nfoundational cognitive machinery, particularly long-term memory storage. The\nresulting AGI scores (e.g., GPT-4 at 27%, GPT-5 at 58%) concretely quantify\nboth rapid progress and the substantial gap remaining before AGI.",
+      "upvotes": 3,
+      "discussionId": "68f91c1eb9b2e4ae0467368c",
+      "ai_summary": "A quantifiable framework based on Cattell-Horn-Carroll theory evaluates AI systems across ten cognitive domains, revealing significant gaps in foundational cognitive abilities like long-term memory.",
+      "ai_keywords": [
+        "Cattell-Horn-Carroll theory",
+        "cognitive domains",
+        "reasoning",
+        "memory",
+        "perception",
+        "psychometric batteries",
+        "AGI scores"
+      ]
+    },
+    "publishedAt": "2025-10-20T21:28:35.000Z",
+    "title": "A Definition of AGI",
+    "summary": "The lack of a concrete definition for Artificial General Intelligence (AGI)\nobscures the gap between today's specialized AI and human-level cognition. This\npaper introduces a quantifiable framework to address this, defining AGI as\nmatching the cognitive versatility and proficiency of a well-educated adult. To\noperationalize this, we ground our methodology in Cattell-Horn-Carroll theory,\nthe most empirically validated model of human cognition. The framework dissects\ngeneral intelligence into ten core cognitive domains-including reasoning,\nmemory, and perception-and adapts established human psychometric batteries to\nevaluate AI systems. Application of this framework reveals a highly \"jagged\"\ncognitive profile in contemporary models. While proficient in\nknowledge-intensive domains, current AI systems have critical deficits in\nfoundational cognitive machinery, particularly long-term memory storage. The\nresulting AGI scores (e.g., GPT-4 at 27%, GPT-5 at 58%) concretely quantify\nboth rapid progress and the substantial gap remaining before AGI.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.18212.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 144
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.21697",
+      "authors": [
+        {
+          "_id": "68fed3166cdff8b857f4710e",
+          "name": "Nir Goren",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3166cdff8b857f4710f",
+          "name": "Shai Yehezkel",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3166cdff8b857f47110",
+          "name": "Omer Dahary",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3166cdff8b857f47111",
+          "name": "Andrey Voynov",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3166cdff8b857f47112",
+          "name": "Or Patashnik",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3166cdff8b857f47113",
+          "name": "Daniel Cohen-Or",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-24T17:57:31.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:34:20.112Z",
+      "title": "Visual Diffusion Models are Geometric Solvers",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "In this paper we show that visual diffusion models can serve as effective\ngeometric solvers: they can directly reason about geometric problems by working\nin pixel space. We first demonstrate this on the Inscribed Square Problem, a\nlong-standing problem in geometry that asks whether every Jordan curve contains\nfour points forming a square. We then extend the approach to two other\nwell-known hard geometric problems: the Steiner Tree Problem and the Simple\nPolygon Problem.\n  Our method treats each problem instance as an image and trains a standard\nvisual diffusion model that transforms Gaussian noise into an image\nrepresenting a valid approximate solution that closely matches the exact one.\nThe model learns to transform noisy geometric structures into correct\nconfigurations, effectively recasting geometric reasoning as image generation.\n  Unlike prior work that necessitates specialized architectures and\ndomain-specific adaptations when applying diffusion to parametric geometric\nrepresentations, we employ a standard visual diffusion model that operates on\nthe visual representation of the problem. This simplicity highlights a\nsurprising bridge between generative modeling and geometric problem solving.\nBeyond the specific problems studied here, our results point toward a broader\nparadigm: operating in image space provides a general and practical framework\nfor approximating notoriously hard problems, and opens the door to tackling a\nfar wider class of challenging geometric tasks.",
+      "upvotes": 1,
+      "discussionId": "68fed3166cdff8b857f47114",
+      "projectPage": "https://kariander1.github.io/visual-geo-solver/",
+      "githubRepo": "https://github.com/kariander1/visual-geo-solver",
+      "ai_summary": "Visual diffusion models can solve geometric problems by transforming noisy images into valid solutions, demonstrating a novel approach to geometric reasoning through image generation.",
+      "ai_keywords": [
+        "visual diffusion models",
+        "Inscribed Square Problem",
+        "Steiner Tree Problem",
+        "Simple Polygon Problem",
+        "Gaussian noise",
+        "image representation",
+        "geometric reasoning",
+        "image generation",
+        "parametric geometric representations"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2025-10-24T13:57:31.000Z",
+    "title": "Visual Diffusion Models are Geometric Solvers",
+    "summary": "In this paper we show that visual diffusion models can serve as effective\ngeometric solvers: they can directly reason about geometric problems by working\nin pixel space. We first demonstrate this on the Inscribed Square Problem, a\nlong-standing problem in geometry that asks whether every Jordan curve contains\nfour points forming a square. We then extend the approach to two other\nwell-known hard geometric problems: the Steiner Tree Problem and the Simple\nPolygon Problem.\n  Our method treats each problem instance as an image and trains a standard\nvisual diffusion model that transforms Gaussian noise into an image\nrepresenting a valid approximate solution that closely matches the exact one.\nThe model learns to transform noisy geometric structures into correct\nconfigurations, effectively recasting geometric reasoning as image generation.\n  Unlike prior work that necessitates specialized architectures and\ndomain-specific adaptations when applying diffusion to parametric geometric\nrepresentations, we employ a standard visual diffusion model that operates on\nthe visual representation of the problem. This simplicity highlights a\nsurprising bridge between generative modeling and geometric problem solving.\nBeyond the specific problems studied here, our results point toward a broader\nparadigm: operating in image space provides a general and practical framework\nfor approximating notoriously hard problems, and opens the door to tackling a\nfar wider class of challenging geometric tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.21697.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 144
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.21652",
+      "authors": [
+        {
+          "_id": "68fed3ee6cdff8b857f47128",
+          "name": "Jonathan Bragg",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47129",
+          "name": "Mike D'Arcy",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4712a",
+          "name": "Nishant Balepur",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4712b",
+          "name": "Dan Bareket",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4712c",
+          "name": "Bhavana Dalvi",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4712d",
+          "name": "Sergey Feldman",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4712e",
+          "name": "Dany Haddad",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4712f",
+          "name": "Jena D. Hwang",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47130",
+          "name": "Peter Jansen",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47131",
+          "name": "Varsha Kishore",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47132",
+          "name": "Bodhisattwa Prasad Majumder",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47133",
+          "name": "Aakanksha Naik",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47134",
+          "name": "Sigal Rahamimov",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47135",
+          "name": "Kyle Richardson",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47136",
+          "name": "Amanpreet Singh",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47137",
+          "name": "Harshit Surana",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47138",
+          "name": "Aryeh Tiktinsky",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47139",
+          "name": "Rosni Vasu",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4713a",
+          "name": "Guy Wiener",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4713b",
+          "name": "Chloe Anastasiades",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4713c",
+          "name": "Stefan Candra",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4713d",
+          "name": "Jason Dunkelberger",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4713e",
+          "name": "Dan Emery",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4713f",
+          "name": "Rob Evans",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47140",
+          "name": "Malachi Hamada",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47141",
+          "name": "Regan Huff",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47142",
+          "name": "Rodney Kinney",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47143",
+          "name": "Matt Latzke",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47144",
+          "name": "Jaron Lochner",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47145",
+          "name": "Ruben Lozano-Aguilera",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47146",
+          "name": "Cecile Nguyen",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47147",
+          "name": "Smita Rao",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47148",
+          "name": "Amber Tanaka",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f47149",
+          "name": "Brooke Vlahos",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4714a",
+          "name": "Peter Clark",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4714b",
+          "name": "Doug Downey",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4714c",
+          "name": "Yoav Goldberg",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4714d",
+          "name": "Ashish Sabharwal",
+          "hidden": false
+        },
+        {
+          "_id": "68fed3ee6cdff8b857f4714e",
+          "name": "Daniel S. Weld",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-24T17:10:26.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:37:44.377Z",
+      "title": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research\n  Suite",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "AI agents hold the potential to revolutionize scientific productivity by\nautomating literature reviews, replicating experiments, analyzing data, and\neven proposing new directions of inquiry; indeed, there are now many such\nagents, ranging from general-purpose \"deep research\" systems to specialized\nscience-specific agents, such as AI Scientist and AIGS. Rigorous evaluation of\nthese agents is critical for progress. Yet existing benchmarks fall short on\nseveral fronts: they (1) fail to provide holistic, product-informed measures of\nreal-world use cases such as science research; (2) lack reproducible agent\ntools necessary for a controlled comparison of core agentic capabilities; (3)\ndo not account for confounding variables such as model cost and tool access;\n(4) do not provide standardized interfaces for quick agent prototyping and\nevaluation; and (5) lack comprehensive baseline agents necessary to identify\ntrue advances. In response, we define principles and tooling for more\nrigorously benchmarking agents. Using these, we present AstaBench, a suite that\nprovides the first holistic measure of agentic ability to perform scientific\nresearch, comprising 2400+ problems spanning the entire scientific discovery\nprocess and multiple scientific domains, and including many problems inspired\nby actual user requests to deployed Asta agents. Our suite comes with the first\nscientific research environment with production-grade search tools that enable\ncontrolled, reproducible evaluation, better accounting for confounders.\nAlongside, we provide a comprehensive suite of nine science-optimized classes\nof Asta agents and numerous baselines. Our extensive evaluation of 57 agents\nacross 22 agent classes reveals several interesting findings, most importantly\nthat despite meaningful progress on certain individual aspects, AI remains far\nfrom solving the challenge of science research assistance.",
+      "upvotes": 1,
+      "discussionId": "68fed3ee6cdff8b857f4714f",
+      "ai_summary": "AstaBench provides a comprehensive benchmark suite for evaluating AI agents in scientific research, revealing that while progress has been made, AI still falls short in fully assisting scientific research.",
+      "ai_keywords": [
+        "AI agents",
+        "deep research systems",
+        "AI Scientist",
+        "AIGS",
+        "AstaBench",
+        "scientific discovery process",
+        "production-grade search tools",
+        "science-optimized agents",
+        "baseline agents"
+      ]
+    },
+    "publishedAt": "2025-10-24T13:10:26.000Z",
+    "title": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research\n  Suite",
+    "summary": "AI agents hold the potential to revolutionize scientific productivity by\nautomating literature reviews, replicating experiments, analyzing data, and\neven proposing new directions of inquiry; indeed, there are now many such\nagents, ranging from general-purpose \"deep research\" systems to specialized\nscience-specific agents, such as AI Scientist and AIGS. Rigorous evaluation of\nthese agents is critical for progress. Yet existing benchmarks fall short on\nseveral fronts: they (1) fail to provide holistic, product-informed measures of\nreal-world use cases such as science research; (2) lack reproducible agent\ntools necessary for a controlled comparison of core agentic capabilities; (3)\ndo not account for confounding variables such as model cost and tool access;\n(4) do not provide standardized interfaces for quick agent prototyping and\nevaluation; and (5) lack comprehensive baseline agents necessary to identify\ntrue advances. In response, we define principles and tooling for more\nrigorously benchmarking agents. Using these, we present AstaBench, a suite that\nprovides the first holistic measure of agentic ability to perform scientific\nresearch, comprising 2400+ problems spanning the entire scientific discovery\nprocess and multiple scientific domains, and including many problems inspired\nby actual user requests to deployed Asta agents. Our suite comes with the first\nscientific research environment with production-grade search tools that enable\ncontrolled, reproducible evaluation, better accounting for confounders.\nAlongside, we provide a comprehensive suite of nine science-optimized classes\nof Asta agents and numerous baselines. Our extensive evaluation of 57 agents\nacross 22 agent classes reveals several interesting findings, most importantly\nthat despite meaningful progress on certain individual aspects, AI remains far\nfrom solving the challenge of science research assistance.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.21652.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 144
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.21447",
+      "authors": [
+        {
+          "_id": "68fed0996cdff8b857f47101",
+          "name": "Yu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "68fed0996cdff8b857f47102",
+          "name": "Zhilu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68fed0996cdff8b857f47103",
+          "name": "Xiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "68fed0996cdff8b857f47104",
+          "name": "Yihan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "68fed0996cdff8b857f47105",
+          "name": "Hui Li",
+          "hidden": false
+        },
+        {
+          "_id": "68fed0996cdff8b857f47106",
+          "name": "Wangmeng Zuo",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/viGvTpS6zP3f5OTYnZT6q.mp4",
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/rTAT8-YnnJbMDl-XyBJbz.mp4"
+      ],
+      "publishedAt": "2025-10-24T13:25:39.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:24:31.888Z",
+      "title": "PhysWorld: From Real Videos to World Models of Deformable Objects via\n  Physics-Aware Demonstration Synthesis",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Interactive world models that simulate object dynamics are crucial for\nrobotics, VR, and AR. However, it remains a significant challenge to learn\nphysics-consistent dynamics models from limited real-world video data,\nespecially for deformable objects with spatially-varying physical properties.\nTo overcome the challenge of data scarcity, we propose PhysWorld, a novel\nframework that utilizes a simulator to synthesize physically plausible and\ndiverse demonstrations to learn efficient world models. Specifically, we first\nconstruct a physics-consistent digital twin within MPM simulator via\nconstitutive model selection and global-to-local optimization of physical\nproperties. Subsequently, we apply part-aware perturbations to the physical\nproperties and generate various motion patterns for the digital twin,\nsynthesizing extensive and diverse demonstrations. Finally, using these\ndemonstrations, we train a lightweight GNN-based world model that is embedded\nwith physical properties. The real video can be used to further refine the\nphysical properties. PhysWorld achieves accurate and fast future predictions\nfor various deformable objects, and also generalizes well to novel\ninteractions. Experiments show that PhysWorld has competitive performance while\nenabling inference speeds 47 times faster than the recent state-of-the-art\nmethod, i.e., PhysTwin.",
+      "upvotes": 1,
+      "discussionId": "68fed09a6cdff8b857f47107",
+      "ai_summary": "PhysWorld uses a simulator to generate diverse demonstrations for training a GNN-based world model, enabling accurate and fast predictions for deformable objects with competitive performance and faster inference speeds.",
+      "ai_keywords": [
+        "physics-consistent dynamics models",
+        "deformable objects",
+        "spatially-varying physical properties",
+        "MPM simulator",
+        "constitutive model selection",
+        "global-to-local optimization",
+        "part-aware perturbations",
+        "GNN-based world model",
+        "future predictions",
+        "novel interactions",
+        "PhysTwin"
+      ]
+    },
+    "publishedAt": "2025-10-24T09:25:39.000Z",
+    "title": "PhysWorld: From Real Videos to World Models of Deformable Objects via\n  Physics-Aware Demonstration Synthesis",
+    "summary": "Interactive world models that simulate object dynamics are crucial for\nrobotics, VR, and AR. However, it remains a significant challenge to learn\nphysics-consistent dynamics models from limited real-world video data,\nespecially for deformable objects with spatially-varying physical properties.\nTo overcome the challenge of data scarcity, we propose PhysWorld, a novel\nframework that utilizes a simulator to synthesize physically plausible and\ndiverse demonstrations to learn efficient world models. Specifically, we first\nconstruct a physics-consistent digital twin within MPM simulator via\nconstitutive model selection and global-to-local optimization of physical\nproperties. Subsequently, we apply part-aware perturbations to the physical\nproperties and generate various motion patterns for the digital twin,\nsynthesizing extensive and diverse demonstrations. Finally, using these\ndemonstrations, we train a lightweight GNN-based world model that is embedded\nwith physical properties. The real video can be used to further refine the\nphysical properties. PhysWorld achieves accurate and fast future predictions\nfor various deformable objects, and also generalizes well to novel\ninteractions. Experiments show that PhysWorld has competitive performance while\nenabling inference speeds 47 times faster than the recent state-of-the-art\nmethod, i.e., PhysTwin.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/viGvTpS6zP3f5OTYnZT6q.mp4",
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/rTAT8-YnnJbMDl-XyBJbz.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.21447.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 144
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.20535",
+      "authors": [
+        {
+          "_id": "68fb287f1ff1070cf1666d1f",
+          "user": {
+            "_id": "66ea9f89a43597a36208be6c",
+            "avatarUrl": "/avatars/7024721892d8171923a8d4dced143d09.svg",
+            "isPro": false,
+            "fullname": "Hippolyte Pilchen",
+            "user": "HippolyteP",
+            "type": "user"
+          },
+          "name": "Hippolyte Pilchen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-10-24T15:59:40.720Z",
+          "hidden": false
+        },
+        {
+          "_id": "68fb287f1ff1070cf1666d20",
+          "name": "Edouard Grave",
+          "hidden": false
+        },
+        {
+          "_id": "68fb287f1ff1070cf1666d21",
+          "name": "Patrick Pérez",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-23T13:20:57.000Z",
+      "submittedOnDailyAt": "2025-10-27T00:25:32.894Z",
+      "title": "ARC-Encoder: learning compressed text representations for large language\n  models",
+      "submittedOnDailyBy": {
+        "_id": "66ea9f89a43597a36208be6c",
+        "avatarUrl": "/avatars/7024721892d8171923a8d4dced143d09.svg",
+        "isPro": false,
+        "fullname": "Hippolyte Pilchen",
+        "user": "HippolyteP",
+        "type": "user"
+      },
+      "summary": "Recent techniques such as retrieval-augmented generation or chain-of-thought\nreasoning have led to longer contexts and increased inference costs. Context\ncompression techniques can reduce these costs, but the most effective\napproaches require fine-tuning the target model or even modifying its\narchitecture. This can degrade its general abilities when not used for this\nspecific purpose. Here we explore an alternative approach: an encoder that\ncompresses the context into continuous representations which replace token\nembeddings in decoder LLMs. First, we perform a systematic study of training\nstrategies and architecture choices for the encoder. Our findings led to the\ndesign of an Adaptable text Representations Compressor, named ARC-Encoder,\nwhich outputs x-times fewer continuous representations (typically\nx!in!{4,8}) than text tokens. We evaluate ARC-Encoder across a variety\nof LLM usage scenarios, ranging from in-context learning to context window\nextension, on both instruct and base decoders. Results show that ARC-Encoder\nachieves state-of-the-art performance on several benchmarks while improving\ncomputational efficiency at inference. Finally, we demonstrate that our models\ncan be adapted to multiple decoders simultaneously, allowing a single encoder\nto generalize across different decoder LLMs. This makes ARC-Encoder a flexible\nand efficient solution for portable encoders that work seamlessly with multiple\nLLMs. We release a training code at https://github.com/kyutai-labs/ARC-Encoder\n, fine-tuning dataset and pretrained models are available at\nhttps://huggingface.co/collections/kyutai/arc-encoders-68ee18787301407d60a57047 .",
+      "upvotes": 1,
+      "discussionId": "68fb287f1ff1070cf1666d22",
+      "githubRepo": "https://github.com/kyutai-labs/ARC-Encoder",
+      "ai_summary": "An ARC-Encoder compresses context into continuous representations for LLMs, improving inference efficiency and performance across various scenarios.",
+      "ai_keywords": [
+        "retrieval-augmented generation",
+        "chain-of-thought reasoning",
+        "context compression",
+        "token embeddings",
+        "decoder LLMs",
+        "Adaptable text Representations Compressor",
+        "ARC-Encoder",
+        "in-context learning",
+        "context window extension",
+        "instruct decoders",
+        "base decoders",
+        "pretrained models"
+      ],
+      "githubStars": 11,
+      "organization": {
+        "_id": "6683d6350b54a28aff6645fe",
+        "name": "kyutai",
+        "fullname": "Kyutai",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6355a3c1805be5a8f30fea49/8xGdIOlfkopZfhbMitw_k.jpeg"
+      }
+    },
+    "publishedAt": "2025-10-23T09:20:57.000Z",
+    "title": "ARC-Encoder: learning compressed text representations for large language\n  models",
+    "summary": "Recent techniques such as retrieval-augmented generation or chain-of-thought\nreasoning have led to longer contexts and increased inference costs. Context\ncompression techniques can reduce these costs, but the most effective\napproaches require fine-tuning the target model or even modifying its\narchitecture. This can degrade its general abilities when not used for this\nspecific purpose. Here we explore an alternative approach: an encoder that\ncompresses the context into continuous representations which replace token\nembeddings in decoder LLMs. First, we perform a systematic study of training\nstrategies and architecture choices for the encoder. Our findings led to the\ndesign of an Adaptable text Representations Compressor, named ARC-Encoder,\nwhich outputs x-times fewer continuous representations (typically\nx!in!{4,8}) than text tokens. We evaluate ARC-Encoder across a variety\nof LLM usage scenarios, ranging from in-context learning to context window\nextension, on both instruct and base decoders. Results show that ARC-Encoder\nachieves state-of-the-art performance on several benchmarks while improving\ncomputational efficiency at inference. Finally, we demonstrate that our models\ncan be adapted to multiple decoders simultaneously, allowing a single encoder\nto generalize across different decoder LLMs. This makes ARC-Encoder a flexible\nand efficient solution for portable encoders that work seamlessly with multiple\nLLMs. We release a training code at https://github.com/kyutai-labs/ARC-Encoder\n, fine-tuning dataset and pretrained models are available at\nhttps://huggingface.co/collections/kyutai/arc-encoders-68ee18787301407d60a57047 .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.20535.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66ea9f89a43597a36208be6c",
+      "avatarUrl": "/avatars/7024721892d8171923a8d4dced143d09.svg",
+      "fullname": "Hippolyte Pilchen",
+      "name": "HippolyteP",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "organization": {
+      "_id": "6683d6350b54a28aff6645fe",
+      "name": "kyutai",
+      "fullname": "Kyutai",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6355a3c1805be5a8f30fea49/8xGdIOlfkopZfhbMitw_k.jpeg"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2510.21553",
+      "authors": [
+        {
+          "_id": "68fed89d6cdff8b857f4715f",
+          "name": "Jared Claypoole",
+          "hidden": false
+        },
+        {
+          "_id": "68fed89d6cdff8b857f47160",
+          "name": "Yunye Gong",
+          "hidden": false
+        },
+        {
+          "_id": "68fed89d6cdff8b857f47161",
+          "name": "Noson S. Yanofsky",
+          "hidden": false
+        },
+        {
+          "_id": "68fed89d6cdff8b857f47162",
+          "name": "Ajay Divakaran",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-24T15:12:08.000Z",
+      "submittedOnDailyAt": "2025-10-27T01:00:12.146Z",
+      "title": "Document Understanding, Measurement, and Manipulation Using Category\n  Theory",
+      "submittedOnDailyBy": {
+        "_id": "68fed6db05d20c85c3de791f",
+        "avatarUrl": "/avatars/ee28ae5ed20e41cb7143507fa62a14a7.svg",
+        "isPro": false,
+        "fullname": "Ajay Divakaran",
+        "user": "AjayDivakaran",
+        "type": "user"
+      },
+      "summary": "We apply category theory to extract multimodal document structure which leads\nus to develop information theoretic measures, content summarization and\nextension, and self-supervised improvement of large pretrained models. We first\ndevelop a mathematical representation of a document as a category of\nquestion-answer pairs. Second, we develop an orthogonalization procedure to\ndivide the information contained in one or more documents into non-overlapping\npieces. The structures extracted in the first and second steps lead us to\ndevelop methods to measure and enumerate the information contained in a\ndocument. We also build on those steps to develop new summarization techniques,\nas well as to develop a solution to a new problem viz. exegesis resulting in an\nextension of the original document. Our question-answer pair methodology\nenables a novel rate distortion analysis of summarization techniques. We\nimplement our techniques using large pretrained models, and we propose a\nmultimodal extension of our overall mathematical framework. Finally, we develop\na novel self-supervised method using RLVR to improve large pretrained models\nusing consistency constraints such as composability and closure under certain\noperations that stem naturally from our category theoretic framework.",
+      "upvotes": 0,
+      "discussionId": "68fed89d6cdff8b857f47163",
+      "ai_summary": "Category theory is used to develop information-theoretic measures, summarization, and self-supervised improvement of large pretrained models through a mathematical framework of question-answer pairs and orthogonalization.",
+      "ai_keywords": [
+        "category theory",
+        "multimodal document structure",
+        "information theoretic measures",
+        "content summarization",
+        "self-supervised improvement",
+        "large pretrained models",
+        "question-answer pairs",
+        "orthogonalization",
+        "rate distortion analysis",
+        "RLVR",
+        "composability",
+        "closure"
+      ],
+      "organization": {
+        "_id": "649c744a281fd55e9b7f3343",
+        "name": "SRIintl",
+        "fullname": "SRI International",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/gRtiyIG2JA4-MlqBz8MI2.png"
+      }
+    },
+    "publishedAt": "2025-10-24T11:12:08.000Z",
+    "title": "Document Understanding, Measurement, and Manipulation Using Category\n  Theory",
+    "summary": "We apply category theory to extract multimodal document structure which leads\nus to develop information theoretic measures, content summarization and\nextension, and self-supervised improvement of large pretrained models. We first\ndevelop a mathematical representation of a document as a category of\nquestion-answer pairs. Second, we develop an orthogonalization procedure to\ndivide the information contained in one or more documents into non-overlapping\npieces. The structures extracted in the first and second steps lead us to\ndevelop methods to measure and enumerate the information contained in a\ndocument. We also build on those steps to develop new summarization techniques,\nas well as to develop a solution to a new problem viz. exegesis resulting in an\nextension of the original document. Our question-answer pair methodology\nenables a novel rate distortion analysis of summarization techniques. We\nimplement our techniques using large pretrained models, and we propose a\nmultimodal extension of our overall mathematical framework. Finally, we develop\na novel self-supervised method using RLVR to improve large pretrained models\nusing consistency constraints such as composability and closure under certain\noperations that stem naturally from our category theoretic framework.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.21553.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "68fed6db05d20c85c3de791f",
+      "avatarUrl": "/avatars/ee28ae5ed20e41cb7143507fa62a14a7.svg",
+      "fullname": "Ajay Divakaran",
+      "name": "AjayDivakaran",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "organization": {
+      "_id": "649c744a281fd55e9b7f3343",
+      "name": "SRIintl",
+      "fullname": "SRI International",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/gRtiyIG2JA4-MlqBz8MI2.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
