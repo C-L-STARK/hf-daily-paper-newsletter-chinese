@@ -1,0 +1,286 @@
+[
+  {
+    "paper": {
+      "id": "2510.27607",
+      "authors": [
+        {
+          "_id": "690815d6812eca10f9cc5e0b",
+          "name": "John Won",
+          "hidden": false
+        },
+        {
+          "_id": "690815d6812eca10f9cc5e0c",
+          "name": "Kyungmin Lee",
+          "hidden": false
+        },
+        {
+          "_id": "690815d6812eca10f9cc5e0d",
+          "name": "Huiwon Jang",
+          "hidden": false
+        },
+        {
+          "_id": "690815d6812eca10f9cc5e0e",
+          "name": "Dongyoung Kim",
+          "hidden": false
+        },
+        {
+          "_id": "690815d6812eca10f9cc5e0f",
+          "name": "Jinwoo Shin",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-31T16:32:12.000Z",
+      "submittedOnDailyAt": "2025-11-03T00:09:23.869Z",
+      "title": "Dual-Stream Diffusion for World-Model Augmented Vision-Language-Action\n  Model",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recently, augmenting Vision-Language-Action models (VLAs) with world modeling\nhas shown promise in improving robotic policy learning. However, it remains\nchallenging to jointly predict next-state observations and action sequences\nbecause of the inherent difference between the two modalities. To address this,\nwe propose DUal-STream diffusion (DUST), a world-model augmented VLA framework\nthat handles the modality conflict and enhances the performance of VLAs across\ndiverse tasks. Specifically, we propose a multimodal diffusion transformer\narchitecture that explicitly maintains separate modality streams while still\nenabling cross-modal knowledge sharing. In addition, we introduce independent\nnoise perturbations for each modality and a decoupled flow-matching loss. This\ndesign enables the model to learn the joint distribution in a bidirectional\nmanner while avoiding the need for a unified latent space. Based on the\ndecoupling of modalities during training, we also introduce a joint sampling\nmethod that supports test-time scaling, where action and vision tokens evolve\nasynchronously at different rates. Through experiments on simulated benchmarks\nsuch as RoboCasa and GR-1, DUST achieves up to 6% gains over baseline methods,\nwhile our test-time scaling approach provides an additional 2-5% boost. On\nreal-world tasks with the Franka Research 3, DUST improves success rates by\n13%, confirming its effectiveness beyond simulation. Furthermore, pre-training\non action-free videos from BridgeV2 yields significant transfer gains on\nRoboCasa, underscoring DUST's potential for large-scale VLA pretraining.",
+      "upvotes": 0,
+      "discussionId": "690815d6812eca10f9cc5e10"
+    },
+    "publishedAt": "2025-10-31T12:32:12.000Z",
+    "title": "Dual-Stream Diffusion for World-Model Augmented Vision-Language-Action\n  Model",
+    "summary": "Recently, augmenting Vision-Language-Action models (VLAs) with world modeling\nhas shown promise in improving robotic policy learning. However, it remains\nchallenging to jointly predict next-state observations and action sequences\nbecause of the inherent difference between the two modalities. To address this,\nwe propose DUal-STream diffusion (DUST), a world-model augmented VLA framework\nthat handles the modality conflict and enhances the performance of VLAs across\ndiverse tasks. Specifically, we propose a multimodal diffusion transformer\narchitecture that explicitly maintains separate modality streams while still\nenabling cross-modal knowledge sharing. In addition, we introduce independent\nnoise perturbations for each modality and a decoupled flow-matching loss. This\ndesign enables the model to learn the joint distribution in a bidirectional\nmanner while avoiding the need for a unified latent space. Based on the\ndecoupling of modalities during training, we also introduce a joint sampling\nmethod that supports test-time scaling, where action and vision tokens evolve\nasynchronously at different rates. Through experiments on simulated benchmarks\nsuch as RoboCasa and GR-1, DUST achieves up to 6% gains over baseline methods,\nwhile our test-time scaling approach provides an additional 2-5% boost. On\nreal-world tasks with the Franka Research 3, DUST improves success rates by\n13%, confirming its effectiveness beyond simulation. Furthermore, pre-training\non action-free videos from BridgeV2 yields significant transfer gains on\nRoboCasa, underscoring DUST's potential for large-scale VLA pretraining.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.27607.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 154
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2510.26887",
+      "authors": [
+        {
+          "_id": "6908169f812eca10f9cc5e12",
+          "name": "Francisco Villaescusa-Navarro",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e13",
+          "name": "Boris Bolliet",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e14",
+          "name": "Pablo Villanueva-Domingo",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e15",
+          "name": "Adrian E. Bayer",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e16",
+          "name": "Aidan Acquah",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e17",
+          "name": "Chetana Amancharla",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e18",
+          "name": "Almog Barzilay-Siegal",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e19",
+          "name": "Pablo Bermejo",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e1a",
+          "name": "Camille Bilodeau",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e1b",
+          "name": "Pablo Cárdenas Ramírez",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e1c",
+          "name": "Miles Cranmer",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e1d",
+          "name": "Urbano L. França",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e1e",
+          "name": "ChangHoon Hahn",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e1f",
+          "name": "Yan-Fei Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e20",
+          "name": "Raul Jimenez",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e21",
+          "name": "Jun-Young Lee",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e22",
+          "name": "Antonio Lerario",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e23",
+          "name": "Osman Mamun",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e24",
+          "name": "Thomas Meier",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e25",
+          "name": "Anupam A. Ojha",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e26",
+          "name": "Pavlos Protopapas",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e27",
+          "name": "Shimanto Roy",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e28",
+          "name": "David N. Spergel",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e29",
+          "name": "Pedro Tarancón-Álvarez",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e2a",
+          "name": "Ujjwal Tiwari",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e2b",
+          "name": "Matteo Viel",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e2c",
+          "name": "Digvijay Wadekar",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e2d",
+          "name": "Chi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e2e",
+          "name": "Bonny Y. Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e2f",
+          "name": "Licong Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e30",
+          "name": "Yossi Yovel",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e31",
+          "name": "Shuwen Yue",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e32",
+          "name": "Wen-Han Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e33",
+          "name": "Qiyao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e34",
+          "name": "Jiajun Zou",
+          "hidden": false
+        },
+        {
+          "_id": "6908169f812eca10f9cc5e35",
+          "name": "Íñigo Zubeldia",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-10-30T18:00:12.000Z",
+      "submittedOnDailyAt": "2025-11-03T00:12:53.238Z",
+      "title": "The Denario project: Deep knowledge AI agents for scientific discovery",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We present Denario, an AI multi-agent system designed to serve as a\nscientific research assistant. Denario can perform many different tasks, such\nas generating ideas, checking the literature, developing research plans,\nwriting and executing code, making plots, and drafting and reviewing a\nscientific paper. The system has a modular architecture, allowing it to handle\nspecific tasks, such as generating an idea, or carrying out end-to-end\nscientific analysis using Cmbagent as a deep-research backend. In this work, we\ndescribe in detail Denario and its modules, and illustrate its capabilities by\npresenting multiple AI-generated papers generated by it in many different\nscientific disciplines such as astrophysics, biology, biophysics, biomedical\ninformatics, chemistry, material science, mathematical physics, medicine,\nneuroscience and planetary science. Denario also excels at combining ideas from\ndifferent disciplines, and we illustrate this by showing a paper that applies\nmethods from quantum physics and machine learning to astrophysical data. We\nreport the evaluations performed on these papers by domain experts, who\nprovided both numerical scores and review-like feedback. We then highlight the\nstrengths, weaknesses, and limitations of the current system. Finally, we\ndiscuss the ethical implications of AI-driven research and reflect on how such\ntechnology relates to the philosophy of science. We publicly release the code\nat https://github.com/AstroPilot-AI/Denario. A Denario demo can also be run\ndirectly on the web at https://huggingface.co/spaces/astropilot-ai/Denario, and\nthe full app will be deployed on the cloud.",
+      "upvotes": 0,
+      "discussionId": "690816a0812eca10f9cc5e36",
+      "githubRepo": "https://github.com/AstroPilot-AI/Denario"
+    },
+    "publishedAt": "2025-10-30T14:00:12.000Z",
+    "title": "The Denario project: Deep knowledge AI agents for scientific discovery",
+    "summary": "We present Denario, an AI multi-agent system designed to serve as a\nscientific research assistant. Denario can perform many different tasks, such\nas generating ideas, checking the literature, developing research plans,\nwriting and executing code, making plots, and drafting and reviewing a\nscientific paper. The system has a modular architecture, allowing it to handle\nspecific tasks, such as generating an idea, or carrying out end-to-end\nscientific analysis using Cmbagent as a deep-research backend. In this work, we\ndescribe in detail Denario and its modules, and illustrate its capabilities by\npresenting multiple AI-generated papers generated by it in many different\nscientific disciplines such as astrophysics, biology, biophysics, biomedical\ninformatics, chemistry, material science, mathematical physics, medicine,\nneuroscience and planetary science. Denario also excels at combining ideas from\ndifferent disciplines, and we illustrate this by showing a paper that applies\nmethods from quantum physics and machine learning to astrophysical data. We\nreport the evaluations performed on these papers by domain experts, who\nprovided both numerical scores and review-like feedback. We then highlight the\nstrengths, weaknesses, and limitations of the current system. Finally, we\ndiscuss the ethical implications of AI-driven research and reflect on how such\ntechnology relates to the philosophy of science. We publicly release the code\nat https://github.com/AstroPilot-AI/Denario. A Denario demo can also be run\ndirectly on the web at https://huggingface.co/spaces/astropilot-ai/Denario, and\nthe full app will be deployed on the cloud.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.26887.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 154
+    },
+    "isAuthorParticipating": false
+  }
+]
