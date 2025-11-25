@@ -1,0 +1,216 @@
+[
+  {
+    "paper": {
+      "id": "2511.17729",
+      "authors": [
+        {
+          "_id": "6925154e16eb3a9f1310390b",
+          "name": "Yang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6925154e16eb3a9f1310390c",
+          "name": "Mingyu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6925154e16eb3a9f1310390d",
+          "name": "Zhenting Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6925154e16eb3a9f1310390e",
+          "name": "Difei Gu",
+          "hidden": false
+        },
+        {
+          "_id": "6925154e16eb3a9f1310390f",
+          "name": "Bangwei Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6925154e16eb3a9f13103910",
+          "name": "Ruosong Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6925154e16eb3a9f13103911",
+          "name": "Ligong Han",
+          "hidden": false
+        },
+        {
+          "_id": "6925154e16eb3a9f13103912",
+          "name": "Can Jin",
+          "hidden": false
+        },
+        {
+          "_id": "6925154e16eb3a9f13103913",
+          "name": "Dimitris N. Metaxas",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-11-21T19:27:02.000Z",
+      "submittedOnDailyAt": "2025-11-25T00:05:53.981Z",
+      "title": "M3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark",
+      "submittedOnDailyBy": {
+        "_id": "64dfcc62e8b6f3f3baa950e0",
+        "avatarUrl": "/avatars/21bbff67d46c08044efe2406575aa77e.svg",
+        "isPro": false,
+        "fullname": "Zhenting Wang",
+        "user": "ztwang",
+        "type": "user"
+      },
+      "summary": "We present M^3-Bench, the first benchmark for evaluating multimodal tool use under the Model Context Protocol. The benchmark targets realistic, multi-hop and multi-threaded workflows that require visual grounding and textual reasoning, cross-tool dependencies, and persistence of intermediate resources across steps. We introduce a similarity-driven alignment that serializes each tool call, embeds signatures with a sentence encoder, and performs similarity-bucketed Hungarian matching to obtain auditable one-to-one correspondences. On top of this alignment, we report interpretable metrics that decouple semantic fidelity from workflow consistency. The benchmark spans 28 servers with 231 tools, and provides standardized trajectories curated through an Executor & Judge pipeline with human verification; an auxiliary four large language models (LLMs) judge ensemble reports end-task Task Completion and information grounding. Evaluations of representative state-of-the-art Multimodal LLMs (MLLMs) reveal persistent gaps in multimodal MCP tool use, particularly in argument fidelity and structure consistency, underscoring the need for methods that jointly reason over images, text, and tool graphs. Our Benchmark's anonymous repository is at https://github.com/EtaYang10th/Open-M3-Bench",
+      "upvotes": 3,
+      "discussionId": "6925154e16eb3a9f13103914",
+      "githubRepo": "https://github.com/EtaYang10th/Open-M3-Bench",
+      "ai_summary": "M^3-Bench evaluates multimodal tool use with a focus on visual grounding, textual reasoning, and tool dependencies using a novel similarity-driven alignment method and interpretable metrics.",
+      "ai_keywords": [
+        "Model Context Protocol",
+        "multimodal tool use",
+        "multi-hop workflows",
+        "multi-threaded workflows",
+        "visual grounding",
+        "textual reasoning",
+        "cross-tool dependencies",
+        "intermediate resources",
+        "similarity-driven alignment",
+        "sentence encoder",
+        "Hungarian matching",
+        "semantic fidelity",
+        "workflow consistency",
+        "Multimodal LLMs",
+        "argument fidelity",
+        "structure consistency",
+        "tool graphs"
+      ]
+    },
+    "publishedAt": "2025-11-21T14:27:02.000Z",
+    "title": "M3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark",
+    "summary": "We present M^3-Bench, the first benchmark for evaluating multimodal tool use under the Model Context Protocol. The benchmark targets realistic, multi-hop and multi-threaded workflows that require visual grounding and textual reasoning, cross-tool dependencies, and persistence of intermediate resources across steps. We introduce a similarity-driven alignment that serializes each tool call, embeds signatures with a sentence encoder, and performs similarity-bucketed Hungarian matching to obtain auditable one-to-one correspondences. On top of this alignment, we report interpretable metrics that decouple semantic fidelity from workflow consistency. The benchmark spans 28 servers with 231 tools, and provides standardized trajectories curated through an Executor & Judge pipeline with human verification; an auxiliary four large language models (LLMs) judge ensemble reports end-task Task Completion and information grounding. Evaluations of representative state-of-the-art Multimodal LLMs (MLLMs) reveal persistent gaps in multimodal MCP tool use, particularly in argument fidelity and structure consistency, underscoring the need for methods that jointly reason over images, text, and tool graphs. Our Benchmark's anonymous repository is at https://github.com/EtaYang10th/Open-M3-Bench",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.17729.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64dfcc62e8b6f3f3baa950e0",
+      "avatarUrl": "/avatars/21bbff67d46c08044efe2406575aa77e.svg",
+      "fullname": "Zhenting Wang",
+      "name": "ztwang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2511.15567",
+      "authors": [
+        {
+          "_id": "692067008c38b39d6a482df9",
+          "name": "Kevin Qinghong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "692067008c38b39d6a482dfa",
+          "name": "Siyuan Hu",
+          "hidden": false
+        },
+        {
+          "_id": "692067008c38b39d6a482dfb",
+          "name": "Linjie Li",
+          "hidden": false
+        },
+        {
+          "_id": "692067008c38b39d6a482dfc",
+          "name": "Zhengyuan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "692067008c38b39d6a482dfd",
+          "name": "Lijuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "692067008c38b39d6a482dfe",
+          "name": "Philip Torr",
+          "hidden": false
+        },
+        {
+          "_id": "692067008c38b39d6a482dff",
+          "name": "Mike Zheng Shou",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64440be5af034cdfd69ca3a7/46SJDQ6RRkIZYeUC4jmvo.mp4"
+      ],
+      "publishedAt": "2025-11-19T16:00:02.000Z",
+      "submittedOnDailyAt": "2025-11-25T00:11:39.230Z",
+      "title": "Computer-Use Agents as Judges for Generative User Interface",
+      "submittedOnDailyBy": {
+        "_id": "64440be5af034cdfd69ca3a7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+        "isPro": false,
+        "fullname": "Qinghong (Kevin) Lin",
+        "user": "KevinQHLin",
+        "type": "user"
+      },
+      "summary": "Computer-Use Agents (CUA) are becoming increasingly capable of autonomously operating digital environments through Graphical User Interfaces (GUI). Yet, most GUI remain designed primarily for humans--prioritizing aesthetics and usability--forcing agents to adopt human-oriented behaviors that are unnecessary for efficient task execution. At the same time, rapid advances in coding-oriented language models (Coder) have transformed automatic GUI design. This raises a fundamental question: Can CUA as judges to assist Coder for automatic GUI design? To investigate, we introduce AUI-Gym, a benchmark for Automatic GUI development spanning 52 applications across diverse domains. Using language models, we synthesize 1560 tasks that simulate real-world scenarios. To ensure task reliability, we further develop a verifier that programmatically checks whether each task is executable within its environment. Building on this, we propose a Coder-CUA in Collaboration framework: the Coder acts as Designer, generating and revising websites, while the CUA serves as Judge, evaluating functionality and refining designs. Success is measured not by visual appearance, but by task solvability and CUA navigation success rate. To turn CUA feedback into usable guidance, we design a CUA Dashboard that compresses multi-step navigation histories into concise visual summaries, offering interpretable guidance for iterative redesign. By positioning agents as both designers and judges, our framework shifts interface design toward agent-native efficiency and reliability. Our work takes a step toward shifting agents from passive use toward active participation in digital environments. Our code and dataset are available at https://github.com/showlab/AUI.",
+      "upvotes": 2,
+      "discussionId": "692067008c38b39d6a482e00",
+      "projectPage": "https://showlab.github.io/AUI/",
+      "githubRepo": "https://github.com/showlab/AUI",
+      "ai_summary": "A framework leveraging Computer-Use Agents as judges to assist coding-oriented language models in designing efficient and functional GUIs.",
+      "ai_keywords": [
+        "Computer-Use Agents",
+        "CUA",
+        "Graphical User Interfaces",
+        "GUI",
+        "language models",
+        "Coder",
+        "AUI-Gym",
+        "task reliability",
+        "Coder-CUA collaboration",
+        "CUA Dashboard",
+        "task solvability",
+        "navigation success rate"
+      ],
+      "organization": {
+        "_id": "63a553c4ce5763e06f78669c",
+        "name": "showlab",
+        "fullname": "Show Lab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1671779505215-63a55320ce5763e06f78519c.png"
+      }
+    },
+    "publishedAt": "2025-11-19T11:00:02.000Z",
+    "title": "Computer-Use Agents as Judges for Generative User Interface",
+    "summary": "Computer-Use Agents (CUA) are becoming increasingly capable of autonomously operating digital environments through Graphical User Interfaces (GUI). Yet, most GUI remain designed primarily for humans--prioritizing aesthetics and usability--forcing agents to adopt human-oriented behaviors that are unnecessary for efficient task execution. At the same time, rapid advances in coding-oriented language models (Coder) have transformed automatic GUI design. This raises a fundamental question: Can CUA as judges to assist Coder for automatic GUI design? To investigate, we introduce AUI-Gym, a benchmark for Automatic GUI development spanning 52 applications across diverse domains. Using language models, we synthesize 1560 tasks that simulate real-world scenarios. To ensure task reliability, we further develop a verifier that programmatically checks whether each task is executable within its environment. Building on this, we propose a Coder-CUA in Collaboration framework: the Coder acts as Designer, generating and revising websites, while the CUA serves as Judge, evaluating functionality and refining designs. Success is measured not by visual appearance, but by task solvability and CUA navigation success rate. To turn CUA feedback into usable guidance, we design a CUA Dashboard that compresses multi-step navigation histories into concise visual summaries, offering interpretable guidance for iterative redesign. By positioning agents as both designers and judges, our framework shifts interface design toward agent-native efficiency and reliability. Our work takes a step toward shifting agents from passive use toward active participation in digital environments. Our code and dataset are available at https://github.com/showlab/AUI.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64440be5af034cdfd69ca3a7/46SJDQ6RRkIZYeUC4jmvo.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.15567.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64440be5af034cdfd69ca3a7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+      "fullname": "Qinghong (Kevin) Lin",
+      "name": "KevinQHLin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 39
+    },
+    "organization": {
+      "_id": "63a553c4ce5763e06f78669c",
+      "name": "showlab",
+      "fullname": "Show Lab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1671779505215-63a55320ce5763e06f78519c.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
