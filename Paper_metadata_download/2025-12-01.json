@@ -1,0 +1,96 @@
+[
+  {
+    "paper": {
+      "id": "2511.18822",
+      "authors": [
+        {
+          "_id": "692d00ed4397b1ec214f677d",
+          "name": "Zhennan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "692d00ed4397b1ec214f677e",
+          "name": "Junwei Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "692d00ed4397b1ec214f677f",
+          "name": "Xu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "692d00ed4397b1ec214f6780",
+          "name": "Jiangning Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "692d00ed4397b1ec214f6781",
+          "name": "Xiaobin Hu",
+          "hidden": false
+        },
+        {
+          "_id": "692d00ed4397b1ec214f6782",
+          "name": "Hanzhen Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "692d00ed4397b1ec214f6783",
+          "name": "Chengjie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "692d00ed4397b1ec214f6784",
+          "name": "Jian Yang",
+          "hidden": false
+        },
+        {
+          "_id": "692d00ed4397b1ec214f6785",
+          "name": "Ying Tai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-11-24T06:55:49.000Z",
+      "submittedOnDailyAt": "2025-12-01T00:32:27.778Z",
+      "title": "DiP: Taming Diffusion Models in Pixel Space",
+      "submittedOnDailyBy": {
+        "_id": "66449e619ff401732687f013",
+        "avatarUrl": "/avatars/251897d1324a70a9bf761513871c5841.svg",
+        "isPro": false,
+        "fullname": "chen",
+        "user": "zhen-nan",
+        "type": "user"
+      },
+      "summary": "Diffusion models face a fundamental trade-off between generation quality and computational efficiency. Latent Diffusion Models (LDMs) offer an efficient solution but suffer from potential information loss and non-end-to-end training. In contrast, existing pixel space models bypass VAEs but are computationally prohibitive for high-resolution synthesis. To resolve this dilemma, we propose DiP, an efficient pixel space diffusion framework. DiP decouples generation into a global and a local stage: a Diffusion Transformer (DiT) backbone operates on large patches for efficient global structure construction, while a co-trained lightweight Patch Detailer Head leverages contextual features to restore fine-grained local details. This synergistic design achieves computational efficiency comparable to LDMs without relying on a VAE. DiP is accomplished with up to 10times faster inference speeds than previous method while increasing the total number of parameters by only 0.3%, and achieves an 1.79 FID score on ImageNet 256times256.",
+      "upvotes": 0,
+      "discussionId": "692d00ed4397b1ec214f6786",
+      "ai_summary": "DiP, a pixel space diffusion framework, combines a Diffusion Transformer and a Patch Detailer Head to achieve computational efficiency and high-quality image generation without using VAEs.",
+      "ai_keywords": [
+        "diffusion models",
+        "latent diffusion models (LDMs)",
+        "pixel space models",
+        "variational autoencoders (VAEs)",
+        "diffusion transformer (DiT)",
+        "patch detailer head",
+        "FID score"
+      ]
+    },
+    "publishedAt": "2025-11-24T01:55:49.000Z",
+    "title": "DiP: Taming Diffusion Models in Pixel Space",
+    "summary": "Diffusion models face a fundamental trade-off between generation quality and computational efficiency. Latent Diffusion Models (LDMs) offer an efficient solution but suffer from potential information loss and non-end-to-end training. In contrast, existing pixel space models bypass VAEs but are computationally prohibitive for high-resolution synthesis. To resolve this dilemma, we propose DiP, an efficient pixel space diffusion framework. DiP decouples generation into a global and a local stage: a Diffusion Transformer (DiT) backbone operates on large patches for efficient global structure construction, while a co-trained lightweight Patch Detailer Head leverages contextual features to restore fine-grained local details. This synergistic design achieves computational efficiency comparable to LDMs without relying on a VAE. DiP is accomplished with up to 10times faster inference speeds than previous method while increasing the total number of parameters by only 0.3%, and achieves an 1.79 FID score on ImageNet 256times256.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.18822.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66449e619ff401732687f013",
+      "avatarUrl": "/avatars/251897d1324a70a9bf761513871c5841.svg",
+      "fullname": "chen",
+      "name": "zhen-nan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4
+    },
+    "isAuthorParticipating": false
+  }
+]
