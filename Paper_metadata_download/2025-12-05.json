@@ -1,0 +1,838 @@
+[
+  {
+    "paper": {
+      "id": "2512.04746",
+      "authors": [
+        {
+          "_id": "693245586d1060ca587a2612",
+          "name": "Wenhua Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "693245586d1060ca587a2613",
+          "name": "Weiwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "693245586d1060ca587a2614",
+          "name": "Heng Guo",
+          "hidden": false
+        },
+        {
+          "_id": "693245586d1060ca587a2615",
+          "name": "Haihao Shen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-04T12:35:10.000Z",
+      "submittedOnDailyAt": "2025-12-05T00:08:00.865Z",
+      "title": "SignRoundV2: Closing the Performance Gap in Extremely Low-Bit Post-Training Quantization for LLMs",
+      "submittedOnDailyBy": {
+        "_id": "60ac3318e3de7c7440abb850",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60ac3318e3de7c7440abb850/DkMrPBr6Ew_dS_c9kog4e.jpeg",
+        "isPro": false,
+        "fullname": "Haihao Shen",
+        "user": "Haihao",
+        "type": "user"
+      },
+      "summary": "Extreme low-bit quantization is critical for efficiently deploying Large Language Models (LLMs), yet it often leads to severe performance degradation at 2-bits and even 4-bits (e.g., MXFP4). We present SignRoundV2, a post-training quantization framework that is highly effective even without mixed-precision. SignRoundV2 introduces (1) a fast sensitivity metric that combines gradient information with quantization-induced deviations to guide layer-wise bit allocation, and (2) a lightweight pre-tuning search for quantization scales to improve extremely low-bit quantization. These components allow SignRoundV2 to close the gap with full-precision models. Extensive experiments indicate that our method sustains competitive accuracy for LLMs, achieving production-grade performance with about 1 percent variance at 4-5 bits and strong results even at 2 bits. The implementation is available at https://github.com/intel/auto-round.",
+      "upvotes": 1,
+      "discussionId": "693245586d1060ca587a2616",
+      "ai_summary": "SignRoundV2, a post-training quantization framework, achieves competitive accuracy for Large Language Models at extremely low-bit quantization through layer-wise bit allocation and pre-tuning scale search.",
+      "ai_keywords": [
+        "post-training quantization",
+        "SignRoundV2",
+        "gradient information",
+        "quantization-induced deviations",
+        "layer-wise bit allocation",
+        "pre-tuning",
+        "Large Language Models",
+        "low-bit quantization",
+        "mixed-precision",
+        "production-grade performance"
+      ],
+      "organization": {
+        "_id": "6054ca445e96cd4dd1fc6d68",
+        "name": "Intel",
+        "fullname": "Intel",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1616186257611-60104afcc75e19ac1738fe70.png"
+      }
+    },
+    "publishedAt": "2025-12-04T07:35:10.000Z",
+    "title": "SignRoundV2: Closing the Performance Gap in Extremely Low-Bit Post-Training Quantization for LLMs",
+    "summary": "Extreme low-bit quantization is critical for efficiently deploying Large Language Models (LLMs), yet it often leads to severe performance degradation at 2-bits and even 4-bits (e.g., MXFP4). We present SignRoundV2, a post-training quantization framework that is highly effective even without mixed-precision. SignRoundV2 introduces (1) a fast sensitivity metric that combines gradient information with quantization-induced deviations to guide layer-wise bit allocation, and (2) a lightweight pre-tuning search for quantization scales to improve extremely low-bit quantization. These components allow SignRoundV2 to close the gap with full-precision models. Extensive experiments indicate that our method sustains competitive accuracy for LLMs, achieving production-grade performance with about 1 percent variance at 4-5 bits and strong results even at 2 bits. The implementation is available at https://github.com/intel/auto-round.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.04746.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60ac3318e3de7c7440abb850",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60ac3318e3de7c7440abb850/DkMrPBr6Ew_dS_c9kog4e.jpeg",
+      "fullname": "Haihao Shen",
+      "name": "Haihao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 26
+    },
+    "organization": {
+      "_id": "6054ca445e96cd4dd1fc6d68",
+      "name": "Intel",
+      "fullname": "Intel",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1616186257611-60104afcc75e19ac1738fe70.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.05103",
+      "authors": [
+        {
+          "_id": "6932468c6d1060ca587a2677",
+          "name": "Xiaochuang Han",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2678",
+          "name": "Youssef Emad",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2679",
+          "name": "Melissa Hall",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a267a",
+          "name": "John Nguyen",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a267b",
+          "name": "Karthik Padthe",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a267c",
+          "name": "Liam Robbins",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a267d",
+          "name": "Amir Bar",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a267e",
+          "name": "Delong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a267f",
+          "name": "Michal Drozdzal",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2680",
+          "name": "Maha Elbayad",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2681",
+          "name": "Yushi Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2682",
+          "name": "Shang-Wen Li",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2683",
+          "name": "Sreya Dutta Roy",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2684",
+          "name": "Jakob Verbeek",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2685",
+          "name": "XuDong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2686",
+          "name": "Marjan Ghazvininejad",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2687",
+          "name": "Luke Zettlemoyer",
+          "hidden": false
+        },
+        {
+          "_id": "6932468c6d1060ca587a2688",
+          "name": "Emily Dinan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-04T18:59:09.000Z",
+      "submittedOnDailyAt": "2025-12-05T00:12:32.141Z",
+      "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Video generation models are rapidly advancing, but can still struggle with complex video outputs that require significant semantic branching or repeated high-level reasoning about what should happen next. In this paper, we introduce a new class of omni video-text models that integrate ideas from recent LM reasoning advances to address this challenge. More specifically, we present TV2TV, a unified generative modeling framework which decomposes video generation into an interleaved text and video generation process. TV2TV jointly learns language modeling (next-token prediction) and video flow matching (next-frame prediction) using a Mixture-of-Transformers (MoT) architecture. At inference time, TV2TV decides when to alternate between generating text and video frames, allowing the model to \"think in words\" about subsequent content before ``acting in pixels'' to produce frames. This design offloads much of the responsibility for deciding what should happen next to the language modeling tower, enabling improved visual quality and prompt alignment of generated videos. It also enables fine-grained controllability, allowing users to modify the video generation trajectory through text interventions at any point in the process. In controlled experiments on video game data, TV2TV demonstrates substantial improvements in both visual quality and controllability. TV2TV also scales to natural videos, as we show by augmenting sports videos with interleaved natural language action descriptions using vision-language models (VLMs). Training TV2TV on this corpus yields strong visual quality and prompt alignment, showcasing the model's ability to reason about and generate complex real-world action sequences. Together, these results highlight TV2TV as a promising step toward video generation with open-ended textual reasoning and control.",
+      "upvotes": 0,
+      "discussionId": "6932468d6d1060ca587a2689",
+      "ai_summary": "A new video generation model, TV2TV, integrates text and video generation using a Mixture-of-Transformers to improve visual quality and controllability by leveraging language modeling for high-level reasoning.",
+      "ai_keywords": [
+        "video generation models",
+        "omni video-text models",
+        "TV2TV",
+        "unified generative modeling framework",
+        "language modeling",
+        "video flow matching",
+        "Mixture-of-Transformers",
+        "text and video generation process",
+        "next-token prediction",
+        "next-frame prediction",
+        "language modeling tower",
+        "prompt alignment",
+        "video game data",
+        "natural videos",
+        "vision-language models",
+        "visual quality",
+        "controllability",
+        "textual reasoning"
+      ]
+    },
+    "publishedAt": "2025-12-04T13:59:09.000Z",
+    "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+    "summary": "Video generation models are rapidly advancing, but can still struggle with complex video outputs that require significant semantic branching or repeated high-level reasoning about what should happen next. In this paper, we introduce a new class of omni video-text models that integrate ideas from recent LM reasoning advances to address this challenge. More specifically, we present TV2TV, a unified generative modeling framework which decomposes video generation into an interleaved text and video generation process. TV2TV jointly learns language modeling (next-token prediction) and video flow matching (next-frame prediction) using a Mixture-of-Transformers (MoT) architecture. At inference time, TV2TV decides when to alternate between generating text and video frames, allowing the model to \"think in words\" about subsequent content before ``acting in pixels'' to produce frames. This design offloads much of the responsibility for deciding what should happen next to the language modeling tower, enabling improved visual quality and prompt alignment of generated videos. It also enables fine-grained controllability, allowing users to modify the video generation trajectory through text interventions at any point in the process. In controlled experiments on video game data, TV2TV demonstrates substantial improvements in both visual quality and controllability. TV2TV also scales to natural videos, as we show by augmenting sports videos with interleaved natural language action descriptions using vision-language models (VLMs). Training TV2TV on this corpus yields strong visual quality and prompt alignment, showcasing the model's ability to reason about and generate complex real-world action sequences. Together, these results highlight TV2TV as a promising step toward video generation with open-ended textual reasoning and control.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.05103.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 177
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.04987",
+      "authors": [
+        {
+          "_id": "6932458a6d1060ca587a2618",
+          "name": "Nex-AGI Team",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a261a",
+          "name": "Yuxuan Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a261b",
+          "name": "Lu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a261c",
+          "name": "Qiaoling Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a261d",
+          "name": "Yuyang Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a261e",
+          "name": "Liwen Fan",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a261f",
+          "name": "Wenjie Fu",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2620",
+          "name": "Yufei Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2621",
+          "name": "Honglin Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2622",
+          "name": "Pinxue Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2623",
+          "name": "Zhenhua Han",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2624",
+          "name": "Zhengfu He",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2625",
+          "name": "Hanglei Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2626",
+          "name": "Kai Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2627",
+          "name": "Shengjia Hua",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2628",
+          "name": "Tianyu Huai",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2629",
+          "name": "Baodai Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a262a",
+          "name": "Li Ji",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a262b",
+          "name": "Zhen Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a262c",
+          "name": "Zhikai Lei",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a262d",
+          "name": "Bufan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a262e",
+          "name": "Jiahang Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a262f",
+          "name": "Lizhi Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2630",
+          "name": "Jinxiu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2631",
+          "name": "Shichun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2632",
+          "name": "Ziming Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2633",
+          "name": "Yuchen Ni",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2634",
+          "name": "Pengfang Qian",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2635",
+          "name": "Yujiong Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2636",
+          "name": "Qingyun Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2637",
+          "name": "Wentao Shu",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2638",
+          "name": "Peng Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2639",
+          "name": "Yiran Suo",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a263a",
+          "name": "Tian Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a263b",
+          "name": "Boyu Tian",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a263c",
+          "name": "Guoteng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a263d",
+          "name": "Junzhe Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a263e",
+          "name": "Peixin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a263f",
+          "name": "Zhiheng Xi",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2640",
+          "name": "Hang Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2641",
+          "name": "Jie Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2642",
+          "name": "Zhixiong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2643",
+          "name": "Tianchu Yao",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2644",
+          "name": "Guangze Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2645",
+          "name": "Qianxi Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2646",
+          "name": "Shuo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2647",
+          "name": "Xinyue Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2648",
+          "name": "Yiqi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2649",
+          "name": "Jiarong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a264a",
+          "name": "Miao Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a264b",
+          "name": "Rui Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a264c",
+          "name": "Enyu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a264d",
+          "name": "Jiazheng Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a264e",
+          "name": "Maosen Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a264f",
+          "name": "Yuhao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2650",
+          "name": "Tao Gui",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2651",
+          "name": "Yining Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2652",
+          "name": "Xinchi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2653",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2654",
+          "name": "Siyuan Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2655",
+          "name": "Qin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2656",
+          "name": "Liang He",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2657",
+          "name": "Qi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2658",
+          "name": "Xuanjing Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6932458a6d1060ca587a2659",
+          "name": "Xipeng Qiu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-04T16:57:02.000Z",
+      "submittedOnDailyAt": "2025-12-05T00:08:10.618Z",
+      "title": "Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The evolution of Large Language Models (LLMs) from passive responders to autonomous agents necessitates a fundamental shift in learning paradigms -- from static imitation to incentive-driven decision making. However, this transition is significantly impeded by the lack of scalable infrastructure capable of constructing high-quality interaction signals for effective policy learning. To address this, we introduce a comprehensive method designed to systematically scale the diversity and complexity of interactive environments. Our method realizes this scaling by addressing three orthogonal dimensions: (1) Complexity: NexAU, a flexible agent framework that supports building complex agent hierarchies via simple configurations; (2) Diversity: NexA4A automatically generates diverse agent hierarchies from natural language to cover infinite domains; and (3) Fidelity: NexGAP bridges the simulation-reality gap by integrating dynamic real-world environment for grounded trajectories synthesis. We train Nex-N1 upon the diverse and complex interactive environments established by our infrastructure. Empirical results on benchmarks such as SWE-bench and tau2 demonstrate that Nex-N1 consistently outperforms SOTA open-source models and achieves competitive performance against frontier proprietary models on complex agentic tasks. We open-source the Nex ecosystem and model weights to facilitate further research.",
+      "upvotes": 0,
+      "discussionId": "6932458a6d1060ca587a265a",
+      "githubRepo": "https://github.com/nex-agi/Nex-N1",
+      "ai_summary": "The introduction of NexAU, NexA4A, and NexGAP enables the scaling of complexity, diversity, and fidelity in interactive environments for training large language models as autonomous agents, resulting in superior performance.",
+      "ai_keywords": [
+        "Large Language Models",
+        "autonomous agents",
+        "incentive-driven decision making",
+        "policy learning",
+        "interaction signals",
+        "NexAU",
+        "agent hierarchies",
+        "NexA4A",
+        "natural language",
+        "NexGAP",
+        "simulation-reality gap",
+        "grounded trajectories synthesis",
+        "SWE-bench",
+        "tau2"
+      ]
+    },
+    "publishedAt": "2025-12-04T11:57:02.000Z",
+    "title": "Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction",
+    "summary": "The evolution of Large Language Models (LLMs) from passive responders to autonomous agents necessitates a fundamental shift in learning paradigms -- from static imitation to incentive-driven decision making. However, this transition is significantly impeded by the lack of scalable infrastructure capable of constructing high-quality interaction signals for effective policy learning. To address this, we introduce a comprehensive method designed to systematically scale the diversity and complexity of interactive environments. Our method realizes this scaling by addressing three orthogonal dimensions: (1) Complexity: NexAU, a flexible agent framework that supports building complex agent hierarchies via simple configurations; (2) Diversity: NexA4A automatically generates diverse agent hierarchies from natural language to cover infinite domains; and (3) Fidelity: NexGAP bridges the simulation-reality gap by integrating dynamic real-world environment for grounded trajectories synthesis. We train Nex-N1 upon the diverse and complex interactive environments established by our infrastructure. Empirical results on benchmarks such as SWE-bench and tau2 demonstrate that Nex-N1 consistently outperforms SOTA open-source models and achieves competitive performance against frontier proprietary models on complex agentic tasks. We open-source the Nex ecosystem and model weights to facilitate further research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.04987.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 177
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.04324",
+      "authors": [
+        {
+          "_id": "693245c66d1060ca587a265c",
+          "name": "Fangyu Lei",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a265d",
+          "name": "Jinxiang Meng",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a265e",
+          "name": "Yiming Huang",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a265f",
+          "name": "Junjie Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2660",
+          "name": "Yitong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2661",
+          "name": "Jianwen Luo",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2662",
+          "name": "Xin Zou",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2663",
+          "name": "Ruiyi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2664",
+          "name": "Wenbo Shi",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2665",
+          "name": "Yan Gao",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2666",
+          "name": "Shizhu He",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2667",
+          "name": "Zuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2668",
+          "name": "Qian Liu",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a2669",
+          "name": "Yang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a266a",
+          "name": "Ke Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a266b",
+          "name": "Jun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "693245c66d1060ca587a266c",
+          "name": "Kang Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-03T23:21:28.000Z",
+      "submittedOnDailyAt": "2025-12-05T00:09:12.656Z",
+      "title": "DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Real-world enterprise data intelligence workflows encompass data engineering that turns raw sources into analytical-ready tables and data analysis that convert those tables into decision-oriented insights. We introduce DAComp, a benchmark of 210 tasks that mirrors these complex workflows. Data engineering (DE) tasks require repository-level engineering on industrial schemas, including designing and building multi-stage SQL pipelines from scratch and evolving existing systems under evolving requirements. Data analysis (DA) tasks pose open-ended business problems that demand strategic planning, exploratory analysis through iterative coding, interpretation of intermediate results, and the synthesis of actionable recommendations. Engineering tasks are scored through execution-based, multi-metric evaluation. Open-ended tasks are assessed by a reliable, experimentally validated LLM-judge, which is guided by hierarchical, meticulously crafted rubrics. Our experiments reveal that even state-of-the-art agents falter on DAComp. Performance on DE tasks is particularly low, with success rates under 20%, exposing a critical bottleneck in holistic pipeline orchestration, not merely code generation. Scores on DA tasks also average below 40%, highlighting profound deficiencies in open-ended reasoning and demonstrating that engineering and analysis are distinct capabilities. By clearly diagnosing these limitations, DAComp provides a rigorous and realistic testbed to drive the development of truly capable autonomous data agents for enterprise settings. Our data and code are available at https://da-comp.github.io",
+      "upvotes": 0,
+      "discussionId": "693245c66d1060ca587a266d",
+      "projectPage": "https://da-comp.github.io/",
+      "ai_summary": "DAComp is a benchmark of 210 tasks that evaluates the capabilities of agents in real-world data engineering and data analysis workflows, revealing significant deficiencies in both areas.",
+      "ai_keywords": [
+        "data engineering",
+        "data analysis",
+        "DE tasks",
+        "DA tasks",
+        "SQL pipelines",
+        "multi-metric evaluation",
+        "LLM-judge",
+        "hierarchical rubrics",
+        "autonomous data agents"
+      ]
+    },
+    "publishedAt": "2025-12-03T18:21:28.000Z",
+    "title": "DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle",
+    "summary": "Real-world enterprise data intelligence workflows encompass data engineering that turns raw sources into analytical-ready tables and data analysis that convert those tables into decision-oriented insights. We introduce DAComp, a benchmark of 210 tasks that mirrors these complex workflows. Data engineering (DE) tasks require repository-level engineering on industrial schemas, including designing and building multi-stage SQL pipelines from scratch and evolving existing systems under evolving requirements. Data analysis (DA) tasks pose open-ended business problems that demand strategic planning, exploratory analysis through iterative coding, interpretation of intermediate results, and the synthesis of actionable recommendations. Engineering tasks are scored through execution-based, multi-metric evaluation. Open-ended tasks are assessed by a reliable, experimentally validated LLM-judge, which is guided by hierarchical, meticulously crafted rubrics. Our experiments reveal that even state-of-the-art agents falter on DAComp. Performance on DE tasks is particularly low, with success rates under 20%, exposing a critical bottleneck in holistic pipeline orchestration, not merely code generation. Scores on DA tasks also average below 40%, highlighting profound deficiencies in open-ended reasoning and demonstrating that engineering and analysis are distinct capabilities. By clearly diagnosing these limitations, DAComp provides a rigorous and realistic testbed to drive the development of truly capable autonomous data agents for enterprise settings. Our data and code are available at https://da-comp.github.io",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.04324.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 177
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.04220",
+      "authors": [
+        {
+          "_id": "693246196d1060ca587a266f",
+          "name": "Wenlong Deng",
+          "hidden": false
+        },
+        {
+          "_id": "693246196d1060ca587a2670",
+          "name": "Yushu Li",
+          "hidden": false
+        },
+        {
+          "_id": "693246196d1060ca587a2671",
+          "name": "Boying Gong",
+          "hidden": false
+        },
+        {
+          "_id": "693246196d1060ca587a2672",
+          "name": "Yi Ren",
+          "hidden": false
+        },
+        {
+          "_id": "693246196d1060ca587a2673",
+          "name": "Christos Thrampoulidis",
+          "hidden": false
+        },
+        {
+          "_id": "693246196d1060ca587a2674",
+          "name": "Xiaoxiao Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-03T19:41:15.000Z",
+      "submittedOnDailyAt": "2025-12-05T00:10:35.651Z",
+      "title": "On GRPO Collapse in Search-R1: The Lazy Likelihood-Displacement Death Spiral",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Tool-integrated (TI) reinforcement learning (RL) enables large language models (LLMs) to perform multi-step reasoning by interacting with external tools such as search engines and retrievers. Group Relative Policy Optimization (GRPO), exemplified by the recent Search-R1, offers fast convergence and a value-free formulation that makes it appealing for this setting, yet consistently suffers from training collapse. We identify Lazy Likelihood Displacement (LLD), a systematic reduction or stagnation in the likelihood of both correct and incorrect responses, as the core mechanism driving this failure. LLD emerges early and triggers a self-reinforcing LLD Death Spiral, where declining likelihood leads to low-confidence responses, inflating gradients, and ultimately causing collapse. We empirically characterize this process across models on a Search-R1-style, search-integrated question answering task, revealing a consistent three-phase trajectory: early stagnation, steady decay, and accelerated collapse. To address this, we propose a lightweight likelihood-preserving regularization LLDS for GRPO that activates only when a trajectory's likelihood decreases, and regularizes only the tokens responsible. This fine-grained structure mitigates LLD with minimal interference to optimization. Across seven open-domain and multi-hop QA benchmarks, our method stabilizes training, prevents gradient explosion, and yields substantial performance improvements, including +37.8% gains on Qwen2.5-3B and +32.0% gains on Qwen2.5-7B. Our results establish LLD as a fundamental bottleneck in GRPO-based TIRL and provide a practical path toward stable, scalable training of tool-integrated LLM.",
+      "upvotes": 0,
+      "discussionId": "693246196d1060ca587a2675",
+      "ai_summary": "Lazy Likelihood Displacement is identified as a critical issue in GRPO for tool-integrated reinforcement learning, causing training collapse; LLDS regularization addresses this problem, stabilizing training and improving performance.",
+      "ai_keywords": [
+        "Tool-integrated reinforcement learning",
+        "GRPO",
+        "Search-R1",
+        "Lazy Likelihood Displacement",
+        "LLD Death Spiral",
+        "likelihood-preserving regularization",
+        "LLDS",
+        "Qwen2.5-3B",
+        "Qwen2.5-7B",
+        "open-domain QA",
+        "multi-hop QA"
+      ]
+    },
+    "publishedAt": "2025-12-03T14:41:15.000Z",
+    "title": "On GRPO Collapse in Search-R1: The Lazy Likelihood-Displacement Death Spiral",
+    "summary": "Tool-integrated (TI) reinforcement learning (RL) enables large language models (LLMs) to perform multi-step reasoning by interacting with external tools such as search engines and retrievers. Group Relative Policy Optimization (GRPO), exemplified by the recent Search-R1, offers fast convergence and a value-free formulation that makes it appealing for this setting, yet consistently suffers from training collapse. We identify Lazy Likelihood Displacement (LLD), a systematic reduction or stagnation in the likelihood of both correct and incorrect responses, as the core mechanism driving this failure. LLD emerges early and triggers a self-reinforcing LLD Death Spiral, where declining likelihood leads to low-confidence responses, inflating gradients, and ultimately causing collapse. We empirically characterize this process across models on a Search-R1-style, search-integrated question answering task, revealing a consistent three-phase trajectory: early stagnation, steady decay, and accelerated collapse. To address this, we propose a lightweight likelihood-preserving regularization LLDS for GRPO that activates only when a trajectory's likelihood decreases, and regularizes only the tokens responsible. This fine-grained structure mitigates LLD with minimal interference to optimization. Across seven open-domain and multi-hop QA benchmarks, our method stabilizes training, prevents gradient explosion, and yields substantial performance improvements, including +37.8% gains on Qwen2.5-3B and +32.0% gains on Qwen2.5-7B. Our results establish LLD as a fundamental bottleneck in GRPO-based TIRL and provide a practical path toward stable, scalable training of tool-integrated LLM.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.04220.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 177
+    },
+    "isAuthorParticipating": false
+  }
+]
