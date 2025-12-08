@@ -1,0 +1,534 @@
+[
+  {
+    "paper": {
+      "id": "2512.05965",
+      "authors": [
+        {
+          "_id": "693638ba3962c926cf680724",
+          "name": "Hongyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf680725",
+          "name": "Manyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf680726",
+          "name": "Dian Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf680727",
+          "name": "Ziyu Guo",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf680728",
+          "name": "Yimeng Jia",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf680729",
+          "name": "Kaituo Feng",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf68072a",
+          "name": "Hao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf68072b",
+          "name": "Yexin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf68072c",
+          "name": "Yan Feng",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf68072d",
+          "name": "Peng Pei",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf68072e",
+          "name": "Xunliang Cai",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf68072f",
+          "name": "Linjiang Huang",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf680730",
+          "name": "Hongsheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "693638ba3962c926cf680731",
+          "name": "Si Liu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/8f-me49cubcrpFx-hfaoM.gif"
+      ],
+      "publishedAt": "2025-12-05T18:58:09.000Z",
+      "submittedOnDailyAt": "2025-12-08T00:03:16.853Z",
+      "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Instruction-based image editing has emerged as a prominent research area, which, benefiting from image generation foundation models, have achieved high aesthetic quality, making instruction-following capability the primary challenge. Existing approaches improve instruction adherence via supervised or reinforcement learning, yet single-turn success rates remain limited due to inherent stochasticity and a lack of deliberation. In this work, we propose a deliberative editing framework to 'think' while they edit, which simulates the human cognitive loop by iteratively executing a Think-while-Edit cycle: Critiquing results and Refining instructions , followed by Repeating the generation until satisfactory. Specifically, we train a single MLLM, EditThinker, to act as the reasoning engine of this framework, which jointly produce the critique score, reasoning process, and refined instructions. We employ reinforcement learning to align the EditThinker's thinking with its editing, thereby generating more targeted instruction improvements. Extensive experiments on four benchmarks demonstrate that our approach significantly improves the instruction-following capability of any image editing model by a large margin. We will release our data construction framework, datasets, and models to benefit the community.",
+      "upvotes": 6,
+      "discussionId": "693638ba3962c926cf680732",
+      "projectPage": "https://appletea233.github.io/think-while-edit/",
+      "ai_summary": "A deliberative editing framework with a reasoning engine improves instruction-following in image editing through iterative critique and refinement, significantly enhancing performance.",
+      "ai_keywords": [
+        "MLLM",
+        "EditThinker",
+        "reinforcement learning",
+        "Think-while-Edit cycle",
+        "Critiquing",
+        "Refining instructions",
+        "generation",
+        "image editing",
+        "instruction-following capability",
+        "data construction framework"
+      ]
+    },
+    "publishedAt": "2025-12-05T13:58:09.000Z",
+    "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
+    "summary": "Instruction-based image editing has emerged as a prominent research area, which, benefiting from image generation foundation models, have achieved high aesthetic quality, making instruction-following capability the primary challenge. Existing approaches improve instruction adherence via supervised or reinforcement learning, yet single-turn success rates remain limited due to inherent stochasticity and a lack of deliberation. In this work, we propose a deliberative editing framework to 'think' while they edit, which simulates the human cognitive loop by iteratively executing a Think-while-Edit cycle: Critiquing results and Refining instructions , followed by Repeating the generation until satisfactory. Specifically, we train a single MLLM, EditThinker, to act as the reasoning engine of this framework, which jointly produce the critique score, reasoning process, and refined instructions. We employ reinforcement learning to align the EditThinker's thinking with its editing, thereby generating more targeted instruction improvements. Extensive experiments on four benchmarks demonstrate that our approach significantly improves the instruction-following capability of any image editing model by a large margin. We will release our data construction framework, datasets, and models to benefit the community.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/8f-me49cubcrpFx-hfaoM.gif"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.05965.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 178
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.02835",
+      "authors": [
+        {
+          "_id": "69325b966d1060ca587a275f",
+          "user": {
+            "_id": "68aebbb80fdaa186aa530e8e",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/2WI2GgcHoZzYSM-879ejO.png",
+            "isPro": false,
+            "fullname": "Yifan Li(SII)",
+            "user": "Tangerine24",
+            "type": "user"
+          },
+          "name": "Yifan Li",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-12-05T08:29:16.888Z",
+          "hidden": false
+        },
+        {
+          "_id": "69325b966d1060ca587a2760",
+          "name": "Yingda Yin",
+          "hidden": false
+        },
+        {
+          "_id": "69325b966d1060ca587a2761",
+          "name": "Lingting Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69325b966d1060ca587a2762",
+          "name": "Weikai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69325b966d1060ca587a2763",
+          "name": "Shengju Qian",
+          "hidden": false
+        },
+        {
+          "_id": "69325b966d1060ca587a2764",
+          "name": "Xin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69325b966d1060ca587a2765",
+          "name": "Yanwei Fu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-02T14:44:12.000Z",
+      "submittedOnDailyAt": "2025-12-08T00:07:36.304Z",
+      "title": "ReVSeg: Incentivizing the Reasoning Chain for Video Segmentation with Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "68aebbb80fdaa186aa530e8e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/2WI2GgcHoZzYSM-879ejO.png",
+        "isPro": false,
+        "fullname": "Yifan Li(SII)",
+        "user": "Tangerine24",
+        "type": "user"
+      },
+      "summary": "Reasoning-centric video object segmentation is an inherently complex task: the query often refers to dynamics, causality, and temporal interactions, rather than static appearances. Yet existing solutions generally collapse these factors into simplified reasoning with latent embeddings, rendering the reasoning chain opaque and essentially intractable. We therefore adopt an explicit decomposition perspective and introduce ReVSeg, which executes reasoning as sequential decisions in the native interface of pretrained vision language models (VLMs). Rather than folding all reasoning into a single-step prediction, ReVSeg executes three explicit operations -- semantics interpretation, temporal evidence selection, and spatial grounding -- aligning pretrained capabilities. We further employ reinforcement learning to optimize the multi-step reasoning chain, enabling the model to self-refine its decision quality from outcome-driven signals. Experimental results demonstrate that ReVSeg attains state-of-the-art performances on standard video object segmentation benchmarks and yields interpretable reasoning trajectories. Project page is available at https://clementine24.github.io/ReVSeg/ .",
+      "upvotes": 3,
+      "discussionId": "69325b966d1060ca587a2766",
+      "projectPage": "https://clementine24.github.io/ReVSeg/",
+      "githubRepo": "https://github.com/Clementine24/ReVSeg",
+      "ai_summary": "ReVSeg, a reasoning-centric video object segmentation framework, uses sequential decision-making in pretrained vision language models and reinforcement learning to achieve state-of-the-art performance and interpretable reasoning.",
+      "ai_keywords": [
+        "video object segmentation",
+        "dynamics",
+        "causality",
+        "temporal interactions",
+        "latent embeddings",
+        "pretrained vision language models",
+        "semantics interpretation",
+        "temporal evidence selection",
+        "spatial grounding",
+        "reinforcement learning",
+        "reasoning trajectories"
+      ],
+      "githubStars": 5
+    },
+    "publishedAt": "2025-12-02T09:44:12.000Z",
+    "title": "ReVSeg: Incentivizing the Reasoning Chain for Video Segmentation with Reinforcement Learning",
+    "summary": "Reasoning-centric video object segmentation is an inherently complex task: the query often refers to dynamics, causality, and temporal interactions, rather than static appearances. Yet existing solutions generally collapse these factors into simplified reasoning with latent embeddings, rendering the reasoning chain opaque and essentially intractable. We therefore adopt an explicit decomposition perspective and introduce ReVSeg, which executes reasoning as sequential decisions in the native interface of pretrained vision language models (VLMs). Rather than folding all reasoning into a single-step prediction, ReVSeg executes three explicit operations -- semantics interpretation, temporal evidence selection, and spatial grounding -- aligning pretrained capabilities. We further employ reinforcement learning to optimize the multi-step reasoning chain, enabling the model to self-refine its decision quality from outcome-driven signals. Experimental results demonstrate that ReVSeg attains state-of-the-art performances on standard video object segmentation benchmarks and yields interpretable reasoning trajectories. Project page is available at https://clementine24.github.io/ReVSeg/ .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.02835.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "68aebbb80fdaa186aa530e8e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/2WI2GgcHoZzYSM-879ejO.png",
+      "fullname": "Yifan Li(SII)",
+      "name": "Tangerine24",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2512.05927",
+      "authors": [
+        {
+          "_id": "6936388c3962c926cf680713",
+          "name": "Zhiting Mei",
+          "hidden": false
+        },
+        {
+          "_id": "6936388c3962c926cf680714",
+          "name": "Tenny Yin",
+          "hidden": false
+        },
+        {
+          "_id": "6936388c3962c926cf680715",
+          "name": "Micah Baker",
+          "hidden": false
+        },
+        {
+          "_id": "6936388c3962c926cf680716",
+          "name": "Ola Shorinwa",
+          "hidden": false
+        },
+        {
+          "_id": "6936388c3962c926cf680717",
+          "name": "Anirudha Majumdar",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/uFiYGO8LB_HsPAbDr5LFO.mp4"
+      ],
+      "publishedAt": "2025-12-05T18:06:18.000Z",
+      "submittedOnDailyAt": "2025-12-08T00:01:47.963Z",
+      "title": "World Models That Know When They Don't Know: Controllable Video Generation with Calibrated Uncertainty",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advances in generative video models have led to significant breakthroughs in high-fidelity video synthesis, specifically in controllable video generation where the generated video is conditioned on text and action inputs, e.g., in instruction-guided video editing and world modeling in robotics. Despite these exceptional capabilities, controllable video models often hallucinate - generating future video frames that are misaligned with physical reality - which raises serious concerns in many tasks such as robot policy evaluation and planning. However, state-of-the-art video models lack the ability to assess and express their confidence, impeding hallucination mitigation. To rigorously address this challenge, we propose C3, an uncertainty quantification (UQ) method for training continuous-scale calibrated controllable video models for dense confidence estimation at the subpatch level, precisely localizing the uncertainty in each generated video frame. Our UQ method introduces three core innovations to empower video models to estimate their uncertainty. First, our method develops a novel framework that trains video models for correctness and calibration via strictly proper scoring rules. Second, we estimate the video model's uncertainty in latent space, avoiding training instability and prohibitive training costs associated with pixel-space approaches. Third, we map the dense latent-space uncertainty to interpretable pixel-level uncertainty in the RGB space for intuitive visualization, providing high-resolution uncertainty heatmaps that identify untrustworthy regions. Through extensive experiments on large-scale robot learning datasets (Bridge and DROID) and real-world evaluations, we demonstrate that our method not only provides calibrated uncertainty estimates within the training distribution, but also enables effective out-of-distribution detection.",
+      "upvotes": 0,
+      "discussionId": "6936388c3962c926cf680718",
+      "projectPage": "https://c-cubed-uq.github.io/",
+      "ai_summary": "C3 is an uncertainty quantification method for training controllable video models that provides dense confidence estimation and out-of-distribution detection, addressing hallucination issues.",
+      "ai_keywords": [
+        "generative video models",
+        "controllable video models",
+        "instruction-guided video editing",
+        "robot policy evaluation",
+        "planning",
+        "uncertainty quantification",
+        "UQ",
+        "continuous-scale calibrated",
+        "dense confidence estimation",
+        "subpatch level",
+        "latent space",
+        "pixel-space",
+        "calibrated uncertainty estimates",
+        "training distribution",
+        "out-of-distribution detection"
+      ]
+    },
+    "publishedAt": "2025-12-05T13:06:18.000Z",
+    "title": "World Models That Know When They Don't Know: Controllable Video Generation with Calibrated Uncertainty",
+    "summary": "Recent advances in generative video models have led to significant breakthroughs in high-fidelity video synthesis, specifically in controllable video generation where the generated video is conditioned on text and action inputs, e.g., in instruction-guided video editing and world modeling in robotics. Despite these exceptional capabilities, controllable video models often hallucinate - generating future video frames that are misaligned with physical reality - which raises serious concerns in many tasks such as robot policy evaluation and planning. However, state-of-the-art video models lack the ability to assess and express their confidence, impeding hallucination mitigation. To rigorously address this challenge, we propose C3, an uncertainty quantification (UQ) method for training continuous-scale calibrated controllable video models for dense confidence estimation at the subpatch level, precisely localizing the uncertainty in each generated video frame. Our UQ method introduces three core innovations to empower video models to estimate their uncertainty. First, our method develops a novel framework that trains video models for correctness and calibration via strictly proper scoring rules. Second, we estimate the video model's uncertainty in latent space, avoiding training instability and prohibitive training costs associated with pixel-space approaches. Third, we map the dense latent-space uncertainty to interpretable pixel-level uncertainty in the RGB space for intuitive visualization, providing high-resolution uncertainty heatmaps that identify untrustworthy regions. Through extensive experiments on large-scale robot learning datasets (Bridge and DROID) and real-world evaluations, we demonstrate that our method not only provides calibrated uncertainty estimates within the training distribution, but also enables effective out-of-distribution detection.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/uFiYGO8LB_HsPAbDr5LFO.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.05927.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 178
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.05564",
+      "authors": [
+        {
+          "_id": "693639283962c926cf68073e",
+          "name": "Zijun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf68073f",
+          "name": "Panwen Hu",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf680740",
+          "name": "Jing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf680741",
+          "name": "Terry Jingchen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf680742",
+          "name": "Yuhao Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf680743",
+          "name": "Long Chen",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf680744",
+          "name": "Yiqiang Yan",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf680745",
+          "name": "Zutao Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf680746",
+          "name": "Hanhui Li",
+          "hidden": false
+        },
+        {
+          "_id": "693639283962c926cf680747",
+          "name": "Xiaodan Liang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-05T09:39:26.000Z",
+      "submittedOnDailyAt": "2025-12-08T00:04:23.307Z",
+      "title": "ProPhy: Progressive Physical Alignment for Dynamic World Simulation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advances in video generation have shown remarkable potential for constructing world simulators. However, current models still struggle to produce physically consistent results, particularly when handling large-scale or complex dynamics. This limitation arises primarily because existing approaches respond isotropically to physical prompts and neglect the fine-grained alignment between generated content and localized physical cues. To address these challenges, we propose ProPhy, a Progressive Physical Alignment Framework that enables explicit physics-aware conditioning and anisotropic generation. ProPhy employs a two-stage Mixture-of-Physics-Experts (MoPE) mechanism for discriminative physical prior extraction, where Semantic Experts infer semantic-level physical principles from textual descriptions, and Refinement Experts capture token-level physical dynamics. This mechanism allows the model to learn fine-grained, physics-aware video representations that better reflect underlying physical laws. Furthermore, we introduce a physical alignment strategy that transfers the physical reasoning capabilities of vision-language models (VLMs) into the Refinement Experts, facilitating a more accurate representation of dynamic physical phenomena. Extensive experiments on physics-aware video generation benchmarks demonstrate that ProPhy produces more realistic, dynamic, and physically coherent results than existing state-of-the-art methods.",
+      "upvotes": 0,
+      "discussionId": "693639293962c926cf680748",
+      "ai_summary": "ProPhy, a two-stage framework with Semantic and Refinement Experts, enhances video generation by incorporating physics-aware conditioning and anisotropic generation, improving physical consistency and realism.",
+      "ai_keywords": [
+        "video generation",
+        "world simulators",
+        "physical consistency",
+        "large-scale dynamics",
+        "complex dynamics",
+        "ProPhy",
+        "Progressive Physical Alignment Framework",
+        "Mixture-of-Physics-Experts (MoPE)",
+        "Semantic Experts",
+        "Refinement Experts",
+        "semantic-level physical principles",
+        "token-level physical dynamics",
+        "physical reasoning capabilities",
+        "vision-language models (VLMs)",
+        "physics-aware video representations",
+        "dynamic physical phenomena"
+      ]
+    },
+    "publishedAt": "2025-12-05T04:39:26.000Z",
+    "title": "ProPhy: Progressive Physical Alignment for Dynamic World Simulation",
+    "summary": "Recent advances in video generation have shown remarkable potential for constructing world simulators. However, current models still struggle to produce physically consistent results, particularly when handling large-scale or complex dynamics. This limitation arises primarily because existing approaches respond isotropically to physical prompts and neglect the fine-grained alignment between generated content and localized physical cues. To address these challenges, we propose ProPhy, a Progressive Physical Alignment Framework that enables explicit physics-aware conditioning and anisotropic generation. ProPhy employs a two-stage Mixture-of-Physics-Experts (MoPE) mechanism for discriminative physical prior extraction, where Semantic Experts infer semantic-level physical principles from textual descriptions, and Refinement Experts capture token-level physical dynamics. This mechanism allows the model to learn fine-grained, physics-aware video representations that better reflect underlying physical laws. Furthermore, we introduce a physical alignment strategy that transfers the physical reasoning capabilities of vision-language models (VLMs) into the Refinement Experts, facilitating a more accurate representation of dynamic physical phenomena. Extensive experiments on physics-aware video generation benchmarks demonstrate that ProPhy produces more realistic, dynamic, and physically coherent results than existing state-of-the-art methods.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.05564.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 178
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.05145",
+      "authors": [
+        {
+          "_id": "693638b23962c926cf68071a",
+          "name": "Inna Wanyin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "693638b23962c926cf68071b",
+          "name": "Yushi Hu",
+          "hidden": false
+        },
+        {
+          "_id": "693638b23962c926cf68071c",
+          "name": "Shuyue Stella Li",
+          "hidden": false
+        },
+        {
+          "_id": "693638b23962c926cf68071d",
+          "name": "Scott Geng",
+          "hidden": false
+        },
+        {
+          "_id": "693638b23962c926cf68071e",
+          "name": "Pang Wei Koh",
+          "hidden": false
+        },
+        {
+          "_id": "693638b23962c926cf68071f",
+          "name": "Luke Zettlemoyer",
+          "hidden": false
+        },
+        {
+          "_id": "693638b23962c926cf680720",
+          "name": "Tim Althoff",
+          "hidden": false
+        },
+        {
+          "_id": "693638b23962c926cf680721",
+          "name": "Marjan Ghazvininejad",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-02T20:52:19.000Z",
+      "submittedOnDailyAt": "2025-12-08T00:02:34.517Z",
+      "title": "Self-Improving VLM Judges Without Human Annotations",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Effective judges of Vision-Language Models (VLMs) are crucial for model development. Current methods for training VLM judges mainly rely on large-scale human preference annotations. However, such an approach is costly, and the annotations easily become obsolete as models rapidly improve. In this work, we present a framework to self-train a VLM judge model without any human preference annotations, using only self-synthesized data. Our method is iterative and has three stages: (1) generate diverse multimodal instruction-response pairs at varying quality levels, (2) generate reasoning traces and judgments for each pair, removing the ones that do not match our expected quality levels, and (3) training on correct judge answers and their reasoning traces. We evaluate the resulting judge on Multimodal RewardBench and VL-RewardBench across domains: correctness, preference, reasoning, safety, and visual question-answering. Our method improves a Llama-3.2-11B multimodal judge from 0.38 to 0.51 in overall accuracy on VL-RewardBench, often outperforming much larger models including Llama-3.2-90B, GPT-4o, and Claude 3.5 Sonnet, with particularly strong gains in general, hallucination, and reasoning dimensions. The overall strength of these human-annotation-free results suggest the potential for a future self-judge that evolves alongside rapidly improving VLM capabilities.",
+      "upvotes": 0,
+      "discussionId": "693638b33962c926cf680722",
+      "ai_summary": "A framework for self-training a Vision-Language Model (VLM) judge using self-synthesized data improves judge accuracy on VL-RewardBench, surpassing larger models in several dimensions.",
+      "ai_keywords": [
+        "Vision-Language Models",
+        "VLM judges",
+        "multimodal instruction-response pairs",
+        "reasoning traces",
+        "Multimodal RewardBench",
+        "VL-RewardBench",
+        "correctness",
+        "preference",
+        "reasoning",
+        "safety",
+        "visual question-answering",
+        "hallucination"
+      ],
+      "organization": {
+        "_id": "5e63d8713071d5be688861b8",
+        "name": "facebook",
+        "fullname": "AI at Meta",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1592839207516-noauth.png"
+      }
+    },
+    "publishedAt": "2025-12-02T15:52:19.000Z",
+    "title": "Self-Improving VLM Judges Without Human Annotations",
+    "summary": "Effective judges of Vision-Language Models (VLMs) are crucial for model development. Current methods for training VLM judges mainly rely on large-scale human preference annotations. However, such an approach is costly, and the annotations easily become obsolete as models rapidly improve. In this work, we present a framework to self-train a VLM judge model without any human preference annotations, using only self-synthesized data. Our method is iterative and has three stages: (1) generate diverse multimodal instruction-response pairs at varying quality levels, (2) generate reasoning traces and judgments for each pair, removing the ones that do not match our expected quality levels, and (3) training on correct judge answers and their reasoning traces. We evaluate the resulting judge on Multimodal RewardBench and VL-RewardBench across domains: correctness, preference, reasoning, safety, and visual question-answering. Our method improves a Llama-3.2-11B multimodal judge from 0.38 to 0.51 in overall accuracy on VL-RewardBench, often outperforming much larger models including Llama-3.2-90B, GPT-4o, and Claude 3.5 Sonnet, with particularly strong gains in general, hallucination, and reasoning dimensions. The overall strength of these human-annotation-free results suggest the potential for a future self-judge that evolves alongside rapidly improving VLM capabilities.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.05145.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 178
+    },
+    "organization": {
+      "_id": "5e63d8713071d5be688861b8",
+      "name": "facebook",
+      "fullname": "AI at Meta",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1592839207516-noauth.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
