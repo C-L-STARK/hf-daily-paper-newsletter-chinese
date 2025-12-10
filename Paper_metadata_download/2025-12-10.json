@@ -1,0 +1,68 @@
+[
+  {
+    "paper": {
+      "id": "2512.08153",
+      "authors": [
+        {
+          "_id": "6938de86dfc35938ba129f4b",
+          "name": "Zheng Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6938de86dfc35938ba129f4c",
+          "name": "Weirui Ye",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-09T01:17:34.000Z",
+      "submittedOnDailyAt": "2025-12-10T00:14:54.011Z",
+      "title": "TreeGRPO: Tree-Advantage GRPO for Online RL Post-Training of Diffusion Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning (RL) post-training is crucial for aligning generative models with human preferences, but its prohibitive computational cost remains a major barrier to widespread adoption. We introduce TreeGRPO, a novel RL framework that dramatically improves training efficiency by recasting the denoising process as a search tree. From shared initial noise samples, TreeGRPO strategically branches to generate multiple candidate trajectories while efficiently reusing their common prefixes. This tree-structured approach delivers three key advantages: (1) High sample efficiency, achieving better performance under same training samples (2) Fine-grained credit assignment via reward backpropagation that computes step-specific advantages, overcoming the uniform credit assignment limitation of trajectory-based methods, and (3) Amortized computation where multi-child branching enables multiple policy updates per forward pass. Extensive experiments on both diffusion and flow-based models demonstrate that TreeGRPO achieves 2.4times faster training while establishing a superior Pareto frontier in the efficiency-reward trade-off space. Our method consistently outperforms GRPO baselines across multiple benchmarks and reward models, providing a scalable and effective pathway for RL-based visual generative model alignment. The project website is available at treegrpo.github.io.",
+      "upvotes": 0,
+      "discussionId": "6938de87dfc35938ba129f4d",
+      "ai_summary": "TreeGRPO, a novel RL framework, enhances training efficiency for generative models by using a tree-structured denoising process, leading to faster training and better performance.",
+      "ai_keywords": [
+        "Reinforcement learning",
+        "TreeGRPO",
+        "denoising process",
+        "search tree",
+        "candidate trajectories",
+        "sample efficiency",
+        "fine-grained credit assignment",
+        "reward backpropagation",
+        "amortized computation",
+        "diffusion models",
+        "flow-based models",
+        "training efficiency",
+        "Pareto frontier",
+        "efficiency-reward trade-off"
+      ]
+    },
+    "publishedAt": "2025-12-08T20:17:34.000Z",
+    "title": "TreeGRPO: Tree-Advantage GRPO for Online RL Post-Training of Diffusion Models",
+    "summary": "Reinforcement learning (RL) post-training is crucial for aligning generative models with human preferences, but its prohibitive computational cost remains a major barrier to widespread adoption. We introduce TreeGRPO, a novel RL framework that dramatically improves training efficiency by recasting the denoising process as a search tree. From shared initial noise samples, TreeGRPO strategically branches to generate multiple candidate trajectories while efficiently reusing their common prefixes. This tree-structured approach delivers three key advantages: (1) High sample efficiency, achieving better performance under same training samples (2) Fine-grained credit assignment via reward backpropagation that computes step-specific advantages, overcoming the uniform credit assignment limitation of trajectory-based methods, and (3) Amortized computation where multi-child branching enables multiple policy updates per forward pass. Extensive experiments on both diffusion and flow-based models demonstrate that TreeGRPO achieves 2.4times faster training while establishing a superior Pareto frontier in the efficiency-reward trade-off space. Our method consistently outperforms GRPO baselines across multiple benchmarks and reward models, providing a scalable and effective pathway for RL-based visual generative model alignment. The project website is available at treegrpo.github.io.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.08153.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 181
+    },
+    "isAuthorParticipating": false
+  }
+]
