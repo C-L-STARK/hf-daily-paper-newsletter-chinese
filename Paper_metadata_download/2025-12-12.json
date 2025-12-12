@@ -1,0 +1,471 @@
+[
+  {
+    "paper": {
+      "id": "2512.10791",
+      "authors": [
+        {
+          "_id": "693b82729874a2a5e4ffb261",
+          "name": "Aileen Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb262",
+          "name": "Alon Jacovi",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb263",
+          "name": "Amir Globerson",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb264",
+          "name": "Ben Golan",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb265",
+          "name": "Charles Kwong",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb266",
+          "name": "Chris Alberti",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb267",
+          "name": "Connie Tao",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb268",
+          "name": "Eyal Ben-David",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb269",
+          "name": "Gaurav Singh Tomar",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb26a",
+          "name": "Lukas Haas",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb26b",
+          "name": "Yonatan Bitton",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb26c",
+          "name": "Adam Bloniarz",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb26d",
+          "name": "Aijun Bai",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb26e",
+          "name": "Andrew Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb26f",
+          "name": "Anfal Siddiqui",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb270",
+          "name": "Arturo Bajuelos Castillo",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb271",
+          "name": "Aviel Atias",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb272",
+          "name": "Chang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb273",
+          "name": "Corey Fry",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb274",
+          "name": "Daniel Balle",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb275",
+          "name": "Deepanway Ghosal",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb276",
+          "name": "Doron Kukliansky",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb277",
+          "name": "Dror Marcus",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb278",
+          "name": "Elena Gribovskaya",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb279",
+          "name": "Eran Ofek",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb27a",
+          "name": "Honglei Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb27b",
+          "name": "Itay Laish",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb27c",
+          "name": "Jan Ackermann",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb27d",
+          "name": "Lily Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb27e",
+          "name": "Meg Risdal",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb27f",
+          "name": "Megan Barnes",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb280",
+          "name": "Michael Fink",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb281",
+          "name": "Mohamed Amin",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb282",
+          "name": "Moran Ambar",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb283",
+          "name": "Natan Potikha",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb284",
+          "name": "Nikita Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb285",
+          "name": "Nitzan Katz",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb286",
+          "name": "Noam Velan",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb287",
+          "name": "Ofir Roval",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb288",
+          "name": "Ori Ram",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb289",
+          "name": "Polina Zablotskaia",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb28a",
+          "name": "Prathamesh Bang",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb28b",
+          "name": "Priyanka Agrawal",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb28c",
+          "name": "Rakesh Ghiya",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb28d",
+          "name": "Sanjay Ganapathy",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb28e",
+          "name": "Simon Baumgartner",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb28f",
+          "name": "Sofia Erell",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb290",
+          "name": "Sushant Prakash",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb291",
+          "name": "Thibault Sellam",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb292",
+          "name": "Vikram Rao",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb293",
+          "name": "Xuanhui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb294",
+          "name": "Yaroslav Akulov",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb295",
+          "name": "Yulong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb296",
+          "name": "Zhen Yang",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb297",
+          "name": "Zhixin Lai",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb298",
+          "name": "Zhongru Wu",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb299",
+          "name": "Anca Dragan",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb29a",
+          "name": "Avinatan Hassidim",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb29b",
+          "name": "Fernando Pereira",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb29c",
+          "name": "Slav Petrov",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb29d",
+          "name": "Srinivasan Venkatachary",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb29e",
+          "name": "Tulsee Doshi",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb29f",
+          "name": "Yossi Matias",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb2a0",
+          "name": "Sasha Goldshtein",
+          "hidden": false
+        },
+        {
+          "_id": "693b82729874a2a5e4ffb2a1",
+          "name": "Dipanjan Das",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-11T16:35:14.000Z",
+      "submittedOnDailyAt": "2025-12-12T00:18:31.591Z",
+      "title": "The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce The FACTS Leaderboard, an online leaderboard suite and associated set of benchmarks that comprehensively evaluates the ability of language models to generate factually accurate text across diverse scenarios. The suite provides a holistic measure of factuality by aggregating the performance of models on four distinct sub-leaderboards: (1) FACTS Multimodal, which measures the factuality of responses to image-based questions; (2) FACTS Parametric, which assesses models' world knowledge by answering closed-book factoid questions from internal parameters; (3) FACTS Search, which evaluates factuality in information-seeking scenarios, where the model must use a search API; and (4) FACTS Grounding (v2), which evaluates whether long-form responses are grounded in provided documents, featuring significantly improved judge models. Each sub-leaderboard employs automated judge models to score model responses, and the final suite score is an average of the four components, designed to provide a robust and balanced assessment of a model's overall factuality. The FACTS Leaderboard Suite will be actively maintained, containing both public and private splits to allow for external participation while guarding its integrity. It can be found at https://www.kaggle.com/benchmarks/google/facts .",
+      "upvotes": 1,
+      "discussionId": "693b82739874a2a5e4ffb2a2",
+      "ai_summary": "The FACTS Leaderboard evaluates language models' factual accuracy across different scenarios using four sub-leaderboards: image-based questions, closed-book factoid questions, information-seeking with search API, and document-grounded long-form responses.",
+      "ai_keywords": [
+        "FACTS Leaderboard",
+        "FACTS Multimodal",
+        "FACTS Parametric",
+        "FACTS Search",
+        "FACTS Grounding",
+        "automated judge models"
+      ],
+      "organization": {
+        "_id": "60f6cbb2852126bac698c89e",
+        "name": "deepmind",
+        "fullname": "Deepmind",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1638956859875-5f1158120c833276f61f1a84.jpeg"
+      }
+    },
+    "publishedAt": "2025-12-11T11:35:14.000Z",
+    "title": "The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality",
+    "summary": "We introduce The FACTS Leaderboard, an online leaderboard suite and associated set of benchmarks that comprehensively evaluates the ability of language models to generate factually accurate text across diverse scenarios. The suite provides a holistic measure of factuality by aggregating the performance of models on four distinct sub-leaderboards: (1) FACTS Multimodal, which measures the factuality of responses to image-based questions; (2) FACTS Parametric, which assesses models' world knowledge by answering closed-book factoid questions from internal parameters; (3) FACTS Search, which evaluates factuality in information-seeking scenarios, where the model must use a search API; and (4) FACTS Grounding (v2), which evaluates whether long-form responses are grounded in provided documents, featuring significantly improved judge models. Each sub-leaderboard employs automated judge models to score model responses, and the final suite score is an average of the four components, designed to provide a robust and balanced assessment of a model's overall factuality. The FACTS Leaderboard Suite will be actively maintained, containing both public and private splits to allow for external participation while guarding its integrity. It can be found at https://www.kaggle.com/benchmarks/google/facts .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.10791.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 181
+    },
+    "organization": {
+      "_id": "60f6cbb2852126bac698c89e",
+      "name": "deepmind",
+      "fullname": "Deepmind",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1638956859875-5f1158120c833276f61f1a84.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.08870",
+      "authors": [
+        {
+          "_id": "693aa119e1612ff4bc2a492e",
+          "name": "Xiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "693aa119e1612ff4bc2a492f",
+          "user": {
+            "_id": "645b0c3ec35da9c7afd95421",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+            "isPro": false,
+            "fullname": "Yuling",
+            "user": "YerbaPage",
+            "type": "user"
+          },
+          "name": "Yuling Shi",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-12-11T10:52:27.356Z",
+          "hidden": false
+        },
+        {
+          "_id": "693aa119e1612ff4bc2a4930",
+          "name": "Qizhen Lan",
+          "hidden": false
+        },
+        {
+          "_id": "693aa119e1612ff4bc2a4931",
+          "name": "Yuchao Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "693aa119e1612ff4bc2a4932",
+          "name": "Xiaodong Gu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-09T18:04:41.000Z",
+      "submittedOnDailyAt": "2025-12-12T00:10:14.363Z",
+      "title": "Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents",
+      "submittedOnDailyBy": {
+        "_id": "645b0c3ec35da9c7afd95421",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+        "isPro": false,
+        "fullname": "Yuling",
+        "user": "YerbaPage",
+        "type": "user"
+      },
+      "summary": "LLM agents are widely deployed in complex interactive tasks, yet privacy constraints often preclude centralized optimization and co-evolution across dynamic environments. While Federated Learning (FL) has proven effective on static datasets, its extension to the open-ended self-evolution of agents remains underexplored. Directly applying standard FL is challenging: heterogeneous tasks and sparse, trajectory-level rewards introduce severe gradient conflicts, destabilizing the global optimization process. To bridge this gap, we propose Fed-SE, a Federated Self-Evolution framework for LLM agents. Fed-SE establishes a local evolution-global aggregation paradigm. Locally, agents employ parameter-efficient fine-tuning on filtered, high-return trajectories to achieve stable gradient updates. Globally, Fed-SE aggregates updates within a low-rank subspace that disentangles environment-specific dynamics, effectively reducing negative transfer across clients. Experiments across five heterogeneous environments demonstrate that Fed-SE improves average task success rates by approximately 18% over federated baselines, validating its effectiveness in robust cross-environment knowledge transfer in privacy-constrained deployments.",
+      "upvotes": 0,
+      "discussionId": "693aa119e1612ff4bc2a4933",
+      "ai_summary": "Fed-SE, a Federated Self-Evolution framework, enhances LLM agents in privacy-constrained environments by local parameter-efficient fine-tuning and global aggregation in a low-rank subspace.",
+      "ai_keywords": [
+        "Federated Learning (FL)",
+        "parameter-efficient fine-tuning",
+        "high-return trajectories",
+        "low-rank subspace",
+        "Fed-SE",
+        "federated baselines",
+        "cross-environment knowledge transfer"
+      ]
+    },
+    "publishedAt": "2025-12-09T13:04:41.000Z",
+    "title": "Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents",
+    "summary": "LLM agents are widely deployed in complex interactive tasks, yet privacy constraints often preclude centralized optimization and co-evolution across dynamic environments. While Federated Learning (FL) has proven effective on static datasets, its extension to the open-ended self-evolution of agents remains underexplored. Directly applying standard FL is challenging: heterogeneous tasks and sparse, trajectory-level rewards introduce severe gradient conflicts, destabilizing the global optimization process. To bridge this gap, we propose Fed-SE, a Federated Self-Evolution framework for LLM agents. Fed-SE establishes a local evolution-global aggregation paradigm. Locally, agents employ parameter-efficient fine-tuning on filtered, high-return trajectories to achieve stable gradient updates. Globally, Fed-SE aggregates updates within a low-rank subspace that disentangles environment-specific dynamics, effectively reducing negative transfer across clients. Experiments across five heterogeneous environments demonstrate that Fed-SE improves average task success rates by approximately 18% over federated baselines, validating its effectiveness in robust cross-environment knowledge transfer in privacy-constrained deployments.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.08870.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645b0c3ec35da9c7afd95421",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+      "fullname": "Yuling",
+      "name": "YerbaPage",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 190
+    },
+    "isAuthorParticipating": true
+  }
+]
