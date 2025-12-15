@@ -1,0 +1,684 @@
+[
+  {
+    "paper": {
+      "id": "2512.11558",
+      "authors": [
+        {
+          "_id": "693f7554f516c693246811d3",
+          "name": "Zhenyang Cai",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811d4",
+          "name": "Jiaming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811d5",
+          "name": "Junjie Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811d6",
+          "name": "Ziyi Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811d7",
+          "name": "Yanchao Li",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811d8",
+          "name": "Jingyi Liang",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811d9",
+          "name": "Junying Chen",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811da",
+          "name": "Yunjin Yang",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811db",
+          "name": "Jiajun You",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811dc",
+          "name": "Shuzhi Deng",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811dd",
+          "name": "Tongfei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811de",
+          "name": "Wanting Chen",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811df",
+          "name": "Chunxiu Hao",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e0",
+          "name": "Ruiqi Xie",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e1",
+          "name": "Zhenwei Wen",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e2",
+          "name": "Xiangyi Feng",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e3",
+          "name": "Zou Ting",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e4",
+          "name": "Jin Zou Lin",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e5",
+          "name": "Jianquan Li",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e6",
+          "name": "Guangjun Yu",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e7",
+          "name": "Liangyi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e8",
+          "name": "Junwen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811e9",
+          "name": "Shan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "693f7554f516c693246811ea",
+          "name": "Benyou Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-12T13:42:57.000Z",
+      "submittedOnDailyAt": "2025-12-15T00:14:07.445Z",
+      "title": "DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry",
+      "submittedOnDailyBy": {
+        "_id": "64f1a34f2c5c8b767916447e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f1a34f2c5c8b767916447e/uak2CsMAnxW8q4dwyAOBN.jpeg",
+        "isPro": false,
+        "fullname": "Zhenyang Cai",
+        "user": "Eric3200",
+        "type": "user"
+      },
+      "summary": "Reliable interpretation of multimodal data in dentistry is essential for automated oral healthcare, yet current multimodal large language models (MLLMs) struggle to capture fine-grained dental visual details and lack sufficient reasoning ability for precise diagnosis. To address these limitations, we present DentalGPT, a specialized dental MLLM developed through high-quality domain knowledge injection and reinforcement learning. Specifically, the largest annotated multimodal dataset for dentistry to date was constructed by aggregating over 120k dental images paired with detailed descriptions that highlight diagnostically relevant visual features, making it the multimodal dataset with the most extensive collection of dental images to date. Training on this dataset significantly enhances the MLLM's visual understanding of dental conditions, while the subsequent reinforcement learning stage further strengthens its capability for multimodal complex reasoning. Comprehensive evaluations on intraoral and panoramic benchmarks, along with dental subsets of medical VQA benchmarks, show that DentalGPT achieves superior performance in disease classification and dental VQA tasks, outperforming many state-of-the-art MLLMs despite having only 7B parameters. These results demonstrate that high-quality dental data combined with staged adaptation provides an effective pathway for building capable and domain-specialized dental MLLMs.",
+      "upvotes": 19,
+      "discussionId": "693f7555f516c693246811eb",
+      "ai_summary": "DentalGPT, a specialized dental multimodal large language model, achieves superior performance in disease classification and dental VQA tasks through high-quality domain knowledge injection and reinforcement learning.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "dentalGPT",
+        "domain knowledge injection",
+        "reinforcement learning",
+        "annotated multimodal dataset",
+        "dental images",
+        "visual understanding",
+        "multimodal complex reasoning",
+        "intraoral benchmarks",
+        "panoramic benchmarks",
+        "medical VQA benchmarks",
+        "disease classification",
+        "dental VQA",
+        "parameters"
+      ]
+    },
+    "publishedAt": "2025-12-12T08:42:57.000Z",
+    "title": "DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry",
+    "summary": "Reliable interpretation of multimodal data in dentistry is essential for automated oral healthcare, yet current multimodal large language models (MLLMs) struggle to capture fine-grained dental visual details and lack sufficient reasoning ability for precise diagnosis. To address these limitations, we present DentalGPT, a specialized dental MLLM developed through high-quality domain knowledge injection and reinforcement learning. Specifically, the largest annotated multimodal dataset for dentistry to date was constructed by aggregating over 120k dental images paired with detailed descriptions that highlight diagnostically relevant visual features, making it the multimodal dataset with the most extensive collection of dental images to date. Training on this dataset significantly enhances the MLLM's visual understanding of dental conditions, while the subsequent reinforcement learning stage further strengthens its capability for multimodal complex reasoning. Comprehensive evaluations on intraoral and panoramic benchmarks, along with dental subsets of medical VQA benchmarks, show that DentalGPT achieves superior performance in disease classification and dental VQA tasks, outperforming many state-of-the-art MLLMs despite having only 7B parameters. These results demonstrate that high-quality dental data combined with staged adaptation provides an effective pathway for building capable and domain-specialized dental MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.11558.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64f1a34f2c5c8b767916447e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f1a34f2c5c8b767916447e/uak2CsMAnxW8q4dwyAOBN.jpeg",
+      "fullname": "Zhenyang Cai",
+      "name": "Eric3200",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.11749",
+      "authors": [
+        {
+          "_id": "693f754ef516c693246811c3",
+          "name": "Minglei Shi",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811c4",
+          "name": "Haolin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811c5",
+          "name": "Borui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811c6",
+          "name": "Wenzhao Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811c7",
+          "name": "Bohan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811c8",
+          "name": "Ziyang Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811c9",
+          "name": "Xiaoshi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811ca",
+          "name": "Yuanxing Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811cb",
+          "name": "Huan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811cc",
+          "name": "Xintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811cd",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811ce",
+          "name": "Kun Gai",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811cf",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "693f754ef516c693246811d0",
+          "name": "Jiwen Lu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/V8NQYwKC-8n2SbplK5Ag7.png"
+      ],
+      "publishedAt": "2025-12-12T17:45:03.000Z",
+      "submittedOnDailyAt": "2025-12-15T00:19:12.400Z",
+      "title": "SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Autoencoder",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Visual generation grounded in Visual Foundation Model (VFM) representations offers a highly promising unified pathway for integrating visual understanding, perception, and generation. Despite this potential, training large-scale text-to-image diffusion models entirely within the VFM representation space remains largely unexplored. To bridge this gap, we scale the SVG (Self-supervised representations for Visual Generation) framework, proposing SVG-T2I to support high-quality text-to-image synthesis directly in the VFM feature domain. By leveraging a standard text-to-image diffusion pipeline, SVG-T2I achieves competitive performance, reaching 0.75 on GenEval and 85.78 on DPG-Bench. This performance validates the intrinsic representational power of VFMs for generative tasks. We fully open-source the project, including the autoencoder and generation model, together with their training, inference, evaluation pipelines, and pre-trained weights, to facilitate further research in representation-driven visual generation.",
+      "upvotes": 3,
+      "discussionId": "693f754ff516c693246811d1",
+      "githubRepo": "https://github.com/KlingTeam/SVG-T2I",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "SVG-T2I, a scaled SVG framework, enables high-quality text-to-image synthesis directly in the Visual Foundation Model feature domain, achieving competitive performance in generative tasks.",
+      "ai_keywords": [
+        "Visual Foundation Model",
+        "VFM",
+        "SVG",
+        "Self-supervised representations for Visual Generation",
+        "SVG-T2I",
+        "text-to-image diffusion",
+        "GenEval",
+        "DPG-Bench",
+        "autoencoder",
+        "generation model"
+      ],
+      "organization": {
+        "_id": "662c559b322afcbae51b3c8b",
+        "name": "KlingTeam",
+        "fullname": "Kling Team",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+      }
+    },
+    "publishedAt": "2025-12-12T12:45:03.000Z",
+    "title": "SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Autoencoder",
+    "summary": "Visual generation grounded in Visual Foundation Model (VFM) representations offers a highly promising unified pathway for integrating visual understanding, perception, and generation. Despite this potential, training large-scale text-to-image diffusion models entirely within the VFM representation space remains largely unexplored. To bridge this gap, we scale the SVG (Self-supervised representations for Visual Generation) framework, proposing SVG-T2I to support high-quality text-to-image synthesis directly in the VFM feature domain. By leveraging a standard text-to-image diffusion pipeline, SVG-T2I achieves competitive performance, reaching 0.75 on GenEval and 85.78 on DPG-Bench. This performance validates the intrinsic representational power of VFMs for generative tasks. We fully open-source the project, including the autoencoder and generation model, together with their training, inference, evaluation pipelines, and pre-trained weights, to facilitate further research in representation-driven visual generation.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/V8NQYwKC-8n2SbplK5Ag7.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.11749.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 182
+    },
+    "organization": {
+      "_id": "662c559b322afcbae51b3c8b",
+      "name": "KlingTeam",
+      "fullname": "Kling Team",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.11799",
+      "authors": [
+        {
+          "_id": "693f741df516c693246811ad",
+          "name": "Ye Fang",
+          "hidden": false
+        },
+        {
+          "_id": "693f741df516c693246811ae",
+          "name": "Tong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "693f741df516c693246811af",
+          "name": "Valentin Deschaintre",
+          "hidden": false
+        },
+        {
+          "_id": "693f741df516c693246811b0",
+          "name": "Duygu Ceylan",
+          "hidden": false
+        },
+        {
+          "_id": "693f741df516c693246811b1",
+          "name": "Iliyan Georgiev",
+          "hidden": false
+        },
+        {
+          "_id": "693f741df516c693246811b2",
+          "name": "Chun-Hao Paul Huang",
+          "hidden": false
+        },
+        {
+          "_id": "693f741df516c693246811b3",
+          "name": "Yiwei Hu",
+          "hidden": false
+        },
+        {
+          "_id": "693f741df516c693246811b4",
+          "name": "Xuelin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "693f741df516c693246811b5",
+          "name": "Tuanfeng Yang Wang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/IKbwcaT_GNej00AHtNUA1.mp4"
+      ],
+      "publishedAt": "2025-12-12T18:59:54.000Z",
+      "submittedOnDailyAt": "2025-12-15T00:06:37.373Z",
+      "title": "V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Large-scale video generation models have shown remarkable potential in modeling photorealistic appearance and lighting interactions in real-world scenes. However, a closed-loop framework that jointly understands intrinsic scene properties (e.g., albedo, normal, material, and irradiance), leverages them for video synthesis, and supports editable intrinsic representations remains unexplored. We present V-RGBX, the first end-to-end framework for intrinsic-aware video editing. V-RGBX unifies three key capabilities: (1) video inverse rendering into intrinsic channels, (2) photorealistic video synthesis from these intrinsic representations, and (3) keyframe-based video editing conditioned on intrinsic channels. At the core of V-RGBX is an interleaved conditioning mechanism that enables intuitive, physically grounded video editing through user-selected keyframes, supporting flexible manipulation of any intrinsic modality. Extensive qualitative and quantitative results show that V-RGBX produces temporally consistent, photorealistic videos while propagating keyframe edits across sequences in a physically plausible manner. We demonstrate its effectiveness in diverse applications, including object appearance editing and scene-level relighting, surpassing the performance of prior methods.",
+      "upvotes": 0,
+      "discussionId": "693f741ef516c693246811b6",
+      "projectPage": "https://aleafy.github.io/vrgbx/",
+      "githubRepo": "https://github.com/Aleafy/V-RGBX",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "V-RGBX is an end-to-end framework for intrinsic-aware video editing that combines video inverse rendering, photorealistic synthesis, and keyframe-based editing to produce consistent and physically plausible edits.",
+      "ai_keywords": [
+        "video inverse rendering",
+        "intrinsic channels",
+        "photorealistic video synthesis",
+        "keyframe-based video editing",
+        "interleaved conditioning mechanism",
+        "object appearance editing",
+        "scene-level relighting"
+      ],
+      "organization": {
+        "_id": "61e5d14f77496de0a6d95c6b",
+        "name": "adobe",
+        "fullname": "Adobe",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1645217431826-61e35e517ac6b6d06cfa8081.png"
+      }
+    },
+    "publishedAt": "2025-12-12T13:59:54.000Z",
+    "title": "V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties",
+    "summary": "Large-scale video generation models have shown remarkable potential in modeling photorealistic appearance and lighting interactions in real-world scenes. However, a closed-loop framework that jointly understands intrinsic scene properties (e.g., albedo, normal, material, and irradiance), leverages them for video synthesis, and supports editable intrinsic representations remains unexplored. We present V-RGBX, the first end-to-end framework for intrinsic-aware video editing. V-RGBX unifies three key capabilities: (1) video inverse rendering into intrinsic channels, (2) photorealistic video synthesis from these intrinsic representations, and (3) keyframe-based video editing conditioned on intrinsic channels. At the core of V-RGBX is an interleaved conditioning mechanism that enables intuitive, physically grounded video editing through user-selected keyframes, supporting flexible manipulation of any intrinsic modality. Extensive qualitative and quantitative results show that V-RGBX produces temporally consistent, photorealistic videos while propagating keyframe edits across sequences in a physically plausible manner. We demonstrate its effectiveness in diverse applications, including object appearance editing and scene-level relighting, surpassing the performance of prior methods.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/IKbwcaT_GNej00AHtNUA1.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.11799.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 182
+    },
+    "organization": {
+      "_id": "61e5d14f77496de0a6d95c6b",
+      "name": "adobe",
+      "fullname": "Adobe",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1645217431826-61e35e517ac6b6d06cfa8081.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.11393",
+      "authors": [
+        {
+          "_id": "693f7501f516c693246811b8",
+          "name": "Zhifan Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "693f7501f516c693246811b9",
+          "name": "Yifei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "693f7501f516c693246811ba",
+          "name": "Yoichi Sato",
+          "hidden": false
+        },
+        {
+          "_id": "693f7501f516c693246811bb",
+          "name": "Dima Damen",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/fzfyGG7vXBE03zXNs6-iw.mp4"
+      ],
+      "publishedAt": "2025-12-12T09:07:21.000Z",
+      "submittedOnDailyAt": "2025-12-15T00:10:34.183Z",
+      "title": "The N-Body Problem: Parallel Execution from Single-Person Egocentric Video",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Humans can intuitively parallelise complex activities, but can a model learn this from observing a single person? Given one egocentric video, we introduce the N-Body Problem: how N individuals, can hypothetically perform the same set of tasks observed in this video. The goal is to maximise speed-up, but naive assignment of video segments to individuals often violates real-world constraints, leading to physically impossible scenarios like two people using the same object or occupying the same space. To address this, we formalise the N-Body Problem and propose a suite of metrics to evaluate both performance (speed-up, task coverage) and feasibility (spatial collisions, object conflicts and causal constraints). We then introduce a structured prompting strategy that guides a Vision-Language Model (VLM) to reason about the 3D environment, object usage, and temporal dependencies to produce a viable parallel execution. On 100 videos from EPIC-Kitchens and HD-EPIC, our method for N = 2 boosts action coverage by 45% over a baseline prompt for Gemini 2.5 Pro, while simultaneously slashing collision rates, object and causal conflicts by 55%, 45% and 55% respectively.",
+      "upvotes": 0,
+      "discussionId": "693f7501f516c693246811bc",
+      "projectPage": "https://zhifanzhu.github.io/ego-nbody/",
+      "ai_summary": "A model learns to parallelize tasks from a single egocentric video by addressing spatial and object conflicts, achieving improved action coverage and reduced collisions.",
+      "ai_keywords": [
+        "N-Body Problem",
+        "Vision-Language Model (VLM)",
+        "3D environment",
+        "object usage",
+        "temporal dependencies",
+        "EPIC-Kitchens",
+        "HD-EPIC",
+        "action coverage",
+        "collision rates",
+        "object conflicts",
+        "causal conflicts"
+      ]
+    },
+    "publishedAt": "2025-12-12T04:07:21.000Z",
+    "title": "The N-Body Problem: Parallel Execution from Single-Person Egocentric Video",
+    "summary": "Humans can intuitively parallelise complex activities, but can a model learn this from observing a single person? Given one egocentric video, we introduce the N-Body Problem: how N individuals, can hypothetically perform the same set of tasks observed in this video. The goal is to maximise speed-up, but naive assignment of video segments to individuals often violates real-world constraints, leading to physically impossible scenarios like two people using the same object or occupying the same space. To address this, we formalise the N-Body Problem and propose a suite of metrics to evaluate both performance (speed-up, task coverage) and feasibility (spatial collisions, object conflicts and causal constraints). We then introduce a structured prompting strategy that guides a Vision-Language Model (VLM) to reason about the 3D environment, object usage, and temporal dependencies to produce a viable parallel execution. On 100 videos from EPIC-Kitchens and HD-EPIC, our method for N = 2 boosts action coverage by 45% over a baseline prompt for Gemini 2.5 Pro, while simultaneously slashing collision rates, object and causal conflicts by 55%, 45% and 55% respectively.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/fzfyGG7vXBE03zXNs6-iw.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.11393.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 182
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.11253",
+      "authors": [
+        {
+          "_id": "693f75c3f516c693246811ed",
+          "name": "Zhiyuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "693f75c3f516c693246811ee",
+          "name": "Chi-Man Pun",
+          "hidden": false
+        },
+        {
+          "_id": "693f75c3f516c693246811ef",
+          "name": "Chen Fang",
+          "hidden": false
+        },
+        {
+          "_id": "693f75c3f516c693246811f0",
+          "name": "Jue Wang",
+          "hidden": false
+        },
+        {
+          "_id": "693f75c3f516c693246811f1",
+          "name": "Xiaodong Cun",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/Dqr8Qb2QmiTS3fnJWMGgC.mp4"
+      ],
+      "publishedAt": "2025-12-12T03:24:40.000Z",
+      "submittedOnDailyAt": "2025-12-15T00:14:55.766Z",
+      "title": "PersonaLive! Expressive Portrait Image Animation for Live Streaming",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Current diffusion-based portrait animation models predominantly focus on enhancing visual quality and expression realism, while overlooking generation latency and real-time performance, which restricts their application range in the live streaming scenario. We propose PersonaLive, a novel diffusion-based framework towards streaming real-time portrait animation with multi-stage training recipes. Specifically, we first adopt hybrid implicit signals, namely implicit facial representations and 3D implicit keypoints, to achieve expressive image-level motion control. Then, a fewer-step appearance distillation strategy is proposed to eliminate appearance redundancy in the denoising process, greatly improving inference efficiency. Finally, we introduce an autoregressive micro-chunk streaming generation paradigm equipped with a sliding training strategy and a historical keyframe mechanism to enable low-latency and stable long-term video generation. Extensive experiments demonstrate that PersonaLive achieves state-of-the-art performance with up to 7-22x speedup over prior diffusion-based portrait animation models.",
+      "upvotes": 0,
+      "discussionId": "693f75c3f516c693246811f2",
+      "githubRepo": "https://github.com/GVCLab/PersonaLive",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "PersonaLive is a diffusion-based framework for real-time portrait animation that enhances speed and efficiency through multi-stage training, hybrid implicit signals, appearance distillation, and autoregressive micro-chunk streaming.",
+      "ai_keywords": [
+        "diffusion-based framework",
+        "implicit facial representations",
+        "3D implicit keypoints",
+        "expressive image-level motion control",
+        "appearance distillation",
+        "autoregressive micro-chunk streaming",
+        "sliding training strategy",
+        "historical keyframe mechanism"
+      ]
+    },
+    "publishedAt": "2025-12-11T22:24:40.000Z",
+    "title": "PersonaLive! Expressive Portrait Image Animation for Live Streaming",
+    "summary": "Current diffusion-based portrait animation models predominantly focus on enhancing visual quality and expression realism, while overlooking generation latency and real-time performance, which restricts their application range in the live streaming scenario. We propose PersonaLive, a novel diffusion-based framework towards streaming real-time portrait animation with multi-stage training recipes. Specifically, we first adopt hybrid implicit signals, namely implicit facial representations and 3D implicit keypoints, to achieve expressive image-level motion control. Then, a fewer-step appearance distillation strategy is proposed to eliminate appearance redundancy in the denoising process, greatly improving inference efficiency. Finally, we introduce an autoregressive micro-chunk streaming generation paradigm equipped with a sliding training strategy and a historical keyframe mechanism to enable low-latency and stable long-term video generation. Extensive experiments demonstrate that PersonaLive achieves state-of-the-art performance with up to 7-22x speedup over prior diffusion-based portrait animation models.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/Dqr8Qb2QmiTS3fnJWMGgC.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.11253.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 182
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.06951",
+      "authors": [
+        {
+          "_id": "6937909419d912300c34a265",
+          "user": {
+            "_id": "61e188e4ad060b40ab27de05",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e188e4ad060b40ab27de05/74Nz_9y-RyhRR3yvjpqAr.jpeg",
+            "isPro": true,
+            "fullname": "Ilia Larchenko",
+            "user": "IliaLarchenko",
+            "type": "user"
+          },
+          "name": "Ilia Larchenko",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2025-12-09T11:47:02.189Z",
+          "hidden": false
+        },
+        {
+          "_id": "6937909419d912300c34a266",
+          "name": "Gleb Zarin",
+          "hidden": false
+        },
+        {
+          "_id": "6937909419d912300c34a267",
+          "name": "Akash Karnatak",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/61e188e4ad060b40ab27de05/HvOPzfZ7OPPxC9Im7gn5U.qt"
+      ],
+      "publishedAt": "2025-12-07T18:08:45.000Z",
+      "submittedOnDailyAt": "2025-12-15T00:16:35.456Z",
+      "title": "Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge",
+      "submittedOnDailyBy": {
+        "_id": "61e188e4ad060b40ab27de05",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e188e4ad060b40ab27de05/74Nz_9y-RyhRR3yvjpqAr.jpeg",
+        "isPro": true,
+        "fullname": "Ilia Larchenko",
+        "user": "IliaLarchenko",
+        "type": "user"
+      },
+      "summary": "We present a vision-action policy that won 1st place in the 2025 BEHAVIOR Challenge - a large-scale benchmark featuring 50 diverse long-horizon household tasks in photo-realistic simulation, requiring bimanual manipulation, navigation, and context-aware decision making.\n  Building on the Pi0.5 architecture, we introduce several innovations. Our primary contribution is correlated noise for flow matching, which improves training efficiency and enables correlation-aware inpainting for smooth action sequences. We also apply learnable mixed-layer attention and System 2 stage tracking for ambiguity resolution. Training employs multi-sample flow matching to reduce variance, while inference uses action compression and challenge-specific correction rules.\n  Our approach achieves 26% q-score across all 50 tasks on both public and private leaderboards.",
+      "upvotes": 0,
+      "discussionId": "6937909519d912300c34a268",
+      "projectPage": "https://behavior.stanford.edu/challenge/",
+      "githubRepo": "https://github.com/IliaLarchenko/behavior-1k-solution",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A vision-action policy using correlated noise for flow matching and learnable mixed-layer attention wins the 2025 BEHAVIOR Challenge with high performance across diverse household tasks.",
+      "ai_keywords": [
+        "flow matching",
+        "correlated noise",
+        "Pi0.5 architecture",
+        "correlation-aware inpainting",
+        "learnable mixed-layer attention",
+        "System 2 stage tracking",
+        "multi-sample flow matching",
+        "action compression",
+        "q-score"
+      ],
+      "githubStars": 104
+    },
+    "publishedAt": "2025-12-07T13:08:45.000Z",
+    "title": "Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge",
+    "summary": "We present a vision-action policy that won 1st place in the 2025 BEHAVIOR Challenge - a large-scale benchmark featuring 50 diverse long-horizon household tasks in photo-realistic simulation, requiring bimanual manipulation, navigation, and context-aware decision making.\n  Building on the Pi0.5 architecture, we introduce several innovations. Our primary contribution is correlated noise for flow matching, which improves training efficiency and enables correlation-aware inpainting for smooth action sequences. We also apply learnable mixed-layer attention and System 2 stage tracking for ambiguity resolution. Training employs multi-sample flow matching to reduce variance, while inference uses action compression and challenge-specific correction rules.\n  Our approach achieves 26% q-score across all 50 tasks on both public and private leaderboards.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/61e188e4ad060b40ab27de05/HvOPzfZ7OPPxC9Im7gn5U.qt"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.06951.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61e188e4ad060b40ab27de05",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e188e4ad060b40ab27de05/74Nz_9y-RyhRR3yvjpqAr.jpeg",
+      "fullname": "Ilia Larchenko",
+      "name": "IliaLarchenko",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 49
+    },
+    "isAuthorParticipating": true
+  }
+]
