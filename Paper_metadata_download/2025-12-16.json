@@ -1,0 +1,266 @@
+[
+  {
+    "paper": {
+      "id": "2512.10071",
+      "authors": [
+        {
+          "_id": "69404844b21c43ffbf4b75c3",
+          "name": "Junjie Bai",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75c4",
+          "name": "Yu-Wei Chao",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75c5",
+          "name": "Qizhi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75c6",
+          "name": "Jinwei Gu",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75c7",
+          "name": "Moo Jin Kim",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75c8",
+          "name": "Zhaoshuo Li",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75c9",
+          "name": "Xuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75ca",
+          "name": "Tsung-Yi Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75cb",
+          "name": "Ming-Yu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75cc",
+          "name": "Nic Ma",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75cd",
+          "name": "Kaichun Mo",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75ce",
+          "name": "Delin Qu",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75cf",
+          "name": "Shangkun Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75d0",
+          "name": "Hongchi Xia",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75d1",
+          "name": "Fangyin Wei",
+          "hidden": false
+        },
+        {
+          "_id": "69404844b21c43ffbf4b75d2",
+          "name": "Xiaohui Zeng",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64daecec888b7e9c400f59b5/bw1XqdpXA1rd0l5seu-Wr.mp4"
+      ],
+      "publishedAt": "2025-12-10T20:46:40.000Z",
+      "submittedOnDailyAt": "2025-12-16T00:15:46.675Z",
+      "title": "Openpi Comet: Competition Solution For 2025 BEHAVIOR Challenge",
+      "submittedOnDailyBy": {
+        "_id": "64daecec888b7e9c400f59b5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64daecec888b7e9c400f59b5/f4pfOfWk6jYJX-Nf2-qHn.png",
+        "isPro": false,
+        "fullname": "Delin Qu",
+        "user": "delinqu",
+        "type": "user"
+      },
+      "summary": "The 2025 BEHAVIOR Challenge is designed to rigorously track progress toward solving long-horizon tasks by physical agents in simulated environments. BEHAVIOR-1K focuses on everyday household tasks that people most want robots to assist with and these tasks introduce long-horizon mobile manipulation challenges in realistic settings, bridging the gap between current research and real-world, human-centric applications. This report presents our solution to the 2025 BEHAVIOR Challenge in a very close 2nd place and substantially outperforms the rest of the submissions. Building on π_{0.5}, we focus on systematically building our solution by studying the effects of training techniques and data. Through careful ablations, we show the scaling power in pre-training and post-training phases for competitive performance. We summarize our practical lessons and design recommendations that we hope will provide actionable insights for the broader embodied AI community when adapting powerful foundation models to complex embodied scenarios.",
+      "upvotes": 10,
+      "discussionId": "69404844b21c43ffbf4b75d3",
+      "githubRepo": "https://github.com/mli0603/openpi-comet",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A solution for the 2025 BEHAVIOR Challenge in everyday household tasks using pre-training and post-training techniques substantially outperforms other submissions.",
+      "ai_keywords": [
+        "BEHAVIOR Challenge",
+        "long-horizon tasks",
+        "mobile manipulation",
+        "simulated environments",
+        "human-centric applications",
+        "embodied AI",
+        "pre-training",
+        "post-training",
+        "ablations",
+        "foundation models"
+      ]
+    },
+    "publishedAt": "2025-12-10T15:46:40.000Z",
+    "title": "Openpi Comet: Competition Solution For 2025 BEHAVIOR Challenge",
+    "summary": "The 2025 BEHAVIOR Challenge is designed to rigorously track progress toward solving long-horizon tasks by physical agents in simulated environments. BEHAVIOR-1K focuses on everyday household tasks that people most want robots to assist with and these tasks introduce long-horizon mobile manipulation challenges in realistic settings, bridging the gap between current research and real-world, human-centric applications. This report presents our solution to the 2025 BEHAVIOR Challenge in a very close 2nd place and substantially outperforms the rest of the submissions. Building on π_{0.5}, we focus on systematically building our solution by studying the effects of training techniques and data. Through careful ablations, we show the scaling power in pre-training and post-training phases for competitive performance. We summarize our practical lessons and design recommendations that we hope will provide actionable insights for the broader embodied AI community when adapting powerful foundation models to complex embodied scenarios.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64daecec888b7e9c400f59b5/bw1XqdpXA1rd0l5seu-Wr.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.10071.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "64daecec888b7e9c400f59b5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64daecec888b7e9c400f59b5/f4pfOfWk6jYJX-Nf2-qHn.png",
+      "fullname": "Delin Qu",
+      "name": "delinqu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.09636",
+      "authors": [
+        {
+          "_id": "6940c58565f1e24a1177fbb2",
+          "name": "Mengxi Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbb3",
+          "name": "Kailai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbb4",
+          "name": "Pengde Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbb5",
+          "name": "Enze Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbb6",
+          "name": "Ziyan Kuang",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbb7",
+          "name": "Zhiwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbb8",
+          "name": "Weiguang Han",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbb9",
+          "name": "Shu Liao",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbba",
+          "name": "Lianting Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbbb",
+          "name": "Jinpeng Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbbc",
+          "name": "Min Peng",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbbd",
+          "name": "Qianqian Xie",
+          "hidden": false
+        },
+        {
+          "_id": "6940c58565f1e24a1177fbbe",
+          "name": "Sophia Ananiadou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-10T13:26:22.000Z",
+      "submittedOnDailyAt": "2025-12-16T00:08:57.103Z",
+      "title": "MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment",
+      "submittedOnDailyBy": {
+        "_id": "663adb42e14047f710dc1d29",
+        "avatarUrl": "/avatars/7ca49d67a4a8b4cf0ee896e07646715f.svg",
+        "isPro": false,
+        "fullname": "Mengxi Xiao",
+        "user": "ElsaShaw",
+        "type": "user"
+      },
+      "summary": "Mental health disorders affect hundreds of millions globally, and the Web now serves as a primary medium for accessing support, information, and assessment. Large language models (LLMs) offer scalable and accessible assistance, yet their deployment in mental-health settings remains risky when their reasoning is incomplete, inconsistent, or ungrounded. Existing psychological LLMs emphasize emotional understanding or knowledge recall but overlook the step-wise, clinically aligned reasoning required for appraisal, diagnosis, intervention planning, abstraction, and verification. To address these issues, we introduce MentraSuite, a unified framework for advancing reliable mental-health reasoning. We propose MentraBench, a comprehensive benchmark spanning five core reasoning aspects, six tasks, and 13 datasets, evaluating both task performance and reasoning quality across five dimensions: conciseness, coherence, hallucination avoidance, task understanding, and internal consistency. We further present Mindora, a post-trained model optimized through a hybrid SFT-RL framework with an inconsistency-detection reward to enforce faithful and coherent reasoning. To support training, we construct high-quality trajectories using a novel reasoning trajectory generation strategy, that strategically filters difficult samples and applies a structured, consistency-oriented rewriting process to produce concise, readable, and well-balanced trajectories. Across 20 evaluated LLMs, Mindora achieves the highest average performance on MentraBench and shows remarkable performances in reasoning reliability, demonstrating its effectiveness for complex mental-health scenarios.",
+      "upvotes": 4,
+      "discussionId": "6940c58565f1e24a1177fbbf",
+      "githubRepo": "https://github.com/elsa66666/MentraSuite",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "MentraSuite, a unified framework, advances reliable mental health reasoning using Mindora, a post-trained model with hybrid SFT-RL, evaluated via MentraBench, a benchmark assessing task performance and reasoning quality.",
+      "ai_keywords": [
+        "Large language models (LLMs)",
+        "mental-health reasoning",
+        "MentraSuite",
+        "MentraBench",
+        "Mindora",
+        "hybrid SFT-RL",
+        "inconsistency-detection reward",
+        "reasoning trajectory generation",
+        "task performance",
+        "reasoning quality",
+        "conciseness",
+        "coherence",
+        "hallucination avoidance",
+        "task understanding",
+        "internal consistency"
+      ]
+    },
+    "publishedAt": "2025-12-10T08:26:22.000Z",
+    "title": "MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment",
+    "summary": "Mental health disorders affect hundreds of millions globally, and the Web now serves as a primary medium for accessing support, information, and assessment. Large language models (LLMs) offer scalable and accessible assistance, yet their deployment in mental-health settings remains risky when their reasoning is incomplete, inconsistent, or ungrounded. Existing psychological LLMs emphasize emotional understanding or knowledge recall but overlook the step-wise, clinically aligned reasoning required for appraisal, diagnosis, intervention planning, abstraction, and verification. To address these issues, we introduce MentraSuite, a unified framework for advancing reliable mental-health reasoning. We propose MentraBench, a comprehensive benchmark spanning five core reasoning aspects, six tasks, and 13 datasets, evaluating both task performance and reasoning quality across five dimensions: conciseness, coherence, hallucination avoidance, task understanding, and internal consistency. We further present Mindora, a post-trained model optimized through a hybrid SFT-RL framework with an inconsistency-detection reward to enforce faithful and coherent reasoning. To support training, we construct high-quality trajectories using a novel reasoning trajectory generation strategy, that strategically filters difficult samples and applies a structured, consistency-oriented rewriting process to produce concise, readable, and well-balanced trajectories. Across 20 evaluated LLMs, Mindora achieves the highest average performance on MentraBench and shows remarkable performances in reasoning reliability, demonstrating its effectiveness for complex mental-health scenarios.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.09636.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "663adb42e14047f710dc1d29",
+      "avatarUrl": "/avatars/7ca49d67a4a8b4cf0ee896e07646715f.svg",
+      "fullname": "Mengxi Xiao",
+      "name": "ElsaShaw",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1
+    },
+    "isAuthorParticipating": false
+  }
+]
