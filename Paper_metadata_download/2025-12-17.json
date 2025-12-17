@@ -1,0 +1,395 @@
+[
+  {
+    "paper": {
+      "id": "2512.13961",
+      "authors": [
+        {
+          "_id": "694219575d5b2dc1052747b8",
+          "name": "Team Olmo",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747ba",
+          "name": "Allyson Ettinger",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747bb",
+          "name": "Amanda Bertsch",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747bc",
+          "name": "Bailey Kuehl",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747bd",
+          "name": "David Graham",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747be",
+          "name": "David Heineman",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747bf",
+          "name": "Dirk Groeneveld",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c0",
+          "name": "Faeze Brahman",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c1",
+          "name": "Finbarr Timbers",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c2",
+          "name": "Hamish Ivison",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c3",
+          "name": "Jacob Morrison",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c4",
+          "name": "Jake Poznanski",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c5",
+          "name": "Kyle Lo",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c6",
+          "name": "Luca Soldaini",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c7",
+          "name": "Matt Jordan",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c8",
+          "name": "Mayee Chen",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747c9",
+          "name": "Michael Noukhovitch",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747ca",
+          "name": "Nathan Lambert",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747cb",
+          "name": "Pete Walsh",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747cc",
+          "name": "Pradeep Dasigi",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747cd",
+          "name": "Robert Berry",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747ce",
+          "name": "Saumya Malik",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747cf",
+          "name": "Saurabh Shah",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d0",
+          "name": "Scott Geng",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d1",
+          "name": "Shane Arora",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d2",
+          "name": "Shashank Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d3",
+          "name": "Taira Anderson",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d4",
+          "name": "Teng Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d5",
+          "name": "Tyler Murray",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d6",
+          "name": "Tyler Romero",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d7",
+          "name": "Victoria Graf",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d8",
+          "name": "Akari Asai",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747d9",
+          "name": "Akshita Bhagia",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747da",
+          "name": "Alexander Wettig",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747db",
+          "name": "Alisa Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747dc",
+          "name": "Aman Rangapur",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747dd",
+          "name": "Chloe Anastasiades",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747de",
+          "name": "Costa Huang",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747df",
+          "name": "Dustin Schwenk",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e0",
+          "name": "Harsh Trivedi",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e1",
+          "name": "Ian Magnusson",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e2",
+          "name": "Jaron Lochner",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e3",
+          "name": "Jiacheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e4",
+          "name": "Lester James V. Miranda",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e5",
+          "name": "Maarten Sap",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e6",
+          "name": "Malia Morgan",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e7",
+          "name": "Michael Schmitz",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e8",
+          "name": "Michal Guerquin",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747e9",
+          "name": "Michael Wilson",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747ea",
+          "name": "Regan Huff",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747eb",
+          "name": "Ronan Le Bras",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747ec",
+          "name": "Rui Xin",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747ed",
+          "name": "Rulin Shao",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747ee",
+          "name": "Sam Skjonsberg",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747ef",
+          "name": "Shannon Zejiang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f0",
+          "name": "Shuyue Stella Li",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f1",
+          "name": "Tucker Wilde",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f2",
+          "name": "Valentina Pyatkin",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f3",
+          "name": "Will Merrill",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f4",
+          "name": "Yapei Chang",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f5",
+          "name": "Yuling Gu",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f6",
+          "name": "Zhiyuan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f7",
+          "name": "Ashish Sabharwal",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f8",
+          "name": "Luke Zettlemoyer",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747f9",
+          "name": "Pang Wei Koh",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747fa",
+          "name": "Ali Farhadi",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747fb",
+          "name": "Noah A. Smith",
+          "hidden": false
+        },
+        {
+          "_id": "694219575d5b2dc1052747fc",
+          "name": "Hannaneh Hajishirzi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-15T23:41:48.000Z",
+      "submittedOnDailyAt": "2025-12-17T00:16:05.107Z",
+      "title": "Olmo 3",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce Olmo 3, a family of state-of-the-art, fully-open language models at the 7B and 32B parameter scales. Olmo 3 model construction targets long-context reasoning, function calling, coding, instruction following, general chat, and knowledge recall. This release includes the entire model flow, i.e., the full lifecycle of the family of models, including every stage, checkpoint, data point, and dependency used to build it. Our flagship model, Olmo 3 Think 32B, is the strongest fully-open thinking model released to-date.",
+      "upvotes": 0,
+      "discussionId": "694219585d5b2dc1052747fd",
+      "projectPage": "https://playground.allenai.org/",
+      "ai_summary": "Olmo 3, a family of state-of-the-art fully-open language models at 7B and 32B parameter scales, excels in long-context reasoning, function calling, coding, instruction following, general chat, and knowledge recall.",
+      "ai_keywords": [
+        "fully-open language models",
+        "long-context reasoning",
+        "function calling",
+        "instruction following",
+        "general chat",
+        "knowledge recall",
+        "model flow",
+        "lifecycle",
+        "checkpoints",
+        "dependencies"
+      ]
+    },
+    "publishedAt": "2025-12-15T18:41:48.000Z",
+    "title": "Olmo 3",
+    "summary": "We introduce Olmo 3, a family of state-of-the-art, fully-open language models at the 7B and 32B parameter scales. Olmo 3 model construction targets long-context reasoning, function calling, coding, instruction following, general chat, and knowledge recall. This release includes the entire model flow, i.e., the full lifecycle of the family of models, including every stage, checkpoint, data point, and dependency used to build it. Our flagship model, Olmo 3 Think 32B, is the strongest fully-open thinking model released to-date.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.13961.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 185
+    },
+    "isAuthorParticipating": false
+  }
+]
