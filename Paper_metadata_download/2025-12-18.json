@@ -1,0 +1,109 @@
+[
+  {
+    "paper": {
+      "id": "2512.15649",
+      "authors": [
+        {
+          "_id": "69436833542d62d58a7bf648",
+          "name": "Hongbo Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69436833542d62d58a7bf649",
+          "name": "Meng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69436833542d62d58a7bf64a",
+          "name": "Fei Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69436833542d62d58a7bf64b",
+          "name": "Wenzhuo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69436833542d62d58a7bf64c",
+          "name": "Bolin Ni",
+          "hidden": false
+        },
+        {
+          "_id": "69436833542d62d58a7bf64d",
+          "name": "Fanhu Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "69436833542d62d58a7bf64e",
+          "name": "Gaofeng Meng",
+          "hidden": false
+        },
+        {
+          "_id": "69436833542d62d58a7bf64f",
+          "name": "Zhaoxiang Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-17T17:58:35.000Z",
+      "submittedOnDailyAt": "2025-12-18T00:15:18.107Z",
+      "title": "VTCBench: Can Vision-Language Models Understand Long Context with Vision-Text Compression?",
+      "submittedOnDailyBy": {
+        "_id": "64100834c025ddf6189c415e",
+        "avatarUrl": "/avatars/9b9bbecef5d5815540abf92d74012f55.svg",
+        "isPro": false,
+        "fullname": "Hongbo Zhao",
+        "user": "z-hb",
+        "type": "user"
+      },
+      "summary": "The computational and memory overheads associated with expanding the context window of LLMs severely limit their scalability. A noteworthy solution is vision-text compression (VTC), exemplified by frameworks like DeepSeek-OCR and Glyph, which convert long texts into dense 2D visual representations, thereby achieving token compression ratios of 3x-20x. However, the impact of this high information density on the core long-context capabilities of vision-language models (VLMs) remains under-investigated. To address this gap, we introduce the first benchmark for VTC and systematically assess the performance of VLMs across three long-context understanding settings: VTC-Retrieval, which evaluates the model's ability to retrieve and aggregate information; VTC-Reasoning, which requires models to infer latent associations to locate facts with minimal lexical overlap; and VTC-Memory, which measures comprehensive question answering within long-term dialogue memory. Furthermore, we establish the VTCBench-Wild to simulate diverse input scenarios.We comprehensively evaluate leading open-source and proprietary models on our benchmarks. The results indicate that, despite being able to decode textual information (e.g., OCR) well, most VLMs exhibit a surprisingly poor long-context understanding ability with VTC-compressed information, failing to capture long associations or dependencies in the context.This study provides a deep understanding of VTC and serves as a foundation for designing more efficient and scalable VLMs.",
+      "upvotes": 1,
+      "discussionId": "69436834542d62d58a7bf650",
+      "ai_summary": "A benchmark evaluates the performance of vision-language models on understanding long-context information compressed into dense visual representations, revealing significant limitations in capturing long-term dependencies.",
+      "ai_keywords": [
+        "vision-text compression",
+        "VTC",
+        "DeepSeek-OCR",
+        "Glyph",
+        "token compression",
+        "vision-language models",
+        "VLMs",
+        "VTC-Retrieval",
+        "VTC-Reasoning",
+        "VTC-Memory",
+        "VTCBench-Wild",
+        "OCR",
+        "long-context understanding"
+      ],
+      "organization": {
+        "_id": "683912c5f0458c8bcb5b319d",
+        "name": "MLLM-CL",
+        "fullname": "Continual Learning of Multimodal Large Language Models",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64100834c025ddf6189c415e/mukQ8J2OmFR3Km5hWmpXk.png"
+      }
+    },
+    "publishedAt": "2025-12-17T12:58:35.000Z",
+    "title": "VTCBench: Can Vision-Language Models Understand Long Context with Vision-Text Compression?",
+    "summary": "The computational and memory overheads associated with expanding the context window of LLMs severely limit their scalability. A noteworthy solution is vision-text compression (VTC), exemplified by frameworks like DeepSeek-OCR and Glyph, which convert long texts into dense 2D visual representations, thereby achieving token compression ratios of 3x-20x. However, the impact of this high information density on the core long-context capabilities of vision-language models (VLMs) remains under-investigated. To address this gap, we introduce the first benchmark for VTC and systematically assess the performance of VLMs across three long-context understanding settings: VTC-Retrieval, which evaluates the model's ability to retrieve and aggregate information; VTC-Reasoning, which requires models to infer latent associations to locate facts with minimal lexical overlap; and VTC-Memory, which measures comprehensive question answering within long-term dialogue memory. Furthermore, we establish the VTCBench-Wild to simulate diverse input scenarios.We comprehensively evaluate leading open-source and proprietary models on our benchmarks. The results indicate that, despite being able to decode textual information (e.g., OCR) well, most VLMs exhibit a surprisingly poor long-context understanding ability with VTC-compressed information, failing to capture long associations or dependencies in the context.This study provides a deep understanding of VTC and serves as a foundation for designing more efficient and scalable VLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.15649.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64100834c025ddf6189c415e",
+      "avatarUrl": "/avatars/9b9bbecef5d5815540abf92d74012f55.svg",
+      "fullname": "Hongbo Zhao",
+      "name": "z-hb",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2
+    },
+    "organization": {
+      "_id": "683912c5f0458c8bcb5b319d",
+      "name": "MLLM-CL",
+      "fullname": "Continual Learning of Multimodal Large Language Models",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64100834c025ddf6189c415e/mukQ8J2OmFR3Km5hWmpXk.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
