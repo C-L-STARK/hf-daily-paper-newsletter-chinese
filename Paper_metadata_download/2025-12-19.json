@@ -1,0 +1,410 @@
+[
+  {
+    "paper": {
+      "id": "2512.16776",
+      "authors": [
+        {
+          "_id": "6944bd29fbf17e708e185f72",
+          "name": "Kling Team",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f73",
+          "name": "Jialu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f74",
+          "name": "Yuanzheng Ci",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f75",
+          "name": "Xiangyu Du",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f76",
+          "name": "Zipeng Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f77",
+          "name": "Kun Gai",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f78",
+          "name": "Sainan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f79",
+          "name": "Feng Han",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f7a",
+          "name": "Jingbin He",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f7b",
+          "name": "Kang He",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f7c",
+          "name": "Xiao Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f7d",
+          "name": "Xiaohua Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f7e",
+          "name": "Boyuan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f7f",
+          "name": "Fangyuan Kong",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f80",
+          "name": "Hang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f81",
+          "name": "Jie Li",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f82",
+          "name": "Qingyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f83",
+          "name": "Shen Li",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f84",
+          "name": "Xiaohan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f85",
+          "name": "Yan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f86",
+          "name": "Jiajun Liang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f87",
+          "name": "Borui Liao",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f88",
+          "name": "Yiqiao Liao",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f89",
+          "name": "Weihong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f8a",
+          "name": "Quande Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f8b",
+          "name": "Xiaokun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f8c",
+          "name": "Yilun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f8d",
+          "name": "Yuliang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f8e",
+          "name": "Shun Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f8f",
+          "name": "Hangyu Mao",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f90",
+          "name": "Yunyao Mao",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f91",
+          "name": "Haodong Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f92",
+          "name": "Wenyu Qin",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f93",
+          "name": "Wanqi Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f94",
+          "name": "Xiaoyu Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f95",
+          "name": "Lianghao Su",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f96",
+          "name": "Haozhi Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f97",
+          "name": "Peiqin Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f98",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f99",
+          "name": "Chao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f9a",
+          "name": "Chenyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f9b",
+          "name": "Meng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f9c",
+          "name": "Qiulin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f9d",
+          "name": "Runqi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f9e",
+          "name": "Xintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185f9f",
+          "name": "Xuebo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa0",
+          "name": "Zekun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa1",
+          "name": "Min Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa2",
+          "name": "Tiancheng Wen",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa3",
+          "name": "Guohao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa4",
+          "name": "Xiaoshi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa5",
+          "name": "Zhenhua Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa6",
+          "name": "Da Xie",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa7",
+          "name": "Yingtong Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa8",
+          "name": "Yulong Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fa9",
+          "name": "Sile Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185faa",
+          "name": "Zikang Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fab",
+          "name": "Weicai Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fac",
+          "name": "Ziyang Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fad",
+          "name": "Shenglong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fae",
+          "name": "Shuaiyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185faf",
+          "name": "Yuanxing Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fb0",
+          "name": "Yufan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fb1",
+          "name": "Wenzheng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fb2",
+          "name": "Ruiliang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fb3",
+          "name": "Yan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fb4",
+          "name": "Guosheng Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6944bd29fbf17e708e185fb5",
+          "name": "Yongjie Zhu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-18T17:08:12.000Z",
+      "submittedOnDailyAt": "2025-12-19T00:19:38.857Z",
+      "title": "Kling-Omni Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We present Kling-Omni, a generalist generative framework designed to synthesize high-fidelity videos directly from multimodal visual language inputs. Adopting an end-to-end perspective, Kling-Omni bridges the functional separation among diverse video generation, editing, and intelligent reasoning tasks, integrating them into a holistic system. Unlike disjointed pipeline approaches, Kling-Omni supports a diverse range of user inputs, including text instructions, reference images, and video contexts, processing them into a unified multimodal representation to deliver cinematic-quality and highly-intelligent video content creation. To support these capabilities, we constructed a comprehensive data system that serves as the foundation for multimodal video creation. The framework is further empowered by efficient large-scale pre-training strategies and infrastructure optimizations for inference. Comprehensive evaluations reveal that Kling-Omni demonstrates exceptional capabilities in in-context generation, reasoning-based editing, and multimodal instruction following. Moving beyond a content creation tool, we believe Kling-Omni is a pivotal advancement toward multimodal world simulators capable of perceiving, reasoning, generating and interacting with the dynamic and complex worlds.",
+      "upvotes": 1,
+      "discussionId": "6944bd29fbf17e708e185fb6",
+      "ai_summary": "Kling-Omni is a versatile generative framework that synthesizes high-quality videos from multimodal inputs, integrating generation, editing, and reasoning into a unified system.",
+      "ai_keywords": [
+        "generative framework",
+        "multimodal visual language inputs",
+        "end-to-end",
+        "video generation",
+        "editing",
+        "intelligent reasoning",
+        "unified multimodal representation",
+        "cinematic-quality",
+        "efficient large-scale pre-training",
+        "inference optimizations",
+        "in-context generation",
+        "reasoning-based editing",
+        "multimodal instruction following",
+        "multimodal world simulators"
+      ],
+      "organization": {
+        "_id": "662c559b322afcbae51b3c8b",
+        "name": "KlingTeam",
+        "fullname": "Kling Team",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+      }
+    },
+    "publishedAt": "2025-12-18T12:08:12.000Z",
+    "title": "Kling-Omni Technical Report",
+    "summary": "We present Kling-Omni, a generalist generative framework designed to synthesize high-fidelity videos directly from multimodal visual language inputs. Adopting an end-to-end perspective, Kling-Omni bridges the functional separation among diverse video generation, editing, and intelligent reasoning tasks, integrating them into a holistic system. Unlike disjointed pipeline approaches, Kling-Omni supports a diverse range of user inputs, including text instructions, reference images, and video contexts, processing them into a unified multimodal representation to deliver cinematic-quality and highly-intelligent video content creation. To support these capabilities, we constructed a comprehensive data system that serves as the foundation for multimodal video creation. The framework is further empowered by efficient large-scale pre-training strategies and infrastructure optimizations for inference. Comprehensive evaluations reveal that Kling-Omni demonstrates exceptional capabilities in in-context generation, reasoning-based editing, and multimodal instruction following. Moving beyond a content creation tool, we believe Kling-Omni is a pivotal advancement toward multimodal world simulators capable of perceiving, reasoning, generating and interacting with the dynamic and complex worlds.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.16776.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 186
+    },
+    "organization": {
+      "_id": "662c559b322afcbae51b3c8b",
+      "name": "KlingTeam",
+      "fullname": "Kling Team",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+    },
+    "isAuthorParticipating": false
+  }
+]
