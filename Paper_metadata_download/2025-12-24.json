@@ -1,0 +1,531 @@
+[
+  {
+    "paper": {
+      "id": "2512.18099",
+      "authors": [
+        {
+          "_id": "694aa9bcd8d7445f420c171d",
+          "name": "Bowen Shi",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c171e",
+          "name": "Andros Tjandra",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c171f",
+          "name": "John Hoffman",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1720",
+          "name": "Helin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1721",
+          "name": "Yi-Chiao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1722",
+          "name": "Luya Gao",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1723",
+          "name": "Julius Richter",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1724",
+          "name": "Matt Le",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1725",
+          "name": "Apoorv Vyas",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1726",
+          "name": "Sanyuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1727",
+          "name": "Christoph Feichtenhofer",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1728",
+          "name": "Piotr Dollár",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c1729",
+          "name": "Wei-Ning Hsu",
+          "hidden": false
+        },
+        {
+          "_id": "694aa9bcd8d7445f420c172a",
+          "name": "Ann Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-19T22:14:23.000Z",
+      "submittedOnDailyAt": "2025-12-24T00:06:36.953Z",
+      "title": "SAM Audio: Segment Anything in Audio",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "General audio source separation is a key capability for multimodal AI systems that can perceive and reason about sound. Despite substantial progress in recent years, existing separation models are either domain-specific, designed for fixed categories such as speech or music, or limited in controllability, supporting only a single prompting modality such as text. In this work, we present SAM Audio, a foundation model for general audio separation that unifies text, visual, and temporal span prompting within a single framework. Built on a diffusion transformer architecture, SAM Audio is trained with flow matching on large-scale audio data spanning speech, music, and general sounds, and can flexibly separate target sources described by language, visual masks, or temporal spans. The model achieves state-of-the-art performance across a diverse suite of benchmarks, including general sound, speech, music, and musical instrument separation in both in-the-wild and professionally produced audios, substantially outperforming prior general-purpose and specialized systems. Furthermore, we introduce a new real-world separation benchmark with human-labeled multimodal prompts and a reference-free evaluation model that correlates strongly with human judgment.",
+      "upvotes": 2,
+      "discussionId": "694aa9bdd8d7445f420c172b",
+      "projectPage": "https://ai.meta.com/samaudio/",
+      "githubRepo": "https://github.com/facebookresearch/sam-audio",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "SAM Audio, a diffusion transformer-based foundation model, achieves superior performance in general audio separation using unified text, visual, and temporal span prompts across various audio types.",
+      "ai_keywords": [
+        "diffusion transformer architecture",
+        "flow matching",
+        "audio separation",
+        "general sound",
+        "speech",
+        "music",
+        "musical instrument separation",
+        "in-the-wild audio",
+        "professionally produced audio",
+        "real-world separation benchmark",
+        "human-labeled multimodal prompts",
+        "reference-free evaluation model"
+      ]
+    },
+    "publishedAt": "2025-12-19T17:14:23.000Z",
+    "title": "SAM Audio: Segment Anything in Audio",
+    "summary": "General audio source separation is a key capability for multimodal AI systems that can perceive and reason about sound. Despite substantial progress in recent years, existing separation models are either domain-specific, designed for fixed categories such as speech or music, or limited in controllability, supporting only a single prompting modality such as text. In this work, we present SAM Audio, a foundation model for general audio separation that unifies text, visual, and temporal span prompting within a single framework. Built on a diffusion transformer architecture, SAM Audio is trained with flow matching on large-scale audio data spanning speech, music, and general sounds, and can flexibly separate target sources described by language, visual masks, or temporal spans. The model achieves state-of-the-art performance across a diverse suite of benchmarks, including general sound, speech, music, and musical instrument separation in both in-the-wild and professionally produced audios, substantially outperforming prior general-purpose and specialized systems. Furthermore, we introduce a new real-world separation benchmark with human-labeled multimodal prompts and a reference-free evaluation model that correlates strongly with human judgment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.18099.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 189
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.20491",
+      "authors": [
+        {
+          "_id": "694b5132746a34b55dd53c4e",
+          "name": "Chen Hu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c4f",
+          "name": "Haikuo Du",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c50",
+          "name": "Heng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c51",
+          "name": "Lin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c52",
+          "name": "Mingrui Chen",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c53",
+          "name": "Peng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c54",
+          "name": "Ruihang Miao",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c55",
+          "name": "Tianchi Yue",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c56",
+          "name": "Wang You",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c57",
+          "name": "Wei Ji",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c58",
+          "name": "Wei Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c59",
+          "name": "Wenjin Deng",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c5a",
+          "name": "Xiaojian Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c5b",
+          "name": "Xiaoyun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c5c",
+          "name": "Xiangyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c5d",
+          "name": "Xikai Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c5e",
+          "name": "Yanming Xu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c5f",
+          "name": "Yicheng Cao",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c60",
+          "name": "Yifei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c61",
+          "name": "Yongyao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c62",
+          "name": "Yubo Shu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c63",
+          "name": "Yurong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c64",
+          "name": "Yuxiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c65",
+          "name": "Zheng Gong",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c66",
+          "name": "Zhichao Chang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c67",
+          "name": "Binyan Li",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c68",
+          "name": "Dan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c69",
+          "name": "Furong Jia",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c6a",
+          "name": "Hongyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c6b",
+          "name": "Jiayu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c6c",
+          "name": "Jing Bai",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c6d",
+          "name": "Junlan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c6e",
+          "name": "Manjiao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c6f",
+          "name": "Na Wang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c70",
+          "name": "Qiuping Wu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c71",
+          "name": "Qinxin Du",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c72",
+          "name": "Shiwei Li",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c73",
+          "name": "Wen Sun",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c74",
+          "name": "Yifeng Gong",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c75",
+          "name": "Yonglin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c76",
+          "name": "Yuling Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c77",
+          "name": "Yuxuan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c78",
+          "name": "Ziqi Ren",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c79",
+          "name": "Zixuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c7a",
+          "name": "Aihu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c7b",
+          "name": "Brian Li",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c7c",
+          "name": "Buyun Ma",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c7d",
+          "name": "Kang An",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c7e",
+          "name": "Li Xie",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c7f",
+          "name": "Mingliang Li",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c80",
+          "name": "Pan Li",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c81",
+          "name": "Shidong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c82",
+          "name": "Xi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c83",
+          "name": "Xiaojia Liu",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c84",
+          "name": "Yuchu Luo",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c85",
+          "name": "Yuan Song",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c86",
+          "name": "YuanHao Ding",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c87",
+          "name": "Yuanwei Liang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c88",
+          "name": "Zexi Li",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c89",
+          "name": "Zhaoning Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c8a",
+          "name": "Zixin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c8b",
+          "name": "Binxing Jiao",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c8c",
+          "name": "Daxin Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c8d",
+          "name": "Jiansheng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c8e",
+          "name": "Jing Li",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c8f",
+          "name": "Xiangyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "694b5132746a34b55dd53c90",
+          "name": "Yibo Zhu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-23T16:32:27.000Z",
+      "submittedOnDailyAt": "2025-12-24T00:04:36.581Z",
+      "title": "Step-DeepResearch Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "As LLMs shift toward autonomous agents, Deep Research has emerged as a pivotal metric. However, existing academic benchmarks like BrowseComp often fail to meet real-world demands for open-ended research, which requires robust skills in intent recognition, long-horizon decision-making, and cross-source verification. To address this, we introduce Step-DeepResearch, a cost-effective, end-to-end agent. We propose a Data Synthesis Strategy Based on Atomic Capabilities to reinforce planning and report writing, combined with a progressive training path from agentic mid-training to SFT and RL. Enhanced by a Checklist-style Judger, this approach significantly improves robustness. Furthermore, to bridge the evaluation gap in the Chinese domain, we establish ADR-Bench for realistic deep research scenarios. Experimental results show that Step-DeepResearch (32B) scores 61.4% on Scale AI Research Rubrics. On ADR-Bench, it significantly outperforms comparable models and rivals SOTA closed-source models like OpenAI and Gemini DeepResearch. These findings prove that refined training enables medium-sized models to achieve expert-level capabilities at industry-leading cost-efficiency.",
+      "upvotes": 1,
+      "discussionId": "694b5132746a34b55dd53c91",
+      "ai_summary": "Step-DeepResearch, an end-to-end agent enhanced with a data synthesis strategy and progressive training, achieves expert-level capabilities in deep research scenarios, outperforming established models.",
+      "ai_keywords": [
+        "Deep Research",
+        "BrowseComp",
+        "Step-DeepResearch",
+        "Data Synthesis Strategy",
+        "Atomic Capabilities",
+        "agentic mid-training",
+        "SFT",
+        "RL",
+        "Checklist-style Judger",
+        "ADR-Bench",
+        "Scale AI Research Rubrics",
+        "OpenAI",
+        "Gemini DeepResearch"
+      ],
+      "organization": {
+        "_id": "66e43eae9d477f566f937935",
+        "name": "stepfun-ai",
+        "fullname": "StepFun",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66935cee39002fc0569c2943/Qv8QPbkgoKE3wR4jTzHiy.png"
+      }
+    },
+    "publishedAt": "2025-12-23T11:32:27.000Z",
+    "title": "Step-DeepResearch Technical Report",
+    "summary": "As LLMs shift toward autonomous agents, Deep Research has emerged as a pivotal metric. However, existing academic benchmarks like BrowseComp often fail to meet real-world demands for open-ended research, which requires robust skills in intent recognition, long-horizon decision-making, and cross-source verification. To address this, we introduce Step-DeepResearch, a cost-effective, end-to-end agent. We propose a Data Synthesis Strategy Based on Atomic Capabilities to reinforce planning and report writing, combined with a progressive training path from agentic mid-training to SFT and RL. Enhanced by a Checklist-style Judger, this approach significantly improves robustness. Furthermore, to bridge the evaluation gap in the Chinese domain, we establish ADR-Bench for realistic deep research scenarios. Experimental results show that Step-DeepResearch (32B) scores 61.4% on Scale AI Research Rubrics. On ADR-Bench, it significantly outperforms comparable models and rivals SOTA closed-source models like OpenAI and Gemini DeepResearch. These findings prove that refined training enables medium-sized models to achieve expert-level capabilities at industry-leading cost-efficiency.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.20491.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 189
+    },
+    "organization": {
+      "_id": "66e43eae9d477f566f937935",
+      "name": "stepfun-ai",
+      "fullname": "StepFun",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66935cee39002fc0569c2943/Qv8QPbkgoKE3wR4jTzHiy.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
