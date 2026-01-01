@@ -1,0 +1,820 @@
+[
+  {
+    "paper": {
+      "id": "2512.24618",
+      "authors": [
+        {
+          "_id": "6955d543832867f25352555d",
+          "name": "Junru Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352555e",
+          "name": "Jiarui Qin",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352555f",
+          "name": "Lingfeng Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525560",
+          "name": "Yinghui Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525561",
+          "name": "Xinyi Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525562",
+          "name": "Bo Ke",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525563",
+          "name": "Jianfeng He",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525564",
+          "name": "Ruizhi Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525565",
+          "name": "Di Yin",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525566",
+          "name": "Xing Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525567",
+          "name": "Yunsheng Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525568",
+          "name": "Yinsong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525569",
+          "name": "Shuangyin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352556a",
+          "name": "Mingkong Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352556b",
+          "name": "Haodong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352556c",
+          "name": "Jiayi Kuang",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352556d",
+          "name": "Fanxu Meng",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352556e",
+          "name": "Xiaojuan Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352556f",
+          "name": "Yunjia Xi",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525570",
+          "name": "Junjie Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525571",
+          "name": "Haotong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525572",
+          "name": "Zhenyi Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525573",
+          "name": "Yangning Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525574",
+          "name": "Qianwen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525575",
+          "name": "Yifei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525576",
+          "name": "Siyu An",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525577",
+          "name": "Junnan Dong",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525578",
+          "name": "Qiufeng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525579",
+          "name": "Jie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352557a",
+          "name": "Keyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352557b",
+          "name": "Wei Wen",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352557c",
+          "name": "Taian Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352557d",
+          "name": "Zhifeng Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352557e",
+          "name": "Daohai Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f25352557f",
+          "name": "Jiahao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525580",
+          "name": "Ke Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525581",
+          "name": "Zongyi Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955d543832867f253525582",
+          "name": "Xiaoyu Tan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-31T04:25:11.000Z",
+      "submittedOnDailyAt": "2026-01-01T00:33:09.720Z",
+      "title": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce Youtu-LLM, a lightweight yet powerful language model that harmonizes high computational efficiency with native agentic intelligence. Unlike typical small models that rely on distillation, Youtu-LLM (1.96B) is pre-trained from scratch to systematically cultivate reasoning and planning capabilities. The key technical advancements are as follows: (1) Compact Architecture with Long-Context Support: Built on a dense Multi-Latent Attention (MLA) architecture with a novel STEM-oriented vocabulary, Youtu-LLM supports a 128k context window. This design enables robust long-context reasoning and state tracking within a minimal memory footprint, making it ideal for long-horizon agent and reasoning tasks. (2) Principled \"Commonsense-STEM-Agent\" Curriculum: We curated a massive corpus of approximately 11T tokens and implemented a multi-stage training strategy. By progressively shifting the pre-training data distribution from general commonsense to complex STEM and agentic tasks, we ensure the model acquires deep cognitive abilities rather than superficial alignment. (3) Scalable Agentic Mid-training: Specifically for the agentic mid-training, we employ diverse data construction schemes to synthesize rich and varied trajectories across math, coding, and tool-use domains. This high-quality data enables the model to internalize planning and reflection behaviors effectively. Extensive evaluations show that Youtu-LLM sets a new state-of-the-art for sub-2B LLMs. On general benchmarks, it achieves competitive performance against larger models, while on agent-specific tasks, it significantly surpasses existing SOTA baselines, demonstrating that lightweight models can possess strong intrinsic agentic capabilities.",
+      "upvotes": 1,
+      "discussionId": "6955d543832867f253525583",
+      "ai_summary": "Youtu-LLM is a lightweight language model optimized for computational efficiency and agentic intelligence through a compact architecture, STEM-focused training curriculum, and scalable mid-training strategies for planning and reasoning tasks.",
+      "ai_keywords": [
+        "Multi-Latent Attention (MLA) architecture",
+        "STEM-oriented vocabulary",
+        "128k context window",
+        "Commonsense-STEM-Agent Curriculum",
+        "multi-stage training strategy",
+        "agentic mid-training",
+        "data construction schemes",
+        "planning and reflection behaviors",
+        "long-context reasoning",
+        "state tracking",
+        "agentic capabilities"
+      ]
+    },
+    "publishedAt": "2025-12-30T23:25:11.000Z",
+    "title": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+    "summary": "We introduce Youtu-LLM, a lightweight yet powerful language model that harmonizes high computational efficiency with native agentic intelligence. Unlike typical small models that rely on distillation, Youtu-LLM (1.96B) is pre-trained from scratch to systematically cultivate reasoning and planning capabilities. The key technical advancements are as follows: (1) Compact Architecture with Long-Context Support: Built on a dense Multi-Latent Attention (MLA) architecture with a novel STEM-oriented vocabulary, Youtu-LLM supports a 128k context window. This design enables robust long-context reasoning and state tracking within a minimal memory footprint, making it ideal for long-horizon agent and reasoning tasks. (2) Principled \"Commonsense-STEM-Agent\" Curriculum: We curated a massive corpus of approximately 11T tokens and implemented a multi-stage training strategy. By progressively shifting the pre-training data distribution from general commonsense to complex STEM and agentic tasks, we ensure the model acquires deep cognitive abilities rather than superficial alignment. (3) Scalable Agentic Mid-training: Specifically for the agentic mid-training, we employ diverse data construction schemes to synthesize rich and varied trajectories across math, coding, and tool-use domains. This high-quality data enables the model to internalize planning and reflection behaviors effectively. Extensive evaluations show that Youtu-LLM sets a new state-of-the-art for sub-2B LLMs. On general benchmarks, it achieves competitive performance against larger models, while on agent-specific tasks, it significantly surpasses existing SOTA baselines, demonstrating that lightweight models can possess strong intrinsic agentic capabilities.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.24618.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 197
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.24873",
+      "authors": [
+        {
+          "_id": "6955e3f8832867f2535255cd",
+          "name": "Weixun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255ce",
+          "name": "XiaoXiao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255cf",
+          "name": "Wanhe An",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d0",
+          "name": "Fangwen Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d1",
+          "name": "Wei Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d2",
+          "name": "Yancheng He",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d3",
+          "name": "Ju Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d4",
+          "name": "Qiang Ji",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d5",
+          "name": "Hanqi Jin",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d6",
+          "name": "Xiaoyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d7",
+          "name": "Yang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d8",
+          "name": "Zhongwen Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255d9",
+          "name": "Shirong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255da",
+          "name": "Jiashun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255db",
+          "name": "Zenan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255dc",
+          "name": "Tao Luo",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255dd",
+          "name": "Dilxat Muhtar",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255de",
+          "name": "Yuanbin Qu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255df",
+          "name": "Jiaqiang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e0",
+          "name": "Qinghui Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e1",
+          "name": "Yingshui Tan",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e2",
+          "name": "Hao Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e3",
+          "name": "Runze Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e4",
+          "name": "Yi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e5",
+          "name": "Zhaoguo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e6",
+          "name": "Yanan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e7",
+          "name": "Shaopan Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e8",
+          "name": "Binchen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255e9",
+          "name": "Xander Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255ea",
+          "name": "Yuchi Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255eb",
+          "name": "Qipeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255ec",
+          "name": "Xixia Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255ed",
+          "name": "Haizhou Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255ee",
+          "name": "Jie Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255ef",
+          "name": "Shuaibing Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f0",
+          "name": "Baihui Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f1",
+          "name": "Jianhui Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f2",
+          "name": "Suhang Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f3",
+          "name": "Yanni Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f4",
+          "name": "Mengze Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f5",
+          "name": "Kerui Cao",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f6",
+          "name": "Xitong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f7",
+          "name": "Yue Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f8",
+          "name": "Lifan Du",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255f9",
+          "name": "Tao Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255fa",
+          "name": "Tao He",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255fb",
+          "name": "Jin Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255fc",
+          "name": "Yijie Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255fd",
+          "name": "Ziyu Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255fe",
+          "name": "Cheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f2535255ff",
+          "name": "Xiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525600",
+          "name": "Jing Liang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525601",
+          "name": "Chonghuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525602",
+          "name": "ZhenDong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525603",
+          "name": "Haodong Mi",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525604",
+          "name": "Yanhu Mo",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525605",
+          "name": "Junjia Ni",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525606",
+          "name": "Shixin Pei",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525607",
+          "name": "Jingyu Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525608",
+          "name": "XiaoShuai Song",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525609",
+          "name": "Cecilia Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352560a",
+          "name": "Chaofan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352560b",
+          "name": "Kangyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352560c",
+          "name": "Pei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352560d",
+          "name": "Tao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352560e",
+          "name": "Wei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352560f",
+          "name": "Ke Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525610",
+          "name": "Mingyu Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525611",
+          "name": "Tiange Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525612",
+          "name": "Nan Ya",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525613",
+          "name": "Siran Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525614",
+          "name": "Jianan Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525615",
+          "name": "Yaxing Zang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525616",
+          "name": "Duo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525617",
+          "name": "Junbo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525618",
+          "name": "Boren Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525619",
+          "name": "Wanxi Deng",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352561a",
+          "name": "Ling Pan",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352561b",
+          "name": "Lin Qu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352561c",
+          "name": "Wenbo Su",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352561d",
+          "name": "Jiamang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352561e",
+          "name": "Wei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f25352561f",
+          "name": "Hu Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525620",
+          "name": "Minggang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525621",
+          "name": "Cheng Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525622",
+          "name": "Bing Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525623",
+          "name": "Zhicheng Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6955e3f8832867f253525624",
+          "name": "Bo Zheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-31T14:03:39.000Z",
+      "submittedOnDailyAt": "2026-01-01T00:33:23.374Z",
+      "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Agentic crafting requires LLMs to operate in real-world environments over multiple turns by taking actions, observing outcomes, and iteratively refining artifacts. Despite its importance, the open-source community lacks a principled, end-to-end ecosystem to streamline agent development. We introduce the Agentic Learning Ecosystem (ALE), a foundational infrastructure that optimizes the production pipeline for agent LLMs. ALE consists of three components: ROLL, a post-training framework for weight optimization; ROCK, a sandbox environment manager for trajectory generation; and iFlow CLI, an agent framework for efficient context engineering. We release ROME (ROME is Obviously an Agentic Model), an open-source agent grounded by ALE and trained on over one million trajectories. Our approach includes data composition protocols for synthesizing complex behaviors and a novel policy optimization algorithm, Interaction-based Policy Alignment (IPA), which assigns credit over semantic interaction chunks rather than individual tokens to improve long-horizon training stability. Empirically, we evaluate ROME within a structured setting and introduce Terminal Bench Pro, a benchmark with improved scale and contamination control. ROME demonstrates strong performance across benchmarks like SWE-bench Verified and Terminal Bench, proving the effectiveness of the ALE infrastructure.",
+      "upvotes": 0,
+      "discussionId": "6955e3f8832867f253525625",
+      "ai_summary": "The Agentic Learning Ecosystem (ALE) introduces a principled infrastructure for agent development, combining post-training optimization, sandbox environments, and policy alignment to enhance long-horizon training stability and performance in real-world tasks.",
+      "ai_keywords": [
+        "ROLL (post-training framework)",
+        "ROCK (sandbox environment manager)",
+        "iFlow CLI (agent framework)",
+        "ROME (agentic model)",
+        "data composition protocols",
+        "Interaction-based Policy Alignment (IPA)",
+        "semantic interaction chunks",
+        "Terminal Bench Pro",
+        "SWE-bench Verified"
+      ]
+    },
+    "publishedAt": "2025-12-31T09:03:39.000Z",
+    "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+    "summary": "Agentic crafting requires LLMs to operate in real-world environments over multiple turns by taking actions, observing outcomes, and iteratively refining artifacts. Despite its importance, the open-source community lacks a principled, end-to-end ecosystem to streamline agent development. We introduce the Agentic Learning Ecosystem (ALE), a foundational infrastructure that optimizes the production pipeline for agent LLMs. ALE consists of three components: ROLL, a post-training framework for weight optimization; ROCK, a sandbox environment manager for trajectory generation; and iFlow CLI, an agent framework for efficient context engineering. We release ROME (ROME is Obviously an Agentic Model), an open-source agent grounded by ALE and trained on over one million trajectories. Our approach includes data composition protocols for synthesizing complex behaviors and a novel policy optimization algorithm, Interaction-based Policy Alignment (IPA), which assigns credit over semantic interaction chunks rather than individual tokens to improve long-horizon training stability. Empirically, we evaluate ROME within a structured setting and introduce Terminal Bench Pro, a benchmark with improved scale and contamination control. ROME demonstrates strong performance across benchmarks like SWE-bench Verified and Terminal Bench, proving the effectiveness of the ALE infrastructure.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.24873.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 197
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2512.23851",
+      "authors": [
+        {
+          "_id": "6955e31a832867f2535255ba",
+          "name": "Lvmin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6955e31a832867f2535255bb",
+          "name": "Shengqu Cai",
+          "hidden": false
+        },
+        {
+          "_id": "6955e31a832867f2535255bc",
+          "name": "Muyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6955e31a832867f2535255bd",
+          "name": "Chong Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6955e31a832867f2535255be",
+          "name": "Beijia Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6955e31a832867f2535255bf",
+          "name": "Anyi Rao",
+          "hidden": false
+        },
+        {
+          "_id": "6955e31a832867f2535255c0",
+          "name": "Song Han",
+          "hidden": false
+        },
+        {
+          "_id": "6955e31a832867f2535255c1",
+          "name": "Gordon Wetzstein",
+          "hidden": false
+        },
+        {
+          "_id": "6955e31a832867f2535255c2",
+          "name": "Maneesh Agrawala",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2025-12-29T20:29:21.000Z",
+      "submittedOnDailyAt": "2026-01-01T00:31:38.328Z",
+      "title": "Pretraining Frame Preservation in Autoregressive Video Memory Compression",
+      "submittedOnDailyBy": {
+        "_id": "639c1572445b133a4e9b3a3f",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1671173450971-noauth.jpeg",
+        "isPro": true,
+        "fullname": "Lvmin Zhang",
+        "user": "lllyasviel",
+        "type": "user"
+      },
+      "summary": "We present PFP, a neural network structure to compress long videos into short contexts, with an explicit pretraining objective to preserve the high-frequency details of single frames at arbitrary temporal positions. The baseline model can compress a 20-second video into a context at about 5k length, where random frames can be retrieved with perceptually preserved appearances. Such pretrained models can be directly fine-tuned as memory encoders for autoregressive video models, enabling long history memory with low context cost and relatively low fidelity loss. We evaluate the framework with ablative settings and discuss the trade-offs of possible neural architecture designs.",
+      "upvotes": 0,
+      "discussionId": "6955e31a832867f2535255c3"
+    },
+    "publishedAt": "2025-12-29T15:29:21.000Z",
+    "title": "Pretraining Frame Preservation in Autoregressive Video Memory Compression",
+    "summary": "We present PFP, a neural network structure to compress long videos into short contexts, with an explicit pretraining objective to preserve the high-frequency details of single frames at arbitrary temporal positions. The baseline model can compress a 20-second video into a context at about 5k length, where random frames can be retrieved with perceptually preserved appearances. Such pretrained models can be directly fine-tuned as memory encoders for autoregressive video models, enabling long history memory with low context cost and relatively low fidelity loss. We evaluate the framework with ablative settings and discuss the trade-offs of possible neural architecture designs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.23851.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "639c1572445b133a4e9b3a3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1671173450971-noauth.jpeg",
+      "fullname": "Lvmin Zhang",
+      "name": "lllyasviel",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9807
+    },
+    "isAuthorParticipating": false
+  }
+]
