@@ -1,0 +1,307 @@
+[
+  {
+    "paper": {
+      "id": "2601.03233",
+      "authors": [
+        {
+          "_id": "695dc6d9c03d6d81e4399e85",
+          "name": "Yoav HaCohen",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e86",
+          "name": "Benny Brazowski",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e87",
+          "name": "Nisan Chiprut",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e88",
+          "name": "Yaki Bitterman",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e89",
+          "name": "Andrew Kvochko",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e8a",
+          "name": "Avishai Berkowitz",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e8b",
+          "name": "Daniel Shalem",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e8c",
+          "name": "Daphna Lifschitz",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e8d",
+          "name": "Dudu Moshe",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e8e",
+          "name": "Eitan Porat",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e8f",
+          "name": "Eitan Richardson",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e90",
+          "name": "Guy Shiran",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e91",
+          "name": "Itay Chachy",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e92",
+          "name": "Jonathan Chetboun",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e93",
+          "name": "Michael Finkelson",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e94",
+          "name": "Michael Kupchick",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e95",
+          "name": "Nir Zabari",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e96",
+          "name": "Nitzan Guetta",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e97",
+          "name": "Noa Kotler",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e98",
+          "name": "Ofir Bibi",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e99",
+          "name": "Ori Gordon",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e9a",
+          "name": "Poriya Panet",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e9b",
+          "name": "Roi Benita",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e9c",
+          "name": "Shahar Armon",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e9d",
+          "name": "Victor Kulikov",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e9e",
+          "name": "Yaron Inger",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399e9f",
+          "name": "Yonatan Shiftan",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399ea0",
+          "name": "Zeev Melumian",
+          "hidden": false
+        },
+        {
+          "_id": "695dc6d9c03d6d81e4399ea1",
+          "name": "Zeev Farbman",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/cYoXYuK3pjt85pl5-fvUv.mp4"
+      ],
+      "publishedAt": "2026-01-06T18:24:41.000Z",
+      "submittedOnDailyAt": "2026-01-07T00:07:29.528Z",
+      "title": "LTX-2: Efficient Joint Audio-Visual Foundation Model",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent text-to-video diffusion models can generate compelling video sequences, yet they remain silent -- missing the semantic, emotional, and atmospheric cues that audio provides. We introduce LTX-2, an open-source foundational model capable of generating high-quality, temporally synchronized audiovisual content in a unified manner. LTX-2 consists of an asymmetric dual-stream transformer with a 14B-parameter video stream and a 5B-parameter audio stream, coupled through bidirectional audio-video cross-attention layers with temporal positional embeddings and cross-modality AdaLN for shared timestep conditioning. This architecture enables efficient training and inference of a unified audiovisual model while allocating more capacity for video generation than audio generation. We employ a multilingual text encoder for broader prompt understanding and introduce a modality-aware classifier-free guidance (modality-CFG) mechanism for improved audiovisual alignment and controllability. Beyond generating speech, LTX-2 produces rich, coherent audio tracks that follow the characters, environment, style, and emotion of each scene -- complete with natural background and foley elements. In our evaluations, the model achieves state-of-the-art audiovisual quality and prompt adherence among open-source systems, while delivering results comparable to proprietary models at a fraction of their computational cost and inference time. All model weights and code are publicly released.",
+      "upvotes": 2,
+      "discussionId": "695dc6d9c03d6d81e4399ea2",
+      "ai_summary": "LTX-2 is an open-source audiovisual diffusion model that generates synchronized video and audio content using a dual-stream transformer architecture with cross-modal attention and classifier-free guidance.",
+      "ai_keywords": [
+        "text-to-video diffusion models",
+        "audiovisual content",
+        "dual-stream transformer",
+        "cross-attention layers",
+        "temporal positional embeddings",
+        "AdaLN",
+        "classifier-free guidance",
+        "modality-aware classifier-free guidance",
+        "multilingual text encoder",
+        "diffusion models"
+      ]
+    },
+    "publishedAt": "2026-01-06T13:24:41.000Z",
+    "title": "LTX-2: Efficient Joint Audio-Visual Foundation Model",
+    "summary": "Recent text-to-video diffusion models can generate compelling video sequences, yet they remain silent -- missing the semantic, emotional, and atmospheric cues that audio provides. We introduce LTX-2, an open-source foundational model capable of generating high-quality, temporally synchronized audiovisual content in a unified manner. LTX-2 consists of an asymmetric dual-stream transformer with a 14B-parameter video stream and a 5B-parameter audio stream, coupled through bidirectional audio-video cross-attention layers with temporal positional embeddings and cross-modality AdaLN for shared timestep conditioning. This architecture enables efficient training and inference of a unified audiovisual model while allocating more capacity for video generation than audio generation. We employ a multilingual text encoder for broader prompt understanding and introduce a modality-aware classifier-free guidance (modality-CFG) mechanism for improved audiovisual alignment and controllability. Beyond generating speech, LTX-2 produces rich, coherent audio tracks that follow the characters, environment, style, and emotion of each scene -- complete with natural background and foley elements. In our evaluations, the model achieves state-of-the-art audiovisual quality and prompt adherence among open-source systems, while delivering results comparable to proprietary models at a fraction of their computational cost and inference time. All model weights and code are publicly released.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/cYoXYuK3pjt85pl5-fvUv.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.03233.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 200,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.01720",
+      "authors": [
+        {
+          "_id": "695c971f6aa73bc11f0914ea",
+          "name": "Xijie Huang",
+          "hidden": false
+        },
+        {
+          "_id": "695c971f6aa73bc11f0914eb",
+          "name": "Chengming Xu",
+          "hidden": false
+        },
+        {
+          "_id": "695c971f6aa73bc11f0914ec",
+          "name": "Donghao Luo",
+          "hidden": false
+        },
+        {
+          "_id": "695c971f6aa73bc11f0914ed",
+          "name": "Xiaobin Hu",
+          "hidden": false
+        },
+        {
+          "_id": "695c971f6aa73bc11f0914ee",
+          "name": "Peng Tang",
+          "hidden": false
+        },
+        {
+          "_id": "695c971f6aa73bc11f0914ef",
+          "name": "Xu Peng",
+          "hidden": false
+        },
+        {
+          "_id": "695c971f6aa73bc11f0914f0",
+          "name": "Jiangning Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "695c971f6aa73bc11f0914f1",
+          "name": "Chengjie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "695c971f6aa73bc11f0914f2",
+          "name": "Yanwei Fu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-05T01:46:22.000Z",
+      "submittedOnDailyAt": "2026-01-07T00:13:13.236Z",
+      "title": "FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing",
+      "submittedOnDailyBy": {
+        "_id": "652fab9d04a34a9282bf29d6",
+        "avatarUrl": "/avatars/cd5967b37ebb1225e9ae1d46f196e2e2.svg",
+        "isPro": false,
+        "fullname": "Chengming Xu",
+        "user": "ChengmingX",
+        "type": "user"
+      },
+      "summary": "First-Frame Propagation (FFP) offers a promising paradigm for controllable video editing, but existing methods are hampered by a reliance on cumbersome run-time guidance. We identify the root cause of this limitation as the inadequacy of current training datasets, which are often too short, low-resolution, and lack the task diversity required to teach robust temporal priors. To address this foundational data gap, we first introduce FFP-300K, a new large-scale dataset comprising 300K high-fidelity video pairs at 720p resolution and 81 frames in length, constructed via a principled two-track pipeline for diverse local and global edits. Building on this dataset, we propose a novel framework designed for true guidance-free FFP that resolves the critical tension between maintaining first-frame appearance and preserving source video motion. Architecturally, we introduce Adaptive Spatio-Temporal RoPE (AST-RoPE), which dynamically remaps positional encodings to disentangle appearance and motion references. At the objective level, we employ a self-distillation strategy where an identity propagation task acts as a powerful regularizer, ensuring long-term temporal stability and preventing semantic drift. Comprehensive experiments on the EditVerseBench benchmark demonstrate that our method significantly outperforming existing academic and commercial models by receiving about 0.2 PickScore and 0.3 VLM score improvement against these competitors.",
+      "upvotes": 0,
+      "discussionId": "695c971f6aa73bc11f0914f3",
+      "projectPage": "https://ffp-300k.github.io/",
+      "ai_summary": "A new large-scale video dataset and framework are presented that enable effective first-frame propagation without runtime guidance through adaptive spatio-temporal positional encoding and self-distillation techniques.",
+      "ai_keywords": [
+        "First-Frame Propagation",
+        "video editing",
+        "training datasets",
+        "temporal priors",
+        "FFP-300K",
+        "Adaptive Spatio-Temporal RoPE",
+        "AST-RoPE",
+        "self-distillation",
+        "identity propagation task",
+        "PickScore",
+        "VLM score",
+        "EditVerseBench"
+      ]
+    },
+    "publishedAt": "2026-01-04T20:46:22.000Z",
+    "title": "FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing",
+    "summary": "First-Frame Propagation (FFP) offers a promising paradigm for controllable video editing, but existing methods are hampered by a reliance on cumbersome run-time guidance. We identify the root cause of this limitation as the inadequacy of current training datasets, which are often too short, low-resolution, and lack the task diversity required to teach robust temporal priors. To address this foundational data gap, we first introduce FFP-300K, a new large-scale dataset comprising 300K high-fidelity video pairs at 720p resolution and 81 frames in length, constructed via a principled two-track pipeline for diverse local and global edits. Building on this dataset, we propose a novel framework designed for true guidance-free FFP that resolves the critical tension between maintaining first-frame appearance and preserving source video motion. Architecturally, we introduce Adaptive Spatio-Temporal RoPE (AST-RoPE), which dynamically remaps positional encodings to disentangle appearance and motion references. At the objective level, we employ a self-distillation strategy where an identity propagation task acts as a powerful regularizer, ensuring long-term temporal stability and preventing semantic drift. Comprehensive experiments on the EditVerseBench benchmark demonstrate that our method significantly outperforming existing academic and commercial models by receiving about 0.2 PickScore and 0.3 VLM score improvement against these competitors.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.01720.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "652fab9d04a34a9282bf29d6",
+      "avatarUrl": "/avatars/cd5967b37ebb1225e9ae1d46f196e2e2.svg",
+      "fullname": "Chengming Xu",
+      "name": "ChengmingX",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
