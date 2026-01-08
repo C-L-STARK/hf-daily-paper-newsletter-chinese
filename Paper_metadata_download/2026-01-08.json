@@ -1,0 +1,241 @@
+[
+  {
+    "paper": {
+      "id": "2601.02075",
+      "authors": [
+        {
+          "_id": "695d04eac03d6d81e4399cd9",
+          "user": {
+            "_id": "65d7018c90f11951bcfdf2f5",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d7018c90f11951bcfdf2f5/RU0-n9k3RIdtv8xvg9Upe.jpeg",
+            "isPro": false,
+            "fullname": "Zhuofan Shi",
+            "user": "FredericFan",
+            "type": "user"
+          },
+          "name": "Zhuofan Shi",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-01-07T09:26:56.695Z",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399cda",
+          "name": "Hubao A",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399cdb",
+          "name": "Yufei Shao",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399cdc",
+          "name": "Mengyan Dai",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399cdd",
+          "name": "Yadong Yu",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399cde",
+          "name": "Pan Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399cdf",
+          "name": "Dongliang Huang",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399ce0",
+          "name": "Hongxu An",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399ce1",
+          "name": "Chunxiao Xin",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399ce2",
+          "name": "Haiyang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399ce3",
+          "name": "Zhenyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399ce4",
+          "name": "Yunshan Na",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399ce5",
+          "name": "Gang Huang",
+          "hidden": false
+        },
+        {
+          "_id": "695d04eac03d6d81e4399ce6",
+          "name": "Xiang Jing",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-05T12:56:51.000Z",
+      "submittedOnDailyAt": "2026-01-08T00:16:06.121Z",
+      "title": "MDAgent2: Large Language Model for Code Generation and Knowledge Q&A in Molecular Dynamics",
+      "submittedOnDailyBy": {
+        "_id": "65d7018c90f11951bcfdf2f5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d7018c90f11951bcfdf2f5/RU0-n9k3RIdtv8xvg9Upe.jpeg",
+        "isPro": false,
+        "fullname": "Zhuofan Shi",
+        "user": "FredericFan",
+        "type": "user"
+      },
+      "summary": "Molecular dynamics (MD) simulations are essential for understanding atomic-scale behaviors in materials science, yet writing LAMMPS scripts remains highly specialized and time-consuming tasks. Although LLMs show promise in code generation and domain-specific question answering, their performance in MD scenarios is limited by scarce domain data, the high deployment cost of state-of-the-art LLMs, and low code executability. Building upon our prior MDAgent, we present MDAgent2, the first end-to-end framework capable of performing both knowledge Q&A and code generation within the MD domain. We construct a domain-specific data-construction pipeline that yields three high-quality datasets spanning MD knowledge, question answering, and code generation. Based on these datasets, we adopt a three stage post-training strategy--continued pre-training (CPT), supervised fine-tuning (SFT), and reinforcement learning (RL)--to train two domain-adapted models, MD-Instruct and MD-Code. Furthermore, we introduce MD-GRPO, a closed-loop RL method that leverages simulation outcomes as reward signals and recycles low-reward trajectories for continual refinement. We further build MDAgent2-RUNTIME, a deployable multi-agent system that integrates code generation, execution, evaluation, and self-correction. Together with MD-EvalBench proposed in this work, the first benchmark for LAMMPS code generation and question answering, our models and system achieve performance surpassing several strong baselines.This work systematically demonstrates the adaptability and generalization capability of large language models in industrial simulation tasks, laying a methodological foundation for automatic code generation in AI for Science and industrial-scale simulations. URL: https://github.com/FredericVAN/PKU_MDAgent2",
+      "upvotes": 1,
+      "discussionId": "695d04ebc03d6d81e4399ce7",
+      "ai_summary": "MDAgent2 enables automated molecular dynamics code generation and question answering through domain-adapted language models and a multi-agent runtime system.",
+      "ai_keywords": [
+        "LAMMPS",
+        "molecular dynamics",
+        "code generation",
+        "question answering",
+        "continued pre-training",
+        "supervised fine-tuning",
+        "reinforcement learning",
+        "MD-Instruct",
+        "MD-Code",
+        "MD-GRPO",
+        "MDAgent2",
+        "MD-EvalBench"
+      ],
+      "organization": {
+        "_id": "61dcd8e344f59573371b5cb6",
+        "name": "PekingUniversity",
+        "fullname": "Peking University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/vavgrBsnkSejriUF4lXDE.png"
+      }
+    },
+    "publishedAt": "2026-01-05T07:56:51.000Z",
+    "title": "MDAgent2: Large Language Model for Code Generation and Knowledge Q&A in Molecular Dynamics",
+    "summary": "Molecular dynamics (MD) simulations are essential for understanding atomic-scale behaviors in materials science, yet writing LAMMPS scripts remains highly specialized and time-consuming tasks. Although LLMs show promise in code generation and domain-specific question answering, their performance in MD scenarios is limited by scarce domain data, the high deployment cost of state-of-the-art LLMs, and low code executability. Building upon our prior MDAgent, we present MDAgent2, the first end-to-end framework capable of performing both knowledge Q&A and code generation within the MD domain. We construct a domain-specific data-construction pipeline that yields three high-quality datasets spanning MD knowledge, question answering, and code generation. Based on these datasets, we adopt a three stage post-training strategy--continued pre-training (CPT), supervised fine-tuning (SFT), and reinforcement learning (RL)--to train two domain-adapted models, MD-Instruct and MD-Code. Furthermore, we introduce MD-GRPO, a closed-loop RL method that leverages simulation outcomes as reward signals and recycles low-reward trajectories for continual refinement. We further build MDAgent2-RUNTIME, a deployable multi-agent system that integrates code generation, execution, evaluation, and self-correction. Together with MD-EvalBench proposed in this work, the first benchmark for LAMMPS code generation and question answering, our models and system achieve performance surpassing several strong baselines.This work systematically demonstrates the adaptability and generalization capability of large language models in industrial simulation tasks, laying a methodological foundation for automatic code generation in AI for Science and industrial-scale simulations. URL: https://github.com/FredericVAN/PKU_MDAgent2",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.02075.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65d7018c90f11951bcfdf2f5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d7018c90f11951bcfdf2f5/RU0-n9k3RIdtv8xvg9Upe.jpeg",
+      "fullname": "Zhuofan Shi",
+      "name": "FredericFan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "61dcd8e344f59573371b5cb6",
+      "name": "PekingUniversity",
+      "fullname": "Peking University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/vavgrBsnkSejriUF4lXDE.png"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2601.04194",
+      "authors": [
+        {
+          "_id": "695f1a2a5fa3847525c41cf3",
+          "name": "Yanzhe Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "695f1a2a5fa3847525c41cf4",
+          "name": "Chen Geng",
+          "hidden": false
+        },
+        {
+          "_id": "695f1a2a5fa3847525c41cf5",
+          "name": "Karthik Dharmarajan",
+          "hidden": false
+        },
+        {
+          "_id": "695f1a2a5fa3847525c41cf6",
+          "name": "Yunzhi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "695f1a2a5fa3847525c41cf7",
+          "name": "Hadi Alzayer",
+          "hidden": false
+        },
+        {
+          "_id": "695f1a2a5fa3847525c41cf8",
+          "name": "Shangzhe Wu",
+          "hidden": false
+        },
+        {
+          "_id": "695f1a2a5fa3847525c41cf9",
+          "name": "Jiajun Wu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/e4m-6HYTsPup5SkMsApV4.mp4"
+      ],
+      "publishedAt": "2026-01-07T18:59:40.000Z",
+      "submittedOnDailyAt": "2026-01-08T00:15:39.806Z",
+      "title": "Choreographing a World of Dynamic Objects",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Dynamic objects in our physical 4D (3D + time) world are constantly evolving, deforming, and interacting with other objects, leading to diverse 4D scene dynamics. In this paper, we present a universal generative pipeline, CHORD, for CHOReographing Dynamic objects and scenes and synthesizing this type of phenomena. Traditional rule-based graphics pipelines to create these dynamics are based on category-specific heuristics, yet are labor-intensive and not scalable. Recent learning-based methods typically demand large-scale datasets, which may not cover all object categories in interest. Our approach instead inherits the universality from the video generative models by proposing a distillation-based pipeline to extract the rich Lagrangian motion information hidden in the Eulerian representations of 2D videos. Our method is universal, versatile, and category-agnostic. We demonstrate its effectiveness by conducting experiments to generate a diverse range of multi-body 4D dynamics, show its advantage compared to existing methods, and demonstrate its applicability in generating robotics manipulation policies. Project page: https://yanzhelyu.github.io/chord",
+      "upvotes": 0,
+      "discussionId": "695f1a2a5fa3847525c41cfa",
+      "projectPage": "https://yanzhelyu.github.io/chord/",
+      "ai_summary": "CHORD is a universal generative framework that extracts Lagrangian motion information from Eulerian video representations to synthesize diverse 4D dynamic scenes without requiring category-specific rules or large datasets.",
+      "ai_keywords": [
+        "video generative models",
+        "Lagrangian motion",
+        "Eulerian representations",
+        "distillation-based pipeline",
+        "4D dynamic scenes",
+        "multi-body dynamics",
+        "robotics manipulation policies"
+      ]
+    },
+    "publishedAt": "2026-01-07T13:59:40.000Z",
+    "title": "Choreographing a World of Dynamic Objects",
+    "summary": "Dynamic objects in our physical 4D (3D + time) world are constantly evolving, deforming, and interacting with other objects, leading to diverse 4D scene dynamics. In this paper, we present a universal generative pipeline, CHORD, for CHOReographing Dynamic objects and scenes and synthesizing this type of phenomena. Traditional rule-based graphics pipelines to create these dynamics are based on category-specific heuristics, yet are labor-intensive and not scalable. Recent learning-based methods typically demand large-scale datasets, which may not cover all object categories in interest. Our approach instead inherits the universality from the video generative models by proposing a distillation-based pipeline to extract the rich Lagrangian motion information hidden in the Eulerian representations of 2D videos. Our method is universal, versatile, and category-agnostic. We demonstrate its effectiveness by conducting experiments to generate a diverse range of multi-body 4D dynamics, show its advantage compared to existing methods, and demonstrate its applicability in generating robotics manipulation policies. Project page: https://yanzhelyu.github.io/chord",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/e4m-6HYTsPup5SkMsApV4.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.04194.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 202,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
