@@ -1,0 +1,529 @@
+[
+  {
+    "paper": {
+      "id": "2601.05167",
+      "authors": [
+        {
+          "_id": "69606c325b7998385e639481",
+          "name": "Chengsong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69606c325b7998385e639482",
+          "name": "Tong Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69606c325b7998385e639483",
+          "name": "Langlin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69606c325b7998385e639484",
+          "name": "Jinyuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "69606c325b7998385e639485",
+          "name": "Haolin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c325b7998385e639486",
+          "name": "Jiaxin Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-08T17:56:16.000Z",
+      "submittedOnDailyAt": "2026-01-09T00:17:45.320Z",
+      "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+      "submittedOnDailyBy": {
+        "_id": "62ea79dd01ed9b0e8f61ccd3",
+        "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+        "isPro": false,
+        "fullname": "Chengsong Huang",
+        "user": "ChengsongHuang",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) for complex reasoning is often hindered by high computational costs and latency, while resource-efficient Small Language Models (SLMs) typically lack the necessary reasoning capacity. Existing collaborative approaches, such as cascading or routing, operate at a coarse granularity by offloading entire queries to LLMs, resulting in significant computational waste when the SLM is capable of handling the majority of reasoning steps. To address this, we propose RelayLLM, a novel framework for efficient reasoning via token-level collaborative decoding. Unlike routers, RelayLLM empowers the SLM to act as an active controller that dynamically invokes the LLM only for critical tokens via a special command, effectively \"relaying\" the generation process. We introduce a two-stage training framework, including warm-up and Group Relative Policy Optimization (GRPO) to teach the model to balance independence with strategic help-seeking. Empirical results across six benchmarks demonstrate that RelayLLM achieves an average accuracy of 49.52%, effectively bridging the performance gap between the two models. Notably, this is achieved by invoking the LLM for only 1.07% of the total generated tokens, offering a 98.2% cost reduction compared to performance-matched random routers.",
+      "upvotes": 5,
+      "discussionId": "69606c325b7998385e639487",
+      "ai_summary": "RelayLLM enables efficient collaborative reasoning between small and large language models through token-level dynamic invocation, achieving high accuracy with minimal computational overhead.",
+      "ai_keywords": [
+        "Large Language Models",
+        "Small Language Models",
+        "collaborative decoding",
+        "token-level collaboration",
+        "Group Relative Policy Optimization",
+        "policy optimization",
+        "dynamic invocation",
+        "computational efficiency",
+        "reasoning capacity"
+      ]
+    },
+    "publishedAt": "2026-01-08T12:56:16.000Z",
+    "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+    "summary": "Large Language Models (LLMs) for complex reasoning is often hindered by high computational costs and latency, while resource-efficient Small Language Models (SLMs) typically lack the necessary reasoning capacity. Existing collaborative approaches, such as cascading or routing, operate at a coarse granularity by offloading entire queries to LLMs, resulting in significant computational waste when the SLM is capable of handling the majority of reasoning steps. To address this, we propose RelayLLM, a novel framework for efficient reasoning via token-level collaborative decoding. Unlike routers, RelayLLM empowers the SLM to act as an active controller that dynamically invokes the LLM only for critical tokens via a special command, effectively \"relaying\" the generation process. We introduce a two-stage training framework, including warm-up and Group Relative Policy Optimization (GRPO) to teach the model to balance independence with strategic help-seeking. Empirical results across six benchmarks demonstrate that RelayLLM achieves an average accuracy of 49.52%, effectively bridging the performance gap between the two models. Notably, this is achieved by invoking the LLM for only 1.07% of the total generated tokens, offering a 98.2% cost reduction compared to performance-matched random routers.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05167.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62ea79dd01ed9b0e8f61ccd3",
+      "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+      "fullname": "Chengsong Huang",
+      "name": "ChengsongHuang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05175",
+      "authors": [
+        {
+          "_id": "69606c015b7998385e639468",
+          "name": "Shuming Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639469",
+          "name": "Mingchen Zhuge",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63946a",
+          "name": "Changsheng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63946b",
+          "name": "Jun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63946c",
+          "name": "Lemeng Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63946d",
+          "name": "Zechun Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63946e",
+          "name": "Chenchen Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63946f",
+          "name": "Zhipeng Cai",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639470",
+          "name": "Chong Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639471",
+          "name": "Haozhe Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639472",
+          "name": "Ernie Chang",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639473",
+          "name": "Saksham Suri",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639474",
+          "name": "Hongyu Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639475",
+          "name": "Qi Qian",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639476",
+          "name": "Wei Wen",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639477",
+          "name": "Balakrishnan Varadarajan",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639478",
+          "name": "Zhuang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e639479",
+          "name": "Hu Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63947a",
+          "name": "Florian Bordes",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63947b",
+          "name": "Raghuraman Krishnamoorthi",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63947c",
+          "name": "Bernard Ghanem",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63947d",
+          "name": "Vikas Chandra",
+          "hidden": false
+        },
+        {
+          "_id": "69606c015b7998385e63947e",
+          "name": "Yunyang Xiong",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/ukFTFnGpjfjCtH8xLwHyV.png"
+      ],
+      "publishedAt": "2026-01-08T18:00:59.000Z",
+      "submittedOnDailyAt": "2026-01-09T00:16:39.681Z",
+      "title": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Chain-of-thought (CoT) reasoning has emerged as a powerful tool for multimodal large language models on video understanding tasks. However, its necessity and advantages over direct answering remain underexplored. In this paper, we first demonstrate that for RL-trained video models, direct answering often matches or even surpasses CoT performance, despite CoT producing step-by-step analyses at a higher computational cost. Motivated by this, we propose VideoAuto-R1, a video understanding framework that adopts a reason-when-necessary strategy. During training, our approach follows a Thinking Once, Answering Twice paradigm: the model first generates an initial answer, then performs reasoning, and finally outputs a reviewed answer. Both answers are supervised via verifiable rewards. During inference, the model uses the confidence score of the initial answer to determine whether to proceed with reasoning. Across video QA and grounding benchmarks, VideoAuto-R1 achieves state-of-the-art accuracy with significantly improved efficiency, reducing the average response length by ~3.3x, e.g., from 149 to just 44 tokens. Moreover, we observe a low rate of thinking-mode activation on perception-oriented tasks, but a higher rate on reasoning-intensive tasks. This suggests that explicit language-based reasoning is generally beneficial but not always necessary.",
+      "upvotes": 0,
+      "discussionId": "69606c015b7998385e63947f",
+      "projectPage": "https://ivul-kaust.github.io/projects/videoauto-r1/",
+      "ai_summary": "VideoAuto-R1 framework employs a reason-when-necessary strategy for video understanding, using a Thinking Once, Answering Twice training paradigm with verifiable rewards and confidence-based reasoning activation during inference.",
+      "ai_keywords": [
+        "Chain-of-thought reasoning",
+        "multimodal large language models",
+        "video understanding",
+        "RL-trained video models",
+        "VideoAuto-R1",
+        "Thinking Once Answering Twice",
+        "verifiable rewards",
+        "confidence score",
+        "perception-oriented tasks",
+        "reasoning-intensive tasks"
+      ],
+      "organization": {
+        "_id": "5e63d8713071d5be688861b8",
+        "name": "facebook",
+        "fullname": "AI at Meta",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1592839207516-noauth.png"
+      }
+    },
+    "publishedAt": "2026-01-08T13:00:59.000Z",
+    "title": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+    "summary": "Chain-of-thought (CoT) reasoning has emerged as a powerful tool for multimodal large language models on video understanding tasks. However, its necessity and advantages over direct answering remain underexplored. In this paper, we first demonstrate that for RL-trained video models, direct answering often matches or even surpasses CoT performance, despite CoT producing step-by-step analyses at a higher computational cost. Motivated by this, we propose VideoAuto-R1, a video understanding framework that adopts a reason-when-necessary strategy. During training, our approach follows a Thinking Once, Answering Twice paradigm: the model first generates an initial answer, then performs reasoning, and finally outputs a reviewed answer. Both answers are supervised via verifiable rewards. During inference, the model uses the confidence score of the initial answer to determine whether to proceed with reasoning. Across video QA and grounding benchmarks, VideoAuto-R1 achieves state-of-the-art accuracy with significantly improved efficiency, reducing the average response length by ~3.3x, e.g., from 149 to just 44 tokens. Moreover, we observe a low rate of thinking-mode activation on perception-oriented tasks, but a higher rate on reasoning-intensive tasks. This suggests that explicit language-based reasoning is generally beneficial but not always necessary.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/ukFTFnGpjfjCtH8xLwHyV.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05175.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 204,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "5e63d8713071d5be688861b8",
+      "name": "facebook",
+      "fullname": "AI at Meta",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1592839207516-noauth.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05138",
+      "authors": [
+        {
+          "_id": "69606cd45b7998385e639489",
+          "name": "Sixiao Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69606cd45b7998385e63948a",
+          "name": "Minghao Yin",
+          "hidden": false
+        },
+        {
+          "_id": "69606cd45b7998385e63948b",
+          "name": "Wenbo Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69606cd45b7998385e63948c",
+          "name": "Xiaoyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "69606cd45b7998385e63948d",
+          "name": "Ying Shan",
+          "hidden": false
+        },
+        {
+          "_id": "69606cd45b7998385e63948e",
+          "name": "Yanwei Fu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/vfMPtMKg_t5C1-6WqzYur.mp4"
+      ],
+      "publishedAt": "2026-01-08T17:28:52.000Z",
+      "submittedOnDailyAt": "2026-01-09T00:21:14.757Z",
+      "title": "VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Video world models aim to simulate dynamic, real-world environments, yet existing methods struggle to provide unified and precise control over camera and multi-object motion, as videos inherently operate dynamics in the projected 2D image plane. To bridge this gap, we introduce VerseCrafter, a 4D-aware video world model that enables explicit and coherent control over both camera and object dynamics within a unified 4D geometric world state. Our approach is centered on a novel 4D Geometric Control representation, which encodes the world state through a static background point cloud and per-object 3D Gaussian trajectories. This representation captures not only an object's path but also its probabilistic 3D occupancy over time, offering a flexible, category-agnostic alternative to rigid bounding boxes or parametric models. These 4D controls are rendered into conditioning signals for a pretrained video diffusion model, enabling the generation of high-fidelity, view-consistent videos that precisely adhere to the specified dynamics. Unfortunately, another major challenge lies in the scarcity of large-scale training data with explicit 4D annotations. We address this by developing an automatic data engine that extracts the required 4D controls from in-the-wild videos, allowing us to train our model on a massive and diverse dataset.",
+      "upvotes": 0,
+      "discussionId": "69606cd45b7998385e63948f",
+      "ai_summary": "VerseCrafter is a 4D-aware video world model that enables unified control over camera and object dynamics through 4D geometric control representation and video diffusion models.",
+      "ai_keywords": [
+        "video world models",
+        "4D geometric control",
+        "point cloud",
+        "3D Gaussian trajectories",
+        "video diffusion model",
+        "view-consistent videos",
+        "automatic data engine",
+        "in-the-wild videos"
+      ]
+    },
+    "publishedAt": "2026-01-08T12:28:52.000Z",
+    "title": "VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control",
+    "summary": "Video world models aim to simulate dynamic, real-world environments, yet existing methods struggle to provide unified and precise control over camera and multi-object motion, as videos inherently operate dynamics in the projected 2D image plane. To bridge this gap, we introduce VerseCrafter, a 4D-aware video world model that enables explicit and coherent control over both camera and object dynamics within a unified 4D geometric world state. Our approach is centered on a novel 4D Geometric Control representation, which encodes the world state through a static background point cloud and per-object 3D Gaussian trajectories. This representation captures not only an object's path but also its probabilistic 3D occupancy over time, offering a flexible, category-agnostic alternative to rigid bounding boxes or parametric models. These 4D controls are rendered into conditioning signals for a pretrained video diffusion model, enabling the generation of high-fidelity, view-consistent videos that precisely adhere to the specified dynamics. Unfortunately, another major challenge lies in the scarcity of large-scale training data with explicit 4D annotations. We address this by developing an automatic data engine that extracts the required 4D controls from in-the-wild videos, allowing us to train our model on a massive and diverse dataset.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/vfMPtMKg_t5C1-6WqzYur.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05138.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 204,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05111",
+      "authors": [
+        {
+          "_id": "69606e265b7998385e639497",
+          "name": "Runyang You",
+          "hidden": false
+        },
+        {
+          "_id": "69606e265b7998385e639498",
+          "name": "Hongru Cai",
+          "hidden": false
+        },
+        {
+          "_id": "69606e265b7998385e639499",
+          "name": "Caiqi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69606e265b7998385e63949a",
+          "name": "Qiancheng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69606e265b7998385e63949b",
+          "name": "Meng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69606e265b7998385e63949c",
+          "name": "Tiezheng Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69606e265b7998385e63949d",
+          "name": "Yongqi Li",
+          "hidden": false
+        },
+        {
+          "_id": "69606e265b7998385e63949e",
+          "name": "Wenjie Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-08T16:58:10.000Z",
+      "submittedOnDailyAt": "2026-01-09T00:25:38.567Z",
+      "title": "Agent-as-a-Judge",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "LLM-as-a-Judge has revolutionized AI evaluation by leveraging large language models for scalable assessments. However, as evaluands become increasingly complex, specialized, and multi-step, the reliability of LLM-as-a-Judge has become constrained by inherent biases, shallow single-pass reasoning, and the inability to verify assessments against real-world observations. This has catalyzed the transition to Agent-as-a-Judge, where agentic judges employ planning, tool-augmented verification, multi-agent collaboration, and persistent memory to enable more robust, verifiable, and nuanced evaluations. Despite the rapid proliferation of agentic evaluation systems, the field lacks a unified framework to navigate this shifting landscape. To bridge this gap, we present the first comprehensive survey tracing this evolution. Specifically, we identify key dimensions that characterize this paradigm shift and establish a developmental taxonomy. We organize core methodologies and survey applications across general and professional domains. Furthermore, we analyze frontier challenges and identify promising research directions, ultimately providing a clear roadmap for the next generation of agentic evaluation.",
+      "upvotes": 0,
+      "discussionId": "69606e265b7998385e63949f",
+      "ai_summary": "Large language models face limitations in evaluating complex, multi-step tasks, prompting the development of agent-based evaluation systems that utilize planning, tool-augmented verification, and multi-agent collaboration for more robust assessments.",
+      "ai_keywords": [
+        "LLM-as-a-Judge",
+        "Agent-as-a-Judge",
+        "agentic judges",
+        "planning",
+        "tool-augmented verification",
+        "multi-agent collaboration",
+        "persistent memory",
+        "evaluation systems",
+        "agentic evaluation"
+      ]
+    },
+    "publishedAt": "2026-01-08T11:58:10.000Z",
+    "title": "Agent-as-a-Judge",
+    "summary": "LLM-as-a-Judge has revolutionized AI evaluation by leveraging large language models for scalable assessments. However, as evaluands become increasingly complex, specialized, and multi-step, the reliability of LLM-as-a-Judge has become constrained by inherent biases, shallow single-pass reasoning, and the inability to verify assessments against real-world observations. This has catalyzed the transition to Agent-as-a-Judge, where agentic judges employ planning, tool-augmented verification, multi-agent collaboration, and persistent memory to enable more robust, verifiable, and nuanced evaluations. Despite the rapid proliferation of agentic evaluation systems, the field lacks a unified framework to navigate this shifting landscape. To bridge this gap, we present the first comprehensive survey tracing this evolution. Specifically, we identify key dimensions that characterize this paradigm shift and establish a developmental taxonomy. We organize core methodologies and survey applications across general and professional domains. Furthermore, we analyze frontier challenges and identify promising research directions, ultimately providing a clear roadmap for the next generation of agentic evaluation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05111.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 204,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.03559",
+      "authors": [
+        {
+          "_id": "695f278c5fa3847525c41d76",
+          "name": "Shidong Cao",
+          "hidden": false
+        },
+        {
+          "_id": "695f278c5fa3847525c41d77",
+          "name": "Hongzhan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "695f278c5fa3847525c41d78",
+          "name": "Yuxuan Gu",
+          "hidden": false
+        },
+        {
+          "_id": "695f278c5fa3847525c41d79",
+          "name": "Ziyang Luo",
+          "hidden": false
+        },
+        {
+          "_id": "695f278c5fa3847525c41d7a",
+          "name": "Jing Ma",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-07T03:58:42.000Z",
+      "submittedOnDailyAt": "2026-01-09T00:10:48.964Z",
+      "title": "DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs",
+      "submittedOnDailyBy": {
+        "_id": "6499466c7d1edf7cb612a9a6",
+        "avatarUrl": "/avatars/c2e18594aa0879db8226f2a04496fb0b.svg",
+        "isPro": false,
+        "fullname": "Hongzhan Lin",
+        "user": "danielhzlin",
+        "type": "user"
+      },
+      "summary": "Chain-of-Thought (CoT) reasoning improves multi-step mathematical problem solving in large language models but remains vulnerable to exposure bias and error accumulation, as early mistakes propagate irreversibly through autoregressive decoding. In this work, we propose DiffCoT, a diffusion-styled CoT framework that reformulates CoT reasoning as an iterative denoising process. DiffCoT integrates diffusion principles at the reasoning-step level via a sliding-window mechanism, enabling unified generation and retrospective correction of intermediate steps while preserving token-level autoregression. To maintain causal consistency, we further introduce a causal diffusion noise schedule that respects the temporal structure of reasoning chains. Extensive experiments on three multi-step CoT reasoning benchmarks across diverse model backbones demonstrate that DiffCoT consistently outperforms existing CoT preference optimization methods, yielding improved robustness and error-correction capability in CoT reasoning.",
+      "upvotes": 0,
+      "discussionId": "695f278c5fa3847525c41d7b",
+      "ai_summary": "DiffCoT reformulates chain-of-thought reasoning as an iterative denoising process using diffusion principles, enabling unified generation and correction of intermediate steps while maintaining causal consistency.",
+      "ai_keywords": [
+        "chain-of-thought",
+        "diffusion models",
+        "denoising process",
+        "autoregressive decoding",
+        "exposure bias",
+        "error accumulation",
+        "sliding-window mechanism",
+        "causal consistency",
+        "causal diffusion noise schedule",
+        "reasoning chains",
+        "CoT preference optimization"
+      ]
+    },
+    "publishedAt": "2026-01-06T22:58:42.000Z",
+    "title": "DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs",
+    "summary": "Chain-of-Thought (CoT) reasoning improves multi-step mathematical problem solving in large language models but remains vulnerable to exposure bias and error accumulation, as early mistakes propagate irreversibly through autoregressive decoding. In this work, we propose DiffCoT, a diffusion-styled CoT framework that reformulates CoT reasoning as an iterative denoising process. DiffCoT integrates diffusion principles at the reasoning-step level via a sliding-window mechanism, enabling unified generation and retrospective correction of intermediate steps while preserving token-level autoregression. To maintain causal consistency, we further introduce a causal diffusion noise schedule that respects the temporal structure of reasoning chains. Extensive experiments on three multi-step CoT reasoning benchmarks across diverse model backbones demonstrate that DiffCoT consistently outperforms existing CoT preference optimization methods, yielding improved robustness and error-correction capability in CoT reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.03559.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6499466c7d1edf7cb612a9a6",
+      "avatarUrl": "/avatars/c2e18594aa0879db8226f2a04496fb0b.svg",
+      "fullname": "Hongzhan Lin",
+      "name": "danielhzlin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
