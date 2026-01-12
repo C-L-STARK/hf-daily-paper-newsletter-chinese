@@ -1,0 +1,860 @@
+[
+  {
+    "paper": {
+      "id": "2601.06021",
+      "authors": [
+        {
+          "_id": "69645f30138cc47cbd765248",
+          "name": "Jiajie Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69645f30138cc47cbd765249",
+          "name": "Xin Lv",
+          "hidden": false
+        },
+        {
+          "_id": "69645f30138cc47cbd76524a",
+          "name": "Ling Feng",
+          "hidden": false
+        },
+        {
+          "_id": "69645f30138cc47cbd76524b",
+          "name": "Lei Hou",
+          "hidden": false
+        },
+        {
+          "_id": "69645f30138cc47cbd76524c",
+          "name": "Juanzi Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-09T18:57:53.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:13:19.034Z",
+      "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+      "submittedOnDailyBy": {
+        "_id": "66cdd285c51a915bd5f2d017",
+        "avatarUrl": "/avatars/14e5794307e4672b1b51d26b31227e0f.svg",
+        "isPro": false,
+        "fullname": "Jiajie Zhang",
+        "user": "NeoZ123",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning (RL) has emerged as a critical technique for enhancing LLM-based deep search agents. However, existing approaches primarily rely on binary outcome rewards, which fail to capture the comprehensiveness and factuality of agents' reasoning process, and often lead to undesirable behaviors such as shortcut exploitation and hallucinations. To address these limitations, we propose Citation-aware Rubric Rewards (CaRR), a fine-grained reward framework for deep search agents that emphasizes reasoning comprehensiveness, factual grounding, and evidence connectivity. CaRR decomposes complex questions into verifiable single-hop rubrics and requires agents to satisfy these rubrics by explicitly identifying hidden entities, supporting them with correct citations, and constructing complete evidence chains that link to the predicted answer. We further introduce Citation-aware Group Relative Policy Optimization (C-GRPO), which combines CaRR and outcome rewards for training robust deep search agents. Experiments show that C-GRPO consistently outperforms standard outcome-based RL baselines across multiple deep search benchmarks. Our analysis also validates that C-GRPO effectively discourages shortcut exploitation, promotes comprehensive, evidence-grounded reasoning, and exhibits strong generalization to open-ended deep research tasks. Our code and data are available at https://github.com/THUDM/CaRR.",
+      "upvotes": 18,
+      "discussionId": "69645f30138cc47cbd76524d",
+      "githubRepo": "https://github.com/THUDM/CaRR",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A citation-aware reward framework and policy optimization method improve deep search agents' reasoning comprehensiveness and factual accuracy while reducing shortcut exploitation and hallucinations.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "deep search agents",
+        "fine-grained reward framework",
+        "reasoning comprehensiveness",
+        "factual grounding",
+        "evidence connectivity",
+        "verifiable single-hop rubrics",
+        "citation-aware group relative policy optimization",
+        "outcome rewards",
+        "shortcut exploitation",
+        "hallucinations"
+      ],
+      "organization": {
+        "_id": "62ad27f19096e7f9ecb1853a",
+        "name": "zai-org",
+        "fullname": "Z.ai",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png"
+      }
+    },
+    "publishedAt": "2026-01-09T13:57:53.000Z",
+    "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+    "summary": "Reinforcement learning (RL) has emerged as a critical technique for enhancing LLM-based deep search agents. However, existing approaches primarily rely on binary outcome rewards, which fail to capture the comprehensiveness and factuality of agents' reasoning process, and often lead to undesirable behaviors such as shortcut exploitation and hallucinations. To address these limitations, we propose Citation-aware Rubric Rewards (CaRR), a fine-grained reward framework for deep search agents that emphasizes reasoning comprehensiveness, factual grounding, and evidence connectivity. CaRR decomposes complex questions into verifiable single-hop rubrics and requires agents to satisfy these rubrics by explicitly identifying hidden entities, supporting them with correct citations, and constructing complete evidence chains that link to the predicted answer. We further introduce Citation-aware Group Relative Policy Optimization (C-GRPO), which combines CaRR and outcome rewards for training robust deep search agents. Experiments show that C-GRPO consistently outperforms standard outcome-based RL baselines across multiple deep search benchmarks. Our analysis also validates that C-GRPO effectively discourages shortcut exploitation, promotes comprehensive, evidence-grounded reasoning, and exhibits strong generalization to open-ended deep research tasks. Our code and data are available at https://github.com/THUDM/CaRR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.06021.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66cdd285c51a915bd5f2d017",
+      "avatarUrl": "/avatars/14e5794307e4672b1b51d26b31227e0f.svg",
+      "fullname": "Jiajie Zhang",
+      "name": "NeoZ123",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "name": "zai-org",
+      "fullname": "Z.ai",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05808",
+      "authors": [
+        {
+          "_id": "696462fd138cc47cbd765289",
+          "name": "Xiaoshuai Song",
+          "hidden": false
+        },
+        {
+          "_id": "696462fd138cc47cbd76528a",
+          "name": "Haofei Chang",
+          "hidden": false
+        },
+        {
+          "_id": "696462fd138cc47cbd76528b",
+          "name": "Guanting Dong",
+          "hidden": false
+        },
+        {
+          "_id": "696462fd138cc47cbd76528c",
+          "name": "Yutao Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "696462fd138cc47cbd76528d",
+          "name": "Zhicheng Dou",
+          "hidden": false
+        },
+        {
+          "_id": "696462fd138cc47cbd76528e",
+          "name": "Ji-Rong Wen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-09T14:32:06.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:32:15.159Z",
+      "title": "EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis",
+      "submittedOnDailyBy": {
+        "_id": "6621ec2524eb2673fe0790fc",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6621ec2524eb2673fe0790fc/cooTXi12eRWFiSSIj_nA-.jpeg",
+        "isPro": false,
+        "fullname": "Ania Forge",
+        "user": "zhangboguodong",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) are expected to be trained to act as agents in various real-world environments, but this process relies on rich and varied tool-interaction sandboxes. However, access to real systems is often restricted; LLM-simulated environments are prone to hallucinations and inconsistencies; and manually built sandboxes are hard to scale. In this paper, we propose EnvScaler, an automated framework for scalable tool-interaction environments via programmatic synthesis. EnvScaler comprises two components. First, SkelBuilder constructs diverse environment skeletons through topic mining, logic modeling, and quality evaluation. Then, ScenGenerator generates multiple task scenarios and rule-based trajectory validation functions for each environment. With EnvScaler, we synthesize 191 environments and about 7K scenarios, and apply them to Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) for Qwen3 series models. Results on three benchmarks show that EnvScaler significantly improves LLMs' ability to solve tasks in complex environments involving multi-turn, multi-tool interactions. We release our code and data at https://github.com/RUC-NLPIR/EnvScaler.",
+      "upvotes": 2,
+      "discussionId": "696462fe138cc47cbd76528f",
+      "ai_summary": "EnvScaler automates the creation of tool-interaction environments through programmatic synthesis, enhancing LLM performance in complex multi-turn, multi-tool tasks via supervised fine-tuning and reinforcement learning.",
+      "ai_keywords": [
+        "tool-interaction environments",
+        "programmatic synthesis",
+        "environment skeletons",
+        "task scenarios",
+        "rule-based trajectory validation",
+        "supervised fine-tuning",
+        "reinforcement learning",
+        "multi-turn interactions",
+        "multi-tool interactions"
+      ]
+    },
+    "publishedAt": "2026-01-09T09:32:06.000Z",
+    "title": "EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis",
+    "summary": "Large language models (LLMs) are expected to be trained to act as agents in various real-world environments, but this process relies on rich and varied tool-interaction sandboxes. However, access to real systems is often restricted; LLM-simulated environments are prone to hallucinations and inconsistencies; and manually built sandboxes are hard to scale. In this paper, we propose EnvScaler, an automated framework for scalable tool-interaction environments via programmatic synthesis. EnvScaler comprises two components. First, SkelBuilder constructs diverse environment skeletons through topic mining, logic modeling, and quality evaluation. Then, ScenGenerator generates multiple task scenarios and rule-based trajectory validation functions for each environment. With EnvScaler, we synthesize 191 environments and about 7K scenarios, and apply them to Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) for Qwen3 series models. Results on three benchmarks show that EnvScaler significantly improves LLMs' ability to solve tasks in complex environments involving multi-turn, multi-tool interactions. We release our code and data at https://github.com/RUC-NLPIR/EnvScaler.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05808.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6621ec2524eb2673fe0790fc",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6621ec2524eb2673fe0790fc/cooTXi12eRWFiSSIj_nA-.jpeg",
+      "fullname": "Ania Forge",
+      "name": "zhangboguodong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05966",
+      "authors": [
+        {
+          "_id": "69645e19138cc47cbd76523f",
+          "name": "Longbin Ji",
+          "hidden": false
+        },
+        {
+          "_id": "69645e19138cc47cbd765240",
+          "name": "Xiaoxiong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69645e19138cc47cbd765241",
+          "name": "Junyuan Shang",
+          "hidden": false
+        },
+        {
+          "_id": "69645e19138cc47cbd765242",
+          "name": "Shuohuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69645e19138cc47cbd765243",
+          "name": "Yu Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69645e19138cc47cbd765244",
+          "name": "Hua Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69645e19138cc47cbd765245",
+          "name": "Haifeng Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-09T17:34:59.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:06:52.890Z",
+      "title": "VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advances in video generation have been dominated by diffusion and flow-matching models, which produce high-quality results but remain computationally intensive and difficult to scale. In this work, we introduce VideoAR, the first large-scale Visual Autoregressive (VAR) framework for video generation that combines multi-scale next-frame prediction with autoregressive modeling. VideoAR disentangles spatial and temporal dependencies by integrating intra-frame VAR modeling with causal next-frame prediction, supported by a 3D multi-scale tokenizer that efficiently encodes spatio-temporal dynamics. To improve long-term consistency, we propose Multi-scale Temporal RoPE, Cross-Frame Error Correction, and Random Frame Mask, which collectively mitigate error propagation and stabilize temporal coherence. Our multi-stage pretraining pipeline progressively aligns spatial and temporal learning across increasing resolutions and durations. Empirically, VideoAR achieves new state-of-the-art results among autoregressive models, improving FVD on UCF-101 from 99.5 to 88.6 while reducing inference steps by over 10x, and reaching a VBench score of 81.74-competitive with diffusion-based models an order of magnitude larger. These results demonstrate that VideoAR narrows the performance gap between autoregressive and diffusion paradigms, offering a scalable, efficient, and temporally consistent foundation for future video generation research.",
+      "upvotes": 1,
+      "discussionId": "69645e19138cc47cbd765246",
+      "ai_summary": "VideoAR presents a large-scale visual autoregressive framework for video generation that combines multi-scale next-frame prediction with autoregressive modeling, achieving state-of-the-art results with improved efficiency and temporal consistency.",
+      "ai_keywords": [
+        "Visual Autoregressive",
+        "diffusion models",
+        "flow-matching models",
+        "video generation",
+        "multi-scale next-frame prediction",
+        "autoregressive modeling",
+        "intra-frame VAR modeling",
+        "causal next-frame prediction",
+        "3D multi-scale tokenizer",
+        "temporal dependencies",
+        "spatial dependencies",
+        "Multi-scale Temporal RoPE",
+        "Cross-Frame Error Correction",
+        "Random Frame Mask",
+        "multi-stage pretraining pipeline",
+        "FVD",
+        "VBench"
+      ]
+    },
+    "publishedAt": "2026-01-09T12:34:59.000Z",
+    "title": "VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction",
+    "summary": "Recent advances in video generation have been dominated by diffusion and flow-matching models, which produce high-quality results but remain computationally intensive and difficult to scale. In this work, we introduce VideoAR, the first large-scale Visual Autoregressive (VAR) framework for video generation that combines multi-scale next-frame prediction with autoregressive modeling. VideoAR disentangles spatial and temporal dependencies by integrating intra-frame VAR modeling with causal next-frame prediction, supported by a 3D multi-scale tokenizer that efficiently encodes spatio-temporal dynamics. To improve long-term consistency, we propose Multi-scale Temporal RoPE, Cross-Frame Error Correction, and Random Frame Mask, which collectively mitigate error propagation and stabilize temporal coherence. Our multi-stage pretraining pipeline progressively aligns spatial and temporal learning across increasing resolutions and durations. Empirically, VideoAR achieves new state-of-the-art results among autoregressive models, improving FVD on UCF-101 from 99.5 to 88.6 while reducing inference steps by over 10x, and reaching a VBench score of 81.74-competitive with diffusion-based models an order of magnitude larger. These results demonstrate that VideoAR narrows the performance gap between autoregressive and diffusion paradigms, offering a scalable, efficient, and temporally consistent foundation for future video generation research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05966.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 206,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05573",
+      "authors": [
+        {
+          "_id": "69646388138cc47cbd765291",
+          "name": "Zehan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69646388138cc47cbd765292",
+          "name": "Ziang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69646388138cc47cbd765293",
+          "name": "Jiayang Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69646388138cc47cbd765294",
+          "name": "Jialei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69646388138cc47cbd765295",
+          "name": "Tianyu Pang",
+          "hidden": false
+        },
+        {
+          "_id": "69646388138cc47cbd765296",
+          "name": "Chao Du",
+          "hidden": false
+        },
+        {
+          "_id": "69646388138cc47cbd765297",
+          "name": "HengShuang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69646388138cc47cbd765298",
+          "name": "Zhou Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-09T06:43:59.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:32:29.042Z",
+      "title": "Orient Anything V2: Unifying Orientation and Rotation Understanding",
+      "submittedOnDailyBy": {
+        "_id": "65b36a383a41095a56d0736d",
+        "avatarUrl": "/avatars/378f011d9ca08839fe80ffa259620c67.svg",
+        "isPro": false,
+        "fullname": "ZiangZhang",
+        "user": "Viglong",
+        "type": "user"
+      },
+      "summary": "This work presents Orient Anything V2, an enhanced foundation model for unified understanding of object 3D orientation and rotation from single or paired images. Building upon Orient Anything V1, which defines orientation via a single unique front face, V2 extends this capability to handle objects with diverse rotational symmetries and directly estimate relative rotations. These improvements are enabled by four key innovations: 1) Scalable 3D assets synthesized by generative models, ensuring broad category coverage and balanced data distribution; 2) An efficient, model-in-the-loop annotation system that robustly identifies 0 to N valid front faces for each object; 3) A symmetry-aware, periodic distribution fitting objective that captures all plausible front-facing orientations, effectively modeling object rotational symmetry; 4) A multi-frame architecture that directly predicts relative object rotations. Extensive experiments show that Orient Anything V2 achieves state-of-the-art zero-shot performance on orientation estimation, 6DoF pose estimation, and object symmetry recognition across 11 widely used benchmarks. The model demonstrates strong generalization, significantly broadening the applicability of orientation estimation in diverse downstream tasks.",
+      "upvotes": 1,
+      "discussionId": "69646388138cc47cbd765299",
+      "projectPage": "https://orient-anythingv2.github.io/",
+      "githubRepo": "https://github.com/SpatialVision/Orient-Anything-V2",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Orient Anything V2 enhances 3D orientation understanding through scalable 3D asset synthesis, symmetry-aware periodic distribution fitting, and multi-frame relative rotation prediction, achieving state-of-the-art performance across multiple benchmarks.",
+      "ai_keywords": [
+        "generative models",
+        "3D assets",
+        "model-in-the-loop annotation",
+        "symmetry-aware",
+        "periodic distribution fitting",
+        "multi-frame architecture",
+        "relative rotation prediction",
+        "zero-shot performance",
+        "6DoF pose estimation",
+        "object symmetry recognition"
+      ]
+    },
+    "publishedAt": "2026-01-09T01:43:59.000Z",
+    "title": "Orient Anything V2: Unifying Orientation and Rotation Understanding",
+    "summary": "This work presents Orient Anything V2, an enhanced foundation model for unified understanding of object 3D orientation and rotation from single or paired images. Building upon Orient Anything V1, which defines orientation via a single unique front face, V2 extends this capability to handle objects with diverse rotational symmetries and directly estimate relative rotations. These improvements are enabled by four key innovations: 1) Scalable 3D assets synthesized by generative models, ensuring broad category coverage and balanced data distribution; 2) An efficient, model-in-the-loop annotation system that robustly identifies 0 to N valid front faces for each object; 3) A symmetry-aware, periodic distribution fitting objective that captures all plausible front-facing orientations, effectively modeling object rotational symmetry; 4) A multi-frame architecture that directly predicts relative object rotations. Extensive experiments show that Orient Anything V2 achieves state-of-the-art zero-shot performance on orientation estimation, 6DoF pose estimation, and object symmetry recognition across 11 widely used benchmarks. The model demonstrates strong generalization, significantly broadening the applicability of orientation estimation in diverse downstream tasks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05573.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65b36a383a41095a56d0736d",
+      "avatarUrl": "/avatars/378f011d9ca08839fe80ffa259620c67.svg",
+      "fullname": "ZiangZhang",
+      "name": "Viglong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.04823",
+      "authors": [
+        {
+          "_id": "6964607c138cc47cbd765259",
+          "name": "Guanzhi Deng",
+          "hidden": false
+        },
+        {
+          "_id": "6964607c138cc47cbd76525a",
+          "name": "Bo Li",
+          "hidden": false
+        },
+        {
+          "_id": "6964607c138cc47cbd76525b",
+          "name": "Ronghao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6964607c138cc47cbd76525c",
+          "name": "Huacan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6964607c138cc47cbd76525d",
+          "name": "Linqi Song",
+          "hidden": false
+        },
+        {
+          "_id": "6964607c138cc47cbd76525e",
+          "name": "Lijie Wen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-08T10:58:51.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:21:36.615Z",
+      "title": "DR-LoRA: Dynamic Rank LoRA for Mixture-of-Experts Adaptation",
+      "submittedOnDailyBy": {
+        "_id": "6582c482f3006507ea10302a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6582c482f3006507ea10302a/KbgSsq0FnbMngBcWPhIXi.jpeg",
+        "isPro": false,
+        "fullname": "Bo Li",
+        "user": "liboaccn",
+        "type": "user"
+      },
+      "summary": "Mixture-of-Experts (MoE) has become a prominent paradigm for scaling Large Language Models (LLMs). Parameter-efficient fine-tuning (PEFT), such as LoRA, is widely adopted to adapt pretrained MoE LLMs to downstream tasks. However, existing approaches assign identical LoRA ranks to all experts, overlooking the intrinsic functional specialization within MoE LLMs. This uniform allocation leads to resource mismatch, task-relevant experts are under-provisioned while less relevant ones receive redundant parameters. We propose a Dynamic Rank LoRA framework named DR-LoRA, which dynamically grows expert LoRA ranks during fine-tuning based on task-specific demands. DR-LoRA employs an Expert Saliency Scoring mechanism that integrates expert routing frequency and LoRA rank importance to quantify each expert's demand for additional capacity. Experts with higher saliency scores are prioritized for rank expansion, enabling the automatic formation of a heterogeneous rank distribution tailored to the target task. Experiments on multiple benchmarks demonstrate that DR-LoRA consistently outperforms standard LoRA and static allocation strategies under the same parameter budget, achieving superior task performance with more efficient parameter utilization.",
+      "upvotes": 1,
+      "discussionId": "6964607c138cc47cbd76525f",
+      "ai_summary": "DR-LoRA dynamically adjusts LoRA ranks for experts in Mixture-of-Experts models based on task-specific demands, improving parameter efficiency and performance.",
+      "ai_keywords": [
+        "Mixture-of-Experts",
+        "Large Language Models",
+        "parameter-efficient fine-tuning",
+        "LoRA",
+        "dynamic rank allocation",
+        "expert routing frequency",
+        "expert saliency scoring",
+        "heterogeneous rank distribution"
+      ]
+    },
+    "publishedAt": "2026-01-08T05:58:51.000Z",
+    "title": "DR-LoRA: Dynamic Rank LoRA for Mixture-of-Experts Adaptation",
+    "summary": "Mixture-of-Experts (MoE) has become a prominent paradigm for scaling Large Language Models (LLMs). Parameter-efficient fine-tuning (PEFT), such as LoRA, is widely adopted to adapt pretrained MoE LLMs to downstream tasks. However, existing approaches assign identical LoRA ranks to all experts, overlooking the intrinsic functional specialization within MoE LLMs. This uniform allocation leads to resource mismatch, task-relevant experts are under-provisioned while less relevant ones receive redundant parameters. We propose a Dynamic Rank LoRA framework named DR-LoRA, which dynamically grows expert LoRA ranks during fine-tuning based on task-specific demands. DR-LoRA employs an Expert Saliency Scoring mechanism that integrates expert routing frequency and LoRA rank importance to quantify each expert's demand for additional capacity. Experts with higher saliency scores are prioritized for rank expansion, enabling the automatic formation of a heterogeneous rank distribution tailored to the target task. Experiments on multiple benchmarks demonstrate that DR-LoRA consistently outperforms standard LoRA and static allocation strategies under the same parameter budget, achieving superior task performance with more efficient parameter utilization.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.04823.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6582c482f3006507ea10302a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6582c482f3006507ea10302a/KbgSsq0FnbMngBcWPhIXi.jpeg",
+      "fullname": "Bo Li",
+      "name": "liboaccn",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05870",
+      "authors": [
+        {
+          "_id": "69646166138cc47cbd765271",
+          "name": "Huilin Deng",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd765272",
+          "name": "Hongchen Luo",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd765273",
+          "name": "Yue Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd765274",
+          "name": "Long Li",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd765275",
+          "name": "Zhuoyue Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd765276",
+          "name": "Xinghao Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd765277",
+          "name": "Ming Li",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd765278",
+          "name": "Jihai Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd765279",
+          "name": "Mengchang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd76527a",
+          "name": "Yang Cao",
+          "hidden": false
+        },
+        {
+          "_id": "69646166138cc47cbd76527b",
+          "name": "Yu Kang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-09T15:46:40.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:20:25.251Z",
+      "title": "IIB-LPO: Latent Policy Optimization via Iterative Information Bottleneck",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advances in Reinforcement Learning with Verifiable Rewards (RLVR) for Large Language Model (LLM) reasoning have been hindered by a persistent challenge: exploration collapse. The semantic homogeneity of random rollouts often traps models in narrow, over-optimized behaviors. While existing methods leverage policy entropy to encourage exploration, they face inherent limitations. Global entropy regularization is susceptible to reward hacking, which can induce meaningless verbosity, whereas local token-selective updates struggle with the strong inductive bias of pre-trained models. To address this, we propose Latent Policy Optimization via Iterative Information Bottleneck (IIB-LPO), a novel approach that shifts exploration from statistical perturbation of token distributions to topological branching of reasoning trajectories. IIB-LPO triggers latent branching at high-entropy states to diversify reasoning paths and employs the Information Bottleneck principle both as a trajectory filter and a self-reward mechanism, ensuring concise and informative exploration. Empirical results across four mathematical reasoning benchmarks demonstrate that IIB-LPO achieves state-of-the-art performance, surpassing prior methods by margins of up to 5.3% in accuracy and 7.4% in diversity metrics.",
+      "upvotes": 0,
+      "discussionId": "69646166138cc47cbd76527c",
+      "ai_summary": "Latent Policy Optimization via Iterative Information Bottleneck addresses exploration collapse in LLM reasoning by enabling topological branching of reasoning trajectories through information bottleneck principles.",
+      "ai_keywords": [
+        "Reinforcement Learning with Verifiable Rewards",
+        "large language models",
+        "exploration collapse",
+        "policy entropy",
+        "reward hacking",
+        "latent policy optimization",
+        "iterative information bottleneck",
+        "topological branching",
+        "reasoning trajectories",
+        "information bottleneck principle",
+        "mathematical reasoning benchmarks"
+      ]
+    },
+    "publishedAt": "2026-01-09T10:46:40.000Z",
+    "title": "IIB-LPO: Latent Policy Optimization via Iterative Information Bottleneck",
+    "summary": "Recent advances in Reinforcement Learning with Verifiable Rewards (RLVR) for Large Language Model (LLM) reasoning have been hindered by a persistent challenge: exploration collapse. The semantic homogeneity of random rollouts often traps models in narrow, over-optimized behaviors. While existing methods leverage policy entropy to encourage exploration, they face inherent limitations. Global entropy regularization is susceptible to reward hacking, which can induce meaningless verbosity, whereas local token-selective updates struggle with the strong inductive bias of pre-trained models. To address this, we propose Latent Policy Optimization via Iterative Information Bottleneck (IIB-LPO), a novel approach that shifts exploration from statistical perturbation of token distributions to topological branching of reasoning trajectories. IIB-LPO triggers latent branching at high-entropy states to diversify reasoning paths and employs the Information Bottleneck principle both as a trajectory filter and a self-reward mechanism, ensuring concise and informative exploration. Empirical results across four mathematical reasoning benchmarks demonstrate that IIB-LPO achieves state-of-the-art performance, surpassing prior methods by margins of up to 5.3% in accuracy and 7.4% in diversity metrics.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05870.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 206,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05848",
+      "authors": [
+        {
+          "_id": "69645dac138cc47cbd76522e",
+          "name": "Nate Gillman",
+          "hidden": false
+        },
+        {
+          "_id": "69645dac138cc47cbd76522f",
+          "name": "Yinghua Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69645dac138cc47cbd765230",
+          "name": "Zitian Tang",
+          "hidden": false
+        },
+        {
+          "_id": "69645dac138cc47cbd765231",
+          "name": "Evan Luo",
+          "hidden": false
+        },
+        {
+          "_id": "69645dac138cc47cbd765232",
+          "name": "Arjan Chakravarthy",
+          "hidden": false
+        },
+        {
+          "_id": "69645dac138cc47cbd765233",
+          "name": "Daksh Aggarwal",
+          "hidden": false
+        },
+        {
+          "_id": "69645dac138cc47cbd765234",
+          "name": "Michael Freeman",
+          "hidden": false
+        },
+        {
+          "_id": "69645dac138cc47cbd765235",
+          "name": "Charles Herrmann",
+          "hidden": false
+        },
+        {
+          "_id": "69645dac138cc47cbd765236",
+          "name": "Chen Sun",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/1uUuhcgQYc4UEJP4tfPbV.qt"
+      ],
+      "publishedAt": "2026-01-09T15:23:36.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:05:34.589Z",
+      "title": "Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advancements in video generation have enabled the development of ``world models'' capable of simulating potential futures for robotics and planning. However, specifying precise goals for these models remains a challenge; text instructions are often too abstract to capture physical nuances, while target images are frequently infeasible to specify for dynamic tasks. To address this, we introduce Goal Force, a novel framework that allows users to define goals via explicit force vectors and intermediate dynamics, mirroring how humans conceptualize physical tasks. We train a video generation model on a curated dataset of synthetic causal primitives-such as elastic collisions and falling dominos-teaching it to propagate forces through time and space. Despite being trained on simple physics data, our model exhibits remarkable zero-shot generalization to complex, real-world scenarios, including tool manipulation and multi-object causal chains. Our results suggest that by grounding video generation in fundamental physical interactions, models can emerge as implicit neural physics simulators, enabling precise, physics-aware planning without reliance on external engines. We release all datasets, code, model weights, and interactive video demos at our project page.",
+      "upvotes": 0,
+      "discussionId": "69645dad138cc47cbd765237",
+      "projectPage": "https://goal-force.github.io/",
+      "ai_summary": "Video generation models trained on synthetic physics primitives demonstrate zero-shot generalization to complex real-world scenarios by modeling force propagation through time and space.",
+      "ai_keywords": [
+        "video generation",
+        "world models",
+        "causal primitives",
+        "force vectors",
+        "physics simulation",
+        "zero-shot generalization",
+        "neural physics simulators"
+      ]
+    },
+    "publishedAt": "2026-01-09T10:23:36.000Z",
+    "title": "Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals",
+    "summary": "Recent advancements in video generation have enabled the development of ``world models'' capable of simulating potential futures for robotics and planning. However, specifying precise goals for these models remains a challenge; text instructions are often too abstract to capture physical nuances, while target images are frequently infeasible to specify for dynamic tasks. To address this, we introduce Goal Force, a novel framework that allows users to define goals via explicit force vectors and intermediate dynamics, mirroring how humans conceptualize physical tasks. We train a video generation model on a curated dataset of synthetic causal primitives-such as elastic collisions and falling dominos-teaching it to propagate forces through time and space. Despite being trained on simple physics data, our model exhibits remarkable zero-shot generalization to complex, real-world scenarios, including tool manipulation and multi-object causal chains. Our results suggest that by grounding video generation in fundamental physical interactions, models can emerge as implicit neural physics simulators, enabling precise, physics-aware planning without reliance on external engines. We release all datasets, code, model weights, and interactive video demos at our project page.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/1uUuhcgQYc4UEJP4tfPbV.qt"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05848.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 206,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05637",
+      "authors": [
+        {
+          "_id": "69645d4e138cc47cbd765225",
+          "name": "Emily Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "69645d4e138cc47cbd765226",
+          "name": "Carmen Amo Alonso",
+          "hidden": false
+        },
+        {
+          "_id": "69645d4e138cc47cbd765227",
+          "name": "Federico Danieli",
+          "hidden": false
+        },
+        {
+          "_id": "69645d4e138cc47cbd765228",
+          "name": "Arno Blaas",
+          "hidden": false
+        },
+        {
+          "_id": "69645d4e138cc47cbd765229",
+          "name": "Luca Zappella",
+          "hidden": false
+        },
+        {
+          "_id": "69645d4e138cc47cbd76522a",
+          "name": "Pau Rodriguez",
+          "hidden": false
+        },
+        {
+          "_id": "69645d4e138cc47cbd76522b",
+          "name": "Xavier Suau",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-09T08:50:02.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:02:49.226Z",
+      "title": "GenCtrl -- A Formal Controllability Toolkit for Generative Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "As generative models become ubiquitous, there is a critical need for fine-grained control over the generation process. Yet, while controlled generation methods from prompting to fine-tuning proliferate, a fundamental question remains unanswered: are these models truly controllable in the first place? In this work, we provide a theoretical framework to formally answer this question. Framing human-model interaction as a control process, we propose a novel algorithm to estimate the controllable sets of models in a dialogue setting. Notably, we provide formal guarantees on the estimation error as a function of sample complexity: we derive probably-approximately correct bounds for controllable set estimates that are distribution-free, employ no assumptions except for output boundedness, and work for any black-box nonlinear control system (i.e., any generative model). We empirically demonstrate the theoretical framework on different tasks in controlling dialogue processes, for both language models and text-to-image generation. Our results show that model controllability is surprisingly fragile and highly dependent on the experimental setting. This highlights the need for rigorous controllability analysis, shifting the focus from simply attempting control to first understanding its fundamental limits.",
+      "upvotes": 0,
+      "discussionId": "69645d4e138cc47cbd76522c",
+      "ai_summary": "Generative models' controllability is theoretically analyzed through a framework that estimates controllable sets with distribution-free bounds, revealing that controllability is fragile and context-dependent.",
+      "ai_keywords": [
+        "generative models",
+        "controllable sets",
+        "control process",
+        "dialogue setting",
+        "probably-approximately correct bounds",
+        "black-box nonlinear control system",
+        "language models",
+        "text-to-image generation"
+      ],
+      "organization": {
+        "_id": "628cbd99ef14f971b69948ab",
+        "name": "apple",
+        "fullname": "Apple",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1653390727490-5dd96eb166059660ed1ee413.jpeg"
+      }
+    },
+    "publishedAt": "2026-01-09T03:50:02.000Z",
+    "title": "GenCtrl -- A Formal Controllability Toolkit for Generative Models",
+    "summary": "As generative models become ubiquitous, there is a critical need for fine-grained control over the generation process. Yet, while controlled generation methods from prompting to fine-tuning proliferate, a fundamental question remains unanswered: are these models truly controllable in the first place? In this work, we provide a theoretical framework to formally answer this question. Framing human-model interaction as a control process, we propose a novel algorithm to estimate the controllable sets of models in a dialogue setting. Notably, we provide formal guarantees on the estimation error as a function of sample complexity: we derive probably-approximately correct bounds for controllable set estimates that are distribution-free, employ no assumptions except for output boundedness, and work for any black-box nonlinear control system (i.e., any generative model). We empirically demonstrate the theoretical framework on different tasks in controlling dialogue processes, for both language models and text-to-image generation. Our results show that model controllability is surprisingly fragile and highly dependent on the experimental setting. This highlights the need for rigorous controllability analysis, shifting the focus from simply attempting control to first understanding its fundamental limits.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05637.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 206,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "628cbd99ef14f971b69948ab",
+      "name": "apple",
+      "fullname": "Apple",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1653390727490-5dd96eb166059660ed1ee413.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.05503",
+      "authors": [
+        {
+          "_id": "69646131138cc47cbd765268",
+          "name": "Roy Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69646131138cc47cbd765269",
+          "name": "Deepak Gopinath",
+          "hidden": false
+        },
+        {
+          "_id": "69646131138cc47cbd76526a",
+          "name": "David Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "69646131138cc47cbd76526b",
+          "name": "Dong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69646131138cc47cbd76526c",
+          "name": "Haitian Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69646131138cc47cbd76526d",
+          "name": "Saloni Potdar",
+          "hidden": false
+        },
+        {
+          "_id": "69646131138cc47cbd76526e",
+          "name": "Bhuwan Dhingra",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-09T03:24:46.000Z",
+      "submittedOnDailyAt": "2026-01-12T00:19:38.713Z",
+      "title": "Over-Searching in Search-Augmented Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Search-augmented large language models (LLMs) excel at knowledge-intensive tasks by integrating external retrieval. However, they often over-search -- unnecessarily invoking search tool even when it does not improve response quality, which leads to computational inefficiency and hallucinations by incorporating irrelevant context. In this work, we conduct a systematic evaluation of over-searching across multiple dimensions, including query types, model categories, retrieval conditions, and multi-turn conversations. Our finding shows: (i) search generally improves answer accuracy on answerable queries but harms abstention on unanswerable ones; (ii) over-searching is more pronounced in complex reasoning models and deep research systems, is exacerbated by noisy retrieval, and compounds across turns in multi-turn conversations; and (iii) the composition of retrieved evidence is crucial, as the presence of negative evidence improves abstention. To quantify over-searching, we introduce Tokens Per Correctness (TPC), an evaluation metric that captures the performance-cost trade-off for search-augmented LLMs. Lastly, we investigate mitigation approaches at both the query and retrieval levels and release the OverSearchQA to foster continued research into efficient search-augmented LLMs.",
+      "upvotes": 0,
+      "discussionId": "69646131138cc47cbd76526f",
+      "ai_summary": "Search-augmented large language models suffer from over-searching behavior that wastes computational resources and introduces hallucinations, with findings showing varied impacts across model types and conversation contexts.",
+      "ai_keywords": [
+        "search-augmented large language models",
+        "over-searching",
+        "retrieval",
+        "hallucinations",
+        "Tokens Per Correctness",
+        "multi-turn conversations",
+        "answerable queries",
+        "unanswerable queries",
+        "complex reasoning models",
+        "deep research systems",
+        "noisy retrieval",
+        "negative evidence"
+      ],
+      "organization": {
+        "_id": "628cbd99ef14f971b69948ab",
+        "name": "apple",
+        "fullname": "Apple",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1653390727490-5dd96eb166059660ed1ee413.jpeg"
+      }
+    },
+    "publishedAt": "2026-01-08T22:24:46.000Z",
+    "title": "Over-Searching in Search-Augmented Large Language Models",
+    "summary": "Search-augmented large language models (LLMs) excel at knowledge-intensive tasks by integrating external retrieval. However, they often over-search -- unnecessarily invoking search tool even when it does not improve response quality, which leads to computational inefficiency and hallucinations by incorporating irrelevant context. In this work, we conduct a systematic evaluation of over-searching across multiple dimensions, including query types, model categories, retrieval conditions, and multi-turn conversations. Our finding shows: (i) search generally improves answer accuracy on answerable queries but harms abstention on unanswerable ones; (ii) over-searching is more pronounced in complex reasoning models and deep research systems, is exacerbated by noisy retrieval, and compounds across turns in multi-turn conversations; and (iii) the composition of retrieved evidence is crucial, as the presence of negative evidence improves abstention. To quantify over-searching, we introduce Tokens Per Correctness (TPC), an evaluation metric that captures the performance-cost trade-off for search-augmented LLMs. Lastly, we investigate mitigation approaches at both the query and retrieval levels and release the OverSearchQA to foster continued research into efficient search-augmented LLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.05503.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 206,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "628cbd99ef14f971b69948ab",
+      "name": "apple",
+      "fullname": "Apple",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1653390727490-5dd96eb166059660ed1ee413.jpeg"
+    },
+    "isAuthorParticipating": false
+  }
+]
