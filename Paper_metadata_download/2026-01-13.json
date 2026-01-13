@@ -1,0 +1,113 @@
+[
+  {
+    "paper": {
+      "id": "2601.06165",
+      "authors": [
+        {
+          "_id": "6965ae99fc8c4ecc02c7f867",
+          "name": "Dasol Choi",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f868",
+          "name": "Guijin Son",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f869",
+          "name": "Hanwool Lee",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f86a",
+          "name": "Minhyuk Kim",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f86b",
+          "name": "Hyunwoo Ko",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f86c",
+          "name": "Teabin Lim",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f86d",
+          "name": "Ahn Eungyeol",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f86e",
+          "name": "Jungwhan Kim",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f86f",
+          "name": "Seunghyeok Hong",
+          "hidden": false
+        },
+        {
+          "_id": "6965ae99fc8c4ecc02c7f870",
+          "name": "Youngsook Song",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-07T02:33:03.000Z",
+      "submittedOnDailyAt": "2026-01-13T00:16:35.620Z",
+      "title": "What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models",
+      "submittedOnDailyBy": {
+        "_id": "66120647cac232c1507e13da",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66120647cac232c1507e13da/iOBrsyr2mVdVLAFF6pZt6.png",
+        "isPro": false,
+        "fullname": "DasolChoi",
+        "user": "Dasool",
+        "type": "user"
+      },
+      "summary": "Current vision-language benchmarks predominantly feature well-structured questions with clear, explicit prompts. However, real user queries are often informal and underspecified. Users naturally leave much unsaid, relying on images to convey context. We introduce HAERAE-Vision, a benchmark of 653 real-world visual questions from Korean online communities (0.76% survival from 86K candidates), each paired with an explicit rewrite, yielding 1,306 query variants in total. Evaluating 39 VLMs, we find that even state-of-the-art models (GPT-5, Gemini 2.5 Pro) achieve under 50% on the original queries. Crucially, query explicitation alone yields 8 to 22 point improvements, with smaller models benefiting most. We further show that even with web search, under-specified queries underperform explicit queries without search, revealing that current retrieval cannot compensate for what users leave unsaid. Our findings demonstrate that a substantial portion of VLM difficulty stem from natural query under-specification instead of model capability, highlighting a critical gap between benchmark evaluation and real-world deployment.",
+      "upvotes": 2,
+      "discussionId": "6965ae99fc8c4ecc02c7f871",
+      "ai_summary": "Real-world vision-language benchmarks reveal that under-specified user queries pose significant challenges for current models, with explicit query rewriting leading to substantial performance improvements.",
+      "ai_keywords": [
+        "vision-language models",
+        "query explicitation",
+        "real-world benchmarks",
+        "visual questions",
+        "user queries",
+        "retrieval systems"
+      ],
+      "organization": {
+        "_id": "645ae5e85e6871b4b2d6bd80",
+        "name": "HAERAE-HUB",
+        "fullname": "HAE-RAE",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60d3e619b8448e1785bbda2a/zasfyk1U_yRBgrluB6ggc.png"
+      }
+    },
+    "publishedAt": "2026-01-06T21:33:03.000Z",
+    "title": "What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models",
+    "summary": "Current vision-language benchmarks predominantly feature well-structured questions with clear, explicit prompts. However, real user queries are often informal and underspecified. Users naturally leave much unsaid, relying on images to convey context. We introduce HAERAE-Vision, a benchmark of 653 real-world visual questions from Korean online communities (0.76% survival from 86K candidates), each paired with an explicit rewrite, yielding 1,306 query variants in total. Evaluating 39 VLMs, we find that even state-of-the-art models (GPT-5, Gemini 2.5 Pro) achieve under 50% on the original queries. Crucially, query explicitation alone yields 8 to 22 point improvements, with smaller models benefiting most. We further show that even with web search, under-specified queries underperform explicit queries without search, revealing that current retrieval cannot compensate for what users leave unsaid. Our findings demonstrate that a substantial portion of VLM difficulty stem from natural query under-specification instead of model capability, highlighting a critical gap between benchmark evaluation and real-world deployment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.06165.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66120647cac232c1507e13da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66120647cac232c1507e13da/iOBrsyr2mVdVLAFF6pZt6.png",
+      "fullname": "DasolChoi",
+      "name": "Dasool",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "645ae5e85e6871b4b2d6bd80",
+      "name": "HAERAE-HUB",
+      "fullname": "HAE-RAE",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60d3e619b8448e1785bbda2a/zasfyk1U_yRBgrluB6ggc.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
