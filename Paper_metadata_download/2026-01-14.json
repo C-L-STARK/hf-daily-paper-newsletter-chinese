@@ -1,0 +1,831 @@
+[
+  {
+    "paper": {
+      "id": "2601.08584",
+      "authors": [
+        {
+          "_id": "6967031ec5e371f6b235d068",
+          "name": "Alexander H. Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d069",
+          "name": "Kartik Khandelwal",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d06a",
+          "name": "Sandeep Subramanian",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d06b",
+          "name": "Victor Jouault",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d06c",
+          "name": "Abhinav Rastogi",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d06d",
+          "name": "Adrien Sadé",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d06e",
+          "name": "Alan Jeffares",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d06f",
+          "name": "Albert Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d070",
+          "name": "Alexandre Cahill",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d071",
+          "name": "Alexandre Gavaudan",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d072",
+          "name": "Alexandre Sablayrolles",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d073",
+          "name": "Amélie Héliou",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d074",
+          "name": "Amos You",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d075",
+          "name": "Andy Ehrenberg",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d076",
+          "name": "Andy Lo",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d077",
+          "name": "Anton Eliseev",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d078",
+          "name": "Antonia Calvi",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d079",
+          "name": "Avinash Sooriyarachchi",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d07a",
+          "name": "Baptiste Bout",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d07b",
+          "name": "Baptiste Rozière",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d07c",
+          "name": "Baudouin De Monicault",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d07d",
+          "name": "Clémence Lanfranchi",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d07e",
+          "name": "Corentin Barreau",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d07f",
+          "name": "Cyprien Courtot",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d080",
+          "name": "Daniele Grattarola",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d081",
+          "name": "Darius Dabert",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d082",
+          "name": "Diego de las Casas",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d083",
+          "name": "Elliot Chane-Sane",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d084",
+          "name": "Faruk Ahmed",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d085",
+          "name": "Gabrielle Berrada",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d086",
+          "name": "Gaëtan Ecrepont",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d087",
+          "name": "Gauthier Guinet",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d088",
+          "name": "Georgii Novikov",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d089",
+          "name": "Guillaume Kunsch",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d08a",
+          "name": "Guillaume Lample",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d08b",
+          "name": "Guillaume Martin",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d08c",
+          "name": "Gunshi Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d08d",
+          "name": "Jan Ludziejewski",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d08e",
+          "name": "Jason Rute",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d08f",
+          "name": "Joachim Studnia",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d090",
+          "name": "Jonas Amar",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d091",
+          "name": "Joséphine Delas",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d092",
+          "name": "Josselin Somerville Roberts",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d093",
+          "name": "Karmesh Yadav",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d094",
+          "name": "Khyathi Chandu",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d095",
+          "name": "Kush Jain",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d096",
+          "name": "Laurence Aitchison",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d097",
+          "name": "Laurent Fainsin",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d098",
+          "name": "Léonard Blier",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d099",
+          "name": "Lingxiao Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d09a",
+          "name": "Louis Martin",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d09b",
+          "name": "Lucile Saulnier",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d09c",
+          "name": "Luyu Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d09d",
+          "name": "Maarten Buyl",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d09e",
+          "name": "Margaret Jennings",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d09f",
+          "name": "Marie Pellat",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a0",
+          "name": "Mark Prins",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a1",
+          "name": "Mathieu Poirée",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a2",
+          "name": "Mathilde Guillaumin",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a3",
+          "name": "Matthieu Dinot",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a4",
+          "name": "Matthieu Futeral",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a5",
+          "name": "Maxime Darrin",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a6",
+          "name": "Maximilian Augustin",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a7",
+          "name": "Mia Chiquier",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a8",
+          "name": "Michel Schimpf",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0a9",
+          "name": "Nathan Grinsztajn",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0aa",
+          "name": "Neha Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0ab",
+          "name": "Nikhil Raghuraman",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0ac",
+          "name": "Olivier Bousquet",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0ad",
+          "name": "Olivier Duchenne",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0ae",
+          "name": "Patricia Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0af",
+          "name": "Patrick von Platen",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b0",
+          "name": "Paul Jacob",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b1",
+          "name": "Paul Wambergue",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b2",
+          "name": "Paula Kurylowicz",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b3",
+          "name": "Pavankumar Reddy Muddireddy",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b4",
+          "name": "Philomène Chagniot",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b5",
+          "name": "Pierre Stock",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b6",
+          "name": "Pravesh Agrawal",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b7",
+          "name": "Quentin Torroba",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b8",
+          "name": "Romain Sauvestre",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0b9",
+          "name": "Roman Soletskyi",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0ba",
+          "name": "Rupert Menneer",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0bb",
+          "name": "Sagar Vaze",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0bc",
+          "name": "Samuel Barry",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0bd",
+          "name": "Sanchit Gandhi",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0be",
+          "name": "Siddhant Waghjale",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0bf",
+          "name": "Siddharth Gandhi",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c0",
+          "name": "Soham Ghosh",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c1",
+          "name": "Srijan Mishra",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c2",
+          "name": "Sumukh Aithal",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c3",
+          "name": "Szymon Antoniak",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c4",
+          "name": "Teven Le Scao",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c5",
+          "name": "Théo Cachet",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c6",
+          "name": "Theo Simon Sorg",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c7",
+          "name": "Thibaut Lavril",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c8",
+          "name": "Thiziri Nait Saada",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0c9",
+          "name": "Thomas Chabal",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0ca",
+          "name": "Thomas Foubert",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0cb",
+          "name": "Thomas Robert",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0cc",
+          "name": "Thomas Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0cd",
+          "name": "Tim Lawson",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0ce",
+          "name": "Tom Bewley",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0cf",
+          "name": "Tom Bewley",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d0",
+          "name": "Tom Edwards",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d1",
+          "name": "Umar Jamil",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d2",
+          "name": "Umberto Tomasini",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d3",
+          "name": "Valeriia Nemychnikova",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d4",
+          "name": "Van Phung",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d5",
+          "name": "Vincent Maladière",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d6",
+          "name": "Virgile Richard",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d7",
+          "name": "Wassim Bouaziz",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d8",
+          "name": "Wen-Ding Li",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0d9",
+          "name": "William Marshall",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0da",
+          "name": "Xinghui Li",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0db",
+          "name": "Xinyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0dc",
+          "name": "Yassine El Ouahidi",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0dd",
+          "name": "Yihan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0de",
+          "name": "Yunhao Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6967031ec5e371f6b235d0df",
+          "name": "Zaccharie Ramzi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-13T14:06:03.000Z",
+      "submittedOnDailyAt": "2026-01-14T00:14:55.855Z",
+      "title": "Ministral 3",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for general-purpose use, an instruction finetuned, and a reasoning model for complex problem-solving. In addition, we present our recipe to derive the Ministral 3 models through Cascade Distillation, an iterative pruning and continued training with distillation technique. Each model comes with image understanding capabilities, all under the Apache 2.0 license.",
+      "upvotes": 1,
+      "discussionId": "6967031ec5e371f6b235d0e0",
+      "ai_summary": "The Ministral 3 series consists of parameter-efficient dense language models with three sizes (3B, 8B, 14B) and three variants per size, trained using cascade distillation for compute-constrained applications.",
+      "ai_keywords": [
+        "parameter-efficient dense language models",
+        "cascade distillation",
+        "iterative pruning",
+        "continued training",
+        "distillation technique",
+        "instruction finetuned",
+        "reasoning model",
+        "image understanding capabilities"
+      ],
+      "organization": {
+        "_id": "64edf4004f42c35eea1b1632",
+        "name": "mistralai",
+        "fullname": "Mistral AI_",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png"
+      }
+    },
+    "publishedAt": "2026-01-13T09:06:03.000Z",
+    "title": "Ministral 3",
+    "summary": "We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for general-purpose use, an instruction finetuned, and a reasoning model for complex problem-solving. In addition, we present our recipe to derive the Ministral 3 models through Cascade Distillation, an iterative pruning and continued training with distillation technique. Each model comes with image understanding capabilities, all under the Apache 2.0 license.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.08584.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 207,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "name": "mistralai",
+      "fullname": "Mistral AI_",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.08587",
+      "authors": [
+        {
+          "_id": "696705cec5e371f6b235d0f4",
+          "name": "Zhengbo Xu",
+          "hidden": false
+        },
+        {
+          "_id": "696705cec5e371f6b235d0f5",
+          "name": "Jie Ma",
+          "hidden": false
+        },
+        {
+          "_id": "696705cec5e371f6b235d0f6",
+          "name": "Ziheng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "696705cec5e371f6b235d0f7",
+          "name": "Zhan Peng",
+          "hidden": false
+        },
+        {
+          "_id": "696705cec5e371f6b235d0f8",
+          "name": "Jun Liang",
+          "hidden": false
+        },
+        {
+          "_id": "696705cec5e371f6b235d0f9",
+          "name": "Jing Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-13T14:10:34.000Z",
+      "submittedOnDailyAt": "2026-01-14T00:27:48.852Z",
+      "title": "End-to-End Video Character Replacement without Structural Guidance",
+      "submittedOnDailyBy": {
+        "_id": "640d3eaa3623f6a56dde856d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678589663024-640d3eaa3623f6a56dde856d.jpeg",
+        "isPro": true,
+        "fullname": "vansin",
+        "user": "vansin",
+        "type": "user"
+      },
+      "summary": "Controllable video character replacement with a user-provided identity remains a challenging problem due to the lack of paired video data. Prior works have predominantly relied on a reconstruction-based paradigm that requires per-frame segmentation masks and explicit structural guidance (e.g., skeleton, depth). This reliance, however, severely limits their generalizability in complex scenarios involving occlusions, character-object interactions, unusual poses, or challenging illumination, often leading to visual artifacts and temporal inconsistencies. In this paper, we propose MoCha, a pioneering framework that bypasses these limitations by requiring only a single arbitrary frame mask. To effectively adapt the multi-modal input condition and enhance facial identity, we introduce a condition-aware RoPE and employ an RL-based post-training stage. Furthermore, to overcome the scarcity of qualified paired-training data, we propose a comprehensive data construction pipeline. Specifically, we design three specialized datasets: a high-fidelity rendered dataset built with Unreal Engine 5 (UE5), an expression-driven dataset synthesized by current portrait animation techniques, and an augmented dataset derived from existing video-mask pairs. Extensive experiments demonstrate that our method substantially outperforms existing state-of-the-art approaches. We will release the code to facilitate further research. Please refer to our project page for more details: orange-3dv-team.github.io/MoCha",
+      "upvotes": 0,
+      "discussionId": "696705cfc5e371f6b235d0fa",
+      "ai_summary": "MoCha enables controllable video character replacement using a single frame mask through condition-aware RoPE and a comprehensive data construction pipeline with specialized datasets.",
+      "ai_keywords": [
+        "controllable video character replacement",
+        "reconstruction-based paradigm",
+        "per-frame segmentation masks",
+        "structural guidance",
+        "facial identity",
+        "condition-aware RoPE",
+        "RL-based post-training",
+        "data construction pipeline",
+        "high-fidelity rendered dataset",
+        "expression-driven dataset",
+        "augmented dataset"
+      ]
+    },
+    "publishedAt": "2026-01-13T09:10:34.000Z",
+    "title": "End-to-End Video Character Replacement without Structural Guidance",
+    "summary": "Controllable video character replacement with a user-provided identity remains a challenging problem due to the lack of paired video data. Prior works have predominantly relied on a reconstruction-based paradigm that requires per-frame segmentation masks and explicit structural guidance (e.g., skeleton, depth). This reliance, however, severely limits their generalizability in complex scenarios involving occlusions, character-object interactions, unusual poses, or challenging illumination, often leading to visual artifacts and temporal inconsistencies. In this paper, we propose MoCha, a pioneering framework that bypasses these limitations by requiring only a single arbitrary frame mask. To effectively adapt the multi-modal input condition and enhance facial identity, we introduce a condition-aware RoPE and employ an RL-based post-training stage. Furthermore, to overcome the scarcity of qualified paired-training data, we propose a comprehensive data construction pipeline. Specifically, we design three specialized datasets: a high-fidelity rendered dataset built with Unreal Engine 5 (UE5), an expression-driven dataset synthesized by current portrait animation techniques, and an augmented dataset derived from existing video-mask pairs. Extensive experiments demonstrate that our method substantially outperforms existing state-of-the-art approaches. We will release the code to facilitate further research. Please refer to our project page for more details: orange-3dv-team.github.io/MoCha",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.08587.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "640d3eaa3623f6a56dde856d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678589663024-640d3eaa3623f6a56dde856d.jpeg",
+      "fullname": "vansin",
+      "name": "vansin",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 35,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.08468",
+      "authors": [
+        {
+          "_id": "69670378c5e371f6b235d0e2",
+          "name": "Jiangshan Duo",
+          "hidden": false
+        },
+        {
+          "_id": "69670378c5e371f6b235d0e3",
+          "name": "Hanyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "69670378c5e371f6b235d0e4",
+          "name": "Hailin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69670378c5e371f6b235d0e5",
+          "name": "Yudong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69670378c5e371f6b235d0e6",
+          "name": "Sujian Li",
+          "hidden": false
+        },
+        {
+          "_id": "69670378c5e371f6b235d0e7",
+          "name": "Liang Zhao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-13T11:47:42.000Z",
+      "submittedOnDailyAt": "2026-01-14T00:16:30.844Z",
+      "title": "JudgeRLVR: Judge First, Generate Second for Efficient Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has become a standard paradigm for reasoning in Large Language Models. However, optimizing solely for final-answer correctness often drives models into aimless, verbose exploration, where they rely on exhaustive trial-and-error tactics rather than structured planning to reach solutions. While heuristic constraints like length penalties can reduce verbosity, they often truncate essential reasoning steps, creating a difficult trade-off between efficiency and verification. In this paper, we argue that discriminative capability is a prerequisite for efficient generation: by learning to distinguish valid solutions, a model can internalize a guidance signal that prunes the search space. We propose JudgeRLVR, a two-stage judge-then-generate paradigm. In the first stage, we train the model to judge solution responses with verifiable answers. In the second stage, we fine-tune the same model with vanilla generating RLVR initialized from the judge. Compared to Vanilla RLVR using the same math-domain training data, JudgeRLVR achieves a better quality--efficiency trade-off for Qwen3-30B-A3B: on in-domain math, it delivers about +3.7 points average accuracy gain with -42\\% average generation length; on out-of-domain benchmarks, it delivers about +4.5 points average accuracy improvement, demonstrating enhanced generalization.",
+      "upvotes": 0,
+      "discussionId": "69670378c5e371f6b235d0e8",
+      "ai_summary": "Reinforcement learning with verifiable rewards is enhanced through a judge-then-generate paradigm that improves both efficiency and accuracy in mathematical problem-solving.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "verifiable rewards",
+        "large language models",
+        "discriminative capability",
+        "judge-then-generate paradigm",
+        "fine-tuning",
+        "vanilla RLVR",
+        "Qwen3-30B-A3B",
+        "mathematical problem-solving"
+      ]
+    },
+    "publishedAt": "2026-01-13T06:47:42.000Z",
+    "title": "JudgeRLVR: Judge First, Generate Second for Efficient Reasoning",
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has become a standard paradigm for reasoning in Large Language Models. However, optimizing solely for final-answer correctness often drives models into aimless, verbose exploration, where they rely on exhaustive trial-and-error tactics rather than structured planning to reach solutions. While heuristic constraints like length penalties can reduce verbosity, they often truncate essential reasoning steps, creating a difficult trade-off between efficiency and verification. In this paper, we argue that discriminative capability is a prerequisite for efficient generation: by learning to distinguish valid solutions, a model can internalize a guidance signal that prunes the search space. We propose JudgeRLVR, a two-stage judge-then-generate paradigm. In the first stage, we train the model to judge solution responses with verifiable answers. In the second stage, we fine-tune the same model with vanilla generating RLVR initialized from the judge. Compared to Vanilla RLVR using the same math-domain training data, JudgeRLVR achieves a better quality--efficiency trade-off for Qwen3-30B-A3B: on in-domain math, it delivers about +3.7 points average accuracy gain with -42\\% average generation length; on out-of-domain benchmarks, it delivers about +4.5 points average accuracy improvement, demonstrating enhanced generalization.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.08468.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 207,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
