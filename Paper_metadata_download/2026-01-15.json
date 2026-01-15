@@ -1,0 +1,410 @@
+[
+  {
+    "paper": {
+      "id": "2601.09708",
+      "authors": [
+        {
+          "_id": "69684f740ac10a06522f69ba",
+          "name": "Chi-Pin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69684f740ac10a06522f69bb",
+          "name": "Yunze Man",
+          "hidden": false
+        },
+        {
+          "_id": "69684f740ac10a06522f69bc",
+          "name": "Zhiding Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69684f740ac10a06522f69bd",
+          "name": "Min-Hung Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69684f740ac10a06522f69be",
+          "name": "Jan Kautz",
+          "hidden": false
+        },
+        {
+          "_id": "69684f740ac10a06522f69bf",
+          "name": "Yu-Chiang Frank Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69684f740ac10a06522f69c0",
+          "name": "Fu-En Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-14T18:59:59.000Z",
+      "submittedOnDailyAt": "2026-01-15T00:10:27.528Z",
+      "title": "Fast-ThinkAct: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning",
+      "submittedOnDailyBy": {
+        "_id": "64705d224be5cf1f3348d6bc",
+        "avatarUrl": "/avatars/270bff7c7cb326528dc192fc38561a8b.svg",
+        "isPro": false,
+        "fullname": "Chi-Pin Huang",
+        "user": "jasper0314-huang",
+        "type": "user"
+      },
+      "summary": "Vision-Language-Action (VLA) tasks require reasoning over complex visual scenes and executing adaptive actions in dynamic environments. While recent studies on reasoning VLAs show that explicit chain-of-thought (CoT) can improve generalization, they suffer from high inference latency due to lengthy reasoning traces. We propose Fast-ThinkAct, an efficient reasoning framework that achieves compact yet performant planning through verbalizable latent reasoning. Fast-ThinkAct learns to reason efficiently with latent CoTs by distilling from a teacher, driven by a preference-guided objective to align manipulation trajectories that transfers both linguistic and visual planning capabilities for embodied control. This enables reasoning-enhanced policy learning that effectively connects compact reasoning to action execution. Extensive experiments across diverse embodied manipulation and reasoning benchmarks demonstrate that Fast-ThinkAct achieves strong performance with up to 89.3\\% reduced inference latency over state-of-the-art reasoning VLAs, while maintaining effective long-horizon planning, few-shot adaptation, and failure recovery.",
+      "upvotes": 6,
+      "discussionId": "69684f740ac10a06522f69c1",
+      "projectPage": "https://jasper0314-huang.github.io/fast-thinkact/",
+      "ai_summary": "Fast-ThinkAct is an efficient vision-language-action framework that reduces inference latency by 89.3% through compact latent reasoning while maintaining long-horizon planning and few-shot adaptation capabilities.",
+      "ai_keywords": [
+        "chain-of-thought",
+        "latent reasoning",
+        "preference-guided objective",
+        "embodied control",
+        "policy learning",
+        "inference latency",
+        "vision-language-action"
+      ],
+      "organization": {
+        "_id": "60262b67268c201cdc8b7d43",
+        "name": "nvidia",
+        "fullname": "NVIDIA",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+      }
+    },
+    "publishedAt": "2026-01-14T13:59:59.000Z",
+    "title": "Fast-ThinkAct: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning",
+    "summary": "Vision-Language-Action (VLA) tasks require reasoning over complex visual scenes and executing adaptive actions in dynamic environments. While recent studies on reasoning VLAs show that explicit chain-of-thought (CoT) can improve generalization, they suffer from high inference latency due to lengthy reasoning traces. We propose Fast-ThinkAct, an efficient reasoning framework that achieves compact yet performant planning through verbalizable latent reasoning. Fast-ThinkAct learns to reason efficiently with latent CoTs by distilling from a teacher, driven by a preference-guided objective to align manipulation trajectories that transfers both linguistic and visual planning capabilities for embodied control. This enables reasoning-enhanced policy learning that effectively connects compact reasoning to action execution. Extensive experiments across diverse embodied manipulation and reasoning benchmarks demonstrate that Fast-ThinkAct achieves strong performance with up to 89.3\\% reduced inference latency over state-of-the-art reasoning VLAs, while maintaining effective long-horizon planning, few-shot adaptation, and failure recovery.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.09708.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64705d224be5cf1f3348d6bc",
+      "avatarUrl": "/avatars/270bff7c7cb326528dc192fc38561a8b.svg",
+      "fullname": "Chi-Pin Huang",
+      "name": "jasper0314-huang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "name": "nvidia",
+      "fullname": "NVIDIA",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.09274",
+      "authors": [
+        {
+          "_id": "6968568f0ac10a06522f69e9",
+          "name": "Jian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6968568f0ac10a06522f69ea",
+          "name": "Yu He",
+          "hidden": false
+        },
+        {
+          "_id": "6968568f0ac10a06522f69eb",
+          "name": "Zhiyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6968568f0ac10a06522f69ec",
+          "name": "Zhangqi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6968568f0ac10a06522f69ed",
+          "name": "Kai He",
+          "hidden": false
+        },
+        {
+          "_id": "6968568f0ac10a06522f69ee",
+          "name": "Fangzhi Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6968568f0ac10a06522f69ef",
+          "name": "Qika Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6968568f0ac10a06522f69f0",
+          "name": "Jun Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-14T08:17:41.000Z",
+      "submittedOnDailyAt": "2026-01-15T00:23:45.077Z",
+      "title": "A^3-Bench: Benchmarking Memory-Driven Scientific Reasoning via Anchor and Attractor Activation",
+      "submittedOnDailyBy": {
+        "_id": "658be7fe135580745c510323",
+        "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+        "isPro": false,
+        "fullname": "Jian Zhang",
+        "user": "VentureZJ",
+        "type": "user"
+      },
+      "summary": "Scientific reasoning relies not only on logical inference but also on activating prior knowledge and experiential structures. Memory can efficiently reuse knowledge and enhance reasoning consistency and stability. However, existing benchmarks mainly evaluate final answers or step-by-step coherence, overlooking the memory-driven mechanisms that underlie human reasoning, which involves activating anchors and attractors, then integrating them into multi-step inference. To address this gap, we propose A^3-Bench~ https://a3-bench.github.io, a benchmark designed to evaluate scientific reasoning through dual-scale memory-driven activation, grounded in Anchor and Attractor Activation. First, we annotate 2,198 science reasoning problems across domains using the SAPM process(subject, anchor & attractor, problem, and memory developing). Second, we introduce a dual-scale memory evaluation framework utilizing anchors and attractors, along with the AAUI(Anchor--Attractor Utilization Index) metric to measure memory activation rates. Finally, through experiments with various base models and paradigms, we validate A^3-Bench and analyze how memory activation impacts reasoning performance, providing insights into memory-driven scientific reasoning.",
+      "upvotes": 1,
+      "discussionId": "6968568f0ac10a06522f69f1"
+    },
+    "publishedAt": "2026-01-14T03:17:41.000Z",
+    "title": "A^3-Bench: Benchmarking Memory-Driven Scientific Reasoning via Anchor and Attractor Activation",
+    "summary": "Scientific reasoning relies not only on logical inference but also on activating prior knowledge and experiential structures. Memory can efficiently reuse knowledge and enhance reasoning consistency and stability. However, existing benchmarks mainly evaluate final answers or step-by-step coherence, overlooking the memory-driven mechanisms that underlie human reasoning, which involves activating anchors and attractors, then integrating them into multi-step inference. To address this gap, we propose A^3-Bench~ https://a3-bench.github.io, a benchmark designed to evaluate scientific reasoning through dual-scale memory-driven activation, grounded in Anchor and Attractor Activation. First, we annotate 2,198 science reasoning problems across domains using the SAPM process(subject, anchor & attractor, problem, and memory developing). Second, we introduce a dual-scale memory evaluation framework utilizing anchors and attractors, along with the AAUI(Anchor--Attractor Utilization Index) metric to measure memory activation rates. Finally, through experiments with various base models and paradigms, we validate A^3-Bench and analyze how memory activation impacts reasoning performance, providing insights into memory-driven scientific reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.09274.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "658be7fe135580745c510323",
+      "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+      "fullname": "Jian Zhang",
+      "name": "VentureZJ",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.09259",
+      "authors": [
+        {
+          "_id": "696856230ac10a06522f69dd",
+          "name": "Jian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69de",
+          "name": "Zhiyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69df",
+          "name": "Zhangqi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69e0",
+          "name": "Yu He",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69e1",
+          "name": "Haoran Luo",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69e2",
+          "name": "li yuan",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69e3",
+          "name": "Lingling Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69e4",
+          "name": "Rui Mao",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69e5",
+          "name": "Qika Lin",
+          "hidden": false
+        },
+        {
+          "_id": "696856230ac10a06522f69e6",
+          "name": "Jun Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-14T07:48:00.000Z",
+      "submittedOnDailyAt": "2026-01-15T00:22:01.292Z",
+      "title": "MAXS: Meta-Adaptive Exploration with LLM Agents",
+      "submittedOnDailyBy": {
+        "_id": "658be7fe135580745c510323",
+        "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+        "isPro": false,
+        "fullname": "Jian Zhang",
+        "user": "VentureZJ",
+        "type": "user"
+      },
+      "summary": "Large Language Model (LLM) Agents exhibit inherent reasoning abilities through the collaboration of multiple tools. However, during agent inference, existing methods often suffer from (i) locally myopic generation, due to the absence of lookahead, and (ii) trajectory instability, where minor early errors can escalate into divergent reasoning paths. These issues make it difficult to balance global effectiveness and computational efficiency. To address these two issues, we propose meta-adaptive exploration with LLM agents https://github.com/exoskeletonzj/MAXS, a meta-adaptive reasoning framework based on LLM Agents that flexibly integrates tool execution and reasoning planning. MAXS employs a lookahead strategy to extend reasoning paths a few steps ahead, estimating the advantage value of tool usage, and combines step consistency variance and inter-step trend slopes to jointly select stable, consistent, and high-value reasoning steps. Additionally, we introduce a trajectory convergence mechanism that controls computational cost by halting further rollouts once path consistency is achieved, enabling a balance between resource efficiency and global effectiveness in multi-tool reasoning. We conduct extensive empirical studies across three base models (MiMo-VL-7B, Qwen2.5-VL-7B, Qwen2.5-VL-32B) and five datasets, demonstrating that MAXS consistently outperforms existing methods in both performance and inference efficiency. Further analysis confirms the effectiveness of our lookahead strategy and tool usage.",
+      "upvotes": 1,
+      "discussionId": "696856230ac10a06522f69e7",
+      "ai_summary": "MAXS is a meta-adaptive reasoning framework for LLM agents that improves multi-tool reasoning through lookahead strategies and trajectory convergence mechanisms, balancing global effectiveness and computational efficiency.",
+      "ai_keywords": [
+        "LLM agents",
+        "tool execution",
+        "reasoning planning",
+        "lookahead strategy",
+        "advantage value",
+        "step consistency variance",
+        "inter-step trend slopes",
+        "trajectory convergence",
+        "multi-tool reasoning",
+        "inference efficiency"
+      ]
+    },
+    "publishedAt": "2026-01-14T02:48:00.000Z",
+    "title": "MAXS: Meta-Adaptive Exploration with LLM Agents",
+    "summary": "Large Language Model (LLM) Agents exhibit inherent reasoning abilities through the collaboration of multiple tools. However, during agent inference, existing methods often suffer from (i) locally myopic generation, due to the absence of lookahead, and (ii) trajectory instability, where minor early errors can escalate into divergent reasoning paths. These issues make it difficult to balance global effectiveness and computational efficiency. To address these two issues, we propose meta-adaptive exploration with LLM agents https://github.com/exoskeletonzj/MAXS, a meta-adaptive reasoning framework based on LLM Agents that flexibly integrates tool execution and reasoning planning. MAXS employs a lookahead strategy to extend reasoning paths a few steps ahead, estimating the advantage value of tool usage, and combines step consistency variance and inter-step trend slopes to jointly select stable, consistent, and high-value reasoning steps. Additionally, we introduce a trajectory convergence mechanism that controls computational cost by halting further rollouts once path consistency is achieved, enabling a balance between resource efficiency and global effectiveness in multi-tool reasoning. We conduct extensive empirical studies across three base models (MiMo-VL-7B, Qwen2.5-VL-7B, Qwen2.5-VL-32B) and five datasets, demonstrating that MAXS consistently outperforms existing methods in both performance and inference efficiency. Further analysis confirms the effectiveness of our lookahead strategy and tool usage.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.09259.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "658be7fe135580745c510323",
+      "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+      "fullname": "Jian Zhang",
+      "name": "VentureZJ",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.07348",
+      "authors": [
+        {
+          "_id": "696855610ac10a06522f69cf",
+          "name": "Tu Hu",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d0",
+          "name": "Ronghao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d1",
+          "name": "Shuo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d2",
+          "name": "Jianghao Yin",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d3",
+          "name": "Mou Xiao Feng",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d4",
+          "name": "Jingping Liu",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d5",
+          "name": "Shaolei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d6",
+          "name": "Wenqi Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d7",
+          "name": "Yuqi Fang",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d8",
+          "name": "Sen Hu",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69d9",
+          "name": "Yi Xu",
+          "hidden": false
+        },
+        {
+          "_id": "696855610ac10a06522f69da",
+          "name": "Huacan Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-12T09:23:13.000Z",
+      "submittedOnDailyAt": "2026-01-15T00:23:14.421Z",
+      "title": "Controlled Self-Evolution for Algorithmic Code Optimization",
+      "submittedOnDailyBy": {
+        "_id": "6603d56ab4344a2b07cd6d21",
+        "avatarUrl": "/avatars/1569bb60166532317c85e80da722ba1c.svg",
+        "isPro": false,
+        "fullname": "Huacan Wang",
+        "user": "Huacan-Wang",
+        "type": "user"
+      },
+      "summary": "Self-evolution methods enhance code generation through iterative \"generate-verify-refine\" cycles, yet existing approaches suffer from low exploration efficiency, failing to discover solutions with superior complexity within limited budgets. This inefficiency stems from initialization bias trapping evolution in poor solution regions, uncontrolled stochastic operations lacking feedback guidance, and insufficient experience utilization across tasks. To address these bottlenecks, we propose Controlled Self-Evolution (CSE), which consists of three key components. Diversified Planning Initialization generates structurally distinct algorithmic strategies for broad solution space coverage. Genetic Evolution replaces stochastic operations with feedback-guided mechanisms, enabling targeted mutation and compositional crossover. Hierarchical Evolution Memory captures both successful and failed experiences at inter-task and intra-task levels. Experiments on EffiBench-X demonstrate that CSE consistently outperforms all baselines across various LLM backbones. Furthermore, CSE achieves higher efficiency from early generations and maintains continuous improvement throughout evolution. Our code is publicly available at https://github.com/QuantaAlpha/EvoControl.",
+      "upvotes": 0,
+      "discussionId": "696855610ac10a06522f69db",
+      "ai_summary": "Controlled Self-Evolution method improves code generation through diversified initialization, feedback-guided genetic evolution, and hierarchical memory to enhance exploration efficiency and solution quality.",
+      "ai_keywords": [
+        "self-evolution methods",
+        "generate-verify-refine cycles",
+        "exploration efficiency",
+        "initialization bias",
+        "stochastic operations",
+        "feedback guidance",
+        "genetic evolution",
+        "targeted mutation",
+        "compositional crossover",
+        "hierarchical evolution memory",
+        "LLM backbones",
+        "EffiBench-X"
+      ],
+      "organization": {
+        "_id": "68b33ab6a9ed99140481cf44",
+        "name": "QuantaAlpha",
+        "fullname": "QuantaAlpha",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f7767fbd28622c9b9915e9/DRN8PvmnpKmn2MSLQ7qhF.jpeg"
+      }
+    },
+    "publishedAt": "2026-01-12T04:23:13.000Z",
+    "title": "Controlled Self-Evolution for Algorithmic Code Optimization",
+    "summary": "Self-evolution methods enhance code generation through iterative \"generate-verify-refine\" cycles, yet existing approaches suffer from low exploration efficiency, failing to discover solutions with superior complexity within limited budgets. This inefficiency stems from initialization bias trapping evolution in poor solution regions, uncontrolled stochastic operations lacking feedback guidance, and insufficient experience utilization across tasks. To address these bottlenecks, we propose Controlled Self-Evolution (CSE), which consists of three key components. Diversified Planning Initialization generates structurally distinct algorithmic strategies for broad solution space coverage. Genetic Evolution replaces stochastic operations with feedback-guided mechanisms, enabling targeted mutation and compositional crossover. Hierarchical Evolution Memory captures both successful and failed experiences at inter-task and intra-task levels. Experiments on EffiBench-X demonstrate that CSE consistently outperforms all baselines across various LLM backbones. Furthermore, CSE achieves higher efficiency from early generations and maintains continuous improvement throughout evolution. Our code is publicly available at https://github.com/QuantaAlpha/EvoControl.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.07348.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6603d56ab4344a2b07cd6d21",
+      "avatarUrl": "/avatars/1569bb60166532317c85e80da722ba1c.svg",
+      "fullname": "Huacan Wang",
+      "name": "Huacan-Wang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68b33ab6a9ed99140481cf44",
+      "name": "QuantaAlpha",
+      "fullname": "QuantaAlpha",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f7767fbd28622c9b9915e9/DRN8PvmnpKmn2MSLQ7qhF.jpeg"
+    },
+    "isAuthorParticipating": false
+  }
+]
