@@ -1,0 +1,116 @@
+[
+  {
+    "paper": {
+      "id": "2601.11969",
+      "authors": [
+        {
+          "_id": "69703c1fa8be625b19c2ae73",
+          "name": "Zecheng Tang",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae74",
+          "name": "Baibei Ji",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae75",
+          "name": "Ruoxi Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae76",
+          "name": "Haitian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae77",
+          "name": "WangJie You",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae78",
+          "name": "Zhang Yijun",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae79",
+          "name": "Wenpeng Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae7a",
+          "name": "Ji Qi",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae7b",
+          "name": "Juntao Li",
+          "hidden": false
+        },
+        {
+          "_id": "69703c1fa8be625b19c2ae7c",
+          "name": "Min Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-17T09:04:53.000Z",
+      "submittedOnDailyAt": "2026-01-21T00:11:34.112Z",
+      "title": "MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "64096ef79e9f790c905b846d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64096ef79e9f790c905b846d/hVzw656lXdzbCxTtnheud.jpeg",
+        "isPro": false,
+        "fullname": "Zecheng Tang",
+        "user": "ZetangForward",
+        "type": "user"
+      },
+      "summary": "Existing works increasingly adopt memory-centric mechanisms to process long contexts in a segment manner, and effective memory management is one of the key capabilities that enables large language models to effectively propagate information across the entire sequence. Therefore, leveraging reward models (RMs) to automatically and reliably evaluate memory quality is critical. In this work, we introduce MemoryRewardBench, the first benchmark to systematically study the ability of RMs to evaluate long-term memory management processes. MemoryRewardBench covers both long-context comprehension and long-form generation tasks, featuring 10 distinct settings with different memory management patterns, with context length ranging from 8K to 128K tokens. Evaluations on 13 cutting-edge RMs indicate a diminishing performance gap between open-source and proprietary models, with newer-generation models consistently outperforming their predecessors regardless of parameter count. We further expose the capabilities and fundamental limitations of current RMs in evaluating LLM memory management across diverse settings.",
+      "upvotes": 1,
+      "discussionId": "69703c1fa8be625b19c2ae7d",
+      "githubRepo": "https://github.com/LCM-Lab/MemRewardBench",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A benchmark called MemoryRewardBench is introduced to systematically evaluate reward models' ability to assess long-term memory management in large language models across various context lengths and memory patterns.",
+      "ai_keywords": [
+        "memory-centric mechanisms",
+        "long-context comprehension",
+        "long-form generation",
+        "reward models",
+        "MemoryRewardBench",
+        "memory management",
+        "large language models"
+      ],
+      "organization": {
+        "_id": "61f8e653129c9ff1b911293d",
+        "name": "SUDA",
+        "fullname": "Soochow University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643701821817-61f8e5934a8e5a275b2b3e5a.png"
+      }
+    },
+    "publishedAt": "2026-01-17T04:04:53.000Z",
+    "title": "MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models",
+    "summary": "Existing works increasingly adopt memory-centric mechanisms to process long contexts in a segment manner, and effective memory management is one of the key capabilities that enables large language models to effectively propagate information across the entire sequence. Therefore, leveraging reward models (RMs) to automatically and reliably evaluate memory quality is critical. In this work, we introduce MemoryRewardBench, the first benchmark to systematically study the ability of RMs to evaluate long-term memory management processes. MemoryRewardBench covers both long-context comprehension and long-form generation tasks, featuring 10 distinct settings with different memory management patterns, with context length ranging from 8K to 128K tokens. Evaluations on 13 cutting-edge RMs indicate a diminishing performance gap between open-source and proprietary models, with newer-generation models consistently outperforming their predecessors regardless of parameter count. We further expose the capabilities and fundamental limitations of current RMs in evaluating LLM memory management across diverse settings.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.11969.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64096ef79e9f790c905b846d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64096ef79e9f790c905b846d/hVzw656lXdzbCxTtnheud.jpeg",
+      "fullname": "Zecheng Tang",
+      "name": "ZetangForward",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "61f8e653129c9ff1b911293d",
+      "name": "SUDA",
+      "fullname": "Soochow University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643701821817-61f8e5934a8e5a275b2b3e5a.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
