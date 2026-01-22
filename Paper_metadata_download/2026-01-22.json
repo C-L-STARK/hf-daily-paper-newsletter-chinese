@@ -1,0 +1,392 @@
+[
+  {
+    "paper": {
+      "id": "2601.12538",
+      "authors": [
+        {
+          "_id": "6971913fc1c7409747bf9564",
+          "name": "Tianxin Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9565",
+          "name": "Ting-Wei Li",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9566",
+          "name": "Zhining Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9567",
+          "name": "Xuying Ning",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9568",
+          "name": "Ze Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9569",
+          "name": "Jiaru Zou",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf956a",
+          "name": "Zhichen Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf956b",
+          "name": "Ruizhong Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf956c",
+          "name": "Xiao Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf956d",
+          "name": "Dongqi Fu",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf956e",
+          "name": "Zihao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf956f",
+          "name": "Mengting Ai",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9570",
+          "name": "Duo Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9571",
+          "name": "Wenxuan Bao",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9572",
+          "name": "Yunzhe Li",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9573",
+          "name": "Gaotang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9574",
+          "name": "Cheng Qian",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9575",
+          "name": "Yu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9576",
+          "name": "Xiangru Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9577",
+          "name": "Yin Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9578",
+          "name": "Liri Fang",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9579",
+          "name": "Hui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf957a",
+          "name": "Xianfeng Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf957b",
+          "name": "Yuji Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf957c",
+          "name": "Chi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf957d",
+          "name": "Jiaxuan You",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf957e",
+          "name": "Heng Ji",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf957f",
+          "name": "Hanghang Tong",
+          "hidden": false
+        },
+        {
+          "_id": "6971913fc1c7409747bf9580",
+          "name": "Jingrui He",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-18T18:58:23.000Z",
+      "submittedOnDailyAt": "2026-01-22T00:27:25.162Z",
+      "title": "Agentic Reasoning for Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "65c288280aa2d53135734a42",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c288280aa2d53135734a42/5WHmau52EaRS01TOMI3Qg.jpeg",
+        "isPro": false,
+        "fullname": "Jiaru Zou",
+        "user": "jiaruz2",
+        "type": "user"
+      },
+      "summary": "Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.",
+      "upvotes": 15,
+      "discussionId": "69719140c1c7409747bf9581",
+      "githubRepo": "https://github.com/weitianxin/Awesome-Agentic-Reasoning",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Agentic reasoning redefines large language models as autonomous agents capable of planning, acting, and learning through continuous interaction in dynamic environments across single-agent and multi-agent frameworks.",
+      "ai_keywords": [
+        "large language models",
+        "agentic reasoning",
+        "autonomous agents",
+        "planning",
+        "tool use",
+        "search",
+        "feedback",
+        "memory",
+        "adaptation",
+        "collaborative settings",
+        "coordination",
+        "knowledge sharing",
+        "reinforcement learning",
+        "supervised fine-tuning",
+        "in-context reasoning",
+        "post-training reasoning",
+        "real-world applications",
+        "benchmarks",
+        "thought and action",
+        "world modeling",
+        "scalable multi-agent training",
+        "governance"
+      ],
+      "organization": {
+        "_id": "65448bef5b5d9185ba3202b9",
+        "name": "UIUC-CS",
+        "fullname": "University of Illinois at Urbana-Champaign",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/65448b21fcb96b8b48733729/ycqcXFayMTTD_KpE37067.jpeg"
+      }
+    },
+    "publishedAt": "2026-01-18T13:58:23.000Z",
+    "title": "Agentic Reasoning for Large Language Models",
+    "summary": "Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.12538.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65c288280aa2d53135734a42",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c288280aa2d53135734a42/5WHmau52EaRS01TOMI3Qg.jpeg",
+      "fullname": "Jiaru Zou",
+      "name": "jiaruz2",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "65448bef5b5d9185ba3202b9",
+      "name": "UIUC-CS",
+      "fullname": "University of Illinois at Urbana-Champaign",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/65448b21fcb96b8b48733729/ycqcXFayMTTD_KpE37067.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.14152",
+      "authors": [
+        {
+          "_id": "69706674a8be625b19c2afa1",
+          "name": "Hyunjong Ok",
+          "hidden": false
+        },
+        {
+          "_id": "69706674a8be625b19c2afa2",
+          "name": "Jaeho Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-20T16:54:22.000Z",
+      "submittedOnDailyAt": "2026-01-22T00:30:31.651Z",
+      "title": "Lost in the Prompt Order: Revealing the Limitations of Causal Attention in Language Models",
+      "submittedOnDailyBy": {
+        "_id": "631974d51328b6caf9fe328f",
+        "avatarUrl": "/avatars/5d7b54d2798d9e42d2db66cdba24e085.svg",
+        "isPro": false,
+        "fullname": "Hyunjong Ok",
+        "user": "HJOK",
+        "type": "user"
+      },
+      "summary": "Large language models exhibit surprising sensitivity to the structure of the prompt, but the mechanisms underlying this sensitivity remain poorly understood. In this work, we conduct an in-depth investigation on a striking case: in multiple-choice question answering, placing context before the questions and options (CQO) outperforms the reverse order (QOC) by over 14%p, consistently over a wide range of models and datasets. Through systematic architectural analysis, we identify causal attention as the core mechanism: in QOC prompts, the causal mask prevents option tokens from attending to context, creating an information bottleneck where context becomes invisible to options.",
+      "upvotes": 1,
+      "discussionId": "69706675a8be625b19c2afa3",
+      "ai_summary": "Research reveals that causal attention in language models creates information bottlenecks when question-answer options follow context, leading to performance drops of over 14 percentage points compared to reversed prompt ordering.",
+      "ai_keywords": [
+        "large language models",
+        "prompt structure",
+        "multiple-choice question answering",
+        "causal attention",
+        "causal mask",
+        "information bottleneck"
+      ],
+      "organization": {
+        "_id": "62459012e1b9dab15a3e6674",
+        "name": "POSTECH",
+        "fullname": "Pohang University of Science and Technology",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1648726022705-62458f43d5895bdf34ee7d56.jpeg"
+      }
+    },
+    "publishedAt": "2026-01-20T11:54:22.000Z",
+    "title": "Lost in the Prompt Order: Revealing the Limitations of Causal Attention in Language Models",
+    "summary": "Large language models exhibit surprising sensitivity to the structure of the prompt, but the mechanisms underlying this sensitivity remain poorly understood. In this work, we conduct an in-depth investigation on a striking case: in multiple-choice question answering, placing context before the questions and options (CQO) outperforms the reverse order (QOC) by over 14%p, consistently over a wide range of models and datasets. Through systematic architectural analysis, we identify causal attention as the core mechanism: in QOC prompts, the causal mask prevents option tokens from attending to context, creating an information bottleneck where context becomes invisible to options.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.14152.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "631974d51328b6caf9fe328f",
+      "avatarUrl": "/avatars/5d7b54d2798d9e42d2db66cdba24e085.svg",
+      "fullname": "Hyunjong Ok",
+      "name": "HJOK",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "62459012e1b9dab15a3e6674",
+      "name": "POSTECH",
+      "fullname": "Pohang University of Science and Technology",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1648726022705-62458f43d5895bdf34ee7d56.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.14750",
+      "authors": [
+        {
+          "_id": "697191c6c1c7409747bf9583",
+          "name": "Yifan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "697191c6c1c7409747bf9584",
+          "name": "Shiyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "697191c6c1c7409747bf9585",
+          "name": "Peiming Li",
+          "hidden": false
+        },
+        {
+          "_id": "697191c6c1c7409747bf9586",
+          "name": "Xiaochen Yang",
+          "hidden": false
+        },
+        {
+          "_id": "697191c6c1c7409747bf9587",
+          "name": "Yang Tang",
+          "hidden": false
+        },
+        {
+          "_id": "697191c6c1c7409747bf9588",
+          "name": "Zheng Wei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-21T08:09:25.000Z",
+      "submittedOnDailyAt": "2026-01-22T00:26:21.515Z",
+      "title": "Render-of-Thought: Rendering Textual Chain-of-Thought as Images for Visual Latent Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Chain-of-Thought (CoT) prompting has achieved remarkable success in unlocking the reasoning capabilities of Large Language Models (LLMs). Although CoT prompting enhances reasoning, its verbosity imposes substantial computational overhead. Recent works often focus exclusively on outcome alignment and lack supervision on the intermediate reasoning process. These deficiencies obscure the analyzability of the latent reasoning chain. To address these challenges, we introduce Render-of-Thought (RoT), the first framework to reify the reasoning chain by rendering textual steps into images, making the latent rationale explicit and traceable. Specifically, we leverage the vision encoders of existing Vision Language Models (VLMs) as semantic anchors to align the vision embeddings with the textual space. This design ensures plug-and-play implementation without incurring additional pre-training overhead. Extensive experiments on mathematical and logical reasoning benchmarks demonstrate that our method achieves 3-4x token compression and substantial inference acceleration compared to explicit CoT. Furthermore, it maintains competitive performance against other methods, validating the feasibility of this paradigm. Our code is available at https://github.com/TencentBAC/RoT",
+      "upvotes": 0,
+      "discussionId": "697191c7c1c7409747bf9589",
+      "ai_summary": "Render-of-Thought framework converts textual reasoning steps into images using vision-language models to improve reasoning traceability and efficiency while maintaining competitive performance.",
+      "ai_keywords": [
+        "Chain-of-Thought prompting",
+        "Large Language Models",
+        "vision encoders",
+        "Vision Language Models",
+        "token compression",
+        "inference acceleration",
+        "reasoning chain",
+        "semantic anchors",
+        "latent reasoning",
+        "traceability"
+      ],
+      "organization": {
+        "_id": "66543b6e420092799d2f625c",
+        "name": "tencent",
+        "fullname": "Tencent",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+      }
+    },
+    "publishedAt": "2026-01-21T03:09:25.000Z",
+    "title": "Render-of-Thought: Rendering Textual Chain-of-Thought as Images for Visual Latent Reasoning",
+    "summary": "Chain-of-Thought (CoT) prompting has achieved remarkable success in unlocking the reasoning capabilities of Large Language Models (LLMs). Although CoT prompting enhances reasoning, its verbosity imposes substantial computational overhead. Recent works often focus exclusively on outcome alignment and lack supervision on the intermediate reasoning process. These deficiencies obscure the analyzability of the latent reasoning chain. To address these challenges, we introduce Render-of-Thought (RoT), the first framework to reify the reasoning chain by rendering textual steps into images, making the latent rationale explicit and traceable. Specifically, we leverage the vision encoders of existing Vision Language Models (VLMs) as semantic anchors to align the vision embeddings with the textual space. This design ensures plug-and-play implementation without incurring additional pre-training overhead. Extensive experiments on mathematical and logical reasoning benchmarks demonstrate that our method achieves 3-4x token compression and substantial inference acceleration compared to explicit CoT. Furthermore, it maintains competitive performance against other methods, validating the feasibility of this paradigm. Our code is available at https://github.com/TencentBAC/RoT",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.14750.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 211,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "66543b6e420092799d2f625c",
+      "name": "tencent",
+      "fullname": "Tencent",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
