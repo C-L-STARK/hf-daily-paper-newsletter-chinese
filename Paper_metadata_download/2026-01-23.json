@@ -1,0 +1,1316 @@
+[
+  {
+    "paper": {
+      "id": "2601.15165",
+      "authors": [
+        {
+          "_id": "6971933ac1c7409747bf9597",
+          "name": "Zanlin Ni",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf9598",
+          "name": "Shenzhi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf9599",
+          "name": "Yang Yue",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf959a",
+          "name": "Tianyu Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf959b",
+          "name": "Weilin Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf959c",
+          "name": "Yeguo Hua",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf959d",
+          "name": "Tianyi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf959e",
+          "name": "Jun Song",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf959f",
+          "name": "Cheng Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf95a0",
+          "name": "Bo Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6971933ac1c7409747bf95a1",
+          "name": "Gao Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-21T16:41:58.000Z",
+      "submittedOnDailyAt": "2026-01-23T00:11:51.141Z",
+      "title": "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
+      "submittedOnDailyBy": {
+        "_id": "63987ffb2ceb55aabe0852f3",
+        "avatarUrl": "/avatars/343b796ff6b8906203904e8c620d7eb5.svg",
+        "isPro": false,
+        "fullname": "Zanlin Ni",
+        "user": "nzl-thu",
+        "type": "user"
+      },
+      "summary": "Diffusion Large Language Models (dLLMs) break the rigid left-to-right constraint of traditional LLMs, enabling token generation in arbitrary orders. Intuitively, this flexibility implies a solution space that strictly supersets the fixed autoregressive trajectory, theoretically unlocking superior reasoning potential for general tasks like mathematics and coding. Consequently, numerous works have leveraged reinforcement learning (RL) to elicit the reasoning capability of dLLMs. In this paper, we reveal a counter-intuitive reality: arbitrary order generation, in its current form, narrows rather than expands the reasoning boundary of dLLMs. We find that dLLMs tend to exploit this order flexibility to bypass high-uncertainty tokens that are crucial for exploration, leading to a premature collapse of the solution space. This observation challenges the premise of existing RL approaches for dLLMs, where considerable complexities, such as handling combinatorial trajectories and intractable likelihoods, are often devoted to preserving this flexibility. We demonstrate that effective reasoning is better elicited by intentionally forgoing arbitrary order and applying standard Group Relative Policy Optimization (GRPO) instead. Our approach, JustGRPO, is minimalist yet surprisingly effective (e.g., 89.1% accuracy on GSM8K) while fully retaining the parallel decoding ability of dLLMs. Project page: https://nzl-thu.github.io/the-flexibility-trap",
+      "upvotes": 28,
+      "discussionId": "6971933ac1c7409747bf95a2",
+      "ai_summary": "Arbitrary order generation in diffusion large language models limits reasoning capability by causing premature solution space collapse, making standard policy optimization more effective.",
+      "ai_keywords": [
+        "diffusion large language models",
+        "left-to-right constraint",
+        "token generation",
+        "reinforcement learning",
+        "reasoning potential",
+        "mathematical reasoning",
+        "coding tasks",
+        "combinatorial trajectories",
+        "likelihoods",
+        "Group Relative Policy Optimization",
+        "GRPO",
+        "parallel decoding"
+      ],
+      "organization": {
+        "_id": "69719700e3846c07669d13ee",
+        "name": "Tsinghua-LeapLab",
+        "fullname": "Tsinghua-LeapLab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63987ffb2ceb55aabe0852f3/hflTWNTGxeJx83xNkYrDB.png"
+      }
+    },
+    "publishedAt": "2026-01-21T11:41:58.000Z",
+    "title": "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
+    "summary": "Diffusion Large Language Models (dLLMs) break the rigid left-to-right constraint of traditional LLMs, enabling token generation in arbitrary orders. Intuitively, this flexibility implies a solution space that strictly supersets the fixed autoregressive trajectory, theoretically unlocking superior reasoning potential for general tasks like mathematics and coding. Consequently, numerous works have leveraged reinforcement learning (RL) to elicit the reasoning capability of dLLMs. In this paper, we reveal a counter-intuitive reality: arbitrary order generation, in its current form, narrows rather than expands the reasoning boundary of dLLMs. We find that dLLMs tend to exploit this order flexibility to bypass high-uncertainty tokens that are crucial for exploration, leading to a premature collapse of the solution space. This observation challenges the premise of existing RL approaches for dLLMs, where considerable complexities, such as handling combinatorial trajectories and intractable likelihoods, are often devoted to preserving this flexibility. We demonstrate that effective reasoning is better elicited by intentionally forgoing arbitrary order and applying standard Group Relative Policy Optimization (GRPO) instead. Our approach, JustGRPO, is minimalist yet surprisingly effective (e.g., 89.1% accuracy on GSM8K) while fully retaining the parallel decoding ability of dLLMs. Project page: https://nzl-thu.github.io/the-flexibility-trap",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.15165.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63987ffb2ceb55aabe0852f3",
+      "avatarUrl": "/avatars/343b796ff6b8906203904e8c620d7eb5.svg",
+      "fullname": "Zanlin Ni",
+      "name": "nzl-thu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "69719700e3846c07669d13ee",
+      "name": "Tsinghua-LeapLab",
+      "fullname": "Tsinghua-LeapLab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63987ffb2ceb55aabe0852f3/hflTWNTGxeJx83xNkYrDB.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.15892",
+      "authors": [
+        {
+          "_id": "6972d788fb12c92b735b7397",
+          "name": "Chenghao Fan",
+          "hidden": false
+        },
+        {
+          "_id": "6972d788fb12c92b735b7398",
+          "name": "Wen Heng",
+          "hidden": false
+        },
+        {
+          "_id": "6972d788fb12c92b735b7399",
+          "name": "Bo Li",
+          "hidden": false
+        },
+        {
+          "_id": "6972d788fb12c92b735b739a",
+          "name": "Sichen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6972d788fb12c92b735b739b",
+          "name": "Yuxuan Song",
+          "hidden": false
+        },
+        {
+          "_id": "6972d788fb12c92b735b739c",
+          "name": "Jing Su",
+          "hidden": false
+        },
+        {
+          "_id": "6972d788fb12c92b735b739d",
+          "name": "Xiaoye Qu",
+          "hidden": false
+        },
+        {
+          "_id": "6972d788fb12c92b735b739e",
+          "name": "Kai Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6972d788fb12c92b735b739f",
+          "name": "Wei Wei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-22T12:13:17.000Z",
+      "submittedOnDailyAt": "2026-01-23T00:09:35.389Z",
+      "title": "Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model",
+      "submittedOnDailyBy": {
+        "_id": "641aa5e391e3376a057bbd4c",
+        "avatarUrl": "/avatars/5818797f27444fde078b503774ee081c.svg",
+        "isPro": false,
+        "fullname": "Chenghao Fan",
+        "user": "Facico",
+        "type": "user"
+      },
+      "summary": "Diffusion-based language models (DLLMs) offer non-sequential, block-wise generation and richer data reuse compared to autoregressive (AR) models, but existing code DLLMs still lag behind strong AR baselines under comparable budgets. We revisit this setting in a controlled study and introduce Stable-DiffCoder, a block diffusion code model that reuses the Seed-Coder architecture, data, and training pipeline. To enable efficient knowledge learning and stable training, we incorporate a block diffusion continual pretraining (CPT) stage enhanced by a tailored warmup and block-wise clipped noise schedule. Under the same data and architecture, Stable-DiffCoder overall outperforms its AR counterpart on a broad suite of code benchmarks. Moreover, relying only on the CPT and supervised fine-tuning stages, Stable-DiffCoder achieves stronger performance than a wide range of \\~8B ARs and DLLMs, demonstrating that diffusion-based training can improve code modeling quality beyond AR training alone. Moreover, diffusion-based any-order modeling improves structured code modeling for editing and reasoning, and through data augmentation, benefits low-resource coding languages.",
+      "upvotes": 4,
+      "discussionId": "6972d788fb12c92b735b73a0",
+      "projectPage": "https://bytedance-seed.github.io/Stable-DiffCoder/",
+      "githubRepo": "https://github.com/ByteDance-Seed/Stable-DiffCoder",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Stable-DiffCoder demonstrates superior code modeling performance compared to autoregressive baselines through block diffusion continual pretraining and efficient training mechanisms.",
+      "ai_keywords": [
+        "diffusion-based language models",
+        "autoregressive models",
+        "block diffusion",
+        "continual pretraining",
+        "warmup",
+        "clipped noise schedule",
+        "supervised fine-tuning",
+        "code modeling",
+        "structured code modeling",
+        "data augmentation"
+      ],
+      "organization": {
+        "_id": "67d1140985ea0644e2f14b99",
+        "name": "ByteDance-Seed",
+        "fullname": "ByteDance Seed",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+      }
+    },
+    "publishedAt": "2026-01-22T07:13:17.000Z",
+    "title": "Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model",
+    "summary": "Diffusion-based language models (DLLMs) offer non-sequential, block-wise generation and richer data reuse compared to autoregressive (AR) models, but existing code DLLMs still lag behind strong AR baselines under comparable budgets. We revisit this setting in a controlled study and introduce Stable-DiffCoder, a block diffusion code model that reuses the Seed-Coder architecture, data, and training pipeline. To enable efficient knowledge learning and stable training, we incorporate a block diffusion continual pretraining (CPT) stage enhanced by a tailored warmup and block-wise clipped noise schedule. Under the same data and architecture, Stable-DiffCoder overall outperforms its AR counterpart on a broad suite of code benchmarks. Moreover, relying only on the CPT and supervised fine-tuning stages, Stable-DiffCoder achieves stronger performance than a wide range of \\~8B ARs and DLLMs, demonstrating that diffusion-based training can improve code modeling quality beyond AR training alone. Moreover, diffusion-based any-order modeling improves structured code modeling for editing and reasoning, and through data augmentation, benefits low-resource coding languages.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.15892.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "641aa5e391e3376a057bbd4c",
+      "avatarUrl": "/avatars/5818797f27444fde078b503774ee081c.svg",
+      "fullname": "Chenghao Fan",
+      "name": "Facico",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67d1140985ea0644e2f14b99",
+      "name": "ByteDance-Seed",
+      "fullname": "ByteDance Seed",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.16175",
+      "authors": [
+        {
+          "_id": "6972e02afb12c92b735b73c2",
+          "name": "Mert Yuksekgonul",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73c3",
+          "name": "Daniel Koceja",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73c4",
+          "name": "Xinhao Li",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73c5",
+          "name": "Federico Bianchi",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73c6",
+          "name": "Jed McCaleb",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73c7",
+          "name": "Xiaolong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73c8",
+          "name": "Jan Kautz",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73c9",
+          "name": "Yejin Choi",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73ca",
+          "name": "James Zou",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73cb",
+          "name": "Carlos Guestrin",
+          "hidden": false
+        },
+        {
+          "_id": "6972e02afb12c92b735b73cc",
+          "name": "Yu Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-22T18:24:00.000Z",
+      "submittedOnDailyAt": "2026-01-23T00:15:05.275Z",
+      "title": "Learning to Discover at Test Time",
+      "submittedOnDailyBy": {
+        "_id": "603f7c7af84ebe399f1c85cf",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1625214886903-603f7c7af84ebe399f1c85cf.jpeg",
+        "isPro": false,
+        "fullname": "Federico Bianchi",
+        "user": "vinid",
+        "type": "user"
+      },
+      "summary": "How can we use AI to discover a new state of the art for a scientific problem? Prior work in test-time scaling, such as AlphaEvolve, performs search by prompting a frozen LLM. We perform reinforcement learning at test time, so the LLM can continue to train, but now with experience specific to the test problem. This form of continual learning is quite special, because its goal is to produce one great solution rather than many good ones on average, and to solve this very problem rather than generalize to other problems. Therefore, our learning objective and search subroutine are designed to prioritize the most promising solutions. We call this method Test-Time Training to Discover (TTT-Discover). Following prior work, we focus on problems with continuous rewards. We report results for every problem we attempted, across mathematics, GPU kernel engineering, algorithm design, and biology. TTT-Discover sets the new state of the art in almost all of them: (i) Erdős' minimum overlap problem and an autocorrelation inequality; (ii) a GPUMode kernel competition (up to 2times faster than prior art); (iii) past AtCoder algorithm competitions; and (iv) denoising problem in single-cell analysis. Our solutions are reviewed by experts or the organizers. All our results are achieved with an open model, OpenAI gpt-oss-120b, and can be reproduced with our publicly available code, in contrast to previous best results that required closed frontier models. Our test-time training runs are performed using Tinker, an API by Thinking Machines, with a cost of only a few hundred dollars per problem.",
+      "upvotes": 2,
+      "discussionId": "6972e02afb12c92b735b73cd",
+      "projectPage": "https://test-time-training.github.io/discover/",
+      "githubRepo": "https://github.com/test-time-training/discover",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Test-time training enables AI systems to discover optimal solutions for specific scientific problems through continual learning focused on individual challenges rather than generalization.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "test-time training",
+        "continual learning",
+        "search subroutine",
+        "learning objective",
+        "OpenAI gpt-oss-120b",
+        "Tinker API"
+      ],
+      "organization": {
+        "_id": "672c672dcf09d152f4da04c4",
+        "name": "StanfordUniversity",
+        "fullname": "Stanford University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68e396f2b5bb631e9b2fac9a/vJI0POlzGMXL2878t1vz2.jpeg"
+      }
+    },
+    "publishedAt": "2026-01-22T13:24:00.000Z",
+    "title": "Learning to Discover at Test Time",
+    "summary": "How can we use AI to discover a new state of the art for a scientific problem? Prior work in test-time scaling, such as AlphaEvolve, performs search by prompting a frozen LLM. We perform reinforcement learning at test time, so the LLM can continue to train, but now with experience specific to the test problem. This form of continual learning is quite special, because its goal is to produce one great solution rather than many good ones on average, and to solve this very problem rather than generalize to other problems. Therefore, our learning objective and search subroutine are designed to prioritize the most promising solutions. We call this method Test-Time Training to Discover (TTT-Discover). Following prior work, we focus on problems with continuous rewards. We report results for every problem we attempted, across mathematics, GPU kernel engineering, algorithm design, and biology. TTT-Discover sets the new state of the art in almost all of them: (i) Erdős' minimum overlap problem and an autocorrelation inequality; (ii) a GPUMode kernel competition (up to 2times faster than prior art); (iii) past AtCoder algorithm competitions; and (iv) denoising problem in single-cell analysis. Our solutions are reviewed by experts or the organizers. All our results are achieved with an open model, OpenAI gpt-oss-120b, and can be reproduced with our publicly available code, in contrast to previous best results that required closed frontier models. Our test-time training runs are performed using Tinker, an API by Thinking Machines, with a cost of only a few hundred dollars per problem.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.16175.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "603f7c7af84ebe399f1c85cf",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1625214886903-603f7c7af84ebe399f1c85cf.jpeg",
+      "fullname": "Federico Bianchi",
+      "name": "vinid",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 21,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "672c672dcf09d152f4da04c4",
+      "name": "StanfordUniversity",
+      "fullname": "Stanford University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68e396f2b5bb631e9b2fac9a/vJI0POlzGMXL2878t1vz2.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.15621",
+      "authors": [
+        {
+          "_id": "6972e310fb12c92b735b746a",
+          "name": "Hangrui Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b746b",
+          "name": "Xinfa Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b746c",
+          "name": "Ting He",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b746d",
+          "name": "Dake Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b746e",
+          "name": "Bin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b746f",
+          "name": "Xiong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7470",
+          "name": "Zhifang Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7471",
+          "name": "Ziyue Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7472",
+          "name": "Hongkun Hao",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7473",
+          "name": "Zishan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7474",
+          "name": "Xinyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7475",
+          "name": "Pei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7476",
+          "name": "Baosong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7477",
+          "name": "Jin Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7478",
+          "name": "Jingren Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6972e310fb12c92b735b7479",
+          "name": "Junyang Lin",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-22T03:51:43.000Z",
+      "submittedOnDailyAt": "2026-01-23T00:25:20.168Z",
+      "title": "Qwen3-TTS Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "In this report, we present the Qwen3-TTS series, a family of advanced multilingual, controllable, robust, and streaming text-to-speech models. Qwen3-TTS supports state-of-the-art 3-second voice cloning and description-based control, allowing both the creation of entirely novel voices and fine-grained manipulation over the output speech. Trained on over 5 million hours of speech data spanning 10 languages, Qwen3-TTS adopts a dual-track LM architecture for real-time synthesis, coupled with two speech tokenizers: 1) Qwen-TTS-Tokenizer-25Hz is a single-codebook codec emphasizing semantic content, which offers seamlessly integration with Qwen-Audio and enables streaming waveform reconstruction via a block-wise DiT. 2) Qwen-TTS-Tokenizer-12Hz achieves extreme bitrate reduction and ultra-low-latency streaming, enabling immediate first-packet emission (97,ms) through its 12.5 Hz, 16-layer multi-codebook design and a lightweight causal ConvNet. Extensive experiments indicate state-of-the-art performance across diverse objective and subjective benchmark (e.g., TTS multilingual test set, InstructTTSEval, and our long speech test set). To facilitate community research and development, we release both tokenizers and models under the Apache 2.0 license.",
+      "upvotes": 1,
+      "discussionId": "6972e311fb12c92b735b747a",
+      "githubRepo": "https://github.com/QwenLM/Qwen3-TTS",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "The Qwen3-TTS series presents advanced multilingual text-to-speech models with voice cloning and controllable speech generation capabilities, utilizing dual-track LM architecture and specialized speech tokenizers for efficient streaming synthesis.",
+      "ai_keywords": [
+        "text-to-speech",
+        "voice cloning",
+        "dual-track LM architecture",
+        "speech tokenizers",
+        "Qwen-TTS-Tokenizer-25Hz",
+        "Qwen-TTS-Tokenizer-12Hz",
+        "DiT",
+        "ConvNet",
+        "streaming waveform reconstruction",
+        "multilingual",
+        "controllable speech generation"
+      ],
+      "organization": {
+        "_id": "64c8b5837fe12ecd0a7e92eb",
+        "name": "Qwen",
+        "fullname": "Qwen",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png"
+      }
+    },
+    "publishedAt": "2026-01-21T22:51:43.000Z",
+    "title": "Qwen3-TTS Technical Report",
+    "summary": "In this report, we present the Qwen3-TTS series, a family of advanced multilingual, controllable, robust, and streaming text-to-speech models. Qwen3-TTS supports state-of-the-art 3-second voice cloning and description-based control, allowing both the creation of entirely novel voices and fine-grained manipulation over the output speech. Trained on over 5 million hours of speech data spanning 10 languages, Qwen3-TTS adopts a dual-track LM architecture for real-time synthesis, coupled with two speech tokenizers: 1) Qwen-TTS-Tokenizer-25Hz is a single-codebook codec emphasizing semantic content, which offers seamlessly integration with Qwen-Audio and enables streaming waveform reconstruction via a block-wise DiT. 2) Qwen-TTS-Tokenizer-12Hz achieves extreme bitrate reduction and ultra-low-latency streaming, enabling immediate first-packet emission (97,ms) through its 12.5 Hz, 16-layer multi-codebook design and a lightweight causal ConvNet. Extensive experiments indicate state-of-the-art performance across diverse objective and subjective benchmark (e.g., TTS multilingual test set, InstructTTSEval, and our long speech test set). To facilitate community research and development, we release both tokenizers and models under the Apache 2.0 license.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.15621.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 211,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "name": "Qwen",
+      "fullname": "Qwen",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.15369",
+      "authors": [
+        {
+          "_id": "6972de28fb12c92b735b73b4",
+          "name": "Letian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73b5",
+          "name": "Sucheng Ren",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73b6",
+          "name": "Yanqing Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73b7",
+          "name": "Xianhang Li",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73b8",
+          "name": "Zeyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73b9",
+          "name": "Yuyin Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73ba",
+          "name": "Huaxiu Yao",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73bb",
+          "name": "Zeyu Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73bc",
+          "name": "Weili Nie",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73bd",
+          "name": "Guilin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73be",
+          "name": "Zhiding Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6972de28fb12c92b735b73bf",
+          "name": "Cihang Xie",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-21T18:47:12.000Z",
+      "submittedOnDailyAt": "2026-01-23T00:05:34.242Z",
+      "title": "OpenVision 3: A Family of Unified Visual Encoder for Both Understanding and Generation",
+      "submittedOnDailyBy": {
+        "_id": "645eb61da3c5cd8a16efffff",
+        "avatarUrl": "/avatars/9112bfeed598dfabf9e077e69e09ecc9.svg",
+        "isPro": false,
+        "fullname": "Cihang Xie",
+        "user": "cihangxie",
+        "type": "user"
+      },
+      "summary": "This paper presents a family of advanced vision encoder, named OpenVision 3, that learns a single, unified visual representation that can serve both image understanding and image generation. Our core architecture is simple: we feed VAE-compressed image latents to a ViT encoder and train its output to support two complementary roles. First, the encoder output is passed to the ViT-VAE decoder to reconstruct the original image, encouraging the representation to capture generative structure. Second, the same representation is optimized with contrastive learning and image-captioning objectives, strengthening semantic features. By jointly optimizing reconstruction- and semantics-driven signals in a shared latent space, the encoder learns representations that synergize and generalize well across both regimes. We validate this unified design through extensive downstream evaluations with the encoder frozen. For multimodal understanding, we plug the encoder into the LLaVA-1.5 framework: it performs comparably with a standard CLIP vision encoder (e.g., 62.4 vs 62.2 on SeedBench, and 83.7 vs 82.9 on POPE). For generation, we test it under the RAE framework: ours substantially surpasses the standard CLIP-based encoder (e.g., gFID: 1.89 vs 2.54 on ImageNet). We hope this work can spur future research on unified modeling.",
+      "upvotes": 1,
+      "discussionId": "6972de28fb12c92b735b73c0",
+      "projectPage": "https://ucsc-vlaa.github.io/OpenVision3/",
+      "ai_summary": "An advanced vision encoder named OpenVision 3 learns a unified visual representation for both image understanding and generation by combining VAE-compressed image latents with ViT architecture and joint optimization of reconstruction and semantic signals.",
+      "ai_keywords": [
+        "vision encoder",
+        "VAE-compressed image latents",
+        "ViT encoder",
+        "ViT-VAE decoder",
+        "contrastive learning",
+        "image-captioning objectives",
+        "shared latent space",
+        "multimodal understanding",
+        "LLaVA-1.5 framework",
+        "RAE framework",
+        "unified modeling"
+      ],
+      "organization": {
+        "_id": "65346047b3852ed1cec0c2f4",
+        "name": "UCSC-VLAA",
+        "fullname": "UCSC-VLAA",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/645eb61da3c5cd8a16efffff/E7m3g_fFhz32pGsnK0eqX.png"
+      }
+    },
+    "publishedAt": "2026-01-21T13:47:12.000Z",
+    "title": "OpenVision 3: A Family of Unified Visual Encoder for Both Understanding and Generation",
+    "summary": "This paper presents a family of advanced vision encoder, named OpenVision 3, that learns a single, unified visual representation that can serve both image understanding and image generation. Our core architecture is simple: we feed VAE-compressed image latents to a ViT encoder and train its output to support two complementary roles. First, the encoder output is passed to the ViT-VAE decoder to reconstruct the original image, encouraging the representation to capture generative structure. Second, the same representation is optimized with contrastive learning and image-captioning objectives, strengthening semantic features. By jointly optimizing reconstruction- and semantics-driven signals in a shared latent space, the encoder learns representations that synergize and generalize well across both regimes. We validate this unified design through extensive downstream evaluations with the encoder frozen. For multimodal understanding, we plug the encoder into the LLaVA-1.5 framework: it performs comparably with a standard CLIP vision encoder (e.g., 62.4 vs 62.2 on SeedBench, and 83.7 vs 82.9 on POPE). For generation, we test it under the RAE framework: ours substantially surpasses the standard CLIP-based encoder (e.g., gFID: 1.89 vs 2.54 on ImageNet). We hope this work can spur future research on unified modeling.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.15369.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645eb61da3c5cd8a16efffff",
+      "avatarUrl": "/avatars/9112bfeed598dfabf9e077e69e09ecc9.svg",
+      "fullname": "Cihang Xie",
+      "name": "cihangxie",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "65346047b3852ed1cec0c2f4",
+      "name": "UCSC-VLAA",
+      "fullname": "UCSC-VLAA",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/645eb61da3c5cd8a16efffff/E7m3g_fFhz32pGsnK0eqX.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.11868",
+      "authors": [
+        {
+          "_id": "6972e295fb12c92b735b7413",
+          "name": "Mike A. Merrill",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7414",
+          "name": "Alexander G. Shaw",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7415",
+          "name": "Nicholas Carlini",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7416",
+          "name": "Boxuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7417",
+          "name": "Harsh Raj",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7418",
+          "name": "Ivan Bercovich",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7419",
+          "name": "Lin Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b741a",
+          "name": "Jeong Yeon Shin",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b741b",
+          "name": "Thomas Walshe",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b741c",
+          "name": "E. Kelly Buchanan",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b741d",
+          "name": "Junhong Shen",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b741e",
+          "name": "Guanghao Ye",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b741f",
+          "name": "Haowei Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7420",
+          "name": "Jason Poulos",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7421",
+          "name": "Maoyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7422",
+          "name": "Marianna Nezhurina",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7423",
+          "name": "Jenia Jitsev",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7424",
+          "name": "Di Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7425",
+          "name": "Orfeas Menis Mastromichalakis",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7426",
+          "name": "Zhiwei Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7427",
+          "name": "Zizhao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7428",
+          "name": "Yue Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7429",
+          "name": "Robert Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b742a",
+          "name": "Leon Liangyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b742b",
+          "name": "Anurag Kashyap",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b742c",
+          "name": "Jan-Lucas Uslu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b742d",
+          "name": "Jeffrey Li",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b742e",
+          "name": "Jianbo Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b742f",
+          "name": "Minghao Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7430",
+          "name": "Song Bian",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7431",
+          "name": "Vedang Sharma",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7432",
+          "name": "Ke Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7433",
+          "name": "Steven Dillmann",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7434",
+          "name": "Akshay Anand",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7435",
+          "name": "Andrew Lanpouthakoun",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7436",
+          "name": "Bardia Koopah",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7437",
+          "name": "Changran Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7438",
+          "name": "Etash Guha",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7439",
+          "name": "Gabriel H. S. Dreiman",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b743a",
+          "name": "Jiacheng Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b743b",
+          "name": "Karl Krauth",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b743c",
+          "name": "Li Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b743d",
+          "name": "Niklas Muennighoff",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b743e",
+          "name": "Robert Amanfu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b743f",
+          "name": "Shangyin Tan",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7440",
+          "name": "Shreyas Pimpalgaonkar",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7441",
+          "name": "Tushar Aggarwal",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7442",
+          "name": "Xiangning Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7443",
+          "name": "Xin Lan",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7444",
+          "name": "Xuandong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7445",
+          "name": "Yiqing Liang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7446",
+          "name": "Yuanli Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7447",
+          "name": "Zilong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7448",
+          "name": "Changzhi Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7449",
+          "name": "David Heineman",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b744a",
+          "name": "Hange Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b744b",
+          "name": "Harsh Trivedi",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b744c",
+          "name": "John Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b744d",
+          "name": "Junhong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b744e",
+          "name": "Manish Shetty",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b744f",
+          "name": "Michael Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7450",
+          "name": "Nabil Omi",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7451",
+          "name": "Negin Raoof",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7452",
+          "name": "Shanda Li",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7453",
+          "name": "Terry Yue Zhuo",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7454",
+          "name": "Wuwei Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7455",
+          "name": "Yiwei Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7456",
+          "name": "Yuxin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7457",
+          "name": "Wenhao Chai",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7458",
+          "name": "Shang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7459",
+          "name": "Dariush Wahdany",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b745a",
+          "name": "Ziyu She",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b745b",
+          "name": "Jiaming Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b745c",
+          "name": "Zhikang Dong",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b745d",
+          "name": "Yuxuan Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b745e",
+          "name": "Sasha Cui",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b745f",
+          "name": "Ahson Saiyed",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7460",
+          "name": "Arinbjörn Kolbeinsson",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7461",
+          "name": "Jesse Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7462",
+          "name": "Christopher Michael Rytting",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7463",
+          "name": "Ryan Marten",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7464",
+          "name": "Yixin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7465",
+          "name": "Alex Dimakis",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7466",
+          "name": "Andy Konwinski",
+          "hidden": false
+        },
+        {
+          "_id": "6972e295fb12c92b735b7467",
+          "name": "Ludwig Schmidt",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-17T01:29:30.000Z",
+      "submittedOnDailyAt": "2026-01-23T00:23:14.492Z",
+      "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "AI agents may soon become capable of autonomously completing valuable, long-horizon tasks in diverse domains. Current benchmarks either do not measure real-world tasks, or are not sufficiently difficult to meaningfully measure frontier models. To this end, we present Terminal-Bench 2.0: a carefully curated hard benchmark composed of 89 tasks in computer terminal environments inspired by problems from real workflows. Each task features a unique environment, human-written solution, and comprehensive tests for verification. We show that frontier models and agents score less than 65\\% on the benchmark and conduct an error analysis to identify areas for model and agent improvement. We publish the dataset and evaluation harness to assist developers and researchers in future work at https://www.tbench.ai/ .",
+      "upvotes": 1,
+      "discussionId": "6972e295fb12c92b735b7468",
+      "githubRepo": "https://github.com/laude-institute/terminal-bench",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Terminal-Bench 2.0 presents a challenging benchmark with 89 terminal-based tasks to evaluate AI agents' capabilities in real-world scenarios.",
+      "ai_keywords": [
+        "AI agents",
+        "long-horizon tasks",
+        "benchmarks",
+        "terminal environments",
+        "real-world tasks",
+        "evaluation harness"
+      ]
+    },
+    "publishedAt": "2026-01-16T20:29:30.000Z",
+    "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+    "summary": "AI agents may soon become capable of autonomously completing valuable, long-horizon tasks in diverse domains. Current benchmarks either do not measure real-world tasks, or are not sufficiently difficult to meaningfully measure frontier models. To this end, we present Terminal-Bench 2.0: a carefully curated hard benchmark composed of 89 tasks in computer terminal environments inspired by problems from real workflows. Each task features a unique environment, human-written solution, and comprehensive tests for verification. We show that frontier models and agents score less than 65\\% on the benchmark and conduct an error analysis to identify areas for model and agent improvement. We publish the dataset and evaluation harness to assist developers and researchers in future work at https://www.tbench.ai/ .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.11868.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 211,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.16206",
+      "authors": [
+        {
+          "_id": "6972e04dfb12c92b735b73cf",
+          "name": "Daixuan Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "6972e04dfb12c92b735b73d0",
+          "name": "Shaohan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e04dfb12c92b735b73d1",
+          "name": "Yuxian Gu",
+          "hidden": false
+        },
+        {
+          "_id": "6972e04dfb12c92b735b73d2",
+          "name": "Huatong Song",
+          "hidden": false
+        },
+        {
+          "_id": "6972e04dfb12c92b735b73d3",
+          "name": "Guoxin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6972e04dfb12c92b735b73d4",
+          "name": "Li Dong",
+          "hidden": false
+        },
+        {
+          "_id": "6972e04dfb12c92b735b73d5",
+          "name": "Wayne Xin Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6972e04dfb12c92b735b73d6",
+          "name": "Ji-Rong Wen",
+          "hidden": false
+        },
+        {
+          "_id": "6972e04dfb12c92b735b73d7",
+          "name": "Furu Wei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-22T18:57:09.000Z",
+      "submittedOnDailyAt": "2026-01-23T00:27:12.305Z",
+      "title": "LLM-in-Sandbox Elicits General Agentic Intelligence",
+      "submittedOnDailyBy": {
+        "_id": "649e6761f9134a06ed1e0cea",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649e6761f9134a06ed1e0cea/XNeKceE8xSwI0xWwWUwwJ.jpeg",
+        "isPro": false,
+        "fullname": "Daixuan Cheng",
+        "user": "daixuancheng",
+        "type": "user"
+      },
+      "summary": "We introduce LLM-in-Sandbox, enabling LLMs to explore within a code sandbox (i.e., a virtual computer), to elicit general intelligence in non-code domains. We first demonstrate that strong LLMs, without additional training, exhibit generalization capabilities to leverage the code sandbox for non-code tasks. For example, LLMs spontaneously access external resources to acquire new knowledge, leverage the file system to handle long contexts, and execute scripts to satisfy formatting requirements. We further show that these agentic capabilities can be enhanced through LLM-in-Sandbox Reinforcement Learning (LLM-in-Sandbox-RL), which uses only non-agentic data to train models for sandbox exploration. Experiments demonstrate that LLM-in-Sandbox, in both training-free and post-trained settings, achieves robust generalization spanning mathematics, physics, chemistry, biomedicine, long-context understanding, and instruction following. Finally, we analyze LLM-in-Sandbox's efficiency from computational and system perspectives, and open-source it as a Python package to facilitate real-world deployment.",
+      "upvotes": 0,
+      "discussionId": "6972e04dfb12c92b735b73d8",
+      "projectPage": "https://llm-in-sandbox.github.io",
+      "githubRepo": "https://github.com/llm-in-sandbox/llm-in-sandbox",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "LLM-in-Sandbox enables large language models to perform general intelligence tasks across diverse domains by allowing them to explore a code sandbox environment, achieving robust generalization without additional training.",
+      "ai_keywords": [
+        "LLM-in-Sandbox",
+        "code sandbox",
+        "virtual computer",
+        "reinforcement learning",
+        "non-agentic data",
+        "sandbox exploration",
+        "general intelligence",
+        "long-context understanding",
+        "instruction following"
+      ],
+      "organization": {
+        "_id": "622177ac43826d6f261f8208",
+        "name": "RUC",
+        "fullname": "Renmin University of China",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+      }
+    },
+    "publishedAt": "2026-01-22T13:57:09.000Z",
+    "title": "LLM-in-Sandbox Elicits General Agentic Intelligence",
+    "summary": "We introduce LLM-in-Sandbox, enabling LLMs to explore within a code sandbox (i.e., a virtual computer), to elicit general intelligence in non-code domains. We first demonstrate that strong LLMs, without additional training, exhibit generalization capabilities to leverage the code sandbox for non-code tasks. For example, LLMs spontaneously access external resources to acquire new knowledge, leverage the file system to handle long contexts, and execute scripts to satisfy formatting requirements. We further show that these agentic capabilities can be enhanced through LLM-in-Sandbox Reinforcement Learning (LLM-in-Sandbox-RL), which uses only non-agentic data to train models for sandbox exploration. Experiments demonstrate that LLM-in-Sandbox, in both training-free and post-trained settings, achieves robust generalization spanning mathematics, physics, chemistry, biomedicine, long-context understanding, and instruction following. Finally, we analyze LLM-in-Sandbox's efficiency from computational and system perspectives, and open-source it as a Python package to facilitate real-world deployment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.16206.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "649e6761f9134a06ed1e0cea",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649e6761f9134a06ed1e0cea/XNeKceE8xSwI0xWwWUwwJ.jpeg",
+      "fullname": "Daixuan Cheng",
+      "name": "daixuancheng",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 13,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "622177ac43826d6f261f8208",
+      "name": "RUC",
+      "fullname": "Renmin University of China",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.16125",
+      "authors": [
+        {
+          "_id": "6972e18efb12c92b735b73f1",
+          "name": "Tingyu Song",
+          "hidden": false
+        },
+        {
+          "_id": "6972e18efb12c92b735b73f2",
+          "name": "Yanzhao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e18efb12c92b735b73f3",
+          "name": "Mingxin Li",
+          "hidden": false
+        },
+        {
+          "_id": "6972e18efb12c92b735b73f4",
+          "name": "Zhuoning Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6972e18efb12c92b735b73f5",
+          "name": "Dingkun Long",
+          "hidden": false
+        },
+        {
+          "_id": "6972e18efb12c92b735b73f6",
+          "name": "Pengjun Xie",
+          "hidden": false
+        },
+        {
+          "_id": "6972e18efb12c92b735b73f7",
+          "name": "Siyue Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6972e18efb12c92b735b73f8",
+          "name": "Yilun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6972e18efb12c92b735b73f9",
+          "name": "Shu Wu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-22T17:26:52.000Z",
+      "submittedOnDailyAt": "2026-01-23T00:19:40.646Z",
+      "title": "Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing",
+      "submittedOnDailyBy": {
+        "_id": "64dc29d9b5d625e0e9a6ecb9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/QxGBsnk1cNsBEPqSx4ae-.jpeg",
+        "isPro": false,
+        "fullname": "Tingyu Song",
+        "user": "songtingyu",
+        "type": "user"
+      },
+      "summary": "Composed Image Retrieval (CIR) is a pivotal and complex task in multimodal understanding. Current CIR benchmarks typically feature limited query categories and fail to capture the diverse requirements of real-world scenarios. To bridge this evaluation gap, we leverage image editing to achieve precise control over modification types and content, enabling a pipeline for synthesizing queries across a broad spectrum of categories. Using this pipeline, we construct EDIR, a novel fine-grained CIR benchmark. EDIR encompasses 5,000 high-quality queries structured across five main categories and fifteen subcategories. Our comprehensive evaluation of 13 multimodal embedding models reveals a significant capability gap; even state-of-the-art models (e.g., RzenEmbed and GME) struggle to perform consistently across all subcategories, highlighting the rigorous nature of our benchmark. Through comparative analysis, we further uncover inherent limitations in existing benchmarks, such as modality biases and insufficient categorical coverage. Furthermore, an in-domain training experiment demonstrates the feasibility of our benchmark. This experiment clarifies the task challenges by distinguishing between categories that are solvable with targeted data and those that expose intrinsic limitations of current model architectures.",
+      "upvotes": 0,
+      "discussionId": "6972e18efb12c92b735b73fa",
+      "githubRepo": "https://github.com/SighingSnow/edir",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A novel fine-grained composed image retrieval benchmark is introduced through image editing techniques, revealing significant capability gaps in existing multimodal models and exposing limitations of current benchmarks.",
+      "ai_keywords": [
+        "composed image retrieval",
+        "multimodal embedding models",
+        "image editing",
+        "fine-grained benchmark",
+        "modality biases",
+        "categorical coverage"
+      ]
+    },
+    "publishedAt": "2026-01-22T12:26:52.000Z",
+    "title": "Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing",
+    "summary": "Composed Image Retrieval (CIR) is a pivotal and complex task in multimodal understanding. Current CIR benchmarks typically feature limited query categories and fail to capture the diverse requirements of real-world scenarios. To bridge this evaluation gap, we leverage image editing to achieve precise control over modification types and content, enabling a pipeline for synthesizing queries across a broad spectrum of categories. Using this pipeline, we construct EDIR, a novel fine-grained CIR benchmark. EDIR encompasses 5,000 high-quality queries structured across five main categories and fifteen subcategories. Our comprehensive evaluation of 13 multimodal embedding models reveals a significant capability gap; even state-of-the-art models (e.g., RzenEmbed and GME) struggle to perform consistently across all subcategories, highlighting the rigorous nature of our benchmark. Through comparative analysis, we further uncover inherent limitations in existing benchmarks, such as modality biases and insufficient categorical coverage. Furthermore, an in-domain training experiment demonstrates the feasibility of our benchmark. This experiment clarifies the task challenges by distinguishing between categories that are solvable with targeted data and those that expose intrinsic limitations of current model architectures.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.16125.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64dc29d9b5d625e0e9a6ecb9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/QxGBsnk1cNsBEPqSx4ae-.jpeg",
+      "fullname": "Tingyu Song",
+      "name": "songtingyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
