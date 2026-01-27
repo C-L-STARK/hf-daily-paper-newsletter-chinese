@@ -1,0 +1,83 @@
+[
+  {
+    "paper": {
+      "id": "2601.16207",
+      "authors": [
+        {
+          "_id": "697821fa026bdf0473116d8c",
+          "name": "Jongwoo Park",
+          "hidden": false
+        },
+        {
+          "_id": "697821fa026bdf0473116d8d",
+          "name": "Kanchana Ranasinghe",
+          "hidden": false
+        },
+        {
+          "_id": "697821fa026bdf0473116d8e",
+          "name": "Jinhyeok Jang",
+          "hidden": false
+        },
+        {
+          "_id": "697821fa026bdf0473116d8f",
+          "name": "Cristina Mata",
+          "hidden": false
+        },
+        {
+          "_id": "697821fa026bdf0473116d90",
+          "name": "Yoo Sung Jang",
+          "hidden": false
+        },
+        {
+          "_id": "697821fa026bdf0473116d91",
+          "name": "Michael S Ryoo",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-22T18:57:13.000Z",
+      "submittedOnDailyAt": "2026-01-27T00:26:44.510Z",
+      "title": "IVRA: Improving Visual-Token Relations for Robot Action Policy with Training-Free Hint-Based Guidance",
+      "submittedOnDailyBy": {
+        "_id": "666b7bf3f178c7e90115e038",
+        "avatarUrl": "/avatars/2a8f4cf26cdedb4fa5f715f0d14d1bbf.svg",
+        "isPro": false,
+        "fullname": "Jongwoo Park",
+        "user": "jongwoopark7978",
+        "type": "user"
+      },
+      "summary": "Many Vision-Language-Action (VLA) models flatten image patches into a 1D token sequence, weakening the 2D spatial cues needed for precise manipulation. We introduce IVRA, a lightweight, training-free method that improves spatial understanding by exploiting affinity hints already available in the model's built-in vision encoder, without requiring any external encoder or retraining. IVRA selectively injects these affinity signals into a language-model layer in which instance-level features reside. This inference-time intervention realigns visual-token interactions and better preserves geometric structure while keeping all model parameters fixed. We demonstrate the generality of IVRA by applying it to diverse VLA architectures (LLaRA, OpenVLA, and FLOWER) across simulated benchmarks spanning both 2D and 3D manipulation (VIMA and LIBERO) and on various real-robot tasks. On 2D VIMA, IVRA improves average success by +4.2% over the baseline LLaRA in a low-data regime. On 3D LIBERO, it yields consistent gains over the OpenVLA and FLOWER baselines, including improvements when baseline accuracy is near saturation (96.3% to 97.1%). All code and models will be released publicly. Visualizations are available at: jongwoopark7978.github.io/IVRA",
+      "upvotes": 1,
+      "discussionId": "697821fa026bdf0473116d92",
+      "ai_summary": "IVRA enhances spatial understanding in vision-language-action models by injecting affinity signals into language-model layers without retraining or external encoders.",
+      "ai_keywords": [
+        "Vision-Language-Action models",
+        "vision encoder",
+        "language-model layer",
+        "visual-token interactions",
+        "geometric structure",
+        "inference-time intervention",
+        "affinity hints",
+        "instance-level features"
+      ]
+    },
+    "publishedAt": "2026-01-22T13:57:13.000Z",
+    "title": "IVRA: Improving Visual-Token Relations for Robot Action Policy with Training-Free Hint-Based Guidance",
+    "summary": "Many Vision-Language-Action (VLA) models flatten image patches into a 1D token sequence, weakening the 2D spatial cues needed for precise manipulation. We introduce IVRA, a lightweight, training-free method that improves spatial understanding by exploiting affinity hints already available in the model's built-in vision encoder, without requiring any external encoder or retraining. IVRA selectively injects these affinity signals into a language-model layer in which instance-level features reside. This inference-time intervention realigns visual-token interactions and better preserves geometric structure while keeping all model parameters fixed. We demonstrate the generality of IVRA by applying it to diverse VLA architectures (LLaRA, OpenVLA, and FLOWER) across simulated benchmarks spanning both 2D and 3D manipulation (VIMA and LIBERO) and on various real-robot tasks. On 2D VIMA, IVRA improves average success by +4.2% over the baseline LLaRA in a low-data regime. On 3D LIBERO, it yields consistent gains over the OpenVLA and FLOWER baselines, including improvements when baseline accuracy is near saturation (96.3% to 97.1%). All code and models will be released publicly. Visualizations are available at: jongwoopark7978.github.io/IVRA",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.16207.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "666b7bf3f178c7e90115e038",
+      "avatarUrl": "/avatars/2a8f4cf26cdedb4fa5f715f0d14d1bbf.svg",
+      "fullname": "Jongwoo Park",
+      "name": "jongwoopark7978",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
