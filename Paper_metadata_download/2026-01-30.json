@@ -1,0 +1,529 @@
+[
+  {
+    "paper": {
+      "id": "2601.21754",
+      "authors": [
+        {
+          "_id": "697c1b0da67238fac88cc08d",
+          "name": "Haoyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc08e",
+          "name": "Guozheng Ma",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc08f",
+          "name": "Shugang Cui",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc090",
+          "name": "Yilun Kong",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc091",
+          "name": "Haotian Luo",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc092",
+          "name": "Li Shen",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc093",
+          "name": "Mengya Gao",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc094",
+          "name": "Yichao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc095",
+          "name": "Xiaogang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "697c1b0da67238fac88cc096",
+          "name": "Dacheng Tao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-29T14:08:41.000Z",
+      "submittedOnDailyAt": "2026-01-30T00:16:13.782Z",
+      "title": "Language-based Trial and Error Falls Behind in the Era of Experience",
+      "submittedOnDailyBy": {
+        "_id": "632ab8f5a968c34257da5c52",
+        "avatarUrl": "/avatars/59df09e6c9e1e633170514d950ad7981.svg",
+        "isPro": false,
+        "fullname": "Haotian Luo",
+        "user": "LordNoah",
+        "type": "user"
+      },
+      "summary": "While Large Language Models (LLMs) excel in language-based agentic tasks, their applicability to unseen, nonlinguistic environments (e.g., symbolic or spatial tasks) remains limited. Previous work attributes this performance gap to the mismatch between the pretraining distribution and the testing distribution. In this work, we demonstrate the primary bottleneck is the prohibitive cost of exploration: mastering these tasks requires extensive trial-and-error, which is computationally unsustainable for parameter-heavy LLMs operating in a high dimensional semantic space. To address this, we propose SCOUT (Sub-Scale Collaboration On Unseen Tasks), a novel framework that decouples exploration from exploitation. We employ lightweight \"scouts\" (e.g., small MLPs) to probe environmental dynamics at a speed and scale far exceeding LLMs. The collected trajectories are utilized to bootstrap the LLM via Supervised Fine-Tuning (SFT), followed by multi-turn Reinforcement Learning (RL) to activate its latent world knowledge. Empirically, SCOUT enables a Qwen2.5-3B-Instruct model to achieve an average score of 0.86, significantly outperforming proprietary models, including Gemini-2.5-Pro (0.60), while saving about 60% GPU hours consumption.",
+      "upvotes": 3,
+      "discussionId": "697c1b0da67238fac88cc097",
+      "projectPage": "https://scout-cs.github.io/",
+      "githubRepo": "https://github.com/Harry-mic/SCOUT",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A novel framework called SCOUT is introduced that uses lightweight scouts to reduce exploration costs for large language models in nonlinguistic environments, enabling improved performance through supervised fine-tuning and reinforcement learning.",
+      "ai_keywords": [
+        "Large Language Models",
+        "agentic tasks",
+        "pretraining distribution",
+        "testing distribution",
+        "exploration cost",
+        "trial-and-error",
+        "parameter-heavy LLMs",
+        "high dimensional semantic space",
+        "lightweight scouts",
+        "MLPs",
+        "environmental dynamics",
+        "Supervised Fine-Tuning",
+        "reinforcement learning",
+        "Qwen2.5-3B-Instruct",
+        "Gemini-2.5-Pro"
+      ],
+      "githubStars": 4,
+      "organization": {
+        "_id": "6508b28cf36bb51c50faad98",
+        "name": "NanyangTechnologicalUniversity",
+        "fullname": "Nanyang Technological University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/630ca0817dacb93b33506ce7/ZPD1fvei0bcIGeDXxeSkn.png"
+      }
+    },
+    "publishedAt": "2026-01-29T09:08:41.000Z",
+    "title": "Language-based Trial and Error Falls Behind in the Era of Experience",
+    "summary": "While Large Language Models (LLMs) excel in language-based agentic tasks, their applicability to unseen, nonlinguistic environments (e.g., symbolic or spatial tasks) remains limited. Previous work attributes this performance gap to the mismatch between the pretraining distribution and the testing distribution. In this work, we demonstrate the primary bottleneck is the prohibitive cost of exploration: mastering these tasks requires extensive trial-and-error, which is computationally unsustainable for parameter-heavy LLMs operating in a high dimensional semantic space. To address this, we propose SCOUT (Sub-Scale Collaboration On Unseen Tasks), a novel framework that decouples exploration from exploitation. We employ lightweight \"scouts\" (e.g., small MLPs) to probe environmental dynamics at a speed and scale far exceeding LLMs. The collected trajectories are utilized to bootstrap the LLM via Supervised Fine-Tuning (SFT), followed by multi-turn Reinforcement Learning (RL) to activate its latent world knowledge. Empirically, SCOUT enables a Qwen2.5-3B-Instruct model to achieve an average score of 0.86, significantly outperforming proprietary models, including Gemini-2.5-Pro (0.60), while saving about 60% GPU hours consumption.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21754.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "632ab8f5a968c34257da5c52",
+      "avatarUrl": "/avatars/59df09e6c9e1e633170514d950ad7981.svg",
+      "fullname": "Haotian Luo",
+      "name": "LordNoah",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6508b28cf36bb51c50faad98",
+      "name": "NanyangTechnologicalUniversity",
+      "fullname": "Nanyang Technological University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/630ca0817dacb93b33506ce7/ZPD1fvei0bcIGeDXxeSkn.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.18129",
+      "authors": [
+        {
+          "_id": "6979f992df3e800774f139a0",
+          "name": "Kunat Pipatanakul",
+          "hidden": false
+        },
+        {
+          "_id": "6979f992df3e800774f139a1",
+          "user": {
+            "_id": "615313b0793ef66b3324da1f",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/615313b0793ef66b3324da1f/VyJniD3dxbV5a2CMgVVQ2.jpeg",
+            "isPro": false,
+            "fullname": "Pittawat Taveekitworachai",
+            "user": "pittawat",
+            "type": "user"
+          },
+          "name": "Pittawat Taveekitworachai",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-01-28T14:41:40.587Z",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-26T04:20:59.000Z",
+      "submittedOnDailyAt": "2026-01-30T00:34:54.063Z",
+      "title": "Typhoon-S: Minimal Open Post-Training for Sovereign Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "62d192c2d50433c35eb1b48e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d192c2d50433c35eb1b48e/VjmDu8GOIuLuQNBQdQLLS.png",
+        "isPro": false,
+        "fullname": "Kunat Pipatanakul",
+        "user": "kunato",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have progressed rapidly; however, most state-of-the-art models are trained and evaluated primarily in high-resource languages such as English and Chinese, and are often developed by a small number of organizations with access to large-scale compute and data. This gatekeeping creates a practical barrier for sovereign settings in which a regional- or national-scale institution or domain owner must retain control and understanding of model weights, training data, and deployment while operating under limited resources and strict transparency constraints. To this end, we identify two core requirements: (1) adoptability, the ability to transform a base model into a general-purpose assistant, and (2) sovereign capability, the ability to perform high-stakes, region-specific tasks (e.g., legal reasoning in local languages and cultural knowledge). We investigate whether these requirements can be achieved without scaling massive instruction corpora or relying on complex preference tuning pipelines and large-scale reinforcement fine-tuning (RFT). We present Typhoon S, a minimal and open post-training recipe that combines supervised fine-tuning, on-policy distillation, and small-scale RFT. Using Thai as a representative case study, we demonstrate that our approach transforms both sovereign-adapted and general-purpose base models into instruction-tuned models with strong general performance. We further show that small-scale RFT with InK-GRPO -- an extension of GRPO that augments the GRPO loss with a next-word prediction loss -- improves Thai legal reasoning and Thai-specific knowledge while preserving general capabilities. Our results suggest that a carefully designed post-training strategy can reduce the required scale of instruction data and computation, providing a practical path toward high-quality sovereign LLMs under academic-scale resources.",
+      "upvotes": 3,
+      "discussionId": "6979f993df3e800774f139a2",
+      "projectPage": "https://opentyphoon.ai/model/typhoon-s",
+      "githubRepo": "https://github.com/scb-10x/typhoon-s",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A minimal post-training approach using supervised fine-tuning, on-policy distillation, and small-scale reinforcement fine-tuning enables the development of high-quality sovereign language models with reduced resource requirements.",
+      "ai_keywords": [
+        "supervised fine-tuning",
+        "on-policy distillation",
+        "reinforcement fine-tuning",
+        "GRPO",
+        "InK-GRPO",
+        "instruction tuning",
+        "sovereign language models",
+        "minimal post-training recipe"
+      ],
+      "githubStars": 2,
+      "organization": {
+        "_id": "63e9cdf9dd2c4effdd6d39c0",
+        "name": "typhoon-ai",
+        "fullname": "Typhoon",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/679c6a57a3d5c3ba94fb1289/13sACxi2PL23wCeKHzwrF.jpeg"
+      }
+    },
+    "publishedAt": "2026-01-25T23:20:59.000Z",
+    "title": "Typhoon-S: Minimal Open Post-Training for Sovereign Large Language Models",
+    "summary": "Large language models (LLMs) have progressed rapidly; however, most state-of-the-art models are trained and evaluated primarily in high-resource languages such as English and Chinese, and are often developed by a small number of organizations with access to large-scale compute and data. This gatekeeping creates a practical barrier for sovereign settings in which a regional- or national-scale institution or domain owner must retain control and understanding of model weights, training data, and deployment while operating under limited resources and strict transparency constraints. To this end, we identify two core requirements: (1) adoptability, the ability to transform a base model into a general-purpose assistant, and (2) sovereign capability, the ability to perform high-stakes, region-specific tasks (e.g., legal reasoning in local languages and cultural knowledge). We investigate whether these requirements can be achieved without scaling massive instruction corpora or relying on complex preference tuning pipelines and large-scale reinforcement fine-tuning (RFT). We present Typhoon S, a minimal and open post-training recipe that combines supervised fine-tuning, on-policy distillation, and small-scale RFT. Using Thai as a representative case study, we demonstrate that our approach transforms both sovereign-adapted and general-purpose base models into instruction-tuned models with strong general performance. We further show that small-scale RFT with InK-GRPO -- an extension of GRPO that augments the GRPO loss with a next-word prediction loss -- improves Thai legal reasoning and Thai-specific knowledge while preserving general capabilities. Our results suggest that a carefully designed post-training strategy can reduce the required scale of instruction data and computation, providing a practical path toward high-quality sovereign LLMs under academic-scale resources.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.18129.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "62d192c2d50433c35eb1b48e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d192c2d50433c35eb1b48e/VjmDu8GOIuLuQNBQdQLLS.png",
+      "fullname": "Kunat Pipatanakul",
+      "name": "kunato",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 15,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "63e9cdf9dd2c4effdd6d39c0",
+      "name": "typhoon-ai",
+      "fullname": "Typhoon",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/679c6a57a3d5c3ba94fb1289/13sACxi2PL23wCeKHzwrF.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.21598",
+      "authors": [
+        {
+          "_id": "697c20f1a67238fac88cc0ce",
+          "name": "Zhi Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "697c20f1a67238fac88cc0cf",
+          "name": "Wee Sun Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-29T12:07:16.000Z",
+      "submittedOnDailyAt": "2026-01-30T00:39:38.307Z",
+      "title": "Beyond Imitation: Reinforcement Learning for Active Latent Planning",
+      "submittedOnDailyBy": {
+        "_id": "67a1d21e33e92b4a1183f3bb",
+        "avatarUrl": "/avatars/43f9dd3fcb7d58ddc69562fd1fc12957.svg",
+        "isPro": false,
+        "fullname": "Zhi Zheng",
+        "user": "zz1358m",
+        "type": "user"
+      },
+      "summary": "Aiming at efficient and dense chain-of-thought (CoT) reasoning, latent reasoning methods fine-tune Large Language Models (LLMs) to substitute discrete language tokens with continuous latent tokens. These methods consume fewer tokens compared to the conventional language CoT reasoning and have the potential to plan in a dense latent space. However, current latent tokens are generally supervised based on imitating language labels. Considering that there can be multiple equivalent but diverse CoT labels for a question, passively imitating an arbitrary one may lead to inferior latent token representations and latent reasoning policies, undermining the potential planning ability and resulting in clear gaps between training and testing. In this work, we emphasize the importance of active planning over the representation space of latent tokens in achieving the optimal latent reasoning policy. So, we propose the Active Latent Planning method (ATP-Latent), which models the supervision process of latent tokens as a conditional variational auto-encoder (VAE) to obtain a smoother latent space. Moreover, to facilitate the most reasonable latent reasoning policy, ATP-Latent conducts reinforcement learning (RL) with an auxiliary coherence reward, which is calculated based on the consistency between VAE-decoded contents of latent tokens, enabling a guided RL process. In experiments on LLaMA-1B, ATP-Latent demonstrates +4.1\\% accuracy and -3.3\\% tokens on four benchmarks compared to advanced baselines. Codes are available on https://github.com/zz1358m/ATP-Latent-master.",
+      "upvotes": 2,
+      "discussionId": "697c20f2a67238fac88cc0d0",
+      "ai_summary": "Active latent planning method improves reasoning accuracy and efficiency by modeling latent token supervision as conditional VAE and using reinforcement learning with coherence rewards.",
+      "ai_keywords": [
+        "chain-of-thought reasoning",
+        "latent reasoning",
+        "large language models",
+        "latent tokens",
+        "conditional variational auto-encoder",
+        "reinforcement learning",
+        "coherence reward",
+        "dense latent space",
+        "active planning"
+      ]
+    },
+    "publishedAt": "2026-01-29T07:07:16.000Z",
+    "title": "Beyond Imitation: Reinforcement Learning for Active Latent Planning",
+    "summary": "Aiming at efficient and dense chain-of-thought (CoT) reasoning, latent reasoning methods fine-tune Large Language Models (LLMs) to substitute discrete language tokens with continuous latent tokens. These methods consume fewer tokens compared to the conventional language CoT reasoning and have the potential to plan in a dense latent space. However, current latent tokens are generally supervised based on imitating language labels. Considering that there can be multiple equivalent but diverse CoT labels for a question, passively imitating an arbitrary one may lead to inferior latent token representations and latent reasoning policies, undermining the potential planning ability and resulting in clear gaps between training and testing. In this work, we emphasize the importance of active planning over the representation space of latent tokens in achieving the optimal latent reasoning policy. So, we propose the Active Latent Planning method (ATP-Latent), which models the supervision process of latent tokens as a conditional variational auto-encoder (VAE) to obtain a smoother latent space. Moreover, to facilitate the most reasonable latent reasoning policy, ATP-Latent conducts reinforcement learning (RL) with an auxiliary coherence reward, which is calculated based on the consistency between VAE-decoded contents of latent tokens, enabling a guided RL process. In experiments on LLaMA-1B, ATP-Latent demonstrates +4.1\\% accuracy and -3.3\\% tokens on four benchmarks compared to advanced baselines. Codes are available on https://github.com/zz1358m/ATP-Latent-master.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21598.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67a1d21e33e92b4a1183f3bb",
+      "avatarUrl": "/avatars/43f9dd3fcb7d58ddc69562fd1fc12957.svg",
+      "fullname": "Zhi Zheng",
+      "name": "zz1358m",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.21406",
+      "authors": [
+        {
+          "_id": "697c2082a67238fac88cc0c5",
+          "name": "Zihan Su",
+          "hidden": false
+        },
+        {
+          "_id": "697c2082a67238fac88cc0c6",
+          "name": "Hongyang Wei",
+          "hidden": false
+        },
+        {
+          "_id": "697c2082a67238fac88cc0c7",
+          "name": "Kangrui Cen",
+          "hidden": false
+        },
+        {
+          "_id": "697c2082a67238fac88cc0c8",
+          "name": "Yong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "697c2082a67238fac88cc0c9",
+          "name": "Guanhua Chen",
+          "hidden": false
+        },
+        {
+          "_id": "697c2082a67238fac88cc0ca",
+          "name": "Chun Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "697c2082a67238fac88cc0cb",
+          "name": "Xiangxiang Chu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-29T08:42:25.000Z",
+      "submittedOnDailyAt": "2026-01-30T00:39:16.691Z",
+      "title": "Generation Enhances Understanding in Unified Multimodal Models via Multi-Representation Generation",
+      "submittedOnDailyBy": {
+        "_id": "648dca31385b84261811505d",
+        "avatarUrl": "/avatars/dfd124e3b5ffed8b0d3f429be0f7bdc0.svg",
+        "isPro": false,
+        "fullname": "Zihan Su",
+        "user": "Sugewud",
+        "type": "user"
+      },
+      "summary": "Unified Multimodal Models (UMMs) integrate both visual understanding and generation within a single framework. Their ultimate aspiration is to create a cycle where understanding and generation mutually reinforce each other. While recent post-training methods have successfully leveraged understanding to enhance generation, the reverse direction of utilizing generation to improve understanding remains largely unexplored. In this work, we propose UniMRG (Unified Multi-Representation Generation), a simple yet effective architecture-agnostic post-training method. UniMRG enhances the understanding capabilities of UMMs by incorporating auxiliary generation tasks. Specifically, we train UMMs to generate multiple intrinsic representations of input images, namely pixel (reconstruction), depth (geometry), and segmentation (structure), alongside standard visual understanding objectives. By synthesizing these diverse representations, UMMs capture complementary information regarding appearance, spatial relations, and structural layout. Consequently, UMMs develop a deeper and more comprehensive understanding of visual inputs. Extensive experiments across diverse UMM architectures demonstrate that our method notably enhances fine-grained perception, reduces hallucinations, and improves spatial understanding, while simultaneously boosting generation capabilities.",
+      "upvotes": 1,
+      "discussionId": "697c2082a67238fac88cc0cc",
+      "ai_summary": "UniMRG enhances unified multimodal models by training them to generate multiple visual representations, improving both understanding and generation capabilities through complementary information capture.",
+      "ai_keywords": [
+        "Unified Multimodal Models",
+        "post-training methods",
+        "visual understanding",
+        "visual generation",
+        "auxiliary generation tasks",
+        "intrinsic representations",
+        "pixel reconstruction",
+        "depth estimation",
+        "segmentation",
+        "fine-grained perception",
+        "hallucination reduction",
+        "spatial understanding"
+      ]
+    },
+    "publishedAt": "2026-01-29T03:42:25.000Z",
+    "title": "Generation Enhances Understanding in Unified Multimodal Models via Multi-Representation Generation",
+    "summary": "Unified Multimodal Models (UMMs) integrate both visual understanding and generation within a single framework. Their ultimate aspiration is to create a cycle where understanding and generation mutually reinforce each other. While recent post-training methods have successfully leveraged understanding to enhance generation, the reverse direction of utilizing generation to improve understanding remains largely unexplored. In this work, we propose UniMRG (Unified Multi-Representation Generation), a simple yet effective architecture-agnostic post-training method. UniMRG enhances the understanding capabilities of UMMs by incorporating auxiliary generation tasks. Specifically, we train UMMs to generate multiple intrinsic representations of input images, namely pixel (reconstruction), depth (geometry), and segmentation (structure), alongside standard visual understanding objectives. By synthesizing these diverse representations, UMMs capture complementary information regarding appearance, spatial relations, and structural layout. Consequently, UMMs develop a deeper and more comprehensive understanding of visual inputs. Extensive experiments across diverse UMM architectures demonstrate that our method notably enhances fine-grained perception, reduces hallucinations, and improves spatial understanding, while simultaneously boosting generation capabilities.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21406.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "648dca31385b84261811505d",
+      "avatarUrl": "/avatars/dfd124e3b5ffed8b0d3f429be0f7bdc0.svg",
+      "fullname": "Zihan Su",
+      "name": "Sugewud",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.21051",
+      "authors": [
+        {
+          "_id": "697c1898a67238fac88cc076",
+          "name": "Zhuoran Yang",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc077",
+          "name": "Ed Li",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc078",
+          "name": "Jianliang He",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc079",
+          "name": "Aman Priyanshu",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc07a",
+          "name": "Baturay Saglam",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc07b",
+          "name": "Paul Kassianik",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc07c",
+          "name": "Sajana Weerawardhena",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc07d",
+          "name": "Anu Vellore",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc07e",
+          "name": "Blaine Nelson",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc07f",
+          "name": "Neusha Javidnia",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc080",
+          "name": "Arthur Goldblatt",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc081",
+          "name": "Fraser Burch",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc082",
+          "name": "Avi Zohary",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc083",
+          "name": "Assaf Eisenman",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc084",
+          "name": "Mahdi Sabbaghi",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc085",
+          "name": "Supriti Vijay",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc086",
+          "name": "Rahim Dharssi",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc087",
+          "name": "Dhruv Kedia",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc088",
+          "name": "Kojin Oshiba",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc089",
+          "name": "Yaron Singer",
+          "hidden": false
+        },
+        {
+          "_id": "697c1898a67238fac88cc08a",
+          "name": "Amin Karbasi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-28T21:15:24.000Z",
+      "submittedOnDailyAt": "2026-01-30T00:04:43.826Z",
+      "title": "Llama-3.1-FoundationAI-SecurityLLM-Reasoning-8B Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "646d769cda8e99940b71928e",
+        "avatarUrl": "/avatars/acee495a23362aa39b3d3e75c9afd967.svg",
+        "isPro": false,
+        "fullname": "Zhuoran Yang",
+        "user": "zhuoranyang",
+        "type": "user"
+      },
+      "summary": "We present Foundation-Sec-8B-Reasoning, the first open-source native reasoning model for cybersecurity. Built upon our previously released Foundation-Sec-8B base model (derived from Llama-3.1-8B-Base), the model is trained through a two-stage process combining supervised fine-tuning (SFT) and reinforcement learning from verifiable rewards (RLVR). Our training leverages proprietary reasoning data spanning cybersecurity analysis, instruction-following, and mathematical reasoning. Evaluation across 10 cybersecurity benchmarks and 10 general-purpose benchmarks demonstrates performance competitive with significantly larger models on cybersecurity tasks while maintaining strong general capabilities. The model shows effective generalization on multi-hop reasoning tasks and strong safety performance when deployed with appropriate system prompts and guardrails. This work demonstrates that domain-specialized reasoning models can achieve strong performance on specialized tasks while maintaining broad general capabilities. We release the model publicly at https://huggingface.co/fdtn-ai/Foundation-Sec-8B-Reasoning.",
+      "upvotes": 1,
+      "discussionId": "697c1899a67238fac88cc08b",
+      "projectPage": "https://huggingface.co/fdtn-ai/Foundation-Sec-8B-Reasoning",
+      "ai_summary": "A two-stage trained cybersecurity reasoning model achieves competitive performance on specialized tasks while maintaining general capabilities through supervised fine-tuning and reinforcement learning from verifiable rewards.",
+      "ai_keywords": [
+        "supervised fine-tuning",
+        "reinforcement learning from verifiable rewards",
+        "cybersecurity analysis",
+        "multi-hop reasoning",
+        "safety performance"
+      ],
+      "organization": {
+        "_id": "67cb6bcf560c3dcbb1a9c8b6",
+        "name": "fdtn-ai",
+        "fullname": "Cisco Foundation AI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6573a9fe769f3ee9bdf4d9c7/MfBxEGubvNKGKnWcmR_Cu.png"
+      }
+    },
+    "publishedAt": "2026-01-28T16:15:24.000Z",
+    "title": "Llama-3.1-FoundationAI-SecurityLLM-Reasoning-8B Technical Report",
+    "summary": "We present Foundation-Sec-8B-Reasoning, the first open-source native reasoning model for cybersecurity. Built upon our previously released Foundation-Sec-8B base model (derived from Llama-3.1-8B-Base), the model is trained through a two-stage process combining supervised fine-tuning (SFT) and reinforcement learning from verifiable rewards (RLVR). Our training leverages proprietary reasoning data spanning cybersecurity analysis, instruction-following, and mathematical reasoning. Evaluation across 10 cybersecurity benchmarks and 10 general-purpose benchmarks demonstrates performance competitive with significantly larger models on cybersecurity tasks while maintaining strong general capabilities. The model shows effective generalization on multi-hop reasoning tasks and strong safety performance when deployed with appropriate system prompts and guardrails. This work demonstrates that domain-specialized reasoning models can achieve strong performance on specialized tasks while maintaining broad general capabilities. We release the model publicly at https://huggingface.co/fdtn-ai/Foundation-Sec-8B-Reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21051.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "646d769cda8e99940b71928e",
+      "avatarUrl": "/avatars/acee495a23362aa39b3d3e75c9afd967.svg",
+      "fullname": "Zhuoran Yang",
+      "name": "zhuoranyang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67cb6bcf560c3dcbb1a9c8b6",
+      "name": "fdtn-ai",
+      "fullname": "Cisco Foundation AI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6573a9fe769f3ee9bdf4d9c7/MfBxEGubvNKGKnWcmR_Cu.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
