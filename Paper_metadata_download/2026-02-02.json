@@ -1,0 +1,709 @@
+[
+  {
+    "paper": {
+      "id": "2601.21558",
+      "authors": [
+        {
+          "_id": "697c279ea67238fac88cc104",
+          "name": "Xiaoyu Tian",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc105",
+          "name": "Haotian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc106",
+          "name": "Shuaiting Chen",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc107",
+          "name": "Hao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc108",
+          "name": "Kaichi Yu",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc109",
+          "name": "Yudian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc10a",
+          "name": "Jade Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc10b",
+          "name": "Junxi Yin",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc10c",
+          "name": "Jiong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc10d",
+          "name": "Baoyan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc10e",
+          "name": "Lei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc10f",
+          "name": "Junjie Tao",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc110",
+          "name": "Yuansheng Song",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc111",
+          "name": "Ming Cui",
+          "hidden": false
+        },
+        {
+          "_id": "697c279ea67238fac88cc112",
+          "name": "Chengwei Liu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/621499d72be42a56cca7afad/C3KRF5SVsqevuZy7nGJfm.png"
+      ],
+      "publishedAt": "2026-01-29T11:22:23.000Z",
+      "submittedOnDailyAt": "2026-02-02T00:08:03.322Z",
+      "title": "ASTRA: Automated Synthesis of agentic Trajectories and Reinforcement Arenas",
+      "submittedOnDailyBy": {
+        "_id": "621499d72be42a56cca7afad",
+        "avatarUrl": "/avatars/3cea70d1a55c8096b4270093c69e4a5e.svg",
+        "isPro": false,
+        "fullname": "TianXiaoyu",
+        "user": "Emperorizzis",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) are increasingly used as tool-augmented agents for multi-step decision making, yet training robust tool-using agents remains challenging. Existing methods still require manual intervention, depend on non-verifiable simulated environments, rely exclusively on either supervised fine-tuning (SFT) or reinforcement learning (RL), and struggle with stable long-horizon, multi-turn learning. To address these challenges, we introduce ASTRA, a fully automated end-to-end framework for training tool-augmented language model agents via scalable data synthesis and verifiable reinforcement learning. ASTRA integrates two complementary components. First, a pipeline that leverages the static topology of tool-call graphs synthesizes diverse, structurally grounded trajectories, instilling broad and transferable tool-use competence. Second, an environment synthesis framework that captures the rich, compositional topology of human semantic reasoning converts decomposed question-answer traces into independent, code-executable, and rule-verifiable environments, enabling deterministic multi-turn RL. Based on this method, we develop a unified training methodology that integrates SFT with online RL using trajectory-level rewards to balance task completion and interaction efficiency. Experiments on multiple agentic tool-use benchmarks demonstrate that ASTRA-trained models achieve state-of-the-art performance at comparable scales, approaching closed-source systems while preserving core reasoning ability. We release the full pipelines, environments, and trained models at https://github.com/LianjiaTech/astra.",
+      "upvotes": 18,
+      "discussionId": "697c279fa67238fac88cc113",
+      "githubRepo": "https://github.com/LianjiaTech/astra",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "ASTRA is an automated framework that trains tool-augmented language models using synthetic data and verifiable reinforcement learning to improve multi-step decision-making capabilities.",
+      "ai_keywords": [
+        "tool-call graphs",
+        "trajectory-level rewards",
+        "supervised fine-tuning",
+        "reinforcement learning",
+        "agent training",
+        "multi-step decision making",
+        "verifiable environments",
+        "compositional topology",
+        "semantic reasoning",
+        "tool-augmented language models"
+      ]
+    },
+    "publishedAt": "2026-01-29T06:22:23.000Z",
+    "title": "ASTRA: Automated Synthesis of agentic Trajectories and Reinforcement Arenas",
+    "summary": "Large language models (LLMs) are increasingly used as tool-augmented agents for multi-step decision making, yet training robust tool-using agents remains challenging. Existing methods still require manual intervention, depend on non-verifiable simulated environments, rely exclusively on either supervised fine-tuning (SFT) or reinforcement learning (RL), and struggle with stable long-horizon, multi-turn learning. To address these challenges, we introduce ASTRA, a fully automated end-to-end framework for training tool-augmented language model agents via scalable data synthesis and verifiable reinforcement learning. ASTRA integrates two complementary components. First, a pipeline that leverages the static topology of tool-call graphs synthesizes diverse, structurally grounded trajectories, instilling broad and transferable tool-use competence. Second, an environment synthesis framework that captures the rich, compositional topology of human semantic reasoning converts decomposed question-answer traces into independent, code-executable, and rule-verifiable environments, enabling deterministic multi-turn RL. Based on this method, we develop a unified training methodology that integrates SFT with online RL using trajectory-level rewards to balance task completion and interaction efficiency. Experiments on multiple agentic tool-use benchmarks demonstrate that ASTRA-trained models achieve state-of-the-art performance at comparable scales, approaching closed-source systems while preserving core reasoning ability. We release the full pipelines, environments, and trained models at https://github.com/LianjiaTech/astra.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/621499d72be42a56cca7afad/C3KRF5SVsqevuZy7nGJfm.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21558.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "621499d72be42a56cca7afad",
+      "avatarUrl": "/avatars/3cea70d1a55c8096b4270093c69e4a5e.svg",
+      "fullname": "TianXiaoyu",
+      "name": "Emperorizzis",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.22628",
+      "authors": [
+        {
+          "_id": "6980103b6676f9332270654a",
+          "name": "Chengyi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6980103b6676f9332270654b",
+          "name": "Zhishang Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "6980103b6676f9332270654c",
+          "name": "Yunbo Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6980103b6676f9332270654d",
+          "name": "Zongpei Teng",
+          "hidden": false
+        },
+        {
+          "_id": "6980103b6676f9332270654e",
+          "name": "Chengsong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6980103b6676f9332270654f",
+          "name": "Fei Long",
+          "hidden": false
+        },
+        {
+          "_id": "6980103b6676f93322706550",
+          "name": "Yuhan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6980103b6676f93322706551",
+          "name": "Jinsong Su",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-30T06:38:02.000Z",
+      "submittedOnDailyAt": "2026-02-02T00:37:03.238Z",
+      "title": "TTCS: Test-Time Curriculum Synthesis for Self-Evolving",
+      "submittedOnDailyBy": {
+        "_id": "62ea79dd01ed9b0e8f61ccd3",
+        "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+        "isPro": false,
+        "fullname": "Chengsong Huang",
+        "user": "ChengsongHuang",
+        "type": "user"
+      },
+      "summary": "Test-Time Training offers a promising way to improve the reasoning ability of large language models (LLMs) by adapting the model using only the test questions. However, existing methods struggle with difficult reasoning problems for two reasons: raw test questions are often too difficult to yield high-quality pseudo-labels, and the limited size of test sets makes continuous online updates prone to instability. To address these limitations, we propose TTCS, a co-evolving test-time training framework. Specifically, TTCS initializes two policies from the same pretrained model: a question synthesizer and a reasoning solver. These policies evolve through iterative optimization: the synthesizer generates progressively challenging question variants conditioned on the test questions, creating a structured curriculum tailored to the solver's current capability, while the solver updates itself using self-consistency rewards computed from multiple sampled responses on both original test and synthetic questions. Crucially, the solver's feedback guides the synthesizer to generate questions aligned with the model's current capability, and the generated question variants in turn stabilize the solver's test-time training. Experiments show that TTCS consistently strengthens the reasoning ability on challenging mathematical benchmarks and transfers to general-domain tasks across different LLM backbones, highlighting a scalable path towards dynamically constructing test-time curricula for self-evolving. Our code and implementation details are available at https://github.com/XMUDeepLIT/TTCS.",
+      "upvotes": 12,
+      "discussionId": "6980103b6676f93322706552",
+      "ai_summary": "TTCS is a co-evolving test-time training framework that enhances LLM reasoning abilities by iteratively generating challenging question variants and updating a reasoning solver through self-consistency rewards.",
+      "ai_keywords": [
+        "test-time training",
+        "large language models",
+        "pseudo-labels",
+        "self-consistency rewards",
+        "question synthesizer",
+        "reasoning solver",
+        "iterative optimization",
+        "test-time curricula",
+        "mathematical benchmarks",
+        "general-domain tasks"
+      ]
+    },
+    "publishedAt": "2026-01-30T01:38:02.000Z",
+    "title": "TTCS: Test-Time Curriculum Synthesis for Self-Evolving",
+    "summary": "Test-Time Training offers a promising way to improve the reasoning ability of large language models (LLMs) by adapting the model using only the test questions. However, existing methods struggle with difficult reasoning problems for two reasons: raw test questions are often too difficult to yield high-quality pseudo-labels, and the limited size of test sets makes continuous online updates prone to instability. To address these limitations, we propose TTCS, a co-evolving test-time training framework. Specifically, TTCS initializes two policies from the same pretrained model: a question synthesizer and a reasoning solver. These policies evolve through iterative optimization: the synthesizer generates progressively challenging question variants conditioned on the test questions, creating a structured curriculum tailored to the solver's current capability, while the solver updates itself using self-consistency rewards computed from multiple sampled responses on both original test and synthetic questions. Crucially, the solver's feedback guides the synthesizer to generate questions aligned with the model's current capability, and the generated question variants in turn stabilize the solver's test-time training. Experiments show that TTCS consistently strengthens the reasoning ability on challenging mathematical benchmarks and transfers to general-domain tasks across different LLM backbones, highlighting a scalable path towards dynamically constructing test-time curricula for self-evolving. Our code and implementation details are available at https://github.com/XMUDeepLIT/TTCS.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.22628.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "62ea79dd01ed9b0e8f61ccd3",
+      "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+      "fullname": "Chengsong Huang",
+      "name": "ChengsongHuang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 11,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.21716",
+      "authors": [
+        {
+          "_id": "697d68416676f933227061e4",
+          "name": "Mingshuang Luo",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061e5",
+          "name": "Shuang Liang",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061e6",
+          "name": "Zhengkun Rong",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061e7",
+          "name": "Yuxuan Luo",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061e8",
+          "name": "Tianshu Hu",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061e9",
+          "name": "Ruibing Hou",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061ea",
+          "name": "Hong Chang",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061eb",
+          "name": "Yong Li",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061ec",
+          "name": "Yuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "697d68416676f933227061ed",
+          "name": "Mingyuan Gao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-29T13:43:17.000Z",
+      "submittedOnDailyAt": "2026-02-02T00:12:40.328Z",
+      "title": "DreamActor-M2: Universal Character Image Animation via Spatiotemporal In-Context Learning",
+      "submittedOnDailyBy": {
+        "_id": "6178ea05267320abb99df778",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1636104707106-6178ea05267320abb99df778.jpeg",
+        "isPro": false,
+        "fullname": "Mingshuang Luo",
+        "user": "luomingshuang",
+        "type": "user"
+      },
+      "summary": "Character image animation aims to synthesize high-fidelity videos by transferring motion from a driving sequence to a static reference image. Despite recent advancements, existing methods suffer from two fundamental challenges: (1) suboptimal motion injection strategies that lead to a trade-off between identity preservation and motion consistency, manifesting as a \"see-saw\", and (2) an over-reliance on explicit pose priors (e.g., skeletons), which inadequately capture intricate dynamics and hinder generalization to arbitrary, non-humanoid characters. To address these challenges, we present DreamActor-M2, a universal animation framework that reimagines motion conditioning as an in-context learning problem. Our approach follows a two-stage paradigm. First, we bridge the input modality gap by fusing reference appearance and motion cues into a unified latent space, enabling the model to jointly reason about spatial identity and temporal dynamics by leveraging the generative prior of foundational models. Second, we introduce a self-bootstrapped data synthesis pipeline that curates pseudo cross-identity training pairs, facilitating a seamless transition from pose-dependent control to direct, end-to-end RGB-driven animation. This strategy significantly enhances generalization across diverse characters and motion scenarios. To facilitate comprehensive evaluation, we further introduce AW Bench, a versatile benchmark encompassing a wide spectrum of characters types and motion scenarios. Extensive experiments demonstrate that DreamActor-M2 achieves state-of-the-art performance, delivering superior visual fidelity and robust cross-domain generalization. Project Page: https://grisoon.github.io/DreamActor-M2/",
+      "upvotes": 5,
+      "discussionId": "697d68426676f933227061ee",
+      "projectPage": "https://grisoon.github.io/DreamActor-M2/",
+      "ai_summary": "DreamActor-M2 presents a universal character animation framework that addresses motion injection trade-offs and pose prior limitations through in-context learning and self-bootstrapped data synthesis for improved generalization across diverse characters.",
+      "ai_keywords": [
+        "motion conditioning",
+        "in-context learning",
+        "latent space",
+        "generative prior",
+        "self-bootstrapped data synthesis",
+        "cross-identity training pairs",
+        "end-to-end RGB-driven animation",
+        "cross-domain generalization"
+      ],
+      "organization": {
+        "_id": "653b817d32c97d0655575872",
+        "name": "ByteDance",
+        "fullname": "ByteDance",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+      }
+    },
+    "publishedAt": "2026-01-29T08:43:17.000Z",
+    "title": "DreamActor-M2: Universal Character Image Animation via Spatiotemporal In-Context Learning",
+    "summary": "Character image animation aims to synthesize high-fidelity videos by transferring motion from a driving sequence to a static reference image. Despite recent advancements, existing methods suffer from two fundamental challenges: (1) suboptimal motion injection strategies that lead to a trade-off between identity preservation and motion consistency, manifesting as a \"see-saw\", and (2) an over-reliance on explicit pose priors (e.g., skeletons), which inadequately capture intricate dynamics and hinder generalization to arbitrary, non-humanoid characters. To address these challenges, we present DreamActor-M2, a universal animation framework that reimagines motion conditioning as an in-context learning problem. Our approach follows a two-stage paradigm. First, we bridge the input modality gap by fusing reference appearance and motion cues into a unified latent space, enabling the model to jointly reason about spatial identity and temporal dynamics by leveraging the generative prior of foundational models. Second, we introduce a self-bootstrapped data synthesis pipeline that curates pseudo cross-identity training pairs, facilitating a seamless transition from pose-dependent control to direct, end-to-end RGB-driven animation. This strategy significantly enhances generalization across diverse characters and motion scenarios. To facilitate comprehensive evaluation, we further introduce AW Bench, a versatile benchmark encompassing a wide spectrum of characters types and motion scenarios. Extensive experiments demonstrate that DreamActor-M2 achieves state-of-the-art performance, delivering superior visual fidelity and robust cross-domain generalization. Project Page: https://grisoon.github.io/DreamActor-M2/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21716.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6178ea05267320abb99df778",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1636104707106-6178ea05267320abb99df778.jpeg",
+      "fullname": "Mingshuang Luo",
+      "name": "luomingshuang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "653b817d32c97d0655575872",
+      "name": "ByteDance",
+      "fullname": "ByteDance",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.20218",
+      "authors": [
+        {
+          "_id": "697b3e53870173bd91777369",
+          "user": {
+            "_id": "665fce33b99c631f4f57e650",
+            "avatarUrl": "/avatars/dc98235d6e4e33e5980c2b46627c238b.svg",
+            "isPro": false,
+            "fullname": "Haoyou Deng",
+            "user": "haoyou11",
+            "type": "user"
+          },
+          "name": "Haoyou Deng",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-01-29T13:56:28.058Z",
+          "hidden": false
+        },
+        {
+          "_id": "697b3e53870173bd9177736a",
+          "name": "Keyu Yan",
+          "hidden": false
+        },
+        {
+          "_id": "697b3e53870173bd9177736b",
+          "name": "Chaojie Mao",
+          "hidden": false
+        },
+        {
+          "_id": "697b3e53870173bd9177736c",
+          "name": "Xiang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "697b3e53870173bd9177736d",
+          "name": "Yu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "697b3e53870173bd9177736e",
+          "name": "Changxin Gao",
+          "hidden": false
+        },
+        {
+          "_id": "697b3e53870173bd9177736f",
+          "name": "Nong Sang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-28T03:39:05.000Z",
+      "submittedOnDailyAt": "2026-02-02T00:05:08.557Z",
+      "title": "DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment",
+      "submittedOnDailyBy": {
+        "_id": "665fce33b99c631f4f57e650",
+        "avatarUrl": "/avatars/dc98235d6e4e33e5980c2b46627c238b.svg",
+        "isPro": false,
+        "fullname": "Haoyou Deng",
+        "user": "haoyou11",
+        "type": "user"
+      },
+      "summary": "Recent GRPO-based approaches built on flow matching models have shown remarkable improvements in human preference alignment for text-to-image generation. Nevertheless, they still suffer from the sparse reward problem: the terminal reward of the entire denoising trajectory is applied to all intermediate steps, resulting in a mismatch between the global feedback signals and the exact fine-grained contributions at intermediate denoising steps. To address this issue, we introduce DenseGRPO, a novel framework that aligns human preference with dense rewards, which evaluates the fine-grained contribution of each denoising step. Specifically, our approach includes two key components: (1) we propose to predict the step-wise reward gain as dense reward of each denoising step, which applies a reward model on the intermediate clean images via an ODE-based approach. This manner ensures an alignment between feedback signals and the contributions of individual steps, facilitating effective training; and (2) based on the estimated dense rewards, a mismatch drawback between the uniform exploration setting and the time-varying noise intensity in existing GRPO-based methods is revealed, leading to an inappropriate exploration space. Thus, we propose a reward-aware scheme to calibrate the exploration space by adaptively adjusting a timestep-specific stochasticity injection in the SDE sampler, ensuring a suitable exploration space at all timesteps. Extensive experiments on multiple standard benchmarks demonstrate the effectiveness of the proposed DenseGRPO and highlight the critical role of the valid dense rewards in flow matching model alignment.",
+      "upvotes": 2,
+      "discussionId": "697b3e54870173bd91777370",
+      "ai_summary": "DenseGRPO addresses sparse reward problems in flow matching models by introducing dense rewards for intermediate denoising steps and adaptive exploration calibration.",
+      "ai_keywords": [
+        "flow matching models",
+        "denoising trajectory",
+        "sparse reward problem",
+        "dense rewards",
+        "step-wise reward gain",
+        "reward model",
+        "ODE-based approach",
+        "SDE sampler",
+        "stochasticity injection",
+        "time-varying noise intensity",
+        "reward-aware scheme",
+        "exploration space"
+      ],
+      "organization": {
+        "_id": "67d15cca6e2cf0e062dbfb54",
+        "name": "AlibabaTongyiLab",
+        "fullname": "TongyiLab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d1502bfabfe9974d1f77bb/XdUSVf6HqBzE7zFBfSDQP.png"
+      }
+    },
+    "publishedAt": "2026-01-27T22:39:05.000Z",
+    "title": "DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment",
+    "summary": "Recent GRPO-based approaches built on flow matching models have shown remarkable improvements in human preference alignment for text-to-image generation. Nevertheless, they still suffer from the sparse reward problem: the terminal reward of the entire denoising trajectory is applied to all intermediate steps, resulting in a mismatch between the global feedback signals and the exact fine-grained contributions at intermediate denoising steps. To address this issue, we introduce DenseGRPO, a novel framework that aligns human preference with dense rewards, which evaluates the fine-grained contribution of each denoising step. Specifically, our approach includes two key components: (1) we propose to predict the step-wise reward gain as dense reward of each denoising step, which applies a reward model on the intermediate clean images via an ODE-based approach. This manner ensures an alignment between feedback signals and the contributions of individual steps, facilitating effective training; and (2) based on the estimated dense rewards, a mismatch drawback between the uniform exploration setting and the time-varying noise intensity in existing GRPO-based methods is revealed, leading to an inappropriate exploration space. Thus, we propose a reward-aware scheme to calibrate the exploration space by adaptively adjusting a timestep-specific stochasticity injection in the SDE sampler, ensuring a suitable exploration space at all timesteps. Extensive experiments on multiple standard benchmarks demonstrate the effectiveness of the proposed DenseGRPO and highlight the critical role of the valid dense rewards in flow matching model alignment.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.20218.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "665fce33b99c631f4f57e650",
+      "avatarUrl": "/avatars/dc98235d6e4e33e5980c2b46627c238b.svg",
+      "fullname": "Haoyou Deng",
+      "name": "haoyou11",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67d15cca6e2cf0e062dbfb54",
+      "name": "AlibabaTongyiLab",
+      "fullname": "TongyiLab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d1502bfabfe9974d1f77bb/XdUSVf6HqBzE7zFBfSDQP.png"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2601.22664",
+      "authors": [
+        {
+          "_id": "6980162d6676f9332270656f",
+          "name": "Zixuan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706570",
+          "name": "Xin Xia",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706571",
+          "name": "Yuxi Ren",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706572",
+          "name": "Jianbin Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706573",
+          "name": "Xuefeng Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706574",
+          "name": "Hongyan Xie",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706575",
+          "name": "Li Huaqiu",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706576",
+          "name": "Songshi Liang",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706577",
+          "name": "Zhongxiang Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706578",
+          "name": "Fuzhen Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f93322706579",
+          "name": "Jianxin Li",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f9332270657a",
+          "name": "Yikun Ban",
+          "hidden": false
+        },
+        {
+          "_id": "6980162d6676f9332270657b",
+          "name": "Deqing Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-30T07:32:35.000Z",
+      "submittedOnDailyAt": "2026-02-02T01:01:20.171Z",
+      "title": "Real-Time Aligned Reward Model beyond Semantics",
+      "submittedOnDailyBy": {
+        "_id": "68345345f4bbf856e2d708e2",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68345345f4bbf856e2d708e2/L5H2HNCuWje3ti2tNbC5p.jpeg",
+        "isPro": false,
+        "fullname": "Yikun Ban",
+        "user": "Yikunb",
+        "type": "user"
+      },
+      "summary": "Reinforcement Learning from Human Feedback (RLHF) is a pivotal technique for aligning large language models (LLMs) with human preferences, yet it is susceptible to reward overoptimization, in which policy models overfit to the reward model, exploit spurious reward patterns instead of faithfully capturing human intent. Prior mitigations primarily relies on surface semantic information and fails to efficiently address the misalignment between the reward model (RM) and the policy model caused by continuous policy distribution shifts. This inevitably leads to an increasing reward discrepancy, exacerbating reward overoptimization. To address these limitations, we introduce R2M (Real-Time Aligned Reward Model), a novel lightweight RLHF framework. R2M goes beyond vanilla reward models that solely depend on the semantic representations of a pretrained LLM. Instead, it leverages the evolving hidden states of the policy (namely policy feedback) to align with the real-time distribution shift of the policy during the RL process. This work points to a promising new direction for improving the performance of reward models through real-time utilization of feedback from policy models.",
+      "upvotes": 1,
+      "discussionId": "6980162e6676f9332270657c",
+      "ai_summary": "RLHF suffers from reward overoptimization due to misalignment between reward models and policy models, which R2M addresses by incorporating real-time policy feedback to dynamically adapt reward modeling during training.",
+      "ai_keywords": [
+        "Reinforcement Learning from Human Feedback",
+        "reward overoptimization",
+        "policy models",
+        "reward models",
+        "policy distribution shifts",
+        "real-time alignment",
+        "policy feedback"
+      ]
+    },
+    "publishedAt": "2026-01-30T02:32:35.000Z",
+    "title": "Real-Time Aligned Reward Model beyond Semantics",
+    "summary": "Reinforcement Learning from Human Feedback (RLHF) is a pivotal technique for aligning large language models (LLMs) with human preferences, yet it is susceptible to reward overoptimization, in which policy models overfit to the reward model, exploit spurious reward patterns instead of faithfully capturing human intent. Prior mitigations primarily relies on surface semantic information and fails to efficiently address the misalignment between the reward model (RM) and the policy model caused by continuous policy distribution shifts. This inevitably leads to an increasing reward discrepancy, exacerbating reward overoptimization. To address these limitations, we introduce R2M (Real-Time Aligned Reward Model), a novel lightweight RLHF framework. R2M goes beyond vanilla reward models that solely depend on the semantic representations of a pretrained LLM. Instead, it leverages the evolving hidden states of the policy (namely policy feedback) to align with the real-time distribution shift of the policy during the RL process. This work points to a promising new direction for improving the performance of reward models through real-time utilization of feedback from policy models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.22664.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "68345345f4bbf856e2d708e2",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68345345f4bbf856e2d708e2/L5H2HNCuWje3ti2tNbC5p.jpeg",
+      "fullname": "Yikun Ban",
+      "name": "Yikunb",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.22141",
+      "authors": [
+        {
+          "_id": "697c8d096676f93322706032",
+          "user": {
+            "_id": "632dc132fdb35759ea673fbf",
+            "avatarUrl": "/avatars/4ba2879965150820170d96b610cfccd2.svg",
+            "isPro": false,
+            "fullname": "Grzegorz Stefański",
+            "user": "GrzegorzStefanski",
+            "type": "user"
+          },
+          "name": "Grzegorz Stefanski",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-01-30T13:31:28.141Z",
+          "hidden": false
+        },
+        {
+          "_id": "697c8d096676f93322706033",
+          "name": "Alberto Presta",
+          "hidden": false
+        },
+        {
+          "_id": "697c8d096676f93322706034",
+          "name": "Michal Byra",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-29T18:56:41.000Z",
+      "submittedOnDailyAt": "2026-02-02T01:00:24.563Z",
+      "title": "Routing the Lottery: Adaptive Subnetworks for Heterogeneous Data",
+      "submittedOnDailyBy": {
+        "_id": "632dc132fdb35759ea673fbf",
+        "avatarUrl": "/avatars/4ba2879965150820170d96b610cfccd2.svg",
+        "isPro": false,
+        "fullname": "Grzegorz Stefański",
+        "user": "GrzegorzStefanski",
+        "type": "user"
+      },
+      "summary": "In pruning, the Lottery Ticket Hypothesis posits that large networks contain sparse subnetworks, or winning tickets, that can be trained in isolation to match the performance of their dense counterparts. However, most existing approaches assume a single universal winning ticket shared across all inputs, ignoring the inherent heterogeneity of real-world data. In this work, we propose Routing the Lottery (RTL), an adaptive pruning framework that discovers multiple specialized subnetworks, called adaptive tickets, each tailored to a class, semantic cluster, or environmental condition. Across diverse datasets and tasks, RTL consistently outperforms single- and multi-model baselines in balanced accuracy and recall, while using up to 10 times fewer parameters than independent models and exhibiting semantically aligned. Furthermore, we identify subnetwork collapse, a performance drop under aggressive pruning, and introduce a subnetwork similarity score that enables label-free diagnosis of oversparsification. Overall, our results recast pruning as a mechanism for aligning model structure with data heterogeneity, paving the way toward more modular and context-aware deep learning.",
+      "upvotes": 1,
+      "discussionId": "697c8d096676f93322706035",
+      "ai_summary": "Routing the Lottery framework discovers multiple specialized subnetworks tailored to different data conditions, outperforming traditional pruning methods while using fewer parameters and identifying subnetwork collapse issues.",
+      "ai_keywords": [
+        "Lottery Ticket Hypothesis",
+        "winning tickets",
+        "adaptive pruning",
+        "adaptive tickets",
+        "subnetwork collapse",
+        "subnetwork similarity score"
+      ]
+    },
+    "publishedAt": "2026-01-29T13:56:41.000Z",
+    "title": "Routing the Lottery: Adaptive Subnetworks for Heterogeneous Data",
+    "summary": "In pruning, the Lottery Ticket Hypothesis posits that large networks contain sparse subnetworks, or winning tickets, that can be trained in isolation to match the performance of their dense counterparts. However, most existing approaches assume a single universal winning ticket shared across all inputs, ignoring the inherent heterogeneity of real-world data. In this work, we propose Routing the Lottery (RTL), an adaptive pruning framework that discovers multiple specialized subnetworks, called adaptive tickets, each tailored to a class, semantic cluster, or environmental condition. Across diverse datasets and tasks, RTL consistently outperforms single- and multi-model baselines in balanced accuracy and recall, while using up to 10 times fewer parameters than independent models and exhibiting semantically aligned. Furthermore, we identify subnetwork collapse, a performance drop under aggressive pruning, and introduce a subnetwork similarity score that enables label-free diagnosis of oversparsification. Overall, our results recast pruning as a mechanism for aligning model structure with data heterogeneity, paving the way toward more modular and context-aware deep learning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.22141.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "632dc132fdb35759ea673fbf",
+      "avatarUrl": "/avatars/4ba2879965150820170d96b610cfccd2.svg",
+      "fullname": "Grzegorz Stefański",
+      "name": "GrzegorzStefanski",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2601.21358",
+      "authors": [
+        {
+          "_id": "69801aa26676f93322706596",
+          "name": "Jiecong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69801aa26676f93322706597",
+          "name": "Hao Peng",
+          "hidden": false
+        },
+        {
+          "_id": "69801aa26676f93322706598",
+          "name": "Chunyang Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-29T07:38:18.000Z",
+      "submittedOnDailyAt": "2026-02-02T01:03:26.097Z",
+      "title": "Latent Chain-of-Thought as Planning: Decoupling Reasoning from Verbalization",
+      "submittedOnDailyBy": {
+        "_id": "652275e1d65824bda7a845db",
+        "avatarUrl": "/avatars/ae465143a480e4f739c3c4c544490f25.svg",
+        "isPro": false,
+        "fullname": "jc",
+        "user": "yunsaijc",
+        "type": "user"
+      },
+      "summary": "Chain-of-Thought (CoT) empowers Large Language Models (LLMs) to tackle complex problems, but remains constrained by the computational cost and reasoning path collapse when grounded in discrete token spaces. Recent latent reasoning approaches attempt to optimize efficiency by performing reasoning within continuous hidden states. However, these methods typically operate as opaque end-to-end mappings from explicit reasoning steps to latent states, and often require a pre-defined number of latent steps during inference. In this work, we introduce PLaT (Planning with Latent Thoughts), a framework that reformulates latent reasoning as planning by fundamentally decouple reasoning from verbalization. We model reasoning as a deterministic trajectory of latent planning states, while a separate Decoder grounds these thoughts into text when necessary. This decoupling allows the model to dynamically determine when to terminate reasoning rather than relying on fixed hyperparameters. Empirical results on mathematical benchmarks reveal a distinct trade-off: while PLaT achieves lower greedy accuracy than baselines, it demonstrates superior scalability in terms of reasoning diversity. This indicates that PLaT learns a robust, broader solution space, offering a transparent and scalable foundation for inference-time search.",
+      "upvotes": 1,
+      "discussionId": "69801aa26676f93322706599",
+      "ai_summary": "PLaT introduces a latent reasoning framework that decouples reasoning from verbalization, enabling dynamic termination and improved scalability over traditional approaches.",
+      "ai_keywords": [
+        "Chain-of-Thought",
+        "Large Language Models",
+        "latent reasoning",
+        "discrete token spaces",
+        "continuous hidden states",
+        "deterministic trajectory",
+        "latent planning states",
+        "inference-time search"
+      ]
+    },
+    "publishedAt": "2026-01-29T02:38:18.000Z",
+    "title": "Latent Chain-of-Thought as Planning: Decoupling Reasoning from Verbalization",
+    "summary": "Chain-of-Thought (CoT) empowers Large Language Models (LLMs) to tackle complex problems, but remains constrained by the computational cost and reasoning path collapse when grounded in discrete token spaces. Recent latent reasoning approaches attempt to optimize efficiency by performing reasoning within continuous hidden states. However, these methods typically operate as opaque end-to-end mappings from explicit reasoning steps to latent states, and often require a pre-defined number of latent steps during inference. In this work, we introduce PLaT (Planning with Latent Thoughts), a framework that reformulates latent reasoning as planning by fundamentally decouple reasoning from verbalization. We model reasoning as a deterministic trajectory of latent planning states, while a separate Decoder grounds these thoughts into text when necessary. This decoupling allows the model to dynamically determine when to terminate reasoning rather than relying on fixed hyperparameters. Empirical results on mathematical benchmarks reveal a distinct trade-off: while PLaT achieves lower greedy accuracy than baselines, it demonstrates superior scalability in terms of reasoning diversity. This indicates that PLaT learns a robust, broader solution space, offering a transparent and scalable foundation for inference-time search.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21358.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "652275e1d65824bda7a845db",
+      "avatarUrl": "/avatars/ae465143a480e4f739c3c4c544490f25.svg",
+      "fullname": "jc",
+      "name": "yunsaijc",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
