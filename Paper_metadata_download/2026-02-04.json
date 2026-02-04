@@ -1,0 +1,1588 @@
+[
+  {
+    "paper": {
+      "id": "2602.01785",
+      "authors": [
+        {
+          "_id": "69818a88ce18b18628096389",
+          "user": {
+            "_id": "645b0c3ec35da9c7afd95421",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+            "isPro": false,
+            "fullname": "Yuling",
+            "user": "YerbaPage",
+            "type": "user"
+          },
+          "name": "Yuling Shi",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-03T10:03:06.748Z",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b1862809638a",
+          "name": "Chaoxiang Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b1862809638b",
+          "name": "Zhensu Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b1862809638c",
+          "name": "Yeheng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b1862809638d",
+          "name": "Chenxu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b1862809638e",
+          "name": "Longfei Yun",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b1862809638f",
+          "name": "Chengcheng Wan",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b18628096390",
+          "name": "Hongyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b18628096391",
+          "name": "David Lo",
+          "hidden": false
+        },
+        {
+          "_id": "69818a88ce18b18628096392",
+          "name": "Xiaodong Gu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T08:10:21.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:15:44.767Z",
+      "title": "CodeOCR: On the Effectiveness of Vision Language Models in Code Understanding",
+      "submittedOnDailyBy": {
+        "_id": "645b0c3ec35da9c7afd95421",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+        "isPro": false,
+        "fullname": "Yuling",
+        "user": "YerbaPage",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) have achieved remarkable success in source code understanding, yet as software systems grow in scale, computational efficiency has become a critical bottleneck. Currently, these models rely on a text-based paradigm that treats source code as a linear sequence of tokens, which leads to a linear increase in context length and associated computational costs. The rapid advancement of Multimodal LLMs (MLLMs) introduces an opportunity to optimize efficiency by representing source code as rendered images. Unlike text, which is difficult to compress without losing semantic meaning, the image modality is inherently suitable for compression. By adjusting resolution, images can be scaled to a fraction of their original token cost while remaining recognizable to vision-capable models. To explore the feasibility of this approach, we conduct the first systematic study on the effectiveness of MLLMs for code understanding. Our experiments reveal that: (1) MLLMs can effectively understand code with substantial token reduction, achieving up to 8x compression; (2) MLLMs can effectively leverage visual cues such as syntax highlighting, improving code completion performance under 4x compression; and (3) Code-understanding tasks like clone detection exhibit exceptional resilience to visual compression, with some compression ratios even slightly outperforming raw text inputs. Our findings highlight both the potential and current limitations of MLLMs in code understanding, which points out a shift toward image-modality code representation as a pathway to more efficient inference.",
+      "upvotes": 27,
+      "discussionId": "69818a89ce18b18628096393",
+      "ai_summary": "Multimodal large language models can effectively understand source code when represented as compressed images, achieving significant token reduction while maintaining or improving performance on code comprehension tasks.",
+      "ai_keywords": [
+        "Multimodal LLMs",
+        "source code understanding",
+        "token compression",
+        "visual cues",
+        "syntax highlighting",
+        "code completion",
+        "clone detection",
+        "image modality",
+        "visual compression",
+        "computational efficiency"
+      ],
+      "organization": {
+        "_id": "63e5ef7bf2e9a8f22c515654",
+        "name": "SJTU",
+        "fullname": "Shanghai Jiao Tong University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1676013394657-63e5ee22b6a40bf941da0928.png"
+      }
+    },
+    "publishedAt": "2026-02-02T03:10:21.000Z",
+    "title": "CodeOCR: On the Effectiveness of Vision Language Models in Code Understanding",
+    "summary": "Large Language Models (LLMs) have achieved remarkable success in source code understanding, yet as software systems grow in scale, computational efficiency has become a critical bottleneck. Currently, these models rely on a text-based paradigm that treats source code as a linear sequence of tokens, which leads to a linear increase in context length and associated computational costs. The rapid advancement of Multimodal LLMs (MLLMs) introduces an opportunity to optimize efficiency by representing source code as rendered images. Unlike text, which is difficult to compress without losing semantic meaning, the image modality is inherently suitable for compression. By adjusting resolution, images can be scaled to a fraction of their original token cost while remaining recognizable to vision-capable models. To explore the feasibility of this approach, we conduct the first systematic study on the effectiveness of MLLMs for code understanding. Our experiments reveal that: (1) MLLMs can effectively understand code with substantial token reduction, achieving up to 8x compression; (2) MLLMs can effectively leverage visual cues such as syntax highlighting, improving code completion performance under 4x compression; and (3) Code-understanding tasks like clone detection exhibit exceptional resilience to visual compression, with some compression ratios even slightly outperforming raw text inputs. Our findings highlight both the potential and current limitations of MLLMs in code understanding, which points out a shift toward image-modality code representation as a pathway to more efficient inference.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.01785.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "645b0c3ec35da9c7afd95421",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+      "fullname": "Yuling",
+      "name": "YerbaPage",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 191,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "63e5ef7bf2e9a8f22c515654",
+      "name": "SJTU",
+      "fullname": "Shanghai Jiao Tong University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1676013394657-63e5ee22b6a40bf941da0928.png"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.01630",
+      "authors": [
+        {
+          "_id": "6982b3dd9084cb4f0ecb564b",
+          "name": "Bohan Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb564c",
+          "name": "Kaixin Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb564d",
+          "name": "Daili Hua",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb564e",
+          "name": "Bozhou Li",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb564f",
+          "name": "Chengzhuo Tong",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5650",
+          "name": "Yuran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5651",
+          "name": "Xinyi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5652",
+          "name": "Yifan Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5653",
+          "name": "Zixiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5654",
+          "name": "Yifan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5655",
+          "name": "Zhou Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5656",
+          "name": "Hao Liang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5657",
+          "name": "Xiaochen Ma",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5658",
+          "name": "Ruichuan An",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5659",
+          "name": "Tianyi Bai",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb565a",
+          "name": "Hongcheng Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb565b",
+          "name": "Junbo Niu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb565c",
+          "name": "Yang Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb565d",
+          "name": "Xinlong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb565e",
+          "name": "Yue Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb565f",
+          "name": "Minglei Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5660",
+          "name": "Kai Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5661",
+          "name": "Yiwen Tang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5662",
+          "name": "Yuanxing Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5663",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5664",
+          "name": "Xintao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b3dd9084cb4f0ecb5665",
+          "name": "Wentao Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T04:42:44.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:21:41.173Z",
+      "title": "Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks",
+      "submittedOnDailyBy": {
+        "_id": "6671214c92412fd4640714eb",
+        "avatarUrl": "/avatars/48fa84e7bc3bb92ad0192aa26b32de10.svg",
+        "isPro": false,
+        "fullname": "bohan zeng",
+        "user": "zbhpku",
+        "type": "user"
+      },
+      "summary": "World models have emerged as a critical frontier in AI research, aiming to enhance large models by infusing them with physical dynamics and world knowledge. The core objective is to enable agents to understand, predict, and interact with complex environments. However, current research landscape remains fragmented, with approaches predominantly focused on injecting world knowledge into isolated tasks, such as visual prediction, 3D estimation, or symbol grounding, rather than establishing a unified definition or framework. While these task-specific integrations yield performance gains, they often lack the systematic coherence required for holistic world understanding. In this paper, we analyze the limitations of such fragmented approaches and propose a unified design specification for world models. We suggest that a robust world model should not be a loose collection of capabilities but a normative framework that integrally incorporates interaction, perception, symbolic reasoning, and spatial representation. This work aims to provide a structured perspective to guide future research toward more general, robust, and principled models of the world.",
+      "upvotes": 13,
+      "discussionId": "6982b3de9084cb4f0ecb5666",
+      "ai_summary": "Current world models lack unified frameworks despite task-specific advances, necessitating a comprehensive approach integrating interaction, perception, symbolic reasoning, and spatial representation.",
+      "ai_keywords": [
+        "world models",
+        "physical dynamics",
+        "environment interaction",
+        "visual prediction",
+        "3D estimation",
+        "symbol grounding",
+        "unified framework",
+        "normative framework",
+        "spatial representation"
+      ],
+      "organization": {
+        "_id": "662c559b322afcbae51b3c8b",
+        "name": "KlingTeam",
+        "fullname": "Kling Team",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+      }
+    },
+    "publishedAt": "2026-02-01T23:42:44.000Z",
+    "title": "Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks",
+    "summary": "World models have emerged as a critical frontier in AI research, aiming to enhance large models by infusing them with physical dynamics and world knowledge. The core objective is to enable agents to understand, predict, and interact with complex environments. However, current research landscape remains fragmented, with approaches predominantly focused on injecting world knowledge into isolated tasks, such as visual prediction, 3D estimation, or symbol grounding, rather than establishing a unified definition or framework. While these task-specific integrations yield performance gains, they often lack the systematic coherence required for holistic world understanding. In this paper, we analyze the limitations of such fragmented approaches and propose a unified design specification for world models. We suggest that a robust world model should not be a loose collection of capabilities but a normative framework that integrally incorporates interaction, perception, symbolic reasoning, and spatial representation. This work aims to provide a structured perspective to guide future research toward more general, robust, and principled models of the world.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.01630.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "6671214c92412fd4640714eb",
+      "avatarUrl": "/avatars/48fa84e7bc3bb92ad0192aa26b32de10.svg",
+      "fullname": "bohan zeng",
+      "name": "zbhpku",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "662c559b322afcbae51b3c8b",
+      "name": "KlingTeam",
+      "fullname": "Kling Team",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.03619",
+      "authors": [
+        {
+          "_id": "6982b7fc9084cb4f0ecb5670",
+          "name": "Changze Lv",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5671",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5672",
+          "name": "Wentao Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5673",
+          "name": "Jingwen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5674",
+          "name": "Zisu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5675",
+          "name": "Muzhao Tian",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5676",
+          "name": "Shihan Dou",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5677",
+          "name": "Tao Gui",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5678",
+          "name": "Le Tian",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb5679",
+          "name": "Xiao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb567a",
+          "name": "Xiaoqing Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb567b",
+          "name": "Xuanjing Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b7fc9084cb4f0ecb567c",
+          "name": "Jie Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-03T15:09:56.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:38:31.588Z",
+      "title": "Learning Query-Specific Rubrics from Human Preferences for DeepResearch Report Generation",
+      "submittedOnDailyBy": {
+        "_id": "60efa4da8432bc401cd0abc6",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efa4da8432bc401cd0abc6/xUxoIpDzc02G8HtyIyBo5.jpeg",
+        "isPro": false,
+        "fullname": "Changze Lv",
+        "user": "fdu-lcz",
+        "type": "user"
+      },
+      "summary": "Nowadays, training and evaluating DeepResearch-generated reports remain challenging due to the lack of verifiable reward signals. Accordingly, rubric-based evaluation has become a common practice. However, existing approaches either rely on coarse, pre-defined rubrics that lack sufficient granularity, or depend on manually constructed query-specific rubrics that are costly and difficult to scale. In this paper, we propose a pipeline to train human-preference-aligned query-specific rubric generators tailored for DeepResearch report generation. We first construct a dataset of DeepResearch-style queries annotated with human preferences over paired reports, and train rubric generators via reinforcement learning with a hybrid reward combining human preference supervision and LLM-based rubric evaluation. To better handle long-horizon reasoning, we further introduce a Multi-agent Markov-state (MaMs) workflow for report generation. We empirically show that our proposed rubric generators deliver more discriminative and better human-aligned supervision than existing rubric design strategies. Moreover, when integrated into the MaMs training framework, DeepResearch systems equipped with our rubric generators consistently outperform all open-source baselines on the DeepResearch Bench and achieve performance comparable to that of leading closed-source models.",
+      "upvotes": 10,
+      "discussionId": "6982b7fc9084cb4f0ecb567d",
+      "ai_summary": "DeepResearch report generation is improved through human-preference-aligned rubric generators trained via reinforcement learning with hybrid rewards and enhanced with multi-agent Markov-state workflows.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "hybrid reward",
+        "human preference supervision",
+        "LLM-based rubric evaluation",
+        "Multi-agent Markov-state",
+        "DeepResearch bench",
+        "open-source baselines",
+        "closed-source models"
+      ],
+      "organization": {
+        "_id": "66543b6e420092799d2f625c",
+        "name": "tencent",
+        "fullname": "Tencent",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+      }
+    },
+    "publishedAt": "2026-02-03T10:09:56.000Z",
+    "title": "Learning Query-Specific Rubrics from Human Preferences for DeepResearch Report Generation",
+    "summary": "Nowadays, training and evaluating DeepResearch-generated reports remain challenging due to the lack of verifiable reward signals. Accordingly, rubric-based evaluation has become a common practice. However, existing approaches either rely on coarse, pre-defined rubrics that lack sufficient granularity, or depend on manually constructed query-specific rubrics that are costly and difficult to scale. In this paper, we propose a pipeline to train human-preference-aligned query-specific rubric generators tailored for DeepResearch report generation. We first construct a dataset of DeepResearch-style queries annotated with human preferences over paired reports, and train rubric generators via reinforcement learning with a hybrid reward combining human preference supervision and LLM-based rubric evaluation. To better handle long-horizon reasoning, we further introduce a Multi-agent Markov-state (MaMs) workflow for report generation. We empirically show that our proposed rubric generators deliver more discriminative and better human-aligned supervision than existing rubric design strategies. Moreover, when integrated into the MaMs training framework, DeepResearch systems equipped with our rubric generators consistently outperform all open-source baselines on the DeepResearch Bench and achieve performance comparable to that of leading closed-source models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.03619.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60efa4da8432bc401cd0abc6",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efa4da8432bc401cd0abc6/xUxoIpDzc02G8HtyIyBo5.jpeg",
+      "fullname": "Changze Lv",
+      "name": "fdu-lcz",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "66543b6e420092799d2f625c",
+      "name": "tencent",
+      "fullname": "Tencent",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.02380",
+      "authors": [
+        {
+          "_id": "6981774fce18b186280960be",
+          "name": "Yibin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6981774fce18b186280960bf",
+          "name": "Yuhang Zang",
+          "hidden": false
+        },
+        {
+          "_id": "6981774fce18b186280960c0",
+          "name": "Feng Han",
+          "hidden": false
+        },
+        {
+          "_id": "6981774fce18b186280960c1",
+          "name": "Jiazi Bu",
+          "hidden": false
+        },
+        {
+          "_id": "6981774fce18b186280960c2",
+          "name": "Yujie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6981774fce18b186280960c3",
+          "name": "Cheng Jin",
+          "hidden": false
+        },
+        {
+          "_id": "6981774fce18b186280960c4",
+          "name": "Jiaqi Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T17:44:21.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:14:14.041Z",
+      "title": "Unified Personalized Reward Model for Vision Generation",
+      "submittedOnDailyBy": {
+        "_id": "654c6845bac6e6e49895a5b5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KXQaAxulqr8jNBSpEaYM4.png",
+        "isPro": false,
+        "fullname": "SII-Yibin Wang",
+        "user": "CodeGoat24",
+        "type": "user"
+      },
+      "summary": "Recent advancements in multimodal reward models (RMs) have significantly propelled the development of visual generation. Existing frameworks typically adopt Bradley-Terry-style preference modeling or leverage generative VLMs as judges, and subsequently optimize visual generation models via reinforcement learning. However, current RMs suffer from inherent limitations: they often follow a one-size-fits-all paradigm that assumes a monolithic preference distribution or relies on fixed evaluation rubrics. As a result, they are insensitive to content-specific visual cues, leading to systematic misalignment with subjective and context-dependent human preferences. To this end, inspired by human assessment, we propose UnifiedReward-Flex, a unified personalized reward model for vision generation that couples reward modeling with flexible and context-adaptive reasoning. Specifically, given a prompt and the generated visual content, it first interprets the semantic intent and grounds on visual evidence, then dynamically constructs a hierarchical assessment by instantiating fine-grained criteria under both predefined and self-generated high-level dimensions. Our training pipeline follows a two-stage process: (1) we first distill structured, high-quality reasoning traces from advanced closed-source VLMs to bootstrap SFT, equipping the model with flexible and context-adaptive reasoning behaviors; (2) we then perform direct preference optimization (DPO) on carefully curated preference pairs to further strengthen reasoning fidelity and discriminative alignment. To validate the effectiveness, we integrate UnifiedReward-Flex into the GRPO framework for image and video synthesis, and extensive results demonstrate its superiority.",
+      "upvotes": 6,
+      "discussionId": "6981774fce18b186280960c5",
+      "projectPage": "https://codegoat24.github.io/UnifiedReward/flex",
+      "githubRepo": "https://github.com/CodeGoat24/UnifiedReward",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "UnifiedReward-Flex combines reward modeling with flexible, context-adaptive reasoning to improve visual generation by dynamically constructing hierarchical assessments based on semantic intent and visual evidence.",
+      "ai_keywords": [
+        "multimodal reward models",
+        "visual generation",
+        "Bradley-Terry-style preference modeling",
+        "generative VLMs",
+        "reinforcement learning",
+        "preference optimization",
+        "direct preference optimization",
+        "structured reasoning traces",
+        "semantic intent",
+        "visual evidence",
+        "hierarchical assessment",
+        "flexible reasoning",
+        "context-adaptive reasoning",
+        "GRPO framework",
+        "image synthesis",
+        "video synthesis"
+      ],
+      "githubStars": 687,
+      "organization": {
+        "_id": "643cb0625fcffe09fb6ca688",
+        "name": "Fudan-University",
+        "fullname": "Fudan University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6437eca0819f3ab20d162e14/kWv0cGlAhAG3iNWVxowkJ.png"
+      }
+    },
+    "publishedAt": "2026-02-02T12:44:21.000Z",
+    "title": "Unified Personalized Reward Model for Vision Generation",
+    "summary": "Recent advancements in multimodal reward models (RMs) have significantly propelled the development of visual generation. Existing frameworks typically adopt Bradley-Terry-style preference modeling or leverage generative VLMs as judges, and subsequently optimize visual generation models via reinforcement learning. However, current RMs suffer from inherent limitations: they often follow a one-size-fits-all paradigm that assumes a monolithic preference distribution or relies on fixed evaluation rubrics. As a result, they are insensitive to content-specific visual cues, leading to systematic misalignment with subjective and context-dependent human preferences. To this end, inspired by human assessment, we propose UnifiedReward-Flex, a unified personalized reward model for vision generation that couples reward modeling with flexible and context-adaptive reasoning. Specifically, given a prompt and the generated visual content, it first interprets the semantic intent and grounds on visual evidence, then dynamically constructs a hierarchical assessment by instantiating fine-grained criteria under both predefined and self-generated high-level dimensions. Our training pipeline follows a two-stage process: (1) we first distill structured, high-quality reasoning traces from advanced closed-source VLMs to bootstrap SFT, equipping the model with flexible and context-adaptive reasoning behaviors; (2) we then perform direct preference optimization (DPO) on carefully curated preference pairs to further strengthen reasoning fidelity and discriminative alignment. To validate the effectiveness, we integrate UnifiedReward-Flex into the GRPO framework for image and video synthesis, and extensive results demonstrate its superiority.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.02380.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "654c6845bac6e6e49895a5b5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KXQaAxulqr8jNBSpEaYM4.png",
+      "fullname": "SII-Yibin Wang",
+      "name": "CodeGoat24",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 23,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "643cb0625fcffe09fb6ca688",
+      "name": "Fudan-University",
+      "fullname": "Fudan University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6437eca0819f3ab20d162e14/kWv0cGlAhAG3iNWVxowkJ.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.02676",
+      "authors": [
+        {
+          "_id": "6982b0439084cb4f0ecb562e",
+          "name": "Xintong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb562f",
+          "name": "Xiaowen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5630",
+          "name": "Jongrong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5631",
+          "name": "Zhi Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5632",
+          "name": "Shilin Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5633",
+          "name": "Zhenxin Diao",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5634",
+          "name": "Kunpeng Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5635",
+          "name": "Xuanyan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5636",
+          "name": "Yuwei Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5637",
+          "name": "Yunde Jia",
+          "hidden": false
+        },
+        {
+          "_id": "6982b0439084cb4f0ecb5638",
+          "name": "Qing Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T19:00:27.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:16:03.144Z",
+      "title": "AdaptMMBench: Benchmarking Adaptive Multimodal Reasoning for Mode Selection and Reasoning Process",
+      "submittedOnDailyBy": {
+        "_id": "66b5b0ceef3f3fc987957343",
+        "avatarUrl": "/avatars/915de4d13789cd50f0cb61a9bf5fce80.svg",
+        "isPro": false,
+        "fullname": "Xintong Zhang",
+        "user": "xintongzhang",
+        "type": "user"
+      },
+      "summary": "Adaptive multimodal reasoning has emerged as a promising frontier in Vision-Language Models (VLMs), aiming to dynamically modulate between tool-augmented visual reasoning and text reasoning to enhance both effectiveness and efficiency. However, existing evaluations rely on static difficulty labels and simplistic metrics, which fail to capture the dynamic nature of difficulty relative to varying model capacities. Consequently, they obscure the distinction between adaptive mode selection and general performance while neglecting fine-grained process analyses. In this paper, we propose AdaptMMBench, a comprehensive benchmark for adaptive multimodal reasoning across five domains: real-world, OCR, GUI, knowledge, and math, encompassing both direct perception and complex reasoning tasks. AdaptMMBench utilizes a Matthews Correlation Coefficient (MCC) metric to evaluate the selection rationality of different reasoning modes, isolating this meta-cognition ability by dynamically identifying task difficulties based on models' capability boundaries. Moreover, AdaptMMBench facilitates multi-dimensional process evaluation across key step coverage, tool effectiveness, and computational efficiency. Our evaluation reveals that while adaptive mode selection scales with model capacity, it notably decouples from final accuracy. Conversely, key step coverage aligns with performance, though tool effectiveness remains highly inconsistent across model architectures.",
+      "upvotes": 5,
+      "discussionId": "6982b0449084cb4f0ecb5639",
+      "ai_summary": "AdaptMMBench presents a comprehensive benchmark for evaluating adaptive multimodal reasoning in Vision-Language Models, measuring reasoning mode selection rationality through dynamic difficulty assessment and multi-dimensional process evaluation.",
+      "ai_keywords": [
+        "Vision-Language Models",
+        "adaptive multimodal reasoning",
+        "Matthews Correlation Coefficient",
+        "task difficulty",
+        "model capacity",
+        "reasoning mode selection",
+        "multi-dimensional process evaluation",
+        "key step coverage",
+        "tool effectiveness",
+        "computational efficiency"
+      ]
+    },
+    "publishedAt": "2026-02-02T14:00:27.000Z",
+    "title": "AdaptMMBench: Benchmarking Adaptive Multimodal Reasoning for Mode Selection and Reasoning Process",
+    "summary": "Adaptive multimodal reasoning has emerged as a promising frontier in Vision-Language Models (VLMs), aiming to dynamically modulate between tool-augmented visual reasoning and text reasoning to enhance both effectiveness and efficiency. However, existing evaluations rely on static difficulty labels and simplistic metrics, which fail to capture the dynamic nature of difficulty relative to varying model capacities. Consequently, they obscure the distinction between adaptive mode selection and general performance while neglecting fine-grained process analyses. In this paper, we propose AdaptMMBench, a comprehensive benchmark for adaptive multimodal reasoning across five domains: real-world, OCR, GUI, knowledge, and math, encompassing both direct perception and complex reasoning tasks. AdaptMMBench utilizes a Matthews Correlation Coefficient (MCC) metric to evaluate the selection rationality of different reasoning modes, isolating this meta-cognition ability by dynamically identifying task difficulties based on models' capability boundaries. Moreover, AdaptMMBench facilitates multi-dimensional process evaluation across key step coverage, tool effectiveness, and computational efficiency. Our evaluation reveals that while adaptive mode selection scales with model capacity, it notably decouples from final accuracy. Conversely, key step coverage aligns with performance, though tool effectiveness remains highly inconsistent across model architectures.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.02676.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66b5b0ceef3f3fc987957343",
+      "avatarUrl": "/avatars/915de4d13789cd50f0cb61a9bf5fce80.svg",
+      "fullname": "Xintong Zhang",
+      "name": "xintongzhang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.02636",
+      "authors": [
+        {
+          "_id": "6982bb119084cb4f0ecb56c4",
+          "name": "Ziyang Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6982bb119084cb4f0ecb56c5",
+          "name": "Haolin Ren",
+          "hidden": false
+        },
+        {
+          "_id": "6982bb119084cb4f0ecb56c6",
+          "name": "Xiaowei Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6982bb119084cb4f0ecb56c7",
+          "name": "Jiawei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6982bb119084cb4f0ecb56c8",
+          "name": "Zhongtao Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6982bb119084cb4f0ecb56c9",
+          "name": "Kun Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6982bb119084cb4f0ecb56ca",
+          "name": "Shizhu He",
+          "hidden": false
+        },
+        {
+          "_id": "6982bb119084cb4f0ecb56cb",
+          "name": "Jun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6982bb119084cb4f0ecb56cc",
+          "name": "Kang Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T18:32:48.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:51:45.323Z",
+      "title": "WideSeek: Advancing Wide Research via Multi-Agent Scaling",
+      "submittedOnDailyBy": {
+        "_id": "616648c84c0937d31946f21b",
+        "avatarUrl": "/avatars/7ca27de5c5116c91ff1db61ba6277ed5.svg",
+        "isPro": false,
+        "fullname": "Ziyang",
+        "user": "hzy",
+        "type": "user"
+      },
+      "summary": "Search intelligence is evolving from Deep Research to Wide Research, a paradigm essential for retrieving and synthesizing comprehensive information under complex constraints in parallel. However, progress in this field is impeded by the lack of dedicated benchmarks and optimization methodologies for search breadth. To address these challenges, we take a deep dive into Wide Research from two perspectives: Data Pipeline and Agent Optimization. First, we produce WideSeekBench, a General Broad Information Seeking (GBIS) benchmark constructed via a rigorous multi-phase data pipeline to ensure diversity across the target information volume, logical constraints, and domains. Second, we introduce WideSeek, a dynamic hierarchical multi-agent architecture that can autonomously fork parallel sub-agents based on task requirements. Furthermore, we design a unified training framework that linearizes multi-agent trajectories and optimizes the system using end-to-end RL. Experimental results demonstrate the effectiveness of WideSeek and multi-agent RL, highlighting that scaling the number of agents is a promising direction for advancing the Wide Research paradigm.",
+      "upvotes": 5,
+      "discussionId": "6982bb119084cb4f0ecb56cd",
+      "ai_summary": "Wide Research advances search intelligence through a dedicated benchmark and multi-agent architecture that enables parallel information retrieval under complex constraints.",
+      "ai_keywords": [
+        "Wide Research",
+        "Deep Research",
+        "search intelligence",
+        "WideSeekBench",
+        "GBIS",
+        "multi-phase data pipeline",
+        "dynamic hierarchical multi-agent architecture",
+        "parallel sub-agents",
+        "unified training framework",
+        "multi-agent trajectories",
+        "end-to-end RL"
+      ]
+    },
+    "publishedAt": "2026-02-02T13:32:48.000Z",
+    "title": "WideSeek: Advancing Wide Research via Multi-Agent Scaling",
+    "summary": "Search intelligence is evolving from Deep Research to Wide Research, a paradigm essential for retrieving and synthesizing comprehensive information under complex constraints in parallel. However, progress in this field is impeded by the lack of dedicated benchmarks and optimization methodologies for search breadth. To address these challenges, we take a deep dive into Wide Research from two perspectives: Data Pipeline and Agent Optimization. First, we produce WideSeekBench, a General Broad Information Seeking (GBIS) benchmark constructed via a rigorous multi-phase data pipeline to ensure diversity across the target information volume, logical constraints, and domains. Second, we introduce WideSeek, a dynamic hierarchical multi-agent architecture that can autonomously fork parallel sub-agents based on task requirements. Furthermore, we design a unified training framework that linearizes multi-agent trajectories and optimizes the system using end-to-end RL. Experimental results demonstrate the effectiveness of WideSeek and multi-agent RL, highlighting that scaling the number of agents is a promising direction for advancing the Wide Research paradigm.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.02636.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "616648c84c0937d31946f21b",
+      "avatarUrl": "/avatars/7ca27de5c5116c91ff1db61ba6277ed5.svg",
+      "fullname": "Ziyang",
+      "name": "hzy",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.21244",
+      "authors": [
+        {
+          "_id": "698171fbce18b18628096024",
+          "user": {
+            "_id": "64bb937d8496ee0fb6cac9aa",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bb937d8496ee0fb6cac9aa/oFkKNxaMrd3wAciwP4Lu5.png",
+            "isPro": false,
+            "fullname": "YijuGuo",
+            "user": "YijuGuo",
+            "type": "user"
+          },
+          "name": "Yiju Guo",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-03T10:07:34.331Z",
+          "hidden": false
+        },
+        {
+          "_id": "698171fbce18b18628096025",
+          "name": "Tianyi Hu",
+          "hidden": false
+        },
+        {
+          "_id": "698171fbce18b18628096026",
+          "name": "Zexu Sun",
+          "hidden": false
+        },
+        {
+          "_id": "698171fbce18b18628096027",
+          "name": "Yankai Lin",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-29T04:08:24.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:43:01.380Z",
+      "title": "Less Noise, More Voice: Reinforcement Learning for Reasoning via Instruction Purification",
+      "submittedOnDailyBy": {
+        "_id": "64bb937d8496ee0fb6cac9aa",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bb937d8496ee0fb6cac9aa/oFkKNxaMrd3wAciwP4Lu5.png",
+        "isPro": false,
+        "fullname": "YijuGuo",
+        "user": "YijuGuo",
+        "type": "user"
+      },
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has advanced LLM reasoning, but remains constrained by inefficient exploration under limited rollout budgets, leading to low sampling success and unstable training in complex tasks. We find that many exploration failures arise not from problem difficulty, but from a small number of prompt tokens that introduce interference. Building on this insight, we propose the Less Noise Sampling Framework (LENS), which first prompts by identifying and removing interference tokens. then transfers successful rollouts from the purification process to supervise policy optimization on the original noisy prompts, enabling the model to learn to ignore interference in the real-world, noisy prompting settings. Experimental results show that LENS significantly outperforms GRPO, delivering higher performance and faster convergence, with a 3.88% average gain and over 1.6times speedup. Our work highlights the critical role of pruning interference tokens in improving rollout efficiency, offering a new perspective for RLVR research.",
+      "upvotes": 4,
+      "discussionId": "698171fbce18b18628096028",
+      "ai_summary": "LENS framework improves reinforcement learning with verifiable rewards by identifying and removing interference tokens to enhance exploration efficiency and training stability.",
+      "ai_keywords": [
+        "Reinforcement Learning with Verifiable Rewards",
+        "exploration",
+        "rollout budget",
+        "sampling success",
+        "policy optimization",
+        "interference tokens",
+        "prompt tokens",
+        "GRPO",
+        "LENS"
+      ]
+    },
+    "publishedAt": "2026-01-28T23:08:24.000Z",
+    "title": "Less Noise, More Voice: Reinforcement Learning for Reasoning via Instruction Purification",
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has advanced LLM reasoning, but remains constrained by inefficient exploration under limited rollout budgets, leading to low sampling success and unstable training in complex tasks. We find that many exploration failures arise not from problem difficulty, but from a small number of prompt tokens that introduce interference. Building on this insight, we propose the Less Noise Sampling Framework (LENS), which first prompts by identifying and removing interference tokens. then transfers successful rollouts from the purification process to supervise policy optimization on the original noisy prompts, enabling the model to learn to ignore interference in the real-world, noisy prompting settings. Experimental results show that LENS significantly outperforms GRPO, delivering higher performance and faster convergence, with a 3.88% average gain and over 1.6times speedup. Our work highlights the critical role of pruning interference tokens in improving rollout efficiency, offering a new perspective for RLVR research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21244.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "64bb937d8496ee0fb6cac9aa",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bb937d8496ee0fb6cac9aa/oFkKNxaMrd3wAciwP4Lu5.png",
+      "fullname": "YijuGuo",
+      "name": "YijuGuo",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2601.19103",
+      "authors": [
+        {
+          "_id": "69797705df44b75fa47e473d",
+          "name": "Linshan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69797705df44b75fa47e473e",
+          "name": "Jiaxin Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "69797705df44b75fa47e473f",
+          "name": "Hao Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-27T02:10:34.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:07:54.729Z",
+      "title": "Glance and Focus Reinforcement for Pan-cancer Screening",
+      "submittedOnDailyBy": {
+        "_id": "65d86ea2685624d5f206d7ec",
+        "avatarUrl": "/avatars/b9bc4c398d5def393bc782e9a7c5e302.svg",
+        "isPro": false,
+        "fullname": "Linshan Wu",
+        "user": "Luffy503",
+        "type": "user"
+      },
+      "summary": "Pan-cancer screening in large-scale CT scans remains challenging for existing AI methods, primarily due to the difficulty of localizing diverse types of tiny lesions in large CT volumes. The extreme foreground-background imbalance significantly hinders models from focusing on diseased regions, while redundant focus on healthy regions not only decreases the efficiency but also increases false positives. Inspired by radiologists' glance and focus diagnostic strategy, we introduce GF-Screen, a Glance and Focus reinforcement learning framework for pan-cancer screening. GF-Screen employs a Glance model to localize the diseased regions and a Focus model to precisely segment the lesions, where segmentation results of the Focus model are leveraged to reward the Glance model via Reinforcement Learning (RL). Specifically, the Glance model crops a group of sub-volumes from the entire CT volume and learns to select the sub-volumes with lesions for the Focus model to segment. Given that the selecting operation is non-differentiable for segmentation training, we propose to employ the segmentation results to reward the Glance model. To optimize the Glance model, we introduce a novel group relative learning paradigm, which employs group relative comparison to prioritize high-advantage predictions and discard low-advantage predictions within sub-volume groups, not only improving efficiency but also reducing false positives. In this way, for the first time, we effectively extend cutting-edge RL techniques to tackle the specific challenges in pan-cancer screening. Extensive experiments on 16 internal and 7 external datasets across 9 lesion types demonstrated the effectiveness of GF-Screen. Notably, GF-Screen leads the public validation leaderboard of MICCAI FLARE25 pan-cancer challenge, surpassing the FLARE24 champion solution by a large margin (+25.6% DSC and +28.2% NSD).",
+      "upvotes": 4,
+      "discussionId": "69797705df44b75fa47e4740",
+      "githubRepo": "https://github.com/Luffy03/GF-Screen",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A reinforcement learning framework with glance and focus models improves pan-cancer screening in CT scans by addressing foreground-background imbalance and reducing false positives through group relative learning.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "glance model",
+        "focus model",
+        "segmentation",
+        "non-differentiable",
+        "group relative learning",
+        "pan-cancer screening",
+        "CT scans",
+        "foreground-background imbalance",
+        "false positives"
+      ],
+      "githubStars": 24,
+      "organization": {
+        "_id": "6609f50bf4ab651901ae4541",
+        "name": "hongkongust",
+        "fullname": "The Hong Kong University of Science and Technology"
+      }
+    },
+    "publishedAt": "2026-01-26T21:10:34.000Z",
+    "title": "Glance and Focus Reinforcement for Pan-cancer Screening",
+    "summary": "Pan-cancer screening in large-scale CT scans remains challenging for existing AI methods, primarily due to the difficulty of localizing diverse types of tiny lesions in large CT volumes. The extreme foreground-background imbalance significantly hinders models from focusing on diseased regions, while redundant focus on healthy regions not only decreases the efficiency but also increases false positives. Inspired by radiologists' glance and focus diagnostic strategy, we introduce GF-Screen, a Glance and Focus reinforcement learning framework for pan-cancer screening. GF-Screen employs a Glance model to localize the diseased regions and a Focus model to precisely segment the lesions, where segmentation results of the Focus model are leveraged to reward the Glance model via Reinforcement Learning (RL). Specifically, the Glance model crops a group of sub-volumes from the entire CT volume and learns to select the sub-volumes with lesions for the Focus model to segment. Given that the selecting operation is non-differentiable for segmentation training, we propose to employ the segmentation results to reward the Glance model. To optimize the Glance model, we introduce a novel group relative learning paradigm, which employs group relative comparison to prioritize high-advantage predictions and discard low-advantage predictions within sub-volume groups, not only improving efficiency but also reducing false positives. In this way, for the first time, we effectively extend cutting-edge RL techniques to tackle the specific challenges in pan-cancer screening. Extensive experiments on 16 internal and 7 external datasets across 9 lesion types demonstrated the effectiveness of GF-Screen. Notably, GF-Screen leads the public validation leaderboard of MICCAI FLARE25 pan-cancer challenge, surpassing the FLARE24 champion solution by a large margin (+25.6% DSC and +28.2% NSD).",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.19103.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65d86ea2685624d5f206d7ec",
+      "avatarUrl": "/avatars/b9bc4c398d5def393bc782e9a7c5e302.svg",
+      "fullname": "Linshan Wu",
+      "name": "Luffy503",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6609f50bf4ab651901ae4541",
+      "name": "hongkongust",
+      "fullname": "The Hong Kong University of Science and Technology"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.03845",
+      "authors": [
+        {
+          "_id": "6982bc249084cb4f0ecb56da",
+          "name": "Tong Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56db",
+          "name": "Chengsong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56dc",
+          "name": "Runpeng Dai",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56dd",
+          "name": "Yun He",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56de",
+          "name": "Rui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56df",
+          "name": "Xin Ni",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56e0",
+          "name": "Huiwen Bao",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56e1",
+          "name": "Kaishen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56e2",
+          "name": "Hongtu Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56e3",
+          "name": "Jiaxin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56e4",
+          "name": "Furong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6982bc249084cb4f0ecb56e5",
+          "name": "Heng Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-03T18:59:41.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:57:09.105Z",
+      "title": "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing",
+      "submittedOnDailyBy": {
+        "_id": "6623ea65b642e29cdf90a1b4",
+        "avatarUrl": "/avatars/e32e90574c1162b2be87ed78604e3e4d.svg",
+        "isPro": true,
+        "fullname": "TongZheng",
+        "user": "TongZheng1999",
+        "type": "user"
+      },
+      "summary": "Parallel thinking has emerged as a promising paradigm for reasoning, yet it imposes significant computational burdens. Existing efficiency methods primarily rely on local, per-trajectory signals and lack principled mechanisms to exploit global dynamics across parallel branches. We introduce 2D probing, an interface that exposes the width-depth dynamics of parallel thinking by periodically eliciting intermediate answers from all branches. Our analysis reveals three key insights: non-monotonic scaling across width-depth allocations, heterogeneous reasoning branch lengths, and early stabilization of global consensus. Guided by these insights, we introduce Parallel-Probe, a training-free controller designed to optimize online parallel thinking. Parallel-Probe employs consensus-based early stopping to regulate reasoning depth and deviation-based branch pruning to dynamically adjust width. Extensive experiments across three benchmarks and multiple models demonstrate that Parallel-Probe establishes a superior Pareto frontier for test-time scaling. Compared to standard majority voting, it reduces sequential tokens by up to 35.8% and total token cost by over 25.8% while maintaining competitive accuracy.",
+      "upvotes": 2,
+      "discussionId": "6982bc259084cb4f0ecb56e6",
+      "ai_summary": "Parallel-Probe is a training-free controller that optimizes parallel thinking by using consensus-based early stopping and deviation-based branch pruning to reduce computational costs while maintaining accuracy.",
+      "ai_keywords": [
+        "parallel thinking",
+        "width-depth dynamics",
+        "intermediate answers",
+        "consensus-based early stopping",
+        "deviation-based branch pruning",
+        "Pareto frontier",
+        "test-time scaling",
+        "majority voting"
+      ],
+      "organization": {
+        "_id": "68b3c3bbc375e05b059370b2",
+        "name": "UMCP",
+        "fullname": "University of Maryland College Park",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68b3c2c3a4ea236d1a97871a/bji3nI5ZWm2r4JX_-HLo0.png"
+      }
+    },
+    "publishedAt": "2026-02-03T13:59:41.000Z",
+    "title": "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing",
+    "summary": "Parallel thinking has emerged as a promising paradigm for reasoning, yet it imposes significant computational burdens. Existing efficiency methods primarily rely on local, per-trajectory signals and lack principled mechanisms to exploit global dynamics across parallel branches. We introduce 2D probing, an interface that exposes the width-depth dynamics of parallel thinking by periodically eliciting intermediate answers from all branches. Our analysis reveals three key insights: non-monotonic scaling across width-depth allocations, heterogeneous reasoning branch lengths, and early stabilization of global consensus. Guided by these insights, we introduce Parallel-Probe, a training-free controller designed to optimize online parallel thinking. Parallel-Probe employs consensus-based early stopping to regulate reasoning depth and deviation-based branch pruning to dynamically adjust width. Extensive experiments across three benchmarks and multiple models demonstrate that Parallel-Probe establishes a superior Pareto frontier for test-time scaling. Compared to standard majority voting, it reduces sequential tokens by up to 35.8% and total token cost by over 25.8% while maintaining competitive accuracy.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.03845.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6623ea65b642e29cdf90a1b4",
+      "avatarUrl": "/avatars/e32e90574c1162b2be87ed78604e3e4d.svg",
+      "fullname": "TongZheng",
+      "name": "TongZheng1999",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68b3c3bbc375e05b059370b2",
+      "name": "UMCP",
+      "fullname": "University of Maryland College Park",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68b3c2c3a4ea236d1a97871a/bji3nI5ZWm2r4JX_-HLo0.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.02914",
+      "authors": [
+        {
+          "_id": "6982b1989084cb4f0ecb563b",
+          "name": "Wenqi Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6982b1989084cb4f0ecb563c",
+          "name": "Shan Du",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T23:41:14.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:11:18.264Z",
+      "title": "FaceLinkGen: Rethinking Identity Leakage in Privacy-Preserving Face Recognition with Identity Extraction",
+      "submittedOnDailyBy": {
+        "_id": "65ebae78d767680a0cf5f833",
+        "avatarUrl": "/avatars/5e0cee3000c6c4166983c2892e27bc8f.svg",
+        "isPro": true,
+        "fullname": "Marshall Guo",
+        "user": "weathon",
+        "type": "user"
+      },
+      "summary": "Transformation-based privacy-preserving face recognition (PPFR) aims to verify identities while hiding facial data from attackers and malicious service providers. Existing evaluations mostly treat privacy as resistance to pixel-level reconstruction, measured by PSNR and SSIM. We show that this reconstruction-centric view fails. We present FaceLinkGen, an identity extraction attack that performs linkage/matching and face regeneration directly from protected templates without recovering original pixels. On three recent PPFR systems, FaceLinkGen reaches over 98.5\\% matching accuracy and above 96\\% regeneration success, and still exceeds 92\\% matching and 94\\% regeneration in a near zero knowledge setting. These results expose a structural gap between pixel distortion metrics, which are widely used in PPFR evaluation, and real privacy. We show that visual obfuscation leaves identity information broadly exposed to both external intruders and untrusted service providers.",
+      "upvotes": 2,
+      "discussionId": "6982b1989084cb4f0ecb563d",
+      "ai_summary": "FaceLinkGen attack demonstrates that current privacy-preserving face recognition methods fail to protect identity information despite pixel-level distortion metrics suggesting adequate protection.",
+      "ai_keywords": [
+        "face recognition",
+        "privacy-preserving",
+        "identity extraction attack",
+        "linkage matching",
+        "face regeneration",
+        "pixel-level reconstruction",
+        "PSNR",
+        "SSIM",
+        "visual obfuscation"
+      ],
+      "organization": {
+        "_id": "67481ed386d0329c44e1c49f",
+        "name": "UBC-O",
+        "fullname": "University of British Columbia - Okanagan Campus",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66c75a8a060b6c3335d28ee7/lS-d_6xAQhQD3Vr6dBFyK.png"
+      }
+    },
+    "publishedAt": "2026-02-02T18:41:14.000Z",
+    "title": "FaceLinkGen: Rethinking Identity Leakage in Privacy-Preserving Face Recognition with Identity Extraction",
+    "summary": "Transformation-based privacy-preserving face recognition (PPFR) aims to verify identities while hiding facial data from attackers and malicious service providers. Existing evaluations mostly treat privacy as resistance to pixel-level reconstruction, measured by PSNR and SSIM. We show that this reconstruction-centric view fails. We present FaceLinkGen, an identity extraction attack that performs linkage/matching and face regeneration directly from protected templates without recovering original pixels. On three recent PPFR systems, FaceLinkGen reaches over 98.5\\% matching accuracy and above 96\\% regeneration success, and still exceeds 92\\% matching and 94\\% regeneration in a near zero knowledge setting. These results expose a structural gap between pixel distortion metrics, which are widely used in PPFR evaluation, and real privacy. We show that visual obfuscation leaves identity information broadly exposed to both external intruders and untrusted service providers.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.02914.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65ebae78d767680a0cf5f833",
+      "avatarUrl": "/avatars/5e0cee3000c6c4166983c2892e27bc8f.svg",
+      "fullname": "Marshall Guo",
+      "name": "weathon",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67481ed386d0329c44e1c49f",
+      "name": "UBC-O",
+      "fullname": "University of British Columbia - Okanagan Campus",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66c75a8a060b6c3335d28ee7/lS-d_6xAQhQD3Vr6dBFyK.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.03454",
+      "authors": [
+        {
+          "_id": "6982b6d89084cb4f0ecb5668",
+          "name": "Yeongtak Oh",
+          "hidden": false
+        },
+        {
+          "_id": "6982b6d89084cb4f0ecb5669",
+          "name": "Sangwon Yu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b6d89084cb4f0ecb566a",
+          "name": "Junsung Park",
+          "hidden": false
+        },
+        {
+          "_id": "6982b6d89084cb4f0ecb566b",
+          "name": "Han Cheol Moon",
+          "hidden": false
+        },
+        {
+          "_id": "6982b6d89084cb4f0ecb566c",
+          "name": "Jisoo Mok",
+          "hidden": false
+        },
+        {
+          "_id": "6982b6d89084cb4f0ecb566d",
+          "name": "Sungroh Yoon",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-03T12:21:26.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:33:33.702Z",
+      "title": "Contextualized Visual Personalization in Vision-Language Models",
+      "submittedOnDailyBy": {
+        "_id": "636f6e8a31af06da86499ebc",
+        "avatarUrl": "/avatars/9430fbc05774aad8e46c0861769b3c30.svg",
+        "isPro": false,
+        "fullname": "Yeongtak",
+        "user": "Yeongtak",
+        "type": "user"
+      },
+      "summary": "Despite recent progress in vision-language models (VLMs), existing approaches often fail to generate personalized responses based on the user's specific experiences, as they lack the ability to associate visual inputs with a user's accumulated visual-textual context. We newly formalize this challenge as contextualized visual personalization, which requires the visual recognition and textual retrieval of personalized visual experiences by VLMs when interpreting new images. To address this issue, we propose CoViP, a unified framework that treats personalized image captioning as a core task for contextualized visual personalization and improves this capability through reinforcement-learning-based post-training and caption-augmented generation. We further introduce diagnostic evaluations that explicitly rule out textual shortcut solutions and verify whether VLMs truly leverage visual context. Extensive experiments demonstrate that existing open-source and proprietary VLMs exhibit substantial limitations, while CoViP not only improves personalized image captioning but also yields holistic gains across downstream personalization tasks. These results highlight CoViP as a crucial stage for enabling robust and generalizable contextualized visual personalization.",
+      "upvotes": 1,
+      "discussionId": "6982b6d89084cb4f0ecb566e",
+      "ai_summary": "CoViP addresses contextualized visual personalization by treating personalized image captioning as a core task and improving capabilities through reinforcement-learning-based post-training and caption-augmented generation.",
+      "ai_keywords": [
+        "vision-language models",
+        "contextualized visual personalization",
+        "personalized image captioning",
+        "reinforcement-learning-based post-training",
+        "caption-augmented generation",
+        "visual recognition",
+        "textual retrieval",
+        "diagnostic evaluations",
+        "visual context"
+      ]
+    },
+    "publishedAt": "2026-02-03T07:21:26.000Z",
+    "title": "Contextualized Visual Personalization in Vision-Language Models",
+    "summary": "Despite recent progress in vision-language models (VLMs), existing approaches often fail to generate personalized responses based on the user's specific experiences, as they lack the ability to associate visual inputs with a user's accumulated visual-textual context. We newly formalize this challenge as contextualized visual personalization, which requires the visual recognition and textual retrieval of personalized visual experiences by VLMs when interpreting new images. To address this issue, we propose CoViP, a unified framework that treats personalized image captioning as a core task for contextualized visual personalization and improves this capability through reinforcement-learning-based post-training and caption-augmented generation. We further introduce diagnostic evaluations that explicitly rule out textual shortcut solutions and verify whether VLMs truly leverage visual context. Extensive experiments demonstrate that existing open-source and proprietary VLMs exhibit substantial limitations, while CoViP not only improves personalized image captioning but also yields holistic gains across downstream personalization tasks. These results highlight CoViP as a crucial stage for enabling robust and generalizable contextualized visual personalization.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.03454.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "636f6e8a31af06da86499ebc",
+      "avatarUrl": "/avatars/9430fbc05774aad8e46c0861769b3c30.svg",
+      "fullname": "Yeongtak",
+      "name": "Yeongtak",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.01753",
+      "authors": [
+        {
+          "_id": "69816da3ce18b18628095fc1",
+          "name": "Shenghao Fu",
+          "hidden": false
+        },
+        {
+          "_id": "69816da3ce18b18628095fc2",
+          "name": "Yukun Su",
+          "hidden": false
+        },
+        {
+          "_id": "69816da3ce18b18628095fc3",
+          "name": "Fengyun Rao",
+          "hidden": false
+        },
+        {
+          "_id": "69816da3ce18b18628095fc4",
+          "name": "Jing Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "69816da3ce18b18628095fc5",
+          "name": "Xiaohua Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69816da3ce18b18628095fc6",
+          "name": "Wei-Shi Zheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T07:38:45.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:29:01.727Z",
+      "title": "ObjEmbed: Towards Universal Multimodal Object Embeddings",
+      "submittedOnDailyBy": {
+        "_id": "67067633351e0c16a5c27497",
+        "avatarUrl": "/avatars/356aa3431198c8931b820a714bcfb19d.svg",
+        "isPro": false,
+        "fullname": "Shenghao Fu",
+        "user": "fushh7",
+        "type": "user"
+      },
+      "summary": "Aligning objects with corresponding textual descriptions is a fundamental challenge and a realistic requirement in vision-language understanding. While recent multimodal embedding models excel at global image-text alignment, they often struggle with fine-grained alignment between image regions and specific phrases. In this work, we present ObjEmbed, a novel MLLM embedding model that decomposes the input image into multiple regional embeddings, each corresponding to an individual object, along with global embeddings. It supports a wide range of visual understanding tasks like visual grounding, local image retrieval, and global image retrieval. ObjEmbed enjoys three key properties: (1) Object-Oriented Representation: It captures both semantic and spatial aspects of objects by generating two complementary embeddings for each region: an object embedding for semantic matching and an IoU embedding that predicts localization quality. The final object matching score combines semantic similarity with the predicted IoU, enabling more accurate retrieval. (2) Versatility: It seamlessly handles both region-level and image-level tasks. (3) Efficient Encoding: All objects in an image, along with the full image, are encoded in a single forward pass for high efficiency. Superior performance on 18 diverse benchmarks demonstrates its strong semantic discrimination.",
+      "upvotes": 1,
+      "discussionId": "69816da3ce18b18628095fc7",
+      "githubRepo": "https://github.com/WeChatCV/ObjEmbed",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "ObjEmbed is a novel multimodal language-model embedding approach that decomposes images into regional embeddings for improved object-level visual understanding and retrieval tasks.",
+      "ai_keywords": [
+        "multimodal embedding models",
+        "visual grounding",
+        "local image retrieval",
+        "global image retrieval",
+        "object embedding",
+        "IoU embedding",
+        "semantic matching",
+        "localization quality",
+        "semantic discrimination"
+      ],
+      "githubStars": 7
+    },
+    "publishedAt": "2026-02-02T02:38:45.000Z",
+    "title": "ObjEmbed: Towards Universal Multimodal Object Embeddings",
+    "summary": "Aligning objects with corresponding textual descriptions is a fundamental challenge and a realistic requirement in vision-language understanding. While recent multimodal embedding models excel at global image-text alignment, they often struggle with fine-grained alignment between image regions and specific phrases. In this work, we present ObjEmbed, a novel MLLM embedding model that decomposes the input image into multiple regional embeddings, each corresponding to an individual object, along with global embeddings. It supports a wide range of visual understanding tasks like visual grounding, local image retrieval, and global image retrieval. ObjEmbed enjoys three key properties: (1) Object-Oriented Representation: It captures both semantic and spatial aspects of objects by generating two complementary embeddings for each region: an object embedding for semantic matching and an IoU embedding that predicts localization quality. The final object matching score combines semantic similarity with the predicted IoU, enabling more accurate retrieval. (2) Versatility: It seamlessly handles both region-level and image-level tasks. (3) Efficient Encoding: All objects in an image, along with the full image, are encoded in a single forward pass for high efficiency. Superior performance on 18 diverse benchmarks demonstrates its strong semantic discrimination.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.01753.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67067633351e0c16a5c27497",
+      "avatarUrl": "/avatars/356aa3431198c8931b820a714bcfb19d.svg",
+      "fullname": "Shenghao Fu",
+      "name": "fushh7",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.03837",
+      "authors": [
+        {
+          "_id": "6982b85e9084cb4f0ecb5687",
+          "name": "David P. Woodruff",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5688",
+          "name": "Vincent Cohen-Addad",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5689",
+          "name": "Lalit Jain",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb568a",
+          "name": "Jieming Mao",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb568b",
+          "name": "Song Zuo",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb568c",
+          "name": "MohammadHossein Bateni",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb568d",
+          "name": "Simina Branzei",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb568e",
+          "name": "Michael P. Brenner",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb568f",
+          "name": "Lin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5690",
+          "name": "Ying Feng",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5691",
+          "name": "Lance Fortnow",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5692",
+          "name": "Gang Fu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5693",
+          "name": "Ziyi Guan",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5694",
+          "name": "Zahra Hadizadeh",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5695",
+          "name": "Mohammad T. Hajiaghayi",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5696",
+          "name": "Mahdi JafariRaviz",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5697",
+          "name": "Adel Javanmard",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5698",
+          "name": "Karthik C. S.",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb5699",
+          "name": "Ken-ichi Kawarabayashi",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb569a",
+          "name": "Ravi Kumar",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb569b",
+          "name": "Silvio Lattanzi",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb569c",
+          "name": "Euiwoong Lee",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb569d",
+          "name": "Yi Li",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb569e",
+          "name": "Ioannis Panageas",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb569f",
+          "name": "Dimitris Paparas",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a0",
+          "name": "Benjamin Przybocki",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a1",
+          "name": "Bernardo Subercaseaux",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a2",
+          "name": "Ola Svensson",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a3",
+          "name": "Shayan Taherijam",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a4",
+          "name": "Xuan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a5",
+          "name": "Eylon Yogev",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a6",
+          "name": "Morteza Zadimoghaddam",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a7",
+          "name": "Samson Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6982b85e9084cb4f0ecb56a8",
+          "name": "Vahab Mirrokni",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-03T18:56:17.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:39:21.645Z",
+      "title": "Accelerating Scientific Research with Gemini: Case Studies and Common Techniques",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Recent advances in large language models (LLMs) have opened new avenues for accelerating scientific research. While models are increasingly capable of assisting with routine tasks, their ability to contribute to novel, expert-level mathematical discovery is less understood. We present a collection of case studies demonstrating how researchers have successfully collaborated with advanced AI models, specifically Google's Gemini-based models (in particular Gemini Deep Think and its advanced variants), to solve open problems, refute conjectures, and generate new proofs across diverse areas in theoretical computer science, as well as other areas such as economics, optimization, and physics. Based on these experiences, we extract common techniques for effective human-AI collaboration in theoretical research, such as iterative refinement, problem decomposition, and cross-disciplinary knowledge transfer. While the majority of our results stem from this interactive, conversational methodology, we also highlight specific instances that push beyond standard chat interfaces. These include deploying the model as a rigorous adversarial reviewer to detect subtle flaws in existing proofs, and embedding it within a \"neuro-symbolic\" loop that autonomously writes and executes code to verify complex derivations. Together, these examples highlight the potential of AI not just as a tool for automation, but as a versatile, genuine partner in the creative process of scientific discovery.",
+      "upvotes": 0,
+      "discussionId": "6982b85e9084cb4f0ecb56a9",
+      "ai_summary": "Advanced AI models demonstrate capability in supporting expert-level mathematical discovery and scientific research through collaborative approaches involving proof verification and automated code execution.",
+      "ai_keywords": [
+        "large language models",
+        "theoretical computer science",
+        "mathematical discovery",
+        "human-AI collaboration",
+        "iterative refinement",
+        "problem decomposition",
+        "cross-disciplinary knowledge transfer",
+        "adversarial reviewer",
+        "neuro-symbolic loop",
+        "proof verification",
+        "automated code execution"
+      ]
+    },
+    "publishedAt": "2026-02-03T13:56:17.000Z",
+    "title": "Accelerating Scientific Research with Gemini: Case Studies and Common Techniques",
+    "summary": "Recent advances in large language models (LLMs) have opened new avenues for accelerating scientific research. While models are increasingly capable of assisting with routine tasks, their ability to contribute to novel, expert-level mathematical discovery is less understood. We present a collection of case studies demonstrating how researchers have successfully collaborated with advanced AI models, specifically Google's Gemini-based models (in particular Gemini Deep Think and its advanced variants), to solve open problems, refute conjectures, and generate new proofs across diverse areas in theoretical computer science, as well as other areas such as economics, optimization, and physics. Based on these experiences, we extract common techniques for effective human-AI collaboration in theoretical research, such as iterative refinement, problem decomposition, and cross-disciplinary knowledge transfer. While the majority of our results stem from this interactive, conversational methodology, we also highlight specific instances that push beyond standard chat interfaces. These include deploying the model as a rigorous adversarial reviewer to detect subtle flaws in existing proofs, and embedding it within a \"neuro-symbolic\" loop that autonomously writes and executes code to verify complex derivations. Together, these examples highlight the potential of AI not just as a tool for automation, but as a versatile, genuine partner in the creative process of scientific discovery.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.03837.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 227,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.03817",
+      "authors": [
+        {
+          "_id": "6982ba819084cb4f0ecb56bf",
+          "name": "Oscar Ovanger",
+          "hidden": false
+        },
+        {
+          "_id": "6982ba819084cb4f0ecb56c0",
+          "name": "Levi Harris",
+          "hidden": false
+        },
+        {
+          "_id": "6982ba819084cb4f0ecb56c1",
+          "name": "Timothy H. Keitt",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-03T18:21:13.000Z",
+      "submittedOnDailyAt": "2026-02-04T00:52:59.094Z",
+      "title": "Adaptive Evidence Weighting for Audio-Spatiotemporal Fusion",
+      "submittedOnDailyBy": {
+        "_id": "65216bb9bafd014bf68f9f84",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65216bb9bafd014bf68f9f84/9lmve2kah4XuvvjxrQzx4.png",
+        "isPro": false,
+        "fullname": "Levi Harris",
+        "user": "leharris3",
+        "type": "user"
+      },
+      "summary": "Many machine learning systems have access to multiple sources of evidence for the same prediction target, yet these sources often differ in reliability and informativeness across inputs. In bioacoustic classification, species identity may be inferred both from the acoustic signal and from spatiotemporal context such as location and season; while Bayesian inference motivates multiplicative evidence combination, in practice we typically only have access to discriminative predictors rather than calibrated generative models. We introduce Fusion under INdependent Conditional Hypotheses (FINCH), an adaptive log-linear evidence fusion framework that integrates a pre-trained audio classifier with a structured spatiotemporal predictor. FINCH learns a per-sample gating function that estimates the reliability of contextual information from uncertainty and informativeness statistics. The resulting fusion family contains the audio-only classifier as a special case and explicitly bounds the influence of contextual evidence, yielding a risk-contained hypothesis class with an interpretable audio-only fallback. Across benchmarks, FINCH consistently outperforms fixed-weight fusion and audio-only baselines, improving robustness and error trade-offs even when contextual information is weak in isolation. We achieve state-of-the-art performance on CBI and competitive or improved performance on several subsets of BirdSet using a lightweight, interpretable, evidence-based approach. Code is available: \\href{https://anonymous.4open.science/r/birdnoise-85CD/README.md{anonymous-repository}}",
+      "upvotes": 0,
+      "discussionId": "6982ba829084cb4f0ecb56c2",
+      "ai_summary": "A fusion framework called FINCH combines audio and spatiotemporal predictors for bioacoustic classification by adaptively weighting evidence based on reliability estimates, outperforming fixed-weight methods and audio-only approaches.",
+      "ai_keywords": [
+        "evidence fusion",
+        "discriminative predictors",
+        "structured spatiotemporal predictor",
+        "per-sample gating function",
+        "uncertainty statistics",
+        "informativeness statistics",
+        "risk-contained hypothesis class",
+        "audio-only fallback",
+        "BirdSet",
+        "CBI"
+      ]
+    },
+    "publishedAt": "2026-02-03T13:21:13.000Z",
+    "title": "Adaptive Evidence Weighting for Audio-Spatiotemporal Fusion",
+    "summary": "Many machine learning systems have access to multiple sources of evidence for the same prediction target, yet these sources often differ in reliability and informativeness across inputs. In bioacoustic classification, species identity may be inferred both from the acoustic signal and from spatiotemporal context such as location and season; while Bayesian inference motivates multiplicative evidence combination, in practice we typically only have access to discriminative predictors rather than calibrated generative models. We introduce Fusion under INdependent Conditional Hypotheses (FINCH), an adaptive log-linear evidence fusion framework that integrates a pre-trained audio classifier with a structured spatiotemporal predictor. FINCH learns a per-sample gating function that estimates the reliability of contextual information from uncertainty and informativeness statistics. The resulting fusion family contains the audio-only classifier as a special case and explicitly bounds the influence of contextual evidence, yielding a risk-contained hypothesis class with an interpretable audio-only fallback. Across benchmarks, FINCH consistently outperforms fixed-weight fusion and audio-only baselines, improving robustness and error trade-offs even when contextual information is weak in isolation. We achieve state-of-the-art performance on CBI and competitive or improved performance on several subsets of BirdSet using a lightweight, interpretable, evidence-based approach. Code is available: \\href{https://anonymous.4open.science/r/birdnoise-85CD/README.md{anonymous-repository}}",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.03817.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65216bb9bafd014bf68f9f84",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65216bb9bafd014bf68f9f84/9lmve2kah4XuvvjxrQzx4.png",
+      "fullname": "Levi Harris",
+      "name": "leharris3",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
