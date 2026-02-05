@@ -1,0 +1,1196 @@
+[
+  {
+    "paper": {
+      "id": "2602.02402",
+      "authors": [
+        {
+          "_id": "698188face18b1862809636b",
+          "name": "Mu Huang",
+          "hidden": false
+        },
+        {
+          "_id": "698188face18b1862809636c",
+          "name": "Hui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698188face18b1862809636d",
+          "name": "Kerui Ren",
+          "hidden": false
+        },
+        {
+          "_id": "698188face18b1862809636e",
+          "name": "Linning Xu",
+          "hidden": false
+        },
+        {
+          "_id": "698188face18b1862809636f",
+          "name": "Yunsong Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "698188face18b18628096370",
+          "name": "Mulin Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698188face18b18628096371",
+          "name": "Bo Dai",
+          "hidden": false
+        },
+        {
+          "_id": "698188face18b18628096372",
+          "name": "Jiangmiao Pang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/656e9e26bbec423d88b603e8/NQPQQdvpSKid9FRT1hgUc.mp4"
+      ],
+      "publishedAt": "2026-02-02T17:59:31.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:30:24.170Z",
+      "title": "SoMA: A Real-to-Sim Neural Simulator for Robotic Soft-body Manipulation",
+      "submittedOnDailyBy": {
+        "_id": "656e9e26bbec423d88b603e8",
+        "avatarUrl": "/avatars/10d8cb945a60e0401bfa4f74137cb203.svg",
+        "isPro": false,
+        "fullname": "MulinYu",
+        "user": "UML",
+        "type": "user"
+      },
+      "summary": "Simulating deformable objects under rich interactions remains a fundamental challenge for real-to-sim robot manipulation, with dynamics jointly driven by environmental effects and robot actions. Existing simulators rely on predefined physics or data-driven dynamics without robot-conditioned control, limiting accuracy, stability, and generalization. This paper presents SoMA, a 3D Gaussian Splat simulator for soft-body manipulation. SoMA couples deformable dynamics, environmental forces, and robot joint actions in a unified latent neural space for end-to-end real-to-sim simulation. Modeling interactions over learned Gaussian splats enables controllable, stable long-horizon manipulation and generalization beyond observed trajectories without predefined physical models. SoMA improves resimulation accuracy and generalization on real-world robot manipulation by 20%, enabling stable simulation of complex tasks such as long-horizon cloth folding.",
+      "upvotes": 19,
+      "discussionId": "698188fbce18b18628096373",
+      "ai_summary": "SoMA is a 3D Gaussian Splat simulator that enables stable, long-horizon manipulation of soft bodies by coupling deformable dynamics, environmental forces, and robot actions in a unified latent neural space.",
+      "ai_keywords": [
+        "3D Gaussian Splat",
+        "deformable dynamics",
+        "latent neural space",
+        "real-to-sim simulation",
+        "robot manipulation",
+        "cloth folding"
+      ],
+      "organization": {
+        "_id": "6747ee5decec679eafb90450",
+        "name": "ShanghaiAiLab",
+        "fullname": "shanghai ailab "
+      }
+    },
+    "publishedAt": "2026-02-02T12:59:31.000Z",
+    "title": "SoMA: A Real-to-Sim Neural Simulator for Robotic Soft-body Manipulation",
+    "summary": "Simulating deformable objects under rich interactions remains a fundamental challenge for real-to-sim robot manipulation, with dynamics jointly driven by environmental effects and robot actions. Existing simulators rely on predefined physics or data-driven dynamics without robot-conditioned control, limiting accuracy, stability, and generalization. This paper presents SoMA, a 3D Gaussian Splat simulator for soft-body manipulation. SoMA couples deformable dynamics, environmental forces, and robot joint actions in a unified latent neural space for end-to-end real-to-sim simulation. Modeling interactions over learned Gaussian splats enables controllable, stable long-horizon manipulation and generalization beyond observed trajectories without predefined physical models. SoMA improves resimulation accuracy and generalization on real-world robot manipulation by 20%, enabling stable simulation of complex tasks such as long-horizon cloth folding.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/656e9e26bbec423d88b603e8/NQPQQdvpSKid9FRT1hgUc.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.02402.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "656e9e26bbec423d88b603e8",
+      "avatarUrl": "/avatars/10d8cb945a60e0401bfa4f74137cb203.svg",
+      "fullname": "MulinYu",
+      "name": "UML",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6747ee5decec679eafb90450",
+      "name": "ShanghaiAiLab",
+      "fullname": "shanghai ailab "
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.03442",
+      "authors": [
+        {
+          "_id": "698405d5e34659da7e1f4d5c",
+          "name": "Mingxuan Du",
+          "hidden": false
+        },
+        {
+          "_id": "698405d5e34659da7e1f4d5d",
+          "name": "Benfeng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "698405d5e34659da7e1f4d5e",
+          "name": "Chiwei Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "698405d5e34659da7e1f4d5f",
+          "name": "Shaohan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698405d5e34659da7e1f4d60",
+          "name": "Pengyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698405d5e34659da7e1f4d61",
+          "name": "Xiaorui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698405d5e34659da7e1f4d62",
+          "name": "Zhendong Mao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-03T12:07:21.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:29:43.463Z",
+      "title": "A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces",
+      "submittedOnDailyBy": {
+        "_id": "646dbba74ad7f907279dd486",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646dbba74ad7f907279dd486/XGHJMFEIpWeDlh0cn9Slu.png",
+        "isPro": false,
+        "fullname": "Mingxuan Du",
+        "user": "Ayanami0730",
+        "type": "user"
+      },
+      "summary": "Frontier language models have demonstrated strong reasoning and long-horizon tool-use capabilities. However, existing RAG systems fail to leverage these capabilities. They still rely on two paradigms: (1) designing an algorithm that retrieves passages in a single shot and concatenates them into the model's input, or (2) predefining a workflow and prompting the model to execute it step-by-step. Neither paradigm allows the model to participate in retrieval decisions, preventing efficient scaling with model improvements. In this paper, we introduce A-RAG, an Agentic RAG framework that exposes hierarchical retrieval interfaces directly to the model. A-RAG provides three retrieval tools: keyword search, semantic search, and chunk read, enabling the agent to adaptively search and retrieve information across multiple granularities. Experiments on multiple open-domain QA benchmarks show that A-RAG consistently outperforms existing approaches with comparable or lower retrieved tokens, demonstrating that A-RAG effectively leverages model capabilities and dynamically adapts to different RAG tasks. We further systematically study how A-RAG scales with model size and test-time compute. We will release our code and evaluation suite to facilitate future research. Code and evaluation suite are available at https://github.com/Ayanami0730/arag.",
+      "upvotes": 11,
+      "discussionId": "698405d5e34659da7e1f4d63",
+      "projectPage": "https://agentresearchlab.org/agents/a-rag",
+      "githubRepo": "https://github.com/Ayanami0730/arag",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Agentic RAG framework enables models to dynamically adapt retrieval decisions across multiple granularities, outperforming traditional approaches while scaling efficiently with model improvements.",
+      "ai_keywords": [
+        "RAG systems",
+        "retrieval-augmented generation",
+        "agentic frameworks",
+        "hierarchical retrieval interfaces",
+        "keyword search",
+        "semantic search",
+        "chunk read",
+        "multi-granularity retrieval",
+        "model scaling",
+        "test-time compute"
+      ],
+      "githubStars": 5,
+      "organization": {
+        "_id": "6912993f45f02a20f4c50b8a",
+        "name": "muset-ai",
+        "fullname": "muset.ai",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/646dbba74ad7f907279dd486/C5j0HEiqEmmxshM61WRON.png"
+      }
+    },
+    "publishedAt": "2026-02-03T07:07:21.000Z",
+    "title": "A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces",
+    "summary": "Frontier language models have demonstrated strong reasoning and long-horizon tool-use capabilities. However, existing RAG systems fail to leverage these capabilities. They still rely on two paradigms: (1) designing an algorithm that retrieves passages in a single shot and concatenates them into the model's input, or (2) predefining a workflow and prompting the model to execute it step-by-step. Neither paradigm allows the model to participate in retrieval decisions, preventing efficient scaling with model improvements. In this paper, we introduce A-RAG, an Agentic RAG framework that exposes hierarchical retrieval interfaces directly to the model. A-RAG provides three retrieval tools: keyword search, semantic search, and chunk read, enabling the agent to adaptively search and retrieve information across multiple granularities. Experiments on multiple open-domain QA benchmarks show that A-RAG consistently outperforms existing approaches with comparable or lower retrieved tokens, demonstrating that A-RAG effectively leverages model capabilities and dynamically adapts to different RAG tasks. We further systematically study how A-RAG scales with model size and test-time compute. We will release our code and evaluation suite to facilitate future research. Code and evaluation suite are available at https://github.com/Ayanami0730/arag.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.03442.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "646dbba74ad7f907279dd486",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646dbba74ad7f907279dd486/XGHJMFEIpWeDlh0cn9Slu.png",
+      "fullname": "Mingxuan Du",
+      "name": "Ayanami0730",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 10,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6912993f45f02a20f4c50b8a",
+      "name": "muset-ai",
+      "fullname": "muset.ai",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/646dbba74ad7f907279dd486/C5j0HEiqEmmxshM61WRON.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.18207",
+      "authors": [
+        {
+          "_id": "6979279adf44b75fa47e46bc",
+          "user": {
+            "_id": "650871aeb44445e9b3625c7b",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/650871aeb44445e9b3625c7b/mtx3EnkuNF4z29IosnhaQ.png",
+            "isPro": false,
+            "fullname": "James Burgess",
+            "user": "jmhb",
+            "type": "user"
+          },
+          "name": "James Burgess",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-04T12:34:09.480Z",
+          "hidden": false
+        },
+        {
+          "_id": "6979279adf44b75fa47e46bd",
+          "name": "Jan N. Hansen",
+          "hidden": false
+        },
+        {
+          "_id": "6979279adf44b75fa47e46be",
+          "name": "Duo Peng",
+          "hidden": false
+        },
+        {
+          "_id": "6979279adf44b75fa47e46bf",
+          "user": {
+            "_id": "62da55164398e21bf7f0e292",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62da55164398e21bf7f0e292/xjKkG8IA2IZZqCdjApSh3.jpeg",
+            "isPro": false,
+            "fullname": "Yuhui Zhang",
+            "user": "yuhuizhang",
+            "type": "user"
+          },
+          "name": "Yuhui Zhang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-04T12:34:07.233Z",
+          "hidden": false
+        },
+        {
+          "_id": "6979279adf44b75fa47e46c0",
+          "name": "Alejandro Lozano",
+          "hidden": false
+        },
+        {
+          "_id": "6979279adf44b75fa47e46c1",
+          "name": "Min Woo Sun",
+          "hidden": false
+        },
+        {
+          "_id": "6979279adf44b75fa47e46c2",
+          "name": "Emma Lundberg",
+          "hidden": false
+        },
+        {
+          "_id": "6979279adf44b75fa47e46c3",
+          "name": "Serena Yeung-Levy",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-26T06:46:16.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:45:19.168Z",
+      "title": "PaperSearchQA: Learning to Search and Reason over Scientific Papers with RLVR",
+      "submittedOnDailyBy": {
+        "_id": "650871aeb44445e9b3625c7b",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/650871aeb44445e9b3625c7b/mtx3EnkuNF4z29IosnhaQ.png",
+        "isPro": false,
+        "fullname": "James Burgess",
+        "user": "jmhb",
+        "type": "user"
+      },
+      "summary": "Search agents are language models (LMs) that reason and search knowledge bases (or the web) to answer questions; recent methods supervise only the final answer accuracy using reinforcement learning with verifiable rewards (RLVR). Most RLVR search agents tackle general-domain QA, which limits their relevance to technical AI systems in science, engineering, and medicine. In this work we propose training agents to search and reason over scientific papers -- this tests technical question-answering, it is directly relevant to real scientists, and the capabilities will be crucial to future AI Scientist systems. Concretely, we release a search corpus of 16 million biomedical paper abstracts and construct a challenging factoid QA dataset called PaperSearchQA with 60k samples answerable from the corpus, along with benchmarks. We train search agents in this environment to outperform non-RL retrieval baselines; we also perform further quantitative analysis and observe interesting agent behaviors like planning, reasoning, and self-verification. Our corpus, datasets, and benchmarks are usable with the popular Search-R1 codebase for RLVR training and released on https://huggingface.co/collections/jmhb/papersearchqa. Finally, our data creation methods are scalable and easily extendable to other scientific domains.",
+      "upvotes": 10,
+      "discussionId": "6979279adf44b75fa47e46c4",
+      "projectPage": "https://jmhb0.github.io/PaperSearchQA/",
+      "githubRepo": "https://github.com/jmhb0/PaperSearchQA",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Search agents trained on scientific paper corpora demonstrate advanced reasoning capabilities for technical question-answering tasks, outperforming traditional retrieval methods through reinforcement learning with verifiable rewards.",
+      "ai_keywords": [
+        "language models",
+        "reinforcement learning with verifiable rewards",
+        "search agents",
+        "knowledge bases",
+        "scientific papers",
+        "biomedical paper abstracts",
+        "factoid QA",
+        "PaperSearchQA",
+        "RLVR",
+        "Search-R1"
+      ],
+      "githubStars": 16
+    },
+    "publishedAt": "2026-01-26T01:46:16.000Z",
+    "title": "PaperSearchQA: Learning to Search and Reason over Scientific Papers with RLVR",
+    "summary": "Search agents are language models (LMs) that reason and search knowledge bases (or the web) to answer questions; recent methods supervise only the final answer accuracy using reinforcement learning with verifiable rewards (RLVR). Most RLVR search agents tackle general-domain QA, which limits their relevance to technical AI systems in science, engineering, and medicine. In this work we propose training agents to search and reason over scientific papers -- this tests technical question-answering, it is directly relevant to real scientists, and the capabilities will be crucial to future AI Scientist systems. Concretely, we release a search corpus of 16 million biomedical paper abstracts and construct a challenging factoid QA dataset called PaperSearchQA with 60k samples answerable from the corpus, along with benchmarks. We train search agents in this environment to outperform non-RL retrieval baselines; we also perform further quantitative analysis and observe interesting agent behaviors like planning, reasoning, and self-verification. Our corpus, datasets, and benchmarks are usable with the popular Search-R1 codebase for RLVR training and released on https://huggingface.co/collections/jmhb/papersearchqa. Finally, our data creation methods are scalable and easily extendable to other scientific domains.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.18207.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "650871aeb44445e9b3625c7b",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/650871aeb44445e9b3625c7b/mtx3EnkuNF4z29IosnhaQ.png",
+      "fullname": "James Burgess",
+      "name": "jmhb",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.04515",
+      "authors": [
+        {
+          "_id": "69840866e34659da7e1f4d86",
+          "name": "Yu Bai",
+          "hidden": false
+        },
+        {
+          "_id": "69840866e34659da7e1f4d87",
+          "name": "MingMing Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69840866e34659da7e1f4d88",
+          "name": "Chaojie Li",
+          "hidden": false
+        },
+        {
+          "_id": "69840866e34659da7e1f4d89",
+          "name": "Ziyi Bai",
+          "hidden": false
+        },
+        {
+          "_id": "69840866e34659da7e1f4d8a",
+          "name": "Xinlong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69840866e34659da7e1f4d8b",
+          "name": "Börje F. Karlsson",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-04T13:04:56.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:35:43.372Z",
+      "title": "EgoActor: Grounding Task Planning into Spatial-aware Egocentric Actions for Humanoid Robots via Visual-Language Models",
+      "submittedOnDailyBy": {
+        "_id": "61e52be53d6dbb1da842316a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+        "isPro": false,
+        "fullname": "Börje Karlsson",
+        "user": "tellarin",
+        "type": "user"
+      },
+      "summary": "Deploying humanoid robots in real-world settings is fundamentally challenging, as it demands tight integration of perception, locomotion, and manipulation under partial-information observations and dynamically changing environments. As well as transitioning robustly between sub-tasks of different types. Towards addressing these challenges, we propose a novel task - EgoActing, which requires directly grounding high-level instructions into various, precise, spatially aware humanoid actions. We further instantiate this task by introducing EgoActor, a unified and scalable vision-language model (VLM) that can predict locomotion primitives (e.g., walk, turn, move sideways, change height), head movements, manipulation commands, and human-robot interactions to coordinate perception and execution in real-time. We leverage broad supervision over egocentric RGB-only data from real-world demonstrations, spatial reasoning question-answering, and simulated environment demonstrations, enabling EgoActor to make robust, context-aware decisions and perform fluent action inference (under 1s) with both 8B and 4B parameter models. Extensive evaluations in both simulated and real-world environments demonstrate that EgoActor effectively bridges abstract task planning and concrete motor execution, while generalizing across diverse tasks and unseen environments.",
+      "upvotes": 9,
+      "discussionId": "69840866e34659da7e1f4d8c",
+      "ai_summary": "EgoActor is a unified vision-language model that translates high-level instructions into precise humanoid robot actions through integrated perception and execution across simulated and real-world environments.",
+      "ai_keywords": [
+        "vision-language model",
+        "locomotion primitives",
+        "head movements",
+        "manipulation commands",
+        "human-robot interactions",
+        "egocentric RGB-only data",
+        "spatial reasoning",
+        "question-answering",
+        "simulated environment demonstrations",
+        "action inference",
+        "motor execution"
+      ],
+      "organization": {
+        "_id": "61be9739d2f9358e24ca0a4f",
+        "name": "BAAI",
+        "fullname": "Beijing Academy of Artificial Intelligence",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1664511063789-632c234f42c386ebd2710434.png"
+      }
+    },
+    "publishedAt": "2026-02-04T08:04:56.000Z",
+    "title": "EgoActor: Grounding Task Planning into Spatial-aware Egocentric Actions for Humanoid Robots via Visual-Language Models",
+    "summary": "Deploying humanoid robots in real-world settings is fundamentally challenging, as it demands tight integration of perception, locomotion, and manipulation under partial-information observations and dynamically changing environments. As well as transitioning robustly between sub-tasks of different types. Towards addressing these challenges, we propose a novel task - EgoActing, which requires directly grounding high-level instructions into various, precise, spatially aware humanoid actions. We further instantiate this task by introducing EgoActor, a unified and scalable vision-language model (VLM) that can predict locomotion primitives (e.g., walk, turn, move sideways, change height), head movements, manipulation commands, and human-robot interactions to coordinate perception and execution in real-time. We leverage broad supervision over egocentric RGB-only data from real-world demonstrations, spatial reasoning question-answering, and simulated environment demonstrations, enabling EgoActor to make robust, context-aware decisions and perform fluent action inference (under 1s) with both 8B and 4B parameter models. Extensive evaluations in both simulated and real-world environments demonstrate that EgoActor effectively bridges abstract task planning and concrete motor execution, while generalizing across diverse tasks and unseen environments.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.04515.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61e52be53d6dbb1da842316a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+      "fullname": "Börje Karlsson",
+      "name": "tellarin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 27,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "61be9739d2f9358e24ca0a4f",
+      "name": "BAAI",
+      "fullname": "Beijing Academy of Artificial Intelligence",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1664511063789-632c234f42c386ebd2710434.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.02958",
+      "authors": [
+        {
+          "_id": "698409abe34659da7e1f4d8e",
+          "name": "Haocheng Xi",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d8f",
+          "name": "Shuo Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d90",
+          "name": "Yilong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d91",
+          "name": "Muyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d92",
+          "name": "Han Cai",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d93",
+          "name": "Xingyang Li",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d94",
+          "name": "Yujun Lin",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d95",
+          "name": "Zhuoyang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d96",
+          "name": "Jintao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d97",
+          "name": "Xiuyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d98",
+          "name": "Zhiying Xu",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d99",
+          "name": "Jun Wu",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d9a",
+          "name": "Chenfeng Xu",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d9b",
+          "name": "Ion Stoica",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d9c",
+          "name": "Song Han",
+          "hidden": false
+        },
+        {
+          "_id": "698409abe34659da7e1f4d9d",
+          "name": "Kurt Keutzer",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-03T00:54:32.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:40:03.849Z",
+      "title": "Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization",
+      "submittedOnDailyBy": {
+        "_id": "66ce751a8ec9fda2cf5a9e85",
+        "avatarUrl": "/avatars/c17093ca81dad007b3e50bae503955a7.svg",
+        "isPro": false,
+        "fullname": "Haocheng Xi",
+        "user": "xihc-ucb",
+        "type": "user"
+      },
+      "summary": "Despite rapid progress in autoregressive video diffusion, an emerging system algorithm bottleneck limits both deployability and generation capability: KV cache memory. In autoregressive video generation models, the KV cache grows with generation history and quickly dominates GPU memory, often exceeding 30 GB, preventing deployment on widely available hardware. More critically, constrained KV cache budgets restrict the effective working memory, directly degrading long horizon consistency in identity, layout, and motion. To address this challenge, we present Quant VideoGen (QVG), a training free KV cache quantization framework for autoregressive video diffusion models. QVG leverages video spatiotemporal redundancy through Semantic Aware Smoothing, producing low magnitude, quantization friendly residuals. It further introduces Progressive Residual Quantization, a coarse to fine multi stage scheme that reduces quantization error while enabling a smooth quality memory trade off. Across LongCat Video, HY WorldPlay, and Self Forcing benchmarks, QVG establishes a new Pareto frontier between quality and memory efficiency, reducing KV cache memory by up to 7.0 times with less than 4% end to end latency overhead while consistently outperforming existing baselines in generation quality.",
+      "upvotes": 9,
+      "discussionId": "698409ace34659da7e1f4d9e",
+      "ai_summary": "Quant VideoGen addresses KV cache memory limitations in autoregressive video diffusion models through semantic-aware smoothing and progressive residual quantization, achieving significant memory reduction with minimal latency impact.",
+      "ai_keywords": [
+        "KV cache",
+        "autoregressive video diffusion",
+        "video spatiotemporal redundancy",
+        "Semantic Aware Smoothing",
+        "Progressive Residual Quantization",
+        "quantization error",
+        "Pareto frontier",
+        "memory efficiency"
+      ],
+      "organization": {
+        "_id": "66b1baeff10262fc4fa61961",
+        "name": "UCBerkeley",
+        "fullname": "University of California, Berkeley",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f425c3a096536aeab42dea/bxNKEkprdm5JI1wkjmNAL.png"
+      }
+    },
+    "publishedAt": "2026-02-02T19:54:32.000Z",
+    "title": "Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization",
+    "summary": "Despite rapid progress in autoregressive video diffusion, an emerging system algorithm bottleneck limits both deployability and generation capability: KV cache memory. In autoregressive video generation models, the KV cache grows with generation history and quickly dominates GPU memory, often exceeding 30 GB, preventing deployment on widely available hardware. More critically, constrained KV cache budgets restrict the effective working memory, directly degrading long horizon consistency in identity, layout, and motion. To address this challenge, we present Quant VideoGen (QVG), a training free KV cache quantization framework for autoregressive video diffusion models. QVG leverages video spatiotemporal redundancy through Semantic Aware Smoothing, producing low magnitude, quantization friendly residuals. It further introduces Progressive Residual Quantization, a coarse to fine multi stage scheme that reduces quantization error while enabling a smooth quality memory trade off. Across LongCat Video, HY WorldPlay, and Self Forcing benchmarks, QVG establishes a new Pareto frontier between quality and memory efficiency, reducing KV cache memory by up to 7.0 times with less than 4% end to end latency overhead while consistently outperforming existing baselines in generation quality.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.02958.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66ce751a8ec9fda2cf5a9e85",
+      "avatarUrl": "/avatars/c17093ca81dad007b3e50bae503955a7.svg",
+      "fullname": "Haocheng Xi",
+      "name": "xihc-ucb",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "66b1baeff10262fc4fa61961",
+      "name": "UCBerkeley",
+      "fullname": "University of California, Berkeley",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f425c3a096536aeab42dea/bxNKEkprdm5JI1wkjmNAL.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.04575",
+      "authors": [
+        {
+          "_id": "69840aeee34659da7e1f4db4",
+          "name": "Jiaheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69840aeee34659da7e1f4db5",
+          "name": "Yuanxing Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69840aeee34659da7e1f4db6",
+          "name": "Shihao Li",
+          "hidden": false
+        },
+        {
+          "_id": "69840aeee34659da7e1f4db7",
+          "name": "Xinping Lei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-04T14:01:44.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:44:32.628Z",
+      "title": "Vibe AIGC: A New Paradigm for Content Generation via Agentic Orchestration",
+      "submittedOnDailyBy": {
+        "_id": "65377c30e48353201e6fdda0",
+        "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+        "isPro": false,
+        "fullname": "Jiaheng Liu",
+        "user": "CheeryLJH",
+        "type": "user"
+      },
+      "summary": "For the past decade, the trajectory of generative artificial intelligence (AI) has been dominated by a model-centric paradigm driven by scaling laws. Despite significant leaps in visual fidelity, this approach has encountered a ``usability ceiling'' manifested as the Intent-Execution Gap (i.e., the fundamental disparity between a creator's high-level intent and the stochastic, black-box nature of current single-shot models). In this paper, inspired by the Vibe Coding, we introduce the Vibe AIGC, a new paradigm for content generation via agentic orchestration, which represents the autonomous synthesis of hierarchical multi-agent workflows.\n  Under this paradigm, the user's role transcends traditional prompt engineering, evolving into a Commander who provides a Vibe, a high-level representation encompassing aesthetic preferences, functional logic, and etc. A centralized Meta-Planner then functions as a system architect, deconstructing this ``Vibe'' into executable, verifiable, and adaptive agentic pipelines. By transitioning from stochastic inference to logical orchestration, Vibe AIGC bridges the gap between human imagination and machine execution. We contend that this shift will redefine the human-AI collaborative economy, transforming AI from a fragile inference engine into a robust system-level engineering partner that democratizes the creation of complex, long-horizon digital assets.",
+      "upvotes": 7,
+      "discussionId": "69840aefe34659da7e1f4db8",
+      "ai_summary": "Vibe AIGC introduces a new generative AI paradigm where users provide high-level aesthetic and functional preferences, which are then orchestrated through multi-agent workflows to bridge the gap between human intent and machine execution.",
+      "ai_keywords": [
+        "Vibe Coding",
+        "Vibe AIGC",
+        "agentic orchestration",
+        "Intent-Execution Gap",
+        "multi-agent workflows",
+        "Meta-Planner",
+        "stochastic inference",
+        "logical orchestration"
+      ],
+      "organization": {
+        "_id": "68edc767abe005ac1b354573",
+        "name": "NJU-LINK",
+        "fullname": "NJU-LINK Lab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+      }
+    },
+    "publishedAt": "2026-02-04T09:01:44.000Z",
+    "title": "Vibe AIGC: A New Paradigm for Content Generation via Agentic Orchestration",
+    "summary": "For the past decade, the trajectory of generative artificial intelligence (AI) has been dominated by a model-centric paradigm driven by scaling laws. Despite significant leaps in visual fidelity, this approach has encountered a ``usability ceiling'' manifested as the Intent-Execution Gap (i.e., the fundamental disparity between a creator's high-level intent and the stochastic, black-box nature of current single-shot models). In this paper, inspired by the Vibe Coding, we introduce the Vibe AIGC, a new paradigm for content generation via agentic orchestration, which represents the autonomous synthesis of hierarchical multi-agent workflows.\n  Under this paradigm, the user's role transcends traditional prompt engineering, evolving into a Commander who provides a Vibe, a high-level representation encompassing aesthetic preferences, functional logic, and etc. A centralized Meta-Planner then functions as a system architect, deconstructing this ``Vibe'' into executable, verifiable, and adaptive agentic pipelines. By transitioning from stochastic inference to logical orchestration, Vibe AIGC bridges the gap between human imagination and machine execution. We contend that this shift will redefine the human-AI collaborative economy, transforming AI from a fragile inference engine into a robust system-level engineering partner that democratizes the creation of complex, long-horizon digital assets.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.04575.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65377c30e48353201e6fdda0",
+      "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+      "fullname": "Jiaheng Liu",
+      "name": "CheeryLJH",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 25,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68edc767abe005ac1b354573",
+      "name": "NJU-LINK",
+      "fullname": "NJU-LINK Lab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.01640",
+      "authors": [
+        {
+          "_id": "69840412e34659da7e1f4d49",
+          "name": "Shuai Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d4a",
+          "name": "Jiayu Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d4b",
+          "name": "Zijie Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d4c",
+          "name": "Zeyuan Ding",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d4d",
+          "name": "Yi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d4e",
+          "name": "Yingji Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d4f",
+          "name": "Ziyi Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d50",
+          "name": "Junwei Liao",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d51",
+          "name": "Shengjie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d52",
+          "name": "Yong Dai",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d53",
+          "name": "Zhenzhong Lan",
+          "hidden": false
+        },
+        {
+          "_id": "69840412e34659da7e1f4d54",
+          "name": "Xiaozhu Ju",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T04:55:27.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:20:28.744Z",
+      "title": "A2Eval: Agentic and Automated Evaluation for Embodied Brain",
+      "submittedOnDailyBy": {
+        "_id": "630a2bcf4bee441367afba10",
+        "avatarUrl": "/avatars/463a62b296887f1be8290475b91af098.svg",
+        "isPro": false,
+        "fullname": "Zijie Chen",
+        "user": "Zijie-chen",
+        "type": "user"
+      },
+      "summary": "Current embodied VLM evaluation relies on static, expert-defined, manually annotated benchmarks that exhibit severe redundancy and coverage imbalance. This labor intensive paradigm drains computational and annotation resources, inflates costs, and distorts model rankings, ultimately stifling iterative development. To address this, we propose Agentic Automatic Evaluation (A2Eval), the first agentic framework that automates benchmark curation and evaluation through two collaborative agents. The Data Agent autonomously induces capability dimensions and assembles a balanced, compact evaluation suite, while the Eval Agent synthesizes and validates executable evaluation pipelines, enabling fully autonomous, high-fidelity assessment. Evaluated across 10 benchmarks and 13 models, A2Eval compresses evaluation suites by 85%, reduces overall computational costs by 77%, and delivers a 4.6x speedup while preserving evaluation quality. Crucially, A2Eval corrects systematic ranking biases, improves human alignment to Spearman's rho=0.85, and maintains high ranking fidelity (Kendall's tau=0.81), establishing a new standard for high-fidelity, low-cost embodied assessment. Our code and data will be public soon.",
+      "upvotes": 6,
+      "discussionId": "69840413e34659da7e1f4d55",
+      "ai_summary": "Agentic automatic evaluation framework automates embodied vision-language model assessment through collaborative agents that reduce evaluation costs and improve ranking accuracy.",
+      "ai_keywords": [
+        "embodied VLM",
+        "benchmark curation",
+        "evaluation suite",
+        "computational costs",
+        "ranking bias",
+        "human alignment",
+        "Spearman's rho",
+        "Kendall's tau"
+      ],
+      "organization": {
+        "_id": "690af874ebec2e7e2f30eb2c",
+        "name": "X-Humanoid",
+        "fullname": "X-Humanoid",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/690af62c1c460ec9687cbc3f/KIC79Joju07S7TJLasrtJ.png"
+      }
+    },
+    "publishedAt": "2026-02-01T23:55:27.000Z",
+    "title": "A2Eval: Agentic and Automated Evaluation for Embodied Brain",
+    "summary": "Current embodied VLM evaluation relies on static, expert-defined, manually annotated benchmarks that exhibit severe redundancy and coverage imbalance. This labor intensive paradigm drains computational and annotation resources, inflates costs, and distorts model rankings, ultimately stifling iterative development. To address this, we propose Agentic Automatic Evaluation (A2Eval), the first agentic framework that automates benchmark curation and evaluation through two collaborative agents. The Data Agent autonomously induces capability dimensions and assembles a balanced, compact evaluation suite, while the Eval Agent synthesizes and validates executable evaluation pipelines, enabling fully autonomous, high-fidelity assessment. Evaluated across 10 benchmarks and 13 models, A2Eval compresses evaluation suites by 85%, reduces overall computational costs by 77%, and delivers a 4.6x speedup while preserving evaluation quality. Crucially, A2Eval corrects systematic ranking biases, improves human alignment to Spearman's rho=0.85, and maintains high ranking fidelity (Kendall's tau=0.81), establishing a new standard for high-fidelity, low-cost embodied assessment. Our code and data will be public soon.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.01640.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "630a2bcf4bee441367afba10",
+      "avatarUrl": "/avatars/463a62b296887f1be8290475b91af098.svg",
+      "fullname": "Zijie Chen",
+      "name": "Zijie-chen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "690af874ebec2e7e2f30eb2c",
+      "name": "X-Humanoid",
+      "fullname": "X-Humanoid",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/690af62c1c460ec9687cbc3f/KIC79Joju07S7TJLasrtJ.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.03143",
+      "authors": [
+        {
+          "_id": "698403b9e34659da7e1f4d42",
+          "name": "Baohao Liao",
+          "hidden": false
+        },
+        {
+          "_id": "698403b9e34659da7e1f4d43",
+          "name": "Hanze Dong",
+          "hidden": false
+        },
+        {
+          "_id": "698403b9e34659da7e1f4d44",
+          "name": "Xinxing Xu",
+          "hidden": false
+        },
+        {
+          "_id": "698403b9e34659da7e1f4d45",
+          "name": "Christof Monz",
+          "hidden": false
+        },
+        {
+          "_id": "698403b9e34659da7e1f4d46",
+          "name": "Jiang Bian",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/62c414354ce7250560a1f67f/aTiNZFW3UyQ6ssvN_mosJ.png"
+      ],
+      "publishedAt": "2026-02-03T05:56:20.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:20:20.229Z",
+      "title": "Self-Hinting Language Models Enhance Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "62c414354ce7250560a1f67f",
+        "avatarUrl": "/avatars/28fd73973d1703c84f4f59644fef8a80.svg",
+        "isPro": false,
+        "fullname": "Baohao Liao",
+        "user": "baohao",
+        "type": "user"
+      },
+      "summary": "Group Relative Policy Optimization (GRPO) has recently emerged as a practical recipe for aligning large language models with verifiable objectives. However, under sparse terminal rewards, GRPO often stalls because rollouts within a group frequently receive identical rewards, causing relative advantages to collapse and updates to vanish. We propose self-hint aligned GRPO with privileged supervision (SAGE), an on-policy reinforcement learning framework that injects privileged hints during training to reshape the rollout distribution under the same terminal verifier reward. For each prompt x, the model samples a compact hint h (e.g., a plan or decomposition) and then generates a solution τ conditioned on (x,h). Crucially, the task reward R(x,τ) is unchanged; hints only increase within-group outcome diversity under finite sampling, preventing GRPO advantages from collapsing under sparse rewards. At test time, we set h=varnothing and deploy the no-hint policy without any privileged information. Moreover, sampling diverse self-hints serves as an adaptive curriculum that tracks the learner's bottlenecks more effectively than fixed hints from an initial policy or a stronger external model. Experiments over 6 benchmarks with 3 LLMs show that SAGE consistently outperforms GRPO, on average +2.0 on Llama-3.2-3B-Instruct, +1.2 on Qwen2.5-7B-Instruct and +1.3 on Qwen3-4B-Instruct. The code is available at https://github.com/BaohaoLiao/SAGE.",
+      "upvotes": 4,
+      "discussionId": "698403b9e34659da7e1f4d47",
+      "githubRepo": "https://github.com/BaohaoLiao/SAGE",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "SAGE is an on-policy reinforcement learning framework that enhances GRPO by injecting self-hints during training to increase outcome diversity under sparse rewards, improving alignment of large language models.",
+      "ai_keywords": [
+        "Group Relative Policy Optimization",
+        "reinforcement learning",
+        "privileged supervision",
+        "self-hint",
+        "rollout distribution",
+        "terminal rewards",
+        "sparse rewards",
+        "on-policy learning",
+        "large language models",
+        "policy optimization"
+      ],
+      "githubStars": 2,
+      "organization": {
+        "_id": "68151d0f51add3813f3f7d1b",
+        "name": "MicrosoftResearch",
+        "fullname": "Microsoft Research",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6529a4f2f1205983224fa513/PeuVr7jSuJflmDBBGxoDX.png"
+      }
+    },
+    "publishedAt": "2026-02-03T00:56:20.000Z",
+    "title": "Self-Hinting Language Models Enhance Reinforcement Learning",
+    "summary": "Group Relative Policy Optimization (GRPO) has recently emerged as a practical recipe for aligning large language models with verifiable objectives. However, under sparse terminal rewards, GRPO often stalls because rollouts within a group frequently receive identical rewards, causing relative advantages to collapse and updates to vanish. We propose self-hint aligned GRPO with privileged supervision (SAGE), an on-policy reinforcement learning framework that injects privileged hints during training to reshape the rollout distribution under the same terminal verifier reward. For each prompt x, the model samples a compact hint h (e.g., a plan or decomposition) and then generates a solution τ conditioned on (x,h). Crucially, the task reward R(x,τ) is unchanged; hints only increase within-group outcome diversity under finite sampling, preventing GRPO advantages from collapsing under sparse rewards. At test time, we set h=varnothing and deploy the no-hint policy without any privileged information. Moreover, sampling diverse self-hints serves as an adaptive curriculum that tracks the learner's bottlenecks more effectively than fixed hints from an initial policy or a stronger external model. Experiments over 6 benchmarks with 3 LLMs show that SAGE consistently outperforms GRPO, on average +2.0 on Llama-3.2-3B-Instruct, +1.2 on Qwen2.5-7B-Instruct and +1.3 on Qwen3-4B-Instruct. The code is available at https://github.com/BaohaoLiao/SAGE.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/62c414354ce7250560a1f67f/aTiNZFW3UyQ6ssvN_mosJ.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.03143.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c414354ce7250560a1f67f",
+      "avatarUrl": "/avatars/28fd73973d1703c84f4f59644fef8a80.svg",
+      "fullname": "Baohao Liao",
+      "name": "baohao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68151d0f51add3813f3f7d1b",
+      "name": "MicrosoftResearch",
+      "fullname": "Microsoft Research",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6529a4f2f1205983224fa513/PeuVr7jSuJflmDBBGxoDX.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2601.22954",
+      "authors": [
+        {
+          "_id": "698018846676f93322706587",
+          "user": {
+            "_id": "67dc66fe55c24fc4f981a4ab",
+            "avatarUrl": "/avatars/7bd900ade802d99db7c562ad6c2f6661.svg",
+            "isPro": false,
+            "fullname": "Yuezhou Hu",
+            "user": "yuezhouhu",
+            "type": "user"
+          },
+          "name": "Yuezhou Hu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-02T16:53:04.233Z",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f93322706588",
+          "name": "Harman Singh",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f93322706589",
+          "name": "Monishwaran Maheswaran",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f9332270658a",
+          "name": "Haocheng Xi",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f9332270658b",
+          "name": "Coleman Hooper",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f9332270658c",
+          "name": "Jintao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f9332270658d",
+          "name": "Aditya Tomar",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f9332270658e",
+          "name": "Michael W. Mahoney",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f9332270658f",
+          "name": "Sewon Min",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f93322706590",
+          "name": "Mehrdad Farajtabar",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f93322706591",
+          "name": "Kurt Keutzer",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f93322706592",
+          "name": "Amir Gholami",
+          "hidden": false
+        },
+        {
+          "_id": "698018846676f93322706593",
+          "name": "Chenfeng Xu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/67dc66fe55c24fc4f981a4ab/FVQu1kNOzJkrevK4FdpOP.mp4"
+      ],
+      "publishedAt": "2026-01-30T13:16:32.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:48:00.818Z",
+      "title": "Residual Context Diffusion Language Models",
+      "submittedOnDailyBy": {
+        "_id": "67dc66fe55c24fc4f981a4ab",
+        "avatarUrl": "/avatars/7bd900ade802d99db7c562ad6c2f6661.svg",
+        "isPro": false,
+        "fullname": "Yuezhou Hu",
+        "user": "yuezhouhu",
+        "type": "user"
+      },
+      "summary": "Diffusion Large Language Models (dLLMs) have emerged as a promising alternative to purely autoregressive language models because they can decode multiple tokens in parallel. However, state-of-the-art block-wise dLLMs rely on a \"remasking\" mechanism that decodes only the most confident tokens and discards the rest, effectively wasting computation. We demonstrate that recycling computation from the discarded tokens is beneficial, as these tokens retain contextual information useful for subsequent decoding iterations. In light of this, we propose Residual Context Diffusion (RCD), a module that converts these discarded token representations into contextual residuals and injects them back for the next denoising step. RCD uses a decoupled two-stage training pipeline to bypass the memory bottlenecks associated with backpropagation. We validate our method on both long CoT reasoning (SDAR) and short CoT instruction following (LLaDA) models. We demonstrate that a standard dLLM can be efficiently converted to the RCD paradigm with merely ~1 billion tokens. RCD consistently improves frontier dLLMs by 5-10 points in accuracy with minimal extra computation overhead across a wide range of benchmarks. Notably, on the most challenging AIME tasks, RCD nearly doubles baseline accuracy and attains up to 4-5x fewer denoising steps at equivalent accuracy levels.",
+      "upvotes": 4,
+      "discussionId": "698018856676f93322706594",
+      "projectPage": "https://yuezhouhu.github.io/projects/residual-context-diffusion/index.html",
+      "githubRepo": "https://github.com/yuezhouhu/residual-context-diffusion",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Residual Context Diffusion (RCD) enhances diffusion large language models by recycling discarded token information through contextual residuals, improving accuracy with minimal computational overhead.",
+      "ai_keywords": [
+        "diffusion large language models",
+        "autoregressive language models",
+        "remasking mechanism",
+        "token representations",
+        "contextual residuals",
+        "denoising steps",
+        "decoupled two-stage training",
+        "backpropagation",
+        "long CoT reasoning",
+        "short CoT instruction following",
+        "AIME tasks"
+      ],
+      "githubStars": 27,
+      "organization": {
+        "_id": "66b1baeff10262fc4fa61961",
+        "name": "UCBerkeley",
+        "fullname": "University of California, Berkeley",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f425c3a096536aeab42dea/bxNKEkprdm5JI1wkjmNAL.png"
+      }
+    },
+    "publishedAt": "2026-01-30T08:16:32.000Z",
+    "title": "Residual Context Diffusion Language Models",
+    "summary": "Diffusion Large Language Models (dLLMs) have emerged as a promising alternative to purely autoregressive language models because they can decode multiple tokens in parallel. However, state-of-the-art block-wise dLLMs rely on a \"remasking\" mechanism that decodes only the most confident tokens and discards the rest, effectively wasting computation. We demonstrate that recycling computation from the discarded tokens is beneficial, as these tokens retain contextual information useful for subsequent decoding iterations. In light of this, we propose Residual Context Diffusion (RCD), a module that converts these discarded token representations into contextual residuals and injects them back for the next denoising step. RCD uses a decoupled two-stage training pipeline to bypass the memory bottlenecks associated with backpropagation. We validate our method on both long CoT reasoning (SDAR) and short CoT instruction following (LLaDA) models. We demonstrate that a standard dLLM can be efficiently converted to the RCD paradigm with merely ~1 billion tokens. RCD consistently improves frontier dLLMs by 5-10 points in accuracy with minimal extra computation overhead across a wide range of benchmarks. Notably, on the most challenging AIME tasks, RCD nearly doubles baseline accuracy and attains up to 4-5x fewer denoising steps at equivalent accuracy levels.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/67dc66fe55c24fc4f981a4ab/FVQu1kNOzJkrevK4FdpOP.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.22954.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67dc66fe55c24fc4f981a4ab",
+      "avatarUrl": "/avatars/7bd900ade802d99db7c562ad6c2f6661.svg",
+      "fullname": "Yuezhou Hu",
+      "name": "yuezhouhu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "66b1baeff10262fc4fa61961",
+      "name": "UCBerkeley",
+      "fullname": "University of California, Berkeley",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f425c3a096536aeab42dea/bxNKEkprdm5JI1wkjmNAL.png"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.02350",
+      "authors": [
+        {
+          "_id": "69832a259084cb4f0ecb597b",
+          "user": {
+            "_id": "68ad8ff044c8254ac4b6ad6e",
+            "avatarUrl": "/avatars/a566b764e100edf1e2d633623e32f5cf.svg",
+            "isPro": false,
+            "fullname": "Xingyuan Hua",
+            "user": "hansenhua",
+            "type": "user"
+          },
+          "name": "Xingyuan Hua",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-04T19:03:49.511Z",
+          "hidden": false
+        },
+        {
+          "_id": "69832a259084cb4f0ecb597c",
+          "name": "Sheng Yue",
+          "hidden": false
+        },
+        {
+          "_id": "69832a259084cb4f0ecb597d",
+          "name": "Xinyi Li",
+          "hidden": false
+        },
+        {
+          "_id": "69832a259084cb4f0ecb597e",
+          "name": "Yizhe Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69832a259084cb4f0ecb597f",
+          "name": "Jinrui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69832a259084cb4f0ecb5980",
+          "name": "Ju Ren",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T17:15:17.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:22:27.818Z",
+      "title": "Context Learning for Multi-Agent Discussion",
+      "submittedOnDailyBy": {
+        "_id": "68ad8ff044c8254ac4b6ad6e",
+        "avatarUrl": "/avatars/a566b764e100edf1e2d633623e32f5cf.svg",
+        "isPro": false,
+        "fullname": "Xingyuan Hua",
+        "user": "hansenhua",
+        "type": "user"
+      },
+      "summary": "Multi-Agent Discussion (MAD) has garnered increasing attention very recently, where multiple LLM instances collaboratively solve problems via structured discussion. However, we find that current MAD methods easily suffer from discussion inconsistency, LLMs fail to reach a coherent solution, due to the misalignment between their individual contexts.In this paper, we introduce a multi-LLM context learning method (M2CL) that learns a context generator for each agent, capable of dynamically generating context instructions per discussion round via automatic information organization and refinement. Specifically, inspired by our theoretical insights on the context instruction, M2CL train the generators to control context coherence and output discrepancies via a carefully crafted self-adaptive mechanism.It enables LLMs to avoid premature convergence on majority noise and progressively reach the correct consensus. We evaluate M2CL on challenging tasks, including academic reasoning, embodied tasks, and mobile control. The results show that the performance of M2CL significantly surpasses existing methods by 20%--50%, while enjoying favorable transferability and computational efficiency.",
+      "upvotes": 2,
+      "discussionId": "69832a269084cb4f0ecb5981",
+      "ai_summary": "Multi-Agent Discussion methods suffer from inconsistency due to individual context misalignment, which is addressed through a context learning approach that dynamically generates context instructions for each agent to improve consensus reaching and performance.",
+      "ai_keywords": [
+        "multi-LLM context learning",
+        "context generator",
+        "discussion consistency",
+        "context coherence",
+        "self-adaptive mechanism",
+        "premature convergence",
+        "consensus reaching"
+      ],
+      "organization": {
+        "_id": "628735cbc83a2d6ab8d14a66",
+        "name": "Tsinghua",
+        "fullname": "Tsinghua University"
+      }
+    },
+    "publishedAt": "2026-02-02T12:15:17.000Z",
+    "title": "Context Learning for Multi-Agent Discussion",
+    "summary": "Multi-Agent Discussion (MAD) has garnered increasing attention very recently, where multiple LLM instances collaboratively solve problems via structured discussion. However, we find that current MAD methods easily suffer from discussion inconsistency, LLMs fail to reach a coherent solution, due to the misalignment between their individual contexts.In this paper, we introduce a multi-LLM context learning method (M2CL) that learns a context generator for each agent, capable of dynamically generating context instructions per discussion round via automatic information organization and refinement. Specifically, inspired by our theoretical insights on the context instruction, M2CL train the generators to control context coherence and output discrepancies via a carefully crafted self-adaptive mechanism.It enables LLMs to avoid premature convergence on majority noise and progressively reach the correct consensus. We evaluate M2CL on challenging tasks, including academic reasoning, embodied tasks, and mobile control. The results show that the performance of M2CL significantly surpasses existing methods by 20%--50%, while enjoying favorable transferability and computational efficiency.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.02350.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "68ad8ff044c8254ac4b6ad6e",
+      "avatarUrl": "/avatars/a566b764e100edf1e2d633623e32f5cf.svg",
+      "fullname": "Xingyuan Hua",
+      "name": "hansenhua",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "628735cbc83a2d6ab8d14a66",
+      "name": "Tsinghua",
+      "fullname": "Tsinghua University"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.04605",
+      "authors": [
+        {
+          "_id": "698406eae34659da7e1f4d70",
+          "name": "Rahul Bajaj",
+          "hidden": false
+        },
+        {
+          "_id": "698406eae34659da7e1f4d71",
+          "name": "Anuj Garg",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-04T14:32:37.000Z",
+      "submittedOnDailyAt": "2026-02-05T00:34:31.714Z",
+      "title": "RexBERT: Context Specialized Bidirectional Encoders for E-commerce",
+      "submittedOnDailyBy": {
+        "_id": "6893dd21467f7d2f5f358a95",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6893dd21467f7d2f5f358a95/3buD-PC8cvzsS__NJjdUi.png",
+        "isPro": true,
+        "fullname": "Rahul Bajaj",
+        "user": "thebajajra",
+        "type": "user"
+      },
+      "summary": "Encoder-only transformers remain indispensable in retrieval, classification, and ranking systems where latency, stability, and cost are paramount. Most general purpose encoders, however, are trained on generic corpora with limited coverage of specialized domains. We introduce RexBERT, a family of BERT-style encoders designed specifically for e-commerce semantics. We make three contributions. First, we release Ecom-niverse, a 350 billion token corpus curated from diverse retail and shopping sources. We describe a modular pipeline that isolates and extracts e-commerce content from FineFineWeb and other open web resources, and characterize the resulting domain distribution. Second, we present a reproducible pretraining recipe building on ModernBERT's architectural advances. The recipe consists of three phases: general pre-training, context extension, and annealed domain specialization. Third, we train RexBERT models ranging from 17M to 400M parameters and evaluate them on token classification, semantic similarity, and general natural language understanding tasks using e-commerce datasets. Despite having 2-3x fewer parameters, RexBERT outperforms larger general-purpose encoders and matches or surpasses modern long-context models on domain-specific benchmarks. Our results demonstrate that high quality in-domain data combined with a principled training approach provides a stronger foundation for e-commerce applications than indiscriminate scaling alone.",
+      "upvotes": 1,
+      "discussionId": "698406eae34659da7e1f4d72",
+      "ai_summary": "RexBERT, a family of BERT-style encoders designed for e-commerce semantics, achieves superior performance on domain-specific tasks through specialized pretraining and high-quality in-domain data.",
+      "ai_keywords": [
+        "encoder-only transformers",
+        "BERT-style encoders",
+        "e-commerce semantics",
+        "Ecom-niverse",
+        "ModernBERT",
+        "pretraining recipe",
+        "context extension",
+        "annealed domain specialization",
+        "token classification",
+        "semantic similarity",
+        "natural language understanding"
+      ],
+      "organization": {
+        "_id": "689ba1a36eb1ced69a174924",
+        "name": "owlgebra-ai",
+        "fullname": "Owlgebra AI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6893dd21467f7d2f5f358a95/apTHmVGh6-bBORoro8zP1.png"
+      }
+    },
+    "publishedAt": "2026-02-04T09:32:37.000Z",
+    "title": "RexBERT: Context Specialized Bidirectional Encoders for E-commerce",
+    "summary": "Encoder-only transformers remain indispensable in retrieval, classification, and ranking systems where latency, stability, and cost are paramount. Most general purpose encoders, however, are trained on generic corpora with limited coverage of specialized domains. We introduce RexBERT, a family of BERT-style encoders designed specifically for e-commerce semantics. We make three contributions. First, we release Ecom-niverse, a 350 billion token corpus curated from diverse retail and shopping sources. We describe a modular pipeline that isolates and extracts e-commerce content from FineFineWeb and other open web resources, and characterize the resulting domain distribution. Second, we present a reproducible pretraining recipe building on ModernBERT's architectural advances. The recipe consists of three phases: general pre-training, context extension, and annealed domain specialization. Third, we train RexBERT models ranging from 17M to 400M parameters and evaluate them on token classification, semantic similarity, and general natural language understanding tasks using e-commerce datasets. Despite having 2-3x fewer parameters, RexBERT outperforms larger general-purpose encoders and matches or surpasses modern long-context models on domain-specific benchmarks. Our results demonstrate that high quality in-domain data combined with a principled training approach provides a stronger foundation for e-commerce applications than indiscriminate scaling alone.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.04605.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6893dd21467f7d2f5f358a95",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6893dd21467f7d2f5f358a95/3buD-PC8cvzsS__NJjdUi.png",
+      "fullname": "Rahul Bajaj",
+      "name": "thebajajra",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 23,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "689ba1a36eb1ced69a174924",
+      "name": "owlgebra-ai",
+      "fullname": "Owlgebra AI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6893dd21467f7d2f5f358a95/apTHmVGh6-bBORoro8zP1.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
