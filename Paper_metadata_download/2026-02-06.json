@@ -1,0 +1,1084 @@
+[
+  {
+    "paper": {
+      "id": "2602.05216",
+      "authors": [
+        {
+          "_id": "69854f5b4ad556f294b7eaed",
+          "name": "Luke Alexander",
+          "hidden": false
+        },
+        {
+          "_id": "69854f5b4ad556f294b7eaee",
+          "name": "Eric Leonen",
+          "hidden": false
+        },
+        {
+          "_id": "69854f5b4ad556f294b7eaef",
+          "name": "Sophie Szeto",
+          "hidden": false
+        },
+        {
+          "_id": "69854f5b4ad556f294b7eaf0",
+          "name": "Artemii Remizov",
+          "hidden": false
+        },
+        {
+          "_id": "69854f5b4ad556f294b7eaf1",
+          "name": "Ignacio Tejeda",
+          "hidden": false
+        },
+        {
+          "_id": "69854f5b4ad556f294b7eaf2",
+          "name": "Giovanni Inchiostro",
+          "hidden": false
+        },
+        {
+          "_id": "69854f5b4ad556f294b7eaf3",
+          "name": "Vasily Ilin",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/66bff1188c3816c563f42d20/YHlSIp1pTpc_-KTeuNLAC.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/66bff1188c3816c563f42d20/1FYkBf4yAQfEhRm9W62ZA.png"
+      ],
+      "publishedAt": "2026-02-05T02:16:20.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:15:13.015Z",
+      "title": "Semantic Search over 9 Million Mathematical Theorems",
+      "submittedOnDailyBy": {
+        "_id": "66bff1188c3816c563f42d20",
+        "avatarUrl": "/avatars/a91803c29adc4f88f104057543663954.svg",
+        "isPro": false,
+        "fullname": "Vasily Ilin",
+        "user": "Vilin97",
+        "type": "user"
+      },
+      "summary": "Searching for mathematical results remains difficult: most existing tools retrieve entire papers, while mathematicians and theorem-proving agents often seek a specific theorem, lemma, or proposition that answers a query. While semantic search has seen rapid progress, its behavior on large, highly technical corpora such as research-level mathematical theorems remains poorly understood. In this work, we introduce and study semantic theorem retrieval at scale over a unified corpus of 9.2 million theorem statements extracted from arXiv and seven other sources, representing the largest publicly available corpus of human-authored, research-level theorems. We represent each theorem with a short natural-language description as a retrieval representation and systematically analyze how representation context, language model choice, embedding model, and prompting strategy affect retrieval quality. On a curated evaluation set of theorem-search queries written by professional mathematicians, our approach substantially improves both theorem-level and paper-level retrieval compared to existing baselines, demonstrating that semantic theorem search is feasible and effective at web scale. The theorem search tool is available at https://huggingface.co/spaces/uw-math-ai/theorem-search{this link}, and the dataset is available at https://huggingface.co/datasets/uw-math-ai/TheoremSearch{this link}.",
+      "upvotes": 6,
+      "discussionId": "69854f5b4ad556f294b7eaf4",
+      "ai_summary": "Large-scale semantic theorem retrieval system demonstrates superior performance over existing baselines using a 9.2 million theorem corpus with systematic analysis of representation context, language model choice, and embedding strategies.",
+      "ai_keywords": [
+        "semantic search",
+        "theorem retrieval",
+        "natural-language description",
+        "retrieval representation",
+        "language model choice",
+        "embedding model",
+        "prompting strategy",
+        "theorem-level retrieval",
+        "paper-level retrieval"
+      ],
+      "organization": {
+        "_id": "68eee0cdc7ef8ecec4212270",
+        "name": "uw-math-ai",
+        "fullname": "University of Washington Math AI Lab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66bff1188c3816c563f42d20/l6mZEpaxnWVpVyZWtQKLM.png"
+      }
+    },
+    "publishedAt": "2026-02-04T21:16:20.000Z",
+    "title": "Semantic Search over 9 Million Mathematical Theorems",
+    "summary": "Searching for mathematical results remains difficult: most existing tools retrieve entire papers, while mathematicians and theorem-proving agents often seek a specific theorem, lemma, or proposition that answers a query. While semantic search has seen rapid progress, its behavior on large, highly technical corpora such as research-level mathematical theorems remains poorly understood. In this work, we introduce and study semantic theorem retrieval at scale over a unified corpus of 9.2 million theorem statements extracted from arXiv and seven other sources, representing the largest publicly available corpus of human-authored, research-level theorems. We represent each theorem with a short natural-language description as a retrieval representation and systematically analyze how representation context, language model choice, embedding model, and prompting strategy affect retrieval quality. On a curated evaluation set of theorem-search queries written by professional mathematicians, our approach substantially improves both theorem-level and paper-level retrieval compared to existing baselines, demonstrating that semantic theorem search is feasible and effective at web scale. The theorem search tool is available at https://huggingface.co/spaces/uw-math-ai/theorem-search{this link}, and the dataset is available at https://huggingface.co/datasets/uw-math-ai/TheoremSearch{this link}.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/66bff1188c3816c563f42d20/YHlSIp1pTpc_-KTeuNLAC.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/66bff1188c3816c563f42d20/1FYkBf4yAQfEhRm9W62ZA.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05216.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "66bff1188c3816c563f42d20",
+      "avatarUrl": "/avatars/a91803c29adc4f88f104057543663954.svg",
+      "fullname": "Vasily Ilin",
+      "name": "Vilin97",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68eee0cdc7ef8ecec4212270",
+      "name": "uw-math-ai",
+      "fullname": "University of Washington Math AI Lab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66bff1188c3816c563f42d20/l6mZEpaxnWVpVyZWtQKLM.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.01965",
+      "authors": [
+        {
+          "_id": "6981a21dce18b186280963ff",
+          "user": {
+            "_id": "6704fc4d85fc7563ecc5e2a3",
+            "avatarUrl": "/avatars/8777f03e1a877086170f7b601bb0cc2e.svg",
+            "isPro": false,
+            "fullname": "Kwun Hang",
+            "user": "Jimlkh",
+            "type": "user"
+          },
+          "name": "Kwun Hang Lau",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-03T10:02:39.480Z",
+          "hidden": false
+        },
+        {
+          "_id": "6981a21dce18b18628096400",
+          "name": "Fangyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6981a21dce18b18628096401",
+          "name": "Boyu Ruan",
+          "hidden": false
+        },
+        {
+          "_id": "6981a21dce18b18628096402",
+          "name": "Yingli Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6981a21dce18b18628096403",
+          "name": "Qintian Guo",
+          "hidden": false
+        },
+        {
+          "_id": "6981a21dce18b18628096404",
+          "name": "Ruiyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6981a21dce18b18628096405",
+          "name": "Xiaofang Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T11:13:38.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:42:28.153Z",
+      "title": "Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation",
+      "submittedOnDailyBy": {
+        "_id": "6704fc4d85fc7563ecc5e2a3",
+        "avatarUrl": "/avatars/8777f03e1a877086170f7b601bb0cc2e.svg",
+        "isPro": false,
+        "fullname": "Kwun Hang",
+        "user": "Jimlkh",
+        "type": "user"
+      },
+      "summary": "Recent advances in Retrieval-Augmented Generation (RAG) have shifted from simple vector similarity to structure-aware approaches like HippoRAG, which leverage Knowledge Graphs (KGs) and Personalized PageRank (PPR) to capture multi-hop dependencies. However, these methods suffer from a \"Static Graph Fallacy\": they rely on fixed transition probabilities determined during indexing. This rigidity ignores the query-dependent nature of edge relevance, causing semantic drift where random walks are diverted into high-degree \"hub\" nodes before reaching critical downstream evidence. Consequently, models often achieve high partial recall but fail to retrieve the complete evidence chain required for multi-hop queries. To address this, we propose CatRAG, Context-Aware Traversal for robust RAG, a framework that builds on the HippoRAG 2 architecture and transforms the static KG into a query-adaptive navigation structure. We introduce a multi-faceted framework to steer the random walk: (1) Symbolic Anchoring, which injects weak entity constraints to regularize the random walk; (2) Query-Aware Dynamic Edge Weighting, which dynamically modulates graph structure, to prune irrelevant paths while amplifying those aligned with the query's intent; and (3) Key-Fact Passage Weight Enhancement, a cost-efficient bias that structurally anchors the random walk to likely evidence. Experiments across four multi-hop benchmarks demonstrate that CatRAG consistently outperforms state of the art baselines. Our analysis reveals that while standard Recall metrics show modest gains, CatRAG achieves substantial improvements in reasoning completeness, the capacity to recover the entire evidence path without gaps. These results reveal that our approach effectively bridges the gap between retrieving partial context and enabling fully grounded reasoning. Resources are available at https://github.com/kwunhang/CatRAG.",
+      "upvotes": 4,
+      "discussionId": "6981a21dce18b18628096406",
+      "ai_summary": "CatRAG addresses limitations in retrieval-augmented generation by introducing a query-adaptive framework that improves multi-hop reasoning through symbolic anchoring, dynamic edge weighting, and key-fact passage enhancement.",
+      "ai_keywords": [
+        "Retrieval-Augmented Generation",
+        "Knowledge Graphs",
+        "Personalized PageRank",
+        "random walk",
+        "multi-hop dependencies",
+        "static graph fallacy",
+        "symbolic anchoring",
+        "query-aware dynamic edge weighting",
+        "key-fact passage weight enhancement"
+      ]
+    },
+    "publishedAt": "2026-02-02T06:13:38.000Z",
+    "title": "Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation",
+    "summary": "Recent advances in Retrieval-Augmented Generation (RAG) have shifted from simple vector similarity to structure-aware approaches like HippoRAG, which leverage Knowledge Graphs (KGs) and Personalized PageRank (PPR) to capture multi-hop dependencies. However, these methods suffer from a \"Static Graph Fallacy\": they rely on fixed transition probabilities determined during indexing. This rigidity ignores the query-dependent nature of edge relevance, causing semantic drift where random walks are diverted into high-degree \"hub\" nodes before reaching critical downstream evidence. Consequently, models often achieve high partial recall but fail to retrieve the complete evidence chain required for multi-hop queries. To address this, we propose CatRAG, Context-Aware Traversal for robust RAG, a framework that builds on the HippoRAG 2 architecture and transforms the static KG into a query-adaptive navigation structure. We introduce a multi-faceted framework to steer the random walk: (1) Symbolic Anchoring, which injects weak entity constraints to regularize the random walk; (2) Query-Aware Dynamic Edge Weighting, which dynamically modulates graph structure, to prune irrelevant paths while amplifying those aligned with the query's intent; and (3) Key-Fact Passage Weight Enhancement, a cost-efficient bias that structurally anchors the random walk to likely evidence. Experiments across four multi-hop benchmarks demonstrate that CatRAG consistently outperforms state of the art baselines. Our analysis reveals that while standard Recall metrics show modest gains, CatRAG achieves substantial improvements in reasoning completeness, the capacity to recover the entire evidence path without gaps. These results reveal that our approach effectively bridges the gap between retrieving partial context and enabling fully grounded reasoning. Resources are available at https://github.com/kwunhang/CatRAG.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.01965.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6704fc4d85fc7563ecc5e2a3",
+      "avatarUrl": "/avatars/8777f03e1a877086170f7b601bb0cc2e.svg",
+      "fullname": "Kwun Hang",
+      "name": "Jimlkh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2601.21296",
+      "authors": [
+        {
+          "_id": "6985591b4ad556f294b7eb09",
+          "name": "Shaobo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6985591b4ad556f294b7eb0a",
+          "name": "Yantai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6985591b4ad556f294b7eb0b",
+          "name": "Guo Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6985591b4ad556f294b7eb0c",
+          "name": "Peiru Li",
+          "hidden": false
+        },
+        {
+          "_id": "6985591b4ad556f294b7eb0d",
+          "name": "Kaixin Li",
+          "hidden": false
+        },
+        {
+          "_id": "6985591b4ad556f294b7eb0e",
+          "name": "Yufa Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6985591b4ad556f294b7eb0f",
+          "name": "Zhaorun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6985591b4ad556f294b7eb10",
+          "name": "Linfeng Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-01-29T05:49:17.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:50:54.616Z",
+      "title": "Grounding and Enhancing Informativeness and Utility in Dataset Distillation",
+      "submittedOnDailyBy": {
+        "_id": "66968099c952e09a4cb29f78",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66968099c952e09a4cb29f78/n90NI2R3E9_RqCyMjDCQF.webp",
+        "isPro": false,
+        "fullname": "Wang",
+        "user": "Steven-Shaobo",
+        "type": "user"
+      },
+      "summary": "Dataset Distillation (DD) seeks to create a compact dataset from a large, real-world dataset. While recent methods often rely on heuristic approaches to balance efficiency and quality, the fundamental relationship between original and synthetic data remains underexplored. This paper revisits knowledge distillation-based dataset distillation within a solid theoretical framework. We introduce the concepts of Informativeness and Utility, capturing crucial information within a sample and essential samples in the training set, respectively. Building on these principles, we define optimal dataset distillation mathematically. We then present InfoUtil, a framework that balances informativeness and utility in synthesizing the distilled dataset. InfoUtil incorporates two key components: (1) game-theoretic informativeness maximization using Shapley Value attribution to extract key information from samples, and (2) principled utility maximization by selecting globally influential samples based on Gradient Norm. These components ensure that the distilled dataset is both informative and utility-optimized. Experiments demonstrate that our method achieves a 6.1\\% performance improvement over the previous state-of-the-art approach on ImageNet-1K dataset using ResNet-18.",
+      "upvotes": 4,
+      "discussionId": "6985591b4ad556f294b7eb11",
+      "ai_summary": "Dataset distillation method that balances informativeness and utility through game-theoretic and gradient-based optimization techniques, achieving improved performance on ImageNet-1K.",
+      "ai_keywords": [
+        "dataset distillation",
+        "knowledge distillation",
+        "informativeness",
+        "utility",
+        "Shapley Value attribution",
+        "Gradient Norm",
+        "game-theoretic optimization"
+      ],
+      "organization": {
+        "_id": "63e5ef7bf2e9a8f22c515654",
+        "name": "SJTU",
+        "fullname": "Shanghai Jiao Tong University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1676013394657-63e5ee22b6a40bf941da0928.png"
+      }
+    },
+    "publishedAt": "2026-01-29T00:49:17.000Z",
+    "title": "Grounding and Enhancing Informativeness and Utility in Dataset Distillation",
+    "summary": "Dataset Distillation (DD) seeks to create a compact dataset from a large, real-world dataset. While recent methods often rely on heuristic approaches to balance efficiency and quality, the fundamental relationship between original and synthetic data remains underexplored. This paper revisits knowledge distillation-based dataset distillation within a solid theoretical framework. We introduce the concepts of Informativeness and Utility, capturing crucial information within a sample and essential samples in the training set, respectively. Building on these principles, we define optimal dataset distillation mathematically. We then present InfoUtil, a framework that balances informativeness and utility in synthesizing the distilled dataset. InfoUtil incorporates two key components: (1) game-theoretic informativeness maximization using Shapley Value attribution to extract key information from samples, and (2) principled utility maximization by selecting globally influential samples based on Gradient Norm. These components ensure that the distilled dataset is both informative and utility-optimized. Experiments demonstrate that our method achieves a 6.1\\% performance improvement over the previous state-of-the-art approach on ImageNet-1K dataset using ResNet-18.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21296.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66968099c952e09a4cb29f78",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66968099c952e09a4cb29f78/n90NI2R3E9_RqCyMjDCQF.webp",
+      "fullname": "Wang",
+      "name": "Steven-Shaobo",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "63e5ef7bf2e9a8f22c515654",
+      "name": "SJTU",
+      "fullname": "Shanghai Jiao Tong University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1676013394657-63e5ee22b6a40bf941da0928.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.05842",
+      "authors": [
+        {
+          "_id": "69855bf84ad556f294b7eb1e",
+          "name": "Xiao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69855bf84ad556f294b7eb1f",
+          "name": "Baolin Peng",
+          "hidden": false
+        },
+        {
+          "_id": "69855bf84ad556f294b7eb20",
+          "name": "Ruize Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69855bf84ad556f294b7eb21",
+          "name": "Yelong Shen",
+          "hidden": false
+        },
+        {
+          "_id": "69855bf84ad556f294b7eb22",
+          "name": "Pengcheng He",
+          "hidden": false
+        },
+        {
+          "_id": "69855bf84ad556f294b7eb23",
+          "name": "Suman Nath",
+          "hidden": false
+        },
+        {
+          "_id": "69855bf84ad556f294b7eb24",
+          "name": "Nikhil Singh",
+          "hidden": false
+        },
+        {
+          "_id": "69855bf84ad556f294b7eb25",
+          "name": "Jiangfeng Gao",
+          "hidden": false
+        },
+        {
+          "_id": "69855bf84ad556f294b7eb26",
+          "name": "Zhou Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-05T16:30:08.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:43:22.026Z",
+      "title": "Reinforcement World Model Learning for LLM-based Agents",
+      "submittedOnDailyBy": {
+        "_id": "61942296d5c2ba6daa290357",
+        "avatarUrl": "/avatars/594021cc183c4922d48b46f43772a062.svg",
+        "isPro": false,
+        "fullname": "Baolin Peng",
+        "user": "Baolin",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) have achieved strong performance in language-centric tasks. However, in agentic settings, LLMs often struggle to anticipate action consequences and adapt to environment dynamics, highlighting the need for world-modeling capabilities in LLM-based agents. We propose Reinforcement World Model Learning (RWML), a self-supervised method that learns action-conditioned world models for LLM-based agents on textual states using sim-to-real gap rewards. Our method aligns simulated next states produced by the model with realized next states observed from the environment, encouraging consistency between internal world simulations and actual environment dynamics in a pre-trained embedding space. Unlike next-state token prediction, which prioritizes token-level fidelity (i.e., reproducing exact wording) over semantic equivalence and can lead to model collapse, our method provides a more robust training signal and is empirically less susceptible to reward hacking than LLM-as-a-judge. We evaluate our method on ALFWorld and τ^2 Bench and observe significant gains over the base model, despite being entirely self-supervised. When combined with task-success rewards, our method outperforms direct task-success reward RL by 6.9 and 5.7 points on ALFWorld and τ^2 Bench respectively, while matching the performance of expert-data training.",
+      "upvotes": 3,
+      "discussionId": "69855bf84ad556f294b7eb27",
+      "ai_summary": "Reinforcement World Model Learning enables LLM-based agents to better anticipate action consequences and adapt to environment dynamics through self-supervised training that aligns simulated and real-world state transitions in embedding space.",
+      "ai_keywords": [
+        "world-modeling",
+        "reinforcement learning",
+        "action-conditioned world models",
+        "sim-to-real gap rewards",
+        "next-state token prediction",
+        "reward hacking",
+        "task-success rewards",
+        "embedding space",
+        "agent-based systems"
+      ],
+      "organization": {
+        "_id": "68151d0f51add3813f3f7d1b",
+        "name": "MicrosoftResearch",
+        "fullname": "Microsoft Research",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6529a4f2f1205983224fa513/PeuVr7jSuJflmDBBGxoDX.png"
+      }
+    },
+    "publishedAt": "2026-02-05T11:30:08.000Z",
+    "title": "Reinforcement World Model Learning for LLM-based Agents",
+    "summary": "Large language models (LLMs) have achieved strong performance in language-centric tasks. However, in agentic settings, LLMs often struggle to anticipate action consequences and adapt to environment dynamics, highlighting the need for world-modeling capabilities in LLM-based agents. We propose Reinforcement World Model Learning (RWML), a self-supervised method that learns action-conditioned world models for LLM-based agents on textual states using sim-to-real gap rewards. Our method aligns simulated next states produced by the model with realized next states observed from the environment, encouraging consistency between internal world simulations and actual environment dynamics in a pre-trained embedding space. Unlike next-state token prediction, which prioritizes token-level fidelity (i.e., reproducing exact wording) over semantic equivalence and can lead to model collapse, our method provides a more robust training signal and is empirically less susceptible to reward hacking than LLM-as-a-judge. We evaluate our method on ALFWorld and τ^2 Bench and observe significant gains over the base model, despite being entirely self-supervised. When combined with task-success rewards, our method outperforms direct task-success reward RL by 6.9 and 5.7 points on ALFWorld and τ^2 Bench respectively, while matching the performance of expert-data training.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05842.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "61942296d5c2ba6daa290357",
+      "avatarUrl": "/avatars/594021cc183c4922d48b46f43772a062.svg",
+      "fullname": "Baolin Peng",
+      "name": "Baolin",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68151d0f51add3813f3f7d1b",
+      "name": "MicrosoftResearch",
+      "fullname": "Microsoft Research",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6529a4f2f1205983224fa513/PeuVr7jSuJflmDBBGxoDX.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.05986",
+      "authors": [
+        {
+          "_id": "69855d7a4ad556f294b7eb31",
+          "name": "Mingxin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb32",
+          "name": "Shuran Ma",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb33",
+          "name": "Shibei Meng",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb34",
+          "name": "Xiangyu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb35",
+          "name": "Zicheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb36",
+          "name": "Shaofeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb37",
+          "name": "Zhihang Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb38",
+          "name": "Peixian Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb39",
+          "name": "Haoyu Cao",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb3a",
+          "name": "Xing Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb3b",
+          "name": "Haodong Duan",
+          "hidden": false
+        },
+        {
+          "_id": "69855d7a4ad556f294b7eb3c",
+          "name": "Xue Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-05T18:36:10.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:54:49.965Z",
+      "title": "RISE-Video: Can Video Generators Decode Implicit World Rules?",
+      "submittedOnDailyBy": {
+        "_id": "648e77184cae4f6921dbb382",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648e77184cae4f6921dbb382/zAAJRvOStC0wZplqVWrk_.jpeg",
+        "isPro": false,
+        "fullname": "Xue Yang",
+        "user": "yangxue",
+        "type": "user"
+      },
+      "summary": "While generative video models have achieved remarkable visual fidelity, their capacity to internalize and reason over implicit world rules remains a critical yet under-explored frontier. To bridge this gap, we present RISE-Video, a pioneering reasoning-oriented benchmark for Text-Image-to-Video (TI2V) synthesis that shifts the evaluative focus from surface-level aesthetics to deep cognitive reasoning. RISE-Video comprises 467 meticulously human-annotated samples spanning eight rigorous categories, providing a structured testbed for probing model intelligence across diverse dimensions, ranging from commonsense and spatial dynamics to specialized subject domains. Our framework introduces a multi-dimensional evaluation protocol consisting of four metrics: Reasoning Alignment, Temporal Consistency, Physical Rationality, and Visual Quality. To further support scalable evaluation, we propose an automated pipeline leveraging Large Multimodal Models (LMMs) to emulate human-centric assessment. Extensive experiments on 11 state-of-the-art TI2V models reveal pervasive deficiencies in simulating complex scenarios under implicit constraints, offering critical insights for the advancement of future world-simulating generative models.",
+      "upvotes": 2,
+      "discussionId": "69855d7b4ad556f294b7eb3d",
+      "githubRepo": "https://github.com/VisionXLab/Rise-Video",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "RISE-Video presents a novel benchmark for evaluating text-image-to-video synthesis models based on cognitive reasoning rather than visual fidelity, using a multi-dimensional metric system and automated LMM-based evaluation.",
+      "ai_keywords": [
+        "Text-Image-to-Video",
+        "multimodal models",
+        "reasoning alignment",
+        "temporal consistency",
+        "physical rationality",
+        "visual quality",
+        "large multimodal models",
+        "automated evaluation"
+      ]
+    },
+    "publishedAt": "2026-02-05T13:36:10.000Z",
+    "title": "RISE-Video: Can Video Generators Decode Implicit World Rules?",
+    "summary": "While generative video models have achieved remarkable visual fidelity, their capacity to internalize and reason over implicit world rules remains a critical yet under-explored frontier. To bridge this gap, we present RISE-Video, a pioneering reasoning-oriented benchmark for Text-Image-to-Video (TI2V) synthesis that shifts the evaluative focus from surface-level aesthetics to deep cognitive reasoning. RISE-Video comprises 467 meticulously human-annotated samples spanning eight rigorous categories, providing a structured testbed for probing model intelligence across diverse dimensions, ranging from commonsense and spatial dynamics to specialized subject domains. Our framework introduces a multi-dimensional evaluation protocol consisting of four metrics: Reasoning Alignment, Temporal Consistency, Physical Rationality, and Visual Quality. To further support scalable evaluation, we propose an automated pipeline leveraging Large Multimodal Models (LMMs) to emulate human-centric assessment. Extensive experiments on 11 state-of-the-art TI2V models reveal pervasive deficiencies in simulating complex scenarios under implicit constraints, offering critical insights for the advancement of future world-simulating generative models.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05986.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "648e77184cae4f6921dbb382",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648e77184cae4f6921dbb382/zAAJRvOStC0wZplqVWrk_.jpeg",
+      "fullname": "Xue Yang",
+      "name": "yangxue",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 11,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.05261",
+      "authors": [
+        {
+          "_id": "69855cbe4ad556f294b7eb29",
+          "name": "Fanfan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69855cbe4ad556f294b7eb2a",
+          "name": "Youyang Yin",
+          "hidden": false
+        },
+        {
+          "_id": "69855cbe4ad556f294b7eb2b",
+          "name": "Peng Shi",
+          "hidden": false
+        },
+        {
+          "_id": "69855cbe4ad556f294b7eb2c",
+          "name": "Siqi Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69855cbe4ad556f294b7eb2d",
+          "name": "Zhixiong Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "69855cbe4ad556f294b7eb2e",
+          "name": "Haibo Qiu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-05T03:35:38.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:52:48.391Z",
+      "title": "Length-Unbiased Sequence Policy Optimization: Revealing and Controlling Response Length Variation in RLVR",
+      "submittedOnDailyBy": {
+        "_id": "6689f7a1683da3ea29b4cee5",
+        "avatarUrl": "/avatars/988641cde34a60d183208fd9a2a72392.svg",
+        "isPro": false,
+        "fullname": "Fanfan Liu",
+        "user": "liufanfanlff",
+        "type": "user"
+      },
+      "summary": "Recent applications of Reinforcement Learning with Verifiable Rewards (RLVR) to Large Language Models (LLMs) and Vision-Language Models (VLMs) have demonstrated significant success in enhancing reasoning capabilities for complex tasks. During RLVR training, an increase in response length is often regarded as a key factor contributing to the growth of reasoning ability. However, the patterns of change in response length vary significantly across different RLVR algorithms during the training process. To provide a fundamental explanation for these variations, this paper conducts an in-depth analysis of the components of mainstream RLVR algorithms. We present a theoretical analysis of the factors influencing response length and validate our theory through extensive experimentation. Building upon these theoretical findings, we propose the Length-Unbiased Sequence Policy Optimization (LUSPO) algorithm. Specifically, we rectify the length bias inherent in Group Sequence Policy Optimization (GSPO), rendering its loss function unbiased with respect to response length and thereby resolving the issue of response length collapse. We conduct extensive experiments across mathematical reasoning benchmarks and multimodal reasoning scenarios, where LUSPO consistently achieves superior performance. Empirical results demonstrate that LUSPO represents a novel, state-of-the-art optimization strategy compared to existing methods such as GRPO and GSPO.",
+      "upvotes": 2,
+      "discussionId": "69855cbe4ad556f294b7eb2f",
+      "ai_summary": "Research analyzes RLVR algorithms' impact on response length in LLMs and VLMs, proposing LUSPO to eliminate length bias and improve reasoning performance.",
+      "ai_keywords": [
+        "Reinforcement Learning with Verifiable Rewards",
+        "LLMs",
+        "Vision-Language Models",
+        "response length",
+        "sequence policy optimization",
+        "Group Sequence Policy Optimization",
+        "Length-Unbiased Sequence Policy Optimization",
+        "mathematical reasoning",
+        "multimodal reasoning"
+      ]
+    },
+    "publishedAt": "2026-02-04T22:35:38.000Z",
+    "title": "Length-Unbiased Sequence Policy Optimization: Revealing and Controlling Response Length Variation in RLVR",
+    "summary": "Recent applications of Reinforcement Learning with Verifiable Rewards (RLVR) to Large Language Models (LLMs) and Vision-Language Models (VLMs) have demonstrated significant success in enhancing reasoning capabilities for complex tasks. During RLVR training, an increase in response length is often regarded as a key factor contributing to the growth of reasoning ability. However, the patterns of change in response length vary significantly across different RLVR algorithms during the training process. To provide a fundamental explanation for these variations, this paper conducts an in-depth analysis of the components of mainstream RLVR algorithms. We present a theoretical analysis of the factors influencing response length and validate our theory through extensive experimentation. Building upon these theoretical findings, we propose the Length-Unbiased Sequence Policy Optimization (LUSPO) algorithm. Specifically, we rectify the length bias inherent in Group Sequence Policy Optimization (GSPO), rendering its loss function unbiased with respect to response length and thereby resolving the issue of response length collapse. We conduct extensive experiments across mathematical reasoning benchmarks and multimodal reasoning scenarios, where LUSPO consistently achieves superior performance. Empirical results demonstrate that LUSPO represents a novel, state-of-the-art optimization strategy compared to existing methods such as GRPO and GSPO.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05261.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6689f7a1683da3ea29b4cee5",
+      "avatarUrl": "/avatars/988641cde34a60d183208fd9a2a72392.svg",
+      "fullname": "Fanfan Liu",
+      "name": "liufanfanlff",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.05871",
+      "authors": [
+        {
+          "_id": "69855e014ad556f294b7eb4d",
+          "name": "Xunzhi Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb4e",
+          "name": "Zixuan Duan",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb4f",
+          "name": "Guiyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb50",
+          "name": "Haiyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb51",
+          "name": "Zhe Gao",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb52",
+          "name": "Junta Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb53",
+          "name": "Shaofeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb54",
+          "name": "Tengfei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb55",
+          "name": "Qi Fan",
+          "hidden": false
+        },
+        {
+          "_id": "69855e014ad556f294b7eb56",
+          "name": "Chunchao Guo",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-05T16:50:39.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:50:53.322Z",
+      "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Distilled autoregressive diffusion models facilitate real-time short video synthesis but suffer from severe error accumulation during long-sequence generation. While existing Test-Time Optimization (TTO) methods prove effective for images or short clips, we identify that they fail to mitigate drift in extended sequences due to unstable reward landscapes and the hypersensitivity of distilled parameters. To overcome these limitations, we introduce Test-Time Correction (TTC), a training-free alternative. Specifically, TTC utilizes the initial frame as a stable reference anchor to calibrate intermediate stochastic states along the sampling trajectory. Extensive experiments demonstrate that our method seamlessly integrates with various distilled models, extending generation lengths with negligible overhead while matching the quality of resource-intensive training-based methods on 30-second benchmarks.",
+      "upvotes": 0,
+      "discussionId": "69855e014ad556f294b7eb57",
+      "ai_summary": "Test-Time Correction addresses error accumulation in distilled autoregressive diffusion models for long-video synthesis by using initial frames as reference anchors to calibrate stochastic states during sampling.",
+      "ai_keywords": [
+        "distilled autoregressive diffusion models",
+        "Test-Time Optimization",
+        "Test-Time Correction",
+        "error accumulation",
+        "long-sequence generation",
+        "reward landscapes",
+        "hypersensitivity",
+        "stochastic states",
+        "sampling trajectory"
+      ]
+    },
+    "publishedAt": "2026-02-05T11:50:39.000Z",
+    "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
+    "summary": "Distilled autoregressive diffusion models facilitate real-time short video synthesis but suffer from severe error accumulation during long-sequence generation. While existing Test-Time Optimization (TTO) methods prove effective for images or short clips, we identify that they fail to mitigate drift in extended sequences due to unstable reward landscapes and the hypersensitivity of distilled parameters. To overcome these limitations, we introduce Test-Time Correction (TTC), a training-free alternative. Specifically, TTC utilizes the initial frame as a stable reference anchor to calibrate intermediate stochastic states along the sampling trajectory. Extensive experiments demonstrate that our method seamlessly integrates with various distilled models, extending generation lengths with negligible overhead while matching the quality of resource-intensive training-based methods on 30-second benchmarks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05871.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 228,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.05857",
+      "authors": [
+        {
+          "_id": "69855e5a4ad556f294b7eb6d",
+          "name": "Junting Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb6e",
+          "name": "Jin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb6f",
+          "name": "Linfeng Hao",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb70",
+          "name": "Denghui Cao",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb71",
+          "name": "Zheyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb72",
+          "name": "Qiguang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb73",
+          "name": "Chaoyou Fu",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb74",
+          "name": "Jiaze Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb75",
+          "name": "Yuchen Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb76",
+          "name": "Ge Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb77",
+          "name": "Mingxuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb78",
+          "name": "Wenhao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69855e5a4ad556f294b7eb79",
+          "name": "Tong Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-05T16:39:20.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:52:13.178Z",
+      "title": "BABE: Biology Arena BEnchmark",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The rapid evolution of large language models (LLMs) has expanded their capabilities from basic dialogue to advanced scientific reasoning. However, existing benchmarks in biology often fail to assess a critical skill required of researchers: the ability to integrate experimental results with contextual knowledge to derive meaningful conclusions. To address this gap, we introduce BABE(Biology Arena BEnchmark), a comprehensive benchmark designed to evaluate the experimental reasoning capabilities of biological AI systems. BABE is uniquely constructed from peer-reviewed research papers and real-world biological studies, ensuring that tasks reflect the complexity and interdisciplinary nature of actual scientific inquiry. BABE challenges models to perform causal reasoning and cross-scale inference. Our benchmark provides a robust framework for assessing how well AI systems can reason like practicing scientists, offering a more authentic measure of their potential to contribute to biological research.",
+      "upvotes": 0,
+      "discussionId": "69855e5a4ad556f294b7eb7a",
+      "ai_summary": "BABE is a biology-focused benchmark designed to evaluate AI systems' ability to perform experimental reasoning and causal inference similar to practicing scientists.",
+      "ai_keywords": [
+        "large language models",
+        "biological AI systems",
+        "experimental reasoning",
+        "causal reasoning",
+        "cross-scale inference",
+        "peer-reviewed research papers",
+        "real-world biological studies"
+      ],
+      "organization": {
+        "_id": "67d1140985ea0644e2f14b99",
+        "name": "ByteDance-Seed",
+        "fullname": "ByteDance Seed",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+      }
+    },
+    "publishedAt": "2026-02-05T11:39:20.000Z",
+    "title": "BABE: Biology Arena BEnchmark",
+    "summary": "The rapid evolution of large language models (LLMs) has expanded their capabilities from basic dialogue to advanced scientific reasoning. However, existing benchmarks in biology often fail to assess a critical skill required of researchers: the ability to integrate experimental results with contextual knowledge to derive meaningful conclusions. To address this gap, we introduce BABE(Biology Arena BEnchmark), a comprehensive benchmark designed to evaluate the experimental reasoning capabilities of biological AI systems. BABE is uniquely constructed from peer-reviewed research papers and real-world biological studies, ensuring that tasks reflect the complexity and interdisciplinary nature of actual scientific inquiry. BABE challenges models to perform causal reasoning and cross-scale inference. Our benchmark provides a robust framework for assessing how well AI systems can reason like practicing scientists, offering a more authentic measure of their potential to contribute to biological research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05857.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 228,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67d1140985ea0644e2f14b99",
+      "name": "ByteDance-Seed",
+      "fullname": "ByteDance Seed",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.05551",
+      "authors": [
+        {
+          "_id": "69855dcf4ad556f294b7eb3f",
+          "name": "Yue Ma",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb40",
+          "name": "Zhikai Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb41",
+          "name": "Tianhao Ren",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb42",
+          "name": "Mingzhe Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb43",
+          "name": "Hongyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb44",
+          "name": "Jiayi Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb45",
+          "name": "Mark Fong",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb46",
+          "name": "Yuxuan Xue",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb47",
+          "name": "Zixiang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb48",
+          "name": "Konrad Schindler",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb49",
+          "name": "Qifeng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69855dcf4ad556f294b7eb4a",
+          "name": "Linfeng Zhang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/wXFz1VBdN3s6BQqs-Tp1F.mp4"
+      ],
+      "publishedAt": "2026-02-05T11:15:59.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:50:05.082Z",
+      "title": "FastVMT: Eliminating Redundancy in Video Motion Transfer",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Video motion transfer aims to synthesize videos by generating visual content according to a text prompt while transferring the motion pattern observed in a reference video. Recent methods predominantly use the Diffusion Transformer (DiT) architecture. To achieve satisfactory runtime, several methods attempt to accelerate the computations in the DiT, but fail to address structural sources of inefficiency. In this work, we identify and remove two types of computational redundancy in earlier work: motion redundancy arises because the generic DiT architecture does not reflect the fact that frame-to-frame motion is small and smooth; gradient redundancy occurs if one ignores that gradients change slowly along the diffusion trajectory. To mitigate motion redundancy, we mask the corresponding attention layers to a local neighborhood such that interaction weights are not computed unnecessarily distant image regions. To exploit gradient redundancy, we design an optimization scheme that reuses gradients from previous diffusion steps and skips unwarranted gradient computations. On average, FastVMT achieves a 3.43x speedup without degrading the visual fidelity or the temporal consistency of the generated videos.",
+      "upvotes": 0,
+      "discussionId": "69855dd04ad556f294b7eb4b",
+      "ai_summary": "FastVMT accelerates video motion transfer by addressing computational redundancies in Diffusion Transformer architecture through localized attention masking and gradient reuse optimization.",
+      "ai_keywords": [
+        "Diffusion Transformer",
+        "video motion transfer",
+        "computational redundancy",
+        "attention layers",
+        "gradient reuse",
+        "diffusion trajectory",
+        "temporal consistency"
+      ]
+    },
+    "publishedAt": "2026-02-05T06:15:59.000Z",
+    "title": "FastVMT: Eliminating Redundancy in Video Motion Transfer",
+    "summary": "Video motion transfer aims to synthesize videos by generating visual content according to a text prompt while transferring the motion pattern observed in a reference video. Recent methods predominantly use the Diffusion Transformer (DiT) architecture. To achieve satisfactory runtime, several methods attempt to accelerate the computations in the DiT, but fail to address structural sources of inefficiency. In this work, we identify and remove two types of computational redundancy in earlier work: motion redundancy arises because the generic DiT architecture does not reflect the fact that frame-to-frame motion is small and smooth; gradient redundancy occurs if one ignores that gradients change slowly along the diffusion trajectory. To mitigate motion redundancy, we mask the corresponding attention layers to a local neighborhood such that interaction weights are not computed unnecessarily distant image regions. To exploit gradient redundancy, we design an optimization scheme that reuses gradients from previous diffusion steps and skips unwarranted gradient computations. On average, FastVMT achieves a 3.43x speedup without degrading the visual fidelity or the temporal consistency of the generated videos.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/wXFz1VBdN3s6BQqs-Tp1F.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05551.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 228,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.05327",
+      "authors": [
+        {
+          "_id": "698557724ad556f294b7eafb",
+          "name": "Yangbin Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eafc",
+          "name": "Mingyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eafd",
+          "name": "Junyou Li",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eafe",
+          "name": "Yiming Gao",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eaff",
+          "name": "Feiyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eb00",
+          "name": "Yijun Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eb01",
+          "name": "Zichuan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eb02",
+          "name": "Jiafei Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eb03",
+          "name": "Yicheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eb04",
+          "name": "Zhicong Lu",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eb05",
+          "name": "Deheng Ye",
+          "hidden": false
+        },
+        {
+          "_id": "698557724ad556f294b7eb06",
+          "name": "Jie Jiang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-05T05:45:16.000Z",
+      "submittedOnDailyAt": "2026-02-06T00:52:45.811Z",
+      "title": "ProAct: Agentic Lookahead in Interactive Environments",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Existing Large Language Model (LLM) agents struggle in interactive environments requiring long-horizon planning, primarily due to compounding errors when simulating future states. To address this, we propose ProAct, a framework that enables agents to internalize accurate lookahead reasoning through a two-stage training paradigm. First, we introduce Grounded LookAhead Distillation (GLAD), where the agent undergoes supervised fine-tuning on trajectories derived from environment-based search. By compressing complex search trees into concise, causal reasoning chains, the agent learns the logic of foresight without the computational overhead of inference-time search. Second, to further refine decision accuracy, we propose the Monte-Carlo Critic (MC-Critic), a plug-and-play auxiliary value estimator designed to enhance policy-gradient algorithms like PPO and GRPO. By leveraging lightweight environment rollouts to calibrate value estimates, MC-Critic provides a low-variance signal that facilitates stable policy optimization without relying on expensive model-based value approximation. Experiments on both stochastic (e.g., 2048) and deterministic (e.g., Sokoban) environments demonstrate that ProAct significantly improves planning accuracy. Notably, a 4B parameter model trained with ProAct outperforms all open-source baselines and rivals state-of-the-art closed-source models, while demonstrating robust generalization to unseen environments. The codes and models are available at https://github.com/GreatX3/ProAct",
+      "upvotes": 0,
+      "discussionId": "698557724ad556f294b7eb07",
+      "ai_summary": "ProAct enhances LLM agents' long-horizon planning by combining supervised fine-tuning with search-derived trajectories and a Monte-Carlo critic for improved policy optimization.",
+      "ai_keywords": [
+        "Large Language Model agents",
+        "long-horizon planning",
+        "lookahead reasoning",
+        "two-stage training paradigm",
+        "Grounded LookAhead Distillation",
+        "Monte-Carlo Critic",
+        "policy-gradient algorithms",
+        "PPO",
+        "GRPO",
+        "environment-based search",
+        "causal reasoning chains",
+        "value estimation",
+        "policy optimization",
+        "stochastic environments",
+        "deterministic environments"
+      ],
+      "organization": {
+        "_id": "6645f953c39288df638dbdd5",
+        "name": "Tencent-Hunyuan",
+        "fullname": "Tencent Hunyuan",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+      }
+    },
+    "publishedAt": "2026-02-05T00:45:16.000Z",
+    "title": "ProAct: Agentic Lookahead in Interactive Environments",
+    "summary": "Existing Large Language Model (LLM) agents struggle in interactive environments requiring long-horizon planning, primarily due to compounding errors when simulating future states. To address this, we propose ProAct, a framework that enables agents to internalize accurate lookahead reasoning through a two-stage training paradigm. First, we introduce Grounded LookAhead Distillation (GLAD), where the agent undergoes supervised fine-tuning on trajectories derived from environment-based search. By compressing complex search trees into concise, causal reasoning chains, the agent learns the logic of foresight without the computational overhead of inference-time search. Second, to further refine decision accuracy, we propose the Monte-Carlo Critic (MC-Critic), a plug-and-play auxiliary value estimator designed to enhance policy-gradient algorithms like PPO and GRPO. By leveraging lightweight environment rollouts to calibrate value estimates, MC-Critic provides a low-variance signal that facilitates stable policy optimization without relying on expensive model-based value approximation. Experiments on both stochastic (e.g., 2048) and deterministic (e.g., Sokoban) environments demonstrate that ProAct significantly improves planning accuracy. Notably, a 4B parameter model trained with ProAct outperforms all open-source baselines and rivals state-of-the-art closed-source models, while demonstrating robust generalization to unseen environments. The codes and models are available at https://github.com/GreatX3/ProAct",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05327.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 228,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6645f953c39288df638dbdd5",
+      "name": "Tencent-Hunyuan",
+      "fullname": "Tencent Hunyuan",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
