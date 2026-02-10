@@ -1,0 +1,977 @@
+[
+  {
+    "paper": {
+      "id": "2602.07026",
+      "authors": [
+        {
+          "_id": "698a98541b2dc6b37d61af09",
+          "name": "Xiaomin Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af0a",
+          "name": "Yi Xin",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af0b",
+          "name": "Wenjie Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af0c",
+          "name": "Chonghan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af0d",
+          "name": "Hanzhen Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af0e",
+          "name": "Xiaoxing Hu",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af0f",
+          "name": "Xinlei Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af10",
+          "name": "Ziyue Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af11",
+          "name": "Hao Tang",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af12",
+          "name": "Xue Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af13",
+          "name": "Xiaobin Hu",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af14",
+          "name": "Chengwei Qin",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af15",
+          "name": "Hui Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af16",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "698a98541b2dc6b37d61af17",
+          "name": "Shuicheng Yan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-02T13:59:39.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:01:56.908Z",
+      "title": "Modality Gap-Driven Subspace Alignment Training Paradigm For Multimodal Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "64084fa192033c150738e4f2",
+        "avatarUrl": "/avatars/dfff2216eb235c635e5abe6fda3084f0.svg",
+        "isPro": false,
+        "fullname": "Yu_xm",
+        "user": "Yu2020",
+        "type": "user"
+      },
+      "summary": "Despite the success of multimodal contrastive learning in aligning visual and linguistic representations, a persistent geometric anomaly, the Modality Gap, remains: embeddings of distinct modalities expressing identical semantics occupy systematically offset regions. Prior approaches to bridge this gap are largely limited by oversimplified isotropic assumptions, hindering their application in large-scale scenarios. In this paper, we address these limitations by precisely characterizing the geometric shape of the modality gap and leveraging it for efficient model scaling. First, we propose the Fixed-frame Modality Gap Theory, which decomposes the modality gap within a frozen reference frame into stable biases and anisotropic residuals. Guided by this precise modeling, we introduce ReAlign, a training-free modality alignment strategy. Utilizing statistics from massive unpaired data, ReAlign aligns text representation into the image representation distribution via a three-step process comprising Anchor, Trace, and Centroid Alignment, thereby explicitly rectifying geometric misalignment. Building on ReAlign, we propose ReVision, a scalable training paradigm for Multimodal Large Language Models (MLLMs). ReVision integrates ReAlign into the pretraining stage, enabling the model to learn the distribution of visual representations from unpaired text before visual instruction tuning, without the need for large-scale, high-quality image-text pairs. Our framework demonstrates that statistically aligned unpaired data can effectively substitute for expensive image-text pairs, offering a robust path for the efficient scaling of MLLMs.",
+      "upvotes": 22,
+      "discussionId": "698a98541b2dc6b37d61af18",
+      "ai_summary": "Researchers address the modality gap in multimodal learning by proposing a fixed-frame theory and a training-free alignment method that enables efficient scaling of multimodal models using unpaired data.",
+      "ai_keywords": [
+        "multimodal contrastive learning",
+        "modality gap",
+        "geometric anomaly",
+        "isotropic assumptions",
+        "Fixed-frame Modality Gap Theory",
+        "ReAlign",
+        "Anchor Alignment",
+        "Trace Alignment",
+        "Centroid Alignment",
+        "ReVision",
+        "Multimodal Large Language Models",
+        "unpaired data",
+        "visual representation distribution",
+        "pretraining stage",
+        "visual instruction tuning"
+      ]
+    },
+    "publishedAt": "2026-02-02T08:59:39.000Z",
+    "title": "Modality Gap-Driven Subspace Alignment Training Paradigm For Multimodal Large Language Models",
+    "summary": "Despite the success of multimodal contrastive learning in aligning visual and linguistic representations, a persistent geometric anomaly, the Modality Gap, remains: embeddings of distinct modalities expressing identical semantics occupy systematically offset regions. Prior approaches to bridge this gap are largely limited by oversimplified isotropic assumptions, hindering their application in large-scale scenarios. In this paper, we address these limitations by precisely characterizing the geometric shape of the modality gap and leveraging it for efficient model scaling. First, we propose the Fixed-frame Modality Gap Theory, which decomposes the modality gap within a frozen reference frame into stable biases and anisotropic residuals. Guided by this precise modeling, we introduce ReAlign, a training-free modality alignment strategy. Utilizing statistics from massive unpaired data, ReAlign aligns text representation into the image representation distribution via a three-step process comprising Anchor, Trace, and Centroid Alignment, thereby explicitly rectifying geometric misalignment. Building on ReAlign, we propose ReVision, a scalable training paradigm for Multimodal Large Language Models (MLLMs). ReVision integrates ReAlign into the pretraining stage, enabling the model to learn the distribution of visual representations from unpaired text before visual instruction tuning, without the need for large-scale, high-quality image-text pairs. Our framework demonstrates that statistically aligned unpaired data can effectively substitute for expensive image-text pairs, offering a robust path for the efficient scaling of MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.07026.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64084fa192033c150738e4f2",
+      "avatarUrl": "/avatars/dfff2216eb235c635e5abe6fda3084f0.svg",
+      "fullname": "Yu_xm",
+      "name": "Yu2020",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.06422",
+      "authors": [
+        {
+          "_id": "698a9c501b2dc6b37d61af2f",
+          "name": "Yunze Tong",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af30",
+          "name": "Mushui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af31",
+          "name": "Canyu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af32",
+          "name": "Wanggui He",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af33",
+          "name": "Shiyi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af34",
+          "name": "Hongwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af35",
+          "name": "Peng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af36",
+          "name": "Jinlong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af37",
+          "name": "Ju Huang",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af38",
+          "name": "Jiamang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af39",
+          "name": "Hao Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "698a9c501b2dc6b37d61af3a",
+          "name": "Pipei Huang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-06T06:37:10.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:19:39.681Z",
+      "title": "Alleviating Sparse Rewards by Modeling Step-Wise and Long-Term Sampling Effects in Flow-Based GRPO",
+      "submittedOnDailyBy": {
+        "_id": "646efd223dd912a539e0bd46",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/EOFAv5xvOgJOzuDgh4nSb.png",
+        "isPro": false,
+        "fullname": "Canyu Zhao",
+        "user": "Canyu",
+        "type": "user"
+      },
+      "summary": "Deploying GRPO on Flow Matching models has proven effective for text-to-image generation. However, existing paradigms typically propagate an outcome-based reward to all preceding denoising steps without distinguishing the local effect of each step. Moreover, current group-wise ranking mainly compares trajectories at matched timesteps and ignores within-trajectory dependencies, where certain early denoising actions can affect later states via delayed, implicit interactions. We propose TurningPoint-GRPO (TP-GRPO), a GRPO framework that alleviates step-wise reward sparsity and explicitly models long-term effects within the denoising trajectory. TP-GRPO makes two key innovations: (i) it replaces outcome-based rewards with step-level incremental rewards, providing a dense, step-aware learning signal that better isolates each denoising action's \"pure\" effect, and (ii) it identifies turning points-steps that flip the local reward trend and make subsequent reward evolution consistent with the overall trajectory trend-and assigns these actions an aggregated long-term reward to capture their delayed impact. Turning points are detected solely via sign changes in incremental rewards, making TP-GRPO efficient and hyperparameter-free. Extensive experiments also demonstrate that TP-GRPO exploits reward signals more effectively and consistently improves generation. Demo code is available at https://github.com/YunzeTong/TurningPoint-GRPO.",
+      "upvotes": 14,
+      "discussionId": "698a9c501b2dc6b37d61af3b",
+      "githubRepo": "https://github.com/YunzeTong/TurningPoint-GRPO",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "TP-GRPO addresses reward sparsity in flow matching models by introducing step-level incremental rewards and identifying turning points to capture long-term effects in denoising trajectories.",
+      "ai_keywords": [
+        "GRPO",
+        "flow matching models",
+        "text-to-image generation",
+        "denoising steps",
+        "reward sparsity",
+        "incremental rewards",
+        "turning points",
+        "denoising trajectory",
+        "delayed impact",
+        "reward evolution"
+      ],
+      "githubStars": 2,
+      "organization": {
+        "_id": "61bac2af530e5c78d7b99667",
+        "name": "zju",
+        "fullname": "Zhejiang University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5e1058e9fcf41d740b69966d/7G1xjlxwCdMEmKcxNR0n5.png"
+      }
+    },
+    "publishedAt": "2026-02-06T01:37:10.000Z",
+    "title": "Alleviating Sparse Rewards by Modeling Step-Wise and Long-Term Sampling Effects in Flow-Based GRPO",
+    "summary": "Deploying GRPO on Flow Matching models has proven effective for text-to-image generation. However, existing paradigms typically propagate an outcome-based reward to all preceding denoising steps without distinguishing the local effect of each step. Moreover, current group-wise ranking mainly compares trajectories at matched timesteps and ignores within-trajectory dependencies, where certain early denoising actions can affect later states via delayed, implicit interactions. We propose TurningPoint-GRPO (TP-GRPO), a GRPO framework that alleviates step-wise reward sparsity and explicitly models long-term effects within the denoising trajectory. TP-GRPO makes two key innovations: (i) it replaces outcome-based rewards with step-level incremental rewards, providing a dense, step-aware learning signal that better isolates each denoising action's \"pure\" effect, and (ii) it identifies turning points-steps that flip the local reward trend and make subsequent reward evolution consistent with the overall trajectory trend-and assigns these actions an aggregated long-term reward to capture their delayed impact. Turning points are detected solely via sign changes in incremental rewards, making TP-GRPO efficient and hyperparameter-free. Extensive experiments also demonstrate that TP-GRPO exploits reward signals more effectively and consistently improves generation. Demo code is available at https://github.com/YunzeTong/TurningPoint-GRPO.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.06422.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "646efd223dd912a539e0bd46",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/EOFAv5xvOgJOzuDgh4nSb.png",
+      "fullname": "Canyu Zhao",
+      "name": "Canyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 16,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "61bac2af530e5c78d7b99667",
+      "name": "zju",
+      "fullname": "Zhejiang University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5e1058e9fcf41d740b69966d/7G1xjlxwCdMEmKcxNR0n5.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.07962",
+      "authors": [
+        {
+          "_id": "698a9f631b2dc6b37d61af47",
+          "name": "Weihao Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "698a9f631b2dc6b37d61af48",
+          "name": "Yuzhen Huang",
+          "hidden": false
+        },
+        {
+          "_id": "698a9f631b2dc6b37d61af49",
+          "name": "Junxian He",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-08T13:20:39.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:32:12.677Z",
+      "title": "LOCA-bench: Benchmarking Language Agents Under Controllable and Extreme Context Growth",
+      "submittedOnDailyBy": {
+        "_id": "62751082b43ccfeef483424f",
+        "avatarUrl": "/avatars/fec83e4478e7d1731ba6033328131852.svg",
+        "isPro": false,
+        "fullname": "WeihaoZeng",
+        "user": "AndrewZeng",
+        "type": "user"
+      },
+      "summary": "Large language models (LLMs) are increasingly capable of carrying out long-running, real-world tasks. However, as the amount of context grows, their reliability often deteriorates, a phenomenon known as \"context rot\". Existing long-context benchmarks primarily focus on single-step settings that evaluate a model's ability to retrieve information from a long snippet. In realistic scenarios, however, LLMs often need to act as agents that explore environments, follow instructions and plans, extract useful information, and predict correct actions under a dynamically growing context. To assess language agents in such settings, we introduce LOCA-bench (a benchmark for LOng-Context Agents). Given a task prompt, LOCA-bench leverages automated and scalable control of environment states to regulate the agent's context length. This design enables LOCA-bench to extend the context length potentially to infinity in a controlled way while keeping the underlying task semantics fixed. LOCA-bench evaluates language agents as a combination of models and scaffolds, including various context management strategies. While agent performance generally degrades as the environment states grow more complex, advanced context management techniques can substantially improve the overall success rate. We open-source LOCA-bench to provide a platform for evaluating models and scaffolds in long-context, agentic scenarios: https://github.com/hkust-nlp/LOCA-bench",
+      "upvotes": 8,
+      "discussionId": "698a9f631b2dc6b37d61af4a",
+      "githubRepo": "https://github.com/hkust-nlp/LOCA-bench",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "LOCA-bench is introduced as a benchmark for evaluating language agents in long-context, agentic scenarios with controlled environment state management.",
+      "ai_keywords": [
+        "large language models",
+        "context rot",
+        "long-context benchmarks",
+        "language agents",
+        "LOCA-bench",
+        "environment states",
+        "context management strategies",
+        "agent performance"
+      ],
+      "githubStars": 5,
+      "organization": {
+        "_id": "647693e442e5f529745b9ba6",
+        "name": "hkust-nlp",
+        "fullname": "HKUST NLP Group"
+      }
+    },
+    "publishedAt": "2026-02-08T08:20:39.000Z",
+    "title": "LOCA-bench: Benchmarking Language Agents Under Controllable and Extreme Context Growth",
+    "summary": "Large language models (LLMs) are increasingly capable of carrying out long-running, real-world tasks. However, as the amount of context grows, their reliability often deteriorates, a phenomenon known as \"context rot\". Existing long-context benchmarks primarily focus on single-step settings that evaluate a model's ability to retrieve information from a long snippet. In realistic scenarios, however, LLMs often need to act as agents that explore environments, follow instructions and plans, extract useful information, and predict correct actions under a dynamically growing context. To assess language agents in such settings, we introduce LOCA-bench (a benchmark for LOng-Context Agents). Given a task prompt, LOCA-bench leverages automated and scalable control of environment states to regulate the agent's context length. This design enables LOCA-bench to extend the context length potentially to infinity in a controlled way while keeping the underlying task semantics fixed. LOCA-bench evaluates language agents as a combination of models and scaffolds, including various context management strategies. While agent performance generally degrades as the environment states grow more complex, advanced context management techniques can substantially improve the overall success rate. We open-source LOCA-bench to provide a platform for evaluating models and scaffolds in long-context, agentic scenarios: https://github.com/hkust-nlp/LOCA-bench",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.07962.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62751082b43ccfeef483424f",
+      "avatarUrl": "/avatars/fec83e4478e7d1731ba6033328131852.svg",
+      "fullname": "WeihaoZeng",
+      "name": "AndrewZeng",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "647693e442e5f529745b9ba6",
+      "name": "hkust-nlp",
+      "fullname": "HKUST NLP Group"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.06454",
+      "authors": [
+        {
+          "_id": "698a9d531b2dc6b37d61af3d",
+          "name": "Jiwon Song",
+          "hidden": false
+        },
+        {
+          "_id": "698a9d531b2dc6b37d61af3e",
+          "name": "Yoongon Kim",
+          "hidden": false
+        },
+        {
+          "_id": "698a9d531b2dc6b37d61af3f",
+          "name": "Jae-Joon Kim",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-06T07:35:01.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:28:46.008Z",
+      "title": "RelayGen: Intra-Generation Model Switching for Efficient Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "662672eaebdfec5cfdf1d034",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/662672eaebdfec5cfdf1d034/RhsKly3KvbtPkDuVnEdWb.jpeg",
+        "isPro": false,
+        "fullname": "Jiwon Song",
+        "user": "jiwonsong",
+        "type": "user"
+      },
+      "summary": "Large reasoning models (LRMs) achieve strong performance on complex reasoning tasks by generating long, multi-step reasoning trajectories, but inference-time scaling incurs substantial deployment cost. A key challenge is that generation difficulty varies within a single output, whereas existing efficiency-oriented approaches either ignore this intra-generation variation or rely on supervised token-level routing with high system complexity. We present RelayGen, a training-free, segment-level runtime model switching framework that exploits difficulty variation in long-form reasoning. Through offline analysis of generation uncertainty using token probability margins, we show that coarse-grained segment-level control is sufficient to capture difficulty transitions within a reasoning trajectory. RelayGen identifies model-specific switch cues that signal transitions to lower-difficulty segments and dynamically delegates their continuation to a smaller model, while preserving high-difficulty reasoning on the large model. Across multiple reasoning benchmarks, RelayGen substantially reduces inference latency while preserving most of the accuracy of large models. When combined with speculative decoding, RelayGen achieves up to 2.2times end-to-end speedup with less than 2\\% accuracy degradation, without requiring additional training or learned routing components.",
+      "upvotes": 7,
+      "discussionId": "698a9d531b2dc6b37d61af40",
+      "githubRepo": "https://github.com/jiwonsong-dev/RelayGen",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "RelayGen is a training-free framework that dynamically switches between large and small models during reasoning by identifying difficulty transitions at the segment level, achieving faster inference with minimal accuracy loss.",
+      "ai_keywords": [
+        "large reasoning models",
+        "multi-step reasoning trajectories",
+        "inference-time scaling",
+        "token probability margins",
+        "segment-level control",
+        "model switching",
+        "speculative decoding",
+        "end-to-end speedup"
+      ],
+      "githubStars": 1,
+      "organization": {
+        "_id": "698422913a080cd2873577a4",
+        "name": "SNU-VLSI",
+        "fullname": "Seoul National University VLSI Lab",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/662672eaebdfec5cfdf1d034/7kyeWE2-6lCuFC2PG3xhz.png"
+      }
+    },
+    "publishedAt": "2026-02-06T02:35:01.000Z",
+    "title": "RelayGen: Intra-Generation Model Switching for Efficient Reasoning",
+    "summary": "Large reasoning models (LRMs) achieve strong performance on complex reasoning tasks by generating long, multi-step reasoning trajectories, but inference-time scaling incurs substantial deployment cost. A key challenge is that generation difficulty varies within a single output, whereas existing efficiency-oriented approaches either ignore this intra-generation variation or rely on supervised token-level routing with high system complexity. We present RelayGen, a training-free, segment-level runtime model switching framework that exploits difficulty variation in long-form reasoning. Through offline analysis of generation uncertainty using token probability margins, we show that coarse-grained segment-level control is sufficient to capture difficulty transitions within a reasoning trajectory. RelayGen identifies model-specific switch cues that signal transitions to lower-difficulty segments and dynamically delegates their continuation to a smaller model, while preserving high-difficulty reasoning on the large model. Across multiple reasoning benchmarks, RelayGen substantially reduces inference latency while preserving most of the accuracy of large models. When combined with speculative decoding, RelayGen achieves up to 2.2times end-to-end speedup with less than 2\\% accuracy degradation, without requiring additional training or learned routing components.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.06454.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "662672eaebdfec5cfdf1d034",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/662672eaebdfec5cfdf1d034/RhsKly3KvbtPkDuVnEdWb.jpeg",
+      "fullname": "Jiwon Song",
+      "name": "jiwonsong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "698422913a080cd2873577a4",
+      "name": "SNU-VLSI",
+      "fullname": "Seoul National University VLSI Lab",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/662672eaebdfec5cfdf1d034/7kyeWE2-6lCuFC2PG3xhz.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.06540",
+      "authors": [
+        {
+          "_id": "6989512bbeecc443208d2656",
+          "name": "Yishan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d2657",
+          "user": {
+            "_id": "64f5abc2e8f27f20a067a596",
+            "avatarUrl": "/avatars/d0eac39488fac0c9c08d76109cabaa9f.svg",
+            "isPro": false,
+            "fullname": "cwt",
+            "user": "yiye2023",
+            "type": "user"
+          },
+          "name": "Wentong Chen",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-09T08:29:47.521Z",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d2658",
+          "name": "Yukun Yan",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d2659",
+          "name": "Mingwei Li",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d265a",
+          "name": "Sen Mei",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d265b",
+          "name": "Xiaorong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d265c",
+          "name": "Kunpeng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d265d",
+          "name": "Xin Cong",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d265e",
+          "name": "Shuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d265f",
+          "name": "Zhong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d2660",
+          "name": "Yaxi Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d2661",
+          "name": "Zhenghao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d2662",
+          "name": "Yankai Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d2663",
+          "name": "Zhiyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6989512bbeecc443208d2664",
+          "name": "Maosong Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-06T09:45:04.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:57:57.523Z",
+      "title": "AgentCPM-Report: Interleaving Drafting and Deepening for Open-Ended Deep Research",
+      "submittedOnDailyBy": {
+        "_id": "64f5abc2e8f27f20a067a596",
+        "avatarUrl": "/avatars/d0eac39488fac0c9c08d76109cabaa9f.svg",
+        "isPro": false,
+        "fullname": "cwt",
+        "user": "yiye2023",
+        "type": "user"
+      },
+      "summary": "Generating deep research reports requires large-scale information acquisition and the synthesis of insight-driven analysis, posing a significant challenge for current language models. Most existing approaches follow a plan-then-write paradigm, whose performance heavily depends on the quality of the initial outline. However, constructing a comprehensive outline itself demands strong reasoning ability, causing current deep research systems to rely almost exclusively on closed-source or online large models. This reliance raises practical barriers to deployment and introduces safety and privacy concerns for user-authored data. In this work, we present AgentCPM-Report, a lightweight yet high-performing local solution composed of a framework that mirrors the human writing process and an 8B-parameter deep research agent. Our framework uses a Writing As Reasoning Policy (WARP), which enables models to dynamically revise outlines during report generation. Under this policy, the agent alternates between Evidence-Based Drafting and Reasoning-Driven Deepening, jointly supporting information acquisition, knowledge refinement, and iterative outline evolution. To effectively equip small models with this capability, we introduce a Multi-Stage Agentic Training strategy, consisting of cold-start, atomic skill RL, and holistic pipeline RL. Experiments on DeepResearch Bench, DeepConsult, and DeepResearch Gym demonstrate that AgentCPM-Report outperforms leading closed-source systems, with substantial gains in Insight.",
+      "upvotes": 3,
+      "discussionId": "6989512bbeecc443208d2665",
+      "githubRepo": "https://github.com/OpenBMB/AgentCPM/tree/main/AgentCPM-Report",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "AgentCPM-Report presents a lightweight local solution for deep research report generation using a Writing As Reasoning Policy framework and multi-stage agentic training to enhance small models' reasoning and outline evolution capabilities.",
+      "ai_keywords": [
+        "Writing As Reasoning Policy",
+        "WARP",
+        "Evidence-Based Drafting",
+        "Reasoning-Driven Deepening",
+        "Multi-Stage Agentic Training",
+        "cold-start",
+        "atomic skill RL",
+        "holistic pipeline RL",
+        "deep research agent",
+        "insight-driven analysis",
+        "plan-then-write paradigm"
+      ],
+      "organization": {
+        "_id": "633fe81429b5a95f6e16e34a",
+        "name": "openbmb",
+        "fullname": "OpenBMB",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1670387859384-633fe7784b362488336bbfad.png"
+      }
+    },
+    "publishedAt": "2026-02-06T04:45:04.000Z",
+    "title": "AgentCPM-Report: Interleaving Drafting and Deepening for Open-Ended Deep Research",
+    "summary": "Generating deep research reports requires large-scale information acquisition and the synthesis of insight-driven analysis, posing a significant challenge for current language models. Most existing approaches follow a plan-then-write paradigm, whose performance heavily depends on the quality of the initial outline. However, constructing a comprehensive outline itself demands strong reasoning ability, causing current deep research systems to rely almost exclusively on closed-source or online large models. This reliance raises practical barriers to deployment and introduces safety and privacy concerns for user-authored data. In this work, we present AgentCPM-Report, a lightweight yet high-performing local solution composed of a framework that mirrors the human writing process and an 8B-parameter deep research agent. Our framework uses a Writing As Reasoning Policy (WARP), which enables models to dynamically revise outlines during report generation. Under this policy, the agent alternates between Evidence-Based Drafting and Reasoning-Driven Deepening, jointly supporting information acquisition, knowledge refinement, and iterative outline evolution. To effectively equip small models with this capability, we introduce a Multi-Stage Agentic Training strategy, consisting of cold-start, atomic skill RL, and holistic pipeline RL. Experiments on DeepResearch Bench, DeepConsult, and DeepResearch Gym demonstrate that AgentCPM-Report outperforms leading closed-source systems, with substantial gains in Insight.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.06540.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64f5abc2e8f27f20a067a596",
+      "avatarUrl": "/avatars/d0eac39488fac0c9c08d76109cabaa9f.svg",
+      "fullname": "cwt",
+      "name": "yiye2023",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "633fe81429b5a95f6e16e34a",
+      "name": "openbmb",
+      "fullname": "OpenBMB",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1670387859384-633fe7784b362488336bbfad.png"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2601.21363",
+      "authors": [
+        {
+          "_id": "69899c2abeecc443208d2798",
+          "user": {
+            "_id": "65c0ae04b7db0ab09541beed",
+            "avatarUrl": "/avatars/d98cbcc3ad1669221c4a50eccfabc9d0.svg",
+            "isPro": false,
+            "fullname": "Weidong Huang",
+            "user": "Weidong-Huang",
+            "type": "user"
+          },
+          "name": "Weidong Huang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-09T14:31:38.475Z",
+          "hidden": false
+        },
+        {
+          "_id": "69899c2abeecc443208d2799",
+          "name": "Zhehan Li",
+          "hidden": false
+        },
+        {
+          "_id": "69899c2abeecc443208d279a",
+          "name": "Hangxin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69899c2abeecc443208d279b",
+          "name": "Biao Hou",
+          "hidden": false
+        },
+        {
+          "_id": "69899c2abeecc443208d279c",
+          "name": "Yao Su",
+          "hidden": false
+        },
+        {
+          "_id": "69899c2abeecc443208d279d",
+          "name": "Jingwen Zhang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/65c0ae04b7db0ab09541beed/yo-qXj6GMi-WuCBDvTBbK.mp4"
+      ],
+      "publishedAt": "2026-01-29T07:43:24.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:26:35.151Z",
+      "title": "Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control",
+      "submittedOnDailyBy": {
+        "_id": "65c0ae04b7db0ab09541beed",
+        "avatarUrl": "/avatars/d98cbcc3ad1669221c4a50eccfabc9d0.svg",
+        "isPro": false,
+        "fullname": "Weidong Huang",
+        "user": "Weidong-Huang",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning (RL) is widely used for humanoid control, with on-policy methods such as Proximal Policy Optimization (PPO) enabling robust training via large-scale parallel simulation and, in some cases, zero-shot deployment to real robots. However, the low sample efficiency of on-policy algorithms limits safe adaptation to new environments. Although off-policy RL and model-based RL have shown improved sample efficiency, the gap between large-scale pretraining and efficient finetuning on humanoids still exists. In this paper, we find that off-policy Soft Actor-Critic (SAC), with large-batch update and a high Update-To-Data (UTD) ratio, reliably supports large-scale pretraining of humanoid locomotion policies, achieving zero-shot deployment on real robots. For adaptation, we demonstrate that these SAC-pretrained policies can be finetuned in new environments and out-of-distribution tasks using model-based methods. Data collection in the new environment executes a deterministic policy while stochastic exploration is instead confined to a physics-informed world model. This separation mitigates the risks of random exploration during adaptation while preserving exploratory coverage for improvement. Overall, the approach couples the wall-clock efficiency of large-scale simulation during pretraining with the sample efficiency of model-based learning during fine-tuning.",
+      "upvotes": 3,
+      "discussionId": "69899c2bbeecc443208d279e",
+      "ai_summary": "Off-policy Soft Actor-Critic with large-batch updates enables efficient humanoid locomotion policy pretraining, while model-based methods facilitate safe adaptation through deterministic data collection and stochastic exploration within physics-informed world models.",
+      "ai_keywords": [
+        "Proximal Policy Optimization",
+        "Soft Actor-Critic",
+        "on-policy methods",
+        "off-policy RL",
+        "model-based RL",
+        "large-scale parallel simulation",
+        "zero-shot deployment",
+        "sample efficiency",
+        "large-batch update",
+        "Update-To-Data ratio",
+        "deterministic policy",
+        "stochastic exploration",
+        "physics-informed world model"
+      ]
+    },
+    "publishedAt": "2026-01-29T02:43:24.000Z",
+    "title": "Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control",
+    "summary": "Reinforcement learning (RL) is widely used for humanoid control, with on-policy methods such as Proximal Policy Optimization (PPO) enabling robust training via large-scale parallel simulation and, in some cases, zero-shot deployment to real robots. However, the low sample efficiency of on-policy algorithms limits safe adaptation to new environments. Although off-policy RL and model-based RL have shown improved sample efficiency, the gap between large-scale pretraining and efficient finetuning on humanoids still exists. In this paper, we find that off-policy Soft Actor-Critic (SAC), with large-batch update and a high Update-To-Data (UTD) ratio, reliably supports large-scale pretraining of humanoid locomotion policies, achieving zero-shot deployment on real robots. For adaptation, we demonstrate that these SAC-pretrained policies can be finetuned in new environments and out-of-distribution tasks using model-based methods. Data collection in the new environment executes a deterministic policy while stochastic exploration is instead confined to a physics-informed world model. This separation mitigates the risks of random exploration during adaptation while preserving exploratory coverage for improvement. Overall, the approach couples the wall-clock efficiency of large-scale simulation during pretraining with the sample efficiency of model-based learning during fine-tuning.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/65c0ae04b7db0ab09541beed/yo-qXj6GMi-WuCBDvTBbK.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.21363.png",
+    "numComments": 3,
+    "submittedBy": {
+      "_id": "65c0ae04b7db0ab09541beed",
+      "avatarUrl": "/avatars/d98cbcc3ad1669221c4a50eccfabc9d0.svg",
+      "fullname": "Weidong Huang",
+      "name": "Weidong-Huang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.06694",
+      "authors": [
+        {
+          "_id": "69894d2abeecc443208d2610",
+          "user": {
+            "_id": "6670d2ec92412fd464eac919",
+            "avatarUrl": "/avatars/f76013e72d19b12feddd80f3a4b5d71f.svg",
+            "isPro": false,
+            "fullname": "Hyochan Chong",
+            "user": "d7chong",
+            "type": "user"
+          },
+          "name": "Hyochan Chong",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-09T08:29:50.005Z",
+          "hidden": false
+        },
+        {
+          "_id": "69894d2abeecc443208d2611",
+          "name": "Dongkyu Kim",
+          "hidden": false
+        },
+        {
+          "_id": "69894d2abeecc443208d2612",
+          "name": "Changdong Kim",
+          "hidden": false
+        },
+        {
+          "_id": "69894d2abeecc443208d2613",
+          "name": "Minseop Choi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-06T13:26:44.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:03:08.555Z",
+      "title": "NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6670d2ec92412fd464eac919",
+        "avatarUrl": "/avatars/f76013e72d19b12feddd80f3a4b5d71f.svg",
+        "isPro": false,
+        "fullname": "Hyochan Chong",
+        "user": "d7chong",
+        "type": "user"
+      },
+      "summary": "Weight-only quantization has become a standard approach for efficiently serving large language models (LLMs). However, existing methods fail to efficiently compress models to binary (1-bit) levels, as they either require large amounts of data and compute or incur additional storage. In this work, we propose NanoQuant, the first post-training quantization (PTQ) method to compress LLMs to both binary and sub-1-bit levels. NanoQuant formulates quantization as a low-rank binary factorization problem, and compresses full-precision weights to low-rank binary matrices and scales. Specifically, it utilizes an efficient alternating direction method of multipliers (ADMM) method to precisely initialize latent binary matrices and scales, and then tune the initialized parameters through a block and model reconstruction process. Consequently, NanoQuant establishes a new Pareto frontier in low-memory post-training quantization, achieving state-of-the-art accuracy even at sub-1-bit compression rates. NanoQuant makes large-scale deployment feasible on consumer hardware. For example, it compresses Llama2-70B by 25.8times in just 13 hours on a single H100, enabling a 70B model to operate on a consumer 8 GB GPU.",
+      "upvotes": 2,
+      "discussionId": "69894d2bbeecc443208d2614",
+      "ai_summary": "NanoQuant enables efficient post-training quantization of large language models to binary and sub-1-bit levels using low-rank binary factorization and ADMM optimization, achieving state-of-the-art accuracy while reducing memory requirements for consumer hardware deployment.",
+      "ai_keywords": [
+        "post-training quantization",
+        "low-rank binary factorization",
+        "alternating direction method of multipliers",
+        "binary quantization",
+        "sub-1-bit compression",
+        "latent binary matrices",
+        "block reconstruction",
+        "model reconstruction"
+      ],
+      "organization": {
+        "_id": "686df54910a52f2c2cf03c06",
+        "name": "SamsungResearch",
+        "fullname": "Samsung Research",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60ffc3e62403168abcae811d/lBrkzrpjrJ8k-3CGLKRLr.jpeg"
+      }
+    },
+    "publishedAt": "2026-02-06T08:26:44.000Z",
+    "title": "NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models",
+    "summary": "Weight-only quantization has become a standard approach for efficiently serving large language models (LLMs). However, existing methods fail to efficiently compress models to binary (1-bit) levels, as they either require large amounts of data and compute or incur additional storage. In this work, we propose NanoQuant, the first post-training quantization (PTQ) method to compress LLMs to both binary and sub-1-bit levels. NanoQuant formulates quantization as a low-rank binary factorization problem, and compresses full-precision weights to low-rank binary matrices and scales. Specifically, it utilizes an efficient alternating direction method of multipliers (ADMM) method to precisely initialize latent binary matrices and scales, and then tune the initialized parameters through a block and model reconstruction process. Consequently, NanoQuant establishes a new Pareto frontier in low-memory post-training quantization, achieving state-of-the-art accuracy even at sub-1-bit compression rates. NanoQuant makes large-scale deployment feasible on consumer hardware. For example, it compresses Llama2-70B by 25.8times in just 13 hours on a single H100, enabling a 70B model to operate on a consumer 8 GB GPU.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.06694.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6670d2ec92412fd464eac919",
+      "avatarUrl": "/avatars/f76013e72d19b12feddd80f3a4b5d71f.svg",
+      "fullname": "Hyochan Chong",
+      "name": "d7chong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "686df54910a52f2c2cf03c06",
+      "name": "SamsungResearch",
+      "fullname": "Samsung Research",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60ffc3e62403168abcae811d/lBrkzrpjrJ8k-3CGLKRLr.jpeg"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.08236",
+      "authors": [
+        {
+          "_id": "698aa1cf1b2dc6b37d61af4c",
+          "name": "Shoubin Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698aa1cf1b2dc6b37d61af4d",
+          "name": "Yue Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698aa1cf1b2dc6b37d61af4e",
+          "name": "Zun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698aa1cf1b2dc6b37d61af4f",
+          "name": "Jaehong Yoon",
+          "hidden": false
+        },
+        {
+          "_id": "698aa1cf1b2dc6b37d61af50",
+          "name": "Huaxiu Yao",
+          "hidden": false
+        },
+        {
+          "_id": "698aa1cf1b2dc6b37d61af51",
+          "name": "Mingyu Ding",
+          "hidden": false
+        },
+        {
+          "_id": "698aa1cf1b2dc6b37d61af52",
+          "name": "Mohit Bansal",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-09T03:21:48.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:42:02.821Z",
+      "title": "When and How Much to Imagine: Adaptive Test-Time Scaling with World Models for Visual Spatial Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "63ee8fb05f1300034de097fd",
+        "avatarUrl": "/avatars/bceedb88927d8633948266503c2dd0b1.svg",
+        "isPro": true,
+        "fullname": "Yu",
+        "user": "Shoubin",
+        "type": "user"
+      },
+      "summary": "Despite rapid progress in Multimodal Large Language Models (MLLMs), visual spatial reasoning remains unreliable when correct answers depend on how a scene would appear under unseen or alternative viewpoints. Recent work addresses this by augmenting reasoning with world models for visual imagination, but questions such as when imagination is actually necessary, how much of it is beneficial, and when it becomes harmful, remain poorly understood. In practice, indiscriminate imagination can increase computation and even degrade performance by introducing misleading evidence. In this work, we present an in-depth analysis of test-time visual imagination as a controllable resource for spatial reasoning. We study when static visual evidence is sufficient, when imagination improves reasoning, and how excessive or unnecessary imagination affects accuracy and efficiency. To support this analysis, we introduce AVIC, an adaptive test-time framework with world models that explicitly reasons about the sufficiency of current visual evidence before selectively invoking and scaling visual imagination. Across spatial reasoning benchmarks (SAT, MMSI) and an embodied navigation benchmark (R2R), our results reveal clear scenarios where imagination is critical, marginal, or detrimental, and show that selective control can match or outperform fixed imagination strategies with substantially fewer world-model calls and language tokens. Overall, our findings highlight the importance of analyzing and controlling test-time imagination for efficient and reliable spatial reasoning.",
+      "upvotes": 1,
+      "discussionId": "698aa1cf1b2dc6b37d61af53",
+      "projectPage": "https://adaptive-visual-tts.github.io/",
+      "githubRepo": "https://github.com/Yui010206/Adaptive-Visual-Imagination-Control/",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Adaptive test-time framework with world models enables selective visual imagination for spatial reasoning, improving efficiency and reliability by determining when imagination is necessary.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "visual spatial reasoning",
+        "world models",
+        "visual imagination",
+        "test-time adaptation",
+        "embodied navigation",
+        "SAT",
+        "MMSI",
+        "R2R"
+      ],
+      "githubStars": 1,
+      "organization": {
+        "_id": "669f9d1fec8789263c0e355a",
+        "name": "UNC-ChapelHill",
+        "fullname": "University of North Carolina at Chapel Hill",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/669f9c85bd649dba3b88e581/H5uB8_MCewnMtxEUnAvTL.png"
+      }
+    },
+    "publishedAt": "2026-02-08T22:21:48.000Z",
+    "title": "When and How Much to Imagine: Adaptive Test-Time Scaling with World Models for Visual Spatial Reasoning",
+    "summary": "Despite rapid progress in Multimodal Large Language Models (MLLMs), visual spatial reasoning remains unreliable when correct answers depend on how a scene would appear under unseen or alternative viewpoints. Recent work addresses this by augmenting reasoning with world models for visual imagination, but questions such as when imagination is actually necessary, how much of it is beneficial, and when it becomes harmful, remain poorly understood. In practice, indiscriminate imagination can increase computation and even degrade performance by introducing misleading evidence. In this work, we present an in-depth analysis of test-time visual imagination as a controllable resource for spatial reasoning. We study when static visual evidence is sufficient, when imagination improves reasoning, and how excessive or unnecessary imagination affects accuracy and efficiency. To support this analysis, we introduce AVIC, an adaptive test-time framework with world models that explicitly reasons about the sufficiency of current visual evidence before selectively invoking and scaling visual imagination. Across spatial reasoning benchmarks (SAT, MMSI) and an embodied navigation benchmark (R2R), our results reveal clear scenarios where imagination is critical, marginal, or detrimental, and show that selective control can match or outperform fixed imagination strategies with substantially fewer world-model calls and language tokens. Overall, our findings highlight the importance of analyzing and controlling test-time imagination for efficient and reliable spatial reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.08236.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63ee8fb05f1300034de097fd",
+      "avatarUrl": "/avatars/bceedb88927d8633948266503c2dd0b1.svg",
+      "fullname": "Yu",
+      "name": "Shoubin",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "669f9d1fec8789263c0e355a",
+      "name": "UNC-ChapelHill",
+      "fullname": "University of North Carolina at Chapel Hill",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/669f9c85bd649dba3b88e581/H5uB8_MCewnMtxEUnAvTL.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.06445",
+      "authors": [
+        {
+          "_id": "6989adb6beecc443208d27de",
+          "user": {
+            "_id": "65c0ae04b7db0ab09541beed",
+            "avatarUrl": "/avatars/d98cbcc3ad1669221c4a50eccfabc9d0.svg",
+            "isPro": false,
+            "fullname": "Weidong Huang",
+            "user": "Weidong-Huang",
+            "type": "user"
+          },
+          "name": "Weidong Huang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-09T14:31:28.409Z",
+          "hidden": false
+        },
+        {
+          "_id": "6989adb6beecc443208d27df",
+          "name": "Jingwen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6989adb6beecc443208d27e0",
+          "name": "Jiongye Li",
+          "hidden": false
+        },
+        {
+          "_id": "6989adb6beecc443208d27e1",
+          "name": "Shibowen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6989adb6beecc443208d27e2",
+          "name": "Jiayang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6989adb6beecc443208d27e3",
+          "name": "Jiayi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6989adb6beecc443208d27e4",
+          "name": "Hangxin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6989adb6beecc443208d27e5",
+          "name": "Yaodong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6989adb6beecc443208d27e6",
+          "name": "Yao Su",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-06T07:14:43.000Z",
+      "submittedOnDailyAt": "2026-02-10T00:27:21.524Z",
+      "title": "ECO: Energy-Constrained Optimization with Reinforcement Learning for Humanoid Walking",
+      "submittedOnDailyBy": {
+        "_id": "65c0ae04b7db0ab09541beed",
+        "avatarUrl": "/avatars/d98cbcc3ad1669221c4a50eccfabc9d0.svg",
+        "isPro": false,
+        "fullname": "Weidong Huang",
+        "user": "Weidong-Huang",
+        "type": "user"
+      },
+      "summary": "Achieving stable and energy-efficient locomotion is essential for humanoid robots to operate continuously in real-world applications. Existing MPC and RL approaches often rely on energy-related metrics embedded within a multi-objective optimization framework, which require extensive hyperparameter tuning and often result in suboptimal policies. To address these challenges, we propose ECO (Energy-Constrained Optimization), a constrained RL framework that separates energy-related metrics from rewards, reformulating them as explicit inequality constraints. This method provides a clear and interpretable physical representation of energy costs, enabling more efficient and intuitive hyperparameter tuning for improved energy efficiency. ECO introduces dedicated constraints for energy consumption and reference motion, enforced by the Lagrangian method, to achieve stable, symmetric, and energy-efficient walking for humanoid robots. We evaluated ECO against MPC, standard RL with reward shaping, and four state-of-the-art constrained RL methods. Experiments, including sim-to-sim and sim-to-real transfers on the kid-sized humanoid robot BRUCE, demonstrate that ECO significantly reduces energy consumption compared to baselines while maintaining robust walking performance. These results highlight a substantial advancement in energy-efficient humanoid locomotion. All experimental demonstrations can be found on the project website: https://sites.google.com/view/eco-humanoid.",
+      "upvotes": 0,
+      "discussionId": "6989adb6beecc443208d27e7",
+      "ai_summary": "Energy-constrained optimization framework separates energy metrics from rewards using Lagrangian method to achieve stable, energy-efficient humanoid robot locomotion with reduced hyperparameter tuning.",
+      "ai_keywords": [
+        "model predictive control",
+        "reinforcement learning",
+        "constrained optimization",
+        "Lagrangian method",
+        "energy-constrained optimization",
+        "humanoid robotics",
+        "sim-to-sim transfer",
+        "sim-to-real transfer"
+      ]
+    },
+    "publishedAt": "2026-02-06T02:14:43.000Z",
+    "title": "ECO: Energy-Constrained Optimization with Reinforcement Learning for Humanoid Walking",
+    "summary": "Achieving stable and energy-efficient locomotion is essential for humanoid robots to operate continuously in real-world applications. Existing MPC and RL approaches often rely on energy-related metrics embedded within a multi-objective optimization framework, which require extensive hyperparameter tuning and often result in suboptimal policies. To address these challenges, we propose ECO (Energy-Constrained Optimization), a constrained RL framework that separates energy-related metrics from rewards, reformulating them as explicit inequality constraints. This method provides a clear and interpretable physical representation of energy costs, enabling more efficient and intuitive hyperparameter tuning for improved energy efficiency. ECO introduces dedicated constraints for energy consumption and reference motion, enforced by the Lagrangian method, to achieve stable, symmetric, and energy-efficient walking for humanoid robots. We evaluated ECO against MPC, standard RL with reward shaping, and four state-of-the-art constrained RL methods. Experiments, including sim-to-sim and sim-to-real transfers on the kid-sized humanoid robot BRUCE, demonstrate that ECO significantly reduces energy consumption compared to baselines while maintaining robust walking performance. These results highlight a substantial advancement in energy-efficient humanoid locomotion. All experimental demonstrations can be found on the project website: https://sites.google.com/view/eco-humanoid.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.06445.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65c0ae04b7db0ab09541beed",
+      "avatarUrl": "/avatars/d98cbcc3ad1669221c4a50eccfabc9d0.svg",
+      "fullname": "Weidong Huang",
+      "name": "Weidong-Huang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  }
+]
