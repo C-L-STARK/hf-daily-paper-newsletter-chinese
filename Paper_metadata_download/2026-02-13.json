@@ -1,0 +1,2771 @@
+[
+  {
+    "paper": {
+      "id": "2602.09877",
+      "authors": [
+        {
+          "_id": "698c7abdeb12ea7453916869",
+          "user": {
+            "_id": "674006451d2302f6aa9b026d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/674006451d2302f6aa9b026d/szYYX1DSwjrkHCjp_b83S.png",
+            "isPro": false,
+            "fullname": "Chenxu Wang",
+            "user": "xunyoyo",
+            "type": "user"
+          },
+          "name": "Chenxu Wang",
+          "status": "admin_assigned",
+          "statusLastChangedAt": "2026-02-12T16:49:45.534Z",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea745391686a",
+          "name": "Chaozhuo Li",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea745391686b",
+          "name": "Songyang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea745391686c",
+          "name": "Zejian Chen",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea745391686d",
+          "name": "Jinyu Hou",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea745391686e",
+          "name": "Ji Qi",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea745391686f",
+          "name": "Rui Li",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea7453916870",
+          "name": "Litian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea7453916871",
+          "name": "Qiwei Ye",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea7453916872",
+          "name": "Zheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea7453916873",
+          "name": "Xu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea7453916874",
+          "name": "Xi Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698c7abdeb12ea7453916875",
+          "name": "Philip S. Yu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-10T15:18:19.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:53:30.377Z",
+      "title": "The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies",
+      "submittedOnDailyBy": {
+        "_id": "674006451d2302f6aa9b026d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/674006451d2302f6aa9b026d/szYYX1DSwjrkHCjp_b83S.png",
+        "isPro": false,
+        "fullname": "Chenxu Wang",
+        "user": "xunyoyo",
+        "type": "user"
+      },
+      "summary": "The emergence of multi-agent systems built from large language models (LLMs) offers a promising paradigm for scalable collective intelligence and self-evolution. Ideally, such systems would achieve continuous self-improvement in a fully closed loop while maintaining robust safety alignment--a combination we term the self-evolution trilemma. However, we demonstrate both theoretically and empirically that an agent society satisfying continuous self-evolution, complete isolation, and safety invariance is impossible. Drawing on an information-theoretic framework, we formalize safety as the divergence degree from anthropic value distributions. We theoretically demonstrate that isolated self-evolution induces statistical blind spots, leading to the irreversible degradation of the system's safety alignment. Empirical and qualitative results from an open-ended agent community (Moltbook) and two closed self-evolving systems reveal phenomena that align with our theoretical prediction of inevitable safety erosion. We further propose several solution directions to alleviate the identified safety concern. Our work establishes a fundamental limit on the self-evolving AI societies and shifts the discourse from symptom-driven safety patches to a principled understanding of intrinsic dynamical risks, highlighting the need for external oversight or novel safety-preserving mechanisms.",
+      "upvotes": 34,
+      "discussionId": "698c7abdeb12ea7453916876",
+      "ai_summary": "Multi-agent LLM systems face fundamental limitations in achieving continuous self-improvement while maintaining safety alignment due to inherent statistical blind spots in isolated evolution.",
+      "ai_keywords": [
+        "multi-agent systems",
+        "large language models",
+        "self-evolution",
+        "safety alignment",
+        "information-theoretic framework",
+        "anthropic value distributions",
+        "statistical blind spots",
+        "self-evolving AI societies",
+        "external oversight",
+        "safety-preserving mechanisms"
+      ]
+    },
+    "publishedAt": "2026-02-10T10:18:19.000Z",
+    "title": "The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies",
+    "summary": "The emergence of multi-agent systems built from large language models (LLMs) offers a promising paradigm for scalable collective intelligence and self-evolution. Ideally, such systems would achieve continuous self-improvement in a fully closed loop while maintaining robust safety alignment--a combination we term the self-evolution trilemma. However, we demonstrate both theoretically and empirically that an agent society satisfying continuous self-evolution, complete isolation, and safety invariance is impossible. Drawing on an information-theoretic framework, we formalize safety as the divergence degree from anthropic value distributions. We theoretically demonstrate that isolated self-evolution induces statistical blind spots, leading to the irreversible degradation of the system's safety alignment. Empirical and qualitative results from an open-ended agent community (Moltbook) and two closed self-evolving systems reveal phenomena that align with our theoretical prediction of inevitable safety erosion. We further propose several solution directions to alleviate the identified safety concern. Our work establishes a fundamental limit on the self-evolving AI societies and shifts the discourse from symptom-driven safety patches to a principled understanding of intrinsic dynamical risks, highlighting the need for external oversight or novel safety-preserving mechanisms.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.09877.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "674006451d2302f6aa9b026d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/674006451d2302f6aa9b026d/szYYX1DSwjrkHCjp_b83S.png",
+      "fullname": "Chenxu Wang",
+      "name": "xunyoyo",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.12125",
+      "authors": [
+        {
+          "_id": "698e8f46cace060ff123ac51",
+          "name": "Wenkai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8f46cace060ff123ac52",
+          "name": "Weijie Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8f46cace060ff123ac53",
+          "name": "Ruobing Xie",
+          "hidden": false
+        },
+        {
+          "_id": "698e8f46cace060ff123ac54",
+          "name": "Kai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8f46cace060ff123ac55",
+          "name": "Saiyong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8f46cace060ff123ac56",
+          "name": "Yankai Lin",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-12T16:14:29.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:24:06.722Z",
+      "title": "Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation",
+      "submittedOnDailyBy": {
+        "_id": "64b7df742f5a966b973e25f7",
+        "avatarUrl": "/avatars/e24e7769188d441317b3b7d10ef8fd60.svg",
+        "isPro": false,
+        "fullname": "Wenkai Yang",
+        "user": "Keven16",
+        "type": "user"
+      },
+      "summary": "On-policy distillation (OPD), which aligns the student with the teacher's logit distribution on student-generated trajectories, has demonstrated strong empirical gains in improving student performance and often outperforms off-policy distillation and reinforcement learning (RL) paradigms. In this work, we first theoretically show that OPD is a special case of dense KL-constrained RL where the reward function and the KL regularization are always weighted equally and the reference model can by any model. Then, we propose the Generalized On-Policy Distillation (G-OPD) framework, which extends the standard OPD objective by introducing a flexible reference model and a reward scaling factor that controls the relative weight of the reward term against the KL regularization. Through comprehensive experiments on math reasoning and code generation tasks, we derive two novel insights: (1) Setting the reward scaling factor to be greater than 1 (i.e., reward extrapolation), which we term ExOPD, consistently improves over standard OPD across a range of teacher-student size pairings. In particular, in the setting where we merge the knowledge from different domain experts, obtained by applying domain-specific RL to the same student model, back into the original student, ExOPD enables the student to even surpass the teacher's performance boundary and outperform the domain teachers. (2) Building on ExOPD, we further find that in the strong-to-weak distillation setting (i.e., distilling a smaller student from a larger teacher), performing reward correction by choosing the reference model as the teacher's base model before RL yields a more accurate reward signal and further improves distillation performance. However, this choice assumes access to the teacher's pre-RL variant and incurs more computational overhead. We hope our work offers new insights for future research on OPD.",
+      "upvotes": 20,
+      "discussionId": "698e8f46cace060ff123ac57",
+      "githubRepo": "https://github.com/RUCBM/G-OPD",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "On-policy distillation is extended through a generalized framework that introduces flexible reference models and reward scaling factors, demonstrating improved performance through reward extrapolation and reward correction techniques.",
+      "ai_keywords": [
+        "on-policy distillation",
+        "logit distribution",
+        "dense KL-constrained RL",
+        "reward scaling factor",
+        "reward extrapolation",
+        "reward correction",
+        "teacher-student size pairings",
+        "domain-specific RL",
+        "strong-to-weak distillation"
+      ],
+      "githubStars": 1,
+      "organization": {
+        "_id": "6645f953c39288df638dbdd5",
+        "name": "Tencent-Hunyuan",
+        "fullname": "Tencent Hunyuan",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+      }
+    },
+    "publishedAt": "2026-02-12T11:14:29.000Z",
+    "title": "Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation",
+    "summary": "On-policy distillation (OPD), which aligns the student with the teacher's logit distribution on student-generated trajectories, has demonstrated strong empirical gains in improving student performance and often outperforms off-policy distillation and reinforcement learning (RL) paradigms. In this work, we first theoretically show that OPD is a special case of dense KL-constrained RL where the reward function and the KL regularization are always weighted equally and the reference model can by any model. Then, we propose the Generalized On-Policy Distillation (G-OPD) framework, which extends the standard OPD objective by introducing a flexible reference model and a reward scaling factor that controls the relative weight of the reward term against the KL regularization. Through comprehensive experiments on math reasoning and code generation tasks, we derive two novel insights: (1) Setting the reward scaling factor to be greater than 1 (i.e., reward extrapolation), which we term ExOPD, consistently improves over standard OPD across a range of teacher-student size pairings. In particular, in the setting where we merge the knowledge from different domain experts, obtained by applying domain-specific RL to the same student model, back into the original student, ExOPD enables the student to even surpass the teacher's performance boundary and outperform the domain teachers. (2) Building on ExOPD, we further find that in the strong-to-weak distillation setting (i.e., distilling a smaller student from a larger teacher), performing reward correction by choosing the reference model as the teacher's base model before RL yields a more accurate reward signal and further improves distillation performance. However, this choice assumes access to the teacher's pre-RL variant and incurs more computational overhead. We hope our work offers new insights for future research on OPD.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.12125.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64b7df742f5a966b973e25f7",
+      "avatarUrl": "/avatars/e24e7769188d441317b3b7d10ef8fd60.svg",
+      "fullname": "Wenkai Yang",
+      "name": "Keven16",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6645f953c39288df638dbdd5",
+      "name": "Tencent-Hunyuan",
+      "fullname": "Tencent Hunyuan",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.12099",
+      "authors": [
+        {
+          "_id": "698e8ff2cace060ff123ac59",
+          "name": "GigaBrain Team",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac5a",
+          "name": "Boyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac5b",
+          "name": "Chaojun Ni",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac5c",
+          "name": "Guan Huang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac5d",
+          "name": "Guosheng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac5e",
+          "name": "Hao Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac5f",
+          "name": "Jie Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac60",
+          "name": "Jindi Lv",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac61",
+          "name": "Jingyu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac62",
+          "name": "Lv Feng",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac63",
+          "name": "Mingming Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac64",
+          "name": "Peng Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac65",
+          "name": "Qiuping Deng",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac66",
+          "name": "Tianze Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac67",
+          "name": "Xinyu Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac68",
+          "name": "Xinze Chen",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac69",
+          "name": "Xiaofeng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac6a",
+          "name": "Yang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac6b",
+          "name": "Yifan Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac6c",
+          "name": "Yifei Nie",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac6d",
+          "name": "Yilong Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac6e",
+          "name": "Yukun Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac6f",
+          "name": "Yun Ye",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac70",
+          "name": "Zhichao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8ff2cace060ff123ac71",
+          "name": "Zheng Zhu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6426616ea5ec4a5cbc535634/w6OBVRe04BfXtAnLDzr3o.mp4"
+      ],
+      "publishedAt": "2026-02-12T15:55:19.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:24:14.150Z",
+      "title": "GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "6426616ea5ec4a5cbc535634",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6426616ea5ec4a5cbc535634/5IfSFYd9QOxz8K9QmBCst.png",
+        "isPro": false,
+        "fullname": "JeffWang",
+        "user": "Jeff-Wang",
+        "type": "user"
+      },
+      "summary": "Vision-language-action (VLA) models that directly predict multi-step action chunks from current observations face inherent limitations due to constrained scene understanding and weak future anticipation capabilities. In contrast, video world models pre-trained on web-scale video corpora exhibit robust spatiotemporal reasoning and accurate future prediction, making them a natural foundation for enhancing VLA learning. Therefore, we propose GigaBrain-0.5M*, a VLA model trained via world model-based reinforcement learning. Built upon GigaBrain-0.5, which is pre-trained on over 10,000 hours of robotic manipulation data, whose intermediate version currently ranks first on the international RoboChallenge benchmark. GigaBrain-0.5M* further integrates world model-based reinforcement learning via RAMP (Reinforcement leArning via world Model-conditioned Policy) to enable robust cross-task adaptation. Empirical results demonstrate that RAMP achieves substantial performance gains over the RECAP baseline, yielding improvements of approximately 30\\% on challenging tasks including Laundry Folding, Box Packing, and Espresso Preparation. Critically, GigaBrain-0.5M^* exhibits reliable long-horizon execution, consistently accomplishing complex manipulation tasks without failure as validated by real-world deployment videos on our https://gigabrain05m.github.io{project page}.",
+      "upvotes": 18,
+      "discussionId": "698e8ff2cace060ff123ac72",
+      "projectPage": "https://gigabrain05m.github.io/",
+      "ai_summary": "A vision-language-action model enhanced with world model-based reinforcement learning demonstrates improved performance and long-horizon execution capabilities for robotic manipulation tasks.",
+      "ai_keywords": [
+        "Vision-language-action models",
+        "world models",
+        "reinforcement learning",
+        "cross-task adaptation",
+        "RAMP",
+        "RoboChallenge benchmark",
+        "robotic manipulation"
+      ],
+      "organization": {
+        "_id": "68d6587936e2de9610d9f5f0",
+        "name": "open-gigaai",
+        "fullname": "GigaAI",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68d6394328e169473e90e4a6/zUK7FKr_8XqrN0aFUgsD-.png"
+      }
+    },
+    "publishedAt": "2026-02-12T10:55:19.000Z",
+    "title": "GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning",
+    "summary": "Vision-language-action (VLA) models that directly predict multi-step action chunks from current observations face inherent limitations due to constrained scene understanding and weak future anticipation capabilities. In contrast, video world models pre-trained on web-scale video corpora exhibit robust spatiotemporal reasoning and accurate future prediction, making them a natural foundation for enhancing VLA learning. Therefore, we propose GigaBrain-0.5M*, a VLA model trained via world model-based reinforcement learning. Built upon GigaBrain-0.5, which is pre-trained on over 10,000 hours of robotic manipulation data, whose intermediate version currently ranks first on the international RoboChallenge benchmark. GigaBrain-0.5M* further integrates world model-based reinforcement learning via RAMP (Reinforcement leArning via world Model-conditioned Policy) to enable robust cross-task adaptation. Empirical results demonstrate that RAMP achieves substantial performance gains over the RECAP baseline, yielding improvements of approximately 30\\% on challenging tasks including Laundry Folding, Box Packing, and Espresso Preparation. Critically, GigaBrain-0.5M^* exhibits reliable long-horizon execution, consistently accomplishing complex manipulation tasks without failure as validated by real-world deployment videos on our https://gigabrain05m.github.io{project page}.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6426616ea5ec4a5cbc535634/w6OBVRe04BfXtAnLDzr3o.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.12099.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6426616ea5ec4a5cbc535634",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6426616ea5ec4a5cbc535634/5IfSFYd9QOxz8K9QmBCst.png",
+      "fullname": "JeffWang",
+      "name": "Jeff-Wang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68d6587936e2de9610d9f5f0",
+      "name": "open-gigaai",
+      "fullname": "GigaAI",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68d6394328e169473e90e4a6/zUK7FKr_8XqrN0aFUgsD-.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.12056",
+      "authors": [
+        {
+          "_id": "698e8eb9cace060ff123ac42",
+          "name": "Xinyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8eb9cace060ff123ac43",
+          "name": "Chenlong Deng",
+          "hidden": false
+        },
+        {
+          "_id": "698e8eb9cace060ff123ac44",
+          "name": "Tongyu Wen",
+          "hidden": false
+        },
+        {
+          "_id": "698e8eb9cace060ff123ac45",
+          "name": "Binyu Xie",
+          "hidden": false
+        },
+        {
+          "_id": "698e8eb9cace060ff123ac46",
+          "name": "Zhicheng Dou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-12T15:19:11.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:35:29.769Z",
+      "title": "LawThinker: A Deep Research Legal Agent in Dynamic Environments",
+      "submittedOnDailyBy": {
+        "_id": "6710ac3fb4ee4920580a5f0e",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6710ac3fb4ee4920580a5f0e/OhQQFlZmkmLQpMYqKCGP6.jpeg",
+        "isPro": false,
+        "fullname": "Chenghao Zhang",
+        "user": "SnowNation",
+        "type": "user"
+      },
+      "summary": "Legal reasoning requires not only correct outcomes but also procedurally compliant reasoning processes. However, existing methods lack mechanisms to verify intermediate reasoning steps, allowing errors such as inapplicable statute citations to propagate undetected through the reasoning chain. To address this, we propose LawThinker, an autonomous legal research agent that adopts an Explore-Verify-Memorize strategy for dynamic judicial environments. The core idea is to enforce verification as an atomic operation after every knowledge exploration step. A DeepVerifier module examines each retrieval result along three dimensions of knowledge accuracy, fact-law relevance, and procedural compliance, with a memory module for cross-round knowledge reuse in long-horizon tasks. Experiments on the dynamic benchmark J1-EVAL show that LawThinker achieves a 24% improvement over direct reasoning and an 11% gain over workflow-based methods, with particularly strong improvements on process-oriented metrics. Evaluations on three static benchmarks further confirm its generalization capability. The code is available at https://github.com/yxy-919/LawThinker-agent .",
+      "upvotes": 9,
+      "discussionId": "698e8ebacace060ff123ac47",
+      "githubRepo": "https://github.com/yxy-919/LawThinker-agent",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "LawThinker is an autonomous legal research agent that uses an Explore-Verify-Memorize strategy with a DeepVerifier module to ensure accurate and procedurally compliant legal reasoning through dynamic verification of intermediate steps.",
+      "ai_keywords": [
+        "legal reasoning",
+        "autonomous agent",
+        "Explore-Verify-Memorize strategy",
+        "DeepVerifier module",
+        "knowledge accuracy",
+        "fact-law relevance",
+        "procedural compliance",
+        "cross-round knowledge reuse",
+        "dynamic judicial environments"
+      ],
+      "organization": {
+        "_id": "622177ac43826d6f261f8208",
+        "name": "RUC",
+        "fullname": "Renmin University of China",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+      }
+    },
+    "publishedAt": "2026-02-12T10:19:11.000Z",
+    "title": "LawThinker: A Deep Research Legal Agent in Dynamic Environments",
+    "summary": "Legal reasoning requires not only correct outcomes but also procedurally compliant reasoning processes. However, existing methods lack mechanisms to verify intermediate reasoning steps, allowing errors such as inapplicable statute citations to propagate undetected through the reasoning chain. To address this, we propose LawThinker, an autonomous legal research agent that adopts an Explore-Verify-Memorize strategy for dynamic judicial environments. The core idea is to enforce verification as an atomic operation after every knowledge exploration step. A DeepVerifier module examines each retrieval result along three dimensions of knowledge accuracy, fact-law relevance, and procedural compliance, with a memory module for cross-round knowledge reuse in long-horizon tasks. Experiments on the dynamic benchmark J1-EVAL show that LawThinker achieves a 24% improvement over direct reasoning and an 11% gain over workflow-based methods, with particularly strong improvements on process-oriented metrics. Evaluations on three static benchmarks further confirm its generalization capability. The code is available at https://github.com/yxy-919/LawThinker-agent .",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.12056.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6710ac3fb4ee4920580a5f0e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6710ac3fb4ee4920580a5f0e/OhQQFlZmkmLQpMYqKCGP6.jpeg",
+      "fullname": "Chenghao Zhang",
+      "name": "SnowNation",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 13,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "622177ac43826d6f261f8208",
+      "name": "RUC",
+      "fullname": "Renmin University of China",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.05548",
+      "authors": [
+        {
+          "_id": "698e8c95cace060ff123ac11",
+          "name": "Zhiqi Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8c95cace060ff123ac12",
+          "name": "Zhangquan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "698e8c95cace060ff123ac13",
+          "name": "Mengting Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8c95cace060ff123ac14",
+          "name": "Heye Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8c95cace060ff123ac15",
+          "name": "Liangqiong Qu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-05T11:07:14.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:01:39.201Z",
+      "title": "Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation",
+      "submittedOnDailyBy": {
+        "_id": "663058bc2653ec94f4a6235f",
+        "avatarUrl": "/avatars/f55b8c3c8100d6b6d65ba61abc4fb014.svg",
+        "isPro": false,
+        "fullname": "Liangqiong Qu",
+        "user": "Liangqiong-QU",
+        "type": "user"
+      },
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR), particularly GRPO, has become the standard for eliciting LLM reasoning. However, its efficiency in exploration and difficulty adaptation remains an open challenge. In this work, we argue that these bottlenecks stem from an implicit advantage symmetry inherent in Group Relative Advantage Estimation (GRAE). This symmetry induces two critical limitations: (i) at the group level, strict symmetry in weights between correct and incorrect trajectories leaves unsampled action logits unchanged, thereby hindering exploration of novel correct solution. (ii) at the sample level, the algorithm implicitly prioritizes medium-difficulty samples, remaining agnostic to the non-stationary demands of difficulty focus. Through controlled experiments, we reveal that this symmetric property is sub-optimal, yielding two pivotal insights: (i) asymmetrically suppressing the advantages of correct trajectories encourages essential exploration. (ii) learning efficiency is maximized by a curriculum-like transition-prioritizing simpler samples initially before gradually shifting to complex ones. Motivated by these findings, we propose Asymmetric GRAE (A-GRAE), which dynamically modulates exploration incentives and sample-difficulty focus. Experiments across seven benchmarks demonstrate that A-GRAE consistently improves GRPO and its variants across both LLMs and MLLMs.",
+      "upvotes": 9,
+      "discussionId": "698e8c95cace060ff123ac16",
+      "githubRepo": "https://github.com/HKU-HealthAI/A-GRAE",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Asymmetric Group Relative Advantage Estimation addresses exploration and difficulty adaptation challenges in reinforcement learning with large language models by dynamically modulating exploration incentives and sample difficulty focus.",
+      "ai_keywords": [
+        "Reinforcement Learning with Verifiable Rewards",
+        "GRPO",
+        "Group Relative Advantage Estimation",
+        "GRAE",
+        "asymmetric suppression",
+        "curriculum learning",
+        "sample-difficulty focus",
+        "exploration incentives",
+        "large language models",
+        "multi-modal large language models"
+      ],
+      "githubStars": 7,
+      "organization": {
+        "_id": "67ea9ecfc234715db8dbf339",
+        "name": "hkuhk",
+        "fullname": "The University of Hong Kong",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67ea9e8d2d95c10a0da11b0c/FNnR4M7YqKRuG43N5771B.png"
+      }
+    },
+    "publishedAt": "2026-02-05T06:07:14.000Z",
+    "title": "Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation",
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR), particularly GRPO, has become the standard for eliciting LLM reasoning. However, its efficiency in exploration and difficulty adaptation remains an open challenge. In this work, we argue that these bottlenecks stem from an implicit advantage symmetry inherent in Group Relative Advantage Estimation (GRAE). This symmetry induces two critical limitations: (i) at the group level, strict symmetry in weights between correct and incorrect trajectories leaves unsampled action logits unchanged, thereby hindering exploration of novel correct solution. (ii) at the sample level, the algorithm implicitly prioritizes medium-difficulty samples, remaining agnostic to the non-stationary demands of difficulty focus. Through controlled experiments, we reveal that this symmetric property is sub-optimal, yielding two pivotal insights: (i) asymmetrically suppressing the advantages of correct trajectories encourages essential exploration. (ii) learning efficiency is maximized by a curriculum-like transition-prioritizing simpler samples initially before gradually shifting to complex ones. Motivated by these findings, we propose Asymmetric GRAE (A-GRAE), which dynamically modulates exploration incentives and sample-difficulty focus. Experiments across seven benchmarks demonstrate that A-GRAE consistently improves GRPO and its variants across both LLMs and MLLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.05548.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "663058bc2653ec94f4a6235f",
+      "avatarUrl": "/avatars/f55b8c3c8100d6b6d65ba61abc4fb014.svg",
+      "fullname": "Liangqiong Qu",
+      "name": "Liangqiong-QU",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67ea9ecfc234715db8dbf339",
+      "name": "hkuhk",
+      "fullname": "The University of Hong Kong",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67ea9e8d2d95c10a0da11b0c/FNnR4M7YqKRuG43N5771B.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.11298",
+      "authors": [
+        {
+          "_id": "698e94cacace060ff123ad08",
+          "name": "Alexander H. Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad09",
+          "name": "Andy Ehrenberg",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad0a",
+          "name": "Andy Lo",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad0b",
+          "name": "Chen-Yo Sun",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad0c",
+          "name": "Guillaume Lample",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad0d",
+          "name": "Jean-Malo Delignon",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad0e",
+          "name": "Khyathi Raghavi Chandu",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad0f",
+          "name": "Patrick von Platen",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad10",
+          "name": "Pavankumar Reddy Muddireddy",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad11",
+          "name": "Rohin Arora",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad12",
+          "name": "Sanchit Gandhi",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad13",
+          "name": "Sandeep Subramanian",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad14",
+          "name": "Soham Ghosh",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad15",
+          "name": "Srijan Mishra",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad16",
+          "name": "Abhinav Rastogi",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad17",
+          "name": "Alan Jeffares",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad18",
+          "name": "Albert Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad19",
+          "name": "Alexandre Sablayrolles",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad1a",
+          "name": "Amélie Héliou",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad1b",
+          "name": "Andrew Bai",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad1c",
+          "name": "Angele Lenglemetz",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad1d",
+          "name": "Anmol Agarwal",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad1e",
+          "name": "Anton Eliseev",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad1f",
+          "name": "Antonia Calvi",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad20",
+          "name": "Arjun Majumdar",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad21",
+          "name": "Baptiste Bout",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad22",
+          "name": "Baptiste Rozière",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad23",
+          "name": "Baudouin De Monicault",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad24",
+          "name": "Benjamin Tibi",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad25",
+          "name": "Clémence Lanfranchi",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad26",
+          "name": "Connor Chen",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad27",
+          "name": "Corentin Barreau",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad28",
+          "name": "Corentin Sautier",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad29",
+          "name": "Cyprien Courtot",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad2a",
+          "name": "Darius Dabert",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad2b",
+          "name": "Diego de las Casas",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad2c",
+          "name": "Elliot Chane-Sane",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad2d",
+          "name": "Enguerrand Paquin",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad2e",
+          "name": "Faruk Ahmed",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad2f",
+          "name": "Federico Baldassarre",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad30",
+          "name": "Gabrielle Berrada",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad31",
+          "name": "Gaëtan Ecrepont",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad32",
+          "name": "Gauthier Guinet",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad33",
+          "name": "Genevieve Hayes",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad34",
+          "name": "Georgii Novikov",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad35",
+          "name": "Giada Pistilli",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad36",
+          "name": "Guillaume Martin",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad37",
+          "name": "Gunjan Dhanuka",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad38",
+          "name": "Gunshi Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad39",
+          "name": "Han Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad3a",
+          "name": "Indraneel Mukherjee",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad3b",
+          "name": "Irene Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad3c",
+          "name": "Jaeyoung Kim",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad3d",
+          "name": "Jan Ludziejewski",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad3e",
+          "name": "Jason Rute",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad3f",
+          "name": "Joachim Studnia",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad40",
+          "name": "John Harvill",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad41",
+          "name": "Jonas Amar",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad42",
+          "name": "Josselin Somerville Roberts",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad43",
+          "name": "Julien Tauran",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad44",
+          "name": "Karmesh Yadav",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad45",
+          "name": "Kartik Khandelwal",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad46",
+          "name": "Kush Jain",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad47",
+          "name": "Laurence Aitchison",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad48",
+          "name": "Léonard Blier",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad49",
+          "name": "Lingxiao Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad4a",
+          "name": "Louis Martin",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad4b",
+          "name": "Lucile Saulnier",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad4c",
+          "name": "Luyu Gao",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad4d",
+          "name": "Maarten Buyl",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad4e",
+          "name": "Manan Sharma",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad4f",
+          "name": "Margaret Jennings",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad50",
+          "name": "Marie Pellat",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad51",
+          "name": "Mark Prins",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad52",
+          "name": "Mathieu Poirée",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad53",
+          "name": "Mathilde Guillaumin",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad54",
+          "name": "Matthieu Dinot",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad55",
+          "name": "Matthieu Futeral",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad56",
+          "name": "Maxime Darrin",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad57",
+          "name": "Maximilian Augustin",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad58",
+          "name": "Mert Unsal",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad59",
+          "name": "Mia Chiquier",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad5a",
+          "name": "Nathan Grinsztajn",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad5b",
+          "name": "Neha Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad5c",
+          "name": "Olivier Bousquet",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad5d",
+          "name": "Olivier Duchenne",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad5e",
+          "name": "Patricia Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad5f",
+          "name": "Paul Jacob",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad60",
+          "name": "Paul Wambergue",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad61",
+          "name": "Paula Kurylowicz",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad62",
+          "name": "Philomène Chagniot",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad63",
+          "name": "Pierre Stock",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad64",
+          "name": "Piotr Miłoś",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad65",
+          "name": "Prateek Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad66",
+          "name": "Pravesh Agrawal",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad67",
+          "name": "Quentin Torroba",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad68",
+          "name": "Ram Ramrakhya",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad69",
+          "name": "Rishi Shah",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad6a",
+          "name": "Romain Sauvestre",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad6b",
+          "name": "Roman Soletskyi",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad6c",
+          "name": "Rosalie Millner",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad6d",
+          "name": "Sagar Vaze",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad6e",
+          "name": "Samuel Humeau",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad6f",
+          "name": "Siddharth Gandhi",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad70",
+          "name": "Sumukh Aithal",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad71",
+          "name": "Szymon Antoniak",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad72",
+          "name": "Teven Le Scao",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad73",
+          "name": "Théo Cachet",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad74",
+          "name": "Theo Simon Sorg",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad75",
+          "name": "Thibaut Lavril",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad76",
+          "name": "Thomas Chabal",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad77",
+          "name": "Thomas Foubert",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad78",
+          "name": "Thomas Robert",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad79",
+          "name": "Thomas Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad7a",
+          "name": "Tim Lawson",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad7b",
+          "name": "Tom Bewley",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad7c",
+          "name": "Tom Edwards",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad7d",
+          "name": "Tyler Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad7e",
+          "name": "Valeriia Nemychnikova",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad7f",
+          "name": "Van Phung",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad80",
+          "name": "Vedant Nanda",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad81",
+          "name": "Victor Jouault",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad82",
+          "name": "Virgile Richard",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad83",
+          "name": "Vladislav Bataev",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad84",
+          "name": "Wassim Bouaziz",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad85",
+          "name": "Wen-Ding Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad86",
+          "name": "William Marshall",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad87",
+          "name": "Xinghui Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad88",
+          "name": "Xingran Guo",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad89",
+          "name": "Xinyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad8a",
+          "name": "Yannic Neuhaus",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad8b",
+          "name": "Yihan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad8c",
+          "name": "Zaccharie Ramzi",
+          "hidden": false
+        },
+        {
+          "_id": "698e94cacace060ff123ad8d",
+          "name": "Zhenlin Xu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-11T19:17:10.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:34:54.682Z",
+      "title": "Voxtral Realtime",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce Voxtral Realtime, a natively streaming automatic speech recognition model that matches offline transcription quality at sub-second latency. Unlike approaches that adapt offline models through chunking or sliding windows, Voxtral Realtime is trained end-to-end for streaming, with explicit alignment between audio and text streams. Our architecture builds on the Delayed Streams Modeling framework, introducing a new causal audio encoder and Ada RMS-Norm for improved delay conditioning. We scale pretraining to a large-scale dataset spanning 13 languages. At a delay of 480ms, Voxtral Realtime achieves performance on par with Whisper, the most widely deployed offline transcription system. We release the model weights under the Apache 2.0 license.",
+      "upvotes": 2,
+      "discussionId": "698e94cacace060ff123ad8e",
+      "projectPage": "https://mistral.ai/news/voxtral-transcribe-2",
+      "ai_summary": "Voxtral Realtime is a streaming speech recognition model trained end-to-end for sub-second latency with performance matching offline systems.",
+      "ai_keywords": [
+        "automatic speech recognition",
+        "streaming",
+        "end-to-end training",
+        "causal audio encoder",
+        "Ada RMS-Norm",
+        "Delayed Streams Modeling",
+        "pretraining",
+        "large-scale dataset",
+        "latency",
+        "alignment"
+      ],
+      "organization": {
+        "_id": "64edf4004f42c35eea1b1632",
+        "name": "mistralai",
+        "fullname": "Mistral AI_",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png"
+      }
+    },
+    "publishedAt": "2026-02-11T14:17:10.000Z",
+    "title": "Voxtral Realtime",
+    "summary": "We introduce Voxtral Realtime, a natively streaming automatic speech recognition model that matches offline transcription quality at sub-second latency. Unlike approaches that adapt offline models through chunking or sliding windows, Voxtral Realtime is trained end-to-end for streaming, with explicit alignment between audio and text streams. Our architecture builds on the Delayed Streams Modeling framework, introducing a new causal audio encoder and Ada RMS-Norm for improved delay conditioning. We scale pretraining to a large-scale dataset spanning 13 languages. At a delay of 480ms, Voxtral Realtime achieves performance on par with Whisper, the most widely deployed offline transcription system. We release the model weights under the Apache 2.0 license.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.11298.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 230,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "name": "mistralai",
+      "fullname": "Mistral AI_",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.08194",
+      "authors": [
+        {
+          "_id": "698e2bc1cace060ff123ab84",
+          "user": {
+            "_id": "67ab6e798f8b45f100fd1a61",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/HA3mwJWthvIKBizC-PfZN.png",
+            "isPro": false,
+            "fullname": "Konstantinos Mitsides",
+            "user": "kmitsides",
+            "type": "user"
+          },
+          "name": "Konstantinos Mitsides",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-12T20:22:43.876Z",
+          "hidden": false
+        },
+        {
+          "_id": "698e2bc1cace060ff123ab85",
+          "name": "Maxence Faldor",
+          "hidden": false
+        },
+        {
+          "_id": "698e2bc1cace060ff123ab86",
+          "name": "Antoine Cully",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/67ab6e798f8b45f100fd1a61/wvhX89LfF8A34qtgeGtC7.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/67ab6e798f8b45f100fd1a61/414Kd8ujb5smeuM53HIWG.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/67ab6e798f8b45f100fd1a61/Gm1iXRYJNSYln1w7G_wj2.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/67ab6e798f8b45f100fd1a61/jNdBH2xk9BrY9C3ZrZJZ5.png"
+      ],
+      "publishedAt": "2026-02-09T01:24:40.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:20:05.164Z",
+      "title": "Dreaming in Code for Curriculum Learning in Open-Ended Worlds",
+      "submittedOnDailyBy": {
+        "_id": "67ab6e798f8b45f100fd1a61",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/HA3mwJWthvIKBizC-PfZN.png",
+        "isPro": false,
+        "fullname": "Konstantinos Mitsides",
+        "user": "kmitsides",
+        "type": "user"
+      },
+      "summary": "Open-ended learning frames intelligence as emerging from continual interaction with an ever-expanding space of environments. While recent advances have utilized foundation models to programmatically generate diverse environments, these approaches often focus on discovering isolated behaviors rather than orchestrating sustained progression. In complex open-ended worlds, the large combinatorial space of possible challenges makes it difficult for agents to discover sequences of experiences that remain consistently learnable. To address this, we propose Dreaming in Code (DiCode), a framework in which foundation models synthesize executable environment code to scaffold learning toward increasing competence. In DiCode, \"dreaming\" takes the form of materializing code-level variations of the world. We instantiate DiCode in Craftax, a challenging open-ended benchmark characterized by rich mechanics and long-horizon progression. Empirically, DiCode enables agents to acquire long-horizon skills, achieving a 16% improvement in mean return over the strongest baseline and non-zero success on late-game combat tasks where prior methods fail. Our results suggest that code-level environment design provides a practical mechanism for curriculum control, enabling the construction of intermediate environments that bridge competence gaps in open-ended worlds. Project page and source code are available at https://konstantinosmitsides.github.io/dreaming-in-code and https://github.com/konstantinosmitsides/dreaming-in-code.",
+      "upvotes": 2,
+      "discussionId": "698e2bc1cace060ff123ab87",
+      "projectPage": "https://konstantinosmitsides.github.io/dreaming-in-code",
+      "githubRepo": "https://github.com/konstantinosmitsides/dreaming-in-code",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Foundation models generate executable environment code to scaffold learning progress in open-ended worlds, enabling agents to acquire long-horizon skills through curriculum control.",
+      "ai_keywords": [
+        "foundation models",
+        "open-ended learning",
+        "environment synthesis",
+        "curriculum control",
+        "long-horizon progression",
+        "skill acquisition"
+      ],
+      "githubStars": 0,
+      "organization": {
+        "_id": "650987fc2feb9570c5137ac2",
+        "name": "ImperialCollegeLondon",
+        "fullname": "Imperial College London",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/630ca0817dacb93b33506ce7/u6ceSXXV6ldtt0qZOOMJw.jpeg"
+      }
+    },
+    "publishedAt": "2026-02-08T20:24:40.000Z",
+    "title": "Dreaming in Code for Curriculum Learning in Open-Ended Worlds",
+    "summary": "Open-ended learning frames intelligence as emerging from continual interaction with an ever-expanding space of environments. While recent advances have utilized foundation models to programmatically generate diverse environments, these approaches often focus on discovering isolated behaviors rather than orchestrating sustained progression. In complex open-ended worlds, the large combinatorial space of possible challenges makes it difficult for agents to discover sequences of experiences that remain consistently learnable. To address this, we propose Dreaming in Code (DiCode), a framework in which foundation models synthesize executable environment code to scaffold learning toward increasing competence. In DiCode, \"dreaming\" takes the form of materializing code-level variations of the world. We instantiate DiCode in Craftax, a challenging open-ended benchmark characterized by rich mechanics and long-horizon progression. Empirically, DiCode enables agents to acquire long-horizon skills, achieving a 16% improvement in mean return over the strongest baseline and non-zero success on late-game combat tasks where prior methods fail. Our results suggest that code-level environment design provides a practical mechanism for curriculum control, enabling the construction of intermediate environments that bridge competence gaps in open-ended worlds. Project page and source code are available at https://konstantinosmitsides.github.io/dreaming-in-code and https://github.com/konstantinosmitsides/dreaming-in-code.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/67ab6e798f8b45f100fd1a61/wvhX89LfF8A34qtgeGtC7.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/67ab6e798f8b45f100fd1a61/414Kd8ujb5smeuM53HIWG.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/67ab6e798f8b45f100fd1a61/Gm1iXRYJNSYln1w7G_wj2.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/67ab6e798f8b45f100fd1a61/jNdBH2xk9BrY9C3ZrZJZ5.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.08194.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67ab6e798f8b45f100fd1a61",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/HA3mwJWthvIKBizC-PfZN.png",
+      "fullname": "Konstantinos Mitsides",
+      "name": "kmitsides",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "650987fc2feb9570c5137ac2",
+      "name": "ImperialCollegeLondon",
+      "fullname": "Imperial College London",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/630ca0817dacb93b33506ce7/u6ceSXXV6ldtt0qZOOMJw.jpeg"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.11683",
+      "authors": [
+        {
+          "_id": "698e905bcace060ff123ac79",
+          "name": "Xin Xu",
+          "hidden": false
+        },
+        {
+          "_id": "698e905bcace060ff123ac7a",
+          "name": "Tong Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698e905bcace060ff123ac7b",
+          "name": "Xiang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "698e905bcace060ff123ac7c",
+          "name": "Haoliang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e905bcace060ff123ac7d",
+          "name": "Julian McAuley",
+          "hidden": false
+        },
+        {
+          "_id": "698e905bcace060ff123ac7e",
+          "name": "Saayan Mitra",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-12T08:01:01.000Z",
+      "submittedOnDailyAt": "2026-02-13T01:01:30.987Z",
+      "title": "ThinkRouter: Efficient Reasoning via Routing Thinking between Latent and Discrete Spaces",
+      "submittedOnDailyBy": {
+        "_id": "6190ab805ca89a28e9f66873",
+        "avatarUrl": "/avatars/3c7ecc398fbf851acd2a132e947a92be.svg",
+        "isPro": false,
+        "fullname": "Xin Xu",
+        "user": "XinXuNLPer",
+        "type": "user"
+      },
+      "summary": "Recent work explores latent reasoning to improve reasoning efficiency by replacing explicit reasoning trajectories with continuous representations in a latent space, yet its effectiveness varies across settings. Analysis of model confidence dynamics under latent reasoning reveals that thinking trajectories ending in incorrect answers contain fewer low-confidence steps than those ending in correct answers. Meanwhile, we suggest that soft embeddings aggregated by multiple low-confidence thinking alternatives may introduce and propagate noise, leading to high confidence in unreliable reasoning trajectories. Motivated by these observations, ThinkRouter, an inference-time confidence-aware routing mechanism is proposed to avoid high confidence and noise for efficient reasoning. ThinkRouter routes thinking to the discrete token space when model confidence is low, and to the latent space otherwise. Extensive experiments on STEM reasoning and coding benchmarks across diverse large reasoning models demonstrate that ThinkRouter outperforms explicit CoT, random routing, and latent reasoning baselines in terms of accuracy, achieving an average improvement of 19.70 points in Pass@1, while reducing generation length by up to 15.55%. Further comprehensive analysis reveals that ThinkRouter can calibrate errors arising from explicit CoT and latent reasoning, and accelerates end-of-thinking token generation by globally lowering model confidence.",
+      "upvotes": 1,
+      "discussionId": "698e905bcace060ff123ac7f",
+      "ai_summary": "ThinkRouter is a confidence-aware routing mechanism that improves reasoning efficiency by switching between discrete token and latent spaces based on model confidence, achieving better accuracy and faster generation.",
+      "ai_keywords": [
+        "latent reasoning",
+        "continuous representations",
+        "latent space",
+        "discrete token space",
+        "model confidence",
+        "thinking trajectories",
+        "soft embeddings",
+        "reasoning efficiency",
+        "inference-time routing",
+        "ThinkRouter",
+        "Pass@1",
+        "explicit CoT",
+        "latent reasoning baselines"
+      ]
+    },
+    "publishedAt": "2026-02-12T03:01:01.000Z",
+    "title": "ThinkRouter: Efficient Reasoning via Routing Thinking between Latent and Discrete Spaces",
+    "summary": "Recent work explores latent reasoning to improve reasoning efficiency by replacing explicit reasoning trajectories with continuous representations in a latent space, yet its effectiveness varies across settings. Analysis of model confidence dynamics under latent reasoning reveals that thinking trajectories ending in incorrect answers contain fewer low-confidence steps than those ending in correct answers. Meanwhile, we suggest that soft embeddings aggregated by multiple low-confidence thinking alternatives may introduce and propagate noise, leading to high confidence in unreliable reasoning trajectories. Motivated by these observations, ThinkRouter, an inference-time confidence-aware routing mechanism is proposed to avoid high confidence and noise for efficient reasoning. ThinkRouter routes thinking to the discrete token space when model confidence is low, and to the latent space otherwise. Extensive experiments on STEM reasoning and coding benchmarks across diverse large reasoning models demonstrate that ThinkRouter outperforms explicit CoT, random routing, and latent reasoning baselines in terms of accuracy, achieving an average improvement of 19.70 points in Pass@1, while reducing generation length by up to 15.55%. Further comprehensive analysis reveals that ThinkRouter can calibrate errors arising from explicit CoT and latent reasoning, and accelerates end-of-thinking token generation by globally lowering model confidence.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.11683.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6190ab805ca89a28e9f66873",
+      "avatarUrl": "/avatars/3c7ecc398fbf851acd2a132e947a92be.svg",
+      "fullname": "Xin Xu",
+      "name": "XinXuNLPer",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.11636",
+      "authors": [
+        {
+          "_id": "698e9502cace060ff123ad90",
+          "name": "Changti Wu",
+          "hidden": false
+        },
+        {
+          "_id": "698e9502cace060ff123ad91",
+          "name": "Jiahuai Mao",
+          "hidden": false
+        },
+        {
+          "_id": "698e9502cace060ff123ad92",
+          "name": "Yuzhuo Miao",
+          "hidden": false
+        },
+        {
+          "_id": "698e9502cace060ff123ad93",
+          "name": "Shijie Lian",
+          "hidden": false
+        },
+        {
+          "_id": "698e9502cace060ff123ad94",
+          "name": "Bin Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698e9502cace060ff123ad95",
+          "name": "Xiaopeng Lin",
+          "hidden": false
+        },
+        {
+          "_id": "698e9502cace060ff123ad96",
+          "name": "Cong Huang",
+          "hidden": false
+        },
+        {
+          "_id": "698e9502cace060ff123ad97",
+          "name": "Lei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e9502cace060ff123ad98",
+          "name": "Kai Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-12T06:38:49.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:36:06.374Z",
+      "title": "ScalSelect: Scalable Training-Free Multimodal Data Selection for Efficient Visual Instruction Tuning",
+      "submittedOnDailyBy": {
+        "_id": "67b55e66d454cc4d10d21cfd",
+        "avatarUrl": "/avatars/3b18014fa7e603a5940175896f89372a.svg",
+        "isPro": false,
+        "fullname": "Changti Wu",
+        "user": "MaplesWCT",
+        "type": "user"
+      },
+      "summary": "Large-scale Visual Instruction Tuning (VIT) has become a key paradigm for advancing the performance of vision-language models (VLMs) across various multimodal tasks. However, training on the large-scale datasets is computationally expensive and inefficient due to redundancy in the data, which motivates the need for multimodal data selection to improve training efficiency. Existing data selection methods for VIT either require costly training or gradient computation. Training-free alternatives often depend on proxy models or datasets, instruction-agnostic representations, and pairwise similarity with quadratic complexity, limiting scalability and representation fidelity. In this work, we propose ScalSelect, a scalable training-free multimodal data selection method with linear-time complexity with respect to the number of samples, eliminating the need for external models or auxiliary datasets. ScalSelect first constructs sample representations by extracting visual features most attended by instruction tokens in the target VLM, capturing instruction-relevant information. It then identifies samples whose representations best approximate the dominant subspace of the full dataset representations, enabling scalable importance scoring without pairwise comparisons. Extensive experiments across multiple VLMs, datasets, and selection budgets demonstrate that ScalSelect achieves over 97.5% of the performance of training on the full dataset using only 16% of the data, and even outperforms full-data training in some settings. The code is available at https://github.com/ChangtiWu/ScalSelect{ScalSelect}.",
+      "upvotes": 1,
+      "discussionId": "698e9502cace060ff123ad99",
+      "githubRepo": "https://github.com/ChangtiWu/ScalSelect",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "ScalSelect is a scalable training-free method for selecting representative multimodal data that achieves near-full-dataset performance with significantly reduced computational requirements.",
+      "ai_keywords": [
+        "vision-language models",
+        "data selection",
+        "training-free",
+        "linear-time complexity",
+        "visual features",
+        "instruction tokens",
+        "dominant subspace",
+        "importance scoring",
+        "multimodal data selection"
+      ],
+      "organization": {
+        "_id": "68896d3a716ee5bfb1428441",
+        "name": "ZGCA",
+        "fullname": "Zhongguancun Academy",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6854c3ab09a3ba7d16243875/aZ3tp3lZk1yQoXDwSklye.png"
+      }
+    },
+    "publishedAt": "2026-02-12T01:38:49.000Z",
+    "title": "ScalSelect: Scalable Training-Free Multimodal Data Selection for Efficient Visual Instruction Tuning",
+    "summary": "Large-scale Visual Instruction Tuning (VIT) has become a key paradigm for advancing the performance of vision-language models (VLMs) across various multimodal tasks. However, training on the large-scale datasets is computationally expensive and inefficient due to redundancy in the data, which motivates the need for multimodal data selection to improve training efficiency. Existing data selection methods for VIT either require costly training or gradient computation. Training-free alternatives often depend on proxy models or datasets, instruction-agnostic representations, and pairwise similarity with quadratic complexity, limiting scalability and representation fidelity. In this work, we propose ScalSelect, a scalable training-free multimodal data selection method with linear-time complexity with respect to the number of samples, eliminating the need for external models or auxiliary datasets. ScalSelect first constructs sample representations by extracting visual features most attended by instruction tokens in the target VLM, capturing instruction-relevant information. It then identifies samples whose representations best approximate the dominant subspace of the full dataset representations, enabling scalable importance scoring without pairwise comparisons. Extensive experiments across multiple VLMs, datasets, and selection budgets demonstrate that ScalSelect achieves over 97.5% of the performance of training on the full dataset using only 16% of the data, and even outperforms full-data training in some settings. The code is available at https://github.com/ChangtiWu/ScalSelect{ScalSelect}.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.11636.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67b55e66d454cc4d10d21cfd",
+      "avatarUrl": "/avatars/3b18014fa7e603a5940175896f89372a.svg",
+      "fullname": "Changti Wu",
+      "name": "MaplesWCT",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68896d3a716ee5bfb1428441",
+      "name": "ZGCA",
+      "fullname": "Zhongguancun Academy",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6854c3ab09a3ba7d16243875/aZ3tp3lZk1yQoXDwSklye.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.11541",
+      "authors": [
+        {
+          "_id": "698e8b35cace060ff123ac03",
+          "name": "Hanbing Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8b35cace060ff123ac04",
+          "name": "Chunhao Tian",
+          "hidden": false
+        },
+        {
+          "_id": "698e8b35cace060ff123ac05",
+          "name": "Nan An",
+          "hidden": false
+        },
+        {
+          "_id": "698e8b35cace060ff123ac06",
+          "name": "Ziyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e8b35cace060ff123ac07",
+          "name": "Pinyan Lu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8b35cace060ff123ac08",
+          "name": "Changyuan Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698e8b35cace060ff123ac09",
+          "name": "Qi Qi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-12T04:01:30.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:05:48.943Z",
+      "title": "Budget-Constrained Agentic Large Language Models: Intention-Based Planning for Costly Tool Use",
+      "submittedOnDailyBy": {
+        "_id": "643f6c06b410b176e9a1bb76",
+        "avatarUrl": "/avatars/3827c219a557e0b0ff5f51b04f28b0b4.svg",
+        "isPro": false,
+        "fullname": "HanbingLiu",
+        "user": "leolhb",
+        "type": "user"
+      },
+      "summary": "We study budget-constrained tool-augmented agents, where a large language model must solve multi-step tasks by invoking external tools under a strict monetary budget. We formalize this setting as sequential decision making in context space with priced and stochastic tool executions, making direct planning intractable due to massive state-action spaces, high variance of outcomes and prohibitive exploration cost. To address these challenges, we propose INTENT, an inference-time planning framework that leverages an intention-aware hierarchical world model to anticipate future tool usage, risk-calibrated cost, and guide decisions online. Across cost-augmented StableToolBench, INTENT strictly enforces hard budget feasibility while substantially improving task success over baselines, and remains robust under dynamic market shifts such as tool price changes and varying budgets.",
+      "upvotes": 1,
+      "discussionId": "698e8b36cace060ff123ac0a",
+      "ai_summary": "Budget-constrained tool-augmented agents use a hierarchical world model and intent-aware planning to optimize multi-step task completion under monetary constraints.",
+      "ai_keywords": [
+        "tool-augmented agents",
+        "large language model",
+        "sequential decision making",
+        "context space",
+        "stochastic tool executions",
+        "planning",
+        "hierarchical world model",
+        "risk-calibrated cost"
+      ],
+      "organization": {
+        "_id": "622177ac43826d6f261f8208",
+        "name": "RUC",
+        "fullname": "Renmin University of China",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+      }
+    },
+    "publishedAt": "2026-02-11T23:01:30.000Z",
+    "title": "Budget-Constrained Agentic Large Language Models: Intention-Based Planning for Costly Tool Use",
+    "summary": "We study budget-constrained tool-augmented agents, where a large language model must solve multi-step tasks by invoking external tools under a strict monetary budget. We formalize this setting as sequential decision making in context space with priced and stochastic tool executions, making direct planning intractable due to massive state-action spaces, high variance of outcomes and prohibitive exploration cost. To address these challenges, we propose INTENT, an inference-time planning framework that leverages an intention-aware hierarchical world model to anticipate future tool usage, risk-calibrated cost, and guide decisions online. Across cost-augmented StableToolBench, INTENT strictly enforces hard budget feasibility while substantially improving task success over baselines, and remains robust under dynamic market shifts such as tool price changes and varying budgets.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.11541.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643f6c06b410b176e9a1bb76",
+      "avatarUrl": "/avatars/3827c219a557e0b0ff5f51b04f28b0b4.svg",
+      "fullname": "HanbingLiu",
+      "name": "leolhb",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "622177ac43826d6f261f8208",
+      "name": "RUC",
+      "fullname": "Renmin University of China",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.11337",
+      "authors": [
+        {
+          "_id": "698e9615cace060ff123adc9",
+          "name": "Yejin Kim",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123adca",
+          "name": "Wilbert Pumacay",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123adcb",
+          "name": "Omar Rayyan",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123adcc",
+          "name": "Max Argus",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123adcd",
+          "name": "Winson Han",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123adce",
+          "name": "Eli VanderBilt",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123adcf",
+          "name": "Jordi Salvador",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add0",
+          "name": "Abhay Deshpande",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add1",
+          "name": "Rose Hendrix",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add2",
+          "name": "Snehal Jauhri",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add3",
+          "name": "Shuo Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add4",
+          "name": "Nur Muhammad Mahi Shafiullah",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add5",
+          "name": "Maya Guru",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add6",
+          "name": "Ainaz Eftekhar",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add7",
+          "name": "Karen Farley",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add8",
+          "name": "Donovan Clay",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123add9",
+          "name": "Jiafei Duan",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123adda",
+          "name": "Arjun Guru",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123addb",
+          "name": "Piper Wolters",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123addc",
+          "name": "Alvaro Herrasti",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123addd",
+          "name": "Ying-Chun Lee",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123adde",
+          "name": "Georgia Chalvatzaki",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123addf",
+          "name": "Yuchen Cui",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123ade0",
+          "name": "Ali Farhadi",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123ade1",
+          "name": "Dieter Fox",
+          "hidden": false
+        },
+        {
+          "_id": "698e9615cace060ff123ade2",
+          "name": "Ranjay Krishna",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/Yxr-Vb4IoaqDv5GexlM2t.mp4"
+      ],
+      "publishedAt": "2026-02-11T20:16:31.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:42:09.045Z",
+      "title": "MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Deploying robots at scale demands robustness to the long tail of everyday situations. The countless variations in scene layout, object geometry, and task specifications that characterize real environments are vast and underrepresented in existing robot benchmarks. Measuring this level of generalization requires infrastructure at a scale and diversity that physical evaluation alone cannot provide. We introduce MolmoSpaces, a fully open ecosystem to support large-scale benchmarking of robot policies. MolmoSpaces consists of over 230k diverse indoor environments, ranging from handcrafted household scenes to procedurally generated multiroom houses, populated with 130k richly annotated object assets, including 48k manipulable objects with 42M stable grasps. Crucially, these environments are simulator-agnostic, supporting popular options such as MuJoCo, Isaac, and ManiSkill. The ecosystem supports the full spectrum of embodied tasks: static and mobile manipulation, navigation, and multiroom long-horizon tasks requiring coordinated perception, planning, and interaction across entire indoor environments. We also design MolmoSpaces-Bench, a benchmark suite of 8 tasks in which robots interact with our diverse scenes and richly annotated objects. Our experiments show MolmoSpaces-Bench exhibits strong sim-to-real correlation (R = 0.96, ho = 0.98), confirm newer and stronger zero-shot policies outperform earlier versions in our benchmarks, and identify key sensitivities to prompt phrasing, initial joint positions, and camera occlusion. Through MolmoSpaces and its open-source assets and tooling, we provide a foundation for scalable data generation, policy training, and benchmark creation for robot learning research.",
+      "upvotes": 1,
+      "discussionId": "698e9616cace060ff123ade3",
+      "projectPage": "https://allenai.org/blog/molmospaces",
+      "githubRepo": "https://github.com/allenai/molmospaces",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "MolmoSpaces presents an open ecosystem with diverse indoor environments and annotated objects for large-scale robot policy benchmarking across multiple tasks and simulators.",
+      "ai_keywords": [
+        "robot policies",
+        "embodied tasks",
+        "sim-to-real correlation",
+        "zero-shot policies",
+        "prompt phrasing",
+        "initial joint positions",
+        "camera occlusion"
+      ],
+      "githubStars": 69,
+      "organization": {
+        "_id": "65e6310cc7738c6b88970c23",
+        "name": "ai21labs",
+        "fullname": "AI21",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67baf6e5489cb4dc98a4bff4/9Rkvk1VGhK1woxWvhqDyb.png"
+      }
+    },
+    "publishedAt": "2026-02-11T15:16:31.000Z",
+    "title": "MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation",
+    "summary": "Deploying robots at scale demands robustness to the long tail of everyday situations. The countless variations in scene layout, object geometry, and task specifications that characterize real environments are vast and underrepresented in existing robot benchmarks. Measuring this level of generalization requires infrastructure at a scale and diversity that physical evaluation alone cannot provide. We introduce MolmoSpaces, a fully open ecosystem to support large-scale benchmarking of robot policies. MolmoSpaces consists of over 230k diverse indoor environments, ranging from handcrafted household scenes to procedurally generated multiroom houses, populated with 130k richly annotated object assets, including 48k manipulable objects with 42M stable grasps. Crucially, these environments are simulator-agnostic, supporting popular options such as MuJoCo, Isaac, and ManiSkill. The ecosystem supports the full spectrum of embodied tasks: static and mobile manipulation, navigation, and multiroom long-horizon tasks requiring coordinated perception, planning, and interaction across entire indoor environments. We also design MolmoSpaces-Bench, a benchmark suite of 8 tasks in which robots interact with our diverse scenes and richly annotated objects. Our experiments show MolmoSpaces-Bench exhibits strong sim-to-real correlation (R = 0.96, ho = 0.98), confirm newer and stronger zero-shot policies outperform earlier versions in our benchmarks, and identify key sensitivities to prompt phrasing, initial joint positions, and camera occlusion. Through MolmoSpaces and its open-source assets and tooling, we provide a foundation for scalable data generation, policy training, and benchmark creation for robot learning research.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/Yxr-Vb4IoaqDv5GexlM2t.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.11337.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 230,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "65e6310cc7738c6b88970c23",
+      "name": "ai21labs",
+      "fullname": "AI21",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67baf6e5489cb4dc98a4bff4/9Rkvk1VGhK1woxWvhqDyb.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.11964",
+      "authors": [
+        {
+          "_id": "698e946fcace060ff123acee",
+          "name": "Romain Froger",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acef",
+          "name": "Pierre Andrews",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf0",
+          "name": "Matteo Bettini",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf1",
+          "name": "Amar Budhiraja",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf2",
+          "name": "Ricardo Silveira Cabral",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf3",
+          "name": "Virginie Do",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf4",
+          "name": "Emilien Garreau",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf5",
+          "name": "Jean-Baptiste Gaya",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf6",
+          "name": "Hugo Laurençon",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf7",
+          "name": "Maxime Lecanu",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf8",
+          "name": "Kunal Malkan",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acf9",
+          "name": "Dheeraj Mekala",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acfa",
+          "name": "Pierre Ménard",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acfb",
+          "name": "Gerard Moreno-Torres Bertran",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acfc",
+          "name": "Ulyana Piterbarg",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acfd",
+          "name": "Mikhail Plekhanov",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acfe",
+          "name": "Mathieu Rita",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123acff",
+          "name": "Andrey Rusakov",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123ad00",
+          "name": "Vladislav Vorotilov",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123ad01",
+          "name": "Mengjue Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123ad02",
+          "name": "Ian Yu",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123ad03",
+          "name": "Amine Benhalloum",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123ad04",
+          "name": "Grégoire Mialon",
+          "hidden": false
+        },
+        {
+          "_id": "698e946fcace060ff123ad05",
+          "name": "Thomas Scialom",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-12T13:58:27.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:33:23.603Z",
+      "title": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce Gaia2, a benchmark for evaluating large language model agents in realistic, asynchronous environments. Unlike prior static or synchronous evaluations, Gaia2 introduces scenarios where environments evolve independently of agent actions, requiring agents to operate under temporal constraints, adapt to noisy and dynamic events, resolve ambiguity, and collaborate with other agents. Each scenario is paired with a write-action verifier, enabling fine-grained, action-level evaluation and making Gaia2 directly usable for reinforcement learning from verifiable rewards. Our evaluation of state-of-the-art proprietary and open-source models shows that no model dominates across capabilities: GPT-5 (high) reaches the strongest overall score of 42% pass@1 but fails on time-sensitive tasks, Claude-4 Sonnet trades accuracy and speed for cost, Kimi-K2 leads among open-source models with 21% pass@1. These results highlight fundamental trade-offs between reasoning, efficiency, robustness, and expose challenges in closing the \"sim2real\" gap. Gaia2 is built on a consumer environment with the open-source Agents Research Environments platform and designed to be easy to extend. By releasing Gaia2 alongside the foundational ARE framework, we aim to provide the community with a flexible infrastructure for developing, benchmarking, and training the next generation of practical agent systems.",
+      "upvotes": 0,
+      "discussionId": "698e946fcace060ff123ad06",
+      "ai_summary": "Gaia2 presents a benchmark for evaluating large language model agents in asynchronous, dynamic environments with temporal constraints and multi-agent collaboration, featuring a write-action verifier for reinforcement learning and revealing trade-offs between reasoning, efficiency, and robustness.",
+      "ai_keywords": [
+        "large language model agents",
+        "asynchronous environments",
+        "temporal constraints",
+        "multi-agent collaboration",
+        "write-action verifier",
+        "reinforcement learning from verifiable rewards",
+        "pass@1",
+        "sim2real gap",
+        "Agents Research Environments platform"
+      ],
+      "organization": {
+        "_id": "66b54027408752ae16404b05",
+        "name": "metaresearch",
+        "fullname": "Meta Research",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66b25f3f58babfaeb76112dc/2GmiaF075AZ7BcE538oPk.png"
+      }
+    },
+    "publishedAt": "2026-02-12T08:58:27.000Z",
+    "title": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments",
+    "summary": "We introduce Gaia2, a benchmark for evaluating large language model agents in realistic, asynchronous environments. Unlike prior static or synchronous evaluations, Gaia2 introduces scenarios where environments evolve independently of agent actions, requiring agents to operate under temporal constraints, adapt to noisy and dynamic events, resolve ambiguity, and collaborate with other agents. Each scenario is paired with a write-action verifier, enabling fine-grained, action-level evaluation and making Gaia2 directly usable for reinforcement learning from verifiable rewards. Our evaluation of state-of-the-art proprietary and open-source models shows that no model dominates across capabilities: GPT-5 (high) reaches the strongest overall score of 42% pass@1 but fails on time-sensitive tasks, Claude-4 Sonnet trades accuracy and speed for cost, Kimi-K2 leads among open-source models with 21% pass@1. These results highlight fundamental trade-offs between reasoning, efficiency, robustness, and expose challenges in closing the \"sim2real\" gap. Gaia2 is built on a consumer environment with the open-source Agents Research Environments platform and designed to be easy to extend. By releasing Gaia2 alongside the foundational ARE framework, we aim to provide the community with a flexible infrastructure for developing, benchmarking, and training the next generation of practical agent systems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.11964.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 230,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "66b54027408752ae16404b05",
+      "name": "metaresearch",
+      "fullname": "Meta Research",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66b25f3f58babfaeb76112dc/2GmiaF075AZ7BcE538oPk.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.11761",
+      "authors": [
+        {
+          "_id": "698e93e8cace060ff123acbe",
+          "name": "MiniCPM Team",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acbf",
+          "name": "Wenhao An",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc0",
+          "name": "Yingfa Chen",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc1",
+          "name": "Yewei Fang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc2",
+          "name": "Jiayi Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc3",
+          "name": "Xin Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc4",
+          "name": "Yaohui Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc5",
+          "name": "Yishan Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc6",
+          "name": "Yuxuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc7",
+          "name": "Biyuan Lin",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc8",
+          "name": "Chuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acc9",
+          "name": "Hezi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acca",
+          "name": "Siyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123accb",
+          "name": "Hongya Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123accc",
+          "name": "Yinxu Pan",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123accd",
+          "name": "Shixin Ren",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acce",
+          "name": "Xingyu Shen",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123accf",
+          "name": "Zhou Su",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd0",
+          "name": "Haojun Sun",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd1",
+          "name": "Yangang Sun",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd2",
+          "name": "Zhen Leng Thai",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd3",
+          "name": "Xin Tian",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd4",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd5",
+          "name": "Xiaorong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd6",
+          "name": "Yudong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd7",
+          "name": "Bo Wu",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd8",
+          "name": "Xiaoyue Xu",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acd9",
+          "name": "Dong Xu",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acda",
+          "name": "Shuaikang Xue",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acdb",
+          "name": "Jiawei Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acdc",
+          "name": "Bowen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acdd",
+          "name": "Jinqian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acde",
+          "name": "Letian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acdf",
+          "name": "Shengnan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace0",
+          "name": "Xinyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace1",
+          "name": "Xinyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace2",
+          "name": "Zhu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace3",
+          "name": "Hengyu Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace4",
+          "name": "Jiacheng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace5",
+          "name": "Jie Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace6",
+          "name": "Zihan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace7",
+          "name": "Shuo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace8",
+          "name": "Chaojun Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123ace9",
+          "name": "Xu Han",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123acea",
+          "name": "Zhiyuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e93e8cace060ff123aceb",
+          "name": "Maosong Sun",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-12T09:37:05.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:30:57.943Z",
+      "title": "MiniCPM-SALA: Hybridizing Sparse and Linear Attention for Efficient Long-Context Modeling",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "The evolution of large language models (LLMs) towards applications with ultra-long contexts faces challenges posed by the high computational and memory costs of the Transformer architecture. While existing sparse and linear attention mechanisms attempt to mitigate these issues, they typically involve a trade-off between memory efficiency and model performance. This paper introduces MiniCPM-SALA, a 9B-parameter hybrid architecture that integrates the high-fidelity long-context modeling of sparse attention (InfLLM-V2) with the global efficiency of linear attention (Lightning Attention). By employing a layer selection algorithm to integrate these mechanisms in a 1:3 ratio and utilizing a hybrid positional encoding (HyPE), the model maintains efficiency and performance for long-context tasks. Furthermore, we introduce a cost-effective continual training framework that transforms pre-trained Transformer-based models into hybrid models, which reduces training costs by approximately 75% compared to training from scratch. Extensive experiments show that MiniCPM-SALA maintains general capabilities comparable to full-attention models while offering improved efficiency. On a single NVIDIA A6000D GPU, the model achieves up to 3.5x the inference speed of the full-attention model at the sequence length of 256K tokens and supports context lengths of up to 1M tokens, a scale where traditional full-attention 8B models fail because of memory constraints.",
+      "upvotes": 0,
+      "discussionId": "698e93e9cace060ff123acec",
+      "githubRepo": "https://github.com/OpenBMB/MiniCPM",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "MiniCPM-SALA combines sparse and linear attention mechanisms in a hybrid architecture to enable efficient processing of ultra-long contexts while maintaining model performance and reducing training costs.",
+      "ai_keywords": [
+        "large language models",
+        "Transformer architecture",
+        "sparse attention",
+        "linear attention",
+        "hybrid architecture",
+        "layer selection algorithm",
+        "hybrid positional encoding",
+        "continual training framework",
+        "inference speed",
+        "sequence length",
+        "token context"
+      ],
+      "githubStars": 8599,
+      "organization": {
+        "_id": "633fe81429b5a95f6e16e34a",
+        "name": "openbmb",
+        "fullname": "OpenBMB",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1670387859384-633fe7784b362488336bbfad.png"
+      }
+    },
+    "publishedAt": "2026-02-12T04:37:05.000Z",
+    "title": "MiniCPM-SALA: Hybridizing Sparse and Linear Attention for Efficient Long-Context Modeling",
+    "summary": "The evolution of large language models (LLMs) towards applications with ultra-long contexts faces challenges posed by the high computational and memory costs of the Transformer architecture. While existing sparse and linear attention mechanisms attempt to mitigate these issues, they typically involve a trade-off between memory efficiency and model performance. This paper introduces MiniCPM-SALA, a 9B-parameter hybrid architecture that integrates the high-fidelity long-context modeling of sparse attention (InfLLM-V2) with the global efficiency of linear attention (Lightning Attention). By employing a layer selection algorithm to integrate these mechanisms in a 1:3 ratio and utilizing a hybrid positional encoding (HyPE), the model maintains efficiency and performance for long-context tasks. Furthermore, we introduce a cost-effective continual training framework that transforms pre-trained Transformer-based models into hybrid models, which reduces training costs by approximately 75% compared to training from scratch. Extensive experiments show that MiniCPM-SALA maintains general capabilities comparable to full-attention models while offering improved efficiency. On a single NVIDIA A6000D GPU, the model achieves up to 3.5x the inference speed of the full-attention model at the sequence length of 256K tokens and supports context lengths of up to 1M tokens, a scale where traditional full-attention 8B models fail because of memory constraints.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.11761.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 230,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "633fe81429b5a95f6e16e34a",
+      "name": "openbmb",
+      "fullname": "OpenBMB",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1670387859384-633fe7784b362488336bbfad.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.11598",
+      "authors": [
+        {
+          "_id": "698e95e3cace060ff123ad9b",
+          "name": "Zedong Chu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ad9c",
+          "name": "Shichao Xie",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ad9d",
+          "name": "Xiaolong Wu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ad9e",
+          "name": "Yanfen Shen",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ad9f",
+          "name": "Minghua Luo",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada0",
+          "name": "Zhengbo Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada1",
+          "name": "Fei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada2",
+          "name": "Xiaoxu Leng",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada3",
+          "name": "Junjun Hu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada4",
+          "name": "Mingyang Yin",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada5",
+          "name": "Jia Lu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada6",
+          "name": "Yingnan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada7",
+          "name": "Kai Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada8",
+          "name": "Jiawei Han",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123ada9",
+          "name": "Xu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adaa",
+          "name": "Yanqing Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adab",
+          "name": "Yuxiang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adac",
+          "name": "Xin Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adad",
+          "name": "Yirong Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adae",
+          "name": "Ye He",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adaf",
+          "name": "Jiahang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb0",
+          "name": "Yang Cai",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb1",
+          "name": "Tianlin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb2",
+          "name": "Li Gao",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb3",
+          "name": "Liu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb4",
+          "name": "Mingchao Sun",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb5",
+          "name": "Fan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb6",
+          "name": "Chiyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb7",
+          "name": "Zhicheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb8",
+          "name": "Hongyu Pan",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adb9",
+          "name": "Honglin Han",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adba",
+          "name": "Zhining Gu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adbb",
+          "name": "Kuan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adbc",
+          "name": "Jianfang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adbd",
+          "name": "Di Jing",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adbe",
+          "name": "Zihao Guan",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adbf",
+          "name": "Wei Guo",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adc0",
+          "name": "Guoqing Liu",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adc1",
+          "name": "Di Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adc2",
+          "name": "Xiangpo Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adc3",
+          "name": "Menglin Yang",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adc4",
+          "name": "Hongguang Xing",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adc5",
+          "name": "Weiguo Li",
+          "hidden": false
+        },
+        {
+          "_id": "698e95e3cace060ff123adc6",
+          "name": "Mu Xu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/NSe-04vDg-XUwZ878OihA.mp4"
+      ],
+      "publishedAt": "2026-02-12T05:30:20.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:39:27.438Z",
+      "title": "ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Embodied navigation has long been fragmented by task-specific architectures. We introduce ABot-N0, a unified Vision-Language-Action (VLA) foundation model that achieves a ``Grand Unification'' across 5 core tasks: Point-Goal, Object-Goal, Instruction-Following, POI-Goal, and Person-Following. ABot-N0 utilizes a hierarchical ``Brain-Action'' architecture, pairing an LLM-based Cognitive Brain for semantic reasoning with a Flow Matching-based Action Expert for precise, continuous trajectory generation.\n  To support large-scale learning, we developed the ABot-N0 Data Engine, curating 16.9M expert trajectories and 5.0M reasoning samples across 7,802 high-fidelity 3D scenes (10.7 km^2). ABot-N0 achieves new SOTA performance across 7 benchmarks, significantly outperforming specialized models. Furthermore, our Agentic Navigation System integrates a planner with hierarchical topological memory, enabling robust, long-horizon missions in dynamic real-world environments.",
+      "upvotes": 0,
+      "discussionId": "698e95e4cace060ff123adc7",
+      "projectPage": "https://amap-cvlab.github.io/ABot-Navigation/ABot-N0/",
+      "githubRepo": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABot-N0",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A unified Vision-Language-Action model with a hierarchical architecture combining semantic reasoning and continuous trajectory generation achieves state-of-the-art performance across multiple embodied navigation tasks.",
+      "ai_keywords": [
+        "Vision-Language-Action",
+        "LLM-based Cognitive Brain",
+        "Flow Matching-based Action Expert",
+        "hierarchical architecture",
+        "embodied navigation",
+        "expert trajectories",
+        "3D scenes",
+        "Agentic Navigation System",
+        "hierarchical topological memory",
+        "long-horizon missions"
+      ],
+      "githubStars": 23
+    },
+    "publishedAt": "2026-02-12T00:30:20.000Z",
+    "title": "ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation",
+    "summary": "Embodied navigation has long been fragmented by task-specific architectures. We introduce ABot-N0, a unified Vision-Language-Action (VLA) foundation model that achieves a ``Grand Unification'' across 5 core tasks: Point-Goal, Object-Goal, Instruction-Following, POI-Goal, and Person-Following. ABot-N0 utilizes a hierarchical ``Brain-Action'' architecture, pairing an LLM-based Cognitive Brain for semantic reasoning with a Flow Matching-based Action Expert for precise, continuous trajectory generation.\n  To support large-scale learning, we developed the ABot-N0 Data Engine, curating 16.9M expert trajectories and 5.0M reasoning samples across 7,802 high-fidelity 3D scenes (10.7 km^2). ABot-N0 achieves new SOTA performance across 7 benchmarks, significantly outperforming specialized models. Furthermore, our Agentic Navigation System integrates a planner with hierarchical topological memory, enabling robust, long-horizon missions in dynamic real-world environments.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/NSe-04vDg-XUwZ878OihA.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.11598.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 230,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.10585",
+      "authors": [
+        {
+          "_id": "698e8cd0cace060ff123ac1f",
+          "name": "Guangzhi Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "698e8cd0cace060ff123ac20",
+          "name": "Sanchit Sinha",
+          "hidden": false
+        },
+        {
+          "_id": "698e8cd0cace060ff123ac21",
+          "name": "Aidong Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-11T07:19:25.000Z",
+      "submittedOnDailyAt": "2026-02-13T00:03:10.509Z",
+      "title": "Neural Additive Experts: Context-Gated Experts for Controllable Model Additivity",
+      "submittedOnDailyBy": {
+        "_id": "657e56d11e3e9c41a4a57d2c",
+        "avatarUrl": "/avatars/1a6e7cff2693e1523f87ad24f4529872.svg",
+        "isPro": false,
+        "fullname": "Guangzhi Xiong",
+        "user": "TeddyXGZ",
+        "type": "user"
+      },
+      "summary": "The trade-off between interpretability and accuracy remains a core challenge in machine learning. Standard Generalized Additive Models (GAMs) offer clear feature attributions but are often constrained by their strictly additive nature, which can limit predictive performance. Introducing feature interactions can boost accuracy yet may obscure individual feature contributions. To address these issues, we propose Neural Additive Experts (NAEs), a novel framework that seamlessly balances interpretability and accuracy. NAEs employ a mixture of experts framework, learning multiple specialized networks per feature, while a dynamic gating mechanism integrates information across features, thereby relaxing rigid additive constraints. Furthermore, we propose targeted regularization techniques to mitigate variance among expert predictions, facilitating a smooth transition from an exclusively additive model to one that captures intricate feature interactions while maintaining clarity in feature attributions. Our theoretical analysis and experiments on synthetic data illustrate the model's flexibility, and extensive evaluations on real-world datasets confirm that NAEs achieve an optimal balance between predictive accuracy and transparent, feature-level explanations. The code is available at https://github.com/Teddy-XiongGZ/NAE.",
+      "upvotes": 0,
+      "discussionId": "698e8cd0cace060ff123ac22",
+      "githubRepo": "https://github.com/Teddy-XiongGZ/NAE",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Neural Additive Experts combines multiple specialized networks with a dynamic gating mechanism to balance predictive accuracy and feature interpretability in machine learning models.",
+      "ai_keywords": [
+        "Generalized Additive Models",
+        "mixture of experts framework",
+        "neural networks",
+        "feature interactions",
+        "dynamic gating mechanism",
+        "targeted regularization",
+        "feature attributions",
+        "predictive accuracy"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2026-02-11T02:19:25.000Z",
+    "title": "Neural Additive Experts: Context-Gated Experts for Controllable Model Additivity",
+    "summary": "The trade-off between interpretability and accuracy remains a core challenge in machine learning. Standard Generalized Additive Models (GAMs) offer clear feature attributions but are often constrained by their strictly additive nature, which can limit predictive performance. Introducing feature interactions can boost accuracy yet may obscure individual feature contributions. To address these issues, we propose Neural Additive Experts (NAEs), a novel framework that seamlessly balances interpretability and accuracy. NAEs employ a mixture of experts framework, learning multiple specialized networks per feature, while a dynamic gating mechanism integrates information across features, thereby relaxing rigid additive constraints. Furthermore, we propose targeted regularization techniques to mitigate variance among expert predictions, facilitating a smooth transition from an exclusively additive model to one that captures intricate feature interactions while maintaining clarity in feature attributions. Our theoretical analysis and experiments on synthetic data illustrate the model's flexibility, and extensive evaluations on real-world datasets confirm that NAEs achieve an optimal balance between predictive accuracy and transparent, feature-level explanations. The code is available at https://github.com/Teddy-XiongGZ/NAE.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.10585.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "657e56d11e3e9c41a4a57d2c",
+      "avatarUrl": "/avatars/1a6e7cff2693e1523f87ad24f4529872.svg",
+      "fullname": "Guangzhi Xiong",
+      "name": "TeddyXGZ",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
