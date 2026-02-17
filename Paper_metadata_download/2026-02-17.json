@@ -1,0 +1,450 @@
+[
+  {
+    "paper": {
+      "id": "2602.14234",
+      "authors": [
+        {
+          "_id": "6993dd2150fb2c0be4783cfa",
+          "name": "Zheng Chu",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783cfb",
+          "name": "Xiao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783cfc",
+          "name": "Jack Hong",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783cfd",
+          "name": "Huiming Fan",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783cfe",
+          "name": "Yuqi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783cff",
+          "name": "Yue Yang",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783d00",
+          "name": "Guohai Xu",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783d01",
+          "name": "Chenxiao Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783d02",
+          "name": "Cheng Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783d03",
+          "name": "Shengchao Hu",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783d04",
+          "name": "Dongdong Kuang",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783d05",
+          "name": "Ming Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783d06",
+          "name": "Bing Qin",
+          "hidden": false
+        },
+        {
+          "_id": "6993dd2150fb2c0be4783d07",
+          "name": "Xing Yu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/647416300da364bd0d009d20/u9_Uoq5LuqIoPS71iQFsn.png"
+      ],
+      "publishedAt": "2026-02-15T17:04:46.000Z",
+      "submittedOnDailyAt": "2026-02-17T00:50:04.355Z",
+      "title": "REDSearcher: A Scalable and Cost-Efficient Framework for Long-Horizon Search Agents",
+      "submittedOnDailyBy": {
+        "_id": "647416300da364bd0d009d20",
+        "avatarUrl": "/avatars/0474223271835611522a4eb488816e28.svg",
+        "isPro": false,
+        "fullname": "Xiao Wang",
+        "user": "CherryDurian",
+        "type": "user"
+      },
+      "summary": "Large language models are transitioning from generalpurpose knowledge engines to realworld problem solvers, yet optimizing them for deep search tasks remains challenging. The central bottleneck lies in the extreme sparsity of highquality search trajectories and reward signals, arising from the difficulty of scalable longhorizon task construction and the high cost of interactionheavy rollouts involving external tool calls. To address these challenges, we propose REDSearcher, a unified framework that codesigns complex task synthesis, midtraining, and posttraining for scalable searchagent optimization. Specifically, REDSearcher introduces the following improvements: (1) We frame task synthesis as a dualconstrained optimization, where task difficulty is precisely governed by graph topology and evidence dispersion, allowing scalable generation of complex, highquality tasks. (2) We introduce toolaugmented queries to encourage proactive tool use rather than passive recall.(3) During midtraining, we strengthen core atomic capabilities knowledge, planning, and function calling substantially reducing the cost of collecting highquality trajectories for downstream training. (4) We build a local simulated environment that enables rapid, lowcost algorithmic iteration for reinforcement learning experiments. Across both textonly and multimodal searchagent benchmarks, our approach achieves stateoftheart performance. To facilitate future research on longhorizon search agents, we will release 10K highquality complex text search trajectories, 5K multimodal trajectories and 1K text RL query set, and together with code and model checkpoints.",
+      "upvotes": 3,
+      "discussionId": "6993dd2250fb2c0be4783d08",
+      "projectPage": "https://redsearchagent.github.io/index/",
+      "ai_summary": "REDSearcher presents a unified framework for optimizing search agents through improved task synthesis, tool-augmented queries, midtraining capability enhancement, and simulated environments to address challenges in long-horizon search tasks.",
+      "ai_keywords": [
+        "task synthesis",
+        "dual-constrained optimization",
+        "graph topology",
+        "evidence dispersion",
+        "tool-augmented queries",
+        "midtraining",
+        "atomic capabilities",
+        "knowledge",
+        "planning",
+        "function calling",
+        "local simulated environment",
+        "reinforcement learning",
+        "search agents",
+        "long-horizon tasks"
+      ],
+      "organization": {
+        "_id": "6312d9c3830f549852f8e500",
+        "name": "xiaohongshu",
+        "fullname": "Xiaohongshu"
+      }
+    },
+    "publishedAt": "2026-02-15T12:04:46.000Z",
+    "title": "REDSearcher: A Scalable and Cost-Efficient Framework for Long-Horizon Search Agents",
+    "summary": "Large language models are transitioning from generalpurpose knowledge engines to realworld problem solvers, yet optimizing them for deep search tasks remains challenging. The central bottleneck lies in the extreme sparsity of highquality search trajectories and reward signals, arising from the difficulty of scalable longhorizon task construction and the high cost of interactionheavy rollouts involving external tool calls. To address these challenges, we propose REDSearcher, a unified framework that codesigns complex task synthesis, midtraining, and posttraining for scalable searchagent optimization. Specifically, REDSearcher introduces the following improvements: (1) We frame task synthesis as a dualconstrained optimization, where task difficulty is precisely governed by graph topology and evidence dispersion, allowing scalable generation of complex, highquality tasks. (2) We introduce toolaugmented queries to encourage proactive tool use rather than passive recall.(3) During midtraining, we strengthen core atomic capabilities knowledge, planning, and function calling substantially reducing the cost of collecting highquality trajectories for downstream training. (4) We build a local simulated environment that enables rapid, lowcost algorithmic iteration for reinforcement learning experiments. Across both textonly and multimodal searchagent benchmarks, our approach achieves stateoftheart performance. To facilitate future research on longhorizon search agents, we will release 10K highquality complex text search trajectories, 5K multimodal trajectories and 1K text RL query set, and together with code and model checkpoints.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/647416300da364bd0d009d20/u9_Uoq5LuqIoPS71iQFsn.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.14234.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "647416300da364bd0d009d20",
+      "avatarUrl": "/avatars/0474223271835611522a4eb488816e28.svg",
+      "fullname": "Xiao Wang",
+      "name": "CherryDurian",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6312d9c3830f549852f8e500",
+      "name": "xiaohongshu",
+      "fullname": "Xiaohongshu"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.13823",
+      "authors": [
+        {
+          "_id": "6993db6a50fb2c0be4783ce8",
+          "name": "Haonan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6993db6a50fb2c0be4783ce9",
+          "name": "Yuji Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6993db6a50fb2c0be4783cea",
+          "name": "Yongjie Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6993db6a50fb2c0be4783ceb",
+          "name": "Xin Lu",
+          "hidden": false
+        },
+        {
+          "_id": "6993db6a50fb2c0be4783cec",
+          "name": "Wenyu Qin",
+          "hidden": false
+        },
+        {
+          "_id": "6993db6a50fb2c0be4783ced",
+          "name": "Meng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6993db6a50fb2c0be4783cee",
+          "name": "Pengfei Wan",
+          "hidden": false
+        },
+        {
+          "_id": "6993db6a50fb2c0be4783cef",
+          "name": "Yansong Tang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-14T15:35:03.000Z",
+      "submittedOnDailyAt": "2026-02-17T00:39:51.814Z",
+      "title": "Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings",
+      "submittedOnDailyBy": {
+        "_id": "659bb678e57c59004625c624",
+        "avatarUrl": "/avatars/32b395c3504acb1fe29cceb65508b351.svg",
+        "isPro": false,
+        "fullname": "Voyage_Wang",
+        "user": "VoyageWang",
+        "type": "user"
+      },
+      "summary": "Leveraging Multimodal Large Language Models (MLLMs) has become pivotal for advancing Universal Multimodal Embeddings (UME) in addressing diverse cross-modal tasks. Recent studies demonstrate that incorporating generative Chain-of-Thought (CoT) reasoning can substantially enhance task-specific representations compared to discriminative methods. However, the generated reasoning CoTs of existing generative embedding methods are limited to the textual analysis of queries and are irrelevant to the retrieval of the targets. To address these limitations, we propose a reasoning-driven UME framework that integrates Embedder-Guided Reinforcement Learning (EG-RL) to optimize the Reasoner to produce evidential Traceability CoT (T-CoT). Our key contributions are threefold: (1) We design an EG-RL framework where the Embedder provides explicit supervision to the Reasoner, ensuring the generated CoT traces are aligned with embedding tasks. (2) We introduce T-CoT, which extracts critical multimodal cues to focus on retrieval-relevant elements and provides multimodal inputs for the Embedder. (3) With limited computational resources, our framework outperforms the pioneering embedding model on both MMEB-V2 and UVRB benchmarks. The integration of multimodal evidence in structured reasoning, paired with retrieval-oriented alignment, effectively strengthens cross-modal semantic consistency and boosts the fine-grained matching capability of the model as well as the generalization across complex scenarios. Our work demonstrates that targeted reasoning optimization can significantly improve multimodal embedding quality, providing a practical and efficient solution for reasoning-driven UME development.",
+      "upvotes": 3,
+      "discussionId": "6993db6a50fb2c0be4783cf0",
+      "githubRepo": "https://github.com/ZoengHN/Embed-RL",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A reasoning-driven universal multimodal embedding framework integrates embedder-guided reinforcement learning with traceability chain-of-thought to enhance cross-modal semantic consistency and retrieval performance.",
+      "ai_keywords": [
+        "Multimodal Large Language Models",
+        "Universal Multimodal Embeddings",
+        "Chain-of-Thought reasoning",
+        "Embedder-Guided Reinforcement Learning",
+        "Reasoner",
+        "Traceability CoT",
+        "cross-modal tasks",
+        "multimodal cues",
+        "retrieval-oriented alignment",
+        "fine-grained matching"
+      ],
+      "githubStars": 1,
+      "organization": {
+        "_id": "628735cbc83a2d6ab8d14a66",
+        "name": "Tsinghua",
+        "fullname": "Tsinghua University"
+      }
+    },
+    "publishedAt": "2026-02-14T10:35:03.000Z",
+    "title": "Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings",
+    "summary": "Leveraging Multimodal Large Language Models (MLLMs) has become pivotal for advancing Universal Multimodal Embeddings (UME) in addressing diverse cross-modal tasks. Recent studies demonstrate that incorporating generative Chain-of-Thought (CoT) reasoning can substantially enhance task-specific representations compared to discriminative methods. However, the generated reasoning CoTs of existing generative embedding methods are limited to the textual analysis of queries and are irrelevant to the retrieval of the targets. To address these limitations, we propose a reasoning-driven UME framework that integrates Embedder-Guided Reinforcement Learning (EG-RL) to optimize the Reasoner to produce evidential Traceability CoT (T-CoT). Our key contributions are threefold: (1) We design an EG-RL framework where the Embedder provides explicit supervision to the Reasoner, ensuring the generated CoT traces are aligned with embedding tasks. (2) We introduce T-CoT, which extracts critical multimodal cues to focus on retrieval-relevant elements and provides multimodal inputs for the Embedder. (3) With limited computational resources, our framework outperforms the pioneering embedding model on both MMEB-V2 and UVRB benchmarks. The integration of multimodal evidence in structured reasoning, paired with retrieval-oriented alignment, effectively strengthens cross-modal semantic consistency and boosts the fine-grained matching capability of the model as well as the generalization across complex scenarios. Our work demonstrates that targeted reasoning optimization can significantly improve multimodal embedding quality, providing a practical and efficient solution for reasoning-driven UME development.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.13823.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "659bb678e57c59004625c624",
+      "avatarUrl": "/avatars/32b395c3504acb1fe29cceb65508b351.svg",
+      "fullname": "Voyage_Wang",
+      "name": "VoyageWang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "628735cbc83a2d6ab8d14a66",
+      "name": "Tsinghua",
+      "fullname": "Tsinghua University"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.14696",
+      "authors": [
+        {
+          "_id": "6993dfb650fb2c0be4783d0f",
+          "name": "Nihal V. Nayak",
+          "hidden": false
+        },
+        {
+          "_id": "6993dfb650fb2c0be4783d10",
+          "name": "Paula Rodriguez-Diaz",
+          "hidden": false
+        },
+        {
+          "_id": "6993dfb650fb2c0be4783d11",
+          "name": "Neha Hulkund",
+          "hidden": false
+        },
+        {
+          "_id": "6993dfb650fb2c0be4783d12",
+          "name": "Sara Beery",
+          "hidden": false
+        },
+        {
+          "_id": "6993dfb650fb2c0be4783d13",
+          "name": "David Alvarez-Melis",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-16T12:33:05.000Z",
+      "submittedOnDailyAt": "2026-02-17T00:57:37.305Z",
+      "title": "A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn't)",
+      "submittedOnDailyBy": {
+        "_id": "60d0e7ff0c9ba111563b81d7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60d0e7ff0c9ba111563b81d7/MudCH3WtpBIQGuodc7GND.jpeg",
+        "isPro": false,
+        "fullname": "Nihal Nayak",
+        "user": "nihalnayak",
+        "type": "user"
+      },
+      "summary": "Instruction fine-tuning of large language models (LLMs) often involves selecting a subset of instruction training data from a large candidate pool, using a small query set from the target task. Despite growing interest, the literature on targeted instruction selection remains fragmented and opaque: methods vary widely in selection budgets, often omit zero-shot baselines, and frequently entangle the contributions of key components. As a result, practitioners lack actionable guidance on selecting instructions for their target tasks. In this work, we aim to bring clarity to this landscape by disentangling and systematically analyzing the two core ingredients: data representation and selection algorithms. Our framework enables controlled comparisons across models, tasks, and budgets. We find that only gradient-based data representations choose subsets whose similarity to the query consistently predicts performance across datasets and models. While no single method dominates, gradient-based representations paired with a greedy round-robin selection algorithm tend to perform best on average at low budgets, but these benefits diminish at larger budgets. Finally, we unify several existing selection algorithms as forms of approximate distance minimization between the selected subset and the query set, and support this view with new generalization bounds. More broadly, our findings provide critical insights and a foundation for more principled data selection in LLM fine-tuning. The code is available at https://github.com/dcml-lab/targeted-instruction-selection.",
+      "upvotes": 0,
+      "discussionId": "6993dfb650fb2c0be4783d14",
+      "ai_summary": "Targeted instruction selection for LLM fine-tuning can be improved by systematically analyzing data representation and selection algorithms, with gradient-based representations and greedy round-robin selection performing best at low budgets.",
+      "ai_keywords": [
+        "instruction fine-tuning",
+        "large language models",
+        "data representation",
+        "selection algorithms",
+        "gradient-based representations",
+        "greedy round-robin selection",
+        "approximate distance minimization",
+        "generalization bounds"
+      ],
+      "organization": {
+        "_id": "68e5678a3f1c67fe1c5aadc7",
+        "name": "Harvard-DCML",
+        "fullname": "Harvard Data-Centric Machine Learning Group",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60d0e7ff0c9ba111563b81d7/bcJgV9xDfzZmsFI8uOTud.png"
+      }
+    },
+    "publishedAt": "2026-02-16T07:33:05.000Z",
+    "title": "A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn't)",
+    "summary": "Instruction fine-tuning of large language models (LLMs) often involves selecting a subset of instruction training data from a large candidate pool, using a small query set from the target task. Despite growing interest, the literature on targeted instruction selection remains fragmented and opaque: methods vary widely in selection budgets, often omit zero-shot baselines, and frequently entangle the contributions of key components. As a result, practitioners lack actionable guidance on selecting instructions for their target tasks. In this work, we aim to bring clarity to this landscape by disentangling and systematically analyzing the two core ingredients: data representation and selection algorithms. Our framework enables controlled comparisons across models, tasks, and budgets. We find that only gradient-based data representations choose subsets whose similarity to the query consistently predicts performance across datasets and models. While no single method dominates, gradient-based representations paired with a greedy round-robin selection algorithm tend to perform best on average at low budgets, but these benefits diminish at larger budgets. Finally, we unify several existing selection algorithms as forms of approximate distance minimization between the selected subset and the query set, and support this view with new generalization bounds. More broadly, our findings provide critical insights and a foundation for more principled data selection in LLM fine-tuning. The code is available at https://github.com/dcml-lab/targeted-instruction-selection.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.14696.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "60d0e7ff0c9ba111563b81d7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60d0e7ff0c9ba111563b81d7/MudCH3WtpBIQGuodc7GND.jpeg",
+      "fullname": "Nihal Nayak",
+      "name": "nihalnayak",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68e5678a3f1c67fe1c5aadc7",
+      "name": "Harvard-DCML",
+      "fullname": "Harvard Data-Centric Machine Learning Group",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60d0e7ff0c9ba111563b81d7/bcJgV9xDfzZmsFI8uOTud.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.14147",
+      "authors": [
+        {
+          "_id": "6993e08850fb2c0be4783d1a",
+          "name": "Shufan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6993e08850fb2c0be4783d1b",
+          "name": "Yuchen Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "6993e08850fb2c0be4783d1c",
+          "name": "Jiuxiang Gu",
+          "hidden": false
+        },
+        {
+          "_id": "6993e08850fb2c0be4783d1d",
+          "name": "Kangning Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6993e08850fb2c0be4783d1e",
+          "name": "Zhe Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6993e08850fb2c0be4783d1f",
+          "name": "Yongxin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6993e08850fb2c0be4783d20",
+          "name": "Molei Tao",
+          "hidden": false
+        },
+        {
+          "_id": "6993e08850fb2c0be4783d21",
+          "name": "Aditya Grover",
+          "hidden": false
+        },
+        {
+          "_id": "6993e08850fb2c0be4783d22",
+          "name": "Jason Kuen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-15T13:52:45.000Z",
+      "submittedOnDailyAt": "2026-02-17T00:59:50.962Z",
+      "title": "LaViDa-R1: Advancing Reasoning for Unified Multimodal Diffusion Language Models",
+      "submittedOnDailyBy": {
+        "_id": "6310531914aa81e1044363ed",
+        "avatarUrl": "/avatars/ae7767e591cb7199ea2f62d2db89fc7f.svg",
+        "isPro": false,
+        "fullname": "Shufan Li",
+        "user": "jacklishufan",
+        "type": "user"
+      },
+      "summary": "Diffusion language models (dLLMs) recently emerged as a promising alternative to auto-regressive LLMs. The latest works further extended it to multimodal understanding and generation tasks. In this work, we propose LaViDa-R1, a multimodal, general-purpose reasoning dLLM. Unlike existing works that build reasoning dLLMs through task-specific reinforcement learning, LaViDa-R1 incorporates diverse multimodal understanding and generation tasks in a unified manner. In particular, LaViDa-R1 is built with a novel unified post-training framework that seamlessly integrates supervised finetuning (SFT) and multi-task reinforcement learning (RL). It employs several novel training techniques, including answer-forcing, tree search, and complementary likelihood estimation, to enhance effectiveness and scalability. Extensive experiments demonstrate LaViDa-R1's strong performance on a wide range of multimodal tasks, including visual math reasoning, reason-intensive grounding, and image editing.",
+      "upvotes": 0,
+      "discussionId": "6993e08850fb2c0be4783d23",
+      "ai_summary": "LaViDa-R1 is a multimodal reasoning diffusion language model that unifies supervised fine-tuning and multi-task reinforcement learning with novel training techniques for enhanced performance across visual reasoning and generation tasks.",
+      "ai_keywords": [
+        "diffusion language models",
+        "multimodal understanding",
+        "multimodal generation",
+        "unified post-training framework",
+        "supervised fine-tuning",
+        "multi-task reinforcement learning",
+        "answer-forcing",
+        "tree search",
+        "complementary likelihood estimation",
+        "visual math reasoning",
+        "reason-intensive grounding",
+        "image editing"
+      ],
+      "organization": {
+        "_id": "61e5d14f77496de0a6d95c6b",
+        "name": "adobe",
+        "fullname": "Adobe",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1645217431826-61e35e517ac6b6d06cfa8081.png"
+      }
+    },
+    "publishedAt": "2026-02-15T08:52:45.000Z",
+    "title": "LaViDa-R1: Advancing Reasoning for Unified Multimodal Diffusion Language Models",
+    "summary": "Diffusion language models (dLLMs) recently emerged as a promising alternative to auto-regressive LLMs. The latest works further extended it to multimodal understanding and generation tasks. In this work, we propose LaViDa-R1, a multimodal, general-purpose reasoning dLLM. Unlike existing works that build reasoning dLLMs through task-specific reinforcement learning, LaViDa-R1 incorporates diverse multimodal understanding and generation tasks in a unified manner. In particular, LaViDa-R1 is built with a novel unified post-training framework that seamlessly integrates supervised finetuning (SFT) and multi-task reinforcement learning (RL). It employs several novel training techniques, including answer-forcing, tree search, and complementary likelihood estimation, to enhance effectiveness and scalability. Extensive experiments demonstrate LaViDa-R1's strong performance on a wide range of multimodal tasks, including visual math reasoning, reason-intensive grounding, and image editing.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.14147.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6310531914aa81e1044363ed",
+      "avatarUrl": "/avatars/ae7767e591cb7199ea2f62d2db89fc7f.svg",
+      "fullname": "Shufan Li",
+      "name": "jacklishufan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "61e5d14f77496de0a6d95c6b",
+      "name": "adobe",
+      "fullname": "Adobe",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1645217431826-61e35e517ac6b6d06cfa8081.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
