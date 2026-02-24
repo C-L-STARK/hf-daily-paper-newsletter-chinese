@@ -1,0 +1,228 @@
+[
+  {
+    "paper": {
+      "id": "2602.20161",
+      "authors": [
+        {
+          "_id": "699d14864e37ec6dfa1bc503",
+          "name": "Abdelrahman Shaker",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc504",
+          "name": "Ahmed Heakl",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc505",
+          "name": "Jaseel Muhammad",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc506",
+          "name": "Ritesh Thawkar",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc507",
+          "name": "Omkar Thawakar",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc508",
+          "name": "Senmao Li",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc509",
+          "name": "Hisham Cholakkal",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc50a",
+          "name": "Ian Reid",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc50b",
+          "name": "Eric P. Xing",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc50c",
+          "name": "Salman Khan",
+          "hidden": false
+        },
+        {
+          "_id": "699d14864e37ec6dfa1bc50d",
+          "name": "Fahad Shahbaz Khan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-23T18:59:58.000Z",
+      "submittedOnDailyAt": "2026-02-24T00:33:58.107Z",
+      "title": "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
+      "submittedOnDailyBy": {
+        "_id": "656864e12d73834278a8dea7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656864e12d73834278a8dea7/sfAWS2eyPtFHb_2GZIypp.jpeg",
+        "isPro": true,
+        "fullname": "Ahmed Heakl",
+        "user": "ahmedheakl",
+        "type": "user"
+      },
+      "summary": "Unified multimodal models can both understand and generate visual content within a single architecture. Existing models, however, remain data-hungry and too heavy for deployment on edge devices. We present Mobile-O, a compact vision-language-diffusion model that brings unified multimodal intelligence to a mobile device. Its core module, the Mobile Conditioning Projector (MCP), fuses vision-language features with a diffusion generator using depthwise-separable convolutions and layerwise alignment. This design enables efficient cross-modal conditioning with minimal computational cost. Trained on only a few million samples and post-trained in a novel quadruplet format (generation prompt, image, question, answer), Mobile-O jointly enhances both visual understanding and generation capabilities. Despite its efficiency, Mobile-O attains competitive or superior performance compared to other unified models, achieving 74% on GenEval and outperforming Show-O and JanusFlow by 5% and 11%, while running 6x and 11x faster, respectively. For visual understanding, Mobile-O surpasses them by 15.3% and 5.1% averaged across seven benchmarks. Running in only ~3s per 512x512 image on an iPhone, Mobile-O establishes the first practical framework for real-time unified multimodal understanding and generation on edge devices. We hope Mobile-O will ease future research in real-time unified multimodal intelligence running entirely on-device with no cloud dependency. Our code, models, datasets, and mobile application are publicly available at https://amshaker.github.io/Mobile-O/",
+      "upvotes": 2,
+      "discussionId": "699d14864e37ec6dfa1bc50e",
+      "projectPage": "https://amshaker.github.io/Mobile-O/",
+      "githubRepo": "https://github.com/Amshaker/Mobile-O",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A compact vision-language-diffusion model called Mobile-O enables efficient unified multimodal understanding and generation on mobile devices through specialized architecture design and optimized training methodology.",
+      "ai_keywords": [
+        "vision-language-diffusion model",
+        "Mobile Conditioning Projector",
+        "depthwise-separable convolutions",
+        "layerwise alignment",
+        "cross-modal conditioning",
+        "diffusion generator",
+        "unified multimodal intelligence",
+        "real-time processing",
+        "edge devices",
+        "visual understanding",
+        "visual generation"
+      ],
+      "githubStars": 3,
+      "organization": {
+        "_id": "61fb9e24dc607a42af5f193f",
+        "name": "MBZUAI",
+        "fullname": "Mohamed Bin Zayed University of Artificial Intelligence",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643879908583-603ab5664a944b99e81476e8.jpeg"
+      }
+    },
+    "publishedAt": "2026-02-23T13:59:58.000Z",
+    "title": "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
+    "summary": "Unified multimodal models can both understand and generate visual content within a single architecture. Existing models, however, remain data-hungry and too heavy for deployment on edge devices. We present Mobile-O, a compact vision-language-diffusion model that brings unified multimodal intelligence to a mobile device. Its core module, the Mobile Conditioning Projector (MCP), fuses vision-language features with a diffusion generator using depthwise-separable convolutions and layerwise alignment. This design enables efficient cross-modal conditioning with minimal computational cost. Trained on only a few million samples and post-trained in a novel quadruplet format (generation prompt, image, question, answer), Mobile-O jointly enhances both visual understanding and generation capabilities. Despite its efficiency, Mobile-O attains competitive or superior performance compared to other unified models, achieving 74% on GenEval and outperforming Show-O and JanusFlow by 5% and 11%, while running 6x and 11x faster, respectively. For visual understanding, Mobile-O surpasses them by 15.3% and 5.1% averaged across seven benchmarks. Running in only ~3s per 512x512 image on an iPhone, Mobile-O establishes the first practical framework for real-time unified multimodal understanding and generation on edge devices. We hope Mobile-O will ease future research in real-time unified multimodal intelligence running entirely on-device with no cloud dependency. Our code, models, datasets, and mobile application are publicly available at https://amshaker.github.io/Mobile-O/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.20161.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "656864e12d73834278a8dea7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656864e12d73834278a8dea7/sfAWS2eyPtFHb_2GZIypp.jpeg",
+      "fullname": "Ahmed Heakl",
+      "name": "ahmedheakl",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 61,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "61fb9e24dc607a42af5f193f",
+      "name": "MBZUAI",
+      "fullname": "Mohamed Bin Zayed University of Artificial Intelligence",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643879908583-603ab5664a944b99e81476e8.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.20160",
+      "authors": [
+        {
+          "_id": "699d14f34e37ec6dfa1bc510",
+          "name": "Chen Wang",
+          "hidden": false
+        },
+        {
+          "_id": "699d14f34e37ec6dfa1bc511",
+          "name": "Hao Tan",
+          "hidden": false
+        },
+        {
+          "_id": "699d14f34e37ec6dfa1bc512",
+          "name": "Wang Yifan",
+          "hidden": false
+        },
+        {
+          "_id": "699d14f34e37ec6dfa1bc513",
+          "name": "Zhiqin Chen",
+          "hidden": false
+        },
+        {
+          "_id": "699d14f34e37ec6dfa1bc514",
+          "name": "Yuheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "699d14f34e37ec6dfa1bc515",
+          "name": "Kalyan Sunkavalli",
+          "hidden": false
+        },
+        {
+          "_id": "699d14f34e37ec6dfa1bc516",
+          "name": "Sai Bi",
+          "hidden": false
+        },
+        {
+          "_id": "699d14f34e37ec6dfa1bc517",
+          "name": "Lingjie Liu",
+          "hidden": false
+        },
+        {
+          "_id": "699d14f34e37ec6dfa1bc518",
+          "name": "Yiwei Hu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-23T18:59:45.000Z",
+      "submittedOnDailyAt": "2026-02-24T00:35:04.916Z",
+      "title": "tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction",
+      "submittedOnDailyBy": {
+        "_id": "62e9d5af6687b60b9c01240a",
+        "avatarUrl": "/avatars/3983be5662aa28aefcb18deaf08d7cb1.svg",
+        "isPro": true,
+        "fullname": "Chen Wang",
+        "user": "chenwang",
+        "type": "user"
+      },
+      "summary": "We propose tttLRM, a novel large 3D reconstruction model that leverages a Test-Time Training (TTT) layer to enable long-context, autoregressive 3D reconstruction with linear computational complexity, further scaling the model's capability. Our framework efficiently compresses multiple image observations into the fast weights of the TTT layer, forming an implicit 3D representation in the latent space that can be decoded into various explicit formats, such as Gaussian Splats (GS) for downstream applications. The online learning variant of our model supports progressive 3D reconstruction and refinement from streaming observations. We demonstrate that pretraining on novel view synthesis tasks effectively transfers to explicit 3D modeling, resulting in improved reconstruction quality and faster convergence. Extensive experiments show that our method achieves superior performance in feedforward 3D Gaussian reconstruction compared to state-of-the-art approaches on both objects and scenes.",
+      "upvotes": 0,
+      "discussionId": "699d14f34e37ec6dfa1bc519",
+      "projectPage": "https://cwchenwang.github.io/tttLRM",
+      "githubRepo": "https://github.com/cwchenwang/tttLRM",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A novel 3D reconstruction model called tttLRM uses a Test-Time Training layer to enable efficient, scalable autoregressive reconstruction with linear complexity, achieving better results than existing methods.",
+      "ai_keywords": [
+        "Test-Time Training",
+        "autoregressive 3D reconstruction",
+        "fast weights",
+        "latent space",
+        "Gaussian Splats",
+        "progressive reconstruction",
+        "novel view synthesis",
+        "explicit 3D modeling",
+        "feedforward 3D Gaussian reconstruction"
+      ],
+      "githubStars": 28
+    },
+    "publishedAt": "2026-02-23T13:59:45.000Z",
+    "title": "tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction",
+    "summary": "We propose tttLRM, a novel large 3D reconstruction model that leverages a Test-Time Training (TTT) layer to enable long-context, autoregressive 3D reconstruction with linear computational complexity, further scaling the model's capability. Our framework efficiently compresses multiple image observations into the fast weights of the TTT layer, forming an implicit 3D representation in the latent space that can be decoded into various explicit formats, such as Gaussian Splats (GS) for downstream applications. The online learning variant of our model supports progressive 3D reconstruction and refinement from streaming observations. We demonstrate that pretraining on novel view synthesis tasks effectively transfers to explicit 3D modeling, resulting in improved reconstruction quality and faster convergence. Extensive experiments show that our method achieves superior performance in feedforward 3D Gaussian reconstruction compared to state-of-the-art approaches on both objects and scenes.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.20160.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62e9d5af6687b60b9c01240a",
+      "avatarUrl": "/avatars/3983be5662aa28aefcb18deaf08d7cb1.svg",
+      "fullname": "Chen Wang",
+      "name": "chenwang",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
