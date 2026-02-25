@@ -1,0 +1,379 @@
+[
+  {
+    "paper": {
+      "id": "2602.21015",
+      "authors": [
+        {
+          "_id": "699e69fbdfbcf0b800aecafb",
+          "name": "Yuhao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecafc",
+          "name": "Maojia Song",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecafd",
+          "name": "Yihuai Lan",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecafe",
+          "name": "Lei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecaff",
+          "name": "Zhiqiang Hu",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecb00",
+          "name": "Yao Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecb01",
+          "name": "Heng Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecb02",
+          "name": "Weihua Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecb03",
+          "name": "Dylan Raharja",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecb04",
+          "name": "Soujanya Poria",
+          "hidden": false
+        },
+        {
+          "_id": "699e69fbdfbcf0b800aecb05",
+          "name": "Roy Ka-Wei Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-24T15:33:02.000Z",
+      "submittedOnDailyAt": "2026-02-25T00:55:31.629Z",
+      "title": "From Perception to Action: An Interactive Benchmark for Vision Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "637f228152229c63921119c3",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637f228152229c63921119c3/acwXorra1r9_7i3KlBFjS.jpeg",
+        "isPro": false,
+        "fullname": "Zhiqiang Hu",
+        "user": "Zhiqiang007",
+        "type": "user"
+      },
+      "summary": "Understanding the physical structure is essential for real-world applications such as embodied agents, interactive design, and long-horizon manipulation. Yet, prevailing Vision-Language Model (VLM) evaluations still center on structure-agnostic, single-turn setups (e.g., VQA), which fail to assess agents' ability to reason about how geometry, contact, and support relations jointly constrain what actions are possible in a dynamic environment. To address this gap, we introduce the Causal Hierarchy of Actions and Interactions (CHAIN) benchmark, an interactive 3D, physics-driven testbed designed to evaluate whether models can understand, plan, and execute structured action sequences grounded in physical constraints. CHAIN shifts evaluation from passive perception to active problem solving, spanning tasks such as interlocking mechanical puzzles and 3D stacking and packing. We conduct a comprehensive study of state-of-the-art VLMs and diffusion-based models under unified interactive settings. Our results show that top-performing models still struggle to internalize physical structure and causal constraints, often failing to produce reliable long-horizon plans and cannot robustly translate perceived structure into effective actions. The project is available at https://social-ai-studio.github.io/CHAIN/.",
+      "upvotes": 5,
+      "discussionId": "699e69fbdfbcf0b800aecb06",
+      "projectPage": "https://social-ai-studio.github.io/CHAIN/",
+      "githubRepo": "https://github.com/Social-AI-Studio/CHAIN",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Current vision-language models lack capability to understand physical structures and causal constraints needed for complex, interactive 3D tasks, as demonstrated by the CHAIN benchmark evaluating structured action planning under physical constraints.",
+      "ai_keywords": [
+        "Vision-Language Model",
+        "diffusion-based models",
+        "physical constraints",
+        "causal constraints",
+        "interactive 3D",
+        "structured action sequences",
+        "long-horizon planning"
+      ]
+    },
+    "publishedAt": "2026-02-24T10:33:02.000Z",
+    "title": "From Perception to Action: An Interactive Benchmark for Vision Reasoning",
+    "summary": "Understanding the physical structure is essential for real-world applications such as embodied agents, interactive design, and long-horizon manipulation. Yet, prevailing Vision-Language Model (VLM) evaluations still center on structure-agnostic, single-turn setups (e.g., VQA), which fail to assess agents' ability to reason about how geometry, contact, and support relations jointly constrain what actions are possible in a dynamic environment. To address this gap, we introduce the Causal Hierarchy of Actions and Interactions (CHAIN) benchmark, an interactive 3D, physics-driven testbed designed to evaluate whether models can understand, plan, and execute structured action sequences grounded in physical constraints. CHAIN shifts evaluation from passive perception to active problem solving, spanning tasks such as interlocking mechanical puzzles and 3D stacking and packing. We conduct a comprehensive study of state-of-the-art VLMs and diffusion-based models under unified interactive settings. Our results show that top-performing models still struggle to internalize physical structure and causal constraints, often failing to produce reliable long-horizon plans and cannot robustly translate perceived structure into effective actions. The project is available at https://social-ai-studio.github.io/CHAIN/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.21015.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "637f228152229c63921119c3",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637f228152229c63921119c3/acwXorra1r9_7i3KlBFjS.jpeg",
+      "fullname": "Zhiqiang Hu",
+      "name": "Zhiqiang007",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.20739",
+      "authors": [
+        {
+          "_id": "699e674ddfbcf0b800aecae9",
+          "name": "Shitian Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "699e674ddfbcf0b800aecaea",
+          "name": "Shaoheng Lin",
+          "hidden": false
+        },
+        {
+          "_id": "699e674ddfbcf0b800aecaeb",
+          "name": "Ming Li",
+          "hidden": false
+        },
+        {
+          "_id": "699e674ddfbcf0b800aecaec",
+          "name": "Haoquan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "699e674ddfbcf0b800aecaed",
+          "name": "Wenshuo Peng",
+          "hidden": false
+        },
+        {
+          "_id": "699e674ddfbcf0b800aecaee",
+          "name": "Kaipeng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "699e674ddfbcf0b800aecaef",
+          "name": "Chen Wei",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-24T10:08:33.000Z",
+      "submittedOnDailyAt": "2026-02-25T00:41:13.309Z",
+      "title": "PyVision-RL: Forging Open Agentic Vision Models via RL",
+      "submittedOnDailyBy": {
+        "_id": "62c66504031996c36c86976a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62c66504031996c36c86976a/wIq0YJhkWnEhlzsh-TGYO.png",
+        "isPro": false,
+        "fullname": "steve z",
+        "user": "stzhao",
+        "type": "user"
+      },
+      "summary": "Reinforcement learning for agentic multimodal models often suffers from interaction collapse, where models learn to reduce tool usage and multi-turn reasoning, limiting the benefits of agentic behavior. We introduce PyVision-RL, a reinforcement learning framework for open-weight multimodal models that stabilizes training and sustains interaction. Our approach combines an oversampling-filtering-ranking rollout strategy with an accumulative tool reward to prevent collapse and encourage multi-turn tool use. Using a unified training pipeline, we develop PyVision-Image and PyVision-Video for image and video understanding. For video reasoning, PyVision-Video employs on-demand context construction, selectively sampling task-relevant frames during reasoning to significantly reduce visual token usage. Experiments show strong performance and improved efficiency, demonstrating that sustained interaction and on-demand visual processing are critical for scalable multimodal agents.",
+      "upvotes": 1,
+      "discussionId": "699e674edfbcf0b800aecaf0",
+      "projectPage": "https://agent-x.space/pyvision-rl/",
+      "githubRepo": "https://github.com/agents-x-project/PyVision-RL",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "PyVision-RL framework addresses interaction collapse in multimodal models through enhanced reinforcement learning techniques and efficient video processing strategies.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "agentic multimodal models",
+        "interaction collapse",
+        "oversampling-filtering-ranking",
+        "accumulative tool reward",
+        "unified training pipeline",
+        "on-demand context construction",
+        "task-relevant frames",
+        "visual token usage"
+      ],
+      "githubStars": 0
+    },
+    "publishedAt": "2026-02-24T05:08:33.000Z",
+    "title": "PyVision-RL: Forging Open Agentic Vision Models via RL",
+    "summary": "Reinforcement learning for agentic multimodal models often suffers from interaction collapse, where models learn to reduce tool usage and multi-turn reasoning, limiting the benefits of agentic behavior. We introduce PyVision-RL, a reinforcement learning framework for open-weight multimodal models that stabilizes training and sustains interaction. Our approach combines an oversampling-filtering-ranking rollout strategy with an accumulative tool reward to prevent collapse and encourage multi-turn tool use. Using a unified training pipeline, we develop PyVision-Image and PyVision-Video for image and video understanding. For video reasoning, PyVision-Video employs on-demand context construction, selectively sampling task-relevant frames during reasoning to significantly reduce visual token usage. Experiments show strong performance and improved efficiency, demonstrating that sustained interaction and on-demand visual processing are critical for scalable multimodal agents.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.20739.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c66504031996c36c86976a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62c66504031996c36c86976a/wIq0YJhkWnEhlzsh-TGYO.png",
+      "fullname": "steve z",
+      "name": "stzhao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.16603",
+      "authors": [
+        {
+          "_id": "699c66c0cf1450b05134df07",
+          "user": {
+            "_id": "662dfa31d9b837e4b93dcf11",
+            "avatarUrl": "/avatars/470e738a720660f6127aa09f09e0a880.svg",
+            "isPro": false,
+            "fullname": "hsiehchiachi",
+            "user": "hsiehchiachi",
+            "type": "user"
+          },
+          "name": "Chia-chi Hsieh",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-02-24T09:51:32.902Z",
+          "hidden": false
+        },
+        {
+          "_id": "699c66c0cf1450b05134df08",
+          "name": "Zan Zong",
+          "hidden": false
+        },
+        {
+          "_id": "699c66c0cf1450b05134df09",
+          "name": "Xinyang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "699c66c0cf1450b05134df0a",
+          "name": "Jianjiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "699c66c0cf1450b05134df0b",
+          "name": "Jidong Zhai",
+          "hidden": false
+        },
+        {
+          "_id": "699c66c0cf1450b05134df0c",
+          "name": "Lijie Wen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-18T16:57:45.000Z",
+      "submittedOnDailyAt": "2026-02-25T01:01:54.235Z",
+      "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
+      "submittedOnDailyBy": {
+        "_id": "662dfa31d9b837e4b93dcf11",
+        "avatarUrl": "/avatars/470e738a720660f6127aa09f09e0a880.svg",
+        "isPro": false,
+        "fullname": "hsiehchiachi",
+        "user": "hsiehchiachi",
+        "type": "user"
+      },
+      "summary": "The growing demand for large language models (LLMs) requires serving systems to handle many concurrent requests with diverse service level objectives (SLOs). This exacerbates head-of-line (HoL) blocking during the compute-intensive prefill phase, where long-running requests monopolize resources and delay higher-priority ones, leading to widespread time-to-first-token (TTFT) SLO violations. While chunked prefill enables interruptibility, it introduces an inherent trade-off between responsiveness and throughput: reducing chunk size improves response latency but degrades computational efficiency, whereas increasing chunk size maximizes throughput but exacerbates blocking. This necessitates an adaptive preemption mechanism. However, dynamically balancing execution granularity against scheduling overheads remains a key challenge.\n  In this paper, we propose FlowPrefill, a TTFT-goodput-optimized serving system that resolves this conflict by decoupling preemption granularity from scheduling frequency. To achieve adaptive prefill scheduling, FlowPrefill introduces two key innovations: 1) Operator-Level Preemption, which leverages operator boundaries to enable fine-grained execution interruption without the efficiency loss associated with fixed small chunking; and 2) Event-Driven Scheduling, which triggers scheduling decisions only upon request arrival or completion events, thereby supporting efficient preemption responsiveness while minimizing control-plane overhead. Evaluation on real-world production traces shows that FlowPrefill improves maximum goodput by up to 5.6times compared to state-of-the-art systems while satisfying heterogeneous SLOs.",
+      "upvotes": 1,
+      "discussionId": "699c66c0cf1450b05134df0d",
+      "githubRepo": "https://github.com/HSIEHCHIACHI/FlowPrefill",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "FlowPrefill addresses head-of-line blocking in large language model serving by decoupling preemption granularity from scheduling frequency through operator-level preemption and event-driven scheduling, achieving up to 5.6x better goodput than existing systems.",
+      "ai_keywords": [
+        "large language models",
+        "prefill phase",
+        "head-of-line blocking",
+        "time-to-first-token",
+        "preemption granularity",
+        "scheduling frequency",
+        "operator-level preemption",
+        "event-driven scheduling",
+        "goodput",
+        "service level objectives"
+      ],
+      "githubStars": 3
+    },
+    "publishedAt": "2026-02-18T11:57:45.000Z",
+    "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
+    "summary": "The growing demand for large language models (LLMs) requires serving systems to handle many concurrent requests with diverse service level objectives (SLOs). This exacerbates head-of-line (HoL) blocking during the compute-intensive prefill phase, where long-running requests monopolize resources and delay higher-priority ones, leading to widespread time-to-first-token (TTFT) SLO violations. While chunked prefill enables interruptibility, it introduces an inherent trade-off between responsiveness and throughput: reducing chunk size improves response latency but degrades computational efficiency, whereas increasing chunk size maximizes throughput but exacerbates blocking. This necessitates an adaptive preemption mechanism. However, dynamically balancing execution granularity against scheduling overheads remains a key challenge.\n  In this paper, we propose FlowPrefill, a TTFT-goodput-optimized serving system that resolves this conflict by decoupling preemption granularity from scheduling frequency. To achieve adaptive prefill scheduling, FlowPrefill introduces two key innovations: 1) Operator-Level Preemption, which leverages operator boundaries to enable fine-grained execution interruption without the efficiency loss associated with fixed small chunking; and 2) Event-Driven Scheduling, which triggers scheduling decisions only upon request arrival or completion events, thereby supporting efficient preemption responsiveness while minimizing control-plane overhead. Evaluation on real-world production traces shows that FlowPrefill improves maximum goodput by up to 5.6times compared to state-of-the-art systems while satisfying heterogeneous SLOs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.16603.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "662dfa31d9b837e4b93dcf11",
+      "avatarUrl": "/avatars/470e738a720660f6127aa09f09e0a880.svg",
+      "fullname": "hsiehchiachi",
+      "name": "hsiehchiachi",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2602.20945",
+      "authors": [
+        {
+          "_id": "699e6691dfbcf0b800aecadc",
+          "name": "Taiqiang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "699e6691dfbcf0b800aecadd",
+          "name": "Zenan Zu",
+          "hidden": false
+        },
+        {
+          "_id": "699e6691dfbcf0b800aecade",
+          "name": "Bo Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "699e6691dfbcf0b800aecadf",
+          "name": "Ngai Wong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-24T14:28:16.000Z",
+      "submittedOnDailyAt": "2026-02-25T00:33:51.481Z",
+      "title": "The Art of Efficient Reasoning: Data, Reward, and Optimization",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) consistently benefit from scaled Chain-of-Thought (CoT) reasoning, but also suffer from heavy computational overhead. To address this issue, efficient reasoning aims to incentivize short yet accurate thinking trajectories, typically through reward shaping with Reinforcement Learning (RL). In this paper, we systematically investigate the mechanics of efficient reasoning for LLMs. For comprehensive evaluation, we advocate for more fine-grained metrics, including length distribution conditioned on correctness and performance across a wide spectrum of token budgets ranging from 2k to 32k. First, we reveal that the training process follows a two-stage paradigm: length adaptation and reasoning refinement. After that, we conduct extensive experiments (about 0.2 million GPU hours) in a unified protocol, deconstructing training prompts and rollouts, reward shaping, and optimization strategies. In particular, a key finding is to train on relatively easier prompts, ensuring the density of positive reward signals and thus avoiding the length collapse. Meanwhile, the learned length bias can be generalized across domains. We distill all findings into valuable insights and practical guidelines, and further validate them across the Qwen3 series, ranging from 0.6B to 30B, demonstrating the robustness and generalization.",
+      "upvotes": 0,
+      "discussionId": "699e6691dfbcf0b800aecae0",
+      "ai_summary": "Large language models benefit from scaled chain-of-thought reasoning through efficient training methods that balance trajectory length and accuracy using reinforcement learning with reward shaping.",
+      "ai_keywords": [
+        "Chain-of-Thought",
+        "reinforcement learning",
+        "reward shaping",
+        "length adaptation",
+        "reasoning refinement",
+        "token budget",
+        "length collapse",
+        "generalization"
+      ],
+      "organization": {
+        "_id": "6645f953c39288df638dbdd5",
+        "name": "Tencent-Hunyuan",
+        "fullname": "Tencent Hunyuan",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+      }
+    },
+    "publishedAt": "2026-02-24T09:28:16.000Z",
+    "title": "The Art of Efficient Reasoning: Data, Reward, and Optimization",
+    "summary": "Large Language Models (LLMs) consistently benefit from scaled Chain-of-Thought (CoT) reasoning, but also suffer from heavy computational overhead. To address this issue, efficient reasoning aims to incentivize short yet accurate thinking trajectories, typically through reward shaping with Reinforcement Learning (RL). In this paper, we systematically investigate the mechanics of efficient reasoning for LLMs. For comprehensive evaluation, we advocate for more fine-grained metrics, including length distribution conditioned on correctness and performance across a wide spectrum of token budgets ranging from 2k to 32k. First, we reveal that the training process follows a two-stage paradigm: length adaptation and reasoning refinement. After that, we conduct extensive experiments (about 0.2 million GPU hours) in a unified protocol, deconstructing training prompts and rollouts, reward shaping, and optimization strategies. In particular, a key finding is to train on relatively easier prompts, ensuring the density of positive reward signals and thus avoiding the length collapse. Meanwhile, the learned length bias can be generalized across domains. We distill all findings into valuable insights and practical guidelines, and further validate them across the Qwen3 series, ranging from 0.6B to 30B, demonstrating the robustness and generalization.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.20945.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 238,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6645f953c39288df638dbdd5",
+      "name": "Tencent-Hunyuan",
+      "fullname": "Tencent Hunyuan",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
