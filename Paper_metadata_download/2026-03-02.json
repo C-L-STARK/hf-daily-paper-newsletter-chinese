@@ -1,0 +1,497 @@
+[
+  {
+    "paper": {
+      "id": "2602.24233",
+      "authors": [
+        {
+          "_id": "69a4feb9bc2d66e68888f4fc",
+          "name": "Zhenyu Tang",
+          "hidden": false
+        },
+        {
+          "_id": "69a4feb9bc2d66e68888f4fd",
+          "name": "Chaoran Feng",
+          "hidden": false
+        },
+        {
+          "_id": "69a4feb9bc2d66e68888f4fe",
+          "name": "Yufan Deng",
+          "hidden": false
+        },
+        {
+          "_id": "69a4feb9bc2d66e68888f4ff",
+          "name": "Jie Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69a4feb9bc2d66e68888f500",
+          "name": "Xiaojie Li",
+          "hidden": false
+        },
+        {
+          "_id": "69a4feb9bc2d66e68888f501",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a4feb9bc2d66e68888f502",
+          "name": "Yunpeng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69a4feb9bc2d66e68888f503",
+          "name": "Daquan Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-27T17:59:57.000Z",
+      "submittedOnDailyAt": "2026-03-02T00:38:03.933Z",
+      "title": "Enhancing Spatial Understanding in Image Generation via Reward Modeling",
+      "submittedOnDailyBy": {
+        "_id": "65250cda87ad4a39f84d482d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65250cda87ad4a39f84d482d/ryzc7hx6x09DbL4eiEBip.jpeg",
+        "isPro": false,
+        "fullname": "Feng Chaoran",
+        "user": "Falcary",
+        "type": "user"
+      },
+      "summary": "Recent progress in text-to-image generation has greatly advanced visual fidelity and creativity, but it has also imposed higher demands on prompt complexity-particularly in encoding intricate spatial relationships. In such cases, achieving satisfactory results often requires multiple sampling attempts. To address this challenge, we introduce a novel method that strengthens the spatial understanding of current image generation models. We first construct the SpatialReward-Dataset with over 80k preference pairs. Building on this dataset, we build SpatialScore, a reward model designed to evaluate the accuracy of spatial relationships in text-to-image generation, achieving performance that even surpasses leading proprietary models on spatial evaluation. We further demonstrate that this reward model effectively enables online reinforcement learning for the complex spatial generation. Extensive experiments across multiple benchmarks show that our specialized reward model yields significant and consistent gains in spatial understanding for image generation.",
+      "upvotes": 4,
+      "discussionId": "69a4feb9bc2d66e68888f504",
+      "projectPage": "https://dagroup-pku.github.io/SpatialT2I/",
+      "githubRepo": "https://github.com/DAGroup-PKU/SpatialT2I",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A new reward model called SpatialScore is introduced to improve spatial relationship understanding in text-to-image generation through reinforcement learning with a large-scale dataset of preference pairs.",
+      "ai_keywords": [
+        "SpatialReward-Dataset",
+        "SpatialScore",
+        "reward model",
+        "text-to-image generation",
+        "reinforcement learning",
+        "spatial relationships",
+        "preference pairs"
+      ],
+      "githubStars": 9,
+      "organization": {
+        "_id": "61c2e4b131692679706c0716",
+        "name": "PKU",
+        "fullname": "Peking University",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61c2e44c39245e7bf62def6f/bGOsSh93qDIlsl2XWsEi2.png"
+      }
+    },
+    "publishedAt": "2026-02-27T12:59:57.000Z",
+    "title": "Enhancing Spatial Understanding in Image Generation via Reward Modeling",
+    "summary": "Recent progress in text-to-image generation has greatly advanced visual fidelity and creativity, but it has also imposed higher demands on prompt complexity-particularly in encoding intricate spatial relationships. In such cases, achieving satisfactory results often requires multiple sampling attempts. To address this challenge, we introduce a novel method that strengthens the spatial understanding of current image generation models. We first construct the SpatialReward-Dataset with over 80k preference pairs. Building on this dataset, we build SpatialScore, a reward model designed to evaluate the accuracy of spatial relationships in text-to-image generation, achieving performance that even surpasses leading proprietary models on spatial evaluation. We further demonstrate that this reward model effectively enables online reinforcement learning for the complex spatial generation. Extensive experiments across multiple benchmarks show that our specialized reward model yields significant and consistent gains in spatial understanding for image generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.24233.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65250cda87ad4a39f84d482d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65250cda87ad4a39f84d482d/ryzc7hx6x09DbL4eiEBip.jpeg",
+      "fullname": "Feng Chaoran",
+      "name": "Falcary",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "61c2e4b131692679706c0716",
+      "name": "PKU",
+      "fullname": "Peking University",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61c2e44c39245e7bf62def6f/bGOsSh93qDIlsl2XWsEi2.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.23996",
+      "authors": [
+        {
+          "_id": "69a4fbffbc2d66e68888f4e4",
+          "name": "Kaiwen Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4e5",
+          "name": "Quansheng Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4e6",
+          "name": "Yuandong Pu",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4e7",
+          "name": "Shuo Cao",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4e8",
+          "name": "Xiaohui Li",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4e9",
+          "name": "Yi Xin",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4ea",
+          "name": "Qi Qin",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4eb",
+          "name": "Jiayang Li",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4ec",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4ed",
+          "name": "Jinjin Gu",
+          "hidden": false
+        },
+        {
+          "_id": "69a4fbffbc2d66e68888f4ee",
+          "name": "Yihao Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-27T13:16:58.000Z",
+      "submittedOnDailyAt": "2026-03-02T00:24:56.481Z",
+      "title": "Accelerating Masked Image Generation by Learning Latent Controlled Dynamics",
+      "submittedOnDailyBy": {
+        "_id": "625d5b9f0bec31f086e04cd9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650285458447-noauth.jpeg",
+        "isPro": false,
+        "fullname": "YuandongPu",
+        "user": "Andrew613",
+        "type": "user"
+      },
+      "summary": "Masked Image Generation Models (MIGMs) have achieved great success, yet their efficiency is hampered by the multiple steps of bi-directional attention. In fact, there exists notable redundancy in their computation: when sampling discrete tokens, the rich semantics contained in the continuous features are lost. Some existing works attempt to cache the features to approximate future features. However, they exhibit considerable approximation error under aggressive acceleration rates. We attribute this to their limited expressivity and the failure to account for sampling information. To fill this gap, we propose to learn a lightweight model that incorporates both previous features and sampled tokens, and regresses the average velocity field of feature evolution. The model has moderate complexity that suffices to capture the subtle dynamics while keeping lightweight compared to the original base model. We apply our method, MIGM-Shortcut, to two representative MIGM architectures and tasks. In particular, on the state-of-the-art Lumina-DiMOO, it achieves over 4x acceleration of text-to-image generation while maintaining quality, significantly pushing the Pareto frontier of masked image generation. The code and model weights are available at https://github.com/Kaiwen-Zhu/MIGM-Shortcut.",
+      "upvotes": 2,
+      "discussionId": "69a4fbffbc2d66e68888f4ef",
+      "githubRepo": "https://github.com/Kaiwen-Zhu/MIGM-Shortcut",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "MIGM-Shortcut accelerates masked image generation by learning a lightweight model that predicts feature evolution velocity, achieving over 4x speedup with maintained quality.",
+      "ai_keywords": [
+        "masked image generation models",
+        "bi-directional attention",
+        "discrete tokens",
+        "continuous features",
+        "feature evolution",
+        "velocity field regression",
+        "lightweight model",
+        "text-to-image generation",
+        "Lumina-DiMOO",
+        "Pareto frontier"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2026-02-27T08:16:58.000Z",
+    "title": "Accelerating Masked Image Generation by Learning Latent Controlled Dynamics",
+    "summary": "Masked Image Generation Models (MIGMs) have achieved great success, yet their efficiency is hampered by the multiple steps of bi-directional attention. In fact, there exists notable redundancy in their computation: when sampling discrete tokens, the rich semantics contained in the continuous features are lost. Some existing works attempt to cache the features to approximate future features. However, they exhibit considerable approximation error under aggressive acceleration rates. We attribute this to their limited expressivity and the failure to account for sampling information. To fill this gap, we propose to learn a lightweight model that incorporates both previous features and sampled tokens, and regresses the average velocity field of feature evolution. The model has moderate complexity that suffices to capture the subtle dynamics while keeping lightweight compared to the original base model. We apply our method, MIGM-Shortcut, to two representative MIGM architectures and tasks. In particular, on the state-of-the-art Lumina-DiMOO, it achieves over 4x acceleration of text-to-image generation while maintaining quality, significantly pushing the Pareto frontier of masked image generation. The code and model weights are available at https://github.com/Kaiwen-Zhu/MIGM-Shortcut.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.23996.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "625d5b9f0bec31f086e04cd9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650285458447-noauth.jpeg",
+      "fullname": "YuandongPu",
+      "name": "Andrew613",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.24208",
+      "authors": [
+        {
+          "_id": "69a4f999bc2d66e68888f4d6",
+          "name": "Yasaman Haghighi",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f999bc2d66e68888f4d7",
+          "name": "Alexandre Alahi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-27T17:36:09.000Z",
+      "submittedOnDailyAt": "2026-03-02T00:14:42.937Z",
+      "title": "SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Diffusion models achieve state-of-the-art video generation quality, but their inference remains expensive due to the large number of sequential denoising steps. This has motivated a growing line of research on accelerating diffusion inference. Among training-free acceleration methods, caching reduces computation by reusing previously computed model outputs across timesteps. Existing caching methods rely on heuristic criteria to choose cache/reuse timesteps and require extensive tuning. We address this limitation with a principled sensitivity-aware caching framework. Specifically, we formalize the caching error through an analysis of the model output sensitivity to perturbations in the denoising inputs, i.e., the noisy latent and the timestep, and show that this sensitivity is a key predictor of caching error. Based on this analysis, we propose Sensitivity-Aware Caching (SenCache), a dynamic caching policy that adaptively selects caching timesteps on a per-sample basis. Our framework provides a theoretical basis for adaptive caching, explains why prior empirical heuristics can be partially effective, and extends them to a dynamic, sample-specific approach. Experiments on Wan 2.1, CogVideoX, and LTX-Video show that SenCache achieves better visual quality than existing caching methods under similar computational budgets.",
+      "upvotes": 0,
+      "discussionId": "69a4f99abc2d66e68888f4d8",
+      "githubRepo": "https://github.com/vita-epfl/SenCache",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A sensitivity-aware caching framework improves diffusion model inference efficiency by dynamically selecting cache timesteps based on model output sensitivity to input perturbations.",
+      "ai_keywords": [
+        "diffusion models",
+        "denoising steps",
+        "caching",
+        "sensitivity analysis",
+        "denoising inputs",
+        "timestep",
+        "adaptive caching",
+        "visual quality",
+        "computational budget"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2026-02-27T12:36:09.000Z",
+    "title": "SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching",
+    "summary": "Diffusion models achieve state-of-the-art video generation quality, but their inference remains expensive due to the large number of sequential denoising steps. This has motivated a growing line of research on accelerating diffusion inference. Among training-free acceleration methods, caching reduces computation by reusing previously computed model outputs across timesteps. Existing caching methods rely on heuristic criteria to choose cache/reuse timesteps and require extensive tuning. We address this limitation with a principled sensitivity-aware caching framework. Specifically, we formalize the caching error through an analysis of the model output sensitivity to perturbations in the denoising inputs, i.e., the noisy latent and the timestep, and show that this sensitivity is a key predictor of caching error. Based on this analysis, we propose Sensitivity-Aware Caching (SenCache), a dynamic caching policy that adaptively selects caching timesteps on a per-sample basis. Our framework provides a theoretical basis for adaptive caching, explains why prior empirical heuristics can be partially effective, and extends them to a dynamic, sample-specific approach. Experiments on Wan 2.1, CogVideoX, and LTX-Video show that SenCache achieves better visual quality than existing caching methods under similar computational budgets.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.24208.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 242,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.23622",
+      "authors": [
+        {
+          "_id": "69a4f19cbc2d66e68888f496",
+          "name": "Shibo Hong",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f19cbc2d66e68888f497",
+          "name": "Boxian Ai",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f19cbc2d66e68888f498",
+          "name": "Jun Kuang",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f19cbc2d66e68888f499",
+          "name": "Wei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f19cbc2d66e68888f49a",
+          "name": "FengJiao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f19cbc2d66e68888f49b",
+          "name": "Zhongyuan Peng",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f19cbc2d66e68888f49c",
+          "name": "Chenhao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f19cbc2d66e68888f49d",
+          "name": "Yixin Cao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-27T02:59:34.000Z",
+      "submittedOnDailyAt": "2026-03-02T00:35:50.485Z",
+      "title": "DLEBench: Evaluating Small-scale Object Editing Ability for Instruction-based Image Editing Model",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Significant progress has been made in the field of Instruction-based Image Editing Models (IIEMs). However, while these models demonstrate plausible adherence to instructions and strong reasoning ability on current benchmarks, their ability to edit small objects remains underexplored, despite its importance for precise local editing and refining details in both real and generated images. In this paper, we introduce DeepLookEditBench (DLEBench), the first benchmark dedicated to assessing the abilities of IIEMs in editing small-scale objects. Specifically, we construct a challenging testbed comprising 1889 samples across seven instruction types. In these samples, target objects occupy only 1%-10% of the image area, covering complex scenarios such as partial occlusion and multi-object editing. To ensure robust evaluation on this benchmark, we propose an evaluation protocol with refined score rubrics to minimize subjectivity and ambiguity in two criteria: Instruction Following and Visual Consistency. This protocol also introduces a dual-mode evaluation framework (Tool-driven and Oracle-guided Modes) addressing the misalignment between LMM-as-a-Judge and human judgements on DLEBench. Empirical results on 10 IIEMs reveal significant performance gaps in small-scale object editing, highlighting the need for specialized benchmarks to advance this ability.",
+      "upvotes": 0,
+      "discussionId": "69a4f19cbc2d66e68888f49e",
+      "ai_summary": "A new benchmark called DeepLookEditBench is introduced to evaluate instruction-based image editing models' capability in handling small-scale object editing, revealing significant performance gaps in this area.",
+      "ai_keywords": [
+        "Instruction-based Image Editing Models",
+        "small-scale object editing",
+        "benchmark",
+        "evaluation protocol",
+        "score rubrics",
+        "dual-mode evaluation framework",
+        "Tool-driven mode",
+        "Oracle-guided mode"
+      ]
+    },
+    "publishedAt": "2026-02-26T21:59:34.000Z",
+    "title": "DLEBench: Evaluating Small-scale Object Editing Ability for Instruction-based Image Editing Model",
+    "summary": "Significant progress has been made in the field of Instruction-based Image Editing Models (IIEMs). However, while these models demonstrate plausible adherence to instructions and strong reasoning ability on current benchmarks, their ability to edit small objects remains underexplored, despite its importance for precise local editing and refining details in both real and generated images. In this paper, we introduce DeepLookEditBench (DLEBench), the first benchmark dedicated to assessing the abilities of IIEMs in editing small-scale objects. Specifically, we construct a challenging testbed comprising 1889 samples across seven instruction types. In these samples, target objects occupy only 1%-10% of the image area, covering complex scenarios such as partial occlusion and multi-object editing. To ensure robust evaluation on this benchmark, we propose an evaluation protocol with refined score rubrics to minimize subjectivity and ambiguity in two criteria: Instruction Following and Visual Consistency. This protocol also introduces a dual-mode evaluation framework (Tool-driven and Oracle-guided Modes) addressing the misalignment between LMM-as-a-Judge and human judgements on DLEBench. Empirical results on 10 IIEMs reveal significant performance gaps in small-scale object editing, highlighting the need for specialized benchmarks to advance this ability.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.23622.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 242,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2602.22647",
+      "authors": [
+        {
+          "_id": "69a4f84fbc2d66e68888f4c7",
+          "name": "Zhengyang Su",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4c8",
+          "name": "Isay Katsman",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4c9",
+          "name": "Yueqi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4ca",
+          "name": "Ruining He",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4cb",
+          "name": "Lukasz Heldt",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4cc",
+          "name": "Raghunandan Keshavan",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4cd",
+          "name": "Shao-Chuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4ce",
+          "name": "Xinyang Yi",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4cf",
+          "name": "Mingyan Gao",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4d0",
+          "name": "Onkar Dalal",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4d1",
+          "name": "Lichan Hong",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4d2",
+          "name": "Ed Chi",
+          "hidden": false
+        },
+        {
+          "_id": "69a4f84fbc2d66e68888f4d3",
+          "name": "Ningren Han",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-02-26T06:00:56.000Z",
+      "submittedOnDailyAt": "2026-03-02T00:09:19.789Z",
+      "title": "Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Generative retrieval has emerged as a powerful paradigm for LLM-based recommendation. However, industrial recommender systems often benefit from restricting the output space to a constrained subset of items based on business logic (e.g. enforcing content freshness or product category), which standard autoregressive decoding cannot natively support. Moreover, existing constrained decoding methods that make use of prefix trees (Tries) incur severe latency penalties on hardware accelerators (TPUs/GPUs). In this work, we introduce STATIC (Sparse Transition Matrix-Accelerated Trie Index for Constrained Decoding), an efficient and scalable constrained decoding technique designed specifically for high-throughput LLM-based generative retrieval on TPUs/GPUs. By flattening the prefix tree into a static Compressed Sparse Row (CSR) matrix, we transform irregular tree traversals into fully vectorized sparse matrix operations, unlocking massive efficiency gains on hardware accelerators. We deploy STATIC on a large-scale industrial video recommendation platform serving billions of users. STATIC produces significant product metric impact with minimal latency overhead (0.033 ms per step and 0.25% of inference time), achieving a 948x speedup over a CPU trie implementation and a 47-1033x speedup over a hardware-accelerated binary-search baseline. Furthermore, the runtime overhead of STATIC remains extremely low across a wide range of practical configurations. To the best of our knowledge, STATIC enables the first production-scale deployment of strictly constrained generative retrieval. In addition, evaluation on academic benchmarks demonstrates that STATIC can considerably improve cold-start performance for generative retrieval. Our code is available at https://github.com/youtube/static-constraint-decoding.",
+      "upvotes": 0,
+      "discussionId": "69a4f850bc2d66e68888f4d4",
+      "ai_summary": "STATIC is an efficient constrained decoding method that uses a flattened prefix tree represented as a sparse matrix to accelerate generative retrieval on hardware accelerators while maintaining low latency and high throughput.",
+      "ai_keywords": [
+        "constrained decoding",
+        "prefix trees",
+        "Tries",
+        "Compressed Sparse Row",
+        "sparse matrix operations",
+        "generative retrieval",
+        "LLM-based recommendation",
+        "hardware accelerators",
+        "TPUs",
+        "GPUs",
+        "sparse matrix multiplication",
+        "trie indexing",
+        "latency optimization",
+        "throughput optimization"
+      ]
+    },
+    "publishedAt": "2026-02-26T01:00:56.000Z",
+    "title": "Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators",
+    "summary": "Generative retrieval has emerged as a powerful paradigm for LLM-based recommendation. However, industrial recommender systems often benefit from restricting the output space to a constrained subset of items based on business logic (e.g. enforcing content freshness or product category), which standard autoregressive decoding cannot natively support. Moreover, existing constrained decoding methods that make use of prefix trees (Tries) incur severe latency penalties on hardware accelerators (TPUs/GPUs). In this work, we introduce STATIC (Sparse Transition Matrix-Accelerated Trie Index for Constrained Decoding), an efficient and scalable constrained decoding technique designed specifically for high-throughput LLM-based generative retrieval on TPUs/GPUs. By flattening the prefix tree into a static Compressed Sparse Row (CSR) matrix, we transform irregular tree traversals into fully vectorized sparse matrix operations, unlocking massive efficiency gains on hardware accelerators. We deploy STATIC on a large-scale industrial video recommendation platform serving billions of users. STATIC produces significant product metric impact with minimal latency overhead (0.033 ms per step and 0.25% of inference time), achieving a 948x speedup over a CPU trie implementation and a 47-1033x speedup over a hardware-accelerated binary-search baseline. Furthermore, the runtime overhead of STATIC remains extremely low across a wide range of practical configurations. To the best of our knowledge, STATIC enables the first production-scale deployment of strictly constrained generative retrieval. In addition, evaluation on academic benchmarks demonstrates that STATIC can considerably improve cold-start performance for generative retrieval. Our code is available at https://github.com/youtube/static-constraint-decoding.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.22647.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 242,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
