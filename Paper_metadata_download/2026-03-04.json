@@ -1,0 +1,492 @@
+[
+  {
+    "paper": {
+      "id": "2603.02578",
+      "authors": [
+        {
+          "_id": "69a79b682833ff1122ff63fb",
+          "name": "Ziwen Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff63fc",
+          "name": "Kewei Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff63fd",
+          "name": "Haoming Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff63fe",
+          "name": "Haiwen Hong",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff63ff",
+          "name": "Longtao Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff6400",
+          "name": "Hui Xue",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff6401",
+          "name": "Ningyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff6402",
+          "name": "Yongliang Shen",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff6403",
+          "name": "Guozhou Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff6404",
+          "name": "Huajun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69a79b682833ff1122ff6405",
+          "name": "Shumin Deng",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/620b3bbb0668e435407c8d0a/KCVLQbK5tYNYXHeJjs3KI.png"
+      ],
+      "publishedAt": "2026-03-03T03:50:13.000Z",
+      "submittedOnDailyAt": "2026-03-04T00:14:22.571Z",
+      "title": "How Controllable Are Large Language Models? A Unified Evaluation across Behavioral Granularities",
+      "submittedOnDailyBy": {
+        "_id": "620b3bbb0668e435407c8d0a",
+        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+        "isPro": true,
+        "fullname": "Ningyu Zhang",
+        "user": "Ningyu",
+        "type": "user"
+      },
+      "summary": "Large Language Models (LLMs) are increasingly deployed in socially sensitive domains, yet their unpredictable behaviors, ranging from misaligned intent to inconsistent personality, pose significant risks. We introduce SteerEval, a hierarchical benchmark for evaluating LLM controllability across three domains: language features, sentiment, and personality. Each domain is structured into three specification levels: L1 (what to express), L2 (how to express), and L3 (how to instantiate), connecting high-level behavioral intent to concrete textual output. Using SteerEval, we systematically evaluate contemporary steering methods, revealing that control often degrades at finer-grained levels. Our benchmark offers a principled and interpretable framework for safe and controllable LLM behavior, serving as a foundation for future research.",
+      "upvotes": 9,
+      "discussionId": "69a79b692833ff1122ff6406",
+      "ai_summary": "SteerEval is a hierarchical benchmark for evaluating large language model controllability across language features, sentiment, and personality domains with three specification levels.",
+      "ai_keywords": [
+        "Large Language Models",
+        "controllability",
+        "hierarchical benchmark",
+        "language features",
+        "sentiment",
+        "personality",
+        "steering methods",
+        "behavioral intent",
+        "textual output"
+      ],
+      "organization": {
+        "_id": "64488b334988ee01f2a8d856",
+        "name": "alibaba-inc",
+        "fullname": "alibaba-inc",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/MX4wxQVaFm1A1wqnrL2WU.jpeg"
+      }
+    },
+    "publishedAt": "2026-03-02T22:50:13.000Z",
+    "title": "How Controllable Are Large Language Models? A Unified Evaluation across Behavioral Granularities",
+    "summary": "Large Language Models (LLMs) are increasingly deployed in socially sensitive domains, yet their unpredictable behaviors, ranging from misaligned intent to inconsistent personality, pose significant risks. We introduce SteerEval, a hierarchical benchmark for evaluating LLM controllability across three domains: language features, sentiment, and personality. Each domain is structured into three specification levels: L1 (what to express), L2 (how to express), and L3 (how to instantiate), connecting high-level behavioral intent to concrete textual output. Using SteerEval, we systematically evaluate contemporary steering methods, revealing that control often degrades at finer-grained levels. Our benchmark offers a principled and interpretable framework for safe and controllable LLM behavior, serving as a foundation for future research.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/620b3bbb0668e435407c8d0a/KCVLQbK5tYNYXHeJjs3KI.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02578.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "620b3bbb0668e435407c8d0a",
+      "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+      "fullname": "Ningyu Zhang",
+      "name": "Ningyu",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 40,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "64488b334988ee01f2a8d856",
+      "name": "alibaba-inc",
+      "fullname": "alibaba-inc",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/MX4wxQVaFm1A1wqnrL2WU.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.01571",
+      "authors": [
+        {
+          "_id": "69a7996d2833ff1122ff63e4",
+          "name": "Qiyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69a7996d2833ff1122ff63e5",
+          "name": "Yufei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a7996d2833ff1122ff63e6",
+          "name": "Tianhe Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69a7996d2833ff1122ff63e7",
+          "name": "Can Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69a7996d2833ff1122ff63e8",
+          "name": "Qingfeng Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69a7996d2833ff1122ff63e9",
+          "name": "Kai Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69a7996d2833ff1122ff63ea",
+          "name": "Xue Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69a7996d2833ff1122ff63eb",
+          "name": "Chen Ma",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-02T07:54:29.000Z",
+      "submittedOnDailyAt": "2026-03-04T00:21:48.262Z",
+      "title": "Beyond Length Scaling: Synergizing Breadth and Depth for Generative Reward Models",
+      "submittedOnDailyBy": {
+        "_id": "62a42f22c683d02f5b63320c",
+        "avatarUrl": "/avatars/bc611abe9c4ef8d378123cb8ac9fdbf2.svg",
+        "isPro": true,
+        "fullname": "Qiyuan Zhang",
+        "user": "DonJoey",
+        "type": "user"
+      },
+      "summary": "Recent advancements in Generative Reward Models (GRMs) have demonstrated that scaling the length of Chain-of-Thought (CoT) reasoning considerably enhances the reliability of evaluation. However, current works predominantly rely on unstructured length scaling, ignoring the divergent efficacy of different reasoning mechanisms: Breadth-CoT (B-CoT, i.e., multi-dimensional principle coverage) and Depth-CoT (D-CoT, i.e., substantive judgment soundness). To address this, we introduce Mix-GRM, a framework that reconfigures raw rationales into structured B-CoT and D-CoT through a modular synthesis pipeline, subsequently employing Supervised Fine-Tuning (SFT) and Reinforcement Learning with Verifiable Rewards (RLVR) to internalize and optimize these mechanisms. Comprehensive experiments demonstrate that Mix-GRM establishes a new state-of-the-art across five benchmarks, surpassing leading open-source RMs by an average of 8.2\\%. Our results reveal a clear divergence in reasoning: B-CoT benefits subjective preference tasks, whereas D-CoT excels in objective correctness tasks. Consequently, misaligning the reasoning mechanism with the task directly degrades performance. Furthermore, we demonstrate that RLVR acts as a switching amplifier, inducing an emergent polarization where the model spontaneously allocates its reasoning style to match task demands. The synthesized data and models are released at https://huggingface.co/collections/DonJoey/mix-grm{Hugging Face}, and the code is released at https://github.com/Don-Joey/Mix-GRM{Github}.",
+      "upvotes": 7,
+      "discussionId": "69a7996d2833ff1122ff63ec",
+      "projectPage": "https://huggingface.co/collections/DonJoey/mix-grm",
+      "ai_summary": "Generative Reward Models can be improved by structuring Chain-of-Thought reasoning into breadth and depth components and optimizing them through supervised fine-tuning and reinforcement learning with verifiable rewards.",
+      "ai_keywords": [
+        "Generative Reward Models",
+        "Chain-of-Thought",
+        "Breadth-CoT",
+        "Depth-CoT",
+        "modular synthesis pipeline",
+        "Supervised Fine-Tuning",
+        "Reinforcement Learning with Verifiable Rewards",
+        "objective correctness",
+        "subjective preference"
+      ],
+      "organization": {
+        "_id": "6645f953c39288df638dbdd5",
+        "name": "Tencent-Hunyuan",
+        "fullname": "Tencent Hunyuan",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+      }
+    },
+    "publishedAt": "2026-03-02T02:54:29.000Z",
+    "title": "Beyond Length Scaling: Synergizing Breadth and Depth for Generative Reward Models",
+    "summary": "Recent advancements in Generative Reward Models (GRMs) have demonstrated that scaling the length of Chain-of-Thought (CoT) reasoning considerably enhances the reliability of evaluation. However, current works predominantly rely on unstructured length scaling, ignoring the divergent efficacy of different reasoning mechanisms: Breadth-CoT (B-CoT, i.e., multi-dimensional principle coverage) and Depth-CoT (D-CoT, i.e., substantive judgment soundness). To address this, we introduce Mix-GRM, a framework that reconfigures raw rationales into structured B-CoT and D-CoT through a modular synthesis pipeline, subsequently employing Supervised Fine-Tuning (SFT) and Reinforcement Learning with Verifiable Rewards (RLVR) to internalize and optimize these mechanisms. Comprehensive experiments demonstrate that Mix-GRM establishes a new state-of-the-art across five benchmarks, surpassing leading open-source RMs by an average of 8.2\\%. Our results reveal a clear divergence in reasoning: B-CoT benefits subjective preference tasks, whereas D-CoT excels in objective correctness tasks. Consequently, misaligning the reasoning mechanism with the task directly degrades performance. Furthermore, we demonstrate that RLVR acts as a switching amplifier, inducing an emergent polarization where the model spontaneously allocates its reasoning style to match task demands. The synthesized data and models are released at https://huggingface.co/collections/DonJoey/mix-grm{Hugging Face}, and the code is released at https://github.com/Don-Joey/Mix-GRM{Github}.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.01571.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62a42f22c683d02f5b63320c",
+      "avatarUrl": "/avatars/bc611abe9c4ef8d378123cb8ac9fdbf2.svg",
+      "fullname": "Qiyuan Zhang",
+      "name": "DonJoey",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6645f953c39288df638dbdd5",
+      "name": "Tencent-Hunyuan",
+      "fullname": "Tencent Hunyuan",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.02684",
+      "authors": [
+        {
+          "_id": "69a79e552833ff1122ff6416",
+          "name": "Sai Kartheek Reddy Kasu",
+          "hidden": false
+        },
+        {
+          "_id": "69a79e552833ff1122ff6417",
+          "name": "Shankar Biradar",
+          "hidden": false
+        },
+        {
+          "_id": "69a79e552833ff1122ff6418",
+          "name": "Sunil Saumya",
+          "hidden": false
+        },
+        {
+          "_id": "69a79e552833ff1122ff6419",
+          "name": "Md. Shad Akhtar",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-03T07:26:53.000Z",
+      "submittedOnDailyAt": "2026-03-04T00:50:14.130Z",
+      "title": "HateMirage: An Explainable Multi-Dimensional Dataset for Decoding Faux Hate and Subtle Online Abuse",
+      "submittedOnDailyBy": {
+        "_id": "651692d718f3a57f869a5a0a",
+        "avatarUrl": "/avatars/d5fe48de11e46675b05e1e2e1cf3505c.svg",
+        "isPro": false,
+        "fullname": "Sai Kartheek Reddy",
+        "user": "UVSKKR",
+        "type": "user"
+      },
+      "summary": "Subtle and indirect hate speech remains an underexplored challenge in online safety research, particularly when harmful intent is embedded within misleading or manipulative narratives. Existing hate speech datasets primarily capture overt toxicity, underrepresenting the nuanced ways misinformation can incite or normalize hate. To address this gap, we present HateMirage, a novel dataset of Faux Hate comments designed to advance reasoning and explainability research on hate emerging from fake or distorted narratives. The dataset was constructed by identifying widely debunked misinformation claims from fact-checking sources and tracing related YouTube discussions, resulting in 4,530 user comments. Each comment is annotated along three interpretable dimensions: Target (who is affected), Intent (the underlying motivation or goal behind the comment), and Implication (its potential social impact). Unlike prior explainability datasets such as HateXplain and HARE, which offer token-level or single-dimensional reasoning, HateMirage introduces a multi-dimensional explanation framework that captures the interplay between misinformation, harm, and social consequence. We benchmark multiple open-source language models on HateMirage using ROUGE-L F1 and Sentence-BERT similarity to assess explanation coherence. Results suggest that explanation quality may depend more on pretraining diversity and reasoning-oriented data rather than on model scale alone. By coupling misinformation reasoning with harm attribution, HateMirage establishes a new benchmark for interpretable hate detection and responsible AI research.",
+      "upvotes": 1,
+      "discussionId": "69a79e552833ff1122ff641a",
+      "githubRepo": "https://github.com/Sai-Kartheek-Reddy/HateMirage",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "HateMirage is a new dataset designed to advance research on hate speech embedded in misinformation by providing multi-dimensional annotations for target, intent, and implication, offering a benchmark for interpretable hate detection and responsible AI.",
+      "ai_keywords": [
+        "hate speech",
+        "misinformation",
+        "explainability",
+        "hate detection",
+        "interpretable AI",
+        "language models",
+        "ROUGE-L F1",
+        "Sentence-BERT"
+      ]
+    },
+    "publishedAt": "2026-03-03T02:26:53.000Z",
+    "title": "HateMirage: An Explainable Multi-Dimensional Dataset for Decoding Faux Hate and Subtle Online Abuse",
+    "summary": "Subtle and indirect hate speech remains an underexplored challenge in online safety research, particularly when harmful intent is embedded within misleading or manipulative narratives. Existing hate speech datasets primarily capture overt toxicity, underrepresenting the nuanced ways misinformation can incite or normalize hate. To address this gap, we present HateMirage, a novel dataset of Faux Hate comments designed to advance reasoning and explainability research on hate emerging from fake or distorted narratives. The dataset was constructed by identifying widely debunked misinformation claims from fact-checking sources and tracing related YouTube discussions, resulting in 4,530 user comments. Each comment is annotated along three interpretable dimensions: Target (who is affected), Intent (the underlying motivation or goal behind the comment), and Implication (its potential social impact). Unlike prior explainability datasets such as HateXplain and HARE, which offer token-level or single-dimensional reasoning, HateMirage introduces a multi-dimensional explanation framework that captures the interplay between misinformation, harm, and social consequence. We benchmark multiple open-source language models on HateMirage using ROUGE-L F1 and Sentence-BERT similarity to assess explanation coherence. Results suggest that explanation quality may depend more on pretraining diversity and reasoning-oriented data rather than on model scale alone. By coupling misinformation reasoning with harm attribution, HateMirage establishes a new benchmark for interpretable hate detection and responsible AI research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02684.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "651692d718f3a57f869a5a0a",
+      "avatarUrl": "/avatars/d5fe48de11e46675b05e1e2e1cf3505c.svg",
+      "fullname": "Sai Kartheek Reddy",
+      "name": "UVSKKR",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.02667",
+      "authors": [
+        {
+          "_id": "69a7a0422833ff1122ff642d",
+          "name": "Chao Li",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff642e",
+          "name": "Tianhong Li",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff642f",
+          "name": "Sai Vidyaranya Nuthalapati",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff6430",
+          "name": "Hong-You Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff6431",
+          "name": "Satya Narayan Shukla",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff6432",
+          "name": "Yonghuan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff6433",
+          "name": "Jun Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff6434",
+          "name": "Xiangjun Fan",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff6435",
+          "name": "Aashu Singh",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff6436",
+          "name": "Dina Katabi",
+          "hidden": false
+        },
+        {
+          "_id": "69a7a0422833ff1122ff6437",
+          "name": "Shlok Kumar Mishra",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-03T06:54:19.000Z",
+      "submittedOnDailyAt": "2026-03-04T00:30:20.724Z",
+      "title": "DREAM: Where Visual Understanding Meets Text-to-Image Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Unifying visual representation learning and text-to-image (T2I) generation within a single model remains a central challenge in multimodal learning. We introduce DREAM, a unified framework that jointly optimizes discriminative and generative objectives, while learning strong visual representations. DREAM is built on two key techniques: During training, Masking Warmup, a progressive masking schedule, begins with minimal masking to establish the contrastive alignment necessary for representation learning, then gradually transitions to full masking for stable generative training. At inference, DREAM employs Semantically Aligned Decoding to align partially masked image candidates with the target text and select the best one for further decoding, improving text-image fidelity (+6.3%) without external rerankers. Trained solely on CC12M, DREAM achieves 72.7% ImageNet linear-probing accuracy (+1.1% over CLIP) and an FID of 4.25 (+6.2% over FLUID), with consistent gains in few-shot classification, semantic segmentation, and depth estimation. These results demonstrate that discriminative and generative objectives can be synergistic, allowing unified multimodal models that excel at both visual understanding and generation.",
+      "upvotes": 0,
+      "discussionId": "69a7a0432833ff1122ff6438",
+      "githubRepo": "https://github.com/chaoli-charlie/dream",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "DREAM is a unified multimodal framework that combines visual representation learning and text-to-image generation through progressive masking and semantically aligned decoding, achieving superior performance in both discriminative and generative tasks.",
+      "ai_keywords": [
+        "unified framework",
+        "discriminative objectives",
+        "generative objectives",
+        "visual representations",
+        "masking warmup",
+        "progressive masking schedule",
+        "contrastive alignment",
+        "semantically aligned decoding",
+        "text-to-image generation",
+        "image classification",
+        "few-shot classification",
+        "semantic segmentation",
+        "depth estimation"
+      ],
+      "githubStars": 0
+    },
+    "publishedAt": "2026-03-03T01:54:19.000Z",
+    "title": "DREAM: Where Visual Understanding Meets Text-to-Image Generation",
+    "summary": "Unifying visual representation learning and text-to-image (T2I) generation within a single model remains a central challenge in multimodal learning. We introduce DREAM, a unified framework that jointly optimizes discriminative and generative objectives, while learning strong visual representations. DREAM is built on two key techniques: During training, Masking Warmup, a progressive masking schedule, begins with minimal masking to establish the contrastive alignment necessary for representation learning, then gradually transitions to full masking for stable generative training. At inference, DREAM employs Semantically Aligned Decoding to align partially masked image candidates with the target text and select the best one for further decoding, improving text-image fidelity (+6.3%) without external rerankers. Trained solely on CC12M, DREAM achieves 72.7% ImageNet linear-probing accuracy (+1.1% over CLIP) and an FID of 4.25 (+6.2% over FLUID), with consistent gains in few-shot classification, semantic segmentation, and depth estimation. These results demonstrate that discriminative and generative objectives can be synergistic, allowing unified multimodal models that excel at both visual understanding and generation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02667.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 245,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.02479",
+      "authors": [
+        {
+          "_id": "69a79fb52833ff1122ff6427",
+          "name": "Rituraj Sharma",
+          "hidden": false
+        },
+        {
+          "_id": "69a79fb52833ff1122ff6428",
+          "name": "Weiyuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69a79fb52833ff1122ff6429",
+          "name": "Noah Provenzano",
+          "hidden": false
+        },
+        {
+          "_id": "69a79fb52833ff1122ff642a",
+          "name": "Tu Vu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-03T00:03:42.000Z",
+      "submittedOnDailyAt": "2026-03-04T00:27:59.026Z",
+      "title": "PRISM: Pushing the Frontier of Deep Think via Process Reward Model-Guided Inference",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "DEEPTHINK methods improve reasoning by generating, refining, and aggregating populations of candidate solutions, which enables strong performance on complex mathematical and scientific tasks. However, existing frameworks often lack reliable correctness signals during inference, which creates a population-enhancement bottleneck where deeper deliberation amplifies errors, suppresses correct minority solutions, and yields weak returns to additional compute. In this paper, we introduce a functional decomposition of DEEPTHINK systems and propose PRISM, a Process Reward Model (PRM)-guided inference algorithm that uses step-level verification to guide both population refinement and solution aggregation. During refinement, PRISM treats candidate solutions as particles in a PRM-defined energy landscape and reshapes the population through score-guided resampling and stochastic refinement, which concentrates probability mass on higher-quality reasoning while preserving diversity. Across mathematics and science benchmarks, PRISM is competitive with or outperforms existing DEEPTHINK methods, reaching 90.0%, 75.4%, and 71.4% with gpt-oss-20b on AIME25, HMMT25, and GPQA Diamond, respectively, while matching or exceeding gpt-oss-120b. Additionally, our analysis shows that PRISM produces consistent net-directional correction during refinement, remains reliable when the initial population contains few correct candidates, and often lies on the compute-accuracy Pareto frontier.",
+      "upvotes": 0,
+      "discussionId": "69a79fb52833ff1122ff642b",
+      "ai_summary": "PRISM is a Process Reward Model-guided inference algorithm that enhances DEEPTHINK systems by using step-level verification to improve population refinement and solution aggregation, achieving strong performance on mathematical and scientific benchmarks.",
+      "ai_keywords": [
+        "DEEPTHINK",
+        "candidate solutions",
+        "population enhancement",
+        "reasoning",
+        "Process Reward Model",
+        "step-level verification",
+        "score-guided resampling",
+        "stochastic refinement",
+        "energy landscape",
+        "compute-accuracy Pareto frontier"
+      ]
+    },
+    "publishedAt": "2026-03-02T19:03:42.000Z",
+    "title": "PRISM: Pushing the Frontier of Deep Think via Process Reward Model-Guided Inference",
+    "summary": "DEEPTHINK methods improve reasoning by generating, refining, and aggregating populations of candidate solutions, which enables strong performance on complex mathematical and scientific tasks. However, existing frameworks often lack reliable correctness signals during inference, which creates a population-enhancement bottleneck where deeper deliberation amplifies errors, suppresses correct minority solutions, and yields weak returns to additional compute. In this paper, we introduce a functional decomposition of DEEPTHINK systems and propose PRISM, a Process Reward Model (PRM)-guided inference algorithm that uses step-level verification to guide both population refinement and solution aggregation. During refinement, PRISM treats candidate solutions as particles in a PRM-defined energy landscape and reshapes the population through score-guided resampling and stochastic refinement, which concentrates probability mass on higher-quality reasoning while preserving diversity. Across mathematics and science benchmarks, PRISM is competitive with or outperforms existing DEEPTHINK methods, reaching 90.0%, 75.4%, and 71.4% with gpt-oss-20b on AIME25, HMMT25, and GPQA Diamond, respectively, while matching or exceeding gpt-oss-120b. Additionally, our analysis shows that PRISM produces consistent net-directional correction during refinement, remains reliable when the initial population contains few correct candidates, and often lies on the compute-accuracy Pareto frontier.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02479.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 245,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
