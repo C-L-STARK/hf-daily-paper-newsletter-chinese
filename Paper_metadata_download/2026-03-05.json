@@ -1,0 +1,213 @@
+[
+  {
+    "paper": {
+      "id": "2603.04379",
+      "authors": [
+        {
+          "_id": "69a8f6d48b5b27c7ea9fa626",
+          "name": "Shenghai Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "69a8f6d48b5b27c7ea9fa627",
+          "name": "Yuanyang Yin",
+          "hidden": false
+        },
+        {
+          "_id": "69a8f6d48b5b27c7ea9fa628",
+          "name": "Zongjian Li",
+          "hidden": false
+        },
+        {
+          "_id": "69a8f6d48b5b27c7ea9fa629",
+          "name": "Xinwei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69a8f6d48b5b27c7ea9fa62a",
+          "name": "Xiao Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69a8f6d48b5b27c7ea9fa62b",
+          "name": "Li Yuan",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/T0mcBl4hGMFHPlVHjqOxE.mp4"
+      ],
+      "publishedAt": "2026-03-04T18:45:21.000Z",
+      "submittedOnDailyAt": "2026-03-05T00:52:45.624Z",
+      "title": "Helios: Real Real-Time Long Video Generation Model",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce Helios, the first 14B video generation model that runs at 19.5 FPS on a single NVIDIA H100 GPU and supports minute-scale generation while matching the quality of a strong baseline. We make breakthroughs along three key dimensions: (1) robustness to long-video drifting without commonly used anti-drifting heuristics such as self-forcing, error-banks, or keyframe sampling; (2) real-time generation without standard acceleration techniques such as KV-cache, sparse/linear attention, or quantization; and (3) training without parallelism or sharding frameworks, enabling image-diffusion-scale batch sizes while fitting up to four 14B models within 80 GB of GPU memory. Specifically, Helios is a 14B autoregressive diffusion model with a unified input representation that natively supports T2V, I2V, and V2V tasks. To mitigate drifting in long-video generation, we characterize typical failure modes and propose simple yet effective training strategies that explicitly simulate drifting during training, while eliminating repetitive motion at its source. For efficiency, we heavily compress the historical and noisy context and reduce the number of sampling steps, yielding computational costs comparable to -- or lower than -- those of 1.3B video generative models. Moreover, we introduce infrastructure-level optimizations that accelerate both inference and training while reducing memory consumption. Extensive experiments demonstrate that Helios consistently outperforms prior methods on both short- and long-video generation. We plan to release the code, base model, and distilled model to support further development by the community.",
+      "upvotes": 0,
+      "discussionId": "69a8f6d48b5b27c7ea9fa62c",
+      "ai_summary": "Helios is a 14 billion parameter autoregressive diffusion model for video generation that achieves real-time performance and high-quality long-video synthesis without conventional optimization techniques.",
+      "ai_keywords": [
+        "autoregressive diffusion model",
+        "video generation",
+        "long-video drifting",
+        "self-forcing",
+        "error-banks",
+        "keyframe sampling",
+        "KV-cache",
+        "sparse attention",
+        "linear attention",
+        "quantization",
+        "unified input representation",
+        "T2V",
+        "I2V",
+        "V2V",
+        "training strategies",
+        "drifting simulation",
+        "sampling steps",
+        "infrastructure-level optimizations",
+        "memory consumption"
+      ],
+      "organization": {
+        "_id": "653b817d32c97d0655575872",
+        "name": "ByteDance",
+        "fullname": "ByteDance",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+      }
+    },
+    "publishedAt": "2026-03-04T13:45:21.000Z",
+    "title": "Helios: Real Real-Time Long Video Generation Model",
+    "summary": "We introduce Helios, the first 14B video generation model that runs at 19.5 FPS on a single NVIDIA H100 GPU and supports minute-scale generation while matching the quality of a strong baseline. We make breakthroughs along three key dimensions: (1) robustness to long-video drifting without commonly used anti-drifting heuristics such as self-forcing, error-banks, or keyframe sampling; (2) real-time generation without standard acceleration techniques such as KV-cache, sparse/linear attention, or quantization; and (3) training without parallelism or sharding frameworks, enabling image-diffusion-scale batch sizes while fitting up to four 14B models within 80 GB of GPU memory. Specifically, Helios is a 14B autoregressive diffusion model with a unified input representation that natively supports T2V, I2V, and V2V tasks. To mitigate drifting in long-video generation, we characterize typical failure modes and propose simple yet effective training strategies that explicitly simulate drifting during training, while eliminating repetitive motion at its source. For efficiency, we heavily compress the historical and noisy context and reduce the number of sampling steps, yielding computational costs comparable to -- or lower than -- those of 1.3B video generative models. Moreover, we introduce infrastructure-level optimizations that accelerate both inference and training while reducing memory consumption. Extensive experiments demonstrate that Helios consistently outperforms prior methods on both short- and long-video generation. We plan to release the code, base model, and distilled model to support further development by the community.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/T0mcBl4hGMFHPlVHjqOxE.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.04379.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 246,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "653b817d32c97d0655575872",
+      "name": "ByteDance",
+      "fullname": "ByteDance",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.03975",
+      "authors": [
+        {
+          "_id": "69a8ecc98b5b27c7ea9fa5d1",
+          "name": "Jyoti Aneja",
+          "hidden": false
+        },
+        {
+          "_id": "69a8ecc98b5b27c7ea9fa5d2",
+          "name": "Michael Harrison",
+          "hidden": false
+        },
+        {
+          "_id": "69a8ecc98b5b27c7ea9fa5d3",
+          "name": "Neel Joshi",
+          "hidden": false
+        },
+        {
+          "_id": "69a8ecc98b5b27c7ea9fa5d4",
+          "name": "Tyler LaBonte",
+          "hidden": false
+        },
+        {
+          "_id": "69a8ecc98b5b27c7ea9fa5d5",
+          "name": "John Langford",
+          "hidden": false
+        },
+        {
+          "_id": "69a8ecc98b5b27c7ea9fa5d6",
+          "name": "Eduardo Salinas",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-04T12:16:53.000Z",
+      "submittedOnDailyAt": "2026-03-05T00:55:10.143Z",
+      "title": "Phi-4-reasoning-vision-15B Technical Report",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute practical insight to the research community on building smaller, efficient multimodal reasoning models and to share the result of these learnings as an open-weight model that is good at common vision and language tasks and excels at scientific and mathematical reasoning and understanding user interfaces. Our contributions include demonstrating that careful architecture choices and rigorous data curation enable smaller, open-weight multimodal models to achieve competitive performance with significantly less training and inference-time compute and tokens. The most substantial improvements come from systematic filtering, error correction, and synthetic augmentation -- reinforcing that data quality remains the primary lever for model performance. Systematic ablations show that high-resolution, dynamic-resolution encoders yield consistent improvements, as accurate perception is a prerequisite for high-quality reasoning. Finally, a hybrid mix of reasoning and non-reasoning data with explicit mode tokens allows a single model to deliver fast direct answers for simpler tasks and chain-of-thought reasoning for complex problems.",
+      "upvotes": 0,
+      "discussionId": "69a8ecc98b5b27c7ea9fa5d7",
+      "projectPage": "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
+      "githubRepo": "https://github.com/microsoft/Phi-4-reasoning-vision-15B",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A compact open-weight multimodal reasoning model is presented that achieves competitive performance through careful architecture design, high-quality data curation, and a hybrid approach combining direct answering with chain-of-thought reasoning.",
+      "ai_keywords": [
+        "multimodal reasoning model",
+        "open-weight model",
+        "vision-language tasks",
+        "scientific reasoning",
+        "mathematical reasoning",
+        "user interface understanding",
+        "architecture choices",
+        "data curation",
+        "synthetic augmentation",
+        "high-resolution encoders",
+        "dynamic-resolution encoders",
+        "chain-of-thought reasoning",
+        "mode tokens"
+      ],
+      "organization": {
+        "_id": "5e6485f787403103f9f1055e",
+        "name": "microsoft",
+        "fullname": "Microsoft",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1583646260758-5e64858c87403103f9f1055d.png"
+      }
+    },
+    "publishedAt": "2026-03-04T07:16:53.000Z",
+    "title": "Phi-4-reasoning-vision-15B Technical Report",
+    "summary": "We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute practical insight to the research community on building smaller, efficient multimodal reasoning models and to share the result of these learnings as an open-weight model that is good at common vision and language tasks and excels at scientific and mathematical reasoning and understanding user interfaces. Our contributions include demonstrating that careful architecture choices and rigorous data curation enable smaller, open-weight multimodal models to achieve competitive performance with significantly less training and inference-time compute and tokens. The most substantial improvements come from systematic filtering, error correction, and synthetic augmentation -- reinforcing that data quality remains the primary lever for model performance. Systematic ablations show that high-resolution, dynamic-resolution encoders yield consistent improvements, as accurate perception is a prerequisite for high-quality reasoning. Finally, a hybrid mix of reasoning and non-reasoning data with explicit mode tokens allows a single model to deliver fast direct answers for simpler tasks and chain-of-thought reasoning for complex problems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.03975.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 246,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "5e6485f787403103f9f1055e",
+      "name": "microsoft",
+      "fullname": "Microsoft",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1583646260758-5e64858c87403103f9f1055d.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
