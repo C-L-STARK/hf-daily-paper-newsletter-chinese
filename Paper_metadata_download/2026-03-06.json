@@ -1,0 +1,533 @@
+[
+  {
+    "paper": {
+      "id": "2603.02210",
+      "authors": [
+        {
+          "_id": "69a686fd663a122a7ce66893",
+          "name": "Yichen Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce66894",
+          "user": {
+            "_id": "67136093d2e50f1e8c9fad52",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0q49MyGuav8lJ9CIeyLhu.png",
+            "isPro": false,
+            "fullname": "Donghao Zhou",
+            "user": "donghao-zhou",
+            "type": "user"
+          },
+          "name": "Donghao Zhou",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-03-04T09:24:31.306Z",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce66895",
+          "name": "Jie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce66896",
+          "name": "Xin Gao",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce66897",
+          "name": "Guisheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce66898",
+          "name": "Jiatong Li",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce66899",
+          "name": "Quanwei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce6689a",
+          "name": "Qiang Lyu",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce6689b",
+          "name": "Lanqing Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce6689c",
+          "name": "Shilei Wen",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce6689d",
+          "name": "Weiqiang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a686fd663a122a7ce6689e",
+          "name": "Pheng-Ann Heng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-02T18:59:36.000Z",
+      "submittedOnDailyAt": "2026-03-06T00:52:22.580Z",
+      "title": "HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images",
+      "submittedOnDailyBy": {
+        "_id": "67136093d2e50f1e8c9fad52",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0q49MyGuav8lJ9CIeyLhu.png",
+        "isPro": false,
+        "fullname": "Donghao Zhou",
+        "user": "donghao-zhou",
+        "type": "user"
+      },
+      "summary": "Human-product images, which showcase the integration of humans and products, play a vital role in advertising, e-commerce, and digital marketing. The essential challenge of generating such images lies in ensuring the high-fidelity preservation of product details. Among existing paradigms, reference-based inpainting offers a targeted solution by leveraging product reference images to guide the inpainting process. However, limitations remain in three key aspects: the lack of diverse large-scale training data, the struggle of current models to focus on product detail preservation, and the inability of coarse supervision for achieving precise guidance. To address these issues, we propose HiFi-Inpaint, a novel high-fidelity reference-based inpainting framework tailored for generating human-product images. HiFi-Inpaint introduces Shared Enhancement Attention (SEA) to refine fine-grained product features and Detail-Aware Loss (DAL) to enforce precise pixel-level supervision using high-frequency maps. Additionally, we construct a new dataset, HP-Image-40K, with samples curated from self-synthesis data and processed with automatic filtering. Experimental results show that HiFi-Inpaint achieves state-of-the-art performance, delivering detail-preserving human-product images.",
+      "upvotes": 1,
+      "discussionId": "69a686fd663a122a7ce6689f",
+      "projectPage": "https://correr-zhou.github.io/HiFi-Inpaint/",
+      "githubRepo": "https://github.com/Correr-Zhou/HiFi-Inpaint",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "HiFi-Inpaint generates high-fidelity human-product images using shared enhancement attention and detail-aware loss with a new 40K-image dataset.",
+      "ai_keywords": [
+        "reference-based inpainting",
+        "high-fidelity preservation",
+        "Shared Enhancement Attention",
+        "Detail-Aware Loss",
+        "high-frequency maps",
+        "human-product images"
+      ],
+      "organization": {
+        "_id": "653b817d32c97d0655575872",
+        "name": "ByteDance",
+        "fullname": "ByteDance",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+      }
+    },
+    "publishedAt": "2026-03-02T13:59:36.000Z",
+    "title": "HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images",
+    "summary": "Human-product images, which showcase the integration of humans and products, play a vital role in advertising, e-commerce, and digital marketing. The essential challenge of generating such images lies in ensuring the high-fidelity preservation of product details. Among existing paradigms, reference-based inpainting offers a targeted solution by leveraging product reference images to guide the inpainting process. However, limitations remain in three key aspects: the lack of diverse large-scale training data, the struggle of current models to focus on product detail preservation, and the inability of coarse supervision for achieving precise guidance. To address these issues, we propose HiFi-Inpaint, a novel high-fidelity reference-based inpainting framework tailored for generating human-product images. HiFi-Inpaint introduces Shared Enhancement Attention (SEA) to refine fine-grained product features and Detail-Aware Loss (DAL) to enforce precise pixel-level supervision using high-frequency maps. Additionally, we construct a new dataset, HP-Image-40K, with samples curated from self-synthesis data and processed with automatic filtering. Experimental results show that HiFi-Inpaint achieves state-of-the-art performance, delivering detail-preserving human-product images.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02210.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67136093d2e50f1e8c9fad52",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0q49MyGuav8lJ9CIeyLhu.png",
+      "fullname": "Donghao Zhou",
+      "name": "donghao-zhou",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "653b817d32c97d0655575872",
+      "name": "ByteDance",
+      "fullname": "ByteDance",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2603.05218",
+      "authors": [
+        {
+          "_id": "69aa456bc4f6edddcc6c8607",
+          "name": "Jonathan D. Chang",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8608",
+          "name": "Andrew Drozdov",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8609",
+          "name": "Shubham Toshniwal",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c860a",
+          "name": "Owen Oertell",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c860b",
+          "name": "Alexander Trott",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c860c",
+          "name": "Jacob Portes",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c860d",
+          "name": "Abhay Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c860e",
+          "name": "Pallavi Koppol",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c860f",
+          "name": "Ashutosh Baheti",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8610",
+          "name": "Sean Kulinski",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8611",
+          "name": "Ivan Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8612",
+          "name": "Irene Dea",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8613",
+          "name": "Krista Opsahl-Ong",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8614",
+          "name": "Simon Favreau-Lessard",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8615",
+          "name": "Sean Owen",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8616",
+          "name": "Jose Javier Gonzalez Ortiz",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8617",
+          "name": "Arnav Singhvi",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8618",
+          "name": "Xabi Andrade",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8619",
+          "name": "Cindy Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c861a",
+          "name": "Kartik Sreenivasan",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c861b",
+          "name": "Sam Havens",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c861c",
+          "name": "Jialu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c861d",
+          "name": "Peyton DeNiro",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c861e",
+          "name": "Wen Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c861f",
+          "name": "Michael Bendersky",
+          "hidden": false
+        },
+        {
+          "_id": "69aa456bc4f6edddcc6c8620",
+          "name": "Jonathan Frankle",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-05T14:30:25.000Z",
+      "submittedOnDailyAt": "2026-03-06T00:42:07.706Z",
+      "title": "KARL: Knowledge Agents via Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We present a system for training enterprise search agents via reinforcement learning that achieves state-of-the-art performance across a diverse suite of hard-to-verify agentic search tasks. Our work makes four core contributions. First, we introduce KARLBench, a multi-capability evaluation suite spanning six distinct search regimes, including constraint-driven entity search, cross-document report synthesis, tabular numerical reasoning, exhaustive entity retrieval, procedural reasoning over technical documentation, and fact aggregation over internal enterprise notes. Second, we show that models trained across heterogeneous search behaviors generalize substantially better than those optimized for any single benchmark. Third, we develop an agentic synthesis pipeline that employs long-horizon reasoning and tool use to generate diverse, grounded, and high-quality training data, with iterative bootstrapping from increasingly capable models. Fourth, we propose a new post-training paradigm based on iterative large-batch off-policy RL that is sample efficient, robust to train-inference engine discrepancies, and naturally extends to multi-task training with out-of-distribution generalization. Compared to Claude 4.6 and GPT 5.2, KARL is Pareto-optimal on KARLBench across cost-quality and latency-quality trade-offs, including tasks that were out-of-distribution during training. With sufficient test-time compute, it surpasses the strongest closed models. These results show that tailored synthetic data in combination with multi-task reinforcement learning enables cost-efficient and high-performing knowledge agents for grounded reasoning.",
+      "upvotes": 0,
+      "discussionId": "69aa456bc4f6edddcc6c8621",
+      "ai_summary": "A reinforcement learning system for enterprise search agents achieves superior performance through diverse training data generation and multi-task learning approaches.",
+      "ai_keywords": [
+        "reinforcement learning",
+        "agentic search",
+        "multi-task training",
+        "off-policy RL",
+        "synthetic data generation",
+        "long-horizon reasoning",
+        "tool use",
+        "iterative bootstrapping",
+        "post-training paradigm",
+        "sample efficiency",
+        "out-of-distribution generalization",
+        "Pareto-optimal"
+      ],
+      "organization": {
+        "_id": "62e90f7bd43d22c53ff295d9",
+        "name": "databricks",
+        "fullname": "Databricks",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1659441070587-62e90f4cf7e720c6b13648d8.png"
+      }
+    },
+    "publishedAt": "2026-03-05T09:30:25.000Z",
+    "title": "KARL: Knowledge Agents via Reinforcement Learning",
+    "summary": "We present a system for training enterprise search agents via reinforcement learning that achieves state-of-the-art performance across a diverse suite of hard-to-verify agentic search tasks. Our work makes four core contributions. First, we introduce KARLBench, a multi-capability evaluation suite spanning six distinct search regimes, including constraint-driven entity search, cross-document report synthesis, tabular numerical reasoning, exhaustive entity retrieval, procedural reasoning over technical documentation, and fact aggregation over internal enterprise notes. Second, we show that models trained across heterogeneous search behaviors generalize substantially better than those optimized for any single benchmark. Third, we develop an agentic synthesis pipeline that employs long-horizon reasoning and tool use to generate diverse, grounded, and high-quality training data, with iterative bootstrapping from increasingly capable models. Fourth, we propose a new post-training paradigm based on iterative large-batch off-policy RL that is sample efficient, robust to train-inference engine discrepancies, and naturally extends to multi-task training with out-of-distribution generalization. Compared to Claude 4.6 and GPT 5.2, KARL is Pareto-optimal on KARLBench across cost-quality and latency-quality trade-offs, including tasks that were out-of-distribution during training. With sufficient test-time compute, it surpasses the strongest closed models. These results show that tailored synthetic data in combination with multi-task reinforcement learning enables cost-efficient and high-performing knowledge agents for grounded reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.05218.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 246,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "62e90f7bd43d22c53ff295d9",
+      "name": "databricks",
+      "fullname": "Databricks",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1659441070587-62e90f4cf7e720c6b13648d8.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.04791",
+      "authors": [
+        {
+          "_id": "69aa476ec4f6edddcc6c862a",
+          "name": "Yong Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c862b",
+          "name": "Xingjian Su",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c862c",
+          "name": "Shiyu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c862d",
+          "name": "Haoran Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c862e",
+          "name": "Haixuan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c862f",
+          "name": "Yuxuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c8630",
+          "name": "Zhou Ye",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c8631",
+          "name": "Yang Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c8632",
+          "name": "Jianmin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69aa476ec4f6edddcc6c8633",
+          "name": "Mingsheng Long",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-05T04:13:57.000Z",
+      "submittedOnDailyAt": "2026-03-06T00:48:10.386Z",
+      "title": "Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "We introduce Timer-S1, a strong Mixture-of-Experts (MoE) time series foundation model with 8.3B total parameters, 0.75B activated parameters for each token, and a context length of 11.5K. To overcome the scalability bottleneck in existing pre-trained time series foundation models, we perform Serial Scaling in three dimensions: model architecture, dataset, and training pipeline. Timer-S1 integrates sparse TimeMoE blocks and generic TimeSTP blocks for Serial-Token Prediction (STP), a generic training objective that adheres to the serial nature of forecasting. The proposed paradigm introduces serial computations to improve long-term predictions while avoiding costly rolling-style inference and pronounced error accumulation in the standard next-token prediction. Pursuing a high-quality and unbiased training dataset, we curate TimeBench, a corpus with one trillion time points, and apply meticulous data augmentation to mitigate predictive bias. We further pioneer a post-training stage, including continued pre-training and long-context extension, to enhance short-term and long-context performance. Evaluated on the large-scale GIFT-Eval leaderboard, Timer-S1 achieves state-of-the-art forecasting performance, attaining the best MASE and CRPS scores as a pre-trained model. Timer-S1 will be released to facilitate further research.",
+      "upvotes": 0,
+      "discussionId": "69aa476ec4f6edddcc6c8634",
+      "ai_summary": "Timer-S1 is a scalable Mixture-of-Experts time series model with 8.3B parameters that uses serial scaling and novel TimeMoE blocks to improve long-term forecasting accuracy.",
+      "ai_keywords": [
+        "Mixture-of-Experts",
+        "TimeMoE blocks",
+        "TimeSTP blocks",
+        "Serial-Token Prediction",
+        "long-term predictions",
+        "rolling-style inference",
+        "next-token prediction",
+        "GIFT-Eval leaderboard",
+        "MASE",
+        "CRPS"
+      ],
+      "organization": {
+        "_id": "653b817d32c97d0655575872",
+        "name": "ByteDance",
+        "fullname": "ByteDance",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+      }
+    },
+    "publishedAt": "2026-03-04T23:13:57.000Z",
+    "title": "Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling",
+    "summary": "We introduce Timer-S1, a strong Mixture-of-Experts (MoE) time series foundation model with 8.3B total parameters, 0.75B activated parameters for each token, and a context length of 11.5K. To overcome the scalability bottleneck in existing pre-trained time series foundation models, we perform Serial Scaling in three dimensions: model architecture, dataset, and training pipeline. Timer-S1 integrates sparse TimeMoE blocks and generic TimeSTP blocks for Serial-Token Prediction (STP), a generic training objective that adheres to the serial nature of forecasting. The proposed paradigm introduces serial computations to improve long-term predictions while avoiding costly rolling-style inference and pronounced error accumulation in the standard next-token prediction. Pursuing a high-quality and unbiased training dataset, we curate TimeBench, a corpus with one trillion time points, and apply meticulous data augmentation to mitigate predictive bias. We further pioneer a post-training stage, including continued pre-training and long-context extension, to enhance short-term and long-context performance. Evaluated on the large-scale GIFT-Eval leaderboard, Timer-S1 achieves state-of-the-art forecasting performance, attaining the best MASE and CRPS scores as a pre-trained model. Timer-S1 will be released to facilitate further research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.04791.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 246,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "653b817d32c97d0655575872",
+      "name": "ByteDance",
+      "fullname": "ByteDance",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.04736",
+      "authors": [
+        {
+          "_id": "69aa4852c4f6edddcc6c863c",
+          "name": "Nic Fishman",
+          "hidden": false
+        },
+        {
+          "_id": "69aa4852c4f6edddcc6c863d",
+          "name": "Gokul Gowri",
+          "hidden": false
+        },
+        {
+          "_id": "69aa4852c4f6edddcc6c863e",
+          "name": "Paolo L. B. Fischer",
+          "hidden": false
+        },
+        {
+          "_id": "69aa4852c4f6edddcc6c863f",
+          "name": "Marinka Zitnik",
+          "hidden": false
+        },
+        {
+          "_id": "69aa4852c4f6edddcc6c8640",
+          "name": "Omar Abudayyeh",
+          "hidden": false
+        },
+        {
+          "_id": "69aa4852c4f6edddcc6c8641",
+          "name": "Jonathan Gootenberg",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-05T02:17:08.000Z",
+      "submittedOnDailyAt": "2026-03-06T00:52:01.145Z",
+      "title": "Distribution-Conditioned Transport",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user"
+      },
+      "summary": "Learning a transport model that maps a source distribution to a target distribution is a canonical problem in machine learning, but scientific applications increasingly require models that can generalize to source and target distributions unseen during training. We introduce distribution-conditioned transport (DCT), a framework that conditions transport maps on learned embeddings of source and target distributions, enabling generalization to unseen distribution pairs. DCT also allows semi-supervised learning for distributional forecasting problems: because it learns from arbitrary distribution pairs, it can leverage distributions observed at only one condition to improve transport prediction. DCT is agnostic to the underlying transport mechanism, supporting models ranging from flow matching to distributional divergence-based models (e.g. Wasserstein, MMD). We demonstrate the practical performance benefits of DCT on synthetic benchmarks and four applications in biology: batch effect transfer in single-cell genomics, perturbation prediction from mass cytometry data, learning clonal transcriptional dynamics in hematopoiesis, and modeling T-cell receptor sequence evolution.",
+      "upvotes": 0,
+      "discussionId": "69aa4853c4f6edddcc6c8642",
+      "ai_summary": "Distribution-conditioned transport framework enables generalization to unseen distribution pairs and supports semi-supervised learning for scientific applications.",
+      "ai_keywords": [
+        "distribution-conditioned transport",
+        "transport maps",
+        "learned embeddings",
+        "generalization",
+        "semi-supervised learning",
+        "flow matching",
+        "Wasserstein",
+        "MMD",
+        "single-cell genomics",
+        "mass cytometry",
+        "hematopoiesis",
+        "T-cell receptor sequence evolution"
+      ]
+    },
+    "publishedAt": "2026-03-04T21:17:08.000Z",
+    "title": "Distribution-Conditioned Transport",
+    "summary": "Learning a transport model that maps a source distribution to a target distribution is a canonical problem in machine learning, but scientific applications increasingly require models that can generalize to source and target distributions unseen during training. We introduce distribution-conditioned transport (DCT), a framework that conditions transport maps on learned embeddings of source and target distributions, enabling generalization to unseen distribution pairs. DCT also allows semi-supervised learning for distributional forecasting problems: because it learns from arbitrary distribution pairs, it can leverage distributions observed at only one condition to improve transport prediction. DCT is agnostic to the underlying transport mechanism, supporting models ranging from flow matching to distributional divergence-based models (e.g. Wasserstein, MMD). We demonstrate the practical performance benefits of DCT on synthetic benchmarks and four applications in biology: batch effect transfer in single-cell genomics, perturbation prediction from mass cytometry data, learning clonal transcriptional dynamics in hematopoiesis, and modeling T-cell receptor sequence evolution.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.04736.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 246,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
