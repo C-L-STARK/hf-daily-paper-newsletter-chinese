@@ -1,0 +1,930 @@
+[
+  {
+    "paper": {
+      "id": "2603.08013",
+      "authors": [
+        {
+          "_id": "69af7f00b3ab31dee1281bf2",
+          "name": "Yuxiang Chai",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f00b3ab31dee1281bf3",
+          "name": "Shunye Tang",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f00b3ab31dee1281bf4",
+          "name": "Han Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f00b3ab31dee1281bf5",
+          "name": "Rui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f00b3ab31dee1281bf6",
+          "name": "Hongsheng Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-09T06:41:32.000Z",
+      "submittedOnDailyAt": "2026-03-10T00:48:59.995Z",
+      "title": "PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents",
+      "submittedOnDailyBy": {
+        "_id": "6458ce236fa580137af5aa95",
+        "avatarUrl": "/avatars/db65a7332e375eb5daad5c1b076b1e3b.svg",
+        "isPro": false,
+        "fullname": "Yuxiang Chai",
+        "user": "Yuxiang007",
+        "type": "user"
+      },
+      "summary": "Current Graphical User Interface (GUI) agents operate primarily under a reactive paradigm: a user must provide an explicit instruction for the agent to execute a task. However, an intelligent AI assistant should be proactive, which is capable of anticipating user intentions directly from continuous visual inputs, such as mobile or desktop screenshots, and offering timely recommendations without explicit user prompting. Transitioning to this proactive paradigm presents significant challenges. Real-world screen activity is rarely linear; it consists of long-horizon trajectories fraught with noisy browsing, meaningless actions, and multithreaded task-switching. To address this gap, we introduce PIRA-Bench (Proactive Intent Recommendation Agent Benchmark), a novel benchmark for evaluating multimodal large language models (MLLMs) on continuous, weakly-supervised visual inputs. Unlike reactive datasets, PIRA-Bench features complex trajectories with multiple interleaved intents and noisy segments with various user profile contexts, challenging agents to detect actionable events while fitting to user preferences. Furthermore, we propose the PIRF baseline, a memory-aware, state-tracking framework that empowers general MLLMs to manage multiple task threads and handle misleading visual inputs. PIRA-Bench serves as an initial step toward robust and proactive GUI-based personal assistants.",
+      "upvotes": 6,
+      "discussionId": "69af7f01b3ab31dee1281bf7",
+      "projectPage": "https://www.pira-bench.top",
+      "ai_summary": "PIRA-Bench presents a benchmark for evaluating multimodal large language models on proactive GUI agent tasks using continuous visual inputs, while PIRF offers a memory-aware framework for handling complex, noisy screen trajectories.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "visual inputs",
+        "proactive GUI agents",
+        "continuous visual inputs",
+        "weakly-supervised learning",
+        "task threads",
+        "state-tracking framework",
+        "multimodal large language models"
+      ]
+    },
+    "publishedAt": "2026-03-09T02:41:32.000Z",
+    "title": "PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents",
+    "summary": "Current Graphical User Interface (GUI) agents operate primarily under a reactive paradigm: a user must provide an explicit instruction for the agent to execute a task. However, an intelligent AI assistant should be proactive, which is capable of anticipating user intentions directly from continuous visual inputs, such as mobile or desktop screenshots, and offering timely recommendations without explicit user prompting. Transitioning to this proactive paradigm presents significant challenges. Real-world screen activity is rarely linear; it consists of long-horizon trajectories fraught with noisy browsing, meaningless actions, and multithreaded task-switching. To address this gap, we introduce PIRA-Bench (Proactive Intent Recommendation Agent Benchmark), a novel benchmark for evaluating multimodal large language models (MLLMs) on continuous, weakly-supervised visual inputs. Unlike reactive datasets, PIRA-Bench features complex trajectories with multiple interleaved intents and noisy segments with various user profile contexts, challenging agents to detect actionable events while fitting to user preferences. Furthermore, we propose the PIRF baseline, a memory-aware, state-tracking framework that empowers general MLLMs to manage multiple task threads and handle misleading visual inputs. PIRA-Bench serves as an initial step toward robust and proactive GUI-based personal assistants.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.08013.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6458ce236fa580137af5aa95",
+      "avatarUrl": "/avatars/db65a7332e375eb5daad5c1b076b1e3b.svg",
+      "fullname": "Yuxiang Chai",
+      "name": "Yuxiang007",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.07660",
+      "authors": [
+        {
+          "_id": "69af86d0b3ab31dee1281c5d",
+          "name": "Yuanyuan Gao",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c5e",
+          "name": "Hao Li",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c5f",
+          "name": "Yifei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c60",
+          "name": "Xinhao Ji",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c61",
+          "name": "Yuning Gong",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c62",
+          "name": "Yuanjun Liao",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c63",
+          "name": "Fangfu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c64",
+          "name": "Manyuan Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c65",
+          "name": "Yuchen Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c66",
+          "name": "Dan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c67",
+          "name": "Xue Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c68",
+          "name": "Huaxi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c69",
+          "name": "Hongjie Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c6a",
+          "name": "Ziwei Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c6b",
+          "name": "Xiao Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c6c",
+          "name": "Dingwen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69af86d0b3ab31dee1281c6d",
+          "name": "Zhihang Zhong",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/667b8de7a68bf81afe668afe/cZCoXJle_l42kGgCJOd0m.qt"
+      ],
+      "publishedAt": "2026-03-08T14:49:20.000Z",
+      "submittedOnDailyAt": "2026-03-10T01:24:03.220Z",
+      "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence",
+      "submittedOnDailyBy": {
+        "_id": "667b8de7a68bf81afe668afe",
+        "avatarUrl": "/avatars/aeff10805ff858332e6f6a58735dbbd9.svg",
+        "isPro": false,
+        "fullname": "leoli",
+        "user": "lifuguan",
+        "type": "user"
+      },
+      "summary": "The pursuit of spatial intelligence fundamentally relies on access to large-scale, fine-grained 3D data. However, existing approaches predominantly construct spatial understanding benchmarks by generating question-answer (QA) pairs from a limited number of manually annotated datasets, rather than systematically annotating new large-scale 3D scenes from raw web data. As a result, their scalability is severely constrained, and model performance is further hindered by domain gaps inherent in these narrowly curated datasets.\n  In this work, we propose Holi-Spatial, the first fully automated, large-scale, spatially-aware multimodal dataset, constructed from raw video inputs without human intervention, using the proposed data curation pipeline. Holi-Spatial supports multi-level spatial supervision, ranging from geometrically accurate 3D Gaussian Splatting (3DGS) reconstructions with rendered depth maps to object-level and relational semantic annotations, together with corresponding spatial Question-Answer (QA) pairs.\n  Following a principled and systematic pipeline, we further construct Holi-Spatial-4M, the first large-scale, high-quality 3D semantic dataset, containing 12K optimized 3DGS scenes, 1.3M 2D masks, 320K 3D bounding boxes, 320K instance captions, 1.2M 3D grounding instances, and 1.2M spatial QA pairs spanning diverse geometric, relational, and semantic reasoning tasks.\n  Holi-Spatial demonstrates exceptional performance in data curation quality, significantly outperforming existing feed-forward and per-scene optimized methods on datasets such as ScanNet, ScanNet++, and DL3DV. Furthermore, fine-tuning Vision-Language Models (VLMs) on spatial reasoning tasks using this dataset has also led to substantial improvements in model performance.",
+      "upvotes": 5,
+      "discussionId": "69af86d0b3ab31dee1281c6e",
+      "projectPage": "https://visionary-laboratory.github.io/holi-spatial/",
+      "githubRepo": "https://github.com/Visionary-Laboratory/holi-spatial",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Holi-Spatial presents the first fully automated, large-scale, spatially-aware multimodal dataset constructed from raw video inputs, supporting multi-level spatial supervision for 3D scene understanding and spatial reasoning tasks.",
+      "ai_keywords": [
+        "3D Gaussian Splatting",
+        "3DGS",
+        "Vision-Language Models",
+        "VLMs",
+        "spatial reasoning",
+        "multimodal dataset",
+        "data curation pipeline",
+        "geometric accuracy",
+        "relational semantics",
+        "semantic annotations",
+        "3D reconstruction",
+        "3D grounding",
+        "spatial Question-Answer pairs"
+      ],
+      "githubStars": 14
+    },
+    "publishedAt": "2026-03-08T10:49:20.000Z",
+    "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence",
+    "summary": "The pursuit of spatial intelligence fundamentally relies on access to large-scale, fine-grained 3D data. However, existing approaches predominantly construct spatial understanding benchmarks by generating question-answer (QA) pairs from a limited number of manually annotated datasets, rather than systematically annotating new large-scale 3D scenes from raw web data. As a result, their scalability is severely constrained, and model performance is further hindered by domain gaps inherent in these narrowly curated datasets.\n  In this work, we propose Holi-Spatial, the first fully automated, large-scale, spatially-aware multimodal dataset, constructed from raw video inputs without human intervention, using the proposed data curation pipeline. Holi-Spatial supports multi-level spatial supervision, ranging from geometrically accurate 3D Gaussian Splatting (3DGS) reconstructions with rendered depth maps to object-level and relational semantic annotations, together with corresponding spatial Question-Answer (QA) pairs.\n  Following a principled and systematic pipeline, we further construct Holi-Spatial-4M, the first large-scale, high-quality 3D semantic dataset, containing 12K optimized 3DGS scenes, 1.3M 2D masks, 320K 3D bounding boxes, 320K instance captions, 1.2M 3D grounding instances, and 1.2M spatial QA pairs spanning diverse geometric, relational, and semantic reasoning tasks.\n  Holi-Spatial demonstrates exceptional performance in data curation quality, significantly outperforming existing feed-forward and per-scene optimized methods on datasets such as ScanNet, ScanNet++, and DL3DV. Furthermore, fine-tuning Vision-Language Models (VLMs) on spatial reasoning tasks using this dataset has also led to substantial improvements in model performance.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/667b8de7a68bf81afe668afe/cZCoXJle_l42kGgCJOd0m.qt"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.07660.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "667b8de7a68bf81afe668afe",
+      "avatarUrl": "/avatars/aeff10805ff858332e6f6a58735dbbd9.svg",
+      "fullname": "leoli",
+      "name": "lifuguan",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.07561",
+      "authors": [
+        {
+          "_id": "69af80d1b3ab31dee1281c11",
+          "name": "Zhichao Liao",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c12",
+          "name": "Xiaole Xian",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c13",
+          "name": "Qingyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c14",
+          "name": "Wenyu Qin",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c15",
+          "name": "Meng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c16",
+          "name": "Weicheng Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c17",
+          "name": "Siyang Song",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c18",
+          "name": "Pingfa Feng",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c19",
+          "name": "Long Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "69af80d1b3ab31dee1281c1a",
+          "name": "Liang Pan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-08T09:50:20.000Z",
+      "submittedOnDailyAt": "2026-03-10T01:00:33.511Z",
+      "title": "PureCC: Pure Learning for Text-to-Image Concept Customization",
+      "submittedOnDailyBy": {
+        "_id": "66eb9d5d7f17088991ecbae2",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66eb9d5d7f17088991ecbae2/khI2KZ4ZGJ891iOf-O0BF.jpeg",
+        "isPro": false,
+        "fullname": "Zhichao Liao",
+        "user": "ChaosLiao",
+        "type": "user"
+      },
+      "summary": "Existing concept customization methods have achieved remarkable outcomes in high-fidelity and multi-concept customization. However, they often neglect the influence on the original model's behavior and capabilities when learning new personalized concepts. To address this issue, we propose PureCC. PureCC introduces a novel decoupled learning objective for concept customization, which combines the implicit guidance of the target concept with the original conditional prediction. This separated form enables PureCC to substantially focus on the original model during training. Moreover, based on this objective, PureCC designs a dual-branch training pipeline that includes a frozen extractor providing purified target concept representations as implicit guidance and a trainable flow model producing the original conditional prediction, jointly achieving pure learning for personalized concepts. Furthermore, PureCC introduces a novel adaptive guidance scale λ^star to dynamically adjust the guidance strength of the target concept, balancing customization fidelity and model preservation. Extensive experiments show that PureCC achieves state-of-the-art performance in preserving the original behavior and capabilities while enabling high-fidelity concept customization. The code is available at https://github.com/lzc-sg/PureCC.",
+      "upvotes": 4,
+      "discussionId": "69af80d1b3ab31dee1281c1b",
+      "githubRepo": "https://github.com/lzc-sg/PureCC",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "PureCC presents a concept customization method that preserves original model behavior through decoupled learning and adaptive guidance scaling.",
+      "ai_keywords": [
+        "concept customization",
+        "decoupled learning objective",
+        "implicit guidance",
+        "conditional prediction",
+        "dual-branch training pipeline",
+        "frozen extractor",
+        "trainable flow model",
+        "adaptive guidance scale",
+        "model preservation"
+      ],
+      "githubStars": 3,
+      "organization": {
+        "_id": "662c559b322afcbae51b3c8b",
+        "name": "KlingTeam",
+        "fullname": "Kling Team",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+      }
+    },
+    "publishedAt": "2026-03-08T05:50:20.000Z",
+    "title": "PureCC: Pure Learning for Text-to-Image Concept Customization",
+    "summary": "Existing concept customization methods have achieved remarkable outcomes in high-fidelity and multi-concept customization. However, they often neglect the influence on the original model's behavior and capabilities when learning new personalized concepts. To address this issue, we propose PureCC. PureCC introduces a novel decoupled learning objective for concept customization, which combines the implicit guidance of the target concept with the original conditional prediction. This separated form enables PureCC to substantially focus on the original model during training. Moreover, based on this objective, PureCC designs a dual-branch training pipeline that includes a frozen extractor providing purified target concept representations as implicit guidance and a trainable flow model producing the original conditional prediction, jointly achieving pure learning for personalized concepts. Furthermore, PureCC introduces a novel adaptive guidance scale λ^star to dynamically adjust the guidance strength of the target concept, balancing customization fidelity and model preservation. Extensive experiments show that PureCC achieves state-of-the-art performance in preserving the original behavior and capabilities while enabling high-fidelity concept customization. The code is available at https://github.com/lzc-sg/PureCC.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.07561.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66eb9d5d7f17088991ecbae2",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66eb9d5d7f17088991ecbae2/khI2KZ4ZGJ891iOf-O0BF.jpeg",
+      "fullname": "Zhichao Liao",
+      "name": "ChaosLiao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "662c559b322afcbae51b3c8b",
+      "name": "KlingTeam",
+      "fullname": "Kling Team",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.07980",
+      "authors": [
+        {
+          "_id": "69af873bb3ab31dee1281c70",
+          "name": "Qianyu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c71",
+          "name": "Yang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c72",
+          "name": "Jiaqi Li",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c73",
+          "name": "Jun Bai",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c74",
+          "name": "Hao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c75",
+          "name": "Kaiyuan Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c76",
+          "name": "Tiliang Duan",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c77",
+          "name": "Jiayun Dong",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c78",
+          "name": "Xiaobo Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c79",
+          "name": "Zixia Jia",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c7a",
+          "name": "Yang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c7b",
+          "name": "Tao Peng",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c7c",
+          "name": "Yixin Ren",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c7d",
+          "name": "Ran Tian",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c7e",
+          "name": "Zaiyuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c7f",
+          "name": "Yanglihong Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c80",
+          "name": "Gang Yao",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c81",
+          "name": "Lingyue Yin",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c82",
+          "name": "Ge Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c83",
+          "name": "Chun Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c84",
+          "name": "Jianpeng Jiao",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c85",
+          "name": "Zilong Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69af873bb3ab31dee1281c86",
+          "name": "Yuan Gong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-09T05:32:42.000Z",
+      "submittedOnDailyAt": "2026-03-10T01:25:21.635Z",
+      "title": "\\$OneMillion-Bench: How Far are Language Agents from Human Experts?",
+      "submittedOnDailyBy": {
+        "_id": "6191cc9e6d34e827404cebab",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674119843175-6191cc9e6d34e827404cebab.jpeg",
+        "isPro": false,
+        "fullname": "Yang",
+        "user": "jacklanda",
+        "type": "user"
+      },
+      "summary": "As language models (LMs) evolve from chat assistants to long-horizon agents capable of multi-step reasoning and tool use, existing benchmarks remain largely confined to structured or exam-style tasks that fall short of real-world professional demands. To this end, we introduce \\OneMillion-Bench OneMillion-Bench, a benchmark of 400 expert-curated tasks spanning Law, Finance, Industry, Healthcare, and Natural Science, built to evaluate agents across economically consequential scenarios. Unlike prior work, the benchmark requires retrieving authoritative sources, resolving conflicting evidence, applying domain-specific rules, and making constraint decisions, where correctness depends as much on the reasoning process as the final answer. We adopt a rubric-based evaluation protocol scoring factual accuracy, logical coherence, practical feasibility, and professional compliance, focused on expert-level problems to ensure meaningful differentiation across agents. Together, \\$OneMillion-Bench provides a unified testbed for assessing agentic reliability, professional depth, and practical readiness in domain-intensive scenarios.",
+      "upvotes": 3,
+      "discussionId": "69af873bb3ab31dee1281c87",
+      "githubRepo": "https://github.com/humanlaya/OneMillion-Bench",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A new benchmark evaluates language models on complex, real-world professional tasks requiring multi-step reasoning, evidence resolution, and domain-specific decision-making across multiple industries.",
+      "ai_keywords": [
+        ""
+      ],
+      "githubStars": 4,
+      "organization": {
+        "_id": "63a95ac93453852ef5399a77",
+        "name": "bigai",
+        "fullname": "Beijing Institute for General Artificial Intelligence",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1672043197974-63a95a6a7930fa8c7dd63d4e.png"
+      }
+    },
+    "publishedAt": "2026-03-09T01:32:42.000Z",
+    "title": "\\$OneMillion-Bench: How Far are Language Agents from Human Experts?",
+    "summary": "As language models (LMs) evolve from chat assistants to long-horizon agents capable of multi-step reasoning and tool use, existing benchmarks remain largely confined to structured or exam-style tasks that fall short of real-world professional demands. To this end, we introduce \\OneMillion-Bench OneMillion-Bench, a benchmark of 400 expert-curated tasks spanning Law, Finance, Industry, Healthcare, and Natural Science, built to evaluate agents across economically consequential scenarios. Unlike prior work, the benchmark requires retrieving authoritative sources, resolving conflicting evidence, applying domain-specific rules, and making constraint decisions, where correctness depends as much on the reasoning process as the final answer. We adopt a rubric-based evaluation protocol scoring factual accuracy, logical coherence, practical feasibility, and professional compliance, focused on expert-level problems to ensure meaningful differentiation across agents. Together, \\$OneMillion-Bench provides a unified testbed for assessing agentic reliability, professional depth, and practical readiness in domain-intensive scenarios.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.07980.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6191cc9e6d34e827404cebab",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674119843175-6191cc9e6d34e827404cebab.jpeg",
+      "fullname": "Yang",
+      "name": "jacklanda",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "63a95ac93453852ef5399a77",
+      "name": "bigai",
+      "fullname": "Beijing Institute for General Artificial Intelligence",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1672043197974-63a95a6a7930fa8c7dd63d4e.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.03825",
+      "authors": [
+        {
+          "_id": "69af7f3ab3ab31dee1281bf9",
+          "name": "Ruilin Luo",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281bfa",
+          "name": "Chufan Shi",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281bfb",
+          "name": "Yizhen Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281bfc",
+          "name": "Cheng Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281bfd",
+          "name": "Songtao Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281bfe",
+          "name": "Tongkun Guan",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281bff",
+          "name": "Ruizhe Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281c00",
+          "name": "Ruihang Chu",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281c01",
+          "name": "Peng Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281c02",
+          "name": "Mingkun Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281c03",
+          "name": "Yujiu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281c04",
+          "name": "Junyang Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69af7f3ab3ab31dee1281c05",
+          "name": "Zhibo Yang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-04T08:22:27.000Z",
+      "submittedOnDailyAt": "2026-03-10T00:52:48.880Z",
+      "title": "From Narrow to Panoramic Vision: Attention-Guided Cold-Start Reshapes Multimodal Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6548956fe49bd8d58e8adf0e",
+        "avatarUrl": "/avatars/24c54b14c253c87d4b7438193f16ce28.svg",
+        "isPro": false,
+        "fullname": "Ruilin",
+        "user": "Antimage01",
+        "type": "user"
+      },
+      "summary": "The cold-start initialization stage plays a pivotal role in training Multimodal Large Reasoning Models (MLRMs), yet its mechanisms remain insufficiently understood. To analyze this stage, we introduce the Visual Attention Score (VAS), an attention-based metric that quantifies how much a model attends to visual tokens. We find that reasoning performance is strongly correlated with VAS (r=0.9616): models with higher VAS achieve substantially stronger multimodal reasoning. Surprisingly, multimodal cold-start fails to elevate VAS, resulting in attention distributions close to the base model, whereas text-only cold-start leads to a clear increase. We term this counter-intuitive phenomenon Lazy Attention Localization. To validate its causal role, we design training-free interventions that directly modulate attention allocation during inference, performance gains of 1-2% without any retraining. Building on these insights, we further propose Attention-Guided Visual Anchoring and Reflection (AVAR), a comprehensive cold-start framework that integrates visual-anchored data synthesis, attention-guided objectives, and visual-anchored reward shaping. Applied to Qwen2.5-VL-7B, AVAR achieves an average gain of 7.0% across 7 multimodal reasoning benchmarks. Ablation studies further confirm that each component of AVAR contributes step-wise to the overall gains. The code, data, and models are available at https://github.com/lrlbbzl/Qwen-AVAR.",
+      "upvotes": 3,
+      "discussionId": "69af7f3ab3ab31dee1281c06",
+      "githubRepo": "https://github.com/lrlbbzl/Qwen-AVAR",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "The study introduces a novel attention-based metric called Visual Attention Score to analyze cold-start initialization in multimodal large reasoning models, identifying a counter-intuitive phenomenon termed Lazy Attention Localization and proposing a framework called Attention-Guided Visual Anchoring and Reflection to improve multimodal reasoning performance.",
+      "ai_keywords": [
+        "Multimodal Large Reasoning Models",
+        "Visual Attention Score",
+        "attention-based metric",
+        "visual tokens",
+        "multimodal reasoning",
+        "cold-start initialization",
+        "Lazy Attention Localization",
+        "Attention-Guided Visual Anchoring and Reflection",
+        "visual-anchored data synthesis",
+        "attention-guided objectives",
+        "visual-anchored reward shaping"
+      ],
+      "githubStars": 6,
+      "organization": {
+        "_id": "64c8b5837fe12ecd0a7e92eb",
+        "name": "Qwen",
+        "fullname": "Qwen",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png"
+      }
+    },
+    "publishedAt": "2026-03-04T03:22:27.000Z",
+    "title": "From Narrow to Panoramic Vision: Attention-Guided Cold-Start Reshapes Multimodal Reasoning",
+    "summary": "The cold-start initialization stage plays a pivotal role in training Multimodal Large Reasoning Models (MLRMs), yet its mechanisms remain insufficiently understood. To analyze this stage, we introduce the Visual Attention Score (VAS), an attention-based metric that quantifies how much a model attends to visual tokens. We find that reasoning performance is strongly correlated with VAS (r=0.9616): models with higher VAS achieve substantially stronger multimodal reasoning. Surprisingly, multimodal cold-start fails to elevate VAS, resulting in attention distributions close to the base model, whereas text-only cold-start leads to a clear increase. We term this counter-intuitive phenomenon Lazy Attention Localization. To validate its causal role, we design training-free interventions that directly modulate attention allocation during inference, performance gains of 1-2% without any retraining. Building on these insights, we further propose Attention-Guided Visual Anchoring and Reflection (AVAR), a comprehensive cold-start framework that integrates visual-anchored data synthesis, attention-guided objectives, and visual-anchored reward shaping. Applied to Qwen2.5-VL-7B, AVAR achieves an average gain of 7.0% across 7 multimodal reasoning benchmarks. Ablation studies further confirm that each component of AVAR contributes step-wise to the overall gains. The code, data, and models are available at https://github.com/lrlbbzl/Qwen-AVAR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.03825.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6548956fe49bd8d58e8adf0e",
+      "avatarUrl": "/avatars/24c54b14c253c87d4b7438193f16ce28.svg",
+      "fullname": "Ruilin",
+      "name": "Antimage01",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "name": "Qwen",
+      "fullname": "Qwen",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.07475",
+      "authors": [
+        {
+          "_id": "69af8aecb3ab31dee1281c8f",
+          "name": "Raghavv Goel",
+          "hidden": false
+        },
+        {
+          "_id": "69af8aecb3ab31dee1281c90",
+          "name": "Risheek Garrepalli",
+          "hidden": false
+        },
+        {
+          "_id": "69af8aecb3ab31dee1281c91",
+          "name": "Sudhanshu Agrawal",
+          "hidden": false
+        },
+        {
+          "_id": "69af8aecb3ab31dee1281c92",
+          "name": "Chris Lott",
+          "hidden": false
+        },
+        {
+          "_id": "69af8aecb3ab31dee1281c93",
+          "name": "Mingu Lee",
+          "hidden": false
+        },
+        {
+          "_id": "69af8aecb3ab31dee1281c94",
+          "name": "Fatih Porikli",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-08T05:31:52.000Z",
+      "submittedOnDailyAt": "2026-03-10T01:40:46.041Z",
+      "title": "Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs",
+      "submittedOnDailyBy": {
+        "_id": "649b6eb2f7cc759ab756adaf",
+        "avatarUrl": "/avatars/a0f7c7345dd653887122200fbe375c2b.svg",
+        "isPro": false,
+        "fullname": "Raghavv Goel",
+        "user": "RaghavvGoel",
+        "type": "user"
+      },
+      "summary": "Autoregressive (AR) language models form representations incrementally through left-to-right prediction, whereas diffusion language models (dLLMs) are trained via full-sequence denoising. Although recent dLLMs match AR performance, it remains unclear whether diffusion objectives fundamentally reshape internal representations across depth. We perform the first layer- and token-wise representational analysis comparing native dLLMs (LLaDA), native AR models (Qwen2.5), and AR-initialized dLLMs (Dream-7B). We find that diffusion objectives result in different, more hierarchical abstractions with substantial early-layer redundancy and reduced recency bias, while AR objectives produce tightly coupled, depth-dependent representations. Critically, AR-initialized dLLMs retain AR-like representational dynamics despite diffusion training, revealing persistent initialization bias. Leveraging this observed representational redundancy, we introduce a static, task-agnostic inference-time layer-skipping method requiring no architectural changes or KV-cache sharing. Native dLLMs achieve up to 18.75% FLOPs reduction while preserving over 90% performance on reasoning and code generation benchmarks, whereas AR models degrade sharply under comparable skipping. These results link training objectives to representational structure and enable practical, cache-orthogonal efficiency gains.",
+      "upvotes": 1,
+      "discussionId": "69af8aecb3ab31dee1281c95",
+      "ai_summary": "Diffusion language models exhibit distinct representational structures compared to autoregressive models, with hierarchical abstractions and reduced bias, enabling efficient layer-skipping inference without architectural modifications.",
+      "ai_keywords": [
+        "autoregressive language models",
+        "diffusion language models",
+        "left-to-right prediction",
+        "full-sequence denoising",
+        "representational analysis",
+        "hierarchical abstractions",
+        "recency bias",
+        "layer-skipping",
+        "FLOPs reduction",
+        "reasoning benchmarks",
+        "code generation benchmarks"
+      ],
+      "organization": {
+        "_id": "616851aa840fa49535b3d5b2",
+        "name": "qualcomm",
+        "fullname": "Qualcomm",
+        "avatar": "https://cdn-uploads.huggingface.co/production/uploads/65c2710dc79c1a6e4d22734d/kB7OTGVsC1DPMIV2femsf.png"
+      }
+    },
+    "publishedAt": "2026-03-08T00:31:52.000Z",
+    "title": "Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs",
+    "summary": "Autoregressive (AR) language models form representations incrementally through left-to-right prediction, whereas diffusion language models (dLLMs) are trained via full-sequence denoising. Although recent dLLMs match AR performance, it remains unclear whether diffusion objectives fundamentally reshape internal representations across depth. We perform the first layer- and token-wise representational analysis comparing native dLLMs (LLaDA), native AR models (Qwen2.5), and AR-initialized dLLMs (Dream-7B). We find that diffusion objectives result in different, more hierarchical abstractions with substantial early-layer redundancy and reduced recency bias, while AR objectives produce tightly coupled, depth-dependent representations. Critically, AR-initialized dLLMs retain AR-like representational dynamics despite diffusion training, revealing persistent initialization bias. Leveraging this observed representational redundancy, we introduce a static, task-agnostic inference-time layer-skipping method requiring no architectural changes or KV-cache sharing. Native dLLMs achieve up to 18.75% FLOPs reduction while preserving over 90% performance on reasoning and code generation benchmarks, whereas AR models degrade sharply under comparable skipping. These results link training objectives to representational structure and enable practical, cache-orthogonal efficiency gains.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.07475.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "649b6eb2f7cc759ab756adaf",
+      "avatarUrl": "/avatars/a0f7c7345dd653887122200fbe375c2b.svg",
+      "fullname": "Raghavv Goel",
+      "name": "RaghavvGoel",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "616851aa840fa49535b3d5b2",
+      "name": "qualcomm",
+      "fullname": "Qualcomm",
+      "avatar": "https://cdn-uploads.huggingface.co/production/uploads/65c2710dc79c1a6e4d22734d/kB7OTGVsC1DPMIV2femsf.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.03872",
+      "authors": [
+        {
+          "_id": "69a8f6f88b5b27c7ea9fa62e",
+          "user": {
+            "_id": "67077762784e1c990115e29a",
+            "avatarUrl": "/avatars/30412b5a4f17a67464879b966a7fee65.svg",
+            "isPro": false,
+            "fullname": "yxizhong",
+            "user": "yxizhong",
+            "type": "user"
+          },
+          "name": "Xizhong Yang",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-03-05T10:01:57.109Z",
+          "hidden": false
+        },
+        {
+          "_id": "69a8f6f88b5b27c7ea9fa62f",
+          "name": "Haotian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69a8f6f88b5b27c7ea9fa630",
+          "name": "Huiming Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a8f6f88b5b27c7ea9fa631",
+          "name": "Mofei Song",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-04T09:25:36.000Z",
+      "submittedOnDailyAt": "2026-03-10T01:48:05.110Z",
+      "title": "Believe Your Model: Distribution-Guided Confidence Calibration",
+      "submittedOnDailyBy": {
+        "_id": "67077762784e1c990115e29a",
+        "avatarUrl": "/avatars/30412b5a4f17a67464879b966a7fee65.svg",
+        "isPro": false,
+        "fullname": "yxizhong",
+        "user": "yxizhong",
+        "type": "user"
+      },
+      "summary": "Large Reasoning Models have demonstrated remarkable performance with the advancement of test-time scaling techniques, which enhances prediction accuracy by generating multiple candidate responses and selecting the most reliable answer. While prior work has analyzed that internal model signals like confidence scores can partly indicate response correctness and exhibit a distributional correlation with accuracy, such distributional information has not been fully utilized to guide answer selection. Motivated by this, we propose DistriVoting, which incorporates distributional priors as another signal alongside confidence during voting. Specifically, our method (1) first decomposes the mixed confidence distribution into positive and negative components using Gaussian Mixture Models, (2) then applies a reject filter based on positive/negative samples from them to mitigate overlap between the two distributions. Besides, to further alleviate the overlap from the perspective of distribution itself, we propose SelfStepConf, which uses step-level confidence to dynamically adjust inference process, increasing the separation between the two distributions to improve the reliability of confidences in voting. Experiments across 16 models and 5 benchmarks demonstrate that our method significantly outperforms state-of-the-art approaches.",
+      "upvotes": 1,
+      "discussionId": "69a8f6f88b5b27c7ea9fa632",
+      "ai_summary": "Large reasoning models enhance prediction accuracy through test-time scaling techniques that generate multiple candidate responses, with the proposed DistriVoting method utilizing distributional priors and confidence scores to improve answer selection.",
+      "ai_keywords": [
+        "Gaussian Mixture Models",
+        "confidence scores",
+        "answer selection",
+        "distributional priors",
+        "reject filter",
+        "SelfStepConf",
+        "test-time scaling techniques",
+        "candidate responses",
+        "voting"
+      ]
+    },
+    "publishedAt": "2026-03-04T04:25:36.000Z",
+    "title": "Believe Your Model: Distribution-Guided Confidence Calibration",
+    "summary": "Large Reasoning Models have demonstrated remarkable performance with the advancement of test-time scaling techniques, which enhances prediction accuracy by generating multiple candidate responses and selecting the most reliable answer. While prior work has analyzed that internal model signals like confidence scores can partly indicate response correctness and exhibit a distributional correlation with accuracy, such distributional information has not been fully utilized to guide answer selection. Motivated by this, we propose DistriVoting, which incorporates distributional priors as another signal alongside confidence during voting. Specifically, our method (1) first decomposes the mixed confidence distribution into positive and negative components using Gaussian Mixture Models, (2) then applies a reject filter based on positive/negative samples from them to mitigate overlap between the two distributions. Besides, to further alleviate the overlap from the perspective of distribution itself, we propose SelfStepConf, which uses step-level confidence to dynamically adjust inference process, increasing the separation between the two distributions to improve the reliability of confidences in voting. Experiments across 16 models and 5 benchmarks demonstrate that our method significantly outperforms state-of-the-art approaches.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.03872.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "67077762784e1c990115e29a",
+      "avatarUrl": "/avatars/30412b5a4f17a67464879b966a7fee65.svg",
+      "fullname": "yxizhong",
+      "name": "yxizhong",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2603.02554",
+      "authors": [
+        {
+          "_id": "69a831718b5b27c7ea9fa460",
+          "user": {
+            "_id": "6448cef781c086e0a4202ba2",
+            "avatarUrl": "/avatars/a857873bd16d6097df4829c0c015079e.svg",
+            "isPro": false,
+            "fullname": "Chonghua Lv",
+            "user": "yongers",
+            "type": "user"
+          },
+          "name": "Chonghua Lv",
+          "status": "admin_assigned",
+          "statusLastChangedAt": "2026-03-09T15:40:43.889Z",
+          "hidden": false
+        },
+        {
+          "_id": "69a831718b5b27c7ea9fa461",
+          "name": "Dong Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69a831718b5b27c7ea9fa462",
+          "name": "Shuang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69a831718b5b27c7ea9fa463",
+          "name": "Dou Quan",
+          "hidden": false
+        },
+        {
+          "_id": "69a831718b5b27c7ea9fa464",
+          "name": "Ning Huyan",
+          "hidden": false
+        },
+        {
+          "_id": "69a831718b5b27c7ea9fa465",
+          "name": "Nicu Sebe",
+          "hidden": false
+        },
+        {
+          "_id": "69a831718b5b27c7ea9fa466",
+          "name": "Zhun Zhong",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-03T03:18:12.000Z",
+      "submittedOnDailyAt": "2026-03-10T00:08:41.374Z",
+      "title": "Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation",
+      "submittedOnDailyBy": {
+        "_id": "6448cef781c086e0a4202ba2",
+        "avatarUrl": "/avatars/a857873bd16d6097df4829c0c015079e.svg",
+        "isPro": false,
+        "fullname": "Chonghua Lv",
+        "user": "yongers",
+        "type": "user"
+      },
+      "summary": "Knowledge distillation (KD) has been widely applied in semantic segmentation to compress large models, but conventional approaches primarily preserve in-domain accuracy while neglecting out-of-domain generalization, which is essential under distribution shifts. This limitation becomes more severe with the emergence of vision foundation models (VFMs): although VFMs exhibit strong robustness on unseen data, distilling them with conventional KD often compromises this ability. We propose Generalizable Knowledge Distillation (GKD), a multi-stage framework that explicitly enhances generalization. GKD decouples representation learning from task learning. In the first stage, the student acquires domain-agnostic representations through selective feature distillation, and in the second stage, these representations are frozen for task adaptation, thereby mitigating overfitting to visible domains. To further support transfer, we introduce a query-based soft distillation mechanism, where student features act as queries to teacher representations to selectively retrieve transferable spatial knowledge from VFMs. Extensive experiments on five domain generalization benchmarks demonstrate that GKD consistently outperforms existing KD methods, achieving average gains of +1.9% in foundation-to-foundation (F2F) and +10.6% in foundation-to-local (F2L) distillation. The code will be available at https://github.com/Younger-hua/GKD.",
+      "upvotes": 1,
+      "discussionId": "69a831718b5b27c7ea9fa467",
+      "githubRepo": "https://github.com/Younger-hua/GKD",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Generalizable Knowledge Distillation (GKD) enhances out-of-domain generalization in semantic segmentation by decoupling representation learning from task learning and using query-based soft distillation to transfer knowledge from vision foundation models.",
+      "ai_keywords": [
+        "knowledge distillation",
+        "semantic segmentation",
+        "vision foundation models",
+        "domain generalization",
+        "representation learning",
+        "task learning",
+        "selective feature distillation",
+        "query-based soft distillation",
+        "transferable spatial knowledge"
+      ],
+      "githubStars": 14
+    },
+    "publishedAt": "2026-03-02T22:18:12.000Z",
+    "title": "Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation",
+    "summary": "Knowledge distillation (KD) has been widely applied in semantic segmentation to compress large models, but conventional approaches primarily preserve in-domain accuracy while neglecting out-of-domain generalization, which is essential under distribution shifts. This limitation becomes more severe with the emergence of vision foundation models (VFMs): although VFMs exhibit strong robustness on unseen data, distilling them with conventional KD often compromises this ability. We propose Generalizable Knowledge Distillation (GKD), a multi-stage framework that explicitly enhances generalization. GKD decouples representation learning from task learning. In the first stage, the student acquires domain-agnostic representations through selective feature distillation, and in the second stage, these representations are frozen for task adaptation, thereby mitigating overfitting to visible domains. To further support transfer, we introduce a query-based soft distillation mechanism, where student features act as queries to teacher representations to selectively retrieve transferable spatial knowledge from VFMs. Extensive experiments on five domain generalization benchmarks demonstrate that GKD consistently outperforms existing KD methods, achieving average gains of +1.9% in foundation-to-foundation (F2F) and +10.6% in foundation-to-local (F2L) distillation. The code will be available at https://github.com/Younger-hua/GKD.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02554.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6448cef781c086e0a4202ba2",
+      "avatarUrl": "/avatars/a857873bd16d6097df4829c0c015079e.svg",
+      "fullname": "Chonghua Lv",
+      "name": "yongers",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+  }
+]
