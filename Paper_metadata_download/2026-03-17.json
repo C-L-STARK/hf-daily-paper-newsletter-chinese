@@ -1,0 +1,745 @@
+[
+  {
+    "paper": {
+      "id": "2603.14473",
+      "authors": [
+        {
+          "_id": "69b8b8746b3f36c249fbc38e",
+          "name": "Jingqi Tong",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc38f",
+          "name": "Mingzhe Li",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc390",
+          "name": "Hangcheng Li",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc391",
+          "name": "Yongzhuo Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc392",
+          "name": "Yurong Mou",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc393",
+          "name": "Weijie Ma",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc394",
+          "name": "Zhiheng Xi",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc395",
+          "name": "Hongji Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc396",
+          "name": "Xiaoran Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc397",
+          "name": "Qinyuan Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc398",
+          "name": "Ming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc399",
+          "name": "Qiguang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc39a",
+          "name": "Weifeng Ge",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc39b",
+          "name": "Qipeng Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc39c",
+          "name": "Tianlei Ying",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc39d",
+          "name": "Tianxiang Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc39e",
+          "name": "Yining Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc39f",
+          "name": "Xinchi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc3a0",
+          "name": "Jun Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc3a1",
+          "name": "Ning Ding",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc3a2",
+          "name": "Xuanjing Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc3a3",
+          "name": "Yugang Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8746b3f36c249fbc3a4",
+          "name": "Xipeng Qiu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-15T16:31:51.000Z",
+      "submittedOnDailyAt": "2026-03-17T01:14:04.187Z",
+      "title": "AI Can Learn Scientific Taste",
+      "submittedOnDailyBy": {
+        "_id": "6690e13ccbcaf7ab0ec1c971",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/e8KDV6J29tviXlIpLZPq6.png",
+        "isPro": false,
+        "fullname": "Tony.Li",
+        "user": "lkdhy",
+        "type": "user",
+        "name": "lkdhy"
+      },
+      "summary": "Great scientists have strong judgement and foresight, closely tied to what we call scientific taste. Here, we use the term to refer to the capacity to judge and propose research ideas with high potential impact. However, most relative research focuses on improving an AI scientist's executive capability, while enhancing an AI's scientific taste remains underexplored. In this work, we propose Reinforcement Learning from Community Feedback (RLCF), a training paradigm that uses large-scale community signals as supervision, and formulate scientific taste learning as a preference modeling and alignment problem. For preference modeling, we train Scientific Judge on 700K field- and time-matched pairs of high- vs. low-citation papers to judge ideas. For preference alignment, using Scientific Judge as a reward model, we train a policy model, Scientific Thinker, to propose research ideas with high potential impact. Experiments show Scientific Judge outperforms SOTA LLMs (e.g., GPT-5.2, Gemini 3 Pro) and generalizes to future-year test, unseen fields, and peer-review preference. Furthermore, Scientific Thinker proposes research ideas with higher potential impact than baselines. Our findings show that AI can learn scientific taste, marking a key step toward reaching human-level AI scientists.",
+      "upvotes": 8,
+      "discussionId": "69b8b8746b3f36c249fbc3a5",
+      "projectPage": "https://tongjingqi.github.io/AI-Can-Learn-Scientific-Taste/",
+      "githubRepo": "https://github.com/tongjingqi/AI-Can-Learn-Scientific-Taste",
+      "githubRepoAddedBy": "user",
+      "githubStars": 7,
+      "organization": {
+        "_id": "613b0dee83ec35d460684607",
+        "name": "OpenMOSS-Team",
+        "fullname": "OpenMOSS",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/61457b8deff2c9fdb4de4988/N5b9663zQ4uq5_OTNlnmw.png"
+      }
+    },
+    "publishedAt": "2026-03-15T12:31:51.000Z",
+    "title": "AI Can Learn Scientific Taste",
+    "summary": "Great scientists have strong judgement and foresight, closely tied to what we call scientific taste. Here, we use the term to refer to the capacity to judge and propose research ideas with high potential impact. However, most relative research focuses on improving an AI scientist's executive capability, while enhancing an AI's scientific taste remains underexplored. In this work, we propose Reinforcement Learning from Community Feedback (RLCF), a training paradigm that uses large-scale community signals as supervision, and formulate scientific taste learning as a preference modeling and alignment problem. For preference modeling, we train Scientific Judge on 700K field- and time-matched pairs of high- vs. low-citation papers to judge ideas. For preference alignment, using Scientific Judge as a reward model, we train a policy model, Scientific Thinker, to propose research ideas with high potential impact. Experiments show Scientific Judge outperforms SOTA LLMs (e.g., GPT-5.2, Gemini 3 Pro) and generalizes to future-year test, unseen fields, and peer-review preference. Furthermore, Scientific Thinker proposes research ideas with higher potential impact than baselines. Our findings show that AI can learn scientific taste, marking a key step toward reaching human-level AI scientists.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.14473.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6690e13ccbcaf7ab0ec1c971",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/e8KDV6J29tviXlIpLZPq6.png",
+      "fullname": "Tony.Li",
+      "name": "lkdhy",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "613b0dee83ec35d460684607",
+      "name": "OpenMOSS-Team",
+      "fullname": "OpenMOSS",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/61457b8deff2c9fdb4de4988/N5b9663zQ4uq5_OTNlnmw.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.10505",
+      "authors": [
+        {
+          "_id": "69b82de56b3f36c249fbc2fd",
+          "name": "Hyungjoo Chae",
+          "hidden": false
+        },
+        {
+          "_id": "69b82de56b3f36c249fbc2fe",
+          "name": "Jungsoo Park",
+          "hidden": false
+        },
+        {
+          "_id": "69b82de56b3f36c249fbc2ff",
+          "name": "Alan Ritter",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-11T07:58:53.000Z",
+      "submittedOnDailyAt": "2026-03-17T00:51:18.089Z",
+      "title": "Safe and Scalable Web Agent Learning via Recreated Websites",
+      "submittedOnDailyBy": {
+        "_id": "64c8f4cec547ed5243ebd0a8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c8f4cec547ed5243ebd0a8/MiOH5YbMg8Gh9KYlQsLmX.jpeg",
+        "isPro": false,
+        "fullname": "Hyungjoo Chae",
+        "user": "hyungjoochae",
+        "type": "user",
+        "name": "hyungjoochae"
+      },
+      "summary": "Training autonomous web agents is fundamentally limited by the environments they learn from: real-world websites are unsafe to explore, hard to reset, and rarely provide verifiable feedback. We propose VeriEnv, a framework that treats language models as environment creators, automatically cloning real-world websites into fully executable, verifiable synthetic environments. By exposing controlled internal access via a Python SDK, VeriEnv enables agents to self-generate tasks with deterministic, programmatically verifiable rewards, eliminating reliance on heuristic or LLM-based judges. This design decouples agent learning from unsafe real-world interaction while enabling scalable self-evolution through environment expansion. Through experiments on web agent benchmarks, we show that agents trained with VeriEnv generalize to unseen websites, achieve site-specific mastery through self-evolving training, and benefit from scaling the number of training environments. Code and resources will be released at https://github.com/kyle8581/VeriEnv upon acceptance.",
+      "upvotes": 8,
+      "discussionId": "69b82de66b3f36c249fbc300",
+      "projectPage": "https://huggingface.co/spaces/hyungjoochae/verienv-project-page",
+      "githubRepo": "https://github.com/kyle8581/VeriEnv",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "VeriEnv enables safe and scalable training of web agents by creating synthetic, verifiable environments from real websites through language model-based cloning.",
+      "ai_keywords": [
+        "language models",
+        "environment creators",
+        "synthetic environments",
+        "verifiable rewards",
+        "web agent benchmarks",
+        "self-evolving training"
+      ],
+      "githubStars": 0,
+      "organization": {
+        "_id": "64155eaa95fb6f824b237c3d",
+        "name": "GeorgiaTech",
+        "fullname": "Georgia Institute of Technology",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64155e8abe60230f2f40b03a/3i-AL3LrNkaTarSKnaGy8.png"
+      }
+    },
+    "publishedAt": "2026-03-11T03:58:53.000Z",
+    "title": "Safe and Scalable Web Agent Learning via Recreated Websites",
+    "summary": "Training autonomous web agents is fundamentally limited by the environments they learn from: real-world websites are unsafe to explore, hard to reset, and rarely provide verifiable feedback. We propose VeriEnv, a framework that treats language models as environment creators, automatically cloning real-world websites into fully executable, verifiable synthetic environments. By exposing controlled internal access via a Python SDK, VeriEnv enables agents to self-generate tasks with deterministic, programmatically verifiable rewards, eliminating reliance on heuristic or LLM-based judges. This design decouples agent learning from unsafe real-world interaction while enabling scalable self-evolution through environment expansion. Through experiments on web agent benchmarks, we show that agents trained with VeriEnv generalize to unseen websites, achieve site-specific mastery through self-evolving training, and benefit from scaling the number of training environments. Code and resources will be released at https://github.com/kyle8581/VeriEnv upon acceptance.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.10505.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64c8f4cec547ed5243ebd0a8",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c8f4cec547ed5243ebd0a8/MiOH5YbMg8Gh9KYlQsLmX.jpeg",
+      "fullname": "Hyungjoo Chae",
+      "name": "hyungjoochae",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 16,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "64155eaa95fb6f824b237c3d",
+      "name": "GeorgiaTech",
+      "fullname": "Georgia Institute of Technology",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64155e8abe60230f2f40b03a/3i-AL3LrNkaTarSKnaGy8.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.15478",
+      "authors": [
+        {
+          "_id": "69b8c4b76b3f36c249fbc3e5",
+          "name": "Ruonan Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c4b76b3f36c249fbc3e6",
+          "name": "Zhenxiong Tan",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c4b76b3f36c249fbc3e7",
+          "name": "Zigeng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c4b76b3f36c249fbc3e8",
+          "name": "Songhua Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c4b76b3f36c249fbc3e9",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6486fb33570a419f41a882e4/EBgkjip9S2VEPtOUiSi3i.mp4"
+      ],
+      "publishedAt": "2026-03-16T16:10:46.000Z",
+      "submittedOnDailyAt": "2026-03-17T01:37:18.119Z",
+      "title": "ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer",
+      "submittedOnDailyBy": {
+        "_id": "6486fb33570a419f41a882e4",
+        "avatarUrl": "/avatars/860a42074439a23c629cd23851ae4da6.svg",
+        "isPro": false,
+        "fullname": "Ruonan Yu",
+        "user": "roseannelexie",
+        "type": "user",
+        "name": "roseannelexie"
+      },
+      "summary": "Diffusion Transformers (DiTs) have demonstrated remarkable scalability and quality in image and video generation, prompting growing interest in extending them to controllable generation and editing tasks. However, compared to the image counterparts, progress in video control and editing remains limited, mainly due to the scarcity of paired video data and the high computational cost of training video diffusion models. To address this issue, in this paper, we propose a video-free tuning framework termed ViFeEdit for video diffusion transformers. Without requiring any forms of video training data, ViFeEdit achieves versatile video generation and editing, adapted solely with 2D images. At the core of our approach is an architectural reparameterization that decouples spatial independence from the full 3D attention in modern video diffusion transformers, which enables visually faithful editing while maintaining temporal consistency with only minimal additional parameters. Moreover, this design operates in a dual-path pipeline with separate timestep embeddings for noise scheduling, exhibiting strong adaptability to diverse conditioning signals. Extensive experiments demonstrate that our method delivers promising results of controllable video generation and editing with only minimal training on 2D image data. Codes are available https://github.com/Lexie-YU/ViFeEdit.",
+      "upvotes": 4,
+      "discussionId": "69b8c4b76b3f36c249fbc3ea",
+      "githubRepo": "https://github.com/Lexie-YU/ViFeEdit",
+      "githubRepoAddedBy": "user",
+      "githubStars": 2,
+      "organization": {
+        "_id": "6508ab2b349930913196378b",
+        "name": "NationalUniversityofSingapore",
+        "fullname": "National University of Singapore",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/630ca0817dacb93b33506ce7/ZYUmpSMsa5Whihw3me2Bw.png"
+      }
+    },
+    "publishedAt": "2026-03-16T12:10:46.000Z",
+    "title": "ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer",
+    "summary": "Diffusion Transformers (DiTs) have demonstrated remarkable scalability and quality in image and video generation, prompting growing interest in extending them to controllable generation and editing tasks. However, compared to the image counterparts, progress in video control and editing remains limited, mainly due to the scarcity of paired video data and the high computational cost of training video diffusion models. To address this issue, in this paper, we propose a video-free tuning framework termed ViFeEdit for video diffusion transformers. Without requiring any forms of video training data, ViFeEdit achieves versatile video generation and editing, adapted solely with 2D images. At the core of our approach is an architectural reparameterization that decouples spatial independence from the full 3D attention in modern video diffusion transformers, which enables visually faithful editing while maintaining temporal consistency with only minimal additional parameters. Moreover, this design operates in a dual-path pipeline with separate timestep embeddings for noise scheduling, exhibiting strong adaptability to diverse conditioning signals. Extensive experiments demonstrate that our method delivers promising results of controllable video generation and editing with only minimal training on 2D image data. Codes are available https://github.com/Lexie-YU/ViFeEdit.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6486fb33570a419f41a882e4/EBgkjip9S2VEPtOUiSi3i.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15478.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6486fb33570a419f41a882e4",
+      "avatarUrl": "/avatars/860a42074439a23c629cd23851ae4da6.svg",
+      "fullname": "Ruonan Yu",
+      "name": "roseannelexie",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6508ab2b349930913196378b",
+      "name": "NationalUniversityofSingapore",
+      "fullname": "National University of Singapore",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/630ca0817dacb93b33506ce7/ZYUmpSMsa5Whihw3me2Bw.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.12146",
+      "authors": [
+        {
+          "_id": "69b8b8186b3f36c249fbc37e",
+          "name": "Quanhao Li",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8186b3f36c249fbc37f",
+          "name": "Zhen Xing",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8186b3f36c249fbc380",
+          "name": "Rui Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8186b3f36c249fbc381",
+          "name": "Haidong Cao",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8186b3f36c249fbc382",
+          "name": "Qi Dai",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8186b3f36c249fbc383",
+          "name": "Daoguo Dong",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b8186b3f36c249fbc384",
+          "name": "Zuxuan Wu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-12T16:45:53.000Z",
+      "submittedOnDailyAt": "2026-03-17T00:43:38.717Z",
+      "title": "FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance",
+      "submittedOnDailyBy": {
+        "_id": "65818917554131ec95df3829",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65818917554131ec95df3829/YIbgLCllm-0u88pRLhpVZ.jpeg",
+        "isPro": false,
+        "fullname": "Quanhao Li",
+        "user": "quanhaol",
+        "type": "user",
+        "name": "quanhaol"
+      },
+      "summary": "Recent advances in trajectory-controllable video generation have achieved remarkable progress. Previous methods mainly use adapter-based architectures for precise motion control along predefined trajectories. However, all these methods rely on a multi-step denoising process, leading to substantial time redundancy and computational overhead. While existing video distillation methods successfully distill multi-step generators into few-step, directly applying these approaches to trajectory-controllable video generation results in noticeable degradation in both video quality and trajectory accuracy. To bridge this gap, we introduce FlashMotion, a novel training framework designed for few-step trajectory-controllable video generation. We first train a trajectory adapter on a multi-step video generator for precise trajectory control. Then, we distill the generator into a few-step version to accelerate video generation. Finally, we finetune the adapter using a hybrid strategy that combines diffusion and adversarial objectives, aligning it with the few-step generator to produce high-quality, trajectory-accurate videos. For evaluation, we introduce FlashBench, a benchmark for long-sequence trajectory-controllable video generation that measures both video quality and trajectory accuracy across varying numbers of foreground objects. Experiments on two adapter architectures show that FlashMotion surpasses existing video distillation methods and previous multi-step models in both visual quality and trajectory consistency.",
+      "upvotes": 3,
+      "discussionId": "69b8b8186b3f36c249fbc385",
+      "projectPage": "https://quanhaol.github.io/flashmotion-site/",
+      "githubRepo": "https://github.com/quanhaol/FlashMotion",
+      "githubRepoAddedBy": "user",
+      "githubStars": 23
+    },
+    "publishedAt": "2026-03-12T12:45:53.000Z",
+    "title": "FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance",
+    "summary": "Recent advances in trajectory-controllable video generation have achieved remarkable progress. Previous methods mainly use adapter-based architectures for precise motion control along predefined trajectories. However, all these methods rely on a multi-step denoising process, leading to substantial time redundancy and computational overhead. While existing video distillation methods successfully distill multi-step generators into few-step, directly applying these approaches to trajectory-controllable video generation results in noticeable degradation in both video quality and trajectory accuracy. To bridge this gap, we introduce FlashMotion, a novel training framework designed for few-step trajectory-controllable video generation. We first train a trajectory adapter on a multi-step video generator for precise trajectory control. Then, we distill the generator into a few-step version to accelerate video generation. Finally, we finetune the adapter using a hybrid strategy that combines diffusion and adversarial objectives, aligning it with the few-step generator to produce high-quality, trajectory-accurate videos. For evaluation, we introduce FlashBench, a benchmark for long-sequence trajectory-controllable video generation that measures both video quality and trajectory accuracy across varying numbers of foreground objects. Experiments on two adapter architectures show that FlashMotion surpasses existing video distillation methods and previous multi-step models in both visual quality and trajectory consistency.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.12146.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65818917554131ec95df3829",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65818917554131ec95df3829/YIbgLCllm-0u88pRLhpVZ.jpeg",
+      "fullname": "Quanhao Li",
+      "name": "quanhaol",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 8,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.13364",
+      "authors": [
+        {
+          "_id": "69b8b6906b3f36c249fbc378",
+          "name": "Ning Liao",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b6906b3f36c249fbc379",
+          "name": "Xiaoxing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b6906b3f36c249fbc37a",
+          "name": "Xiaohan Qin",
+          "hidden": false
+        },
+        {
+          "_id": "69b8b6906b3f36c249fbc37b",
+          "name": "Junchi Yan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-09T12:00:36.000Z",
+      "submittedOnDailyAt": "2026-03-17T00:42:07.149Z",
+      "title": "FineRMoE: Dimension Expansion for Finer-Grained Expert with Its Upcycling Approach",
+      "submittedOnDailyBy": {
+        "_id": "6281ebe63e7734836f2f7724",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6281ebe63e7734836f2f7724/lf5by3U79jW_mEKmJgVh2.jpeg",
+        "isPro": false,
+        "fullname": "NingLiao",
+        "user": "NingLiao",
+        "type": "user",
+        "name": "NingLiao"
+      },
+      "summary": "As revealed by the scaling law of fine-grained MoE, model performance ceases to be improved once the granularity of the intermediate dimension exceeds the optimal threshold, limiting further gains from single-dimension fine-grained design. To address this bottleneck, we propose FineRMoE (FineR-Grained MoE), an architecture that extends fine-grained expert design to both intermediate and output dimensions, aiming to enhance expert specialization beyond the single-dimension limit. We further introduce a bi-level sparse forward computation paradigm and a specialized routing mechanism to govern the activation. In addition, to obviate the prohibitive cost of training FineRMoE from scratch, we devise a generalized upcycling method to build FineRMoE in a cost-effective manner. Extensive experiments demonstrate the superior performance achieved by FineRMoE across ten standard benchmarks. Compared with the strongest baseline, FineRMoE achieves 6 times higher parameter efficiency, 281 times lower prefill latency, and 136 timese higher decoding throughput during inference.",
+      "upvotes": 1,
+      "discussionId": "69b8b6906b3f36c249fbc37c",
+      "projectPage": "https://github.com/liaoning97/FineRMoE",
+      "githubRepo": "https://github.com/liaoning97/FineRMoE",
+      "githubRepoAddedBy": "user",
+      "githubStars": 4
+    },
+    "publishedAt": "2026-03-09T08:00:36.000Z",
+    "title": "FineRMoE: Dimension Expansion for Finer-Grained Expert with Its Upcycling Approach",
+    "summary": "As revealed by the scaling law of fine-grained MoE, model performance ceases to be improved once the granularity of the intermediate dimension exceeds the optimal threshold, limiting further gains from single-dimension fine-grained design. To address this bottleneck, we propose FineRMoE (FineR-Grained MoE), an architecture that extends fine-grained expert design to both intermediate and output dimensions, aiming to enhance expert specialization beyond the single-dimension limit. We further introduce a bi-level sparse forward computation paradigm and a specialized routing mechanism to govern the activation. In addition, to obviate the prohibitive cost of training FineRMoE from scratch, we devise a generalized upcycling method to build FineRMoE in a cost-effective manner. Extensive experiments demonstrate the superior performance achieved by FineRMoE across ten standard benchmarks. Compared with the strongest baseline, FineRMoE achieves 6 times higher parameter efficiency, 281 times lower prefill latency, and 136 timese higher decoding throughput during inference.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.13364.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6281ebe63e7734836f2f7724",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6281ebe63e7734836f2f7724/lf5by3U79jW_mEKmJgVh2.jpeg",
+      "fullname": "NingLiao",
+      "name": "NingLiao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.15558",
+      "authors": [
+        {
+          "_id": "69b8ca536b3f36c249fbc418",
+          "name": "Zixin Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc419",
+          "name": "Chenfei Liao",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc41a",
+          "name": "Hongfei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc41b",
+          "name": "Harold Haodong Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc41c",
+          "name": "Kanghao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc41d",
+          "name": "Zichen Wen",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc41e",
+          "name": "Litao Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc41f",
+          "name": "Bin Ren",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc420",
+          "name": "Xu Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc421",
+          "name": "Yinchuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc422",
+          "name": "Xuming Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc423",
+          "name": "Nicu Sebe",
+          "hidden": false
+        },
+        {
+          "_id": "69b8ca536b3f36c249fbc424",
+          "name": "Ying-Cong Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-16T17:21:49.000Z",
+      "submittedOnDailyAt": "2026-03-17T01:59:47.781Z",
+      "title": "Panoramic Affordance Prediction",
+      "submittedOnDailyBy": {
+        "_id": "6806464ed918f6d2fee2bc8b",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6806464ed918f6d2fee2bc8b/rgpG2oO0m6PT0KltCF_Wf.jpeg",
+        "isPro": false,
+        "fullname": "Chenfei Liao",
+        "user": "Chenfei-Liao",
+        "type": "user",
+        "name": "Chenfei-Liao"
+      },
+      "summary": "Affordance prediction serves as a critical bridge between perception and action in embodied AI. However, existing research is confined to pinhole camera models, which suffer from narrow Fields of View (FoV) and fragmented observations, often missing critical holistic environmental context. In this paper, we present the first exploration into Panoramic Affordance Prediction, utilizing 360-degree imagery to capture global spatial relationships and holistic scene understanding. To facilitate this novel task, we first introduce PAP-12K, a large-scale benchmark dataset containing over 1,000 ultra-high-resolution (12k, 11904 x 5952) panoramic images with over 12k carefully annotated QA pairs and affordance masks. Furthermore, we propose PAP, a training-free, coarse-to-fine pipeline inspired by the human foveal visual system to tackle the ultra-high resolution and severe distortion inherent in panoramic images. PAP employs recursive visual routing via grid prompting to progressively locate targets, applies an adaptive gaze mechanism to rectify local geometric distortions, and utilizes a cascaded grounding pipeline to extract precise instance-level masks. Experimental results on PAP-12K reveal that existing affordance prediction methods designed for standard perspective images suffer severe performance degradation and fail due to the unique challenges of panoramic vision. In contrast, PAP framework effectively overcomes these obstacles, significantly outperforming state-of-the-art baselines and highlighting the immense potential of panoramic perception for robust embodied intelligence.",
+      "upvotes": 0,
+      "discussionId": "69b8ca536b3f36c249fbc425",
+      "projectPage": "https://zixinzhang02.github.io/Panoramic-Affordance-Prediction/",
+      "githubRepo": "https://github.com/EnVision-Research/PAP",
+      "githubRepoAddedBy": "user"
+    },
+    "publishedAt": "2026-03-16T13:21:49.000Z",
+    "title": "Panoramic Affordance Prediction",
+    "summary": "Affordance prediction serves as a critical bridge between perception and action in embodied AI. However, existing research is confined to pinhole camera models, which suffer from narrow Fields of View (FoV) and fragmented observations, often missing critical holistic environmental context. In this paper, we present the first exploration into Panoramic Affordance Prediction, utilizing 360-degree imagery to capture global spatial relationships and holistic scene understanding. To facilitate this novel task, we first introduce PAP-12K, a large-scale benchmark dataset containing over 1,000 ultra-high-resolution (12k, 11904 x 5952) panoramic images with over 12k carefully annotated QA pairs and affordance masks. Furthermore, we propose PAP, a training-free, coarse-to-fine pipeline inspired by the human foveal visual system to tackle the ultra-high resolution and severe distortion inherent in panoramic images. PAP employs recursive visual routing via grid prompting to progressively locate targets, applies an adaptive gaze mechanism to rectify local geometric distortions, and utilizes a cascaded grounding pipeline to extract precise instance-level masks. Experimental results on PAP-12K reveal that existing affordance prediction methods designed for standard perspective images suffer severe performance degradation and fail due to the unique challenges of panoramic vision. In contrast, PAP framework effectively overcomes these obstacles, significantly outperforming state-of-the-art baselines and highlighting the immense potential of panoramic perception for robust embodied intelligence.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15558.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6806464ed918f6d2fee2bc8b",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6806464ed918f6d2fee2bc8b/rgpG2oO0m6PT0KltCF_Wf.jpeg",
+      "fullname": "Chenfei Liao",
+      "name": "Chenfei-Liao",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.14145",
+      "authors": [
+        {
+          "_id": "69b8c95d6b3f36c249fbc3fd",
+          "name": "Arushi Goel",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc3fe",
+          "name": "Sreyan Ghosh",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc3ff",
+          "name": "Vatsal Agarwal",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc400",
+          "name": "Nishit Anand",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc401",
+          "name": "Kaousheik Jayakumar",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc402",
+          "name": "Lasha Koroshinadze",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc403",
+          "name": "Yao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc404",
+          "name": "Katie Lyons",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc405",
+          "name": "James Case",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc406",
+          "name": "Karan Sapra",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc407",
+          "name": "Kevin J. Shih",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc408",
+          "name": "Siddharth Gururani",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc409",
+          "name": "Abhinav Shrivastava",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc40a",
+          "name": "Ramani Duraiswami",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc40b",
+          "name": "Dinesh Manocha",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc40c",
+          "name": "Andrew Tao",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc40d",
+          "name": "Bryan Catanzaro",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc40e",
+          "name": "Mohammad Shoeybi",
+          "hidden": false
+        },
+        {
+          "_id": "69b8c95d6b3f36c249fbc40f",
+          "name": "Wei Ping",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-14T22:28:38.000Z",
+      "submittedOnDailyAt": "2026-03-17T01:58:52.026Z",
+      "title": "MMOU: A Massive Multi-Task Omni Understanding and Reasoning Benchmark for Long and Complex Real-World Videos",
+      "submittedOnDailyBy": {
+        "_id": "62c9664eb34e600d7eaa4beb",
+        "avatarUrl": "/avatars/ca23ecdec2d31c99ecce97d9b180ae0c.svg",
+        "isPro": false,
+        "fullname": "Ghosh",
+        "user": "Sreyan88",
+        "type": "user",
+        "name": "Sreyan88"
+      },
+      "summary": "Multimodal Large Language Models (MLLMs) have shown strong performance in visual and audio understanding when evaluated in isolation. However, their ability to jointly reason over omni-modal (visual, audio, and textual) signals in long and complex videos remains largely unexplored. We introduce MMOU, a new benchmark designed to systematically evaluate multimodal understanding and reasoning under these challenging, real-world conditions. MMOU consists of 15,000 carefully curated questions paired with 9038 web-collected videos of varying length, spanning diverse domains and exhibiting rich, tightly coupled audio-visual content. The benchmark covers 13 fundamental skill categories, all of which require integrating evidence across modalities and time. All questions are manually annotated across multiple turns by professional annotators, ensuring high quality and reasoning fidelity. We evaluate 20+ state-of-the-art open-source and proprietary multimodal models on MMOU. The results expose substantial performance gaps: the best closed-source model achieves only 64.2% accuracy, while the strongest open-source model reaches just 46.8%. Our results highlight the challenges of long-form omni-modal understanding, revealing that current models frequently fail to apply even fundamental skills in long videos. Through detailed analysis, we further identify systematic failure modes and provide insights into where and why current models break.",
+      "upvotes": 0,
+      "discussionId": "69b8c95d6b3f36c249fbc410",
+      "projectPage": "https://huggingface.co/datasets/nvidia/MMOU",
+      "organization": {
+        "_id": "60262b67268c201cdc8b7d43",
+        "name": "nvidia",
+        "fullname": "NVIDIA",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+      }
+    },
+    "publishedAt": "2026-03-14T18:28:38.000Z",
+    "title": "MMOU: A Massive Multi-Task Omni Understanding and Reasoning Benchmark for Long and Complex Real-World Videos",
+    "summary": "Multimodal Large Language Models (MLLMs) have shown strong performance in visual and audio understanding when evaluated in isolation. However, their ability to jointly reason over omni-modal (visual, audio, and textual) signals in long and complex videos remains largely unexplored. We introduce MMOU, a new benchmark designed to systematically evaluate multimodal understanding and reasoning under these challenging, real-world conditions. MMOU consists of 15,000 carefully curated questions paired with 9038 web-collected videos of varying length, spanning diverse domains and exhibiting rich, tightly coupled audio-visual content. The benchmark covers 13 fundamental skill categories, all of which require integrating evidence across modalities and time. All questions are manually annotated across multiple turns by professional annotators, ensuring high quality and reasoning fidelity. We evaluate 20+ state-of-the-art open-source and proprietary multimodal models on MMOU. The results expose substantial performance gaps: the best closed-source model achieves only 64.2% accuracy, while the strongest open-source model reaches just 46.8%. Our results highlight the challenges of long-form omni-modal understanding, revealing that current models frequently fail to apply even fundamental skills in long videos. Through detailed analysis, we further identify systematic failure modes and provide insights into where and why current models break.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.14145.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "62c9664eb34e600d7eaa4beb",
+      "avatarUrl": "/avatars/ca23ecdec2d31c99ecce97d9b180ae0c.svg",
+      "fullname": "Ghosh",
+      "name": "Sreyan88",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "name": "nvidia",
+      "fullname": "NVIDIA",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
