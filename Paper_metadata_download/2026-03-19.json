@@ -1,0 +1,264 @@
+[
+  {
+    "paper": {
+      "id": "2603.16642",
+      "authors": [
+        {
+          "_id": "69ba17cc5d2b9c28ea09f127",
+          "name": "Ming Li",
+          "hidden": false
+        },
+        {
+          "_id": "69ba17cc5d2b9c28ea09f128",
+          "name": "Xirui Li",
+          "hidden": false
+        },
+        {
+          "_id": "69ba17cc5d2b9c28ea09f129",
+          "name": "Tianyi Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-17T15:13:10.000Z",
+      "submittedOnDailyAt": "2026-03-19T01:34:07.400Z",
+      "title": "When AI Navigates the Fog of War",
+      "submittedOnDailyBy": {
+        "_id": "6534a434e778506c5b1e5be8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6534a434e778506c5b1e5be8/349SdAnjEdIQJSzWvKfZ4.png",
+        "isPro": true,
+        "fullname": "Xirui Li",
+        "user": "AIcell",
+        "type": "user",
+        "name": "AIcell"
+      },
+      "summary": "Can AI reason about a war before its trajectory becomes historically obvious? Analyzing this capability is difficult because retrospective geopolitical prediction is heavily confounded by training-data leakage. We address this challenge through a temporally grounded case study of the early stages of the 2026 Middle East conflict, which unfolded after the training cutoff of current frontier models. We construct 11 critical temporal nodes, 42 node-specific verifiable questions, and 5 general exploratory questions, requiring models to reason only from information that would have been publicly available at each moment. This design substantially mitigates training-data leakage concerns, creating a setting well-suited for studying how models analyze an unfolding crisis under the fog of war, and provides, to our knowledge, the first temporally grounded analysis of LLM reasoning in an ongoing geopolitical conflict. Our analysis reveals three main findings. First, current state-of-the-art large language models often display a striking degree of strategic realism, reasoning beyond surface rhetoric toward deeper structural incentives. Second, this capability is uneven across domains: models are more reliable in economically and logistically structured settings than in politically ambiguous multi-actor environments. Finally, model narratives evolve over time, shifting from early expectations of rapid containment toward more systemic accounts of regional entrenchment and attritional de-escalation. Since the conflict remains ongoing at the time of writing, this work can serve as an archival snapshot of model reasoning during an unfolding geopolitical crisis, enabling future studies without the hindsight bias of retrospective analysis.",
+      "upvotes": 2,
+      "discussionId": "69ba17cc5d2b9c28ea09f12a",
+      "projectPage": "https://www.war-forecast-arena.com/",
+      "githubRepo": "https://github.com/xirui-li/war-test",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Large language models demonstrate varying capabilities in reasoning about unfolding geopolitical conflicts, showing strategic realism in structured settings but inconsistent performance in complex political environments.",
+      "ai_keywords": [
+        "large language models",
+        "geopolitical prediction",
+        "retrospective analysis",
+        "training-data leakage",
+        "strategic realism",
+        "temporal nodes",
+        "verifiable questions",
+        "model narratives",
+        "ongoing conflict",
+        "fog of war"
+      ],
+      "githubStars": 0,
+      "organization": {
+        "_id": "647f5b7daa8c04bbf938c625",
+        "name": "umd-zhou-lab",
+        "fullname": "Tianyi Lab",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/647f5af5b0e96764589f3b2a/wEb1ZgAFz8MshalPJq2wW.jpeg"
+      }
+    },
+    "publishedAt": "2026-03-17T11:13:10.000Z",
+    "title": "When AI Navigates the Fog of War",
+    "summary": "Can AI reason about a war before its trajectory becomes historically obvious? Analyzing this capability is difficult because retrospective geopolitical prediction is heavily confounded by training-data leakage. We address this challenge through a temporally grounded case study of the early stages of the 2026 Middle East conflict, which unfolded after the training cutoff of current frontier models. We construct 11 critical temporal nodes, 42 node-specific verifiable questions, and 5 general exploratory questions, requiring models to reason only from information that would have been publicly available at each moment. This design substantially mitigates training-data leakage concerns, creating a setting well-suited for studying how models analyze an unfolding crisis under the fog of war, and provides, to our knowledge, the first temporally grounded analysis of LLM reasoning in an ongoing geopolitical conflict. Our analysis reveals three main findings. First, current state-of-the-art large language models often display a striking degree of strategic realism, reasoning beyond surface rhetoric toward deeper structural incentives. Second, this capability is uneven across domains: models are more reliable in economically and logistically structured settings than in politically ambiguous multi-actor environments. Finally, model narratives evolve over time, shifting from early expectations of rapid containment toward more systemic accounts of regional entrenchment and attritional de-escalation. Since the conflict remains ongoing at the time of writing, this work can serve as an archival snapshot of model reasoning during an unfolding geopolitical crisis, enabling future studies without the hindsight bias of retrospective analysis.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.16642.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6534a434e778506c5b1e5be8",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6534a434e778506c5b1e5be8/349SdAnjEdIQJSzWvKfZ4.png",
+      "fullname": "Xirui Li",
+      "name": "AIcell",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "647f5b7daa8c04bbf938c625",
+      "name": "umd-zhou-lab",
+      "fullname": "Tianyi Lab",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/647f5af5b0e96764589f3b2a/wEb1ZgAFz8MshalPJq2wW.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.18004",
+      "authors": [
+        {
+          "_id": "69bb59b2ba2b62a5fb0b0bce",
+          "name": "Jianrui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69bb59b2ba2b62a5fb0b0bcf",
+          "name": "Yue Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69bb59b2ba2b62a5fb0b0bd0",
+          "name": "Rohun Tripathi",
+          "hidden": false
+        },
+        {
+          "_id": "69bb59b2ba2b62a5fb0b0bd1",
+          "name": "Winson Han",
+          "hidden": false
+        },
+        {
+          "_id": "69bb59b2ba2b62a5fb0b0bd2",
+          "name": "Ranjay Krishna",
+          "hidden": false
+        },
+        {
+          "_id": "69bb59b2ba2b62a5fb0b0bd3",
+          "name": "Christopher Clark",
+          "hidden": false
+        },
+        {
+          "_id": "69bb59b2ba2b62a5fb0b0bd4",
+          "name": "Yong Jae Lee",
+          "hidden": false
+        },
+        {
+          "_id": "69bb59b2ba2b62a5fb0b0bd5",
+          "name": "Sangho Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-18T17:59:56.000Z",
+      "submittedOnDailyAt": "2026-03-19T01:24:14.391Z",
+      "title": "Unified Spatio-Temporal Token Scoring for Efficient Video VLMs",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Token pruning is essential for enhancing the computational efficiency of vision-language models (VLMs), particularly for video-based tasks where temporal redundancy is prevalent. Prior approaches typically prune tokens either (1) within the vision transformer (ViT) exclusively for unimodal perception tasks such as action recognition and object segmentation, without adapting to downstream vision-language tasks; or (2) only within the LLM while leaving the ViT output intact, often requiring complex text-conditioned token selection mechanisms. In this paper, we introduce Spatio-Temporal Token Scoring (STTS), a simple and lightweight module that prunes vision tokens across both the ViT and the LLM without text conditioning or token merging, and is fully compatible with end-to-end training. By learning how to score temporally via an auxiliary loss and spatially via LLM downstream gradients, aided by our efficient packing algorithm, STTS prunes 50% of vision tokens throughout the entire architecture, resulting in a 62% improvement in efficiency during both training and inference with only a 0.7% drop in average performance across 13 short and long video QA tasks. Efficiency gains increase with more sampled frames per video. Applying test-time scaling for long-video QA further yields performance gains of 0.5-1% compared to the baseline. Overall, STTS represents a novel, simple yet effective technique for unified, architecture-wide vision token pruning.",
+      "upvotes": 0,
+      "discussionId": "69bb59b2ba2b62a5fb0b0bd6",
+      "githubRepo": "https://github.com/allenai/STTS",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "STTS is a lightweight module that efficiently prunes vision tokens across both vision transformer and language model architectures in vision-language models for video tasks, achieving significant computational gains with minimal performance loss.",
+      "ai_keywords": [
+        "token pruning",
+        "vision-language models",
+        "vision transformer",
+        "language model",
+        "spatio-temporal token scoring",
+        "auxiliary loss",
+        "downstream gradients",
+        "end-to-end training",
+        "video-based tasks",
+        "temporal redundancy",
+        "vision tokens"
+      ],
+      "githubStars": 1,
+      "organization": {
+        "_id": "5e70f3648ce3c604d78fe132",
+        "name": "allenai",
+        "fullname": "Ai2",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/652db071b62cf1f8463221e2/CxxwFiaomTa1MCX_B7-pT.png"
+      }
+    },
+    "publishedAt": "2026-03-18T13:59:56.000Z",
+    "title": "Unified Spatio-Temporal Token Scoring for Efficient Video VLMs",
+    "summary": "Token pruning is essential for enhancing the computational efficiency of vision-language models (VLMs), particularly for video-based tasks where temporal redundancy is prevalent. Prior approaches typically prune tokens either (1) within the vision transformer (ViT) exclusively for unimodal perception tasks such as action recognition and object segmentation, without adapting to downstream vision-language tasks; or (2) only within the LLM while leaving the ViT output intact, often requiring complex text-conditioned token selection mechanisms. In this paper, we introduce Spatio-Temporal Token Scoring (STTS), a simple and lightweight module that prunes vision tokens across both the ViT and the LLM without text conditioning or token merging, and is fully compatible with end-to-end training. By learning how to score temporally via an auxiliary loss and spatially via LLM downstream gradients, aided by our efficient packing algorithm, STTS prunes 50% of vision tokens throughout the entire architecture, resulting in a 62% improvement in efficiency during both training and inference with only a 0.7% drop in average performance across 13 short and long video QA tasks. Efficiency gains increase with more sampled frames per video. Applying test-time scaling for long-video QA further yields performance gains of 0.5-1% compared to the baseline. Overall, STTS represents a novel, simple yet effective technique for unified, architecture-wide vision token pruning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.18004.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 249,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "5e70f3648ce3c604d78fe132",
+      "name": "allenai",
+      "fullname": "Ai2",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/652db071b62cf1f8463221e2/CxxwFiaomTa1MCX_B7-pT.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.17965",
+      "authors": [
+        {
+          "_id": "69bb67abba2b62a5fb0b0c1c",
+          "name": "Vlad-Constantin Lungu-Stan",
+          "hidden": false
+        },
+        {
+          "_id": "69bb67abba2b62a5fb0b0c1d",
+          "name": "Ionut Mironica",
+          "hidden": false
+        },
+        {
+          "_id": "69bb67abba2b62a5fb0b0c1e",
+          "name": "Mariana-Iuliana Georgescu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-18T17:34:07.000Z",
+      "submittedOnDailyAt": "2026-03-19T01:48:58.830Z",
+      "title": "LaDe: Unified Multi-Layered Graphic Media Generation and Decomposition",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Media design layer generation enables the creation of fully editable, layered design documents such as posters, flyers, and logos using only natural language prompts. Existing methods either restrict outputs to a fixed number of layers or require each layer to contain only spatially continuous regions, causing the layer count to scale linearly with design complexity. We propose LaDe (Layered Media Design), a latent diffusion framework that generates a flexible number of semantically meaningful layers. LaDe combines three components: an LLM-based prompt expander that transforms a short user intent into structured per-layer descriptions that guide the generation, a Latent Diffusion Transformer with a 4D RoPE positional encoding mechanism that jointly generates the full media design and its constituent RGBA layers, and an RGBA VAE that decodes each layer with full alpha-channel support. By conditioning on layer samples during training, our unified framework supports three tasks: text-to-image generation, text-to-layers media design generation, and media design decomposition. We compare LaDe to Qwen-Image-Layered on text-to-layers and image-to-layers tasks on the Crello test set. LaDe outperforms Qwen-Image-Layered in text-to-layers generation by improving text-to-layer alignment, as validated by two VLM-as-a-judge evaluators (GPT-4o mini and Qwen3-VL).",
+      "upvotes": 0,
+      "discussionId": "69bb67abba2b62a5fb0b0c21",
+      "ai_summary": "LaDe is a latent diffusion framework that generates layered media designs with flexible layer counts and semantic meaning from natural language prompts, supporting text-to-image, text-to-layers, and media decomposition tasks.",
+      "ai_keywords": [
+        "latent diffusion framework",
+        "latent diffusion transformer",
+        "4D RoPE positional encoding",
+        "RGBA VAE",
+        "text-to-layers generation",
+        "media design decomposition",
+        "LLM-based prompt expander",
+        "layered media design"
+      ]
+    },
+    "publishedAt": "2026-03-18T13:34:07.000Z",
+    "title": "LaDe: Unified Multi-Layered Graphic Media Generation and Decomposition",
+    "summary": "Media design layer generation enables the creation of fully editable, layered design documents such as posters, flyers, and logos using only natural language prompts. Existing methods either restrict outputs to a fixed number of layers or require each layer to contain only spatially continuous regions, causing the layer count to scale linearly with design complexity. We propose LaDe (Layered Media Design), a latent diffusion framework that generates a flexible number of semantically meaningful layers. LaDe combines three components: an LLM-based prompt expander that transforms a short user intent into structured per-layer descriptions that guide the generation, a Latent Diffusion Transformer with a 4D RoPE positional encoding mechanism that jointly generates the full media design and its constituent RGBA layers, and an RGBA VAE that decodes each layer with full alpha-channel support. By conditioning on layer samples during training, our unified framework supports three tasks: text-to-image generation, text-to-layers media design generation, and media design decomposition. We compare LaDe to Qwen-Image-Layered on text-to-layers and image-to-layers tasks on the Crello test set. LaDe outperforms Qwen-Image-Layered in text-to-layers generation by improving text-to-layer alignment, as validated by two VLM-as-a-judge evaluators (GPT-4o mini and Qwen3-VL).",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.17965.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 249,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
