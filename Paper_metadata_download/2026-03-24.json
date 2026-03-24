@@ -1,0 +1,1435 @@
+[
+  {
+    "paper": {
+      "id": "2603.21065",
+      "authors": [
+        {
+          "_id": "69c1f5d9c105f45cb0481de9",
+          "name": "Jianing Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dea",
+          "name": "Jianfei Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481deb",
+          "name": "Qi Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dec",
+          "name": "Linsen Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481ded",
+          "name": "Rumei Li",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dee",
+          "name": "Chao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481def",
+          "name": "Chong Peng",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df0",
+          "name": "Cunguang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df1",
+          "name": "Dengchang Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df2",
+          "name": "Jiarong Shi",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df3",
+          "name": "Jingang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df4",
+          "name": "Liulin Feng",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df5",
+          "name": "Mengxia Shen",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df6",
+          "name": "Qi Li",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df7",
+          "name": "Shengnan An",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df8",
+          "name": "Shun Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481df9",
+          "name": "Wei Shi",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dfa",
+          "name": "Xiangyu Xi",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dfb",
+          "name": "Xiaoyu Li",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dfc",
+          "name": "Xuezhi Cao",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dfd",
+          "name": "Yi Lu",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dfe",
+          "name": "Yunke Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481dff",
+          "name": "Zhengyu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481e00",
+          "name": "Zhimin Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481e01",
+          "name": "Wei Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481e02",
+          "name": "Peng Pei",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5d9c105f45cb0481e03",
+          "name": "Xunliang Cai",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-22T05:16:09.000Z",
+      "submittedOnDailyAt": "2026-03-24T00:55:24.800Z",
+      "title": "LongCat-Flash-Prover: Advancing Native Formal Reasoning via Agentic Tool-Integrated Reinforcement Learning",
+      "submittedOnDailyBy": {
+        "_id": "617127aee7ef5fb660c71299",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/617127aee7ef5fb660c71299/BmMCBtMjMDgoYgdlUzlTD.jpeg",
+        "isPro": false,
+        "fullname": "WangJianing",
+        "user": "wjn1996",
+        "type": "user",
+        "name": "wjn1996"
+      },
+      "summary": "We introduce LongCat-Flash-Prover, a flagship 560-billion-parameter open-source Mixture-of- Experts (MoE) model that advances Native Formal Reasoning in Lean4 through agentic tool-integrated reasoning (TIR). We decompose the native formal reasoning task into three independent formal capabilities, i.e., auto-formalization, sketching, and proving. To facilitate these capabilities, we propose a Hybrid-Experts Iteration Framework to expand high-quality task trajectories, including generating a formal statement based on a given informal problem, producing a whole-proof directly from the statement, or a lemma-style sketch. During agentic RL, we present a Hierarchical Importance Sampling Policy Optimization (HisPO) algorithm, which aims to stabilize the MoE model training on such long-horizon tasks. It employs a gradient masking strategy that accounts for the policy staleness and the inherent train-inference engine discrepancies at both sequence and token levels. Additionally, we also incorporate theorem consistency and legality detection mechanisms to eliminate reward hacking issues. Extensive evaluations show that our LongCat-Flash-Prover sets a new state-of-the-art for open-weights models in both auto-formalization and theorem proving. Demonstrating remarkable sample efficiency, it achieves a 97.1% pass rate on MiniF2F-Test using only 72 inference budget per problem. On more challenging benchmarks, it solves 70.8% of ProverBench and 41.5% of PutnamBench with no more than 220 attempts per problem, significantly outperforming existing open-weights baselines.",
+      "upvotes": 41,
+      "discussionId": "69c1f5d9c105f45cb0481e04",
+      "projectPage": "https://github.com/meituan-longcat/LongCat-Flash-Prover",
+      "githubRepo": "https://github.com/meituan-longcat/LongCat-Flash-Prover",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A 560-billion-parameter Mixture-of-Experts model advances formal reasoning in Lean4 through tool-integrated reasoning with a hybrid framework and hierarchical policy optimization for stable training on long-horizon tasks.",
+      "ai_keywords": [
+        "Mixture-of-Experts",
+        "Native Formal Reasoning",
+        "Lean4",
+        "agentic tool-integrated reasoning",
+        "auto-formalization",
+        "sketching",
+        "proving",
+        "Hybrid-Experts Iteration Framework",
+        "Hierarchical Importance Sampling Policy Optimization",
+        "gradient masking",
+        "policy staleness",
+        "reward hacking",
+        "theorem consistency",
+        "legality detection"
+      ],
+      "githubStars": 38,
+      "organization": {
+        "_id": "68b28d79a176a9beb30d2049",
+        "name": "meituan-longcat",
+        "fullname": "LongCat",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png"
+      }
+    },
+    "publishedAt": "2026-03-22T01:16:09.000Z",
+    "title": "LongCat-Flash-Prover: Advancing Native Formal Reasoning via Agentic Tool-Integrated Reinforcement Learning",
+    "summary": "We introduce LongCat-Flash-Prover, a flagship 560-billion-parameter open-source Mixture-of- Experts (MoE) model that advances Native Formal Reasoning in Lean4 through agentic tool-integrated reasoning (TIR). We decompose the native formal reasoning task into three independent formal capabilities, i.e., auto-formalization, sketching, and proving. To facilitate these capabilities, we propose a Hybrid-Experts Iteration Framework to expand high-quality task trajectories, including generating a formal statement based on a given informal problem, producing a whole-proof directly from the statement, or a lemma-style sketch. During agentic RL, we present a Hierarchical Importance Sampling Policy Optimization (HisPO) algorithm, which aims to stabilize the MoE model training on such long-horizon tasks. It employs a gradient masking strategy that accounts for the policy staleness and the inherent train-inference engine discrepancies at both sequence and token levels. Additionally, we also incorporate theorem consistency and legality detection mechanisms to eliminate reward hacking issues. Extensive evaluations show that our LongCat-Flash-Prover sets a new state-of-the-art for open-weights models in both auto-formalization and theorem proving. Demonstrating remarkable sample efficiency, it achieves a 97.1% pass rate on MiniF2F-Test using only 72 inference budget per problem. On more challenging benchmarks, it solves 70.8% of ProverBench and 41.5% of PutnamBench with no more than 220 attempts per problem, significantly outperforming existing open-weights baselines.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21065.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "617127aee7ef5fb660c71299",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/617127aee7ef5fb660c71299/BmMCBtMjMDgoYgdlUzlTD.jpeg",
+      "fullname": "WangJianing",
+      "name": "wjn1996",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 5,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68b28d79a176a9beb30d2049",
+      "name": "meituan-longcat",
+      "fullname": "LongCat",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.21986",
+      "authors": [
+        {
+          "_id": "69c2002ec105f45cb0481e2e",
+          "name": "SII-GAIR",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e2f",
+          "name": "Sand. ai",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e31",
+          "name": "Ethan Chern",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e32",
+          "name": "Hansi Teng",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e33",
+          "name": "Hanwen Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e34",
+          "name": "Hao Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e35",
+          "name": "Hong Pan",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e36",
+          "name": "Hongyu Jia",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e37",
+          "name": "Jiadi Su",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e38",
+          "name": "Jin Li",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e39",
+          "name": "Junjie Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e3a",
+          "name": "Lijie Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e3b",
+          "name": "Lingzhi Li",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e3c",
+          "name": "Lyumanshan Ye",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e3d",
+          "name": "Min Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e3e",
+          "name": "Qiangang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e3f",
+          "name": "Quanwei Qi",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e40",
+          "name": "Steffi Chern",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e41",
+          "name": "Tao Bu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e42",
+          "name": "Taoran Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e43",
+          "name": "Teren Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e44",
+          "name": "Tianning Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e45",
+          "name": "Tiantian Mi",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e46",
+          "name": "Weixian Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e47",
+          "name": "Wenqiang Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e48",
+          "name": "Wentai Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e49",
+          "name": "Xianping Yi",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e4a",
+          "name": "Xiaojie Cai",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e4b",
+          "name": "Xiaoyang Kang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e4c",
+          "name": "Yan Ma",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e4d",
+          "name": "Yixiu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e4e",
+          "name": "Yunbo Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e4f",
+          "name": "Yunpeng Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e50",
+          "name": "Yutong Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e51",
+          "name": "Zewei Tao",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e52",
+          "name": "Zhaoliang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e53",
+          "name": "Zheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e54",
+          "name": "Zhiyao Cen",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e55",
+          "name": "Zhixuan Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e56",
+          "name": "Zhongshu Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e57",
+          "name": "Zhulin Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e58",
+          "name": "Zijin Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e59",
+          "name": "Zinan Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e5a",
+          "name": "Yue Cao",
+          "hidden": false
+        },
+        {
+          "_id": "69c2002ec105f45cb0481e5b",
+          "name": "Pengfei Liu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/64bb5f9d8e051085bace4d1e/JHJIOfzWqWLS7JG0aA4c_.mp4",
+        "https://cdn-uploads.huggingface.co/production/uploads/64bb5f9d8e051085bace4d1e/XCzNktWaHc31iFLf7N4Eg.mp4"
+      ],
+      "publishedAt": "2026-03-23T13:49:06.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:38:56.590Z",
+      "title": "Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model",
+      "submittedOnDailyBy": {
+        "_id": "64bb5f9d8e051085bace4d1e",
+        "avatarUrl": "/avatars/15ccbb78c6131dfe46b7a9d8e7d1a31f.svg",
+        "isPro": false,
+        "fullname": "Ethan Chern",
+        "user": "ethanchern",
+        "type": "user",
+        "name": "ethanchern"
+      },
+      "summary": "We present daVinci-MagiHuman, an open-source audio-video generative foundation model for human-centric generation. daVinci-MagiHuman jointly generates synchronized video and audio using a single-stream Transformer that processes text, video, and audio within a unified token sequence via self-attention only. This single-stream design avoids the complexity of multi-stream or cross-attention architectures while remaining easy to optimize with standard training and inference infrastructure. The model is particularly strong in human-centric scenarios, producing expressive facial performance, natural speech-expression coordination, realistic body motion, and precise audio-video synchronization. It supports multilingual spoken generation across Chinese (Mandarin and Cantonese), English, Japanese, Korean, German, and French. For efficient inference, we combine the single-stream backbone with model distillation, latent-space super-resolution, and a Turbo VAE decoder, enabling generation of a 5-second 256p video in 2 seconds on a single H100 GPU. In automatic evaluation, daVinci-MagiHuman achieves the highest visual quality and text alignment among leading open models, along with the lowest word error rate (14.60%) for speech intelligibility. In pairwise human evaluation, it achieves win rates of 80.0% against Ovi 1.1 and 60.9% against LTX 2.3 over 2000 comparisons. We open-source the complete model stack, including the base model, the distilled model, the super-resolution model, and the inference codebase.",
+      "upvotes": 16,
+      "discussionId": "69c2002ec105f45cb0481e5c",
+      "projectPage": "https://huggingface.co/spaces/SII-GAIR/daVinci-MagiHuman",
+      "githubRepo": "https://github.com/GAIR-NLP/daVinci-MagiHuman",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "daVinci-MagiHuman is an open-source audio-video generative model that synchronizes text, video, and audio through a single-stream Transformer architecture, achieving high-quality human-centric content generation with efficient inference capabilities.",
+      "ai_keywords": [
+        "audio-video generative foundation model",
+        "single-stream Transformer",
+        "self-attention",
+        "multilingual spoken generation",
+        "model distillation",
+        "latent-space super-resolution",
+        "Turbo VAE decoder",
+        "visual quality",
+        "text alignment",
+        "speech intelligibility"
+      ],
+      "githubStars": 204
+    },
+    "publishedAt": "2026-03-23T09:49:06.000Z",
+    "title": "Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model",
+    "summary": "We present daVinci-MagiHuman, an open-source audio-video generative foundation model for human-centric generation. daVinci-MagiHuman jointly generates synchronized video and audio using a single-stream Transformer that processes text, video, and audio within a unified token sequence via self-attention only. This single-stream design avoids the complexity of multi-stream or cross-attention architectures while remaining easy to optimize with standard training and inference infrastructure. The model is particularly strong in human-centric scenarios, producing expressive facial performance, natural speech-expression coordination, realistic body motion, and precise audio-video synchronization. It supports multilingual spoken generation across Chinese (Mandarin and Cantonese), English, Japanese, Korean, German, and French. For efficient inference, we combine the single-stream backbone with model distillation, latent-space super-resolution, and a Turbo VAE decoder, enabling generation of a 5-second 256p video in 2 seconds on a single H100 GPU. In automatic evaluation, daVinci-MagiHuman achieves the highest visual quality and text alignment among leading open models, along with the lowest word error rate (14.60%) for speech intelligibility. In pairwise human evaluation, it achieves win rates of 80.0% against Ovi 1.1 and 60.9% against LTX 2.3 over 2000 comparisons. We open-source the complete model stack, including the base model, the distilled model, the super-resolution model, and the inference codebase.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64bb5f9d8e051085bace4d1e/JHJIOfzWqWLS7JG0aA4c_.mp4",
+      "https://cdn-uploads.huggingface.co/production/uploads/64bb5f9d8e051085bace4d1e/XCzNktWaHc31iFLf7N4Eg.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21986.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64bb5f9d8e051085bace4d1e",
+      "avatarUrl": "/avatars/15ccbb78c6131dfe46b7a9d8e7d1a31f.svg",
+      "fullname": "Ethan Chern",
+      "name": "ethanchern",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.21606",
+      "authors": [
+        {
+          "_id": "69c1f5b7c105f45cb0481ddf",
+          "name": "Woosung Koh",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5b7c105f45cb0481de0",
+          "name": "Jeyoung Jeon",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5b7c105f45cb0481de1",
+          "name": "Youngjin Song",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5b7c105f45cb0481de2",
+          "name": "Yujin Cheon",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5b7c105f45cb0481de3",
+          "name": "Soowon Oh",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5b7c105f45cb0481de4",
+          "name": "Jaehyeong Choi",
+          "hidden": false
+        },
+        {
+          "_id": "69c1f5b7c105f45cb0481de5",
+          "name": "Se-Young Yun",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/63f5f7754b831cc179ba5410/pzdBrPMvzixVJK75uHJdr.png",
+        "https://cdn-uploads.huggingface.co/production/uploads/63f5f7754b831cc179ba5410/b4VQHSuj8KrKGosSzylfN.png"
+      ],
+      "publishedAt": "2026-03-23T06:01:51.000Z",
+      "submittedOnDailyAt": "2026-03-24T00:57:17.885Z",
+      "title": "mSFT: Addressing Dataset Mixtures Overfiting Heterogeneously in Multi-task SFT",
+      "submittedOnDailyBy": {
+        "_id": "63f5f7754b831cc179ba5410",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677064273670-63f5f7754b831cc179ba5410.jpeg",
+        "isPro": false,
+        "fullname": "Reiss Koh",
+        "user": "Reiss",
+        "type": "user",
+        "name": "Reiss"
+      },
+      "summary": "Current language model training commonly applies multi-task Supervised Fine-Tuning (SFT) using a homogeneous compute budget across all sub-datasets. This approach is fundamentally sub-optimal: heterogeneous learning dynamics cause faster-learning tasks to overfit early while slower ones remain under-fitted. To address this, we introduce mSFT, an iterative, overfitting-aware search algorithm for multi-task data mixtures. mSFT trains the model on an active mixture, identifies and excludes the earliest overfitting sub-dataset, and reverts to that specific optimal checkpoint before continuing. Extensive evaluations demonstrate that mSFT consistently outperforms 4 baselines across 10 benchmarks and 6 base models. Further analysis confirms mSFT maintains robust gains across diverse dataset sizes, task granularities, and is insensitive to its single new hyperparameter (compute budget). Notably, at low compute budget, mSFT can improve performance while lowering training FLOPs. Ultimately, mSFT establishes a practical overfitting-aware algorithm for multi-task SFT that maximizes the potential of models across diverse data mixtures.",
+      "upvotes": 14,
+      "discussionId": "69c1f5b7c105f45cb0481de6",
+      "githubRepo": "https://github.com/reiss-koh/msft",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Multi-task supervised fine-tuning with heterogeneous learning dynamics benefits from an iterative overfitting-aware search algorithm that improves performance across diverse datasets and compute budgets.",
+      "ai_keywords": [
+        "multi-task Supervised Fine-Tuning",
+        "SFT",
+        "overfitting",
+        "iterative search algorithm",
+        "data mixtures",
+        "optimal checkpoint",
+        "training FLOPs"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2026-03-23T02:01:51.000Z",
+    "title": "mSFT: Addressing Dataset Mixtures Overfiting Heterogeneously in Multi-task SFT",
+    "summary": "Current language model training commonly applies multi-task Supervised Fine-Tuning (SFT) using a homogeneous compute budget across all sub-datasets. This approach is fundamentally sub-optimal: heterogeneous learning dynamics cause faster-learning tasks to overfit early while slower ones remain under-fitted. To address this, we introduce mSFT, an iterative, overfitting-aware search algorithm for multi-task data mixtures. mSFT trains the model on an active mixture, identifies and excludes the earliest overfitting sub-dataset, and reverts to that specific optimal checkpoint before continuing. Extensive evaluations demonstrate that mSFT consistently outperforms 4 baselines across 10 benchmarks and 6 base models. Further analysis confirms mSFT maintains robust gains across diverse dataset sizes, task granularities, and is insensitive to its single new hyperparameter (compute budget). Notably, at low compute budget, mSFT can improve performance while lowering training FLOPs. Ultimately, mSFT establishes a practical overfitting-aware algorithm for multi-task SFT that maximizes the potential of models across diverse data mixtures.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/63f5f7754b831cc179ba5410/pzdBrPMvzixVJK75uHJdr.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/63f5f7754b831cc179ba5410/b4VQHSuj8KrKGosSzylfN.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21606.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63f5f7754b831cc179ba5410",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677064273670-63f5f7754b831cc179ba5410.jpeg",
+      "fullname": "Reiss Koh",
+      "name": "Reiss",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.22285",
+      "authors": [
+        {
+          "_id": "69c1ffa2c105f45cb0481e26",
+          "name": "Ruoliu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ffa2c105f45cb0481e27",
+          "name": "Chu Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ffa2c105f45cb0481e28",
+          "name": "Caifeng Shan",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ffa2c105f45cb0481e29",
+          "name": "Ran He",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ffa2c105f45cb0481e2a",
+          "name": "Chaoyou Fu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/653b268cd1041ca9188954da/bSrMWrZEV8dAXUYicqlkn.png"
+      ],
+      "publishedAt": "2026-03-23T17:59:51.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:38:20.247Z",
+      "title": "VideoDetective: Clue Hunting via both Extrinsic Query and Intrinsic Relevance for Long Video Understanding",
+      "submittedOnDailyBy": {
+        "_id": "653b268cd1041ca9188954da",
+        "avatarUrl": "/avatars/2529a821580f5d87ee46867c5dc5b1e5.svg",
+        "isPro": false,
+        "fullname": "BradyFU",
+        "user": "BradyFU",
+        "type": "user",
+        "name": "BradyFU"
+      },
+      "summary": "Long video understanding remains challenging for multimodal large language models (MLLMs) due to limited context windows, which necessitate identifying sparse query-relevant video segments. However, existing methods predominantly localize clues based solely on the query, overlooking the video's intrinsic structure and varying relevance across segments. To address this, we propose VideoDetective, a framework that integrates query-to-segment relevance and inter-segment affinity for effective clue hunting in long-video question answering. Specifically, we divide a video into various segments and represent them as a visual-temporal affinity graph built from visual similarity and temporal proximity. We then perform a Hypothesis-Verification-Refinement loop to estimate relevance scores of observed segments to the query and propagate them to unseen segments, yielding a global relevance distribution that guides the localization of the most critical segments for final answering with sparse observation. Experiments show our method consistently achieves substantial gains across a wide range of mainstream MLLMs on representative benchmarks, with accuracy improvements of up to 7.5% on VideoMME-long. Our code is available at https://videodetective.github.io/",
+      "upvotes": 5,
+      "discussionId": "69c1ffa2c105f45cb0481e2b",
+      "projectPage": "https://videodetective.github.io/",
+      "githubRepo": "https://github.com/yangruoliu/VideoDetective",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "VideoDetective framework improves long video understanding by integrating query-to-segment relevance and inter-segment affinity through visual-temporal graphs and hypothesis verification loops.",
+      "ai_keywords": [
+        "multimodal large language models",
+        "video understanding",
+        "context windows",
+        "query-relevant video segments",
+        "visual-temporal affinity graph",
+        "Hypothesis-Verification-Refinement loop",
+        "visual similarity",
+        "temporal proximity",
+        "video question answering",
+        "VideoMME-long"
+      ],
+      "githubStars": 2,
+      "organization": {
+        "_id": "638f70e8f1256a80d4288555",
+        "name": "nanjinguniv",
+        "fullname": "Nanjing University",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/638f706ef1256a80d42880f9/6M6-JzwJGiLxjIJzvCflf.png"
+      }
+    },
+    "publishedAt": "2026-03-23T13:59:51.000Z",
+    "title": "VideoDetective: Clue Hunting via both Extrinsic Query and Intrinsic Relevance for Long Video Understanding",
+    "summary": "Long video understanding remains challenging for multimodal large language models (MLLMs) due to limited context windows, which necessitate identifying sparse query-relevant video segments. However, existing methods predominantly localize clues based solely on the query, overlooking the video's intrinsic structure and varying relevance across segments. To address this, we propose VideoDetective, a framework that integrates query-to-segment relevance and inter-segment affinity for effective clue hunting in long-video question answering. Specifically, we divide a video into various segments and represent them as a visual-temporal affinity graph built from visual similarity and temporal proximity. We then perform a Hypothesis-Verification-Refinement loop to estimate relevance scores of observed segments to the query and propagate them to unseen segments, yielding a global relevance distribution that guides the localization of the most critical segments for final answering with sparse observation. Experiments show our method consistently achieves substantial gains across a wide range of mainstream MLLMs on representative benchmarks, with accuracy improvements of up to 7.5% on VideoMME-long. Our code is available at https://videodetective.github.io/",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/653b268cd1041ca9188954da/bSrMWrZEV8dAXUYicqlkn.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22285.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "653b268cd1041ca9188954da",
+      "avatarUrl": "/avatars/2529a821580f5d87ee46867c5dc5b1e5.svg",
+      "fullname": "BradyFU",
+      "name": "BradyFU",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "638f70e8f1256a80d4288555",
+      "name": "nanjinguniv",
+      "fullname": "Nanjing University",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/638f706ef1256a80d42880f9/6M6-JzwJGiLxjIJzvCflf.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.22053",
+      "authors": [
+        {
+          "_id": "69c202acc105f45cb0481e83",
+          "name": "Risa Shinoda",
+          "hidden": false
+        },
+        {
+          "_id": "69c202acc105f45cb0481e84",
+          "name": "Kaede Shiohara",
+          "hidden": false
+        },
+        {
+          "_id": "69c202acc105f45cb0481e85",
+          "name": "Nakamasa Inoue",
+          "hidden": false
+        },
+        {
+          "_id": "69c202acc105f45cb0481e86",
+          "name": "Hiroaki Santo",
+          "hidden": false
+        },
+        {
+          "_id": "69c202acc105f45cb0481e87",
+          "name": "Fumio Okura",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-23T14:53:02.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:50:01.530Z",
+      "title": "AnimalCLAP: Taxonomy-Aware Language-Audio Pretraining for Species Recognition and Trait Inference",
+      "submittedOnDailyBy": {
+        "_id": "651a7684a1a5e5d617e28f84",
+        "avatarUrl": "/avatars/95f5582df7c13fe4a392006125e6cc0f.svg",
+        "isPro": true,
+        "fullname": "Risa Shinoda",
+        "user": "risashinoda",
+        "type": "user",
+        "name": "risashinoda"
+      },
+      "summary": "Animal vocalizations provide crucial insights for wildlife assessment, particularly in complex environments such as forests, aiding species identification and ecological monitoring. Recent advances in deep learning have enabled automatic species classification from their vocalizations. However, classifying species unseen during training remains challenging. To address this limitation, we introduce AnimalCLAP, a taxonomy-aware language-audio framework comprising a new dataset and model that incorporate hierarchical biological information. Specifically, our vocalization dataset consists of 4,225 hours of recordings covering 6,823 species, annotated with 22 ecological traits. The AnimalCLAP model is trained on this dataset to align audio and textual representations using taxonomic structures, improving the recognition of unseen species. We demonstrate that our proposed model effectively infers ecological and biological attributes of species directly from their vocalizations, achieving superior performance compared to CLAP. Our dataset, code, and models will be publicly available at https://dahlian00.github.io/AnimalCLAP_Page/.",
+      "upvotes": 1,
+      "discussionId": "69c202acc105f45cb0481e88",
+      "projectPage": "https://dahlian00.github.io/AnimalCLAP_Page/",
+      "ai_summary": "AnimalCLAP is a taxonomy-aware language-audio framework that uses hierarchical biological information to improve species classification from vocalizations, achieving better performance than CLAP by leveraging ecological traits and taxonomic structures.",
+      "ai_keywords": [
+        "taxonomy-aware",
+        "language-audio framework",
+        "hierarchical biological information",
+        "ecological traits",
+        "taxonomic structures"
+      ]
+    },
+    "publishedAt": "2026-03-23T10:53:02.000Z",
+    "title": "AnimalCLAP: Taxonomy-Aware Language-Audio Pretraining for Species Recognition and Trait Inference",
+    "summary": "Animal vocalizations provide crucial insights for wildlife assessment, particularly in complex environments such as forests, aiding species identification and ecological monitoring. Recent advances in deep learning have enabled automatic species classification from their vocalizations. However, classifying species unseen during training remains challenging. To address this limitation, we introduce AnimalCLAP, a taxonomy-aware language-audio framework comprising a new dataset and model that incorporate hierarchical biological information. Specifically, our vocalization dataset consists of 4,225 hours of recordings covering 6,823 species, annotated with 22 ecological traits. The AnimalCLAP model is trained on this dataset to align audio and textual representations using taxonomic structures, improving the recognition of unseen species. We demonstrate that our proposed model effectively infers ecological and biological attributes of species directly from their vocalizations, achieving superior performance compared to CLAP. Our dataset, code, and models will be publicly available at https://dahlian00.github.io/AnimalCLAP_Page/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22053.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "651a7684a1a5e5d617e28f84",
+      "avatarUrl": "/avatars/95f5582df7c13fe4a392006125e6cc0f.svg",
+      "fullname": "Risa Shinoda",
+      "name": "risashinoda",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 9,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.18795",
+      "authors": [
+        {
+          "_id": "69c2006fc105f45cb0481e5f",
+          "name": "Yuchen Li",
+          "hidden": false
+        },
+        {
+          "_id": "69c2006fc105f45cb0481e60",
+          "name": "Amanmeet Garg",
+          "hidden": false
+        },
+        {
+          "_id": "69c2006fc105f45cb0481e61",
+          "name": "Shalini Chaudhuri",
+          "hidden": false
+        },
+        {
+          "_id": "69c2006fc105f45cb0481e62",
+          "name": "Rui Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69c2006fc105f45cb0481e63",
+          "name": "Garin Kessler",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-19T11:46:01.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:40:37.691Z",
+      "title": "Perceptio: Perception Enhanced Vision Language Models via Spatial Token Generation",
+      "submittedOnDailyBy": {
+        "_id": "662306eb251ee52d52c3fc8d",
+        "avatarUrl": "/avatars/4d38ead53f8f390f0bd51b69f727abcf.svg",
+        "isPro": false,
+        "fullname": "Rui Zhao",
+        "user": "zhaoruizju",
+        "type": "user",
+        "name": "zhaoruizju"
+      },
+      "summary": "Large Vision Language Models (LVLMs) excel at semantic understanding but struggle with fine grained spatial grounding, as the model must implicitly infer complex geometry without ever producing a spatial interpretation. We present Perceptio, a perception enhanced LVLM with 2D and 3D spatial reasoning abilities, enabled via explicit semantic segmentation tokens and depth tokens generated directly within the autoregressive sequence. Concretely, we (i) distill a VQVAE depth codebook from a strong monocular teacher to tokenize dense depth into compact sequences, and (ii) integrate SAM2 based semantic segmentation tokens and VQ-VAE depth tokens inside the LLM so the model first emits spatial tokens and then answers. To stabilize depth token generation, we introduce novel composite depth-token objectives (marker, token, and count losses) and a soft-merging technique for differentiable reconstruction. We adopt a multi-task co-training strategy across diverse datasets, letting the model learn perception tokens to tackle multiple downstream tasks. Building on InternVL, Perceptio achieves state-of-the-art performance across benchmarks: improving referring expression segmentation by +0.8/+1.4/+1.1 cIoU on RefCOCO/+/g HardBLINK spatial understanding accuracy by 10.3%, and MMBench accuracy by 1.0%, demonstrating that explicit spatial chain-of-thought materially strengthens spatial grounding in LVLMs.",
+      "upvotes": 1,
+      "discussionId": "69c2006fc105f45cb0481e64",
+      "ai_summary": "Perceptio enhances vision-language models with explicit spatial reasoning through integrated semantic segmentation and depth tokens generated via VQ-VAE distillation and multi-task learning.",
+      "ai_keywords": [
+        "VQVAE",
+        "depth codebook",
+        "semantic segmentation tokens",
+        "autoregressive sequence",
+        "SAM2",
+        "multi-task co-training",
+        "spatial reasoning",
+        "referring expression segmentation",
+        "cIoU",
+        "spatial understanding accuracy",
+        "MMBench"
+      ],
+      "organization": {
+        "_id": "5ffdfbadbba2ae614d771970",
+        "name": "amazon",
+        "fullname": "Amazon",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66f19ed428ae41c20c470792/8y7msN6A6W82LdQhQd85a.png"
+      }
+    },
+    "publishedAt": "2026-03-19T07:46:01.000Z",
+    "title": "Perceptio: Perception Enhanced Vision Language Models via Spatial Token Generation",
+    "summary": "Large Vision Language Models (LVLMs) excel at semantic understanding but struggle with fine grained spatial grounding, as the model must implicitly infer complex geometry without ever producing a spatial interpretation. We present Perceptio, a perception enhanced LVLM with 2D and 3D spatial reasoning abilities, enabled via explicit semantic segmentation tokens and depth tokens generated directly within the autoregressive sequence. Concretely, we (i) distill a VQVAE depth codebook from a strong monocular teacher to tokenize dense depth into compact sequences, and (ii) integrate SAM2 based semantic segmentation tokens and VQ-VAE depth tokens inside the LLM so the model first emits spatial tokens and then answers. To stabilize depth token generation, we introduce novel composite depth-token objectives (marker, token, and count losses) and a soft-merging technique for differentiable reconstruction. We adopt a multi-task co-training strategy across diverse datasets, letting the model learn perception tokens to tackle multiple downstream tasks. Building on InternVL, Perceptio achieves state-of-the-art performance across benchmarks: improving referring expression segmentation by +0.8/+1.4/+1.1 cIoU on RefCOCO/+/g HardBLINK spatial understanding accuracy by 10.3%, and MMBench accuracy by 1.0%, demonstrating that explicit spatial chain-of-thought materially strengthens spatial grounding in LVLMs.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.18795.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "662306eb251ee52d52c3fc8d",
+      "avatarUrl": "/avatars/4d38ead53f8f390f0bd51b69f727abcf.svg",
+      "fullname": "Rui Zhao",
+      "name": "zhaoruizju",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "5ffdfbadbba2ae614d771970",
+      "name": "amazon",
+      "fullname": "Amazon",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66f19ed428ae41c20c470792/8y7msN6A6W82LdQhQd85a.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.22286",
+      "authors": [
+        {
+          "_id": "69c20315c105f45cb0481e8b",
+          "name": "Umair Nawaz",
+          "hidden": false
+        },
+        {
+          "_id": "69c20315c105f45cb0481e8c",
+          "name": "Ahmed Heakl",
+          "hidden": false
+        },
+        {
+          "_id": "69c20315c105f45cb0481e8d",
+          "name": "Ufaq Khan",
+          "hidden": false
+        },
+        {
+          "_id": "69c20315c105f45cb0481e8e",
+          "name": "Abdelrahman Shaker",
+          "hidden": false
+        },
+        {
+          "_id": "69c20315c105f45cb0481e8f",
+          "name": "Salman Khan",
+          "hidden": false
+        },
+        {
+          "_id": "69c20315c105f45cb0481e90",
+          "name": "Fahad Shahbaz Khan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-23T17:59:54.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:50:58.283Z",
+      "title": "WorldCache: Content-Aware Caching for Accelerated Video World Models",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Diffusion Transformers (DiTs) power high-fidelity video world models but remain computationally expensive due to sequential denoising and costly spatio-temporal attention. Training-free feature caching accelerates inference by reusing intermediate activations across denoising steps; however, existing methods largely rely on a Zero-Order Hold assumption i.e., reusing cached features as static snapshots when global drift is small. This often leads to ghosting artifacts, blur, and motion inconsistencies in dynamic scenes. We propose WorldCache, a Perception-Constrained Dynamical Caching framework that improves both when and how to reuse features. WorldCache introduces motion-adaptive thresholds, saliency-weighted drift estimation, optimal approximation via blending and warping, and phase-aware threshold scheduling across diffusion steps. Our cohesive approach enables adaptive, motion-consistent feature reuse without retraining. On Cosmos-Predict2.5-2B evaluated on PAI-Bench, WorldCache achieves 2.3times inference speedup while preserving 99.4\\% of baseline quality, substantially outperforming prior training-free caching approaches. Our code can be accessed on https://umair1221.github.io/World-Cache/{World-Cache}.",
+      "upvotes": 0,
+      "discussionId": "69c20315c105f45cb0481e91",
+      "projectPage": "https://umair1221.github.io/World-Cache/",
+      "githubRepo": "https://github.com/umair1221/WorldCache",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "WorldCache improves diffusion transformer inference by adaptively reusing features through motion-adaptive thresholds and saliency-weighted drift estimation, achieving faster processing with minimal quality loss.",
+      "ai_keywords": [
+        "Diffusion Transformers",
+        "video world models",
+        "sequential denoising",
+        "spatio-temporal attention",
+        "feature caching",
+        "motion-adaptive thresholds",
+        "saliency-weighted drift estimation",
+        "blending",
+        "warping",
+        "phase-aware threshold scheduling"
+      ]
+    },
+    "publishedAt": "2026-03-23T13:59:54.000Z",
+    "title": "WorldCache: Content-Aware Caching for Accelerated Video World Models",
+    "summary": "Diffusion Transformers (DiTs) power high-fidelity video world models but remain computationally expensive due to sequential denoising and costly spatio-temporal attention. Training-free feature caching accelerates inference by reusing intermediate activations across denoising steps; however, existing methods largely rely on a Zero-Order Hold assumption i.e., reusing cached features as static snapshots when global drift is small. This often leads to ghosting artifacts, blur, and motion inconsistencies in dynamic scenes. We propose WorldCache, a Perception-Constrained Dynamical Caching framework that improves both when and how to reuse features. WorldCache introduces motion-adaptive thresholds, saliency-weighted drift estimation, optimal approximation via blending and warping, and phase-aware threshold scheduling across diffusion steps. Our cohesive approach enables adaptive, motion-consistent feature reuse without retraining. On Cosmos-Predict2.5-2B evaluated on PAI-Bench, WorldCache achieves 2.3times inference speedup while preserving 99.4\\% of baseline quality, substantially outperforming prior training-free caching approaches. Our code can be accessed on https://umair1221.github.io/World-Cache/{World-Cache}.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22286.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 250,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.22117",
+      "authors": [
+        {
+          "_id": "69c2036cc105f45cb0481e9e",
+          "name": "Kexin Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481e9f",
+          "name": "Haoming Meng",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea0",
+          "name": "Junkang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea1",
+          "name": "Jinda Lu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea2",
+          "name": "Chiyu Ma",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea3",
+          "name": "Ziqian Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea4",
+          "name": "Xue Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea5",
+          "name": "Bolin Ding",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea6",
+          "name": "Jiancan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea7",
+          "name": "Xiang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea8",
+          "name": "Xiangnan He",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481ea9",
+          "name": "Guoyin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c2036cc105f45cb0481eaa",
+          "name": "Jingren Zhou",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-23T15:42:24.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:52:33.829Z",
+      "title": "On the Direction of RLVR Updates for LLM Reasoning: Identification and Exploitation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has substantially improved the reasoning capabilities of large language models. While existing analyses identify that RLVR-induced changes are sparse, they primarily focus on the magnitude of these updates, largely overlooking their direction. In this work, we argue that the direction of updates is a more critical lens for understanding RLVR's effects, which can be captured by the signed, token-level log probability difference Δlog p between the base and final RLVR models. Through statistical analysis and token-replacement interventions, we demonstrate that Δlog p more effectively identifies sparse, yet reasoning-critical updates than magnitude-based metrics (\\eg divergence or entropy). Building on this insight, we propose two practical applications: (1) a test-time extrapolation method that amplifies the policy along the learned Δlog p direction to improve reasoning accuracy without further training; (2) a training-time reweighting method that focuses learning on low-probability (corresponding to higher Δlog p) tokens, which improves reasoning performance across models and benchmarks. Our work establishes the direction of change as a key principle for analyzing and improving RLVR.",
+      "upvotes": 0,
+      "discussionId": "69c2036cc105f45cb0481eab",
+      "projectPage": "https://qwen-pilot.notion.site/rlvr-direction",
+      "githubRepo": "https://github.com/Hesse73/RLVR-Directions",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Reinforcement learning with verifiable rewards improves language model reasoning by focusing on the direction of parameter updates rather than their magnitude, enabling better test-time extrapolation and training-time reweighting methods.",
+      "ai_keywords": [
+        "reinforcement learning with verifiable rewards",
+        "language models",
+        "token-level log probability difference",
+        "test-time extrapolation",
+        "training-time reweighting",
+        "policy amplification",
+        "reasoning accuracy"
+      ],
+      "organization": {
+        "_id": "64c8b5837fe12ecd0a7e92eb",
+        "name": "Qwen",
+        "fullname": "Qwen",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png"
+      }
+    },
+    "publishedAt": "2026-03-23T11:42:24.000Z",
+    "title": "On the Direction of RLVR Updates for LLM Reasoning: Identification and Exploitation",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has substantially improved the reasoning capabilities of large language models. While existing analyses identify that RLVR-induced changes are sparse, they primarily focus on the magnitude of these updates, largely overlooking their direction. In this work, we argue that the direction of updates is a more critical lens for understanding RLVR's effects, which can be captured by the signed, token-level log probability difference Δlog p between the base and final RLVR models. Through statistical analysis and token-replacement interventions, we demonstrate that Δlog p more effectively identifies sparse, yet reasoning-critical updates than magnitude-based metrics (\\eg divergence or entropy). Building on this insight, we propose two practical applications: (1) a test-time extrapolation method that amplifies the policy along the learned Δlog p direction to improve reasoning accuracy without further training; (2) a training-time reweighting method that focuses learning on low-probability (corresponding to higher Δlog p) tokens, which improves reasoning performance across models and benchmarks. Our work establishes the direction of change as a key principle for analyzing and improving RLVR.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22117.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 250,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "name": "Qwen",
+      "fullname": "Qwen",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.21489",
+      "authors": [
+        {
+          "_id": "69c2041dc105f45cb0481eb3",
+          "name": "Jiayi Geng",
+          "hidden": false
+        },
+        {
+          "_id": "69c2041dc105f45cb0481eb4",
+          "name": "Graham Neubig",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-23T02:26:35.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:55:41.427Z",
+      "title": "Effective Strategies for Asynchronous Software Engineering Agents",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "AI agents have become increasingly capable at isolated software engineering (SWE) tasks such as resolving issues on Github. Yet long-horizon tasks involving multiple interdependent subtasks still pose challenges both with respect to accuracy, and with respect to timely completion. A natural approach to solving these long-horizon tasks in a timely manner is asynchronous multi-agent collaboration, where multiple agents work on different parts of the task at the same time. But effective application of multi-agent systems has proven surprisingly difficult: concurrent edits by multiple agents interfere with each other, dependencies are difficult to synchronize, and combining partial progress into a coherent whole is challenging. On the other hand, human developers have long relied on mature collaboration infrastructure to manage these challenges in large software projects. Inspired by these collaboration primitives, we introduce Centralized Asynchronous Isolated Delegation (CAID), a structured multi-agent coordination paradigm grounded in three core SWE primitives: centralized task delegation, asynchronous execution, and isolated workspaces. CAID constructs dependency-aware task plans through a central manager, executes subtasks concurrently in isolated workspaces, and consolidates progress via structured integration with executable test-based verification. In empirical evaluation, we find that CAID improves accuracy over single-agent baselines by 26.7% absolute on paper reproduction tasks (PaperBench) and 14.3% on Python library development tasks (Commit0). Through systematic analysis, we find that branch-and-merge is a central coordination mechanism for multi-agent collaboration, and that SWE primitives such as git worktree, git commit, and git merge enable it to be realized in a reliable and executable manner.",
+      "upvotes": 0,
+      "discussionId": "69c2041dc105f45cb0481eb5",
+      "githubRepo": "https://github.com/JiayiGeng/CAID",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Multi-agent collaboration for software engineering tasks faces challenges in coordination and synchronization, which are addressed through a structured paradigm using centralized delegation, asynchronous execution, and isolated workspaces.",
+      "ai_keywords": [
+        "multi-agent collaboration",
+        "software engineering",
+        "task delegation",
+        "asynchronous execution",
+        "isolated workspaces",
+        "dependency-aware task planning",
+        "structured integration",
+        "test-based verification",
+        "git worktree",
+        "git commit",
+        "git merge"
+      ]
+    },
+    "publishedAt": "2026-03-22T22:26:35.000Z",
+    "title": "Effective Strategies for Asynchronous Software Engineering Agents",
+    "summary": "AI agents have become increasingly capable at isolated software engineering (SWE) tasks such as resolving issues on Github. Yet long-horizon tasks involving multiple interdependent subtasks still pose challenges both with respect to accuracy, and with respect to timely completion. A natural approach to solving these long-horizon tasks in a timely manner is asynchronous multi-agent collaboration, where multiple agents work on different parts of the task at the same time. But effective application of multi-agent systems has proven surprisingly difficult: concurrent edits by multiple agents interfere with each other, dependencies are difficult to synchronize, and combining partial progress into a coherent whole is challenging. On the other hand, human developers have long relied on mature collaboration infrastructure to manage these challenges in large software projects. Inspired by these collaboration primitives, we introduce Centralized Asynchronous Isolated Delegation (CAID), a structured multi-agent coordination paradigm grounded in three core SWE primitives: centralized task delegation, asynchronous execution, and isolated workspaces. CAID constructs dependency-aware task plans through a central manager, executes subtasks concurrently in isolated workspaces, and consolidates progress via structured integration with executable test-based verification. In empirical evaluation, we find that CAID improves accuracy over single-agent baselines by 26.7% absolute on paper reproduction tasks (PaperBench) and 14.3% on Python library development tasks (Commit0). Through systematic analysis, we find that branch-and-merge is a central coordination mechanism for multi-agent collaboration, and that SWE primitives such as git worktree, git commit, and git merge enable it to be realized in a reliable and executable manner.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21489.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 250,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.21383",
+      "authors": [
+        {
+          "_id": "69c20470c105f45cb0481eb8",
+          "name": "Junkeun Yi",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481eb9",
+          "name": "Damon Mosk-Aoyama",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481eba",
+          "name": "Baihe Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ebb",
+          "name": "Ritu Gala",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ebc",
+          "name": "Charles Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ebd",
+          "name": "Sugam Dipak Devare",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ebe",
+          "name": "Khushi Bhardwaj",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ebf",
+          "name": "Abhibha Gupta",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ec0",
+          "name": "Oleksii Kuchaiev",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ec1",
+          "name": "Jiantao Jiao",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ec2",
+          "name": "Jian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c20470c105f45cb0481ec3",
+          "name": "Venkat Srinivasan",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-22T19:59:48.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:56:51.649Z",
+      "title": "PivotRL: High Accuracy Agentic Post-Training at Low Compute Cost",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Post-training for long-horizon agentic tasks has a tension between compute efficiency and generalization. While supervised fine-tuning (SFT) is compute efficient, it often suffers from out-of-domain (OOD) degradation. Conversely, end-to-end reinforcement learning (E2E RL) preserves OOD capabilities, but incurs high compute costs due to many turns of on-policy rollout. We introduce PivotRL, a novel framework that operates on existing SFT trajectories to combine the compute efficiency of SFT with the OOD accuracy of E2E RL. PivotRL relies on two key mechanisms: first, it executes local, on-policy rollouts and filters for pivots: informative intermediate turns where sampled actions exhibit high variance in outcomes; second, it utilizes rewards for functional-equivalent actions rather than demanding strict string matching with the SFT data demonstration. We theoretically show that these mechanisms incentivize strong learning signals with high natural gradient norm, while maximally preserving policy probability ordering on actions unrelated to training tasks. In comparison to standard SFT on identical data, we demonstrate that PivotRL achieves +4.17% higher in-domain accuracy on average across four agentic domains, and +10.04% higher OOD accuracy in non-agentic tasks. Notably, on agentic coding tasks, PivotRL achieves competitive accuracy with E2E RL with 4x fewer rollout turns. PivotRL is adopted by NVIDIA's Nemotron-3-Super-120B-A12B, acting as the workhorse in production-scale agentic post-training.",
+      "upvotes": 0,
+      "discussionId": "69c20471c105f45cb0481ec4",
+      "ai_summary": "PivotRL is a novel framework that combines supervised fine-tuning efficiency with reinforcement learning generalization by using local rollouts and functional-equivalent action rewards to achieve better performance with reduced compute costs.",
+      "ai_keywords": [
+        "supervised fine-tuning",
+        "reinforcement learning",
+        "on-policy rollout",
+        "policy probability ordering",
+        "natural gradient norm",
+        "action variance",
+        "functional-equivalent actions",
+        "agentic tasks",
+        "post-training"
+      ],
+      "organization": {
+        "_id": "60262b67268c201cdc8b7d43",
+        "name": "nvidia",
+        "fullname": "NVIDIA",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+      }
+    },
+    "publishedAt": "2026-03-22T15:59:48.000Z",
+    "title": "PivotRL: High Accuracy Agentic Post-Training at Low Compute Cost",
+    "summary": "Post-training for long-horizon agentic tasks has a tension between compute efficiency and generalization. While supervised fine-tuning (SFT) is compute efficient, it often suffers from out-of-domain (OOD) degradation. Conversely, end-to-end reinforcement learning (E2E RL) preserves OOD capabilities, but incurs high compute costs due to many turns of on-policy rollout. We introduce PivotRL, a novel framework that operates on existing SFT trajectories to combine the compute efficiency of SFT with the OOD accuracy of E2E RL. PivotRL relies on two key mechanisms: first, it executes local, on-policy rollouts and filters for pivots: informative intermediate turns where sampled actions exhibit high variance in outcomes; second, it utilizes rewards for functional-equivalent actions rather than demanding strict string matching with the SFT data demonstration. We theoretically show that these mechanisms incentivize strong learning signals with high natural gradient norm, while maximally preserving policy probability ordering on actions unrelated to training tasks. In comparison to standard SFT on identical data, we demonstrate that PivotRL achieves +4.17% higher in-domain accuracy on average across four agentic domains, and +10.04% higher OOD accuracy in non-agentic tasks. Notably, on agentic coding tasks, PivotRL achieves competitive accuracy with E2E RL with 4x fewer rollout turns. PivotRL is adopted by NVIDIA's Nemotron-3-Super-120B-A12B, acting as the workhorse in production-scale agentic post-training.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21383.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 250,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "name": "nvidia",
+      "fullname": "NVIDIA",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.20639",
+      "authors": [
+        {
+          "_id": "69c204f5c105f45cb0481ece",
+          "name": "James Evans",
+          "hidden": false
+        },
+        {
+          "_id": "69c204f5c105f45cb0481ecf",
+          "name": "Benjamin Bratton",
+          "hidden": false
+        },
+        {
+          "_id": "69c204f5c105f45cb0481ed0",
+          "name": "Blaise Agüera y Arcas",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-21T04:23:11.000Z",
+      "submittedOnDailyAt": "2026-03-24T01:58:58.295Z",
+      "title": "Agentic AI and the next intelligence explosion",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "The \"AI singularity\" is often miscast as a monolithic, godlike mind. Evolution suggests a different path: intelligence is fundamentally plural, social, and relational. Recent advances in agentic AI reveal that frontier reasoning models, such as DeepSeek-R1, do not improve simply by \"thinking longer\". Instead, they simulate internal \"societies of thought,\" spontaneous cognitive debates that argue, verify, and reconcile to solve complex tasks. Moreover, we are entering an era of human-AI centaurs: hybrid actors where collective agency transcends individual control. Scaling this intelligence requires shifting from dyadic alignment (RLHF) toward institutional alignment. By designing digital protocols, modeled on organizations and markets, we can build a social infrastructure of checks and balances. The next intelligence explosion will not be a single silicon brain, but a complex, combinatorial society specializing and sprawling like a city. No mind is an island.",
+      "upvotes": 0,
+      "discussionId": "69c204f6c105f45cb0481ed1"
+    },
+    "publishedAt": "2026-03-21T00:23:11.000Z",
+    "title": "Agentic AI and the next intelligence explosion",
+    "summary": "The \"AI singularity\" is often miscast as a monolithic, godlike mind. Evolution suggests a different path: intelligence is fundamentally plural, social, and relational. Recent advances in agentic AI reveal that frontier reasoning models, such as DeepSeek-R1, do not improve simply by \"thinking longer\". Instead, they simulate internal \"societies of thought,\" spontaneous cognitive debates that argue, verify, and reconcile to solve complex tasks. Moreover, we are entering an era of human-AI centaurs: hybrid actors where collective agency transcends individual control. Scaling this intelligence requires shifting from dyadic alignment (RLHF) toward institutional alignment. By designing digital protocols, modeled on organizations and markets, we can build a social infrastructure of checks and balances. The next intelligence explosion will not be a single silicon brain, but a complex, combinatorial society specializing and sprawling like a city. No mind is an island.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.20639.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 250,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2603.09290",
+      "authors": [
+        {
+          "_id": "69c1ee58c105f45cb0481dcc",
+          "name": "Shimin Di",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dcd",
+          "name": "Xujie Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dce",
+          "name": "Hanghui Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dcf",
+          "name": "Chaoqian Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dd0",
+          "name": "Zhangze Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dd1",
+          "name": "Ling Yue",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dd2",
+          "name": "Libin Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dd3",
+          "name": "Jia Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dd4",
+          "name": "Shaowu Pan",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dd5",
+          "name": "Jian Yin",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dd6",
+          "name": "Min-Ling Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69c1ee58c105f45cb0481dd7",
+          "name": "Yong Rui",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-03-10T07:19:43.000Z",
+      "submittedOnDailyAt": "2026-03-24T00:51:43.083Z",
+      "title": "ToolRosetta: Bridging Open-Source Repositories and Large Language Model Agents through Automated Tool Standardization",
+      "submittedOnDailyBy": {
+        "_id": "66739484a660dfbb2643eb3d",
+        "avatarUrl": "/avatars/c9a6c6a1e295e448dacfccb1a2860e8a.svg",
+        "isPro": false,
+        "fullname": "Leo Y",
+        "user": "LeoYML",
+        "type": "user",
+        "name": "LeoYML"
+      },
+      "summary": "Reusing and invoking existing code remains costly and unreliable, as most practical tools are embedded in heterogeneous code repositories and lack standardized, executable interfaces. Although large language models (LLMs) and Model Context Protocol (MCP)-based tool invocation frameworks enable natural language task execution, current approaches rely heavily on manual tool curation and standardization, which fundamentally limits scalability. In this paper, we propose ToolRosetta, a unified framework that automatically translates open-source code repositories and APIs into MCP-compatible tools that can be reliably invoked by LLMs. Given a user task, ToolRosetta autonomously plans toolchains, identifies relevant codebases, and converts them into executable MCP services, enabling end-to-end task completion with minimal human intervention. In addition, ToolRosetta incorporates a security inspection layer to mitigate risks inherent in executing arbitrary code. Extensive experiments across diverse scientific domains demonstrate that ToolRosetta can automatically standardize a large number of open-source tools and reduce the human effort required for code reproduction and deployment. Notably, by seamlessly leveraging specialized open-source tools, ToolRosetta-powered agents consistently improve task completion performance compared to commercial LLMs and existing agent systems.",
+      "upvotes": 0,
+      "discussionId": "69c1ee58c105f45cb0481dd8",
+      "projectPage": "https://sdiaa.tech/projects"
+    },
+    "publishedAt": "2026-03-10T03:19:43.000Z",
+    "title": "ToolRosetta: Bridging Open-Source Repositories and Large Language Model Agents through Automated Tool Standardization",
+    "summary": "Reusing and invoking existing code remains costly and unreliable, as most practical tools are embedded in heterogeneous code repositories and lack standardized, executable interfaces. Although large language models (LLMs) and Model Context Protocol (MCP)-based tool invocation frameworks enable natural language task execution, current approaches rely heavily on manual tool curation and standardization, which fundamentally limits scalability. In this paper, we propose ToolRosetta, a unified framework that automatically translates open-source code repositories and APIs into MCP-compatible tools that can be reliably invoked by LLMs. Given a user task, ToolRosetta autonomously plans toolchains, identifies relevant codebases, and converts them into executable MCP services, enabling end-to-end task completion with minimal human intervention. In addition, ToolRosetta incorporates a security inspection layer to mitigate risks inherent in executing arbitrary code. Extensive experiments across diverse scientific domains demonstrate that ToolRosetta can automatically standardize a large number of open-source tools and reduce the human effort required for code reproduction and deployment. Notably, by seamlessly leveraging specialized open-source tools, ToolRosetta-powered agents consistently improve task completion performance compared to commercial LLMs and existing agent systems.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.09290.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "66739484a660dfbb2643eb3d",
+      "avatarUrl": "/avatars/c9a6c6a1e295e448dacfccb1a2860e8a.svg",
+      "fullname": "Leo Y",
+      "name": "LeoYML",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
