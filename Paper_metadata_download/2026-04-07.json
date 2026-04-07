@@ -1,0 +1,1413 @@
+[
+  {
+    "paper": {
+      "id": "2604.04911",
+      "authors": [
+        {
+          "_id": "69d46d012c523d36431fb0a8",
+          "name": "Yicheng Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0a9",
+          "name": "Wenhu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0aa",
+          "name": "Lin Song",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0ab",
+          "name": "Yukang Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0ac",
+          "name": "Wenbo Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0ad",
+          "name": "Nan Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0ae",
+          "name": "Tianhe Ren",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0af",
+          "name": "Haokun Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0b0",
+          "name": "Wei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0b1",
+          "name": "Haoyang Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0b2",
+          "name": "Xiu Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0b3",
+          "name": "Nan Duan",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d012c523d36431fb0b4",
+          "name": "Xiaojuan Qi",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:06:50.868Z",
+      "title": "SpatialEdit: Benchmarking Fine-Grained Image Spatial Editing",
+      "submittedOnDailyBy": {
+        "_id": "656a12a3d848a6683a6dfb9e",
+        "avatarUrl": "/avatars/5ea6ed75051e65da76d89b4a649b09a2.svg",
+        "isPro": true,
+        "fullname": "YC Xiao",
+        "user": "EasonXiao-888",
+        "type": "user",
+        "name": "EasonXiao-888"
+      },
+      "summary": "Image spatial editing performs geometry-driven transformations, allowing precise control over object layout and camera viewpoints. Current models are insufficient for fine-grained spatial manipulations, motivating a dedicated assessment suite. Our contributions are listed: (i) We introduce SpatialEdit-Bench, a complete benchmark that evaluates spatial editing by jointly measuring perceptual plausibility and geometric fidelity via viewpoint reconstruction and framing analysis. (ii) To address the data bottleneck for scalable training, we construct SpatialEdit-500k, a synthetic dataset generated with a controllable Blender pipeline that renders objects across diverse backgrounds and systematic camera trajectories, providing precise ground-truth transformations for both object- and camera-centric operations. (iii) Building on this data, we develop SpatialEdit-16B, a baseline model for fine-grained spatial editing. Our method achieves competitive performance on general editing while substantially outperforming prior methods on spatial manipulation tasks. All resources will be made public at https://github.com/EasonXiao-888/SpatialEdit.",
+      "upvotes": 12,
+      "discussionId": "69d46d012c523d36431fb0b5",
+      "projectPage": "https://github.com/EasonXiao-888/SpatialEdit",
+      "githubRepo": "https://github.com/EasonXiao-888/SpatialEdit",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A new benchmark and dataset are introduced for evaluating fine-grained spatial editing capabilities, along with a model that demonstrates superior performance on spatial manipulation tasks.",
+      "ai_keywords": [
+        "SpatialEdit-Bench",
+        "SpatialEdit-500k",
+        "SpatialEdit-16B",
+        "spatial editing",
+        "geometric fidelity",
+        "viewpoint reconstruction",
+        "framing analysis",
+        "synthetic dataset",
+        "Blender pipeline",
+        "camera trajectories",
+        "object-centric operations",
+        "camera-centric operations"
+      ],
+      "githubStars": 45,
+      "organization": {
+        "_id": "68cb7c874f4a1865540c455c",
+        "name": "jdopensource",
+        "fullname": "JD Open Source",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/68c0e2ab44ea28a974e3074b/g-4gTubd16qUtwmGZ0n4h.png"
+      }
+    },
+    "publishedAt": "2026-04-05T20:00:00.000Z",
+    "title": "SpatialEdit: Benchmarking Fine-Grained Image Spatial Editing",
+    "summary": "Image spatial editing performs geometry-driven transformations, allowing precise control over object layout and camera viewpoints. Current models are insufficient for fine-grained spatial manipulations, motivating a dedicated assessment suite. Our contributions are listed: (i) We introduce SpatialEdit-Bench, a complete benchmark that evaluates spatial editing by jointly measuring perceptual plausibility and geometric fidelity via viewpoint reconstruction and framing analysis. (ii) To address the data bottleneck for scalable training, we construct SpatialEdit-500k, a synthetic dataset generated with a controllable Blender pipeline that renders objects across diverse backgrounds and systematic camera trajectories, providing precise ground-truth transformations for both object- and camera-centric operations. (iii) Building on this data, we develop SpatialEdit-16B, a baseline model for fine-grained spatial editing. Our method achieves competitive performance on general editing while substantially outperforming prior methods on spatial manipulation tasks. All resources will be made public at https://github.com/EasonXiao-888/SpatialEdit.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04911.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "656a12a3d848a6683a6dfb9e",
+      "avatarUrl": "/avatars/5ea6ed75051e65da76d89b4a649b09a2.svg",
+      "fullname": "YC Xiao",
+      "name": "EasonXiao-888",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68cb7c874f4a1865540c455c",
+      "name": "jdopensource",
+      "fullname": "JD Open Source",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/68c0e2ab44ea28a974e3074b/g-4gTubd16qUtwmGZ0n4h.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04202",
+      "authors": [
+        {
+          "_id": "69d467442c523d36431fb04b",
+          "name": "Haonian Ji",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb04c",
+          "name": "Kaiwen Xiong",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb04d",
+          "name": "Siwei Han",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb04e",
+          "name": "Peng Xia",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb04f",
+          "name": "Shi Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb050",
+          "name": "Yiyang Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb051",
+          "name": "Jiaqi Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb052",
+          "name": "Jinlong Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb053",
+          "name": "Bingzhou Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb054",
+          "name": "Zeyu Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb055",
+          "name": "Cihang Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69d467442c523d36431fb056",
+          "name": "Huaxiu Yao",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-05T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:18:46.838Z",
+      "title": "ClawArena: Benchmarking AI Agents in Evolving Information Environments",
+      "submittedOnDailyBy": {
+        "_id": "643e9ee6f6bb3c31a26e7bc4",
+        "avatarUrl": "/avatars/acfaa7d6a23dada24c86b954c3be116a.svg",
+        "isPro": false,
+        "fullname": "Peng Xia",
+        "user": "richardxp888",
+        "type": "user",
+        "name": "richardxp888"
+      },
+      "summary": "AI agents deployed as persistent assistants must maintain correct beliefs as their information environment evolves. In practice, evidence is scattered across heterogeneous sources that often contradict one another, new information can invalidate earlier conclusions, and user preferences surface through corrections rather than explicit instructions. Existing benchmarks largely assume static, single-authority settings and do not evaluate whether agents can keep up with this complexity. We introduce ClawArena, a benchmark for evaluating AI agents in evolving information environments. Each scenario maintains a complete hidden ground truth while exposing the agent only to noisy, partial, and sometimes contradictory traces across multi-channel sessions, workspace files, and staged updates. Evaluation is organized around three coupled challenges: multi-source conflict reasoning, dynamic belief revision, and implicit personalization, whose interactions yield a 14-category question taxonomy. Two question formats, multi-choice (set-selection) and shell-based executable checks, test both reasoning and workspace grounding. The current release contains 64 scenarios across 8 professional domains, totaling 1{,}879 evaluation rounds and 365 dynamic updates. Experiments on five agent frameworks and five language models show that both model capability (15.4% range) and framework design (9.2%) substantially affect performance, that self-evolving skill frameworks can partially close model-capability gaps, and that belief revision difficulty is determined by update design strategy rather than the mere presence of updates. Code is available at https://github.com/aiming-lab/ClawArena.",
+      "upvotes": 12,
+      "discussionId": "69d467452c523d36431fb057",
+      "githubRepo": "https://github.com/aiming-lab/ClawArena",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "ClawArena evaluates AI agents' ability to maintain accurate beliefs in dynamic, multi-source information environments through diverse professional scenarios and evaluation methods.",
+      "ai_keywords": [
+        "AI agents",
+        "evolving information environments",
+        "multi-source conflict reasoning",
+        "dynamic belief revision",
+        "implicit personalization",
+        "question taxonomy",
+        "multi-choice",
+        "shell-based executable checks"
+      ],
+      "githubStars": 6,
+      "organization": {
+        "_id": "669f9d1fec8789263c0e355a",
+        "name": "UNC-ChapelHill",
+        "fullname": "University of North Carolina at Chapel Hill",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/669f9c85bd649dba3b88e581/H5uB8_MCewnMtxEUnAvTL.png"
+      }
+    },
+    "publishedAt": "2026-04-04T20:00:00.000Z",
+    "title": "ClawArena: Benchmarking AI Agents in Evolving Information Environments",
+    "summary": "AI agents deployed as persistent assistants must maintain correct beliefs as their information environment evolves. In practice, evidence is scattered across heterogeneous sources that often contradict one another, new information can invalidate earlier conclusions, and user preferences surface through corrections rather than explicit instructions. Existing benchmarks largely assume static, single-authority settings and do not evaluate whether agents can keep up with this complexity. We introduce ClawArena, a benchmark for evaluating AI agents in evolving information environments. Each scenario maintains a complete hidden ground truth while exposing the agent only to noisy, partial, and sometimes contradictory traces across multi-channel sessions, workspace files, and staged updates. Evaluation is organized around three coupled challenges: multi-source conflict reasoning, dynamic belief revision, and implicit personalization, whose interactions yield a 14-category question taxonomy. Two question formats, multi-choice (set-selection) and shell-based executable checks, test both reasoning and workspace grounding. The current release contains 64 scenarios across 8 professional domains, totaling 1{,}879 evaluation rounds and 365 dynamic updates. Experiments on five agent frameworks and five language models show that both model capability (15.4% range) and framework design (9.2%) substantially affect performance, that self-evolving skill frameworks can partially close model-capability gaps, and that belief revision difficulty is determined by update design strategy rather than the mere presence of updates. Code is available at https://github.com/aiming-lab/ClawArena.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04202.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "643e9ee6f6bb3c31a26e7bc4",
+      "avatarUrl": "/avatars/acfaa7d6a23dada24c86b954c3be116a.svg",
+      "fullname": "Peng Xia",
+      "name": "richardxp888",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 6,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "669f9d1fec8789263c0e355a",
+      "name": "UNC-ChapelHill",
+      "fullname": "University of North Carolina at Chapel Hill",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/669f9c85bd649dba3b88e581/H5uB8_MCewnMtxEUnAvTL.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04184",
+      "authors": [
+        {
+          "_id": "69d46b222c523d36431fb067",
+          "name": "Xudong Lu",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb068",
+          "name": "Yang Bo",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb069",
+          "name": "Jinpeng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb06a",
+          "name": "Shuhan Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb06b",
+          "name": "Xintong Guo",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb06c",
+          "name": "Huankang Guan",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb06d",
+          "name": "Fang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb06e",
+          "name": "Dunyuan Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb06f",
+          "name": "Peiwen Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb070",
+          "name": "Heyang Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb071",
+          "name": "Rui Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69d46b222c523d36431fb072",
+          "name": "Hongsheng Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-05T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:13:16.943Z",
+      "title": "AURA: Always-On Understanding and Real-Time Assistance via Video Streams",
+      "submittedOnDailyBy": {
+        "_id": "669a02fa61278f96d87902f5",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/669a02fa61278f96d87902f5/UsqqKUizH2w0mlBk0z5xK.jpeg",
+        "isPro": true,
+        "fullname": "Jinpeng Chen",
+        "user": "jinpeng0528",
+        "type": "user",
+        "name": "jinpeng0528"
+      },
+      "summary": "Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most existing systems remain offline and are not well-suited for live video streams that require continuous observation and timely response. Recent streaming VideoLLMs have made progress, yet current approaches often rely on decoupled trigger-response pipelines or are limited to captioning-style narration, reducing their effectiveness for open-ended question answering and long-horizon interaction. We propose AURA (Always-On Understanding and Real-Time Assistance), an end-to-end streaming visual interaction framework that enables a unified VideoLLM to continuously process video streams and support both real-time question answering and proactive responses. AURA integrates context management, data construction, training objectives, and deployment optimization for stable long-horizon streaming interaction. It achieves state-of-the-art performance on streaming benchmarks and supports a real-time demo system with ASR and TTS running at 2 FPS on two 80G accelerators. We release the AURA model together with a real-time inference framework to facilitate future research.",
+      "upvotes": 12,
+      "discussionId": "69d46b222c523d36431fb073",
+      "projectPage": "https://aurateam2026.github.io",
+      "githubRepo": "https://github.com/aurateam2026/AURA",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "AURA is an end-to-end streaming visual interaction framework that enables continuous video stream processing with real-time question answering and proactive responses through integrated context management and optimized deployment.",
+      "ai_keywords": [
+        "VideoLLMs",
+        "streaming VideoLLMs",
+        "real-time question answering",
+        "proactive responses",
+        "context management",
+        "data construction",
+        "training objectives",
+        "deployment optimization",
+        "long-horizon streaming interaction",
+        "ASR",
+        "TTS"
+      ],
+      "githubStars": 1
+    },
+    "publishedAt": "2026-04-04T20:00:00.000Z",
+    "title": "AURA: Always-On Understanding and Real-Time Assistance via Video Streams",
+    "summary": "Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most existing systems remain offline and are not well-suited for live video streams that require continuous observation and timely response. Recent streaming VideoLLMs have made progress, yet current approaches often rely on decoupled trigger-response pipelines or are limited to captioning-style narration, reducing their effectiveness for open-ended question answering and long-horizon interaction. We propose AURA (Always-On Understanding and Real-Time Assistance), an end-to-end streaming visual interaction framework that enables a unified VideoLLM to continuously process video streams and support both real-time question answering and proactive responses. AURA integrates context management, data construction, training objectives, and deployment optimization for stable long-horizon streaming interaction. It achieves state-of-the-art performance on streaming benchmarks and supports a real-time demo system with ASR and TTS running at 2 FPS on two 80G accelerators. We release the AURA model together with a real-time inference framework to facilitate future research.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04184.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "669a02fa61278f96d87902f5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/669a02fa61278f96d87902f5/UsqqKUizH2w0mlBk0z5xK.jpeg",
+      "fullname": "Jinpeng Chen",
+      "name": "jinpeng0528",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.03679",
+      "authors": [
+        {
+          "_id": "69d476822c523d36431fb148",
+          "name": "Yuqi Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb149",
+          "name": "Jintian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb14a",
+          "name": "Zhenjie Wan",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb14b",
+          "name": "Yujie Luo",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb14c",
+          "name": "Shuofei Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb14d",
+          "name": "Zhengke Gui",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb14e",
+          "name": "Da Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb14f",
+          "name": "Lei Liang",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb150",
+          "name": "Huajun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69d476822c523d36431fb151",
+          "name": "Ningyu Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-04T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:52:20.041Z",
+      "title": "LightThinker++: From Reasoning Compression to Memory Management",
+      "submittedOnDailyBy": {
+        "_id": "679b6d152583e6629337c592",
+        "avatarUrl": "/avatars/7ad77d7384fd41ad987b6eb5907a8f08.svg",
+        "isPro": false,
+        "fullname": "Yuqi",
+        "user": "Yukirsh",
+        "type": "user",
+        "name": "Yukirsh"
+      },
+      "summary": "Large language models (LLMs) excel at complex reasoning, yet their efficiency is limited by the surging cognitive overhead of long thought traces. In this paper, we propose LightThinker, a method that enables LLMs to dynamically compress intermediate thoughts into compact semantic representations. However, static compression often struggles with complex reasoning where the irreversible loss of intermediate details can lead to logical bottlenecks. To address this, we evolve the framework into LightThinker++, introducing Explicit Adaptive Memory Management. This paradigm shifts to behavioral-level management by incorporating explicit memory primitives, supported by a specialized trajectory synthesis pipeline to train purposeful memory scheduling. Extensive experiments demonstrate the framework's versatility across three dimensions. (1) LightThinker reduces peak token usage by 70% and inference time by 26% with minimal accuracy loss. (2) In standard reasoning, LightThinker++ slashes peak token usage by 69.9% while yielding a +2.42% accuracy gain under the same context budget for maximum performance. (3) Most notably, in long-horizon agentic tasks, it maintains a stable footprint beyond 80 rounds (a 60%-70% reduction), achieving an average performance gain of 14.8% across different complex scenarios. Overall, our work provides a scalable direction for sustaining deep LLM reasoning over extended horizons with minimal overhead.",
+      "upvotes": 11,
+      "discussionId": "69d476822c523d36431fb152",
+      "ai_summary": "LightThinker and LightThinker++ enable efficient large language model reasoning through dynamic compression and adaptive memory management, significantly reducing computational overhead while maintaining performance in complex tasks.",
+      "ai_keywords": [
+        "large language models",
+        "intermediate thoughts",
+        "semantic representations",
+        "explicit adaptive memory management",
+        "memory primitives",
+        "trajectory synthesis pipeline",
+        "memory scheduling",
+        "long-horizon agentic tasks",
+        "token usage",
+        "inference time"
+      ],
+      "organization": {
+        "_id": "6345aadf5efccdc07f1365a5",
+        "name": "ZhejiangUniversity",
+        "fullname": "Zhejiang University",
+        "avatar": "https://www.gravatar.com/avatar/d1d414628877bec2958f95ad283c15e7?d=retro&size=100"
+      }
+    },
+    "publishedAt": "2026-04-03T20:00:00.000Z",
+    "title": "LightThinker++: From Reasoning Compression to Memory Management",
+    "summary": "Large language models (LLMs) excel at complex reasoning, yet their efficiency is limited by the surging cognitive overhead of long thought traces. In this paper, we propose LightThinker, a method that enables LLMs to dynamically compress intermediate thoughts into compact semantic representations. However, static compression often struggles with complex reasoning where the irreversible loss of intermediate details can lead to logical bottlenecks. To address this, we evolve the framework into LightThinker++, introducing Explicit Adaptive Memory Management. This paradigm shifts to behavioral-level management by incorporating explicit memory primitives, supported by a specialized trajectory synthesis pipeline to train purposeful memory scheduling. Extensive experiments demonstrate the framework's versatility across three dimensions. (1) LightThinker reduces peak token usage by 70% and inference time by 26% with minimal accuracy loss. (2) In standard reasoning, LightThinker++ slashes peak token usage by 69.9% while yielding a +2.42% accuracy gain under the same context budget for maximum performance. (3) Most notably, in long-horizon agentic tasks, it maintains a stable footprint beyond 80 rounds (a 60%-70% reduction), achieving an average performance gain of 14.8% across different complex scenarios. Overall, our work provides a scalable direction for sustaining deep LLM reasoning over extended horizons with minimal overhead.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.03679.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "679b6d152583e6629337c592",
+      "avatarUrl": "/avatars/7ad77d7384fd41ad987b6eb5907a8f08.svg",
+      "fullname": "Yuqi",
+      "name": "Yukirsh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6345aadf5efccdc07f1365a5",
+      "name": "ZhejiangUniversity",
+      "fullname": "Zhejiang University",
+      "avatar": "https://www.gravatar.com/avatar/d1d414628877bec2958f95ad283c15e7?d=retro&size=100"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04771",
+      "authors": [
+        {
+          "_id": "69d474972c523d36431fb116",
+          "name": "Bin Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb117",
+          "name": "Tianyao He",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb118",
+          "name": "Linke Ouyang",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb119",
+          "name": "Fan Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb11a",
+          "name": "Zhiyuan Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb11b",
+          "name": "Tao Chu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb11c",
+          "name": "Yuan Qu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb11d",
+          "name": "Zhenjiang Jin",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb11e",
+          "name": "Weijun Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb11f",
+          "name": "Ziyang Miao",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb120",
+          "name": "Bangrui Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb121",
+          "name": "Junbo Niu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb122",
+          "name": "Mengzhang Cai",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb123",
+          "name": "Jiantao Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb124",
+          "name": "Qintong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb125",
+          "name": "Dongsheng Ma",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb126",
+          "name": "Yuefeng Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb127",
+          "name": "Hejun Dong",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb128",
+          "name": "Wenzheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb129",
+          "name": "Jutao Xiao",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb12a",
+          "name": "Jiayong Shi",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb12b",
+          "name": "Pengyu Liao",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb12c",
+          "name": "Xiaomeng Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb12d",
+          "name": "Huaping Zhong",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb12e",
+          "name": "Liqun Wei",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb12f",
+          "name": "Jing Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb130",
+          "name": "Jie Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb131",
+          "name": "Wei Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb132",
+          "name": "Shasha Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb133",
+          "name": "Qianqian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb134",
+          "name": "Xuanhe Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb135",
+          "name": "Weijia Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb136",
+          "name": "Zhenxiang Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb137",
+          "name": "Zhongying Tu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb138",
+          "name": "Jiang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb139",
+          "name": "Lijun Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb13a",
+          "name": "Chao Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb13b",
+          "name": "Kai Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb13c",
+          "name": "Wentao Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb13d",
+          "name": "Yu Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb13e",
+          "name": "Bowen Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb13f",
+          "name": "Dahua Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69d474972c523d36431fb140",
+          "name": "Conghui He",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:37:47.316Z",
+      "title": "MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale",
+      "submittedOnDailyBy": {
+        "_id": "63ae9ff5557befe297a76f90",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1672388558183-noauth.jpeg",
+        "isPro": false,
+        "fullname": "Bin Wang",
+        "user": "wanderkid",
+        "type": "user",
+        "name": "wanderkid"
+      },
+      "summary": "Current document parsing methods compete primarily on model architecture innovation, while systematic engineering of training data remains underexplored. Yet SOTA models of different architectures and parameter scales exhibit highly consistent failure patterns on the same set of hard samples, suggesting that the performance bottleneck stems from shared deficiencies in training data rather than architecture itself. Building on this finding, we present \\minerupro, which advances the state of the art solely through data engineering and training strategy optimization while keeping the 1.2B-parameter architecture of \\mineru completely fixed. At its core is a Data Engine co-designed around coverage, informativeness, and annotation accuracy: Diversity-and-Difficulty-Aware Sampling expands training data from under 10M to 65.5M samples while correcting distribution shift; Cross-Model Consistency Verification leverages output agreement among heterogeneous models to assess sample difficulty and generate reliable annotations; the Judge-and-Refine pipeline improves annotation quality for hard samples through render-then-verify iterative correction. A three-stage progressive training strategy -- large-scale pre-training, hard sample fine-tuning, and GRPO alignment -- sequentially exploits these data at different quality tiers. On the evaluation front, we fix element-matching biases in OmniDocBench~v1.5 and introduce a Hard subset, establishing the more discriminative OmniDocBench~v1.6 protocol. Without any architectural modification, \\minerupro achieves 95.69 on OmniDocBench~v1.6, improving over the same-architecture baseline by 2.71 points and surpassing all existing methods including models with over 200times more parameters.",
+      "upvotes": 10,
+      "discussionId": "69d474982c523d36431fb141",
+      "ai_summary": "Training data engineering and optimized strategies improve document parsing performance without architectural changes, achieving state-of-the-art results on OmniDocBench v1.6.",
+      "ai_keywords": [
+        "Data Engine",
+        "Diversity-and-Difficulty-Aware Sampling",
+        "Cross-Model Consistency Verification",
+        "Judge-and-Refine pipeline",
+        "progressive training strategy",
+        "large-scale pre-training",
+        "hard sample fine-tuning",
+        "GRPO alignment"
+      ],
+      "organization": {
+        "_id": "66ce9d1f5e180b9b9c8e6f31",
+        "name": "opendatalab",
+        "fullname": "OpenDataLab",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/639c3afa7432f2f5d16b7296/yqxxBknyeqkGnYsjoaR4M.png"
+      }
+    },
+    "publishedAt": "2026-04-05T20:00:00.000Z",
+    "title": "MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale",
+    "summary": "Current document parsing methods compete primarily on model architecture innovation, while systematic engineering of training data remains underexplored. Yet SOTA models of different architectures and parameter scales exhibit highly consistent failure patterns on the same set of hard samples, suggesting that the performance bottleneck stems from shared deficiencies in training data rather than architecture itself. Building on this finding, we present \\minerupro, which advances the state of the art solely through data engineering and training strategy optimization while keeping the 1.2B-parameter architecture of \\mineru completely fixed. At its core is a Data Engine co-designed around coverage, informativeness, and annotation accuracy: Diversity-and-Difficulty-Aware Sampling expands training data from under 10M to 65.5M samples while correcting distribution shift; Cross-Model Consistency Verification leverages output agreement among heterogeneous models to assess sample difficulty and generate reliable annotations; the Judge-and-Refine pipeline improves annotation quality for hard samples through render-then-verify iterative correction. A three-stage progressive training strategy -- large-scale pre-training, hard sample fine-tuning, and GRPO alignment -- sequentially exploits these data at different quality tiers. On the evaluation front, we fix element-matching biases in OmniDocBench~v1.5 and introduce a Hard subset, establishing the more discriminative OmniDocBench~v1.6 protocol. Without any architectural modification, \\minerupro achieves 95.69 on OmniDocBench~v1.6, improving over the same-architecture baseline by 2.71 points and surpassing all existing methods including models with over 200times more parameters.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04771.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63ae9ff5557befe297a76f90",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1672388558183-noauth.jpeg",
+      "fullname": "Bin Wang",
+      "name": "wanderkid",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 26,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "66ce9d1f5e180b9b9c8e6f31",
+      "name": "opendatalab",
+      "fullname": "OpenDataLab",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/639c3afa7432f2f5d16b7296/yqxxBknyeqkGnYsjoaR4M.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04804",
+      "authors": [
+        {
+          "_id": "69d473a92c523d36431fb108",
+          "name": "Chenxi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb109",
+          "name": "Zhuoyun Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb10a",
+          "name": "Xin Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb10b",
+          "name": "Wuguannan Yao",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb10c",
+          "name": "Runnan Fang",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb10d",
+          "name": "Shuofei Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb10e",
+          "name": "Kexin Cao",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb10f",
+          "name": "Guozhou Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb110",
+          "name": "Xiang Qi",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb111",
+          "name": "Peng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69d473a92c523d36431fb112",
+          "name": "Shumin Deng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:37:27.509Z",
+      "title": "SkillX: Automatically Constructing Skill Knowledge Bases for Agents",
+      "submittedOnDailyBy": {
+        "_id": "6441f1d2603214724ec0c1c2",
+        "avatarUrl": "/avatars/d3c4b759e6a5635e37ff715fae52e5ba.svg",
+        "isPro": false,
+        "fullname": "Shumin Deng",
+        "user": "231sm",
+        "type": "user",
+        "name": "231sm"
+      },
+      "summary": "Learning from experience is critical for building capable large language model (LLM) agents, yet prevailing self-evolving paradigms remain inefficient: agents learn in isolation, repeatedly rediscover similar behaviors from limited experience, resulting in redundant exploration and poor generalization. To address this problem, we propose SkillX, a fully automated framework for constructing a plug-and-play skill knowledge base that can be reused across agents and environments. SkillX operates through a fully automated pipeline built on three synergistic innovations: (i) Multi-Level Skills Design, which distills raw trajectories into three-tiered hierarchy of strategic plans, functional skills, and atomic skills; (ii) Iterative Skills Refinement, which automatically revises skills based on execution feedback to continuously improve library quality; and (iii) Exploratory Skills Expansion, which proactively generates and validates novel skills to expand coverage beyond seed training data. Using a strong backbone agent (GLM-4.6), we automatically build a reusable skill library and evaluate its transferability on challenging long-horizon, user-interactive benchmarks, including AppWorld, BFCL-v3, and τ^2-Bench. Experiments show that SkillKB consistently improves task success and execution efficiency when plugged into weaker base agents, highlighting the importance of structured, hierarchical experience representations for generalizable agent learning. Our code will be publicly available soon at https://github.com/zjunlp/SkillX.",
+      "upvotes": 10,
+      "discussionId": "69d473aa2c523d36431fb113",
+      "githubRepo": "https://github.com/zjunlp/SkillX",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "SkillX is an automated framework that creates reusable skill libraries for LLM agents through hierarchical skill design, iterative refinement, and exploratory expansion to improve generalization and efficiency across different environments.",
+      "ai_keywords": [
+        "self-evolving paradigms",
+        "skill knowledge base",
+        "multi-level skills design",
+        "iterative skills refinement",
+        "exploratory skills expansion",
+        "hierarchical experience representations",
+        "long-horizon benchmarks",
+        "user-interactive benchmarks",
+        "GLM-4.6",
+        "skill transferability"
+      ],
+      "githubStars": 3,
+      "organization": {
+        "_id": "6345aadf5efccdc07f1365a5",
+        "name": "ZhejiangUniversity",
+        "fullname": "Zhejiang University",
+        "avatar": "https://www.gravatar.com/avatar/d1d414628877bec2958f95ad283c15e7?d=retro&size=100"
+      }
+    },
+    "publishedAt": "2026-04-05T20:00:00.000Z",
+    "title": "SkillX: Automatically Constructing Skill Knowledge Bases for Agents",
+    "summary": "Learning from experience is critical for building capable large language model (LLM) agents, yet prevailing self-evolving paradigms remain inefficient: agents learn in isolation, repeatedly rediscover similar behaviors from limited experience, resulting in redundant exploration and poor generalization. To address this problem, we propose SkillX, a fully automated framework for constructing a plug-and-play skill knowledge base that can be reused across agents and environments. SkillX operates through a fully automated pipeline built on three synergistic innovations: (i) Multi-Level Skills Design, which distills raw trajectories into three-tiered hierarchy of strategic plans, functional skills, and atomic skills; (ii) Iterative Skills Refinement, which automatically revises skills based on execution feedback to continuously improve library quality; and (iii) Exploratory Skills Expansion, which proactively generates and validates novel skills to expand coverage beyond seed training data. Using a strong backbone agent (GLM-4.6), we automatically build a reusable skill library and evaluate its transferability on challenging long-horizon, user-interactive benchmarks, including AppWorld, BFCL-v3, and τ^2-Bench. Experiments show that SkillKB consistently improves task success and execution efficiency when plugged into weaker base agents, highlighting the importance of structured, hierarchical experience representations for generalizable agent learning. Our code will be publicly available soon at https://github.com/zjunlp/SkillX.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04804.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6441f1d2603214724ec0c1c2",
+      "avatarUrl": "/avatars/d3c4b759e6a5635e37ff715fae52e5ba.svg",
+      "fullname": "Shumin Deng",
+      "name": "231sm",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6345aadf5efccdc07f1365a5",
+      "name": "ZhejiangUniversity",
+      "fullname": "Zhejiang University",
+      "avatar": "https://www.gravatar.com/avatar/d1d414628877bec2958f95ad283c15e7?d=retro&size=100"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04921",
+      "authors": [
+        {
+          "_id": "69d473702c523d36431fb0fd",
+          "name": "Weian Mao",
+          "hidden": false
+        },
+        {
+          "_id": "69d473702c523d36431fb0fe",
+          "name": "Xi Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69d473702c523d36431fb0ff",
+          "name": "Wei Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69d473702c523d36431fb100",
+          "name": "Yuxin Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69d473702c523d36431fb101",
+          "name": "Tianfu Fu",
+          "hidden": false
+        },
+        {
+          "_id": "69d473702c523d36431fb102",
+          "name": "Bohan Zhuang",
+          "hidden": false
+        },
+        {
+          "_id": "69d473702c523d36431fb103",
+          "name": "Song Han",
+          "hidden": false
+        },
+        {
+          "_id": "69d473702c523d36431fb104",
+          "name": "Yukang Chen",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/656db3f53dc1d277e5a64410/tm0VBtgmBap5wV_cCtLjM.mp4"
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:37:50.162Z",
+      "title": "TriAttention: Efficient Long Reasoning with Trigonometric KV Compression",
+      "submittedOnDailyBy": {
+        "_id": "656db3f53dc1d277e5a64410",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656db3f53dc1d277e5a64410/9kiY2K3MCRcBDk7MrkTBK.png",
+        "isPro": false,
+        "fullname": "Wei Huang",
+        "user": "AaronHuangWei",
+        "type": "user",
+        "name": "AaronHuangWei"
+      },
+      "summary": "Extended reasoning in large language models (LLMs) creates severe KV cache memory bottlenecks. Leading KV cache compression methods estimate KV importance using attention scores from recent post-RoPE queries. However, queries rotate with position during RoPE, making representative queries very few, leading to poor top-key selection and unstable reasoning. To avoid this issue, we turn to the pre-RoPE space, where we observe that Q and K vectors are highly concentrated around fixed non-zero centers and remain stable across positions -- Q/K concentration. We show that this concentration causes queries to preferentially attend to keys at specific distances (e.g., nearest keys), with the centers determining which distances are preferred via a trigonometric series. Based on this, we propose TriAttention to estimate key importance by leveraging these centers. Via the trigonometric series, we use the distance preference characterized by these centers to score keys according to their positions, and also leverage Q/K norms as an additional signal for importance estimation. On AIME25 with 32K-token generation, TriAttention matches Full Attention reasoning accuracy while achieving 2.5x higher throughput or 10.7x KV memory reduction, whereas leading baselines achieve only about half the accuracy at the same efficiency. TriAttention enables OpenClaw deployment on a single consumer GPU, where long context would otherwise cause out-of-memory with Full Attention.",
+      "upvotes": 8,
+      "discussionId": "69d473712c523d36431fb105",
+      "projectPage": "https://weianmao.github.io/tri-attention-project-page/",
+      "githubRepo": "https://github.com/WeianMao/triattention",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "TriAttention addresses KV cache memory bottlenecks in LLMs by leveraging Q/K vector concentration in pre-RoPE space to improve key importance estimation and enable efficient long-context generation.",
+      "ai_keywords": [
+        "KV cache compression",
+        "attention scores",
+        "RoPE",
+        "pre-RoPE space",
+        "Q/K concentration",
+        "trigonometric series",
+        "key importance estimation",
+        "attention mechanisms",
+        "long-context generation",
+        "throughput optimization",
+        "memory reduction"
+      ],
+      "githubStars": 9,
+      "organization": {
+        "_id": "60262b67268c201cdc8b7d43",
+        "name": "nvidia",
+        "fullname": "NVIDIA",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png"
+      }
+    },
+    "publishedAt": "2026-04-05T20:00:00.000Z",
+    "title": "TriAttention: Efficient Long Reasoning with Trigonometric KV Compression",
+    "summary": "Extended reasoning in large language models (LLMs) creates severe KV cache memory bottlenecks. Leading KV cache compression methods estimate KV importance using attention scores from recent post-RoPE queries. However, queries rotate with position during RoPE, making representative queries very few, leading to poor top-key selection and unstable reasoning. To avoid this issue, we turn to the pre-RoPE space, where we observe that Q and K vectors are highly concentrated around fixed non-zero centers and remain stable across positions -- Q/K concentration. We show that this concentration causes queries to preferentially attend to keys at specific distances (e.g., nearest keys), with the centers determining which distances are preferred via a trigonometric series. Based on this, we propose TriAttention to estimate key importance by leveraging these centers. Via the trigonometric series, we use the distance preference characterized by these centers to score keys according to their positions, and also leverage Q/K norms as an additional signal for importance estimation. On AIME25 with 32K-token generation, TriAttention matches Full Attention reasoning accuracy while achieving 2.5x higher throughput or 10.7x KV memory reduction, whereas leading baselines achieve only about half the accuracy at the same efficiency. TriAttention enables OpenClaw deployment on a single consumer GPU, where long context would otherwise cause out-of-memory with Full Attention.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/656db3f53dc1d277e5a64410/tm0VBtgmBap5wV_cCtLjM.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04921.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "656db3f53dc1d277e5a64410",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656db3f53dc1d277e5a64410/9kiY2K3MCRcBDk7MrkTBK.png",
+      "fullname": "Wei Huang",
+      "name": "AaronHuangWei",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 12,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "name": "nvidia",
+      "fullname": "NVIDIA",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04917",
+      "authors": [
+        {
+          "_id": "69d46efc2c523d36431fb0cc",
+          "name": "Gabriel Sarch",
+          "hidden": false
+        },
+        {
+          "_id": "69d46efc2c523d36431fb0cd",
+          "name": "Linrong Cai",
+          "hidden": false
+        },
+        {
+          "_id": "69d46efc2c523d36431fb0ce",
+          "name": "Qunzhong Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69d46efc2c523d36431fb0cf",
+          "name": "Haoyang Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69d46efc2c523d36431fb0d0",
+          "name": "Danqi Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69d46efc2c523d36431fb0d1",
+          "name": "Zhuang Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:12:19.472Z",
+      "title": "Vero: An Open RL Recipe for General Visual Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "What does it take to build a visual reasoner that works across charts, science, spatial understanding, and open-ended tasks? The strongest vision-language models (VLMs) show such broad visual reasoning is within reach, but the recipe behind them remains unclear, locked behind proprietary reinforcement learning (RL) pipelines with non-public data. We introduce Vero, a family of fully open VLMs that matches or exceeds existing open-weight models across diverse visual reasoning tasks. We scale RL data and rewards across six broad task categories, constructing Vero-600K, a 600K-sample dataset from 59 datasets, and designing task-routed rewards that handle heterogeneous answer formats. Vero achieves state-of-the-art performance, improving over four base models by 3.7-5.5 points on average across VeroEval, our suite of 30 challenging benchmarks. Starting from Qwen3-VL-8B-Instruct, Vero outperforms Qwen3-VL-8B-Thinking on 23 of 30 benchmarks without additional proprietary thinking data. When trained from the same base model, Vero-600K exceeds existing RL datasets across task categories. Systematic ablations reveal that different task categories elicit qualitatively distinct reasoning patterns that transfer poorly in isolation, suggesting that broad data coverage is the primary driver of strong RL scaling. All data, code, and models are released.",
+      "upvotes": 5,
+      "discussionId": "69d46efd2c523d36431fb0d2",
+      "projectPage": "https://vero-reasoning.github.io/",
+      "ai_summary": "Vero is an open vision-language model family that achieves state-of-the-art visual reasoning performance through scaled reinforcement learning data across diverse tasks, demonstrating that broad data coverage drives strong RL scaling rather than isolated task-specific patterns.",
+      "ai_keywords": [
+        "vision-language models",
+        "reinforcement learning",
+        "visual reasoning",
+        "Vero-600K",
+        "task-routed rewards",
+        "VeroEval",
+        "Qwen3-VL-8B-Instruct",
+        "Qwen3-VL-8B-Thinking"
+      ]
+    },
+    "publishedAt": "2026-04-05T20:00:00.000Z",
+    "title": "Vero: An Open RL Recipe for General Visual Reasoning",
+    "summary": "What does it take to build a visual reasoner that works across charts, science, spatial understanding, and open-ended tasks? The strongest vision-language models (VLMs) show such broad visual reasoning is within reach, but the recipe behind them remains unclear, locked behind proprietary reinforcement learning (RL) pipelines with non-public data. We introduce Vero, a family of fully open VLMs that matches or exceeds existing open-weight models across diverse visual reasoning tasks. We scale RL data and rewards across six broad task categories, constructing Vero-600K, a 600K-sample dataset from 59 datasets, and designing task-routed rewards that handle heterogeneous answer formats. Vero achieves state-of-the-art performance, improving over four base models by 3.7-5.5 points on average across VeroEval, our suite of 30 challenging benchmarks. Starting from Qwen3-VL-8B-Instruct, Vero outperforms Qwen3-VL-8B-Thinking on 23 of 30 benchmarks without additional proprietary thinking data. When trained from the same base model, Vero-600K exceeds existing RL datasets across task categories. Systematic ablations reveal that different task categories elicit qualitatively distinct reasoning patterns that transfer poorly in isolation, suggesting that broad data coverage is the primary driver of strong RL scaling. All data, code, and models are released.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04917.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 259,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04838",
+      "authors": [
+        {
+          "_id": "69d46d9f2c523d36431fb0b8",
+          "name": "Haoxuan Han",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d9f2c523d36431fb0b9",
+          "name": "Weijie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d9f2c523d36431fb0ba",
+          "name": "Zeyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d9f2c523d36431fb0bb",
+          "name": "Yefei He",
+          "hidden": false
+        },
+        {
+          "_id": "69d46d9f2c523d36431fb0bc",
+          "name": "Bohan Zhuang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:09:01.160Z",
+      "title": "Less Detail, Better Answers: Degradation-Driven Prompting for VQA",
+      "submittedOnDailyBy": {
+        "_id": "66699aa8a33847217b5a49c7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/u8Z-6U8U7ARXOpdBDI7Qm.png",
+        "isPro": false,
+        "fullname": "Weijie Wang",
+        "user": "lhmd",
+        "type": "user",
+        "name": "lhmd"
+      },
+      "summary": "Recent advancements in Vision-Language Models (VLMs) have significantly pushed the boundaries of Visual Question Answering (VQA).However,high-resolution details can sometimes become noise that leads to hallucinations or reasoning errors. In this paper,we propose Degradation-Driven Prompting (DDP), a novel framework that improves VQA performance by strategically reducing image fidelity to force models to focus on essential structural information. We evaluate DDP across two distinct tasks. Physical attributes targets images prone to human misjudgment, where DDP employs a combination of 80p downsampling, structural visual aids (white background masks and orthometric lines), and In-Context Learning (ICL) to calibrate the model's focus. Perceptual phenomena addresses various machine-susceptible visual anomalies and illusions, including Visual Anomaly (VA), Color (CI), Motion(MI),Gestalt (GI), Geometric (GSI), and Visual Illusions (VI).For this task, DDP integrates a task-classification stage with specialized tools such as blur masks and contrast enhancement alongside downsampling. Our experimental results demonstrate that less is more: by intentionally degrading visual inputs and providing targeted structural prompts, DDP enables VLMs to bypass distracting textures and achieve superior reasoning accuracy on challenging visual benchmarks.",
+      "upvotes": 4,
+      "discussionId": "69d46d9f2c523d36431fb0bd",
+      "projectPage": "https://hhx-jpg.github.io/ddp/",
+      "githubRepo": "https://github.com/ziplab/DDP",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Visual question answering performance is enhanced by strategically reducing image fidelity to focus models on essential structural information rather than distracting details.",
+      "ai_keywords": [
+        "Vision-Language Models",
+        "Visual Question Answering",
+        "image fidelity",
+        "structural information",
+        "In-Context Learning",
+        "visual anomalies",
+        "visual illusions",
+        "downsampling",
+        "structural visual aids",
+        "blur masks",
+        "contrast enhancement",
+        "task-classification stage"
+      ],
+      "githubStars": 9,
+      "organization": {
+        "_id": "65a7c89210342794b7a6fe33",
+        "name": "ziplab",
+        "fullname": "ZIP Lab",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/629d55b53a3221bb2117422c/ej2edFF8BSXdkVTlVJmeC.png"
+      }
+    },
+    "publishedAt": "2026-04-05T20:00:00.000Z",
+    "title": "Less Detail, Better Answers: Degradation-Driven Prompting for VQA",
+    "summary": "Recent advancements in Vision-Language Models (VLMs) have significantly pushed the boundaries of Visual Question Answering (VQA).However,high-resolution details can sometimes become noise that leads to hallucinations or reasoning errors. In this paper,we propose Degradation-Driven Prompting (DDP), a novel framework that improves VQA performance by strategically reducing image fidelity to force models to focus on essential structural information. We evaluate DDP across two distinct tasks. Physical attributes targets images prone to human misjudgment, where DDP employs a combination of 80p downsampling, structural visual aids (white background masks and orthometric lines), and In-Context Learning (ICL) to calibrate the model's focus. Perceptual phenomena addresses various machine-susceptible visual anomalies and illusions, including Visual Anomaly (VA), Color (CI), Motion(MI),Gestalt (GI), Geometric (GSI), and Visual Illusions (VI).For this task, DDP integrates a task-classification stage with specialized tools such as blur masks and contrast enhancement alongside downsampling. Our experimental results demonstrate that less is more: by intentionally degrading visual inputs and providing targeted structural prompts, DDP enables VLMs to bypass distracting textures and achieve superior reasoning accuracy on challenging visual benchmarks.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04838.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "66699aa8a33847217b5a49c7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/u8Z-6U8U7ARXOpdBDI7Qm.png",
+      "fullname": "Weijie Wang",
+      "name": "lhmd",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "65a7c89210342794b7a6fe33",
+      "name": "ziplab",
+      "fullname": "ZIP Lab",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/629d55b53a3221bb2117422c/ej2edFF8BSXdkVTlVJmeC.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04901",
+      "authors": [
+        {
+          "_id": "69d47d9f2c523d36431fb15e",
+          "name": "Shuai Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69d47d9f2c523d36431fb15f",
+          "name": "Shulin Tian",
+          "hidden": false
+        },
+        {
+          "_id": "69d47d9f2c523d36431fb160",
+          "name": "Kairui Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69d47d9f2c523d36431fb161",
+          "name": "Yuhao Dong",
+          "hidden": false
+        },
+        {
+          "_id": "69d47d9f2c523d36431fb162",
+          "name": "Zhe Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69d47d9f2c523d36431fb163",
+          "name": "Bo Li",
+          "hidden": false
+        },
+        {
+          "_id": "69d47d9f2c523d36431fb164",
+          "name": "Jingkang Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69d47d9f2c523d36431fb165",
+          "name": "Chen Change Loy",
+          "hidden": false
+        },
+        {
+          "_id": "69d47d9f2c523d36431fb166",
+          "name": "Ziwei Liu",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/1xnCACXfXhI81Job6YzrC.mp4"
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T02:15:01.842Z",
+      "title": "FileGram: Grounding Agent Personalization in File-System Behavioral Traces",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Coworking AI agents operating within local file systems are rapidly emerging as a paradigm in human-AI interaction; however, effective personalization remains limited by severe data constraints, as strict privacy barriers and the difficulty of jointly collecting multimodal real-world traces prevent scalable training and evaluation, and existing methods remain interaction-centric while overlooking dense behavioral traces in file-system operations; to address this gap, we propose FileGram, a comprehensive framework that grounds agent memory and personalization in file-system behavioral traces, comprising three core components: (1) FileGramEngine, a scalable persona-driven data engine that simulates realistic workflows and generates fine-grained multimodal action sequences at scale; (2) FileGramBench, a diagnostic benchmark grounded in file-system behavioral traces for evaluating memory systems on profile reconstruction, trace disentanglement, persona drift detection, and multimodal grounding; and (3) FileGramOS, a bottom-up memory architecture that builds user profiles directly from atomic actions and content deltas rather than dialogue summaries, encoding these traces into procedural, semantic, and episodic channels with query-time abstraction; extensive experiments show that FileGramBench remains challenging for state-of-the-art memory systems and that FileGramEngine and FileGramOS are effective, and by open-sourcing the framework, we hope to support future research on personalized memory-centric file-system agents.",
+      "upvotes": 0,
+      "discussionId": "69d47d9f2c523d36431fb167",
+      "projectPage": "https://filegram.choiszt.com/",
+      "ai_summary": "FileGram is a framework for personalized AI agents that uses file-system behavioral traces to enhance memory systems and agent personalization, featuring a data engine, diagnostic benchmark, and memory architecture built from atomic actions and content changes.",
+      "ai_keywords": [
+        "file-system behavioral traces",
+        "persona-driven data engine",
+        "multimodal action sequences",
+        "diagnostic benchmark",
+        "memory systems",
+        "profile reconstruction",
+        "trace disentanglement",
+        "persona drift detection",
+        "multimodal grounding",
+        "bottom-up memory architecture",
+        "atomic actions",
+        "content deltas",
+        "procedural channels",
+        "semantic channels",
+        "episodic channels",
+        "query-time abstraction"
+      ]
+    },
+    "publishedAt": "2026-04-05T20:00:00.000Z",
+    "title": "FileGram: Grounding Agent Personalization in File-System Behavioral Traces",
+    "summary": "Coworking AI agents operating within local file systems are rapidly emerging as a paradigm in human-AI interaction; however, effective personalization remains limited by severe data constraints, as strict privacy barriers and the difficulty of jointly collecting multimodal real-world traces prevent scalable training and evaluation, and existing methods remain interaction-centric while overlooking dense behavioral traces in file-system operations; to address this gap, we propose FileGram, a comprehensive framework that grounds agent memory and personalization in file-system behavioral traces, comprising three core components: (1) FileGramEngine, a scalable persona-driven data engine that simulates realistic workflows and generates fine-grained multimodal action sequences at scale; (2) FileGramBench, a diagnostic benchmark grounded in file-system behavioral traces for evaluating memory systems on profile reconstruction, trace disentanglement, persona drift detection, and multimodal grounding; and (3) FileGramOS, a bottom-up memory architecture that builds user profiles directly from atomic actions and content deltas rather than dialogue summaries, encoding these traces into procedural, semantic, and episodic channels with query-time abstraction; extensive experiments show that FileGramBench remains challenging for state-of-the-art memory systems and that FileGramEngine and FileGramOS are effective, and by open-sourcing the framework, we hope to support future research on personalized memory-centric file-system agents.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/1xnCACXfXhI81Job6YzrC.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04901.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 259,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.04503",
+      "authors": [
+        {
+          "_id": "69d46ea12c523d36431fb0c0",
+          "name": "Jingyang Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "69d46ea12c523d36431fb0c1",
+          "name": "Weicheng Meng",
+          "hidden": false
+        },
+        {
+          "_id": "69d46ea12c523d36431fb0c2",
+          "name": "Yu Cheng",
+          "hidden": false
+        },
+        {
+          "_id": "69d46ea12c523d36431fb0c3",
+          "name": "Zhihang Lin",
+          "hidden": false
+        },
+        {
+          "_id": "69d46ea12c523d36431fb0c4",
+          "name": "Zhizhong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69d46ea12c523d36431fb0c5",
+          "name": "Xin Tan",
+          "hidden": false
+        },
+        {
+          "_id": "69d46ea12c523d36431fb0c6",
+          "name": "Jingyu Gong",
+          "hidden": false
+        },
+        {
+          "_id": "69d46ea12c523d36431fb0c7",
+          "name": "Kun Shao",
+          "hidden": false
+        },
+        {
+          "_id": "69d46ea12c523d36431fb0c8",
+          "name": "Yuan Xie",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-07T01:10:42.446Z",
+      "title": "Memory Intelligence Agent",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Deep research agents (DRAs) integrate LLM reasoning with external tools. Memory systems enable DRAs to leverage historical experiences, which are essential for efficient reasoning and autonomous evolution. Existing methods rely on retrieving similar trajectories from memory to aid reasoning, while suffering from key limitations of ineffective memory evolution and increasing storage and retrieval costs. To address these problems, we propose a novel Memory Intelligence Agent (MIA) framework, consisting of a Manager-Planner-Executor architecture. Memory Manager is a non-parametric memory system that can store compressed historical search trajectories. Planner is a parametric memory agent that can produce search plans for questions. Executor is another agent that can search and analyze information guided by the search plan. To build the MIA framework, we first adopt an alternating reinforcement learning paradigm to enhance cooperation between the Planner and the Executor. Furthermore, we enable the Planner to continuously evolve during test-time learning, with updates performed on-the-fly alongside inference without interrupting the reasoning process. Additionally, we establish a bidirectional conversion loop between parametric and non-parametric memories to achieve efficient memory evolution. Finally, we incorporate a reflection and an unsupervised judgment mechanisms to boost reasoning and self-evolution in the open world. Extensive experiments across eleven benchmarks demonstrate the superiority of MIA.",
+      "upvotes": 0,
+      "discussionId": "69d46ea22c523d36431fb0c9",
+      "githubRepo": "https://github.com/ECNU-SII/MIA",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Memory Intelligence Agent framework integrates non-parametric and parametric memory systems with reinforcement learning to enable efficient reasoning and autonomous evolution in open-world environments.",
+      "ai_keywords": [
+        "Memory Intelligence Agent",
+        "Manager-Planner-Executor architecture",
+        "non-parametric memory system",
+        "parametric memory agent",
+        "alternating reinforcement learning",
+        "test-time learning",
+        "bidirectional conversion loop",
+        "reflection mechanism",
+        "unsupervised judgment"
+      ],
+      "githubStars": 50
+    },
+    "publishedAt": "2026-04-05T20:00:00.000Z",
+    "title": "Memory Intelligence Agent",
+    "summary": "Deep research agents (DRAs) integrate LLM reasoning with external tools. Memory systems enable DRAs to leverage historical experiences, which are essential for efficient reasoning and autonomous evolution. Existing methods rely on retrieving similar trajectories from memory to aid reasoning, while suffering from key limitations of ineffective memory evolution and increasing storage and retrieval costs. To address these problems, we propose a novel Memory Intelligence Agent (MIA) framework, consisting of a Manager-Planner-Executor architecture. Memory Manager is a non-parametric memory system that can store compressed historical search trajectories. Planner is a parametric memory agent that can produce search plans for questions. Executor is another agent that can search and analyze information guided by the search plan. To build the MIA framework, we first adopt an alternating reinforcement learning paradigm to enhance cooperation between the Planner and the Executor. Furthermore, we enable the Planner to continuously evolve during test-time learning, with updates performed on-the-fly alongside inference without interrupting the reasoning process. Additionally, we establish a bidirectional conversion loop between parametric and non-parametric memories to achieve efficient memory evolution. Finally, we incorporate a reflection and an unsupervised judgment mechanisms to boost reasoning and self-evolution in the open world. Extensive experiments across eleven benchmarks demonstrate the superiority of MIA.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04503.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 259,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
