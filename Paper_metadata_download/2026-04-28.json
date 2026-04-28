@@ -1,0 +1,1395 @@
+[
+  {
+    "paper": {
+      "id": "2604.24764",
+      "authors": [
+        {
+          "_id": "69f01f54647bea5bb8581875",
+          "name": "Weijie Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb8581876",
+          "name": "Xiaoxuan He",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb8581877",
+          "name": "Youping Gu",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb8581878",
+          "name": "Yifan Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb8581879",
+          "name": "Zeyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb858187a",
+          "name": "Yefei He",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb858187b",
+          "name": "Yanbo Ding",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb858187c",
+          "name": "Xirui Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb858187d",
+          "name": "Donny Y. Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb858187e",
+          "name": "Zhiyuan He",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb858187f",
+          "name": "Yuqing Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69f01f54647bea5bb8581880",
+          "name": "Bohan Zhuang",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/66699aa8a33847217b5a49c7/WAQZbomKJkZqfLwzhT4it.mp4"
+      ],
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T01:26:45.499Z",
+      "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+      "submittedOnDailyBy": {
+        "_id": "66699aa8a33847217b5a49c7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/u8Z-6U8U7ARXOpdBDI7Qm.png",
+        "isPro": false,
+        "fullname": "Weijie Wang",
+        "user": "lhmd",
+        "type": "user",
+        "name": "lhmd"
+      },
+      "summary": "Recent video foundation models demonstrate impressive visual synthesis but frequently suffer from geometric inconsistencies. While existing methods attempt to inject 3D priors via architectural modifications, they often incur high computational costs and limit scalability. We propose World-R1, a framework that aligns video generation with 3D constraints through reinforcement learning. To facilitate this alignment, we introduce a specialized pure text dataset tailored for world simulation. Utilizing Flow-GRPO, we optimize the model using feedback from pre-trained 3D foundation models and vision-language models to enforce structural coherence without altering the underlying architecture. We further employ a periodic decoupled training strategy to balance rigid geometric consistency with dynamic scene fluidity. Extensive evaluations reveal that our approach significantly enhances 3D consistency while preserving the original visual quality of the foundation model, effectively bridging the gap between video generation and scalable world simulation.",
+      "upvotes": 18,
+      "discussionId": "69f01f55647bea5bb8581881",
+      "projectPage": "https://aka.ms/world-r1",
+      "githubRepo": "https://github.com/microsoft/World-R1",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "World-R1 framework improves video generation by incorporating 3D constraints through reinforcement learning and specialized text datasets while maintaining visual quality and scalability.",
+      "ai_keywords": [
+        "video foundation models",
+        "3D priors",
+        "reinforcement learning",
+        "Flow-GRPO",
+        "pre-trained 3D foundation models",
+        "vision-language models",
+        "periodic decoupled training",
+        "geometric consistency",
+        "world simulation"
+      ],
+      "githubStars": 23,
+      "organization": {
+        "_id": "68151d0f51add3813f3f7d1b",
+        "name": "MicrosoftResearch",
+        "fullname": "Microsoft Research",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6529a4f2f1205983224fa513/PeuVr7jSuJflmDBBGxoDX.png"
+      }
+    },
+    "publishedAt": "2026-04-26T20:00:00.000Z",
+    "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+    "summary": "Recent video foundation models demonstrate impressive visual synthesis but frequently suffer from geometric inconsistencies. While existing methods attempt to inject 3D priors via architectural modifications, they often incur high computational costs and limit scalability. We propose World-R1, a framework that aligns video generation with 3D constraints through reinforcement learning. To facilitate this alignment, we introduce a specialized pure text dataset tailored for world simulation. Utilizing Flow-GRPO, we optimize the model using feedback from pre-trained 3D foundation models and vision-language models to enforce structural coherence without altering the underlying architecture. We further employ a periodic decoupled training strategy to balance rigid geometric consistency with dynamic scene fluidity. Extensive evaluations reveal that our approach significantly enhances 3D consistency while preserving the original visual quality of the foundation model, effectively bridging the gap between video generation and scalable world simulation.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/66699aa8a33847217b5a49c7/WAQZbomKJkZqfLwzhT4it.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.24764.png",
+    "numComments": 2,
+    "submittedBy": {
+      "_id": "66699aa8a33847217b5a49c7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/u8Z-6U8U7ARXOpdBDI7Qm.png",
+      "fullname": "Weijie Wang",
+      "name": "lhmd",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 4,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68151d0f51add3813f3f7d1b",
+      "name": "MicrosoftResearch",
+      "fullname": "Microsoft Research",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6529a4f2f1205983224fa513/PeuVr7jSuJflmDBBGxoDX.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.24300",
+      "authors": [
+        {
+          "_id": "69f019c1647bea5bb8581849",
+          "name": "Yiming Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69f019c1647bea5bb858184a",
+          "name": "Jiacheng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69f019c1647bea5bb858184b",
+          "name": "Jiaqi Tan",
+          "hidden": false
+        },
+        {
+          "_id": "69f019c1647bea5bb858184c",
+          "name": "Yongsen Mao",
+          "hidden": false
+        },
+        {
+          "_id": "69f019c1647bea5bb858184d",
+          "name": "Wenhu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69f019c1647bea5bb858184e",
+          "name": "Angel X. Chang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T02:40:23.512Z",
+      "title": "ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for Accurate Assessment of VLM 3D Reasoning",
+      "submittedOnDailyBy": {
+        "_id": "65029a1f065a88ff6b2d3a72",
+        "avatarUrl": "/avatars/7728e97a4541b034d28987d17d24daf1.svg",
+        "isPro": false,
+        "fullname": "Yiming Zhang",
+        "user": "eamonn-zh",
+        "type": "user",
+        "name": "eamonn-zh"
+      },
+      "summary": "Current evaluations of spatial intelligence can be systematically invalid under modern vision-language model (VLM) settings. First, many benchmarks derive question-answer (QA) pairs from point-cloud-based 3D annotations originally curated for traditional 3D perception. When such annotations are treated as ground truth for video-based evaluation, reconstruction and annotation artifacts can miss objects that are clearly visible in the video, mislabel object identities, or corrupt geometry-dependent answers (e.g., size), yielding incorrect or ambiguous QA pairs. Second, evaluations often assume full-scene access, while many VLMs operate on sparsely sampled frames (e.g., 16-64), making many questions effectively unanswerable under the actual model inputs. We improve evaluation validity by introducing ReVSI, a benchmark and protocol that ensures each QA pair is answerable and correct under the model's actual inputs. To this end, we re-annotate objects and geometry across 381 scenes from 5 datasets to improve data quality, and regenerate all QA pairs with rigorous bias mitigation and human verification using professional 3D annotation tools. We further enhance evaluation controllability by providing variants across multiple frame budgets (16/32/64/all) and fine-grained object visibility metadata, enabling controlled diagnostic analyses. Evaluations of general and domain-specific VLMs on ReVSI reveal systematic failure modes that are obscured by prior benchmarks, yielding a more reliable and diagnostic assessment of spatial intelligence.",
+      "upvotes": 13,
+      "discussionId": "69f019c1647bea5bb858184f",
+      "projectPage": "https://3dlg-hcvc.github.io/revsi/",
+      "githubRepo": "https://github.com/3dlg-hcvc/revsi",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "ReVSI addresses flaws in current spatial intelligence evaluation by creating a validated benchmark with improved annotations and controlled frame sampling conditions.",
+      "ai_keywords": [
+        "vision-language models",
+        "point-cloud-based 3D annotations",
+        "video-based evaluation",
+        "spatial intelligence",
+        "benchmark",
+        "frame budget",
+        "object visibility",
+        "annotation artifacts",
+        "geometric answers"
+      ],
+      "githubStars": 23,
+      "organization": {
+        "_id": "630c3b594c0945d20b8d550f",
+        "name": "SFU",
+        "fullname": "Simon Fraser University",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/GdCi2KOxPQ1qKXS3EJ9Me.png"
+      }
+    },
+    "publishedAt": "2026-04-26T20:00:00.000Z",
+    "title": "ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for Accurate Assessment of VLM 3D Reasoning",
+    "summary": "Current evaluations of spatial intelligence can be systematically invalid under modern vision-language model (VLM) settings. First, many benchmarks derive question-answer (QA) pairs from point-cloud-based 3D annotations originally curated for traditional 3D perception. When such annotations are treated as ground truth for video-based evaluation, reconstruction and annotation artifacts can miss objects that are clearly visible in the video, mislabel object identities, or corrupt geometry-dependent answers (e.g., size), yielding incorrect or ambiguous QA pairs. Second, evaluations often assume full-scene access, while many VLMs operate on sparsely sampled frames (e.g., 16-64), making many questions effectively unanswerable under the actual model inputs. We improve evaluation validity by introducing ReVSI, a benchmark and protocol that ensures each QA pair is answerable and correct under the model's actual inputs. To this end, we re-annotate objects and geometry across 381 scenes from 5 datasets to improve data quality, and regenerate all QA pairs with rigorous bias mitigation and human verification using professional 3D annotation tools. We further enhance evaluation controllability by providing variants across multiple frame budgets (16/32/64/all) and fine-grained object visibility metadata, enabling controlled diagnostic analyses. Evaluations of general and domain-specific VLMs on ReVSI reveal systematic failure modes that are obscured by prior benchmarks, yielding a more reliable and diagnostic assessment of spatial intelligence.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.24300.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65029a1f065a88ff6b2d3a72",
+      "avatarUrl": "/avatars/7728e97a4541b034d28987d17d24daf1.svg",
+      "fullname": "Yiming Zhang",
+      "name": "eamonn-zh",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "630c3b594c0945d20b8d550f",
+      "name": "SFU",
+      "fullname": "Simon Fraser University",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/GdCi2KOxPQ1qKXS3EJ9Me.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.23781",
+      "authors": [
+        {
+          "_id": "69f02ee4647bea5bb85818ef",
+          "name": "Fanqing Meng",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f0",
+          "name": "Lingxiao Du",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f1",
+          "name": "Zijian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f2",
+          "name": "Guanzheng Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f3",
+          "name": "Xiangyan Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f4",
+          "name": "Jiaqi Liao",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f5",
+          "name": "Chonghe Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f6",
+          "name": "Zhenglin Wan",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f7",
+          "name": "Jiawei Gu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f8",
+          "name": "Pengfei Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818f9",
+          "name": "Rui Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818fa",
+          "name": "Ziqi Zhao",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818fb",
+          "name": "Shengyuan Ding",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818fc",
+          "name": "Ailing Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818fd",
+          "name": "Bo Peng",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818fe",
+          "name": "Bowei Xia",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb85818ff",
+          "name": "Hao Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581900",
+          "name": "Haotian Liang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581901",
+          "name": "Ji Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581902",
+          "name": "Jiajun Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581903",
+          "name": "Jiajun Song",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581904",
+          "name": "Liu Yang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581905",
+          "name": "Ming Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581906",
+          "name": "Qionglin Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581907",
+          "name": "Runhao Fu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581908",
+          "name": "Shengfang Zhai",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581909",
+          "name": "Shijian Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858190a",
+          "name": "Tengfei Ma",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858190b",
+          "name": "Tianyi Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858190c",
+          "name": "Weiyang Jin",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858190d",
+          "name": "Yan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858190e",
+          "name": "Yang Dai",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858190f",
+          "name": "Yao Lai",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581910",
+          "name": "Youwei Shu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581911",
+          "name": "Yue Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581912",
+          "name": "Yunzhuo Hao",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581913",
+          "name": "Yuwei Niu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581914",
+          "name": "Jinkai Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581915",
+          "name": "Jiayuan Zhuo",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581916",
+          "name": "Zhennan Shen",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581917",
+          "name": "Linyu Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581918",
+          "name": "Cihang Xie",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb8581919",
+          "name": "Yuyin Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858191a",
+          "name": "Jiaheng Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858191b",
+          "name": "Zeyu Zheng",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858191c",
+          "name": "Mengkang Hu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02ee4647bea5bb858191d",
+          "name": "Michael Qizhe Shieh",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/640b37b2bab5ca8fbe7df8f2/SRAZftmwSQ6ImjVYVDakG.jpeg"
+      ],
+      "publishedAt": "2026-04-26T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T02:23:01.322Z",
+      "title": "ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents",
+      "submittedOnDailyBy": {
+        "_id": "640b37b2bab5ca8fbe7df8f2",
+        "avatarUrl": "/avatars/c7bef45efad6a0d911a720e2236fcba5.svg",
+        "isPro": false,
+        "fullname": "fanqing meng",
+        "user": "FanqingM",
+        "type": "user",
+        "name": "FanqingM"
+      },
+      "summary": "Language-model agents are increasingly used as persistent coworkers that assist users across multiple working days. During such workflows, the surrounding environment may change independently of the agent: new emails arrive, calendar entries shift, knowledge-base records are updated, and evidence appears across images, scanned PDFs, audio, video, and spreadsheets. Existing benchmarks do not adequately evaluate this setting because they typically run within a single static episode and remain largely text-centric. We introduce , a benchmark for coworker agents built around multi-turn multi-day tasks, a stateful sandboxed service environment whose state evolves between turns, and rule-based verification. The current release contains 100 tasks across 13 professional scenarios, executed against five stateful sandboxed services (filesystem, email, calendar, knowledge base, spreadsheet) and scored by 1537 deterministic Python checkers over post-execution service state; no LLM-as-judge is invoked during scoring. We benchmark seven frontier agent systems. The strongest model reaches 75.8 weighted score, but the best strict Task Success is only 20.0\\%, indicating that partial progress is common while complete end-to-end workflow completion remains rare. Turn-level analysis shows that performance drops after the first exogenous environment update, highlighting adaptation to changing state as a key open challenge. We release the benchmark, evaluation harness, and construction pipeline to support reproducible coworker-agent evaluation.",
+      "upvotes": 13,
+      "discussionId": "69f02ee5647bea5bb858191e",
+      "githubRepo": "https://github.com/evolvent-ai/ClawMark",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A benchmark for evaluating language-model agents in multi-day collaborative workflows with evolving environmental states across multiple service domains.",
+      "ai_keywords": [
+        "language-model agents",
+        "multi-turn multi-day tasks",
+        "stateful sandboxed service environment",
+        "rule-based verification",
+        "agent systems",
+        "workflow completion",
+        "exogenous environment updates"
+      ],
+      "githubStars": 80
+    },
+    "publishedAt": "2026-04-25T20:00:00.000Z",
+    "title": "ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents",
+    "summary": "Language-model agents are increasingly used as persistent coworkers that assist users across multiple working days. During such workflows, the surrounding environment may change independently of the agent: new emails arrive, calendar entries shift, knowledge-base records are updated, and evidence appears across images, scanned PDFs, audio, video, and spreadsheets. Existing benchmarks do not adequately evaluate this setting because they typically run within a single static episode and remain largely text-centric. We introduce , a benchmark for coworker agents built around multi-turn multi-day tasks, a stateful sandboxed service environment whose state evolves between turns, and rule-based verification. The current release contains 100 tasks across 13 professional scenarios, executed against five stateful sandboxed services (filesystem, email, calendar, knowledge base, spreadsheet) and scored by 1537 deterministic Python checkers over post-execution service state; no LLM-as-judge is invoked during scoring. We benchmark seven frontier agent systems. The strongest model reaches 75.8 weighted score, but the best strict Task Success is only 20.0\\%, indicating that partial progress is common while complete end-to-end workflow completion remains rare. Turn-level analysis shows that performance drops after the first exogenous environment update, highlighting adaptation to changing state as a key open challenge. We release the benchmark, evaluation harness, and construction pipeline to support reproducible coworker-agent evaluation.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/640b37b2bab5ca8fbe7df8f2/SRAZftmwSQ6ImjVYVDakG.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.23781.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "640b37b2bab5ca8fbe7df8f2",
+      "avatarUrl": "/avatars/c7bef45efad6a0d911a720e2236fcba5.svg",
+      "fullname": "fanqing meng",
+      "name": "FanqingM",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 16,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.24198",
+      "authors": [
+        {
+          "_id": "69f01ce3647bea5bb8581861",
+          "name": "Zhisong Qiu",
+          "hidden": false
+        },
+        {
+          "_id": "69f01ce3647bea5bb8581862",
+          "name": "Shuofei Qiao",
+          "hidden": false
+        },
+        {
+          "_id": "69f01ce3647bea5bb8581863",
+          "name": "Kewei Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69f01ce3647bea5bb8581864",
+          "name": "Yuqi Zhu",
+          "hidden": false
+        },
+        {
+          "_id": "69f01ce3647bea5bb8581865",
+          "name": "Lun Du",
+          "hidden": false
+        },
+        {
+          "_id": "69f01ce3647bea5bb8581866",
+          "name": "Ningyu Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69f01ce3647bea5bb8581867",
+          "name": "Huajun Chen",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T01:06:23.521Z",
+      "title": "Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis",
+      "submittedOnDailyBy": {
+        "_id": "620b3bbb0668e435407c8d0a",
+        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+        "isPro": false,
+        "fullname": "Ningyu Zhang",
+        "user": "Ningyu",
+        "type": "user",
+        "name": "Ningyu"
+      },
+      "summary": "Process Reward Models (PRMs) have achieved remarkable success in augmenting the reasoning capabilities of Large Language Models (LLMs) within static domains such as mathematics. However, their potential in dynamic data analysis tasks remains underexplored. In this work, we first present a empirical study revealing that general-domain PRMs struggle to supervise data analysis agents. Specifically, they fail to detect silent errors, logical flaws that yield incorrect results without triggering interpreter exceptions, and erroneously penalize exploratory actions, mistaking necessary trial-and-error exploration for grounding failures. To bridge this gap, we introduce DataPRM, a novel environment-aware generative process reward model that (1) can serve as an active verifier, autonomously interacting with the environment to probe intermediate execution states and uncover silent errors, and (2) employs a reflection-aware ternary reward strategy that distinguishes between correctable grounding errors and irrecoverable mistakes. We design a scalable pipeline to construct over 8K high-quality training instances for DataPRM via diversity-driven trajectory generation and knowledge-augmented step-level annotation. Experimental results demonstrate that DataPRM improves downstream policy LLMs by 7.21% on ScienceAgentBench and 11.28% on DABStep using Best-of-N inference. Notably, with only 4B parameters, DataPRM outperforms strong baselines, and exhibits robust generalizability across diverse Test-Time Scaling strategies. Furthermore, integrating DataPRM into Reinforcement Learning yields substantial gains over outcome-reward baselines, achieving 78.73% on DABench and 64.84% on TableBench, validating the effectiveness of process reward supervision. Code is available at https://github.com/zjunlp/DataMind.",
+      "upvotes": 10,
+      "discussionId": "69f01ce4647bea5bb8581868",
+      "ai_summary": "DataPRM, a novel environment-aware generative process reward model, enhances LLM reasoning in dynamic data analysis by detecting silent errors and employing a reflection-aware ternary reward strategy, achieving superior performance on benchmark tasks.",
+      "ai_keywords": [
+        "Process Reward Models",
+        "Large Language Models",
+        "data analysis",
+        "silent errors",
+        "logical flaws",
+        "exploratory actions",
+        "environment-aware",
+        "generative process reward model",
+        "active verifier",
+        "reflection-aware ternary reward strategy",
+        "diversity-driven trajectory generation",
+        "knowledge-augmented step-level annotation",
+        "Best-of-N inference",
+        "Test-Time Scaling",
+        "Reinforcement Learning",
+        "outcome-reward baselines"
+      ],
+      "organization": {
+        "_id": "67c1d682826160b28f778510",
+        "name": "antgroup",
+        "fullname": "Ant Group",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/662e1f9da266499277937d33/7VcPHdLSGlged3ixK1dys.jpeg"
+      }
+    },
+    "publishedAt": "2026-04-26T20:00:00.000Z",
+    "title": "Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis",
+    "summary": "Process Reward Models (PRMs) have achieved remarkable success in augmenting the reasoning capabilities of Large Language Models (LLMs) within static domains such as mathematics. However, their potential in dynamic data analysis tasks remains underexplored. In this work, we first present a empirical study revealing that general-domain PRMs struggle to supervise data analysis agents. Specifically, they fail to detect silent errors, logical flaws that yield incorrect results without triggering interpreter exceptions, and erroneously penalize exploratory actions, mistaking necessary trial-and-error exploration for grounding failures. To bridge this gap, we introduce DataPRM, a novel environment-aware generative process reward model that (1) can serve as an active verifier, autonomously interacting with the environment to probe intermediate execution states and uncover silent errors, and (2) employs a reflection-aware ternary reward strategy that distinguishes between correctable grounding errors and irrecoverable mistakes. We design a scalable pipeline to construct over 8K high-quality training instances for DataPRM via diversity-driven trajectory generation and knowledge-augmented step-level annotation. Experimental results demonstrate that DataPRM improves downstream policy LLMs by 7.21% on ScienceAgentBench and 11.28% on DABStep using Best-of-N inference. Notably, with only 4B parameters, DataPRM outperforms strong baselines, and exhibits robust generalizability across diverse Test-Time Scaling strategies. Furthermore, integrating DataPRM into Reinforcement Learning yields substantial gains over outcome-reward baselines, achieving 78.73% on DABench and 64.84% on TableBench, validating the effectiveness of process reward supervision. Code is available at https://github.com/zjunlp/DataMind.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.24198.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "620b3bbb0668e435407c8d0a",
+      "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+      "fullname": "Ningyu Zhang",
+      "name": "Ningyu",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 43,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67c1d682826160b28f778510",
+      "name": "antgroup",
+      "fullname": "Ant Group",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/662e1f9da266499277937d33/7VcPHdLSGlged3ixK1dys.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.22875",
+      "authors": [
+        {
+          "_id": "69f01af5647bea5bb8581852",
+          "name": "Brandon Collins",
+          "hidden": false
+        },
+        {
+          "_id": "69f01af5647bea5bb8581853",
+          "name": "Logan Bolton",
+          "hidden": false
+        },
+        {
+          "_id": "69f01af5647bea5bb8581854",
+          "name": "Hung Huy Nguyen",
+          "hidden": false
+        },
+        {
+          "_id": "69f01af5647bea5bb8581855",
+          "name": "Mohammad Reza Taesiri",
+          "hidden": false
+        },
+        {
+          "_id": "69f01af5647bea5bb8581856",
+          "name": "Trung Bui",
+          "hidden": false
+        },
+        {
+          "_id": "69f01af5647bea5bb8581857",
+          "name": "Anh Totti Nguyen",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/hMeijrKuKgPxi9vE2ozM2.mp4"
+      ],
+      "publishedAt": "2026-04-23T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T01:02:32.247Z",
+      "title": "SketchVLM: Vision language models can annotate images to explain thoughts and guide users",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "When answering questions about images, humans naturally point, label, and draw to explain their reasoning. In contrast, modern vision-language models (VLMs) such as Gemini-3-Pro and GPT-5 only respond with text, which can be difficult for users to verify. We present SketchVLM, a training-free, model-agnostic framework that enables VLMs to produce non-destructive, editable SVG overlays on the input image to visually explain their answers. Across seven benchmarks spanning visual reasoning (maze navigation, ball-drop trajectory prediction, and object counting) and drawing (part labeling, connecting-the-dots, and drawing shapes around objects), SketchVLM improves visual reasoning task accuracy by up to +28.5 percentage points and annotation quality by up to 1.48x relative to image-editing and fine-tuned sketching baselines, while also producing annotations that are more faithful to the model's stated answer. We find that single-turn generation already achieves strong accuracy and annotation quality, and multi-turn generation opens up further opportunities for human-AI collaboration. An interactive demo and code are at https://sketchvlm.github.io/.",
+      "upvotes": 7,
+      "discussionId": "69f01af6647bea5bb8581858",
+      "projectPage": "https://sketchvlm.github.io/",
+      "ai_summary": "SketchVLM is a training-free framework that enables vision-language models to generate editable SVG overlays for visual explanations, improving reasoning accuracy and annotation quality across multiple benchmarks.",
+      "ai_keywords": [
+        "vision-language models",
+        "SVG overlays",
+        "visual explanations",
+        "image-editing baselines",
+        "fine-tuned sketching baselines",
+        "visual reasoning",
+        "annotation quality"
+      ]
+    },
+    "publishedAt": "2026-04-22T20:00:00.000Z",
+    "title": "SketchVLM: Vision language models can annotate images to explain thoughts and guide users",
+    "summary": "When answering questions about images, humans naturally point, label, and draw to explain their reasoning. In contrast, modern vision-language models (VLMs) such as Gemini-3-Pro and GPT-5 only respond with text, which can be difficult for users to verify. We present SketchVLM, a training-free, model-agnostic framework that enables VLMs to produce non-destructive, editable SVG overlays on the input image to visually explain their answers. Across seven benchmarks spanning visual reasoning (maze navigation, ball-drop trajectory prediction, and object counting) and drawing (part labeling, connecting-the-dots, and drawing shapes around objects), SketchVLM improves visual reasoning task accuracy by up to +28.5 percentage points and annotation quality by up to 1.48x relative to image-editing and fine-tuned sketching baselines, while also producing annotations that are more faithful to the model's stated answer. We find that single-turn generation already achieves strong accuracy and annotation quality, and multi-turn generation opens up further opportunities for human-AI collaboration. An interactive demo and code are at https://sketchvlm.github.io/.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/hMeijrKuKgPxi9vE2ozM2.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.22875.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 282,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.24763",
+      "authors": [
+        {
+          "_id": "69f02975647bea5bb858189b",
+          "name": "Zhiheng Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb858189c",
+          "name": "Weiming Ren",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb858189d",
+          "name": "Xiaoke Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb858189e",
+          "name": "Shoufa Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb858189f",
+          "name": "Tianhong Li",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a0",
+          "name": "Mengzhao Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a1",
+          "name": "Yatai Ji",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a2",
+          "name": "Sen He",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a3",
+          "name": "Jonas Schult",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a4",
+          "name": "Belinda Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a5",
+          "name": "Tao Xiang",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a6",
+          "name": "Wenhu Chen",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a7",
+          "name": "Ping Luo",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a8",
+          "name": "Luke Zettlemoyer",
+          "hidden": false
+        },
+        {
+          "_id": "69f02975647bea5bb85818a9",
+          "name": "Yuren Cong",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/1apUU1UkzVvleBXN0hAdK.jpeg"
+      ],
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T02:00:24.719Z",
+      "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Unified multimodal models typically rely on pretrained vision encoders and use separate visual representations for understanding and generation, creating misalignment between the two tasks and preventing fully end-to-end optimization from raw pixels. We introduce Tuna-2, a native unified multimodal model that performs visual understanding and generation directly based on pixel embeddings. Tuna-2 drastically simplifies the model architecture by employing simple patch embedding layers to encode visual input, completely discarding the modular vision encoder designs such as the VAE or the representation encoder. Experiments show that Tuna-2 achieves state-of-the-art performance in multimodal benchmarks, demonstrating that unified pixel-space modelling can fully compete with latent-space approaches for high-quality image generation. Moreover, while the encoder-based variant converges faster in early pretraining, Tuna-2's encoder-free design achieves stronger multimodal understanding at scale, particularly on tasks requiring fine-grained visual perception. These results show that pretrained vision encoders are not necessary for multimodal modelling, and end-to-end pixel-space learning offers a scalable path toward stronger visual representations for both generation and perception.",
+      "upvotes": 3,
+      "discussionId": "69f02975647bea5bb85818aa",
+      "projectPage": "https://tuna-ai.org/tuna-2/",
+      "ai_summary": "Tuna-2 is a unified multimodal model that performs visual understanding and generation directly from pixel embeddings without pretrained vision encoders, achieving state-of-the-art performance in multimodal benchmarks.",
+      "ai_keywords": [
+        "multimodal models",
+        "vision encoders",
+        "visual representations",
+        "pixel embeddings",
+        "patch embedding layers",
+        "VAE",
+        "representation encoder",
+        "end-to-end optimization",
+        "latent-space approaches",
+        "pixel-space modelling",
+        "visual perception"
+      ]
+    },
+    "publishedAt": "2026-04-26T20:00:00.000Z",
+    "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+    "summary": "Unified multimodal models typically rely on pretrained vision encoders and use separate visual representations for understanding and generation, creating misalignment between the two tasks and preventing fully end-to-end optimization from raw pixels. We introduce Tuna-2, a native unified multimodal model that performs visual understanding and generation directly based on pixel embeddings. Tuna-2 drastically simplifies the model architecture by employing simple patch embedding layers to encode visual input, completely discarding the modular vision encoder designs such as the VAE or the representation encoder. Experiments show that Tuna-2 achieves state-of-the-art performance in multimodal benchmarks, demonstrating that unified pixel-space modelling can fully compete with latent-space approaches for high-quality image generation. Moreover, while the encoder-based variant converges faster in early pretraining, Tuna-2's encoder-free design achieves stronger multimodal understanding at scale, particularly on tasks requiring fine-grained visual perception. These results show that pretrained vision encoders are not necessary for multimodal modelling, and end-to-end pixel-space learning offers a scalable path toward stronger visual representations for both generation and perception.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/1apUU1UkzVvleBXN0hAdK.jpeg"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.24763.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 282,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.24762",
+      "authors": [
+        {
+          "_id": "69f0320a647bea5bb8581928",
+          "name": "Boyang Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69f0320a647bea5bb8581929",
+          "name": "Guangyi Xu",
+          "hidden": false
+        },
+        {
+          "_id": "69f0320a647bea5bb858192a",
+          "name": "Zhipeng Tang",
+          "hidden": false
+        },
+        {
+          "_id": "69f0320a647bea5bb858192b",
+          "name": "Jiahui Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "69f0320a647bea5bb858192c",
+          "name": "Zezhou Cheng",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T02:41:04.048Z",
+      "title": "OmniShotCut: Holistic Relational Shot Boundary Detection with Shot-Query Transformer",
+      "submittedOnDailyBy": {
+        "_id": "64ed876a74d9b58eabc769a4",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ed876a74d9b58eabc769a4/K4bJVW0FlqRtAAxJBJifR.jpeg",
+        "isPro": true,
+        "fullname": "Boyang Wang",
+        "user": "HikariDawn",
+        "type": "user",
+        "name": "HikariDawn"
+      },
+      "summary": "Shot Boundary Detection (SBD) aims to automatically identify shot changes and divide a video into coherent shots. While SBD was widely studied in the literature, existing state-of-the-art methods often produce non-interpretable boundaries on transitions, miss subtle yet harmful discontinuities, and rely on noisy, low-diversity annotations and outdated benchmarks. To alleviate these limitations, we propose OmniShotCut to formulate SBD as structured relational prediction, jointly estimating shot ranges with intra-shot relations and inter-shot relations, by a shot query-based dense video Transformer. To avoid imprecise manual labeling, we adopt a fully synthetic transition synthesis pipeline that automatically reproduces major transition families with precise boundaries and parameterized variants. We also introduce OmniShotCutBench, a modern wide-domain benchmark enabling holistic and diagnostic evaluation.",
+      "upvotes": 1,
+      "discussionId": "69f0320a647bea5bb858192d",
+      "projectPage": "https://uva-computer-vision-lab.github.io/OmniShotCut_website/",
+      "githubRepo": "https://github.com/UVA-Computer-Vision-Lab/OmniShotCut",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "OmniShotCut formulates shot boundary detection as structured relational prediction using a shot query-based dense video Transformer, addressing limitations of existing methods through synthetic transition generation and a comprehensive benchmark.",
+      "ai_keywords": [
+        "shot boundary detection",
+        "structured relational prediction",
+        "intra-shot relations",
+        "inter-shot relations",
+        "shot query-based dense video Transformer",
+        "synthetic transition synthesis",
+        "OmniShotCutBench",
+        "wide-domain benchmark"
+      ],
+      "githubStars": 2
+    },
+    "publishedAt": "2026-04-26T20:00:00.000Z",
+    "title": "OmniShotCut: Holistic Relational Shot Boundary Detection with Shot-Query Transformer",
+    "summary": "Shot Boundary Detection (SBD) aims to automatically identify shot changes and divide a video into coherent shots. While SBD was widely studied in the literature, existing state-of-the-art methods often produce non-interpretable boundaries on transitions, miss subtle yet harmful discontinuities, and rely on noisy, low-diversity annotations and outdated benchmarks. To alleviate these limitations, we propose OmniShotCut to formulate SBD as structured relational prediction, jointly estimating shot ranges with intra-shot relations and inter-shot relations, by a shot query-based dense video Transformer. To avoid imprecise manual labeling, we adopt a fully synthetic transition synthesis pipeline that automatically reproduces major transition families with precise boundaries and parameterized variants. We also introduce OmniShotCutBench, a modern wide-domain benchmark enabling holistic and diagnostic evaluation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.24762.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64ed876a74d9b58eabc769a4",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ed876a74d9b58eabc769a4/K4bJVW0FlqRtAAxJBJifR.jpeg",
+      "fullname": "Boyang Wang",
+      "name": "HikariDawn",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 13,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.24003",
+      "authors": [
+        {
+          "_id": "69f01cef647bea5bb858186b",
+          "name": "Han Wang",
+          "hidden": false
+        },
+        {
+          "_id": "69f01cef647bea5bb858186c",
+          "name": "Xiaodong Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69f01cef647bea5bb858186d",
+          "name": "Jialian Wu",
+          "hidden": false
+        },
+        {
+          "_id": "69f01cef647bea5bb858186e",
+          "name": "Jiang Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69f01cef647bea5bb858186f",
+          "name": "Ximeng Sun",
+          "hidden": false
+        },
+        {
+          "_id": "69f01cef647bea5bb8581870",
+          "name": "Mohit Bansal",
+          "hidden": false
+        },
+        {
+          "_id": "69f01cef647bea5bb8581871",
+          "name": "Zicheng Liu",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T01:54:58.758Z",
+      "title": "Stabilizing Efficient Reasoning with Step-Level Advantage Selection",
+      "submittedOnDailyBy": {
+        "_id": "617df9bb402d4d8f8eee3737",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1635645820205-noauth.jpeg",
+        "isPro": false,
+        "fullname": "Han Wang",
+        "user": "HanNight",
+        "type": "user",
+        "name": "HanNight"
+      },
+      "summary": "Large language models (LLMs) achieve strong reasoning performance by allocating substantial computation at inference time, often generating long and verbose reasoning traces. While recent work on efficient reasoning reduces this overhead through length-based rewards or pruning, many approaches are post-trained under a much shorter context window than base-model training, a factor whose effect has not been systematically isolated. We first show that short-context post-training alone, using standard GRPO without any length-aware objective, already induces substantial reasoning compression-but at the cost of increasingly unstable training dynamics and accuracy degradation. To address this, we propose Step-level Advantage Selection (SAS), which operates at the reasoning-step level and assigns a zero advantage to low-confidence steps in correct rollouts and to high-confidence steps in verifier-failed rollouts, where failures often arise from truncation or verifier issues rather than incorrect reasoning. Across diverse mathematical and general reasoning benchmarks, SAS improves average Pass@1 accuracy by 0.86 points over the strongest length-aware baseline while reducing average reasoning length by 16.3%, yielding a better accuracy-efficiency trade-off.",
+      "upvotes": 1,
+      "discussionId": "69f01cef647bea5bb8581872",
+      "githubRepo": "https://github.com/HanNight/SAS",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Short-context post-training induces reasoning compression but causes instability; Step-level Advantage Selection addresses this by selectively adjusting reasoning steps based on confidence and verification outcomes, improving accuracy-efficiency trade-off in reasoning tasks.",
+      "ai_keywords": [
+        "large language models",
+        "reasoning performance",
+        "inference time",
+        "length-based rewards",
+        "pruning",
+        "post-training",
+        "GRPO",
+        "reasoning steps",
+        "advantage selection",
+        "Pass@1 accuracy",
+        "reasoning length"
+      ],
+      "githubStars": 1,
+      "organization": {
+        "_id": "641d8a1cfe2172ccc01c265e",
+        "name": "amd",
+        "fullname": "AMD",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65ff7616871b36bf84150cda/mBg2Z4Vcdt5bkjxbYJFej.png"
+      }
+    },
+    "publishedAt": "2026-04-26T20:00:00.000Z",
+    "title": "Stabilizing Efficient Reasoning with Step-Level Advantage Selection",
+    "summary": "Large language models (LLMs) achieve strong reasoning performance by allocating substantial computation at inference time, often generating long and verbose reasoning traces. While recent work on efficient reasoning reduces this overhead through length-based rewards or pruning, many approaches are post-trained under a much shorter context window than base-model training, a factor whose effect has not been systematically isolated. We first show that short-context post-training alone, using standard GRPO without any length-aware objective, already induces substantial reasoning compression-but at the cost of increasingly unstable training dynamics and accuracy degradation. To address this, we propose Step-level Advantage Selection (SAS), which operates at the reasoning-step level and assigns a zero advantage to low-confidence steps in correct rollouts and to high-confidence steps in verifier-failed rollouts, where failures often arise from truncation or verifier issues rather than incorrect reasoning. Across diverse mathematical and general reasoning benchmarks, SAS improves average Pass@1 accuracy by 0.86 points over the strongest length-aware baseline while reducing average reasoning length by 16.3%, yielding a better accuracy-efficiency trade-off.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.24003.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "617df9bb402d4d8f8eee3737",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1635645820205-noauth.jpeg",
+      "fullname": "Han Wang",
+      "name": "HanNight",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "641d8a1cfe2172ccc01c265e",
+      "name": "amd",
+      "fullname": "AMD",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65ff7616871b36bf84150cda/mBg2Z4Vcdt5bkjxbYJFej.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.24479",
+      "authors": [
+        {
+          "_id": "69f02a6e647bea5bb85818c7",
+          "name": "Mohammadmehdi Ataei",
+          "hidden": false
+        },
+        {
+          "_id": "69f02a6e647bea5bb85818c8",
+          "name": "Farzaneh Askari",
+          "hidden": false
+        },
+        {
+          "_id": "69f02a6e647bea5bb85818c9",
+          "name": "Kamal Rahimi Malekshan",
+          "hidden": false
+        },
+        {
+          "_id": "69f02a6e647bea5bb85818ca",
+          "name": "Pradeep Kumar Jayaraman",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T02:03:05.685Z",
+      "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Computer-Aided Design (CAD) models are defined by their construction history: a parametric recipe that encodes design intent. However, existing large-scale 3D datasets predominantly consist of boundary representations (B-Reps) or meshes, stripping away this critical procedural information. To address this scarcity, we introduce Zero-to-CAD, a scalable framework for synthesizing executable CAD construction sequences. We frame synthesis as an agentic search problem: by embedding a large language model (LLM) within a feedback-driven CAD environment, our system iteratively generates, executes, and validates code using tools and documentation lookup to promote geometric validity and operation diversity. This agentic approach enables the synthesis of approximately one million executable, readable, editable CAD sequences, covering a rich vocabulary of operations beyond sketch-and-extrude workflows. We also release a curated subset of 100,000 high-quality models selected for geometric diversity. To demonstrate the dataset's utility, we fine-tune a vision-language model on our synthetic data to reconstruct editable CAD programs from multi-view images, outperforming strong baselines, including GPT-5.2, and effectively bootstrapping sequence generation capabilities without real construction-history training data. Zero-to-CAD bridges the gap between geometric scale and parametric interpretability, offering a vital resource for the next generation of CAD AI.",
+      "upvotes": 0,
+      "discussionId": "69f02a6f647bea5bb85818cb",
+      "ai_summary": "A scalable framework synthesizes executable CAD construction sequences by framing the process as an agentic search problem using large language models within a feedback-driven CAD environment.",
+      "ai_keywords": [
+        "CAD models",
+        "construction history",
+        "parametric recipe",
+        "boundary representations",
+        "meshes",
+        "large language model",
+        "agentic search problem",
+        "feedback-driven CAD environment",
+        "geometric validity",
+        "vision-language model",
+        "multi-view images"
+      ]
+    },
+    "publishedAt": "2026-04-26T20:00:00.000Z",
+    "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+    "summary": "Computer-Aided Design (CAD) models are defined by their construction history: a parametric recipe that encodes design intent. However, existing large-scale 3D datasets predominantly consist of boundary representations (B-Reps) or meshes, stripping away this critical procedural information. To address this scarcity, we introduce Zero-to-CAD, a scalable framework for synthesizing executable CAD construction sequences. We frame synthesis as an agentic search problem: by embedding a large language model (LLM) within a feedback-driven CAD environment, our system iteratively generates, executes, and validates code using tools and documentation lookup to promote geometric validity and operation diversity. This agentic approach enables the synthesis of approximately one million executable, readable, editable CAD sequences, covering a rich vocabulary of operations beyond sketch-and-extrude workflows. We also release a curated subset of 100,000 high-quality models selected for geometric diversity. To demonstrate the dataset's utility, we fine-tune a vision-language model on our synthetic data to reconstruct editable CAD programs from multi-view images, outperforming strong baselines, including GPT-5.2, and effectively bootstrapping sequence generation capabilities without real construction-history training data. Zero-to-CAD bridges the gap between geometric scale and parametric interpretability, offering a vital resource for the next generation of CAD AI.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.24479.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 282,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.23775",
+      "authors": [
+        {
+          "_id": "69f03639647bea5bb8581930",
+          "name": "Qi Li",
+          "hidden": false
+        },
+        {
+          "_id": "69f03639647bea5bb8581931",
+          "name": "Bo Yin",
+          "hidden": false
+        },
+        {
+          "_id": "69f03639647bea5bb8581932",
+          "name": "Weiqi Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69f03639647bea5bb8581933",
+          "name": "Ruhao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "69f03639647bea5bb8581934",
+          "name": "Bojun Zou",
+          "hidden": false
+        },
+        {
+          "_id": "69f03639647bea5bb8581935",
+          "name": "Runpeng Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69f03639647bea5bb8581936",
+          "name": "Jingwen Ye",
+          "hidden": false
+        },
+        {
+          "_id": "69f03639647bea5bb8581937",
+          "name": "Weihao Yu",
+          "hidden": false
+        },
+        {
+          "_id": "69f03639647bea5bb8581938",
+          "name": "Xinchao Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-26T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T03:01:19.794Z",
+      "title": "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms",
+      "submittedOnDailyBy": {
+        "_id": "6706ab1168e9971e91bad6f7",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/tWSXpBEAm0d8gTDWFRxTS.png",
+        "isPro": false,
+        "fullname": "LIQIIIII",
+        "user": "LIQIIIII",
+        "type": "user",
+        "name": "LIQIIIII"
+      },
+      "summary": "Vision-Language-Action (VLA) models are emerging as a unified substrate for embodied intelligence. This shift raises a new class of safety challenges, stemming from the embodied nature of VLA systems, including irreversible physical consequences, a multimodal attack surface across vision, language, and state, real-time latency constraints on defense, error propagation over long-horizon trajectories, and vulnerabilities in the data supply chain. Yet the literature remains fragmented across robotic learning, adversarial machine learning, AI alignment, and autonomous systems safety. This survey provides a unified and up-to-date overview of safety in Vision-Language-Action models. We organize the field along two parallel timing axes, attack timing (training-time vs. inference-time and defense timing (training-time vs. inference-time, linking each class of threat to the stage at which it can be mitigated. We first define the scope of VLA safety, distinguishing it from text-only LLM safety and classical robotic safety, and review the foundations of VLA models, including architectures, training paradigms, and inference mechanisms. We then examine the literature through four lenses: Attacks, Defenses, Evaluation, and Deployment. We survey training-time threats such as data poisoning and backdoors, as well as inference-time attacks including adversarial patches, cross-modal perturbations, semantic jailbreaks, and freezing attacks. We review training-time and runtime defenses, analyze existing benchmarks and metrics, and discuss safety challenges across six deployment domains. Finally, we highlight key open problems, including certified robustness for embodied trajectories, physically realizable defenses, safety-aware training, unified runtime safety architectures, and standardized evaluation.",
+      "upvotes": 0,
+      "discussionId": "69f03639647bea5bb8581939",
+      "githubRepo": "https://github.com/LiQiiiii/Awesome-VLA-Safety",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Vision-Language-Action models present unique safety challenges due to their embodied nature, requiring unified approaches across multiple domains to address threats from data poisoning to adversarial attacks and ensuring secure deployment across various applications.",
+      "ai_keywords": [
+        "Vision-Language-Action models",
+        "embodied intelligence",
+        "adversarial patches",
+        "cross-modal perturbations",
+        "semantic jailbreaks",
+        "freezing attacks",
+        "data poisoning",
+        "backdoors",
+        "certified robustness",
+        "safety-aware training",
+        "unified runtime safety architectures"
+      ]
+    },
+    "publishedAt": "2026-04-25T20:00:00.000Z",
+    "title": "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms",
+    "summary": "Vision-Language-Action (VLA) models are emerging as a unified substrate for embodied intelligence. This shift raises a new class of safety challenges, stemming from the embodied nature of VLA systems, including irreversible physical consequences, a multimodal attack surface across vision, language, and state, real-time latency constraints on defense, error propagation over long-horizon trajectories, and vulnerabilities in the data supply chain. Yet the literature remains fragmented across robotic learning, adversarial machine learning, AI alignment, and autonomous systems safety. This survey provides a unified and up-to-date overview of safety in Vision-Language-Action models. We organize the field along two parallel timing axes, attack timing (training-time vs. inference-time and defense timing (training-time vs. inference-time, linking each class of threat to the stage at which it can be mitigated. We first define the scope of VLA safety, distinguishing it from text-only LLM safety and classical robotic safety, and review the foundations of VLA models, including architectures, training paradigms, and inference mechanisms. We then examine the literature through four lenses: Attacks, Defenses, Evaluation, and Deployment. We survey training-time threats such as data poisoning and backdoors, as well as inference-time attacks including adversarial patches, cross-modal perturbations, semantic jailbreaks, and freezing attacks. We review training-time and runtime defenses, analyze existing benchmarks and metrics, and discuss safety challenges across six deployment domains. Finally, we highlight key open problems, including certified robustness for embodied trajectories, physically realizable defenses, safety-aware training, unified runtime safety architectures, and standardized evaluation.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.23775.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "6706ab1168e9971e91bad6f7",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/tWSXpBEAm0d8gTDWFRxTS.png",
+      "fullname": "LIQIIIII",
+      "name": "LIQIIIII",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.23099",
+      "authors": [
+        {
+          "_id": "69f028b2647bea5bb858188d",
+          "name": "Yizheng Huang",
+          "hidden": false
+        },
+        {
+          "_id": "69f028b2647bea5bb858188e",
+          "name": "Wenjun Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "69f028b2647bea5bb858188f",
+          "name": "Aditi Kumaresan",
+          "hidden": false
+        },
+        {
+          "_id": "69f028b2647bea5bb8581890",
+          "name": "Zi Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-25T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T01:55:53.901Z",
+      "title": "ProEval: Proactive Failure Discovery and Efficient Performance Estimation for Generative AI Evaluation",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Evaluating generative AI models is increasingly resource-intensive due to slow inference, expensive raters, and a rapidly growing landscape of models and benchmarks. We propose ProEval, a proactive evaluation framework that leverages transfer learning to efficiently estimate performance and identify failure cases. ProEval employs pre-trained Gaussian Processes (GPs) as surrogates for the performance score function, mapping model inputs to metrics such as the severity of errors or safety violations. By framing performance estimation as Bayesian quadrature (BQ) and failure discovery as superlevel set sampling, we develop uncertainty-aware decision strategies that actively select or synthesize highly informative inputs for testing. Theoretically, we prove that our pre-trained GP-based BQ estimator is unbiased and bounded. Empirically, extensive experiments on reasoning, safety alignment, and classification benchmarks demonstrate that ProEval is significantly more efficient than competitive baselines. It requires 8-65x fewer samples to achieve estimates within 1% of the ground truth, while simultaneously revealing more diverse failure cases under a stricter evaluation budget.",
+      "upvotes": 0,
+      "discussionId": "69f028b3647bea5bb8581891",
+      "githubRepo": "https://github.com/google-deepmind/proeval",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "ProEval uses transfer learning with pre-trained Gaussian Processes and Bayesian quadrature to efficiently evaluate generative AI models by identifying failure cases with significantly fewer samples than traditional methods.",
+      "ai_keywords": [
+        "Gaussian Processes",
+        "Bayesian quadrature",
+        "superlevel set sampling",
+        "uncertainty-aware decision strategies",
+        "transfer learning",
+        "performance estimation",
+        "failure discovery"
+      ],
+      "githubStars": 2,
+      "organization": {
+        "_id": "60f6cbb2852126bac698c89e",
+        "name": "deepmind",
+        "fullname": "Deepmind",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1638956859875-5f1158120c833276f61f1a84.jpeg"
+      }
+    },
+    "publishedAt": "2026-04-24T20:00:00.000Z",
+    "title": "ProEval: Proactive Failure Discovery and Efficient Performance Estimation for Generative AI Evaluation",
+    "summary": "Evaluating generative AI models is increasingly resource-intensive due to slow inference, expensive raters, and a rapidly growing landscape of models and benchmarks. We propose ProEval, a proactive evaluation framework that leverages transfer learning to efficiently estimate performance and identify failure cases. ProEval employs pre-trained Gaussian Processes (GPs) as surrogates for the performance score function, mapping model inputs to metrics such as the severity of errors or safety violations. By framing performance estimation as Bayesian quadrature (BQ) and failure discovery as superlevel set sampling, we develop uncertainty-aware decision strategies that actively select or synthesize highly informative inputs for testing. Theoretically, we prove that our pre-trained GP-based BQ estimator is unbiased and bounded. Empirically, extensive experiments on reasoning, safety alignment, and classification benchmarks demonstrate that ProEval is significantly more efficient than competitive baselines. It requires 8-65x fewer samples to achieve estimates within 1% of the ground truth, while simultaneously revealing more diverse failure cases under a stricter evaluation budget.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.23099.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 282,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "60f6cbb2852126bac698c89e",
+      "name": "deepmind",
+      "fullname": "Deepmind",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1638956859875-5f1158120c833276f61f1a84.jpeg"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2604.22782",
+      "authors": [
+        {
+          "_id": "69f02922647bea5bb8581894",
+          "name": "Anastasiia Filippova",
+          "hidden": false
+        },
+        {
+          "_id": "69f02922647bea5bb8581895",
+          "name": "David Grangier",
+          "hidden": false
+        },
+        {
+          "_id": "69f02922647bea5bb8581896",
+          "name": "Marco Cuturi",
+          "hidden": false
+        },
+        {
+          "_id": "69f02922647bea5bb8581897",
+          "name": "João Monteiro",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-04-03T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-28T01:57:34.273Z",
+      "title": "Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing",
+      "submittedOnDailyBy": {
+        "_id": "6039478ab3ecf716b1a5fd4d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+        "isPro": true,
+        "fullname": "taesiri",
+        "user": "taesiri",
+        "type": "user",
+        "name": "taesiri"
+      },
+      "summary": "Serving transformer language models with high throughput requires caching Key-Values (KVs) to avoid redundant computation during autoregressive generation. The memory footprint of KV caching is significant and heavily impacts serving costs. This work proposes to lessen these memory requirements. While recent work has largely addressed KV cache reduction via compression and eviction along the temporal axis, we argue that the depth dimension offers an orthogonal and robust avenue for optimization. Although prior research suggests that a full cache for every layer is redundant, implementing cross-layer cache sharing remains a practical challenge; existing methods typically suffer from reduced throughput or increased time-to-first-token. In this paper, we demonstrate that dropping a layer's cache offers efficient optimization without information loss. We propose a simple training approach: random cross-layer attention. During training, layers randomly choose to attend either to their own KV states or those of a preceding layer. This stochastic process adapts the model to be robust to various depth-wise cache sharing strategies, ensuring flexibility for unknown hardware constraints at deployment time. Our evaluations show that applying this scheme during pre-training or fine-tuning enables depth-wise cache sharing for various model families. Furthermore, for larger models in data-constrained settings, this approach is suggestive of a regularization-like effect, frequently preserving or improving performance while significantly reducing the cache's memory footprint.",
+      "upvotes": 0,
+      "discussionId": "69f02922647bea5bb8581898",
+      "ai_summary": "Transformer language models can reduce KV cache memory requirements through random cross-layer attention during training, enabling efficient depth-wise cache sharing without performance loss.",
+      "ai_keywords": [
+        "Key-Values caching",
+        "transformer language models",
+        "autoregressive generation",
+        "KV cache reduction",
+        "cross-layer cache sharing",
+        "random cross-layer attention",
+        "depth-wise cache sharing",
+        "regularization-like effect"
+      ],
+      "organization": {
+        "_id": "628cbd99ef14f971b69948ab",
+        "name": "apple",
+        "fullname": "Apple",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653390727490-5dd96eb166059660ed1ee413.jpeg"
+      }
+    },
+    "publishedAt": "2026-04-02T20:00:00.000Z",
+    "title": "Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing",
+    "summary": "Serving transformer language models with high throughput requires caching Key-Values (KVs) to avoid redundant computation during autoregressive generation. The memory footprint of KV caching is significant and heavily impacts serving costs. This work proposes to lessen these memory requirements. While recent work has largely addressed KV cache reduction via compression and eviction along the temporal axis, we argue that the depth dimension offers an orthogonal and robust avenue for optimization. Although prior research suggests that a full cache for every layer is redundant, implementing cross-layer cache sharing remains a practical challenge; existing methods typically suffer from reduced throughput or increased time-to-first-token. In this paper, we demonstrate that dropping a layer's cache offers efficient optimization without information loss. We propose a simple training approach: random cross-layer attention. During training, layers randomly choose to attend either to their own KV states or those of a preceding layer. This stochastic process adapts the model to be robust to various depth-wise cache sharing strategies, ensuring flexibility for unknown hardware constraints at deployment time. Our evaluations show that applying this scheme during pre-training or fine-tuning enables depth-wise cache sharing for various model families. Furthermore, for larger models in data-constrained settings, this approach is suggestive of a regularization-like effect, frequently preserving or improving performance while significantly reducing the cache's memory footprint.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.22782.png",
+    "numComments": 0,
+    "submittedBy": {
+      "_id": "6039478ab3ecf716b1a5fd4d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "fullname": "taesiri",
+      "name": "taesiri",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 282,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "628cbd99ef14f971b69948ab",
+      "name": "apple",
+      "fullname": "Apple",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653390727490-5dd96eb166059660ed1ee413.jpeg"
+    },
+    "isAuthorParticipating": false
+  }
+]
