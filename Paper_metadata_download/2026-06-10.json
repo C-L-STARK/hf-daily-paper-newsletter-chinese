@@ -1,0 +1,85 @@
+[
+  {
+    "paper": {
+      "id": "2606.05304",
+      "authors": [
+        {
+          "_id": "6a28c001e7d78ea7587e5296",
+          "name": "Chen Huang",
+          "hidden": false
+        },
+        {
+          "_id": "6a28c001e7d78ea7587e5297",
+          "name": "Yuhao Wu",
+          "hidden": false
+        },
+        {
+          "_id": "6a28c001e7d78ea7587e5298",
+          "name": "Wenxuan Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-10T00:00:00.000Z",
+      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
+      "submittedOnDailyBy": {
+        "_id": "65d7b983baa72790a1151923",
+        "avatarUrl": "/avatars/938531e84ca01a0c5a2a174057e3e9c5.svg",
+        "isPro": false,
+        "fullname": "Chen Huang",
+        "user": "Albus-Chen",
+        "type": "user",
+        "name": "Albus-Chen"
+      },
+      "summary": "Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strategies across two MAS topologies, finding that no fixed strategy is universally optimal. Instead, effective inter-agent messages consistently preserve action-centered information needed by downstream agents. Building on this, we propose the PACT (Protocolized Action-state Communication and Transmission), which treats inter-agent communication as a public state-update problem and projects each raw agent output into a compact action-state record before it enters shared history. Across different MAS topologies, PACT consistently improves the performance-cost trade-off, achieving comparable or stronger task performance with substantially fewer tokens. The gains extend to production coding harnesses: PACT lifts OpenHands' resolve rate at -10% tokens-per-resolved, and is resolve-neutral on SWE-agent while halving input tokens. Our code is publicly available at https://github.com/iNLP-Lab/PACT.",
+      "upvotes": 2,
+      "discussionId": "6a28c002e7d78ea7587e5299",
+      "githubRepo": "https://github.com/iNLP-Lab/PACT",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Multi-agent systems using large language models suffer from inefficient token consumption in agent-to-agent communication, which PACT addresses by structuring messages as compact action-state records that improve performance-cost trade-offs across different system architectures.",
+      "ai_keywords": [
+        "multi-agent systems",
+        "large language models",
+        "inter-agent communication",
+        "token usage",
+        "context window",
+        "action-centered information",
+        "protocolized action-state communication",
+        "public state-update problem",
+        "action-state record"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "organization": {
+        "_id": "68b82daee976083ccd80824b",
+        "name": "iNLP-Lab",
+        "fullname": "iNLP Lab @ SUTD",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/60dff6ae19a362a8c27862aa/3Ukf0b4f546tJM84zynTz.png"
+      }
+    },
+    "publishedAt": "2026-06-02T20:00:00.000Z",
+    "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
+    "summary": "Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strategies across two MAS topologies, finding that no fixed strategy is universally optimal. Instead, effective inter-agent messages consistently preserve action-centered information needed by downstream agents. Building on this, we propose the PACT (Protocolized Action-state Communication and Transmission), which treats inter-agent communication as a public state-update problem and projects each raw agent output into a compact action-state record before it enters shared history. Across different MAS topologies, PACT consistently improves the performance-cost trade-off, achieving comparable or stronger task performance with substantially fewer tokens. The gains extend to production coding harnesses: PACT lifts OpenHands' resolve rate at -10% tokens-per-resolved, and is resolve-neutral on SWE-agent while halving input tokens. Our code is publicly available at https://github.com/iNLP-Lab/PACT.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05304.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "65d7b983baa72790a1151923",
+      "avatarUrl": "/avatars/938531e84ca01a0c5a2a174057e3e9c5.svg",
+      "fullname": "Chen Huang",
+      "name": "Albus-Chen",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "68b82daee976083ccd80824b",
+      "name": "iNLP-Lab",
+      "fullname": "iNLP Lab @ SUTD",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/60dff6ae19a362a8c27862aa/3Ukf0b4f546tJM84zynTz.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
