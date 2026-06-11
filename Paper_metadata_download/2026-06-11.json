@@ -1,0 +1,83 @@
+[
+  {
+    "paper": {
+      "id": "2606.11722",
+      "authors": [
+        {
+          "_id": "6a2a11df80a9c7c6830c0e67",
+          "name": "Sida Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6a2a11df80a9c7c6830c0e68",
+          "name": "Feijiang Han",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-11T00:00:00.000Z",
+      "title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+      "submittedOnDailyBy": {
+        "_id": "657eba08647c0211e7b11837",
+        "avatarUrl": "/avatars/825b8675486306c51057d78d871f29a0.svg",
+        "isPro": true,
+        "fullname": "Han",
+        "user": "ChaseHan",
+        "type": "user",
+        "name": "ChaseHan"
+      },
+      "summary": "Finding interpretable directions in language-model representations is critical for understanding and controlling model behavior. Sparse autoencoders (SAEs) have become the standard tool for this purpose, but using them as the default first lens often requires training, storing, and evaluating large overcomplete dictionaries. This bottleneck limits rapid exploration and raises a fundamental question: how much interpretable structure is already visible from activation geometry before training another neural dictionary? Our intuition is simple: many interpretable directions are selective on tokens, and these directions should look less Gaussian than random directions. We therefore revisit independent component analysis (ICA), a classical method for finding non-Gaussian directions, as a compact lens for language-model interpretability. We find that ICA has been underestimated for LLM interpretability, because prior uses often relied on off-the-shelf ICA implementations that are brittle on LLM activations and lacked systematic tools for inspecting and evaluating the recovered directions. To bridge these gaps, we introduce ICALens, the first practical workflow for stable, efficient, and auditable ICA analysis of LLM representations. It combines an optimized GPU-parallel FastICA pipeline with LLM-specific stability recipes and better fitting diagnostics, enabling efficient and reliable layer-wise analysis. Across GPT-2 Small, Gemma 2 2B, and Qwen 3.5 2B Base, ICALens efficiently recovers compact, human-interpretable directions without per-layer gradient-based dictionary training. On SAEBench, ICA is competitive with public SAEs in sparse probing and outperforms them in targeted probe perturbation under small-to-medium budgets. These results suggest that ICA should not be viewed as a weak baseline, but as an efficient and complementary first lens for exploring language-model representations.",
+      "upvotes": 2,
+      "discussionId": "6a2a11e080a9c7c6830c0e69",
+      "projectPage": "https://liusida.github.io/ica-lens-paper/",
+      "githubRepo": "https://github.com/liusida/ica-lens-paper",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Independent component analysis (ICA) is revived as an efficient method for discovering interpretable directions in language model representations, offering a faster alternative to sparse autoencoder training while maintaining competitive performance in probing tasks.",
+      "ai_keywords": [
+        "sparse autoencoders",
+        "independent component analysis",
+        "language-model representations",
+        "activation geometry",
+        "Gaussian directions",
+        "ICA",
+        "FastICA",
+        "LLM interpretability",
+        "SAEBench",
+        "sparse probing",
+        "targeted probe perturbation"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "organization": {
+        "_id": "6a2656bc508d0561fab48d82",
+        "name": "EEEAILab",
+        "fullname": "Effective, Efficient, and Explainable AI Lab",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/657eba08647c0211e7b11837/VqsdJUXtWhaUxELXlru9R.png"
+      }
+    },
+    "publishedAt": "2026-06-09T20:00:00.000Z",
+    "title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+    "summary": "Finding interpretable directions in language-model representations is critical for understanding and controlling model behavior. Sparse autoencoders (SAEs) have become the standard tool for this purpose, but using them as the default first lens often requires training, storing, and evaluating large overcomplete dictionaries. This bottleneck limits rapid exploration and raises a fundamental question: how much interpretable structure is already visible from activation geometry before training another neural dictionary? Our intuition is simple: many interpretable directions are selective on tokens, and these directions should look less Gaussian than random directions. We therefore revisit independent component analysis (ICA), a classical method for finding non-Gaussian directions, as a compact lens for language-model interpretability. We find that ICA has been underestimated for LLM interpretability, because prior uses often relied on off-the-shelf ICA implementations that are brittle on LLM activations and lacked systematic tools for inspecting and evaluating the recovered directions. To bridge these gaps, we introduce ICALens, the first practical workflow for stable, efficient, and auditable ICA analysis of LLM representations. It combines an optimized GPU-parallel FastICA pipeline with LLM-specific stability recipes and better fitting diagnostics, enabling efficient and reliable layer-wise analysis. Across GPT-2 Small, Gemma 2 2B, and Qwen 3.5 2B Base, ICALens efficiently recovers compact, human-interpretable directions without per-layer gradient-based dictionary training. On SAEBench, ICA is competitive with public SAEs in sparse probing and outperforms them in targeted probe perturbation under small-to-medium budgets. These results suggest that ICA should not be viewed as a weak baseline, but as an efficient and complementary first lens for exploring language-model representations.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.11722.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "657eba08647c0211e7b11837",
+      "avatarUrl": "/avatars/825b8675486306c51057d78d871f29a0.svg",
+      "fullname": "Han",
+      "name": "ChaseHan",
+      "type": "user",
+      "isPro": true,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6a2656bc508d0561fab48d82",
+      "name": "EEEAILab",
+      "fullname": "Effective, Efficient, and Explainable AI Lab",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/657eba08647c0211e7b11837/VqsdJUXtWhaUxELXlru9R.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
