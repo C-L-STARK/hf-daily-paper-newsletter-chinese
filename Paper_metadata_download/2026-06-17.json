@@ -1,0 +1,81 @@
+[
+  {
+    "paper": {
+      "id": "2606.13811",
+      "authors": [
+        {
+          "_id": "6a31facbbc818ff14e453cb9",
+          "name": "Rogerio Feris",
+          "hidden": false
+        },
+        {
+          "_id": "6a31facbbc818ff14e453cba",
+          "name": "Yunchao Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6a31facbbc818ff14e453cbb",
+          "name": "Pengyuan Li",
+          "hidden": false
+        },
+        {
+          "_id": "6a31facbbc818ff14e453cbc",
+          "name": "Hang Hua",
+          "hidden": false
+        },
+        {
+          "_id": "6a31facbbc818ff14e453cbd",
+          "name": "David Kremer",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-17T00:00:00.000Z",
+      "title": "Aligning Quantum Operators with Large Language Models",
+      "submittedOnDailyBy": {
+        "_id": "639f8277beb95d698de007dd",
+        "avatarUrl": "/avatars/57f223ccd9d3cb03166ccf0e41361c58.svg",
+        "isPro": false,
+        "fullname": "HangHua",
+        "user": "hhua2",
+        "type": "user",
+        "name": "hhua2"
+      },
+      "summary": "Can Large Language Models (LLMs) understand and reason about quantum operators? Despite their remarkable capabilities in mathematics and symbolic reasoning, LLMs remain inherently blind to quantum representations such as unitary matrices. In this work, we take a step toward bridging this gap by introducing an approach that maps unitary operators into the latent space of an LLM, enabling unified modeling over quantum and linguistic inputs. We instantiate this idea on Clifford+T circuit synthesis over a Pauli rotation gate set, where our model achieves results competitive with state-of-the-art methods and scales consistently with training data, with no signs of saturation. Our approach further enables language-conditioned synthesis, allowing gate constraints unseen during training to be specified directly in natural language. This work suggests a path toward quantum--aware foundation models that can natively interpret and reason about quantum operations, which could have broader implications reaching across quantum compilation and algorithm discovery.",
+      "upvotes": 1,
+      "discussionId": "6a31facbbc818ff14e453cbe",
+      "ai_summary": "Large language models can be adapted to understand quantum operators by mapping unitary matrices into their latent space, enabling quantum circuit synthesis and language-conditioned gate constraint specification.",
+      "ai_keywords": [
+        "large language models",
+        "quantum operators",
+        "unitary matrices",
+        "latent space",
+        "quantum representations",
+        "Clifford+T circuit synthesis",
+        "Pauli rotation gate set",
+        "quantum compilation",
+        "quantum algorithm discovery"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct"
+    },
+    "publishedAt": "2026-06-10T20:00:00.000Z",
+    "title": "Aligning Quantum Operators with Large Language Models",
+    "summary": "Can Large Language Models (LLMs) understand and reason about quantum operators? Despite their remarkable capabilities in mathematics and symbolic reasoning, LLMs remain inherently blind to quantum representations such as unitary matrices. In this work, we take a step toward bridging this gap by introducing an approach that maps unitary operators into the latent space of an LLM, enabling unified modeling over quantum and linguistic inputs. We instantiate this idea on Clifford+T circuit synthesis over a Pauli rotation gate set, where our model achieves results competitive with state-of-the-art methods and scales consistently with training data, with no signs of saturation. Our approach further enables language-conditioned synthesis, allowing gate constraints unseen during training to be specified directly in natural language. This work suggests a path toward quantum--aware foundation models that can natively interpret and reason about quantum operations, which could have broader implications reaching across quantum compilation and algorithm discovery.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.13811.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "639f8277beb95d698de007dd",
+      "avatarUrl": "/avatars/57f223ccd9d3cb03166ccf0e41361c58.svg",
+      "fullname": "HangHua",
+      "name": "hhua2",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 3,
+      "isUserFollowing": false
+    },
+    "isAuthorParticipating": false
+  }
+]
