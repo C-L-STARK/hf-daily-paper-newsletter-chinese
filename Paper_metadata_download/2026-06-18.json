@@ -1,0 +1,107 @@
+[
+  {
+    "paper": {
+      "id": "2606.19338",
+      "authors": [
+        {
+          "_id": "6a334bc659127a45e2c1c52e",
+          "name": "Shengyuan Ding",
+          "hidden": false
+        },
+        {
+          "_id": "6a334bc659127a45e2c1c52f",
+          "name": "Xilin Wei",
+          "hidden": false
+        },
+        {
+          "_id": "6a334bc659127a45e2c1c530",
+          "name": "Xinyu Fang",
+          "hidden": false
+        },
+        {
+          "_id": "6a334bc659127a45e2c1c531",
+          "name": "Haodong Duan",
+          "hidden": false
+        },
+        {
+          "_id": "6a334bc659127a45e2c1c532",
+          "name": "Dahua Lin",
+          "hidden": false
+        },
+        {
+          "_id": "6a334bc659127a45e2c1c533",
+          "name": "Jiaqi Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6a334bc659127a45e2c1c534",
+          "name": "Yuhang Zang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-18T00:00:00.000Z",
+      "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games",
+      "submittedOnDailyBy": {
+        "_id": "646cd947da8e99940b6e55cf",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cd947da8e99940b6e55cf/9c0P0WppFqNW9pdo8LgOS.jpeg",
+        "isPro": false,
+        "fullname": "Shengyuan Ding",
+        "user": "ChrisDing1105",
+        "type": "user",
+        "name": "ChrisDing1105"
+      },
+      "summary": "Deploying multimodal foundation models as closed-loop policies increasingly requires conditioning actions on observations that are no longer visible. However, existing benchmarks either expose the full state, conflate hidden-state reconstruction with other agent skills, or test recall only after an episode has ended. We introduce RNG-Bench (Reconstructive Non-Markov Games), a benchmark suite designed to isolate a base model's ability to reconstruct past observations and act on them during multi-step interaction. RNG-Bench includes two complementary games: Matching Pairs, where card identities briefly revealed at specific locations must later be recalled, and 3D Maze, where egocentric views must be integrated into a spatial map. Both games are evaluated under a unified harness with three controlled difficulty axes: grid size, visual pattern, and observation modality. The benchmark further introduces a head-to-head duel protocol to control for instance-level variance and a Memory Gap metric that disentangles forgetting from poor action selection. The hardest configurations require contexts of roughly 128K tokens and 350 image inputs per episode, and remain far from saturated by frontier MLLMs. Memory Gap analysis shows that most residual errors stem from forgetting earlier observations rather than from suboptimal decision making. Finally, fine-tuning Qwen3.5-9B on optimal-policy rollouts and filtered model demonstrations improves performance on RNG-Bench and transfers to existing benchmarks without degrading general multimodal capability.",
+      "upvotes": 0,
+      "discussionId": "6a334bc659127a45e2c1c535",
+      "projectPage": "https://internlm.github.io/RNGBench/",
+      "githubRepo": "https://github.com/InternLM/RNGBench",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "A new benchmark suite called RNG-Bench is introduced to evaluate multimodal foundation models' ability to reconstruct past observations and use them for decision-making in multi-step interactions, featuring two games with controlled difficulty parameters and a memory gap metric to distinguish forgetting from poor decision-making.",
+      "ai_keywords": [
+        "multimodal foundation models",
+        "closed-loop policies",
+        "observation reconstruction",
+        "multi-step interaction",
+        "RNG-Bench",
+        "Matching Pairs",
+        "3D Maze",
+        "memory gap",
+        "fine-tuning",
+        "Qwen3.5-9B"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "organization": {
+        "_id": "64a2d5fa81252883206f24c9",
+        "name": "internlm",
+        "fullname": "Intern Large Models",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6432683407bad11484a68457/Q3Y0dL79GcsnaBCGRMooZ.png"
+      }
+    },
+    "publishedAt": "2026-06-16T20:00:00.000Z",
+    "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games",
+    "summary": "Deploying multimodal foundation models as closed-loop policies increasingly requires conditioning actions on observations that are no longer visible. However, existing benchmarks either expose the full state, conflate hidden-state reconstruction with other agent skills, or test recall only after an episode has ended. We introduce RNG-Bench (Reconstructive Non-Markov Games), a benchmark suite designed to isolate a base model's ability to reconstruct past observations and act on them during multi-step interaction. RNG-Bench includes two complementary games: Matching Pairs, where card identities briefly revealed at specific locations must later be recalled, and 3D Maze, where egocentric views must be integrated into a spatial map. Both games are evaluated under a unified harness with three controlled difficulty axes: grid size, visual pattern, and observation modality. The benchmark further introduces a head-to-head duel protocol to control for instance-level variance and a Memory Gap metric that disentangles forgetting from poor action selection. The hardest configurations require contexts of roughly 128K tokens and 350 image inputs per episode, and remain far from saturated by frontier MLLMs. Memory Gap analysis shows that most residual errors stem from forgetting earlier observations rather than from suboptimal decision making. Finally, fine-tuning Qwen3.5-9B on optimal-policy rollouts and filtered model demonstrations improves performance on RNG-Bench and transfers to existing benchmarks without degrading general multimodal capability.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.19338.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "646cd947da8e99940b6e55cf",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cd947da8e99940b6e55cf/9c0P0WppFqNW9pdo8LgOS.jpeg",
+      "fullname": "Shengyuan Ding",
+      "name": "ChrisDing1105",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 14,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "64a2d5fa81252883206f24c9",
+      "name": "internlm",
+      "fullname": "Intern Large Models",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6432683407bad11484a68457/Q3Y0dL79GcsnaBCGRMooZ.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
