@@ -1,0 +1,183 @@
+[
+  {
+    "paper": {
+      "id": "2606.19495",
+      "authors": [
+        {
+          "_id": "6a349cc94c5c5e0d69bf1bac",
+          "name": "Shariq Farooq Bhat",
+          "hidden": false
+        },
+        {
+          "_id": "6a349cc94c5c5e0d69bf1bad",
+          "name": "Niloy J. Mitra",
+          "hidden": false
+        },
+        {
+          "_id": "6a349cc94c5c5e0d69bf1bae",
+          "name": "Kalyan Sunkavalli",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-19T00:00:00.000Z",
+      "title": "LooseControlVideo: Directorial Video Control using Spatial Blocking",
+      "submittedOnDailyBy": {
+        "_id": "63fcae4f987f631186e50fba",
+        "avatarUrl": "/avatars/8ac9dff40d1b483b4f2f4e4cbd3f9088.svg",
+        "isPro": false,
+        "fullname": "Shariq Farooq Bhat",
+        "user": "shariqfarooq",
+        "type": "user",
+        "name": "shariqfarooq"
+      },
+      "summary": "Precise 3D spatial orchestration in text-to-video generation remains a significant challenge, particularly for multi-object scenes where semantic layout and temporal dynamics are often entangled. While existing depth-conditioned models achieve good structural fidelity, they necessitate dense, frame-accurate guidance that is labor-intensive to author for dynamic events involving deformable objects. We present LooseControlVideo, a framework that enables intuitive and expressive control by using sparse, oriented 3D boxes as a \"blocking\" proxy. This allows users to author high-level layout and trajectory while leveraging a video generative model to generate realistic occlusions, dynamics and interactions. We achieve this by fine-tuning a Wan 2.2 backbone on a video dataset annotated with DNOCS, a novel encoding for 3D size, orientation and depth-ordered occlusions. Furthermore, our method allows for localized refinement, such as adjusting a jump trajectory or adding an interaction, with minimal disruption to the global scene context. Extensive evaluations on the nuScenes, HO-3D, and BEHAVE benchmarks demonstrate that LooseControlVideo significantly outperforms existing 2D-box and flow-based baselines. Our findings indicate a 1.2x to 3x improvement in Trajectory Error; 2x improvement in Rigid Motion Consistency; and a 1.5x to 2x increase in Occlusion Accuracy over current state-of-the-art layout-conditioned models, demonstrating that oriented 3D primitives provide good geometric prior for complex, multi-agent video authoring.",
+      "upvotes": 0,
+      "discussionId": "6a349cca4c5c5e0d69bf1baf",
+      "projectPage": "https://shariqfarooq123.github.io/LooseControlVideo/",
+      "ai_summary": "LooseControlVideo enables intuitive 3D spatial control in text-to-video generation using sparse oriented 3D boxes as proxies, achieving superior trajectory accuracy and occlusion handling compared to existing methods.",
+      "ai_keywords": [
+        "text-to-video generation",
+        "3D spatial orchestration",
+        "multi-object scenes",
+        "semantic layout",
+        "temporal dynamics",
+        "depth-conditioned models",
+        "frame-accurate guidance",
+        "video generative model",
+        "DNOCS",
+        "3D size",
+        "3D orientation",
+        "depth-ordered occlusions",
+        "Wan 2.2 backbone",
+        "video dataset",
+        "nuScenes",
+        "HO-3D",
+        "BEHAVE",
+        "Trajectory Error",
+        "Rigid Motion Consistency",
+        "Occlusion Accuracy"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "organization": {
+        "_id": "61e5d14f77496de0a6d95c6b",
+        "name": "adobe",
+        "fullname": "Adobe",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1645217431826-61e35e517ac6b6d06cfa8081.png"
+      }
+    },
+    "publishedAt": "2026-06-16T20:00:00.000Z",
+    "title": "LooseControlVideo: Directorial Video Control using Spatial Blocking",
+    "summary": "Precise 3D spatial orchestration in text-to-video generation remains a significant challenge, particularly for multi-object scenes where semantic layout and temporal dynamics are often entangled. While existing depth-conditioned models achieve good structural fidelity, they necessitate dense, frame-accurate guidance that is labor-intensive to author for dynamic events involving deformable objects. We present LooseControlVideo, a framework that enables intuitive and expressive control by using sparse, oriented 3D boxes as a \"blocking\" proxy. This allows users to author high-level layout and trajectory while leveraging a video generative model to generate realistic occlusions, dynamics and interactions. We achieve this by fine-tuning a Wan 2.2 backbone on a video dataset annotated with DNOCS, a novel encoding for 3D size, orientation and depth-ordered occlusions. Furthermore, our method allows for localized refinement, such as adjusting a jump trajectory or adding an interaction, with minimal disruption to the global scene context. Extensive evaluations on the nuScenes, HO-3D, and BEHAVE benchmarks demonstrate that LooseControlVideo significantly outperforms existing 2D-box and flow-based baselines. Our findings indicate a 1.2x to 3x improvement in Trajectory Error; 2x improvement in Rigid Motion Consistency; and a 1.5x to 2x increase in Occlusion Accuracy over current state-of-the-art layout-conditioned models, demonstrating that oriented 3D primitives provide good geometric prior for complex, multi-agent video authoring.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.19495.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63fcae4f987f631186e50fba",
+      "avatarUrl": "/avatars/8ac9dff40d1b483b4f2f4e4cbd3f9088.svg",
+      "fullname": "Shariq Farooq Bhat",
+      "name": "shariqfarooq",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 47,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "61e5d14f77496de0a6d95c6b",
+      "name": "adobe",
+      "fullname": "Adobe",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1645217431826-61e35e517ac6b6d06cfa8081.png"
+    },
+    "isAuthorParticipating": false
+  },
+  {
+    "paper": {
+      "id": "2606.16122",
+      "authors": [
+        {
+          "_id": "6a34a0074c5c5e0d69bf1bbc",
+          "name": "Junkai Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6a34a0074c5c5e0d69bf1bbd",
+          "name": "Yihe Deng",
+          "hidden": false
+        },
+        {
+          "_id": "6a34a0074c5c5e0d69bf1bbe",
+          "name": "Kai-Wei Chang",
+          "hidden": false
+        },
+        {
+          "_id": "6a34a0074c5c5e0d69bf1bbf",
+          "name": "Wei Wang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-19T00:00:00.000Z",
+      "title": "Thinking with Visual Grounding",
+      "submittedOnDailyBy": {
+        "_id": "64e7bb81b159a6f87be99459",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e7bb81b159a6f87be99459/obeVMow9SRRNt722T6ZvU.jpeg",
+        "isPro": false,
+        "fullname": "Junkai Zhang",
+        "user": "JunkaiZ",
+        "type": "user",
+        "name": "JunkaiZ"
+      },
+      "summary": "Visual thinking should not only sound right; it should show its evidence. While recent vision-language models (VLMs) can produce natural-language reasoning traces, these traces often leave the supporting image regions implicit, making them hard to verify and difficult to supervise. We introduce visually grounded thinking, a reasoning process in which models interleave natural-language thoughts with explicit point or box groundings of the visual evidence used at each step. This lets the model express intermediate reasoning in language while grounding key objects in the image regions they refer to. To train this behavior, we construct a scalable synthesis pipeline that distills correct visual reasoning traces, extracts the visual objects required by the traces, grounds them with a SAM3-based agent, and derives aligned point and box supervision from the resulting masks. We further propose grounding-aware reinforcement learning, which combines answer correctness rewards with dense grounding rewards that score whether generated object references match the correct image evidence. Across two counting benchmarks and four spatial reasoning benchmarks, adding visually grounded thinking to Gemma3-4B-IT consistently improves performance over the original model and the non-grounded thinking baseline. On spatial reasoning, the visually grounded thinking 4B models match, and in some cases surpass, Gemma3-27B-IT from the same model family. Our analysis shows that point grounding is well suited to counting, while box grounding benefits most from explicit grounding rewards on spatial tasks. Overall, our results show that VLMs think better when their intermediate thoughts are tied to the image regions that make them true.",
+      "upvotes": 0,
+      "discussionId": "6a34a0074c5c5e0d69bf1bc0",
+      "githubRepo": "https://github.com/Jun-Kai-Zhang/visually_grounded_thinking",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Visually grounded thinking integrates natural-language reasoning with explicit visual evidence grounding in vision-language models, improving reasoning accuracy through scalable synthesis and reinforcement learning techniques.",
+      "ai_keywords": [
+        "vision-language models",
+        "visual reasoning",
+        "natural-language reasoning traces",
+        "visual grounding",
+        "SAM3-based agent",
+        "grounding-aware reinforcement learning",
+        "point grounding",
+        "box grounding",
+        "spatial reasoning",
+        "counting benchmarks"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "organization": {
+        "_id": "67784c39dac147922d8d09f0",
+        "name": "UCLA",
+        "fullname": "University of California, Los Angeles",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67784bd637dfa531fbce95a2/Nf0seEMEn66sPL3QsJXj4.png"
+      }
+    },
+    "publishedAt": "2026-06-14T20:00:00.000Z",
+    "title": "Thinking with Visual Grounding",
+    "summary": "Visual thinking should not only sound right; it should show its evidence. While recent vision-language models (VLMs) can produce natural-language reasoning traces, these traces often leave the supporting image regions implicit, making them hard to verify and difficult to supervise. We introduce visually grounded thinking, a reasoning process in which models interleave natural-language thoughts with explicit point or box groundings of the visual evidence used at each step. This lets the model express intermediate reasoning in language while grounding key objects in the image regions they refer to. To train this behavior, we construct a scalable synthesis pipeline that distills correct visual reasoning traces, extracts the visual objects required by the traces, grounds them with a SAM3-based agent, and derives aligned point and box supervision from the resulting masks. We further propose grounding-aware reinforcement learning, which combines answer correctness rewards with dense grounding rewards that score whether generated object references match the correct image evidence. Across two counting benchmarks and four spatial reasoning benchmarks, adding visually grounded thinking to Gemma3-4B-IT consistently improves performance over the original model and the non-grounded thinking baseline. On spatial reasoning, the visually grounded thinking 4B models match, and in some cases surpass, Gemma3-27B-IT from the same model family. Our analysis shows that point grounding is well suited to counting, while box grounding benefits most from explicit grounding rewards on spatial tasks. Overall, our results show that VLMs think better when their intermediate thoughts are tied to the image regions that make them true.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.16122.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "64e7bb81b159a6f87be99459",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e7bb81b159a6f87be99459/obeVMow9SRRNt722T6ZvU.jpeg",
+      "fullname": "Junkai Zhang",
+      "name": "JunkaiZ",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67784c39dac147922d8d09f0",
+      "name": "UCLA",
+      "fullname": "University of California, Los Angeles",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67784bd637dfa531fbce95a2/Nf0seEMEn66sPL3QsJXj4.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
