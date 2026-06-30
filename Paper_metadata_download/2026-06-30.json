@@ -1,0 +1,131 @@
+[
+  {
+    "paper": {
+      "id": "2606.24143",
+      "authors": [
+        {
+          "_id": "6a3f4bb80dbbc53604b66602",
+          "name": "Wonjun Kang",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b66603",
+          "name": "Kevin Galim",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b66604",
+          "name": "Seunghyuk Oh",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b66605",
+          "name": "Minjun Kang",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b66606",
+          "name": "Sanghyun Park",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b66607",
+          "name": "Donghoon Kim",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b66608",
+          "name": "Minjae Lee",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b66609",
+          "name": "Minseo Kim",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b6660a",
+          "name": "Rishabh Tiwari",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b6660b",
+          "name": "Yuchen Zeng",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b6660c",
+          "name": "Hyung Il Koo",
+          "hidden": false
+        },
+        {
+          "_id": "6a3f4bb80dbbc53604b6660d",
+          "name": "Kangwook Lee",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-30T00:00:00.000Z",
+      "title": "AsyncOPD: How Stale Can On-Policy Distillation Be?",
+      "submittedOnDailyBy": {
+        "_id": "63e1d5247fbb6ae4d4f4cc8e",
+        "avatarUrl": "/avatars/8a8f700adf9e8000641c2c2f6bd56080.svg",
+        "isPro": false,
+        "fullname": "Wonjun Kang",
+        "user": "wjkang",
+        "type": "user",
+        "name": "wjkang"
+      },
+      "summary": "On-policy distillation (OPD) trains a student on its own rollouts guided by teacher feedback and is becoming increasingly important for large language model (LLM) post-training. Like reinforcement learning (RL), however, OPD faces an on-policy systems bottleneck, as rollouts can dominate training time for reasoning workloads. Asynchronous training pipelines can alleviate this bottleneck by decoupling rollout generation from learner updates, but doing so introduces stale-policy data. While prior work has studied stale data in asynchronous RL, its effects in OPD remain underexplored. We present the first systematic study of staleness in asynchronous OPD, focusing on a practical setting where teacher feedback is implemented through local KL losses and full-vocabulary teacher logits are too expensive to store or transfer, necessitating finite teacher-score caches. We first show that KL direction changes the stale-data problem: teacher-weighted forward KL is more robust to stale rollouts, whereas student-weighted reverse KL is vulnerable. Second, for this vulnerable reverse-KL case, we study whether methods designed to stabilize asynchronous RL can mitigate OPD staleness. In our experiments, they do not improve over a simpler OPD-specific surrogate: recomputing the reverse-KL signal under the current student at learner time. Third, we analyze how finite teacher-score caches create a bias-variance tradeoff for sparse and sampled reverse-KL OPD estimators. This motivates multi-sample Monte Carlo (MC), which preserves MC correctability while reducing one-sample variance. Finally, we present and open-source AsyncOPD, a fully asynchronous OPD training pipeline built from these estimator choices. Experiments show that AsyncOPD improves training throughput by 1.6times to 3.8times over strict synchronous training while reaching comparable accuracy.",
+      "upvotes": 6,
+      "discussionId": "6a3f4bb80dbbc53604b6660e",
+      "githubRepo": "https://github.com/furiosa-ai/async-opd",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Asynchronous on-policy distillation addresses training bottlenecks in large language model post-training by decoupling rollout generation from learner updates, though it introduces challenges with stale policy data that require specialized solutions.",
+      "ai_keywords": [
+        "on-policy distillation",
+        "asynchronous training",
+        "stale-policy data",
+        "KL divergence",
+        "reverse KL",
+        "forward KL",
+        "teacher-student framework",
+        "Monte Carlo estimation",
+        "policy gradient",
+        "reinforcement learning"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "organization": {
+        "_id": "6213a1dcb670cb63a38074a1",
+        "name": "furiosa-ai",
+        "fullname": "FuriosaAI",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b6dc29412b0861cb2474a/Bl7ua2mXSFxk9rVo8vMA8.png"
+      }
+    },
+    "publishedAt": "2026-06-22T20:00:00.000Z",
+    "title": "AsyncOPD: How Stale Can On-Policy Distillation Be?",
+    "summary": "On-policy distillation (OPD) trains a student on its own rollouts guided by teacher feedback and is becoming increasingly important for large language model (LLM) post-training. Like reinforcement learning (RL), however, OPD faces an on-policy systems bottleneck, as rollouts can dominate training time for reasoning workloads. Asynchronous training pipelines can alleviate this bottleneck by decoupling rollout generation from learner updates, but doing so introduces stale-policy data. While prior work has studied stale data in asynchronous RL, its effects in OPD remain underexplored. We present the first systematic study of staleness in asynchronous OPD, focusing on a practical setting where teacher feedback is implemented through local KL losses and full-vocabulary teacher logits are too expensive to store or transfer, necessitating finite teacher-score caches. We first show that KL direction changes the stale-data problem: teacher-weighted forward KL is more robust to stale rollouts, whereas student-weighted reverse KL is vulnerable. Second, for this vulnerable reverse-KL case, we study whether methods designed to stabilize asynchronous RL can mitigate OPD staleness. In our experiments, they do not improve over a simpler OPD-specific surrogate: recomputing the reverse-KL signal under the current student at learner time. Third, we analyze how finite teacher-score caches create a bias-variance tradeoff for sparse and sampled reverse-KL OPD estimators. This motivates multi-sample Monte Carlo (MC), which preserves MC correctability while reducing one-sample variance. Finally, we present and open-source AsyncOPD, a fully asynchronous OPD training pipeline built from these estimator choices. Experiments show that AsyncOPD improves training throughput by 1.6times to 3.8times over strict synchronous training while reaching comparable accuracy.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.24143.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "63e1d5247fbb6ae4d4f4cc8e",
+      "avatarUrl": "/avatars/8a8f700adf9e8000641c2c2f6bd56080.svg",
+      "fullname": "Wonjun Kang",
+      "name": "wjkang",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6213a1dcb670cb63a38074a1",
+      "name": "furiosa-ai",
+      "fullname": "FuriosaAI",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b6dc29412b0861cb2474a/Bl7ua2mXSFxk9rVo8vMA8.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
