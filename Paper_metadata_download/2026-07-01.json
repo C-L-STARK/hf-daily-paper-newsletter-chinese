@@ -1,0 +1,78 @@
+[
+  {
+    "paper": {
+      "id": "2606.30697",
+      "authors": [
+        {
+          "_id": "6a44702e41f04ae4d7ad9697",
+          "name": "Yogeswar Reddy Thota",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-07-01T00:00:00.000Z",
+      "title": "LUMOS: A Semantic Operating-System Layer for Accessibility-Grounded AI Agents",
+      "submittedOnDailyBy": {
+        "_id": "665370bbd200a2ecdf474832",
+        "avatarUrl": "/avatars/d4dc4af3b532432b7a75048b94a8b308.svg",
+        "isPro": false,
+        "fullname": "Yogeswar Reddy Thota",
+        "user": "Yogeswar",
+        "type": "user",
+        "name": "Yogeswar"
+      },
+      "summary": "Current operating systems expose interfaces optimized for human users but not for AI agents. Humans benefit from pixels, icons, windows, visual grouping, mouse movement, and keyboard shortcuts; AI agents instead need compact semantic state, grounded actions, and reliable feedback. As a result, many computer-use agents are forced to interpret screenshots, OCR output, and visual crops, introducing high token costs, visual ambiguity, latency, and coordinate uncertainty. This paper introduces LUMOS (Language Model Unified Machine-Readable Operating-System Semantics), a semantic interaction layer between AI agents and operating systems. LUMOS converts native accessibility metadata and browser UI structures into machine readable semantic blueprints with stable identifiers, roles, names, values, bounds, and action affordances. It also supports live semantic pointer grounding by querying the UI element under or near the cursor through operating-system automation APIs. An LLM then acts through an accessibility grounded observe act loop using constrained visible-UI primitives rather than application-specific scripts. LUMOS does not claim to replace visual agents; instead, it reduces dependence on screenshots when operating systems already provide semantic structure. These results suggest a path toward AI-native operating systems and machine-readable interaction layers.",
+      "upvotes": 0,
+      "discussionId": "6a44702f41f04ae4d7ad9698",
+      "githubRepo": "https://github.com/thotayogeswarreddy/Lumos",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "LUMOS provides a semantic interaction layer that converts operating system metadata into machine-readable formats, enabling AI agents to interact more efficiently with computer interfaces than through traditional visual methods.",
+      "ai_keywords": [
+        "accessibility metadata",
+        "UI structures",
+        "semantic blueprints",
+        "stable identifiers",
+        "roles",
+        "names",
+        "values",
+        "bounds",
+        "action affordances",
+        "live semantic pointer grounding",
+        "operating-system automation APIs",
+        "observe act loop",
+        "visible-UI primitives"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "organization": {
+        "_id": "67ffe36e0d123ebf23791bc1",
+        "name": "UTD-Dallas",
+        "fullname": "University of Texas at Dallas",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67ffe0beb0c26d6ec0b27de4/QipsB6j6j9v41epQDkTe1.png"
+      }
+    },
+    "publishedAt": "2026-06-28T20:00:00.000Z",
+    "title": "LUMOS: A Semantic Operating-System Layer for Accessibility-Grounded AI Agents",
+    "summary": "Current operating systems expose interfaces optimized for human users but not for AI agents. Humans benefit from pixels, icons, windows, visual grouping, mouse movement, and keyboard shortcuts; AI agents instead need compact semantic state, grounded actions, and reliable feedback. As a result, many computer-use agents are forced to interpret screenshots, OCR output, and visual crops, introducing high token costs, visual ambiguity, latency, and coordinate uncertainty. This paper introduces LUMOS (Language Model Unified Machine-Readable Operating-System Semantics), a semantic interaction layer between AI agents and operating systems. LUMOS converts native accessibility metadata and browser UI structures into machine readable semantic blueprints with stable identifiers, roles, names, values, bounds, and action affordances. It also supports live semantic pointer grounding by querying the UI element under or near the cursor through operating-system automation APIs. An LLM then acts through an accessibility grounded observe act loop using constrained visible-UI primitives rather than application-specific scripts. LUMOS does not claim to replace visual agents; instead, it reduces dependence on screenshots when operating systems already provide semantic structure. These results suggest a path toward AI-native operating systems and machine-readable interaction layers.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.30697.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "665370bbd200a2ecdf474832",
+      "avatarUrl": "/avatars/d4dc4af3b532432b7a75048b94a8b308.svg",
+      "fullname": "Yogeswar Reddy Thota",
+      "name": "Yogeswar",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "67ffe36e0d123ebf23791bc1",
+      "name": "UTD-Dallas",
+      "fullname": "University of Texas at Dallas",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67ffe0beb0c26d6ec0b27de4/QipsB6j6j9v41epQDkTe1.png"
+    },
+    "isAuthorParticipating": false
+  }
+]
