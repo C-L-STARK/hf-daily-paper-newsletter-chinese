@@ -1,0 +1,121 @@
+[
+  {
+    "paper": {
+      "id": "2606.31292",
+      "authors": [
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e7f",
+          "name": "Yuan Wang",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e80",
+          "name": "Wanxing Chang",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e81",
+          "name": "Songtao Jiang",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e82",
+          "name": "Shujian Gao",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e83",
+          "name": "Xiaotian Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e84",
+          "name": "Ruifeng Yuan",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e85",
+          "name": "Weiwei Cao",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e86",
+          "name": "Bowen Shi",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e87",
+          "name": "Ling Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e88",
+          "name": "Zuozhu Liu",
+          "hidden": false
+        },
+        {
+          "_id": "6a45c0fd4f1dd35e48fb8e89",
+          "name": "Jianpeng Zhang",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-07-02T00:00:00.000Z",
+      "title": "AtomiMed: Hierarchical Atomic Fact-Checking for Universal Clinical-Aware Medical Report Evaluation",
+      "submittedOnDailyBy": {
+        "_id": "675521057ff406b0e7ff1ae9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KKWQdnwh117nMIB45fs7t.png",
+        "isPro": false,
+        "fullname": "WANG",
+        "user": "Venn2024",
+        "type": "user",
+        "name": "Venn2024"
+      },
+      "summary": "Traditional metrics for Medical Report Generation (MRG) predominantly rely on surface-level n-gram overlap, which fails to capture clinical factual accuracy and often overlooks catastrophic diagnostic errors. We address this fundamental limitation by proposing AtomiMed, a universal, modality-agnostic evaluation framework that decomposes complex medical narratives into a standardized, multi-level hierarchy of Atomic Clinical Facts, encompassing Disease-level entities and Attribute-level descriptors, including location, morphology, and severity. By implementing an Agentic Cross-Verification loop between ground-truth and predicted reports, AtomiMed simulates a multi-radiologist peer-review process to verify clinical consistency, thus enabling the decoupled assessment of diagnostic detection and descriptive accuracy. To facilitate standardized evaluation, we introduce MRGEvalKit, an open-source toolkit for automated hierarchical extraction, and curate OmniMRG-Bench, a comprehensive multi-modal benchmark covering X-ray, CT, MRI, and Ultrasound. Extensive experiments on multiple expert-annotated reader studies demonstrate that AtomiMed achieves significantly higher correlation with human radiologist judgment compared to traditional and model-based metrics. Our code are release at https://github.com/Venn2336/MRGEvalkit",
+      "upvotes": 0,
+      "discussionId": "6a45c0fd4f1dd35e48fb8e8a",
+      "githubRepo": "https://github.com/Venn2336/MRGEvalkit",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "AtomiMed presents a novel evaluation framework for medical report generation that decomposes clinical narratives into atomic facts and uses an agentic cross-verification process to improve accuracy assessment beyond traditional metrics.",
+      "ai_keywords": [
+        "Medical Report Generation",
+        "Atomic Clinical Facts",
+        "Agentic Cross-Verification",
+        "hierarchical extraction",
+        "multi-modal benchmark",
+        "radiologist judgment"
+      ],
+      "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "organization": {
+        "_id": "6345aadf5efccdc07f1365a5",
+        "name": "ZhejiangUniversity",
+        "fullname": "Zhejiang University",
+        "avatar": "https://www.gravatar.com/avatar/d1d414628877bec2958f95ad283c15e7?d=retro&size=100"
+      }
+    },
+    "publishedAt": "2026-06-29T20:00:00.000Z",
+    "title": "AtomiMed: Hierarchical Atomic Fact-Checking for Universal Clinical-Aware Medical Report Evaluation",
+    "summary": "Traditional metrics for Medical Report Generation (MRG) predominantly rely on surface-level n-gram overlap, which fails to capture clinical factual accuracy and often overlooks catastrophic diagnostic errors. We address this fundamental limitation by proposing AtomiMed, a universal, modality-agnostic evaluation framework that decomposes complex medical narratives into a standardized, multi-level hierarchy of Atomic Clinical Facts, encompassing Disease-level entities and Attribute-level descriptors, including location, morphology, and severity. By implementing an Agentic Cross-Verification loop between ground-truth and predicted reports, AtomiMed simulates a multi-radiologist peer-review process to verify clinical consistency, thus enabling the decoupled assessment of diagnostic detection and descriptive accuracy. To facilitate standardized evaluation, we introduce MRGEvalKit, an open-source toolkit for automated hierarchical extraction, and curate OmniMRG-Bench, a comprehensive multi-modal benchmark covering X-ray, CT, MRI, and Ultrasound. Extensive experiments on multiple expert-annotated reader studies demonstrate that AtomiMed achieves significantly higher correlation with human radiologist judgment compared to traditional and model-based metrics. Our code are release at https://github.com/Venn2336/MRGEvalkit",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.31292.png",
+    "numComments": 1,
+    "submittedBy": {
+      "_id": "675521057ff406b0e7ff1ae9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KKWQdnwh117nMIB45fs7t.png",
+      "fullname": "WANG",
+      "name": "Venn2024",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6345aadf5efccdc07f1365a5",
+      "name": "ZhejiangUniversity",
+      "fullname": "Zhejiang University",
+      "avatar": "https://www.gravatar.com/avatar/d1d414628877bec2958f95ad283c15e7?d=retro&size=100"
+    },
+    "isAuthorParticipating": false
+  }
+]
